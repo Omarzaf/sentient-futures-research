@@ -1,0 +1,6 @@
+.git/
+node_modules/
+sources/catalog.json
+sources/catalog.csv
+sources/index.html
+provenance/file-manifest.json

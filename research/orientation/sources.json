@@ -1,0 +1,423 @@
+{
+  "status": "Earlier orientation draft; evidence cutoff 5 September 2026. AI-assisted; human verification pending. This is background reading, not the current project scope or a current market update.",
+  "generated_from": [
+    "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+    "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx"
+  ],
+  "excluded_link_policy": "Google Drive and Google Docs links are excluded; public external HTTP(S) links are retained.",
+  "sources": [
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 124,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Plant-Based State of the Industry. Advocacy report on 2025 activity. Read p. 17 and pp. 30-33. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 125,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Fermentation State of the Industry. Advocacy report. Read the technology definitions, product section, and p. 14 investment table. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 126,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Cultivated Meat State of the Industry. Advocacy report. Read the technical overview, company count, and p. 15 investment table. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 127,
+      "nearby_label": "Open source",
+      "context": "AI and cultivated meat. Rethink Priorities, 9 Jun. 2026. Best direct test of the AI-bottleneck thesis and its counterarguments. Open source",
+      "url": "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 128,
+      "nearby_label": "Open source",
+      "context": "Cultivated Meat: Progress and Remaining Challenges. Peer-reviewed Annual Review, 2024. Technical baseline without company marketing. Open source",
+      "url": "https://doi.org/10.1146/annurev-animal-021022-055132"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 129,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 State of Global Policy. Advocacy compilation. Read pp. 2-3, 15, 25, and 41 for method, US, Singapore/Korea, and Israel. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 130,
+      "nearby_label": "Open source",
+      "context": "Using Foresight for Food Systems Transformation. Foresight4Food and UN Food Systems Coordination Hub practitioner guide, Jul. 2025. Read pp. 10-32. Open source",
+      "url": "https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf"
+    },
+    {
+      "document": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+      "block": 131,
+      "nearby_label": "Open source",
+      "context": "AltProtein.Jobs Career and Hiring Report 2025. Platform report, published 2026. Read to understand what the public-facing data can and cannot establish. Open source",
+      "url": "https://altprotein.jobs/career-hiring-report"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 45,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Plant-Based State of the Industry. Advocacy report; published Apr. 2026; 2025 activity; Euromonitor and Net Zero Insights inputs. Read pp. 17 and 30-33 first. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 46,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Cultivated Meat State of the Industry. Advocacy report; published Apr. 2026; 2025 activity. Read company count and investment sections, especially p. 15. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 47,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 Fermentation State of the Industry. Advocacy report; published Apr. 2026; separates precision and biomass fermentation. Read product and investment sections, especially pp. 13-14. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 48,
+      "nearby_label": "Open source",
+      "context": "Cultivated Meat: Progress and Remaining Challenges. Peer-reviewed Annual Review of Animal Biosciences; 2024; technical synthesis. Open source",
+      "url": "https://doi.org/10.1146/annurev-animal-021022-055132"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 49,
+      "nearby_label": "Open source",
+      "context": "Plant-based meat analogues review. Peer-reviewed open-access review; 2025; formulation, processing, sensory, nutritional, and adoption constraints. Open source",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12026562/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 50,
+      "nearby_label": "Open source",
+      "context": "CE Delft techno-economic analysis. GFI-commissioned analysis; Mar. 2021; optimistic industrial case with confidential industry inputs. Open source",
+      "url": "https://cedelft.eu/publications/tea-of-cultivated-meat/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 51,
+      "nearby_label": "Open source",
+      "context": "Humbird techno-economic analysis. Independent engineering preprint; 2021; stringent scale-up and bioprocess assumptions. Open source",
+      "url": "https://engrxiv.org/preprint/download/1438/2973/2173"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 52,
+      "nearby_label": "Open source",
+      "context": "GFI investment methodology. Advocacy-methodology note; current in 2026; explains company universe, public-deal dependence, exclusions, and revisions. Open source",
+      "url": "https://gfi.org/resource/investment-methodology/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 75,
+      "nearby_label": "Open source",
+      "context": "GFI 2026 State of Global Policy. Advocacy report; Apr. 2026; lower-bound public-funding compilation. Read pp. 2-3, 15, 25, and 41. Open source",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 76,
+      "nearby_label": "Open source",
+      "context": "GFI investment methodology. Advocacy methodology; current in 2026; necessary before using any deal total. Open source",
+      "url": "https://gfi.org/resource/investment-methodology/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 77,
+      "nearby_label": "Open source",
+      "context": "GFI Europe H1 2026 private investment update. Advocacy analysis using Net Zero Insights; 27 Aug. 2026; source of the 56% claim. Open source",
+      "url": "https://gfieurope.org/de/blog/private-investitionen-alternative-proteine/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 78,
+      "nearby_label": "Open source",
+      "context": "GFI Europe public R&I funding tracker. Advocacy dataset; 2026; separates public research funding from private company finance. Open source",
+      "url": "https://gfieurope.org/resource/state-of-the-european-alternative-protein-research-ecosystem-funding-and-publications/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 79,
+      "nearby_label": "Open source",
+      "context": "Coefficient Giving alternative-protein R&D RFP. Philanthropic programme document; 2026; explicit topics, award ranges, and selection process. Open source",
+      "url": "https://coefficientgiving.org/funds/farm-animal-welfare/request-for-proposals-alternative-protein-rd/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 80,
+      "nearby_label": "Open source",
+      "context": "Coefficient Giving alternatives-to-animal-products programme. Philanthropic strategy page; current in 2026; intervention logic and grant examples. Open source",
+      "url": "https://coefficientgiving.org/funds/farm-animal-welfare/alternatives-to-animal-products/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 81,
+      "nearby_label": "Open source",
+      "context": "Bezos Earth Fund sustainable-protein initiative. Philanthropic announcement; 12 Mar. 2024; $100m initiative and initial $60m centres. Open source",
+      "url": "https://www.bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 82,
+      "nearby_label": "Open source",
+      "context": "Green Queen consolidation tracker. Trade press; 16 Jun. 2026; direct source for the “70+” mixed-outcome claim, with important reproducibility limits. Open source",
+      "url": "https://www.greenqueen.com.hk/swap-food-vegan-chicken-plant-based-meat-startup-liquidation-shuts/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 102,
+      "nearby_label": "Open source",
+      "context": "AI and cultivated meat. Rethink Priorities original analysis; 9 Jun. 2026; literature review, five expert interviews, and explicit counterarguments. Open source",
+      "url": "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 103,
+      "nearby_label": "Open source",
+      "context": "AltProtein.Jobs Career and Hiring Report 2025. Company/platform report; published 2026; direct description of the platform’s observed listings and applications. Open source",
+      "url": "https://altprotein.jobs/career-hiring-report"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 104,
+      "nearby_label": "Open source",
+      "context": "Alternative-protein startups’ talent needs. GFI advocacy survey; 2022; 130 startup responses and track-specific role needs. Open source",
+      "url": "https://gfi.org/blog/alternative-protein-startups-underscore-the-need-for-scientific-and-engineering-talent/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 105,
+      "nearby_label": "Open source",
+      "context": "Smart Protein Skills Mapping. GFI India and Idobro commissioned research; 2025-2026; India-specific training and employer evidence. Open source",
+      "url": "https://gfi-india.org/resource/smart-protein-skills-mapping/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 106,
+      "nearby_label": "Open source",
+      "context": "Artificial intelligence in cultivated meat. Peer-reviewed Frontiers review; 2024; maps application areas and public examples. Open source",
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1424012/full"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 107,
+      "nearby_label": "Open source",
+      "context": "AI in alternative-protein development review. Peer-reviewed Trends in Food Science & Technology review; 2026; emphasizes validation and standardized data. Open source",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0924224426004413"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 108,
+      "nearby_label": "Open source",
+      "context": "Optimising Cheese Analogues with AI. Sentient Futures project page; 2026; proof of concept using computer vision and Bayesian optimization. Open source",
+      "url": "https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 109,
+      "nearby_label": "Open source",
+      "context": "AI Institute for Next Generation Food Systems. USDA-NIFA/NSF-funded institutional programme; current 2026; useful adjacent-field comparator, not alt-protein specific. Open source",
+      "url": "https://aifs.ucdavis.edu/about/aifs"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 126,
+      "nearby_label": "Open source",
+      "context": "FDA inventory of completed premarket consultations. Official regulator database; updated 19 Feb. 2026; product-level US status. Open source",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 127,
+      "nearby_label": "Open source",
+      "context": "USDA-FSIS cultivated-cell labeling and inspection policy. Official regulator guidance; current 2026; division of FDA/USDA jurisdiction. Open source",
+      "url": "https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 128,
+      "nearby_label": "Open source",
+      "context": "Eleventh Circuit opinion in UPSIDE Foods v. Simpson. Official judicial opinion; 23 Mar. 2026; Florida-ban preliminary-injunction appeal. Open source",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/24-13640/24-13640-2026-03-23.html"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 129,
+      "nearby_label": "Open source",
+      "context": "EFSA novel-food application guidance. Official regulator guidance; current 2026; dossier and assessment process. Open source",
+      "url": "https://www.efsa.europa.eu/en/applications/novel-food"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 130,
+      "nearby_label": "Open source",
+      "context": "UK FSA sandbox progress report. Official regulator report; Jul. 2026; £1.6m programme, work completed, and Feb. 2027 target. Open source",
+      "url": "https://www.food.gov.uk/print/pdf/node/27246"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 131,
+      "nearby_label": "Open source",
+      "context": "Singapore SFA novel-food framework. Official regulator guidance; current 2026; premarket safety requirements. Open source",
+      "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 132,
+      "nearby_label": "Open source",
+      "context": "Aleph Farms Singapore approval announcement. Asia-Pacific Society for Cellular Agriculture association statement; 4 Aug. 2026; corroborates the product-specific SFA milestone while the SFA approved-list deep link is unstable. Open source",
+      "url": "https://www.apac-sca.org/post/apac-sca-welcomes-singapore-s-approval-of-aleph-farms-cultivated-beef-marking-another-major-milest"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 133,
+      "nearby_label": "Open source",
+      "context": "European Parliament meat-designation vote. Official parliamentary release; 11 Jun. 2026; final parliamentary action on reserved terms. Open source",
+      "url": "https://www.europarl.europa.eu/pdfs/news/expert/2026/6/press_release/20260611IPR45209/20260611IPR45209_en.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 134,
+      "nearby_label": "Open source",
+      "context": "Duke review of US cultivated-meat law. University policy research; 2026; state statutes, federal framework, and litigation. Open source",
+      "url": "https://wfpc.sanford.duke.edu/reports/exploring-the-u-s-regulatory-and-legislative-landscapes-for-cell-cultivated-meat-and-seafood/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 160,
+      "nearby_label": "Open source",
+      "context": "Using Foresight for Food Systems Transformation. Foresight4Food and UN Food Systems Coordination Hub practitioner guide; Version 1.0, Jul. 2025. Read pp. 10-32. Open source",
+      "url": "https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 161,
+      "nearby_label": "Open source",
+      "context": "Criteria for High-Quality Food Systems Foresight. Foresight4Food practitioner guide; Feb. 2026; quality criteria and self-identified limitations. Open source",
+      "url": "https://foresight4food.net/wp-content/uploads/2026/03/FS4F_Criteria-for-High-Quality-Guide-Feb-2026.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 162,
+      "nearby_label": "Open source",
+      "context": "Quantitative scenarios for food-system futures. Peer-reviewed Agricultural Systems review; 2025; 36-study typology and model-method critique. Open source",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0308521X25000101"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 163,
+      "nearby_label": "Open source",
+      "context": "GLOBIOM documentation. Official model documentation; current 2026; structure, sectors, spatial resolution, and solution logic. Open source",
+      "url": "https://globiom.org/documentation.html"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 164,
+      "nearby_label": "Open source",
+      "context": "MAgPIE model repository and documentation. Official open model repository; current 2026; equations, assumptions, and coupled land system. Open source",
+      "url": "https://github.com/magpiemodel/magpie"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 165,
+      "nearby_label": "Open source",
+      "context": "Morphological analysis of food-system futures. Peer-reviewed open-access study; 2013; real food application and method mechanics. Open source",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3790135/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 166,
+      "nearby_label": "Open source",
+      "context": "Backcasting for food-system transformation. Peer-reviewed Frontiers study; 2024; six empirical cases. Open source",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1378883/full"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 167,
+      "nearby_label": "Open source",
+      "context": "IAEA acquisition-path and indicator guidance. Official nonproliferation guidance; current online 2026; indicator categories and safeguards logic. Open source",
+      "url": "https://www-pub.iaea.org/mtcd/publications/pdf/nvs-3-cd/pdf/nvs3_scr.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 168,
+      "nearby_label": "Open source",
+      "context": "Verification of frontier AI. UN Scientific Advisory Board expert paper; Jun. 2025; compute and verification observables. Open source",
+      "url": "https://www.un.org/scientific-advisory-board/sites/default/files/2025-06/verification_of_frontier_ai.pdf"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 169,
+      "nearby_label": "Open source",
+      "context": "WHO-PREZODE zoonotic-risk indicators. Official technical publication; 2026; design and validation against disease events. Open source",
+      "url": "https://www.who.int/publications/i/item/B09677"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 185,
+      "nearby_label": "Open source",
+      "context": "AI and cultivated meat. Rethink Priorities original analysis; 9 Jun. 2026; closest direct prior art. Open source",
+      "url": "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 186,
+      "nearby_label": "Open source",
+      "context": "Sentient Futures Incubator gallery. Programme archive; accessed 5 Sep. 2026; browse food and alternative-protein tags. Open source",
+      "url": "https://www.sentientfutures.ai/incubator/gallery/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 187,
+      "nearby_label": "Open source",
+      "context": "Optimising Cheese Analogues with AI. Sentient Futures participant project; 2026; technical proof of concept. Open source",
+      "url": "https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 188,
+      "nearby_label": "Open source",
+      "context": "Effective Advocacy Project. Sentient Futures participant project; current 2026; European actor and argument mapping. Open source",
+      "url": "https://www.sentientfutures.ai/incubator/gallery/advocacy-intel-map/"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 189,
+      "nearby_label": "Open source",
+      "context": "AI x Animals curriculum. Sentient Futures course resource; current 2026; conceptual framing and prior reading. Open source",
+      "url": "https://resources.sentientfutures.ai/fellowships/aianimals"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 190,
+      "nearby_label": "Open source",
+      "context": "Augmented Foresight. CGIAR programme article; 25 Jun. 2026; AI-assisted food-system analysis. Open source",
+      "url": "https://www.cgiar.org/news-events/news/augmented-foresight-how-ai-can-make-food-systems-analysis-smarter-faster-and-more"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 191,
+      "nearby_label": "Open source",
+      "context": "AI Institute for Next Generation Food Systems. USDA-NIFA/NSF-funded institute; current 2026; broad AI-food research network. Open source",
+      "url": "https://aifs.ucdavis.edu/about/aifs"
+    },
+    {
+      "document": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+      "block": 192,
+      "nearby_label": "Open source",
+      "context": "Foresight4Food. Practitioner and research network; current 2026; methods, country applications, and community. Open source",
+      "url": "https://foresight4food.net/"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "description": "SHA-256 inventory of repository files, excluding Git metadata and this manifest itself.",
+  "files": [
+    {
+      "path": ".codexignore",
+      "bytes": 110,
+      "sha256": "ded04fd082ecf27e64fc484f01579bbd083155fe400edb9990c071844327c025"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 139,
+      "sha256": "c26fec6b3a8a444fc156ea72705fb7d6eab4bf37409aa142d733c3332628799a"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 583,
+      "sha256": "f9a1877316d6d22bb83e30541cb2cbce3fafef5e1671e5cb9d1e989373804ec5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 196,
+      "sha256": "d37a33a13274d9d78ed96baa53d348ee1c50a9fa6489ef9efbc8a85daf884191"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1276,
+      "sha256": "6044546d7310cd49bfe198a1e1cc09c38e0886b51b29ea60a7a4c46c42cf12d8"
+    },
+    {
+      "path": "CURRENT-SCOPE.md",
+      "bytes": 2050,
+      "sha256": "4417a758fd921481026980dbe0401d36965259ef53e9f7b9053e57bec68eae1c"
+    },
+    {
+      "path": "DATA-DICTIONARY.md",
+      "bytes": 3291,
+      "sha256": "a456c6faf5d828204a64510fb487156ba7ea4f4d18973a90abcf3084916eb8c8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4429,
+      "sha256": "e7e4b395fae42e4fc8d14045fe8f4a47a37c334ed68f37b2c0640687dc1f7d2a"
+    },
+    {
+      "path": "RESEARCH-METHOD.md",
+      "bytes": 4012,
+      "sha256": "98a53b08ca10b1d4919e2e2bf20aad80761a07fc36cab3fc377039b951b29909"
+    },
+    {
+      "path": "RIGHTS-AND-REUSE.md",
+      "bytes": 1610,
+      "sha256": "c9003faee4b35e5a454d3e28564468b27c9111ad2f39609ffdee14219d38cf71"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7095,
+      "sha256": "93949b0d5c9e6f6b9a6b72e516228496c3b7ce4c6b34df51b7bc02c9981c6f65"
+    },
+    {
+      "path": "provenance/import-records.json",
+      "bytes": 9083,
+      "sha256": "24d45d6b9ccca08128f890993f16ff7a2f6a78a1e1831952d0c152e589e4f4d3"
+    },
+    {
+      "path": "research/ai-protein/README.md",
+      "bytes": 1118,
+      "sha256": "643ceb4ffa98d870c09598611922f4453bb9c84eb72e31231bd22033b31ea5c1"
+    },
+    {
+      "path": "research/ai-protein/decisions.html",
+      "bytes": 15836,
+      "sha256": "36b3307983de21861aac37e868060ff03c158907d5c9b4b52b165aa9c7bb574e"
+    },
+    {
+      "path": "research/ai-protein/index.html",
+      "bytes": 62553,
+      "sha256": "b0af54abf288fc7a1a27eaeb35098b4bf0722c82f387d83aa784c8ed2dfe117a"
+    },
+    {
+      "path": "research/ai-protein/literature-review.md",
+      "bytes": 41148,
+      "sha256": "a37ce52044457c315291a08baf5748616a2a4b7831b01e76d21c25b957b3eb07"
+    },
+    {
+      "path": "research/ai-protein/policy-decisions.md",
+      "bytes": 9648,
+      "sha256": "5d23adda91a1f11b66541e4cf7082d836f7240f5833c8055b36480ed9e881fea"
+    },
+    {
+      "path": "research/ai-protein/references.ris",
+      "bytes": 19779,
+      "sha256": "0daf94a684854cb51b7120f6f4ec3db49fb45270dd6be67f6655778827366d6b"
+    },
+    {
+      "path": "research/ai-protein/source-library.html",
+      "bytes": 87384,
+      "sha256": "751596ca0eef234bf8499f271389d5c0b236b43620d233f0162ba8355aa58095"
+    },
+    {
+      "path": "research/ai-protein/source-register.json",
+      "bytes": 72816,
+      "sha256": "b5df2386ae795252dfc1830cb88913ed8c4274412dc94056807b83ab0d0760b0"
+    },
+    {
+      "path": "research/comparative-protein/README.md",
+      "bytes": 1420,
+      "sha256": "37b9672f2b53cbe3c2f8273a9f8191f62cbd7ae787b5edb309cbf79b44a34421"
+    },
+    {
+      "path": "research/comparative-protein/capability-map.svg",
+      "bytes": 6104,
+      "sha256": "c8d14098925634ff62022854cfd9e7a490332042692ce9a3ae9edc9c21a88e70"
+    },
+    {
+      "path": "research/comparative-protein/claim-ledger.json",
+      "bytes": 53947,
+      "sha256": "e07147366dfda426fd4e447a9d13fe45d1768d0e71cf18caacfd16e95b3c9953"
+    },
+    {
+      "path": "research/comparative-protein/comparison-map.svg",
+      "bytes": 5273,
+      "sha256": "faa332080b19a3efd47ba61766100cab6ce8b9420a464d5e23aa66bb57e4d2af"
+    },
+    {
+      "path": "research/comparative-protein/figure-data.json",
+      "bytes": 17028,
+      "sha256": "29f17da3fc7ce5ef9b920bd7bd0c418713b6036f0e31eeef7a2f68b35b1d4f84"
+    },
+    {
+      "path": "research/comparative-protein/index.html",
+      "bytes": 262365,
+      "sha256": "06ec4dd6fa45f5339bf0aeb1478ca4c91616e9470dde505f80646bd687deef31"
+    },
+    {
+      "path": "research/comparative-protein/protein-data.csv",
+      "bytes": 1129,
+      "sha256": "7ea81d0a5cf4e2807a7e4e10cc81e526dbc706dfad8dfeb9bcc58c32fbd7d44d"
+    },
+    {
+      "path": "research/comparative-protein/protein-share-change.svg",
+      "bytes": 6521,
+      "sha256": "23cd656b962358c355dc7935da8e739c697f74bfca3ac912f50544e99ed76f76"
+    },
+    {
+      "path": "research/comparative-protein/protein-supply-2023.svg",
+      "bytes": 6071,
+      "sha256": "36eaececaa36dc14355dba05714f2287517c6c3205d707d1232beff1523b92b3"
+    },
+    {
+      "path": "research/comparative-protein/source-register.json",
+      "bytes": 68514,
+      "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
+    },
+    {
+      "path": "research/library.json",
+      "bytes": 2420,
+      "sha256": "ffcc439930c58001af691d8f12f03da028e5926713a62e2fabc2790eab590b32"
+    },
+    {
+      "path": "research/orientation/README.md",
+      "bytes": 1886,
+      "sha256": "2f5b83fdb5c2bd34760bc91a5992e77934b3d23578630931914bd410bc84d897"
+    },
+    {
+      "path": "research/orientation/beginners-guide.html",
+      "bytes": 26498,
+      "sha256": "84cbb865560d18a4d7e1f36b8bb9490e2d85ce08282c1bb182c6c65017483bd6"
+    },
+    {
+      "path": "research/orientation/beginners-guide.md",
+      "bytes": 23037,
+      "sha256": "426672384b2d06c3d2cd821d822ff158f98f08fd593abe6f79fa8590cf1b3fdd"
+    },
+    {
+      "path": "research/orientation/food-systems-briefing.html",
+      "bytes": 81692,
+      "sha256": "4c6a4a00d1c0ff40d3979f284b7bbc60a911ef70fef002985df54fde93a4365b"
+    },
+    {
+      "path": "research/orientation/food-systems-briefing.md",
+      "bytes": 76760,
+      "sha256": "cdf13474c163e9d53f081c55731d16557d792420b4ba8758f8ca556ae0077a53"
+    },
+    {
+      "path": "research/orientation/sources.json",
+      "bytes": 24758,
+      "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 1603,
+      "sha256": "7f458cc3510317d6f910bb0f3c32a352d05ff91becd87d41438bd786913cb5e7"
+    },
+    {
+      "path": "sources/catalog.csv",
+      "bytes": 51490,
+      "sha256": "2ff2f0b2dd4347b8d00d72ff658d6a566a4b0630879fabd67fed785fbf327a89"
+    },
+    {
+      "path": "sources/catalog.json",
+      "bytes": 212671,
+      "sha256": "d5c128871f1c9baa7ab0ccce4c40162b0b853d6368eaea9c8c172f709c3d4c41"
+    },
+    {
+      "path": "sources/index.html",
+      "bytes": 134154,
+      "sha256": "44fd0b525b5b121e8484aa741ae321127a1bb17d0aff6e1259c7ea05cc6e5e04"
+    },
+    {
+      "path": "tools/build-library.mjs",
+      "bytes": 14392,
+      "sha256": "05dac75e877345a2e325be6dd033cc05f06ca57bddfa1afb0f5e882f9443eb9d"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "bytes": 2054,
+      "sha256": "28e6a4af68b6cd5adb2ecc59d353d60e085b5777c4ca1b171e6e5662a7fa1aac"
+    },
+    {
+      "path": "tools/verify.mjs",
+      "bytes": 8390,
+      "sha256": "05f3e1f13ca0f6a4474b8454feddcfc661f8a147c827f53b54a02de9c2fb6b0d"
+    }
+  ]
+}

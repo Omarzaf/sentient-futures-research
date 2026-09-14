@@ -1,0 +1,1195 @@
+[
+  {
+    "id": "C02",
+    "title": "Food Balance Sheets: A Handbook, II. Concepts and definitions used in food balance sheets",
+    "authors": "FAO",
+    "publisher": "FAO",
+    "date": "2001",
+    "url": "https://www.fao.org/4/x9892e/x9892e02.htm",
+    "type": "International organization methodology",
+    "claims": "Section 2, items 11–12 distinguish food available to consumers and per-capita supply from actual individual consumption.",
+    "limitations": "Foundational conceptual definition; not used as documentation of every current FAOSTAT compilation procedure.",
+    "access": "Relevant official HTML sections read",
+    "referenceNumber": 1,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C13",
+    "title": "National Diet and Nutrition Survey 2019 to 2023: report",
+    "authors": "Office for Health Improvement and Disparities",
+    "publisher": "UK Government",
+    "date": "2025-06-11",
+    "url": "https://www.gov.uk/government/statistics/national-diet-and-nutrition-survey-2019-to-2023/national-diet-and-nutrition-survey-2019-to-2023-report",
+    "type": "Government dietary survey",
+    "claims": "Chapters 1–2 describe representative sample, Intake24 dietary recalls and reporting limitations. Approximately 30 percent energy underreporting does not establish identical protein underreporting.",
+    "limitations": "Dietary methodology changes and misreporting constrain cross-time and cross-source comparisons. Not directly comparable with all-age national food supply.",
+    "access": "Official methods and limitations read",
+    "referenceNumber": 2,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C09",
+    "title": "Multi-objective Bayesian algorithm automatically discovers low-cost high-growth serum-free media for cellular agriculture application",
+    "authors": "Zachary Cosenza, David E. Block, Keith Baar, and Xingyu Chen",
+    "publisher": "Engineering in Life Sciences 23 (2023): e2300005",
+    "date": "2023",
+    "url": "https://par.nsf.gov/servlets/purl/10466545",
+    "type": "Academic journal original experimental research",
+    "claims": "Abstract, results and discussion: one medium achieved 23 percent more growth at 62.5 percent of control cost; adapted C2C12 cell system and important generalizability limits.",
+    "limitations": "Specific cell system and control, not industrial cost or cross-country employment effects. New Harvest funding disclosed; authors declare no conflicts.",
+    "access": "Journal PDF hosted by NSF downloaded and relevant results and discussion read",
+    "doi": "10.1002/elsc.202300005",
+    "referenceNumber": 3,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "C10",
+    "title": "Scale-up economics for cultured meat",
+    "authors": "David Humbird",
+    "publisher": "Biotechnology and Bioengineering 118 (2021): 3239–3250",
+    "date": "2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8362201/",
+    "type": "Academic journal techno-economic analysis",
+    "claims": "Sections 2.3 and 3.1 examine capital, process and scale constraints in modeled cell-culture facilities.",
+    "limitations": "Conceptual engineering model, not observed commercial costs. Indexed full-text passages accessed; direct page access challenged by site. Detailed cost estimates not reproduced.",
+    "access": "Indexed original full-text passages for sections 2.3 and 3.1 inspected",
+    "doi": "10.1002/bit.27848",
+    "referenceNumber": 4,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "C07",
+    "title": "What’s Cooking? An assessment of potential impacts of selected novel alternatives to conventional animal products",
+    "authors": "United Nations Environment Programme",
+    "publisher": "UNEP",
+    "date": "2023-12-08",
+    "url": "https://www.unep.org/resources/whats-cooking-assessment-potential-impacts-selected-novel-alternatives-conventional",
+    "type": "International organization evidence assessment",
+    "claims": "Environmental, nutritional, social and welfare potential and gaps for novel plant-based, fermentation-derived and cultivated alternatives; low-carbon energy condition.",
+    "limitations": "Assessed potential is conditional; no universal product ranking or demonstrated commercial displacement.",
+    "access": "Official overview and repository record inspected",
+    "referenceNumber": 5,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C08",
+    "title": "Food safety aspects of cell-based food",
+    "authors": "FAO and WHO",
+    "publisher": "FAO / WHO",
+    "date": "2023-03-28",
+    "url": "https://www.who.int/publications/i/item/9789240070943",
+    "type": "International organization technical assessment",
+    "claims": "Cell-based production processes, potential food-safety hazards and regulatory frameworks.",
+    "limitations": "Hazard assessment is distinct from a jurisdiction’s product-specific authorization. No current global approval count asserted.",
+    "access": "Official publication overview read",
+    "referenceNumber": 6,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C15",
+    "title": "D502-1: Dry beans",
+    "authors": "Peggy Greb, USDA Agricultural Research Service",
+    "publisher": "USDA ARS",
+    "date": "Undated image page",
+    "url": "https://www.ars.usda.gov/oc/images/photos/featuredphoto/aug19/beans/",
+    "type": "Government photographic resource",
+    "claims": "Image depicts dry-bean diversity; credited illustrative photograph only.",
+    "limitations": "No claim that pictured beans constitute a measured diet. Page explicitly identifies image as public domain.",
+    "access": "Original page and linked photograph inspected",
+    "referenceNumber": 7,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C17",
+    "title": "D4744-1: A bioreactor conducting fermentation processes to produce ethanol",
+    "authors": "Ryan Stoklosa, USDA Agricultural Research Service",
+    "publisher": "USDA ARS",
+    "date": "2021 image archive",
+    "url": "https://www.ars.usda.gov/oc/images/photos/nov21/d4744-1/",
+    "type": "Government photographic resource",
+    "claims": "Ethanol-fermentation equipment illustrates adjacent bioprocess skills; not an alternative-protein production facility.",
+    "limitations": "Illustrative photograph; ARS image policy public domain unless otherwise indicated. Caption used, not the inconsistent page alt text.",
+    "access": "Original image caption and linked JPEG inspected",
+    "referenceNumber": 8,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C01",
+    "title": "World Food and Agriculture – Statistical Yearbook 2025",
+    "authors": "Food and Agriculture Organization of the United Nations",
+    "publisher": "FAO",
+    "date": "2025",
+    "url": "https://openknowledge.fao.org/3/cd4313en/cd4313en.pdf",
+    "type": "International organization statistical publication",
+    "claims": "Table 50, printed pp. 325–329: country protein supply for 2010, 2015, 2020 and 2023; Figure 59 and discussion pp. 37–38. Country values transcribed programmatically and checked against rendered pages.",
+    "limitations": "Food supply, not individual intake. Regional row labels on p. 325 conflict with Figure 59 and narrative; those regional rows excluded, not silently corrected. Singapore row blank. Fixed 2025 edition, not a claim to the latest revised FAOSTAT series.",
+    "access": "Official PDF downloaded; relevant pages extracted and rendered",
+    "doi": "10.4060/cd4313en",
+    "referenceNumber": 9,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C16",
+    "title": "Blue Marble: Next Generation — Base Map",
+    "authors": "NASA Earth Observatory; Reto Stöckli",
+    "publisher": "NASA",
+    "date": "Imagery: July 2004",
+    "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+    "type": "Government geographic imagery",
+    "claims": "Global geographic locator background; July 2004 composite, 5400 × 2700 original image.",
+    "limitations": "Historical satellite composite used only for orientation, not current land use. Approximate locator positions supplied by report; boundaries and territories not adjudicated.",
+    "access": "Official imagery documentation and linked JPEG inspected",
+    "referenceNumber": 10,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C12",
+    "title": "Household Consumption Expenditure Survey: 2022–23 & 2023–24 — Nutritional Intake in India",
+    "authors": "Ministry of Statistics and Programme Implementation, Government of India",
+    "publisher": "MoSPI",
+    "date": "2025-07-02",
+    "url": "https://mospi.gov.in/sites/default/files/press_release/press_note_Nutritional%20Intake%20in%20India_02072025.pdf",
+    "type": "Government statistical release",
+    "claims": "Table 1 p. 2 and Table 3 p. 7: unadjusted and adjusted rural/urban protein estimates; Figure 5 p. 5: protein food-group composition.",
+    "limitations": "Household consumption-based estimates, not individual dietary recall; unadjusted and adjusted values differ. 2023–24 survey period differs from FAO 2023 calendar year.",
+    "access": "Official seven-page PDF read",
+    "referenceNumber": 11,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C05",
+    "title": "Healthy diet",
+    "authors": "World Health Organization",
+    "publisher": "WHO",
+    "date": "2026-01-26",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "type": "International organization public health guidance",
+    "claims": "Healthy diets depend on diversity and individual circumstances; protein may come from animal and plant sources.",
+    "limitations": "General population guidance; not a product-specific equivalence study or individualized prescription.",
+    "access": "Official fact sheet read",
+    "referenceNumber": 12,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C06",
+    "title": "Contribution of terrestrial animal source food to healthy diets for improved nutrition and health outcomes: An evidence and policy overview on the state of knowledge and gaps",
+    "authors": "FAO",
+    "publisher": "FAO",
+    "date": "2023",
+    "url": "https://www.fao.org/3/cc3912en/cc3912en.pdf",
+    "type": "International organization evidence assessment",
+    "claims": "Nutrition and livelihood functions of animal-source foods, particularly for vulnerable life stages; multiple environmental and health trade-offs.",
+    "limitations": "Assessment of terrestrial animal-source foods; not evidence that every individual requires every animal food or that alternatives are nutritionally equivalent.",
+    "access": "Official publication summary inspected; report linked",
+    "doi": "10.4060/cc3912en",
+    "referenceNumber": 13,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C14",
+    "title": "Associations between national plant-based vs animal-based protein supplies and age-specific mortality in human populations",
+    "authors": "Caitlin J. Andrews, David Raubenheimer, Stephen J. Simpson, and Alistair M. Senior",
+    "publisher": "Nature Communications 16 (2025): 3431",
+    "date": "2025-04-11",
+    "url": "https://www.nature.com/articles/s41467-025-58475-1",
+    "type": "Academic journal ecological analysis",
+    "claims": "Analysis of 101 countries, 1961–2018, reports age-specific associations between protein supply and survivorship.",
+    "limitations": "Ecological observational study; does not identify individual causal dietary effects or establish a national optimum for policy.",
+    "access": "Original article abstract, results and methods inspected",
+    "doi": "10.1038/s41467-025-58475-1",
+    "referenceNumber": 14,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "C03",
+    "title": "OECD–FAO Agricultural Outlook 2026–2035: Agricultural and food markets: Trends and prospects",
+    "authors": "OECD and FAO",
+    "publisher": "OECD Publishing / FAO",
+    "date": "2026-06-29",
+    "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/agricultural-and-food-markets-trends-and-prospects_c5cd366b.html",
+    "type": "International organization model-based outlook",
+    "claims": "Sections 1.3.1–1.3.2: middle-income dietary diversification, low-income purchasing-power constraints and broad high-income stability.",
+    "limitations": "Conditional baseline projections to 2035, not observed outcomes or forecasts to 2046; cannot establish novel-protein adoption or individual willingness.",
+    "access": "Relevant official HTML sections read",
+    "doi": "10.1787/47874669-en",
+    "referenceNumber": 15,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "C04",
+    "title": "OECD–FAO Agricultural Outlook 2026–2035: Meat",
+    "authors": "OECD and FAO",
+    "publisher": "OECD Publishing / FAO",
+    "date": "2026-06-29",
+    "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/meat_149b4ca3.html",
+    "type": "International organization model-based outlook",
+    "claims": "Section 5.3.1: projected meat demand growth and substitution toward poultry; around 76 percent of additional demand in middle-income countries.",
+    "limitations": "Conditional baseline, commodity-specific weight conventions. Total tonnage and retail-weight per-capita quantities must not be mixed.",
+    "access": "Section 5.3.1 read",
+    "referenceNumber": 16,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "A01",
+    "title": "A systematic review on consumer acceptance of alternative proteins: Pulses, algae, insects, plant-based meat alternatives, and cultured meat",
+    "authors": "M. C. Onwezen; E. P. Bouwman; M. J. Reinders; H. Dagevos",
+    "publisher": "Appetite",
+    "date": "2021-04-01",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33276014/",
+    "type": "peer-reviewed systematic review",
+    "doi": "10.1016/j.appet.2020.105058",
+    "citation": "Onwezen, M. C., E. P. Bouwman, M. J. Reinders, and H. Dagevos. 2021. \"A systematic review on consumer acceptance of alternative proteins: Pulses, algae, insects, plant-based meat alternatives, and cultured meat.\" Appetite 159:105058. https://doi.org/10.1016/j.appet.2020.105058.",
+    "claims": [
+      "The review covered 91 articles on drivers of consumer acceptance for pulses, algae, insects, plant-based alternative proteins, and cultured meat.",
+      "The review found acceptance was generally higher for pulses and plant-based alternatives and lower for insects and cultured meat.",
+      "Taste, health, familiarity, attitudes, food neophobia, disgust, and social norms recur as acceptance drivers."
+    ],
+    "limitations": [
+      "Underlying studies use heterogeneous samples, measures, and product descriptions.",
+      "The review does not establish observed substitution or a comparable global adoption rate."
+    ],
+    "referenceNumber": 17,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A02",
+    "title": "A meta-review of consumer behaviour studies on meat reduction and alternative protein acceptance",
+    "authors": "Marleen C. Onwezen; Hans Dagevos",
+    "publisher": "Food Quality and Preference",
+    "date": "2024-05",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0950329323002616",
+    "type": "peer-reviewed meta-review",
+    "doi": "10.1016/j.foodqual.2023.105067",
+    "citation": "Onwezen, Marleen C., and Hans Dagevos. 2024. \"A meta-review of consumer behaviour studies on meat reduction and alternative protein acceptance.\" Food Quality and Preference 114:105067. https://doi.org/10.1016/j.foodqual.2023.105067.",
+    "claims": [
+      "The meta-review found motivational and opportunity drivers prominent across meat-reduction and alternative-protein behavior studies.",
+      "Taste, emotions, awareness, and physical food environments are important behavior-change factors.",
+      "Policy evaluations and long-term real-life behavior studies remain underdeveloped."
+    ],
+    "limitations": [
+      "Review of reviews; inherits limitations of underlying studies.",
+      "Used to frame evidence gaps, not to quantify country-specific adoption."
+    ],
+    "referenceNumber": 18,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A03",
+    "title": "A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China",
+    "authors": "Christopher Bryant; Keri Szejda; Nishant Parekh; Varun Deshpande; Brian Tse",
+    "publisher": "Frontiers in Sustainable Food Systems",
+    "date": "2019-02-27",
+    "url": "https://doi.org/10.3389/fsufs.2019.00011",
+    "type": "peer-reviewed cross-country online survey",
+    "doi": "10.3389/fsufs.2019.00011",
+    "citation": "Bryant, Christopher, Keri Szejda, Nishant Parekh, Varun Deshpande, and Brian Tse. 2019. \"A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China.\" Frontiers in Sustainable Food Systems 3:11. https://doi.org/10.3389/fsufs.2019.00011.",
+    "claims": [
+      "The survey compared stated perceptions of plant-based and clean meat among 3,030 adults in the USA, India, and China.",
+      "The India and China samples reported higher stated purchase likelihood for plant-based and clean meat than the US sample.",
+      "Familiarity and lower food neophobia predicted acceptance across countries."
+    ],
+    "limitations": [
+      "India and China samples skewed urban, educated, and higher-income.",
+      "Stated purchase likelihood is not actual purchase, repeat purchase, or displacement."
+    ],
+    "referenceNumber": 19,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A04",
+    "title": "Consumers' willingness to purchase three alternatives to meat proteins in the United Kingdom, Spain, Brazil and the Dominican Republic",
+    "authors": "Cristino Alberto Gomez-Luciano; Luis Kluwe de Aguiar; Frank Vriesekoop; Beatriz Urbano",
+    "publisher": "Food Quality and Preference",
+    "date": "2019-12",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0950329318309996",
+    "type": "peer-reviewed cross-country survey",
+    "doi": "10.1016/j.foodqual.2019.103732",
+    "citation": "Gomez-Luciano, Cristino Alberto, Luis Kluwe de Aguiar, Frank Vriesekoop, and Beatriz Urbano. 2019. \"Consumers' willingness to purchase three alternatives to meat proteins in the United Kingdom, Spain, Brazil and the Dominican Republic.\" Food Quality and Preference 78:103732. https://doi.org/10.1016/j.foodqual.2019.103732.",
+    "claims": [
+      "The study surveyed 729 respondents in the UK, Spain, Brazil, and the Dominican Republic.",
+      "Plant-based proteins were the preferred meat alternative among the three tested alternatives.",
+      "Product characteristics such as perceived healthiness, safety, and nutrition were important predictors."
+    ],
+    "limitations": [
+      "Country samples were modest.",
+      "Willingness to purchase was hypothetical and does not establish repeat behavior."
+    ],
+    "referenceNumber": 20,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A05",
+    "title": "Consumer acceptance of cultured meat in Germany",
+    "authors": "Ramona Weinrich; Micha Strack; Felix Neugebauer",
+    "publisher": "Meat Science",
+    "date": "2020-04",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31732401/",
+    "type": "peer-reviewed survey",
+    "doi": "10.1016/j.meatsci.2019.107924",
+    "citation": "Weinrich, Ramona, Micha Strack, and Felix Neugebauer. 2020. \"Consumer acceptance of cultured meat in Germany.\" Meat Science 162:107924. https://doi.org/10.1016/j.meatsci.2019.107924.",
+    "claims": [
+      "The study used a panel sample of 713 German consumers.",
+      "German respondents were described as moderately prepared to accept cultured meat.",
+      "Ethical benefits supported acceptance, while emotional objections reduced acceptance."
+    ],
+    "limitations": [
+      "Cultured meat was not commercially available in Germany.",
+      "The study measures acceptance, not purchase behavior or meat displacement."
+    ],
+    "referenceNumber": 21,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A06",
+    "title": "Consumer preferences for farm-raised meat, lab-grown meat, and plant-based meat alternatives: Does information or brand matter?",
+    "authors": "Ellen J. Van Loo; Vincenzina Caputo; Jayson L. Lusk",
+    "publisher": "Food Policy",
+    "date": "2020",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306919220301354",
+    "type": "peer-reviewed discrete choice experiment",
+    "doi": "10.1016/j.foodpol.2020.101931",
+    "citation": "Van Loo, Ellen J., Vincenzina Caputo, and Jayson L. Lusk. 2020. \"Consumer preferences for farm-raised meat, lab-grown meat, and plant-based meat alternatives: Does information or brand matter?\" Food Policy 95:101931. https://doi.org/10.1016/j.foodpol.2020.101931.",
+    "claims": [
+      "The study elicited US consumer preferences among farm-raised beef, lab-grown beef, and plant-based burger options.",
+      "Information, brand, and price influenced stated choices.",
+      "Farm-raised beef remained a strong comparator in the choice setting."
+    ],
+    "limitations": [
+      "Discrete choice experiment is hypothetical.",
+      "The study does not measure repeat purchase or observed substitution."
+    ],
+    "referenceNumber": 22,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A07",
+    "title": "Most plant-based meat alternative buyers also buy meat: an analysis of household demographics, habit formation, and buying behavior among meat alternative buyers",
+    "authors": "Zachary T. Neuhofer; Jayson L. Lusk",
+    "publisher": "Scientific Reports",
+    "date": "2022-07-29",
+    "url": "https://www.nature.com/articles/s41598-022-16996-5",
+    "type": "peer-reviewed household scanner-data study",
+    "doi": "10.1038/s41598-022-16996-5",
+    "citation": "Neuhofer, Zachary T., and Jayson L. Lusk. 2022. \"Most plant-based meat alternative buyers also buy meat: an analysis of household demographics, habit formation, and buying behavior among meat alternative buyers.\" Scientific Reports 12 (1):13062. https://doi.org/10.1038/s41598-022-16996-5.",
+    "claims": [
+      "The study used IRI household scanner data from November 2018 to November 2020 for 38,966 households.",
+      "About 20% of included households purchased a plant-based meat alternative at least once.",
+      "Most plant-based meat alternative buyers also bought ground meat, and first PBMA purchase did not clearly reduce ground-meat consumption."
+    ],
+    "limitations": [
+      "US grocery household panel; does not capture all food-service behavior.",
+      "Focuses on PBMA products close to ground-meat analogues."
+    ],
+    "referenceNumber": 23,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A08",
+    "title": "Consumer spending patterns for plant-based meat alternatives",
+    "authors": "Joel Cuffey; Lauren Chenarides; Wenying Li; Shuoli Zhao",
+    "publisher": "Applied Economic Perspectives and Policy",
+    "date": "2023-03",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/aepp.13280",
+    "type": "peer-reviewed household scanner-data event study",
+    "doi": "10.1002/aepp.13280",
+    "citation": "Cuffey, Joel, Lauren Chenarides, Wenying Li, and Shuoli Zhao. 2023. \"Consumer spending patterns for plant-based meat alternatives.\" Applied Economic Perspectives and Policy 45 (1):63-85. https://doi.org/10.1002/aepp.13280.",
+    "claims": [
+      "The study used Nielsen Homescan data from 2014 to 2019.",
+      "PBMA spending fell by more than 75% in months after the first PBMA purchase month.",
+      "Meat spending did not decrease in the first month a household purchased PBMA."
+    ],
+    "limitations": [
+      "US household purchase data; does not reveal all motives or away-from-home food consumption.",
+      "Pre-2020 period does not cover later market changes."
+    ],
+    "referenceNumber": 24,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A09",
+    "title": "Meet the meatless: Demand for new generation plant-based meat alternatives",
+    "authors": "Shuoli Zhao; Lingxiao Wang; Wuyang Hu; Yuqing Zheng",
+    "publisher": "Applied Economic Perspectives and Policy",
+    "date": "2023-03",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/aepp.13232",
+    "type": "peer-reviewed retail scanner-data demand study",
+    "doi": "10.1002/aepp.13232",
+    "citation": "Zhao, Shuoli, Lingxiao Wang, Wuyang Hu, and Yuqing Zheng. 2023. \"Meet the meatless: Demand for new generation plant-based meat alternatives.\" Applied Economic Perspectives and Policy 45 (1):4-21. https://doi.org/10.1002/aepp.13232.",
+    "claims": [
+      "The study analyzed Nielsen Scantrack retail market expenditure data from 2017 to 2020.",
+      "PBMA demand was small compared with meat demand in the observed market.",
+      "Demand estimates found PBMA complemented beef and pork and substituted for chicken, turkey, and fish."
+    ],
+    "limitations": [
+      "US retail data including the COVID-19 disruption period.",
+      "Retail aggregate data cannot identify every household substitution pathway."
+    ],
+    "referenceNumber": 25,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A10",
+    "title": "Is India Ready for Alt-Meat? Preferences and Willingness to Pay for Meat Alternatives",
+    "authors": "Rashmit S. Arora; Daniel A. Brent; Edward C. Jaenicke",
+    "publisher": "Sustainability",
+    "date": "2020-05",
+    "url": "https://www.mdpi.com/2071-1050/12/11/4377",
+    "type": "peer-reviewed discrete choice experiment",
+    "doi": "10.3390/su12114377",
+    "citation": "Arora, Rashmit S., Daniel A. Brent, and Edward C. Jaenicke. 2020. \"Is India Ready for Alt-Meat? Preferences and Willingness to Pay for Meat Alternatives.\" Sustainability 12 (11):4377. https://doi.org/10.3390/su12114377.",
+    "claims": [
+      "The study estimated preferences for conventional meat, plant-based meat, cell-based meat, and chickpeas among Mumbai consumers.",
+      "A latent class model identified segments preferring chana, conventional meat, plant-based meat, or cell-based meat.",
+      "Consumer heterogeneity was central to the study's interpretation of the Indian market."
+    ],
+    "limitations": [
+      "Mumbai sample, not nationally representative of India.",
+      "Discrete choice results are stated preference, not observed substitution."
+    ],
+    "referenceNumber": 26,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A11",
+    "title": "Plant-based meats in China: a cross-sectional study of attitudes and behaviours",
+    "authors": "Jah Ying Chung; Christopher J. Bryant; Kathryn E. Asher",
+    "publisher": "Journal of Human Nutrition and Dietetics",
+    "date": "2023-06",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36151900/",
+    "type": "peer-reviewed cross-sectional online survey",
+    "doi": "10.1111/jhn.13092",
+    "citation": "Chung, Jah Ying, Christopher J. Bryant, and Kathryn E. Asher. 2023. \"Plant-based meats in China: a cross-sectional study of attitudes and behaviours.\" Journal of Human Nutrition and Dietetics 36 (3):1090-1100. https://doi.org/10.1111/jhn.13092.",
+    "claims": [
+      "The pre-registered online survey included 1,206 respondents matched to China's adult population for gender and age.",
+      "60.1% of respondents reported having eaten plant-based meat at least once.",
+      "Perceived healthiness was the strongest attitudinal predictor of plant-based meat purchase intent; age was the strongest demographic predictor."
+    ],
+    "limitations": [
+      "Online survey and stated intent.",
+      "Having tried plant-based meat once is not evidence of regular purchase or meat displacement."
+    ],
+    "referenceNumber": 27,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A12",
+    "title": "Consumer acceptance of cultured meat in urban areas of three cities in China",
+    "authors": "Xiaobing Zhang; Xiaoyan Li; Junfei Bai",
+    "publisher": "Food Control",
+    "date": "2020-12",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0956713520303066",
+    "type": "peer-reviewed urban survey",
+    "doi": "10.1016/j.foodcont.2020.107390",
+    "citation": "Zhang, Meng, Lei Li, and Junfei Bai. 2020. \"Consumer acceptance of cultured meat in urban areas of three cities in China.\" Food Control 118:107390. https://doi.org/10.1016/j.foodcont.2020.107390.",
+    "claims": [
+      "The study surveyed 1,004 respondents in Beijing, Qingdao, and Tai'an.",
+      "Most respondents had limited prior knowledge of cultured meat.",
+      "Information provision reduced opposition and increased willingness to taste or purchase cultured meat."
+    ],
+    "limitations": [
+      "Three-city urban sample in North China.",
+      "Cultured meat was not commercially available; outcomes are hypothetical."
+    ],
+    "referenceNumber": 28,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A13",
+    "title": "Estimating consumers' willingness to pay for plant-based meat and cultured meat in China",
+    "authors": "Bo Chen; Guzhen Zhou; Yang Hu",
+    "publisher": "Food Quality and Preference",
+    "date": "2023-10",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0950329323001568",
+    "type": "peer-reviewed contingent valuation study",
+    "doi": "10.1016/j.foodqual.2023.104962",
+    "citation": "Chen, Bo, Guzhen Zhou, and Yang Hu. 2023. \"Estimating consumers' willingness to pay for plant-based meat and cultured meat in China.\" Food Quality and Preference 111:104962. https://doi.org/10.1016/j.foodqual.2023.104962.",
+    "claims": [
+      "The study used an online consumer survey in China administered in September 2022.",
+      "Positive nutritional and environmental information increased willingness to pay for plant-based meat and cultured meat.",
+      "Negative information decreased willingness to pay."
+    ],
+    "limitations": [
+      "Stated willingness to pay, not observed transactions.",
+      "Cultured meat was unavailable in China and plant-based meat was nascent."
+    ],
+    "referenceNumber": 29,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A14",
+    "title": "The alternative livestock revolution: Prospects for consumer acceptance of plant-based and cultured meat in South Africa",
+    "authors": "Chiedza Tsvakirai; Lawton Nalley; Shelby Rider; Ellen van Loo; Makgopa Tshehla",
+    "publisher": "Journal of Agricultural and Applied Economics",
+    "date": "2023",
+    "url": "https://www.cambridge.org/core/journals/journal-of-agricultural-and-applied-economics/article/alternative-livestock-revolution-prospects-for-consumer-acceptance-of-plantbased-and-cultured-meat-in-south-africa/A79AF7AC795CF15549EFDB3AC7A1B380",
+    "type": "peer-reviewed survey and choice experiment",
+    "doi": "10.1017/aae.2023.36",
+    "citation": "Tsvakirai, Chiedza, Lawton Nalley, Shelby Rider, Ellen Van Loo, and Makgopa Tshehla. 2023. \"The Alternative Livestock Revolution: Prospects for Consumer Acceptance of Plant-based and Cultured Meat in South Africa.\" Journal of Agricultural and Applied Economics 55 (4):710-729. https://doi.org/10.1017/aae.2023.36.",
+    "claims": [
+      "The study collected 649 completed responses from South African grocery shoppers in a March-April 2022 nationwide online survey.",
+      "Respondents completed a choice experiment among conventional beef and alternative burger patties at varying prices.",
+      "Conditional choice-experiment estimates suggested market potential for plant-based and lab-cultured patties."
+    ],
+    "limitations": [
+      "Choice experiment is hypothetical.",
+      "South Africa should not be generalized to the African continent."
+    ],
+    "referenceNumber": 30,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A15",
+    "title": "Planetary health and the promises of plant-based meat from a sub-Saharan African perspective: A review",
+    "authors": "Omamuyovwi Gbejewoh; Jeannine Marais; Sara Wilhelmina Erasmus",
+    "publisher": "Scientific African",
+    "date": "2022-09",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2468227622002113",
+    "type": "peer-reviewed regional review",
+    "doi": "10.1016/j.sciaf.2022.e01304",
+    "citation": "Gbejewoh, Omamuyovwi, Jeannine Marais, and Sara Wilhelmina Erasmus. 2022. \"Planetary health and the promises of plant-based meat from a sub-Saharan African perspective: A review.\" Scientific African 17:e01304. https://doi.org/10.1016/j.sciaf.2022.e01304.",
+    "claims": [
+      "The review states that consumer research on plant-based meat alternatives in sub-Saharan Africa is limited.",
+      "It identifies socio-cultural meanings of meat as relevant to substitution barriers.",
+      "It flags cost, health concerns, and nutrient differences as issues requiring further research."
+    ],
+    "limitations": [
+      "Review rather than primary consumer survey.",
+      "Evidence base is thin and uneven across sub-Saharan Africa."
+    ],
+    "referenceNumber": 31,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A16",
+    "title": "Don't Have a Cow, Man: Consumer Acceptance of Animal-Free Dairy Products in Five Countries",
+    "authors": "Oscar Zollman Thomas; Christopher Bryant",
+    "publisher": "Frontiers in Sustainable Food Systems",
+    "date": "2021-06-24",
+    "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.678491/full",
+    "type": "peer-reviewed cross-country survey",
+    "doi": "10.3389/fsufs.2021.678491",
+    "citation": "Zollman Thomas, Oscar, and Christopher Bryant. 2021. \"Don't Have a Cow, Man: Consumer Acceptance of Animal-Free Dairy Products in Five Countries.\" Frontiers in Sustainable Food Systems 5:678491. https://doi.org/10.3389/fsufs.2021.678491.",
+    "claims": [
+      "The survey included 5,054 respondents from Brazil, Germany, India, the UK, and the US.",
+      "Respondents showed substantial stated openness to animal-free dairy cheese.",
+      "Brazil and India samples showed especially high stated enthusiasm."
+    ],
+    "limitations": [
+      "One author was affiliated with an animal-free dairy company.",
+      "Stated openness is not actual purchase, repeat purchase, or dairy displacement."
+    ],
+    "referenceNumber": 32,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A17",
+    "title": "Beyond the cow: Consumer perceptions and information impact on acceptance of precision fermentation-produced cheese in Germany",
+    "authors": "Sarah Kühl; Alina Schäfer; Christian Kircher; Clara Mehlhose",
+    "publisher": "Future Foods",
+    "date": "2024-12",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666833524001175",
+    "type": "peer-reviewed experimental survey",
+    "doi": "10.1016/j.fufo.2024.100411",
+    "citation": "Kühl, Sarah, Alina Schäfer, Christian Kircher, and Clara Mehlhose. 2024. \"Beyond the cow: Consumer perceptions and information impact on acceptance of precision fermentation-produced cheese in Germany.\" Future Foods 10:100411. https://doi.org/10.1016/j.fufo.2024.100411.",
+    "claims": [
+      "The experimental survey included 2,035 German participants.",
+      "Information about genetically modified microorganisms slightly reduced willingness to try precision-fermentation cheese.",
+      "Consistent quality and animal-welfare benefits supported acceptance; farmer-livelihood and market-power risks reduced acceptance."
+    ],
+    "limitations": [
+      "Germany- and cheese-specific study.",
+      "Measures acceptance and willingness, not observed purchasing."
+    ],
+    "referenceNumber": 33,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "A18",
+    "title": "Feeding the future: A comparison of drivers and barriers towards consumers' acceptance of plant-based protein, mycoprotein, cultured meat, and insect-based protein in Singapore",
+    "authors": "May O. Lwin; Shelly Malik; Jack Yong Ho; Peter J. Schulz",
+    "publisher": "Food Quality and Preference",
+    "date": "2026-03",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0950329325003362",
+    "type": "peer-reviewed nationally representative online survey",
+    "doi": "10.1016/j.foodqual.2025.105761",
+    "citation": "Lwin, May O., Shelly Malik, Jack Yong Ho, and Peter J. Schulz. 2026. \"Feeding the future: A comparison of drivers and barriers towards consumers' acceptance of plant-based protein, mycoprotein, cultured meat, and insect-based protein in Singapore.\" Food Quality and Preference 137:105761. https://doi.org/10.1016/j.foodqual.2025.105761.",
+    "claims": [
+      "The study surveyed a nationally representative sample of 2,000 respondents in Singapore.",
+      "Plant-based protein was most accepted among plant-based protein, mycoprotein, cultured meat, and insect-based protein.",
+      "Common drivers included familiarity, taste expectations, healthfulness beliefs, and green consumption values."
+    ],
+    "limitations": [
+      "Singapore is a high-income city-state and should not be treated as a Global South proxy.",
+      "Survey acceptance does not prove substitution or displacement."
+    ],
+    "referenceNumber": 34,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T08",
+    "title": "Written Reply to Parliamentary Question on Lab-Grown Seafood and Cultured Meat Sector",
+    "authors": [
+      "Grace Fu",
+      "Ministry of Sustainability and the Environment, Singapore"
+    ],
+    "publisher": "Ministry of Sustainability and the Environment, Singapore",
+    "date": "2026-02-26",
+    "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-lab-grown-seafood-and-cultured-meat-sector/",
+    "type": "official government parliamentary reply",
+    "claims": [
+      "Singapore's government acknowledged that the global alternative-protein industry, including lab-grown and cultured meat companies, has faced scaling hurdles due to higher production costs and weaker-than-expected consumer acceptance.",
+      "The Singapore Food Agency supports alternative-protein R&D in higher learning and research institutions.",
+      "SFA awarded SGD 64 million to 21 multi-year projects since 2024 under RIE2025 for process development, nutrition and functionality of alternative proteins."
+    ],
+    "limitations": "Concise parliamentary answer; does not provide project-level details or independent evaluation of impact.",
+    "referenceNumber": 35,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T09",
+    "title": "Speech by MOS Alvin Tan at the Singapore International Agri-Food Week Welcome Reception",
+    "authors": [
+      "Alvin Tan",
+      "Ministry of Trade and Industry, Singapore"
+    ],
+    "publisher": "Ministry of Trade and Industry, Singapore",
+    "date": "2025-11-04",
+    "url": "https://www.mti.gov.sg/newsroom/speech-by-mos-alvin-tan-at-the-singapore-international-agri-food-week-welcome-reception/",
+    "type": "official government speech",
+    "claims": [
+      "Singapore Food Story R&D Programme supports research and innovation across agriculture, aquaculture, future foods and food safety.",
+      "The first phase seeded alternative-protein R&D and local food safety capabilities.",
+      "Phase two includes future foods, food safety, commercialization and a NUS-University of Illinois Centre for Precision Fermentation and Sustainability supported by NRF."
+    ],
+    "limitations": "Speech source is useful for official priorities and examples; use cautiously for impact claims.",
+    "referenceNumber": 36,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T19",
+    "title": "Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture",
+    "authors": [
+      "Neil Stephens",
+      "Lucy Di Silvio",
+      "Illtud Dunsford",
+      "Marianne Ellis"
+    ],
+    "publisher": "Trends in Food Science & Technology",
+    "date": "2018-08",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0924224417303400",
+    "type": "academic journal article",
+    "claims": [
+      "The review identifies technical challenges in cell source, culture media, in-vivo myogenesis mimicry, animal-derived and synthetic materials, and bioprocessing for commercial scale.",
+      "The article argues that socio-political and regulatory analysis should go beyond ethics and consumer acceptance.",
+      "The article anticipates workforce needs across chemists, cell biologists, material scientists, chemical engineers, skeletal muscle scientists, technicians, meat scientists and food technologists."
+    ],
+    "limitations": "Older review but still useful for foundational workforce-skill categories; not a current market assessment.",
+    "referenceNumber": 37,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T01",
+    "title": "Alternative Proteins Innovation and Knowledge Centre",
+    "authors": [
+      "UK Research and Innovation",
+      "Biotechnology and Biological Sciences Research Council",
+      "Innovate UK"
+    ],
+    "publisher": "UK Research and Innovation",
+    "date": "2023-11-28",
+    "url": "https://www.ukri.org/opportunity/alternative-proteins-innovation-and-knowledge-centre/",
+    "type": "official government research funding opportunity",
+    "claims": [
+      "UKRI offered a single Alternative Proteins Innovation and Knowledge Centre award for 2024-2029 with BBSRC and Innovate UK funding.",
+      "The call expected the IKC to support research, innovation, skills and talent development across alternative-protein research and industry sectors.",
+      "Eligible activities included placements, secondments, exchanges, training programmes, production of training material, workshops, use of facilities, and development of research technical professionals."
+    ],
+    "limitations": "Funding-call requirements describe intended programme design, not demonstrated employment outcomes or actual workforce retention.",
+    "referenceNumber": 38,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T02",
+    "title": "National alternative protein innovation centre launches",
+    "authors": [
+      "UK Research and Innovation"
+    ],
+    "publisher": "UK Research and Innovation",
+    "date": "2024-08-28",
+    "url": "https://www.ukri.org/news/national-alternative-protein-innovation-centre-launches/",
+    "type": "official government research agency announcement",
+    "claims": [
+      "UKRI announced a GBP 15 million National Alternative Protein Innovation Centre funded by BBSRC and Innovate UK.",
+      "The centre covers plant-based proteins, lab-grown meats, algae and other alternative protein sources, and is designed to foster research and innovation across the supply chain.",
+      "The centre includes collaboration among University of Leeds, James Hutton Institute, Imperial College London and University of Sheffield, with wider stakeholder engagement."
+    ],
+    "limitations": "Announcement includes ambitions and partner descriptions; it should not be used as independent proof of realized market size or job creation.",
+    "referenceNumber": 39,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T03",
+    "title": "Alternative Proteins Roadmap: identifying UK priorities",
+    "authors": [
+      "UK Research and Innovation",
+      "Innovate UK"
+    ],
+    "publisher": "UK Research and Innovation",
+    "date": "2022-06-14",
+    "url": "https://www.ukri.org/publications/alternative-proteins-roadmap-identifying-uk-priorities/",
+    "type": "official government research agency roadmap",
+    "claims": [
+      "The UK roadmap aimed to consolidate stakeholder views on capabilities, capacity, barriers, investment and collaboration opportunities in the alternative-protein sector.",
+      "The roadmap informed priorities across alternative-protein categories."
+    ],
+    "limitations": "Roadmap content is based on stakeholder workshop analysis; it is useful for priorities, not as a quantified workforce census.",
+    "referenceNumber": 40,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T06",
+    "title": "Cellulaire Agricultuur",
+    "authors": [
+      "Nationaal Groeifonds",
+      "Government of the Netherlands"
+    ],
+    "publisher": "Nationaal Groeifonds",
+    "date": "project period 2023-2031; page includes 2025-07-07 media update",
+    "url": "https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-landbouw-voedsel-en-land-en-watergebruik/cellulaire-agricultuur",
+    "type": "official government programme record",
+    "claims": [
+      "The Dutch cellular-agriculture project received EUR 60 million from the National Growth Fund.",
+      "The programme is organized around education, research and scale-up.",
+      "Intended outputs include qualified cellular-agriculture personnel, new MBO/HBO/WO modules, additional finance, and scale-up facilities for cultivated meat and precision fermentation."
+    ],
+    "limitations": "Programme record describes intended results and governance; later evaluation is needed for actual workforce and market outcomes.",
+    "referenceNumber": 41,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T10",
+    "title": "DBT-BIRAC Joint Call for Proposals on 'Smart Proteins' for Fostering High Performance Biomanufacturing under BioE3 Policy",
+    "authors": [
+      "Biotechnology Industry Research Assistance Council",
+      "Department of Biotechnology, Government of India"
+    ],
+    "publisher": "BIRAC",
+    "date": "2025-02-22",
+    "url": "https://www.birac.nic.in/cfp_view.php?id=98&scheme_type=46",
+    "type": "official government call for proposals",
+    "claims": [
+      "Smart proteins are identified as a thematic subsector under India's BioE3 Policy for high-performance biomanufacturing.",
+      "The call invites proposals for fermentation-derived, plant-based and cell-culture-based proteins.",
+      "The call supports both proof-of-concept/applied research and scale-up from laboratory to pilot or pre-commercial levels."
+    ],
+    "limitations": "Call text establishes policy design and eligibility; it does not show which projects succeeded or how many workers were trained.",
+    "referenceNumber": 42,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T04",
+    "title": "Integrated Approaches to Enhance Sustainability, Resiliency and Robustness in US Agri-Food Systems",
+    "authors": [
+      "Tufts University project team"
+    ],
+    "publisher": "USDA National Institute of Food and Agriculture CRIS Project Pages",
+    "date": "project period 2021-09-01 to 2026-08-31; cited report includes 2023-09-01 to 2024-08-31 progress",
+    "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027620-integrated-approaches-to-enhance-sustainability-resiliency-and-robustness-in-us-agri-food-systems.html",
+    "type": "official government grant record and project report",
+    "claims": [
+      "The project includes cultivated-meat research objectives on consumer acceptance, environmental performance, stem-cell platforms, serum-free media, scaffolds, process optimization, nutrition, quality and safety.",
+      "The project includes outreach, extension, and education for workforce development.",
+      "The project record reports cellular-agriculture courses, certificate/minor activity, a PhD track, undergraduate research and professional-development activities."
+    ],
+    "limitations": "Annual report text is recipient-submitted to a government portal; it verifies reported activities but does not independently evaluate labor-market effects.",
+    "referenceNumber": 43,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T05",
+    "title": "CULTURED 1.0: Leading Higher Education Initiatives in Emerging Innovations for Sustainable Food Production",
+    "authors": [
+      "Pennsylvania State University project team"
+    ],
+    "publisher": "USDA National Institute of Food and Agriculture CRIS Project Pages",
+    "date": "project period 2021-09-01 to 2025-08-31",
+    "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027058-cultured-10-leading-higher-education-initiatives-in-emerging-innovations-for-sustainable-food-production.html",
+    "type": "official government grant record and project report",
+    "claims": [
+      "The project aimed to develop education and training for future foods including plant-based proteins, cultivated meat and dairy, and fermentation-derived proteins.",
+      "The record frames scaling, sustainability measurement, innovation, equity, inclusion and translation to local, regional and national contexts as education challenges.",
+      "The project report identifies the UC Davis Cultivated Meat Consortium and Tufts cellular-agriculture initiatives as major federally/state-supported U.S. initiatives relevant to training."
+    ],
+    "limitations": "Useful for education-network evidence and hub candidates; not a primary grant record for every external initiative it mentions.",
+    "referenceNumber": 44,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T21",
+    "title": "Accelerate NC - Life Sciences Manufacturing",
+    "authors": [
+      "U.S. Economic Development Administration"
+    ],
+    "publisher": "U.S. Economic Development Administration",
+    "date": "2022 archive page",
+    "url": "https://www.eda.gov/archives/2022/arpa/build-back-better/finalists/North-Carolina-Biotechnology-Center.htm",
+    "type": "official government grant/programme record",
+    "claims": [
+      "The EDA record describes an approximately USD 25 million award to strengthen North Carolina's life-sciences manufacturing cluster.",
+      "The programme invests in biotechnology talent pipelines, community-college training expansion, HBCU and historically American Indian university training hubs, and access for underserved and historically excluded communities.",
+      "The record identifies announced investment and jobs in the broader North Carolina biomanufacturing industry as motivation for workforce expansion."
+    ],
+    "limitations": "Broader life-sciences manufacturing source; supports North Carolina biomanufacturing talent capacity, not an alternative-protein workforce count.",
+    "referenceNumber": 45,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T18",
+    "title": "Trends, challenges, and opportunities for the United States alternative meat and seafood sector: stakeholder-informed perspectives",
+    "authors": [
+      "Amanda Wood",
+      "Katherine Consavage Stanley",
+      "Jack Daly",
+      "Khara Grieger",
+      "William R. Aimutis",
+      "Rohan A. Shirwaiker",
+      "Norbert L. W. Wilson"
+    ],
+    "publisher": "npj Science of Food 10 (2026): 133",
+    "date": "2026-04-17",
+    "url": "https://www.nature.com/articles/s41538-026-00841-4",
+    "type": "academic journal article",
+    "claims": [
+      "Stakeholder interviews identified U.S. alternative meat and seafood sector challenges including taste and price parity, attracting a broad consumer base, producing at scale and navigating a charged policy environment.",
+      "Stakeholders identified opportunities in collaboration, workforce development, financing, scalability models, products and policy engagement."
+    ],
+    "limitations": "Twenty US stakeholder interviews analyzed; voluntary participation and nonparticipation of some critical stakeholders limit representativeness. Research reports perceptions, not workforce counts or programme effects; fermentation-specific participation was limited.",
+    "doi": "10.1038/s41538-026-00841-4",
+    "access": "Original journal metadata, abstract, results and limitations inspected.",
+    "referenceNumber": 46,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T13",
+    "title": "The social impacts of a transition from conventional to cultivated and plant-based meats: Evidence from Brazil",
+    "authors": [
+      "Rodrigo Luiz Morais-da-Silva",
+      "Germano Glufke Reis",
+      "Hermes Sanctorum",
+      "Carla Forte Maiolino Molento"
+    ],
+    "publisher": "Food Policy 111 (2022): 102337",
+    "date": "2022-08",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306919222001099",
+    "type": "academic journal article",
+    "claims": [
+      "The Brazil case study identifies potential opportunities including new jobs, salary increases, better working conditions, entrepreneurship, access to proteins and animal protection.",
+      "The study also identifies challenges including reduced demand for animal-meat producers, unemployment, low worker qualifications, high alternative-meat prices and consumer acceptance.",
+      "The authors argue that stakeholder engagement and policy are important for a fair and inclusive transition."
+    ],
+    "limitations": "Based on 35 expert interviews in Brazil; findings are useful for social-impact hypotheses but not global proof.",
+    "doi": "10.1016/j.foodpol.2022.102337",
+    "access": "Original publisher title/abstract inspected; authors cross-checked with DOI-indexed bibliographic metadata.",
+    "referenceNumber": 47,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T14",
+    "title": "Why can't the alternative become mainstream? Unpacking the barriers and enablers of sustainable protein innovation in Brazil",
+    "authors": [
+      "Camila Colombo de Moraes",
+      "Priscila Borin de Oliveira Claro",
+      "Vinicius Picanço Rodrigues"
+    ],
+    "publisher": "Sustainable Production and Consumption",
+    "date": "2023-01; online 2022-11-22",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352550922003049",
+    "type": "academic journal article",
+    "claims": [
+      "The study identifies tax incentives, access to funding and opportunity costs as drivers of alternative-protein innovation in Brazil.",
+      "It finds human capital, including technical and soft skills, matters when financial resources are available.",
+      "It highlights social capital as a way to share resources, improve partnerships and expand entrepreneur networks."
+    ],
+    "limitations": "Interview-based Brazil study; does not quantify national workforce size or prove that any single policy intervention works.",
+    "doi": "10.1016/j.spc.2022.11.008",
+    "access": "Publisher and original article repository metadata inspected; interview-based results used within the stated limits.",
+    "referenceNumber": 48,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T15",
+    "title": "Mapping underutilised and emerging food sources and technologies as solutions to food insecurity in South Africa",
+    "authors": [
+      "Lisa-Claire Ronquest-Ross",
+      "Gunnar O. Sigge"
+    ],
+    "publisher": "South African Journal of Science 121, no. 7/8 (2025)",
+    "date": "2025; volume 121 issue 7/8",
+    "url": "https://www.scielo.org.za/scielo.php?pid=S0038-23532025000400011&script=sci_arttext",
+    "type": "academic journal article",
+    "claims": [
+      "The study assesses underutilised and emerging food sources and technologies in South Africa using affordability, nutrition, safety, consumer acceptance and regulatory environment criteria.",
+      "It discusses fermentation, precision fermentation, cultured meat or seafood, indigenous African crops, insects, food waste and algae as potential or emerging food sources.",
+      "It identifies barriers for cultured meat or seafood in South Africa, including affordability, specialized scientific support, scale, cultural acceptance, regulatory environment and cold-chain safety."
+    ],
+    "limitations": "Country-specific expert and literature assessment; it does not establish a mature alternative-protein industry.",
+    "doi": "10.17159/sajs.2025/17116",
+    "access": "Original journal article and metadata through SciELO inspected.",
+    "referenceNumber": 49,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T16",
+    "title": "Science, Technology and Innovation partners with UN Food and Agriculture Organization on roadmap to strengthen South Africa's agrifood systems",
+    "authors": [
+      "Department of Science, Technology and Innovation, South Africa"
+    ],
+    "publisher": "South African Government",
+    "date": "2025-11-06",
+    "url": "https://www.gov.za/news/media-statements/science-technology-and-innovation-partners-un-food-and-agriculture",
+    "type": "official government statement with IO partnership",
+    "claims": [
+      "South Africa's DSTI and FAO are developing an STI Roadmap for Agriculture to strengthen institutional coordination, innovation and inclusive agrifood transformation.",
+      "The roadmap emphasizes high-value crops, livestock and agro-processed products, opportunities for women and youth, value chains, skills development and farmer support.",
+      "The roadmap is anchored in South Africa's STI Decadal Plan and the FAO Strategic Framework."
+    ],
+    "limitations": "Roadmap process is broader than alternative proteins and was not completed at the time of the statement.",
+    "referenceNumber": 50,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T17",
+    "title": "Agricultural innovation systems",
+    "authors": [
+      "Food and Agriculture Organization of the United Nations"
+    ],
+    "publisher": "FAO Research and Extension Systems",
+    "date": "2026 page accessed",
+    "url": "https://www.fao.org/research-extension-systems/agricultural-innovation-systems/en",
+    "type": "international organization knowledge resource",
+    "claims": [
+      "FAO frames agricultural innovation systems as interactions among research, extension and advisory services, governments, input suppliers, intermediaries, farmer organizations and private sector actors.",
+      "FAO states that weak capacity to innovate is a barrier in many low- and middle-income countries.",
+      "The Tropical Agriculture Platform focuses on capacity development for agricultural innovation in the tropics."
+    ],
+    "limitations": "General agrifood innovation-system source, not alternative-protein-specific.",
+    "referenceNumber": 51,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "T12",
+    "title": "Price above all else: an analysis of expert opinion on the priority actions to scale up production and consumption of plant-based meat in Brazil",
+    "authors": [
+      "Peter Newton",
+      "Waverly Eichhorst",
+      "Margaret Hegwood",
+      "Rodrigo Luiz Morais-da-Silva",
+      "Marina Sucha Heidemann",
+      "Alexandre Hoffmann",
+      "Germano Glufke Reis"
+    ],
+    "publisher": "Frontiers in Sustainable Food Systems 8 (2024): 1303448",
+    "date": "2024-02-27",
+    "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1303448/full",
+    "type": "academic journal article",
+    "claims": [
+      "A Brazil-focused Delphi expert panel found reducing consumer price as the top priority for scaling plant-based meat production and consumption.",
+      "The study identifies regulatory level playing field, domestic protein sources, sensory profile and manufacturing capacity as relevant action areas.",
+      "The study uses an importance-neglect-tractability framework for prioritization."
+    ],
+    "limitations": "Expert-opinion study with a small panel and focused on plant-based meat in Brazil; not a direct workforce census.",
+    "doi": "10.3389/fsufs.2024.1303448",
+    "referenceNumber": 52,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "T20",
+    "title": "OECD-FAO Agricultural Outlook 2026-2035",
+    "authors": [
+      "Organisation for Economic Co-operation and Development",
+      "Food and Agriculture Organization of the United Nations"
+    ],
+    "publisher": "OECD Publishing",
+    "date": "2026-06-29",
+    "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report.html",
+    "type": "international organization outlook report",
+    "claims": [
+      "The report provides official baseline context for agricultural markets and protein-related demand over 2026-2035.",
+      "It can be used as background for macro food-system demand, not as a direct alternative-protein workforce source."
+    ],
+    "limitations": "Included for contextual macro demand only; no talent or hub claims should be attributed to it without specific report sections checked in the main paper.",
+    "referenceNumber": 53,
+    "accessed": "2026-09-13",
+    "category": "International organization"
+  },
+  {
+    "id": "T07",
+    "title": "Action Plan on Plant-Based Foods",
+    "authors": [
+      "Ministry of Food, Agriculture and Fisheries of Denmark"
+    ],
+    "publisher": "Ministry of Food, Agriculture and Fisheries of Denmark",
+    "date": "2023-10",
+    "url": "https://en.fvm.dk/news-and-contact/focus-on/action-plan-on-plant-based-foods",
+    "type": "official government action plan",
+    "claims": [
+      "The Danish action plan addresses the plant-based value chain from farmers and food manufacturers to retail, food service, export markets and consumers.",
+      "The plan includes ambitions around crops and ingredients, sales, export promotion, research and innovation through public-private partnerships.",
+      "Government materials describe the plan as a catalogue of initiatives across the value chain."
+    ],
+    "limitations": "Strong for plant-based policy integration; it does not cover all alternative-protein pathways equally and does not prove job creation.",
+    "referenceNumber": 54,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "T11",
+    "title": "Parliament Question: BioE3 Policy",
+    "authors": [
+      "Press Information Bureau",
+      "Ministry of Science & Technology, Government of India"
+    ],
+    "publisher": "Press Information Bureau, Government of India",
+    "date": "2026-03-11",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+    "type": "official government parliamentary information release",
+    "claims": [
+      "BioE3 is being implemented by DBT and BIRAC to foster high-performance biomanufacturing and enable startups, SMEs, industry and academia to access shared infrastructure and resources.",
+      "Functional Foods and Smart Proteins are listed among BioE3 sectoral verticals.",
+      "Annexed BioE3 programmes include agri-food and food-relevant biomanufacturing platforms and biofoundry facilities."
+    ],
+    "limitations": "Broad biomanufacturing source; not all listed platforms are alternative-protein-specific.",
+    "referenceNumber": 55,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C18",
+    "title": "Guide for technological functional characterization of protein ingredients for the plant-based market",
+    "authors": "Caroline Mellinger Silva, Ilana Felberg, Janice Ribeiro Lima, Lucas de Paiva Gouvêa, Melicia Cintia Galdeano, Rodrigo Fernandes Caldeira, and Tatiana de Lima Azevedo",
+    "publisher": "Embrapa Agroindústria de Alimentos, Documentos 146, Rio de Janeiro",
+    "date": "2022",
+    "url": "https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307",
+    "type": "Government research corporation technical document",
+    "claims": "Institutional and bibliographic record documents plant-protein characterization methods and Rio de Janeiro research unit.",
+    "limitations": "Repository abstract and metadata inspected; not an employment survey or commercial-outcome evaluation. No technical protocol reproduced.",
+    "access": "Official repository record and description read",
+    "referenceNumber": 56,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C19",
+    "title": "Ecosystem insight to build effective and relevant workforce solutions",
+    "authors": "Innovation, Science and Economic Development Canada",
+    "publisher": "Government of Canada, Global Innovation Clusters",
+    "date": "2024-03-06; modified 2024-05-03",
+    "url": "https://ised-isde.canada.ca/site/global-innovation-clusters/en/node/83",
+    "type": "Government programme account",
+    "claims": "Describes diploma and reskilling programmes with institutional partners and Brandon/Saskatoon locations.",
+    "limitations": "Promotional programme account, not an independent evaluation. Future graduates and employment targets are not actual outcomes; no such totals used here.",
+    "access": "Official page read",
+    "referenceNumber": 57,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C21",
+    "title": "食品化工核心技术的关键科学问题 [Key scientific issues in the core technologies of food chemical engineering]",
+    "authors": "Zhaofeng Li, Haocun Kong, Yixiong Tian, Lu Xia, and Jian Chen",
+    "publisher": "Bulletin of National Natural Science Foundation of China 39, no. 5 (2025): 799–806",
+    "date": "2025",
+    "url": "https://www.nsfc.gov.cn/csc/20345/20348/pdf/2025/202505-799-806.pdf",
+    "doi": "10.3724/BNSFC-2025.04.08.0003",
+    "type": "Academic journal research-perspective article",
+    "claims": "Affiliations verify Jiangnan University future-foods/food/biotechnology research and JITRI institute in Wuxi/Yixing; article discusses food chemical-engineering capabilities.",
+    "limitations": "Chinese-language perspective with English abstract; no employment enumeration, no alternative-protein market-size claim, no demonstrated programme impact.",
+    "access": "Official journal PDF affiliations, relevant discussion and English abstract read",
+    "referenceNumber": 58,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  },
+  {
+    "id": "C20",
+    "title": "בשר מתורבת [Cultivated meat consortium]",
+    "authors": "Israel Innovation Authority",
+    "publisher": "Israel Innovation Authority",
+    "date": "2024-01-23; programme start 2022-06-01",
+    "url": "https://innovationisrael.org.il/winner/cultivate-meat/",
+    "type": "Government innovation-authority consortium record",
+    "claims": "Lists industry and academic partners and activity start date.",
+    "limitations": "Indexed original Hebrew text inspected; direct open returned an access error. Dated consortium listing, not proof of current staffing or programme outcomes. English summary is this report's translation.",
+    "access": "Official-source indexed text read; direct access limited",
+    "referenceNumber": 59,
+    "accessed": "2026-09-13",
+    "category": "Government"
+  },
+  {
+    "id": "C11",
+    "title": "Empirical economic analysis shows cost-effective continuous manufacturing of cultivated chicken using animal-free medium",
+    "authors": "Laura Pasitka et al.",
+    "publisher": "Nature Food 5 (2024): 693–702",
+    "date": "2024-08-21",
+    "url": "https://www.nature.com/articles/s43016-024-01022-w",
+    "type": "Academic journal experimental and techno-economic research",
+    "claims": "Abstract distinguishes empirical cell-culture results from a modeled theoretical 50,000-litre facility.",
+    "limitations": "Publisher abstract inspected; full-text access unavailable in this pass. No claim of demonstrated commercial profitability or audited retail parity.",
+    "access": "Publisher-indexed abstract read; full-text access limited",
+    "doi": "10.1038/s43016-024-01022-w",
+    "referenceNumber": 60,
+    "accessed": "2026-09-13",
+    "category": "Academic"
+  }
+]
