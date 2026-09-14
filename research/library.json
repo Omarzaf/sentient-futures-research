@@ -1,0 +1,50 @@
+{
+  "status": "AI-assisted drafts; human verification pending",
+  "documents": [
+    {
+      "id": "comparative-protein",
+      "title": "Protein Transitions Across Unequal Food Systems",
+      "path": "research/comparative-protein/index.html",
+      "textPath": "research/comparative-protein/README.md",
+      "cutoff": "13 September 2026",
+      "kind": "Comparative synthesis",
+      "description": "Protein supply, consumer adoption, public research and talent policy, and institutional capabilities. Includes country data, charts, locators, and a cited-passage ledger."
+    },
+    {
+      "id": "ai-protein",
+      "title": "AI and the Protein Transition",
+      "path": "research/ai-protein/index.html",
+      "textPath": "research/ai-protein/literature-review.md",
+      "cutoff": "11 September 2026",
+      "kind": "Literature review",
+      "description": "Evidence connecting technical progress, adoption, displacement, animal outcomes, and policy under uncertainty. Includes an annotated library and RIS bibliography."
+    },
+    {
+      "id": "policy-decisions",
+      "title": "Policy Evidence to Decision Table",
+      "path": "research/ai-protein/decisions.html",
+      "textPath": "research/ai-protein/policy-decisions.md",
+      "cutoff": "11 September 2026",
+      "kind": "Discussion paper",
+      "description": "Six conditional policy choices, the evidence relevant to each, and reasons to revise them. These proposals have not been evaluated or adopted."
+    },
+    {
+      "id": "food-systems-orientation",
+      "title": "Alt-Protein and Food-Systems Orientation",
+      "path": "research/orientation/food-systems-briefing.html",
+      "textPath": "research/orientation/food-systems-briefing.md",
+      "cutoff": "5 September 2026",
+      "kind": "Earlier research briefing",
+      "description": "Technology, capital, talent, regulation, and foresight practice, with source links preserved from the original briefing."
+    },
+    {
+      "id": "beginner-orientation",
+      "title": "Alt Protein Without the Jargon",
+      "path": "research/orientation/beginners-guide.html",
+      "textPath": "research/orientation/beginners-guide.md",
+      "cutoff": "5 September 2026",
+      "kind": "Earlier orientation guide",
+      "description": "An introduction to the production tracks, value chain, market definitions, and technical vocabulary, with private project instructions removed."
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "description": "Cited-passage index for human review; includes analytical discussion next to empirical citations. Not a completed fact-check certificate.",
+  "passages": [
+    {
+      "id": "passage-001",
+      "text": "The comparison combines a reproducible extraction of country protein-supply data, government dietary-survey evidence, academic adoption studies and documented public research programmes. National food balances provide a common supply baseline; they do not measure individual intake. Consumer studies provide evidence about particular populations and products; hypothetical willingness does not establish repeat purchasing or animal-product displacement. Official funding and institutional records establish capabilities or commitments; they do not constitute a comparable census of employment. These distinctions govern the interpretation throughout.",
+      "sourceIds": [
+        "C02",
+        "C13"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-002",
+      "text": "The resulting argument supports differentiated public portfolios: evaluate affordable traditional and novel protein options together; connect university education to practical production, safety and adoption problems; and fund international partnerships that leave durable capabilities in participating regions. AI-assisted research is a conditional part of this portfolio. Laboratory optimization is demonstrated in specific systems, but its translation into manufacturing economics, recruitment priorities and dietary change requires additional evidence. The proposed contribution to protein-transition foresight is therefore a set of conditional allocation decisions and observable revision rules, rather than a single prediction of technological substitution.",
+      "sourceIds": [
+        "C09",
+        "C10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-003",
+      "text": "The central antithesis is that a protein-transition agenda organized around new technologies could absorb resources while contributing little to accessible nutrition or animal-product displacement. Traditional foods, existing food-processing capabilities, targeted nutrition programmes and improvements to incumbent systems might provide greater additional benefit. That proposition is not assumed to be true either. It defines the comparator against which novel-protein policies must earn their place. UNEP’s assessment considers benefits alongside environmental, health, social and welfare uncertainties; it does not justify a technology-independent endorsement of every alternative.",
+      "sourceIds": [
+        "C07"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-004",
+      "text": "The measurement hierarchy follows the distinction between supply and actual intake in FAO’s handbook and the survey-specific caution documented in the UK’s National Diet and Nutrition Survey. The remainder of the table states this paper’s analytical rules. Those rules are deliberately stricter than treating every statistic with a citation as interchangeable evidence.",
+      "sourceIds": [
+        "C02",
+        "C13"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-005",
+      "text": "This taxonomy separates production platforms for analysis; commercial foods can combine them. Its distinctions build on UNEP’s categories and FAO/WHO’s description of cell-based food. A product containing a small cultivated component must not be analyzed as if its entire mass came from cell culture. Similarly, a fermentation-derived ingredient does not by itself define the nutritional quality of the finished food.",
+      "sourceIds": [
+        "C07",
+        "C08"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-006",
+      "text": "Dry-bean diversity. Photograph: Peggy Greb, USDA ARS; public domain.",
+      "sourceIds": [
+        "C15"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-007",
+      "text": "Ethanol-fermentation bioreactor. Photograph: Ryan Stoklosa, USDA ARS. An illustration of adjacent bioprocess equipment, not a protein-production facility.",
+      "sourceIds": [
+        "C17"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-008",
+      "text": "FAO’s 2025 yearbook reports 2023 total protein supply of 123.1 g/person/day for the United States, 109.2 for Germany, 131.0 for China, 106.5 for Brazil, 74.6 for India and 79.2 for South Africa. The corresponding animal-origin shares, calculated from the published totals, are 67.3%, 67.4%, 41.4%, 63.8%, 26.8% and 46.1%. These are country food-supply estimates. They already contradict a simple ordering in which every Northern country has more total protein than every Southern country.",
+      "sourceIds": [
+        "C01"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-009",
+      "text": "India’s statistics ministry reports unadjusted 2023–24 household-based protein estimates of 61.8 g/person/day in rural areas and 63.4 in urban areas. Its adjusted estimates are 61.2 and 62.9 respectively. Cereals account for 45.9% of the reported rural protein mix and 38.7% of the urban mix; pulses account for 8.7% and 9.1%. These observations show why a “plant protein” category must extend beyond the foods marketed specifically as protein alternatives.",
+      "sourceIds": [
+        "C12"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-010",
+      "text": "The household estimates differ in concept and time period from FAO’s calendar-year supply. They cannot be used to calculate an apparent national “waste rate” by subtraction. Within the Indian source itself, adjusted and unadjusted estimates must also remain distinct. The release explains adjustments involving meals consumed by household and non-household members.",
+      "sourceIds": [
+        "C12"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-011",
+      "text": "The UK’s 2019–2023 survey uses individual dietary recalls rather than a national supply account. Its methods document substantial energy underreporting and explicitly state that the extent to which protein is misreported relative to other macronutrients is not known. A correction factor inferred from energy therefore should not be applied mechanically to protein. A harmonized international intake comparison would require age, sampling, measurement and reporting adjustments beyond this paper’s supply comparison.",
+      "sourceIds": [
+        "C13"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-012",
+      "text": "WHO’s healthy-diet guidance allows protein from both animal and plant sources and emphasizes dietary variety. FAO’s assessment of terrestrial animal-source foods addresses important nutrient contributions and the needs of vulnerable groups. Taken together, these sources support evaluating whole diets, affordability and life stage rather than prescribing one protein-source ratio for every population. They do not establish that any particular meat analogue is nutritionally interchangeable with the food it replaces.",
+      "sourceIds": [
+        "C05",
+        "C06"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-013",
+      "text": "Andrews and colleagues’ ecological analysis links national protein supplies with age-specific survivorship across 101 countries over 1961–2018. It reports different associations at different ages. This is relevant to the distributional question but cannot establish what a particular individual should eat, or identify the causal effect of substituting a specific product. Country wealth, health systems and many other conditions complicate the interpretation of national associations.",
+      "sourceIds": [
+        "C14"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-014",
+      "text": "The OECD–FAO 2026–2035 baseline anticipates increasing dietary diversification and a larger role for animal-source foods in middle-income settings, constrained progress in low-income settings, and broadly stable high-income diets. It is a conditional model baseline, not a survey of intention or an inevitable future. Its policy importance is that widespread novel-protein substitution must be demonstrated rather than assumed.",
+      "sourceIds": [
+        "C03"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-015",
+      "text": "The meat chapter anticipates substantial substitution among animal meats, particularly toward poultry, and locates about 76% of additional meat demand in middle-income countries. For an animal-welfare project, a move from one animal species to another is a distinct outcome from substitution toward non-animal foods. This paper does not convert meat tonnage into animals affected: doing so would require species-specific production and welfare assumptions.",
+      "sourceIds": [
+        "C04"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-016",
+      "text": "Table 50’s regional labels on printed page 325 do not align with Figure 59 and the discussion on pages 37–38. For example, the table labels a 2023 total of 105.4 as Asia, while its discussion and figure place Asia near 95. The discrepancy is visible in the downloaded PDF, not merely in extracted text. Regional rows are excluded from this report’s plots; no replacement labels are inferred. The retained country observations are faithful transcriptions, subject to the underlying source’s revisions and limitations.",
+      "sourceIds": [
+        "C01"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-017",
+      "text": "The adoption evidence should be read against the macro baseline established elsewhere in this report: OECD-FAO 2026 treats meat demand and dietary diversification as conditional projections, not proof that novel proteins will be adopted or displace livestock products. Section 5.3.1 of the meat chapter is useful because it separates rising meat demand from substitution among animal meats, especially toward poultry. That distinction matters here. A consumer moving from beef to chicken, from chicken to a plant-based analogue, from meat to pulses, or from dairy cheese to precision-fermentation cheese is making a different substitution with different welfare, climate, nutrition, and market implications.",
+      "sourceIds": [
+        "C03",
+        "C04"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-018",
+      "text": "The adoption literature reviewed here is mostly not a literature of observed displacement. It is a mixed literature of systematic reviews, stated-preference surveys, discrete-choice experiments, willingness-to-pay studies, and a smaller set of US scanner-data studies. The most defensible conclusion is therefore methodological before it is geographic: willingness to try, willingness to buy, willingness to buy regularly, willingness to pay a premium, choice-experiment market share, and observed purchases are not interchangeable outcomes. The stricter question is whether an alternative product repeatedly replaces animal-source protein under actual prices and ordinary meal conditions. Few studies answer that question directly.",
+      "sourceIds": [
+        "A01",
+        "A02"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-019",
+      "text": "Review of 91 alternative-protein acceptance articles Systematic review Pulses and plant-based alternatives generally show higher acceptance than insects and cultured meat across reviewed studies. Underlying studies use different samples and outcome measures; not a pooled adoption rate.",
+      "sourceIds": [
+        "A01"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-020",
+      "text": "USA, India, China; 3,030 adults, with India/China skewed urban, educated, higher-income Cross-country online survey Stated purchase likelihood for plant-based and clean meat was higher in India and China samples than in the US sample. Hypothetical purchase likelihood; not observed purchase or displacement.",
+      "sourceIds": [
+        "A03"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-021",
+      "text": "UK, Spain, Brazil, Dominican Republic; 729 respondents Cross-country survey Plant-based proteins were preferred over cultured-meat and insect-based alternatives in this sample. Country samples are modest; willingness to purchase is not behavior.",
+      "sourceIds": [
+        "A04"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-022",
+      "text": "Germany; 713 consumers Survey / path model Cultured-meat acceptance was moderate; ethical benefits supported acceptance while emotional objections reduced it. Cultured meat was not commercially available; no substitution behavior measured.",
+      "sourceIds": [
+        "A05"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-023",
+      "text": "US national survey choice setting Discrete-choice experiment Information, brand, and price affected preferences among farm-raised beef, lab-grown beef, and plant-based burgers. Hypothetical choice; no repeat-purchase or displacement observation.",
+      "sourceIds": [
+        "A06"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-024",
+      "text": "US IRI household scanner panel, November 2018-November 2020; 38,966 households Household purchase-data analysis About 20% of households purchased plant-based meat alternatives at least once; most PBMA buyers also bought ground meat; first PBMA purchase did not clearly reduce ground-meat consumption. US ground-product focus; grocery panel does not cover all food service.",
+      "sourceIds": [
+        "A07"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-025",
+      "text": "US Nielsen Homescan, 2014-2019 Household scanner event study PBMA spending fell by more than 75% after the first purchase month; meat spending did not decrease in the first PBMA purchase month. US panel and pre-2020 period; household spending does not reveal motives.",
+      "sourceIds": [
+        "A08"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-026",
+      "text": "US Nielsen retail Scantrack, January 2017-July 2020, 40 states / xAOC channel Retail demand-system analysis PBMA market demand was small relative to meats; estimates found PBMA complemented beef and pork but substituted for chicken, turkey, and fish. Retail aggregate demand cannot identify every household substitution pathway.",
+      "sourceIds": [
+        "A09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-027",
+      "text": "Mumbai, India Discrete-choice experiment / latent class model Segments preferred chana, conventional meat, plant-based meat, or cell-based meat, rather than converging on one substitute. Mumbai sample; stated preference, not national behavior.",
+      "sourceIds": [
+        "A10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-028",
+      "text": "China; online sample matched to adult population for age and gender; N = 1,206 Pre-registered cross-sectional survey 60.1% reported eating plant-based meat at least once; perceived healthiness and younger age predicted purchase intent. Trial is not regular purchase; online survey with stated intent.",
+      "sourceIds": [
+        "A11"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-029",
+      "text": "Beijing, Qingdao, and Tai'an, China; N = 1,004 Urban questionnaire survey with information provision Information reduced opposition to cultured meat and increased willingness to taste or purchase. Three-city urban sample; cultured meat not commercially available.",
+      "sourceIds": [
+        "A12"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-030",
+      "text": "China; online consumer survey, September 2022 Contingent valuation / information treatments Positive nutrition and environmental information increased WTP for plant-based and cultured meat; negative information reduced WTP. Stated WTP; PBM nascent and cultured meat unavailable in China.",
+      "sourceIds": [
+        "A13"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-031",
+      "text": "South Africa; 649 grocery shoppers in a March-April 2022 nationwide online survey Choice experiment Conditional choice estimates suggested potential shares for plant-based and lab-cultured patties when compared with conventional beef patties at varying prices. Hypothetical choices; South Africa cannot stand in for the continent.",
+      "sourceIds": [
+        "A14"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-032",
+      "text": "Sub-Saharan Africa literature Peer-reviewed review Large-scale adoption is constrained by limited consumer research, cost, nutrient questions, health concerns, and socio-cultural meanings of meat. Review evidence is sparse and uneven across countries.",
+      "sourceIds": [
+        "A15"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-033",
+      "text": "Brazil, Germany, India, UK, US; 5,054 respondents Cross-country survey Substantial stated openness to animal-free dairy cheese, with high enthusiasm in Brazil and India samples. Includes industry-affiliated author; stated openness, not sales or dairy displacement.",
+      "sourceIds": [
+        "A16"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-034",
+      "text": "Germany; 2,035 participants Experimental survey on precision-fermentation cheese GMO information slightly reduced willingness to try; perceived quality and animal-welfare benefits supported acceptance; farmer-livelihood and market-power risks reduced it. Cheese-specific; acceptance measures, not purchasing behavior.",
+      "sourceIds": [
+        "A17"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-035",
+      "text": "Singapore; nationally representative online survey, N = 2,000 Comparative acceptance survey Plant-based protein was most accepted among plant-based protein, mycoprotein, cultured meat, and insect-based protein; insect-based protein was least accepted. Singapore is a high-income city-state and regulatory hub, not a Global South proxy.",
+      "sourceIds": [
+        "A18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-036",
+      "text": "A cautious cross-pathway claim is possible only at the level of relative stated acceptance within specific study sets. Onwezen and co-authors' systematic review found that pulses and plant-based alternatives tended to have higher acceptance in the reviewed literature than cultured meat and insects. Gomez-Luciano and co-authors similarly found plant-based proteins were preferred over cultured-meat and insect-based alternatives in their four-country sample. Lwin and co-authors found plant-based protein was most accepted and insect-based protein least accepted in Singapore. These sources support the narrow claim that plant-based options often perform better in stated-acceptance research. They do not support a universal global ranking of technologies, and they do not prove replacement of animal-source foods.",
+      "sourceIds": [
+        "A01",
+        "A04",
+        "A18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-037",
+      "text": "Traditional pulses and soy foods should not be collapsed into modern analogues. The systematic review treats pulses as a separate alternative-protein category, and the Mumbai discrete-choice experiment included chana alongside conventional meat, plant-based meat, and cell-based meat. In that study, chana was preferred by one latent class, while other classes preferred conventional meat, plant-based meat, or cell-based meat. The inference for India is therefore bounded: in at least one urban Indian choice experiment, traditional pulses and newer substitutes appealed to different segments. That is not evidence that all Indian consumers will substitute pulses for meat, but it is enough to warn against treating plant-based burgers as the only plant-protein pathway.",
+      "sourceIds": [
+        "A01",
+        "A10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-038",
+      "text": "Fermentation pathways also need to be separated. Thomas and Bryant studied animal-free dairy cheese from precision fermentation across five countries and found substantial stated openness, while Kuhl and co-authors studied precision-fermentation cheese in Germany and found that information about genetically modified microorganisms slightly reduced willingness to try. Both studies concern dairy-like products, not biomass-fermented meat alternatives in general. Singapore's study includes mycoprotein alongside plant-based protein, cultured meat, and insect-based protein, but its findings should be read as Singapore-specific comparative acceptance, not as proof that mycoprotein will scale in other Asian or African markets. The safe claim is that consumers evaluate fermentation-derived products by product category, perceived quality, naturalness, trust, and benefit-risk framing; \"fermentation\" is not one acceptance category.",
+      "sourceIds": [
+        "A16",
+        "A17"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-039",
+      "text": "India appears promising in some stated-preference studies, but the scope is narrow. Bryant and co-authors' India sample was urban, educated, and higher-income relative to the national population. Arora, Brent, and Jaenicke studied Mumbai and found segmented preferences across chana, conventional meat, plant-based meat, and cell-based meat. The defensible country contrast is not that India is simply more accepting than the Global North. It is that some urban Indian samples contain multiple plausible adoption pathways, including traditional pulses and newer meat-like substitutes. Religion, diet, city, income, language, and food norms remain open sources of heterogeneity unless a study measures them directly.",
+      "sourceIds": [
+        "A03",
+        "A10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-040",
+      "text": "The retrieved Chinese studies suggest sensitivity to information framing rather than uniform enthusiasm for adoption. Chung, Bryant, and Asher found substantial reported prior trial of plant-based meat, but trial and purchase intent differed, and perceived healthiness was the strongest attitudinal predictor of purchase intent. Zhang, Li, and Bai found limited prior knowledge of cultured meat in three Chinese cities, with information provision reducing opposition. Chen, Zhou, and Hu found that positive nutrition and environmental information increased stated WTP for plant-based and cultured meat while negative information reduced it. These studies support a China-specific inference that health, nutrition, safety, knowledge, and information framing matter. They do not establish national repeat purchasing or meat displacement.",
+      "sourceIds": [
+        "A11",
+        "A12",
+        "A13"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-041",
+      "text": "Brazil appears in two cross-country sources with different product categories. In Gomez-Luciano and co-authors' meat-alternative study, Brazil was part of a four-country comparison in which plant-based options were preferred over cultured-meat and insect-based options, and Brazil's willingness to purchase cultured meat was lower than Spain's in the reported comparison. In Thomas and Bryant's animal-free dairy survey, Brazil showed high stated openness to animal-free dairy cheese. The study-specific reading is that Brazilian responses may vary by product pathway and framing. The sources do not justify a broad statement that Brazil is either resistant or highly receptive to alternative proteins overall.",
+      "sourceIds": [
+        "A04",
+        "A16"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-042",
+      "text": "The retrieved South African choice experiment provides a country-specific observation; it cannot represent the continent. Tsvakirai and co-authors' South African choice experiment found market potential for plant-based and lab-cultured patties under the conditions of the experiment. Gbejewoh, Marais, and Erasmus review the wider sub-Saharan African literature and stress limited consumer research, socio-cultural meanings of meat, cost, health, and nutrient questions. The proper inference is an evidence gap with some South African stated-choice evidence, not a continental adoption forecast.",
+      "sourceIds": [
+        "A14",
+        "A15"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-043",
+      "text": "Germany illustrates how environmental or animal-welfare benefits can coexist with technology-specific reservations. Weinrich, Strack, and Neugebauer found moderate cultured-meat acceptance, with ethical benefits and emotional objections pulling in opposite directions. Kuhl and co-authors found precision-fermentation cheese acceptance was influenced by quality, animal-welfare benefits, GMO information, farmer-livelihood concerns, and market-power concerns. This supports a bounded claim about German respondents in these studies: benefit arguments mattered, but naturalness, technology, and political-economy concerns also mattered. It does not support a claim about all German alternative-protein categories.",
+      "sourceIds": [
+        "A05",
+        "A17"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-044",
+      "text": "Singapore is a special case. The Lwin and co-authors survey is valuable because it uses a nationally representative sample and compares plant-based protein, mycoprotein, cultured meat, and insect-based protein in one market. But Singapore's high income, food-import dependence, public food-security strategy, and regulatory visibility make it a poor proxy for \"the Global South.\" Singapore is treated separately as an Asian institutional case, not as a general emerging-market adoption signal.",
+      "sourceIds": [
+        "T08",
+        "T09",
+        "A18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-045",
+      "text": "The retrieved evidence about actual purchasing comes primarily from US scanner studies, with limits imposed by product category and sales channel. Neuhofer and Lusk used IRI household scanner data from November 2018 to November 2020 and found that about 20% of included households purchased a plant-based meat alternative at least once, while most PBMA buyers also bought ground meat. They also report that ground-meat consumption did not clearly fall after a household's first PBMA purchase. Cuffey, Chenarides, Li, and Zhao used Nielsen Homescan data from 2014 to 2019 and found PBMA spending fell by more than 75% in months after the first purchase month, while meat spending did not decrease in that first purchase month. Zhao, Wang, Hu, and Zheng used Nielsen retail Scantrack data from January 2017 to July 2020 and found PBMA demand was still small relative to meat demand, with demand estimates indicating complementarity with beef and pork and substitution for chicken, turkey, and fish.",
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-046",
+      "text": "The US evidence should not be generalized as \"plant-based meat never displaces meat.\" It says something narrower and more useful: in these US scanner datasets and periods, observed purchase patterns do not support a simple one-for-one replacement story for ground meat or fresh meat categories. Possible explanations include novelty, dietary variety or purchases for different household members; the scanner data do not identify those motives. That means adoption metrics based on sales or first trial can overstate animal-protein displacement. These purchase studies motivate caution when interpreting stated-preference findings from other settings.",
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-047",
+      "text": "An antithesis is that alternatives could expand dietary variety while having limited effect on animal-product demand. US scanner findings motivate this hypothesis; they do not prove a future market trajectory or establish buyer motives. It is supported more indirectly for sub-Saharan Africa by review evidence that price, socio-cultural meat meanings, and limited consumer research remain barriers. It should not be stated as a proven global outcome. It is a risk hypothesis: where alternatives are expensive, urban, novel, or adopted by consumers already buying many protein products, category growth may coexist with continued animal-source consumption.",
+      "sourceIds": [
+        "A07",
+        "A08",
+        "A09",
+        "A15"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-048",
+      "text": "This section therefore treats “hub” as an analytical label, not a rank. Cultivated meat, fermentation-derived proteins, and plant-based proteins require different skill bundles. Cultivated meat draws on cell biology, serum-free media, scaffolds, bioreactors, food safety, techno-economic analysis, environmental assessment, and regulatory capability . Fermentation work depends on strain selection, feedstock optimization, downstream processing, quality systems, and scale-up. Plant-based work depends on ingredient science, crop development, extrusion or other structuring technologies, sensory work, nutrition, procurement, and manufacturing. No source reviewed here shows that one geography has all of these capabilities at scale.",
+      "sourceIds": [
+        "T19"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-049",
+      "text": "Several official programmes fit parts of that definition. The UK Alternative Proteins Innovation and Knowledge Centre call includes skills and talent development, placements, secondments, technical-professional development, facility access, and collaborative programme funding . The UK roadmap and NAPIC launch add evidence of a national effort to connect alternative-protein research, commercialization, industry collaboration, and policy engagement . The Netherlands’ National Growth Fund cellular-agriculture programme is a national education-research-scale-up model with public funding, intended education modules, and scale-up facilities for cultivated meat and precision fermentation . Singapore’s sources show a food-security R&amp;D model that combines alternative-protein process work, food safety, commercialization, and an international precision-fermentation partnership, while also acknowledging cost and consumer-acceptance headwinds . India’s DBT-BIRAC smart-protein call places plant-based, fermentation-derived, and cell-culture proteins inside a high-performance biomanufacturing policy architecture and distinguishes proof-of-concept research from laboratory-to-pilot or pre-commercial scale-up .",
+      "sourceIds": [
+        "T01",
+        "T02",
+        "T03",
+        "T06",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-050",
+      "text": "The U.S. evidence is more fragmented. Tufts is a verified education-and-research node because the USDA NIFA record links cultivated-meat research objectives with outreach, extension, and educational platforms for workforce development . Davis is a verified candidate site through a USDA NIFA project record that identifies the UC Davis Cultivated Meat Consortium as a federally and state-supported initiative relevant to alternative-protein education and training . North Carolina should be described with more caution: the EDA record verifies a broader life-sciences manufacturing workforce strategy, including community-college and inclusive training investments, but it does not establish a protein-specific public centre or an alternative-protein workforce count . The 2026 U.S. stakeholder study is useful for sector-wide themes such as scale, financing, policy environment, workforce development, and shared infrastructure, but it is not a hub census .",
+      "sourceIds": [
+        "T04",
+        "T05",
+        "T21",
+        "T18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-051",
+      "text": "Brazil, India, and South Africa should not be framed as weaker versions of Global North hubs. They are cases where the talent question intersects with affordability, feedstocks, incumbent livelihoods, regional equity, and local industrial policy. Brazil’s peer-reviewed evidence warns that alternative-protein transitions may create new jobs and better working conditions, while also creating risks for conventional producers and workers, especially where qualifications, prices, and consumer acceptance remain constraints . Another Brazil study finds that human capital matters when financial resources and social capital are available, which cautions against treating training as sufficient on its own . South African academic evidence assesses emerging food technologies against affordability, nutrition, safety, consumer acceptance, local production, and regulatory environment; cultured meat and seafood score poorly against several near-term criteria, while indigenous crops and food-waste valorization appear more near-term in that study . South Africa’s DSTI-FAO roadmap process is broader than alternative proteins, but it verifies a public effort around agricultural STI, institutional coordination, women and youth, skills development, value chains, and inclusive bioeconomy goals .",
+      "sourceIds": [
+        "T13",
+        "T14",
+        "T15",
+        "T16"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-052",
+      "text": "First, paid conversion training can move people from adjacent sectors into protein-transition work. Relevant pools include bioprocess technicians, food technologists, process engineers, fermentation specialists, food safety officials, procurement evaluators, and agricultural-extension workers. UKRI’s IKC call is the source for this mechanism because it lists training, upskilling, placements, secondments, exchanges, research technical professionals, and continued professional development as eligible or expected activities . A talent programme should therefore report who is being paid, what prior skills they bring, and whether training leads to retained roles.",
+      "sourceIds": [
+        "T01"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-053",
+      "text": "Second, shared pilot infrastructure can turn research skill into manufacturing competence. The Netherlands’ programme names scale-up facilities as an intended output, and India’s call includes scale-up from validated research toward pilot or pre-commercial levels . For map and policy purposes, shared facilities should be distinguished from general laboratory capacity. The relevant question is whether learners, public researchers, small firms, and regulators can work with equipment and quality systems that resemble the next stage of production.",
+      "sourceIds": [
+        "T06",
+        "T10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-054",
+      "text": "Third, regulatory and technician capacity should be treated as talent policy. Singapore’s official sources pair alternative-protein R&amp;D with food safety and commercialisation; UKRI’s IKC call names technicians, technical professionals, project managers, and industrial-engagement staff in addition to academic researchers . The inference is that public programmes should train food safety assessors, allergenicity and toxicology specialists, quality managers, lab and pilot-plant technicians, and public procurement staff, not only founders and principal investigators.",
+      "sourceIds": [
+        "T01",
+        "T08",
+        "T09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-055",
+      "text": "Fourth, international mobility should be evaluated as circulation rather than extraction. Singapore’s NUS-University of Illinois precision-fermentation partnership is evidence of a formal international research collaboration . FAO’s agricultural innovation-systems work frames innovation as interaction among research, extension, advisory services, governments, private actors, farmer organizations, and consumers, and notes weak innovation capacity as a barrier in many low- and middle-income countries . The policy hypothesis is that diaspora fellowships, visiting professorships, shared doctoral projects, and return grants should leave curriculum, equipment access, or institutional capability in both partner systems.",
+      "sourceIds": [
+        "T09",
+        "T17"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-056",
+      "text": "Fifth, South-South cooperation should be considered where countries share constraints around affordability, feedstock sovereignty, cold chains, farmer livelihoods, or regulatory capacity. This is an analytical proposal derived from the Brazil, India, and South Africa evidence, not a demonstrated programme effect. Brazil’s plant-based meat study highlights price, regulatory competition, domestic protein sources, sensory profile, and manufacturing capacity . India’s smart-protein policy emphasizes crops, agro-by-products, fermentation, and scale-up . South African evidence highlights indigenous crops, fermentation, food waste, cultured meat, regulatory gaps, affordability, and time horizon . These themes suggest a research agenda that is not simply technology transfer from North to South.",
+      "sourceIds": [
+        "T12",
+        "T10",
+        "T15"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-057",
+      "text": "The current source base is useful for programme design and barrier mapping, but weak for outcome evaluation. It does not provide comparable vacancy counts across Boston, Davis, North Carolina, Wageningen, the UK, Denmark, Singapore, Brazil, India, or South Africa. It does not show whether public training programmes retain graduates after two or three years. It does not prove that shared facilities increase small-firm survival. It does not show that international partnerships prevent brain drain. The OECD-FAO outlook can provide macro agricultural context, but it should not be used to infer an alternative-protein workforce trajectory unless a specific section of the report directly supports that claim .",
+      "sourceIds": [
+        "T20"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-058",
+      "text": "Teal markers denote protein-specific research or programmes; ochre markers denote adjacent food or biomanufacturing capability; open markers denote broader agrifood agendas. The UK, Dutch, Danish, Singaporean, Indian, Tufts and Davis records explicitly connect to a protein pathway, though their evidence ranges from funding design to recipient reporting. North Carolina is included for adjacent capacity. South Africa's roadmap is a broader agrifood agenda. These categories describe the retrieved records, not the full economies of those places.",
+      "sourceIds": [
+        "T01",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T10"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-059",
+      "text": "Boston / Tufts, United States Tufts cellular-agriculture project in USDA NIFA record Cultivated-meat research objectives connected to education, outreach, and workforce-development reporting. Programme reporting, not a regional labor-market count.",
+      "sourceIds": [
+        "T04"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-060",
+      "text": "Davis, United States UC Davis Cultivated Meat Consortium referenced in USDA NIFA record Cultivated-meat research/training ecosystem identified as federally and state supported. Secondary reference in another grant record; use as candidate-site evidence only.",
+      "sourceIds": [
+        "T05"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-061",
+      "text": "North Carolina, United States EDA Accelerate NC life-sciences manufacturing coalition General biomanufacturing workforce pipeline, community-college expansion, and inclusive training infrastructure. Adjacent biomanufacturing capacity; not a protein-specific public programme.",
+      "sourceIds": [
+        "T18",
+        "T21"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-062",
+      "text": "Netherlands / Wageningen-linked ecosystem National Growth Fund Cellular Agriculture project National cellular-agriculture programme linking education, research, and scale-up facilities. National ecosystem evidence; do not assign all capability to one city or university.",
+      "sourceIds": [
+        "T06"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-063",
+      "text": "United Kingdom UKRI Alternative Proteins IKC / NAPIC Protein-specific public centre model for research, commercialization, skills, technical staff, placements, and facility access. Programme design and launch evidence; employment effects need evaluation.",
+      "sourceIds": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-064",
+      "text": "Denmark Ministry action plan on plant-based foods Plant-based value-chain policy connecting crops, ingredients, public-private research, education, exports, and market development. Plant-based focus; not a full cellular-agriculture or fermentation hub claim.",
+      "sourceIds": [
+        "T07"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-065",
+      "text": "Singapore Singapore Food Story / SFA / NRF / A*STAR / NUS-linked programmes Food-security R&amp;D, alternative-protein process development, food safety, commercialization, and precision-fermentation collaboration. Official sources also record cost and consumer-acceptance headwinds.",
+      "sourceIds": [
+        "T08",
+        "T09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-066",
+      "text": "India DBT-BIRAC BioE3 smart-protein call and biomanufacturing architecture Smart-protein policy covering plant-based, fermentation-derived, and cell-culture platforms with pilot/pre-commercial scale-up category. Policy and call architecture; outcomes and retention need follow-up.",
+      "sourceIds": [
+        "T10",
+        "T11"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-067",
+      "text": "South Africa DSTI-FAO agricultural STI roadmap; South African UEFST study Inclusive agricultural STI, skills development, value chains, and assessment of emerging food technologies. Broader agrifood innovation evidence; not a mature alternative-protein manufacturing hub.",
+      "sourceIds": [
+        "T15",
+        "T16"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-068",
+      "text": "Brazil’s public research capacity can be identified directly. Embrapa Agroindústria de Alimentos in Rio de Janeiro published a 2022 guide to standardized functional characterization of plant-protein ingredients, including emulsification, foaming, water and oil retention, solubility and gelling. The guide’s record reports laboratory testing of the adapted methods. This establishes a relevant methods-and-ingredient research capability; it does not measure employment or commercial adoption.",
+      "sourceIds": [
+        "C18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-069",
+      "text": "A 2024 Canadian government account documents food-science and engineering-technology diploma programmes developed with Assiniboine Community College in Manitoba, alongside an agrifood reskilling programme involving Saskatchewan institutions. It provides a useful example of connecting technical education with food processing and adjacent digital skills. The source’s projected future graduate and sector-employment totals are not treated here as achieved outcomes. The map locates the documented Brandon and Saskatoon programme sites.",
+      "sourceIds": [
+        "C19"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-070",
+      "text": "In China, Li and colleagues’ 2025 paper identifies the Science Center for Future Foods and food and biotechnology schools at Jiangnan University in Wuxi, together with the Institute of Future Food Technology in Yixing. Its discussion links food science with chemical engineering, separation, process control and food quality. These affiliations and research themes support a documented food-engineering node, without establishing an alternative-protein employment count or a completed transition to industrial production.",
+      "sourceIds": [
+        "C21"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-071",
+      "text": "Israel’s Innovation Authority lists a cultivated-meat consortium involving industry and academic partners, including Tel Aviv University, the Hebrew University, Reichman University and the Volcani Institute. The January 2024 record gives June 2022 as the start of activity. This verifies a dated consortium design. The map uses an approximate national locator, not a claim that every participating facility is located at that point; it makes no claim about the consortium’s current staffing or comparative size.",
+      "sourceIds": [
+        "C20"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-072",
+      "text": "Tufts cellular-agriculture education and research node Cultivated-meat research linked to cellular-agriculture coursework, certificate/minor reporting, outreach, and workforce-development activities. protein-specific government grant record and recipient progress reporting. Verifies reported programme activities, not the size of the Boston alternative-protein labor market.",
+      "sourceIds": [
+        "T04"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-073",
+      "text": "UC Davis cultivated-meat research/training candidate node Cultivated-meat research and training ecosystem referenced as federally and state supported in USDA NIFA project reporting. government grant report referencing a protein-specific university consortium. Secondary reference in another project's report; suitable as candidate-site evidence, not as a quantified hub claim.",
+      "sourceIds": [
+        "T05"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-074",
+      "text": "North Carolina life-sciences manufacturing workforce platform General biomanufacturing and life-sciences workforce pipeline, including community-college expansion and inclusive training infrastructure. general biomanufacturing workforce programme plus U.S. alternative-protein stakeholder study. Adjacent capability only; the EDA source does not establish a protein-specific public programme or employment count.",
+      "sourceIds": [
+        "T18",
+        "T21"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-075",
+      "text": "Dutch cellular-agriculture national capability ecosystem National cellular-agriculture programme linking education, research, and scale-up facilities for cultivated meat and precision fermentation. official government programme record. National ecosystem evidence; coordinate is approximate and should not imply Wageningen alone owns the capability.",
+      "sourceIds": [
+        "T06"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-076",
+      "text": "UK Alternative Proteins IKC / NAPIC capability system Protein-specific centre model for research, commercialization, skills, technical staff, placements, and facility access. official research-funding call, roadmap, and launch announcement. Programme design and launch evidence; does not prove employment impact or rank UK cities.",
+      "sourceIds": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-077",
+      "text": "Denmark plant-based value-chain policy node Plant-based value-chain policy connecting crops, ingredients, education, public-private research, exports, and market development. official government action plan. Plant-based policy evidence; not a full alternative-protein or cellular-agriculture capability claim.",
+      "sourceIds": [
+        "T07"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-078",
+      "text": "Singapore Food Story and future-foods R&amp;D capability Food-security R&amp;D, alternative-protein process development, nutrition/functionality, food safety, commercialization, and international precision-fermentation collaboration. official government parliamentary reply and policy speech. Official sources also identify cost and consumer-acceptance headwinds; capability does not imply solved adoption.",
+      "sourceIds": [
+        "T08",
+        "T09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-079",
+      "text": "India DBT-BIRAC BioE3 smart-protein policy node Smart-protein policy covering plant-based, fermentation-derived, and cell-culture platforms, with proof-of-concept and pilot/pre-commercial scale-up categories. official government call and parliamentary policy release. Policy architecture and calls are verified; project outcomes, workforce retention, and site-level capacity require follow-up.",
+      "sourceIds": [
+        "T10",
+        "T11"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-080",
+      "text": "South Africa agricultural STI roadmap capability node Inclusive agricultural STI roadmap covering institutional coordination, skills development, value chains, women and youth, and agricultural bioeconomy goals. official government-FAO roadmap process plus academic emerging-food assessment. Broader agrifood innovation evidence; not a verified mature alternative-protein manufacturing hub.",
+      "sourceIds": [
+        "T15",
+        "T16"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-081",
+      "text": "Rio de Janeiro · Embrapa Plant-protein ingredient characterization methods. Public research methods. 2022 technical guide; no workforce count or commercial-outcome estimate.",
+      "sourceIds": [
+        "C18"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-082",
+      "text": "Brandon · food and engineering diplomas Food-science and engineering-technology education connected to food processing. Government programme account. 2024 account; future graduate targets are not achieved outcomes.",
+      "sourceIds": [
+        "C19"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-083",
+      "text": "Saskatoon · agrifood reskilling Agrifood conversion training and related workforce programmes. Government programme account. Broader agrifood capacity; not solely alternative-protein employment.",
+      "sourceIds": [
+        "C19"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-084",
+      "text": "Israel · cultivated-meat consortium Documented university–industry cultivated-meat consortium. Government consortium listing. Approximate national locator; start2022, record2024; not a single campus or current staffing estimate.",
+      "sourceIds": [
+        "C20"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-085",
+      "text": "Wuxi / Yixing · future-food engineering Future-food, biotechnology and food chemical-engineering research affiliations. Academic affiliations and research. 2025 paper; includes adjacent food engineering; not an employment ranking.",
+      "sourceIds": [
+        "C21"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-086",
+      "text": "Cosenza and colleagues demonstrate multi-objective Bayesian optimization of serum-free media in an adapted C2C12 cell system. One medium achieved 23% more growth at 62.5% of the control’s cost. The discussion limits generalization to the adapted cells and emphasizes the need for re-optimization and biological understanding when moving to other cell types. This supports a role for experimentally grounded computational training; it does not establish a 37.5% reduction in the cost of cultivated meat.",
+      "sourceIds": [
+        "C09"
+      ],
+      "humanReview": "Pending"
+    },
+    {
+      "id": "passage-087",
+      "text": "Engineering economics supplies the necessary counterweight. Humbird’s analysis investigates capital and process constraints in conceptual cell-culture facilities. Pasitka and colleagues combine experimental results with a techno-economic analysis of a theoretical 50,000-litre facility. The latter’s modeled facility is not equivalent to an audited commercial operation. These studies differ in systems and assumptions, so their estimates should not be plotted as a continuous industry learning curve.",
+      "sourceIds": [
+        "C10",
+        "C11"
+      ],
+      "humanReview": "Pending"
+    }
+  ]
+}

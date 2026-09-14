@@ -1,0 +1,166 @@
+[
+  {
+    "path": "research/comparative-protein/capability-map.svg",
+    "sourceDocument": "capability-map.svg",
+    "sourceSha256": "7d643e5c6a637ac748d0560743cd78ad55a2f77a369c4bc6a082acdd1a561cad",
+    "changes": "Third-party photographs and NASA raster backgrounds omitted; original credits retained as source references. Authored charts, points, data, and research text preserved."
+  },
+  {
+    "path": "research/comparative-protein/claim-ledger.json",
+    "sourceDocument": "claim-ledger.json",
+    "sourceSha256": "e07147366dfda426fd4e447a9d13fe45d1768d0e71cf18caacfd16e95b3c9953",
+    "changes": "Preserved research data and citation identifiers."
+  },
+  {
+    "path": "research/comparative-protein/comparison-map.svg",
+    "sourceDocument": "comparison-map.svg",
+    "sourceSha256": "ebb7f13d3e70db7680073290e325136b66fa0f70be37ca9e3d4b3dcec6731c73",
+    "changes": "Third-party photographs and NASA raster backgrounds omitted; original credits retained as source references. Authored charts, points, data, and research text preserved."
+  },
+  {
+    "path": "research/comparative-protein/figure-data.json",
+    "sourceDocument": "figure-data.json",
+    "sourceSha256": "29f17da3fc7ce5ef9b920bd7bd0c418713b6036f0e31eeef7a2f68b35b1d4f84",
+    "changes": "Preserved research data and citation identifiers."
+  },
+  {
+    "path": "research/comparative-protein/index.html",
+    "sourceDocument": "index.html",
+    "sourceSha256": "2d1771dbcbeb2b916b031c271af30edab332db77c56be0af5c0dc692960b6fd7",
+    "changes": "Third-party photographs and NASA raster backgrounds omitted; original credits retained as source references. Authored charts, points, data, and research text preserved."
+  },
+  {
+    "path": "research/comparative-protein/protein-data.csv",
+    "sourceDocument": "protein-data.csv",
+    "sourceSha256": "7ea81d0a5cf4e2807a7e4e10cc81e526dbc706dfad8dfeb9bcc58c32fbd7d44d",
+    "changes": "Preserved research data and citation identifiers."
+  },
+  {
+    "path": "research/comparative-protein/protein-share-change.svg",
+    "sourceDocument": "protein-share-change.svg",
+    "sourceSha256": "23cd656b962358c355dc7935da8e739c697f74bfca3ac912f50544e99ed76f76",
+    "changes": "Third-party photographs and NASA raster backgrounds omitted; original credits retained as source references. Authored charts, points, data, and research text preserved."
+  },
+  {
+    "path": "research/comparative-protein/protein-supply-2023.svg",
+    "sourceDocument": "protein-supply-2023.svg",
+    "sourceSha256": "36eaececaa36dc14355dba05714f2287517c6c3205d707d1232beff1523b92b3",
+    "changes": "Third-party photographs and NASA raster backgrounds omitted; original credits retained as source references. Authored charts, points, data, and research text preserved."
+  },
+  {
+    "path": "research/comparative-protein/source-register.json",
+    "sourceDocument": "source-register.json",
+    "sourceSha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c",
+    "changes": "Preserved research data and citation identifiers."
+  },
+  {
+    "path": "research/ai-protein/index.html",
+    "sourceDocument": "index.html",
+    "sourceSha256": "49f75b19a0a3c177e56cbadbb729765c1104b93d4bb9542ab32bc8b6345cf72a",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/literature-review.md",
+    "sourceDocument": "Literature Review.md",
+    "sourceSha256": "6c03e9c7ca27d348106828876bd9ac1d0941f750be1e213c416889bd277e5a65",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/policy-decisions.md",
+    "sourceDocument": "Policy Decision Table.md",
+    "sourceSha256": "8d949cdc215f302c9b301008d04d87351b61614b66574de39dc5b27d3e458962",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/decisions.html",
+    "sourceDocument": "decisions.html",
+    "sourceSha256": "9454d592dc00d4bd7763909e7dd7c7e021537d9ae14a4b1b400a637ee36bcad0",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/source-register.json",
+    "sourceDocument": "Source Register.json",
+    "sourceSha256": "b5df2386ae795252dfc1830cb88913ed8c4274412dc94056807b83ab0d0760b0",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/source-library.html",
+    "sourceDocument": "Source Library.html",
+    "sourceSha256": "46b2f573df94cc1b0b866fd0bb1ca2c385ec2ce50fa5fcfaad9473049689580e",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/ai-protein/references.ris",
+    "sourceDocument": "References.ris",
+    "sourceSha256": "4bf43e51b2e8e34981c8a55fdc7d8b5ec29372baae733e0613678c20ed402c68",
+    "changes": "Removed private meeting navigation and unavailable PDF links; added background/draft status; normalized repository-relative filenames. Empirical claims and source IDs preserved."
+  },
+  {
+    "path": "research/orientation/beginners-guide.html",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+        "sha256": "800684bd274b54b06a870e26b4e241af3f52a62933fad9ef751de71a4ffb17bf"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/orientation/beginners-guide.md",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+        "sha256": "800684bd274b54b06a870e26b4e241af3f52a62933fad9ef751de71a4ffb17bf"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/orientation/food-systems-briefing.html",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+        "sha256": "487d771c3486518df9f921b1de06d0bc6dce8f498c83ea96e27cef6f5548767d"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/orientation/food-systems-briefing.md",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+        "sha256": "487d771c3486518df9f921b1de06d0bc6dce8f498c83ea96e27cef6f5548767d"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/orientation/sources.json",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+        "sha256": "800684bd274b54b06a870e26b4e241af3f52a62933fad9ef751de71a4ffb17bf"
+      },
+      {
+        "filename": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+        "sha256": "487d771c3486518df9f921b1de06d0bc6dce8f498c83ea96e27cef6f5548767d"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/orientation/README.md",
+    "sourceArtifacts": [
+      {
+        "filename": "Alt_Protein_Beginners_Guide_and_Project_Scope_2026.docx",
+        "sha256": "800684bd274b54b06a870e26b4e241af3f52a62933fad9ef751de71a4ffb17bf"
+      },
+      {
+        "filename": "Alt-Protein_Food-Systems_Landscape_Briefing_2026.docx",
+        "sha256": "487d771c3486518df9f921b1de06d0bc6dce8f498c83ea96e27cef6f5548767d"
+      }
+    ],
+    "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  }
+]
