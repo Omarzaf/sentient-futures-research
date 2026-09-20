@@ -2,6 +2,15 @@
   "status": "AI-assisted drafts; human verification pending",
   "documents": [
     {
+      "id": "india-pakistan",
+      "title": "Protein Consumption and Alternative Protein Adoption in India and Pakistan",
+      "path": "research/india-pakistan/index.html",
+      "textPath": "research/india-pakistan/india-pakistan-brief.md",
+      "cutoff": "14 September 2026",
+      "kind": "Current scope brief",
+      "description": "Comparative secondary synthesis of the affordability, dietary practice, legitimacy, certification, and policy conditions that shape adoption. Proposes the comparative tests and forecast-question requirements that would follow."
+    },
+    {
       "id": "comparative-protein",
       "title": "Protein Transitions Across Unequal Food Systems",
       "path": "research/comparative-protein/index.html",

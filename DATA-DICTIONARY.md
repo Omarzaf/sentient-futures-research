@@ -29,6 +29,32 @@ Coordinates are approximate orientation aids. A hub record does not establish a 
 
 Original source registers use collection-specific `id` values. They contain titles, authors or issuers, dates, URLs/DOIs, source types, access notes, limitations, and other research annotations. The AI/protein register's `number` is the displayed reference number; the comparative register uses `referenceNumber`.
 
+The India–Pakistan review register, [source-register.json](research/india-pakistan/source-register.json), holds 20
+records from the 14 September 2026 review. Records were collected in three batches with differing field names and are
+normalized here to one schema; no record content was dropped in that normalization.
+
+| Field | Meaning |
+| --- | --- |
+| `id` | Review-specific record identifier |
+| `title`, `authors`, `date`, `year`, `doi`, `url` | Bibliographic identity; `url` is the primary public location |
+| `additional_urls` | Further pages, full-text mirrors, and official landing pages for the same source |
+| `type` | Source category as recorded in the review |
+| `country` | Country the record was collected for, where the batch recorded one |
+| `citation` | Journal, volume, issue, article, publisher, or document number, where applicable |
+| `access` | What was actually opened and, for three records, the page-level check performed |
+| `locations_checked` | Pages, tables, figures, or sections inspected |
+| `sample` | Study sample or measure, for records where the batch recorded one |
+| `findings` | Statements attributed to the source |
+| `limitations` | What the source does not establish |
+| `funding` | Funding or conflict-of-interest statements found, or their absence |
+| `excerpt` | Short verbatim phrase retained for locating the claim |
+| `use_in_synthesis` | How the review intended to use the record |
+| `review_batch` | Originating batch file |
+| `accessed`, `human_verification` | Access date and review state; all records remain `Pending` |
+
+Some records are supplementary and are not cited in the brief. A populated `access` field records that a page was
+opened during AI-assisted review, not that a human has verified the claim.
+
 [claim-ledger.json](research/comparative-protein/claim-ledger.json) contains cited passages with `id`, `text`, `sourceIds`, and `humanReview`. A cited passage can combine evidence and the report's interpretation. Pending review remains pending. Its original image-caption passages describe the pre-curation version; the images themselves are omitted and those records are retained for provenance.
 
 The combined [catalog](sources/catalog.json) contains normalized source identities and their original document occurrences. It is an index, not a new empirical dataset. Source access and bibliographic completeness vary by record.

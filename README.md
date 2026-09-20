@@ -4,12 +4,13 @@ Research drafts, data, and source references maintained by **Muhammad Umar Zafar
 
 **Start with [the research library](index.html)** or the document links below. HTML files render when downloaded and opened in a browser; GitHub's file viewer displays their source. The Markdown literature review and policy table can be read directly on GitHub.
 
-These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is an India–Pakistan consumption brief with related forecast-methodology work; the broader research below is background for that direction. [Current scope](CURRENT-SCOPE.md).
+These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the India–Pakistan consumption brief below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
 
 ## Research
 
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
+| [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
 | [Protein Transitions Across Unequal Food Systems](research/comparative-protein/README.md) | Comparative synthesis; supply data, adoption, research and talent policy, charts, and capability locators | 13 Sep 2026 |
 | [AI and the Protein Transition](research/ai-protein/literature-review.md) | Literature review connecting technical progress, adoption, displacement, and policy | 11 Sep 2026 |
 | [Policy Evidence to Decision Table](research/ai-protein/policy-decisions.md) | Six conditional policy discussion areas and evidence that would alter them | 11 Sep 2026 |
@@ -19,11 +20,11 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 ## Sources and data
 
 - [Searchable source catalog](sources/index.html), [CSV index](sources/catalog.csv), and [JSON catalog](sources/catalog.json): public references retained in the included research, with occurrences linking back to original source IDs.
-- Original registers: [60 comparative-report records](research/comparative-protein/source-register.json) and [44 literature-foundation records](research/ai-protein/source-register.json).
+- Original registers: [20 India–Pakistan review records](research/india-pakistan/source-register.json), [60 comparative-report records](research/comparative-protein/source-register.json), and [44 literature-foundation records](research/ai-protein/source-register.json).
 - [Country supply CSV](research/comparative-protein/protein-data.csv), [figure inputs and provenance](research/comparative-protein/figure-data.json), and [data dictionary](DATA-DICTIONARY.md).
 - [Cited-passage review ledger](research/comparative-protein/claim-ledger.json) and [RIS bibliography](research/ai-protein/references.ris).
 
-The country file has 12 populated cases and one missing case. Supply is not measured dietary intake; capability locations are not employment rankings. The source catalog covers this curated collection, not every private note or every publication in the field. Third-party originals remain at their source links.
+The country file has 12 populated cases and one missing case, and does not include Pakistan. Supply is not measured dietary intake; capability locations are not employment rankings. The India–Pakistan brief reads each country's statistics within its own survey design rather than placing them on a single intake scale. The source catalog covers this curated collection, not every private note or every publication in the field. Third-party originals remain at their source links.
 
 ## Read locally
 
