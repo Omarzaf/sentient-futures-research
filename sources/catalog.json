@@ -1,7 +1,7 @@
 {
   "description": "Inventory of public references retained in the included research. It is not a fresh source audit or an exhaustive field bibliography.",
-  "originalRegisterRecords": 104,
-  "uniqueSourceIdentities": 143,
+  "originalRegisterRecords": 124,
+  "uniqueSourceIdentities": 159,
   "records": [
     {
       "id": "SRC-001",
@@ -666,6 +666,33 @@
     },
     {
       "id": "SRC-020",
+      "key": "doi:10.1016/j.heliyon.2023.e19518",
+      "title": "Households food consumption pattern in Pakistan: Evidence from recent household integrated economic survey",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10481291/",
+      "doi": "10.1016/j.heliyon.2023.e19518",
+      "type": "Academic article",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "mustafa-hayat-2023-hies-demand",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "National-level model only, eight food groups only. Does not include consumer acceptance of alternative proteins. Underlying microdata not re-run in this task.",
+          "funding": "Visible article note: 'The authors extend their appreciation to The Researchers Supporting Project number (RSP2023R443) King Saud University, Riyadh, Saudi Arabia.' PubMed conflict statement: authors declare no known competing financial interests or personal relationships. Focused searches of PubMed, ScienceDirect, OpenAlex, DOAJ, and correction/retraction queries found no correction or retraction notice as of 2026-09-14.",
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-021",
       "key": "doi:10.1016/j.isci.2021.102229",
       "title": "Behavioral and neurophysiological evidence suggests affective pain experience in octopus",
       "url": "https://doi.org/10.1016/j.isci.2021.102229",
@@ -699,7 +726,7 @@
       ]
     },
     {
-      "id": "SRC-021",
+      "id": "SRC-022",
       "key": "doi:10.1016/j.jclepro.2021.127177",
       "title": "Life cycle assessment of burger patties produced with extruded meat substitutes",
       "url": "https://doi.org/10.1016/j.jclepro.2021.127177",
@@ -733,7 +760,7 @@
       ]
     },
     {
-      "id": "SRC-022",
+      "id": "SRC-023",
       "key": "doi:10.1016/j.jenvp.2021.101589",
       "title": "Price of change: Does a small alteration to the price of meat and vegetarian options affect their sales?",
       "url": "https://doi.org/10.1016/j.jenvp.2021.101589",
@@ -774,7 +801,7 @@
       ]
     },
     {
-      "id": "SRC-023",
+      "id": "SRC-024",
       "key": "doi:10.1016/j.jenvp.2023.102226",
       "title": "Can you default to vegan? Plant-based defaults to change dining practices on college campuses",
       "url": "https://doi.org/10.1016/j.jenvp.2023.102226",
@@ -815,7 +842,7 @@
       ]
     },
     {
-      "id": "SRC-024",
+      "id": "SRC-025",
       "key": "doi:10.1016/j.meatsci.2019.107924",
       "title": "Consumer acceptance of cultured meat in Germany",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31732401/",
@@ -845,7 +872,7 @@
       ]
     },
     {
-      "id": "SRC-025",
+      "id": "SRC-026",
       "key": "doi:10.1016/j.sciaf.2022.e01304",
       "title": "Planetary health and the promises of plant-based meat from a sub-Saharan African perspective: A review",
       "url": "https://www.sciencedirect.com/science/article/pii/S2468227622002113",
@@ -875,7 +902,7 @@
       ]
     },
     {
-      "id": "SRC-026",
+      "id": "SRC-027",
       "key": "doi:10.1016/j.scitotenv.2023.164988",
       "title": "Toward sustainable culture media: Using artificial intelligence to optimize reduced-serum formulations for cultivated meat",
       "url": "https://doi.org/10.1016/j.scitotenv.2023.164988",
@@ -909,7 +936,7 @@
       ]
     },
     {
-      "id": "SRC-027",
+      "id": "SRC-028",
       "key": "doi:10.1016/j.spc.2022.11.008",
       "title": "Why can't the alternative become mainstream? Unpacking the barriers and enablers of sustainable protein innovation in Brazil",
       "url": "https://www.sciencedirect.com/science/article/pii/S2352550922003049",
@@ -936,7 +963,7 @@
       ]
     },
     {
-      "id": "SRC-028",
+      "id": "SRC-029",
       "key": "doi:10.1017/aae.2023.36",
       "title": "The alternative livestock revolution: Prospects for consumer acceptance of plant-based and cultured meat in South Africa",
       "url": "https://www.cambridge.org/core/journals/journal-of-agricultural-and-applied-economics/article/alternative-livestock-revolution-prospects-for-consumer-acceptance-of-plantbased-and-cultured-meat-in-south-africa/A79AF7AC795CF15549EFDB3AC7A1B380",
@@ -966,7 +993,7 @@
       ]
     },
     {
-      "id": "SRC-029",
+      "id": "SRC-030",
       "key": "doi:10.1017/awf.2023.4",
       "title": "Estimating global numbers of farmed fishes killed for food annually from 1990 to 2019",
       "url": "https://doi.org/10.1017/awf.2023.4",
@@ -1007,7 +1034,7 @@
       ]
     },
     {
-      "id": "SRC-030",
+      "id": "SRC-031",
       "key": "doi:10.1021/acs.est.5b01614",
       "title": "Anticipatory Life Cycle Analysis of In Vitro Biomass Cultivation for Cultured Meat Production in the United States",
       "url": "https://doi.org/10.1021/acs.est.5b01614",
@@ -1041,7 +1068,7 @@
       ]
     },
     {
-      "id": "SRC-031",
+      "id": "SRC-032",
       "key": "doi:10.1021/acsfoodscitech.4c00281",
       "title": "Environmental Impacts of Cultured Meat: A Cradle-to-Gate Life Cycle Assessment",
       "url": "https://doi.org/10.1021/acsfoodscitech.4c00281",
@@ -1082,7 +1109,7 @@
       ]
     },
     {
-      "id": "SRC-032",
+      "id": "SRC-033",
       "key": "doi:10.1021/es200130u",
       "title": "Environmental Impacts of Cultured Meat Production",
       "url": "https://doi.org/10.1021/es200130u",
@@ -1116,7 +1143,7 @@
       ]
     },
     {
-      "id": "SRC-033",
+      "id": "SRC-034",
       "key": "doi:10.1038/s41467-025-58475-1",
       "title": "Associations between national plant-based vs animal-based protein supplies and age-specific mortality in human populations",
       "url": "https://www.nature.com/articles/s41467-025-58475-1",
@@ -1143,7 +1170,7 @@
       ]
     },
     {
-      "id": "SRC-034",
+      "id": "SRC-035",
       "key": "doi:10.1038/s41538-026-00841-4",
       "title": "Trends, challenges, and opportunities for the United States alternative meat and seafood sector: stakeholder-informed perspectives",
       "url": "https://www.nature.com/articles/s41538-026-00841-4",
@@ -1170,7 +1197,7 @@
       ]
     },
     {
-      "id": "SRC-035",
+      "id": "SRC-036",
       "key": "doi:10.1038/s41586-021-03819-2",
       "title": "Highly accurate protein structure prediction with AlphaFold",
       "url": "https://doi.org/10.1038/s41586-021-03819-2",
@@ -1204,7 +1231,7 @@
       ]
     },
     {
-      "id": "SRC-036",
+      "id": "SRC-037",
       "key": "doi:10.1038/s41586-022-04629-w",
       "title": "Projected environmental benefits of replacing beef with microbial protein",
       "url": "https://doi.org/10.1038/s41586-022-04629-w",
@@ -1238,13 +1265,23 @@
       ]
     },
     {
-      "id": "SRC-037",
+      "id": "SRC-038",
       "key": "doi:10.1038/s41598-022-16996-5",
       "title": "Most plant-based meat alternative buyers also buy meat: an analysis of household demographics, habit formation, and buying behavior among meat alternative buyers",
-      "url": "https://www.nature.com/articles/s41598-022-16996-5",
+      "url": "https://doi.org/10.1038/s41598-022-16996-5",
       "doi": "10.1038/s41598-022-16996-5",
-      "type": "peer-reviewed household scanner-data study",
+      "type": "Peer reviewed article",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "NEUHOFER2022",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Full text XML retrieved and inspected",
+          "limitations": "Observational purchase data, selected product categories and COVID period; no causal displacement estimate or transportable South Asian effect size.",
+          "funding": "No funding statement identified in retrieved full text. Authors declare no competing interests. IRI data cannot be redistributed under the authors' contract.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "Comparative protein synthesis",
           "sourceId": "A07",
@@ -1295,11 +1332,18 @@
           "sourceId": null,
           "recordPath": "research/comparative-protein/index.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-038",
+      "id": "SRC-039",
       "key": "doi:10.1038/s42003-022-03423-8",
       "title": "Simple and effective serum-free medium for sustained expansion of bovine satellite cells for cell cultured meat",
       "url": "https://doi.org/10.1038/s42003-022-03423-8",
@@ -1333,7 +1377,7 @@
       ]
     },
     {
-      "id": "SRC-039",
+      "id": "SRC-040",
       "key": "doi:10.1038/s43016-022-00658-w",
       "title": "Spontaneous immortalization of chicken fibroblasts generates stable, high-yield cell lines for serum-free production of cultured meat",
       "url": "https://doi.org/10.1038/s43016-022-00658-w",
@@ -1367,7 +1411,7 @@
       ]
     },
     {
-      "id": "SRC-040",
+      "id": "SRC-041",
       "key": "doi:10.1038/s43016-024-01022-w",
       "title": "Empirical economic analysis shows cost-effective continuous manufacturing of cultivated chicken using animal-free medium",
       "url": "https://www.nature.com/articles/s43016-024-01022-w",
@@ -1394,7 +1438,7 @@
       ]
     },
     {
-      "id": "SRC-041",
+      "id": "SRC-042",
       "key": "doi:10.1088/1748-9326/ac4fda",
       "title": "Impact of plant-based meat alternatives on cattle inventories and greenhouse gas emissions",
       "url": "https://doi.org/10.1088/1748-9326/ac4fda",
@@ -1435,7 +1479,7 @@
       ]
     },
     {
-      "id": "SRC-042",
+      "id": "SRC-043",
       "key": "doi:10.1093/ajcn/nqaa203",
       "title": "A randomized crossover trial on the effect of plant-based compared with animal-based meat on trimethylamine-N-oxide and cardiovascular disease risk factors in generally healthy adults: Study With Appetizing Plantfood-Meat Eating Alternative Trial (SWAP-MEAT)",
       "url": "https://doi.org/10.1093/ajcn/nqaa203",
@@ -1469,7 +1513,7 @@
       ]
     },
     {
-      "id": "SRC-043",
+      "id": "SRC-044",
       "key": "doi:10.1111/jhn.13092",
       "title": "Plant-based meats in China: a cross-sectional study of attitudes and behaviours",
       "url": "https://pubmed.ncbi.nlm.nih.gov/36151900/",
@@ -1499,13 +1543,23 @@
       ]
     },
     {
-      "id": "SRC-044",
+      "id": "SRC-045",
       "key": "doi:10.1126/sciadv.adp1528",
       "title": "Wisdom of the silicon crowd: LLM ensemble prediction capabilities rival human crowd accuracy",
       "url": "https://doi.org/10.1126/sciadv.adp1528",
       "doi": "10.1126/sciadv.adp1528",
-      "type": "peer-reviewed primary AI forecasting study",
+      "type": "Peer reviewed article",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "SCHOENEGGER2024",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Published full text PDF inspected",
+          "limitations": "Does not validate long-run India–Pakistan protein-consumption forecasts, cultural simulation, or general equivalence to expert superforecasters.",
+          "funding": "Forecasting Research Institute. Schoenegger disclosed being a Pro Forecaster at Metaculus.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "AI/protein literature foundation",
           "sourceId": "schoenegger_tuminauskaite_park_bastos_tetlock_2024_silicon_crowd",
@@ -1536,11 +1590,18 @@
           "sourceId": null,
           "recordPath": "research/ai-protein/source-library.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-045",
+      "id": "SRC-046",
       "key": "doi:10.1146/annurev-animal-021022-055132",
       "title": "Cultivated Meat: Progress and Remaining Challenges",
       "url": "https://doi.org/10.1146/annurev-animal-021022-055132",
@@ -1582,7 +1643,7 @@
       ]
     },
     {
-      "id": "SRC-046",
+      "id": "SRC-047",
       "key": "doi:10.1177/1745691615577794",
       "title": "Identifying and Cultivating Superforecasters as a Method of Improving Probabilistic Predictions",
       "url": "https://doi.org/10.1177/1745691615577794",
@@ -1623,7 +1684,7 @@
       ]
     },
     {
-      "id": "SRC-047",
+      "id": "SRC-048",
       "key": "doi:10.17159/sajs.2025/17116",
       "title": "Mapping underutilised and emerging food sources and technologies as solutions to food insecurity in South Africa",
       "url": "https://www.scielo.org.za/scielo.php?pid=S0038-23532025000400011&script=sci_arttext",
@@ -1650,7 +1711,34 @@
       ]
     },
     {
-      "id": "SRC-048",
+      "id": "SRC-049",
+      "key": "doi:10.17509/ajsee.v2i1.38766",
+      "title": "Attitudes and Perceptions Towards Cultured Meat Among General Population in Pakistan",
+      "url": "https://ejournal.upi.edu/index.php/AJSEE/article/view/38766",
+      "doi": "10.17509/ajsee.v2i1.38766",
+      "type": "Academic article",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "ahsan-uzair-ali-cultured-meat-pakistan",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Not nationally representative. Online/social-media sampling, young and male-heavy. No tasting; intention and perception only. PDF footer has placeholder DOI text, but journal metadata provides DOI. Recommended use: omit headline 27.1% acceptance percentage except in a caveated source note; use item-level willingness and barrier figures instead.",
+          "funding": "Authors declare no conflict of interest.",
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-050",
       "key": "doi:10.1787/47874669-en",
       "title": "OECD–FAO Agricultural Outlook 2026–2035: Agricultural and food markets: Trends and prospects",
       "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/agricultural-and-food-markets-trends-and-prospects_c5cd366b.html",
@@ -1677,7 +1765,7 @@
       ]
     },
     {
-      "id": "SRC-049",
+      "id": "SRC-051",
       "key": "doi:10.32747/2026.9458833.ers",
       "title": "Precision Dairy Farming, Robotic Milking, and Profitability in the United States",
       "url": "https://ers.usda.gov/publications/113704",
@@ -1711,13 +1799,23 @@
       ]
     },
     {
-      "id": "SRC-050",
+      "id": "SRC-052",
       "key": "doi:10.3389/fsufs.2019.00011",
       "title": "A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China",
-      "url": "https://doi.org/10.3389/fsufs.2019.00011",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
       "doi": "10.3389/fsufs.2019.00011",
-      "type": "peer-reviewed cross-country online survey",
+      "type": "Peer reviewed survey",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "bryant-et-al-2019-india-plant-clean-meat-survey",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Stated intention, not buying, repeat buying, or displacement. Skewed online sample; not nationally representative beyond age/gender quotas. Authors warn about self-report, future-behavior prediction, and social-desirability bias.",
+          "funding": "Funded by Animal Advocacy Research Fund; conflict statement notes author roles/ties with The Good Food Institute and cellular-agriculture advocacy.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "Comparative protein synthesis",
           "sourceId": "A03",
@@ -1737,11 +1835,18 @@
           "sourceId": null,
           "recordPath": "research/comparative-protein/index.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-051",
+      "id": "SRC-053",
       "key": "doi:10.3389/fsufs.2021.678491",
       "title": "Don't Have a Cow, Man: Consumer Acceptance of Animal-Free Dairy Products in Five Countries",
       "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.678491/full",
@@ -1771,7 +1876,7 @@
       ]
     },
     {
-      "id": "SRC-052",
+      "id": "SRC-054",
       "key": "doi:10.3389/fsufs.2024.1303448",
       "title": "Price above all else: an analysis of expert opinion on the priority actions to scale up production and consumption of plant-based meat in Brazil",
       "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1303448/full",
@@ -1798,13 +1903,50 @@
       ]
     },
     {
-      "id": "SRC-053",
+      "id": "SRC-055",
+      "key": "doi:10.3390/nu14163292",
+      "title": "Understanding Key Factors Influencing Consumers' Willingness to Try, Buy, and Pay a Price Premium for Mycoproteins",
+      "url": "https://www.mdpi.com/2072-6643/14/16/3292",
+      "doi": "10.3390/nu14163292",
+      "type": "Academic article",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "dean-rombach-mycoprotein-2022",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Pooled multinational model, not Pakistan-specific estimates. Online recruitment and stated willingness. Not precision-fermentation evidence for dairy/egg proteins.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-056",
       "key": "doi:10.3390/su12114377",
       "title": "Is India Ready for Alt-Meat? Preferences and Willingness to Pay for Meat Alternatives",
       "url": "https://www.mdpi.com/2071-1050/12/11/4377",
       "doi": "10.3390/su12114377",
-      "type": "peer-reviewed discrete choice experiment",
+      "type": "Peer reviewed discrete choice experiment",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "arora-brent-jaenicke-2020-india-alt-meat-wtp",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Direct MDPI HTML/PDF/XML requests returned access-denied pages in this environment; the web crawl exposed article sections and metadata. Crossref lists only the MDPI version-of-record PDF and no archive. Searches found Penn State Pure/RePEc/EconPapers metadata records but no primary author institutional full text. Treat as bounded citation: DOI/publisher citation is safe, but avoid unverified table-page claims.",
+          "limitations": "Mumbai-only sample; not nationally representative. Stated preference / willingness-to-pay experiment, not real purchase, adoption, or displacement. At study time, authors characterized India's plant-based meat market as small and cell-based meat market as nonexistent.",
+          "funding": "Funded by Penn State College of Agricultural Sciences Competitive Grant Program and Department of International Agriculture Special Initiative Funds; authors declare no conflicts of interest.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "Comparative protein synthesis",
           "sourceId": "A10",
@@ -1824,11 +1966,18 @@
           "sourceId": null,
           "recordPath": "research/comparative-protein/index.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-054",
+      "id": "SRC-057",
       "key": "doi:10.3724/bnsfc-2025.04.08.0003",
       "title": "食品化工核心技术的关键科学问题 [Key scientific issues in the core technologies of food chemical engineering]",
       "url": "https://www.nsfc.gov.cn/csc/20345/20348/pdf/2025/202505-799-806.pdf",
@@ -1855,7 +2004,7 @@
       ]
     },
     {
-      "id": "SRC-055",
+      "id": "SRC-058",
       "key": "doi:10.3758/s13428-023-02307-x",
       "title": "Diminished diversity-of-thought in a standard large language model",
       "url": "https://doi.org/10.3758/s13428-023-02307-x",
@@ -1896,7 +2045,7 @@
       ]
     },
     {
-      "id": "SRC-056",
+      "id": "SRC-059",
       "key": "doi:10.4060/cc3912en",
       "title": "Contribution of terrestrial animal source food to healthy diets for improved nutrition and health outcomes: An evidence and policy overview on the state of knowledge and gaps",
       "url": "https://www.fao.org/3/cc3912en/cc3912en.pdf",
@@ -1923,7 +2072,7 @@
       ]
     },
     {
-      "id": "SRC-057",
+      "id": "SRC-060",
       "key": "doi:10.4060/cd4313en",
       "title": "World Food and Agriculture – Statistical Yearbook 2025",
       "url": "https://openknowledge.fao.org/3/cd4313en/cd4313en.pdf",
@@ -1950,7 +2099,7 @@
       ]
     },
     {
-      "id": "SRC-058",
+      "id": "SRC-061",
       "key": "doi:10.48550/arxiv.2402.18563",
       "title": "Approaching Human-Level Forecasting with Language Models",
       "url": "https://arxiv.org/abs/2402.18563",
@@ -1991,7 +2140,7 @@
       ]
     },
     {
-      "id": "SRC-059",
+      "id": "SRC-062",
       "key": "url:https://aifs.ucdavis.edu/about/aifs",
       "title": "AI Institute for Next Generation Food Systems",
       "url": "https://aifs.ucdavis.edu/about/aifs",
@@ -2026,7 +2175,7 @@
       ]
     },
     {
-      "id": "SRC-060",
+      "id": "SRC-063",
       "key": "url:https://altprotein.jobs/career-hiring-report",
       "title": "AltProtein.Jobs Career and Hiring Report 2025",
       "url": "https://altprotein.jobs/career-hiring-report",
@@ -2068,7 +2217,27 @@
       ]
     },
     {
-      "id": "SRC-061",
+      "id": "SRC-064",
+      "key": "url:https://cb.apps.fao.org/country.jsp?code=PAK",
+      "title": "Country Brief: Pakistan",
+      "url": "https://cb.apps.fao.org/country.jsp?code=PAK",
+      "doi": null,
+      "type": "Official international food security",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "fao-giews-pakistan-2026-02",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Food security and price context, not protein consumption data. IPC estimates apply to acute food insecurity populations and periods.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-065",
       "key": "url:https://cedelft.eu/publications/tea-of-cultivated-meat",
       "title": "CE Delft techno-economic analysis",
       "url": "https://cedelft.eu/publications/tea-of-cultivated-meat/",
@@ -2094,7 +2263,7 @@
       ]
     },
     {
-      "id": "SRC-062",
+      "id": "SRC-066",
       "key": "url:https://coefficientgiving.org/funds/farm-animal-welfare/alternatives-to-animal-products",
       "title": "Coefficient Giving alternatives-to-animal-products programme",
       "url": "https://coefficientgiving.org/funds/farm-animal-welfare/alternatives-to-animal-products/",
@@ -2120,7 +2289,7 @@
       ]
     },
     {
-      "id": "SRC-063",
+      "id": "SRC-067",
       "key": "url:https://coefficientgiving.org/funds/farm-animal-welfare/request-for-proposals-alternative-protein-rd",
       "title": "Coefficient Giving alternative-protein R&D RFP",
       "url": "https://coefficientgiving.org/funds/farm-animal-welfare/request-for-proposals-alternative-protein-rd/",
@@ -2146,7 +2315,54 @@
       ]
     },
     {
-      "id": "SRC-064",
+      "id": "SRC-068",
+      "key": "url:https://data.fao.org/catalog/iso/2f264bb6-1238-459a-bf8b-0e2d0a16804a",
+      "title": "Food balances (Global, National - 2010-2023 - Annual) - FAOSTAT",
+      "url": "https://data.fao.org/catalog/iso/2f264bb6-1238-459a-bf8b-0e2d0a16804a",
+      "doi": null,
+      "type": "Official international dataset",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "fao-faostat-food-balances-india-2023",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Food balances estimate supply available for human consumption, not actual individual intake. National averages hide distributional heterogeneity. Rows include estimated/imputed flags.",
+          "funding": "FAO statistical database under CC-BY-4.0; no study conflict statement.",
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-069",
+      "key": "url:https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf",
+      "title": "National Family Health Survey (NFHS-5), 2019-21: India: Volume I",
+      "url": "https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf",
+      "doi": null,
+      "type": "Official survey report",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "india-nfhs5-food-consumption-2019-21",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "The IIPS landing page was readable and links to rchiips.org. Direct rchiips HTTPS fetch returned 404 in this environment; DHS mirror PDF was downloaded and text-extracted. Table 10.25 on printed p. 437 explicitly covers women and men age 15-49. It reports women n=724,115 and men n=93,144. Women Fish, chicken or meat is 5.9 daily plus 39.3 weekly in Table 10.25, while Table 10.26.1 total at least once a week is 45.1; use the report's tabulated 45.1 for at-least-weekly claims. Men Fish, chicken or meat is 8.0 daily plus 49.3 weekly = 57.3 and Table 10.26.2 total age 15-49 also reports 57.3. Religion rows are on printed p. 438.",
+          "limitations": "Self-reported frequency only; no portion size, grams, calories, purchase, price, outlet, or brand. Do not infer robust vegetarian identity or national vegetarian prevalence from the fish/chicken/meat frequency proxy. Men's individual survey response-rate section covers eligible men age 15-54, but cited food-consumption tables are explicitly women and men age 15-49.",
+          "funding": "Funding by Government of India / MoHFW; technical assistance by ICF through the USAID-funded DHS Program; ICMR/NARI support for DBS component.",
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-070",
       "key": "url:https://en.fvm.dk/news-and-contact/focus-on/action-plan-on-plant-based-foods",
       "title": "Action Plan on Plant-Based Foods",
       "url": "https://en.fvm.dk/news-and-contact/focus-on/action-plan-on-plant-based-foods",
@@ -2173,7 +2389,7 @@
       ]
     },
     {
-      "id": "SRC-065",
+      "id": "SRC-071",
       "key": "url:https://engrxiv.org/preprint/download/1438/2973/2173",
       "title": "Humbird techno-economic analysis",
       "url": "https://engrxiv.org/preprint/download/1438/2973/2173",
@@ -2199,7 +2415,24 @@
       ]
     },
     {
-      "id": "SRC-066",
+      "id": "SRC-072",
+      "key": "url:https://eprints.lse.ac.uk/125626/1/sciadv.adp1528.pdf",
+      "title": "Published full text",
+      "url": "https://eprints.lse.ac.uk/125626/1/sciadv.adp1528.pdf",
+      "doi": null,
+      "type": "Public link requiring bibliographic completion",
+      "occurrences": [
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-073",
       "key": "url:https://faunalytics.org/animal-product-impact-scales-2026-updated-u-s-estimates-and-the-u-k-s-first-animal-product-impact-data",
       "title": "Animal Product Impact Scales 2026 Updated U.S. Estimates And The U.K.’s First Animal Product Impact Data",
       "url": "https://faunalytics.org/animal-product-impact-scales-2026-updated-u-s-estimates-and-the-u-k-s-first-animal-product-impact-data/",
@@ -2233,7 +2466,7 @@
       ]
     },
     {
-      "id": "SRC-067",
+      "id": "SRC-074",
       "key": "url:https://food.ec.europa.eu/food-safety/novel-food/legislation_en",
       "title": "Novel Food legislation: Regulation (EU) 2015/2283 and implementing acts",
       "url": "https://food.ec.europa.eu/food-safety/novel-food/legislation_en",
@@ -2274,7 +2507,7 @@
       ]
     },
     {
-      "id": "SRC-068",
+      "id": "SRC-075",
       "key": "url:https://foresight4food.net",
       "title": "Foresight4Food",
       "url": "https://foresight4food.net/",
@@ -2300,7 +2533,7 @@
       ]
     },
     {
-      "id": "SRC-069",
+      "id": "SRC-076",
       "key": "url:https://foresight4food.net/wp-content/uploads/2026/03/FS4F_Criteria-for-High-Quality-Guide-Feb-2026.pdf",
       "title": "Criteria for High-Quality Food Systems Foresight",
       "url": "https://foresight4food.net/wp-content/uploads/2026/03/FS4F_Criteria-for-High-Quality-Guide-Feb-2026.pdf",
@@ -2326,7 +2559,7 @@
       ]
     },
     {
-      "id": "SRC-070",
+      "id": "SRC-077",
       "key": "url:https://gfi-india.org/resource/smart-protein-skills-mapping",
       "title": "Smart Protein Skills Mapping",
       "url": "https://gfi-india.org/resource/smart-protein-skills-mapping/",
@@ -2352,7 +2585,7 @@
       ]
     },
     {
-      "id": "SRC-071",
+      "id": "SRC-078",
       "key": "url:https://gfi.org/blog/alternative-protein-startups-underscore-the-need-for-scientific-and-engineering-talent",
       "title": "Alternative-protein startups’ talent needs",
       "url": "https://gfi.org/blog/alternative-protein-startups-underscore-the-need-for-scientific-and-engineering-talent/",
@@ -2378,7 +2611,7 @@
       ]
     },
     {
-      "id": "SRC-072",
+      "id": "SRC-079",
       "key": "url:https://gfi.org/resource/investment-methodology",
       "title": "GFI investment methodology",
       "url": "https://gfi.org/resource/investment-methodology/",
@@ -2413,7 +2646,7 @@
       ]
     },
     {
-      "id": "SRC-073",
+      "id": "SRC-080",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
       "title": "GFI 2026 Fermentation State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
@@ -2455,7 +2688,7 @@
       ]
     },
     {
-      "id": "SRC-074",
+      "id": "SRC-081",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
       "title": "GFI 2026 Plant-Based State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
@@ -2497,7 +2730,7 @@
       ]
     },
     {
-      "id": "SRC-075",
+      "id": "SRC-082",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
       "title": "GFI 2026 State of Global Policy",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
@@ -2539,7 +2772,7 @@
       ]
     },
     {
-      "id": "SRC-076",
+      "id": "SRC-083",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
       "title": "GFI 2026 Cultivated Meat State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
@@ -2581,7 +2814,7 @@
       ]
     },
     {
-      "id": "SRC-077",
+      "id": "SRC-084",
       "key": "url:https://gfieurope.org/de/blog/private-investitionen-alternative-proteine",
       "title": "GFI Europe H1 2026 private investment update",
       "url": "https://gfieurope.org/de/blog/private-investitionen-alternative-proteine/",
@@ -2607,7 +2840,7 @@
       ]
     },
     {
-      "id": "SRC-078",
+      "id": "SRC-085",
       "key": "url:https://gfieurope.org/resource/state-of-the-european-alternative-protein-research-ecosystem-funding-and-publications",
       "title": "GFI Europe public R&I funding tracker",
       "url": "https://gfieurope.org/resource/state-of-the-european-alternative-protein-research-ecosystem-funding-and-publications/",
@@ -2633,7 +2866,7 @@
       ]
     },
     {
-      "id": "SRC-079",
+      "id": "SRC-086",
       "key": "url:https://github.com/magpiemodel/magpie",
       "title": "MAgPIE model repository and documentation",
       "url": "https://github.com/magpiemodel/magpie",
@@ -2659,7 +2892,7 @@
       ]
     },
     {
-      "id": "SRC-080",
+      "id": "SRC-087",
       "key": "url:https://globiom.org/documentation.html",
       "title": "GLOBIOM documentation",
       "url": "https://globiom.org/documentation.html",
@@ -2685,7 +2918,7 @@
       ]
     },
     {
-      "id": "SRC-081",
+      "id": "SRC-088",
       "key": "url:https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods",
       "title": "FDA inventory of completed premarket consultations",
       "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods",
@@ -2711,7 +2944,7 @@
       ]
     },
     {
-      "id": "SRC-082",
+      "id": "SRC-089",
       "key": "url:https://innovationisrael.org.il/winner/cultivate-meat",
       "title": "בשר מתורבת [Cultivated meat consortium]",
       "url": "https://innovationisrael.org.il/winner/cultivate-meat/",
@@ -2738,7 +2971,7 @@
       ]
     },
     {
-      "id": "SRC-083",
+      "id": "SRC-090",
       "key": "url:https://ised-isde.canada.ca/site/global-innovation-clusters/en/node/83",
       "title": "Ecosystem insight to build effective and relevant workforce solutions",
       "url": "https://ised-isde.canada.ca/site/global-innovation-clusters/en/node/83",
@@ -2765,7 +2998,7 @@
       ]
     },
     {
-      "id": "SRC-084",
+      "id": "SRC-091",
       "key": "url:https://law.justia.com/cases/federal/appellate-courts/ca11/24-13640/24-13640-2026-03-23.html",
       "title": "Eleventh Circuit opinion in UPSIDE Foods v",
       "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/24-13640/24-13640-2026-03-23.html",
@@ -2791,13 +3024,23 @@
       ]
     },
     {
-      "id": "SRC-085",
+      "id": "SRC-092",
       "key": "url:https://mospi.gov.in/sites/default/files/press_release/press_note_Nutritional%20Intake%20in%20India_02072025.pdf",
-      "title": "Household Consumption Expenditure Survey: 2022–23 & 2023–24 — Nutritional Intake in India",
+      "title": "Household Consumption Expenditure Survey: 2022-23 & 2023-24: Nutritional Intake in India",
       "url": "https://mospi.gov.in/sites/default/files/press_release/press_note_Nutritional%20Intake%20in%20India_02072025.pdf",
       "doi": null,
-      "type": "Government statistical release",
+      "type": "Official statistics press note",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "india-mospi-hces-nutritional-intake-2025",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Table 1 on printed p. 2 labels 61.8/63.4 as per-capita-per-day 2023-24 protein. Table 3 on printed p. 7 places the same 61.8/63.4 under unadjusted, with adjusted 2023-24 protein at 61.2 rural and 62.9 urban. Rendered printed p. 5 confirms Figure 5R 2023-24 rural cereals 45.9 and egg/fish/meat 12.4; Figure 5U 2023-24 urban cereals 38.7 and egg/fish/meat 14.1.",
+          "limitations": "Nutrient estimates are generated from household food-consumption data and nutrient-content values, not individual dietary recalls. Household consumption accounting required adjustment for meals served to non-household members and purchased cooked meals.",
+          "funding": "Government of India official statistics release; no conflict statement in press note.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "Comparative protein synthesis",
           "sourceId": "C12",
@@ -2814,11 +3057,45 @@
           "sourceId": null,
           "recordPath": "research/comparative-protein/index.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-086",
+      "id": "SRC-093",
+      "key": "url:https://pakistanhalalauthority.gov.pk/intro.aspx",
+      "title": "Pakistan Halal Authority official pages",
+      "url": "https://pakistanhalalauthority.gov.pk/intro.aspx",
+      "doi": null,
+      "type": "Official regulator",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "pakistan-halal-authority-official",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Administrative source, not a juristic ruling. Absence from licensed list is not proof of prohibition or absence from commerce.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-094",
       "key": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC12026562",
       "title": "Plant-based meat analogues review",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12026562/",
@@ -2844,7 +3121,7 @@
       ]
     },
     {
-      "id": "SRC-087",
+      "id": "SRC-095",
       "key": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC3790135",
       "title": "Morphological analysis of food-system futures",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3790135/",
@@ -2870,7 +3147,7 @@
       ]
     },
     {
-      "id": "SRC-088",
+      "id": "SRC-096",
       "key": "url:https://resources.sentientfutures.ai/fellowships/aianimals",
       "title": "AI x Animals curriculum",
       "url": "https://resources.sentientfutures.ai/fellowships/aianimals",
@@ -2896,7 +3173,7 @@
       ]
     },
     {
-      "id": "SRC-089",
+      "id": "SRC-097",
       "key": "url:https://rethinkpriorities.org/research-area/ai-and-cultivated-meat",
       "title": "AI and Cultivated Meat. Near-Term Impacts of AI on the Commercial Viability of Cultivated Meat",
       "url": "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/",
@@ -2971,7 +3248,7 @@
       ]
     },
     {
-      "id": "SRC-090",
+      "id": "SRC-098",
       "key": "url:https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map",
       "title": "Blue Marble: Next Generation — Base Map",
       "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
@@ -2998,7 +3275,7 @@
       ]
     },
     {
-      "id": "SRC-091",
+      "id": "SRC-099",
       "key": "url:https://training-portal.nifa.usda.gov/web/crisprojectpages/1027058-cultured-10-leading-higher-education-initiatives-in-emerging-innovations-for-sustainable-food-production.html",
       "title": "CULTURED 1.0: Leading Higher Education Initiatives in Emerging Innovations for Sustainable Food Production",
       "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027058-cultured-10-leading-higher-education-initiatives-in-emerging-innovations-for-sustainable-food-production.html",
@@ -3025,7 +3302,7 @@
       ]
     },
     {
-      "id": "SRC-092",
+      "id": "SRC-100",
       "key": "url:https://training-portal.nifa.usda.gov/web/crisprojectpages/1027620-integrated-approaches-to-enhance-sustainability-resiliency-and-robustness-in-us-agri-food-systems.html",
       "title": "Integrated Approaches to Enhance Sustainability, Resiliency and Robustness in US Agri-Food Systems",
       "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027620-integrated-approaches-to-enhance-sustainability-resiliency-and-robustness-in-us-agri-food-systems.html",
@@ -3052,7 +3329,7 @@
       ]
     },
     {
-      "id": "SRC-093",
+      "id": "SRC-101",
       "key": "url:https://wfpc.sanford.duke.edu/reports/exploring-the-u-s-regulatory-and-legislative-landscapes-for-cell-cultivated-meat-and-seafood",
       "title": "Duke review of US cultivated-meat law",
       "url": "https://wfpc.sanford.duke.edu/reports/exploring-the-u-s-regulatory-and-legislative-landscapes-for-cell-cultivated-meat-and-seafood/",
@@ -3078,7 +3355,7 @@
       ]
     },
     {
-      "id": "SRC-094",
+      "id": "SRC-102",
       "key": "url:https://www-pub.iaea.org/mtcd/publications/pdf/nvs-3-cd/pdf/nvs3_scr.pdf",
       "title": "IAEA acquisition-path and indicator guidance",
       "url": "https://www-pub.iaea.org/mtcd/publications/pdf/nvs-3-cd/pdf/nvs3_scr.pdf",
@@ -3104,7 +3381,7 @@
       ]
     },
     {
-      "id": "SRC-095",
+      "id": "SRC-103",
       "key": "url:https://www.apac-sca.org/post/apac-sca-welcomes-singapore-s-approval-of-aleph-farms-cultivated-beef-marking-another-major-milest",
       "title": "Aleph Farms Singapore approval announcement",
       "url": "https://www.apac-sca.org/post/apac-sca-welcomes-singapore-s-approval-of-aleph-farms-cultivated-beef-marking-another-major-milest",
@@ -3130,7 +3407,7 @@
       ]
     },
     {
-      "id": "SRC-096",
+      "id": "SRC-104",
       "key": "url:https://www.ars.usda.gov/oc/images/copyright",
       "title": "image-use policy",
       "url": "https://www.ars.usda.gov/oc/images/copyright/",
@@ -3147,7 +3424,7 @@
       ]
     },
     {
-      "id": "SRC-097",
+      "id": "SRC-105",
       "key": "url:https://www.ars.usda.gov/oc/images/photos/featuredphoto/aug19/beans",
       "title": "D502-1: Dry beans",
       "url": "https://www.ars.usda.gov/oc/images/photos/featuredphoto/aug19/beans/",
@@ -3174,7 +3451,7 @@
       ]
     },
     {
-      "id": "SRC-098",
+      "id": "SRC-106",
       "key": "url:https://www.ars.usda.gov/oc/images/photos/nov21/d4744-1",
       "title": "D4744-1: A bioreactor conducting fermentation processes to produce ethanol",
       "url": "https://www.ars.usda.gov/oc/images/photos/nov21/d4744-1/",
@@ -3201,7 +3478,7 @@
       ]
     },
     {
-      "id": "SRC-099",
+      "id": "SRC-107",
       "key": "url:https://www.bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein",
       "title": "Bezos Earth Fund sustainable-protein initiative",
       "url": "https://www.bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein",
@@ -3227,13 +3504,23 @@
       ]
     },
     {
-      "id": "SRC-100",
+      "id": "SRC-108",
       "key": "url:https://www.birac.nic.in/cfp_view.php?id=98&scheme_type=46",
       "title": "DBT-BIRAC Joint Call for Proposals on 'Smart Proteins' for Fostering High Performance Biomanufacturing under BioE3 Policy",
       "url": "https://www.birac.nic.in/cfp_view.php?id=98&scheme_type=46",
       "doi": null,
-      "type": "official government call for proposals",
+      "type": "Official policy call",
       "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "birac-dbt-smart-proteins-call-2025",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Call for proposals is not evidence of product approval, consumer adoption, safety clearance, retail availability, or displacement. Needs pairing with later implementation source for status.",
+          "funding": "Official DBT/BIRAC program call.",
+          "humanVerification": "Pending"
+        },
         {
           "collection": "Comparative protein synthesis",
           "sourceId": "T10",
@@ -3250,11 +3537,18 @@
           "sourceId": null,
           "recordPath": "research/comparative-protein/index.html",
           "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
     {
-      "id": "SRC-101",
+      "id": "SRC-109",
       "key": "url:https://www.cell-ag.de",
       "title": "CellAg Deutschland project overview",
       "url": "https://www.cell-ag.de/",
@@ -3281,7 +3575,7 @@
       ]
     },
     {
-      "id": "SRC-102",
+      "id": "SRC-110",
       "key": "url:https://www.cell-ag.de/_files/ugd/cd7689_34c289309fbd4cdbae0a16acbbb40967.pdf",
       "title": "National Action Plan Germany",
       "url": "https://www.cell-ag.de/_files/ugd/cd7689_34c289309fbd4cdbae0a16acbbb40967.pdf",
@@ -3322,7 +3616,7 @@
       ]
     },
     {
-      "id": "SRC-103",
+      "id": "SRC-111",
       "key": "url:https://www.cgiar.org/news-events/news/augmented-foresight-how-ai-can-make-food-systems-analysis-smarter-faster-and-more",
       "title": "Augmented Foresight",
       "url": "https://www.cgiar.org/news-events/news/augmented-foresight-how-ai-can-make-food-systems-analysis-smarter-faster-and-more",
@@ -3348,7 +3642,7 @@
       ]
     },
     {
-      "id": "SRC-104",
+      "id": "SRC-112",
       "key": "url:https://www.eda.gov/archives/2022/arpa/build-back-better/finalists/North-Carolina-Biotechnology-Center.htm",
       "title": "Accelerate NC - Life Sciences Manufacturing",
       "url": "https://www.eda.gov/archives/2022/arpa/build-back-better/finalists/North-Carolina-Biotechnology-Center.htm",
@@ -3375,7 +3669,7 @@
       ]
     },
     {
-      "id": "SRC-105",
+      "id": "SRC-113",
       "key": "url:https://www.efsa.europa.eu/en/applications/novel-food",
       "title": "EFSA novel-food application guidance",
       "url": "https://www.efsa.europa.eu/en/applications/novel-food",
@@ -3401,7 +3695,7 @@
       ]
     },
     {
-      "id": "SRC-106",
+      "id": "SRC-114",
       "key": "url:https://www.europarl.europa.eu/pdfs/news/expert/2026/6/press_release/20260611IPR45209/20260611IPR45209_en.pdf",
       "title": "European Parliament meat-designation vote",
       "url": "https://www.europarl.europa.eu/pdfs/news/expert/2026/6/press_release/20260611IPR45209/20260611IPR45209_en.pdf",
@@ -3427,7 +3721,7 @@
       ]
     },
     {
-      "id": "SRC-107",
+      "id": "SRC-115",
       "key": "url:https://www.fao.org/4/i2744e/i2744e00.htm",
       "title": "Livestock sector development for poverty reduction: an economic and policy perspective - Livestock's many virtues",
       "url": "https://www.fao.org/4/i2744e/i2744e00.htm",
@@ -3468,7 +3762,51 @@
       ]
     },
     {
-      "id": "SRC-108",
+      "id": "SRC-116",
+      "key": "url:https://www.fao.org/4/X9892E/X9892e00.htm",
+      "title": "Food Balance Sheets: A Handbook",
+      "url": "https://www.fao.org/4/X9892E/X9892e00.htm",
+      "doi": null,
+      "type": "Public link requiring bibliographic completion",
+      "occurrences": [
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-117",
+      "key": "url:https://www.fao.org/4/X9892E/X9892e01.htm",
+      "title": "Food Balance Sheets: A Handbook",
+      "url": "https://www.fao.org/4/X9892E/X9892e01.htm",
+      "doi": null,
+      "type": "Institutional document",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "FAO2001",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Official full text inspected",
+          "limitations": "Methodological reference; no current country estimates extracted.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-118",
       "key": "url:https://www.fao.org/4/x9892e/x9892e02.htm",
       "title": "Food Balance Sheets: A Handbook, II. Concepts and definitions used in food balance sheets",
       "url": "https://www.fao.org/4/x9892e/x9892e02.htm",
@@ -3495,7 +3833,54 @@
       ]
     },
     {
-      "id": "SRC-109",
+      "id": "SRC-119",
+      "key": "url:https://www.fao.org/agrifood-economics/news/detail-events/en/c/1757552",
+      "title": "FAO analysis highlights strategic policy reform to narrow Pakistan's healthy diet gap",
+      "url": "https://www.fao.org/agrifood-economics/news/detail-events/en/c/1757552/",
+      "doi": null,
+      "type": "Official international analysis summary",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "fao-pakistan-healthy-diet-gap-2026",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Event/news summary rather than full technical model. Should be used for policy context, not detailed quantitative modeling.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-120",
+      "key": "url:https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-701-47%252FCRDs%252Fcac47_crd04x.pdf",
+      "title": "Food Safety Aspects of Cell-Based Food and Precision Fermentation Derived Food Products",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-701-47%252FCRDs%252Fcac47_crd04x.pdf",
+      "doi": null,
+      "type": "Institutional document",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "FAOWHO2024",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "Official PDF inspected",
+          "limitations": "Only definitions used; dated regulatory table is not used to assert present approvals.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-121",
       "key": "url:https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf",
       "title": "Using Foresight for Food Systems Transformation A guide for policy makers practitioners and researchers",
       "url": "https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf",
@@ -3561,7 +3946,7 @@
       ]
     },
     {
-      "id": "SRC-110",
+      "id": "SRC-122",
       "key": "url:https://www.fao.org/research-extension-systems/agricultural-innovation-systems/en",
       "title": "Agricultural innovation systems",
       "url": "https://www.fao.org/research-extension-systems/agricultural-innovation-systems/en",
@@ -3588,7 +3973,7 @@
       ]
     },
     {
-      "id": "SRC-111",
+      "id": "SRC-123",
       "key": "url:https://www.fda.gov/food/hfp-constituent-updates/fda-completes-first-pre-market-consultation-human-food-made-using-animal-cell-culture-technology",
       "title": "FDA Completes First Pre-Market Consultation for Human Food Made Using Animal Cell Culture Technology",
       "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-completes-first-pre-market-consultation-human-food-made-using-animal-cell-culture-technology",
@@ -3629,7 +4014,7 @@
       ]
     },
     {
-      "id": "SRC-112",
+      "id": "SRC-124",
       "key": "url:https://www.food.gov.uk/print/pdf/node/27246",
       "title": "UK FSA sandbox progress report",
       "url": "https://www.food.gov.uk/print/pdf/node/27246",
@@ -3655,7 +4040,7 @@
       ]
     },
     {
-      "id": "SRC-113",
+      "id": "SRC-125",
       "key": "url:https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1424012/full",
       "title": "Artificial intelligence in cultivated meat",
       "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1424012/full",
@@ -3681,7 +4066,7 @@
       ]
     },
     {
-      "id": "SRC-114",
+      "id": "SRC-126",
       "key": "url:https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1378883/full",
       "title": "Backcasting for food-system transformation",
       "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1378883/full",
@@ -3707,7 +4092,7 @@
       ]
     },
     {
-      "id": "SRC-115",
+      "id": "SRC-127",
       "key": "url:https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells",
       "title": "USDA-FSIS cultivated-cell labeling and inspection policy",
       "url": "https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells",
@@ -3733,7 +4118,7 @@
       ]
     },
     {
-      "id": "SRC-116",
+      "id": "SRC-128",
       "key": "url:https://www.gov.uk/government/statistics/national-diet-and-nutrition-survey-2019-to-2023/national-diet-and-nutrition-survey-2019-to-2023-report",
       "title": "National Diet and Nutrition Survey 2019 to 2023: report",
       "url": "https://www.gov.uk/government/statistics/national-diet-and-nutrition-survey-2019-to-2023/national-diet-and-nutrition-survey-2019-to-2023-report",
@@ -3760,7 +4145,7 @@
       ]
     },
     {
-      "id": "SRC-117",
+      "id": "SRC-129",
       "key": "url:https://www.gov.za/news/media-statements/science-technology-and-innovation-partners-un-food-and-agriculture",
       "title": "Science, Technology and Innovation partners with UN Food and Agriculture Organization on roadmap to strengthen South Africa's agrifood systems",
       "url": "https://www.gov.za/news/media-statements/science-technology-and-innovation-partners-un-food-and-agriculture",
@@ -3787,7 +4172,7 @@
       ]
     },
     {
-      "id": "SRC-118",
+      "id": "SRC-130",
       "key": "url:https://www.greenqueen.com.hk/swap-food-vegan-chicken-plant-based-meat-startup-liquidation-shuts",
       "title": "Green Queen consolidation tracker",
       "url": "https://www.greenqueen.com.hk/swap-food-vegan-chicken-plant-based-meat-startup-liquidation-shuts/",
@@ -3813,7 +4198,7 @@
       ]
     },
     {
-      "id": "SRC-119",
+      "id": "SRC-131",
       "key": "url:https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307",
       "title": "Guide for technological functional characterization of protein ingredients for the plant-based market",
       "url": "https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307",
@@ -3840,7 +4225,7 @@
       ]
     },
     {
-      "id": "SRC-120",
+      "id": "SRC-132",
       "key": "url:https://www.ipcc.ch/report/ar6/wg2/chapter/annex-ii",
       "title": "Annex II: Glossary - scenario, climate prediction, and climate projection definitions",
       "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/annex-ii/",
@@ -3881,7 +4266,7 @@
       ]
     },
     {
-      "id": "SRC-121",
+      "id": "SRC-133",
       "key": "url:https://www.mse.gov.sg/latest-news/newsletter-climate-action-in-sg-dec",
       "title": "Climate Action in SG (Dec 2020): Novel food as a sustainable food option",
       "url": "https://www.mse.gov.sg/latest-news/newsletter-climate-action-in-sg-dec/",
@@ -3922,7 +4307,7 @@
       ]
     },
     {
-      "id": "SRC-122",
+      "id": "SRC-134",
       "key": "url:https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-lab-grown-seafood-and-cultured-meat-sector",
       "title": "Written Reply to Parliamentary Question on Lab-Grown Seafood and Cultured Meat Sector",
       "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-lab-grown-seafood-and-cultured-meat-sector/",
@@ -3949,7 +4334,7 @@
       ]
     },
     {
-      "id": "SRC-123",
+      "id": "SRC-135",
       "key": "url:https://www.mti.gov.sg/newsroom/speech-by-mos-alvin-tan-at-the-singapore-international-agri-food-week-welcome-reception",
       "title": "Speech by MOS Alvin Tan at the Singapore International Agri-Food Week Welcome Reception",
       "url": "https://www.mti.gov.sg/newsroom/speech-by-mos-alvin-tan-at-the-singapore-international-agri-food-week-welcome-reception/",
@@ -3976,7 +4361,7 @@
       ]
     },
     {
-      "id": "SRC-124",
+      "id": "SRC-136",
       "key": "url:https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-landbouw-voedsel-en-land-en-watergebruik/cellulaire-agricultuur",
       "title": "Cellulaire Agricultuur",
       "url": "https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-landbouw-voedsel-en-land-en-watergebruik/cellulaire-agricultuur",
@@ -4003,7 +4388,7 @@
       ]
     },
     {
-      "id": "SRC-125",
+      "id": "SRC-137",
       "key": "url:https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report.html",
       "title": "OECD-FAO Agricultural Outlook 2026-2035",
       "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report.html",
@@ -4030,7 +4415,7 @@
       ]
     },
     {
-      "id": "SRC-126",
+      "id": "SRC-138",
       "key": "url:https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/meat_149b4ca3.html",
       "title": "OECD–FAO Agricultural Outlook 2026–2035: Meat",
       "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/meat_149b4ca3.html",
@@ -4088,7 +4473,54 @@
       ]
     },
     {
-      "id": "SRC-127",
+      "id": "SRC-139",
+      "key": "url:https://www.pbs.gov.pk/hies",
+      "title": "Household Integrated Economic Survey (HIES)",
+      "url": "https://www.pbs.gov.pk/hies/",
+      "doi": null,
+      "type": "Official statistics",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "pbs-hies-landing-method-fies",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Website text and PDF report have a small household-count difference; cite exact source when using numbers. FIES is food insecurity experience, not protein intake.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-140",
+      "key": "url:https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+      "title": "Household Integrated Economic Survey (HIES) 2024-25",
+      "url": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+      "doi": null,
+      "type": "Official statistics",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "pbs-hies-2024-25-report",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Household acquisition/expenditure survey, not individual dietary intake. Do not convert quantities or expenditure into protein intake. Newly released official evidence as of 2026; not original fieldwork.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-141",
       "key": "url:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
       "title": "Parliament Question: BioE3 Policy",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
@@ -4115,7 +4547,61 @@
       ]
     },
     {
-      "id": "SRC-128",
+      "id": "SRC-142",
+      "key": "url:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1&reg=3",
+      "title": "PARLIAMENT QUESTION: IMPLEMENTATION OF BIOE3 POLICY",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1&reg=3",
+      "doi": null,
+      "type": "Official parliamentary answer",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "pib-bioe3-implementation-2026-smart-proteins",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": "The full PIB body posted 23 July 2026 states that BioE3 sectors include Smart proteins and functional foods, and states under Smart Protein that 9 projects have been supported in fermentation-derived/single-cell, plant-based, and cell-culture-based smart proteins.",
+          "limitations": "Not a food-regulatory approval source. Not evidence of retail adoption, consumer buying, displacement, or market size. Does not list all smart-protein recipients or product statuses in the excerpt.",
+          "funding": "Official Government of India PIB release reporting a written Rajya Sabha answer.",
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-143",
+      "key": "url:https://www.psqca.com.pk/division-wise-standards/halaal",
+      "title": "Halaal standards and Halal Certification Bodies (PS 4992-OIC/SMIIC 2)",
+      "url": "https://www.psqca.com.pk/division-wise-standards/halaal/",
+      "doi": null,
+      "type": "Official standards accreditation",
+      "occurrences": [
+        {
+          "collection": "India–Pakistan current review",
+          "sourceId": "psqca-pnac-halal-standards",
+          "recordPath": "research/india-pakistan/source-register.json",
+          "accessed": "2026-09-14",
+          "access": null,
+          "limitations": "Standard titles only; detailed clauses not reviewed. Does not determine halal status of specific novel-protein inputs, cell lines, media, host organisms, enzymes, or processing aids.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/india-pakistan/index.html",
+          "sourceId": null,
+          "recordPath": "research/india-pakistan/index.html",
+          "humanVerification": "Pending; link extraction only"
+        }
+      ]
+    },
+    {
+      "id": "SRC-144",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0308521X25000101",
       "title": "Quantitative scenarios for food-system futures",
       "url": "https://www.sciencedirect.com/science/article/pii/S0308521X25000101",
@@ -4141,7 +4627,7 @@
       ]
     },
     {
-      "id": "SRC-129",
+      "id": "SRC-145",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0924224417303400",
       "title": "Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture",
       "url": "https://www.sciencedirect.com/science/article/pii/S0924224417303400",
@@ -4168,7 +4654,7 @@
       ]
     },
     {
-      "id": "SRC-130",
+      "id": "SRC-146",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0924224426004413",
       "title": "AI in alternative-protein development review",
       "url": "https://www.sciencedirect.com/science/article/pii/S0924224426004413",
@@ -4194,7 +4680,7 @@
       ]
     },
     {
-      "id": "SRC-131",
+      "id": "SRC-147",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery",
       "title": "Sentient Futures Incubator gallery",
       "url": "https://www.sentientfutures.ai/incubator/gallery/",
@@ -4220,7 +4706,7 @@
       ]
     },
     {
-      "id": "SRC-132",
+      "id": "SRC-148",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/advocacy-intel-map",
       "title": "Effective Advocacy Project",
       "url": "https://www.sentientfutures.ai/incubator/gallery/advocacy-intel-map/",
@@ -4263,7 +4749,7 @@
       ]
     },
     {
-      "id": "SRC-133",
+      "id": "SRC-149",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai",
       "title": "Optimising Cheese Analogues Formulation using AI Applications",
       "url": "https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai/",
@@ -4315,7 +4801,7 @@
       ]
     },
     {
-      "id": "SRC-134",
+      "id": "SRC-150",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/ideosphere-forecasting",
       "title": "Ideosphere",
       "url": "https://www.sentientfutures.ai/incubator/gallery/ideosphere-forecasting/",
@@ -4342,7 +4828,7 @@
       ]
     },
     {
-      "id": "SRC-135",
+      "id": "SRC-151",
       "key": "url:https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
       "title": "Singapore SFA novel-food framework",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
@@ -4368,7 +4854,7 @@
       ]
     },
     {
-      "id": "SRC-136",
+      "id": "SRC-152",
       "key": "url:https://www.ukri.org/news/national-alternative-protein-innovation-centre-launches",
       "title": "National alternative protein innovation centre launches",
       "url": "https://www.ukri.org/news/national-alternative-protein-innovation-centre-launches/",
@@ -4395,7 +4881,7 @@
       ]
     },
     {
-      "id": "SRC-137",
+      "id": "SRC-153",
       "key": "url:https://www.ukri.org/opportunity/alternative-proteins-innovation-and-knowledge-centre",
       "title": "Alternative Proteins Innovation and Knowledge Centre",
       "url": "https://www.ukri.org/opportunity/alternative-proteins-innovation-and-knowledge-centre/",
@@ -4422,7 +4908,7 @@
       ]
     },
     {
-      "id": "SRC-138",
+      "id": "SRC-154",
       "key": "url:https://www.ukri.org/publications/alternative-proteins-roadmap-identifying-uk-priorities",
       "title": "Alternative Proteins Roadmap: identifying UK priorities",
       "url": "https://www.ukri.org/publications/alternative-proteins-roadmap-identifying-uk-priorities/",
@@ -4449,7 +4935,7 @@
       ]
     },
     {
-      "id": "SRC-139",
+      "id": "SRC-155",
       "key": "url:https://www.un.org/scientific-advisory-board/sites/default/files/2025-06/verification_of_frontier_ai.pdf",
       "title": "Verification of frontier AI",
       "url": "https://www.un.org/scientific-advisory-board/sites/default/files/2025-06/verification_of_frontier_ai.pdf",
@@ -4475,7 +4961,7 @@
       ]
     },
     {
-      "id": "SRC-140",
+      "id": "SRC-156",
       "key": "url:https://www.unep.org/resources/whats-cooking-assessment-potential-impacts-selected-novel-alternatives-conventional",
       "title": "What’s Cooking? An assessment of potential impacts of selected novel alternatives to conventional animal products",
       "url": "https://www.unep.org/resources/whats-cooking-assessment-potential-impacts-selected-novel-alternatives-conventional",
@@ -4502,7 +4988,7 @@
       ]
     },
     {
-      "id": "SRC-141",
+      "id": "SRC-157",
       "key": "url:https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
       "title": "Healthy diet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
@@ -4529,7 +5015,7 @@
       ]
     },
     {
-      "id": "SRC-142",
+      "id": "SRC-158",
       "key": "url:https://www.who.int/publications/i/item/9789240070943",
       "title": "Food safety aspects of cell-based food",
       "url": "https://www.who.int/publications/i/item/9789240070943",
@@ -4587,7 +5073,7 @@
       ]
     },
     {
-      "id": "SRC-143",
+      "id": "SRC-159",
       "key": "url:https://www.who.int/publications/i/item/B09677",
       "title": "WHO-PREZODE zoonotic-risk indicators",
       "url": "https://www.who.int/publications/i/item/B09677",
