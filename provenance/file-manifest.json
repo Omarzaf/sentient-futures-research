@@ -54,7 +54,7 @@
     {
       "path": "index.html",
       "bytes": 8465,
-      "sha256": "2154f6b46dcfb468cade6f89fef1b676d848483fb8ea0149135e596b64635af8"
+      "sha256": "77d631a33421f436425079deff67c6e86e42c46e4d4910994d5811bc2ed83078"
     },
     {
       "path": "provenance/import-records.json",
@@ -163,8 +163,8 @@
     },
     {
       "path": "research/halal-cultivated/certification.csv",
-      "bytes": 149,
-      "sha256": "5b789a8d4bd69d7215866508122af08ae7947c32a5a42767aa24e10b5db5982d"
+      "bytes": 2515,
+      "sha256": "9ab47aad481d9b480a826e4719442fd10970552e523f50e6f77045c83392ff4a"
     },
     {
       "path": "research/halal-cultivated/claims.csv",
@@ -173,8 +173,8 @@
     },
     {
       "path": "research/halal-cultivated/consensus-matrix.csv",
-      "bytes": 47,
-      "sha256": "98457229a6f8520d1df8a94ba038f4f9f49599993ec6683846d69ead7ef94478"
+      "bytes": 2607,
+      "sha256": "25e8862ff43e13f335d919f058efa58ba89f67ab75bc4a95749a8b5dffc97f7c"
     },
     {
       "path": "research/halal-cultivated/datapackage.json",
@@ -198,8 +198,8 @@
     },
     {
       "path": "research/halal-cultivated/madhhab-geography.csv",
-      "bytes": 188,
-      "sha256": "e6b1a673772708b1217e326321de57da6c6c8f808c489969a8995194b637c823"
+      "bytes": 2321,
+      "sha256": "b0541aef11c3b6f061080912beeacbaa707e68d50b41ded992d3769f7bdf316f"
     },
     {
       "path": "research/halal-cultivated/market-records.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "research/halal-cultivated/rulings.csv",
-      "bytes": 191,
-      "sha256": "cb9bcd765b8516ba8f15d1faa6baade568080cdc0f2a242f9fc4fea6ec18e6d7"
+      "bytes": 4235,
+      "sha256": "79b8e81e5e530fd87d318c2998a041b656a3a0f5925b0be89055d5fd1bd53366"
     },
     {
       "path": "research/halal-cultivated/scenarios.csv",
@@ -218,13 +218,13 @@
     },
     {
       "path": "research/halal-cultivated/scripture-sources.csv",
-      "bytes": 165,
-      "sha256": "b4163c37fe7d6b5f79d5d455ab8216bb51cfc05030f4a71188f7644da1f46516"
+      "bytes": 5985,
+      "sha256": "f237d875bfce59ffbb77963819c6d059f68a14fab765b9f43f38615eda5ec6b9"
     },
     {
       "path": "research/halal-cultivated/source-register.json",
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 15940,
+      "sha256": "32175dc5ceb9436bbd5c35a5a16fa1ec3eba8fe892c220ab15db14cbbbb396bb"
     },
     {
       "path": "research/india-pakistan/README.md",
@@ -288,18 +288,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 56604,
-      "sha256": "1ee7040db199a25f51c3bc2a814f4efabb529af271daf1db8d559089ba72688b"
+      "bytes": 62693,
+      "sha256": "dc87b11dff74d01205036133174c19912e1423a62159b4a8c97bc9c92372914a"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 237841,
-      "sha256": "97edf6e40b24361b486b4658242f2a21744a004bde3aaa688115373bf5b637ae"
+      "bytes": 260595,
+      "sha256": "9d52aef829cbcc02f2524bdbf2ecc9213d77dc7f1c6505d66b932deaccfdb14a"
     },
     {
       "path": "sources/index.html",
-      "bytes": 150665,
-      "sha256": "195d2897a57909decfe697c756c3fa5cc7dc2c07c77e6436cf263702d6631aa0"
+      "bytes": 169191,
+      "sha256": "8a72d4db1141eab284a1b624b8e3352a0c509b83b97c6687edd62f622bbaa23d"
     },
     {
       "path": "tools/build-library.mjs",

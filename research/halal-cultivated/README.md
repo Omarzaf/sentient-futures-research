@@ -2,7 +2,7 @@
 
 [Read the research plan](PLAN.md). Version 1, 30 September 2026. Current workstream; AI-assisted working plan with human verification pending. Not mentor-approved.
 
-This folder holds the plan, the shared data schema and the registers that the plan's Phase 1 and Phase 2 documents will fill. The registers are empty. Nothing here is a finding yet.
+This folder holds the plan, the shared data schema and the registers that the plan's Phase 1 and Phase 2 documents fill. As of 30 September 2026 five registers carry first Phase 1 rows (scripture sources, rulings, consensus matrix, madhhab geography, certification) and the source register lists 24 sources. Those rows come from search summaries and abstracts, because primary texts could not be fetched in that session; every row says so in its status and notes. The other registers are still empty. Nothing here is a finding yet.
 
 ## Files
 

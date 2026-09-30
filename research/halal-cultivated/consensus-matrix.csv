@@ -1,1 +1,17 @@
 condition,column_id,stance,citation,date,notes
+species,FT-001,conditional,"IIFA Res. 265, reported condition: animal lawful to eat",2025-05-08,Primary text not read.
+species,FT-002,conditional,"MUIS 2024, reported condition: cell source from halal animals",2024-02-02,Primary text not read.
+species,FT-003,conditional,MWP Irsyad 595: animals lawful to eat,2021-07-24,Adds that marine animals are lawful without slaughter.
+donor_slaughter_vs_biopsy,FT-001,conditional,"IIFA Res. 265: from an animal lawful to eat if alive, or from a slaughtered animal where slaughter is required",2025-05-08,Ambiguous as reported. Read here as allowing live-derived cells only for animals that need no slaughter; to check against the Arabic.
+donor_slaughter_vs_biopsy,FT-002,silent,MUIS 2024: donor slaughter not stated in the summaries read,2024-02-02,"Silent here means not stated in the secondary summaries, not that MUIS is silent. Read the MUIS text."
+donor_slaughter_vs_biopsy,FT-003,conditional,MWP Irsyad 595: tissue taken by a method the Shariah allows from lawful animals,2021-07-24,Concerns cells taken from living animals; the summary does not say whether slaughter is required for land animals.
+donor_slaughter_vs_biopsy,FT-004,conditional,KMF 2025: cells from animals slaughtered according to Islamic law,2025-03-26,Known through news reports.
+donor_slaughter_vs_biopsy,FT-005,conditional,JAKIM National Muzakarah Committee: cells from animals slaughtered according to Shariah,2025-12-11,Known through news reports.
+growth_medium,FT-001,conditional,IIFA Res. 265: no prohibited medium such as flowing blood; no prohibited substance such as pork gelatin,2025-05-08,Primary text not read.
+growth_medium,FT-002,conditional,MUIS 2024: every ingredient of the texture and composition halal,2024-02-02,Primary text not read.
+growth_medium,FT-004,conditional,"KMF 2025: process free of non-halal contamination, including pork and alcohol-based solvents",2025-03-26,Known through news reports.
+growth_medium,FT-005,conditional,"JAKIM National Muzakarah Committee: all growth media halal, no blood serum",2025-12-11,Known through news reports.
+safety,FT-001,conditional,IIFA Res. 265: trusted regulatory standards and food-safety protocols,2025-05-08,Primary text not read.
+safety,FT-002,conditional,MUIS 2024: non-toxic and clean,2024-02-02,Primary text not read.
+safety,FT-003,conditional,MWP Irsyad 595: safe to eat; prohibited if harmful,2021-07-24,Summary read from search results.
+labelling,FT-001,conditional,IIFA Res. 265: consumers clearly informed of how the product is made,2025-05-08,Primary text not read.

@@ -1,7 +1,7 @@
 {
   "description": "Inventory of public references retained in the included research. It is not a fresh source audit or an exhaustive field bibliography.",
-  "originalRegisterRecords": 124,
-  "uniqueSourceIdentities": 159,
+  "originalRegisterRecords": 148,
+  "uniqueSourceIdentities": 183,
   "records": [
     {
       "id": "SRC-001",
@@ -2218,6 +2218,46 @@
     },
     {
       "id": "SRC-064",
+      "key": "url:https://archive.org/details/mizan-english-ghamidi",
+      "title": "Islam: A Comprehensive Introduction (English translation of Mizan)",
+      "url": "https://archive.org/details/mizan-english-ghamidi",
+      "doi": null,
+      "type": "Book (primary source for Ghamidi's framework)",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-016",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Listing only. The dietary chapter was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-065",
+      "key": "url:https://ask.ghamidi.org/forums/discussion/81579",
+      "title": "Is Lab Grown Meat Halal? (Ask Ghamidi forum)",
+      "url": "https://ask.ghamidi.org/forums/discussion/81579/",
+      "doi": null,
+      "type": "Forum answer reporting Ghamidi's lecture",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-015",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reports that Ghamidi once said the zabiha requirement ends when meat can be grown in labs. Undated forum post; the lecture itself was not located. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-066",
       "key": "url:https://cb.apps.fao.org/country.jsp?code=PAK",
       "title": "Country Brief: Pakistan",
       "url": "https://cb.apps.fao.org/country.jsp?code=PAK",
@@ -2237,7 +2277,7 @@
       ]
     },
     {
-      "id": "SRC-065",
+      "id": "SRC-067",
       "key": "url:https://cedelft.eu/publications/tea-of-cultivated-meat",
       "title": "CE Delft techno-economic analysis",
       "url": "https://cedelft.eu/publications/tea-of-cultivated-meat/",
@@ -2263,7 +2303,7 @@
       ]
     },
     {
-      "id": "SRC-066",
+      "id": "SRC-068",
       "key": "url:https://coefficientgiving.org/funds/farm-animal-welfare/alternatives-to-animal-products",
       "title": "Coefficient Giving alternatives-to-animal-products programme",
       "url": "https://coefficientgiving.org/funds/farm-animal-welfare/alternatives-to-animal-products/",
@@ -2289,7 +2329,7 @@
       ]
     },
     {
-      "id": "SRC-067",
+      "id": "SRC-069",
       "key": "url:https://coefficientgiving.org/funds/farm-animal-welfare/request-for-proposals-alternative-protein-rd",
       "title": "Coefficient Giving alternative-protein R&D RFP",
       "url": "https://coefficientgiving.org/funds/farm-animal-welfare/request-for-proposals-alternative-protein-rd/",
@@ -2315,7 +2355,107 @@
       ]
     },
     {
-      "id": "SRC-068",
+      "id": "SRC-070",
+      "key": "url:https://consensus.app/papers/details/1759b88267e55806b3cddb9994b0833a",
+      "title": "The Concept of \"Istihalah\" (Transformation) in Islamic Jurisprudence and Its Contemporary Applications",
+      "url": "https://consensus.app/papers/details/1759b88267e55806b3cddb9994b0833a/",
+      "doi": null,
+      "type": "Article",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-011",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-071",
+      "key": "url:https://consensus.app/papers/details/176402a1e03c5e47b7b0c5f9e86197b7",
+      "title": "Investigating Al-Istihalah in the Provisions of Shariah Texts",
+      "url": "https://consensus.app/papers/details/176402a1e03c5e47b7b0c5f9e86197b7/",
+      "doi": null,
+      "type": "Article",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-024",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-072",
+      "key": "url:https://consensus.app/papers/details/be4d2d1972e75a39b73263f9020abef8",
+      "title": "Cultured meat and halal: A comprehensive analysis from jurisprudence, biology, and ethics",
+      "url": "https://consensus.app/papers/details/be4d2d1972e75a39b73263f9020abef8/",
+      "doi": null,
+      "type": "Article (dissenting view: concludes not halal)",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-010",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-073",
+      "key": "url:https://consensus.app/papers/details/c999774203c4515ba63444f034c50d6f",
+      "title": "Principles regarding the use of haram sources in modern food products: an Islamic perspective",
+      "url": "https://consensus.app/papers/details/c999774203c4515ba63444f034c50d6f/",
+      "doi": null,
+      "type": "Article",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-012",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-074",
+      "key": "url:https://corpus.quran.com/translation.jsp?chapter=6&verse=145",
+      "title": "Quran 6:145, English translation",
+      "url": "https://corpus.quran.com/translation.jsp?chapter=6&verse=145",
+      "doi": null,
+      "type": "Quran translation",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-023",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Verse text quoted from a search summary that reproduced the Sahih International rendering.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-075",
       "key": "url:https://data.fao.org/catalog/iso/2f264bb6-1238-459a-bf8b-0e2d0a16804a",
       "title": "Food balances (Global, National - 2010-2023 - Annual) - FAOSTAT",
       "url": "https://data.fao.org/catalog/iso/2f264bb6-1238-459a-bf8b-0e2d0a16804a",
@@ -2335,7 +2475,7 @@
       ]
     },
     {
-      "id": "SRC-069",
+      "id": "SRC-076",
       "key": "url:https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf",
       "title": "National Family Health Survey (NFHS-5), 2019-21: India: Volume I",
       "url": "https://dhsprogram.com/pubs/pdf/FR375/FR375.pdf",
@@ -2362,7 +2502,7 @@
       ]
     },
     {
-      "id": "SRC-070",
+      "id": "SRC-077",
       "key": "url:https://en.fvm.dk/news-and-contact/focus-on/action-plan-on-plant-based-foods",
       "title": "Action Plan on Plant-Based Foods",
       "url": "https://en.fvm.dk/news-and-contact/focus-on/action-plan-on-plant-based-foods",
@@ -2389,7 +2529,7 @@
       ]
     },
     {
-      "id": "SRC-071",
+      "id": "SRC-078",
       "key": "url:https://engrxiv.org/preprint/download/1438/2973/2173",
       "title": "Humbird techno-economic analysis",
       "url": "https://engrxiv.org/preprint/download/1438/2973/2173",
@@ -2415,7 +2555,7 @@
       ]
     },
     {
-      "id": "SRC-072",
+      "id": "SRC-079",
       "key": "url:https://eprints.lse.ac.uk/125626/1/sciadv.adp1528.pdf",
       "title": "Published full text",
       "url": "https://eprints.lse.ac.uk/125626/1/sciadv.adp1528.pdf",
@@ -2432,7 +2572,7 @@
       ]
     },
     {
-      "id": "SRC-073",
+      "id": "SRC-080",
       "key": "url:https://faunalytics.org/animal-product-impact-scales-2026-updated-u-s-estimates-and-the-u-k-s-first-animal-product-impact-data",
       "title": "Animal Product Impact Scales 2026 Updated U.S. Estimates And The U.K.’s First Animal Product Impact Data",
       "url": "https://faunalytics.org/animal-product-impact-scales-2026-updated-u-s-estimates-and-the-u-k-s-first-animal-product-impact-data/",
@@ -2466,7 +2606,7 @@
       ]
     },
     {
-      "id": "SRC-074",
+      "id": "SRC-081",
       "key": "url:https://food.ec.europa.eu/food-safety/novel-food/legislation_en",
       "title": "Novel Food legislation: Regulation (EU) 2015/2283 and implementing acts",
       "url": "https://food.ec.europa.eu/food-safety/novel-food/legislation_en",
@@ -2507,7 +2647,7 @@
       ]
     },
     {
-      "id": "SRC-075",
+      "id": "SRC-082",
       "key": "url:https://foresight4food.net",
       "title": "Foresight4Food",
       "url": "https://foresight4food.net/",
@@ -2533,7 +2673,7 @@
       ]
     },
     {
-      "id": "SRC-076",
+      "id": "SRC-083",
       "key": "url:https://foresight4food.net/wp-content/uploads/2026/03/FS4F_Criteria-for-High-Quality-Guide-Feb-2026.pdf",
       "title": "Criteria for High-Quality Food Systems Foresight",
       "url": "https://foresight4food.net/wp-content/uploads/2026/03/FS4F_Criteria-for-High-Quality-Guide-Feb-2026.pdf",
@@ -2559,7 +2699,27 @@
       ]
     },
     {
-      "id": "SRC-077",
+      "id": "SRC-084",
+      "key": "url:https://geneticliteracyproject.org/2025/03/26/korean-muslim-group-becomes-latest-religious-organization-to-issue-a-fatwa-approving-cultivated-meat-as-halal",
+      "title": "Korean Muslim group becomes latest religious organization to issue a Fatwa approving cultivated meat as Halal",
+      "url": "https://geneticliteracyproject.org/2025/03/26/korean-muslim-group-becomes-latest-religious-organization-to-issue-a-fatwa-approving-cultivated-meat-as-halal/",
+      "doi": null,
+      "type": "News report of a fatwa (secondary)",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-004",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Secondary report, not the Korea Muslim Federation text. Its date is the date of press coverage, not of issue. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-085",
       "key": "url:https://gfi-india.org/resource/smart-protein-skills-mapping",
       "title": "Smart Protein Skills Mapping",
       "url": "https://gfi-india.org/resource/smart-protein-skills-mapping/",
@@ -2585,7 +2745,7 @@
       ]
     },
     {
-      "id": "SRC-078",
+      "id": "SRC-086",
       "key": "url:https://gfi.org/blog/alternative-protein-startups-underscore-the-need-for-scientific-and-engineering-talent",
       "title": "Alternative-protein startups’ talent needs",
       "url": "https://gfi.org/blog/alternative-protein-startups-underscore-the-need-for-scientific-and-engineering-talent/",
@@ -2611,7 +2771,7 @@
       ]
     },
     {
-      "id": "SRC-079",
+      "id": "SRC-087",
       "key": "url:https://gfi.org/resource/investment-methodology",
       "title": "GFI investment methodology",
       "url": "https://gfi.org/resource/investment-methodology/",
@@ -2646,7 +2806,7 @@
       ]
     },
     {
-      "id": "SRC-080",
+      "id": "SRC-088",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
       "title": "GFI 2026 Fermentation State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
@@ -2688,7 +2848,7 @@
       ]
     },
     {
-      "id": "SRC-081",
+      "id": "SRC-089",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
       "title": "GFI 2026 Plant-Based State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
@@ -2730,7 +2890,7 @@
       ]
     },
     {
-      "id": "SRC-082",
+      "id": "SRC-090",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
       "title": "GFI 2026 State of Global Policy",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-Global-Policy-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
@@ -2772,7 +2932,7 @@
       ]
     },
     {
-      "id": "SRC-083",
+      "id": "SRC-091",
       "key": "url:https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
       "title": "GFI 2026 Cultivated Meat State of the Industry",
       "url": "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
@@ -2814,7 +2974,7 @@
       ]
     },
     {
-      "id": "SRC-084",
+      "id": "SRC-092",
       "key": "url:https://gfieurope.org/de/blog/private-investitionen-alternative-proteine",
       "title": "GFI Europe H1 2026 private investment update",
       "url": "https://gfieurope.org/de/blog/private-investitionen-alternative-proteine/",
@@ -2840,7 +3000,7 @@
       ]
     },
     {
-      "id": "SRC-085",
+      "id": "SRC-093",
       "key": "url:https://gfieurope.org/resource/state-of-the-european-alternative-protein-research-ecosystem-funding-and-publications",
       "title": "GFI Europe public R&I funding tracker",
       "url": "https://gfieurope.org/resource/state-of-the-european-alternative-protein-research-ecosystem-funding-and-publications/",
@@ -2866,7 +3026,7 @@
       ]
     },
     {
-      "id": "SRC-086",
+      "id": "SRC-094",
       "key": "url:https://github.com/magpiemodel/magpie",
       "title": "MAgPIE model repository and documentation",
       "url": "https://github.com/magpiemodel/magpie",
@@ -2892,7 +3052,7 @@
       ]
     },
     {
-      "id": "SRC-087",
+      "id": "SRC-095",
       "key": "url:https://globiom.org/documentation.html",
       "title": "GLOBIOM documentation",
       "url": "https://globiom.org/documentation.html",
@@ -2918,7 +3078,27 @@
       ]
     },
     {
-      "id": "SRC-088",
+      "id": "SRC-096",
+      "key": "url:https://hadeethenc.com/en/browse/hadith/8364",
+      "title": "Hadith: Whatever is cut from an animal while it is alive, then it is dead flesh",
+      "url": "https://hadeethenc.com/en/browse/hadith/8364",
+      "doi": null,
+      "type": "Hadith encyclopedia entry",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-022",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Grading taken from search-result summaries, not from the page. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-097",
       "key": "url:https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods",
       "title": "FDA inventory of completed premarket consultations",
       "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods",
@@ -2944,7 +3124,27 @@
       ]
     },
     {
-      "id": "SRC-089",
+      "id": "SRC-098",
+      "key": "url:https://iifa-aifi.org/en/56085.html",
+      "title": "Resolution No. 265 (10/26) Shari'ah Ruling on the Consumption and Marketing of Cultivated Meat",
+      "url": "https://iifa-aifi.org/en/56085.html",
+      "doi": null,
+      "type": "Fatwa body resolution",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-001",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-099",
       "key": "url:https://innovationisrael.org.il/winner/cultivate-meat",
       "title": "בשר מתורבת [Cultivated meat consortium]",
       "url": "https://innovationisrael.org.il/winner/cultivate-meat/",
@@ -2971,7 +3171,7 @@
       ]
     },
     {
-      "id": "SRC-090",
+      "id": "SRC-100",
       "key": "url:https://ised-isde.canada.ca/site/global-innovation-clusters/en/node/83",
       "title": "Ecosystem insight to build effective and relevant workforce solutions",
       "url": "https://ised-isde.canada.ca/site/global-innovation-clusters/en/node/83",
@@ -2998,7 +3198,27 @@
       ]
     },
     {
-      "id": "SRC-091",
+      "id": "SRC-101",
+      "key": "url:https://islamqa.org/hanafi/fatwaa-dot-com/174720/artificial-meat",
+      "title": "Artificial Meat (Hanafi fatwa, fatwaa.com via IslamQA)",
+      "url": "https://islamqa.org/hanafi/fatwaa-dot-com/174720/artificial-meat/",
+      "doi": null,
+      "type": "Individual fatwa answer",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-014",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Undated, not an institution's formal resolution. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-102",
       "key": "url:https://law.justia.com/cases/federal/appellate-courts/ca11/24-13640/24-13640-2026-03-23.html",
       "title": "Eleventh Circuit opinion in UPSIDE Foods v",
       "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/24-13640/24-13640-2026-03-23.html",
@@ -3024,7 +3244,27 @@
       ]
     },
     {
-      "id": "SRC-092",
+      "id": "SRC-103",
+      "key": "url:https://link.springer.com/article/10.1007/s10943-017-0403-3",
+      "title": "Cultured Meat in Islamic Perspective",
+      "url": "https://link.springer.com/article/10.1007/s10943-017-0403-3",
+      "doi": null,
+      "type": "Peer-reviewed article",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-006",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract and search summaries only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-104",
       "key": "url:https://mospi.gov.in/sites/default/files/press_release/press_note_Nutritional%20Intake%20in%20India_02072025.pdf",
       "title": "Household Consumption Expenditure Survey: 2022-23 & 2023-24: Nutritional Intake in India",
       "url": "https://mospi.gov.in/sites/default/files/press_release/press_note_Nutritional%20Intake%20in%20India_02072025.pdf",
@@ -3068,7 +3308,27 @@
       ]
     },
     {
-      "id": "SRC-093",
+      "id": "SRC-105",
+      "key": "url:https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+      "title": "Pakistan Halal Authority Act, 2016",
+      "url": "https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+      "doi": null,
+      "type": "Statute",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-017",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Found in search results; text not read. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-106",
       "key": "url:https://pakistanhalalauthority.gov.pk/intro.aspx",
       "title": "Pakistan Halal Authority official pages",
       "url": "https://pakistanhalalauthority.gov.pk/intro.aspx",
@@ -3095,7 +3355,27 @@
       ]
     },
     {
-      "id": "SRC-094",
+      "id": "SRC-107",
+      "key": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC11004531",
+      "title": "A review of the discussions on cultivated meat from the Islamic perspective",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11004531/",
+      "doi": null,
+      "type": "Peer-reviewed systematic review",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-007",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-108",
       "key": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC12026562",
       "title": "Plant-based meat analogues review",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12026562/",
@@ -3121,7 +3401,7 @@
       ]
     },
     {
-      "id": "SRC-095",
+      "id": "SRC-109",
       "key": "url:https://pmc.ncbi.nlm.nih.gov/articles/PMC3790135",
       "title": "Morphological analysis of food-system futures",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3790135/",
@@ -3147,7 +3427,7 @@
       ]
     },
     {
-      "id": "SRC-096",
+      "id": "SRC-110",
       "key": "url:https://resources.sentientfutures.ai/fellowships/aianimals",
       "title": "AI x Animals curriculum",
       "url": "https://resources.sentientfutures.ai/fellowships/aianimals",
@@ -3173,7 +3453,7 @@
       ]
     },
     {
-      "id": "SRC-097",
+      "id": "SRC-111",
       "key": "url:https://rethinkpriorities.org/research-area/ai-and-cultivated-meat",
       "title": "AI and Cultivated Meat. Near-Term Impacts of AI on the Commercial Viability of Cultivated Meat",
       "url": "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/",
@@ -3248,7 +3528,7 @@
       ]
     },
     {
-      "id": "SRC-098",
+      "id": "SRC-112",
       "key": "url:https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map",
       "title": "Blue Marble: Next Generation — Base Map",
       "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
@@ -3275,7 +3555,27 @@
       ]
     },
     {
-      "id": "SRC-099",
+      "id": "SRC-113",
+      "key": "url:https://sunnah.com/ibnmajah:3314",
+      "title": "Sunan Ibn Majah 3314, Chapters on Food",
+      "url": "https://sunnah.com/ibnmajah:3314",
+      "doi": null,
+      "type": "Hadith collection page",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-021",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Grading taken from search-result summaries, not from the page. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-114",
       "key": "url:https://training-portal.nifa.usda.gov/web/crisprojectpages/1027058-cultured-10-leading-higher-education-initiatives-in-emerging-innovations-for-sustainable-food-production.html",
       "title": "CULTURED 1.0: Leading Higher Education Initiatives in Emerging Innovations for Sustainable Food Production",
       "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027058-cultured-10-leading-higher-education-initiatives-in-emerging-innovations-for-sustainable-food-production.html",
@@ -3302,7 +3602,7 @@
       ]
     },
     {
-      "id": "SRC-100",
+      "id": "SRC-115",
       "key": "url:https://training-portal.nifa.usda.gov/web/crisprojectpages/1027620-integrated-approaches-to-enhance-sustainability-resiliency-and-robustness-in-us-agri-food-systems.html",
       "title": "Integrated Approaches to Enhance Sustainability, Resiliency and Robustness in US Agri-Food Systems",
       "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1027620-integrated-approaches-to-enhance-sustainability-resiliency-and-robustness-in-us-agri-food-systems.html",
@@ -3329,7 +3629,7 @@
       ]
     },
     {
-      "id": "SRC-101",
+      "id": "SRC-116",
       "key": "url:https://wfpc.sanford.duke.edu/reports/exploring-the-u-s-regulatory-and-legislative-landscapes-for-cell-cultivated-meat-and-seafood",
       "title": "Duke review of US cultivated-meat law",
       "url": "https://wfpc.sanford.duke.edu/reports/exploring-the-u-s-regulatory-and-legislative-landscapes-for-cell-cultivated-meat-and-seafood/",
@@ -3355,7 +3655,7 @@
       ]
     },
     {
-      "id": "SRC-102",
+      "id": "SRC-117",
       "key": "url:https://www-pub.iaea.org/mtcd/publications/pdf/nvs-3-cd/pdf/nvs3_scr.pdf",
       "title": "IAEA acquisition-path and indicator guidance",
       "url": "https://www-pub.iaea.org/mtcd/publications/pdf/nvs-3-cd/pdf/nvs3_scr.pdf",
@@ -3381,7 +3681,7 @@
       ]
     },
     {
-      "id": "SRC-103",
+      "id": "SRC-118",
       "key": "url:https://www.apac-sca.org/post/apac-sca-welcomes-singapore-s-approval-of-aleph-farms-cultivated-beef-marking-another-major-milest",
       "title": "Aleph Farms Singapore approval announcement",
       "url": "https://www.apac-sca.org/post/apac-sca-welcomes-singapore-s-approval-of-aleph-farms-cultivated-beef-marking-another-major-milest",
@@ -3407,7 +3707,7 @@
       ]
     },
     {
-      "id": "SRC-104",
+      "id": "SRC-119",
       "key": "url:https://www.ars.usda.gov/oc/images/copyright",
       "title": "image-use policy",
       "url": "https://www.ars.usda.gov/oc/images/copyright/",
@@ -3424,7 +3724,7 @@
       ]
     },
     {
-      "id": "SRC-105",
+      "id": "SRC-120",
       "key": "url:https://www.ars.usda.gov/oc/images/photos/featuredphoto/aug19/beans",
       "title": "D502-1: Dry beans",
       "url": "https://www.ars.usda.gov/oc/images/photos/featuredphoto/aug19/beans/",
@@ -3451,7 +3751,7 @@
       ]
     },
     {
-      "id": "SRC-106",
+      "id": "SRC-121",
       "key": "url:https://www.ars.usda.gov/oc/images/photos/nov21/d4744-1",
       "title": "D4744-1: A bioreactor conducting fermentation processes to produce ethanol",
       "url": "https://www.ars.usda.gov/oc/images/photos/nov21/d4744-1/",
@@ -3478,7 +3778,7 @@
       ]
     },
     {
-      "id": "SRC-107",
+      "id": "SRC-122",
       "key": "url:https://www.bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein",
       "title": "Bezos Earth Fund sustainable-protein initiative",
       "url": "https://www.bezosearthfund.org/news-and-insights/lauren-sanchez-announces-60-million-establish-bezos-centers-for-sustainable-protein",
@@ -3504,7 +3804,7 @@
       ]
     },
     {
-      "id": "SRC-108",
+      "id": "SRC-123",
       "key": "url:https://www.birac.nic.in/cfp_view.php?id=98&scheme_type=46",
       "title": "DBT-BIRAC Joint Call for Proposals on 'Smart Proteins' for Fostering High Performance Biomanufacturing under BioE3 Policy",
       "url": "https://www.birac.nic.in/cfp_view.php?id=98&scheme_type=46",
@@ -3548,7 +3848,7 @@
       ]
     },
     {
-      "id": "SRC-109",
+      "id": "SRC-124",
       "key": "url:https://www.cell-ag.de",
       "title": "CellAg Deutschland project overview",
       "url": "https://www.cell-ag.de/",
@@ -3575,7 +3875,7 @@
       ]
     },
     {
-      "id": "SRC-110",
+      "id": "SRC-125",
       "key": "url:https://www.cell-ag.de/_files/ugd/cd7689_34c289309fbd4cdbae0a16acbbb40967.pdf",
       "title": "National Action Plan Germany",
       "url": "https://www.cell-ag.de/_files/ugd/cd7689_34c289309fbd4cdbae0a16acbbb40967.pdf",
@@ -3616,7 +3916,7 @@
       ]
     },
     {
-      "id": "SRC-111",
+      "id": "SRC-126",
       "key": "url:https://www.cgiar.org/news-events/news/augmented-foresight-how-ai-can-make-food-systems-analysis-smarter-faster-and-more",
       "title": "Augmented Foresight",
       "url": "https://www.cgiar.org/news-events/news/augmented-foresight-how-ai-can-make-food-systems-analysis-smarter-faster-and-more",
@@ -3642,7 +3942,7 @@
       ]
     },
     {
-      "id": "SRC-112",
+      "id": "SRC-127",
       "key": "url:https://www.eda.gov/archives/2022/arpa/build-back-better/finalists/North-Carolina-Biotechnology-Center.htm",
       "title": "Accelerate NC - Life Sciences Manufacturing",
       "url": "https://www.eda.gov/archives/2022/arpa/build-back-better/finalists/North-Carolina-Biotechnology-Center.htm",
@@ -3669,7 +3969,7 @@
       ]
     },
     {
-      "id": "SRC-113",
+      "id": "SRC-128",
       "key": "url:https://www.efsa.europa.eu/en/applications/novel-food",
       "title": "EFSA novel-food application guidance",
       "url": "https://www.efsa.europa.eu/en/applications/novel-food",
@@ -3695,7 +3995,7 @@
       ]
     },
     {
-      "id": "SRC-114",
+      "id": "SRC-129",
       "key": "url:https://www.europarl.europa.eu/pdfs/news/expert/2026/6/press_release/20260611IPR45209/20260611IPR45209_en.pdf",
       "title": "European Parliament meat-designation vote",
       "url": "https://www.europarl.europa.eu/pdfs/news/expert/2026/6/press_release/20260611IPR45209/20260611IPR45209_en.pdf",
@@ -3721,7 +4021,7 @@
       ]
     },
     {
-      "id": "SRC-115",
+      "id": "SRC-130",
       "key": "url:https://www.fao.org/4/i2744e/i2744e00.htm",
       "title": "Livestock sector development for poverty reduction: an economic and policy perspective - Livestock's many virtues",
       "url": "https://www.fao.org/4/i2744e/i2744e00.htm",
@@ -3762,7 +4062,7 @@
       ]
     },
     {
-      "id": "SRC-116",
+      "id": "SRC-131",
       "key": "url:https://www.fao.org/4/X9892E/X9892e00.htm",
       "title": "Food Balance Sheets: A Handbook",
       "url": "https://www.fao.org/4/X9892E/X9892e00.htm",
@@ -3779,7 +4079,7 @@
       ]
     },
     {
-      "id": "SRC-117",
+      "id": "SRC-132",
       "key": "url:https://www.fao.org/4/X9892E/X9892e01.htm",
       "title": "Food Balance Sheets: A Handbook",
       "url": "https://www.fao.org/4/X9892E/X9892e01.htm",
@@ -3806,7 +4106,7 @@
       ]
     },
     {
-      "id": "SRC-118",
+      "id": "SRC-133",
       "key": "url:https://www.fao.org/4/x9892e/x9892e02.htm",
       "title": "Food Balance Sheets: A Handbook, II. Concepts and definitions used in food balance sheets",
       "url": "https://www.fao.org/4/x9892e/x9892e02.htm",
@@ -3833,7 +4133,7 @@
       ]
     },
     {
-      "id": "SRC-119",
+      "id": "SRC-134",
       "key": "url:https://www.fao.org/agrifood-economics/news/detail-events/en/c/1757552",
       "title": "FAO analysis highlights strategic policy reform to narrow Pakistan's healthy diet gap",
       "url": "https://www.fao.org/agrifood-economics/news/detail-events/en/c/1757552/",
@@ -3853,7 +4153,7 @@
       ]
     },
     {
-      "id": "SRC-120",
+      "id": "SRC-135",
       "key": "url:https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-701-47%252FCRDs%252Fcac47_crd04x.pdf",
       "title": "Food Safety Aspects of Cell-Based Food and Precision Fermentation Derived Food Products",
       "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-701-47%252FCRDs%252Fcac47_crd04x.pdf",
@@ -3880,7 +4180,7 @@
       ]
     },
     {
-      "id": "SRC-121",
+      "id": "SRC-136",
       "key": "url:https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf",
       "title": "Using Foresight for Food Systems Transformation A guide for policy makers practitioners and researchers",
       "url": "https://www.fao.org/media/docs/unfoodsystemslibraries/foresight-for-food-systems/foresight-guide.pdf",
@@ -3946,7 +4246,7 @@
       ]
     },
     {
-      "id": "SRC-122",
+      "id": "SRC-137",
       "key": "url:https://www.fao.org/research-extension-systems/agricultural-innovation-systems/en",
       "title": "Agricultural innovation systems",
       "url": "https://www.fao.org/research-extension-systems/agricultural-innovation-systems/en",
@@ -3973,7 +4273,47 @@
       ]
     },
     {
-      "id": "SRC-123",
+      "id": "SRC-138",
+      "key": "url:https://www.fas.usda.gov/data/gain-report/2026/09/Indonesia%20Issues%20New%20Halal%20Regulations%20with%20Trade%20Implications_Jakarta_Indonesia_ID2026-0034.pdf",
+      "title": "Indonesia Issues New Halal Regulations with Trade Implications (ID2026-0034)",
+      "url": "https://www.fas.usda.gov/data/gain-report/2026/09/Indonesia%20Issues%20New%20Halal%20Regulations%20with%20Trade%20Implications_Jakarta_Indonesia_ID2026-0034.pdf",
+      "doi": null,
+      "type": "Official trade report",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-019",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-139",
+      "key": "url:https://www.fas.usda.gov/data/india-india-halal-overview-2022",
+      "title": "India Halal Overview - 2022",
+      "url": "https://www.fas.usda.gov/data/india-india-halal-overview-2022",
+      "doi": null,
+      "type": "Official trade report",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-018",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-140",
       "key": "url:https://www.fda.gov/food/hfp-constituent-updates/fda-completes-first-pre-market-consultation-human-food-made-using-animal-cell-culture-technology",
       "title": "FDA Completes First Pre-Market Consultation for Human Food Made Using Animal Cell Culture Technology",
       "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-completes-first-pre-market-consultation-human-food-made-using-animal-cell-culture-technology",
@@ -4014,7 +4354,7 @@
       ]
     },
     {
-      "id": "SRC-124",
+      "id": "SRC-141",
       "key": "url:https://www.food.gov.uk/print/pdf/node/27246",
       "title": "UK FSA sandbox progress report",
       "url": "https://www.food.gov.uk/print/pdf/node/27246",
@@ -4040,7 +4380,7 @@
       ]
     },
     {
-      "id": "SRC-125",
+      "id": "SRC-142",
       "key": "url:https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1424012/full",
       "title": "Artificial intelligence in cultivated meat",
       "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1424012/full",
@@ -4066,7 +4406,7 @@
       ]
     },
     {
-      "id": "SRC-126",
+      "id": "SRC-143",
       "key": "url:https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1378883/full",
       "title": "Backcasting for food-system transformation",
       "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2024.1378883/full",
@@ -4092,7 +4432,7 @@
       ]
     },
     {
-      "id": "SRC-127",
+      "id": "SRC-144",
       "key": "url:https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells",
       "title": "USDA-FSIS cultivated-cell labeling and inspection policy",
       "url": "https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells",
@@ -4118,7 +4458,27 @@
       ]
     },
     {
-      "id": "SRC-128",
+      "id": "SRC-145",
+      "key": "url:https://www.goodmeat.co/all-news/leading-shariah-scholars-rule-cultivated-meat-can-be-halal",
+      "title": "Leading Shariah Scholars Rule Cultivated Meat Can Be Halal",
+      "url": "https://www.goodmeat.co/all-news/leading-shariah-scholars-rule-cultivated-meat-can-be-halal",
+      "doi": null,
+      "type": "Company press release",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-013",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Company press release about an opinion commissioned by the company. It is not an institutional fatwa and is not independent of the industry. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-146",
       "key": "url:https://www.gov.uk/government/statistics/national-diet-and-nutrition-survey-2019-to-2023/national-diet-and-nutrition-survey-2019-to-2023-report",
       "title": "National Diet and Nutrition Survey 2019 to 2023: report",
       "url": "https://www.gov.uk/government/statistics/national-diet-and-nutrition-survey-2019-to-2023/national-diet-and-nutrition-survey-2019-to-2023-report",
@@ -4145,7 +4505,7 @@
       ]
     },
     {
-      "id": "SRC-129",
+      "id": "SRC-147",
       "key": "url:https://www.gov.za/news/media-statements/science-technology-and-innovation-partners-un-food-and-agriculture",
       "title": "Science, Technology and Innovation partners with UN Food and Agriculture Organization on roadmap to strengthen South Africa's agrifood systems",
       "url": "https://www.gov.za/news/media-statements/science-technology-and-innovation-partners-un-food-and-agriculture",
@@ -4172,7 +4532,27 @@
       ]
     },
     {
-      "id": "SRC-130",
+      "id": "SRC-148",
+      "key": "url:https://www.greenqueen.com.hk/lab-grown-meat-cultivated-halal-muslims-malaysia-islamic-jakim",
+      "title": "Cultivated Meat Can Be Halal, Declares Malaysia's Islamic Authority",
+      "url": "https://www.greenqueen.com.hk/lab-grown-meat-cultivated-halal-muslims-malaysia-islamic-jakim/",
+      "doi": null,
+      "type": "News report of a fatwa (secondary)",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-005",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Secondary report, not the JAKIM or National Fatwa Committee text. Its date is the date of press coverage, not of issue. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-149",
       "key": "url:https://www.greenqueen.com.hk/swap-food-vegan-chicken-plant-based-meat-startup-liquidation-shuts",
       "title": "Green Queen consolidation tracker",
       "url": "https://www.greenqueen.com.hk/swap-food-vegan-chicken-plant-based-meat-startup-liquidation-shuts/",
@@ -4198,7 +4578,7 @@
       ]
     },
     {
-      "id": "SRC-131",
+      "id": "SRC-150",
       "key": "url:https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307",
       "title": "Guide for technological functional characterization of protein ingredients for the plant-based market",
       "url": "https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307",
@@ -4225,7 +4605,7 @@
       ]
     },
     {
-      "id": "SRC-132",
+      "id": "SRC-151",
       "key": "url:https://www.ipcc.ch/report/ar6/wg2/chapter/annex-ii",
       "title": "Annex II: Glossary - scenario, climate prediction, and climate projection definitions",
       "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/annex-ii/",
@@ -4266,7 +4646,27 @@
       ]
     },
     {
-      "id": "SRC-133",
+      "id": "SRC-152",
+      "key": "url:https://www.mdpi.com/2304-8158/15/8/1288",
+      "title": "Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges",
+      "url": "https://www.mdpi.com/2304-8158/15/8/1288",
+      "doi": null,
+      "type": "Peer-reviewed narrative review",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-009",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract and search summaries only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-153",
       "key": "url:https://www.mse.gov.sg/latest-news/newsletter-climate-action-in-sg-dec",
       "title": "Climate Action in SG (Dec 2020): Novel food as a sustainable food option",
       "url": "https://www.mse.gov.sg/latest-news/newsletter-climate-action-in-sg-dec/",
@@ -4307,7 +4707,7 @@
       ]
     },
     {
-      "id": "SRC-134",
+      "id": "SRC-154",
       "key": "url:https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-lab-grown-seafood-and-cultured-meat-sector",
       "title": "Written Reply to Parliamentary Question on Lab-Grown Seafood and Cultured Meat Sector",
       "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-lab-grown-seafood-and-cultured-meat-sector/",
@@ -4334,7 +4734,7 @@
       ]
     },
     {
-      "id": "SRC-135",
+      "id": "SRC-155",
       "key": "url:https://www.mti.gov.sg/newsroom/speech-by-mos-alvin-tan-at-the-singapore-international-agri-food-week-welcome-reception",
       "title": "Speech by MOS Alvin Tan at the Singapore International Agri-Food Week Welcome Reception",
       "url": "https://www.mti.gov.sg/newsroom/speech-by-mos-alvin-tan-at-the-singapore-international-agri-food-week-welcome-reception/",
@@ -4361,7 +4761,47 @@
       ]
     },
     {
-      "id": "SRC-136",
+      "id": "SRC-156",
+      "key": "url:https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/4887-irsyad-al-fatwa-siri-ke-595-daging-kultur-cultured-meat-menurut-perspektif-syarak",
+      "title": "Irsyad Hukum Siri Ke-595: Daging Kultur (Cultured Meat) Menurut Perspektif Syarak",
+      "url": "https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/4887-irsyad-al-fatwa-siri-ke-595-daging-kultur-cultured-meat-menurut-perspektif-syarak",
+      "doi": null,
+      "type": "Fatwa body opinion (Malay)",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-003",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-157",
+      "key": "url:https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat",
+      "title": "Fatwa on cultivated meat (media release)",
+      "url": "https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/",
+      "doi": null,
+      "type": "Fatwa body media release",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-002",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-158",
       "key": "url:https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-landbouw-voedsel-en-land-en-watergebruik/cellulaire-agricultuur",
       "title": "Cellulaire Agricultuur",
       "url": "https://www.nationaalgroeifonds.nl/overzicht-lopende-projecten/thema-landbouw-voedsel-en-land-en-watergebruik/cellulaire-agricultuur",
@@ -4388,7 +4828,7 @@
       ]
     },
     {
-      "id": "SRC-137",
+      "id": "SRC-159",
       "key": "url:https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report.html",
       "title": "OECD-FAO Agricultural Outlook 2026-2035",
       "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report.html",
@@ -4415,7 +4855,7 @@
       ]
     },
     {
-      "id": "SRC-138",
+      "id": "SRC-160",
       "key": "url:https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/meat_149b4ca3.html",
       "title": "OECD–FAO Agricultural Outlook 2026–2035: Meat",
       "url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en/full-report/meat_149b4ca3.html",
@@ -4473,7 +4913,7 @@
       ]
     },
     {
-      "id": "SRC-139",
+      "id": "SRC-161",
       "key": "url:https://www.pbs.gov.pk/hies",
       "title": "Household Integrated Economic Survey (HIES)",
       "url": "https://www.pbs.gov.pk/hies/",
@@ -4493,7 +4933,7 @@
       ]
     },
     {
-      "id": "SRC-140",
+      "id": "SRC-162",
       "key": "url:https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
       "title": "Household Integrated Economic Survey (HIES) 2024-25",
       "url": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
@@ -4520,7 +4960,27 @@
       ]
     },
     {
-      "id": "SRC-141",
+      "id": "SRC-163",
+      "key": "url:https://www.pewresearch.org/religion/2009/10/07/mapping-the-global-muslim-population",
+      "title": "Mapping the Global Muslim Population",
+      "url": "https://www.pewresearch.org/religion/2009/10/07/mapping-the-global-muslim-population/",
+      "doi": null,
+      "type": "Demographic report",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-020",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Sunni and Shia estimates only; the report gives no breakdown by school of law. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-164",
       "key": "url:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
       "title": "Parliament Question: BioE3 Policy",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
@@ -4547,7 +5007,7 @@
       ]
     },
     {
-      "id": "SRC-142",
+      "id": "SRC-165",
       "key": "url:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1&reg=3",
       "title": "PARLIAMENT QUESTION: IMPLEMENTATION OF BIOE3 POLICY",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1&reg=3",
@@ -4574,7 +5034,7 @@
       ]
     },
     {
-      "id": "SRC-143",
+      "id": "SRC-166",
       "key": "url:https://www.psqca.com.pk/division-wise-standards/halaal",
       "title": "Halaal standards and Halal Certification Bodies (PS 4992-OIC/SMIIC 2)",
       "url": "https://www.psqca.com.pk/division-wise-standards/halaal/",
@@ -4601,7 +5061,7 @@
       ]
     },
     {
-      "id": "SRC-144",
+      "id": "SRC-167",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0308521X25000101",
       "title": "Quantitative scenarios for food-system futures",
       "url": "https://www.sciencedirect.com/science/article/pii/S0308521X25000101",
@@ -4627,7 +5087,7 @@
       ]
     },
     {
-      "id": "SRC-145",
+      "id": "SRC-168",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0924224417303400",
       "title": "Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture",
       "url": "https://www.sciencedirect.com/science/article/pii/S0924224417303400",
@@ -4654,7 +5114,7 @@
       ]
     },
     {
-      "id": "SRC-146",
+      "id": "SRC-169",
       "key": "url:https://www.sciencedirect.com/science/article/pii/S0924224426004413",
       "title": "AI in alternative-protein development review",
       "url": "https://www.sciencedirect.com/science/article/pii/S0924224426004413",
@@ -4680,7 +5140,27 @@
       ]
     },
     {
-      "id": "SRC-147",
+      "id": "SRC-170",
+      "key": "url:https://www.sciencedirect.com/science/article/pii/S1319562X2200417X",
+      "title": "Scientific and Islamic perspectives in relation to the Halal status of cultured meat",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1319562X2200417X",
+      "doi": null,
+      "type": "Peer-reviewed article",
+      "occurrences": [
+        {
+          "collection": "Halal conditionality workstream",
+          "sourceId": "HS-008",
+          "recordPath": "research/halal-cultivated/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "Search-result summary only; page not opened.",
+          "limitations": "Abstract only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
+          "funding": null,
+          "humanVerification": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "SRC-171",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery",
       "title": "Sentient Futures Incubator gallery",
       "url": "https://www.sentientfutures.ai/incubator/gallery/",
@@ -4706,7 +5186,7 @@
       ]
     },
     {
-      "id": "SRC-148",
+      "id": "SRC-172",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/advocacy-intel-map",
       "title": "Effective Advocacy Project",
       "url": "https://www.sentientfutures.ai/incubator/gallery/advocacy-intel-map/",
@@ -4749,7 +5229,7 @@
       ]
     },
     {
-      "id": "SRC-149",
+      "id": "SRC-173",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai",
       "title": "Optimising Cheese Analogues Formulation using AI Applications",
       "url": "https://www.sentientfutures.ai/incubator/gallery/cheese-analogue-ai/",
@@ -4801,7 +5281,7 @@
       ]
     },
     {
-      "id": "SRC-150",
+      "id": "SRC-174",
       "key": "url:https://www.sentientfutures.ai/incubator/gallery/ideosphere-forecasting",
       "title": "Ideosphere",
       "url": "https://www.sentientfutures.ai/incubator/gallery/ideosphere-forecasting/",
@@ -4828,7 +5308,7 @@
       ]
     },
     {
-      "id": "SRC-151",
+      "id": "SRC-175",
       "key": "url:https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
       "title": "Singapore SFA novel-food framework",
       "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
@@ -4854,7 +5334,7 @@
       ]
     },
     {
-      "id": "SRC-152",
+      "id": "SRC-176",
       "key": "url:https://www.ukri.org/news/national-alternative-protein-innovation-centre-launches",
       "title": "National alternative protein innovation centre launches",
       "url": "https://www.ukri.org/news/national-alternative-protein-innovation-centre-launches/",
@@ -4881,7 +5361,7 @@
       ]
     },
     {
-      "id": "SRC-153",
+      "id": "SRC-177",
       "key": "url:https://www.ukri.org/opportunity/alternative-proteins-innovation-and-knowledge-centre",
       "title": "Alternative Proteins Innovation and Knowledge Centre",
       "url": "https://www.ukri.org/opportunity/alternative-proteins-innovation-and-knowledge-centre/",
@@ -4908,7 +5388,7 @@
       ]
     },
     {
-      "id": "SRC-154",
+      "id": "SRC-178",
       "key": "url:https://www.ukri.org/publications/alternative-proteins-roadmap-identifying-uk-priorities",
       "title": "Alternative Proteins Roadmap: identifying UK priorities",
       "url": "https://www.ukri.org/publications/alternative-proteins-roadmap-identifying-uk-priorities/",
@@ -4935,7 +5415,7 @@
       ]
     },
     {
-      "id": "SRC-155",
+      "id": "SRC-179",
       "key": "url:https://www.un.org/scientific-advisory-board/sites/default/files/2025-06/verification_of_frontier_ai.pdf",
       "title": "Verification of frontier AI",
       "url": "https://www.un.org/scientific-advisory-board/sites/default/files/2025-06/verification_of_frontier_ai.pdf",
@@ -4961,7 +5441,7 @@
       ]
     },
     {
-      "id": "SRC-156",
+      "id": "SRC-180",
       "key": "url:https://www.unep.org/resources/whats-cooking-assessment-potential-impacts-selected-novel-alternatives-conventional",
       "title": "What’s Cooking? An assessment of potential impacts of selected novel alternatives to conventional animal products",
       "url": "https://www.unep.org/resources/whats-cooking-assessment-potential-impacts-selected-novel-alternatives-conventional",
@@ -4988,7 +5468,7 @@
       ]
     },
     {
-      "id": "SRC-157",
+      "id": "SRC-181",
       "key": "url:https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
       "title": "Healthy diet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
@@ -5015,7 +5495,7 @@
       ]
     },
     {
-      "id": "SRC-158",
+      "id": "SRC-182",
       "key": "url:https://www.who.int/publications/i/item/9789240070943",
       "title": "Food safety aspects of cell-based food",
       "url": "https://www.who.int/publications/i/item/9789240070943",
@@ -5073,7 +5553,7 @@
       ]
     },
     {
-      "id": "SRC-159",
+      "id": "SRC-183",
       "key": "url:https://www.who.int/publications/i/item/B09677",
       "title": "WHO-PREZODE zoonotic-risk indicators",
       "url": "https://www.who.int/publications/i/item/B09677",
