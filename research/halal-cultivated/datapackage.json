@@ -1,0 +1,1831 @@
+{
+  "name": "halal-cultivated",
+  "title": "Halal conditionality for cultivated meat: data package",
+  "description": "Field names and allowed values for the halal workstream. Market records carry the demand forecast keys first, unrenamed. Blank cells are missing values, never zero. See PLAN.md.",
+  "version": "1.0.0",
+  "created": "2026-09-30T00:00:00Z",
+  "excluded": [
+    "insects as human protein",
+    "animal feed (except as poultry feed input in feed-inputs.csv)"
+  ],
+  "sourceRegister": "source-register.json",
+  "resources": [
+    {
+      "name": "market-records",
+      "path": "market-records.csv",
+      "description": "Data records: the demand forecast keys first, then the halal fields (PLAN.md 4.1-4.3).",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "record_id",
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "description": "Record ID",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "MR-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Demand forecast category, word for word",
+            "constraints": {
+              "enum": [
+                "plant_based",
+                "fermentation_biomass",
+                "fermentation_precision",
+                "cultivated",
+                "hybrid_cultivated",
+                "chicken",
+                "beef",
+                "mutton_goat"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "ISO 3166 alpha-3 code",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "2025 base; demand forecast resolution years",
+            "constraints": {
+              "required": true,
+              "enum": [
+                2025,
+                2026,
+                2030,
+                2035
+              ]
+            }
+          },
+          {
+            "name": "metric",
+            "type": "string",
+            "description": "Measured quantity",
+            "constraints": {
+              "enum": [
+                "sales_value",
+                "volume",
+                "market_share"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "price_basis",
+            "type": "string",
+            "description": "Required for sales_value",
+            "constraints": {
+              "enum": [
+                "usd_2025_constant"
+              ]
+            }
+          },
+          {
+            "name": "channel",
+            "type": "string",
+            "description": "Sales channel",
+            "constraints": {
+              "enum": [
+                "retail",
+                "foodservice",
+                "all"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "quantile",
+            "type": "string",
+            "description": "Blank for a point value",
+            "constraints": {
+              "enum": [
+                "q10",
+                "q50",
+                "q90"
+              ]
+            }
+          },
+          {
+            "name": "source_id",
+            "type": "string",
+            "description": "Register ID of the source",
+            "constraints": {
+              "required": true,
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+"
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "description": "Blank means missing, never zero"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit; volume and value shares are never mixed",
+            "constraints": {
+              "enum": [
+                "usd_2025_constant",
+                "tonnes_cwe",
+                "tonnes_retail_weight",
+                "share_volume",
+                "share_value"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "evidence_type",
+            "type": "string",
+            "description": "Kept in separate records, never combined",
+            "constraints": {
+              "enum": [
+                "food_balance_supply",
+                "household_survey",
+                "sales",
+                "stated_intention",
+                "projection"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "locator",
+            "type": "string",
+            "description": "Page, table or section in the source"
+          },
+          {
+            "name": "species_status",
+            "type": "string",
+            "description": "Species",
+            "constraints": {
+              "enum": [
+                "halal_species",
+                "non_halal_species",
+                "disputed_by_school"
+              ]
+            }
+          },
+          {
+            "name": "cell_origin",
+            "type": "string",
+            "description": "Cell line origin",
+            "constraints": {
+              "enum": [
+                "slaughtered_halal",
+                "live_biopsy",
+                "non_halal_slaughter",
+                "legacy_bank_unknown",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "medium_status",
+            "type": "string",
+            "description": "Growth medium",
+            "constraints": {
+              "enum": [
+                "animal_free_defined",
+                "fetal_bovine_serum",
+                "other_animal_derived",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "process_flags",
+            "type": "string",
+            "description": "Semicolon list: ethanol_used, porcine_derived_input; or none / unknown",
+            "constraints": {
+              "pattern": "none|unknown|(ethanol_used|porcine_derived_input)(;(ethanol_used|porcine_derived_input))*"
+            }
+          },
+          {
+            "name": "H_rel",
+            "type": "string",
+            "description": "Religious status from a named institution, product profile, jurisdiction and date",
+            "constraints": {
+              "enum": [
+                "permitted",
+                "conditional",
+                "prohibited",
+                "silent",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "H_rel_ruling",
+            "type": "string",
+            "description": "FT- ruling that H_rel comes from",
+            "constraints": {
+              "pattern": "FT-[A-Za-z0-9-]+"
+            }
+          },
+          {
+            "name": "L",
+            "type": "string",
+            "description": "Food-safety market access",
+            "constraints": {
+              "enum": [
+                "approved",
+                "pending",
+                "refused",
+                "no_pathway",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "L_includes_halal",
+            "type": "boolean",
+            "description": "true where food approval already requires halal status"
+          },
+          {
+            "name": "cert_route",
+            "type": "string",
+            "description": "Halal certification route for the product",
+            "constraints": {
+              "enum": [
+                "operational",
+                "statute_only",
+                "none_found",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "cert_searched_on",
+            "type": "date",
+            "description": "Date of the registry search; required for none_found"
+          },
+          {
+            "name": "madhhab_context",
+            "type": "string",
+            "description": "Predominant school(s); categorical, never a weight",
+            "constraints": {
+              "pattern": "(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi)(;(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi))*"
+            }
+          },
+          {
+            "name": "cultivated_fraction",
+            "type": "number",
+            "description": "Hybrid products only; supply accounting, never displacement",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "claims",
+      "path": "claims.csv",
+      "description": "Document 3: one row per claim made by Ghamidi Sahab in the interview. Short excerpts only.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "claim_id",
+        "fields": [
+          {
+            "name": "claim_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "CL-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "segment_id",
+            "type": "string",
+            "description": "TR- segment in the private transcript",
+            "constraints": {
+              "required": true,
+              "pattern": "TR-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "timestamp",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "[0-9]{2}:[0-5][0-9]:[0-5][0-9]"
+            }
+          },
+          {
+            "name": "speaker",
+            "type": "string",
+            "description": "Only Ghamidi Sahab's statements enter the register",
+            "constraints": {
+              "enum": [
+                "ghamidi"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "text_ur",
+            "type": "string",
+            "description": "Short Urdu excerpt",
+            "constraints": {
+              "required": true,
+              "maxLength": 280
+            }
+          },
+          {
+            "name": "text_en",
+            "type": "string",
+            "description": "Short English excerpt",
+            "constraints": {
+              "required": true,
+              "maxLength": 280
+            }
+          },
+          {
+            "name": "claim_type",
+            "type": "string",
+            "description": "Claim type",
+            "constraints": {
+              "enum": [
+                "quran",
+                "sunnah",
+                "hadith",
+                "fiqh_position",
+                "historical",
+                "scientific",
+                "speaker_reasoning"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "speaker_cited",
+            "type": "string",
+            "description": "What the speaker cited, as said"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "QS- or HP- records found",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "locator",
+            "type": "string",
+            "description": "Exact locator: surah:ayah; collection/book/number; edition and page"
+          },
+          {
+            "name": "checked_against",
+            "type": "string",
+            "description": "mizan and/or hadith_collections",
+            "constraints": {
+              "pattern": "(mizan|hadith_collections|quran_text|classical_fiqh|historical_record|scientific_literature)(;(mizan|hadith_collections|quran_text|classical_fiqh|historical_record|scientific_literature))*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "speaker_reasoning marks ijtihad, not an error",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "verified",
+                "partially_verified",
+                "misattributed",
+                "not_found",
+                "speaker_reasoning"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "scripture-sources",
+      "path": "scripture-sources.csv",
+      "description": "QS- records: Quran, hadith and Sunnah sources found for claims.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "source_id",
+        "fields": [
+          {
+            "name": "source_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "QS-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Source kind",
+            "constraints": {
+              "enum": [
+                "quran",
+                "hadith",
+                "sunnah_mizan"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "reference",
+            "type": "string",
+            "description": "Quran surah:ayah[-ayah]; hadith number; Mizan chapter",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "collection",
+            "type": "string",
+            "description": "Hadith collection and book"
+          },
+          {
+            "name": "grading",
+            "type": "string",
+            "description": "Hadith grading"
+          },
+          {
+            "name": "graded_by",
+            "type": "string",
+            "description": "Who graded it"
+          },
+          {
+            "name": "english_translation",
+            "type": "string",
+            "description": "For Quran: al_bayan_saleem by default"
+          },
+          {
+            "name": "second_translation",
+            "type": "string",
+            "description": "Second standard translation where the two differ"
+          },
+          {
+            "name": "flag_no_english",
+            "type": "boolean",
+            "description": "true where no English rendering exists; flag for Umar"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Public location"
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "historical-parallels",
+      "path": "historical-parallels.csv",
+      "description": "HP- records (Document 4A).",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "parallel_id",
+        "fields": [
+          {
+            "name": "parallel_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "HP-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "Candidate group",
+            "constraints": {
+              "enum": [
+                "religious_ruling",
+                "market_substitution",
+                "south_asian_substitution",
+                "disease_shock",
+                "food_sovereignty"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "food_before",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "food_after",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "driver",
+            "type": "string",
+            "description": "Main driver",
+            "constraints": {
+              "enum": [
+                "religious_ruling",
+                "price",
+                "scarcity",
+                "disease",
+                "technology",
+                "policy_sovereignty",
+                "taste"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "mechanism",
+            "type": "string",
+            "description": "Jurisprudential mechanism where there is one",
+            "constraints": {
+              "enum": [
+                "istihala",
+                "darura",
+                "urf",
+                "maslaha",
+                "harm_avoidance",
+                "none"
+              ]
+            }
+          },
+          {
+            "name": "place",
+            "type": "string",
+            "description": "Place"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Time period"
+          },
+          {
+            "name": "speed_of_change",
+            "type": "string",
+            "description": "Speed of change"
+          },
+          {
+            "name": "elasticity_ids",
+            "type": "string",
+            "constraints": {
+              "pattern": "EL-[0-9]{3,}(;EL-[0-9]{3,})*"
+            }
+          },
+          {
+            "name": "informs",
+            "type": "string",
+            "description": "Section 4 variables informed",
+            "constraints": {
+              "required": true,
+              "pattern": "(H_rel|D|p|K)(;(H_rel|D|p|K))*"
+            }
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "rulings",
+      "path": "rulings.csv",
+      "description": "FT- records: fatwas, resolutions and rulings (Document 4B).",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "ruling_id",
+        "fields": [
+          {
+            "name": "ruling_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "FT-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "institution",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "ISO alpha-3, or INT for international bodies",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "description": "Date issued",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "document_ref",
+            "type": "string",
+            "description": "Resolution or fatwa number"
+          },
+          {
+            "name": "product_profile",
+            "type": "string",
+            "description": "Product the ruling addresses",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "position",
+            "type": "string",
+            "description": "Position",
+            "constraints": {
+              "enum": [
+                "permitted",
+                "conditional",
+                "prohibited",
+                "silent"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "conditions",
+            "type": "string",
+            "description": "Conditions attached"
+          },
+          {
+            "name": "repeats",
+            "type": "string",
+            "description": "FT- ruling this record reports; counts once with it",
+            "constraints": {
+              "pattern": "FT-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "Language of the original",
+            "constraints": {
+              "enum": [
+                "en",
+                "ar",
+                "ur",
+                "ms",
+                "id",
+                "other"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "english_available",
+            "type": "boolean",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Public location"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "consensus-matrix",
+      "path": "consensus-matrix.csv",
+      "description": "Long-form consensus matrix: conditions by institutions and scholars.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "condition",
+          "column_id"
+        ],
+        "fields": [
+          {
+            "name": "condition",
+            "type": "string",
+            "description": "Row condition",
+            "constraints": {
+              "enum": [
+                "species",
+                "donor_slaughter_vs_biopsy",
+                "growth_medium",
+                "istihala_applies",
+                "slaughter_required",
+                "safety",
+                "labelling"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "column_id",
+            "type": "string",
+            "description": "FT- ruling, or CL- claim for Ghamidi Sahab",
+            "constraints": {
+              "required": true,
+              "pattern": "(FT|CL)-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "stance",
+            "type": "string",
+            "description": "Position on this condition",
+            "constraints": {
+              "enum": [
+                "permits",
+                "conditional",
+                "prohibits",
+                "silent"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "citation",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "description": "Date of the position",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "madhhab-geography",
+      "path": "madhhab-geography.csv",
+      "description": "MD- records (Document 5). Categorical only: no invented percentages.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "record_id",
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "MD-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "ISO 3166 alpha-3 code",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "predominant_schools",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi)(;(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi))*"
+            }
+          },
+          {
+            "name": "official_madhhab",
+            "type": "string",
+            "description": "School named in constitution or law, or none_named",
+            "constraints": {
+              "pattern": "none_named|(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi)(;(hanafi|shafii|maliki|hanbali|jafari|zaydi|ibadi))*"
+            }
+          },
+          {
+            "name": "official_madhhab_source",
+            "type": "string",
+            "description": "Constitution or law, e.g. via constituteproject.org"
+          },
+          {
+            "name": "composition",
+            "type": "string",
+            "description": "Sunni/Shia/Ibadi composition as stated by the named source"
+          },
+          {
+            "name": "composition_source",
+            "type": "string",
+            "description": "Named source for the composition"
+          },
+          {
+            "name": "fatwa_bodies",
+            "type": "string",
+            "description": "Main fatwa bodies"
+          },
+          {
+            "name": "as_of",
+            "type": "date",
+            "description": "Date of the figures",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "certification",
+      "path": "certification.csv",
+      "description": "CT- records: certification body and standard per country (Document 5).",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "record_id",
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "CT-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "ISO alpha-3, or INT",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "standard",
+            "type": "string",
+            "description": "Standard"
+          },
+          {
+            "name": "mandatory",
+            "type": "string",
+            "description": "Whether certification is mandatory",
+            "constraints": {
+              "enum": [
+                "yes",
+                "no",
+                "partial",
+                "unknown"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "import_recognition",
+            "type": "string",
+            "description": "Import and recognition rules"
+          },
+          {
+            "name": "novel_food_route",
+            "type": "string",
+            "description": "Whether any route covers novel or cell-based foods",
+            "constraints": {
+              "enum": [
+                "operational",
+                "statute_only",
+                "none_found",
+                "unknown"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "searched_on",
+            "type": "date",
+            "description": "Date of search; required for none_found"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "elasticities",
+      "path": "elasticities.csv",
+      "description": "EL- records: meat demand elasticities per focal country (Document 4C).",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "record_id",
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "EL-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "ISO 3166 alpha-3 code",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "good",
+            "type": "string",
+            "description": "Good whose demand responds",
+            "constraints": {
+              "enum": [
+                "chicken",
+                "beef",
+                "mutton_goat",
+                "meat_total"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Elasticity type",
+            "constraints": {
+              "enum": [
+                "own_price",
+                "cross_price",
+                "expenditure"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "with_respect_to",
+            "type": "string",
+            "description": "Price or expenditure it responds to",
+            "constraints": {
+              "enum": [
+                "chicken",
+                "beef",
+                "mutton_goat",
+                "meat_total",
+                "expenditure"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "value",
+            "type": "number",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "se",
+            "type": "number",
+            "description": "Standard error"
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Data period"
+          },
+          {
+            "name": "method",
+            "type": "string",
+            "description": "Estimation method"
+          },
+          {
+            "name": "evidence_group",
+            "type": "string",
+            "description": "Shared by an original study and its corrections; counts once"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "feed-inputs",
+      "path": "feed-inputs.csv",
+      "description": "Insects as poultry feed input only (Document 4D). Never human protein.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "record_id",
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "FI-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "ISO 3166 alpha-3 code",
+            "constraints": {
+              "required": true,
+              "pattern": "[A-Z]{3}"
+            }
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "input",
+            "type": "string",
+            "description": "Feed input",
+            "constraints": {
+              "enum": [
+                "insect_meal",
+                "insect_oil",
+                "whole_larvae"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "use",
+            "type": "string",
+            "description": "Only permitted use",
+            "constraints": {
+              "enum": [
+                "poultry_feed"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "metric",
+            "type": "string",
+            "description": "Measured quantity",
+            "constraints": {
+              "enum": [
+                "sales_value",
+                "volume",
+                "price"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "value",
+            "type": "number"
+          },
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Unit"
+          },
+          {
+            "name": "halal_status_as_feed",
+            "type": "string",
+            "description": "Status as feed, by school"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Semicolon-separated source or record IDs",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "verification_status",
+            "type": "string",
+            "description": "Review state; carried claims start as carried_unverified",
+            "constraints": {
+              "enum": [
+                "unverified",
+                "carried_unverified",
+                "partially_verified",
+                "verified",
+                "not_found"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "carried_from",
+            "type": "string",
+            "description": "Earlier work a value was taken from, if any",
+            "constraints": {
+              "enum": [
+                "conditional_markets_paper",
+                "india_pakistan_brief"
+              ]
+            }
+          },
+          {
+            "name": "rechecked_on",
+            "type": "date",
+            "description": "Date the carried value was re-checked against its source"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    },
+    {
+      "name": "scenarios",
+      "path": "scenarios.csv",
+      "description": "Phase 2 grid (PLAN.md 4.5 and 7): Q = D x p x G, capped by K.",
+      "schema": {
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "scenario_id",
+        "fields": [
+          {
+            "name": "scenario_id",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "SC-[0-9]{3,}"
+            }
+          },
+          {
+            "name": "geo",
+            "type": "string",
+            "description": "Focal country",
+            "constraints": {
+              "enum": [
+                "IND",
+                "PAK",
+                "SAU",
+                "ARE"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "year",
+            "type": "integer",
+            "constraints": {
+              "required": true,
+              "enum": [
+                2026,
+                2030,
+                2035
+              ]
+            }
+          },
+          {
+            "name": "quantile",
+            "type": "string",
+            "description": "Quantile",
+            "constraints": {
+              "enum": [
+                "q10",
+                "q50",
+                "q90"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "gate_state",
+            "type": "string",
+            "description": "Gate state",
+            "constraints": {
+              "enum": [
+                "declared_halal",
+                "declared_haram",
+                "prolonged_silence"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "shock",
+            "type": "string",
+            "description": "Shock layered on the gate state",
+            "constraints": {
+              "enum": [
+                "none",
+                "animal_disease",
+                "food_sovereignty"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "shock_mechanism",
+            "type": "string",
+            "description": "none, or variables the shock changes: D, conventional_price, K, L",
+            "constraints": {
+              "required": true,
+              "pattern": "none|(D|conventional_price|K|L)(;(D|conventional_price|K|L))*"
+            }
+          },
+          {
+            "name": "acceptance_source",
+            "type": "string",
+            "description": "Exactly one acceptance carrier",
+            "constraints": {
+              "enum": [
+                "p_US",
+                "local_survey"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "df_question",
+            "type": "string",
+            "description": "Demand forecast question p_US comes from; cultivated part only",
+            "constraints": {
+              "enum": [
+                "q2_cultivated"
+              ]
+            }
+          },
+          {
+            "name": "local_survey_id",
+            "type": "string",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+"
+            }
+          },
+          {
+            "name": "p",
+            "type": "number",
+            "description": "Penetration from the acceptance source",
+            "constraints": {
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          {
+            "name": "H_rel",
+            "type": "string",
+            "description": "Religious status",
+            "constraints": {
+              "enum": [
+                "permitted",
+                "conditional",
+                "prohibited",
+                "silent",
+                "unknown"
+              ]
+            }
+          },
+          {
+            "name": "H_rel_ruling",
+            "type": "string",
+            "constraints": {
+              "pattern": "FT-[A-Za-z0-9-]+"
+            }
+          },
+          {
+            "name": "H_rel_condition_met",
+            "type": "boolean",
+            "description": "Required when H_rel is conditional"
+          },
+          {
+            "name": "L",
+            "type": "string",
+            "description": "Food-safety market access",
+            "constraints": {
+              "enum": [
+                "approved",
+                "pending",
+                "refused",
+                "no_pathway",
+                "unknown"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "L_includes_halal",
+            "type": "boolean",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "G",
+            "type": "integer",
+            "description": "Gate switch: 0 or 1, never a fraction",
+            "constraints": {
+              "required": true,
+              "enum": [
+                0,
+                1
+              ]
+            }
+          },
+          {
+            "name": "D",
+            "type": "number",
+            "description": "Baseline meat consumption (OECD-FAO)"
+          },
+          {
+            "name": "D_unit",
+            "type": "string",
+            "description": "Unit of D",
+            "constraints": {
+              "enum": [
+                "tonnes_cwe",
+                "tonnes_retail_weight"
+              ]
+            }
+          },
+          {
+            "name": "K",
+            "type": "number",
+            "description": "Allocated supply cap; blank means unknown"
+          },
+          {
+            "name": "Q_uncapped",
+            "type": "number",
+            "description": "D x p x G"
+          },
+          {
+            "name": "Q",
+            "type": "number",
+            "description": "Q_uncapped capped by K"
+          },
+          {
+            "name": "cap_status",
+            "type": "string",
+            "description": "Whether K binds",
+            "constraints": {
+              "enum": [
+                "capped",
+                "not_binding",
+                "unknown"
+              ],
+              "required": true
+            }
+          },
+          {
+            "name": "reason_code",
+            "type": "string",
+            "description": "Required for every zero or missing Q",
+            "constraints": {
+              "enum": [
+                "gate_closed_haram",
+                "gate_closed_silence_no_pathway",
+                "gate_closed_no_approval",
+                "supply_cap_zero",
+                "input_missing"
+              ]
+            }
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "constraints": {
+              "pattern": "(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+(;(CO|SA|GP|HS|QS|HP|FT|MD|CT|EL|CL)-[A-Za-z0-9-]+)*"
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Free text"
+          }
+        ]
+      },
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ",",
+        "header": true
+      }
+    }
+  ]
+}

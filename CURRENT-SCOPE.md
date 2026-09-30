@@ -4,6 +4,10 @@ The current research direction is a comparative brief on the social, cultural, a
 
 The consolidated brief for this scope is [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/index.html), reviewed through 14 September 2026. It is a secondary synthesis and a proposed research design, not a completed comparative study, and its final human review is pending. The broader reports in this repository are earlier research inputs and should not be mistaken for an agreed final team output.
 
+## Halal conditionality workstream
+
+A second workstream, set out in the [research plan](research/halal-cultivated/PLAN.md) of 30 September 2026, asks under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market it could occupy if those conditions are met. It reuses the demand-forecast workstream's categories, years and quantiles so the two can be joined row by row, and it produces conditional shares, not forecasts. The plan is not mentor-approved, and its registers are empty.
+
 ## Questions to investigate
 
 The brief narrows these to a primary comparison of a plant-based chicken product against a conventional chicken option and a familiar pulse-based option in a specified meal, with cultivated meat and fermentation-derived proteins treated separately.

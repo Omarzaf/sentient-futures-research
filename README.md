@@ -4,13 +4,14 @@ Research drafts, data, and source references maintained by **Muhammad Umar Zafar
 
 **Start with [the research library](index.html)** or the document links below. HTML files render when downloaded and opened in a browser; GitHub's file viewer displays their source. The Markdown literature review and policy table can be read directly on GitHub.
 
-These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the India–Pakistan consumption brief below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
+These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the India–Pakistan consumption brief and the halal conditionality workstream below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
 
 ## Research
 
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
 | [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
+| [Halal Conditionality for Cultivated Meat: Research Plan](research/halal-cultivated/PLAN.md) | **Current workstream.** Religious, certification and regulatory conditions for cultivated meat in India, Pakistan, Saudi Arabia and the UAE; shared schema with the demand forecast; empty registers and checked double-counting rules | 30 Sep 2026 (plan) |
 | [Protein Transitions Across Unequal Food Systems](research/comparative-protein/README.md) | Comparative synthesis; supply data, adoption, research and talent policy, charts, and capability locators | 13 Sep 2026 |
 | [AI and the Protein Transition](research/ai-protein/literature-review.md) | Literature review connecting technical progress, adoption, displacement, and policy | 11 Sep 2026 |
 | [Policy Evidence to Decision Table](research/ai-protein/policy-decisions.md) | Six conditional policy discussion areas and evidence that would alter them | 11 Sep 2026 |
@@ -21,6 +22,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 
 - [Searchable source catalog](sources/index.html), [CSV index](sources/catalog.csv), and [JSON catalog](sources/catalog.json): public references retained in the included research, with occurrences linking back to original source IDs.
 - Original registers: [20 India–Pakistan review records](research/india-pakistan/source-register.json), [60 comparative-report records](research/comparative-protein/source-register.json), and [44 literature-foundation records](research/ai-protein/source-register.json).
+- [Halal workstream data package](research/halal-cultivated/datapackage.json) and its [registers](research/halal-cultivated/README.md), currently empty.
 - [Country supply CSV](research/comparative-protein/protein-data.csv), [figure inputs and provenance](research/comparative-protein/figure-data.json), and [data dictionary](DATA-DICTIONARY.md).
 - [Cited-passage review ledger](research/comparative-protein/claim-ledger.json) and [RIS bibliography](research/ai-protein/references.ris).
 
@@ -45,6 +47,7 @@ No package installation, Python environment, or API keys are required.
 ```sh
 node tools/build-library.mjs
 node tools/verify.mjs
+node tools/test-halal-checks.mjs
 ```
 
 The build regenerates the reading portal, combined catalog, and checksums. Verification checks source coverage, relative links, citation IDs, derived figures, file integrity, and common privacy hazards. It does not rerun the original research, access restricted databases, check live source availability, or certify factual accuracy.

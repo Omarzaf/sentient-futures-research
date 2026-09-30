@@ -1,6 +1,8 @@
 # Halal conditionality for cultivated meat: research plan
 
-Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved.
+Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
+
+The schema in section 4 is implemented in [datapackage.json](datapackage.json), and the section 5 rules are checked by `tools/halal-checks.mjs`. See [README.md](README.md) for the files.
 
 ## 1. What this workstream answers
 
@@ -96,6 +98,12 @@ Missing stays missing. A blank is never read as zero, and a registry search that
 | `MD-` | Madhhab and geography record |
 | `CT-` | Certification body or standard |
 | `EL-` | Elasticity estimate |
+| `MR-` | Market data record (section 4 fields) |
+| `FI-` | Feed-input record (insects as poultry feed) |
+| `SC-` | Scenario grid row (section 7) |
+| `HS-` | New bibliographic source in this workstream's source register |
+
+The last four were added when the schema was built so that every table has a primary key. `excluded` is recorded once in the data package metadata rather than as a column, because an excluded category never appears in a record.
 
 ### 4.5 The bridge to the demand-forecast numbers
 
@@ -123,7 +131,7 @@ Each rule becomes a check in `tools/verify.mjs` where it can be tested mechanica
 4. **Hybrid products are counted once.** Hybrid sales are counted once at the finished product under `hybrid_cultivated`. `cultivated_fraction` is used for supply and biomass accounting only, never as a displacement coefficient.
 5. **The demand forecast's two questions are never added together.** Its plant-based and cultivated/fermentation answers overlap by design (for example mycoprotein).
 6. **Insect protein is a feed input.** It affects the cost and supply of conventional chicken. It is never added to human protein supply, which would count the same protein twice (insect, then chicken).
-7. **Each shock has one mechanism.** A shock changes either `D`, conventional price, `K` or `L`, and the record says which. The same shock is not also applied to `p_US`.
+7. **Each shock has a declared mechanism.** The animal-disease shock changes `D` and conventional price only; the food-sovereignty shock changes `K` and `L` only (section 7). Each scenario row records which, and no shock changes `p_US`.
 8. **Related evidence counts once.** An original study and its correction count as one piece of evidence, as does a ruling and the reports that repeat it.
 9. **Madhhab is context, not a weight.** No population-weighted acceptance figure is produced.
 10. **Carried claims are re-checked.** Every claim taken from the Conditional Markets paper or the India–Pakistan brief starts with status `carried_unverified` and changes only after re-checking against the source.

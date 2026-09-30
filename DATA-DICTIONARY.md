@@ -59,6 +59,14 @@ opened during AI-assisted review, not that a human has verified the claim.
 
 The combined [catalog](sources/catalog.json) contains normalized source identities and their original document occurrences. It is an index, not a new empirical dataset. Source access and bibliographic completeness vary by record.
 
+## Halal conditionality workstream
+
+Location: [research/halal-cultivated](research/halal-cultivated/README.md). [datapackage.json](research/halal-cultivated/datapackage.json) defines every field, type and allowed value for the eleven CSV registers, in the Frictionless Data format, so it can also be validated with `frictionless validate`. It is the only definition; this section does not repeat it.
+
+`market-records.csv` carries the demand forecast's keys (`category`, `geo`, `year`, `metric`, `price_basis`, `channel`, `quantile`, `source_id`) unrenamed, then the halal fields from plan section 4.3. Values are in constant 2025 USD; volumes are carcass-weight equivalent unless `unit` says retail weight. Volume and value shares use different units and are never mixed. Food-balance supply, household survey quantities, sales, stated intentions and projections are distinguished by `evidence_type` and never combined.
+
+Blank cells are missing, never zero. A registry search that found nothing is `none_found` with its date, not a prohibition. The registers are empty as of 30 September 2026.
+
 ## Integrity records
 
 [File manifest](provenance/file-manifest.json) records sizes and SHA-256 hashes for the shareable repository files. [Import records](provenance/import-records.json) identify the source artifact filename, its content hash, and curation changes for imported report files. Neither record attests to empirical validity. No original private-folder inventory is included.
