@@ -18,8 +18,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 196,
-      "sha256": "d37a33a13274d9d78ed96baa53d348ee1c50a9fa6489ef9efbc8a85daf884191"
+      "bytes": 274,
+      "sha256": "ca8b8bf6a39a663fb41746c78f82b3a9097efc4a5d27357d5d8d79d39b1c18e2"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -150,6 +150,11 @@
       "path": "research/comparative-protein/source-register.json",
       "bytes": 68514,
       "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
+    },
+    {
+      "path": "research/halal-cultivated/PLAN.md",
+      "bytes": 24478,
+      "sha256": "4c813c93bda6a9fba29f3a354524a1d93edb353add25007f235fa9ad2e59999d"
     },
     {
       "path": "research/india-pakistan/README.md",
