@@ -48,8 +48,68 @@
     },
     {
       "path": "RIGHTS-AND-REUSE.md",
-      "bytes": 1777,
-      "sha256": "24bc797b5dfba0a0dc01b582fc1c7d3fd075ee81ce373f8dfae689ee72f9ef2a"
+      "bytes": 2132,
+      "sha256": "33b529e5edd6a0cdd711c656ed0f451336c1250b2b5d7758719b9e6f1db86923"
+    },
+    {
+      "path": "drive-archive/README.md",
+      "bytes": 2687,
+      "sha256": "1a06f7a668918d5ef8c1597d2967b12adb87944adf310cc401466294a564fa89"
+    },
+    {
+      "path": "drive-archive/shared/Compute finance request form.md",
+      "bytes": 6032,
+      "sha256": "84db1ce769d4dbcf65e7295621ad7a810a07da212b04dbe68144a50fc8112f52"
+    },
+    {
+      "path": "drive-archive/shared/Desk research + survey development.md",
+      "bytes": 131875,
+      "sha256": "fdf89ff6808d87aee3458e26209dc804cfa5bc2fc3221ecb2ed852624b8ce3e9"
+    },
+    {
+      "path": "drive-archive/shared/Meeting_notes.md",
+      "bytes": 3697,
+      "sha256": "4313592cb7ef9506cec2030042d89d27ee479ce57d6c1be351be51349f669b93"
+    },
+    {
+      "path": "drive-archive/shared/Mentees_plan.md",
+      "bytes": 3079,
+      "sha256": "c9a47ebf4f42a8441b7ee41043c857ecd9ad89b7cc76ba9eb8270bb5313de418"
+    },
+    {
+      "path": "drive-archive/shared/Methodology - LLM-Based Forecast Elicitation.md",
+      "bytes": 5291,
+      "sha256": "70db473c7d55e5da18f1b41de355ac14fef48e3d4101dff063b02dc796d852eb"
+    },
+    {
+      "path": "drive-archive/shared/Question honing.md",
+      "bytes": 4305,
+      "sha256": "7fb6e2688000d1ea753d8aca1e4db873bac4496bbd3294f81cbb40cd0eb6c58f"
+    },
+    {
+      "path": "drive-archive/shared/Repository.md",
+      "bytes": 3650,
+      "sha256": "8f01f9aec8e52116764932fcc2c23ae05418766b27554d0f24e4e2f1b8df8813"
+    },
+    {
+      "path": "drive-archive/shared/Workplan - Anna.md",
+      "bytes": 8738,
+      "sha256": "8b7cc53fdb1ce70e9fef365c0c5a89cb787cb5efa67a7e81f38e6842fe3a3463"
+    },
+    {
+      "path": "drive-archive/umar/Model Selection - LLM Forecast Panel.md",
+      "bytes": 223633,
+      "sha256": "7e4fbc2c7a10ed0a26aca809dce45388a37006be8e8c641612ebdb3cfb7e677c"
+    },
+    {
+      "path": "drive-archive/umar/consolidated-research/India Pakistan Protein Research.md",
+      "bytes": 31295,
+      "sha256": "8ac91ee293d49b738e2f8c5fc4dbe2fb4b3277dcb51846a4ed23f76040f93a47"
+    },
+    {
+      "path": "drive-archive/umar/consolidated-research/README.md",
+      "bytes": 1438,
+      "sha256": "f97c0ad1d053bdbe81477cec4c4f2f95c3d30b55c5ca1af0ebe42bf037f9699a"
     },
     {
       "path": "index.html",
@@ -150,6 +210,11 @@
       "path": "research/comparative-protein/source-register.json",
       "bytes": 68514,
       "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
+    },
+    {
+      "path": "research/halal-cultivated/PLAN.md",
+      "bytes": 24051,
+      "sha256": "1383183556fd5c73739caeea8de80b9abb9f12f04fb0c268349faa7faa642436"
     },
     {
       "path": "research/india-pakistan/README.md",
