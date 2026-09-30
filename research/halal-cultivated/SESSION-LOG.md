@@ -2,6 +2,12 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 30 September 2026 — corrections to the earlier discovery rows
+
+**Done:** Checked the Phase One public-source edition against the first-pass registers and corrected the rows it contradicted. `certification.csv`: India and Saudi Arabia route changed from `none_found` to `statute_only` and `operational`, Singapore from `unknown` to `operational`, with notes on the UAE, Pakistan and Indonesia. `rulings.csv` and `consensus-matrix.csv`: the IIFA 265 live-donor reading withdrawn, and the MUIS monograph added. `scripture-sources.csv`: a note on Ghamidi's published treatment of flesh from a living animal. Each changed row says it was corrected and points to `phase1/review.md`.
+
+**Note:** The corrected values rely on the Phase One review; the instruments were not re-read in this pass.
+
 ## 30 September 2026 — local execution and repository edition
 
 **Completed:** Executed the user-edited plan, including all five delivery targets moved to 30 September. The public-source review now covers 45 school questions, seven countries and four historical comparisons. It retains 74 claims and 76 source records, blind-review reconciliation, counter-evidence, source families and explicit gaps. The full editable Word output remains local under the repository's existing Office-file exclusion.
