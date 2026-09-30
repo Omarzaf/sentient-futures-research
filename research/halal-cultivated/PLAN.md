@@ -394,6 +394,6 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 ## 11. Open items
 
 - Interview recording (`IMG 7313.*`) not yet in the repository.
-- Demand-forecast workstream not yet asked for the 2026/2035 extension or the US meat denominator.
+- Demand-forecast workstream asked on 30 September for the 2026/2035 extension, the US meat denominator, and whether cultivated sales are reported separately from fermentation. Awaiting reply.
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.
