@@ -8,21 +8,21 @@ Team umbrella question: how could AI reshape the food system transition over the
 
 This workstream asks: **under which religious, certification and regulatory conditions can cultivated meat enter Muslim-majority and large-Muslim-population markets, and what share of the existing meat market could it occupy if those conditions are met?**
 
-It adds a halal layer to the team's work. It does not run its own forecast survey or LLM elicitation. Anna's workstream produces the US demand forecast; this workstream reuses her variables, years and definitions so the two can be read side by side and joined row by row.
+It adds a halal layer to the team's work. It does not run its own forecast survey or LLM elicitation. The team's demand-forecast workstream produces a US forecast; this workstream reuses her variables, years and definitions so the two can be read side by side and joined row by row.
 
 ## 2. Decisions fixed on 30 September
 
 | Topic | Decision |
 |---|---|
 | Method | No questionnaire and no LLM forecast panel in this workstream. |
-| Time horizons | Same as Anna: 2026, 2030, 2035, with 2025 as the base year. |
+| Time horizons | Same as the demand forecast: 2026, 2030, 2035, with 2025 as the base year. |
 | Language | English sources only. Where no English version exists, flag it; Umar decides whether to use Urdu and translate himself. The Urdu interview being transcribed is the object of study, so it is the one standing exception. |
 | Geography | Four focal cases: India, Pakistan, Saudi Arabia, UAE. Three precedents: Malaysia, Singapore, Indonesia. No readiness ranking across them. |
 | Product | Cultivated chicken first. Other halal species (beef, mutton, goat) as an extension once chicken is done. |
-| Insects | Poultry feed input only, valued in market terms. Never counted as human protein or as an alternative protein, which keeps Anna's exclusion intact. |
+| Insects | Poultry feed input only, valued in market terms. Never counted as human protein or as an alternative protein, which keeps the demand forecast's exclusion intact. |
 | Scenarios | Halal status is the gate (declared halal, declared haram, prolonged silence). Animal-disease shocks and food-sovereignty policy are layered on top of each gate state. |
 | Double counting | None permitted. Rules in section 5. |
-| Earlier work | The Conditional Markets paper (20–21 Sep) and the India–Pakistan brief (15 Sep) are inputs to build on and re-check, not established findings. Team material, including Anna's survey and definitions, is read from `drive-archive/`. |
+| Earlier work | The Conditional Markets paper (20–21 Sep) and the India–Pakistan brief (15 Sep) are inputs to build on and re-check, not established findings. Team material is read from the team's shared Drive, which stays the source of truth and is not copied into this repository. |
 | Role question | Deferred. This plan lays groundwork. |
 | Where outputs live | Repository as source of truth; Google Drive copy for mentors. |
 
@@ -41,24 +41,24 @@ From the 30 September mind map.
 
 Scenario 1 from the mind map: if the focal states declare halal-source cultivated meat halal, what share of the projected meat market could it occupy? Then the same question under the other gate states and under the two shocks.
 
-**Cross-cutting: systems thinking.** For each scenario, record first-order effects (market access, sales) and second-order effects (conventional halal meat exports, livestock livelihoods, feed demand including insects, certification industry). Livelihood effects are handed to Rufaro's Global North/South work rather than analysed twice.
+**Cross-cutting: systems thinking.** For each scenario, record first-order effects (market access, sales) and second-order effects (conventional halal meat exports, livestock livelihoods, feed demand including insects, certification industry). Livelihood effects are handed to the team's Global North/South workstream rather than analysed twice.
 
-## 4. Shared variables with Anna's workstream
+## 4. Shared variables with the demand-forecast workstream
 
-This is the fix for the category mismatch. Every data record in this workstream carries Anna's keys first, then the halal fields. Nothing in Anna's schema is renamed.
+This is the fix for the category mismatch. Every data record in this workstream carries the demand forecast's keys first, then the halal fields. Nothing in its schema is renamed.
 
-### 4.1 Keys shared with Anna
+### 4.1 Keys shared with the demand forecast
 
 | Field | Values | Source of the convention |
 |---|---|---|
-| `category` | `plant_based`, `fermentation_biomass`, `fermentation_precision`, `cultivated`, `hybrid_cultivated`; conventional comparators `chicken`, `beef`, `mutton_goat` | Anna's GFI-based definitions, used word for word |
-| `excluded` | insects as human protein, animal feed | Anna's survey |
+| `category` | `plant_based`, `fermentation_biomass`, `fermentation_precision`, `cultivated`, `hybrid_cultivated`; conventional comparators `chicken`, `beef`, `mutton_goat` | The demand forecast's GFI-based definitions, used word for word |
+| `excluded` | insects as human protein, animal feed | Demand forecast |
 | `geo` | ISO 3166 alpha-3 | Repository convention |
-| `year` | 2025 base; 2026, 2030, 2035 | Anna's resolution years |
+| `year` | 2025 base; 2026, 2030, 2035 | Demand-forecast resolution years |
 | `metric` | `sales_value`, `volume`, `market_share` | See 4.2 |
-| `price_basis` | constant 2025 USD | Anna's survey |
-| `channel` | `retail`, `foodservice`, `all` | Anna uses retail (US). Focal-market data will mostly be `all`; the field records which. |
-| `quantile` | `q10`, `q50`, `q90` where a value is uncertain | Anna's survey |
+| `price_basis` | constant 2025 USD | Demand forecast |
+| `channel` | `retail`, `foodservice`, `all` | The demand forecast uses retail (US). Focal-market data will mostly be `all`; the field records which. |
+| `quantile` | `q10`, `q50`, `q90` where a value is uncertain | Demand forecast |
 | `source_id` | existing CO-, SA-, GP- plus the new prefixes in 4.4 | Conditional Markets paper |
 
 ### 4.2 Units and denominators
@@ -97,18 +97,18 @@ Missing stays missing. A blank is never read as zero, and a registry search that
 | `CT-` | Certification body or standard |
 | `EL-` | Elasticity estimate |
 
-### 4.5 The bridge to Anna's numbers
+### 4.5 The bridge to the demand-forecast numbers
 
-Anna's second survey question gives US cultivated and fermentation sales for 2030 as q10, q50 and q90. The bridge uses only the cultivated part.
+The demand forecast's second question gives US cultivated and fermentation sales for 2030 as q10, q50 and q90. The bridge uses only the cultivated part.
 
-1. **US analogue penetration:** `p_US(y, q)` = Anna's cultivated sales ÷ US meat sales for the same year, quantile and 2025-USD basis.
+1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales ÷ US meat sales for the same year, quantile and 2025-USD basis.
 2. **Baseline market in each focal country:** `D(c, y)` = projected meat consumption from the OECD-FAO Agricultural Outlook for the same years, in the units of 4.2.
 3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown.
 4. **The gate `G(c)`** is 1 only when `H_rel` is `permitted` or `conditional` (with the condition met in the scenario) and `L` is `approved`. Otherwise it is 0. It is a switch, never a fraction.
 
 The result is a conditional share ("if the gate is open and adoption follows the US path"), not a forecast.
 
-**Two requests go to Anna:**
+**Two requests go to the demand-forecast workstream:**
 
 - Extend her cultivated question from 2030 to 2026 and 2035. She already noted it could be one question with three resolution dates.
 - Share the US meat sales denominator she uses, so both workstreams divide by the same number.
@@ -121,7 +121,7 @@ Each rule becomes a check in `tools/verify.mjs` where it can be tested mechanica
 2. **Consumer acceptance enters once.** The default carrier is the US analogue `p_US`. Local consumer surveys (Bryant et al. for India; Ahsan et al. and Irfan et al. for Pakistan) can replace `p_US` in a sensitivity run. They are never multiplied with it. They already include religious concerns, so they are also never combined with `H_rel` as a fraction.
 3. **Food approval and religious status are counted once each.** Where `L_includes_halal` is `true`, the food approval already carries the halal condition, and `H_rel` is not applied a second time.
 4. **Hybrid products are counted once.** Hybrid sales are counted once at the finished product under `hybrid_cultivated`. `cultivated_fraction` is used for supply and biomass accounting only, never as a displacement coefficient.
-5. **Anna's two questions are never added together.** Her plant-based and cultivated/fermentation answers overlap by design (for example mycoprotein).
+5. **The demand forecast's two questions are never added together.** Its plant-based and cultivated/fermentation answers overlap by design (for example mycoprotein).
 6. **Insect protein is a feed input.** It affects the cost and supply of conventional chicken. It is never added to human protein supply, which would count the same protein twice (insect, then chicken).
 7. **Each shock has one mechanism.** A shock changes either `D`, conventional price, `K` or `L`, and the record says which. The same shock is not also applied to `p_US`.
 8. **Related evidence counts once.** An original study and its correction count as one piece of evidence, as does a ruling and the reports that repeat it.
@@ -155,7 +155,7 @@ Each rule becomes a check in `tools/verify.mjs` where it can be tested mechanica
   - A glossary covering istihala, dhabiha, tayyibat and khaba'ith, fitra, and "Sunnah" in Ghamidi Sahab's specific sense.
   - Translator's notes wherever the wording carries legal weight.
 - **Done when:** an Urdu-literate reviewer has signed off.
-- **Access:** the full transcript and translation are someone else's unpublished interview. They stay in the private repository (like `drive-archive/`) and are not published without permission. Public outputs quote excerpts only.
+- **Access:** the full transcript and translation are someone else's unpublished interview. They are kept in private Drive storage, not in this repository, and are not published without permission. This repository holds only the claims register with short excerpts.
 
 ### 6.3 Document 3: Claims and source verification register
 
@@ -213,7 +213,7 @@ Candidates, all to be verified:
 | Group | Candidates | Notes |
 |---|---|---|
 | Religious rulings | Wine to vinegar, and the dispute over deliberate conversion; tanned hides; musk; jallala animals and quarantine; rennet and the cheese of non-Muslims; gelatin and the 1995 IOMS seminar; the 2001 Ajinomoto case in Indonesia (pork-derived enzyme in the process); porcine insulin and vaccines; stunning and machine slaughter; meat of the People of the Book (Q 5:5); alcohol thresholds in flavourings; horse meat and shrimp across schools; coffee in Mecca, 1511 | |
-| Market substitutions | Margarine for butter; plant milk for dairy | Shared with Anna's analogue list, using the same source IDs |
+| Market substitutions | Margarine for butter; plant milk for dairy | Shared with the demand forecast's analogue list, using the same source IDs |
 | South Asian substitutions | Vanaspati for desi ghee; broiler chicken replacing mutton and beef | |
 | Disease shocks | African swine fever in China (2019) and the shift to poultry; avian influenza culls | |
 | Food sovereignty | The 2017 Qatar blockade and domestic dairy; Gulf food-security strategies | |
@@ -231,9 +231,9 @@ This part also builds the **precedent-setting** summary. For each driver, which 
 
 To locate: Al-Azhar and Dar al-Ifta (Egypt), MUI (Indonesia), JAKIM, Pakistan's Council of Islamic Ideology, Islamic Fiqh Academy India, Darul Uloom Deoband. Each becomes an `FT-` record and a column in the consensus matrix.
 
-**4C. Drivers.** The AI adoption factors from the mind map, mapped onto Anna's driver-map names so the two lists join.
+**4C. Drivers.** The AI adoption factors from the mind map, mapped onto the demand forecast's driver-map names so the two lists join.
 
-| Mind-map factor | Anna's driver name | Note |
+| Mind-map factor | Demand-forecast driver name | Note |
 |---|---|---|
 | Mass-scaling production | supply chain costs; AI-driven R&D speed | |
 | Cheap | price | |
@@ -314,11 +314,11 @@ Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing
 
 | Week of | Work |
 |---|---|
-| 30 Sep | Set up the schema, registers and verify checks. Send Anna the two requests in 4.5. Transcription and translation once the recording arrives. |
+| 30 Sep | Set up the schema, registers and verify checks. Send the demand-forecast workstream the two requests in 4.5. Transcription and translation once the recording arrives. |
 | 7 Oct | Document 3 (claims register). Document 5 tables. |
-| 14 Oct | Document 4A and 4B. Consensus matrix. Anna's round-1 aggregation is due in her week 7. |
+| 14 Oct | Document 4A and 4B. Consensus matrix. The demand forecast's first aggregated results are due. |
 | 21 Oct | Document 4C and 4D. Elasticities. OECD-FAO baselines. |
-| 28 Oct | Phase 2 scenario grid using Anna's medians and quantiles. |
+| 28 Oct | Phase 2 scenario grid using the demand forecast's medians and quantiles. |
 | 4 Nov | Write-up, human review of translations and fiqh sources, final verification run. Buffer to 13 November. |
 
 ## 9. Resources needed
@@ -329,7 +329,7 @@ Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing
 - Repository access for the working session.
 - Flags answered on any Urdu-only source.
 
-**From Anna**
+**From the demand-forecast workstream**
 
 - Her cultivated q10/q50/q90 for 2026, 2030 and 2035.
 - Her US meat sales denominator.
@@ -376,7 +376,7 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 | `m-bain/whisperX`, `pyannote/pyannote-audio` | Word-level timestamps; separating speakers in a Q&A |
 | `yt-dlp/yt-dlp` | Pulling the audio if the interview is also online |
 | `fawazahmed0/quran-api`, `fawazahmed0/hadith-api` | Quran and hadith in English (and Urdu) as JSON, for checking every citation automatically |
-| `frictionlessdata/frictionless-py` | Validating every CSV against the shared schema in section 4, so field names and allowed values cannot drift from Anna's |
+| `frictionlessdata/frictionless-py` | Validating every CSV against the shared schema in section 4, so field names and allowed values cannot drift from the demand forecast's |
 | `jgm/pandoc`, `citation-style-language/styles` | Producing the Word/PDF and Google Doc versions from Markdown with proper citations |
 | `zotero/translation-server` | Clean bibliography records from URLs and DOIs (the repository already uses `.ris`) |
 | `nvkelso/natural-earth-vector`, `geopandas/geopandas` | The madhhab and certification map |
@@ -386,6 +386,6 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 ## 11. Open items
 
 - Interview recording (`IMG 7313.*`) not yet in the repository.
-- Anna not yet asked for the 2026/2035 extension or the US meat denominator.
+- Demand-forecast workstream not yet asked for the 2026/2035 extension or the US meat denominator.
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.

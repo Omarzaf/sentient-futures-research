@@ -11,5 +11,3 @@ The repository edition omits third-party illustrative photographs and raster map
 The Office originals of the orientation reports, the Word and PDF renderings of the India–Pakistan brief, unpublished peer drafts, mentor comments, private meeting notes, personal application materials, credentials, and working downloads are excluded. The brief's Markdown text in this repository is canonical and carries the same content as those renderings. This repository does not grant permission to redistribute those separate materials.
 
 Before substantial republication of the authored drafts, agree attribution and licensing with the maintainer and complete human verification of the claims being reused.
-
-Private-repository note: `drive-archive/` holds exported team Drive material (peer drafts, mentor notes, meeting notes, funding request) that the paragraph above says is excluded from the public library. It is kept here only because this repository is private. Remove `drive-archive/` (including from git history) before any change to public visibility.
