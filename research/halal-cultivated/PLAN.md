@@ -237,7 +237,14 @@ This part also builds the **precedent-setting** summary. For each driver, which 
 - Hamdan et al. (2018)
 - Alqurashi et al. (2026, *Foods*)
 
-To locate: Al-Azhar and Dar al-Ifta (Egypt), MUI (Indonesia), JAKIM, Pakistan's Council of Islamic Ideology, Islamic Fiqh Academy India, Darul Uloom Deoband. Each becomes an `FT-` record and a column in the consensus matrix.
+To locate: Al-Azhar and Dar al-Ifta (Egypt), MUI (Indonesia), Pakistan's Council of Islamic Ideology, Islamic Fiqh Academy India, Darul Uloom Deoband. Each becomes an `FT-` record and a column in the consensus matrix.
+
+Status after the 30 September search (web search summaries only; see [README.md](README.md#rulings-search-30-september)):
+
+- Entered as `FT-001` to `FT-005`: IIFA 265, MUIS, Irsyad 595, the GOOD Meat scholars and Hamdan et al.
+- Found and entered as `FT-006`: JAKIM's national Muzakarah Committee ruled at its 128th meeting (23–26 September 2025). Cultured meat is harus if cells come from a slaughtered halal animal and the medium is halal. It is haram if cells come from an unslaughtered animal, which excludes live biopsy.
+- Alqurashi et al. (2026) is a narrative review of other rulings, not a ruling. It is kept as a source (`HS-alqurashi-2026`), not as an `FT-` record.
+- Still not located: see the list in the README.
 
 **4C. Drivers.** The AI adoption factors from the mind map, mapped onto the demand forecast's driver-map names so the two lists join.
 
@@ -397,3 +404,5 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 - Demand-forecast workstream asked on 30 September for the 2026/2035 extension, the US meat denominator, and whether cultivated sales are reported separately from fermentation. Awaiting reply.
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.
+- Flags for Malay-only sources: Irsyad 595 (`FT-003`) and the JAKIM Muzakarah decision (`FT-006`) have no English version found.
+- Every `FT-`, `MD-` and `CT-` record entered on 30 September is `unverified`: it was built from web search summaries because the session's network policy blocked the primary sites. Each needs its page opened and checked.

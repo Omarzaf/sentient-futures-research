@@ -2,7 +2,7 @@
 
 [Read the research plan](PLAN.md). Version 1, 30 September 2026. Current workstream; AI-assisted working plan with human verification pending. Not mentor-approved.
 
-This folder holds the plan, the shared data schema and the registers that the plan's Phase 1 and Phase 2 documents will fill. The registers are empty. Nothing here is a finding yet.
+This folder holds the plan, the shared data schema and the registers that the plan's Phase 1 and Phase 2 documents will fill. The rulings, madhhab and certification registers hold first-pass records from 30 September 2026; every one is `unverified`. The other registers are empty. Nothing here is a finding yet.
 
 ## Files
 
@@ -40,3 +40,26 @@ The interview transcript and translation (`TR-` segments) are someone else's unp
 `node tools/test-halal-checks.mjs` runs these checks against a valid fixture and against broken variants to confirm that each rule catches what it should.
 
 Add a column by editing `datapackage.json` and the CSV header together, and tell the demand-forecast workstream if a shared key changes.
+
+## Rulings search, 30 September
+
+The primary sites (iifa-aifi.org, muis.gov.sg, muftiwp.gov.my, goodmeat.co, pewresearch.org, constituteproject.org and others) were blocked by the session's network policy. Records were therefore built from web search summaries, each with its source URL in [source-register.json](source-register.json). All are `unverified` until the page is opened.
+
+Entered:
+
+- 6 rulings (`FT-001`–`FT-006`), including JAKIM's September 2025 Muzakarah decision, which the plan had not yet listed.
+- 7 madhhab records (`MD-001`–`MD-007`).
+- 9 certification records (`CT-001`–`CT-009`).
+- 24 sources (`HS-`).
+
+Predominant schools for Pakistan, India, Saudi Arabia and Indonesia are still the plan's hypotheses and have no source. Official madhhab is filled only where a statute was found: Singapore (AMLA s.33) and Malaysia (Act 505 s.39). The UAE's 2005 personal status law orders the schools rather than naming one, and it has since been replaced.
+
+Not located, or located only in secondary reports. None of these is entered as an `FT-` record:
+
+| Body | What the search found |
+| --- | --- |
+| Al-Azhar and Dar al-Ifta (Egypt) | No ruling on cultivated meat found. |
+| MUI (Indonesia) | A secondary review says Indonesian bodies treat cells from live animals as impure; no MUI fatwa located. |
+| Council of Islamic Ideology (Pakistan) | No statement found. News reports attribute a conditional ruling (slaughtered source animal) to scholars led by Mufti Taqi Usmani; primary text not located. |
+| Islamic Fiqh Academy (India) | No resolution found. |
+| Darul Uloom Deoband | A ruling attributed to Deoband appears on UK sites (Wifaq ul Ulama, fatwaa.com). It permits cells from a slaughtered animal and possibly feather-derived cells. The attribution is not confirmed. |
