@@ -1,0 +1,159 @@
+{
+  "families": {
+    "IIFA": [
+      "IIFA265",
+      "IIFA-AR",
+      "IIFA198",
+      "IIFA210"
+    ],
+    "MUIS": [
+      "MUIS2024",
+      "MUIS-BOOK"
+    ],
+    "Ibn Abidin": [
+      "HAN",
+      "HAN-D",
+      "H1",
+      "H2",
+      "H5"
+    ],
+    "Al Nawawi": [
+      "SHA-D",
+      "SHA-T",
+      "S1",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "Sistani office": [
+      "SIS-EN",
+      "SIS-AR",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "J10"
+    ],
+    "Ghamidi authored dietary framework": [
+      "GHAMIDI"
+    ],
+    "Quran": [
+      "Q7",
+      "Q6",
+      "Q5",
+      "Q6121"
+    ],
+    "Abu Dawud": [
+      "AD2858"
+    ],
+    "MuftiWP": [
+      "WP595"
+    ],
+    "MKI JAKIM": [
+      "MKI128"
+    ],
+    "FSSAI": [
+      "IN2017"
+    ],
+    "Pakistan Parliament": [
+      "PK2016"
+    ],
+    "SFDA": [
+      "SA-NOVEL",
+      "SA-GUIDE",
+      "SA-2025"
+    ],
+    "MOIAT": [
+      "AE-HALAL"
+    ],
+    "WAM and ADAFSA": [
+      "AE-2025"
+    ],
+    "SFA": [
+      "SG-FRAME",
+      "SG-LIST"
+    ],
+    "JAKIM": [
+      "MY-HALAL"
+    ],
+    "BPJPH": [
+      "ID221"
+    ],
+    "GOOD Meat": [
+      "GOOD-DOSSIER"
+    ],
+    "Ibn Abi Zayd al-Qayrawani": [
+      "M-RIS29"
+    ],
+    "Ibn Abi Zayd al-Qayrawani; editorial translation metadata": [
+      "M-RIS-INDEX"
+    ],
+    "Malik ibn Anas, transmitted by Yahya": [
+      "M-MUW25"
+    ],
+    "Abu Abd Allah al-Qurtubi": [
+      "M-QUR7157"
+    ],
+    "Ibn Rushd al-Hafid": [
+      "M-BID-FOOD",
+      "M-BID-Q1"
+    ],
+    "Shihab al-Din al-Qarafi": [
+      "M-DHAK"
+    ],
+    "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil": [
+      "M-DAS28",
+      "M-DAS30"
+    ],
+    "Ibn Qudama": [
+      "H-UM-FOOD",
+      "H-UM-FOOD2",
+      "H-UM-SLAUGHTER",
+      "H-MUGH-FOOD",
+      "H-MUGH-PARTS",
+      "H-MUGH-RENNET",
+      "H-MUGH-IST",
+      "H-MUBDI",
+      "H-MUGH-LIVER"
+    ],
+    "Ibn Taymiyya": [
+      "H-TAY-IST"
+    ],
+    "Ala al-Din al-Mardawi": [
+      "H-INS-BLOOD"
+    ],
+    "al-Kasani": [
+      "H3"
+    ],
+    "al-Quduri": [
+      "H4"
+    ],
+    "Ibn Nujaym": [
+      "H6"
+    ],
+    "al-Tahtawi": [
+      "H7"
+    ],
+    "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller": [
+      "S2"
+    ]
+  },
+  "rules": [
+    "Translations and mirrors are not independent sources.",
+    "Multiple passages by one author do not create multiple independent authorities.",
+    "Independent agent reading validates interpretation, not empirical source independence.",
+    "Authorial matn, commentary and modern footnotes retain separate attribution.",
+    "Applicant process evidence hosted by FDA remains applicant evidence."
+  ],
+  "limits": [
+    "Not every attributed textual claim has two independent primary authors. It has named-source support and a documented second reading.",
+    "No school-wide or inter-school consensus newly certified by this review."
+  ]
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "claim_tested": "No killing settles permissibility",
+    "counter_source_ids": [
+      "GHAMIDI",
+      "AD2858",
+      "HAN-D",
+      "SHA-D"
+    ],
+    "result": "Rejected as a general inference; procurement remains distinct."
+  },
+  {
+    "claim_tested": "All authorities require donor slaughter",
+    "counter_source_ids": [
+      "IIFA265",
+      "MUIS-BOOK"
+    ],
+    "result": "Not established universally; retain actual donor clauses and certification scope."
+  },
+  {
+    "claim_tested": "Processing alone establishes purification",
+    "counter_source_ids": [
+      "SHA-T",
+      "H-MUGH-IST",
+      "SIS-EN",
+      "M-DHAK"
+    ],
+    "result": "Rejected; authority-specific transformation and uncertainty rules apply."
+  },
+  {
+    "claim_tested": "The2013 plasma paragraph settles serum",
+    "counter_source_ids": [
+      "IIFA198",
+      "IIFA210"
+    ],
+    "result": "Rejected;2015 resolution reopens plasma and plasma is not serum."
+  },
+  {
+    "claim_tested": "Washing proves no residual animal input",
+    "counter_source_ids": [
+      "GOOD-DOSSIER"
+    ],
+    "result": "Rejected for documented process; nonzero BSA measurements reported."
+  },
+  {
+    "claim_tested": "Food approval proves halal certification",
+    "counter_source_ids": [
+      "SG-LIST",
+      "SG-FRAME",
+      "MUIS2024"
+    ],
+    "result": "Rejected; different institutions and evidentiary objects."
+  },
+  {
+    "claim_tested": "Sunni paired liver/spleen exception transfers to Sistani",
+    "counter_source_ids": [
+      "J6",
+      "S6",
+      "H7"
+    ],
+    "result": "Rejected; land-animal prohibition and bird obligatory precaution retained."
+  }
+]

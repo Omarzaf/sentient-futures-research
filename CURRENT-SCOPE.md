@@ -6,7 +6,7 @@ The consolidated brief for this scope is [Protein Consumption and Alternative Pr
 
 ## Halal conditionality workstream
 
-A second workstream, set out in the [research plan](research/halal-cultivated/PLAN.md) of 30 September 2026, asks under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market it could occupy if those conditions are met. It reuses the demand-forecast workstream's categories, years and quantiles so the two can be joined row by row, and it produces conditional shares, not forecasts. The plan is not mentor-approved, and its registers are empty.
+A second workstream, set out in the [research plan](research/halal-cultivated/PLAN.md) of 30 September 2026, asks under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market it could occupy if those conditions are met. It reuses the demand-forecast workstream's categories, years and quantiles so the two can be joined row by row, and it produces conditional shares, not forecasts. The [Phase One review](research/halal-cultivated/phase1/review.md) now covers 45 school questions, seven countries and four historical comparisons, with 74 public-source claims and explicit evidence gaps. The [revised agentic plan](research/halal-cultivated/AGENTIC-PLAN.md) records the local, English-first research loop and accelerated delivery targets. Scholarly and mentor approval remain pending; Phase Two quantitative work is not complete.
 
 ## Questions to investigate
 

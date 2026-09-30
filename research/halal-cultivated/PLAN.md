@@ -2,6 +2,8 @@
 
 Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
 
+**Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [completed public-source review](phase1/review.md) records the result. Phase Two scope and schema rules below remain unchanged.
+
 The schema in section 4 is implemented in [datapackage.json](datapackage.json), and the section 5 rules are checked by `tools/halal-checks.mjs`. See [README.md](README.md) for the files.
 
 ## 1. What this workstream answers

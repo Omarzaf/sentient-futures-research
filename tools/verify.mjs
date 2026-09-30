@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {checkHalal} from './halal-checks.mjs';
+import {checkPhaseOne} from './phase1-checks.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
@@ -79,7 +80,8 @@ for(const r of parsed){const original=figures.countries.find(c=>c.country===r.co
 
 const catalog=json('sources/catalog.json');
 const halalRegister=json('research/halal-cultivated/source-register.json');
-check(catalog.originalRegisterRecords===124+halalRegister.length,'Catalog register count');
+const phaseOneRegister=json('research/halal-cultivated/phase1/source-register.json');
+check(catalog.originalRegisterRecords===124+halalRegister.length+phaseOneRegister.length,'Catalog register count');
 check(catalog.records.length===catalog.uniqueSourceIdentities,'Catalog count metadata');
 check(new Set(catalog.records.map(r=>r.id)).size===catalog.records.length,'Catalog IDs unique');
 check(catalog.records.every(r=>!/^open source$/i.test(r.title)),'Generic source titles lost contextual labels');
@@ -94,5 +96,9 @@ const halalDir='research/halal-cultivated/';
 const halal=checkHalal(Object.fromEntries(paths.filter(p=>p.startsWith(halalDir)).map(p=>[p.slice(halalDir.length),read(p)])));
 checks+=halal.checks;failures.push(...halal.failures);
 for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===halalDir+'source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124+halalRegister.length,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,failures};
+const phaseOneDir=halalDir+'phase1/';
+for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
+const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
+checks+=phaseOne.checks;failures.push(...phaseOne.failures);
+const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124+halalRegister.length+phaseOneRegister.length,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,failures};
 console.log(JSON.stringify(result,null,2));if(failures.length)process.exitCode=1;

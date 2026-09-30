@@ -2,6 +2,18 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 30 September 2026 — local execution and repository edition
+
+**Completed:** Executed the user-edited plan, including all five delivery targets moved to 30 September. The public-source review now covers 45 school questions, seven countries and four historical comparisons. It retains 74 claims and 76 source records, blind-review reconciliation, counter-evidence, source families and explicit gaps. The full editable Word output remains local under the repository's existing Office-file exclusion.
+
+**Decisions:** English primary texts first; Arabic fallback; contextual inference labeled; no new transcription. Agent checking serves the internal research gates, not scholarly approval. The author authorized this repository update. Unpublished interview material and its derived findings remain excluded.
+
+**Review:** The public-source scope was checked separately from the private original. Source citation and review-lineage checks were added to the repository verifier. The earlier local 410-check validation and 17-page visual QA remain attestations of the unchanged Word package only.
+
+**Retrospective:** Separating source reading from inference preserved unresolved questions during packaging. The earlier cloud-dependent plan no longer described the authorized work. Future releases should record the edition and exclusions before reusing validation claims.
+
+**Still open:** Product-specific process and certification evidence, stated school/edition gaps, human scholarly review and Phase Two quantities. The earlier session below is historical; its setup requests and October Phase One dates are superseded by the revised agentic plan.
+
 ## 30 September 2026
 
 **Done**

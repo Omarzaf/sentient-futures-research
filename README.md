@@ -11,7 +11,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
 | [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
-| [Halal Conditionality for Cultivated Meat: Research Plan](research/halal-cultivated/PLAN.md) | **Current workstream.** Religious, certification and regulatory conditions for cultivated meat in India, Pakistan, Saudi Arabia and the UAE; shared schema with the demand forecast; empty registers and checked double-counting rules | 30 Sep 2026 (plan) |
+| [Cultivated Chicken: Religious Conditions and Market Access](research/halal-cultivated/phase1/review.md) | **Current workstream.** Phase One review: 45 school questions, seven countries, four historical comparisons, evidence registers and a Phase Two handoff; uncertainty and scholarly-review limits retained | 30 Sep 2026 |
 | [Protein Transitions Across Unequal Food Systems](research/comparative-protein/README.md) | Comparative synthesis; supply data, adoption, research and talent policy, charts, and capability locators | 13 Sep 2026 |
 | [AI and the Protein Transition](research/ai-protein/literature-review.md) | Literature review connecting technical progress, adoption, displacement, and policy | 11 Sep 2026 |
 | [Policy Evidence to Decision Table](research/ai-protein/policy-decisions.md) | Six conditional policy discussion areas and evidence that would alter them | 11 Sep 2026 |
@@ -22,7 +22,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 
 - [Searchable source catalog](sources/index.html), [CSV index](sources/catalog.csv), and [JSON catalog](sources/catalog.json): public references retained in the included research, with occurrences linking back to original source IDs.
 - Original registers: [20 India–Pakistan review records](research/india-pakistan/source-register.json), [60 comparative-report records](research/comparative-protein/source-register.json), and [44 literature-foundation records](research/ai-protein/source-register.json).
-- [Halal workstream data package](research/halal-cultivated/datapackage.json) and its [registers](research/halal-cultivated/README.md), currently empty.
+- [Phase One evidence and review](research/halal-cultivated/phase1/README.md): 74 claims and 76 public-source records. The earlier [CSV data package](research/halal-cultivated/datapackage.json) remains a separate discovery and Phase Two schema.
 - [Country supply CSV](research/comparative-protein/protein-data.csv), [figure inputs and provenance](research/comparative-protein/figure-data.json), and [data dictionary](DATA-DICTIONARY.md).
 - [Cited-passage review ledger](research/comparative-protein/claim-ledger.json) and [RIS bibliography](research/ai-protein/references.ris).
 

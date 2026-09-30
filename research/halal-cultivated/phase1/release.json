@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-30",
+  "edition": "public-source repository review",
+  "authorization": "Author requested pushing the completed updates to the repository.",
+  "human_scholarly_review": false,
+  "mentor_approved": false,
+  "all_research_questions_resolved": false,
+  "phase1_coverage_complete": true,
+  "phase2_handoff_ready": true,
+  "background_job_running": false,
+  "counts": {
+    "claims": 74,
+    "sources_including_held_leads": 76,
+    "school_questions": 45,
+    "countries": 7,
+    "historical_comparisons": 4
+  },
+  "school_status_counts": {
+    "blind_agent_checked": 31,
+    "inference": 13,
+    "open": 1
+  },
+  "excluded": [
+    "Unpublished interview text and interview-derived findings",
+    "Office originals and plan snapshots",
+    "Downloaded third-party publications",
+    "Raw agent working logs and private-source verification inputs"
+  ],
+  "verification": "Run node tools/verify.mjs and node tools/test-halal-checks.mjs. Earlier 410-check local validation and 17-page Word QA apply to the unchanged local original only.",
+  "legacy_registers": "Parent CSV tables retain the earlier discovery pass and are not upgraded by this edition. Use this edition for the completed public-source synthesis."
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "G-M-LIVER",
+    "scope": "M-Q4",
+    "description": "Inspected Maliki primary passages clearly establish flowing/residual blood distinctions but did not explicitly name liver and spleen in the same doctrinal passage. Ibn Rushd mentions the two-blood report without specifying organs here. Do not promote the Hanbali organ citation into a Maliki citation; a named Maliki primary-text organ locator remains to be verified.",
+    "extraction_batch": "mh"
+  },
+  {
+    "id": "G-ENGLISH",
+    "scope": "Arabic-source rows",
+    "description": "English Risala and Umdat chapters were available; English Bidaya download via archive link failed in the web tool. No complete retrievable English al-Mughni text was established in this bounded pass. Arabic citations require a qualified final translation check.",
+    "extraction_batch": "mh"
+  },
+  {
+    "id": "G-BIBLIO",
+    "scope": "H-Q4 and H-MUGH-RENNET",
+    "description": "al-Insaf section text is read, but host page omits the work title and edition header; edition/page identity needs independent confirmation. al-Mughni rennet issue 85 is stable; exact host pagination was not independently confirmed.",
+    "extraction_batch": "mh"
+  },
+  {
+    "id": "G-MODERN",
+    "scope": "Q7 and Q9 both schools",
+    "description": "No direct industrial serum/enzyme/gelatin or cell-culture ruling is claimed from classical sources. Selecting an analogy requires process facts and contemporary juristic assessment beyond this extraction.",
+    "extraction_batch": "mh"
+  },
+  {
+    "id": "G1",
+    "rows": [
+      "J-Q1"
+    ],
+    "priority": "high",
+    "text": "Direct Sistani source for who decides tayyib/khabith remains absent. Further Arabic source discovery or an expressly authorized scholarly query would be needed.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G2",
+    "rows": [
+      "H-Q7",
+      "S-Q7",
+      "H-Q9",
+      "S-Q9",
+      "J-Q9"
+    ],
+    "priority": "high",
+    "text": "No named-authority ruling on the exact cultivated-cell process was established. Modern applications are conditional analytical inferences.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G3",
+    "rows": [
+      "H-Q2",
+      "S-Q2",
+      "J-Q2"
+    ],
+    "priority": "medium",
+    "text": "Additional dietary restrictions support a nonexhaustive operative-list conclusion; direct school-specific exegesis of the four Qur’anic prohibitions remains a distinct research task.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G4",
+    "rows": [
+      "H-Q5",
+      "H-Q8",
+      "S-Q8"
+    ],
+    "priority": "medium",
+    "text": "English classical texts were read on third-party mirrors. Verify edition/transcription against publisher copies before quotation or publication.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G5",
+    "rows": [
+      "H-Q8"
+    ],
+    "priority": "medium",
+    "text": "Clarify precise floating-dead-fish conditions and the force of translated 'disapproved' from fuller Hanafi commentary.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G6",
+    "rows": [
+      "J-Q4"
+    ],
+    "priority": "medium",
+    "text": "Spleen prohibition explicit; a direct affirmative Sistani liver ruling was not extracted.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G7",
+    "rows": [
+      "J-Q7"
+    ],
+    "priority": "high",
+    "text": "Do not collapse English chemical-change language into automatic gelatin purification; Arabic qualifications and process-specific proof remain essential.",
+    "extraction_batch": "hsj"
+  },
+  {
+    "id": "G8",
+    "rows": [
+      "H-Q4"
+    ],
+    "priority": "low",
+    "text": "Al-Tahtawi mirror edition metadata needs independent bibliographic verification.",
+    "extraction_batch": "hsj"
+  }
+]

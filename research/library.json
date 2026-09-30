@@ -12,12 +12,12 @@
     },
     {
       "id": "halal-cultivated",
-      "title": "Halal Conditionality for Cultivated Meat: Research Plan",
-      "path": "research/halal-cultivated/PLAN.md",
-      "textPath": "research/halal-cultivated/README.md",
+      "title": "Cultivated Chicken: Religious Conditions and Market Access",
+      "path": "research/halal-cultivated/phase1/review.md",
+      "textPath": "research/halal-cultivated/phase1/README.md",
       "cutoff": "30 September 2026",
-      "kind": "Current workstream plan",
-      "description": "Under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share it could occupy if they are met. Includes the shared data schema, empty registers, and the double-counting rules checked by the verifier."
+      "kind": "Phase One research review",
+      "description": "A public-source review covering 45 school questions, seven countries and four historical comparisons, with 74 claims, explicit uncertainties and a Phase Two handoff. Religious positions, certification and market authorization remain distinct."
     },
     {
       "id": "comparative-protein",

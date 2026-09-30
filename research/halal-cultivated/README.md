@@ -1,8 +1,8 @@
 # Halal conditionality for cultivated meat
 
-[Read the research plan](PLAN.md) and the [agentic research plan](AGENTIC-PLAN.md) for how Phase 1 will be run. Session history is in the [session log](SESSION-LOG.md). Version 1, 30 September 2026. Current workstream; AI-assisted working plan with human verification pending. Not mentor-approved.
+[Read the completed Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [original project plan](PLAN.md) remains the reference for Phase Two. Session history is in the [session log](SESSION-LOG.md). Updated 30 September 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
 
-This folder holds the plan, the shared data schema and the registers that the plan's Phase 1 and Phase 2 documents fill. As of 30 September 2026 five registers carry first Phase 1 rows (scripture sources, rulings, consensus matrix, madhhab geography, certification) and the source register lists 24 sources. Those rows come from search summaries and abstracts, because primary texts could not be fetched in that session; every row says so in its status and notes. The other registers are still empty. Nothing here is a finding yet.
+The new `phase1/` edition contains 74 public-source claims, 76 source records, 45 school questions, seven country accounts and four historical comparisons, with independent review decisions and explicit gaps. Its findings supersede the earlier search-summary pass for the questions it covers. The parent CSV tables and 24-source register below are retained as that earlier discovery snapshot: five tables contain provisional rows and the others remain empty. Their original statuses have not been silently upgraded. Phase Two quantities and interview CSV rows have not been fabricated.
 
 ## Files
 
