@@ -152,14 +152,19 @@
       "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
     },
     {
+      "path": "research/halal-cultivated/AGENTIC-PLAN.md",
+      "bytes": 14605,
+      "sha256": "bfe65fddd003adcc2cc46e7ef2bf640b1090bf3153d2c866b6eb6feda5c0aae9"
+    },
+    {
       "path": "research/halal-cultivated/PLAN.md",
       "bytes": 25319,
       "sha256": "8ed672b172f452034ddb41ecce2572c6884474cbac900ea320800f38fbdad2ce"
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 3907,
-      "sha256": "6b8f5f180d3f95c0d424af06b7bf41222b896abca6a112b022a4a85731ff861f"
+      "bytes": 3984,
+      "sha256": "4fac2d7efd5743a68d184eca0c2c7dbca53a3ed9f20d034d21d646e24356bd41"
     },
     {
       "path": "research/halal-cultivated/certification.csv",
