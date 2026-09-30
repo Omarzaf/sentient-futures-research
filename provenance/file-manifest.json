@@ -23,43 +23,43 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1276,
-      "sha256": "6044546d7310cd49bfe198a1e1cc09c38e0886b51b29ea60a7a4c46c42cf12d8"
+      "bytes": 1455,
+      "sha256": "b09181821ff7fb3275e340c6ea2316240c4a790cc0b4796ea761ab0bd7b4957a"
     },
     {
       "path": "CURRENT-SCOPE.md",
-      "bytes": 2050,
-      "sha256": "4417a758fd921481026980dbe0401d36965259ef53e9f7b9053e57bec68eae1c"
+      "bytes": 2998,
+      "sha256": "e605ebc20c6bbe29fc1622a9cb113270a0cb20bcd6c4756cda50efe09f41133d"
     },
     {
       "path": "DATA-DICTIONARY.md",
-      "bytes": 3291,
-      "sha256": "a456c6faf5d828204a64510fb487156ba7ea4f4d18973a90abcf3084916eb8c8"
+      "bytes": 5056,
+      "sha256": "12a18cbc482e4fa7597a613ac2e3f28de404ee7e6621c532d1b664f2e38809f4"
     },
     {
       "path": "README.md",
-      "bytes": 4429,
-      "sha256": "e7e4b395fae42e4fc8d14045fe8f4a47a37c334ed68f37b2c0640687dc1f7d2a"
+      "bytes": 5036,
+      "sha256": "1cd047d500a2ccea5d2943e68519373d1049e74825f3b6f8265e1682da763ab7"
     },
     {
       "path": "RESEARCH-METHOD.md",
-      "bytes": 4012,
-      "sha256": "98a53b08ca10b1d4919e2e2bf20aad80761a07fc36cab3fc377039b951b29909"
+      "bytes": 4951,
+      "sha256": "caea13d47dccf928f6a71c0314f70118092a945941ef1a51a9a86a9d7da556e6"
     },
     {
       "path": "RIGHTS-AND-REUSE.md",
-      "bytes": 1610,
-      "sha256": "c9003faee4b35e5a454d3e28564468b27c9111ad2f39609ffdee14219d38cf71"
+      "bytes": 1777,
+      "sha256": "24bc797b5dfba0a0dc01b582fc1c7d3fd075ee81ce373f8dfae689ee72f9ef2a"
     },
     {
       "path": "index.html",
-      "bytes": 7095,
-      "sha256": "93949b0d5c9e6f6b9a6b72e516228496c3b7ce4c6b34df51b7bc02c9981c6f65"
+      "bytes": 7754,
+      "sha256": "8a441f332a382392c1127d2217066fae7256c4082287b13093539fb24255476a"
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 9083,
-      "sha256": "24d45d6b9ccca08128f890993f16ff7a2f6a78a1e1831952d0c152e589e4f4d3"
+      "bytes": 11252,
+      "sha256": "084ee9ee47b008996d928e8989caa1ca238f485083bbffe32498f0b785768285"
     },
     {
       "path": "research/ai-protein/README.md",
@@ -152,9 +152,29 @@
       "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
     },
     {
+      "path": "research/india-pakistan/README.md",
+      "bytes": 2308,
+      "sha256": "7851549b0aecb55eff62a6cea4f7af181257ef2209084ce088566fb44c52ad19"
+    },
+    {
+      "path": "research/india-pakistan/index.html",
+      "bytes": 41917,
+      "sha256": "88ab943dbb37055a8628ad9583a184e81cb6154c86ab2f8e7f4378c413599dd4"
+    },
+    {
+      "path": "research/india-pakistan/india-pakistan-brief.md",
+      "bytes": 31529,
+      "sha256": "93e5cedd5fe9fe3e285e6ae3310b90611ad50cc47d4886d5efe607ddda7a20aa"
+    },
+    {
+      "path": "research/india-pakistan/source-register.json",
+      "bytes": 38154,
+      "sha256": "1a17f860facc0d95b7008be38f487aeda4b08834bd72f7fc7cabbebf505964a0"
+    },
+    {
       "path": "research/library.json",
-      "bytes": 2420,
-      "sha256": "ffcc439930c58001af691d8f12f03da028e5926713a62e2fabc2790eab590b32"
+      "bytes": 3001,
+      "sha256": "d4d86a37d736ca57d5cbf1a816682aedd335e7502971d73cb17985f3a45a44ae"
     },
     {
       "path": "research/orientation/README.md",
@@ -188,28 +208,28 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 1603,
-      "sha256": "7f458cc3510317d6f910bb0f3c32a352d05ff91becd87d41438bd786913cb5e7"
+      "bytes": 1734,
+      "sha256": "f979c6b282e67e79acafdf6921c3c0df45e24f9fddd83b135f7d35dbb40775cb"
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 51490,
-      "sha256": "2ff2f0b2dd4347b8d00d72ff658d6a566a4b0630879fabd67fed785fbf327a89"
+      "bytes": 56604,
+      "sha256": "1ee7040db199a25f51c3bc2a814f4efabb529af271daf1db8d559089ba72688b"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 212671,
-      "sha256": "d5c128871f1c9baa7ab0ccce4c40162b0b853d6368eaea9c8c172f709c3d4c41"
+      "bytes": 237841,
+      "sha256": "97edf6e40b24361b486b4658242f2a21744a004bde3aaa688115373bf5b637ae"
     },
     {
       "path": "sources/index.html",
-      "bytes": 134154,
-      "sha256": "44fd0b525b5b121e8484aa741ae321127a1bb17d0aff6e1259c7ea05cc6e5e04"
+      "bytes": 150665,
+      "sha256": "195d2897a57909decfe697c756c3fa5cc7dc2c07c77e6436cf263702d6631aa0"
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 14392,
-      "sha256": "05dac75e877345a2e325be6dd033cc05f06ca57bddfa1afb0f5e882f9443eb9d"
+      "bytes": 15004,
+      "sha256": "b8329d673ad8a7e9d20d1074ea757b99f02494ea5c72c43edf7d83b77721f1e0"
     },
     {
       "path": "tools/serve.mjs",
@@ -218,8 +238,8 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 8390,
-      "sha256": "05f3e1f13ca0f6a4474b8454feddcfc661f8a147c827f53b54a02de9c2fb6b0d"
+      "bytes": 8893,
+      "sha256": "8d24b27af71053650f9e37005935dc1e09631d7966cb8b8816f1651fde16b011"
     }
   ]
 }

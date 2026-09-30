@@ -8,6 +8,6 @@ The comparative data provenance records the source FAO table as CC BY 4.0. That 
 
 The repository edition omits third-party illustrative photographs and raster map backgrounds. Their original source records remain in the bibliography for provenance. The retained charts, coordinate grids, and location markers show the report's extracted values and approximate locators; they do not establish geographic boundaries.
 
-The Office originals of the orientation reports, unpublished peer drafts, mentor comments, private meeting notes, personal application materials, credentials, and working downloads are excluded. This repository does not grant permission to redistribute those separate materials.
+The Office originals of the orientation reports, the Word and PDF renderings of the India–Pakistan brief, unpublished peer drafts, mentor comments, private meeting notes, personal application materials, credentials, and working downloads are excluded. The brief's Markdown text in this repository is canonical and carries the same content as those renderings. This repository does not grant permission to redistribute those separate materials.
 
 Before substantial republication of the authored drafts, agree attribution and licensing with the maintainer and complete human verification of the claims being reused.

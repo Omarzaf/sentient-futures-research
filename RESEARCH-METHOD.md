@@ -4,7 +4,9 @@ This library preserves existing AI-assisted research drafts for peer and mentor 
 
 ## Research coverage
 
-The earlier orientation briefings have an evidence cutoff of 5 September 2026. The AI/protein literature foundation has a cutoff of 11 September 2026. The comparative protein-transition synthesis has a cutoff of 13 September 2026. These dates describe the original drafts; no current market or regulatory update was performed while assembling this repository.
+The earlier orientation briefings have an evidence cutoff of 5 September 2026. The AI/protein literature foundation has a cutoff of 11 September 2026. The comparative protein-transition synthesis has a cutoff of 13 September 2026. The India–Pakistan brief reviewed evidence through 14 September 2026. These dates describe the original drafts; no current market or regulatory update was performed while assembling this repository.
+
+The India–Pakistan brief is a secondary synthesis. It reviewed official statistical releases, published consumer studies, and official policy and standards pages, and it records page-level locators for the national statistics it quotes. It conducted no primary data collection. Its register retains records that were reviewed but not cited.
 
 The foundation is a selective, predominantly English-language scoping synthesis. It prioritizes original studies and institutional documents but also includes reviews, practitioner guidance, and public project descriptions. It is not a systematic review, a meta-analysis, or an exhaustive census. Abstract-only access and other limitations remain recorded per source. The orientation reports also use advocacy, trade, and company sources, which must be assessed according to their interests and evidence type.
 
@@ -13,6 +15,9 @@ The foundation is a selective, predominantly English-language scoping synthesis.
 - Distinguish plant-based products, biomass fermentation, precision fermentation, and cultivated meat.
 - Distinguish technical performance, modeled factory economics, approval, purchases, repeat adoption, displacement, production response, and animal outcomes.
 - Treat national food-balance data as supply availability, not measured individual intake.
+- Treat household-survey estimates, food-frequency reports, and consumer experiments as answers to different questions; do not combine them into a single cross-country intake or acceptance ranking.
+- Treat stated purchase intention as distinct from trial, repeat purchase, and the food actually replaced.
+- Treat documented institutions and funded programmes as conditions that may affect purchase, not as evidence of approval, availability, or adoption. Absence from the sources reviewed is not evidence of absent policy.
 - Treat the selected countries as purposive examples, not representative samples of the Global North or Global South.
 - Treat capability locations as approximate locators for documented programs, not measured employment clusters or workforce rankings.
 - Treat historical substitution analogues as conditional comparisons, not universal displacement coefficients.

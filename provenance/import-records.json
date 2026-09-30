@@ -162,5 +162,37 @@
       }
     ],
     "changes": "Converted research content and public hyperlinks; removed prepared-for metadata and personalized project-planning sections; omitted private links and tracking query parameters; added dated draft status."
+  },
+  {
+    "path": "research/india-pakistan/india-pakistan-brief.md",
+    "sourceDocument": "India Pakistan Protein Research.md",
+    "sourceSha256": "8ac91ee293d49b738e2f8c5fc4dbe2fb4b3277dcb51846a4ed23f76040f93a47",
+    "changes": "Canonical report text imported with an added dated draft-status notice. One sentence in 'Research status and source preservation' was repointed from the standalone delivery package's source archive to this repository's combined catalog and review register; no other wording, footnote, source or claim was changed. Word and PDF renderings of the same text are not included."
+  },
+  {
+    "path": "research/india-pakistan/index.html",
+    "sourceDocument": "India Pakistan Protein Research.md",
+    "sourceSha256": "8ac91ee293d49b738e2f8c5fc4dbe2fb4b3277dcb51846a4ed23f76040f93a47",
+    "changes": "Rendered from the imported Markdown with the repository report styling, in-page contents, and a visible status notice. No claim, footnote or source was added, removed or reworded during rendering."
+  },
+  {
+    "path": "research/india-pakistan/source-register.json",
+    "sourceDocument": "current-review-evidence.json",
+    "sourceSha256": "7ac9bb6464044a198d7d366472dc385e2c54a47724f462ce473bf3f13896c7fe",
+    "changes": "Twenty review records normalized from three batch schemas into one field set; multi-URL records keep their further locations in additional_urls; machine-readable type labels rendered as text. No record, fact, limitation, funding note or pending review state was dropped or altered."
+  },
+  {
+    "path": "research/india-pakistan/README.md",
+    "sourceArtifacts": [
+      {
+        "filename": "Consolidated Research README.md",
+        "sha256": "d83f8b88ce04a63bb24221de1c80719660d6cfb20a31b197cc55c560ad64d15d"
+      },
+      {
+        "filename": "Source Archive README.md",
+        "sha256": "d8152a8f1901968360d3b7c37a1792d7d6586946221ba0f0d1271664d081bec7"
+      }
+    ],
+    "changes": "Rewritten for this repository from the delivery READMEs. Removed references to the Word, PDF and ZIP deliverables and to the separate source archive; retained the scope, evidence limits and preservation statements."
   }
 ]
