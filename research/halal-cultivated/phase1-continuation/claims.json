@@ -768,5 +768,198 @@
     "limits": "Source-bounded agent reading of the issued Arabic instrument; qualified translation and full subsequent amendment audit remain pending. This is not proof that no other law names a school, that the current legal order is fully mapped, or that any population follows a particular school. Official landing metadata displays 12 January 2021; a separate gazette publication date is unestablished.",
     "review_id": "R4-OMAN-EGYPT",
     "evidence_level": "checked_issued_legal_edition"
+  },
+  {
+    "id": "P1C5-INST-C01",
+    "country": null,
+    "assertion": "The 11 September 2023 manufacturer and counsel accounts name Abdullah AlManea, Abdullah al-Mutlaq and Saad Al-Shathry, and report conditions for permissible species, donor slaughter, permissible nutrients and safe edible output.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT",
+      "P1C3-PROCESS-S08"
+    ],
+    "locator": "Manufacturer conditions and named-adviser paragraphs; counsel four-condition list",
+    "limits": "The accounts describe one commissioned engagement. No signed original opinion, state-body adoption or product certificate is supplied.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS"
+  },
+  {
+    "id": "P1C5-INST-C02",
+    "country": null,
+    "assertion": "GOOD Meat stated on 11 September 2023 that its then regulator-approved cell line and process did not meet the reported adviser criteria.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT"
+    ],
+    "locator": "Paragraph immediately following the four-condition list; retained provider line 29",
+    "limits": "Historical participant self-report, not current nonconformity. Exact failed condition and identifier match to another process version are unestablished.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS"
+  },
+  {
+    "id": "P1C5-INST-C03",
+    "country": null,
+    "assertion": "The retrieved IIFA text retains a living-donor alternative; GOOD Meat’s participants report a slaughtered-donor condition. MUIS’s official 2024 materials and later summary retain unreconciled procurement formulations.",
+    "source_ids": [
+      "IIFA265",
+      "IIFA-AR",
+      "MUIS2024",
+      "MUIS-BOOK",
+      "C2-MUIS-ANNEX",
+      "P1C5-INST-GOODMEAT"
+    ],
+    "locator": "IIFA Third(1); MUIS release 8, booklet printed page 14 and Annex C section 1; manufacturer condition 2",
+    "limits": "Texts have different scopes and source families. This is not a formal inter-institutional dispute about one identical product, a universal consensus finding, or a reconciliation of the MUIS passages.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS"
+  },
+  {
+    "id": "P1C5-LIT-C01",
+    "country": null,
+    "assertion": "Alqurashi et al. describe a narrative perspective and propose production-stage, certification and governance controls; the article supplies no empirical results from halal-certified cultured-meat systems.",
+    "source_ids": [
+      "P1C5-LIT-ALQ-XML",
+      "P1C5-LIT-ALQ-PDF"
+    ],
+    "locator": "S1.P5–P6; S5.P1–P9; S6.P3; Tables 2–3 and Figures 2–3",
+    "limits": "Author proposals are not adopted standards, product certificates or tested risk thresholds. All 94 reference entries were read, not all 94 underlying works.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C02",
+    "country": null,
+    "assertion": "Alqurashi’s Table 1 labels 56% of a Malaysian sample of 102 as expressing doubts, while S4.P3 uses 56% as an endpoint of an acceptance range. The range is therefore not validated as a comparable acceptance measure.",
+    "source_ids": [
+      "P1C5-LIT-ALQ-XML"
+    ],
+    "locator": "S4.P3–P5; Table 1, Malaysian n=102 row",
+    "limits": "Internal article inconsistency only; original survey results need their own validation. Mixed willingness, interest, purchase intention and doubts cannot supply a pooled adoption baseline.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C03",
+    "country": null,
+    "assertion": "Kashim and colleagues discuss a qualified complete-transformation route for serum-grown meat, dependent on scholarly opinion, while contrasting a washing position attributed to Hamdan and noting MS1500’s prohibition on blood, plasma and serum.",
+    "source_ids": [
+      "P1C5-LIT-KASHIM"
+    ],
+    "locator": "Section s0060 paragraph 16, paragraph 17; conclusion s0065 paragraph 1",
+    "limits": "This is internally qualified author reasoning, not universal FBS permission or an issued ruling. The underlying Hamdan 2018 full text remains unread.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C04",
+    "country": null,
+    "assertion": "Hamdan and colleagues’ 2024 review argues that egg-derived cultivated chicken can become pure through transformation and distinguishes that route from embryos extracted from living mammals.",
+    "source_ids": [
+      "P1C5-LIT-HAMDAN24"
+    ],
+    "locator": "Section sec4.2 paragraphs 6–7; Methods sec3 paragraph 1",
+    "limits": "Paragraph 7 is author inference, not verified consensus or a named-product determination. Its review search ended 3 March 2023 and does not cover later institutions exhaustively.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C05",
+    "country": null,
+    "assertion": "The inspected institutional and author bibliography routes establish Hamdan et al.’s 2018 paper identity but did not yield a complete manuscript for argument review.",
+    "source_ids": [
+      "P1C5-LIT-HAMDAN18-META",
+      "P1C5-LIT-HAMDAN18-AUTHOR"
+    ],
+    "locator": "Institutional author/bibliographic record and Access to Document; author publication citation",
+    "limits": "Explicit access limit after bounded retrieval, not a claim of global unavailability. Later Hamdan papers and secondary attributions are not substitutes.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-STD-C01",
+    "country": null,
+    "assertion": "SMIIC lists OIC/SMIIC1:2019 for purchase; its project page describes Review at stage90.60. The publisher overview describes broad food-chain coverage, but the complete normative text was not obtained.",
+    "source_ids": [
+      "P1C5-STD-S01",
+      "P1C5-STD-S02",
+      "P1C5-STD-S03"
+    ],
+    "locator": "Catalogue first row; project24 metadata; publisher overview",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No clause-specific cultivated-meat permission, current national binding effect or purchased text established.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C02",
+    "country": "PAK",
+    "assertion": "PSQCA identifies PS3733-2022(R) as a modified adoption of OIC/SMIIC1:2019 second edition. It separately lists PS4992-2022(R) as modified adoption of the certification-body standard.",
+    "source_ids": [
+      "P1C5-STD-S04"
+    ],
+    "locator": "Updated standards, first two items",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "The national modifications and relevant clauses remain unavailable in the inspected list; adoption metadata is not automatic product authorization.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C03",
+    "country": null,
+    "assertion": "GSO’s official store labels GSO2055-1:2015 edition2 current and gives approval on5November2015. Its linked English preview says Arabic controls conflicts and that the document replaces the2009regulation.",
+    "source_ids": [
+      "P1C5-STD-S05",
+      "P1C5-STD-S06"
+    ],
+    "locator": "Store header; preview foreword printediv",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Current means the observed catalogue label, not an exhaustive legal-currentness certification in each member state.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C04",
+    "country": null,
+    "assertion": "The linked preview covers scope, complementary references and definitions through3.9. It references separate slaughter, certification-body, accreditation, hygiene and labelling texts; the general food requirements, packaging, retail, transport, labelling and animal-classification clauses are not included.",
+    "source_ids": [
+      "P1C5-STD-S06"
+    ],
+    "locator": "Printed1–2, clauses1–3.9; contents printediii",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No unseen clause, donor rule, serum exception, transformation criterion or certificate can be supplied from the preview.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C05",
+    "country": null,
+    "assertion": "Project50611 labels GSO TC15/DS1 2055-1:2026 an initial draft updating GSO2055-1:2015, in Arabic and prepared by SASO.",
+    "source_ids": [
+      "P1C5-STD-S07"
+    ],
+    "locator": "Project title/type, language and related-standard fields",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No adopted2026replacement, operative draft provision or national effective date established.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C06",
+    "country": "ARE",
+    "assertion": "The retained indexed MOIAT page names UAE.S2055-1 among halal standards and attributes certificate requirements for covered final products and raw materials to Cabinet10/2014. It describes the National Mark as optional.",
+    "source_ids": [
+      "P1C5-STD-S08"
+    ],
+    "locator": "About Halal, National Mark, Standards Relative to Halal",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Administrative explanation only; full decree, scope exclusions, exact standard edition and cultivated-chicken product route remain unestablished.",
+    "review_id": "R5-STANDARDS"
   }
 ]

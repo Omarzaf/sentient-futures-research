@@ -8,6 +8,7 @@ export function checkContinuation(files) {
  const coverage=read('coverage.json'),observations=read('observations.json');
  const geography=read('geography.json'),schoolProgress=read('school-gap-progress.json');
  const dossier=read('manufacturing-dossier.json'),egypt=read('egypt-institutions.json'),china=read('china-asf-history.json');
+ const institutionMatrix=read('institution-matrix.json'),literature=read('literature-review.json'),standardsReview=read('standards-review.json');
  if(failures.length)return {checks,failures};
  for(const [name,rows] of [['sources',sources],['claims',claims],['reviews',reviews]])check(Array.isArray(rows)&&rows.length>0,'invalid '+name);
  if(failures.length)return {checks,failures};
@@ -188,5 +189,91 @@ export function checkContinuation(files) {
  check(china?.elasticity?.identified_numeric_value===null&&china.elasticity.unit===null&&china.elasticity.status==='not_established_by_retrieved_complete_methods','China elasticity unestablished but numeric value supplied');
  const transfer=china?.transport_to_cultivated_chicken;
  check(transfer?.causal_transfer_established===false&&['penetration_parameter','religious_gate','capacity_input'].every(key=>transfer[key]===null),'China cultivated transfer or adoption gate manufactured');
+ // Matrix coverage is not a vote among held, unknown or general-framework positions.
+ const matrixConditions=['species','donor_procurement','medium','istihala','slaughter','safety','labelling'];
+ const matrixColumns=['IIFA','MUIS','MUFTI-WP','GOOD-MEAT-ADVISERS','JAKIM-MKI','MUI','CII','IFAI','DEOBAND','AL-AZHAR','DAR-AL-IFTA-EGYPT','GHAMIDI-PUBLISHED'];
+ const matrixInstitutions=Array.isArray(institutionMatrix?.institutions)?institutionMatrix.institutions:[];
+ check(matrixInstitutions.length===12&&new Set(matrixInstitutions.map(i=>i.id)).size===12&&matrixColumns.every(id=>matrixInstitutions.some(i=>i.id===id)),'matrix column coverage lost');
+ check(institutionMatrix?.conditions?.length===7&&new Set(institutionMatrix.conditions).size===7&&matrixConditions.every(c=>institutionMatrix.conditions.includes(c)),'matrix condition coverage lost');
+ check(artifactLineage(institutionMatrix)&&reviews.some(r=>r.id===institutionMatrix.independent_review_id&&r.human_review===false&&institutionMatrix.claim_ids.every(id=>r.claim_ids.includes(id))),'matrix source/claim/review lineage lost');
+ const acceptance=institutionMatrix?.acceptance;
+ check(acceptance?.new_independent_review==='checked_scoped_reading'&&acceptance.human_scholarly_acceptance==='pending'&&acceptance.author_acceptance==='not_asserted'&&acceptance.phase_one_done===false&&acceptance.authoritative_status_promotion===false&&acceptance.retrieval_completeness_is_not_scholarly_acceptance===true,'matrix acceptance overclaimed');
+ const sourceDates=Array.isArray(institutionMatrix?.source_dates)?institutionMatrix.source_dates:[];
+ check(sourceDates.length===institutionMatrix.source_ids?.length&&new Set(sourceDates.map(d=>d.source_id)).size===sourceDates.length&&sourceDates.every(d=>sourceIds.has(d.source_id)&&institutionMatrix.source_ids.includes(d.source_id)&&Object.hasOwn(d,'publication')&&Object.hasOwn(d,'session')),'matrix source-date register incomplete');
+ const missingColumns=['MUI','CII','IFAI','DEOBAND'];
+ const allowedStatuses={IIFA:['attributed_primary_position','unknown_in_inspected_scope'],MUIS:['attributed_primary_position','unknown_in_inspected_scope','conflicting_official_passages','related_regulatory_context_only'],'MUFTI-WP':['held_language','unknown_in_inspected_scope'],'GOOD-MEAT-ADVISERS':['attributed_participant_report','unknown_in_inspected_scope'],'JAKIM-MKI':['held_language','unknown_in_inspected_scope'],'AL-AZHAR':['held_reported_officeholder_position','unknown_in_inspected_report'],'DAR-AL-IFTA-EGYPT':['held_secondary_attribution','unknown_in_inspected_report'],'GHAMIDI-PUBLISHED':['general_framework_only','unknown_in_inspected_scope']};
+ const matrixCells=new Map(),statusCounts={};let nonNullPositions=0;
+ for(const institution of matrixInstitutions){
+  check(institution.human_scholarly_review==='pending'&&institution.binding_civil_law_established===false&&institution.product_certificate_established===false,'matrix institution authority overclaimed: '+institution.id);
+  check(Array.isArray(institution.source_ids)&&institution.source_ids.every(id=>sourceIds.has(id)&&institutionMatrix.source_ids.includes(id)),'matrix institution source lineage: '+institution.id);
+  const cells=institution.cells||{};
+  check(Object.keys(cells).length===7&&matrixConditions.every(c=>Object.hasOwn(cells,c)),'matrix cell coverage lost: '+institution.id);
+  const missing=missingColumns.includes(institution.id);
+  if(missing)check(institution.type==='named_institution_position_unlocated'&&institution.source_ids.length===0&&institution.bounded_search?.status==='parked_after_two_unproductive_cycles'&&institution.bounded_search.cycles===2&&!!institution.bounded_search.reopen_trigger,'matrix bounded unknown disposition lost: '+institution.id);
+  for(const [condition,cell] of Object.entries(cells)){
+   matrixCells.set(institution.id+'/'+condition,cell);statusCounts[cell.status]=(statusCounts[cell.status]||0)+1;if(cell.position!==null)nonNullPositions++;
+   check(cell.condition===condition&&(missing?cell.status==='researched_unknown_no_primary_instrument':allowedStatuses[institution.id]?.includes(cell.status)),'matrix source-role promotion: '+institution.id+'/'+condition);
+   const unknown=['researched_unknown_no_primary_instrument','unknown_in_inspected_scope','unknown_in_inspected_report'].includes(cell.status);
+   check(unknown?cell.position===null&&!!cell.unknown_reason&&!!cell.search_disposition:typeof cell.position==='string'&&cell.position.length>0&&cell.unknown_reason===null,'matrix unknown/status boundary lost: '+institution.id+'/'+condition);
+   check(Array.isArray(cell.source_ids)&&new Set(cell.source_ids).size===cell.source_ids.length&&cell.source_ids.every(id=>institution.source_ids.includes(id))&&(missing?cell.source_ids.length===0:cell.source_ids.length>0)&&!!cell.locator&&!!cell.limits,'matrix cell source/locator missing: '+institution.id+'/'+condition);
+   check(Array.isArray(cell.date)&&cell.date.length===cell.source_ids?.length&&new Set(cell.date.map(d=>d.source_id)).size===cell.date.length&&cell.date.every(d=>{const original=sourceDates.find(s=>s.source_id===d.source_id);return cell.source_ids.includes(d.source_id)&&original&&d.publication===original.publication&&JSON.stringify(d.session)===JSON.stringify(original.session)&&d.exact_adoption===null;}),'matrix cell date/source mismatch: '+institution.id+'/'+condition);
+  }
+ }
+ const summary=institutionMatrix?.summary;
+ check(summary?.institutions_and_adviser_columns===11&&summary.published_author_columns===1&&summary.conditions===7&&summary.cells===matrixCells.size&&matrixCells.size===84&&summary.non_null_positions===nonNullPositions&&summary.unknown_positions===84-nonNullPositions&&summary.bounded_missing_institution_searches===4,'matrix summary coverage inconsistent');
+ check(Object.keys(summary?.status_counts||{}).length===Object.keys(statusCounts).length&&Object.entries(statusCounts).every(([status,count])=>summary.status_counts[status]===count),'matrix summary status counts inconsistent');
+ const muis=matrixInstitutions.find(i=>i.id==='MUIS');
+ check(['donor_procurement','slaughter'].every(c=>muis?.cells?.[c]?.status==='conflicting_official_passages'),'MUIS dispute prematurely resolved');
+ const advisers=matrixInstitutions.find(i=>i.id==='GOOD-MEAT-ADVISERS'),selfReport=advisers?.historical_process_caveat;
+ check(advisers?.type==='named_scholars_advice_reported_by_participants'&&selfReport?.source_id==='P1C5-INST-GOODMEAT'&&advisers.source_ids.includes(selfReport.source_id)&&selfReport.report_date==='2023-09-11'&&selfReport.current_noncompliance_established===false&&selfReport.process_version_match_established===false,'GOOD Meat dated self-report promoted or mislinked');
+ const adviserFollowup=dossier?.adviser_report_followup;
+ check(artifactLineage(adviserFollowup)&&adviserFollowup.report_date==='2023-09-11'&&adviserFollowup.company_reported_then_process_met_conditions===false&&adviserFollowup.current_process_conformity===null&&adviserFollowup.exact_failed_condition===null&&adviserFollowup.signed_opinion_obtained===false&&adviserFollowup.product_certificate_established===false&&adviserFollowup.process_version_match_established===false,'GOOD Meat followup promoted to current verdict or signed opinion');
+ const matrixRows=Array.isArray(institutionMatrix?.rows)?institutionMatrix.rows:[];
+ check(matrixRows.length===7&&new Set(matrixRows.map(r=>r.condition)).size===7&&matrixConditions.every(c=>matrixRows.some(r=>r.condition===c)),'matrix comparison-row coverage lost');
+ for(const row of matrixRows){
+  check(row.cell_ids?.length===12&&new Set(row.cell_ids).size===12&&matrixColumns.every(id=>row.cell_ids.includes(id+'/'+row.condition)),'matrix row/cell crosswalk lost');
+  const support=row.supporting_cell_ids||[];
+  check([null,'disputed','single_source'].includes(row.classification)&&(row.classification===null?support.length===0:Array.isArray(support)&&new Set(support).size===support.length&&support.length>0&&support.every(id=>row.cell_ids.includes(id)&&['attributed_primary_position','attributed_participant_report','conflicting_official_passages'].includes(matrixCells.get(id)?.status)))&&(row.classification!=='single_source'||support.length===1)&&(row.classification!=='disputed'||support.length>=2),'matrix classification support includes unsupported votes');
+ }
+ const classificationCounts={};for(const row of matrixRows){const key=row.classification??'unestablished';classificationCounts[key]=(classificationCounts[key]||0)+1;}
+ check(Object.keys(summary?.row_classifications||{}).length===Object.keys(classificationCounts).length&&Object.entries(classificationCounts).every(([key,count])=>summary.row_classifications[key]===count),'matrix classification summary inconsistent');
+ const alq=literature?.Alqurashi2026,hamdan=literature?.Hamdan2018;
+ const litSourceIds=[...new Set([...(alq?.source_ids||[]),...(hamdan?.source_ids||[]),...(literature?.dependency_source_ids||[]),...(literature?.authority_source_ids||[])])];
+ check(artifactLineage({source_ids:litSourceIds,claim_ids:literature?.claim_ids})&&reviews.some(r=>r.id===literature.independent_review_id&&r.human_review===false&&literature.claim_ids.every(id=>r.claim_ids.includes(id))),'literature source/claim/review lineage lost');
+ check(literature?.complete===false&&literature.human_review==='pending'&&literature.independent_review==='checked_scoped_reading'&&literature.MUIS_IIFA_held_dispute?.status==='held_for_qualified_human_review','literature completion or dispute approval overclaimed');
+ check(alq?.doi==='10.3390/foods15081288'&&alq.type==='narrative perspective'&&alq.authors?.length===4&&['Randah M. Alqurashi','Dominika Sikora','Piotr Rzymski','Barbara Poniedziałek'].every(name=>alq.authors.includes(name))&&alq.publication?.online==='2026-04-09'&&alq.publication.volume===15&&alq.publication.issue===8&&alq.publication.article==='1288'&&hamdan?.doi==='10.1007/s10943-017-0403-3'&&hamdan.authors?.length===4&&['Mohammad Naqib Hamdan','Mark J. Post','Mohd Anuar Ramli','Amin Rukaini Mustafa'].every(name=>hamdan.authors.includes(name))&&hamdan.publication?.online==='2017-04-29'&&hamdan.publication.issue==='2018-12','literature bibliographic identity/date boundary lost');
+ check(alq?.source_ids?.length===2&&['P1C5-LIT-ALQ-XML','P1C5-LIT-ALQ-PDF'].every(id=>alq.source_ids.includes(id)&&sources.some(s=>s.id===id&&s.sha256!==null&&s.source_family==='Alqurashi2026'))&&alq.coverage?.all_cited_sources_independently_read===false,'Alqurashi fulltext/source-family boundary lost');
+ check(hamdan?.fulltext_obtained===false&&hamdan.full_argument_review==='access_unresolved'&&hamdan.source_ids?.every(id=>sources.some(s=>s.id===id&&s.status==='independently_checked_metadata_only')),'Hamdan fulltext boundary lost');
+ const argumentMap=Array.isArray(alq?.argument_map)?alq.argument_map:[];
+ const expectedArguments=[6,7,4,5,9,5].flatMap((n,i)=>Array.from({length:n},(_,j)=>'S'+(i+1)+'.P'+(j+1)));
+ check(argumentMap.length===36&&new Set(argumentMap.map(p=>p.locator)).size===36&&expectedArguments.every(id=>argumentMap.some(p=>p.locator===id))&&alq.coverage?.body_sections_read===6&&alq.coverage.body_paragraphs_mapped===36,'literature argument coverage incomplete');
+ const referenceIndex=Array.isArray(alq?.reference_index)?alq.reference_index:[],referenceIds=new Set(referenceIndex.map(r=>r.id));
+ check(referenceIndex.length===94&&referenceIds.size===94&&Array.from({length:94},(_,i)=>'B'+(i+1)+'-foods-15-01288').every(id=>referenceIds.has(id))&&referenceIndex.every(r=>!!r.text&&r.read_status==='bibliographic_entry_read; underlying-work retrieval is separate'),'literature bibliography index coverage or access overclaim');
+ for(const node of argumentMap){
+  check(validSourceRefs(node.source_ids)&&node.source_ids.every(id=>alq.source_ids.includes(id))&&!!node.article_argument&&!!node.counterargument_or_dependency_limit&&node.review_status==='human_review_pending','literature argument attribution/source boundary lost: '+node.locator);
+  check(Array.isArray(node.reference_ids)&&node.reference_ids.every(id=>referenceIds.has(id)),'literature bibliography locator missing: '+node.locator);
+ }
+ for(const [key,suffix] of [['tables','t'],['figures','f']])check(Array.isArray(alq?.[key])&&alq[key].length===3&&[1,2,3].every(n=>alq[key].some(r=>r.id==='foods-15-01288-'+suffix+'00'+n&&!!r.finding)),'literature table/figure coverage lost: '+key);
+ check(alq.coverage.tables_read===3&&alq.coverage.figures_visually_read===3,'literature table/figure reading scope lost');
+ const evidence=literature?.acceptance_evidence;
+ check(evidence?.table==='foods-15-01288-t001'&&evidence.paragraph==='S4.P3'&&evidence.source_id==='P1C5-LIT-ALQ-XML'&&evidence.malaysia_sample_n===102&&evidence.doubts_percent===56&&evidence.acceptance_range_validated===false&&evidence.pooled_adoption_estimate===null,'literature doubts/adoption boundary lost');
+ const authority=literature?.authority_boundaries;
+ check(authority?.author_proposals_are_adopted_rules===false&&authority.author_counterarguments_are_institutional_rulings===false&&authority.review_constitutes_product_certification===false,'literature author authority promoted');
+ const reviewedStandards=Array.isArray(standardsReview?.standards)?standardsReview.standards:[];
+ check(standardsReview?.complete===false&&standardsReview.human_review==='pending'&&standardsReview.independent_review==='checked_scoped_reading'&&standardsReview.independent_review_id==='R5-STANDARDS'&&reviews.some(r=>r.id==='R5-STANDARDS'&&r.human_review===false),'standards review acceptance or review lineage lost');
+ check(artifactLineage(standardsReview),'standards aggregate source/claim lineage lost');
+ check(reviewedStandards.length===2&&['OIC-SMIIC-1','GSO-2055-1'].every(id=>reviewedStandards.some(s=>s.id===id)),'required standards coverage lost');
+ for(const standard of reviewedStandards){
+  check(artifactLineage(standard)&&reviews.some(r=>r.id===standardsReview.independent_review_id&&standard.claim_ids.every(id=>r.claim_ids.includes(id))),'standard source/claim lineage lost: '+standard.id);
+  check(standard.full_text_read===false,'standard fulltext boundary lost: '+standard.id);
+  check(Array.isArray(standard.national_incorporation)&&standard.national_incorporation.length===1,'standard national reference coverage lost: '+standard.id);
+  for(const national of standard.national_incorporation||[]){
+   check(national.legal_enforceability===null&&national.product_application===null&&Array.isArray(national.claim_ids)&&national.claim_ids.length>0&&national.claim_ids.every(id=>standard.claim_ids.includes(id))&&(standard.id==='OIC-SMIIC-1'?national.country==='PAK'&&national.status==='modified_adoption_metadata'&&national.modifications_read===false:national.country==='ARE'&&national.status==='administrative_reference'&&national.edition===null&&national.full_decree_read===false),'standard national incorporation scope overclaimed');
+  }
+ }
+ const smiic=reviewedStandards.find(s=>s.id==='OIC-SMIIC-1'),gso=reviewedStandards.find(s=>s.id==='GSO-2055-1');
+ check(smiic?.edition==='OIC/SMIIC1:2019'&&smiic.relevant_clauses===null,'unread OIC/SMIIC clauses supplied');
+ check(gso?.edition==='GSO2055-1:2015 edition2 English'&&gso.draft?.identifier==='GSO TC15/DS1 2055-1:2026'&&gso.draft.status==='initial_draft'&&gso.draft.adopted===null&&gso.draft.adoption_not_established===true&&gso.draft.full_text_read===false&&gso.draft.national_effective_date===null,'GSO draft adoption promoted or edition conflated');
+ check(gso?.relevant_clauses?.length===3&&new Set(gso.relevant_clauses.map(c=>c.clause)).size===3&&gso.relevant_clauses.every(c=>c.clause==='1'?c.product_verdict===null:c.clause==='2.1–2.6'?c.referenced_texts_read_in_this_run===false:c.clause==='3.3–3.4,3.8–3.9'&&c.cultivated_meat_determination===null)&&gso.unavailable_clauses?.length===6&&['4','5','6','7','8','Annex1'].every(c=>gso.unavailable_clauses.includes(c)),'GSO preview promoted to product determination or unread clauses lost');
  return {checks,failures};
 }

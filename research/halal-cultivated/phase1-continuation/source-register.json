@@ -1028,5 +1028,502 @@
     "sha256": "2704042ffe80de9959d840d2a412ff25784157782d546857573f4a7336fcbb8b",
     "limits": "Issued 2021 edition, not a complete current-consolidation audit. Arabic PDF text extraction contains corrupt characters, so cited pages were visually read. Qualified translation remains pending. Landing-page date and PDF creation metadata are not the decree issue date or proof of gazette publication. No school designation in Article 2 alone does not establish absence from all law or population adherence.",
     "human_verification": "Pending"
+  },
+  {
+    "id": "IIFA265",
+    "title": "IIFA Resolution 265 on cultivated meat",
+    "url": "https://iifa-aifi.org/en/56085.html",
+    "language": "English issuer translation",
+    "locator": "Third 1–3; Fourth–Sixth",
+    "short_exact_quote": "lawful to eat if it is alive",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "limits": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated.",
+    "capture_kind": "retained_original_html_and_independent_provider_extract",
+    "publication_date": "2025-11-20",
+    "session_dates": [
+      "2025-05-04",
+      "2025-05-08"
+    ],
+    "exact_adoption_date": null,
+    "document_type": "official_resolution_issuer_English_translation",
+    "prior_review_ids": [
+      "V-RULINGS",
+      "SF-20261001-C2"
+    ],
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": "3362bdd63daa18c92159e781e8a29810dd6eba3f3dc66c5c867d91aea0b81a55",
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "original_HTML",
+        "bytes": 171277,
+        "sha256": "3362bdd63daa18c92159e781e8a29810dd6eba3f3dc66c5c867d91aea0b81a55"
+      },
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 20529,
+        "sha256": "c98568ee2a9abc16d8205c989935764c104ff42c85f1db300c737a3647cc69f3"
+      }
+    ]
+  },
+  {
+    "id": "IIFA-AR",
+    "title": "IIFA Resolution 265 Arabic original",
+    "url": "https://iifa-aifi.org/ar/56053.html",
+    "language": "Arabic cross-check of English ambiguity",
+    "locator": "Third, numbered conditions 1–6",
+    "short_exact_quote": "أن تستخلص الخلايا من حيوان مباح الأكل إذا كان حيًّا",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "limits": "Same issuer and instrument as English; numbering differs. Not independent corroboration.",
+    "capture_kind": "retained_provider_extract",
+    "publication_date": "2025-11-20",
+    "document_type": "official_resolution_Arabic",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": null,
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 30397,
+        "sha256": "903d13a6e5309d5527ddb0b7afed8bc3adaad3d8785f6040b5abc37c5604b3da"
+      }
+    ]
+  },
+  {
+    "id": "MUIS2024",
+    "title": "MUIS Fatwa on cultivated meat",
+    "url": "https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/",
+    "language": "English",
+    "locator": "Release dated 3 February 2024, paragraphs 8–10",
+    "short_exact_quote": "Cell source must be taken from animals that are halal to consume",
+    "source_family": "MUIS",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "limits": "Issuing-body press release; not full deliberations or a product certificate.",
+    "capture_kind": "retained_original_html_and_new_provider_extract",
+    "publication_date": "2024-02-03",
+    "exact_adoption_date": null,
+    "document_type": "official_release_reporting_fatwa",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": "623781f22ae58506bdd911632af6af76324fbd7bdf9dd2a65a404708cda2d145",
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "original_HTML",
+        "bytes": 419301,
+        "sha256": "623781f22ae58506bdd911632af6af76324fbd7bdf9dd2a65a404708cda2d145"
+      },
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 35309,
+        "sha256": "2ae49a692637c5d04c953b4d5bbf7b9ab11f4d00664cb9a38ba44c9edb5e2a05"
+      }
+    ]
+  },
+  {
+    "id": "MUIS-BOOK",
+    "title": "MUIS From Lab to Table Novel Food from an Islamic Perspective",
+    "url": "https://file.go.gov.sg/novelfood.pdf",
+    "language": "English",
+    "locator": "Printed pp6,11,13–14,19; PDF pp8,13,15–16,21",
+    "short_exact_quote": "which have been slaughtered beforehand according to Islamic Law",
+    "source_family": "MUIS",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "limits": "Whole PDF acquired; relevant passages read as text, prior phase1 p14 visual check retained. 2024 edition is not a 2026 certification audit. Istihala passage p11 belongs to insects, not cell culture.",
+    "retrieval_sha256": "a4ccb9e7f792588fb27b3b790f154b095054bbdf089496fe04b8dd335fa1476f",
+    "capture_kind": "complete_original_pdf_bytes_and_derived_text",
+    "publication_date": "2024",
+    "exact_adoption_date": null,
+    "document_type": "official_MUIS_booklet_first_edition",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": "a4ccb9e7f792588fb27b3b790f154b095054bbdf089496fe04b8dd335fa1476f",
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "original_PDF",
+        "bytes": 15253132,
+        "sha256": "a4ccb9e7f792588fb27b3b790f154b095054bbdf089496fe04b8dd335fa1476f"
+      },
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 15424,
+        "sha256": "135b772eb71d99b1462b10fdd31304703bb8228d365fcebde0450eb4ae93c4cb"
+      },
+      {
+        "kind": "derived_text",
+        "bytes": 34035,
+        "sha256": "f08547c3af508c616746ecca655a2ada916ca6f54b9c6110aa8bc248df91d402"
+      }
+    ]
+  },
+  {
+    "id": "C2-MUIS-ANNEX",
+    "title": "Annex C: Key Fatwas Issued (2022–2025)",
+    "url": "https://isomer-user-content.by.gov.sg/48/3de613bc-a355-4a7f-92ce-cba1d1f666f8/Annex%20C%20Key%20Fatwas%20Issued%20-%20Appointment%20of%20New%20Fatwa%20Committee%202025%20-%202028.pdf",
+    "language": "English",
+    "source_family": "MUIS",
+    "publication_date": null,
+    "date_note": "Filename refers to 2025–2028 committee appointment; exact publication/adoption dates not established.",
+    "capture_kind": "retained_provider_PDF_extract",
+    "document_type": "official_summary_annex",
+    "locator": "PDF pp1–2 §1, provider lines33–49; §2 lines83–88 concern insects",
+    "limits": "Extraction exceptions and concluding slaughter condition both retained. No supersession established. Screenshot attempt did not produce visual-page evidence.",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed": "2026-10-01",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": null,
+    "human_verification": "Pending",
+    "status": "independently_checked_scoped_reading",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 20529,
+        "sha256": "c98568ee2a9abc16d8205c989935764c104ff42c85f1db300c737a3647cc69f3"
+      }
+    ]
+  },
+  {
+    "id": "WP595",
+    "title": "MuftiWP Irsyad Hukum 595",
+    "url": "https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/4887-irsyad-al-fatwa-siri-ke-595-daging-kultur-cultured-meat-menurut-perspektif-syarak",
+    "language": "Malay despite en URL",
+    "locator": "Provider lines19–22,35–41,53–66,72–77",
+    "short_exact_quote": "",
+    "source_family": "MuftiWP",
+    "accessed": "2026-10-01",
+    "status": "held_language",
+    "limits": "Malay body despite /en URL; provisional condition extraction held, not accepted translation, not gazetted instrument or product certificate.",
+    "capture_kind": "provider_extract_original_language_held",
+    "publication_date": "2021-07-24",
+    "document_type": "official_department_explanatory_article",
+    "author": "Muhammad Fathi Noordin",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": null,
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 35309,
+        "sha256": "2ae49a692637c5d04c953b4d5bbf7b9ab11f4d00664cb9a38ba44c9edb5e2a05"
+      },
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 16022,
+        "sha256": "40d17b06ad13ca2b267bf37057ea6d39bcaae6f6c6fd02501dca1b4dace0cb45"
+      }
+    ]
+  },
+  {
+    "id": "MY-MKI-128",
+    "title": "PENENTUAN HUKUM MEMAKAN DAGING KULTUR (CULTURED MEAT) MENURUT PERSPEKTIF ISLAM DAN SAINS",
+    "url": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
+    "language": "Malay",
+    "source_family": "MKI128-JAKIM-CIRi",
+    "capture_kind": "retained_original_HTML_language_held",
+    "session_dates": [
+      "2025-09-23",
+      "2025-09-26"
+    ],
+    "publication_date": null,
+    "document_type": "MKI_muzakarah_opinion_published_by_JAKIM",
+    "locator": "Status Pewartaan; numbered1,2(a)–(c) and asterisk note",
+    "limits": "Malay held; record states not gazetted. JAKIM publication does not establish each state adoption or cultivated-product certification.",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed": "2026-10-01",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": "572f9157e2f53ee8e7780bf00748583969f32350a340a66401fca46da3ebfa7f",
+    "human_verification": "Pending",
+    "status": "held_language",
+    "capture_receipts": [
+      {
+        "kind": "original_HTML",
+        "bytes": 11882,
+        "sha256": "572f9157e2f53ee8e7780bf00748583969f32350a340a66401fca46da3ebfa7f"
+      },
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 11526,
+        "sha256": "2404facbea30cc14c16548af910783a72aec42f5e1b1ad8e9626065427a98e86"
+      }
+    ]
+  },
+  {
+    "id": "P1C5-INST-GOODMEAT",
+    "title": "Leading Shariah Scholars Rule Cultivated Meat Can Be Halal",
+    "url": "https://www.goodmeat.co/all-news/leading-shariah-scholars-rule-cultivated-meat-can-be-halal",
+    "language": "English",
+    "source_family": "GOOD-Meat-advisory-engagement",
+    "publication_date": "2023-09-11",
+    "document_type": "manufacturer_participant_press_release",
+    "capture_kind": "provider_extract_complete_relevant_article",
+    "locator": "Provider lines18–29 conditions/process caveat;35–43 named advisers",
+    "limits": "Account of commissioned advice; no signed opinion, national body adoption, certification or current process conformity. Same engagement as law firm, not independent scholarly confirmation.",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed": "2026-10-01",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": null,
+    "human_verification": "Pending",
+    "status": "independently_checked_scoped_reading",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 10556,
+        "sha256": "fc3e6c8717a8cbb367680729abf0fc5221d3a5f6515510eb2032ddda8b730d8b"
+      }
+    ]
+  },
+  {
+    "id": "GHAMIDI",
+    "title": "Ghamidi The Dietary Laws translated by Shehzad Saleem",
+    "url": "https://monthly-renaissance.com/issue/content.aspx?id=393",
+    "language": "English published translation",
+    "locator": "Provider lines15–25 species framework;34–58 detached flesh and slaughter; prior G02 tasmiya afterQ6:121",
+    "short_exact_quote": "Any piece cut from a living animal is maytah.",
+    "source_family": "Ghamidi authored dietary framework",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "limits": "Published framework separate from unavailable interview and from modern cell-culture ruling. Publication month comes from retained checked source register; current extract title lacks issue date. Article title correct; stray site links excluded.",
+    "capture_kind": "provider_extract_first_part_of_authored_essay",
+    "publication_date": "2002-02",
+    "document_type": "published_author_translation_not_institutional_fatwa",
+    "currentness": "Historical edition/article as captured; no exhaustive current-force or supersession conclusion.",
+    "accessed_note": "Retained source inspected in run05; capture kind distinguishes a new retrieval from a local rereading.",
+    "sha256": null,
+    "human_verification": "Pending",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_review_capture",
+        "bytes": 35309,
+        "sha256": "2ae49a692637c5d04c953b4d5bbf7b9ab11f4d00664cb9a38ba44c9edb5e2a05"
+      }
+    ]
+  },
+  {
+    "id": "P1C5-LIT-ALQ-XML",
+    "title": "Alqurashi et al. (2026), Foods 15(8), 1288: full article XML",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML",
+    "language": "English",
+    "locator": "Full article, six body sections, three tables, three figures and 94 reference entries",
+    "source_family": "Alqurashi2026",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "full_article_XML",
+    "sha256": "c71d4b451dde5dee682f3469f0b6e1486293fc15a15ac542661e5d190dce4039",
+    "bytes": 165621,
+    "limits": "Narrative perspective and author proposals; underlying references are not all independently verified.",
+    "human_verification": "Pending",
+    "access_note": "retained full article XML copied byte-for-byte from prior authorized run; CC BY 4.0"
+  },
+  {
+    "id": "P1C5-LIT-ALQ-PDF",
+    "title": "Alqurashi et al. (2026): official publisher PDF",
+    "url": "https://mdpi-res.com/d_attachment/foods/foods-15-01288/article_deploy/foods-15-01288.pdf",
+    "language": "English",
+    "locator": "Nineteen-page article; diagrams on PDF pages 3, 11 and 12",
+    "source_family": "Alqurashi2026",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "publisher_article_PDF",
+    "sha256": "d2bc2237231cb61ca55cb57dd7391e6958a8641877d4407cb371386be6897384",
+    "bytes": 2951877,
+    "limits": "Same article/source family as the XML; not another independent study.",
+    "human_verification": "Pending",
+    "access_note": "official publisher PDF; operation16 HTTP200"
+  },
+  {
+    "id": "P1C5-LIT-KASHIM",
+    "title": "Kashim et al.: cultivated-meat scientific and Islamic perspective, DOI 10.1016/j.sjbs.2022.103501",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9712126/fullTextXML",
+    "language": "English",
+    "locator": "Section s0060 paragraphs 8–9, 16–17; conclusion s0065 paragraph 1",
+    "source_family": "Kashim-review",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "full_article_XML",
+    "sha256": "89234d5abd1cebd4e0fdfbba14bf753bd2d141d0dcbef8719671e4f7bd0a689c",
+    "bytes": 105490,
+    "limits": "Academic author reasoning, not an institutional ruling; its attribution to Hamdan does not replace the unread original.",
+    "human_verification": "Pending",
+    "access_note": "full original article XML; targeted dependency passages and references read"
+  },
+  {
+    "id": "P1C5-LIT-HAMDAN24",
+    "title": "Hamdan et al. (2024), DOI 10.1016/j.heliyon.2024.e28491",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11004531/fullTextXML",
+    "language": "English",
+    "locator": "Methods section sec3 paragraph 1; sec4.2 paragraphs 6–7; Table 2 and referenced source families",
+    "source_family": "Hamdan2024-review",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "full_article_XML",
+    "sha256": "9fc705b36b5dd6249bc8bf4155dd440a4033d2858a2d3cbaec72e5833fe5c930",
+    "bytes": 115943,
+    "limits": "Distinct work from Hamdan 2018. Author inference and literature review are not consensus, a fatwa or a certificate.",
+    "human_verification": "Pending",
+    "access_note": "full original article XML; targeted dependency passages and references read; distinct from required Hamdan2018"
+  },
+  {
+    "id": "P1C5-LIT-HAMDAN18-META",
+    "title": "Cultured Meat in Islamic Perspective: Maastricht institutional record",
+    "url": "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/",
+    "language": "English",
+    "locator": "Author list; abstract; journal/volume/issue/pages; DOI; publication status; Access to Document",
+    "source_family": "Hamdan2018-metadata",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_metadata_only",
+    "document_type": "institutional_bibliographic_record",
+    "sha256": null,
+    "limits": "Metadata and abstract only; full paper not obtained. Issue date must remain separate from online-first date.",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C5-LIT-HAMDAN18-AUTHOR",
+    "title": "Mohammad Naqib Hamdan institutional publication listing",
+    "url": "https://people.utm.my/mohammadnaqib/category/penerbitan/jurnal-berwasit/",
+    "language": "English and Malay metadata",
+    "locator": "Cultured Meat in Islamic Perspective citation",
+    "source_family": "Hamdan2018-metadata",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_metadata_only",
+    "document_type": "author_bibliographic_listing",
+    "sha256": null,
+    "limits": "Citation route did not yield an accessible full manuscript; not an independent verification of the argument.",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C5-STD-S01",
+    "title": "SMIIC announcement of 2019 halal-standard editions",
+    "url": "https://smiic.org/en/content/573",
+    "language": "English",
+    "locator": "OIC/SMIIC1:2019 overview and purchase paragraph",
+    "source_family": "SMIIC",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "",
+    "human_verification": "Pending",
+    "limits": "Publisher scope summary, not normative clauses; date displayed09/08/2019 retained without inferring national force.",
+    "source_date": "09/08/2019 as displayed",
+    "sha256": null
+  },
+  {
+    "id": "P1C5-STD-S02",
+    "title": "SMIIC standards catalogue",
+    "url": "https://smiic.org/en/all-projects",
+    "language": "English",
+    "locator": "First catalogue row:OIC/SMIIC1:2019,TC1,listed purchase price",
+    "source_family": "SMIIC",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "",
+    "human_verification": "Pending",
+    "limits": "Live listing establishes availability for purchase, not that full text was read; no purchase made.",
+    "sha256": null
+  },
+  {
+    "id": "P1C5-STD-S03",
+    "title": "SMIIC project24: OIC/SMIIC1:2019",
+    "url": "https://smiic.org/en/project/24",
+    "language": "English",
+    "locator": "Project title and metadata fields below navigation",
+    "source_family": "SMIIC",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "Review",
+    "human_verification": "Pending",
+    "limits": "Status Review and stage90.60 displayed; edition/date fields blank. Do not decode the stage as a newly adopted edition.",
+    "sha256": null
+  },
+  {
+    "id": "P1C5-STD-S04",
+    "title": "PSQCA Halaal standards list",
+    "url": "https://www.psqca.com.pk/division-wise-standards/halaal/",
+    "language": "English",
+    "locator": "First item under updated Pakistan Standards",
+    "source_family": "PSQCA",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "Modified adoption",
+    "human_verification": "Pending",
+    "limits": "Modified national adoption metadata only; modifications, operative clauses, legal enforceability and product-specific application unread.",
+    "sha256": null
+  },
+  {
+    "id": "P1C5-STD-S05",
+    "title": "GSO2055-1:2015 official standards store",
+    "url": "https://www.gso.org.sa/store/standards/GSO:693304/GSO%202055-1:2015?lang=en",
+    "language": "English",
+    "locator": "Edition/status/approval fields; English preview button and embedded previewUrlPdf",
+    "source_family": "GSO",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "Current Edition",
+    "human_verification": "Pending",
+    "limits": "Store calls edition2 current on retrieval; national incorporation and complete amendment chain are separate.",
+    "sha256": "46087cb8acb9995836571477c2f5748027fa975a16492c8c09eb4b31aed68f8f",
+    "issuer_approval_date": "2015-11-05"
+  },
+  {
+    "id": "P1C5-STD-S06",
+    "title": "GSO2055-1:2015 English edition2 official preview",
+    "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-2055-1-2015-en.pdf",
+    "language": "English",
+    "locator": "PDF4–6, printediv,1–2; foreword and clauses1,2.1–2.6,3.1–3.9",
+    "source_family": "GSO",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "partial_standard_preview",
+    "short_exact_quote": "English Language",
+    "human_verification": "Pending",
+    "limits": "Six-page preview, not full standard. Sections4–8 and Annex1 absent. Arabic prevails in conflicts. PDF creation2023 is not adoption date.",
+    "sha256": "82acbdc2cf3897148dae5d78554a08f58ecdf3d5b96a99302a6e12b29afb66c6",
+    "bytes": 438787,
+    "pages": 6,
+    "issuer_approval_date": "2015-11-05"
+  },
+  {
+    "id": "P1C5-STD-S07",
+    "title": "GSO TC15/DS1 2055-1:2026 project50611",
+    "url": "https://www.gso.org.sa/sp/projects/50611?lang=en",
+    "language": "English",
+    "locator": "Project title/type,language,prepared-by,related-standard and scope fields",
+    "source_family": "GSO",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_scoped_reading",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "Initial Draft of Gulf Technical Regulation",
+    "human_verification": "Pending",
+    "limits": "An initial Arabic draft prepared by SASO; full draft not acquired. No adopted replacement or national enforcement date established.",
+    "adopted_date": null,
+    "sha256": null
+  },
+  {
+    "id": "P1C5-STD-S08",
+    "title": "MOIAT UAE Halal System: current indexed capture",
+    "url": "https://www.moiat.gov.ae/en/programs/halal",
+    "language": "English",
+    "locator": "About Halal; National Mark; Legislation and Decisions; Standards Relative to Halal",
+    "source_family": "MOIAT",
+    "accessed": "2026-10-01",
+    "status": "independently_checked_indexed_primary_passage",
+    "document_type": "official_catalog_or_guidance",
+    "short_exact_quote": "The Halal National Mark",
+    "human_verification": "Pending",
+    "limits": "Fresh direct fetch timed out; indexed official page retained. Reference to Cabinet10/2014 is not a reading of the decree; UAE.S2055-1 edition absent. Avoid generalizing the scheme to every food.",
+    "sha256": null
   }
 ]

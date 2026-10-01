@@ -4,7 +4,9 @@
 
 ## What changed
 
-The fourth batch adds [named institutional roles](geography.md) for Saudi Arabia, the UAE, Singapore and Oman, plus a visual reading of Oman's issued 2021 Basic Statute. The registers now contain **58 sources and 53 bounded claims**. Full current legal scope and school-prevalence evidence remain open. Direct Egyptian publisher HTML strengthens the [article-level evidence](egypt-institutions.md); the original fatwas remain unlocated.
+The fifth batch adds the [seven-condition institution matrix](institution-matrix.md), [full Alqurashi argument review and bounded Hamdan access result](literature-review.md), and [standards edition and access comparison](standards-review.md). The registers now contain **81 sources and 67 bounded claims**. The matrix covers 11 named institutional/adviser columns plus Ghamidi’s separate published account; 47 of its 84 cells remain explicit unknowns. Human review, exact product certificates, complete normative texts and the full Phase One synthesis remain outstanding.
+
+The fourth batch adds [named institutional roles](geography.md) for Saudi Arabia, the UAE, Singapore and Oman, plus a visual reading of Oman's issued 2021 Basic Statute. At that checkpoint the registers contained 58 sources and 53 bounded claims. Full current legal scope and school-prevalence evidence remain open. Direct Egyptian publisher HTML strengthens the [article-level evidence](egypt-institutions.md); the original fatwas remain unlocated.
 
 The third batch adds a [real manufacturing dossier](manufacturing-dossier.md), [separate Egyptian institutional leads](egypt-institutions.md), and [China’s ASF historical comparison](china-asf-history.md). At that checkpoint the registers contained 45 sources and 45 bounded claims. Singapore, Egypt and China gain partial evidence within their original roles. Exact current product certificates, original Egyptian rulings and identified demand coefficients remain unestablished.
 

@@ -64,7 +64,27 @@ const cases=[
  ['Egypt article hash attributed to another source',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.article_acquisitions[0].sha256=r.followup_retrieval.article_acquisitions[1].sha256;}),'Egypt acquisition identity'],
  ['publisher article acquisition becomes original fatwa',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.original_rulings_obtained=true;}),'Egypt followup promoted'],
  ['news story anchors become original fatwa links',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.link_trace.original_fatwa_links_found=true;}),'Egypt news-link trace'],
- ['WAAG HTML modification becomes a new ruling',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.waag_metadata.modified_date_is_new_ruling=true;}),'WAAG metadata promoted']
+ ['WAAG HTML modification becomes a new ruling',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.waag_metadata.modified_date_is_new_ruling=true;}),'WAAG metadata promoted'],
+ ['matrix silently omits an institution',f=>alter(f,'institution-matrix.json',r=>{r.institutions.pop();}),'matrix column coverage'],
+ ['matrix date points to a different source',f=>alter(f,'institution-matrix.json',r=>{r.institutions[0].cells.species.date[0].source_id='MUIS2024';}),'matrix cell date/source'],
+ ['bounded missing instrument converted to prohibition',f=>alter(f,'institution-matrix.json',r=>{r.institutions.find(i=>i.id==='CII').cells.species.position='Prohibited';}),'matrix unknown/status boundary'],
+ ['language-held position becomes accepted primary evidence',f=>alter(f,'institution-matrix.json',r=>{r.institutions.find(i=>i.id==='MUFTI-WP').cells.species.status='attributed_primary_position';}),'matrix source-role promotion'],
+ ['MUIS procurement conflict declared resolved',f=>alter(f,'institution-matrix.json',r=>{r.institutions.find(i=>i.id==='MUIS').cells.donor_procurement.status='attributed_primary_position';}),'MUIS dispute prematurely resolved'],
+ ['GOOD Meat historical self-report becomes current noncompliance',f=>alter(f,'institution-matrix.json',r=>{r.institutions.find(i=>i.id==='GOOD-MEAT-ADVISERS').historical_process_caveat.current_noncompliance_established=true;}),'GOOD Meat dated self-report'],
+ ['participant advice mistaken for an obtained signed opinion',f=>alter(f,'manufacturing-dossier.json',r=>{r.adviser_report_followup.signed_opinion_obtained=true;}),'GOOD Meat followup promoted'],
+ ['matrix coverage becomes Phase One completion',f=>alter(f,'institution-matrix.json',r=>{r.acceptance.phase_one_done=true;}),'matrix acceptance overclaimed'],
+ ['held position supplies a consensus vote',f=>alter(f,'institution-matrix.json',r=>{r.rows.find(row=>row.condition==='donor_procurement').supporting_cell_ids.push('MUFTI-WP/donor_procurement');}),'matrix classification support'],
+ ['literature drops one mapped argument',f=>alter(f,'literature-review.json',r=>{r.Alqurashi2026.argument_map.pop();}),'literature argument coverage'],
+ ['paragraph cites a nonexistent article reference',f=>alter(f,'literature-review.json',r=>{r.Alqurashi2026.argument_map[0].reference_ids.push('B999-foods-15-01288');}),'literature bibliography locator'],
+ ['Hamdan metadata mistaken for full-text reading',f=>alter(f,'literature-review.json',r=>{r.Hamdan2018.fulltext_obtained=true;}),'Hamdan fulltext boundary'],
+ ['different Hamdan work substituted for required DOI',f=>alter(f,'literature-review.json',r=>{r.Hamdan2018.doi='10.1016/j.heliyon.2024.e28491';}),'literature bibliographic identity'],
+ ['56 percent doubts promoted to comparable acceptance',f=>alter(f,'literature-review.json',r=>{r.acceptance_evidence.acceptance_range_validated=true;}),'literature doubts/adoption boundary'],
+ ['author proposal becomes an adopted rule',f=>alter(f,'literature-review.json',r=>{r.authority_boundaries.author_proposals_are_adopted_rules=true;}),'literature author authority'],
+ ['counterargument erased while retaining review status',f=>alter(f,'literature-review.json',r=>{r.Alqurashi2026.argument_map[0].counterargument_or_dependency_limit='';}),'literature argument attribution'],
+ ['standards preview mistaken for full normative reading',f=>alter(f,'standards-review.json',r=>{r.standards[1].full_text_read=true;}),'standard fulltext boundary'],
+ ['GSO initial draft promoted to adopted standard',f=>alter(f,'standards-review.json',r=>{r.standards.find(s=>s.id==='GSO-2055-1').draft.adopted=true;}),'GSO draft adoption'],
+ ['adoption metadata becomes enforceable product law',f=>alter(f,'standards-review.json',r=>{r.standards[0].national_incorporation[0].legal_enforceability=true;}),'standard national incorporation'],
+ ['standard cites an unrelated valid country claim',f=>alter(f,'standards-review.json',r=>{r.standards[0].claim_ids=['P1C-C01'];}),'standard source/claim lineage']
 ];
 for(const [name,mutate,expected] of cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',validFixtureChecks:checkContinuation(fixture).checks,negativeCases:cases.length}));

@@ -150,5 +150,46 @@
     "scope": "Oman issued-edition and institutional reading; Egyptian direct article acquisitions do not establish original fatwas.",
     "outcome": "bounded_documentary_agreement",
     "human_review": false
+  },
+  {
+    "id": "R5-INSTITUTIONS",
+    "claim_ids": [
+      "P1C5-INST-C01",
+      "P1C5-INST-C02",
+      "P1C5-INST-C03"
+    ],
+    "method": "Coordinator retained source-first findings before viewing specialist matrix, then compared all 84 cells, dates, source families, held positions and bounded search queries. Existing prior checked Egyptian and Malaysian evidence remains limited to its prior scope.",
+    "scope": "Seven-condition matrix and three new attributed findings. Four bodies remain researched unknowns; no consensus, human approval, original signed adviser opinion or product certificate.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R5-LITERATURE",
+    "claim_ids": [
+      "P1C5-LIT-C01",
+      "P1C5-LIT-C02",
+      "P1C5-LIT-C03",
+      "P1C5-LIT-C04",
+      "P1C5-LIT-C05"
+    ],
+    "method": "Coordinator independently read the full Alqurashi article and all tables before candidate reconciliation, compared source locators, then checked Kashim serum and Hamdan 2024 embryo passages. Specialist additionally inspected publisher PDF diagrams.",
+    "scope": "Full Alqurashi argument map, scoped dependency counterarguments and bounded Hamdan 2018 access result; not independent verification of every cited study or institutional position.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R5-STANDARDS",
+    "claim_ids": [
+      "P1C5-STD-C01",
+      "P1C5-STD-C02",
+      "P1C5-STD-C03",
+      "P1C5-STD-C04",
+      "P1C5-STD-C05",
+      "P1C5-STD-C06"
+    ],
+    "method": "Fresh specialist recorded findings from retained official captures and visually inspected preview pages before reading coordinator claims. All six claims passed; issuer approval date renamed to distinguish national adoption.",
+    "scope": "Edition and availability metadata, GSO preview clauses and separate Pakistan/UAE references. Full normative texts, national legal effect and product compliance remain unestablished.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
   }
 ]

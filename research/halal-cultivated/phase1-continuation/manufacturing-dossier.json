@@ -422,5 +422,30 @@
   "sourceIndependence": "FDA assessment is independently authored regulatory evaluation; experimental observations remain largely manufacturer-supplied. FDA hosting is not independent assay replication.",
   "coverage": "Substantive source-bounded dossier; not full PhaseOne completion, not human scholarly approval.",
   "current_certificate_verified": false,
-  "full_phase1_complete": false
+  "full_phase1_complete": false,
+  "adviser_report_followup": {
+    "report_date": "2023-09-11",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT",
+      "P1C3-PROCESS-S08"
+    ],
+    "claim_ids": [
+      "P1C5-INST-C01",
+      "P1C5-INST-C02"
+    ],
+    "named_advisers": [
+      "Sheikh Abdullah AlManea",
+      "Professor Abdullah al-Mutlaq",
+      "Professor Saad Al-Shathry"
+    ],
+    "company_reported_then_process_met_conditions": false,
+    "current_process_conformity": null,
+    "exact_failed_condition": null,
+    "signed_opinion_obtained": false,
+    "product_certificate_established": false,
+    "process_version_match_established": false,
+    "source_independence": "Manufacturer and counsel accounts describe one commissioned engagement.",
+    "limits": "Historical participant self-report only; the notice does not identify the exact condition failed or link its statement to a later formulation or product version.",
+    "matrix": "institution-matrix.json"
+  }
 }
