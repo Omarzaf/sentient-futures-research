@@ -368,13 +368,13 @@
     },
     {
       "path": "research/protein-survey-data/Study_Register.csv",
-      "bytes": 6578,
-      "sha256": "73312444e157c47c7a6af1d60d1d79ad01d7c0eb6de1397eec0a344467a13219"
+      "bytes": 6568,
+      "sha256": "02cef1f19be6c41d2393fa1c816a518af9b1399228d3e371a9030f1cefff989b"
     },
     {
       "path": "research/protein-survey-data/Survey_Findings.csv",
-      "bytes": 5487,
-      "sha256": "255e011c589dc57b4600c50eafc147c77d3b409e78eaeb07172bd2ccb6c50678"
+      "bytes": 5457,
+      "sha256": "f46bf30653c3675c0933b4268c13c315f9792d05fb708eb129e25fa4be5065cb"
     },
     {
       "path": "research/protein-survey-data/survey_data.json",
