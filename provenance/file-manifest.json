@@ -59,7 +59,7 @@
     {
       "path": "index.html",
       "bytes": 9190,
-      "sha256": "bd5bb7c6dbae2f713c2795643329a0d270b3961fc722a46eae9d0acf7768226d"
+      "sha256": "8de9ef74bdac20e3b0f8ac7b6c8746a23fd36de780482f218473e11aea0bb930"
     },
     {
       "path": "provenance/import-records.json",
@@ -443,18 +443,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 85680,
-      "sha256": "bb58c00dfcf6b8153f1c4f9b94a55630618c41a93bbcd16c22bfd4d68ab4c653"
+      "bytes": 85408,
+      "sha256": "227fd992dc57ecb9316da6d475c807d9ac22ab7384414e83652ddeb99c04a5c6"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 339917,
-      "sha256": "4ceef8093c6b68a714a66102a2d10ce4693aa70ce531fabfd7738139cd9ad299"
+      "bytes": 339111,
+      "sha256": "7793e0050fa4c958734f94999e0dcc3825925a370f20cbf4940bd0f97597fa28"
     },
     {
       "path": "sources/index.html",
-      "bytes": 227648,
-      "sha256": "7cb9f531b45926cf1c4e13c0d194049a0cc47c6819c5314289c2814a51a79afa"
+      "bytes": 227170,
+      "sha256": "c4d4fa48f904c34d4b4d70ea95b814f08993b1c145428016be54142982fca5d2"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -463,18 +463,18 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 16331,
-      "sha256": "1f88ea57b4c58cd338f761a8b87cbaf2d6c2b075843008cbaa78ffcf1dbafec7"
+      "bytes": 16753,
+      "sha256": "579dc3bf800cdc28661847c09cb86e53ad7e4fe916de9c95c32c4648ff645e2d"
     },
     {
       "path": "tools/halal-checks.mjs",
-      "bytes": 11184,
-      "sha256": "fffcdd9a702e5f08350d5ad6d2c037e062583376087c3be099ff79b0841a6e67"
+      "bytes": 11859,
+      "sha256": "a1884be551d39dbf8dd50e04f69a0d5890b946eb258b20d40f6fd11292901b8b"
     },
     {
       "path": "tools/phase1-checks.mjs",
-      "bytes": 4380,
-      "sha256": "cbc806155e4810eee6958854a6279075a9b05eeb4e93b9db81af65eee7d82753"
+      "bytes": 4632,
+      "sha256": "017c0eff4ec465ad42a4f9c29913c6eead7cac9e49c74921b9528faade6a783e"
     },
     {
       "path": "tools/privacy-checks.mjs",
@@ -482,9 +482,14 @@
       "sha256": "52dc22480b3bcca1fbb2c9766eeb987b9d3d8e8b64c681fbb522d3c88c117861"
     },
     {
+      "path": "tools/repo-files.mjs",
+      "bytes": 727,
+      "sha256": "ba8d4e0b83483318b146dd66e9fa36e7d5333c45ef6ce20d03b4dd3973891e95"
+    },
+    {
       "path": "tools/serve.mjs",
-      "bytes": 2054,
-      "sha256": "28e6a4af68b6cd5adb2ecc59d353d60e085b5777c4ca1b171e6e5662a7fa1aac"
+      "bytes": 2263,
+      "sha256": "a524a38c519b197e585a080510cfe41e792a3a58fa9c20d055816b7611cc29ca"
     },
     {
       "path": "tools/survey-checks.mjs",
@@ -498,13 +503,13 @@
     },
     {
       "path": "tools/test-halal-checks.mjs",
-      "bytes": 7331,
-      "sha256": "888283a31e1463af4f5561b87b7f3f951ad9a08c2d4e1ca5476de18001150c11"
+      "bytes": 7930,
+      "sha256": "c3d16b3c8ad7ac4d3634d14cae980e1f67df5455386bbb77845d707b0f76cf47"
     },
     {
       "path": "tools/test-phase1-checks.mjs",
-      "bytes": 2001,
-      "sha256": "22e4395eef147edf5f2a0725c4e12999216f30b8eaffbeb229950ed951ea1783"
+      "bytes": 2175,
+      "sha256": "1b95b90cbb492dcb3fa68bb623400936b9015f7596d2bddb780d2cc9760213a8"
     },
     {
       "path": "tools/test-privacy-checks.mjs",
@@ -518,8 +523,8 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 9960,
-      "sha256": "c9459ab9bc0c31fdb21036392de7042ca90bb1b664eab264d83c4eb2db4061be"
+      "bytes": 10196,
+      "sha256": "4f153e1c6db3e2cba4be5fc6b66f4c349e601dd19817f2e7ec744e51acc02d6b"
     }
   ]
 }

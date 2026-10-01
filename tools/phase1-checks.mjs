@@ -2,10 +2,13 @@
 export function checkPhaseOne(files) {
  const failures=[];let checks=0;
  const check=(ok,message)=>{checks++;if(!ok)failures.push('Phase One: '+message);};
- const read=name=>JSON.parse(files[name]);
+ const read=name=>{try{return JSON.parse(files[name]);}catch{check(false,'missing or invalid '+name);return null;}};
  const sources=read('source-register.json'),claims=read('claims.json'),schools=read('school-questions.json');
  const countries=read('country-findings.json'),history=read('historical-comparisons.json');
  const reconciliation=read('reconciliation.json'),verification=read('verification.json'),release=read('release.json');
+ const counterEvidence=read('counter-evidence.json'),independence=read('source-independence.json');
+ check(typeof files['review.md']==='string','missing review.md');
+ if(failures.length)return {checks,failures};
  const sourceIds=new Set(sources.map(r=>r.id));
  const reviewIds=new Set([...verification.map(r=>r.id),...reconciliation.school_decisions.map(r=>r.id),reconciliation.country_history.id]);
  for(const [name,rows,count] of [['sources_including_held_leads',sources,76],['claims',claims,74],['school_questions',schools,45],['countries',countries,7],['historical_comparisons',history,4]]) {
@@ -34,8 +37,8 @@ export function checkPhaseOne(files) {
  check(schools.find(r=>r.id==='J-Q1')?.status==='open','unresolved Sistani criterion lost');
  check(history.every(r=>r.status==='inference'),'historical analogy upgraded');
  check(!release.human_scholarly_review&&!release.mentor_approved&&!release.all_research_questions_resolved,'review limits lost');
- for(const r of read('counter-evidence.json'))check(r.counter_source_ids.every(id=>sourceIds.has(id)),'counter-evidence source missing');
- const families=Object.values(read('source-independence.json').families).flat();
+ for(const r of counterEvidence)check(r.counter_source_ids.every(id=>sourceIds.has(id)),'counter-evidence source missing');
+ const families=Object.values(independence.families).flat();
  check(families.every(id=>sourceIds.has(id))&&sources.every(r=>families.includes(r.id)),'source family coverage');
  const narrative=files['review.md'].split('## Primary source references')[0];
  const cited=[...narrative.matchAll(/\[([A-Z][A-Z0-9-]*(?:;\s*[A-Z][A-Z0-9-]*)*)\](?!\()/g)].flatMap(m=>m[1].split(';').map(s=>s.trim()));

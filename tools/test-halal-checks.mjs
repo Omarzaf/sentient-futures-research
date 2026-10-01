@@ -57,7 +57,12 @@ const cases=[
  ['unknown source ID',d=>{d['market-records'][0].source_id='HS-missing';},'unknown ID'],
  ['Sunnah claim not checked against Mizan',d=>{Object.assign(d.claims[0],{claim_type:'sunnah',checked_against:'hadith_collections'});},'Mizan'],
  ['long excerpt',d=>{d.claims[0].text_en='x'.repeat(281);},'longer than 280'],
- ['bad Quran reference',d=>{d['scripture-sources'][0].reference='115:1';},'surah:ayah']
+ ['bad Quran reference',d=>{d['scripture-sources'][0].reference='115:1';},'surah:ayah'],
+ ['Quran ayah zero',d=>{d['scripture-sources'][0].reference='2:0';},'surah:ayah'],
+ ['rule 8: H_rel credited to a report of a ruling',d=>{d['market-records'][1].H_rel_ruling='FT-002';},'rule 8, H_rel_ruling'],
+ ['claim cited as a source',d=>{d['market-records'][0].source_id='CL-001';},'is a claim, not a source'],
+ ['text after a closing quote',d=>d,'Text after a closing quote',f=>{f['rulings.csv']=f['rulings.csv'].replace('FT-002,','"FT-002"x,');}],
+ ['quote inside an unquoted field',d=>d,'Quote inside an unquoted field',f=>{f['rulings.csv']=f['rulings.csv'].replace('FT-002,','FT-0"02,');}]
 ];
 
 let failed=0;
