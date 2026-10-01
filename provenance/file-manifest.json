@@ -54,7 +54,7 @@
     {
       "path": "index.html",
       "bytes": 8450,
-      "sha256": "87d9ca99a197bae3a3b3d3145aeab2fe02837eaf80381c7778992e19512e6a23"
+      "sha256": "78226aae7a6ac7aa8750988f02676453ec42bf842d801f74996a0f1bc7cfbdf6"
     },
     {
       "path": "provenance/import-records.json",
@@ -357,24 +357,49 @@
       "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
     },
     {
+      "path": "research/protein-survey-data/README.txt",
+      "bytes": 3640,
+      "sha256": "9f1b5d3f613f3983d60b410392582b51cf1e9b2a7af8ec23ce6dd62b99bffb1f"
+    },
+    {
+      "path": "research/protein-survey-data/Source_Links.html",
+      "bytes": 8988,
+      "sha256": "5dbc1b44433d302c6038407e1708d973b368e00265a7c862d24fcc91e253e4ef"
+    },
+    {
+      "path": "research/protein-survey-data/Study_Register.csv",
+      "bytes": 6578,
+      "sha256": "73312444e157c47c7a6af1d60d1d79ad01d7c0eb6de1397eec0a344467a13219"
+    },
+    {
+      "path": "research/protein-survey-data/Survey_Findings.csv",
+      "bytes": 5487,
+      "sha256": "255e011c589dc57b4600c50eafc147c77d3b409e78eaeb07172bd2ccb6c50678"
+    },
+    {
+      "path": "research/protein-survey-data/survey_data.json",
+      "bytes": 22346,
+      "sha256": "e1b2cc2e880ece9bfab96bf9862c2a6a5ec39b469272ec4bd0a5b9cd4483319f"
+    },
+    {
       "path": "sources/README.md",
       "bytes": 2032,
       "sha256": "8ba6b4b7149a6a55f533de347ca881beb373b10916abc0865c20a2472912d1e8"
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 80366,
-      "sha256": "b374ac68d7bddbb9088b9503813e6fc199157349ca97c99dc603a13e9de0001d"
+      "bytes": 85680,
+      "sha256": "bb58c00dfcf6b8153f1c4f9b94a55630618c41a93bbcd16c22bfd4d68ab4c653"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 323576,
-      "sha256": "96d6c8e58ccff49ddd2a3cba6dae8245a1c83f77191b4c5c935b20b25e003523"
+      "bytes": 339917,
+      "sha256": "4ceef8093c6b68a714a66102a2d10ce4693aa70ce531fabfd7738139cd9ad299"
     },
     {
       "path": "sources/index.html",
-      "bytes": 217077,
-      "sha256": "25c49f90194db3f37ac013c70cb41e6b832f4d9ef65157513a0220454741cf50"
+      "bytes": 227648,
+      "sha256": "7cb9f531b45926cf1c4e13c0d194049a0cc47c6819c5314289c2814a51a79afa"
     },
     {
       "path": "tools/build-library.mjs",
