@@ -53,8 +53,8 @@
     },
     {
       "path": "SESSION-LOG.md",
-      "bytes": 1377,
-      "sha256": "76fee4bd6c825b7b326a83d062425b2fcc43377c2a3adcba2b04c2b630d63a0b"
+      "bytes": 2304,
+      "sha256": "9a4d38d5c6590f9fed6c43ad43b96b32dab1d5dc0118c14990a4c2593603d33c"
     },
     {
       "path": "index.html",
@@ -163,18 +163,43 @@
     },
     {
       "path": "research/halal-cultivated/PLAN.md",
-      "bytes": 25628,
-      "sha256": "907b98061be47df784e80742699ac550825df719a20570d57c656e256d0f08fd"
+      "bytes": 25872,
+      "sha256": "c8ed1d2511a3254c2e782698c452cb9a94277cc22568e60a7e4b3dae6f138af1"
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 4185,
-      "sha256": "55a923c9071b682c9b476975595cece3f9bdad95915eca9deecbf2d98fda72e3"
+      "bytes": 4358,
+      "sha256": "5ca2c75f181a9f1adb27b74942574b1790379e3faf9f995187d7ee4fba99470e"
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
       "bytes": 5310,
       "sha256": "47c388f3f825658b0b2a6ee144e0b3900e34a76d0773c6732a6a2ce22438968b"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
+      "bytes": 3636,
+      "sha256": "495d004d03f59994f6d8aa8f8d6c1e8b446fa78890275c2ba67e35b302738212"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/METHOD.md",
+      "bytes": 9219,
+      "sha256": "e12ac0f74e4cee391cc7a7beb289c7107498b462275e031f454f8a09ab113fba"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/production-state.json",
+      "bytes": 2775,
+      "sha256": "ccfbdee296fa30eeb7a167f05ae86daffd35e462dd4e1df1da6015af8f4e4e47"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/schema.json",
+      "bytes": 27571,
+      "sha256": "fc08228a521639b760ab1f3a32241527f990ea2272043566b29781e612d83172"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/synthetic-example.json",
+      "bytes": 5214,
+      "sha256": "2afa24b2c6a938fb9e235d48b78acb3105b2b1edbd68c05dbee43bcee4192241"
     },
     {
       "path": "research/halal-cultivated/certification.csv",
@@ -193,8 +218,8 @@
     },
     {
       "path": "research/halal-cultivated/datapackage.json",
-      "bytes": 51848,
-      "sha256": "525012edf6ba3f9f294ea9473ac4403a67e944bf5eb79ba0cd87f4fcccd55c07"
+      "bytes": 52429,
+      "sha256": "671da95cace3ca04b921afa608ae74beefb454e785ecf28cfe7843dd748c2f31"
     },
     {
       "path": "research/halal-cultivated/elasticities.csv",
@@ -422,14 +447,19 @@
       "sha256": "7cb9f531b45926cf1c4e13c0d194049a0cc47c6819c5314289c2814a51a79afa"
     },
     {
+      "path": "tools/bridge-v2-checks.mjs",
+      "bytes": 22317,
+      "sha256": "75c91cb7ee8dd3c416c15d96fe60b92e368bfd2b87719f8fa501fb6b0f2bb2b4"
+    },
+    {
       "path": "tools/build-library.mjs",
       "bytes": 16331,
       "sha256": "1f88ea57b4c58cd338f761a8b87cbaf2d6c2b075843008cbaa78ffcf1dbafec7"
     },
     {
       "path": "tools/halal-checks.mjs",
-      "bytes": 13729,
-      "sha256": "0c7b7ed1dd36b5934c0f8b28e6415a646d6984421e433956e9a8c98fbcab340c"
+      "bytes": 11184,
+      "sha256": "fffcdd9a702e5f08350d5ad6d2c037e062583376087c3be099ff79b0841a6e67"
     },
     {
       "path": "tools/phase1-checks.mjs",
@@ -438,8 +468,8 @@
     },
     {
       "path": "tools/privacy-checks.mjs",
-      "bytes": 1674,
-      "sha256": "05c5a6764d82c899100e11ce91c21f3cddf8cc21209da51953e8c2d2d15cc49d"
+      "bytes": 1750,
+      "sha256": "52dc22480b3bcca1fbb2c9766eeb987b9d3d8e8b64c681fbb522d3c88c117861"
     },
     {
       "path": "tools/serve.mjs",
@@ -452,9 +482,14 @@
       "sha256": "4c156045a284c12b23bf397009ff4c36798b2eb18591dd9bbdebd509f3fb5e9d"
     },
     {
+      "path": "tools/test-bridge-v2-checks.mjs",
+      "bytes": 18964,
+      "sha256": "a8539f0811a42a468bb3d3896dcd3aefe49e5cbbb0cea96c88e1ec5d9bc28b9a"
+    },
+    {
       "path": "tools/test-halal-checks.mjs",
-      "bytes": 8757,
-      "sha256": "829c90fed46d8815f1410faec6d82e9c9bc497efc32401b21b150fde434d180b"
+      "bytes": 7331,
+      "sha256": "888283a31e1463af4f5561b87b7f3f951ad9a08c2d4e1ca5476de18001150c11"
     },
     {
       "path": "tools/test-phase1-checks.mjs",
@@ -463,8 +498,8 @@
     },
     {
       "path": "tools/test-privacy-checks.mjs",
-      "bytes": 2386,
-      "sha256": "69f92cbd6735b899ce7cef6e7e1b062336cc33da87587f1ada8dc4d88b1e07d4"
+      "bytes": 2960,
+      "sha256": "f5ae504ac05ff14b3d93f3151975bcbeb1f873cff0e1422add73a80314213794"
     },
     {
       "path": "tools/test-survey-checks.mjs",

@@ -40,6 +40,20 @@ assert(privacyHazards('token '+'ghp_'+'abcdefghijklmnopqrstuvwxyz').includes('cr
 assert(privacyHazards('background:'+'data:'+'image/png;'+'base64,AAAA').includes('embedded raster'));
 
 for(const path of ['.env','.env.local','.env.production.local','config/.env.local','nested/.env','notes/private/file.md','paper.pdf','bundle.zip','secret.pem','run.log'])assert(isExcludedPath(path),path);
+// These paths would enter the all-files manifest if accidentally copied into the
+// library; verify.mjs uses this same gate on every manifest/repository path.
+for(const path of [
+ '.agents/skills/paper-lookup/SKILL.md',
+ 'nested/.agents/skills/tool/source.mjs',
+ '.codex/config.toml',
+ '.tools/paper-lookup/package.json',
+ 'vendor/paper-lookup/README.md',
+ 'tool-cache/candidate/manifest.json',
+ '.venv-stats/lib/package.py',
+ 'OUTPUTS/Research Loop Working/audit/actions.jsonl',
+ 'private/retrieval.md',
+ 'working/review-packet.json',
+])assert(isExcludedPath(path),path);
 for(const path of ['research/protein-survey-data/README.txt','sources/catalog.json','research/ai-protein/index.html'])assert(!isExcludedPath(path),path);
 
 console.log(JSON.stringify({status:'PASS',cases,failed:0}));

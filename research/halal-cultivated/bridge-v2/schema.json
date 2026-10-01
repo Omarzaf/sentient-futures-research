@@ -1,0 +1,1200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sentient-futures:bridge:2.0.0",
+  "title": "Version 2 cultivated finished-product mass bridge",
+  "description": "Strict shape plus semantic checks in tools/bridge-v2-checks.mjs. Initial numeric implementation supports deterministic sensitivities only.",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "enum": [
+        "2.0.0"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "synthetic_test",
+        "research"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "synthetic_test_only",
+        "blocked_missing_baseline",
+        "candidate_pending_review"
+      ]
+    },
+    "notice": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      },
+      "minItems": 0
+    },
+    "assessments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assessment"
+      },
+      "minItems": 0
+    },
+    "baselines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/baseline"
+      },
+      "minItems": 0
+    },
+    "capacity_pools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "missing_reason": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1
+          },
+          "eligible_product_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "eligible_process_profile_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "value",
+          "unit",
+          "year",
+          "source_ids",
+          "missing_reason",
+          "eligible_product_ids",
+          "eligible_process_profile_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "partitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "geo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer"
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "members": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "id",
+                "members"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "geo",
+          "year",
+          "definition",
+          "source_ids",
+          "segments"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scenario"
+      },
+      "minItems": 0
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/output"
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "version",
+    "mode",
+    "status",
+    "notice",
+    "sources",
+    "assessments",
+    "baselines",
+    "capacity_pools",
+    "partitions",
+    "scenarios",
+    "expected_outputs"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "scope": {
+      "type": "object",
+      "properties": {
+        "geo": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "segment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "year": {
+          "type": "integer"
+        },
+        "species": {
+          "type": "string",
+          "minLength": 1
+        },
+        "product_definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "channel": {
+          "type": "string",
+          "enum": [
+            "retail",
+            "foodservice",
+            "all"
+          ]
+        },
+        "denominator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mass_basis": {
+          "type": "string",
+          "enum": [
+            "kg_finished_product",
+            "tonnes_finished_product",
+            "tonnes_carcass_equivalent",
+            "kg_cultivated_biomass"
+          ]
+        },
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "price_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "geo",
+        "segment",
+        "year",
+        "species",
+        "product_definition",
+        "channel",
+        "denominator",
+        "mass_basis",
+        "currency",
+        "price_year"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "synthetic",
+            "public"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "synthetic_test",
+            "unreviewed",
+            "agent_checked",
+            "human_reviewed"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "url",
+        "locator",
+        "review_status"
+      ],
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "territorial_scope": {
+          "type": "string",
+          "enum": [
+            "national",
+            "subnational",
+            "institutional"
+          ]
+        },
+        "segment_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "product_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "process_profile_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dimension": {
+          "type": "string",
+          "enum": [
+            "religious_position",
+            "certification_route",
+            "product_certificate",
+            "food_authorization",
+            "import_access"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "met",
+                  "unmet",
+                  "unknown"
+                ]
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "locator": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "status",
+              "source_ids",
+              "locator"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "passage_locators": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "issued_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "effective_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "effective_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "checked_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "interpretation_limits": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_review_status": {
+          "type": "string",
+          "enum": [
+            "unreviewed",
+            "agent_checked",
+            "human_reviewed"
+          ]
+        },
+        "human_review_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "reviewed"
+          ]
+        },
+        "not_applicable_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "search_scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "proposal",
+            "adopted_instrument",
+            "amendment",
+            "guidance",
+            "announcement",
+            "notification",
+            "religious_position",
+            "certificate",
+            "unknown"
+          ]
+        },
+        "instrument_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "binding": {
+          "type": "boolean"
+        },
+        "amendments_checked": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "institution_id",
+        "jurisdiction",
+        "territorial_scope",
+        "segment_scope",
+        "product_id",
+        "process_profile_id",
+        "dimension",
+        "status",
+        "conditions",
+        "source_ids",
+        "passage_locators",
+        "issued_at",
+        "effective_from",
+        "effective_to",
+        "checked_at",
+        "interpretation_limits",
+        "evidence_review_status",
+        "human_review_status",
+        "not_applicable_reason",
+        "search_scope",
+        "document_type",
+        "instrument_id",
+        "binding",
+        "amendments_checked"
+      ],
+      "additionalProperties": false
+    },
+    "baseline": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_type": {
+          "type": "string",
+          "enum": [
+            "observed_sales",
+            "forecast_sales",
+            "survey_willingness"
+          ]
+        },
+        "source_vintage": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "basis": {
+          "type": "string",
+          "enum": [
+            "mass_share",
+            "value_share_two_component"
+          ]
+        },
+        "share": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "relative_price": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "price_scope": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "geo": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}$"
+            },
+            "segment": {
+              "type": "string",
+              "minLength": 1
+            },
+            "year": {
+              "type": "integer"
+            },
+            "species": {
+              "type": "string",
+              "minLength": 1
+            },
+            "product_definition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "channel": {
+              "type": "string",
+              "enum": [
+                "retail",
+                "foodservice",
+                "all"
+              ]
+            },
+            "denominator": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mass_basis": {
+              "type": "string",
+              "enum": [
+                "kg_finished_product",
+                "tonnes_finished_product",
+                "tonnes_carcass_equivalent",
+                "kg_cultivated_biomass"
+              ]
+            },
+            "currency": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "price_year": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "geo",
+            "segment",
+            "year",
+            "species",
+            "product_definition",
+            "channel",
+            "denominator",
+            "mass_basis",
+            "currency",
+            "price_year"
+          ],
+          "additionalProperties": false
+        },
+        "price_source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "missing_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "conditioning": {
+          "type": "object",
+          "properties": {
+            "reference": {
+              "type": "string",
+              "enum": [
+                "full_access_reference",
+                "unconditional_sales",
+                "unknown"
+              ]
+            },
+            "documented": {
+              "type": "boolean"
+            },
+            "source_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "embedded_mechanisms": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "price",
+                  "religious_acceptance",
+                  "legal_access",
+                  "certification",
+                  "supply",
+                  "animal_disease",
+                  "food_sovereignty"
+                ]
+              },
+              "minItems": 0
+            },
+            "permitted_transformations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "reference",
+            "documented",
+            "source_ids",
+            "embedded_mechanisms",
+            "permitted_transformations"
+          ],
+          "additionalProperties": false
+        },
+        "uncertainty": {
+          "type": "object",
+          "properties": {
+            "method": {
+              "type": "string",
+              "enum": [
+                "deterministic_sensitivity",
+                "marginal_quantile_ratio",
+                "joint_draws",
+                "fixed_denominator"
+              ]
+            },
+            "output_label": {
+              "type": "string",
+              "enum": [
+                "sensitivity",
+                "q10",
+                "q50",
+                "q90"
+              ]
+            },
+            "dependence_assumption": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "method",
+            "output_label",
+            "dependence_assumption"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "evidence_type",
+        "source_vintage",
+        "source_ids",
+        "scope",
+        "basis",
+        "share",
+        "relative_price",
+        "price_scope",
+        "price_source_ids",
+        "missing_reason",
+        "conditioning",
+        "uncertainty"
+      ],
+      "additionalProperties": false
+    },
+    "scenario": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "as_of": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "product_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "process_profile_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "baseline_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "quantity": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "scope": {
+              "$ref": "#/$defs/scope"
+            },
+            "source_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "missing_reason": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          },
+          "required": [
+            "value",
+            "scope",
+            "source_ids",
+            "missing_reason"
+          ],
+          "additionalProperties": false
+        },
+        "transfer": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "assumed",
+                "not_required"
+              ]
+            },
+            "rationale": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "rationale"
+          ],
+          "additionalProperties": false
+        },
+        "gate": {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string",
+              "enum": [
+                "open",
+                "closed",
+                "unresolved"
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "enum": [
+                "evidence_led",
+                "counterfactual"
+              ]
+            },
+            "assessment_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "required_dimensions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "religious_position",
+                  "certification_route",
+                  "product_certificate",
+                  "food_authorization",
+                  "import_access"
+                ]
+              },
+              "minItems": 1
+            },
+            "assumed_conditions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0
+            },
+            "assumption_rationale": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "contradicts_current_evidence": {
+              "type": "boolean"
+            },
+            "counterfactual_label": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          },
+          "required": [
+            "state",
+            "basis",
+            "assessment_ids",
+            "required_dimensions",
+            "assumed_conditions",
+            "assumption_rationale",
+            "contradicts_current_evidence",
+            "counterfactual_label"
+          ],
+          "additionalProperties": false
+        },
+        "mechanisms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mechanism": {
+                "type": "string",
+                "enum": [
+                  "price",
+                  "religious_acceptance",
+                  "legal_access",
+                  "certification",
+                  "supply",
+                  "animal_disease",
+                  "food_sovereignty"
+                ]
+              },
+              "target_parameter": {
+                "type": "string",
+                "enum": [
+                  "D",
+                  "capacity",
+                  "gate",
+                  "baseline_share",
+                  "conventional_price"
+                ]
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "assumed": {
+                "type": "boolean"
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "mechanism",
+              "target_parameter",
+              "source_ids",
+              "assumed",
+              "rationale"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "capacity": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "pool_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "allocation_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "value": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "pool_id",
+            "allocation_id",
+            "value",
+            "unit"
+          ],
+          "additionalProperties": false
+        },
+        "allocation_group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aggregation_group": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "partition_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "observation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "product_form": {
+          "type": "string",
+          "enum": [
+            "cultivated",
+            "hybrid"
+          ]
+        },
+        "cultivated_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "scope",
+        "as_of",
+        "product_id",
+        "process_profile_id",
+        "baseline_id",
+        "quantity",
+        "transfer",
+        "gate",
+        "mechanisms",
+        "capacity",
+        "allocation_group",
+        "aggregation_group",
+        "partition_id",
+        "observation_id",
+        "product_form",
+        "cultivated_fraction"
+      ],
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "scenario_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "p_mass": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "G": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ]
+        },
+        "Q_unconstrained": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "Q_feasible": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "cultivated_biomass": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reason_codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "scenario_id",
+        "p_mass",
+        "G",
+        "Q_unconstrained",
+        "Q_feasible",
+        "cultivated_biomass",
+        "reason_codes"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

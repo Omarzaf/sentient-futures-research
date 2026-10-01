@@ -1,4 +1,4 @@
-const forbiddenPath=/(^|\/)(?:\.env(?:\.[^/]*)?|node_modules|\.venv|\.playwright-mcp|private|working|AGENTS\.md|\.DS_Store)(\/|$)|\.(?:docx?|xlsx?|pptx?|pdf|zip|pem|key|log)$/i;
+const forbiddenPath=/(^|\/)(?:\.env(?:\.[^/]*)?|node_modules|\.venv(?:-[^/]+)?|\.playwright-mcp|\.agents|\.codex|\.tools|vendor|tool-cache|private|working|Research Loop Working|AGENTS\.md|\.DS_Store)(\/|$)|\.(?:docx?|xlsx?|pptx?|pdf|zip|pem|key|log)$/i;
 
 const localHomePath=/\/(?:Users|home)\/[A-Za-z0-9._-]+\//g;
 const httpUrlPrefix=/https?:\/\/[^\s"'`<>?#]*$/i;

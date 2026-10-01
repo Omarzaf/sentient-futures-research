@@ -2,6 +2,12 @@
 
 One entry per repository-curation session, newest first. This log describes the clean file tree, not private branches or local workspaces.
 
+## 1 October 2026 — quantitative contract v2
+
+Implemented the approved pilot's local method repairs. The active v2 contract separates evidence from scenario assumptions, rejects survey substitution and incompatible dimensions, preserves unknown gates, and leaves feasible quantity unestimated without compatible allocated capacity. A crosswalk preserves earlier meanings; all eleven legacy CSVs remain byte-identical. Numerical production remains blocked by the missing compatible demand baseline. The worked example is synthetic.
+
+Verification: 7,626 library checks; 16 positive and 78 adversarial v2 cases; all four existing regression suites pass. Private tool/runtime paths now fail the actual publication-manifest boundary. Rebuild stability is checked separately at the final handoff. Research interpretations and human approvals are not certified by these tests. Local commit only; no push or publication is implied.
+
 ## 1 October 2026 — survey package and shareable-boundary repair
 
 **Done:** Promoted the alternative meat survey data package to a first-class library entry, added survey-specific validation for nine studies and 29 findings, and added privacy-detector fixtures so public URL paths with home/reference words are not mistaken for local home paths. Clarified that the shareable artifact is the clean checked file tree, not full Git history or private archive branches.

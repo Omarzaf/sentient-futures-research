@@ -1,8 +1,8 @@
 {
   "name": "halal-cultivated",
   "title": "Halal conditionality for cultivated meat: data package",
-  "description": "Field names and allowed values for the halal workstream. Market records carry the demand forecast keys first, unrenamed. Blank cells are missing values, never zero. See PLAN.md.",
-  "version": "1.0.0",
+  "description": "Legacy CSV discovery schemas retain their original values and bytes. Quantitative production uses the separately versioned bridge-v2 contract; every legacy scenario row is blocked from production.",
+  "version": "2.0.0",
   "created": "2026-09-30T00:00:00Z",
   "excluded": [
     "insects as human protein",
@@ -1559,7 +1559,7 @@
     {
       "name": "scenarios",
       "path": "scenarios.csv",
-      "description": "Phase 2 grid (PLAN.md 4.5 and 7): Q = D x p x G, capped by K.",
+      "description": "Legacy Phase Two schema retained for traceability only. Any populated row is blocked from production; reconstruct and validate a v2 contract. Never substitute surveys, infer zero from uncertainty, or use unknown capacity as feasible quantity.",
       "schema": {
         "missingValues": [
           ""
@@ -1827,5 +1827,15 @@
         "header": true
       }
     }
-  ]
+  ],
+  "quantitativeContract": {
+    "version": "2.0.0",
+    "schema": "bridge-v2/schema.json",
+    "method": "bridge-v2/METHOD.md",
+    "syntheticExample": "bridge-v2/synthetic-example.json",
+    "productionState": "bridge-v2/production-state.json",
+    "legacyCrosswalk": "bridge-v2/LEGACY-CROSSWALK.md",
+    "legacyScenarioUse": "blocked",
+    "legacyCsvSchemaVersion": "1.0.0"
+  }
 }

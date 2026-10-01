@@ -1,0 +1,181 @@
+{
+  "version": "2.0.0",
+  "mode": "synthetic_test",
+  "status": "synthetic_test_only",
+  "notice": "Synthetic arithmetic test only. No observation, forecast, market access, scholarly approval or scenario probability is asserted.",
+  "sources": [
+    {
+      "id": "SYN-001",
+      "title": "Synthetic hand-worked fixture assumptions",
+      "kind": "synthetic",
+      "url": null,
+      "locator": "METHOD.md synthetic worked example",
+      "review_status": "synthetic_test"
+    }
+  ],
+  "assessments": [],
+  "baselines": [
+    {
+      "id": "B-SYN",
+      "version": "synthetic-1",
+      "evidence_type": "forecast_sales",
+      "source_vintage": "2026-10-01",
+      "source_ids": [
+        "SYN-001"
+      ],
+      "scope": {
+        "geo": "USA",
+        "segment": "all_consumers",
+        "year": 2030,
+        "species": "chicken",
+        "product_definition": "finished_chicken_product",
+        "channel": "retail",
+        "denominator": "cultivated_plus_conventional",
+        "mass_basis": "kg_finished_product",
+        "currency": "USD",
+        "price_year": 2025
+      },
+      "basis": "value_share_two_component",
+      "share": 0.1,
+      "relative_price": 2,
+      "price_scope": {
+        "geo": "USA",
+        "segment": "all_consumers",
+        "year": 2030,
+        "species": "chicken",
+        "product_definition": "finished_chicken_product",
+        "channel": "retail",
+        "denominator": "cultivated_plus_conventional",
+        "mass_basis": "kg_finished_product",
+        "currency": "USD",
+        "price_year": 2025
+      },
+      "price_source_ids": [
+        "SYN-001"
+      ],
+      "missing_reason": null,
+      "conditioning": {
+        "reference": "full_access_reference",
+        "documented": true,
+        "source_ids": [
+          "SYN-001"
+        ],
+        "embedded_mechanisms": [
+          "price"
+        ],
+        "permitted_transformations": [
+          "value_to_mass_then_transfer"
+        ]
+      },
+      "uncertainty": {
+        "method": "deterministic_sensitivity",
+        "output_label": "sensitivity",
+        "dependence_assumption": "Fixed illustrative values; no statistical quantiles or joint distribution inferred."
+      }
+    }
+  ],
+  "capacity_pools": [
+    {
+      "id": "POOL-SYN",
+      "value": 40,
+      "unit": "kg_finished_product",
+      "year": 2030,
+      "source_ids": [
+        "SYN-001"
+      ],
+      "missing_reason": null,
+      "eligible_product_ids": [
+        "synthetic_chicken"
+      ],
+      "eligible_process_profile_ids": [
+        "synthetic_process"
+      ]
+    }
+  ],
+  "partitions": [],
+  "scenarios": [
+    {
+      "id": "SC-SYN",
+      "version": "synthetic-1",
+      "scope": {
+        "geo": "PAK",
+        "segment": "halal_certified_segment",
+        "year": 2030,
+        "species": "chicken",
+        "product_definition": "finished_chicken_product",
+        "channel": "retail",
+        "denominator": "cultivated_plus_conventional",
+        "mass_basis": "kg_finished_product",
+        "currency": "USD",
+        "price_year": 2025
+      },
+      "as_of": "2030-01-01",
+      "product_id": "synthetic_chicken",
+      "process_profile_id": "synthetic_process",
+      "baseline_id": "B-SYN",
+      "quantity": {
+        "value": 1000,
+        "scope": {
+          "geo": "PAK",
+          "segment": "halal_certified_segment",
+          "year": 2030,
+          "species": "chicken",
+          "product_definition": "finished_chicken_product",
+          "channel": "retail",
+          "denominator": "cultivated_plus_conventional",
+          "mass_basis": "kg_finished_product",
+          "currency": "USD",
+          "price_year": 2025
+        },
+        "source_ids": [
+          "SYN-001"
+        ],
+        "missing_reason": null
+      },
+      "transfer": {
+        "status": "assumed",
+        "rationale": "Synthetic same-channel US mass share transferred to a Pakistan segment; no empirical transfer validity implied."
+      },
+      "gate": {
+        "state": "open",
+        "basis": "counterfactual",
+        "assessment_ids": [],
+        "required_dimensions": [
+          "religious_position",
+          "product_certificate",
+          "food_authorization"
+        ],
+        "assumed_conditions": [
+          "Future product-specific religious, certificate and food-authorization conditions met."
+        ],
+        "assumption_rationale": "Test scenario only; no real institution or lawful market access claimed.",
+        "contradicts_current_evidence": false,
+        "counterfactual_label": "Hypothetical future open gate"
+      },
+      "mechanisms": [],
+      "capacity": {
+        "pool_id": "POOL-SYN",
+        "allocation_id": "ALLOC-SYN",
+        "value": 40,
+        "unit": "kg_finished_product"
+      },
+      "allocation_group": "SYN-world",
+      "aggregation_group": null,
+      "partition_id": null,
+      "observation_id": "SYN-finished-product",
+      "product_form": "hybrid",
+      "cultivated_fraction": 0.2
+    }
+  ],
+  "expected_outputs": [
+    {
+      "scenario_id": "SC-SYN",
+      "p_mass": 0.05263157894736842,
+      "G": 1,
+      "Q_unconstrained": 52.63157894736842,
+      "Q_feasible": 40,
+      "cultivated_biomass": 8,
+      "reason_codes": []
+    }
+  ]
+}

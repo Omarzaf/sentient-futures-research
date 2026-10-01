@@ -1,10 +1,10 @@
 # Halal conditionality for cultivated meat: research plan
 
-Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
+Version 2, 1 October 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
 
-**Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [completed public-source review](phase1/review.md) records the result. Phase Two scope and schema rules below remain unchanged.
+**Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [completed public-source review](phase1/review.md) records the result. Phase One evidence remains preserved. The approved experiment-led plan now supersedes the old Phase Two bridge, gate, survey substitution, unknown-capacity and deadline rules. [Quantitative bridge v2](bridge-v2/METHOD.md) is the active method; [the crosswalk](bridge-v2/LEGACY-CROSSWALK.md) preserves the earlier interfaces.
 
-The schema in section 4 is implemented in [datapackage.json](datapackage.json), and the section 5 rules are checked by `tools/halal-checks.mjs`. See [README.md](README.md) for the files.
+[datapackage.json](datapackage.json) now records the active v2 contract and the preserved v1 CSV layouts. The quantitative schema is [bridge-v2/schema.json](bridge-v2/schema.json); `tools/halal-checks.mjs` invokes its semantic checks. All numerical legacy scenario rows are blocked pending explicit reconstruction. [Production remains missing-baseline blocked](bridge-v2/production-state.json); the example is synthetic only. See [README.md](README.md) for the files.
 
 ## 1. What this workstream answers
 
@@ -24,7 +24,7 @@ It adds a halal layer to the team's work. It does not run its own forecast surve
 | Geography | Four focal cases: India, Pakistan, Saudi Arabia, UAE. Three precedents: Malaysia, Singapore, Indonesia. No readiness ranking across them. |
 | Product | Cultivated chicken first. Other halal species (beef, mutton, goat) as an extension once chicken is done. |
 | Insects | Poultry feed input only, valued in market terms. Never counted as human protein or as an alternative protein, which keeps the demand forecast's exclusion intact. |
-| Scenarios | Halal status is the gate (declared halal, declared haram, prolonged silence). Animal-disease shocks and food-sovereignty policy are layered on top of each gate state. |
+| Scenarios | Evidence statuses remain separate from explicit open, closed or unresolved assumptions. Gate applicability is institution/product/process/segment specific; unknown evidence is not zero. |
 | Double counting | None permitted. Rules in section 5. |
 | Earlier work | The Conditional Markets paper (20–21 Sep) and the India–Pakistan brief (15 Sep) are inputs to build on and re-check, not established findings. Team material is read from the team's shared Drive, which stays the source of truth and is not copied into this repository. |
 | Role question | Deferred. This plan lays groundwork. |
@@ -47,9 +47,9 @@ Scenario 1 from the mind map: if the focal states declare halal-source cultivate
 
 **Cross-cutting: systems thinking.** For each scenario, record first-order effects (market access, sales) and second-order effects (conventional halal meat exports, livestock livelihoods, feed demand including insects, certification industry). Livelihood effects are handed to the team's Global North/South workstream rather than analysed twice.
 
-## 4. Shared variables with the demand-forecast workstream
+## 4. Preserved discovery fields and the active quantitative bridge
 
-This is the fix for the category mismatch. Every data record in this workstream carries the demand forecast's keys first, then the halal fields. Nothing in its schema is renamed.
+Sections 4.1–4.4 document the preserved legacy CSV discovery layout. These fields are evidence inputs, not a validated numerical interface. The active v2 bridge in 4.5 freezes complete dimensions and conditioning before any calculation.
 
 ### 4.1 Keys shared with the demand forecast
 
@@ -107,36 +107,26 @@ Missing stays missing. A blank is never read as zero, and a registry search that
 
 The last four were added when the schema was built so that every table has a primary key. `excluded` is recorded once in the data package metadata rather than as a column, because an excluded category never appears in a record.
 
-### 4.5 The bridge to the demand-forecast numbers
+### 4.5 Active bridge v2
 
-The demand forecast's second question gives US cultivated and fermentation sales for 2030 as q10, q50 and q90. The bridge uses only the cultivated part.
+Use the [method, worked example and limits](bridge-v2/METHOD.md) with the [machine-readable schema](bridge-v2/schema.json). Compatible observed or forecast **mass share** can transfer only as an explicit assumption. A two-component value share requires same-market relative mass prices: `p_mass = s / (s + (1-s) * r)`. Value share cannot multiply meat mass directly. Survey attitudes never substitute for sales penetration.
 
-1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales ÷ US meat sales for the same year, quantile and 2025-USD basis.
-2. **Baseline market in each focal country:** `D(c, y)` = projected meat consumption from the OECD-FAO Agricultural Outlook for the same years, in the units of 4.2.
-3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown.
-4. **The gate `G(c)`** is 1 only when `H_rel` is `permitted` or `conditional` (with the condition met in the scenario) and `L` is `approved`. Otherwise it is 0. It is a switch, never a fraction.
+`Q_unconstrained = D_compatible * p_mass_assumed * G_scenario`. The gate maps open/closed/unresolved to 1/0/null **within the scenario**, not within an evidence assessment. `Q_feasible = min(Q_unconstrained, K_allocated)` only when supply is known and compatible; otherwise it is null. Missing inputs remain null even under a hypothetical closed gate.
 
-The result is a conditional share ("if the gate is open and adoption follows the US path"), not a forecast.
+Unknown, conditional, conflicting and bounded-search-not-found evidence remains explicit. Religious positions, certification routes, specific certificates, food authorization and import access use separate scope-specific records. An institution's prohibition cannot close every national consumer segment. An evidence-led national closure requires binding national access evidence; hypothetical closure must be labeled. No generic `L_includes_halal` bypass survives in v2.
 
-**Two requests go to the demand-forecast workstream:**
+## 5. Active invariants and double-counting rules
 
-- Extend her cultivated question from 2030 to 2026 and 2035. She already noted it could be one question with three resolution dates.
-- Share the US meat sales denominator she uses, so both workstreams divide by the same number.
-
-## 5. Double-counting rules
-
-Each rule becomes a check in `tools/verify.mjs` where it can be tested mechanically.
-
-1. **The religious gate is a switch.** `H_rel` enters as 0 or 1 through `G`. It is never multiplied in as a percentage.
-2. **Consumer acceptance enters once.** The default carrier is the US analogue `p_US`. Local consumer surveys (Bryant et al. for India; Ahsan et al. and Irfan et al. for Pakistan) can replace `p_US` in a sensitivity run. They are never multiplied with it. They already include religious concerns, so they are also never combined with `H_rel` as a fraction.
-3. **Food approval and religious status are counted once each.** Where `L_includes_halal` is `true`, the food approval already carries the halal condition, and `H_rel` is not applied a second time.
-4. **Hybrid products are counted once.** Hybrid sales are counted once at the finished product under `hybrid_cultivated`. `cultivated_fraction` is used for supply and biomass accounting only, never as a displacement coefficient.
-5. **The demand forecast's two questions are never added together.** Its plant-based and cultivated/fermentation answers overlap by design (for example mycoprotein).
-6. **Insect protein is a feed input.** It affects the cost and supply of conventional chicken. It is never added to human protein supply, which would count the same protein twice (insect, then chicken).
-7. **Each shock has a declared mechanism.** The animal-disease shock changes `D` and conventional price only; the food-sovereignty shock changes `K` and `L` only (section 7). Each scenario row records which, and no shock changes `p_US`.
-8. **Related evidence counts once.** An original study and its correction count as one piece of evidence, as does a ruling and the reports that repeat it.
-9. **Madhhab is context, not a weight.** No population-weighted acceptance figure is produced.
-10. **Carried claims are re-checked.** Every claim taken from the Conditional Markets paper or the India–Pakistan brief starts with status `carried_unverified` and changes only after re-checking against the source.
+1. Freeze geography, mutually exclusive segment, year, species/product, channel, denominator, currency/price year, mass basis, evidence type and source vintage. No silent channel, species, year or weight conversion.
+2. Document embedded acceptance, religion, legal timing, certification, price and supply mechanisms. Reject a second adjustment of the same mechanism. An unconditional/rejection-adjusted forecast needs a new owner-supported reference baseline before numerical transfer.
+3. Use deterministic sensitivities in this version. Marginal q10/q10 ratios are not output quantiles; a probabilistic method requires a registered implementation and dependence evidence.
+4. Allocate each capacity pool once within a simultaneous scenario group. Distinct alternatives are identified separately. Unknown or incompatible capacity cannot produce a feasible number.
+5. Count each finished hybrid observation once. Use its cultivated fraction for biomass only; no displacement coefficient is inferred. Segment aggregation requires a documented disjoint partition.
+6. Survey responses, aggregate available-protein supply and demand/penetration remain different measurements. The earlier comparative calculator's behavioral retained-demand share is not a religious gate.
+7. Record every shock's parameter, evidence and assumed status once. Fixed penetration with a conventional-price shock is a restricted accounting exercise, not price-induced substitution.
+8. Related evidence counts once. Consensus records cite the original ruling, and repeated studies share evidence groups.
+9. Madhhab is context, not a population weight. Insects remain poultry feed inputs, never added as human protein.
+10. Preserve carried claims as unverified until their dated source re-check. Machine validation is not human scholarly review.
 
 ## 6. Phase 1 deliverables
 
@@ -304,23 +294,15 @@ Starting points:
 | Singapore | MUIS |
 | International | OIC/SMIIC 1 and GSO 2055-1 |
 
-## 7. Phase 2: scenarios
+## 7. Phase Two state
 
-For each focal country and each year (2026, 2030, 2035):
+[The production state](bridge-v2/production-state.json) is blocked on a compatible versioned baseline, finished-product reference market, scoped gate evidence and allocated capacity. [The synthetic example](bridge-v2/synthetic-example.json) tests arithmetic only. No near-zero 2026 outcome, silence-to-zero assumption, country forecast or scenario probability is asserted. Years remain separate; missing values remain missing.
 
-| Gate state | No shock | Animal-disease shock | Food-sovereignty shock |
-|---|---|---|---|
-| Declared halal (Scenario 1) | compute `Q` | compute `Q` | compute `Q` |
-| Declared haram | `Q` = 0 | `Q` = 0 | `Q` = 0 |
-| Prolonged silence | no import pathway: `Q` = 0, reason-coded | reason-coded | reason-coded |
+The active experiment-led sequence repairs contracts, executes a bounded pilot, and reviews gaps before expanding research or producing conditional scenarios. Completion follows acceptance criteria rather than delivery deadlines.
 
-- **Animal-disease shock:** a natural or deliberate outbreak that cuts conventional poultry supply. It changes `D` and conventional price only. The size of the cut comes from `HP-` records of past outbreaks. Impact is analysed at the supply level only.
-- **Food-sovereignty shock:** a state import-substitution or self-sufficiency push. It changes `K` (domestic capacity) and the time to `L`, never `p_US`.
-- **2026** is expected to be near zero everywhere. It serves as a check that the model reproduces the present.
+## 8. Historical v1 timeline — superseded, retained for provenance
 
-Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing cell, and the first- and second-order effects from section 3.
-
-## 8. Timeline to 13 November
+The table below records the former deadline-based plan only. It authorizes no communication, publication or missing-data substitution. The experiment-led acceptance gates now control execution.
 
 | Week of | Work |
 |---|---|
