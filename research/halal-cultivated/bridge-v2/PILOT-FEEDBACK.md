@@ -1,70 +1,76 @@
 # Pilot feedback: turn the checkpoint into a research decision
 
-1 October 2026 · Codex review · AI-assisted; human verification pending.
+1 October 2026 · Codex review, revised the same day · AI-assisted; human verification pending.
 
-**My assessment:** the pilot provides a credible foundation for further work. Its strongest result is the repaired quantitative contract and its explicit treatment of unresolved evidence. The next deliverable should be a small, decision-focused research packet with separate acceptance gates. Additional tools or countries should follow a demonstrated research need.
+**Assessment:** the next deliverable should be one short India–Pakistan section built on the v2 contract, not more tooling or more countries. The pilot's best result is the repaired quantitative contract and the way it keeps unresolved evidence unresolved. What it lacks is a decision for that contract to serve.
 
-This is feedback, not an approved protocol amendment or a new empirical finding. It reviews the Sprint 0 execution checkpoint dated 1 October 2026 and code at `26a358125e9fb33487c63e4af116637632eb2574`. The reviewed report's SHA-256 is `b6cc5899a764ae991976ef3f3ef8e86d094a5eff17504ae50c4d2e1c2bcc9ad2`. Underlying evidence, numerical outputs and acceptance states remain unchanged. Read the [active method](METHOD.md), [blocked production state](production-state.json) and [legacy crosswalk](LEGACY-CROSSWALK.md) alongside these recommendations.
+These are proposals. They are not an approved protocol amendment or a new empirical finding. They review the code at `26a3581`. The Sprint 0 pilot checkpoint that prompted the review is not committed to this repository, so this version cites only files that are; where a point depends on the pilot run itself, it says so. Read the [active method](METHOD.md), [blocked production state](production-state.json) and [legacy crosswalk](LEGACY-CROSSWALK.md) alongside it.
 
-## 1. Separate the gates before choosing the next task
+**Recommended order:** split the gates (1), pick one India–Pakistan question (2), test a baseline for that question (3), put one interpretation to reviewers (4), then measure claim readiness and tool benefit (5).
 
-**High priority — pilot report, “Verification and acceptance” and “Safe resume”.** The absent comparison connector, unresolved rounding policy, scholarly calibration and missing demand baseline constrain different decisions. One overall blocked status can obscure which work is still useful.
+## 1. Split the single blocked status into four gates
 
-| Gate | Decision it blocks | Useful preparation within authorized scope | Evidence needed to close it |
+**High priority.** Production reports one status, `blocked_missing_baseline`, but at least four separate things are blocked, and each blocks a different decision. One status hides which work can still go ahead.
+
+| Gate | Decision it blocks | Work that can go ahead | Evidence needed to close it |
 | --- | --- | --- | --- |
-| Tool comparison | Comparative tool claims and routine candidate adoption | Disclosed standalone lookup results | Genuine comparator, frozen matched tasks and effort accounting |
-| Country precision | Unqualified reconciliation and assumed tolerance reuse | Attributed source observation and transparent discrepancy | Release-specific precision documentation or a prospectively justified alternative method |
-| Scholarly calibration | Acceptance or scaling of the disputed interpretation | Exact passages, competing readings and targeted questions | Qualified, version-specific reviewer feedback |
-| Demand and supply inputs | Supported production estimates; feasible quantity additionally requires capacity | Tested contract and exact missing-input handoff | Compatible baseline, reference market, scoped gate evidence and capacity |
+| Tool comparison | Claims that one research tool beats another; routine adoption of a candidate tool | Standalone lookup results, disclosed as such | A real comparator, frozen matched tasks and effort accounting |
+| Country precision | Calling India's reported and reconstructed supply totals reconciled; reusing a rounding tolerance | Source value, reconstruction, gap and precision status shown side by side | Precision documentation for that data release, or a method justified before it is applied |
+| Scholarly calibration | Accepting or scaling the disputed procurement reading (see 4) | Exact passages, competing readings and targeted questions | Qualified reviewer feedback on an exact version |
+| Demand and supply inputs | Any production estimate; feasible quantity also needs capacity | Tested contract and an exact missing-input handoff | Compatible baseline, reference market, scoped gate evidence and allocated capacity |
 
-**Proposal:** add a gate-by-work-unit table through a prospective protocol amendment. Preserve the original blocked result and D–G authorization boundary until that amendment is accepted. A missing comparator does not invalidate a checked source identity; a working comparator would not supply a valid demand baseline.
+The India row comes from the pilot run, which found a small gap between the reported and reconstructed supply totals. Keep both numbers and the gap in separate columns. The gap is a reconciliation result. It is not evidence of extra consumption or of cultivated demand, and supply is not intake, purchases or adoption. Until the precision basis is documented, treat nearest-rounding as a sensitivity and record the reconciliation as partial. This gap does not block any current decision, so it belongs here as one row rather than as a recommendation of its own.
 
-## 2. Choose one decision and make baseline feasibility concrete
+**Do it through a prospective amendment.** Keep the original blocked result and the current authorization boundary until the amendment is accepted. A missing comparator does not invalidate a checked source identity, and a working comparator would not supply a demand baseline.
 
-**High priority — production state, `notice`, `baselines` and `expected_outputs`; method, “Conditioning, supply and aggregation”.** The India 2023 supply example and synthetic Pakistan 2030 scenario test different things. Neither establishes the first substantive quantitative application.
+**Test:** for any piece of planned work, a reader can name the gate it waits on, or see that it waits on none.
 
-Freeze a one-page brief naming the decision, country, segment, product, year, channel, denominator and intended output. Distinguish a supply description, conditional scenario and adoption forecast. Then list candidate baselines with source/version, observed or forecast status, finished-product units, price basis, embedded acceptance/access/supply mechanisms, permitted transformations and a specific pass/fail reason. Identify the reviewer role and compatible capacity requirement. The placeholder Pakistan scenario remains a test case until its production scope is accepted.
+## 2. Pick one India–Pakistan question for the next deliverable
 
-**Acceptance test:** a reviewer can determine whether one candidate fits the contract without guessing its denominator or conditioning. If none qualifies, deliver the blocked-input handoff or select a separately approved descriptive output. Do not relabel broad market totals or survey willingness as the missing sales baseline.
+**High priority.** The [current scope](../../../CURRENT-SCOPE.md) puts the bilateral [India–Pakistan brief](../../india-pakistan/india-pakistan-brief.md) first and the halal work second. The India supply example and the international institutional cases test the workflow. They do not yet add to the bilateral question, and without one, the baseline search in 3 has nothing to aim at.
 
-## 3. Present India as an observation plus a reconciliation diagnostic
+Write one short comparative section that answers a single approved question. Include an evidence table, a note on comparability and an explicit Pakistan gap where the evidence runs out. Before collecting a second national number, check that definitions, year and denominator allow the comparison. If they do not, present the two observations separately.
 
-**High priority — pilot P11, “The real country result”.** Keep the reported **5,059 thousand tonnes** and reconstructed **5,062.004992 thousand tonnes** in separate columns. The **3.004992 thousand-tonne difference** is a reconciliation result. The separate component identity gives **5,058**. None establishes additional consumption or cultivated demand.
+**Test:** a reader can say what the comparison shows, what it cannot show and what observation would change the conclusion. This does not authorize adding countries or new retrieval.
 
-Show reported value, reconstruction, difference and precision status together. Conditional nearest-rounding analysis remains a sensitivity until its source-specific basis is established. Retain missing utilization components and absent statistical intervals. Supply, household intake, purchases and adoption remain distinct.
+## 3. Test baseline feasibility for that question
 
-**Acceptance test:** the checker reproduces exact source rows and establishes why a tolerance is admissible before applying it. If the precision policy stays unresolved, retain an attributed source-data result and a partial reconciliation status. The small discrepancy alone proves neither an error nor agreement.
+**High priority.** [production-state.json](production-state.json) lists four reason codes: `missing_baseline`, `missing_reference_market`, `unresolved_gate` and `missing_capacity`. Its Pakistan 2030 scenario is synthetic. Neither it nor the India supply example is a first real quantitative application.
 
-## 4. Ask reviewers to decide one consequential interpretation
+For the question chosen in 2, write a one-page brief naming the decision, country, segment, product, year, channel, denominator and intended output. Say whether the output is a supply description, a conditional scenario or an adoption forecast. Then list candidate baselines with:
 
-**High priority — pilot P04 and the early calibration packet.** The MUIS donor-procurement issue is the strongest next scholarly calibration target because it changes how a process would be assessed. A general request to review the whole package would obscure that decision.
+- source and version, and whether the figure is observed or forecast
+- finished-product units and price basis
+- any acceptance, access or supply mechanism already built in
+- permitted transformations
+- a specific pass or fail reason against [the method](METHOD.md)
 
-Supply the full applicable text, authority/version, exact passages, competing readings and manufacturing facts each reading requires. Keep process verification, religious interpretation and civil regulatory review separate. Both current process profiles are hypothetical; changing medium assumptions does not establish either profile's compliance.
+Name the reviewer role and the capacity input the output would need.
 
-**Acceptance test:** the returned review identifies accepted wording, rejected wording, required process evidence, institutional scope and remaining limits for an exact version. A packet or general endorsement does not close the gate. Contacting anyone remains a separate human-authorized action.
+**Test:** a reviewer can decide whether a candidate fits the contract without guessing its denominator or conditioning. If none fits, deliver the blocked-input handoff or pick a separately approved descriptive output. Do not relabel broad market totals or survey willingness as the missing sales baseline.
 
-## 5. Measure claim readiness and actual tool benefit
+## 4. Ask reviewers to decide the donor-procurement question
 
-**Next priority — pilot “Metrics, changed decisions and failures”.** Eleven processed units, six bounded outputs and five gap-led outputs are activity measures. Bibliographic identity, institutional interpretation and reproduced arithmetic do not combine into a scientific completion percentage.
+**High priority.** The [Phase One review](../phase1/review.md) leaves an open tension. IIFA's living-donor wording and MUIS's certification discussion, which describes slaughtered permitted animals, set different procurement conditions, and the review's detached-part precedent bears most directly on that point. It is the best next calibration target because the answer changes how any process would be assessed. Asking reviewers to look over the whole package would bury it.
 
-For claims selected for the next manuscript section, record assertion, exact locator, source-family dependence, independent check, contrary evidence, review status and decision supported. The central register's eleven principal summaries are not a comprehensive inventory of every assertion in linked reports. Keep agent checking and human acceptance distinct.
+Send the full applicable texts with authority and version, the exact passages, the competing readings and the manufacturing facts each reading needs. Keep process verification, religious interpretation and civil regulatory review separate. Both current process profiles are hypothetical, and changing medium assumptions does not show that either complies.
 
-If the tool comparison resumes, use held-out substantive questions, manually adjudicated relevance, extraction-error scoring, usable full-text yield and observed effort. Recovering two supplied DOIs tests known-item lookup; it does not measure discovery coverage or comparative synthesis quality. Preserve failed trials and reconstructed logs, but move engineering detail behind the research argument in the reader's opening.
+**Test:** the reply states, for an exact version, which wording is accepted, which is rejected, what process evidence is required, the institutional scope and what remains open. A general endorsement does not close the gate. Contacting anyone is a separate, human-authorized step.
 
-## 6. Reconnect the next deliverable to India–Pakistan
+## 5. Measure claim readiness, then tool benefit
 
-**Next priority — [current scope](../../../CURRENT-SCOPE.md) and [India–Pakistan brief](../../india-pakistan/india-pakistan-brief.md).** One India supply example and international institutional cases test the workflow; they do not yet establish the bilateral research contribution.
+**Next priority.** Counts of units processed and outputs produced measure activity. Bibliographic checks, institutional interpretation and reproduced arithmetic do not add up to a percentage of scientific completion.
 
-My preferred next deliverable is one short comparative section answering a single approved question, with an evidence table, a comparability note and an explicit Pakistan gap where needed. Before collecting a second national number, establish why definitions, year and denominator permit comparison. If they do not, present the observations separately.
+For each claim selected for the next section, record the assertion, exact locator, source-family dependence, independent check, contrary evidence, review status and the decision it supports. A register of principal summaries is not a full inventory of every assertion in the linked reports. Keep agent checking and human acceptance separate.
 
-**Acceptance test:** a reader can state what the comparison teaches, what it cannot establish and what observation would change the conclusion. This recommendation does not authorize country expansion or new retrieval.
+If the tool comparison resumes, use held-out substantive questions, manually adjudicated relevance, extraction-error scoring, usable full-text yield and observed effort. Recovering DOIs that were supplied in advance tests known-item lookup. It does not measure discovery coverage or synthesis quality. Keep failed trials and reconstructed logs, but put engineering detail after the research argument.
 
-## Counterargument and recommended sequence
+## Counterargument
 
-**Counterargument:** a controlled pilot should satisfy its frozen gates before scaling; relaxing them after seeing results risks moving the goalposts. I agree. Preserve the original blocked outcome and propose a transparent amendment separating unrelated decisions. Do not relabel an unavailable comparison as a successful experiment or agent checking as scholarly approval.
+A controlled pilot should meet its frozen gates before scaling, and relaxing them after seeing results moves the goalposts. I agree. That is why 1 keeps the original blocked outcome and proposes a transparent amendment rather than a relabel. An unavailable comparison is not a successful experiment, and agent checking is not scholarly approval.
 
-Recommended sequence: choose the decision and prepare the gate table; test baseline feasibility; obtain decisive precision or interpretation evidence when available; then assess one genuinely comparable bilateral question. Clearly labeled local preparation can continue where authorized. Numerical production and dependent interpretive expansion remain gated.
+Clearly labeled local preparation can continue where authorized. Numerical production and any interpretive expansion that depends on it stay gated.
 
 ## Review status
 
-These recommendations have not been adopted as research policy. Preserve the existing safeguards: source lineage, unknown values, product/process/institution scope, once-only adjustments, capacity limits and independent negative tests. Technical consistency and scientific acceptance remain separate judgments.
+These recommendations have not been adopted as research policy. Keep the existing safeguards: source lineage, unknown values, product, process and institution scope, once-only adjustments, capacity limits and independent negative tests. Technical consistency and scientific acceptance remain separate judgments.
