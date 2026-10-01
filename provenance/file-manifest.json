@@ -357,14 +357,24 @@
       "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
     },
     {
+      "path": "research/protein-survey-data/Alternative_Meat_Survey_Data_Findings.csv",
+      "bytes": 5459,
+      "sha256": "e854c7165f32831e3be72827d4d197a702786076b2f1f33b59ae8c50ad6ebe4b"
+    },
+    {
+      "path": "research/protein-survey-data/Alternative_Meat_Survey_Data_Studies.csv",
+      "bytes": 6565,
+      "sha256": "3ab83e0ef258f5bd7b4922f9d466cee1f110c2a60330525d6012c04332f830ef"
+    },
+    {
       "path": "research/protein-survey-data/README.txt",
-      "bytes": 3640,
-      "sha256": "9f1b5d3f613f3983d60b410392582b51cf1e9b2a7af8ec23ce6dd62b99bffb1f"
+      "bytes": 3801,
+      "sha256": "0d9f4c84cd476927be3b697d95348b16b0621785cac5f9bd8c8afc900c937b61"
     },
     {
       "path": "research/protein-survey-data/Source_Links.html",
-      "bytes": 8988,
-      "sha256": "5dbc1b44433d302c6038407e1708d973b368e00265a7c862d24fcc91e253e4ef"
+      "bytes": 9166,
+      "sha256": "1b0515daa6df4233c018de82179a4f87a66d17e6e0a8b934c770b9896c52a6a0"
     },
     {
       "path": "research/protein-survey-data/Study_Register.csv",

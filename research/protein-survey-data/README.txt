@@ -5,7 +5,7 @@ SCOPE
 This package collects the reported figures, sample descriptors, qualitative findings and source references from all nine studies/reports cited in this chat, covering Muslim-country and Southeast Asian surveys. It is a structured extraction of published results, not individual respondent records and not every table from each paper.
 
 CONTENTS
-Alternative_Meat_Survey_Data.xlsx — Findings (29 records) and Studies (9 records).
+Alternative_Meat_Survey_Data_Findings.csv and Alternative_Meat_Survey_Data_Studies.csv — the Findings (29 records) and Studies (9 records) sheets of the original Excel workbook, exported as CSV because the repository does not hold .xlsx files.
 Survey_Findings.csv — the same findings in a machine-readable table.
 Study_Register.csv — citations, sample descriptions, methods, access and caveats.
 survey_data.json — structured data and source metadata.
