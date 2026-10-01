@@ -3,7 +3,7 @@
   "completion_established": false,
   "full_phase1_review_complete": false,
   "human_review": "pending",
-  "scope_basis": "All16 countries actually named in the controlling Phase One plans, with their stated roles; countries mentioned only in newly retrieved source lists do not automatically expand the project.",
+  "scope_basis": "All 16 countries actually named in the controlling Phase One plans, with their stated roles; countries mentioned only in newly retrieved source lists do not automatically expand the project.",
   "countries": [
     {
       "id": "IND",
@@ -16,7 +16,8 @@
         "P1C-C01",
         "P1C-C02",
         "P1C-C03",
-        "P1C-C08"
+        "P1C-C08",
+        "P1C2-IND-DEMOGRAPHY"
       ]
     },
     {
@@ -29,26 +30,31 @@
       "claim_ids": [
         "P1C-C04",
         "P1C-C05",
-        "P1C-C06"
+        "P1C-C06",
+        "P1C2-PAK-DEMOGRAPHY"
       ]
     },
     {
       "id": "SAU",
       "name": "Saudi Arabia",
       "role": "focal",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-SAU-DEMOGRAPHY"
+      ]
     },
     {
       "id": "ARE",
       "name": "United Arab Emirates",
       "role": "focal",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-ARE-DEMOGRAPHY"
+      ]
     },
     {
       "id": "SGP",
@@ -83,64 +89,84 @@
       "id": "QAT",
       "name": "Qatar",
       "role": "geography and dairy history",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §§6.4A,6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-W04A-C02",
+        "P1C2-W04A-C04"
+      ]
     },
     {
       "id": "KWT",
       "name": "Kuwait",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-W04A-C01",
+        "P1C2-W04A-C05"
+      ]
     },
     {
       "id": "BHR",
       "name": "Bahrain",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-W04A-C06"
+      ]
     },
     {
       "id": "OMN",
       "name": "Oman",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-W04A-C07",
+        "P1C2-W04A-C08"
+      ]
     },
     {
       "id": "IRN",
       "name": "Iran",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-IRN-LEGAL",
+        "P1C2-IRN-DEMOGRAPHY"
+      ]
     },
     {
       "id": "IRQ",
       "name": "Iraq",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-IRQ-LEGAL",
+        "P1C2-IRQ-DEMOGRAPHY"
+      ]
     },
     {
       "id": "YEM",
       "name": "Yemen",
       "role": "geography",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C2-YEM-LEGAL",
+        "P1C2-YEM-DEMOGRAPHY"
+      ]
     },
     {
       "id": "EGY",

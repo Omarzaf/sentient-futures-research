@@ -2,6 +2,16 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 1 October 2026 — geography and school-text continuation
+
+**Added:** The [geography reference](phase1-continuation/geography.md) now records dated affiliation estimates and selected legal readings for seven additional countries, with four core-country historical rows from the same source. The continuation has 23 source records and 26 bounded claims. Contemporary values, juristic-school prevalence and complete fatwa-body mandates remain unknown. Iraq's 2009 synthesized estimate and late-2011 survey stay separate; its later code approval is distinguished from earlier commentary.
+
+**School gap:** A [direct al-Qurtubi passage](phase1-continuation/school-gap-progress.md) advances the Maliki liver/spleen locator. Its edition and qualified translation remain pending. The Sistani criterion and affirmative liver questions remain open after a documented bounded search.
+
+**Verification and review:** Independent source readers checked the new geography passages and source methods; the coordinator read the classical passage before candidate synthesis. New negative fixtures protect dates, denominators, scope, source lineage and unresolved interpretation. The canonical build, four suites and deterministic rebuild remain the checkpoint gates. Original discovery CSVs and earlier review claims are preserved.
+
+**Retrospective:** Source-first checks exposed a newer Iraqi approval and incompatible demographic designs. Returned extracts still leave legal editions, institutional mandates and classical print provenance incomplete. Record study design and legal subject separately before synthesis. Full Phase One and human scholarly approval remain incomplete.
+
 ## 1 October 2026 — Phase One continuation checkpoint
 
 **Added:** A [partial continuation](phase1-continuation/README.md) with ten source records, eight bounded claims and the sixteen countries named in the controlling plans. New evidence covers India's export instruments and named cultivated-chicken application, Pakistan's constitutional editions and Punjab registration guidance, and Malaysia's Federal Territories fatwa rules. The seven detailed country cases retain their original role.

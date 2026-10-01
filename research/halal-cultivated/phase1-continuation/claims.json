@@ -105,5 +105,261 @@
     "human_review": "pending",
     "limits": "A source-identity finding for the saved response; no claim about whether the endpoint will return the same bytes later.",
     "review_id": "R-FSSAI"
+  },
+  {
+    "id": "P1C2-IRN-LEGAL",
+    "country": "IRN",
+    "assertion": "The inspected Article 12 names Islam and the Twelver Jafari school while recognizing specified other schools for rites, education, personal status and qualified local rules.",
+    "source_ids": [
+      "P1C2-IRN-CONST",
+      "P1C2-IRN-FIS"
+    ],
+    "locator": "Article 12",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Describes the retrieved constitutional wording. It does not measure prevalence, establish implementation, or verify a complete current consolidation.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRQ-LEGAL",
+    "country": "IRQ",
+    "assertion": "The 2025 amendment provides conditional Jafari personal-status choices and assigns a drafting/advisory role to the Shia Endowment Scientific Council. Decision 10 subsequently approves the code as an annex, effective on gazette publication.",
+    "source_ids": [
+      "P1C2-IRQ-LAW1",
+      "P1C2-IRQ-CODE10",
+      "P1C2-IRQ-JUDICIAL"
+    ],
+    "locator": "Law Article 1; Decision first/second clauses; Gazette 4843 dated 6 October 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Personal status is not an exclusive national madhhab, a food-approval framework or a demographic statistic. Underlying Arabic and the full code need qualified legal review.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-YEM-LEGAL",
+    "country": "YEM",
+    "assertion": "Articles 2–3 in WIPO’s 2015 compilation name Islam and Islamic Sharia without naming a juristic school in those provisions. The compilation appends a 2015 transitional declaration.",
+    "source_ids": [
+      "P1C2-YEM-CONST"
+    ],
+    "locator": "Edition metadata; Articles 2–3; appended declaration",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is a bounded reading of these provisions, not proof that no other law names a school or that this is an uncontested current governing instrument.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRN-DEMOGRAPHY",
+    "country": "IRN",
+    "assertion": "Pew’s 2009 estimate gives Shia affiliation as 90–95% of Iran’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, Iran row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical broad affiliation estimate, not a measured 2026 or Jafari-school share.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRQ-DEMOGRAPHY",
+    "country": "IRQ",
+    "assertion": "Pew’s 2009 estimate gives 65–70% Shia among Iraq’s Muslims. A later summary reports a late-2011 survey with 51% Shia, 42% Sunni and 5% just a Muslim.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD",
+      "P1C2-PEW14-IRAQ"
+    ],
+    "locator": "2009 Iraq table row; 2014 article on late-2011 survey",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Keep estimates and survey self-identification separate. Neither result is a current census, and their difference is not a time-series change estimate; do not allocate the unreported remainder.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-YEM-DEMOGRAPHY",
+    "country": "YEM",
+    "assertion": "Pew’s 2009 estimate gives Shia affiliation as 35–40% of Yemen’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, Yemen row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical broad affiliation estimate, not a measured Zaydi, regional northern-Yemen or current population share.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-W04A-C01",
+    "country": "KWT",
+    "assertion": "The official-hosted English constitutional text, Article 2, identifies Islam as state religion and Sharia as a main legislative source; that clause names no juristic school.",
+    "source_ids": [
+      "P1C2-KWT-CONST"
+    ],
+    "locator": "PDFp1, Article2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Consolidation and later constitutional measures not checked. Not a claim that no other Kuwaiti law names a school.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C02",
+    "country": "QAT",
+    "assertion": "The official-hosted constitutional explanatory memorandum discusses Sharia as a legislative source when explaining Article 1.",
+    "source_ids": [
+      "P1C2-QAT-MEMO"
+    ],
+    "locator": "PDFpp84–85, Article1 commentary",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Current operative Article1 and2024 amendments not established by this extract. Does not establish Hanbali population predominance or an official national school.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C04",
+    "country": "QAT",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as approximately 10 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line484",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C05",
+    "country": "KWT",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 20–25 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line475",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C06",
+    "country": "BHR",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 65–75 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line477",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C07",
+    "country": "OMN",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 5–10 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line481",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C08",
+    "country": "OMN",
+    "assertion": "Pew's report does not separately quantify the Oman groups it places outside its Sunni/Shia categories.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp9 (PDFp12), lines454–459",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Method limitation of the2009 report. Oman Ibadi share remains unknown; do not use100minusShia as Sunni.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-M-Q4-TEXT",
+    "country": null,
+    "question_id": "M-Q4",
+    "assertion": "Al-Qurtubi’s commentary on Quran 2:173 explicitly names liver and spleen in issues 4 and 14, supplying an organ-specific passage for the earlier Maliki locator gap.",
+    "source_ids": [
+      "P1C2-QURTUBI-2173"
+    ],
+    "locator": "Issue 4 and issue 14, paragraph beginning قلت",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Named-author transcription only. His assertion of agreement is not independently demonstrated consensus. No authenticated print edition, qualified translation, separated-serum ruling or cultivated-cell analogy is established.",
+    "review_id": "R2-SCHOOL"
+  },
+  {
+    "id": "P1C2-IND-DEMOGRAPHY",
+    "country": "IND",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of India’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-PAK-DEMOGRAPHY",
+    "country": "PAK",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of Pakistan’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-SAU-DEMOGRAPHY",
+    "country": "SAU",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of Saudi Arabia’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-ARE-DEMOGRAPHY",
+    "country": "ARE",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as approximately 10% of the UAE’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
   }
 ]

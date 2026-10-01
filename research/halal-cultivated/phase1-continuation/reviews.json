@@ -33,5 +33,50 @@
     "scope": "Named constitutional/statutory provisions and Punjab operational guidance; version limitations retained",
     "outcome": "bounded_documentary_agreement",
     "human_review": false
+  },
+  {
+    "id": "R2-WEST-ASIA",
+    "claim_ids": [
+      "P1C2-IRN-LEGAL",
+      "P1C2-IRQ-LEGAL",
+      "P1C2-YEM-LEGAL",
+      "P1C2-IRN-DEMOGRAPHY",
+      "P1C2-IRQ-DEMOGRAPHY",
+      "P1C2-YEM-DEMOGRAPHY",
+      "P1C2-IND-DEMOGRAPHY",
+      "P1C2-PAK-DEMOGRAPHY",
+      "P1C2-SAU-DEMOGRAPHY",
+      "P1C2-ARE-DEMOGRAPHY"
+    ],
+    "method": "Fresh agent read preserved raw source captures before seeing coordinator candidates; exact table headings, chronology and document types reconciled.",
+    "scope": "Iran Article 12, Iraq enabling law and later code approval, Yemen compilation identity, dated Pew estimates and non-comparable Iraq survey; only captured passages.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R2-GULF",
+    "claim_ids": [
+      "P1C2-W04A-C01",
+      "P1C2-W04A-C02",
+      "P1C2-W04A-C04",
+      "P1C2-W04A-C05",
+      "P1C2-W04A-C06",
+      "P1C2-W04A-C07",
+      "P1C2-W04A-C08"
+    ],
+    "method": "Coordinator independently retrieved demographic table headers and methodology; fresh checker read Gulf raw captures before candidate comparison.",
+    "scope": "Kuwait Article 2, Qatar explanatory memorandum and four historical estimates; no current-law or school-prevalence certification.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R2-SCHOOL",
+    "claim_ids": [
+      "P1C2-M-Q4-TEXT"
+    ],
+    "method": "Coordinator read KSU Arabic passage before specialist candidate claims; independent interpretation of same transcription.",
+    "scope": "Organ-specific locator in al-Qurtubi issues 4 and 14; edition authentication and qualified translation remain pending.",
+    "outcome": "bounded_textual_agreement",
+    "human_review": false
   }
 ]

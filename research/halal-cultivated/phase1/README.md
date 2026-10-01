@@ -4,6 +4,8 @@
 
 [1 October continuation](../phase1-continuation/README.md) adds versioned institutional evidence and tracks the broader remaining Phase One work. The earlier coverage counts below describe this historical edition, not completion of the expanded research loop. Gap references were repaired on 1 October without changing their substantive findings.
 
+The later [school-text supplement](../phase1-continuation/school-gap-progress.md) supplies a direct al-Qurtubi organ locator, with edition and qualified-translation limits. The earlier Maliki gap description below belongs to this preserved edition. The [geography reference](../phase1-continuation/geography.md) separately records dated demographic and legal evidence.
+
 This is the public-source edition of the completed local review. It covers all 45 question slots across Hanafi, Maliki, Shafii, Hanbali and Sistani's named positions; seven country accounts; and four historical comparisons. The 45 slots contain 31 checked accounts, 13 inferences and one open item. Checked accounts can still contain explicitly unresolved applications, including the Maliki organ locator. Coverage is not agreement or a product ruling.
 
 ## Evidence and review files
