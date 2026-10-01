@@ -1,0 +1,72 @@
+[
+  {
+    "id": "H01",
+    "analogy": "Wine becoming vinegar and broader transformation",
+    "source_ids": [
+      "HAN",
+      "SHA-T",
+      "SIS-EN",
+      "IIFA198",
+      "IIFA210"
+    ],
+    "premise": "The primary sources attach consequences to a sufficiently changed substance, with authority-specific exceptions.",
+    "reasoning": "A cultivated process must demonstrate what changes in each input and final material before transformation can be invoked.",
+    "counter_evidence": "Cell proliferation is described as production of chicken cells in SFA and company records. Growth and a new commercial name do not by themselves demonstrate the required change of identity.",
+    "missing_test": "A named authority must assess a chemically and biologically specified process against its own criterion.",
+    "status": "inference",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Premises and limits checked; analogy remains an inference, not an attributed product ruling."
+  },
+  {
+    "id": "H02",
+    "analogy": "Rennet and recombinant enzymes",
+    "source_ids": [
+      "IIFA210",
+      "SIS-AR"
+    ],
+    "premise": "IIFA210 treats source and slaughter as relevant to extracted rennet, records disagreement on unslaughtered sources, and allows genetically engineered rennet. Sistani distinguishes some extracted-material cases.",
+    "reasoning": "An enzyme input should be traced to its production route; identical function does not establish identical source treatment.",
+    "counter_evidence": "Rennet is an input, whereas harvested cultivated cells are the intended food biomass. A rennet permission cannot settle founder-cell status.",
+    "missing_test": "Supplier provenance, fermentation host, substrate, processing aid and residual evidence for the particular enzyme.",
+    "status": "inference",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Premises and limits checked; analogy remains an inference, not an attributed product ruling."
+  },
+  {
+    "id": "H03",
+    "analogy": "Blood plasma serum and washing",
+    "source_ids": [
+      "IIFA198",
+      "IIFA210",
+      "GOOD-DOSSIER",
+      "SG-LIST"
+    ],
+    "premise": "IIFA198 allowed plasma on a transformation rationale, but210 reopened the issue. The GOOD dossier describes serum use and measurable residual albumin.",
+    "reasoning": "Washing and safety tests address removal and exposure, not automatically religious transformation. Serum-containing and serum-free processes must remain separate.",
+    "counter_evidence": "A low residue is not evidence of no residue or a universally accepted dilution rule. Plasma and serum are not interchangeable categories.",
+    "missing_test": "All media stages, residual assays, detection limits and a specific authority’s removal/transformation criteria.",
+    "status": "inference",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Premises and limits checked; analogy remains an inference, not an attributed product ruling."
+  },
+  {
+    "id": "H04",
+    "analogy": "Detached living flesh and egg-derived cells",
+    "source_ids": [
+      "AD2858",
+      "HAN-D",
+      "SHA-D",
+      "GHAMIDI",
+      "MUIS-BOOK",
+      "IIFA265",
+      "SG-LIST"
+    ],
+    "premise": "Classical texts classify detached living flesh; contemporary documents distinguish source routes, and SFA describes an embryonic stem-cell process.",
+    "reasoning": "Donor procurement, original sample, founder line and later biomass are distinct objects of analysis. Compare a live biopsy with post-slaughter and egg-derived routes.",
+    "counter_evidence": "A classical gross-tissue rule does not explicitly name a microscopic immortalized line. IIFA’s living-donor wording and MUIS’s egg discussion prevent silently imposing one route on every authority.",
+    "missing_test": "Document founder-cell origin and explain why the classical legal category extends or does not extend to the defined modern object.",
+    "status": "inference",
+    "verification_id": "V-SCHOOL-AND-PRIOR-RULINGS",
+    "verification_scope": "Premises and limits checked; analogy remains an inference, not an attributed product ruling."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "V-RULINGS",
+    "extractor": "research_rulings",
+    "verifier": "verify_rulings",
+    "blind": true,
+    "scope": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "verdict": "pass_after_revision",
+    "finding": "Living-donor clause retained in English and Arabic. Press release cannot settle slaughter. Root reread both IIFA versions.",
+    "revision": "Replaced an ambiguous-donor-only framing with explicit living/slaughtered alternatives; kept product-specific limits."
+  },
+  {
+    "id": "V-SCHOOL",
+    "extractor": "research_school",
+    "verifier": "verify_school",
+    "blind": true,
+    "scope": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "verdict": "pass_with_scope_limits",
+    "finding": "All six pages independently read. Displayed locators confirmed; exceptions and internal disagreement preserved.",
+    "revision": "No direct cultivated-chicken ruling, universal transformation claim or school-wide consensus inferred."
+  },
+  {
+    "id": "V-MUIS-SUPPLEMENT",
+    "extractor": "verify_rulings",
+    "verifier": "root",
+    "blind": false,
+    "scope": [
+      "R05",
+      "R06"
+    ],
+    "verdict": "pass_for_dated_source_description",
+    "finding": "Root directly read PDF printed pp14 and19, visually inspected printed p14, and confirmed its PDF-page16 mapping.",
+    "revision": "Added fuller source. Current framework and egg/slaughter relationship remain unresolved."
+  },
+  {
+    "id": "V-PUBLISHED-GHAMIDI",
+    "extractor": "root",
+    "verifier": "verify_interview",
+    "blind": true,
+    "scope": [
+      "G01",
+      "G02"
+    ],
+    "verdict": "pass_with_scope_limits",
+    "finding": "Published dietary framework and invocation discussion read as attributed authored context, with donor and modern-application limits.",
+    "provenance": "Public-source scope projection of the prior blind review. Its separate unpublished-source findings are omitted; this is not a new verification run."
+  },
+  {
+    "id": "V-SCHOOL-AND-PRIOR-RULINGS",
+    "scope": [
+      "Historical analogy premises"
+    ],
+    "verdict": "checked_premises_inference_retained",
+    "blind": false,
+    "finding": "Composite lineage to the school reconciliation and prior institutional source checks. No additional independent review is claimed; the analogy remains inference.",
+    "review_references": [
+      "V-SCHOOL",
+      "V-RULINGS",
+      "V-COUNTRY-HISTORY"
+    ]
+  }
+]

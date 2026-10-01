@@ -1,0 +1,113 @@
+[
+  {
+    "id": "C-IN",
+    "country": "India",
+    "scope": "Focal country",
+    "source_ids": [
+      "IN2017"
+    ],
+    "food_authorization": "A non-specified food or ingredient requires prior FSSAI approval before manufacture or import; FormI covers novel foods and technologies. Licensing follows approval.",
+    "halal_layer": "No cultivated-chicken-specific halal instrument accepted in this source set.",
+    "product_evidence": "No product approval established by the material read.",
+    "gap": "Retrieve the latest complete application decisions and match the specific process. The live list could not be read beyond its JavaScript shell.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-PK",
+    "country": "Pakistan",
+    "scope": "Focal country",
+    "source_ids": [
+      "PK2016"
+    ],
+    "food_authorization": "No cultivated-food-specific approval pathway established in this bounded review; provincial and federal responsibilities need product-level follow-up.",
+    "halal_layer": "PHA Act provides standards, certification, accreditation and logo functions. Nationwide remit covers international and interprovincial halal trade; other purposes extend to Islamabad Capital Territory.",
+    "product_evidence": "No named cultivated-chicken certificate or food approval established.",
+    "gap": "Applicable provincial food authority, operative notifications and product classification remain unresolved.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-SA",
+    "country": "Saudi Arabia",
+    "scope": "Focal country",
+    "source_ids": [
+      "SA-NOVEL",
+      "SA-GUIDE",
+      "SA-2025"
+    ],
+    "food_authorization": "The general novel-food instrument expressly includes animal cell and tissue culture and requires official SFDA approval before marketing, with safety and production dossiers.",
+    "halal_layer": "The text requires halal sources and refers to GSO2055-1; technical food approval does not replace a product-specific halal assessment.",
+    "product_evidence": "A route is documented; no named cultivated-chicken approval established.",
+    "gap": "Resolve regulation numbering/version using authoritative Arabic and confirm the applicable product/import certificate route.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-AE",
+    "country": "United Arab Emirates",
+    "scope": "Focal country",
+    "source_ids": [
+      "AE-HALAL",
+      "AE-2025"
+    ],
+    "food_authorization": "The Abu Dhabi announcement describes an initiative to develop a novel-food framework. Its headline alone does not establish a completed UAE-wide route.",
+    "halal_layer": "MOIAT sets a halal certificate system using registered bodies. The National Mark is optional; certificate obligations within system scope are separate.",
+    "product_evidence": "No named cultivated-chicken food approval or halal certificate established.",
+    "gap": "Obtain operative ADAFSA instrument, product classification and relevant emirate/federal registration requirements.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-SG",
+    "country": "Singapore",
+    "scope": "Precedent",
+    "source_ids": [
+      "SG-FRAME",
+      "SG-LIST",
+      "MUIS2024",
+      "MUIS-BOOK"
+    ],
+    "food_authorization": "Premarket approval is required for covered novel foods. Current SFA list documents specified chicken processes, including Eat Just with FBS(2020), serum-free(2023), and Vital Meat embryonic stem-cell biomass(2025).",
+    "halal_layer": "MUIS conditional guidance is separate. The2024 book describes then-current slaughter requirements and an egg-embryo distinction; current product certification is not established.",
+    "product_evidence": "Specific SFA food approvals documented; no matching product halal certificate evaluated.",
+    "gap": "Match a current certificate and the complete cell-bank/media/process history to the approved product.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-MY",
+    "country": "Malaysia",
+    "scope": "Precedent",
+    "source_ids": [
+      "MY-HALAL"
+    ],
+    "food_authorization": "Cultivated-food market authorization not established by the English sources retrieved.",
+    "halal_layer": "JAKIM explains recognition of foreign certification bodies and rules for imported halal descriptions; this institutional mechanism is not a cultivated-meat certificate.",
+    "product_evidence": "Malay cultivated-meat leads remain held outside the accepted English/Arabic evidence lane.",
+    "gap": "Obtain suitable English or Arabic primary version of the specific position, current standard and product approval; portal cites an older standards edition.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  },
+  {
+    "id": "C-ID",
+    "country": "Indonesia",
+    "scope": "Precedent",
+    "source_ids": [
+      "ID221"
+    ],
+    "food_authorization": "This halal-registration decree does not establish a food-safety approval for cultivated chicken.",
+    "halal_layer": "Under Decree221/2025, recognized foreign halal certificates follow BPJPH registration before circulation; importer/local representative applies through SIHALAL.",
+    "product_evidence": "No named cultivated-chicken registration or authorization established.",
+    "gap": "Product category, food authorization and any current transitional/category rules require confirmation for a real dossier.",
+    "status": "blind_agent_checked",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "verification_scope": "Framework as documented in retrieved instruments; not complete later amendments or product approvals."
+  }
+]

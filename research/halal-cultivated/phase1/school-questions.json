@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "M-Q1",
+    "school": "Maliki",
+    "question": "Q1: tayyib/khabith and who decides",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Qurtubi expressly attributes to Malik an interpretation of tayyibat as legally permitted things and khabaith as legally forbidden things; personal repulsion alone does not create the prohibition in this account.",
+    "author": "al-Qurtubi reporting Malik",
+    "book": "al-Jami li-ahkam al-Quran",
+    "locator": "7:157, sixth issue, vol. 7 p. 269",
+    "primary_url": "https://www.islamweb.net/ar/library/content/48/1482/قوله-تعالى-الذين-يتبعون-الرسول-النبي-الأمي",
+    "source_ids": [
+      "M-QUR7157",
+      "M-BID-Q1"
+    ],
+    "counterpoint": "Ibn Rushd separately describes the competing interpretation based on repugnance. His short paragraph alone does not name Malik as its opponent; al-Qurtubi supplies the explicit attribution.",
+    "modern_application": "Inference: consumer disgust at cultivated meat cannot by itself be treated as a decisive Maliki prohibition under this account. A jurist must still classify source material, impurity and process; this is not a permissibility ruling.",
+    "confidence": "high for the attributed classical account; low for any product verdict",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q1",
+    "extraction_status": "bounded evidence",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q1",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q2",
+    "school": "Maliki",
+    "question": "Q2: Are the four Quran prohibitions exhaustive?",
+    "status": "blind_agent_checked",
+    "proposition": "A blanket four-items-only description fails: Malik's Muwatta transmits the prohibition of fanged predators and endorses the local practice. Ibn Rushd also reports a major Maliki reading classifying predators as disliked and explains its reconciliation with Quran 6:145.",
+    "author": "Malik ibn Anas; Ibn Rushd al-Hafid",
+    "book": "al-Muwatta; Bidayat al-mujtahid",
+    "locator": "Muwatta English 25:13-14, Arabic 1065-1066; Bidaya food book, first disputed animal class",
+    "primary_url": "https://sunnah.com/malik/25",
+    "source_ids": [
+      "M-MUW25",
+      "M-BID-FOOD"
+    ],
+    "counterpoint": "Ibn Rushd identifies both prohibition and dislike reports within Maliki tradition; do not collapse them into an unqualified exhaustive or non-exhaustive slogan.",
+    "modern_application": "Inference: absence of cultivated meat from a four-item list is insufficient proof. The relationship between scriptural generality, further reports and ingredient classifications must be argued.",
+    "confidence": "high for the coexistence of these primary positions",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q2",
+    "extraction_status": "bounded evidence with internal disagreement",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q2",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q3",
+    "school": "Maliki",
+    "question": "Q3: Unslaughtered carcass and parts detached from a living animal",
+    "status": "blind_agent_checked",
+    "proposition": "The Risala requires prescribed slaughter for relevant land animals and treats fatal injury as a carrion issue. Dardir/Dasuqi classify parts detached from a living animal whose carcass is impure as impure; the commentary explicitly includes flesh, sinews and veins.",
+    "author": "Ibn Abi Zayd; al-Dardir and al-Dasuqi",
+    "book": "al-Risala; al-Sharh al-kabir with Hashiyat al-Dasuqi",
+    "locator": "Risala 29.5a and 29.6a; Dardir/Dasuqi vol. 1 pp. 53-54",
+    "primary_url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/book29.html",
+    "source_ids": [
+      "M-RIS29",
+      "M-DAS30"
+    ],
+    "counterpoint": "Risala's bracketed commentary records disagreement over slaughter of mortally wounded animals. Hair/wool and other specified exceptions prevent treating every detached substance alike.",
+    "modern_application": "Inference: a live biopsy raises the detached-part question. Whether viable isolated cells and their cultured descendants retain that legal identity needs an additional contemporary argument.",
+    "confidence": "high for ordinary detached tissue; unresolved for cell cultures",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q3",
+    "extraction_status": "bounded evidence",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q3",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q4",
+    "school": "Maliki",
+    "question": "Q4: Flowing blood, liver and spleen",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Qarafi treats flowing blood as impure and non-flowing blood as pure on the sounder view. Dardir explains the latter as residual blood after lawful slaughter. Ibn Rushd notes the two-blood exception report but does not name its organs in the inspected passage.",
+    "author": "al-Qarafi; al-Dardir; Ibn Rushd",
+    "book": "al-Dhakhira; al-Sharh al-kabir; Bidayat al-mujtahid",
+    "locator": "Dhakhira vol. 1 p. 185; Sharh vol. 1 p. 52; Bidaya food book, blood discussion",
+    "primary_url": "https://islamweb.net/ar/library/content/92/116/الفصل-الثالث-في-المنفصل-عن-الحيوان",
+    "source_ids": [
+      "M-DHAK",
+      "M-DAS28",
+      "M-BID-FOOD"
+    ],
+    "counterpoint": "Ibn Rushd records internal disagreement about non-flowing blood and fish blood. The liver/spleen permission is directly named in Hanbali source H-MUGH-LIVER, but that alone is not a verified Maliki textual statement.",
+    "modern_application": "Inference: an isolated serum ingredient should not automatically be equated with residual blood in properly slaughtered meat, or with the named organ exceptions. Verify its origin and classification separately.",
+    "confidence": "high for flowing/residual distinction; Maliki organ-specific citation still to verify",
+    "gap_id": "G-M-LIVER",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q4",
+    "extraction_status": "bounded evidence; organ-specific detail gap",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q4",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q5",
+    "school": "Maliki",
+    "question": "Q5: Invocation deliberately omitted versus forgotten",
+    "status": "blind_agent_checked",
+    "proposition": "The Risala permits eating when the invocation was forgotten, but rejects deliberate omission; it extends the distinction to sending trained hunting animals.",
+    "author": "Ibn Abi Zayd al-Qayrawani",
+    "book": "al-Risala",
+    "locator": "29.3d-e",
+    "primary_url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/book29.html",
+    "source_ids": [
+      "M-RIS29"
+    ],
+    "counterpoint": "The bracketed commentary adds ability and remembrance qualifications and attributes the rule to the Mudawwana; these explanations are not the unbracketed matn.",
+    "modern_application": "Inference: if donor slaughter supplies the claimed lawful origin, invocation evidence must be evaluated at that slaughter. Recitation at a later culture step does not resolve an earlier defective source by itself.",
+    "confidence": "high",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q5",
+    "extraction_status": "direct primary-text rule",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q5",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q6",
+    "school": "Maliki",
+    "question": "Q6: Istihalah, exceptions and internal disagreement",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Qarafi distinguishes complete disappearance of impurity-defining qualities from partial change and records disagreement about carrion ash. Dardir/Dasuqi list vinegar conversion and musk among pure substances. These texts do not support an unqualified claim that all processing purifies.",
+    "author": "al-Qarafi; al-Dardir and al-Dasuqi",
+    "book": "al-Dhakhira; al-Sharh al-kabir with Hashiyat al-Dasuqi",
+    "locator": "Dhakhira vol. 1 pp. 187-189, branches 2-3 and concluding principle; Sharh vol. 1 p. 52",
+    "primary_url": "https://islamweb.net/ar/library/content/92/116/الفصل-الثالث-في-المنفصل-عن-الحيوان",
+    "source_ids": [
+      "M-DHAK",
+      "M-DAS28"
+    ],
+    "counterpoint": "Al-Qarafi distinguishes accepted wine-to-vinegar purification from disputed/rejected bone-to-ash cases. His reported consensus concerns the fully changed case as he defines it, not every modern chemical process.",
+    "modern_application": "Inference: a process-specific finding is needed on whether the operative identity and impurity characteristics disappear. Purification, dilution, metabolism and mere isolation should be separately evaluated.",
+    "confidence": "high for the documented distinctions; medium for translation of the technical principle",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q6",
+    "extraction_status": "bounded evidence with internal disagreement",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q6",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q7",
+    "school": "Maliki",
+    "question": "Q7: Impure serum, enzyme or gelatin after processing",
+    "status": "inference",
+    "proposition": "No inspected classical text addresses industrial serum, isolated enzymes or gelatin manufacturing. The Risala distinguishes contaminated liquid from removable contamination in solid food; al-Qarafi records disagreement about meat cooked in impure water.",
+    "author": "Ibn Abi Zayd; al-Qarafi",
+    "book": "al-Risala; al-Dhakhira",
+    "locator": "Risala 29.6h-i; Dhakhira vol. 1 p. 188, branch 7",
+    "primary_url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/book29.html",
+    "source_ids": [
+      "M-RIS29",
+      "M-DHAK"
+    ],
+    "counterpoint": "Rinsing or processing is not automatically the same as complete transformation. Q6 also prevents assuming every surviving trace necessarily has the unchanged original ruling.",
+    "modern_application": "Inference: document source species, slaughter status, actual transformation, residual material and contact with the final food. These texts support those questions; they do not settle a particular serum, enzyme or gelatin product.",
+    "confidence": "high that direct industrial coverage is absent from inspected passages; low for any modern ruling",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q7",
+    "extraction_status": "inference from bounded classical evidence",
+    "kind": "inference",
+    "verification_id": "V-MH-M-Q7",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q8",
+    "school": "Maliki",
+    "question": "Q8: Sea animals without slaughter",
+    "status": "blind_agent_checked",
+    "proposition": "Malik explicitly permits fish caught by Magians because marine carrion is edible. Ibn Rushd reports Malik's broad permission for sea animals, while Dardir treats marine carcasses as pure even when the animal survives on land.",
+    "author": "Malik; Ibn Rushd; al-Dardir",
+    "book": "al-Muwatta; Bidayat al-mujtahid; al-Sharh al-kabir",
+    "locator": "Muwatta English 25:12/Arabic 1064; Bidaya sea-animal paragraph; Sharh vol. 1 p. 49",
+    "primary_url": "https://sunnah.com/malik/25",
+    "source_ids": [
+      "M-MUW25",
+      "M-BID-FOOD",
+      "M-DAS28"
+    ],
+    "counterpoint": "Ibn Rushd preserves Malik's hesitation/dislike about the creature named sea-pig. Purity is also a distinct question from permission to eat every harmful specimen.",
+    "modern_application": "Inference: marine sourcing changes the ordinary slaughter analysis, but does not itself settle the status of culture medium, additives or a taxonomically ambiguous organism.",
+    "confidence": "high for fish; bounded for the full marine category",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q8",
+    "extraction_status": "bounded evidence",
+    "kind": "evidence",
+    "verification_id": "V-MH-M-Q8",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "M-Q9",
+    "school": "Maliki",
+    "question": "Q9: Isolated living cells/tissue and limits of analogy",
+    "status": "inference",
+    "proposition": "The detached-tissue rule in Q3 and transformation distinctions in Q6 provide competing lines of analysis. None of the inspected classical passages discusses a viable cell line, serial proliferation, differentiation or cultured edible biomass.",
+    "author": "al-Dardir/al-Dasuqi; al-Qarafi",
+    "book": "al-Sharh al-kabir with Hashiyat al-Dasuqi; al-Dhakhira",
+    "locator": "Q3 and Q6 locators; no classical cell-culture locator exists in the inspected material",
+    "primary_url": "https://www.islamweb.net/ar/library/content/13/30/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+    "source_ids": [
+      "M-DAS30",
+      "M-DHAK"
+    ],
+    "counterpoint": "Biological viability does not by itself show that a detached part escapes its legal category; continued source ancestry does not by itself disprove a legally relevant transformation.",
+    "modern_application": "Inference: separate initial donor biopsy, cell-line expansion, inputs, differentiation and final harvest. An analogy must explain which entity carries the ruling and why each stage preserves or changes it; this extraction gives no cultivated-meat verdict.",
+    "confidence": "high for the textual boundary; low for selecting a modern analogy",
+    "extraction_batch": "mh",
+    "extraction_id": "M-Q9",
+    "extraction_status": "inference; no direct classical cell-culture ruling",
+    "kind": "inference",
+    "verification_id": "V-MH-M-Q9",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q1",
+    "school": "Hanbali",
+    "question": "Q1: tayyib/khabith and who decides",
+    "status": "blind_agent_checked",
+    "proposition": "Ibn Qudama's explanation of al-Khiraqi uses urban Hijazi food judgments for tayyib/khabith terminology, excluding necessity-driven Bedouin practice. Unfamiliar animals are compared with the closest Hijazi analogue; lacking an analogue, the general permission applies.",
+    "author": "Ibn Qudama explaining al-Khiraqi",
+    "book": "al-Mughni",
+    "locator": "Issue 7780",
+    "primary_url": "https://www.islamicbook.ws/asol/hanbali/almgni-062.html",
+    "source_ids": [
+      "H-MUGH-FOOD",
+      "H-UM-FOOD2"
+    ],
+    "counterpoint": "Umdat al-fiqh's matn supplies concrete prohibited categories and named exceptions; subjective disgust is not an unrestricted veto by any individual consumer.",
+    "modern_application": "Inference: applying this historical customary standard to cultured meat requires a reasoned classification, not a consumer-opinion poll. Source and impurity rules remain separate.",
+    "confidence": "high for Ibn Qudama's account; not a claim of unanimous Hanbali theory",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q1",
+    "extraction_status": "bounded evidence",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q1",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q2",
+    "school": "Hanbali",
+    "question": "Q2: Are the four Quran prohibitions exhaustive?",
+    "status": "inference",
+    "proposition": "Umdat al-fiqh forbids fanged predators, taloned birds, domestic donkeys and specified other animals. Its non-animal-food opening excludes impurity and harm. The operative manual therefore extends beyond a four-item food blacklist.",
+    "author": "Ibn Qudama",
+    "book": "Umdat al-fiqh",
+    "locator": "Book of Foods opening and continuation, land-animal list",
+    "primary_url": "https://umdatalfiqh.com/-book-of-foods-continued",
+    "source_ids": [
+      "H-UM-FOOD2",
+      "H-UM-FOOD"
+    ],
+    "counterpoint": "The matn also recognizes permissions and named exceptions. Extra prohibitions require a relevant textual or juristic basis; unfamiliarity alone is insufficient.",
+    "modern_application": "Inference: showing only that a product is not one of four Quranic items does not complete a Hanbali analysis. Conversely, technological novelty alone does not supply a prohibition.",
+    "confidence": "high",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q2",
+    "extraction_status": "direct primary-text evidence plus inference",
+    "kind": "inference",
+    "verification_id": "V-MH-H-Q2",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q3",
+    "school": "Hanbali",
+    "question": "Q3: Unslaughtered carcass and detached living parts",
+    "status": "blind_agent_checked",
+    "proposition": "Umdat al-fiqh requires slaughter for relevant land animals. Al-Mughni treats what is cut from an animal retaining stable life as carrion because cutting is not slaughter; it distinguishes a part separated after effective slaughter.",
+    "author": "Ibn Qudama",
+    "book": "Umdat al-fiqh; al-Mughni",
+    "locator": "Umdat, Proper Slaughtering opening; Mughni issues 7771-7773",
+    "primary_url": "https://islamweb.net/ar/library/content/15/6794/مسألة-لا-يقطع-عضو-مما-ذكي-حتى-تزهق-نفسه",
+    "source_ids": [
+      "H-MUGH-PARTS",
+      "H-UM-SLAUGHTER"
+    ],
+    "counterpoint": "Post-slaughter movement is not the stable life described in the prohibited excision case; marine and locust exceptions also prevent an absolute all-animal formula.",
+    "modern_application": "Inference: donor timing matters. A live biopsy is the closer initial detached-part analogy, while a sample after valid slaughter begins from a different classical fact pattern.",
+    "confidence": "high for ordinary tissue; unresolved for resulting cell cultures",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q3",
+    "extraction_status": "direct primary-text rule",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q3",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q4",
+    "school": "Hanbali",
+    "question": "Q4: Flowing blood, liver and spleen",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Mardawi's al-Insaf distinguishes prohibited shed blood from residual blood in edible meat/veins, recording purity as the sounder position with dissent. It treats liver and spleen as pure; al-Mughni explicitly invokes their permission report.",
+    "author": "al-Mardawi; Ibn Qudama",
+    "book": "al-Insaf; al-Mughni",
+    "locator": "Insaf, third discussion on pure blood; Mughni issue 8144",
+    "primary_url": "https://taqrib.ir/ar/library/content/2521/98",
+    "source_ids": [
+      "H-INS-BLOOD",
+      "H-MUGH-LIVER"
+    ],
+    "counterpoint": "The al-Mughni passage is primarily about the word meat in oaths, not a complete blood taxonomy. Al-Insaf records residual-blood disagreement; the host's edition pagination needs verification.",
+    "modern_application": "Inference: neither the organ exceptions nor residual blood in meat automatically encompass an extracted serum feedstock. That bridge needs separate analysis.",
+    "confidence": "medium-high; bibliographic verification needed for al-Insaf host",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q4",
+    "extraction_status": "bounded evidence",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q4",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q5",
+    "school": "Hanbali",
+    "question": "Q5: Invocation deliberately omitted versus forgotten",
+    "status": "blind_agent_checked",
+    "proposition": "Umdat al-fiqh's slaughter matn makes intentional omission disqualifying and excuses forgetfulness for the slaughtered animal.",
+    "author": "Ibn Qudama",
+    "book": "Umdat al-fiqh",
+    "locator": "Proper Slaughtering, second validity condition, matn before footnote 1492/1493",
+    "primary_url": "https://umdatalfiqh.com/-proper-slaughtering",
+    "source_ids": [
+      "H-UM-SLAUGHTER"
+    ],
+    "counterpoint": "The same matn treats hunting more strictly: forgotten invocation also prevents eating. A modern footnote records an alternative report. Do not transfer the ordinary-slaughter exception to every hunting case.",
+    "modern_application": "Inference: source-animal slaughter records may be relevant; invocation over already-produced biomass is not addressed by this classical rule.",
+    "confidence": "high for the slaughter rule",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q5",
+    "extraction_status": "direct primary-text rule",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q5",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q6",
+    "school": "Hanbali",
+    "question": "Q6: Istihalah, exceptions and internal disagreement",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Mughni denies general purification by transformation. Al-Mubdi states the spontaneous wine-to-vinegar exception and records contrary reports; Ibn Taymiyya argues for purification after complete transformation, expressly distinguishing that preference from the familiar restrictive school account.",
+    "author": "Ibn Qudama; Ibrahim ibn Muflih; Ibn Taymiyya",
+    "book": "al-Mughni; al-Mubdi; Majmu al-fatawa",
+    "locator": "Mughni issue 1001; Mubdi vol. 1 pp. 241-243; Fatawa vol. 21 pp. 70-72",
+    "primary_url": "https://islamweb.net/ar/library/content/15/808/فصل-أصاب-الأرض-ماء-المطر-أو-السيول-فغمرها-وجرى-عليها",
+    "source_ids": [
+      "H-MUGH-IST",
+      "H-MUBDI",
+      "H-TAY-IST"
+    ],
+    "counterpoint": "Al-Mubdi also records disagreement over deliberately making vinegar. Ibn Taymiyya's broader preference must not be relabeled unanimous Hanbali doctrine.",
+    "modern_application": "Inference: a modern process must be assessed under the chosen juristic position and actual extent of change. No single Hanbali yes/no on all transformed serum or gelatin follows.",
+    "confidence": "high for the documented disagreement",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q6",
+    "extraction_status": "bounded evidence with internal disagreement",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q6",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q7",
+    "school": "Hanbali",
+    "question": "Q7: Impure serum, enzyme or gelatin after processing",
+    "status": "inference",
+    "proposition": "Al-Mughni regards carrion milk and rennet as impure in the apparent school position, but reports a purity alternative. This supplies a concrete ingredient precedent; it does not describe serum fractionation, purified industrial enzymes or gelatin production.",
+    "author": "Ibn Qudama",
+    "book": "al-Mughni",
+    "locator": "Kitab al-tahara, Bab al-aniya, issue 85",
+    "primary_url": "https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها",
+    "source_ids": [
+      "H-MUGH-RENNET",
+      "H-MUBDI",
+      "H-TAY-IST"
+    ],
+    "counterpoint": "The rennet disagreement and Q6 transformation disagreement are separate issues. A permissible rennet opinion is not blanket permission for every animal-derived processing aid.",
+    "modern_application": "Inference: identify species, slaughter, ingredient identity, claimed transformation and remaining contact/residue. Determine whether rennet, removal or transformation is the relevant analogy rather than assuming processing resolves impurity.",
+    "confidence": "high for the rennet precedent; low for any particular modern ingredient ruling",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q7",
+    "extraction_status": "inference from bounded classical evidence",
+    "kind": "inference",
+    "verification_id": "V-MH-H-Q7",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q8",
+    "school": "Hanbali",
+    "question": "Q8: Sea animals without slaughter",
+    "status": "blind_agent_checked",
+    "proposition": "Umdat al-fiqh permits sea animals without slaughter but requires slaughter for those also living on land, except crabs and similar creatures. Its food chapter separately excludes snakes, frogs and crocodiles from edible sea animals.",
+    "author": "Ibn Qudama",
+    "book": "Umdat al-fiqh",
+    "locator": "Proper Slaughtering opening; Foods continued, Sea Animals",
+    "primary_url": "https://umdatalfiqh.com/-proper-slaughtering",
+    "source_ids": [
+      "H-UM-SLAUGHTER",
+      "H-UM-FOOD2"
+    ],
+    "counterpoint": "Read the slaughter exemption together with the edible-species list. Neither all aquatic organisms are edible nor all amphibious organisms are slaughter-exempt follows from the first sentence alone.",
+    "modern_application": "Inference: fish-derived culture may remove an ordinary land-animal slaughter issue, but requires species identification and separate review of medium and additives.",
+    "confidence": "high for this matn",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q8",
+    "extraction_status": "direct primary-text rule with category exceptions",
+    "kind": "evidence",
+    "verification_id": "V-MH-H-Q8",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HB-Q9",
+    "school": "Hanbali",
+    "question": "Q9: Isolated living cells/tissue and limits of analogy",
+    "status": "inference",
+    "proposition": "Al-Mughni's stable-life excision rule is a relevant starting point for donor tissue. The inspected texts do not determine whether continuously viable cultured cells or their descendants remain that detached part or constitute a legally changed substance.",
+    "author": "Ibn Qudama; Ibn Taymiyya",
+    "book": "al-Mughni; Majmu al-fatawa",
+    "locator": "Mughni issue 7773; Fatawa vol. 21 pp. 70-72 for distinct transformation argument",
+    "primary_url": "https://islamweb.net/ar/library/content/15/6794/مسألة-لا-يقطع-عضو-مما-ذكي-حتى-تزهق-نفسه",
+    "source_ids": [
+      "H-MUGH-PARTS",
+      "H-TAY-IST"
+    ],
+    "counterpoint": "Continued cellular life is a biological fact, while mayta in the excision rule is a legal classification. Neither viability nor multiplication alone answers whether the legal classification changes.",
+    "modern_application": "Inference: trace donor sample, cell line, culture inputs and final biomass separately; explain any transition from the excision rule to a transformation argument. No cultivated-meat verdict is asserted.",
+    "confidence": "high for the textual boundary; low for choosing a modern legal outcome",
+    "extraction_batch": "mh",
+    "extraction_id": "H-Q9",
+    "extraction_status": "inference; no direct classical cell-culture ruling",
+    "kind": "inference",
+    "verification_id": "V-MH-H-Q9",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q1",
+    "school": "Hanafi",
+    "question_id": "Q1",
+    "question": "Who decides tayyib/khabith?",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Kasani uses the aversion of sound natures to explain the prohibition of certain repulsive animals, with locust as a textual exception.",
+    "authority_book": "al-Kasani, Bada’i al-Sana’i",
+    "locator": "Bada’i, vol. 5 p. 36, animals lacking flowing blood",
+    "primary_url": "https://www.islamweb.net/ar/library/content/12/2028/المأكول-وغير-المأكول-من-الحيوانات",
+    "source_ids": [
+      "H3"
+    ],
+    "counterpoint": "This passage does not establish an exclusively ethnic-Arab test or make every individual's dislike legally decisive.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Assessing unfamiliar cultivated food requires a juristic classification; neither personal disgust nor a safety finding alone resolves it."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q1",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q1",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q2",
+    "school": "Hanafi",
+    "question_id": "Q2",
+    "question": "Are the four Qur’anic prohibitions an exhaustive operative dietary list?",
+    "status": "inference",
+    "proposition": "Al-Quduri also prohibits predatory animals and domestic donkeys. Thus the four-item Qur’anic formulation is not the manual’s complete operative dietary list.",
+    "authority_book": "al-Quduri, Mukhtasar al-Quduri, English translation",
+    "locator": "Mukhtasar, ch. 50, prohibited terrestrial species",
+    "primary_url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "source_ids": [
+      "H4"
+    ],
+    "counterpoint": "This is a deduction from explicit subsidiary rules, not a verified Hanafi exegesis of how each Qur’anic exclusivity formula operates.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A product cannot be approved merely because it is not named among four categories."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q2",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-H-Q2",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q3",
+    "school": "Hanafi",
+    "question_id": "Q3",
+    "question": "Unslaughtered carcasses and parts detached from living animals",
+    "status": "blind_agent_checked",
+    "proposition": "Ibn Abidin treats a part severed from a living animal as its carcass. A part removed after valid slaughter, while residual life remains, is distinguished.",
+    "authority_book": "Ibn Abidin, Radd al-Muhtar",
+    "locator": "Radd, vol. 6 pp. 310–311, al-juz’ al-munfasil min al-hayy",
+    "primary_url": "https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح",
+    "source_ids": [
+      "H2"
+    ],
+    "counterpoint": "Species and legal slaughter matter; this is not a proposition that every detached biological material has identical impurity.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A muscle biopsy from an unslaughtered land animal raises this rule; applying it to isolated cells requires an additional juristic step."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q3",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q3",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q4",
+    "school": "Hanafi",
+    "question_id": "Q4",
+    "question": "Flowing blood, liver and spleen",
+    "status": "blind_agent_checked",
+    "proposition": "Flowing blood is impure. Liver and spleen as organs are distinguished from flowing or exuded blood; al-Tahtawi cites the lawful liver/spleen exception.",
+    "authority_book": "Ibn Abidin, Radd al-Muhtar; al-Tahtawi, Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah",
+    "locator": "Radd, vol. 1 pp. 319–320; Tahtawi, digital page 2, blood discussion",
+    "primary_url": "https://www.islamweb.net/ar/library/content/27/422/index.php",
+    "source_ids": [
+      "H5",
+      "H7"
+    ],
+    "counterpoint": "Blood retained in flesh and veins has separate details; purity of an organ does not purify blood flowing from it.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Serum cannot be classified solely by being clear or separated from red cells; its relation to blood and any actual transformation need analysis."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q4",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q4",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q5",
+    "school": "Hanafi",
+    "question_id": "Q5",
+    "question": "Invocation: deliberate omission versus forgetting",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Quduri makes intentional omission of Allah’s name disqualifying and excuses forgetful omission.",
+    "authority_book": "al-Quduri, Mukhtasar al-Quduri, English translation",
+    "locator": "Mukhtasar, ch. 50, opening slaughter rules",
+    "primary_url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "source_ids": [
+      "H4"
+    ],
+    "counterpoint": "This contrast concerns omission; naming another deity and other slaughter conditions are separate questions.",
+    "modern_application": {
+      "status": "inference",
+      "text": "If lawful slaughter is required for the donor source, an invocation policy must distinguish deliberate omission from forgetfulness."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q5",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q5",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q6",
+    "school": "Hanafi",
+    "question_id": "Q6",
+    "question": "Istihalah: purification, exceptions and disagreement",
+    "status": "blind_agent_checked",
+    "proposition": "Ibn Abidin presents complete change of substance as purifying in the selected view, associated with Muhammad and also Abu Hanifa; Abu Yusuf differs.",
+    "authority_book": "Ibn Abidin, Radd al-Muhtar",
+    "locator": "Radd, vol. 1 p. 327, inqilab al-ayn",
+    "primary_url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+    "source_ids": [
+      "H1"
+    ],
+    "counterpoint": "The examples concern replacement of the underlying substance, such as salt or ash; school disagreement prevents a unanimity claim.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Processing must establish a relevant change of identity. Dilution, filtration or a new label alone is not demonstrated istihalah."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q6",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q6",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q7",
+    "school": "Hanafi",
+    "question_id": "Q7",
+    "question": "Impure serum, enzymes and gelatin after processing",
+    "status": "inference",
+    "proposition": "The transformation doctrine supplies a possible route for an originally impure input, but no serum/gelatin process ruling was found here. Rennet is itself disputed: Abu Hanifa regards non-pig carcass rennet as pure; Abu Yusuf and Muhammad treat contamination differently.",
+    "authority_book": "Ibn Abidin, Radd al-Muhtar; Ibn Nujaym, al-Bahr al-Ra’iq",
+    "locator": "Radd, vol. 1 p. 327; Bahr, vol. 1 pp. 112–116",
+    "primary_url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+    "source_ids": [
+      "H1",
+      "H6"
+    ],
+    "counterpoint": "An animal-derived enzyme is not automatically impure under every Hanafi position; rennet’s specific treatment cannot simply be generalized to all enzymes.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Record ingredient origin, extraction, contamination and final identity; evaluate serum, enzymes and gelatin separately. No cultivated product certification follows."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q7",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-H-Q7",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q8",
+    "school": "Hanafi",
+    "question_id": "Q8",
+    "question": "Sea animals without slaughter",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Quduri restricts aquatic edibility to fish and disapproves floating dead fish; al-Tahtawi states that fish require no slaughter.",
+    "authority_book": "al-Quduri, Mukhtasar al-Quduri, English translation; al-Tahtawi, Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah",
+    "locator": "Mukhtasar, ch. 50, aquatic species; Tahtawi, digital page 2",
+    "primary_url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "source_ids": [
+      "H4",
+      "H7"
+    ],
+    "counterpoint": "The translation’s 'disapproved' must not be reduced to harmless dislike; exact tafi conditions and legal force require fuller commentary.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Fish tissue needs species/death-history analysis; a broad 'all seafood is exempt' premise does not fit this manual."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q8",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-H-Q8",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "HN-Q9",
+    "school": "Hanafi",
+    "question_id": "Q9",
+    "question": "Living cells/tissue and a modern analogy",
+    "status": "inference",
+    "proposition": "Classical detached-part and transformation rules create separate starting questions: lawful source at removal, then whether subsequent material remains the same legal substance.",
+    "authority_book": "Ibn Abidin, Radd al-Muhtar; Ibn Abidin, Radd al-Muhtar",
+    "locator": "Radd, vol. 6 pp. 310–311 and vol. 1 p. 327",
+    "primary_url": "https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح",
+    "source_ids": [
+      "H2",
+      "H1"
+    ],
+    "counterpoint": "The passages do not discuss cell lines, proliferation, differentiation or cultured meat. Juristic 'life' is not a cell-viability assay.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Do not infer that cellular multiplication erases an unlawful biopsy origin; source status and any asserted transformation require independent adjudication."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "H-Q9",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-H-Q9",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q1",
+    "school": "Shafii",
+    "question_id": "Q1",
+    "question": "Who decides tayyib/khabith?",
+    "status": "blind_agent_checked",
+    "proposition": "Al-Nawawi’s discussion uses qualified Arab customary palatability for otherwise unclassified animals: settled, adequately supplied people, rather than desperate or indiscriminate eaters.",
+    "authority_book": "al-Nawawi, commenting on al-Shirazi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu, vol. 9 pp. 27–28",
+    "primary_url": "https://www.islamweb.net/ar/library/content/14/5280/index.php",
+    "source_ids": [
+      "S1"
+    ],
+    "counterpoint": "Textual rules control. Unknown animals are compared with known kinds; the text reports disagreement when no analogy exists.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A contemporary cultivated product is not resolved by polling any consumer group. Extending this classical animal test requires an argued interpretation."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q1",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q1",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q2",
+    "school": "Shafii",
+    "question_id": "Q2",
+    "question": "Are the four Qur’anic prohibitions an exhaustive operative dietary list?",
+    "status": "inference",
+    "proposition": "Reliance prohibits predators and harmful or impure foods in addition to the four-item formulation. The operative list therefore contains further restrictions.",
+    "authority_book": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller, Reliance of the Traveller / Umdat al-Salik; al-Nawawi, commenting on al-Shirazi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Reliance j16.3, j16.5–6; Majmu vol. 9 pp. 27–28",
+    "primary_url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "source_ids": [
+      "S2",
+      "S1"
+    ],
+    "counterpoint": "Nawawi reports a permissive argument invoking Qur’an 6:145 for a narrow class of otherwise unclassified animals; that is not unrestricted four-item-only permission.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A novel food needs positive classification and impurity/harm assessment; silence in a short prohibited-food list is insufficient."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q2",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-S-Q2",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q3",
+    "school": "Shafii",
+    "question_id": "Q3",
+    "question": "Unslaughtered carcasses and parts detached from living animals",
+    "status": "blind_agent_checked",
+    "proposition": "Nawawi treats ordinary unslaughtered carcasses and living-detached parts as impure, with distinct carcass exceptions for fish, locust and humans.",
+    "authority_book": "al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu, vol. 2 pp. 580–581",
+    "primary_url": "https://www.islamweb.com/ar/library/content/14/1214/الميتة-من-غير-السمك-والجراد-والآدمي",
+    "source_ids": [
+      "S3"
+    ],
+    "counterpoint": "Purity does not establish edibility. Detached parts of the excepted categories have a reported disagreement, with purity the stronger view.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A land-animal tissue biopsy triggers a source question; the human-purity exception supplies no permission to consume human material."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q3",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q3",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q4",
+    "school": "Shafii",
+    "question_id": "Q4",
+    "question": "Flowing blood, liver and spleen",
+    "status": "blind_agent_checked",
+    "proposition": "Nawawi permits eating liver and spleen, but distinguishes blood exuding from those organs, judged impure on the stronger view.",
+    "authority_book": "al-Nawawi, al-Majmu Sharh al-Muhadhdhab; al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu, vol. 9 displayed p. 78; vol. 2 pp. 576–577",
+    "primary_url": "https://islamweb.net/ar/library/content/14/5316/فصل-أكل-الكبد-والطحال",
+    "source_ids": [
+      "S6",
+      "S5"
+    ],
+    "counterpoint": "Residual blood on meat/bones is separately discussed with hardship-based accommodation; organ edibility is not general blood permission.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A liver-derived ingredient and isolated blood/serum require separate classifications; edible organ status cannot settle serum purity."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q4",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q4",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q5",
+    "school": "Shafii",
+    "question_id": "Q5",
+    "question": "Invocation: deliberate omission versus forgetting",
+    "status": "blind_agent_checked",
+    "proposition": "Nawawi treats invocation as recommended: omission, deliberate or forgetful, does not invalidate slaughter. Deliberate omission is mildly disapproved in the preferred account.",
+    "authority_book": "al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu, vol. 8 pp. 384–387, invocation discussion",
+    "primary_url": "https://www.islamweb.net/ar/library/content/14/5104/فرع-ذبح-شاة-وقال-أذبح-لرضاء-فلان",
+    "source_ids": [
+      "S7"
+    ],
+    "counterpoint": "A reported internal view makes deliberate omission sinful. Omission must also be distinguished from dedication to another deity.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Missing invocation alone has a different consequence here from the cited Hanafi rule; other donor-slaughter requirements still apply."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q5",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q5",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q6",
+    "school": "Shafii",
+    "question_id": "Q6",
+    "question": "Istihalah: purification, exceptions and disagreement",
+    "status": "blind_agent_checked",
+    "proposition": "Nawawi’s preferred account rejects purification of intrinsically impure matter merely by becoming ash or salt. Wine becoming vinegar is distinguished.",
+    "authority_book": "al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu, vol. 2 pp. 596–597",
+    "primary_url": "https://www.islamweb.net/amp/ar/library/content/14/1246/لا-يطهر-السرجين-والعذرة-وعظام-الميتة-وسائر-الأعيان-النجسة-بالإحراق-بالنار",
+    "source_ids": [
+      "S4"
+    ],
+    "counterpoint": "He records an internal permissive transformation view but rejects it as unsound; neither absolute unanimity nor 'no transformation ever' is accurate.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A general claim that chemical transformation always purifies cannot be assigned to the preferred position cited here."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q6",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q6",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q7",
+    "school": "Shafii",
+    "question_id": "Q7",
+    "question": "Impure serum, enzymes and gelatin after processing",
+    "status": "inference",
+    "proposition": "Read together, the impurity-consumption prohibition and restrictive transformation account do not establish that processed impure serum, enzymes or gelatin become permissible.",
+    "authority_book": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller, Reliance of the Traveller / Umdat al-Salik; al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Reliance j16.6; Majmu vol. 2 pp. 596–597",
+    "primary_url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "source_ids": [
+      "S2",
+      "S4"
+    ],
+    "counterpoint": "No ingredient-specific modern ruling or exact manufacturing assessment was located. Particular exceptions must be demonstrated, not presumed.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Determine whether each input was impure, whether contamination remains and whether a recognized exception applies; processing alone is insufficient evidence."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q7",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-S-Q7",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q8",
+    "school": "Shafii",
+    "question_id": "Q8",
+    "question": "Sea animals without slaughter",
+    "status": "blind_agent_checked",
+    "proposition": "Reliance permits aquatic game with listed exclusions including frogs and crocodiles, and exempts fish and locusts from slaughter, including natural death.",
+    "authority_book": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller, Reliance of the Traveller / Umdat al-Salik",
+    "locator": "Reliance j16.4 and j17.1",
+    "primary_url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "source_ids": [
+      "S2"
+    ],
+    "counterpoint": "This is the selected manual’s formulation, not proof that all amphibious species or every internal school opinion agree.",
+    "modern_application": {
+      "status": "inference",
+      "text": "An aquatic source still requires species classification; the slaughter exception does not make all aquatic-derived ingredients interchangeable."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q8",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-S-Q8",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "S-Q9",
+    "school": "Shafii",
+    "question_id": "Q9",
+    "question": "Living cells/tissue and a modern analogy",
+    "status": "inference",
+    "proposition": "Detached-part impurity and restrictive transformation provide the closest verified classical issues for living-cell cultivation, rather than an explicit cultured-meat ruling.",
+    "authority_book": "al-Nawawi, al-Majmu Sharh al-Muhadhdhab; al-Nawawi, al-Majmu Sharh al-Muhadhdhab",
+    "locator": "Majmu vol. 2 pp. 580–581 and 596–597",
+    "primary_url": "https://www.islamweb.com/ar/library/content/14/1214/الميتة-من-غير-السمك-والجراد-والآدمي",
+    "source_ids": [
+      "S3",
+      "S4"
+    ],
+    "counterpoint": "Neither text decides whether a cell, cell line or differentiated biomass remains legally the original detached part.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Trace biopsy origin and media separately. Claims that growth or differentiation alone removes impurity remain unverified applications."
+    },
+    "confidence": {
+      "classical": "medium",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "S-Q9",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-S-Q9",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q1",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q1",
+    "question": "Who decides tayyib/khabith?",
+    "status": "open",
+    "proposition": "An exact Sistani rule identifying who decides tayyib/khabith was not located. His general taqlid rule requires following a qualified jurist’s rulings.",
+    "authority_book": "Ali al-Sistani, Islamic Laws; Ali al-Sistani, Minhaj al-Salihin, vol. 3",
+    "locator": "Islamic Laws ruling 2; Minhaj vol. 3 rulings 910–913",
+    "primary_url": "https://www.sistani.org/english/book/48/2117/",
+    "source_ids": [
+      "J1",
+      "J10"
+    ],
+    "counterpoint": "General juristic authority and explicit impurity/harm rules do not answer the specific customary-repugnance test. No whole-school conclusion is warranted.",
+    "modern_application": {
+      "status": "unresolved",
+      "text": "No consumer-disgust or Arab-custom test should be attributed to Sistani without a direct passage."
+    },
+    "confidence": {
+      "classical": "unresolved",
+      "modern": "unresolved"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q1",
+    "extraction_status": "unresolved",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q1",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q2",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q2",
+    "question": "Are the four Qur’anic prohibitions an exhaustive operative dietary list?",
+    "status": "inference",
+    "proposition": "Sistani lists prohibited predatory birds and prohibited parts of otherwise lawful animals. The four-item formula is therefore not his complete operative dietary list.",
+    "authority_book": "Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 2641 and 2643",
+    "primary_url": "https://www.sistani.org/english/book/48/8227/",
+    "source_ids": [
+      "J6"
+    ],
+    "counterpoint": "This conclusion is inferred from additional explicit rulings; a direct exegesis of Qur’anic exclusivity was not established.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A cultivated product’s omission from a four-item list cannot by itself establish permission."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q2",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-J-Q2",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q3",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q3",
+    "question": "Unslaughtered carcasses and parts detached from living animals",
+    "status": "blind_agent_checked",
+    "proposition": "Unlawfully dead gush-blood animals are impure; flesh or life-containing parts detached while alive are impure. Wool, bones and other legally lifeless parts are distinguished.",
+    "authority_book": "Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 85–88",
+    "primary_url": "https://www.sistani.org/english/book/48/2131/",
+    "source_ids": [
+      "J2"
+    ],
+    "counterpoint": "Fish carcasses are pure, but purity is not edibility. The legal category of lifeless bone is not modern biological cell absence.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A mammalian biopsy raises detached-part impurity; cell isolation does not itself establish an exception."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q3",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q3",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q4",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q4",
+    "question": "Flowing blood, liver and spleen",
+    "status": "blind_agent_checked",
+    "proposition": "Gush-blood animal blood is impure, with conditions for blood remaining after lawful slaughter and drainage. Sistani prohibits spleen among lawful land-animal parts. For birds, the other listed organs beyond blood and droppings are subject to obligatory precaution.",
+    "authority_book": "Ali al-Sistani, Islamic Laws; Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 93–94 and 2643",
+    "primary_url": "https://www.sistani.org/english/book/48/2132/",
+    "source_ids": [
+      "J3",
+      "J6"
+    ],
+    "counterpoint": "The Sunni paired liver/spleen exception cannot be transferred here. A direct affirmative liver ruling was not extracted; omission from a list alone is weaker evidence.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Separate organ identity, residual blood and isolated blood fractions; spleen-derived inputs need their own assessment."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q4",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q4",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q5",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q5",
+    "question": "Invocation: deliberate omission versus forgetting",
+    "status": "blind_agent_checked",
+    "proposition": "Invocation by the slaughterer is required. Sistani expressly excuses forgetting, whereas omission through ignorance makes the animal unlawful.",
+    "authority_book": "Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws ruling 2611(4)",
+    "primary_url": "https://www.sistani.org/english/book/48/8220/",
+    "source_ids": [
+      "J5"
+    ],
+    "counterpoint": "Intentional omission conflicts with the stated condition; the passage separately specifies timing and the person invoking.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Where donor slaughter is required, records should establish the required invocation rather than assume any operator’s later naming suffices."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q5",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q5",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q6",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q6",
+    "question": "Istihalah: purification, exceptions and disagreement",
+    "status": "blind_agent_checked",
+    "proposition": "True transformation of essence into a new pure thing purifies. Grinding impure wheat into flour or baking it does not; doubtful transformation leaves impurity.",
+    "authority_book": "Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 189–191",
+    "primary_url": "https://www.sistani.org/english/book/48/2144/",
+    "source_ids": [
+      "J4"
+    ],
+    "counterpoint": "Some borderline changes receive precautionary treatment. A processing operation is not automatically a change of legal substance.",
+    "modern_application": {
+      "status": "inference",
+      "text": "A manufacturing assessment must establish changed identity; incomplete change or uncertainty cannot be reported as proven purification."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q6",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q6",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q7",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q7",
+    "question": "Impure serum, enzymes and gelatin after processing",
+    "status": "blind_agent_checked",
+    "proposition": "Official gelatin rulings distinguish unknown source, known animal origin, lawful slaughter, minute absorption and established transformation. Arabic answers qualify that manufacturing transformation is not established and assess identity by customary understanding.",
+    "authority_book": "Ali al-Sistani, Official question and answer: al-Jilatin; Ali al-Sistani, Official question and answer: Gelatin; Ali al-Sistani, Islamic Laws; Ali al-Sistani, Islamic Laws",
+    "locator": "Arabic gelatin Q1–3, Q9; English gelatin Q1–2; Islamic Laws 90 and 100",
+    "primary_url": "https://www.sistani.org/arabic/qa/02067/",
+    "source_ids": [
+      "J9",
+      "J8",
+      "J2",
+      "J3"
+    ],
+    "counterpoint": "Minute absorption is not a general permission for known impure gelatin. English chemical-change wording does not establish every hydrolysis as transformation. This account does not resolve every enzyme or serum preparation.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Gelatin needs process-specific identity evidence; serum and other enzymes are not adjudicated by this gelatin answer alone."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "Arabic passages paraphrased by researcher; English mirror/official text distinguished in source registry.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q7",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q7",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q8",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q8",
+    "question": "Sea animals without slaughter",
+    "status": "blind_agent_checked",
+    "proposition": "Scaled fish require lawful capture conditions rather than land-animal slaughter; death in water generally disqualifies, with a net-capture exception. Scaleless fish are prohibited.",
+    "authority_book": "Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 2632 and 2634",
+    "primary_url": "https://www.sistani.org/english/book/48/8226/",
+    "source_ids": [
+      "J7"
+    ],
+    "counterpoint": "The fisher need not be Muslim or invoke Allah’s name, but capture must be established. Pure fish carcass does not mean edible fish carcass.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Identify species and collection conditions before applying an aquatic exemption; this row does not survey all seafood exceptions."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q8",
+    "extraction_status": "evidence",
+    "kind": "evidence",
+    "verification_id": "V-HSJ-J-Q8",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  },
+  {
+    "id": "J-Q9",
+    "school": "Sistani_named_Jafari_authority",
+    "question_id": "Q9",
+    "question": "Living cells/tissue and a modern analogy",
+    "status": "inference",
+    "proposition": "The verified framework separates a living-detached source from genuine later transformation; no official cultivated-cell ruling was established in this extraction.",
+    "authority_book": "Ali al-Sistani, Islamic Laws; Ali al-Sistani, Islamic Laws; Ali al-Sistani, Islamic Laws",
+    "locator": "Islamic Laws rulings 87, 189–191 and 2638",
+    "primary_url": "https://www.sistani.org/english/book/48/2131/",
+    "source_ids": [
+      "J2",
+      "J4",
+      "J7"
+    ],
+    "counterpoint": "Fishing rules distinguish pieces removed from a live fish, showing that mammalian detached-part analysis cannot simply cover every species.",
+    "modern_application": {
+      "status": "inference",
+      "text": "Assess donor species, removal, medium and final identity separately; cellular viability or multiplication is not itself a verified istihalah finding."
+    },
+    "confidence": {
+      "classical": "high",
+      "modern": "low; conditional analytical analogy, not a fatwa"
+    },
+    "translation_note": "English source read directly.",
+    "extraction_batch": "hsj",
+    "extraction_id": "J-Q9",
+    "extraction_status": "inference",
+    "kind": "inference",
+    "verification_id": "V-HSJ-J-Q9",
+    "source_review_status": "blind_agent_checked",
+    "verification_scope": "Bounded historical or named-authority statement; no direct verdict on cultivated chicken."
+  }
+]

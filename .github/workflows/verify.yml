@@ -17,6 +17,10 @@ jobs:
           node-version: '22'
       - name: Check curated files and evidence references
         run: node tools/verify.mjs
+      - name: Check halal workstream rules against fixtures
+        run: node tools/test-halal-checks.mjs
+      - name: Check Phase One evidence and privacy rules against fixtures
+        run: node tools/test-phase1-checks.mjs
       - name: Check deterministic catalog and manifest build
         run: |
           node tools/build-library.mjs

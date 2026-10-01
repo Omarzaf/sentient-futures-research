@@ -3,6 +3,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
+import {checkHalal} from './halal-checks.mjs';
+import {checkPhaseOne} from './phase1-checks.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
@@ -77,7 +79,9 @@ check(parsed.length===figures.countries.length,'CSV row count');
 for(const r of parsed){const original=figures.countries.find(c=>c.country===r.country);check(!!original,'Unknown CSV country '+r.country);for(const k of ['total2010','animal2010','total2023','animal2023','plant2023','animalShare2023'])check(r[k]===''?!Number.isFinite(original?.[k]):Number(r[k])===original?.[k],'CSV/JSON value mismatch '+r.country+' '+k);}
 
 const catalog=json('sources/catalog.json');
-check(catalog.originalRegisterRecords===124,'Catalog register count');
+const halalRegister=json('research/halal-cultivated/source-register.json');
+const phaseOneRegister=json('research/halal-cultivated/phase1/source-register.json');
+check(catalog.originalRegisterRecords===124+halalRegister.length+phaseOneRegister.length,'Catalog register count');
 check(catalog.records.length===catalog.uniqueSourceIdentities,'Catalog count metadata');
 check(new Set(catalog.records.map(r=>r.id)).size===catalog.records.length,'Catalog IDs unique');
 check(catalog.records.every(r=>!/^open source$/i.test(r.title)),'Generic source titles lost contextual labels');
@@ -85,8 +89,16 @@ for(const r of json('research/orientation/sources.json').sources)check(catalog.r
 const imports=json('provenance/import-records.json');
 for(const prefix of ['research/orientation/','research/india-pakistan/'])for(const p of paths.filter(p=>p.startsWith(prefix)))check(imports.some(r=>r.path===p),'Missing import provenance '+p);
 for(const [rs,p] of [[comparative,'research/comparative-protein/source-register.json'],[foundation,'research/ai-protein/source-register.json'],[currentReview,'research/india-pakistan/source-register.json']])for(const r of rs)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===p&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const library=json('research/library.json');check(library.documents.length===6,'Expected six research documents');
+const library=json('research/library.json');check(library.documents.length===7,'Expected seven research documents');
 for(const d of library.documents){check(paths.includes(d.path),'Missing library document '+d.id);check(/human verification pending/i.test(read(d.path)),'Missing visible draft notice '+d.id);}
 const ris=read('research/ai-protein/references.ris');check((ris.match(/^TY  - /gm)||[]).length===44&&(ris.match(/^ER  -/gm)||[]).length===44,'RIS record completeness');
-const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,failures};
+const halalDir='research/halal-cultivated/';
+const halal=checkHalal(Object.fromEntries(paths.filter(p=>p.startsWith(halalDir)).map(p=>[p.slice(halalDir.length),read(p)])));
+checks+=halal.checks;failures.push(...halal.failures);
+for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===halalDir+'source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
+const phaseOneDir=halalDir+'phase1/';
+for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
+const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
+checks+=phaseOne.checks;failures.push(...phaseOne.failures);
+const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124+halalRegister.length+phaseOneRegister.length,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,failures};
 console.log(JSON.stringify(result,null,2));if(failures.length)process.exitCode=1;

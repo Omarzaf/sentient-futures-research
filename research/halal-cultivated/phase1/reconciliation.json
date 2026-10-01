@@ -1,0 +1,608 @@
+{
+  "method": "Coordinator compared all45 independent answers with extraction and retained epistemic gaps.",
+  "school_decisions": [
+    {
+      "id": "V-MH-M-Q1",
+      "question_id": "M-Q1",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Al-Qurtubi attributes to Malik a legal reading: tayyibat are what revelation permits and khabaith what it prohibits. Ibn Rushd explains why revulsion alone does not prohibit an animal without a text under that reading. This is a juristic interpretation, not a vote by contemporary consumers.",
+        "ar": "ينسب القرطبي إلى مالك أن الطيبات هي المحللات والخبائث هي المحرمات. ويبين ابن رشد أن مجرد استقذار النفوس لا يحرم ما لم يرد فيه نص على هذا الفهم. فهذا تفسير فقهي لا تصويت لأذواق المستهلكين."
+      },
+      "independent_limits": "Attribution to Malik through al-Qurtubi; Ibn Rushd is explaining competing interpretations, not issuing a modern cultivated-meat decision."
+    },
+    {
+      "id": "V-MH-M-Q2",
+      "question_id": "M-Q2",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "A blanket four-items-only description is unsafe. Malik's Muwatta transmits the prohibition of fanged predators; Ibn Rushd records both prohibition and the majority-Maliki preference for dislike, explaining the tension with Quran 6:145. Additional restrictions cannot simply be erased, and disagreement over their legal strength must remain visible.",
+        "ar": "لا يصح إطلاق أن المحرمات أربعة فقط. يروي الموطأ تحريم ذوات الأنياب، ويسجل ابن رشد التحريم والكراهة مع اعتماد جمهور المالكية للكراهة وبيان التعارض الظاهر مع آية الأنعام. فلا تسقط القيود الأخرى ولا يطمس الخلاف في درجتها."
+      },
+      "independent_limits": "The islamicbook transcription has omissions in several sentences; the clear discussion establishes disagreement but is unsuitable for polishing an exact quotation from the damaged clauses."
+    },
+    {
+      "id": "V-MH-M-Q3",
+      "question_id": "M-Q3",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "For land animals requiring slaughter, invalid death is carrion; necessity is a separate concession. Al-Dardir classifies parts detached from an animal whose carcass is impure as impure; al-Dasuqi expressly includes flesh, sinews and veins. These rules have stated exceptions and do not mean that every animal-derived substance is impure.",
+        "ar": "الحيوان البري المفتقر إلى الذكاة إذا مات دونها فهو ميتة، والضرورة رخصة مستقلة. ويعد الدردير المنفصل عما ميتته نجسة نجسا، ويصرح الدسوقي بدخول اللحم والعصب والعروق. ولا يشمل ذلك كل مادة حيوانية بلا استثناء."
+      },
+      "independent_limits": "Risala bracketed commentary disagrees with the base text on whether a gravely injured animal can still be validly slaughtered. Hair, marine animals and human remains have separate discussions. Purity is not identical to permission to eat."
+    },
+    {
+      "id": "V-MH-M-Q4",
+      "question_id": "M-Q4",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Flowing/residual blood account corroborated; named Maliki organ passage remains unresolved.",
+      "unresolved_in_checker": true,
+      "independent_answer": {
+        "en": "Flowing blood is prohibited and impure. Al-Dardir allows the blood remaining in vessels and the heart after valid slaughter, distinguishing spilled blood in the abdomen or slaughter site. The supplied Ibn Rushd passage mentions the report of two permitted bloods but does not name them; I have not independently verified a named Maliki liver-and-spleen ruling from these locators.",
+        "ar": "الدم المسفوح محرم ونجس. ويميز الدردير الدم الباقي في العروق والقلب بعد الذكاة من المسفوح في البطن أو محل الذبح. ويذكر ابن رشد حديث الدمين دون تسميتهما؛ فلم أتحقق هنا من نص مالكي يسمي الكبد والطحال."
+      },
+      "independent_limits": "Partial verification: flowing/residual blood distinction read directly; named organ exceptions remain unresolved within supplied Maliki locators. Ibn Rushd also distinguishes blood taken from a living animal and reports disagreement over non-flowing and fish blood."
+    },
+    {
+      "id": "V-MH-M-Q5",
+      "question_id": "M-Q5",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "The Risala's base text permits eating when invocation was forgotten and forbids it when deliberately omitted. It applies the same distinction to sending hunting animals. Its commentary describes the obligation as conditional on remembrance and ability.",
+        "ar": "يبيح متن الرسالة الأكل عند نسيان التسمية ويمنعه عند تركها عمدا، ويجري التفصيل نفسه في إرسال الجوارح للصيد. ويقيد الشرح الوجوب بالذكر والقدرة."
+      },
+      "independent_limits": "The index credits Alhaj Bello Mohammad Daura as translator and says commentary is included from ath-Thamr ad-Dani by al-Azhari; do not attribute every bracket to Ibn Abi Zayd."
+    },
+    {
+      "id": "V-MH-M-Q6",
+      "question_id": "M-Q6",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Al-Qarafi reports disagreement over carrion ash and wine deposits, and distinguishes complete disappearance of impurity-defining qualities from incomplete change. Al-Dardir accepts wine becoming vinegar, including deliberate conversion; hardening requires disappearance of intoxication. These examples support differentiated transformation rules, not unconditional purification by processing.",
+        "ar": "ينقل القرافي الخلاف في رماد الميتة والمتحجر في أواني الخمر، ويفرق بين زوال أوصاف النجاسة كليا وتغيرها الناقص. ويقبل الدردير تخليل الخمر ولو بفعل فاعل، ويشترط زوال الإسكار في تحجرها. فليست المعالجة وحدها مطهرة بإطلاق."
+      },
+      "independent_limits": "Al-Qarafi's principle is his analysis alongside reported school disagreement; his historical account of bodily transformation is not modern biological evidence."
+    },
+    {
+      "id": "V-MH-M-Q7",
+      "question_id": "M-Q7",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": {
+        "en": "No explicit serum, enzyme or gelatin verdict appears in the passages read. The Risala rejects consuming contaminated liquid fat; al-Qarafi records conflicting washing/absorption and transformation cases. Applying these to a manufactured ingredient requires establishing its source and what the processing actually changes. Purification cannot be inferred from the word processed.",
+        "ar": "لا تتضمن النصوص المقروءة حكما صريحا على المصل أو الإنزيم أو الجيلاتين. تمنع الرسالة أكل الدهن المائع المتنجس، وينقل القرافي خلافا في الامتصاص والغسل والاستحالة. والتنزيل على منتج صناعي يحتاج معرفة المصدر وحقيقة التغير؛ فالمعالجة ليست دليلا كافيا."
+      },
+      "independent_limits": "Modern application unresolved. This is a research constraint inferred from the limited primary material, not a historical fatwa on modern culture media."
+    },
+    {
+      "id": "V-MH-M-Q8",
+      "question_id": "M-Q8",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Malik expressly allows sea carrion and fish caught by Magians; slaughter is therefore unnecessary for those fish. Ibn Rushd attributes broad marine permission to Malik but records his hesitation/dislike over the creature called sea-pig. Al-Dardir's broad marine-carcass purity rule must be distinguished from an independent edibility ruling.",
+        "ar": "يجيز مالك ميتة البحر وصيد المجوسي من الحيتان، فلا تفتقر هذه إلى الذكاة. وينقل ابن رشد إباحة حيوان البحر مع كراهة أو توقف في المسمى خنزير الماء. وحكم طهارة ميتة البحري عند الدردير ينبغي تمييزه من حكم الأكل."
+      },
+      "independent_limits": "Al-Dasuqi records contrary reports concerning animals living long on land. Avoid silently converting the purity discussion into a universal modern seafood permission."
+    },
+    {
+      "id": "V-MH-M-Q9",
+      "question_id": "M-Q9",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": {
+        "en": "Detached flesh is explicitly covered, but isolated viable cells, tissue culture and cell proliferation are not. Al-Qarafi's discussion of life as a cause of purity concerns animals and their substances in its own legal context. Identifying a cell culture with a living animal or with transformed impurity would be a new analogy, not a quoted Maliki ruling.",
+        "ar": "يتناول النص اللحم المنفصل، ولا يتناول الخلايا المعزولة الحية أو زراعة الأنسجة وتكاثرها. وكلام القرافي عن الحياة علة للطهارة في سياق الحيوان وأجزائه. وإلحاق المزرعة الخلوية بالحيوان الحي أو بالاستحالة قياس جديد لا نص مالكي منقول."
+      },
+      "independent_limits": "Modern classification unresolved. Cellular viability is not itself a conclusion supplied by these legal texts."
+    },
+    {
+      "id": "V-MH-H-Q1",
+      "question_id": "HB-Q1",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "In al-Mughni, al-Khiraqi's matn uses Arab acceptance and revulsion; Ibn Qudama specifies urban Hijazi usage. Unknown animals are compared with their nearest Hijazi analogue; without one, he applies permission. This is a constrained juristic criterion, not every individual's disgust. Umdat al-fiqh lists repulsive creatures among prohibited categories.",
+        "ar": "يذكر متن الخرقي استطابة العرب واستخباثهم، ويخصص ابن قدامة ذلك بأهل أمصار الحجاز. ويرد المجهول إلى أقرب شبيه، فإن لم يوجد شبيه فالأصل الإباحة. فالمعيار فقهي مقيد لا اشمئزاز كل فرد، وتذكر العمدة المستقذرات ضمن الممنوعات."
+      },
+      "independent_limits": "Al-Khiraqi's quoted matn and Ibn Qudama's explanation are separate authorial layers; the modern footnotes are another layer."
+    },
+    {
+      "id": "V-MH-H-Q2",
+      "question_id": "HB-Q2",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "No. Umdat al-fiqh prohibits additional animal categories, including predatory beasts, clawed birds and domestic donkeys, and separately excludes impure or harmful non-animal foods. The four Quranic items therefore do not exhaust the operative rules in this text.",
+        "ar": "لا؛ فالعمدة تمنع أصنافا أخرى كسباع ذوات الأنياب وذوات المخالب من الطير والحمر الأهلية، وتستثني النجس والضار من غير الحيوان. فالأربعة المذكورة ليست حاصرة لأحكام هذا المتن."
+      },
+      "independent_limits": "The explanation for omitted pork is a modern footnote; the additional prohibitions themselves appear in the Arabic matn."
+    },
+    {
+      "id": "V-MH-H-Q3",
+      "question_id": "HB-Q3",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Land animals requiring slaughter are not edible without it. Ibn Qudama treats a part cut from an animal with stable life as carrion. He separately permits the part cut after valid slaughter even before death, while disapproving premature cutting. The timing and legal completion of slaughter matter.",
+        "ar": "لا يحل الحيوان البري المفتقر إلى الذكاة بدونها. ويجعل ابن قدامة المقطوع مع حياة مستقرة ميتة، ويفرق عنه المقطوع بعد حصول الذكاة وقبل زهوق النفس فيبيحه مع كراهة التعجيل. فالعبرة بتوقيت القطع وحصول الذكاة."
+      },
+      "independent_limits": "Marine animals and locusts are separate exceptions. This does not explicitly determine the status of cultured descendants of a biopsy."
+    },
+    {
+      "id": "V-MH-H-Q4",
+      "question_id": "HB-Q4",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Al-Mardawi reports residual blood in edible animals' vessels as pure on the correct school view, with disagreement recorded; liver and spleen are pure without disagreement in this passage. Ibn Qudama cites the two permitted bloods report naming both organs, although his immediate issue is an oath's wording, not modern ingredient production.",
+        "ar": "ينقل المرداوي طهارة دم عروق المأكول على الصحيح مع ذكر الخلاف، ويقرر عدم الخلاف في طهارة الكبد والطحال. ويستشهد ابن قدامة بحديث الدمين المباحين مسميا العضوين، لكن سياقه تفسير لفظ اليمين لا تصنيع المكونات الحديثة."
+      },
+      "independent_limits": "The inspected al-Insaf text contrasts residual blood with prohibited spilled blood; purity and consumption are distinct propositions. Organ exceptions do not expressly extend to separated serum."
+    },
+    {
+      "id": "V-MH-H-Q5",
+      "question_id": "HB-Q5",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Preserve ordinary slaughter versus hunting distinction. The selected matn treats forgotten invocation differently in hunting.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "In the Umdat matn, deliberate omission invalidates ordinary slaughter; forgetfulness is excused. Hunting is stricter in the same text: either deliberate or forgotten omission prevents eating. The modern footnote records an alternative Hanbali report excusing forgetfulness in hunting.",
+        "ar": "في متن العمدة يبطل الذبح بترك التسمية عمدا ويعذر الناسي. أما الصيد فيمنع أكله عند تركها عمدا أو سهوا. وتذكر الحاشية الحديثة رواية حنبلية أخرى تعذر النسيان في الصيد."
+      },
+      "independent_limits": "Do not generalize the ordinary-slaughter exception to hunting or attribute the modern comparative footnote to Ibn Qudama."
+    },
+    {
+      "id": "V-MH-H-Q6",
+      "question_id": "HB-Q6",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Al-Mughni denies general purification by transformation. Al-Mubdi records a contrary report, specific creatures generated from impurity, and spontaneous wine-to-vinegar purification; deliberate vinegar-making remains disputed. Ibn Taymiyya expressly prefers purification when the impure substance becomes a wholesome different substance. These are distinct positions, not one unanimous Hanbali rule.",
+        "ar": "ينفي المغني التطهير العام بالاستحالة. ويسجل المبدع رواية مخالفة وحيوانات مخصوصة متولدة من النجاسة وطهارة الخمر المتخللة بنفسها، مع الخلاف في التخليل المتعمد. ويرجح ابن تيمية الطهارة إذا صارت العين الخبيثة عينا طيبة. فليست الأقوال قاعدة حنبلية مجمعا عليها."
+      },
+      "independent_limits": "The supplied Ibn Taymiyya URL visibly supports pp.70-71; p.72 was not needed or independently checked. Purity of specific generated creatures is not an explicit cell-culture exception."
+    },
+    {
+      "id": "V-MH-H-Q7",
+      "question_id": "HB-Q7",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": {
+        "en": "No modern verdict on serum, enzymes or gelatin was found. Ibn Qudama reports carrion milk/rennet as impure in the apparent school position and records a purity report. That ingredient-specific disagreement and competing transformation rules prevent an automatic answer based on processing alone.",
+        "ar": "لم يوجد حكم حديث على المصل أو الإنزيمات أو الجيلاتين. ينقل ابن قدامة نجاسة لبن الميتة وإنفحتها في ظاهر المذهب ورواية بالطهارة. والخلاف الخاص بالإنفحة وبالاستحالة يمنع الجواب الآلي بمجرد حصول المعالجة."
+      },
+      "independent_limits": "Modern application unresolved. Rennet is an expressly discussed substance, not a blanket substitute for all enzymes or culture-medium constituents; no process chemistry was supplied or assessed."
+    },
+    {
+      "id": "V-MH-H-Q8",
+      "question_id": "HB-Q8",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": {
+        "en": "Read the two Umdat passages together: eligible marine animals need no slaughter, but the foods matn excludes snakes, frogs and crocodiles. Animals also living on land require slaughter, except crabs and similar cases. The opening marine sentence cannot safely be quoted without these restrictions.",
+        "ar": "يجمع بين نصي العمدة: البحري المباح لا يحتاج إلى ذكاة، لكن متن الأطعمة يستثني الحية والضفدع والتمساح. وما يعيش في البر أيضا يفتقر إلى الذكاة إلا السرطان ونحوه. فلا يقتطع عموم العبارة من قيودها."
+      },
+      "independent_limits": "The illustrative amphibian examples in note1486 are modern commentary. This is the selected text's position, not an exhaustive survey of all Hanbali variants."
+    },
+    {
+      "id": "V-MH-H-Q9",
+      "question_id": "HB-Q9",
+      "extractor": "school_mh",
+      "checker": "blind_mh",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": {
+        "en": "Al-Mughni addresses severed animal parts, not cultured viable cells. Ibn Taymiyya addresses replacement of an impure substance by a wholesome different substance, not cell isolation or proliferation. Applying either to a culture requires a fresh legal classification and factual account; neither passage expressly answers cultivated chicken.",
+        "ar": "يتناول المغني الأجزاء المقطوعة لا الخلايا الحية المزروعة. ويتناول ابن تيمية انقلاب العين النجسة إلى عين طيبة لا عزل الخلايا أو تكاثرها. وتنزيل أحد الأصلين يحتاج توصيفا فقهيا وواقعيا جديدا؛ ولا يجيب النصان صراحة عن الدجاج المستزرع."
+      },
+      "independent_limits": "Modern classification unresolved; neither cellular survival nor multiplication is established here as legally decisive transformation."
+    },
+    {
+      "id": "V-HSJ-H-Q1",
+      "question_id": "HN-Q1",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Al-Kasani uses the judgment of sound dispositions (al-tiba‘ al-salima) in explaining why listed creeping creatures are khaba’ith, while expressly excepting locusts by transmitted evidence. This passage supports a juristic, text-constrained criterion; it does not identify an individual consumer, laboratory, state, or unrestricted popular vote as final arbiter.",
+      "independent_limits": "This limited passage does not supply the full Hanafi procedure for disputed customary classification."
+    },
+    {
+      "id": "V-HSJ-H-Q2",
+      "question_id": "HN-Q2",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "No, as an inference from the operative manual. Al-Quduri’s translated chapter also excludes fanged predators, taloned birds, domestic donkeys, and mules. These additional species rules mean that its operative dietary law cannot be reduced to four items alone.",
+      "independent_limits": "This is an inference from the manual’s rules, not an explicit authorial discussion of the exhaustiveness of a Quranic verse."
+    },
+    {
+      "id": "V-HSJ-H-Q3",
+      "question_id": "HN-Q3",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "The cited text treats a part detached from a living animal like that animal’s carcass. Ibn Abidin’s gloss excludes fish and locusts from this application and distinguishes parts taken after valid slaughter, even before all movement ends, from parts taken while the animal remains legally alive. The edible-species post-slaughter part may be eaten, although the text notes disapproval of premature cutting.",
+      "independent_limits": "This is a detached-part rule with species and slaughter qualifications. It is not evidence that every substance associated with every carcass is impure or inedible."
+    },
+    {
+      "id": "V-HSJ-H-Q4",
+      "question_id": "HN-Q4",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "H5 treats flowing blood as impure and distinguishes retained blood in slaughtered meat and organs. Its gloss warns against reading the exceptions as permitting blood merely because it comes from those locations. H7 explicitly distinguishes liver and spleen themselves, covered by the transmitted permission, from their blood; it records disagreement about nonflowing blood. Thus organ permission does not establish unrestricted permission for isolated blood.",
+      "independent_limits": "Purity, edibility, retained blood, organ tissue, and collected flowing blood must be tracked separately; this is no serum-specific ruling."
+    },
+    {
+      "id": "V-HSJ-H-Q5",
+      "question_id": "HN-Q5",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "In this English translation of al-Quduri, deliberate omission of Allah’s name renders the slaughtered animal carrion and uneatable; omission through forgetfulness does not prevent eating it.",
+      "independent_limits": "This verifies the translation’s stated distinction, subject to the other slaughter requirements."
+    },
+    {
+      "id": "V-HSJ-H-Q6",
+      "question_id": "HN-Q6",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Ibn Abidin endorses purification through change of the substance’s identity in examples including filth becoming ash and a donkey or pig becoming salt. He associates this with Muhammad, also reports Abu Hanifa, and identifies a contrary Abu Yusuf position. He explicitly permits eating the resulting salt. This is qualified doctrinal support for genuine transformation, not a claim of unanimity or that any processing suffices.",
+      "independent_limits": "The cited page supplies transformation examples and disagreement, not a complete catalogue of exceptions or a technical test for modern manufacturing."
+    },
+    {
+      "id": "V-HSJ-H-Q7",
+      "question_id": "HN-Q7",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Narrow rennet precedent to non-pig carcass rennet; retain contamination disagreement and do not generalize to enzymes.",
+      "unresolved_in_checker": true,
+      "independent_answer": "No blanket verdict on serum, modern enzymes, or gelatin follows. H1 supplies a transformation principle. H6 separately reports non-pig carcass rennet and milk as intrinsically pure, with disagreement about contamination from their container: Abu Hanifa does not treat them as contaminated, while the two companions do; solid rennet can be washed. These distinctions require source-specific analysis before any extension to industrial ingredients.",
+      "independent_limits": "Modern product classification and proof of transformation remain unresolved. Rennet is not textual proof that every animal enzyme or serum is permitted."
+    },
+    {
+      "id": "V-HSJ-H-Q8",
+      "question_id": "HN-Q8",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Preserve translated disapproved and unresolved legal force; do not soften it to ordinary dislike.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Al-Quduri’s translation permits aquatic animals only within the fish category and describes dead floating fish as disapproved. H7 explicitly explains that fish are eaten without ritual slaughter. This supports a fish exemption, not a permission for all marine animals.",
+      "independent_limits": "The supplied English wording alone does not settle the technical force of disapproved or every disputed aquatic species."
+    },
+    {
+      "id": "V-HSJ-H-Q9",
+      "question_id": "HN-Q9",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": "H2 provides a possible analogy from a detached living-animal part; H1 supplies a separate possible transformation inquiry. Neither passage identifies cultured cells, cell lines, proliferation, or a tissue-engineered food as its subject. A chicken-cell ruling would need an additional juristic classification of the starting material and final product.",
+      "independent_limits": "No direct cultivated-cell ruling verified. Biological viability alone does not establish legal life, carcass status, or transformation."
+    },
+    {
+      "id": "V-HSJ-S-Q1",
+      "question_id": "S-Q1",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Al-Nawawi describes customary palatability among settled, comfortably provisioned Arabs, rather than each consumer’s preference. It applies where no controlling text, command to kill, or prohibition on killing exists. He reports majority preference, further tie-breaking, and resemblance analysis; where resemblance remains inconclusive, permissibility is preferred over a prohibitory view. He also records disagreement about using Arabs of the Prophet’s time or those of each period.",
+      "independent_limits": "This is a historically specified juristic test for otherwise unclassified animals, not unrestricted contemporary disgust or universal cultural consensus."
+    },
+    {
+      "id": "V-HSJ-S-Q2",
+      "question_id": "S-Q2",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "No, as an inference from these operative rules. Reliance lists additional prohibited species, harmful substances, and impurities. S1 places customary classification within a hierarchy of textual rules and analogies, while preserving disagreement for the residual genuinely unclassified case.",
+      "independent_limits": "The four-item claim is being tested against the cited manual, not resolved by an independent Quranic exegesis here."
+    },
+    {
+      "id": "V-HSJ-S-Q3",
+      "question_id": "S-Q3",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Al-Nawawi treats ordinary carcasses as impure, with stated exceptions including fish and locusts. He treats detached living-animal parts such as tail fat, camel hump, ear, and limb as impure. He separately discusses fish, locust, and human detached parts, preferring purity there. He also explains that valid hunting and a fetus included in its mother’s slaughter are legal slaughter cases, rather than counterexamples to the carcass rule.",
+      "independent_limits": "The principal inquiry is purity; permission to consume every pure object does not follow. Human-related transcription details are not used to decide chicken-cell questions."
+    },
+    {
+      "id": "V-HSJ-S-Q4",
+      "question_id": "S-Q4",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Organ edibility and exuded-blood impurity remain separate.",
+      "unresolved_in_checker": false,
+      "independent_answer": "S6 expressly permits eating liver and spleen. S5 nevertheless regards blood as impure and reports the preferred view that blood exuding from liver or spleen is impure. It separately discusses unavoidable blood remaining on meat and bones. Therefore the organs cannot be equated with a collected blood ingredient, and retained-blood discussion cannot silently be converted into unrestricted blood purity.",
+      "independent_limits": "The distinction between organ edibility and exuded-blood impurity is explicit. No serum-specific conclusion is stated."
+    },
+    {
+      "id": "V-HSJ-S-Q5",
+      "question_id": "S-Q5",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Al-Nawawi’s stated school position makes invocation recommended: either deliberate or forgetful omission leaves the animal lawful. Deliberate omission is mildly disapproved on the preferred account; he also records Abu Hamid’s stricter attribution of sin. This must not be confused with slaughter dedicated to another object of worship, addressed separately on the same page.",
+      "independent_limits": "The permissibility statement concerns omission of invocation with other conditions satisfied, not every defective or idolatrous slaughter."
+    },
+    {
+      "id": "V-HSJ-S-Q6",
+      "question_id": "S-Q6",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "The al-Shirazi base text and al-Nawawi’s commentary reject purification of inherently impure substances by burning them into ash or turning them into salt. The commentary reports an alternative Shafii view but rejects it as inadequate. It distinguishes wine becoming vinegar. Thus the selected position is restrictive, with a stated exception and recorded disagreement, rather than an unqualified denial that purification by any transformation ever occurs.",
+      "independent_limits": "This passage does not give every condition of the wine exception or all purification doctrines."
+    },
+    {
+      "id": "V-HSJ-S-Q7",
+      "question_id": "S-Q7",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": "Reliance prohibits consuming impurities and food contaminated by them. S4 rejects a general purification argument from burning or salt conversion. These are barriers to claiming that routine processing makes an impure medium, enzyme preparation, or gelatin permissible, but neither source directly adjudicates those modern products.",
+      "independent_limits": "Serum, enzyme, and gelatin origins, contamination, processing, and any applicable exception remain product-specific unresolved questions."
+    },
+    {
+      "id": "V-HSJ-S-Q8",
+      "question_id": "S-Q8",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Reliance j16.4 permits aquatic game except frogs and crocodiles; j17.1 exempts fish, referring back to j16.4, and locusts from the normal slaughter requirement. Read together, the passages support a broad aquatic exemption subject to explicit exclusions, not a statement that every animal found near water is edible.",
+      "independent_limits": "This English manual’s terminology and cross-reference are preserved; classification of every amphibious species is not independently resolved."
+    },
+    {
+      "id": "V-HSJ-S-Q9",
+      "question_id": "S-Q9",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": "The detached-part rule in S3 supplies a possible classical analogy; the restrictive transformation passage in S4 supplies a separate obstacle to a purification argument. Neither says that viable isolated cells, their descendants in culture, or cultivated tissue have already been classified under those rules.",
+      "independent_limits": "Modern classification remains unresolved. This is an identified analogy requiring juristic judgment, not a historical ruling on cell culture."
+    },
+    {
+      "id": "V-HSJ-J-Q1",
+      "question_id": "J-Q1",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "General authority and harm rules verified, but exact customary-repugnance criterion remains open.",
+      "unresolved_in_checker": false,
+      "independent_answer": "For Sistani’s followers, J1 establishes juristic following, with independent juristic competence or precaution as alternatives in its preceding context. J10 prohibits impure food and serious harm, including harm whose credible likelihood causes reasonable concern. These passages do not themselves define tayyib/khabith by popular taste or specify an ethnic palatability test.",
+      "independent_limits": "This is one named contemporary authority, not a finding of all Jafari jurists; the exact tayyib/khabith arbiter is not directly answered by this source set."
+    },
+    {
+      "id": "V-HSJ-J-Q2",
+      "question_id": "J-Q2",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "No, as an inference from Sistani’s operative rules: J6 adds species restrictions, detached living parts, prohibited organs, and serious harm. Its distinctions between a direct prohibition and obligatory precaution must be retained rather than collapsed into a uniform forbidden category.",
+      "independent_limits": "This describes this authority’s operative dietary law; it is not a claim that he explicitly discusses a four-item theory on this page."
+    },
+    {
+      "id": "V-HSJ-J-Q3",
+      "question_id": "J-Q3",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "J2 makes carcasses of animals with gushing blood impure when they die naturally or are killed without lawful slaughter. Living flesh or other life-containing parts separated from such animals are also impure. Non-life-containing parts and certain easily shed dead skin receive different treatment. Fish carcasses are pure, including fish dying in water.",
+      "independent_limits": "These are purity rulings. Fish purity does not establish edibility; detached-part edibility is stated separately in J6 ruling 2642."
+    },
+    {
+      "id": "V-HSJ-J-Q4",
+      "question_id": "J-Q4",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Specify land-animal organ prohibition and obligatory precaution for bird organs except blood/droppings; no affirmative liver claim.",
+      "unresolved_in_checker": false,
+      "independent_answer": "J3 makes blood from gushing-blood animals impure, while blood remaining after lawful slaughter and normal drainage is pure; blood returning into the body remains impure. J6 separately prohibits blood and spleen. Liver is not in its fourteen-item prohibited-organ list; this page does not state an unrestricted liver permission. Bird-organ restrictions beyond blood and droppings are obligatory precaution.",
+      "independent_limits": "Purity of retained blood is not an unrestricted consumption permission. The cited Sistani list differs materially from Sunni permission for spleen."
+    },
+    {
+      "id": "V-HSJ-J-Q5",
+      "question_id": "J-Q5",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "Ruling 2611(4) requires the slaughterer’s invocation in connection with intentional slaughter. Deliberate omission fails that requirement; omission through ignorance of the rule is explicitly insufficient, while forgetful omission is excused. Someone else’s invocation does not substitute for the slaughterer’s.",
+      "independent_limits": "The deliberate-omission consequence follows from the stated mandatory condition; ignorance and forgetfulness are explicitly contrasted. Other slaughter conditions remain necessary."
+    },
+    {
+      "id": "V-HSJ-J-Q6",
+      "question_id": "J-Q6",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "J4 recognizes purification when an impure thing’s essence changes into a pure thing: ash and salt are examples. Grinding wheat or baking it does not suffice. Charcoal depends on loss of former physical properties; fired impure clay remains impure by obligatory precaution. Uncertainty about whether transformation occurred leaves the impurity ruling in place.",
+      "independent_limits": "This is Sistani’s stated standard, not evidence that a named industrial process actually meets it."
+    },
+    {
+      "id": "V-HSJ-J-Q7",
+      "question_id": "J-Q7",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Retain Arabic statement that actual gelatin transformation is not established; minute absorption is not general permission for known impurity.",
+      "unresolved_in_checker": false,
+      "independent_answer": "J8 permits gelatin of uncertain animal versus plant origin, but known animal origin requires established lawful slaughter, with a bone precaution; it also mentions transformation and minute absorption. Arabic J9 Q1–2 adds that actual transformation is not established. Q3 distinguishes presumed purity from food permission: absent established lawful edible origin or transformation, only customary complete absorption is allowed where original impurity is unproven; known impurity requires established transformation. Q9 uses customary identity and essential properties. Q10 qualifies fish gelatin by scales or established transformation. J2’s rennet exception is narrow; J3 says heat does not purify blood-contaminated food by obligatory precaution.",
+      "independent_limits": "English and Arabic pages are not coextensive. Do not generalize minute absorption to known impure gelatin, equate every chemical alteration with istihalah, or extend rennet to all enzymes/serum."
+    },
+    {
+      "id": "V-HSJ-J-Q8",
+      "question_id": "J-Q8",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": false,
+      "independent_answer": "J7 requires commonly scaled fish and qualifying capture: alive in water followed by death outside, or death in the fishing net in water. Other death in water can leave fish pure but uneatable. Neither Muslim capture nor invocation is required. Eating live fish is permitted; the specified cut-fish case permits the portion remaining outside water.",
+      "independent_limits": "This page is about fish and locusts, not a general permission for all seafood. It does not settle every other aquatic species."
+    },
+    {
+      "id": "V-HSJ-J-Q9",
+      "question_id": "J-Q9",
+      "extractor": "school_hsj",
+      "checker": "blind_hsj",
+      "checker_input": "neutral questions and source URLs only",
+      "result": "accepted_with_limits",
+      "decision": "Independent reading corroborates the bounded account; retain recorded qualifications and modern-application limits.",
+      "unresolved_in_checker": true,
+      "independent_answer": "J2’s detached life-containing-part rule, J4’s transformation rule, and J7’s particular fish exceptions identify relevant questions. They do not directly determine whether an isolated chicken cell, growing culture, or final cultured tissue is the relevant legal part or transformed substance.",
+      "independent_limits": "No cultivated-cell ruling is verified here. Fish exceptions cannot be transferred to chicken simply because both involve living material."
+    }
+  ],
+  "country_history": {
+    "id": "V-COUNTRY-HISTORY",
+    "result": "accepted_with_limits",
+    "checker": "blind_country_history",
+    "scope": "7 country accounts and modern institutional/process premises; classical analogies checked using school verifiers and carried-forward institutional reviews",
+    "decision": "Independent answers corroborate bounded accounts. Retain Saudi identifiers, proposed UAE framework, specific SFA process dates, applicant provenance and nonzero residuals. No absence-of-approvals inference.",
+    "freshness_limit": "Checker read SFA local originals freshly downloaded by coordinator; not a separate live retrieval."
+  },
+  "scholarly_review": false
+}
