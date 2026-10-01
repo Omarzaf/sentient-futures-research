@@ -1,6 +1,6 @@
 # Agentic research plan: cultivated chicken, Phase One
 
-Revised 30 September 2026 from the author's edited local Word plan. AI-assisted working protocol; human verification pending. This replaces the earlier cloud setup, new-transcription dependencies and October Phase One schedule. [Read the completed public-source review](phase1/review.md) and its [coverage and limitations](phase1/README.md).
+Revised 30 September 2026 from the author's edited local Word plan. The [Part 1 plan](PART1-PLAN.md) of 1 October extends this loop with logged searches and an independent retrieval pass; it does not replace it. AI-assisted working protocol; human verification pending. This replaces the earlier cloud setup, new-transcription dependencies and October Phase One schedule. [Read the completed public-source review](phase1/review.md) and its [coverage and limitations](phase1/README.md).
 
 ## Objective and scope
 

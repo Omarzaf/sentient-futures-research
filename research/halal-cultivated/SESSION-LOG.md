@@ -2,6 +2,14 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 1 October 2026 — Part 1 plan after external review
+
+**Done:** Wrote the [Part 1 plan](PART1-PLAN.md). It records the five-chapter scope, 17-country coverage and English-source rule agreed in conversation, which the repository had not shown. It adopts the 1 October review's corrections: an independent retrieval pass for decisive claims, source tiers set by claim type, "no English source located" kept distinct from institutional silence, and market context kept apart from demand. Re-checked two contested tool facts: the K-Dense `literature-review` skill now lists Parallel and AI schematics as optional, and `unjournal/cm_pq_modeling` models 2036 cost per kilogram with no licence file.
+
+**Proposed, not made:** Index the Phase Two gate by process profile and consumer segment as well as country. This needs approval before `datapackage.json` or PLAN.md changes.
+
+**Open:** The 17-country list; approval of the gate change; approval of scheduled loop runs; a reviewer for chapters 3 and 4; the demand-forecast reply on `D` and `p_US`. Nothing was installed.
+
 ## 30 September 2026 — corrections to the earlier discovery rows
 
 **Done:** Checked the Phase One public-source edition against the first-pass registers and corrected the rows it contradicted. `certification.csv`: India and Saudi Arabia route changed from `none_found` to `statute_only` and `operational`, Singapore from `unknown` to `operational`, with notes on the UAE, Pakistan and Indonesia. `rulings.csv` and `consensus-matrix.csv`: the IIFA 265 live-donor reading withdrawn, and the MUIS monograph added. `scripture-sources.csv`: a note on Ghamidi's published treatment of flesh from a living animal. Each changed row says it was corrected and points to `phase1/review.md`.
