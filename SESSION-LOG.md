@@ -2,6 +2,12 @@
 
 One entry per repository-curation session, newest first. This log describes the clean file tree, not private branches or local workspaces.
 
+## 1 October 2026 — pilot feedback branch
+
+Added a separate [review](research/halal-cultivated/bridge-v2/PILOT-FEEDBACK.html) and [Markdown version](research/halal-cultivated/bridge-v2/PILOT-FEEDBACK.md) on `codex/pilot-feedback-20261001`, based on `26a3581`. Recommendations concern separate acceptance gates, one concrete decision/baseline handoff, transparent country reconciliation, targeted scholarly calibration, claim readiness and the India–Pakistan contribution. They are proposals, not adopted protocol changes or human approval. Source registers, numerical inputs, contract behavior and research acceptance states are unchanged.
+
+Independent review found no blocking corrections. The standard library verification, all four suites and byte-stable rebuild are recorded in the workspace handoff. Local commit only; no push, PR or publication.
+
 ## 1 October 2026 — quantitative contract v2
 
 Implemented the approved pilot's local method repairs. The active v2 contract separates evidence from scenario assumptions, rejects survey substitution and incompatible dimensions, preserves unknown gates, and leaves feasible quantity unestimated without compatible allocated capacity. A crosswalk preserves earlier meanings; all eleven legacy CSVs remain byte-identical. Numerical production remains blocked by the missing compatible demand baseline. The worked example is synthetic.

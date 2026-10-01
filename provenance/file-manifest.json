@@ -53,8 +53,8 @@
     },
     {
       "path": "SESSION-LOG.md",
-      "bytes": 2304,
-      "sha256": "9a4d38d5c6590f9fed6c43ad43b96b32dab1d5dc0118c14990a4c2593603d33c"
+      "bytes": 3161,
+      "sha256": "6f0c02ddd3245c2a97b33a0a71af22882018c5cad54e1addc2841ee47eb1e802"
     },
     {
       "path": "index.html",
@@ -168,8 +168,8 @@
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 4358,
-      "sha256": "5ca2c75f181a9f1adb27b74942574b1790379e3faf9f995187d7ee4fba99470e"
+      "bytes": 4561,
+      "sha256": "f34051aafbda5aaf719a870e996e611ebb16e1f589d7abae277a6dbcc6913ef2"
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
@@ -185,6 +185,16 @@
       "path": "research/halal-cultivated/bridge-v2/METHOD.md",
       "bytes": 9219,
       "sha256": "e12ac0f74e4cee391cc7a7beb289c7107498b462275e031f454f8a09ab113fba"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/PILOT-FEEDBACK.html",
+      "bytes": 16293,
+      "sha256": "26f338dbebc84aed86cac3cd6d748d553e8f17a88baa9ac25bb9554bbc3f0fe0"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/PILOT-FEEDBACK.md",
+      "bytes": 9219,
+      "sha256": "6827ea73644f0fa9788304fba245e3e4a10b57d9ce9eabfb1b6d2bd8e14f629d"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/production-state.json",
