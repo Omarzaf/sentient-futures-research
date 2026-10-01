@@ -15,7 +15,9 @@ const cases=[
  ['private interview reference',files=>{files['review.md']+='\n[INTERVIEW]\n';},'private-source reference'],
  ['held-language source promoted',files=>{files['review.md']=files['review.md'].replace('## Main findings','## Main findings\n\n[WP595]');},'held source cited'],
  ['false scholarly approval',files=>alter(files,'release.json',record=>{record.human_scholarly_review=true;}),'review limits lost'],
- ['missing school slot',files=>alter(files,'school-questions.json',rows=>{rows.pop();}),'school coverage']
+ ['missing school slot',files=>alter(files,'school-questions.json',rows=>{rows.pop();}),'school coverage'],
+ ['corrupt release file',files=>{files['release.json']='{';},'missing or invalid release.json'],
+ ['missing review',files=>{delete files['review.md'];},'missing review.md']
 ];
 for(const [name,mutate,expected] of cases){
  const files={...fixture};mutate(files);

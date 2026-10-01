@@ -2,14 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {repoFiles,unescapeEntities} from './repo-files.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const write=(p,s)=>{fs.mkdirSync(path.dirname(path.join(root,p)),{recursive:true});fs.writeFileSync(path.join(root,p),s);};
 const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replace(/<[^>]+>/g,'').trim();
+const decode=s=>unescapeEntities(s).replace(/<[^>]+>/g,'').trim();
 const csv=s=>'"'+String(s??'').replaceAll('"','""')+'"';
-function files(dir='') {return fs.readdirSync(path.join(root,dir),{withFileTypes:true}).filter(d=>d.name!=='.git').flatMap(d=>d.isDirectory()?files(path.posix.join(dir,d.name)):[path.posix.join(dir,d.name)]).sort();}
 function urlKey(value) {const u=new URL(value);u.hash='';for(const k of [...u.searchParams.keys()])if(k.startsWith('utm_'))u.searchParams.delete(k);return u.toString().replace(/\/$/,'');}
 function doiOf(r) {return (r.doi||(/doi\.org\/(.+)/i.exec(r.url||'')?.[1])||'').replace(/^https?:\/\/(?:dx\.)?doi\.org\//i,'').trim().toLowerCase();}
 
@@ -26,13 +26,26 @@ for(const d of documents)if(!fs.existsSync(path.join(root,d.path)))throw Error('
 write('research/library.json',JSON.stringify({status:'AI-assisted drafts; human verification pending',documents},null,2)+'\n');
 
 const groups=new Map();const aliases=new Map();
+function addOccurrence(g,occurrence) {
+ if(!g.occurrences.some(o=>o.document===occurrence.document&&o.sourceId===occurrence.sourceId&&o.recordPath===occurrence.recordPath))g.occurrences.push(occurrence);
+}
+// Fold a URL-only group into the DOI group once a record links its URL to that DOI,
+// so one DOI never ends up in two entries whatever order the records arrive in.
+function merge(from,to) {
+ const src=groups.get(from);groups.delete(from);
+ const g=groups.get(to);if(g)src.occurrences.forEach(o=>addOccurrence(g,o));else groups.set(to,{...src,key:to});
+ for(const [alias,key] of aliases)if(key===from)aliases.set(alias,to);
+}
 function add(record,occurrence) {
  if(!record.url||!/^https?:\/\//.test(record.url))return;
- const canonical=urlKey(record.url);const doi=doiOf(record);const key=aliases.get(canonical)||(doi?'doi:'+doi:'url:'+canonical);
+ const canonical=urlKey(record.url);const doi=doiOf(record);let key=aliases.get(canonical);
+ if(doi&&(!key||key.startsWith('url:'))){if(key)merge(key,'doi:'+doi);key='doi:'+doi;}
+ key??='url:'+canonical;
  let g=groups.get(key);
  if(!g){g={key,title:record.title||record.label||record.url,url:record.url,doi:doi||null,type:record.type||'Public link requiring bibliographic completion',occurrences:[]};groups.set(key,g);}
+ if(doi&&!g.doi)g.doi=doi;
  aliases.set(canonical,key);if(doi)aliases.set(urlKey('https://doi.org/'+doi),key);
- if(!g.occurrences.some(o=>o.document===occurrence.document&&o.sourceId===occurrence.sourceId&&o.recordPath===occurrence.recordPath))g.occurrences.push(occurrence);
+ addOccurrence(g,occurrence);
 }
 let originalRecords=0;
 for(const [collection,p] of [['India\u2013Pakistan current review','research/india-pakistan/source-register.json'],['Halal conditionality discovery pass','research/halal-cultivated/source-register.json'],['Halal Phase One public-source review','research/halal-cultivated/phase1/source-register.json'],['Comparative protein synthesis','research/comparative-protein/source-register.json'],['AI/protein literature foundation','research/ai-protein/source-register.json']]) {
@@ -48,7 +61,7 @@ for(const r of JSON.parse(read('research/orientation/sources.json')).sources) {
 }
 // Capture every public anchor in the included reports, including orientation references
 // without a complete bibliography. These links are not upgraded into verified sources.
-for(const p of files('research').filter(p=>p.endsWith('.html'))) {
+for(const p of repoFiles(root).filter(p=>p.startsWith('research/')&&p.endsWith('.html'))) {
  const s=read(p);
  for(const m of s.matchAll(/<a\b[^>]*href=["'](https?:\/\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
   const url=decode(m[1]); const label=decode(m[2]);
@@ -67,6 +80,6 @@ const footer='<footer>AI-assisted research drafts for peer and mentor feedback. 
 write('index.html',head('Protein research library','Research drafts, source registers, and data for peer and mentor review.')+`<div class="wrap">${nav()}<main><div class="eyebrow">Sentient Futures Project Incubator · Working research</div><h1>Protein systems,<br>evidence, and possible futures.</h1><p class="intro">A collection of research on alternative proteins, food systems, and the conditions that shape a transition. Read the studies, inspect the data, and trace the sources behind the arguments.</p><p class="status">This library holds ${documents.length} research documents and ${records.length} linked source identities. These are dated working drafts. The India–Pakistan brief and the halal Phase One review are the current work; the broader reports below are earlier background inputs.</p><p><a href="CURRENT-SCOPE.md">Read the current research scope</a> · <a href="RESEARCH-METHOD.md">Method and limitations</a></p><h2 id="research">Research in this collection</h2>${documents.map(d=>`<article class="research"><div class="meta">${esc(d.kind)}<br>${esc(d.cutoff)}</div><div><h3><a href="${d.path}">${esc(d.title)}</a></h3><p>${esc(d.description)}</p><div class="links"><a href="${d.path}">Read document →</a><a href="${d.textPath}">Repository text and notes</a></div></div></article>`).join('')}<h2>Follow the evidence</h2><p>The source catalog combines the original registers (${originalRecords} records) with public links from the included reports. Original reference IDs, access limitations, and pending review states remain available.</p><p><a href="sources/index.html">Search the source catalog →</a> · <a href="sources/catalog.csv">Download CSV</a> · <a href="sources/catalog.json">Download JSON</a></p><p><a href="DATA-DICTIONARY.md">Understand the data</a> · <a href="CONTRIBUTING.md">Give feedback</a> · <a href="RIGHTS-AND-REUSE.md">Rights and reuse</a></p></main>${footer}</div></body></html>`);
 const entries=records.map(r=>`<details data-entry><summary><span class="source-id">${r.id}</span>${esc(r.title)}</summary><p><a href="${esc(r.url)}" rel="noreferrer">Open original source</a>${r.doi?' · DOI: '+esc(r.doi):''}</p><p class="meta">${esc(r.type)} · Human verification pending</p><ul>${r.occurrences.map(o=>`<li><a href="../${esc(o.document||o.recordPath)}">${esc(o.collection)}${o.sourceId?' · '+esc(o.sourceId):''}</a>${o.accessed?' · accessed '+esc(o.accessed):''}${o.access?'<br>Access recorded in original research: '+esc(o.access):''}${o.limitations?'<br>Limitations: '+esc(o.limitations):''}</li>`).join('')}</ul></details>`).join('');
 write('sources/index.html',head('Source catalog | Protein research','Search public references retained in the research collection.')+`<div class="wrap">${nav('../')}<main><div class="eyebrow">Evidence library</div><h1>Trace the sources.</h1><p class="intro">${records.length} source identities, with links back to the reports and original reference IDs.</p><p class="status">This catalog preserves the research trail. Links have not been freshly checked, and source inclusion does not establish the accuracy of a claim. Some entries contain only a public link awaiting bibliographic completion.</p><p><a href="catalog.csv">Download CSV</a> · <a href="catalog.json">Download JSON</a> · <a href="README.md">Catalog method</a></p><label for="search">Search title, source ID, DOI, or research document</label><input id="search" type="search" placeholder="For example: India, fermentation, C01" autocomplete="off"><p id="count" class="meta" aria-live="polite">${records.length} sources</p><p id="empty" hidden>No matching sources. Clear the search to see the full catalog.</p><div class="sources-list">${entries}</div></main>${footer}</div><script>const input=document.getElementById('search');const entries=[...document.querySelectorAll('[data-entry]')];input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();let n=0;for(const el of entries){el.hidden=!el.textContent.toLowerCase().includes(q);if(!el.hidden)n++;}document.getElementById('count').textContent=n+' of '+entries.length+' sources';document.getElementById('empty').hidden=n!==0;});</script></body></html>`);
-const manifest=files().filter(p=>p!=='provenance/file-manifest.json').map(p=>({path:p,bytes:fs.statSync(path.join(root,p)).size,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex')}));
+const manifest=repoFiles(root).filter(p=>p!=='provenance/file-manifest.json').map(p=>({path:p,bytes:fs.statSync(path.join(root,p)).size,sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex')}));
 write('provenance/file-manifest.json',JSON.stringify({description:'SHA-256 inventory of repository files, excluding Git metadata and this manifest itself.',files:manifest},null,2)+'\n');
 console.log(JSON.stringify({documents:documents.length,originalRegisterRecords:originalRecords,sourceIdentities:records.length,files:manifest.length+1}));
