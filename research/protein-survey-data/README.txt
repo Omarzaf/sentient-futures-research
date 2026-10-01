@@ -1,6 +1,8 @@
 ALTERNATIVE MEAT SURVEY DATA
 Prepared 30 September 2026
 
+AI-assisted extraction; human verification pending. The files preserve source caveats and internal inconsistencies rather than resolving them into one acceptance estimate.
+
 SCOPE
 This package collects the reported figures, sample descriptors, qualitative findings and source references from all nine studies/reports cited in this chat, covering Muslim-country and Southeast Asian surveys. It is a structured extraction of published results, not individual respondent records and not every table from each paper.
 

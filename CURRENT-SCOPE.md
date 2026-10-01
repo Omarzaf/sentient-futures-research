@@ -8,6 +8,10 @@ The consolidated brief for this scope is [Protein Consumption and Alternative Pr
 
 A second workstream, set out in the [research plan](research/halal-cultivated/PLAN.md) of 30 September 2026, asks under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market it could occupy if those conditions are met. It reuses the demand-forecast workstream's categories, years and quantiles so the two can be joined row by row, and it produces conditional shares, not forecasts. The [Phase One review](research/halal-cultivated/phase1/review.md) now covers 45 school questions, seven countries and four historical comparisons, with 74 public-source claims and explicit evidence gaps. The [revised agentic plan](research/halal-cultivated/AGENTIC-PLAN.md) records the local, English-first research loop and accelerated delivery targets. Scholarly and mentor approval remain pending; Phase Two quantitative work is not complete.
 
+## Survey data package
+
+The [alternative meat survey data package](research/protein-survey-data/Source_Links.html) structures nine studies and reports into 29 retained findings. It supports evidence hygiene for consumer-attitude claims, but it is not primary data, not a survey experiment conducted by this project, and not a pooled cross-country acceptance estimate. Willingness, preference, awareness, sample composition and self-reported consumption remain separate measures.
+
 ## Questions to investigate
 
 The brief narrows these to a primary comparison of a plant-based chicken product against a conventional chicken option and a familiar pulse-based option in a specified meal, with cultivated meat and fermentation-derived proteins treated separately.

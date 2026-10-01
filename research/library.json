@@ -20,6 +20,15 @@
       "description": "A public-source review covering 45 school questions, seven countries and four historical comparisons, with 74 claims, explicit uncertainties and a Phase Two handoff. Religious positions, certification and market authorization remain distinct."
     },
     {
+      "id": "protein-survey-data",
+      "title": "Alternative Meat Survey Data",
+      "path": "research/protein-survey-data/Source_Links.html",
+      "textPath": "research/protein-survey-data/README.txt",
+      "cutoff": "30 September 2026",
+      "kind": "Survey data package",
+      "description": "Structured extraction from nine Muslim-country and Southeast Asian survey studies and reports, with 29 retained findings, source links, sample caveats and workbook CSV exports. Measures remain separated as willingness, preference, awareness, consumption, sample composition or qualitative findings."
+    },
+    {
       "id": "comparative-protein",
       "title": "Protein Transitions Across Unequal Food Systems",
       "path": "research/comparative-protein/index.html",

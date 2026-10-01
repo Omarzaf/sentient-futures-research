@@ -59,6 +59,16 @@ opened during AI-assisted review, not that a human has verified the claim.
 
 The combined [catalog](sources/catalog.json) contains normalized source identities and their original document occurrences. It is an index, not a new empirical dataset. Source access and bibliographic completeness vary by record.
 
+## Alternative meat survey data
+
+Location: [research/protein-survey-data](research/protein-survey-data/README.txt). This package contains a structured extraction from nine published studies or reports and 29 retained findings. It is not respondent-level data, not a complete table export from every source, and not a pooled acceptance estimate.
+
+`survey_data.json` is the canonical structured version. `sources` holds the nine study records, including `id`, title, authors, year, geography, sample size, method, DOI or URLs, access status, respondent-level data status, notes and findings. `observations` holds the 29 extracted rows and joins to `sources` through `source_id`.
+
+`Survey_Findings.csv` and `Study_Register.csv` are machine-readable CSV views of the JSON. `Alternative_Meat_Survey_Data_Findings.csv` and `Alternative_Meat_Survey_Data_Studies.csv` preserve the two sheet exports from the original workbook as CSV because `.xlsx` files are not part of the shareable file tree. The checker verifies that the JSON, machine CSVs and workbook CSV exports agree.
+
+For findings, `unit=proportion` stores proportions as decimals, so `0.31` means 31 percent. `unit=respondents` stores a count. `unit=qualitative` has a blank numeric value. Blank `numerator` means unreported or not extracted, never zero. `measurement_type` distinguishes willingness, preference, awareness, self-reported consumption, sample composition, sample size, association and qualitative records; these measures must not be pooled.
+
 ## Halal conditionality workstream
 
 Location: [research/halal-cultivated](research/halal-cultivated/README.md). [datapackage.json](research/halal-cultivated/datapackage.json) defines every field, type and allowed value for the eleven CSV registers, in the Frictionless Data format, so it can also be validated with `frictionless validate`. It is the only definition; this section does not repeat it.
@@ -69,4 +79,4 @@ Blank cells are missing, never zero. A registry search that found nothing is `no
 
 ## Integrity records
 
-[File manifest](provenance/file-manifest.json) records sizes and SHA-256 hashes for the shareable repository files. [Import records](provenance/import-records.json) identify the source artifact filename, its content hash, and curation changes for imported report files. Neither record attests to empirical validity. No original private-folder inventory is included.
+[File manifest](provenance/file-manifest.json) records sizes and SHA-256 hashes for the shareable file tree. [Import records](provenance/import-records.json) identify the source artifact filename, its content hash, and curation changes for imported report files. Neither record attests to empirical validity or Git-history cleanliness. No original private-folder inventory is included.

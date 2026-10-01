@@ -10,4 +10,6 @@ The repository edition omits third-party illustrative photographs and raster map
 
 The Office originals of the orientation reports, the Word and PDF renderings of the India–Pakistan brief, unpublished peer drafts, mentor comments, private meeting notes, personal application materials, credentials, and working downloads are excluded. The brief's Markdown text in this repository is canonical and carries the same content as those renderings. This repository does not grant permission to redistribute those separate materials.
 
+The shareable edition is the clean file tree generated and checked by the repository tools. Historical Git objects, private archive branches, bundles, local workspaces, and pull-request attachments are outside that shareable edition unless they have been separately sanitized and reviewed.
+
 Before substantial republication of the authored drafts, agree attribution and licensing with the maintainer and complete human verification of the claims being reused.

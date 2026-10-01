@@ -4,7 +4,7 @@ Research drafts, data, and source references maintained by **Muhammad Umar Zafar
 
 **Start with [the research library](index.html)** or the document links below. HTML files render when downloaded and opened in a browser; GitHub's file viewer displays their source. The Markdown literature review and policy table can be read directly on GitHub.
 
-These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the India–Pakistan consumption brief and the halal conditionality workstream below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
+These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the India–Pakistan consumption brief, the halal conditionality workstream, and the survey-data package below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
 
 ## Research
 
@@ -12,6 +12,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 | --- | --- | --- |
 | [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
 | [Cultivated Chicken: Religious Conditions and Market Access](research/halal-cultivated/phase1/review.md) | **Current workstream.** Phase One review: 45 school questions, seven countries, four historical comparisons, evidence registers and a Phase Two handoff; uncertainty and scholarly-review limits retained | 30 Sep 2026 |
+| [Alternative Meat Survey Data](research/protein-survey-data/Source_Links.html) | Structured extraction from nine Muslim-country and Southeast Asian survey studies and reports; 29 retained findings, sample caveats, source links and workbook CSV exports | 30 Sep 2026 |
 | [Protein Transitions Across Unequal Food Systems](research/comparative-protein/README.md) | Comparative synthesis; supply data, adoption, research and talent policy, charts, and capability locators | 13 Sep 2026 |
 | [AI and the Protein Transition](research/ai-protein/literature-review.md) | Literature review connecting technical progress, adoption, displacement, and policy | 11 Sep 2026 |
 | [Policy Evidence to Decision Table](research/ai-protein/policy-decisions.md) | Six conditional policy discussion areas and evidence that would alter them | 11 Sep 2026 |
@@ -23,6 +24,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 - [Searchable source catalog](sources/index.html), [CSV index](sources/catalog.csv), and [JSON catalog](sources/catalog.json): public references retained in the included research, with occurrences linking back to original source IDs.
 - Original registers: [20 India–Pakistan review records](research/india-pakistan/source-register.json), [60 comparative-report records](research/comparative-protein/source-register.json), and [44 literature-foundation records](research/ai-protein/source-register.json).
 - [Phase One evidence and review](research/halal-cultivated/phase1/README.md): 74 claims and 76 public-source records. The earlier [CSV data package](research/halal-cultivated/datapackage.json) remains a separate discovery and Phase Two schema.
+- [Survey data package](research/protein-survey-data/README.txt): nine studies, 29 findings, two workbook-sheet CSV exports, machine-readable CSVs, JSON and source-link page. No respondent-level data or publisher PDFs are bundled.
 - [Country supply CSV](research/comparative-protein/protein-data.csv), [figure inputs and provenance](research/comparative-protein/figure-data.json), and [data dictionary](DATA-DICTIONARY.md).
 - [Cited-passage review ledger](research/comparative-protein/claim-ledger.json) and [RIS bibliography](research/ai-protein/references.ris).
 
@@ -30,7 +32,7 @@ The country file has 12 populated cases and one missing case, and does not inclu
 
 ## Read locally
 
-Download the repository ZIP, extract it, and open `index.html`. Navigation, report controls, and source search work locally without installing dependencies. External source links require internet access.
+Download a clean ZIP or archive of this file tree, extract it, and open `index.html`. Navigation, report controls, and source search work locally without installing dependencies. External source links require internet access. Do not treat every Git branch, pull request, or historical object as part of the shareable library.
 
 For an optional local server with Node.js 22 or newer:
 
@@ -48,12 +50,15 @@ No package installation, Python environment, or API keys are required.
 node tools/build-library.mjs
 node tools/verify.mjs
 node tools/test-halal-checks.mjs
+node tools/test-phase1-checks.mjs
+node tools/test-survey-checks.mjs
+node tools/test-privacy-checks.mjs
 ```
 
-The build regenerates the reading portal, combined catalog, and checksums. Verification checks source coverage, relative links, citation IDs, derived figures, file integrity, and common privacy hazards. It does not rerun the original research, access restricted databases, check live source availability, or certify factual accuracy.
+The build regenerates the reading portal, combined catalog, and checksums. Verification checks source coverage, relative links, citation IDs, derived figures, survey-package consistency, file integrity, and common privacy hazards. It does not rerun the original research, access restricted databases, check live source availability, or certify factual accuracy.
 
 Read [research method and AI-use disclosure](RESEARCH-METHOD.md), [feedback guidance](CONTRIBUTING.md), and [rights and reuse](RIGHTS-AND-REUSE.md). No blanket license or institutional endorsement is implied.
 
 ## What is excluded
 
-Personal application and career material, meeting preparation, unpublished peer drafts and comments, private document links, credentials, raw working logs, Office originals, and downloaded third-party publications are excluded. The repository contains a curated snapshot, not the original workspace or its history.
+Personal application and career material, meeting preparation, unpublished peer drafts and comments, private document links, credentials, raw working logs, Office originals, downloaded third-party publications, and respondent-level survey data are excluded from this clean file tree. The shareable artifact is a curated snapshot/export, not the original workspace, private branches, or full Git history.

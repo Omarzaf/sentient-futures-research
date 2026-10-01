@@ -5,6 +5,8 @@ import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {checkHalal} from './halal-checks.mjs';
 import {checkPhaseOne} from './phase1-checks.mjs';
+import {checkSurvey} from './survey-checks.mjs';
+import {isExcludedPath, privacyHazards, privacyHazardNames} from './privacy-checks.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
@@ -18,16 +20,7 @@ check(new Set(manifest.map(f=>f.path)).size===manifest.length,'Duplicate manifes
 check(JSON.stringify(paths.filter(p=>p!=='provenance/file-manifest.json'))===JSON.stringify(manifest.map(f=>f.path).sort()),'Manifest does not match repository files');
 for(const f of manifest){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&crypto.createHash('sha256').update(b).digest('hex')===f.sha256,'Hash/size mismatch: '+f.path);}
 
-const forbiddenPath=/(^|\/)(?:\.env(?:\.|$)|node_modules|\.venv|\.playwright-mcp|private|working|AGENTS\.md|\.DS_Store)(\/|$)|\.(?:docx?|xlsx?|pptx?|pdf|zip|pem|key|log)$/i;
-const hazards=[
- ['absolute home path',/\/(?:Users|home)\/[A-Za-z0-9._-]+\//],
- ['private document URL',/https?:\/\/(?:docs|drive)\.google\.com\//i],
- ['email address',/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i],
- ['private key',/-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----/],
- ['credential-like token',/\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{25,}|sk-[A-Za-z0-9_-]{24,})\b/],
- ['embedded raster',/data:image\/(?:jpeg|png|webp);base64,/i]
-];
-for(const p of paths){check(!forbiddenPath.test(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);for(const [name,re] of hazards)check(!re.test(s),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
+for(const p of paths){check(!isExcludedPath(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);const foundHazards=new Set(privacyHazards(s));for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
 
 const unescape=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'");
 let internalLinks=0;
@@ -89,7 +82,7 @@ for(const r of json('research/orientation/sources.json').sources)check(catalog.r
 const imports=json('provenance/import-records.json');
 for(const prefix of ['research/orientation/','research/india-pakistan/'])for(const p of paths.filter(p=>p.startsWith(prefix)))check(imports.some(r=>r.path===p),'Missing import provenance '+p);
 for(const [rs,p] of [[comparative,'research/comparative-protein/source-register.json'],[foundation,'research/ai-protein/source-register.json'],[currentReview,'research/india-pakistan/source-register.json']])for(const r of rs)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===p&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const library=json('research/library.json');check(library.documents.length===7,'Expected seven research documents');
+const library=json('research/library.json');check(library.documents.length===8,'Expected eight research documents');
 for(const d of library.documents){check(paths.includes(d.path),'Missing library document '+d.id);check(/human verification pending/i.test(read(d.path)),'Missing visible draft notice '+d.id);}
 const ris=read('research/ai-protein/references.ris');check((ris.match(/^TY  - /gm)||[]).length===44&&(ris.match(/^ER  -/gm)||[]).length===44,'RIS record completeness');
 const halalDir='research/halal-cultivated/';
@@ -100,5 +93,8 @@ const phaseOneDir=halalDir+'phase1/';
 for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
 const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
 checks+=phaseOne.checks;failures.push(...phaseOne.failures);
-const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124+halalRegister.length+phaseOneRegister.length,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,failures};
+const surveyDir='research/protein-survey-data/';
+const survey=checkSurvey(Object.fromEntries(paths.filter(p=>p.startsWith(surveyDir)).map(p=>[p.slice(surveyDir.length),read(p)])));
+checks+=survey.checks;failures.push(...survey.failures);
+const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:124+halalRegister.length+phaseOneRegister.length,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,surveyChecks:survey.checks,failures};
 console.log(JSON.stringify(result,null,2));if(failures.length)process.exitCode=1;

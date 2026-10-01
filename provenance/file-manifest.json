@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 810,
-      "sha256": "e2ef0f21ee7a315b15bcb63b62942f7b9ef21c60e9221f849a554ecc2293167c"
+      "bytes": 1008,
+      "sha256": "84b7a8c6645b6df5880452c83c3fdd94482c3a6dab9c0d6a9bbe2a01fe68e252"
     },
     {
       "path": ".gitignore",
@@ -23,38 +23,43 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1592,
-      "sha256": "45527ebf266effb2ab9f1efc23656ecc5124af25830e749ae4fa2aae07adbb6e"
+      "bytes": 1839,
+      "sha256": "fb5cbab8fd7dbef8764e168211b1c0db8cec0a9fb64df4b8bf0cbafa317c5d54"
     },
     {
       "path": "CURRENT-SCOPE.md",
-      "bytes": 3970,
-      "sha256": "4c01599a36ec02f5498192f6386e28765f42c68beca2c69008a887af2b8150e6"
+      "bytes": 4450,
+      "sha256": "6d998eec07f76f5ab8afb9c0449bb3bdb12f06a954bd2f5267396363c775943f"
     },
     {
       "path": "DATA-DICTIONARY.md",
-      "bytes": 6151,
-      "sha256": "c99abdf417a7f3ccbb42d2ca1830878e4f7169aee5fa9bc25c658b31a7045856"
+      "bytes": 7681,
+      "sha256": "cb7f2f93635826fa14d736977acb86a20d1a8971e3a5b960dde9121480c20ab5"
     },
     {
       "path": "README.md",
-      "bytes": 5681,
-      "sha256": "f9854c8c000c1ecd1103b1c0c642390b20a73e6b9af385495fb9d49a7d295519"
+      "bytes": 6550,
+      "sha256": "5315ca3d14c85e2f92b0765f75b6c2c86b8956d3230a9316bc211780afdecee5"
     },
     {
       "path": "RESEARCH-METHOD.md",
-      "bytes": 4951,
-      "sha256": "caea13d47dccf928f6a71c0314f70118092a945941ef1a51a9a86a9d7da556e6"
+      "bytes": 5518,
+      "sha256": "2cb314b833af5832bc622dfa9f835c4e97f1234a17b4c5a88a4e5d614c92a53a"
     },
     {
       "path": "RIGHTS-AND-REUSE.md",
-      "bytes": 1777,
-      "sha256": "24bc797b5dfba0a0dc01b582fc1c7d3fd075ee81ce373f8dfae689ee72f9ef2a"
+      "bytes": 2068,
+      "sha256": "798ab636b919150a76911a11482abe794fb837618b6b0d38a366eb05faaacc56"
+    },
+    {
+      "path": "SESSION-LOG.md",
+      "bytes": 1377,
+      "sha256": "76fee4bd6c825b7b326a83d062425b2fcc43377c2a3adcba2b04c2b630d63a0b"
     },
     {
       "path": "index.html",
-      "bytes": 8450,
-      "sha256": "78226aae7a6ac7aa8750988f02676453ec42bf842d801f74996a0f1bc7cfbdf6"
+      "bytes": 9190,
+      "sha256": "bd5bb7c6dbae2f713c2795643329a0d270b3961fc722a46eae9d0acf7768226d"
     },
     {
       "path": "provenance/import-records.json",
@@ -328,8 +333,8 @@
     },
     {
       "path": "research/library.json",
-      "bytes": 3593,
-      "sha256": "607864e84761559aa0aa9b3a97e1d3d35be9d28f57fee7c09970ecc0066ca461"
+      "bytes": 4209,
+      "sha256": "50eabd5aa6bbc4432e6121cc116157abe30b7dec2688b5c9469610d4fea77dd4"
     },
     {
       "path": "research/orientation/README.md",
@@ -373,13 +378,13 @@
     },
     {
       "path": "research/protein-survey-data/README.txt",
-      "bytes": 3801,
-      "sha256": "0d9f4c84cd476927be3b697d95348b16b0621785cac5f9bd8c8afc900c937b61"
+      "bytes": 3974,
+      "sha256": "0729044a51862461c764efe878969e00f15a980903ed20e271f41c54295afad8"
     },
     {
       "path": "research/protein-survey-data/Source_Links.html",
-      "bytes": 9166,
-      "sha256": "1b0515daa6df4233c018de82179a4f87a66d17e6e0a8b934c770b9896c52a6a0"
+      "bytes": 9396,
+      "sha256": "5f1cd1677679357ec566edda5229a8949a5c3c790394f961b78bf400f5a47bca"
     },
     {
       "path": "research/protein-survey-data/Study_Register.csv",
@@ -398,8 +403,8 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 2032,
-      "sha256": "8ba6b4b7149a6a55f533de347ca881beb373b10916abc0865c20a2472912d1e8"
+      "bytes": 2227,
+      "sha256": "9b6ea8edde264395c158c1d0d731d3c3787d463f53d795ea4d296efe12e9f5ec"
     },
     {
       "path": "sources/catalog.csv",
@@ -418,8 +423,8 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 15749,
-      "sha256": "e92adc396974ef13a6edb1d9365656bb6269f4e294658673a00b0b7afb4b9578"
+      "bytes": 16331,
+      "sha256": "1f88ea57b4c58cd338f761a8b87cbaf2d6c2b075843008cbaa78ffcf1dbafec7"
     },
     {
       "path": "tools/halal-checks.mjs",
@@ -432,9 +437,19 @@
       "sha256": "cbc806155e4810eee6958854a6279075a9b05eeb4e93b9db81af65eee7d82753"
     },
     {
+      "path": "tools/privacy-checks.mjs",
+      "bytes": 1674,
+      "sha256": "05c5a6764d82c899100e11ce91c21f3cddf8cc21209da51953e8c2d2d15cc49d"
+    },
+    {
       "path": "tools/serve.mjs",
       "bytes": 2054,
       "sha256": "28e6a4af68b6cd5adb2ecc59d353d60e085b5777c4ca1b171e6e5662a7fa1aac"
+    },
+    {
+      "path": "tools/survey-checks.mjs",
+      "bytes": 11429,
+      "sha256": "4c156045a284c12b23bf397009ff4c36798b2eb18591dd9bbdebd509f3fb5e9d"
     },
     {
       "path": "tools/test-halal-checks.mjs",
@@ -447,9 +462,19 @@
       "sha256": "22e4395eef147edf5f2a0725c4e12999216f30b8eaffbeb229950ed951ea1783"
     },
     {
+      "path": "tools/test-privacy-checks.mjs",
+      "bytes": 2386,
+      "sha256": "69f92cbd6735b899ce7cef6e7e1b062336cc33da87587f1ada8dc4d88b1e07d4"
+    },
+    {
+      "path": "tools/test-survey-checks.mjs",
+      "bytes": 4367,
+      "sha256": "737c7c871ba2eb047eae4a35dc8c6638a4fb2ce4bb761a6fccd8e9397475ae46"
+    },
+    {
       "path": "tools/verify.mjs",
-      "bytes": 10133,
-      "sha256": "5b294b02f761f66cd31c31f414e91eabb812fbf3af25058d70929c8d2a98dfa0"
+      "bytes": 9960,
+      "sha256": "c9459ab9bc0c31fdb21036392de7042ca90bb1b664eab264d83c4eb2db4061be"
     }
   ]
 }
