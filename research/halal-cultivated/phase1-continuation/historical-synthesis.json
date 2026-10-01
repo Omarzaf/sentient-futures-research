@@ -1,0 +1,196 @@
+{
+  "schema": "phase-one-historical-driver-synthesis/v1",
+  "as_of": "2026-10-01",
+  "review_id": "R6-DRIVER-SYNTHESIS",
+  "human_review": "pending",
+  "rows": [
+    {
+      "driver": "religious ruling",
+      "case_ids": [
+        "HP-01",
+        "HP-02",
+        "HP-03",
+        "HP-04",
+        "HP-05",
+        "HP-06",
+        "HP-07",
+        "HP-08",
+        "HP-09",
+        "HP-10",
+        "HP-11",
+        "HP-12",
+        "HP-13"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C01",
+        "P1C6-REL-C02",
+        "P1C6-REL-C03",
+        "P1C6-REL-C04",
+        "P1C6-REL-C05",
+        "P1C6-REL-C06",
+        "P1C6-REL-C07",
+        "P1C6-REL-C08",
+        "P1C6-REL-C09",
+        "P1C6-REL-C10",
+        "P1C6-REL-C11",
+        "P1C6-REL-C12",
+        "P1C6-REL-C13",
+        "P1C6-REL-C14",
+        "P1C6-REL-C15",
+        "P1C6-REL-C16",
+        "P1C6-REL-C21",
+        "P1C6-REL-C17",
+        "P1C6-REL-C22",
+        "P1C6-REL-C18",
+        "P1C6-REL-C19",
+        "P1C6-REL-C20",
+        "R6E-HISTORY-13-SCOPE"
+      ],
+      "evidence_summary": "A named authority can classify a defined substance or impose process controls; the examples preserve different views and authority scopes.",
+      "conditional_mechanism": "A familiar legal category plus complete process evidence could make a bounded decision easier to formulate.",
+      "counterexample": "IIFA gelatin/stunning deferrals and disputed transformation examples show that familiarity need not settle facts or consensus.",
+      "transportability_limit": "No ruling deadline, universal permission or market response is estimated. Purity, ingestion, necessity and product certification are separate.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "price",
+      "case_ids": [
+        "HP-14",
+        "HP-15",
+        "HP-16",
+        "HP-17"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-14-SCOPE",
+        "R6E-HISTORY-15-SCOPE",
+        "R6E-HISTORY-16-SCOPE",
+        "R6E-HISTORY-17-SCOPE"
+      ],
+      "evidence_summary": "Availability histories and a product-choice model distinguish categories and relative prices.",
+      "conditional_mechanism": "If eligibility, supply and format are already established, a price change is a purchase-response hypothesis to test; its timing relative to production expansion is not established here.",
+      "counterexample": "Butter/margarine reversals and simultaneous growth in Pakistan categories undermine one-direction displacement stories.",
+      "transportability_limit": "No observed price/quantity ratio is treated as an identified elasticity. Purchase response cannot by itself settle a religious ruling.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "scarcity",
+      "case_ids": [
+        "HP-16",
+        "HP-18",
+        "HP-19",
+        "HP-20"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-16-SCOPE",
+        "R6E-HISTORY-18-SCOPE",
+        "R6E-HISTORY-19-SCOPE",
+        "R6E-HISTORY-20-SCOPE"
+      ],
+      "evidence_summary": "Supply shortfalls can motivate alternative sources, output expansion or changed product use.",
+      "conditional_mechanism": "Existing suppliers and known products offer a candidate response channel; activation time and persistence remain case-specific and unmeasured for cultivated meat.",
+      "counterexample": "Recovery of incumbent supplies can reverse the apparent transition; forecasts and announcements can fail to become output.",
+      "transportability_limit": "Qatar company milestones and China output are distinct units; scarcity alone does not establish legal necessity for every product.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "disease",
+      "case_ids": [
+        "HP-18",
+        "HP-19"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-18-SCOPE",
+        "R6E-HISTORY-19-SCOPE"
+      ],
+      "evidence_summary": "Disease and control measures remove conventional supply; published series also show recovery/rebound.",
+      "conditional_mechanism": "A supply shock can make substitute supply relevant during the interruption.",
+      "counterexample": "The same event may alter trade, prices and behavior; it need not generate durable alternative-protein adoption.",
+      "transportability_limit": "No reduced contamination risk for cultivated products is inferred, and output/price changes do not identify a demand coefficient.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "technology",
+      "case_ids": [
+        "HP-05",
+        "HP-07",
+        "HP-09",
+        "HP-15",
+        "HP-17",
+        "HP-20"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C08",
+        "P1C6-REL-C09",
+        "P1C6-REL-C12",
+        "P1C6-REL-C13",
+        "P1C6-REL-C16",
+        "P1C6-REL-C21",
+        "R6E-HISTORY-15-SCOPE",
+        "R6E-HISTORY-17-SCOPE",
+        "R6E-HISTORY-20-SCOPE"
+      ],
+      "evidence_summary": "Engineered ingredients, mechanised slaughter, management controls and production expansion raise different technical questions.",
+      "conditional_mechanism": "A documented compliant substitute input or established production method may narrow an authority’s review question.",
+      "counterexample": "Technical change can create new provenance questions; Baladna planning predates the blockade and does not measure greenfield build time.",
+      "transportability_limit": "Physical throughput, validated input identity, certification and consumer acceptance remain distinct; no AI acceleration estimate is supplied.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "policy or sovereignty",
+      "case_ids": [
+        "HP-13",
+        "HP-16",
+        "HP-20",
+        "HP-21"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-13-SCOPE",
+        "R6E-HISTORY-16-SCOPE",
+        "R6E-HISTORY-20-SCOPE",
+        "R6E-HISTORY-21-SCOPE"
+      ],
+      "evidence_summary": "Local prohibitions, quality-control institutions and food-security strategies describe governmental or organisational action.",
+      "conditional_mechanism": "Defined mandates, prior investment and functioning institutions can provide a route for a specific decision or supply response.",
+      "counterexample": "Strategy targets are not outcomes; emergency action for conventional dairy does not imply immediate cultivated-product approval.",
+      "transportability_limit": "The UAE example is not a six-countryGCC evaluation. Legal access, religious status and national supply shares must each be evidenced.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    },
+    {
+      "driver": "taste",
+      "case_ids": [
+        "HP-12",
+        "HP-14",
+        "HP-15",
+        "HP-16"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C19",
+        "P1C6-REL-C20",
+        "R6E-HISTORY-14-SCOPE",
+        "R6E-HISTORY-15-SCOPE",
+        "R6E-HISTORY-16-SCOPE"
+      ],
+      "evidence_summary": "The sources identify product differences, resemblance disputes and changing choices; they do not isolate a sensory-treatment effect. HP-12 supplies religious/species context only, not sensory or cuisine-fit evidence.",
+      "conditional_mechanism": "A familiar sensory role could be tested as a condition for substitution within a dish or purchasing occasion.",
+      "counterexample": "Resemblance can raise adulteration/trust concerns; demand-model differentiation is not a direct taste experiment.",
+      "transportability_limit": "All causal taste and cuisine coefficients remain unknown. No national preference or quick-ruling effect is inferred.",
+      "inference_status": "analytical_hypothesis_from_bounded_cases",
+      "quantitative_effect": null,
+      "ruling_speed": null
+    }
+  ],
+  "conclusion": "The useful precedent is conditional: a defined process, named decision-maker and functioning implementation route can narrow a question. None of these analogues establishes a cultivated-meat approval date, uptake rate, universal religious gate or compatible demand baseline.",
+  "full_phase_one_complete": false
+}

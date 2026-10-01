@@ -1,0 +1,3020 @@
+{
+  "schema": "phase-one-historical-assessments/v1",
+  "as_of": "2026-10-01",
+  "scope": "All21candidates in PLAN6.4A; doctrinal examples, reported events, estimates and model counterfactuals remain distinct.",
+  "source_register": "source-register.json",
+  "claims": "claims.json",
+  "cases": [
+    {
+      "id": "HP-01",
+      "requirement_id": "HISTORY-01",
+      "title": "Wine and deliberate vinegar conversion",
+      "country": null,
+      "source_ids": [
+        "M-DAS28",
+        "M-DHAK",
+        "H-MUBDI",
+        "H-MUGH-IST",
+        "H-TAY-IST",
+        "H1",
+        "S4",
+        "J4"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C01",
+        "P1C6-REL-C02"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Wine in a juristic transformation example.",
+      "after": "Vinegar, with spontaneous and deliberately induced conversion distinguished.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Classical named-author texts in retained digital editions; exact edition/date and a discrete historical conversion/adoption episode not established."
+      },
+      "evidence_kind": "comparative_juristic_texts_not_observed_adoption",
+      "assessment": "Retain as a contested transformation analogy. The inspected evidence supports distinctions among legal positions; it does not supply a historical sequence in which Muslims broadly changed from rejecting to consuming a food.",
+      "unknowns": [
+        "A dated behavioural transition and place.",
+        "Exact print editions for historical texts.",
+        "Process-specific evidence connecting vinegar conversion to cultured tissue."
+      ],
+      "reopen": "Reopen only for a defined historical market episode or an expert-specified disputed vinegar passage/edition.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-01",
+        "id": "P1C6-REL-H01",
+        "title": "Wine and deliberate vinegar conversion",
+        "evidence_type": "comparative_juristic_texts_not_observed_adoption",
+        "before_after_food_or_material": {
+          "before": "Wine in a juristic transformation example.",
+          "after": "Vinegar, with spontaneous and deliberately induced conversion distinguished.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Classical named-author texts in retained digital editions; exact edition/date and a discrete historical conversion/adoption episode not established."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Named jurists distinguish changed substance, exceptions and deliberate intervention; alternative positions persist.",
+          "inference": "Identity and process intent can affect a religious classification. This is a mechanism hypothesis for cultivated ingredients, not an estimate of demand."
+        },
+        "assessment": "Retain as a contested transformation analogy. The inspected evidence supports distinctions among legal positions; it does not supply a historical sequence in which Muslims broadly changed from rejecting to consuming a food.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "H-MUBDI",
+              "H-MUGH-IST",
+              "H-TAY-IST"
+            ],
+            "text": "Spontaneous vinegar exceptions and deliberate-conversion disagreement prevent a universal processing rule."
+          },
+          {
+            "source_ids": [
+              "S4",
+              "H1",
+              "J4"
+            ],
+            "text": "Selected transformation positions differ and require a qualifying change; heat, dilution or a new label is not sufficient evidence."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Questions for religious-gate review: what changes, whether intervention matters, which authority and exception applies.",
+          "not_established": "Consumer adoption speed, elasticity, or proof that cell growth changes an impure medium’s identity."
+        },
+        "disposition": "retain_doctrinal_analogy_exclude_quantitative_adoption",
+        "unknowns": [
+          "A dated behavioural transition and place.",
+          "Exact print editions for historical texts.",
+          "Process-specific evidence connecting vinegar conversion to cultured tissue."
+        ],
+        "search_disposition": {
+          "mode": "reused_checked_textual_work",
+          "prior_ids": [
+            "M-Q6",
+            "HB-Q6",
+            "HN-Q6",
+            "S-Q6",
+            "J-Q6"
+          ],
+          "new_question_searches": 0,
+          "reason": "Existing checked passages answer the textual comparison; new generic searches would repeat solved work."
+        },
+        "reopen": "Reopen only for a defined historical market episode or an expert-specified disputed vinegar passage/edition.",
+        "locators": [
+          {
+            "source_id": "M-DAS28",
+            "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52"
+          },
+          {
+            "source_id": "M-DHAK",
+            "locator": "Kitab al-tahara, means 2, chapter 3 on animal-derived substances; vol. 1 pp. 185-189, especially branches 2-3, 7-8 and concluding principle"
+          },
+          {
+            "source_id": "H-MUBDI",
+            "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition"
+          },
+          {
+            "source_id": "H-MUGH-IST",
+            "locator": "Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition"
+          },
+          {
+            "source_id": "H-TAY-IST",
+            "locator": "Vol. 21 pp. 70-72; discussion of smoke and substance transformed from impurity"
+          },
+          {
+            "source_id": "H1",
+            "locator": "Vol. 1, Bab al-Anjas, displayed p. 327"
+          },
+          {
+            "source_id": "S4",
+            "locator": "Vol. 2, displayed pp. 596–597, impure substances transformed by burning/salt marsh"
+          },
+          {
+            "source_id": "J4",
+            "locator": "Rulings 189–191, transformation (istihalah)"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+          "Shihab al-Din al-Qarafi",
+          "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni",
+          "Ibn Qudama",
+          "Ibn Taymiyya",
+          "Ibn Abidin",
+          "al-Nawawi",
+          "Sistani-office"
+        ]
+      }
+    },
+    {
+      "id": "HP-02",
+      "requirement_id": "HISTORY-02",
+      "title": "Tanned hides",
+      "country": null,
+      "source_ids": [
+        "P1C6-REL-TAN"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C03"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Untanned skin/hide.",
+      "after": "Tanned skin described as pure in the report.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Sahih Muslim366a, Sunnah.com Arabic/English digital presentation; no exact report-event date/place or print edition verified."
+      },
+      "evidence_kind": "primary_hadith_text_with_limited_scope",
+      "assessment": "Retain as a material-purity precedent, with ingestion and species scope held. It is not a measured food adoption case.",
+      "unknowns": [
+        "School-specific hide/species exceptions and food-use rules.",
+        "Historical date/place and observed uptake of tanning."
+      ],
+      "reopen": "Obtain exact school commentaries if an argument requires species scope or ingestion; obtain market-history evidence before using uptake.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-02",
+        "id": "P1C6-REL-H02",
+        "title": "Tanned hides",
+        "evidence_type": "primary_hadith_text_with_limited_scope",
+        "before_after_food_or_material": {
+          "before": "Untanned skin/hide.",
+          "after": "Tanned skin described as pure in the report.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Sahih Muslim366a, Sunnah.com Arabic/English digital presentation; no exact report-event date/place or print edition verified."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "A transmitted rule assigns purity after a specified treatment.",
+          "inference": "A process can be legally relevant without furnishing an unrestricted edible-food permission."
+        },
+        "assessment": "Retain as a material-purity precedent, with ingestion and species scope held. It is not a measured food adoption case.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "P1C6-REL-TAN"
+            ],
+            "text": "The report’s predicate is purity of skin; no ingestion or market outcome appears in the inspected passage."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Clarifies that processing outcome, material use and edibility must be separate questions.",
+          "not_established": "That tanning permits every species/material to be eaten or that serum processing is analogous."
+        },
+        "disposition": "retain_material_purity_precedent_exclude_food_adoption",
+        "unknowns": [
+          "School-specific hide/species exceptions and food-use rules.",
+          "Historical date/place and observed uptake of tanning."
+        ],
+        "search_disposition": {
+          "mode": "bounded_primary_retrieval",
+          "operations": [
+            7
+          ],
+          "result": "Hadith366a relevant passage obtained as provider extract; no broader school survey performed."
+        },
+        "reopen": "Obtain exact school commentaries if an argument requires species scope or ingestion; obtain market-history evidence before using uptake.",
+        "locators": [
+          {
+            "source_id": "P1C6-REL-TAN",
+            "locator": "Hadith366a; chapter27"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Sahih-Muslim-digital-edition"
+        ]
+      }
+    },
+    {
+      "id": "HP-03",
+      "requirement_id": "HISTORY-03",
+      "title": "Musk",
+      "country": null,
+      "source_ids": [
+        "M-DAS28"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C04"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": null,
+      "after": "Musk treated as pure in the inspected Dardir/Dasuqi list.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Dardir/Dasuqi, vol1 p52 in digital edition; exact print edition and adoption event not established."
+      },
+      "evidence_kind": "retained_primary_juristic_purity_example",
+      "assessment": "Retain the purity example narrowly. Exclude musk as a demonstrated food transition or proof of cultured-cell transformation.",
+      "unknowns": [
+        "Precursor biology and exact transformation mechanism.",
+        "Intended use as fragrance versus food and its relevance.",
+        "Event date/place, observed adoption and causal role."
+      ],
+      "reopen": "Reopen for a defined primary scientific/process account and an expert-supported legal analogy; do not invent a historical transition.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-03",
+        "id": "P1C6-REL-H03",
+        "title": "Musk",
+        "evidence_type": "retained_primary_juristic_purity_example",
+        "before_after_food_or_material": {
+          "before": null,
+          "after": "Musk treated as pure in the inspected Dardir/Dasuqi list.",
+          "observed_product_transition": false,
+          "before_unknown_reason": "No independently checked biological precursor/process account is retained; blood-to-musk is not asserted here."
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Dardir/Dasuqi, vol1 p52 in digital edition; exact print edition and adoption event not established."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "An identified juristic list classifies musk as pure.",
+          "inference": "A named exception may clarify a legal category, but does not establish a general mechanism covering arbitrary cells or ingredients."
+        },
+        "assessment": "Retain the purity example narrowly. Exclude musk as a demonstrated food transition or proof of cultured-cell transformation.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "M-DAS28"
+            ],
+            "text": "The retained reading explicitly distinguishes purity from edibility; it supplies no before/after consumption evidence."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "A question-generating purity exception for qualified comparative review.",
+          "not_established": "A food-market transition, biological equivalence, donor exemption or measured effect on adoption."
+        },
+        "disposition": "retain_purity_example_exclude_food_transition",
+        "unknowns": [
+          "Precursor biology and exact transformation mechanism.",
+          "Intended use as fragrance versus food and its relevance.",
+          "Event date/place, observed adoption and causal role."
+        ],
+        "search_disposition": {
+          "mode": "reused_checked_textual_work",
+          "prior_ids": [
+            "M-Q6"
+          ],
+          "new_question_searches": 0,
+          "reason": "Existing checked passage establishes only the narrow purity example; no need to repeat it."
+        },
+        "reopen": "Reopen for a defined primary scientific/process account and an expert-supported legal analogy; do not invent a historical transition.",
+        "locators": [
+          {
+            "source_id": "M-DAS28",
+            "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil"
+        ]
+      }
+    },
+    {
+      "id": "HP-04",
+      "requirement_id": "HISTORY-04",
+      "title": "Jallala and feed quarantine",
+      "country": null,
+      "source_ids": [
+        "P1C6-REL-JALLALA",
+        "P1C6-REL-ISTIBRA219",
+        "J6"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C05",
+        "P1C6-REL-C06",
+        "P1C6-REL-C07"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Filth/excrement-feeding animal; separate subcase of young animal fed pig milk.",
+      "after": "Under Sistani’s stated criteria, excrement-feeding status removed through pure feed/istibra; not all pig-milk cases receive the same outcome.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Abu Dawud3785 plus current Sistani web rulings219/2649; source publication/edition dates unknown, accessed2026-10-01."
+      },
+      "evidence_kind": "hadith_and_named_authority_condition_change",
+      "assessment": "Retain as a conditional feeding-history precedent, not proof that a seven-day wait universally purifies animal material. Provider excerpts are available; the modern office text is one named authority.",
+      "unknowns": [
+        "Cross-school quarantine rules.",
+        "Chemical/biological equivalence of animal feeding and cell culture.",
+        "Observed compliance, market uptake and exact historical dates."
+      ],
+      "reopen": "Any application requires the named authority, species, exposure and endpoint; retrieve empirical uptake only for an actual market-speed question.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-04",
+        "id": "P1C6-REL-H04",
+        "title": "Jallala and feed quarantine",
+        "evidence_type": "hadith_and_named_authority_condition_change",
+        "before_after_food_or_material": {
+          "before": "Filth/excrement-feeding animal; separate subcase of young animal fed pig milk.",
+          "after": "Under Sistani’s stated criteria, excrement-feeding status removed through pure feed/istibra; not all pig-milk cases receive the same outcome.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Abu Dawud3785 plus current Sistani web rulings219/2649; source publication/edition dates unknown, accessed2026-10-01."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "The prohibition report and named-authority remedy distinguish feeding history, cessation of status and precautionary periods.",
+          "inference": "Upstream inputs and an explicitly specified remediation can matter even when the final food is animal tissue; a process-specific ruling remains necessary."
+        },
+        "prescribed_periods": {
+          "kind": "recommended_precaution_under_Sistani219_not_observed_speed",
+          "unit": "days",
+          "values": {
+            "camel": 40,
+            "cow": 20,
+            "sheep": 10,
+            "duck": [
+              7,
+              5
+            ],
+            "domestic_hen": 3
+          },
+          "primary_condition": "No longer considered habitually human-excrement-eating after pure feed.",
+          "source_id": "P1C6-REL-ISTIBRA219",
+          "separate_pig_milk_subcase": "2649 seven days concerns the lesser-feeding young-animal case; stronger flesh/bone effect is separately disqualifying."
+        },
+        "assessment": "Retain as a conditional feeding-history precedent, not proof that a seven-day wait universally purifies animal material. Provider excerpts are available; the modern office text is one named authority.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "P1C6-REL-JALLALA"
+            ],
+            "text": "The hadith gives no quarantine interval."
+          },
+          {
+            "source_ids": [
+              "J6",
+              "P1C6-REL-ISTIBRA219"
+            ],
+            "text": "Ruling219 periods are species-specific recommended precaution;2649 separately distinguishes the pig-milk exposure level."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Supports asking whether culture inputs change a legally relevant product status and whether any remedy is explicitly recognized.",
+          "not_established": "A cultured-cell withdrawal interval, absence of medium residue, chemical safety, consumer recovery speed or a cross-school rule."
+        },
+        "disposition": "retain_conditional_feed_precedent_exclude_market_speed",
+        "unknowns": [
+          "Cross-school quarantine rules.",
+          "Chemical/biological equivalence of animal feeding and cell culture.",
+          "Observed compliance, market uptake and exact historical dates."
+        ],
+        "search_disposition": {
+          "mode": "bounded_primary_retrieval_plus_coordinator_supplement",
+          "operations": [
+            3,
+            8,
+            13,
+            15
+          ],
+          "coordinator_request": "R6-COORD-04",
+          "result": "Hadith body obtained on second open;219 supplemented after2649 referred to it. No new specialist retrieval."
+        },
+        "reopen": "Any application requires the named authority, species, exposure and endpoint; retrieve empirical uptake only for an actual market-speed question.",
+        "locators": [
+          {
+            "source_id": "P1C6-REL-JALLALA",
+            "locator": "Hadith3785; book28 report50"
+          },
+          {
+            "source_id": "P1C6-REL-ISTIBRA219",
+            "locator": "Ruling219 entire paragraph; same-number 2023 PDF printed p53 indexed in same capture"
+          },
+          {
+            "source_id": "J6",
+            "locator": "Rulings2648(horse);2649(young-animal feeding and istibra)"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Abu-Dawud-digital-edition",
+          "Sistani-office"
+        ]
+      }
+    },
+    {
+      "id": "HP-05",
+      "requirement_id": "HISTORY-05",
+      "title": "Rennet and non-Muslim cheese",
+      "country": null,
+      "source_ids": [
+        "H6",
+        "H-MUGH-RENNET",
+        "IIFA210"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C08",
+        "P1C6-REL-C09"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Animal rennet with disputed carcass/source status in cheese production.",
+      "after": "Distinct doctrinal treatments; genetically engineered rennet expressly permitted in IIFA210. No observed replacement trajectory established.",
+      "time_place": {
+        "event_dates": [
+          "2015-03-22",
+          "2015-03-25"
+        ],
+        "event_place": "Kuwait City, IIFA22nd session",
+        "document_context": "2015session dates bracket the resolution; exact adoption day unknown. Classical rennet passages have unresolved print editions/dates."
+      },
+      "evidence_kind": "contested_ingredient_doctrine_and_institutional_resolution",
+      "assessment": "Retain ingredient-specific disagreement and technology substitution as analytical precedents. Neither resolves all non-Muslim cheese nor proves historical industrial adoption.",
+      "unknowns": [
+        "Primary historical evidence on actual cheese consumption and its change.",
+        "Complete Arabic/English IIFA rennet clauses.",
+        "Observed engineered-rennet market substitution."
+      ],
+      "reopen": "Obtain a complete issuer version for missing predicates and a dated production/consumption series before claiming a historical transition.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-05",
+        "id": "P1C6-REL-H05",
+        "title": "Rennet and non-Muslim cheese",
+        "evidence_type": "contested_ingredient_doctrine_and_institutional_resolution",
+        "before_after_food_or_material": {
+          "before": "Animal rennet with disputed carcass/source status in cheese production.",
+          "after": "Distinct doctrinal treatments; genetically engineered rennet expressly permitted in IIFA210. No observed replacement trajectory established.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": [
+            "2015-03-22",
+            "2015-03-25"
+          ],
+          "event_place": "Kuwait City, IIFA22nd session",
+          "document_context": "2015session dates bracket the resolution; exact adoption day unknown. Classical rennet passages have unresolved print editions/dates."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Ingredient identity, species, slaughter and contamination distinguish rulings; an institution addresses a different production source.",
+          "inference": "Alternative ingredient sourcing may avoid a contested input, but market response must be measured separately."
+        },
+        "assessment": "Retain ingredient-specific disagreement and technology substitution as analytical precedents. Neither resolves all non-Muslim cheese nor proves historical industrial adoption.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "H6",
+              "H-MUGH-RENNET"
+            ],
+            "text": "Both Hanafi and Hanbali records contain internal alternatives, so an undifferentiated consensus is unsupported."
+          },
+          {
+            "source_ids": [
+              "IIFA210"
+            ],
+            "text": "Several English rennet sentences are truncated; only complete propositions are used."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Distinguishes replacement sourcing from transformation of a prohibited input in medium/enzyme design.",
+          "not_established": "Every enzyme’s eligibility, a non-Muslim-cheese blanket rule, price savings or demand/penetration effect."
+        },
+        "disposition": "retain_contested_ingredient_precedent_with_history_gap",
+        "unknowns": [
+          "Primary historical evidence on actual cheese consumption and its change.",
+          "Complete Arabic/English IIFA rennet clauses.",
+          "Observed engineered-rennet market substitution."
+        ],
+        "search_disposition": {
+          "mode": "reuse_plus_resolution_open",
+          "prior_ids": [
+            "HN-Q7",
+            "HB-Q7"
+          ],
+          "operations": [
+            6
+          ],
+          "result": "Prior checked classical ingredient material reused; complete engineered-rennet sentence available, truncated clauses held."
+        },
+        "reopen": "Obtain a complete issuer version for missing predicates and a dated production/consumption series before claiming a historical transition.",
+        "locators": [
+          {
+            "source_id": "H6",
+            "locator": "Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116."
+          },
+          {
+            "source_id": "H-MUGH-RENNET",
+            "locator": "Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified"
+          },
+          {
+            "source_id": "IIFA210",
+            "locator": "Fourth General Principles4–7; Hormones and Enzymes; Cheese Manufactured by Rennet Curdling"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Ibn Nujaym",
+          "Ibn Qudama",
+          "IIFA"
+        ]
+      }
+    },
+    {
+      "id": "HP-06",
+      "requirement_id": "HISTORY-06",
+      "title": "Gelatin and the1995IOMS seminar",
+      "country": null,
+      "source_ids": [
+        "IIFA210",
+        "J8",
+        "J9"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C10",
+        "P1C6-REL-C11"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Animal-derived gelatin input whose source and transformation status require assessment.",
+      "after": "A proposed transformed/pure gelatin category remains conditional and contested in the inspected evidence; no universally accepted product outcome established.",
+      "time_place": {
+        "event_dates": [
+          "1995-05-22",
+          "1995-05-24"
+        ],
+        "event_place": "IOMS headquarters, Kuwait, as reported by IIFA210",
+        "document_context": "Original1995instrument absent;2015IIFA text is directly attributable to IIFA. Sistani Q&A pages have no verified publication date."
+      },
+      "evidence_kind": "later_institutional_reference_and_named_authority_counterevidence",
+      "assessment": "Retain as an unresolved institutional/process debate. The1995original-instrument gap is real; the later quotation is useful but cannot be relabeled the original or a settled blanket permission.",
+      "unknowns": [
+        "Original signed/issued1995IOMS text, edition and complete gelatin conclusion.",
+        "Process-specific biochemical and customary-identity evidence.",
+        "Historical market response."
+      ],
+      "reopen": "A stable original IOMS proceedings/fatwa edition or qualified archival source; do not repeat the same broad searches.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-06",
+        "id": "P1C6-REL-H06",
+        "title": "Gelatin and the1995IOMS seminar",
+        "evidence_type": "later_institutional_reference_and_named_authority_counterevidence",
+        "before_after_food_or_material": {
+          "before": "Animal-derived gelatin input whose source and transformation status require assessment.",
+          "after": "A proposed transformed/pure gelatin category remains conditional and contested in the inspected evidence; no universally accepted product outcome established.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": [
+            "1995-05-22",
+            "1995-05-24"
+          ],
+          "event_place": "IOMS headquarters, Kuwait, as reported by IIFA210",
+          "document_context": "Original1995instrument absent;2015IIFA text is directly attributable to IIFA. Sistani Q&A pages have no verified publication date."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Medical-juristic discussion is referenced by a later academy; gelatin remains under study in that later instrument and a named authority requires established transformation.",
+          "inference": "Expert-process evidence can shape eligibility debates; persistence of study/disagreement prevents a clean universal acceptance narrative."
+        },
+        "assessment": "Retain as an unresolved institutional/process debate. The1995original-instrument gap is real; the later quotation is useful but cannot be relabeled the original or a settled blanket permission.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "IIFA210"
+            ],
+            "text": "Further gelatin research is explicitly requested, which defeats a claim of unconditional IIFA approval."
+          },
+          {
+            "source_ids": [
+              "J8",
+              "J9"
+            ],
+            "text": "The checked Arabic/English gelatin answers require source/identity distinctions and do not establish transformation for all manufacturing."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Tests whether the asserted transformation is actually established and whose institutional position applies.",
+          "not_established": "That gelatin hydrolysis or cell growth automatically resolves impurity; no market acceptance, adoption speed or consumer elasticity."
+        },
+        "disposition": "retain_unresolved_institutional_case_original_1995_held",
+        "unknowns": [
+          "Original signed/issued1995IOMS text, edition and complete gelatin conclusion.",
+          "Process-specific biochemical and customary-identity evidence.",
+          "Historical market response."
+        ],
+        "search_disposition": {
+          "mode": "two_unproductive_original_instrument_cycles_then_park",
+          "operations": [
+            1,
+            10
+          ],
+          "useful_related_operation": 6,
+          "result": "Later official IIFA text and catalogue/WHO leads obtained; original IOMS instrument not found. First query retained with site-dot typo; second used domain filters. Search absence is bounded, not proof of nonexistence."
+        },
+        "reopen": "A stable original IOMS proceedings/fatwa edition or qualified archival source; do not repeat the same broad searches.",
+        "locators": [
+          {
+            "source_id": "IIFA210",
+            "locator": "Fourth General Principles4–7; Hormones and Enzymes; Cheese Manufactured by Rennet Curdling"
+          },
+          {
+            "source_id": "J8",
+            "locator": "Questions 1–2"
+          },
+          {
+            "source_id": "J9",
+            "locator": "Questions 1–3 and 9–10"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "IIFA",
+          "Sistani-office"
+        ]
+      }
+    },
+    {
+      "id": "HP-07",
+      "requirement_id": "HISTORY-07",
+      "title": "Ajinomoto Indonesia2001",
+      "country": "IDN",
+      "source_ids": [
+        "P1C6-REL-AJI2015",
+        "P1C6-REL-AJI2024",
+        "P1C6-REL-AJI2015-PDF",
+        "P1C6-REL-AJI-JP-LEAD",
+        "P1C6-REL-MUI-AJI-HELD"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C12",
+        "P1C6-REL-C13"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "AJI-NO-MOTO seasoning production using a bacterial preservation-medium supply chain implicated in the company’s account.",
+      "after": "Company-reported halal-management reforms and a contemporaneous reported mameno application/testing route; final certificate and exact product/process identity not obtained.",
+      "time_place": {
+        "event_dates": [
+          "2001"
+        ],
+        "event_place": "PT Ajinomoto Indonesia, Indonesia",
+        "document_context": "2015company retrospective printedp20,2024timeline p031;1February2001news lead;2003group standard is a reported milestone, not recovery completion."
+      },
+      "evidence_kind": "company_retrospective_with_contemporary_report_lead_and_language_held_instrument",
+      "assessment": "Retain as a concrete but incompletely documented institutional-response event. Do not turn a process-aid controversy into an unsupported claim that finished MSG contained pork, or turn a prospective news headline into granted certification. The complete company PDF is now obtained, with independent visual reading limited to printed20/PDF21.",
+      "unknowns": [
+        "Complete eligible-language MUI instrument and named signatories/version.",
+        "Original certificate withdrawal/restoration records.",
+        "Independent supply-chain and final-product composition evidence.",
+        "Sales/consumer response series with timing and controls."
+      ],
+      "reopen": "Eligible original MUI/certificate record and dated company/regulator process documents; sales data needed for a measured transition.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-07",
+        "id": "P1C6-REL-H07",
+        "title": "Ajinomoto Indonesia2001",
+        "additional_source_ids": [
+          "P1C6-REL-MUI-AJI-HELD"
+        ],
+        "evidence_type": "company_retrospective_with_contemporary_report_lead_and_language_held_instrument",
+        "before_after_food_or_material": {
+          "before": "AJI-NO-MOTO seasoning production using a bacterial preservation-medium supply chain implicated in the company’s account.",
+          "after": "Company-reported halal-management reforms and a contemporaneous reported mameno application/testing route; final certificate and exact product/process identity not obtained.",
+          "observed_product_transition": "institutional_response_reported; market_transition_unmeasured"
+        },
+        "time_place": {
+          "event_dates": [
+            "2001"
+          ],
+          "event_place": "PT Ajinomoto Indonesia, Indonesia",
+          "document_context": "2015company retrospective printedp20,2024timeline p031;1February2001news lead;2003group standard is a reported milestone, not recovery completion."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Company attributes the incident to halal-certification concerns and describes management, dialogue and assurance-system responses.",
+          "inference": "Supply-chain inputs, certification credibility and institutional trust can change even when a product name remains constant. This hypothesis is not an identified consumer effect."
+        },
+        "assessment": "Retain as a concrete but incompletely documented institutional-response event. Do not turn a process-aid controversy into an unsupported claim that finished MSG contained pork, or turn a prospective news headline into granted certification. The complete company PDF is now obtained, with independent visual reading limited to printed20/PDF21.",
+        "chronology": [
+          {
+            "date": "2001",
+            "event": "Halal incident reported retrospectively by company.",
+            "source_ids": [
+              "P1C6-REL-AJI2015",
+              "P1C6-REL-AJI2024"
+            ]
+          },
+          {
+            "date": "2001-02-01",
+            "event": "Contemporary report lead describes new-product application/testing.",
+            "source_ids": [
+              "P1C6-REL-AJI-JP-LEAD"
+            ]
+          },
+          {
+            "date": "2003",
+            "event": "Group halal-control standard reported in2015retrospective.",
+            "source_ids": [
+              "P1C6-REL-AJI2015"
+            ]
+          }
+        ],
+        "held_evidence": {
+          "source_id": "P1C6-REL-MUI-AJI-HELD",
+          "language": "Indonesian",
+          "locator": "Indexed printedp617 preamble",
+          "use": "Discovery only; no approved translation or adopted proposition."
+        },
+        "counterevidence": [
+          {
+            "source_ids": [
+              "P1C6-REL-AJI2015",
+              "P1C6-REL-AJI2024",
+              "P1C6-REL-AJI2015-PDF"
+            ],
+            "text": "Both are company retrospectives from one source family; neither is an independent MUI instrument or chemical assay."
+          },
+          {
+            "source_ids": [
+              "P1C6-REL-AJI-JP-LEAD"
+            ],
+            "text": "The report is prospective, not proof of certification issuance."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Strong qualitative relevance to medium traceability and the distinction between chemical composition and certification process.",
+          "not_established": "Current product halal status, exact2001restoration date, consumer recovery rate, a causal price effect, or finished-product porcine residue."
+        },
+        "disposition": "retain_bounded_historical_event_instrument_and_market_gaps",
+        "unknowns": [
+          "Complete eligible-language MUI instrument and named signatories/version.",
+          "Original certificate withdrawal/restoration records.",
+          "Independent supply-chain and final-product composition evidence.",
+          "Sales/consumer response series with timing and controls."
+        ],
+        "search_disposition": {
+          "mode": "two_specialist_cycles_then_changed_to_coordinator_company_archive",
+          "operations": [
+            2,
+            9
+          ],
+          "coordinator_requests": [
+            "R6-COORD-02",
+            "R6-COORD-03",
+            "R6-COORD-05",
+            "R6-COORD-06"
+          ],
+          "result": "Official Indonesian MUI lead remains held. After the failed20MBdownload and failed web open, coordinator obtained the23,660,307-byte original PDF; specialist visually read printed20/PDF21 only. Company event/management chronology is usable within attribution."
+        },
+        "reopen": "Eligible original MUI/certificate record and dated company/regulator process documents; sales data needed for a measured transition.",
+        "locators": [
+          {
+            "source_id": "P1C6-REL-AJI2015",
+            "locator": "Printed p20, Lessons learned from the Halal incident and footnote2"
+          },
+          {
+            "source_id": "P1C6-REL-AJI2024",
+            "locator": "Printed p031, 2001 entry"
+          },
+          {
+            "source_id": "P1C6-REL-AJI2015-PDF",
+            "locator": "Printedp20/PDF21, both columns, footnotes2–3 and captions"
+          },
+          {
+            "source_id": "P1C6-REL-AJI-JP-LEAD",
+            "locator": "Headline/date; opening paragraphs quoting MUI chairman Umar Shihab"
+          },
+          {
+            "source_id": "P1C6-REL-MUI-AJI-HELD",
+            "locator": "Indexed printedp617 preamble mentioning1999–2000; full instrument not acquired"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Ajinomoto-company-retrospective",
+          "JakartaPost-Ajinomoto-2001-report",
+          "MUI-Ajinomoto-2000-record"
+        ],
+        "boundaries": {
+          "finished_product_porcine_residue_established": false,
+          "current_product_certificate_established": false,
+          "certificate_restoration_date": null
+        }
+      }
+    },
+    {
+      "id": "HP-08",
+      "requirement_id": "HISTORY-08",
+      "title": "Porcine insulin and vaccine ingredients",
+      "country": null,
+      "source_ids": [
+        "IIFA210",
+        "P1C6-REL-WHO2017"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C14",
+        "P1C6-REL-C15"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Pig-derived insulin; separately, porcine gelatin used in some vaccine discussions.",
+      "after": "Different necessity/transformation arguments; no combined universal acceptance transition or product-specific outcome established.",
+      "time_place": {
+        "event_dates": [
+          "2015-03-22",
+          "2015-03-25"
+        ],
+        "event_place": "Kuwait City for IIFA22nd session; WHO Europe manual is not a local uptake study",
+        "document_context": "IIFA2102015; WHO training manual identifier2017. Underlying IOMS letter’s exact date/edition not obtained."
+      },
+      "evidence_kind": "necessity_rule_and_secondary_religious_attribution",
+      "assessment": "Keep insulin and vaccines as separate subcases. The packet is a historical-source assessment, with no clinical recommendation or product eligibility statement.",
+      "unknowns": [
+        "Original religious letter and full insulin clause.",
+        "Dated product-specific manufacturing details.",
+        "Observed adoption/uptake separated from access and public-health policy."
+      ],
+      "reopen": "Obtain the original letter and complete issuer text if the religious attribution is needed; medical decisions require appropriate human expertise.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-08",
+        "id": "P1C6-REL-H08",
+        "title": "Porcine insulin and vaccine ingredients",
+        "evidence_type": "necessity_rule_and_secondary_religious_attribution",
+        "before_after_food_or_material": {
+          "before": "Pig-derived insulin; separately, porcine gelatin used in some vaccine discussions.",
+          "after": "Different necessity/transformation arguments; no combined universal acceptance transition or product-specific outcome established.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": [
+            "2015-03-22",
+            "2015-03-25"
+          ],
+          "event_place": "Kuwait City for IIFA22nd session; WHO Europe manual is not a local uptake study",
+          "document_context": "IIFA2102015; WHO training manual identifier2017. Underlying IOMS letter’s exact date/edition not obtained."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Insulin necessity and gelatin-transformation arguments are distinct; WHO relays a religious opinion rather than issuing a fatwa.",
+          "inference": "Medical need and alternative availability may alter an assessment; food applications cannot automatically inherit that necessity context."
+        },
+        "assessment": "Keep insulin and vaccines as separate subcases. The packet is a historical-source assessment, with no clinical recommendation or product eligibility statement.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "IIFA210"
+            ],
+            "text": "Necessity is a stated qualification; a following English engineered-insulin sentence is incomplete."
+          },
+          {
+            "source_ids": [
+              "P1C6-REL-WHO2017"
+            ],
+            "text": "Manual attribution is secondary to the religious instrument and provides no vaccine-specific manufacturing audit or uptake measure."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Explains why necessity and transformation should be coded separately from routine food desirability.",
+          "not_established": "A medical-necessity exemption for cultivated food, all vaccine ingredients, a clinical decision, or observed acceptance speed."
+        },
+        "disposition": "retain_distinct_medical_analogies_exclude_food_or_clinical_verdict",
+        "unknowns": [
+          "Original religious letter and full insulin clause.",
+          "Dated product-specific manufacturing details.",
+          "Observed adoption/uptake separated from access and public-health policy."
+        ],
+        "search_disposition": {
+          "mode": "bounded_sources_plus_failed_letter_followup",
+          "operations": [
+            6,
+            10,
+            17
+          ],
+          "coordinator_request": "R6-COORD-04",
+          "result": "WHO2017excerpt retrieved; underlying immunize.org letter failed to open. No further specialist budget remains."
+        },
+        "reopen": "Obtain the original letter and complete issuer text if the religious attribution is needed; medical decisions require appropriate human expertise.",
+        "locators": [
+          {
+            "source_id": "IIFA210",
+            "locator": "Fourth General Principles4–7; Hormones and Enzymes; Cheese Manufactured by Rennet Curdling"
+          },
+          {
+            "source_id": "P1C6-REL-WHO2017",
+            "locator": "Printedp30 §4.2.2; p81 reference37"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "IIFA",
+          "WHO-Europe-training-manual"
+        ]
+      }
+    },
+    {
+      "id": "HP-09",
+      "requirement_id": "HISTORY-09",
+      "title": "Stunning and machine slaughter",
+      "country": null,
+      "source_ids": [
+        "P1C6-REL-IIFA263",
+        "P1C6-REL-IIFA95"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C16",
+        "P1C6-REL-C21"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Animals/birds proposed to be stunned before slaughter; mechanised slaughter is a separate process question.",
+      "after": "Conditional treatment of stunning and mechanised poultry slaughter under IIFA95;2025stunning deliberation remains postponed. No observed production transition established.",
+      "time_place": {
+        "event_dates": [
+          "1997-06-28",
+          "1997-07-03",
+          "2022-06-13",
+          "2022-06-14",
+          "2025-05-04",
+          "2025-05-08"
+        ],
+        "event_place": "Jeddah IIFA10th session1997; Jeddah seminar2022; Doha IIFA26th session2025",
+        "document_context": "IIFA95 page date3July1997, session28June–3July; IIFA263 page20November2025, session4–8May. Exact adoption days/current consolidation unknown."
+      },
+      "evidence_kind": "historical_institutional_process_conditions_and_later_postponement",
+      "assessment": "Retain the1997conditional mechanisation/stunning instrument together with2025postponement. This supports a scoped institutional response to technical processes, not measured industrial adoption or a verified current consolidated rule.",
+      "unknowns": [
+        "Complete authoritative technical specifications/translation.",
+        "Whether later instruments amend or consolidate1997conditions, and national incorporation.",
+        "Observed adoption dates/shares and exact process versions."
+      ],
+      "reopen": "Obtain an authoritative complete technical edition and amendment/incorporation chain before any current compliance claim; historical production data are separately needed for uptake.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-09",
+        "id": "P1C6-REL-H09",
+        "title": "Stunning and machine slaughter",
+        "evidence_type": "historical_institutional_process_conditions_and_later_postponement",
+        "before_after_food_or_material": {
+          "before": "Animals/birds proposed to be stunned before slaughter; mechanised slaughter is a separate process question.",
+          "after": "Conditional treatment of stunning and mechanised poultry slaughter under IIFA95;2025stunning deliberation remains postponed. No observed production transition established.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": [
+            "1997-06-28",
+            "1997-07-03",
+            "2022-06-13",
+            "2022-06-14",
+            "2025-05-04",
+            "2025-05-08"
+          ],
+          "event_place": "Jeddah IIFA10th session1997; Jeddah seminar2022; Doha IIFA26th session2025",
+          "document_context": "IIFA95 page date3July1997, session28June–3July; IIFA263 page20November2025, session4–8May. Exact adoption days/current consolidation unknown."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "The1997resolution sets process conditions, differentiates poultry stunning and permits specified mechanisation; the2025resolution calls for more research on stunning.",
+          "inference": "Technical process questions can remain institutionally unresolved, so industry presence cannot substitute for an operative ruling."
+        },
+        "assessment": "Retain the1997conditional mechanisation/stunning instrument together with2025postponement. This supports a scoped institutional response to technical processes, not measured industrial adoption or a verified current consolidated rule.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "P1C6-REL-IIFA263"
+            ],
+            "text": "The operative action is postponement; it does not approve stunning, repeal a prior rule, or establish machine slaughter’s permissibility."
+          },
+          {
+            "source_ids": [
+              "P1C6-REL-IIFA95"
+            ],
+            "text": "Poultry electric stunning is expressly prohibited in this historical text; conditional mechanisation does not imply every automated process qualifies. Electrical values are visibly corrupt/truncated and are not adopted."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Shows the role of technical submissions and institutional latency in religious-governance analysis.",
+          "not_established": "Religious approval for a process, a quantified institutional delay from first application, or a measured adoption rate."
+        },
+        "disposition": "retain_historical_process_conditions_currentness_and_uptake_unknown",
+        "unknowns": [
+          "Complete authoritative technical specifications/translation.",
+          "Whether later instruments amend or consolidate1997conditions, and national incorporation.",
+          "Observed adoption dates/shares and exact process versions."
+        ],
+        "search_disposition": {
+          "mode": "specialist_park_then_coordinator_exact_instrument_search",
+          "operations": [
+            4,
+            11,
+            16
+          ],
+          "coordinator_requests": [
+            "R6-COORD-07",
+            "R6-COORD-09"
+          ],
+          "result": "Exact official IIFA95 obtained by coordinator and independently read after original source-only handoff; prior missing-machine-text limitation is superseded by append-only supplement."
+        },
+        "reopen": "Obtain an authoritative complete technical edition and amendment/incorporation chain before any current compliance claim; historical production data are separately needed for uptake.",
+        "locators": [
+          {
+            "source_id": "P1C6-REL-IIFA263",
+            "locator": "Session preamble; RESOLVES postponement"
+          },
+          {
+            "source_id": "P1C6-REL-IIFA95",
+            "locator": "Second; Fifth1–2 and subpoint6; Seventh; Eighth; Ninth1"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "IIFA"
+        ],
+        "instrument_boundaries": {
+          "historical_resolution": "95 (3/10)",
+          "historical_session": [
+            "1997-06-28",
+            "1997-07-03"
+          ],
+          "later_resolution": "263 (8/26)",
+          "later_session": [
+            "2025-05-04",
+            "2025-05-08"
+          ],
+          "later_action": "postponement",
+          "current_consolidation_verified": false
+        }
+      }
+    },
+    {
+      "id": "HP-10",
+      "requirement_id": "HISTORY-10",
+      "title": "People of the Book: Quran5:5",
+      "country": null,
+      "source_ids": [
+        "P1C6-REL-Q55",
+        "P1C6-REL-IIFA95"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C17",
+        "P1C6-REL-C22"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": null,
+      "after": "Food of those given Scripture permitted in the verse’s statement; reciprocal food permission.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Quran5:5 Arabic with The Clear Quran translation. No exact revelation date/place or historical behavioural sequence verified. IIFA95 provides a dated institutional application at Jeddah,28June–3July1997; this is not the verse’s revelation chronology."
+      },
+      "evidence_kind": "scriptural_baseline_and_historical_institutional_interpretation",
+      "assessment": "Retain as a scriptural baseline. Do not label it a measured liberalisation, universal modern slaughter certificate or a demonstrated expansion of demand. The1997institutional application narrows the interpretation with explicit conditions but still supplies no observed market transition.",
+      "unknowns": [
+        "A historically documented before/after dietary episode.",
+        "Complete school-specific interpretation and process exceptions.",
+        "Revelation-event chronology if required for the historical argument."
+      ],
+      "reopen": "Reopen for a specified tafsir/school question or a primary historical consumption episode, not to infer market change from the verse alone.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-10",
+        "id": "P1C6-REL-H10",
+        "title": "People of the Book: Quran5:5",
+        "evidence_type": "scriptural_baseline_and_historical_institutional_interpretation",
+        "before_after_food_or_material": {
+          "before": null,
+          "after": "Food of those given Scripture permitted in the verse’s statement; reciprocal food permission.",
+          "observed_product_transition": false,
+          "before_unknown_reason": "No independently established prior market restriction or consumer baseline is retained."
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Quran5:5 Arabic with The Clear Quran translation. No exact revelation date/place or historical behavioural sequence verified. IIFA95 provides a dated institutional application at Jeddah,28June–3July1997; this is not the verse’s revelation chronology."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "A scriptural food permission identifies the counterpart community. The1997IIFA application makes slaughter/process and forbidden-material conditions explicit.",
+          "inference": "Authority and provider identity may be relevant to food boundaries, but specific slaughter/process rules require their own interpretation."
+        },
+        "assessment": "Retain as a scriptural baseline. Do not label it a measured liberalisation, universal modern slaughter certificate or a demonstrated expansion of demand. The1997institutional application narrows the interpretation with explicit conditions but still supplies no observed market transition.",
+        "counterevidence": [
+          {
+            "source_ids": [
+              "P1C6-REL-Q55"
+            ],
+            "text": "Later tafsir heading about slaughtered animals is a separate interpretive layer, not identical to the verse/translation or proof of every contemporary application."
+          },
+          {
+            "source_ids": [
+              "P1C6-REL-IIFA95"
+            ],
+            "text": "Permission is conditional in Seventh/Ninth1. The issuer English page has truncated clauses and a verse-number mismatch; those defects are retained, not silently repaired."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Defines a question for comparative authority/provider analysis.",
+          "not_established": "A cultivated-meat verdict based on donor/operator religion, historical market size, adoption speed or elasticity."
+        },
+        "disposition": "retain_scripture_and_scoped_institutional_application_exclude_adoption",
+        "unknowns": [
+          "A historically documented before/after dietary episode.",
+          "Complete school-specific interpretation and process exceptions.",
+          "Revelation-event chronology if required for the historical argument."
+        ],
+        "search_disposition": {
+          "mode": "bounded_primary_verse_retrieval",
+          "operations": [
+            14
+          ],
+          "result": "Arabic verse and identified English translation obtained; no need to repeat the verse lookup.",
+          "coordinator_requests": [
+            "R6-COORD-07",
+            "R6-COORD-09"
+          ]
+        },
+        "reopen": "Reopen for a specified tafsir/school question or a primary historical consumption episode, not to infer market change from the verse alone.",
+        "locators": [
+          {
+            "source_id": "P1C6-REL-Q55",
+            "locator": "Surah al-Maidah5:5"
+          },
+          {
+            "source_id": "P1C6-REL-IIFA95",
+            "locator": "Second; Fifth1–2 and subpoint6; Seventh; Eighth; Ninth1"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Quran",
+          "IIFA"
+        ]
+      }
+    },
+    {
+      "id": "HP-11",
+      "requirement_id": "HISTORY-11",
+      "title": "Alcohol thresholds in flavourings",
+      "country": null,
+      "source_ids": [
+        "IIFA210"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C18"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Wine-containing food versus a slight alcohol solvent used for otherwise insoluble components.",
+      "after": "Distinct conditional treatments in an institutional text; no numeric flavouring threshold or observed reformulation transition established.",
+      "time_place": {
+        "event_dates": [
+          "2015-03-22",
+          "2015-03-25"
+        ],
+        "event_place": "Kuwait City, IIFA22nd session",
+        "document_context": "IIFA210 quotes1995IOMS material; original seminar text not obtained. No national incorporation/current force audited."
+      },
+      "evidence_kind": "qualitative_institutional_condition_with_numeric_gap",
+      "assessment": "Retain the qualitative distinction. Park numeric thresholds rather than substituting0.1% or0.5% from memory or treating solvent evaporation as proven for all products.",
+      "unknowns": [
+        "Exact territory/issuer numerical standard, if any.",
+        "Complete regulatory wording and legal incorporation.",
+        "Measured reformulation or consumption effect."
+      ],
+      "reopen": "Specify country, product class, date and authority before retrieving the exact threshold instrument and any amendment.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-11",
+        "id": "P1C6-REL-H11",
+        "title": "Alcohol thresholds in flavourings",
+        "evidence_type": "qualitative_institutional_condition_with_numeric_gap",
+        "before_after_food_or_material": {
+          "before": "Wine-containing food versus a slight alcohol solvent used for otherwise insoluble components.",
+          "after": "Distinct conditional treatments in an institutional text; no numeric flavouring threshold or observed reformulation transition established.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": [
+            "2015-03-22",
+            "2015-03-25"
+          ],
+          "event_place": "Kuwait City, IIFA22nd session",
+          "document_context": "IIFA210 quotes1995IOMS material; original seminar text not obtained. No national incorporation/current force audited."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Ingredient role, manufacturing loss and alternatives distinguish the text’s treatment.",
+          "inference": "Process function and residue questions can matter independently of a generic ingredient label; a threshold must come from the exact governing instrument."
+        },
+        "assessment": "Retain the qualitative distinction. Park numeric thresholds rather than substituting0.1% or0.5% from memory or treating solvent evaporation as proven for all products.",
+        "numeric_threshold": {
+          "value": null,
+          "unit": null,
+          "territory": null,
+          "instrument": null,
+          "reason": "No eligible numeric threshold instrument retrieved."
+        },
+        "counterevidence": [
+          {
+            "source_ids": [
+              "IIFA210"
+            ],
+            "text": "The text separately disallows wine-containing food; the solvent passage is conditional and supplies no numerical ratio."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Question design for medium/additive function, residual levels and governing authority.",
+          "not_established": "A universal trace-alcohol limit, all flavourings’ status, chemical elimination in an actual process or behavioural adoption."
+        },
+        "disposition": "retain_qualitative_rule_park_numeric_threshold_history",
+        "unknowns": [
+          "Exact territory/issuer numerical standard, if any.",
+          "Complete regulatory wording and legal incorporation.",
+          "Measured reformulation or consumption effect."
+        ],
+        "search_disposition": {
+          "mode": "reuse_plus_bounded_targeted_search",
+          "operations": [
+            6,
+            12
+          ],
+          "result": "IIFAqualitative passage available; targeted MUISnumeric query produced no eligible threshold in retained merged output. Not two complete cycles, parked at exhausted unit budget."
+        },
+        "reopen": "Specify country, product class, date and authority before retrieving the exact threshold instrument and any amendment.",
+        "locators": [
+          {
+            "source_id": "IIFA210",
+            "locator": "Fourth General Principles4–7; Hormones and Enzymes; Cheese Manufactured by Rennet Curdling"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "IIFA"
+        ]
+      }
+    },
+    {
+      "id": "HP-12",
+      "requirement_id": "HISTORY-12",
+      "title": "Horse meat and shrimp across schools",
+      "country": null,
+      "source_ids": [
+        "J6",
+        "H4",
+        "S2",
+        "H-UM-FOOD2",
+        "J7"
+      ],
+      "claim_ids": [
+        "P1C6-REL-C19",
+        "P1C6-REL-C20"
+      ],
+      "review_id": "R6-RELIGIOUS-HISTORY",
+      "before": "Horse meat and shrimp as disputed food categories; no observed starting consumption baseline.",
+      "after": "A named horse rule and differing aquatic categories; full shrimp and five-school horse comparison unresolved.",
+      "time_place": {
+        "event_dates": null,
+        "event_place": null,
+        "document_context": "Current Sistani web ruling2648 plus previously checked digital manuals; exact historical adoption episode and edition chronology absent."
+      },
+      "evidence_kind": "partial_named_authority_comparison_not_completed_five_school_survey",
+      "assessment": "Retain the scoped evidence and explicitly mark the remaining comparison incomplete. Fish-category passages cannot substitute for a source explicitly classifying shrimp.",
+      "unknowns": [
+        "Explicit horse passages for four Sunni schools and additional Jafari authorities.",
+        "Explicit shrimp classification and internal disagreement for each named school.",
+        "Historical adoption chronology and geographical consumption data."
+      ],
+      "reopen": "Retrieve an explicit species paragraph for each missing school, starting with classification disputes; keep this separate from historical consumption measurement.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-12",
+        "id": "P1C6-REL-H12",
+        "title": "Horse meat and shrimp across schools",
+        "evidence_type": "partial_named_authority_comparison_not_completed_five_school_survey",
+        "before_after_food_or_material": {
+          "before": "Horse meat and shrimp as disputed food categories; no observed starting consumption baseline.",
+          "after": "A named horse rule and differing aquatic categories; full shrimp and five-school horse comparison unresolved.",
+          "observed_product_transition": false
+        },
+        "time_place": {
+          "event_dates": null,
+          "event_place": null,
+          "document_context": "Current Sistani web ruling2648 plus previously checked digital manuals; exact historical adoption episode and edition chronology absent."
+        },
+        "institutional_driver_mechanism": {
+          "documented": "Named texts distinguish species categories, edibility and capture/slaughter conditions.",
+          "inference": "Taxonomic classification and internal doctrinal variation can limit transfer of a generic halal-species claim."
+        },
+        "assessment": "Retain the scoped evidence and explicitly mark the remaining comparison incomplete. Fish-category passages cannot substitute for a source explicitly classifying shrimp.",
+        "comparison_scope": {
+          "horse": {
+            "Sistani_named_authority": "Disapproved under2648; no pan-Jafari generalisation.",
+            "Hanafi": null,
+            "Maliki": null,
+            "Shafii": null,
+            "Hanbali": null
+          },
+          "shrimp": {
+            "Hanafi": null,
+            "Maliki": null,
+            "Shafii": null,
+            "Hanbali": null,
+            "Sistani_named_authority": null
+          },
+          "unknown_reason": "Specific complete horse/shrimp passages across the named schools were not acquired; broad aquatic categories alone are insufficient."
+        },
+        "counterevidence": [
+          {
+            "source_ids": [
+              "H4",
+              "S2",
+              "H-UM-FOOD2",
+              "J7"
+            ],
+            "text": "The inspected aquatic categories include restrictions/exceptions; none justifies saying all seafood is accepted or proving the shrimp classification."
+          },
+          {
+            "source_ids": [
+              "J6"
+            ],
+            "text": "A named disapproval formulation is neither universal prohibition nor a complete account of all authorities."
+          }
+        ],
+        "transportability_relevance": {
+          "usable": "Shows why source species and the exact authority must be recorded before a religious-gate comparison.",
+          "not_established": "Five-school horse/shrimp consensus, school population shares, changed consumer preference or a cultivated-species ruling."
+        },
+        "disposition": "partial_comparison_park_specific_horse_shrimp_gaps",
+        "unknowns": [
+          "Explicit horse passages for four Sunni schools and additional Jafari authorities.",
+          "Explicit shrimp classification and internal disagreement for each named school.",
+          "Historical adoption chronology and geographical consumption data."
+        ],
+        "search_disposition": {
+          "mode": "reused_checked_aquatic_sources_plus_bounded_search",
+          "prior_ids": [
+            "HN-Q8",
+            "S-Q8",
+            "HB-Q8",
+            "J-Q8"
+          ],
+          "operations": [
+            15,
+            18
+          ],
+          "result": "Horse2648obtained incidentally in full returned chapter; shrimp targeted search returned no usable excerpt in merged output. One targeted shrimp cycle only; budget exhausted."
+        },
+        "reopen": "Retrieve an explicit species paragraph for each missing school, starting with classification disputes; keep this separate from historical consumption measurement.",
+        "locators": [
+          {
+            "source_id": "J6",
+            "locator": "Rulings2648(horse);2649(young-animal feeding and istibra)"
+          },
+          {
+            "source_id": "H4",
+            "locator": "Chapter 50, Hunting and Slaughter; invocation and edible species paragraphs"
+          },
+          {
+            "source_id": "S2",
+            "locator": "j16.3–j16.6; j17.1; j17.5"
+          },
+          {
+            "source_id": "H-UM-FOOD2",
+            "locator": "Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136"
+          },
+          {
+            "source_id": "J7",
+            "locator": "Rulings 2632, 2634, 2636 and 2638, fishing"
+          }
+        ],
+        "measured_speed": null,
+        "measured_speed_reason": "No compatible observed consumer or production adoption series with a defined start, endpoint and denominator is established in the inspected sources.",
+        "elasticity": null,
+        "elasticity_reason": "No identified price elasticity with a compatible product, population, time period and unit is established.",
+        "review": {
+          "candidate": false,
+          "independent_review": "checked_with_scoped_limits",
+          "human_scholarly_review": "pending",
+          "author_acceptance": "not_asserted",
+          "phase_one_done": false
+        },
+        "numeric_transport": {
+          "religious_gate": null,
+          "penetration_parameter": null,
+          "capacity_input": null,
+          "demand_parameter": null
+        },
+        "source_families": [
+          "Sistani-office",
+          "al-Quduri",
+          "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller",
+          "Ibn Qudama"
+        ]
+      }
+    },
+    {
+      "id": "HP-13",
+      "requirement_id": "HISTORY-13",
+      "title": "Mecca 1511 coffee controversy",
+      "country": null,
+      "source_ids": [
+        "P1C6-EMP-E01",
+        "P1C6-EMP-E02"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-13-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Coffee already consumed locally, according to modern analysis of a chronicle",
+      "after": "Reported local prohibition; exact rescission instrument/date not established here",
+      "time_place": {
+        "place": "Mecca; Mamluk jurisdiction",
+        "period": "1511; later Damascus episodes are distinct"
+      },
+      "evidence_kind": "retain_as_contestation_example_primary_instrument_unread",
+      "assessment": "Modern historian Chaim Nissim reports a 1511 Meccan prohibition dispute through Ibn Tulun and cites the underlying chronicle at pp 359–362. The retained Arabic catalogue leads are not a read chronicle. The defensible before/after is reported local consumption followed by a local prohibition, not a verified universal ban-and-reversal sequence. Keep it as a qualitative authority/contestation example; quantitative adoption and the original event instrument remain unresolved.",
+      "unknowns": [
+        "Original Ibn Tulun passage, Tarikh al-Sham pp 359–362, not read",
+        "Jaziri catalogue/edition located but substantive manuscript passage not acquired",
+        "Exact day and rescission cannot be certified; secondary accounts differ",
+        "No sales, price, consumption, elasticity or transition-time series"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-13",
+        "title": "Mecca 1511 coffee controversy",
+        "status": "human_review_pending",
+        "assessment": "retain_as_contestation_example_primary_instrument_unread",
+        "place": "Mecca; Mamluk jurisdiction",
+        "period": "1511; later Damascus episodes are distinct",
+        "before_product_or_state": "Coffee already consumed locally, according to modern analysis of a chronicle",
+        "after_product_or_state": "Reported local prohibition; exact rescission instrument/date not established here",
+        "drivers": [
+          "religious_interpretation",
+          "institutional_authority",
+          "social_practice"
+        ],
+        "institutional_mechanism": "Nissim describes a meeting of jurists/Sufis convened by Khayir Bey, with medical testimony and disagreement; enforcement is a local political-juristic episode.",
+        "observations": [],
+        "speed": {
+          "observed_market_transition": null,
+          "reported_event_year": 1511,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Concerns about social gatherings and wine-like conduct differ from ingredient composition",
+          "Chroniclers and later historians select and interpret competing accounts",
+          "Local authority does not equal universal school agreement"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "Original Ibn Tulun passage, Tarikh al-Sham pp 359–362, not read",
+          "Jaziri catalogue/edition located but substantive manuscript passage not acquired",
+          "Exact day and rescission cannot be certified; secondary accounts differ",
+          "No sales, price, consumption, elasticity or transition-time series"
+        ],
+        "cultivated_meat_relevance": "Useful for framing contestation and institutional jurisdiction; exclude from demand-speed calibration or claim that eventual popularity proves permissibility.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "Modern historian Chaim Nissim reports a 1511 Meccan prohibition dispute through Ibn Tulun and cites the underlying chronicle at pp 359–362. The retained Arabic catalogue leads are not a read chronicle. The defensible before/after is reported local consumption followed by a local prohibition, not a verified universal ban-and-reversal sequence. Keep it as a qualitative authority/contestation example; quantitative adoption and the original event instrument remain unresolved.",
+        "requirement_text": "coffee in Mecca 1511: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "Original Ibn Tulun passage, Tarikh al-Sham pp 359–362, not read",
+            "Jaziri catalogue/edition located but substantive manuscript passage not acquired",
+            "Exact day and rescission cannot be certified; secondary accounts differ",
+            "No sales, price, consumption, elasticity or transition-time series"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-14",
+      "requirement_id": "HISTORY-14",
+      "title": "United States margarine and butter",
+      "country": null,
+      "source_ids": [
+        "P1C6-EMP-E03"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-14-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Butter-dominant added-fat availability",
+      "after": "Margarine exceeded butter in 1958, then later fell below it",
+      "time_place": {
+        "place": "United States",
+        "period": "1942–1976 expansion; reversal by 2005"
+      },
+      "evidence_kind": "bounded_official_historical_availability_case",
+      "assessment": "USDA ERS reports butter availability falling from 16.4 to 5.0 lb/person/year between 1942 and 1972. Margarine crossed butter in 1958, peaked at 12.0 lb in 1976 and fell below butter by 2005 despite remaining cheaper. These are availability proxies, not causal replacement measurements. Scarcity, soybean supply, policy, formulation and health perceptions moved together. The reversal makes a permanent technology-driven displacement assumption especially weak.",
+      "unknowns": [
+        "No causal decomposition or identified own/cross-price elasticity",
+        "No protein-equivalent or Muslim-market transfer",
+        "Full annual raw series not downloaded"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-14",
+        "title": "United States margarine and butter",
+        "status": "human_review_pending",
+        "assessment": "bounded_official_historical_availability_case",
+        "place": "United States",
+        "period": "1942–1976 expansion; reversal by 2005",
+        "before_product_or_state": "Butter-dominant added-fat availability",
+        "after_product_or_state": "Margarine exceeded butter in 1958, then later fell below it",
+        "drivers": [
+          "scarcity",
+          "relative_price",
+          "technology_capacity",
+          "public_policy",
+          "taste_health_beliefs"
+        ],
+        "institutional_mechanism": "Wartime butter rationing, later relaxation of margarine restrictions, expanding soybean-oil supply and changing health advice are mechanisms identified by ERS.",
+        "observations": [
+          {
+            "measure": "butter availability",
+            "unit": "pounds product per person per year",
+            "values": {
+              "1942": 16.4,
+              "1972": 5
+            },
+            "estimand": "food supply available per capita, consumption proxy"
+          },
+          {
+            "measure": "margarine availability",
+            "unit": "pounds product per person per year",
+            "values": {
+              "1958": 8.9,
+              "1976": 12,
+              "2010": 3.5
+            },
+            "estimand": "food supply available per capita"
+          },
+          {
+            "measure": "nominal prices",
+            "unit": "US dollars per pound, stated-year prices",
+            "values": {
+              "1946": {
+                "margarine": 0.23,
+                "butter": 0.71
+              },
+              "2005": {
+                "margarine": 0.89,
+                "butter": 3.28
+              }
+            },
+            "inflation_adjusted": false
+          }
+        ],
+        "speed": {
+          "observed_window": "1942–1972,30years;1958 crossover;1976 peak;below butter by2005",
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Rationing, oil supply, legislation and preferences changed together",
+          "Other cooking oils later displaced both fats",
+          "Product formulations changed; early margarine could contain animal fats",
+          "Availability includes industrial/food-service uses and losses"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "No causal decomposition or identified own/cross-price elasticity",
+          "No protein-equivalent or Muslim-market transfer",
+          "Full annual raw series not downloaded"
+        ],
+        "cultivated_meat_relevance": "Demonstrates joint price/capacity/policy mechanisms and reversibility. Do not model an inevitable one-way replacement or infer halal from vegetable-oil technology.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "USDA ERS reports butter availability falling from 16.4 to 5.0 lb/person/year between 1942 and 1972. Margarine crossed butter in 1958, peaked at 12.0 lb in 1976 and fell below butter by 2005 despite remaining cheaper. These are availability proxies, not causal replacement measurements. Scarcity, soybean supply, policy, formulation and health perceptions moved together. The reversal makes a permanent technology-driven displacement assumption especially weak.",
+        "requirement_text": "margarine for butter: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "No causal decomposition or identified own/cross-price elasticity",
+            "No protein-equivalent or Muslim-market transfer",
+            "Full annual raw series not downloaded"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-15",
+      "requirement_id": "HISTORY-15",
+      "title": "Plant-based milk and US fluid cow's milk",
+      "country": null,
+      "source_ids": [
+        "lee_sumner_2026_plant_based_milk_displacement"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-15-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Observed market with conventional, organic, lactose-free and plant-based milks",
+      "after": "Modeled equilibrium if every plant-based option is removed",
+      "time_place": {
+        "place": "United States retail household purchases",
+        "period": "2018–2020 counterfactual market conditions; 2020 annual household-quantity scaling; published2026"
+      },
+      "evidence_kind": "bounded_model_counterfactual_not_observed_historical_transition",
+      "assessment": "The Lee–Sumner paper uses2018–2020 scanner information and market conditions to simulate removing plant-based milk options; it uses a2020household baseline to express annual quantity changes. Its0.68gallon ratio is a static counterfactual displacement result, not an elasticity. Organic and lactose-free milk respond more than conventional milk. This example supports category-specific modeling; it does not establish a chronological adoption rate or an animal-production effect.",
+      "unknowns": [
+        "Relevant publisher methods/counterfactual passages were independently compared; complete estimation tables/supplement and numerical elasticities are not fully reviewed.",
+        "No long-run causal displacement ratio or confidence interval imported",
+        "Household gallons are not nutritional equivalence or animal-production outcomes"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-15",
+        "title": "Plant-based milk and US fluid cow's milk",
+        "status": "human_review_pending",
+        "assessment": "bounded_model_counterfactual_not_observed_historical_transition",
+        "place": "United States retail household purchases",
+        "period": "2018–2020 counterfactual market conditions; 2020 annual household-quantity scaling; published2026",
+        "before_product_or_state": "Observed market with conventional, organic, lactose-free and plant-based milks",
+        "after_product_or_state": "Modeled equilibrium if every plant-based option is removed",
+        "drivers": [
+          "product_differentiation",
+          "relative_price",
+          "preferences"
+        ],
+        "institutional_mechanism": "Random-coefficient discrete-choice demand with linked household/store data, control-function price instrument and Bertrand-Nash supply assumptions.",
+        "observations": [
+          {
+            "measure": "counterfactual cow's-milk quantity change without plant milks",
+            "unit": "percent relative to modeled observed-choice-set equilibrium",
+            "values": {
+              "organic": 14.5,
+              "lactose_free": 10.2,
+              "conventional": 7.7
+            },
+            "observed": false
+          },
+          {
+            "measure": "total cow's-milk counterfactual increment",
+            "value": 1.46,
+            "unit": "gallons per household per year in2020",
+            "observed": false
+          },
+          {
+            "measure": "displacement ratio",
+            "value": 0.68,
+            "unit": "gallons cow's milk per gallon plant-based milk in static counterfactual",
+            "is_price_elasticity": false,
+            "observed": false
+          }
+        ],
+        "speed": {
+          "data_window": "2018–2020",
+          "observed_adoption_speed": null,
+          "counterfactual_time": "Static counterfactual using2018–2020 market conditions;2020 annual household-quantity scaling",
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Cow's-milk decline predates plant alternatives",
+          "Organic/lactose-free categories are more substitutable than conventional milk",
+          "Instrument validity depends on shared costs rather than correlated demand shocks across markets",
+          "Single-choice shopping occasions, supply assumptions and unmodeled dynamics constrain interpretation"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "Relevant publisher methods/counterfactual passages were independently compared; complete estimation tables/supplement and numerical elasticities are not fully reviewed.",
+          "No long-run causal displacement ratio or confidence interval imported",
+          "Household gallons are not nutritional equivalence or animal-production outcomes"
+        ],
+        "cultivated_meat_relevance": "Category-specific demand modeling can inform question design; retain 0.68 only as this model's estimand, never cultivated-chicken elasticity or observed long-run transition speed.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "The Lee–Sumner paper uses2018–2020 scanner information and market conditions to simulate removing plant-based milk options; it uses a2020household baseline to express annual quantity changes. Its0.68gallon ratio is a static counterfactual displacement result, not an elasticity. Organic and lactose-free milk respond more than conventional milk. This example supports category-specific modeling; it does not establish a chronological adoption rate or an animal-production effect.",
+        "requirement_text": "plant milk for dairy: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "Full estimation tables/supplement and numerical elasticities await coordinator's independent review",
+            "No long-run causal displacement ratio or confidence interval imported",
+            "Household gallons are not nutritional equivalence or animal-production outcomes"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        },
+        "model_scope": {
+          "market_years": [
+            2018,
+            2019,
+            2020
+          ],
+          "annual_household_scaling_year": 2020,
+          "design": "static_counterfactual",
+          "long_run_causal_ratio_established": false
+        }
+      }
+    },
+    {
+      "id": "HP-16",
+      "requirement_id": "HISTORY-16",
+      "title": "India vanaspati and desi ghee",
+      "country": "IND",
+      "source_ids": [
+        "P1C6-EMP-E05",
+        "P1C6-EMP-E06"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-16-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Milk-fat ghee and existing oils; no quantified baseline consumption established",
+      "after": "Hydrogenated vegetable-fat industry under quality controls and contested resemblance to ghee",
+      "time_place": {
+        "place": "India",
+        "period": "1950 parliamentary controversy;1960–61 committee report"
+      },
+      "evidence_kind": "bounded_industrial_identity_and_control_case_no_measured_displacement",
+      "assessment": "The 1950 debate records opposition to making vegetable fat resemble ghee; the 1961 committee report records testing and quality-control machinery. Its 3.5/4.75 lakh-ton figures are forecasts and planned magnitudes, not observed replacement of ghee. The case supports a distinction between authorized product manufacture, honest substitution and adulteration. It supplies no reliable adoption speed, relative-price path or religious-acceptance outcome.",
+      "unknowns": [
+        "Original downloaded committee bytes unavailable; relevant p 29 is indexed primary text",
+        "No before/after ghee consumption or relative-price series",
+        "No realized market share, causal replacement or elasticity",
+        "No issued religious decision established by these sources"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-16",
+        "title": "India vanaspati and desi ghee",
+        "status": "human_review_pending",
+        "assessment": "bounded_industrial_identity_and_control_case_no_measured_displacement",
+        "place": "India",
+        "period": "1950 parliamentary controversy;1960–61 committee report",
+        "before_product_or_state": "Milk-fat ghee and existing oils; no quantified baseline consumption established",
+        "after_product_or_state": "Hydrogenated vegetable-fat industry under quality controls and contested resemblance to ghee",
+        "drivers": [
+          "technology_capacity",
+          "product_identity",
+          "public_policy",
+          "adulteration_concern"
+        ],
+        "institutional_mechanism": "Parliament debated resemblance, labeling/coloring and adulteration; committee records describe Vegetable Oil Products Control Order 1947 standards, inspectors, sesame-oil/Baudouin testing and factory monitoring.",
+        "observations": [
+          {
+            "measure": "ministry forecast for end of Second Plan",
+            "value": 3.5,
+            "unit": "lakh tons vanaspati",
+            "type": "forecast_not_realized_output",
+            "target": 4
+          },
+          {
+            "measure": "ministry projected end Third Plan production/consumption",
+            "value": 4.75,
+            "unit": "lakh tons per year",
+            "type": "forecast_not_observed_demand"
+          },
+          {
+            "measure": "inspection samples collected/failed",
+            "values": {
+              "1957-58": [
+                4229,
+                22
+              ],
+              "1958-59": [
+                4032,
+                29
+              ],
+              "1959-60": [
+                5030,
+                6
+              ]
+            },
+            "unit": "samples",
+            "estimand": "administrative testing workload/results, not prevalence of adulteration or product uptake"
+          }
+        ],
+        "speed": {
+          "documented_interval": "debate1950 to committee1961; not an adoption duration",
+          "observed_displacement_speed": null,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Adulteration versus transparently marketed substitution are different mechanisms",
+          "Participant speeches make claims about health and diffusion that are not independently measured",
+          "Industrial plan targets need not be achieved",
+          "Ghee, hydrogenated oils and other edible fats have different uses"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "Original downloaded committee bytes unavailable; relevant p 29 is indexed primary text",
+          "No before/after ghee consumption or relative-price series",
+          "No realized market share, causal replacement or elasticity",
+          "No issued religious decision established by these sources"
+        ],
+        "cultivated_meat_relevance": "A useful product-identity, enforcement and capacity precedent; exclude from quantified replacement calibration until matched ghee/vanaspati series and prices are obtained.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "The 1950 debate records opposition to making vegetable fat resemble ghee; the 1961 committee report records testing and quality-control machinery. Its 3.5/4.75 lakh-ton figures are forecasts and planned magnitudes, not observed replacement of ghee. The case supports a distinction between authorized product manufacture, honest substitution and adulteration. It supplies no reliable adoption speed, relative-price path or religious-acceptance outcome.",
+        "requirement_text": "vanaspati for desi ghee: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "Original downloaded committee bytes unavailable; relevant p 29 is indexed primary text",
+            "No before/after ghee consumption or relative-price series",
+            "No realized market share, causal replacement or elasticity",
+            "No issued religious decision established by these sources"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-17",
+      "requirement_id": "HISTORY-17",
+      "title": "Broiler expansion versus beef and mutton",
+      "country": "PAK",
+      "source_ids": [
+        "P1C6-EMP-E07",
+        "P1C6-EMP-E08",
+        "P1C6-EMP-PAK2025"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-17-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Existing conventional poultry, beef and mutton sectors",
+      "after": "Published poultry estimates rise; substitution away from red meat is not identified",
+      "time_place": {
+        "place": "Pakistan, with an uncalibrated US historical comparator",
+        "period": "Pakistan 2021–22 to 2024–25; US indexed 1972–76 to 1997 comparator"
+      },
+      "evidence_kind": "capacity_estimate_case_reject_unidentified_substitution_claim",
+      "assessment": "Pakistan's tables distinguish broilers from total poultry, but their footnotes say the estimates derive from older statistical parameters. Poultry meat rises from 2160 to 2583 thousand tonnes over 2022–23 to 2024–25; mutton also rises, while beef changes direction. These figures cannot establish household substitution. An indexed US historical availability comparator suggests a longer research route, but its exact weight footnote and broiler-specific series were not fully checked, so no US replacement ratio is imported.",
+      "unknowns": [
+        "Observed matched household quantities and relative prices unavailable",
+        "No identified cross-price coefficients for these historical windows",
+        "US Table 2 weight footnote and broiler-only series not fully checked; exclude its numerical rows from calibrated comparison",
+        "Do not treat these official estimates as newly observed realized production"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-17",
+        "title": "Broiler expansion versus beef and mutton",
+        "status": "human_review_pending",
+        "assessment": "capacity_estimate_case_reject_unidentified_substitution_claim",
+        "place": "Pakistan, with an uncalibrated US historical comparator",
+        "period": "Pakistan 2021–22 to 2024–25; US indexed 1972–76 to 1997 comparator",
+        "before_product_or_state": "Existing conventional poultry, beef and mutton sectors",
+        "after_product_or_state": "Published poultry estimates rise; substitution away from red meat is not identified",
+        "drivers": [
+          "technology_capacity",
+          "relative_price_hypothesis"
+        ],
+        "institutional_mechanism": "Pakistan publishes modeled livestock/poultry estimates through economic surveys. The US official compilation provides a longer availability comparator, not proof that the same mechanism operated in Pakistan.",
+        "observations": [
+          {
+            "measure": "Pakistan broilers",
+            "values": {
+              "2021-22": 1548.51,
+              "2022-23": 1703.36,
+              "2023-24": 1873.69
+            },
+            "unit": "million numbers as table labels",
+            "type": "statistically_calculated_using2005-06_statistics"
+          },
+          {
+            "measure": "Pakistan poultry meat",
+            "values": {
+              "2022-23": 2160,
+              "2023-24": 2362,
+              "2024-25": 2583
+            },
+            "unit": "thousand tonnes",
+            "type": "official_estimate"
+          },
+          {
+            "measure": "Pakistan beef",
+            "values": {
+              "2022-23": 2544,
+              "2023-24": 2630,
+              "2024-25": 2548
+            },
+            "unit": "thousand tonnes",
+            "type": "official_estimate"
+          },
+          {
+            "measure": "Pakistan mutton",
+            "values": {
+              "2022-23": 799,
+              "2023-24": 817,
+              "2024-25": 835
+            },
+            "unit": "thousand tonnes",
+            "type": "official_estimate"
+          }
+        ],
+        "speed": {
+          "published_estimate_window": "annual2021–22 through2024–25",
+          "empirically_observed_substitution_speed": null,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Estimates mechanically extend old census growth parameters",
+          "Population, total food demand and all-sector expansion can raise poultry without substitution",
+          "Trade, feed prices, disease, income and preferences are not controlled",
+          "Commercial broiler counts, all-poultry meat and mutton/beef output are different categories",
+          "The 2024–25 prose says slower beef growth although its table shows a decline from 2630 to 2548; retain the discrepancy"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "Observed matched household quantities and relative prices unavailable",
+          "No identified cross-price coefficients for these historical windows",
+          "US Table 2 weight footnote and broiler-only series not fully checked; exclude its numerical rows from calibrated comparison",
+          "Do not treat these official estimates as newly observed realized production"
+        ],
+        "cultivated_meat_relevance": "Supports a question about scalable conventional poultry capacity, not a proven red-meat displacement event; cultivated production costs and religious gates remain separate.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "Pakistan's tables distinguish broilers from total poultry, but their footnotes say the estimates derive from older statistical parameters. Poultry meat rises from 2160 to 2583 thousand tonnes over 2022–23 to 2024–25; mutton also rises, while beef changes direction. These figures cannot establish household substitution. An indexed US historical availability comparator suggests a longer research route, but its exact weight footnote and broiler-specific series were not fully checked, so no US replacement ratio is imported.",
+        "requirement_text": "broiler substitution for mutton and beef: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "Observed matched household quantities and relative prices unavailable",
+            "No identified cross-price coefficients for these historical windows",
+            "US Table 2 weight footnote and broiler-only series not fully checked; exclude its numerical rows from calibrated comparison",
+            "Do not treat these official estimates as newly observed realized production"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-18",
+      "requirement_id": "HISTORY-18",
+      "title": "China ASF and poultry comparison",
+      "country": "CHN",
+      "source_ids": [
+        "P1C3-CN-NBS18",
+        "P1C3-CN-NBS19",
+        "P1C3-CN-ERS326"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-18-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Pork-centered conventional meat market;2018 already partly exposed",
+      "after": "Pork output contracts while poultry expands; later pork household rebound",
+      "time_place": {
+        "place": "China excluding Hong Kong, Macao and Taiwan",
+        "period": "August 2018 onset;2018–2019 production;2018–2021 household series"
+      },
+      "evidence_kind": "reuse_independently_checked_bounded_descriptive_case",
+      "assessment": "The checked China dossier records preliminary pork output falling 54.04→42.55 million tons and poultry rising 19.94→22.39 in 2018–2019. At-home pork purchases later rebounded to 25.8 kg/person in 2021, alongside a poultry decline from 2020. These observations show a supply-shock response and reversal, not durable conversion. COVID, trade, rebuilding, geographic exclusions and a partly exposed 2018 baseline remain material. Elasticity and a causal substitution fraction stay null.",
+      "unknowns": [
+        "Original NBS yearbook householdtable and full survey design not independently retrieved.",
+        "Hao full methods, coefficients and parallel-trend evidence remain unreviewed.",
+        "Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed.",
+        "No qualified human scholarly acceptance.",
+        "ERS reproduces NBS household evidence and is not an independent household survey",
+        "Do not divide poultry gains by pork losses and call it a causal replacement fraction"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-18",
+        "title": "China ASF and poultry comparison",
+        "status": "human_review_pending",
+        "assessment": "reuse_independently_checked_bounded_descriptive_case",
+        "place": "China excluding Hong Kong, Macao and Taiwan",
+        "period": "August 2018 onset;2018–2019 production;2018–2021 household series",
+        "before_product_or_state": "Pork-centered conventional meat market;2018 already partly exposed",
+        "after_product_or_state": "Pork output contracts while poultry expands; later pork household rebound",
+        "drivers": [
+          "disease",
+          "scarcity",
+          "relative_price",
+          "existing_substitute_capacity",
+          "institutional_controls"
+        ],
+        "institutional_mechanism": "ASF losses and movement controls interact with production rebuilding, imports and existing poultry supply; the separate effects are not identified.",
+        "observations": [
+          {
+            "measure": "annual production",
+            "unit": "million tons as NBS publishes",
+            "values": {
+              "2018": {
+                "pork": 54.04,
+                "poultry": 19.94
+              },
+              "2019": {
+                "pork": 42.55,
+                "poultry": 22.39
+              }
+            },
+            "status": "preliminary",
+            "estimand": "output, not intake or protein mass"
+          },
+          {
+            "measure": "household pork",
+            "unit": "kg food per person; at-home only",
+            "values": {
+              "2018": 22.8,
+              "2019": 20.3,
+              "2020": 18.2,
+              "2021": 25.8
+            },
+            "source": "NBS reproduced byERS"
+          },
+          {
+            "measure": "household2018–2020 change",
+            "unit": "kg food per person",
+            "values": {
+              "pork": -4.6,
+              "poultry": 3.7
+            }
+          },
+          {
+            "measure": "household2020–2021 change",
+            "unit": "kg food per person",
+            "values": {
+              "pork": 7.6,
+              "poultry": -0.4
+            }
+          }
+        ],
+        "speed": {
+          "production_comparison": "one calendar year",
+          "household_comparison": "two-year change then one-year rebound",
+          "durable_conversion_established": false,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Conventional poultry production is not cultivated-chicken adoption.",
+          "China’s pork-centred market and disease shock do not establish Muslim-country halal or market-access conditions.",
+          "Rebound and COVID-era survey composition weaken claims of permanent diet conversion.",
+          "COVID affects at-home/away-from-home comparability",
+          "2018 is not an untreated baseline",
+          "Imports and restocking affect apparent substitution"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "Original NBS yearbook householdtable and full survey design not independently retrieved.",
+          "Hao full methods, coefficients and parallel-trend evidence remain unreviewed.",
+          "Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed.",
+          "No qualified human scholarly acceptance.",
+          "ERS reproduces NBS household evidence and is not an independent household survey",
+          "Do not divide poultry gains by pork losses and call it a causal replacement fraction"
+        ],
+        "cultivated_meat_relevance": "Existing substitute capacity and relative prices can matter after a conventional livestock supply shock; test capacity, affordability and persistence separately.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "The checked China dossier records preliminary pork output falling 54.04→42.55 million tons and poultry rising 19.94→22.39 in 2018–2019. At-home pork purchases later rebounded to 25.8 kg/person in 2021, alongside a poultry decline from 2020. These observations show a supply-shock response and reversal, not durable conversion. COVID, trade, rebuilding, geographic exclusions and a partly exposed 2018 baseline remain material. Elasticity and a causal substitution fraction stay null.",
+        "reused_checked_case_path": "china-asf-history.json",
+        "requirement_text": "African swine fever China 2019 and poultry: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "Original NBS yearbook householdtable and full survey design not independently retrieved.",
+            "Hao full methods, coefficients and parallel-trend evidence remain unreviewed.",
+            "Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed.",
+            "No qualified human scholarly acceptance.",
+            "ERS reproduces NBS household evidence and is not an independent household survey",
+            "Do not divide poultry gains by pork losses and call it a causal replacement fraction"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-19",
+      "requirement_id": "HISTORY-19",
+      "title": "US 2014–15 avian influenza culls and egg-market recovery",
+      "country": null,
+      "source_ids": [
+        "P1C6-EMP-E12",
+        "P1C6-EMP-E13"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-19-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Pre-outbreak table-egg capacity and wholesale prices",
+      "after": "Reduced egg output and higher prices, followed by flock/production recovery",
+      "time_place": {
+        "place": "United States; New York wholesale egg price benchmark",
+        "period": "December 2014–June 2015 outbreak;2015 loss;early 2016 recovery"
+      },
+      "evidence_kind": "bounded_supply_shock_and_recovery_case_not_alternative_food_adoption",
+      "assessment": "ERS reports more than 50 million bird losses from disease/depopulation and a 10% decline in egg production during May–December 2015 relative to the prior year. New York benchmark egg prices rose 61% over the same comparison. Output returned to pre-outbreak levels in early 2016. The source distinguishes processing and consumer eggs and notes substitution difficulties. This is an incumbent supply/recovery episode, not measured adoption of egg alternatives; an elasticity cannot be calculated from those two percentages.",
+      "unknowns": [
+        "No identified elasticity; ratio of output decline to price increase would be invalid",
+        "No measured alternative-protein uptake",
+        "ERS articles share the same analysis/data family"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-19",
+        "title": "US 2014–15 avian influenza culls and egg-market recovery",
+        "status": "human_review_pending",
+        "assessment": "bounded_supply_shock_and_recovery_case_not_alternative_food_adoption",
+        "place": "United States; New York wholesale egg price benchmark",
+        "period": "December 2014–June 2015 outbreak;2015 loss;early 2016 recovery",
+        "before_product_or_state": "Pre-outbreak table-egg capacity and wholesale prices",
+        "after_product_or_state": "Reduced egg output and higher prices, followed by flock/production recovery",
+        "drivers": [
+          "disease",
+          "scarcity",
+          "capacity_rebuilding",
+          "trade_restrictions"
+        ],
+        "institutional_mechanism": "Disease control depopulation and trade restrictions reduce supply; commercial processors can shift between egg grades but face formulation/contract constraints on other substitutes.",
+        "observations": [
+          {
+            "measure": "bird losses",
+            "value": 50,
+            "operator": ">",
+            "unit": "million chickens and turkeys",
+            "period": "December2014–June2015",
+            "includes": "disease and depopulation; not all birds intentionally culled"
+          },
+          {
+            "measure": "table-egg laying flock loss",
+            "value": 12,
+            "unit": "percent relative to1April2015 inventory",
+            "approximate": true
+          },
+          {
+            "measure": "egg production change",
+            "value": -10,
+            "unit": "percent year-on-year",
+            "period": "May–December2015"
+          },
+          {
+            "measure": "New York benchmark wholesale egg price change",
+            "value": 61,
+            "unit": "percent year-on-year",
+            "period": "May–December2015"
+          },
+          {
+            "measure": "GradeA large eggs,New York wholesale",
+            "unit": "US dollars per dozen",
+            "values": {
+              "April2015": 1.29,
+              "August2015": 2.61,
+              "May2016": 0.63
+            },
+            "nominal": true
+          }
+        ],
+        "speed": {
+          "production_loss_duration": "about9months",
+          "recovery": "production returned to pre-outbreak levels in early2016, perERS",
+          "adoption_speed": null,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Seasonality, trade restrictions and grade substitution affect prices",
+          "Layer and turkey losses do not establish equivalent broiler losses",
+          "Price rises are not direct measures of demand shifts",
+          "Restocking and imports differ from novel-food adoption"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "No identified elasticity; ratio of output decline to price increase would be invalid",
+          "No measured alternative-protein uptake",
+          "ERS articles share the same analysis/data family"
+        ],
+        "cultivated_meat_relevance": "A useful test of capacity rebuilding and the difficulty of short-run substitution; demonstrates that a severe shock can recover within the incumbent category rather than produce permanent replacement.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "ERS reports more than 50 million bird losses from disease/depopulation and a 10% decline in egg production during May–December 2015 relative to the prior year. New York benchmark egg prices rose 61% over the same comparison. Output returned to pre-outbreak levels in early 2016. The source distinguishes processing and consumer eggs and notes substitution difficulties. This is an incumbent supply/recovery episode, not measured adoption of egg alternatives; an elasticity cannot be calculated from those two percentages.",
+        "requirement_text": "avian influenza culls: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "No identified elasticity; ratio of output decline to price increase would be invalid",
+            "No measured alternative-protein uptake",
+            "ERS articles share the same analysis/data family"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    },
+    {
+      "id": "HP-20",
+      "requirement_id": "HISTORY-20",
+      "title": "Qatar 2017 blockade and Baladna dairy expansion",
+      "country": "QAT",
+      "source_ids": [
+        "P1C6-EMP-E14",
+        "P1C6-EMP-E15"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-20-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Domestic dairy project designed January 2017; imported/local milk mix not quantified here",
+      "after": "Company reports local milking, airlifted cows and expanded dairy facilities",
+      "time_place": {
+        "place": "Qatar; Baladna company operations",
+        "period": "5 June 2017 blockade;July–December 2017 startup;2018 expansion;2019–2020 herd series"
+      },
+      "evidence_kind": "participant_capacity_timeline_national_displacement_unestablished",
+      "assessment": "Baladna's retrospective report dates the blockade to 5 June 2017 and its first milking to 11 July,36 days later; it records 4,000 cows arriving byOctober and phase 1 completion inDecember. Its project design began inJanuary, before the blockade. The 2017 announcement's 100 tonnes/day goal was a plan, not an observed national outcome. This is a company capacity timeline for the same cow's-milk category. National dairy displacement and self-sufficiency remain unverified. Subsequent official indexed series provide national leads, but the editions report different2019dairy shares; they remain held pending original-page and revision checks.",
+      "unknowns": [
+        "Official national series located as indexed edition-specific leads; original pages and revision/denominator reconciliation remain unavailable.",
+        "No independently checked national self-sufficiency denominator",
+        "Fresh milk is narrower than all dairy",
+        "No price elasticity, consumer substitution or causal share"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-20",
+        "title": "Qatar 2017 blockade and Baladna dairy expansion",
+        "status": "human_review_pending",
+        "assessment": "participant_capacity_timeline_national_displacement_unestablished",
+        "place": "Qatar; Baladna company operations",
+        "period": "5 June 2017 blockade;July–December 2017 startup;2018 expansion;2019–2020 herd series",
+        "before_product_or_state": "Domestic dairy project designed January 2017; imported/local milk mix not quantified here",
+        "after_product_or_state": "Company reports local milking, airlifted cows and expanded dairy facilities",
+        "drivers": [
+          "supply_security",
+          "policy_sovereignty",
+          "capital_and_logistics",
+          "technology_capacity"
+        ],
+        "institutional_mechanism": "Company capital, imported cows, airlift/logistics and new local facilities; design predates blockade, so the shock is not proven to have caused the whole project.",
+        "observations": [
+          {
+            "measure": "reported first cow milked",
+            "value": "2017-07-11",
+            "type": "company retrospective milestone"
+          },
+          {
+            "measure": "reported imported milking cows arrived",
+            "value": 4000,
+            "unit": "cows",
+            "period": "byOctober2017",
+            "type": "company retrospective milestone"
+          },
+          {
+            "measure": "year-end total herd",
+            "values": {
+              "2019": 19345,
+              "2020": 22250
+            },
+            "unit": "animals, total herd not all lactating",
+            "type": "company report"
+          },
+          {
+            "measure": "announced output goal",
+            "value": 100,
+            "unit": "tonnes milk per day",
+            "period": "midNovember2017",
+            "type": "August2017plan_not_verified_realized_output"
+          }
+        ],
+        "speed": {
+          "blockade_to_first_reported_milking_days": 36,
+          "measurement_type": "elapsed company milestone time, not national adoption time",
+          "phase1_completion": "December2017 percompany",
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Project design inJanuary 2017 precedes blockade",
+          "Airlifted herd imports and ongoing input dependence complicate sovereignty claims",
+          "Company capacity is not national realized demand, market share or import displacement",
+          "Later claims and contemporary plans belong to same company source family"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "No official matched 2016–2019 dairy import/output/consumption series obtained",
+          "No independently checked national self-sufficiency denominator",
+          "Fresh milk is narrower than all dairy",
+          "No price elasticity, consumer substitution or causal share"
+        ],
+        "cultivated_meat_relevance": "Shows that existing biological production capacity can be relocated and built rapidly under a security shock; it is source substitution within cow's milk, not a switch to a different food or proof of cultivated-meat economics.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "Baladna's retrospective report dates the blockade to 5 June 2017 and its first milking to 11 July,36 days later; it records 4,000 cows arriving byOctober and phase 1 completion inDecember. Its project design began inJanuary, before the blockade. The 2017 announcement's 100 tonnes/day goal was a plan, not an observed national outcome. This is a company capacity timeline for the same cow's-milk category. National dairy displacement and self-sufficiency remain unverified.",
+        "requirement_text": "Qatar blockade and dairy 2017: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "No official matched 2016–2019 dairy import/output/consumption series obtained",
+            "No independently checked national self-sufficiency denominator",
+            "Fresh milk is narrower than all dairy",
+            "No price elasticity, consumer substitution or causal share"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      },
+      "held_national_series": {
+        "status": "held_edition_specific_indexed_leads",
+        "source_ids": [
+          "P1C6-QAT-ABSTRACT2020",
+          "P1C6-QAT-ENV2020",
+          "P1C6-QAT-DATASET"
+        ],
+        "original_pages_obtained": false,
+        "verified_national_outcome": false,
+        "edition_reconciliation": null,
+        "fresh_milk_equals_all_dairy": false,
+        "abstract2020": {
+          "unit": "tons of milk and milk products;self-sufficiencypercent",
+          "rows": [
+            {
+              "year": 2017,
+              "quantity": 56149,
+              "self_sufficiency_percent": 26.8
+            },
+            {
+              "year": 2018,
+              "quantity": 226408,
+              "self_sufficiency_percent": 67.7
+            },
+            {
+              "year": 2019,
+              "quantity": 199926,
+              "self_sufficiency_percent": 73
+            },
+            {
+              "year": 2020,
+              "quantity": 206683,
+              "self_sufficiency_percent": 75
+            }
+          ],
+          "status": "indexed_candidates_not_original_page_verified"
+        },
+        "environment2020": {
+          "year": 2019,
+          "dairy_self_sufficiency_percent": 72.8,
+          "status": "indexed_candidate_separate_edition"
+        },
+        "dataset": {
+          "actual_rows_retrieved": false
+        },
+        "limits": "The official editions do not establish100percent self-sufficiency for all dairy. Do not choose one value or average them; obtain exact pages and revision/denominator metadata before numerical reuse."
+      }
+    },
+    {
+      "id": "HP-21",
+      "requirement_id": "HISTORY-21",
+      "title": "Gulf food-security strategies: bounded UAE example",
+      "country": "ARE",
+      "source_ids": [
+        "P1C6-EMP-E16"
+      ],
+      "claim_ids": [
+        "R6E-HISTORY-21-SCOPE"
+      ],
+      "review_id": "R6-EMPIRICAL-HISTORY",
+      "before": "Prior policy baseline and food quantities not established by this source set",
+      "after": "Adopted strategy description prioritizes diversified sourcing and technology-enabled domestic supply",
+      "time_place": {
+        "place": "United Arab Emirates; Qatarcase 20 used only as a separate comparator",
+        "period": "Strategy launched November 2018;2021 agenda and 2051 horizon;page updated 2024"
+      },
+      "evidence_kind": "policy_design_precedent_excluded_from_outcome_calibration",
+      "assessment": "The UAE's 2018 strategy defines 18 food types,38 initiatives and a goal of 3–5 sources per main food category. It combines domestic technology with diversified imports, partnerships and waste reduction. Those numbers describe policy design, not realized production or adoption. The 2051 horizon is a target date, not observed transition speed. This bounded UAE example does not stand in for every Gulf strategy or establish any cultivated-meat approval.",
+      "unknowns": [
+        "No ex-post quantities, prices, protein outputs or causal evaluation retrieved",
+        "No primary six-country GCC strategy comparison",
+        "No novel-product approval or religious certification implied",
+        "Direct page open returned no text; indexed official passages retained"
+      ],
+      "reopen": "Obtain the exact missing source/series and compatible estimand specified in unknowns; retain current evidence until then.",
+      "forecast_inputs": {
+        "D": null,
+        "p_mass": null,
+        "H_rel": null,
+        "K": null,
+        "elasticity": null,
+        "adoption_half_life": null
+      },
+      "independent_review": "checked_with_scoped_limits",
+      "human_review": "pending",
+      "positive_resolution_of_all_requirements": false,
+      "detail": {
+        "requirement_id": "HISTORY-21",
+        "title": "Gulf food-security strategies: bounded UAE example",
+        "status": "human_review_pending",
+        "assessment": "policy_design_precedent_excluded_from_outcome_calibration",
+        "place": "United Arab Emirates; Qatarcase 20 used only as a separate comparator",
+        "period": "Strategy launched November 2018;2021 agenda and 2051 horizon;page updated 2024",
+        "before_product_or_state": "Prior policy baseline and food quantities not established by this source set",
+        "after_product_or_state": "Adopted strategy description prioritizes diversified sourcing and technology-enabled domestic supply",
+        "drivers": [
+          "supply_security",
+          "public_policy",
+          "technology_capacity",
+          "trade_diversification"
+        ],
+        "institutional_mechanism": "National strategy combines domestic production technology, import diversification, international partnerships, nutrition and waste measures; it does not simply promise autarky.",
+        "observations": [
+          {
+            "measure": "national food basket",
+            "value": 18,
+            "unit": "main types",
+            "type": "policy_scope"
+          },
+          {
+            "measure": "initiatives",
+            "value": 38,
+            "unit": "short/long-term initiatives",
+            "type": "policy_design"
+          },
+          {
+            "measure": "alternative supply sources",
+            "value": [
+              3,
+              5
+            ],
+            "unit": "sources per major food category",
+            "type": "target_not_outcome"
+          }
+        ],
+        "speed": {
+          "policy_launch": "November2018",
+          "target_horizons": [
+            2021,
+            2051
+          ],
+          "observed_implementation_or_adoption_speed": null,
+          "adoption_half_life": null
+        },
+        "elasticity": {
+          "value": null,
+          "estimand": null,
+          "status": "not_established_for_transfer",
+          "reason": "Descriptive changes, forecasts, policy milestones and displacement ratios are not price elasticities; none is imported as a cultivated-meat parameter."
+        },
+        "confounders": [
+          "Rank targets do not measure protein supply or substitution",
+          "Multiple policies and external trade conditions would confound outcome attribution",
+          "UAE cannot represent every Gulf state",
+          "Domestic production, import resilience and consumption adoption are different endpoints"
+        ],
+        "uncertainty_and_missing_evidence": [
+          "No ex-post quantities, prices, protein outputs or causal evaluation retrieved",
+          "No primary six-country GCC strategy comparison",
+          "No novel-product approval or religious certification implied",
+          "Direct page open returned no text; indexed official passages retained"
+        ],
+        "cultivated_meat_relevance": "Useful as a policy/institutional mechanism and a guide to outcome indicators. Exclude from penetration/capacity-number calibration until actual implementation and output are observed.",
+        "penetration_parameter": null,
+        "religious_permission_inferred_from_market_event": false,
+        "requirement_promoted_complete": false,
+        "narrative": "The UAE's 2018 strategy defines 18 food types,38 initiatives and a goal of 3–5 sources per main food category. It combines domestic technology with diversified imports, partnerships and waste reduction. Those numbers describe policy design, not realized production or adoption. The 2051 horizon is a target date, not observed transition speed. This bounded UAE example does not stand in for every Gulf strategy or establish any cultivated-meat approval.",
+        "requirement_text": "Gulf food-security strategies: verify candidate and document relevance/disposition",
+        "acceptance_criteria": [
+          "Before/after food, driver, time/place and primary historical evidence",
+          "Speed, elasticity and institutional mechanism where established; explicit unknown otherwise",
+          "Precedent-setting limits and relevance to demand, penetration, religious gate or capacity",
+          "A reasoned exclusion is not a resolved positive finding"
+        ],
+        "acceptance_disposition": {
+          "all_criteria_substantively_assessed": true,
+          "original_primary_or_historical_source_limit": [
+            "No ex-post quantities, prices, protein outputs or causal evaluation retrieved",
+            "No primary six-country GCC strategy comparison",
+            "No novel-product approval or religious certification implied",
+            "Direct page open returned no text; indexed official passages retained"
+          ],
+          "positive_resolution_of_requirement": false,
+          "human_review": "pending"
+        }
+      }
+    }
+  ],
+  "complete": false,
+  "human_review": "pending",
+  "external_forecast_join_verified": false,
+  "interpretation_rules": [
+    "A doctrinal/material example need not be an observed food-market transition.",
+    "An official estimate or company milestone is not a causal substitution effect.",
+    "A displacement ratio is not a price elasticity; historical price/quantity changes do not identify one.",
+    "An excluded analogy or investigated unknown is an assessment, not a positive finding.",
+    "Religious permission, food approval, product certification, demand and supply remain separate."
+  ]
+}

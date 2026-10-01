@@ -17,7 +17,8 @@
         "P1C-C02",
         "P1C-C03",
         "P1C-C08",
-        "P1C2-IND-DEMOGRAPHY"
+        "P1C2-IND-DEMOGRAPHY",
+        "R6E-HISTORY-16-SCOPE"
       ]
     },
     {
@@ -32,7 +33,8 @@
         "P1C-C05",
         "P1C-C06",
         "P1C2-PAK-DEMOGRAPHY",
-        "P1C5-STD-C02"
+        "P1C5-STD-C02",
+        "R6E-HISTORY-17-SCOPE"
       ]
     },
     {
@@ -58,7 +60,8 @@
         "P1C2-ARE-DEMOGRAPHY",
         "P1C4-CORE-ARE-COMPOSITION",
         "P1C4-CORE-ARE-REMIT",
-        "P1C5-STD-C06"
+        "P1C5-STD-C06",
+        "R6E-HISTORY-21-SCOPE"
       ]
     },
     {
@@ -93,7 +96,10 @@
       "coverage": "queued_or_prior_evidence_needs_revalidation",
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C6-REL-C12",
+        "P1C6-REL-C13"
+      ]
     },
     {
       "id": "QAT",
@@ -104,7 +110,8 @@
       "populationSchoolShares": null,
       "claim_ids": [
         "P1C2-W04A-C02",
-        "P1C2-W04A-C04"
+        "P1C2-W04A-C04",
+        "R6E-HISTORY-20-SCOPE"
       ]
     },
     {
@@ -204,7 +211,8 @@
         "P1C3-CN-OUTPUT",
         "P1C3-CN-HOUSEHOLDS",
         "P1C3-CN-CONTROLS",
-        "P1C3-CN-STUDY"
+        "P1C3-CN-STUDY",
+        "R6E-HISTORY-18-SCOPE"
       ]
     }
   ],

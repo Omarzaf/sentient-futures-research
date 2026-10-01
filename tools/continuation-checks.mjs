@@ -9,6 +9,7 @@ export function checkContinuation(files) {
  const geography=read('geography.json'),schoolProgress=read('school-gap-progress.json');
  const dossier=read('manufacturing-dossier.json'),egypt=read('egypt-institutions.json'),china=read('china-asf-history.json');
  const institutionMatrix=read('institution-matrix.json'),literature=read('literature-review.json'),standardsReview=read('standards-review.json');
+ const history=read('historical-cases.json'),driverMap=read('driver-map.json'),historySynthesis=read('historical-synthesis.json');
  if(failures.length)return {checks,failures};
  for(const [name,rows] of [['sources',sources],['claims',claims],['reviews',reviews]])check(Array.isArray(rows)&&rows.length>0,'invalid '+name);
  if(failures.length)return {checks,failures};
@@ -275,5 +276,90 @@ export function checkContinuation(files) {
  check(smiic?.edition==='OIC/SMIIC1:2019'&&smiic.relevant_clauses===null,'unread OIC/SMIIC clauses supplied');
  check(gso?.edition==='GSO2055-1:2015 edition2 English'&&gso.draft?.identifier==='GSO TC15/DS1 2055-1:2026'&&gso.draft.status==='initial_draft'&&gso.draft.adopted===null&&gso.draft.adoption_not_established===true&&gso.draft.full_text_read===false&&gso.draft.national_effective_date===null,'GSO draft adoption promoted or edition conflated');
  check(gso?.relevant_clauses?.length===3&&new Set(gso.relevant_clauses.map(c=>c.clause)).size===3&&gso.relevant_clauses.every(c=>c.clause==='1'?c.product_verdict===null:c.clause==='2.1–2.6'?c.referenced_texts_read_in_this_run===false:c.clause==='3.3–3.4,3.8–3.9'&&c.cultivated_meat_determination===null)&&gso.unavailable_clauses?.length===6&&['4','5','6','7','8','Annex1'].every(c=>gso.unavailable_clauses.includes(c)),'GSO preview promoted to product determination or unread clauses lost');
+ // Run 06: an assessed historical analogy is not a completed forecast input.
+ const sameMembers=(actual,expected)=>Array.isArray(actual)&&actual.length===expected.length&&new Set(actual).size===actual.length&&expected.every(value=>actual.includes(value));
+ const historicalCases=Array.isArray(history?.cases)?history.cases:[];
+ const historicalIds=Array.from({length:21},(_,i)=>'HP-'+String(i+1).padStart(2,'0'));
+ const historicalClaimNumbers=[[1,2],[3],[4],[5,6,7],[8,9],[10,11],[12,13],[14,15],[16,21],[17,22],[18],[19,20]];
+ const historyCase=id=>historicalCases.find(c=>c.id===id);
+ const historyDetail=id=>historyCase(id)?.detail;
+ const historyObservations=id=>historyDetail(id)?.observations||[];
+ const reviewCovers=(id,claimRefs)=>reviews.some(r=>r.id===id&&r.human_review===false&&claimRefs.every(claim=>r.claim_ids?.includes(claim)));
+ check(sameMembers(historicalCases.map(c=>c.id),historicalIds),'historical candidate roster lost');
+ check(history?.complete===false&&history.human_review==='pending'&&history.external_forecast_join_verified===false,'historical assessment promoted to completion or forecast join');
+ for(const c of historicalCases){
+  const number=Number(c.id?.slice(3)),detail=c.detail;
+  const expectedClaims=number<=12?(historicalClaimNumbers[number-1]||[]).map(n=>'P1C6-REL-C'+String(n).padStart(2,'0')):['R6E-HISTORY-'+String(number).padStart(2,'0')+'-SCOPE'];
+  check(c.requirement_id==='HISTORY-'+String(number).padStart(2,'0')&&detail?.requirement_id===c.requirement_id&&sameMembers(c.claim_ids,expectedClaims),'historical case/requirement/claim identity lost: '+c.id);
+  const adoptedSources=[...new Set((c.claim_ids||[]).flatMap(id=>claims.find(claim=>claim.id===id)?.source_ids||[]))];
+  const permittedSources=number===7?[...adoptedSources,'P1C6-REL-MUI-AJI-HELD']:adoptedSources;
+  check(c.country===({7:'IDN',16:'IND',17:'PAK',18:'CHN',20:'QAT',21:'ARE'}[number]??null)&&artifactLineage(c,c.country)&&sameMembers(c.source_ids,permittedSources)&&reviewCovers(c.review_id,c.claim_ids||[])&&c.claim_ids.every(id=>claims.find(claim=>claim.id===id)?.review_id===c.review_id),'historical case source/claim/review lineage lost: '+c.id);
+  check(c.independent_review==='checked_with_scoped_limits'&&c.human_review==='pending'&&c.positive_resolution_of_all_requirements===false,'historical case acceptance overclaimed: '+c.id);
+  check(!!c.time_place&&Object.hasOwn(c,'before')&&Object.hasOwn(c,'after')&&!!c.evidence_kind&&!!c.assessment&&Array.isArray(c.unknowns)&&c.unknowns.length>0&&!!c.reopen,'historical scope or unresolved evidence erased: '+c.id);
+  check(c.forecast_inputs&&sameMembers(Object.keys(c.forecast_inputs),['D','p_mass','H_rel','K','elasticity','adoption_half_life'])&&Object.values(c.forecast_inputs).every(v=>v===null),'historical forecast input invented: '+c.id);
+  if(number<=12){
+   check(detail?.measured_speed===null&&detail.elasticity===null&&detail.numeric_transport&&sameMembers(Object.keys(detail.numeric_transport),['religious_gate','penetration_parameter','capacity_input','demand_parameter'])&&Object.values(detail.numeric_transport).every(v=>v===null),'juristic example promoted to measured uptake or numeric gate: '+c.id);
+   check(detail?.review?.human_scholarly_review==='pending'&&detail.review.author_acceptance==='not_asserted'&&detail.review.phase_one_done===false,'historical detail human acceptance overclaimed: '+c.id);
+   const families=[...new Set((c.source_ids||[]).map(id=>sources.find(s=>s.id===id)?.source_family))];
+   check(sameMembers(detail?.source_families,families),'historical source-family count/identity inflated: '+c.id);
+   for(const locator of detail?.locators||[])check(c.source_ids.includes(locator.source_id)&&!!locator.locator,'historical locator source lost: '+c.id);
+   for(const counter of detail?.counterevidence||[])check(counter.source_ids?.length>0&&counter.source_ids.every(id=>c.source_ids.includes(id))&&!!counter.text,'historical counterevidence lineage lost: '+c.id);
+  }else{
+   check(detail?.elasticity?.value===null&&detail.elasticity.estimand===null&&detail.penetration_parameter===null&&detail.religious_permission_inferred_from_market_event===false&&detail.requirement_promoted_complete===false,'empirical case promoted to elasticity, adoption or permission: '+c.id);
+   check(detail?.status==='human_review_pending'&&detail.acceptance_disposition?.positive_resolution_of_requirement===false&&detail.acceptance_disposition.human_review==='pending','empirical detail completion overclaimed: '+c.id);
+   check(c.time_place?.period===detail?.period&&c.time_place?.place===detail?.place,'empirical time/place envelope differs from source assessment: '+c.id);
+  }
+  check((c.claim_ids||[]).every(id=>claims.find(claim=>claim.id===id)?.source_ids.every(source=>!sources.find(s=>s.id===source)?.status?.startsWith('held_'))),'held historical lead adopted as substantive claim: '+c.id);
+ }
+ // Repeated company publications and institutional editions remain one family.
+ for(const ids of [['P1C6-REL-AJI2015','P1C6-REL-AJI2024','P1C6-REL-AJI2015-PDF'],['P1C6-REL-IIFA95','P1C6-REL-IIFA263'],['P1C6-EMP-E12','P1C6-EMP-E13'],['P1C6-EMP-E14','P1C6-EMP-E15'],['P1C6-EMP-E07','P1C6-EMP-PAK2025']])check(ids.every(id=>sourceIds.has(id))&&new Set(ids.map(id=>sources.find(s=>s.id===id)?.source_family)).size===1,'historical same-family evidence split into corroboration: '+ids[0]);
+ const periods=historyDetail('HP-04')?.prescribed_periods;
+ check(periods?.source_id==='P1C6-REL-ISTIBRA219'&&periods.kind==='recommended_precaution_under_Sistani219_not_observed_speed'&&periods.unit==='days'&&periods.values?.camel===40&&periods.values.cow===20&&periods.values.sheep===10&&sameMembers(periods.values.duck,[7,5])&&periods.values.domestic_hen===3,'jallala species precaution replaced by general seven-day rule');
+ check(!!periods?.primary_condition&&/2649/.test(periods?.separate_pig_milk_subcase||''),'jallala primary condition or separate pig-milk subcase lost');
+ const aji=historyDetail('HP-07');
+ check(aji?.boundaries?.finished_product_porcine_residue_established===false&&aji.boundaries.current_product_certificate_established===false&&aji.boundaries.certificate_restoration_date===null,'Ajinomoto process controversy promoted to residue or certificate');
+ check(aji?.held_evidence?.source_id==='P1C6-REL-MUI-AJI-HELD'&&sources.find(s=>s.id===aji.held_evidence.source_id)?.status==='held_original_language_lead','Ajinomoto untranslated instrument promoted');
+ const instruments=historyDetail('HP-09')?.instrument_boundaries;
+ check(instruments?.historical_resolution==='95 (3/10)'&&sameMembers(instruments.historical_session,['1997-06-28','1997-07-03'])&&instruments.later_resolution==='263 (8/26)'&&sameMembers(instruments.later_session,['2025-05-04','2025-05-08'])&&instruments.later_action==='postponement'&&instruments.current_consolidation_verified===false,'IIFA historical conditions and later postponement conflated');
+ for(const [id,dates] of [['P1C6-REL-IIFA95',instruments?.historical_session],['P1C6-REL-IIFA263',instruments?.later_session]]){const source=sources.find(s=>s.id===id);check(Array.isArray(dates)&&sameMembers(source?.session_dates,dates)&&source?.exact_adoption_date===null,'IIFA source session/adoption date lineage lost: '+id);}
+ const milk=historyDetail('HP-15'),milkModel=milk?.model_scope,milkRatio=milk?.observations?.find(o=>o.measure==='displacement ratio');
+ check(sameMembers(historyCase('HP-15')?.source_ids,['lee_sumner_2026_plant_based_milk_displacement']),'shared Lee-Sumner source identity lost');
+ check(milkModel?.design==='static_counterfactual'&&sameMembers(milkModel.market_years,[2018,2019,2020])&&milkModel.annual_household_scaling_year===2020&&milkModel.long_run_causal_ratio_established===false,'plant milk counterfactual market window/scaling year conflated');
+ check(milk?.observations?.length===3&&milk.observations.every(o=>o.observed===false)&&milkRatio?.value===0.68&&milkRatio.is_price_elasticity===false&&/gallons/.test(milkRatio.unit||'')&&milk.speed?.observed_adoption_speed===null,'plant milk modeled displacement promoted to observation or elasticity');
+ const vanaspati=historyObservations('HP-16'),pakistan=historyObservations('HP-17');
+ check(vanaspati.length===3&&vanaspati[0]?.type==='forecast_not_realized_output'&&vanaspati[1]?.type==='forecast_not_observed_demand','vanaspati forecast promoted to observed production');
+ check(pakistan.length===4&&pakistan[0]?.type==='statistically_calculated_using2005-06_statistics'&&pakistan[0]?.unit==='million numbers as table labels'&&pakistan.slice(1).every(o=>o.type==='official_estimate'&&o.unit==='thousand tonnes'),'Pakistan modeled output promoted to observed household substitution');
+ const historicalChina=historyObservations('HP-18');
+ check(historicalChina[0]?.status==='preliminary'&&historicalChina[0]?.unit==='million tons as NBS publishes'&&historicalChina[1]?.unit==='kg food per person; at-home only'&&historicalChina.slice(2).every(o=>o.unit==='kg food per person')&&historyDetail('HP-18')?.speed?.durable_conversion_established===false,'historical China output/purchase basis or permanence promoted');
+ const qatar=historyCase('HP-20'),heldQatar=qatar?.held_national_series;
+ check(historyObservations('HP-20').length===4&&historyObservations('HP-20').slice(0,3).every(o=>o.type?.startsWith('company '))&&historyObservations('HP-20')[3]?.type==='August2017plan_not_verified_realized_output','Qatar company plan promoted to national realized output');
+ const qatarSourceIds=['P1C6-QAT-ABSTRACT2020','P1C6-QAT-ENV2020','P1C6-QAT-DATASET'];
+ check(sameMembers(heldQatar?.source_ids,qatarSourceIds)&&qatarSourceIds.every(id=>sources.find(s=>s.id===id)?.status==='held_edition_specific_national_series_lead')&&new Set(qatarSourceIds.map(id=>sources.find(s=>s.id===id)?.source_family)).size===1,'Qatar held source lineage/status lost');
+ check(heldQatar?.status==='held_edition_specific_indexed_leads'&&heldQatar.original_pages_obtained===false&&heldQatar.verified_national_outcome===false&&heldQatar.edition_reconciliation===null&&heldQatar.fresh_milk_equals_all_dairy===false&&heldQatar.dataset?.actual_rows_retrieved===false,'Qatar indexed lead promoted to original, reconciled outcome or all-dairy self-sufficiency');
+ const qatarRows=heldQatar?.abstract2020?.rows||[];
+ check(sameMembers(qatarRows.map(r=>r.year),[2017,2018,2019,2020])&&heldQatar?.abstract2020?.status==='indexed_candidates_not_original_page_verified'&&qatarRows.find(r=>r.year===2019)?.self_sufficiency_percent===73&&heldQatar?.environment2020?.year===2019&&heldQatar.environment2020.dairy_self_sufficiency_percent===72.8&&heldQatar.environment2020.status==='indexed_candidate_separate_edition','Qatar separate 2019 edition observations silently reconciled');
+ check(historyObservations('HP-21').length===3&&sameMembers(historyObservations('HP-21').map(o=>o.type),['policy_scope','policy_design','target_not_outcome']),'UAE policy design promoted to realized Gulf outcomes');
+ // Plan factors retain their exact shared names; mapped paths are hypotheses.
+ const factorNames={'Mass-scaling production':['supply chain costs','AI-driven R&D speed'],Cheap:['price'],Taste:['taste and texture'],Premade:['convenience'],Nutrition:['health perceptions'],'Variety and cuisine':['cuisine fit']};
+ const mappedDrivers=Array.isArray(driverMap?.drivers)?driverMap.drivers:[];
+ check(sameMembers(mappedDrivers.map(d=>d.mind_map_factor),Object.keys(factorNames)),'six plan factor roster lost');
+ check(driverMap?.plan?.section==='6.4C'&&/^[a-f0-9]{64}$/.test(driverMap.plan.sha256||'')&&driverMap.human_review==='pending'&&driverMap.empirical_weights_established===false&&driverMap.external_forecast_join_verified===false&&driverMap.baseline_available===false,'driver map empirical/baseline/external join overclaimed');
+ const synthesisReview=reviews.find(r=>r.id==='R6-DRIVER-SYNTHESIS');
+ check(driverMap?.review_id==='R6-DRIVER-SYNTHESIS'&&historySynthesis?.review_id===driverMap.review_id&&synthesisReview?.human_review===false&&!!synthesisReview?.method&&!!synthesisReview?.scope,'driver synthesis independent review missing');
+ const gate=driverMap?.gate_boundaries;
+ check(!!driverMap?.gate?.H_rel&&!!driverMap.gate.L&&!!driverMap.gate.scenario_gate&&gate?.religious_status_is_food_approval===false&&gate.gate_is_demand_weight===false&&gate.hypothetical_scenario_is_observed_decision===false&&gate.numeric_output_without_baseline===false,'driver religious/access/scenario gate conflated');
+ for(const driver of mappedDrivers){
+  check(sameMembers(driver.shared_driver_names,factorNames[driver.mind_map_factor]||[])&&driver.empirical_weight===null&&driver.coefficient===null&&driver.human_review==='pending','driver exact shared mapping or null coefficient lost: '+driver.id);
+  check(Array.isArray(driver.case_ids)&&driver.case_ids.length>0&&new Set(driver.case_ids).size===driver.case_ids.length&&driver.case_ids.every(id=>historicalIds.includes(id)),'driver historical case link lost: '+driver.id);
+  check(['mind_map_factor','shared_driver_names','definition','hypothesis','counter_hypothesis','socio_cultural_channel','variable_paths','case_ids'].every(key=>!!driver.field_provenance?.[key])&&['definition','hypothesis','counter_hypothesis','socio_cultural_channel','double_count_or_transfer_limit'].every(key=>typeof driver[key]==='string'&&driver[key].length>0)&&Array.isArray(driver.variable_paths)&&driver.variable_paths.length>0&&driver.variable_paths.every(path=>['K','p_mass'].includes(path)),'driver field provenance, competing hypothesis or variable path lost: '+driver.id);
+ }
+ const synthesisRows=Array.isArray(historySynthesis?.rows)?historySynthesis.rows:[];
+ check(sameMembers(synthesisRows.map(r=>r.driver),['religious ruling','price','scarcity','disease','technology','policy or sovereignty','taste']),'seven historical drivers coverage lost');
+ check(historySynthesis?.human_review==='pending'&&historySynthesis.full_phase_one_complete===false,'historical synthesis promoted to complete or human approved');
+ for(const row of synthesisRows){
+  const rowCases=Array.isArray(row.case_ids)?row.case_ids:[],rowClaims=[...new Set(rowCases.flatMap(id=>historyCase(id)?.claim_ids||[]))];
+  check(rowCases.length>0&&new Set(rowCases).size===rowCases.length&&rowCases.every(id=>historicalIds.includes(id))&&sameMembers(row.claim_ids,rowClaims)&&reviewCovers(historySynthesis.review_id,rowClaims),'historical synthesis case/claim/review join lost: '+row.driver);
+  check(row.inference_status==='analytical_hypothesis_from_bounded_cases'&&row.quantitative_effect===null&&row.ruling_speed===null&&['evidence_summary','conditional_mechanism','counterexample','transportability_limit'].every(key=>typeof row[key]==='string'&&row[key].length>0),'historical synthesis hypothesis promoted to measured effect or ruling time: '+row.driver);
+ }
  return {checks,failures};
 }

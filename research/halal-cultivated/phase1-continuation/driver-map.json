@@ -1,0 +1,234 @@
+{
+  "schema": "phase-one-six-driver-map/v1",
+  "as_of": "2026-10-01",
+  "plan": {
+    "path": "../PLAN.md",
+    "section": "6.4C",
+    "sha256": "042fece94c50266dfff8986dfe537722489a34f355adebb985a6126d9e6c6824"
+  },
+  "drivers": [
+    {
+      "id": "DR-01",
+      "mind_map_factor": "Mass-scaling production",
+      "shared_driver_names": [
+        "supply chain costs",
+        "AI-driven R&D speed"
+      ],
+      "definition": "Physical throughput, input/logistics cost, and time to a validated production process are separate mechanisms.",
+      "hypothesis": "Supply expansion may reduce cost or improve availability; AI may shorten a particular research step.",
+      "counter_hypothesis": "A lower laboratory cost may not survive scale-up; faster research may leave validation, approval and capital constraints unchanged.",
+      "socio_cultural_channel": "Trusted halal inputs, donor provenance and certification capacity can constrain which scale-up route is usable.",
+      "variable_paths": [
+        "K",
+        "p_mass"
+      ],
+      "case_ids": [
+        "HP-05",
+        "HP-07",
+        "HP-09",
+        "HP-17",
+        "HP-20"
+      ],
+      "double_count_or_transfer_limit": "Do not reuse one scale assumption as duplicate adjustments. Separate any documented capacity change from a separately evidenced price-mediated purchase response, and record baseline mechanisms before transfer. No AI acceleration coefficient is observed in these cases.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    },
+    {
+      "id": "DR-02",
+      "mind_map_factor": "Cheap",
+      "shared_driver_names": [
+        "price"
+      ],
+      "definition": "Consumer price relative to a defined conventional comparator, measured in the same unit, channel, place, date and price basis.",
+      "hypothesis": "A lower relative price may increase purchase within an already eligible product market.",
+      "counter_hypothesis": "Margarine’s reversal despite a price advantage cautions that low price alone does not secure durable demand.",
+      "socio_cultural_channel": "Affordability interacts with household resources, trust and whether a lower-price substitute fits a valued dish.",
+      "variable_paths": [
+        "p_mass"
+      ],
+      "case_ids": [
+        "HP-14",
+        "HP-15",
+        "HP-16",
+        "HP-18",
+        "HP-19"
+      ],
+      "double_count_or_transfer_limit": "Historical nominal product prices and equilibrium displacement ratios are not transferable elasticities. Use the active bridge price conversion only with compatible inputs.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    },
+    {
+      "id": "DR-03",
+      "mind_map_factor": "Taste",
+      "shared_driver_names": [
+        "taste and texture"
+      ],
+      "definition": "Sensory performance for a specified product format, preparation and comparison task.",
+      "hypothesis": "A product that meets sensory expectations may increase trial and repeat purchase.",
+      "counter_hypothesis": "A familiar format may fail in a different cooking technique; sensory trials may not predict repeated buying at market prices.",
+      "socio_cultural_channel": "Meal roles and family expectations are testable moderators, not fixed national traits.",
+      "variable_paths": [
+        "p_mass"
+      ],
+      "case_ids": [
+        "HP-14",
+        "HP-15",
+        "HP-16"
+      ],
+      "double_count_or_transfer_limit": "No controlled sensory effect or country coefficient is estimated by this history review. Do not relabel product differentiation as a measured taste effect.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    },
+    {
+      "id": "DR-04",
+      "mind_map_factor": "Premade",
+      "shared_driver_names": [
+        "convenience"
+      ],
+      "definition": "Preparation time, storage, handling and availability in a specified retail or foodservice use.",
+      "hypothesis": "A suitable ready-made format may reduce practical costs for a particular purchasing group.",
+      "counter_hypothesis": "Cold-chain, equipment or limited distribution can erase convenience gains; convenience may be secondary to price or religious eligibility.",
+      "socio_cultural_channel": "Who purchases and prepares the meal, shared eating and retail access may change the mechanism.",
+      "variable_paths": [
+        "p_mass",
+        "K"
+      ],
+      "case_ids": [
+        "HP-19",
+        "HP-20"
+      ],
+      "double_count_or_transfer_limit": "Keep format demand separate from distribution capacity. HP-19 and HP-20 are formulation, distribution and capacity constraints only, not measured Premade effects. The historical cases provide mechanisms to investigate, not an estimated convenience effect.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    },
+    {
+      "id": "DR-05",
+      "mind_map_factor": "Nutrition",
+      "shared_driver_names": [
+        "health perceptions"
+      ],
+      "definition": "Beliefs about nutrition and health, measured separately from laboratory composition, safety and clinical outcomes.",
+      "hypothesis": "Perceived health advantages may influence product choice.",
+      "counter_hypothesis": "Beliefs can reverse or diverge from evidence; product reformulation and public advice can change comparisons.",
+      "socio_cultural_channel": "Trusted sources, ingredient familiarity and understandings of naturalness may mediate beliefs.",
+      "variable_paths": [
+        "p_mass"
+      ],
+      "case_ids": [
+        "HP-06",
+        "HP-08",
+        "HP-14",
+        "HP-19"
+      ],
+      "double_count_or_transfer_limit": "No nutritional equivalence, safety benefit or clinical conclusion is inferred. Medical necessity precedents do not establish ordinary-food demand.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    },
+    {
+      "id": "DR-06",
+      "mind_map_factor": "Variety and cuisine",
+      "shared_driver_names": [
+        "cuisine fit"
+      ],
+      "definition": "Ability of a named product to perform the desired role in a locally specified dish and cooking method.",
+      "hypothesis": "Performance in familiar dishes may support repeat purchase and substitution in that use.",
+      "counter_hypothesis": "Success in a nugget or beverage does not establish performance in a whole-cut, stewed or high-heat preparation.",
+      "socio_cultural_channel": "Compare within-market dishes and consumer segments; avoid assigning a single cuisine preference to an entire country.",
+      "variable_paths": [
+        "p_mass"
+      ],
+      "case_ids": [
+        "HP-12",
+        "HP-15",
+        "HP-16"
+      ],
+      "double_count_or_transfer_limit": "HP-12 is religious/species context only, not sensory or cuisine-fit evidence. Cuisine fit is the plan’s proposed shared field. Its external workstream adoption and numerical effects have not been verified.",
+      "empirical_weight": null,
+      "coefficient": null,
+      "field_provenance": {
+        "mind_map_factor": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "shared_driver_names": "../PLAN.md#64-document-4-literature-review,6.4C",
+        "definition": "Coordinator operational definition; proposed for review",
+        "hypothesis": "Analyst hypothesis, not estimated effect",
+        "counter_hypothesis": "Analyst test against linked bounded cases; not a causal finding",
+        "socio_cultural_channel": "Analyst research proposition",
+        "variable_paths": "../PLAN.md4.5 and ../bridge-v2/METHOD.md; analytical paths only",
+        "case_ids": "historical-cases.json; source and claim IDs resolve per case"
+      },
+      "human_review": "pending"
+    }
+  ],
+  "review_id": "R6-DRIVER-SYNTHESIS",
+  "human_review": "pending",
+  "empirical_weights_established": false,
+  "external_forecast_join_verified": false,
+  "baseline_available": false,
+  "gate": {
+    "H_rel": "Named institution/product/jurisdiction/date assessment; not a numeric weight.",
+    "L": "Food-safety market access stays separate from religious status.",
+    "scenario_gate": "Only the active bridge maps a hypothetical open/closed/unresolved gate to1/0/null; missing compatible inputs still block numerical output."
+  },
+  "shared_names_note": "Exact plan names are retained. Mass-scaling has two mapped fields, yielding seven distinct shared names across six factors. Cuisine fit is the proposed added field; no external owner acceptance is asserted.",
+  "gate_boundaries": {
+    "religious_status_is_food_approval": false,
+    "gate_is_demand_weight": false,
+    "hypothetical_scenario_is_observed_decision": false,
+    "numeric_output_without_baseline": false
+  },
+  "baseline_transfer_rule": "Before any numerical use, identify acceptance, religious, legal, certification, price and supply mechanisms already embedded in the reference baseline; reject duplicate adjustments, and require a newly versioned owner-supported baseline when its conditioning must change. These rows are candidate causal paths, not additive weights or independent evidence counts."
+}

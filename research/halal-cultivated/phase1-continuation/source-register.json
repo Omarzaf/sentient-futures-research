@@ -1525,5 +1525,1321 @@
     "human_verification": "Pending",
     "limits": "Fresh direct fetch timed out; indexed official page retained. Reference to Cabinet10/2014 is not a reading of the decree; UAE.S2055-1 edition absent. Avoid generalizing the scheme to every food.",
     "sha256": null
+  },
+  {
+    "id": "H1",
+    "title": "Ibn Abidin Radd al-Muhtar",
+    "url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+    "language": "Arabic",
+    "locator": "Vol. 1, Bab al-Anjas, displayed p. 327",
+    "source_family": "Ibn Abidin",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Primary juristic text; third-party digital edition",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Abidin’s Arabic gloss, surrounding parenthetical base text distinguished."
+  },
+  {
+    "id": "S4",
+    "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+    "url": "https://www.islamweb.net/amp/ar/library/content/14/1246/لا-يطهر-السرجين-والعذرة-وعظام-الميتة-وسائر-الأعيان-النجسة-بالإحراق-بالنار",
+    "language": "Arabic",
+    "locator": "Vol. 2, displayed pp. 596–597, impure substances transformed by burning/salt marsh",
+    "source_family": "al-Nawawi",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Primary juristic text; third-party digital edition",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Al-Shirazi base text; al-Nawawi’s explicit school-position commentary and discussion of alternative view."
+  },
+  {
+    "id": "M-DHAK",
+    "title": "Shihab al-Din al-Qarafi al-Dhakhira",
+    "url": "https://islamweb.net/ar/library/content/92/116/الفصل-الثالث-في-المنفصل-عن-الحيوان",
+    "language": "Arabic",
+    "locator": "Kitab al-tahara, means 2, chapter 3 on animal-derived substances; vol. 1 pp. 185-189, especially branches 2-3, 7-8 and concluding principle",
+    "source_family": "Shihab al-Din al-Qarafi",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Al-Qarafi quoting al-Jawahir and al-Tabsira in branches, followed by his own explanatory principle."
+  },
+  {
+    "id": "M-DAS28",
+    "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+    "url": "https://www.islamweb.net/ar/library/content/13/28/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+    "language": "Arabic",
+    "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52",
+    "source_family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Khalil's lemma in parentheses, al-Dardir's commentary, and al-Dasuqi's separately displayed gloss. Purity and eating explicitly distinguished."
+  },
+  {
+    "id": "H-MUGH-IST",
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://islamweb.net/ar/library/content/15/808/فصل-أصاب-الأرض-ماء-المطر-أو-السيول-فغمرها-وجرى-عليها",
+    "language": "Arabic",
+    "locator": "Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition",
+    "source_family": "Ibn Qudama",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Qudama's denial of general purification; distinguishes the wine case."
+  },
+  {
+    "id": "H-MUBDI",
+    "title": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni al-Mubdi fi sharh al-Muqni",
+    "url": "https://islamweb.net/ar/library/content/96/160/حكم-النجاسة-إذا-استحالت",
+    "language": "Arabic",
+    "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition",
+    "source_family": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Muflih explaining al-Muqni's lemma; records alternatives, including a reported/takhrij purification position."
+  },
+  {
+    "id": "H-TAY-IST",
+    "title": "Ibn Taymiyya Majmu al-fatawa",
+    "url": "https://www.islamweb.net/ar/library/content/22/2171/الماء-المتطهر-به-إذا-غمس-الجنب-يده-فيه-هل-يصير-مستعملا",
+    "language": "Arabic",
+    "locator": "Vol. 21 pp. 70-72; discussion of smoke and substance transformed from impurity",
+    "source_family": "Ibn Taymiyya",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Taymiyya explicitly chooses the permissive transformation position after reporting disagreement; not a unanimous school statement."
+  },
+  {
+    "id": "J4",
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/2144/",
+    "language": "English",
+    "locator": "Rulings 189–191, transformation (istihalah)",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Official English primary authority",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Official Sistani English publication."
+  },
+  {
+    "id": "H6",
+    "title": "Ibn Nujaym al-Bahr al-Ra’iq",
+    "url": "https://www.islamweb.net/amp/ar/library/content/29/123/index.php",
+    "language": "Arabic",
+    "locator": "Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116.",
+    "source_family": "Ibn Nujaym",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Primary juristic text; third-party digital edition",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Nujaym’s Arabic commentary, reporting Abu Hanifa and the two companions."
+  },
+  {
+    "id": "H-MUGH-RENNET",
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها",
+    "language": "Arabic",
+    "locator": "Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified",
+    "source_family": "Ibn Qudama",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ibn Qudama reports the apparent position and a contrary purity report; pagination not independently audited."
+  },
+  {
+    "id": "H4",
+    "title": "al-Quduri Mukhtasar al-Quduri, English translation",
+    "url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "language": "English",
+    "locator": "Chapter 50, Hunting and Slaughter; invocation and edible species paragraphs",
+    "source_family": "al-Quduri",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Primary juristic text in translated transcription; third-party mirror",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Al-Quduri, English translation by Tahir Mahmood Kiani; online transcription, not an inspected Arabic edition."
+  },
+  {
+    "id": "S2",
+    "title": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller Reliance of the Traveller / Umdat al-Salik",
+    "url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "language": "English",
+    "locator": "j16.3–j16.6; j17.1; j17.5",
+    "source_family": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Primary juristic text in annotated translation; third-party mirror",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Ahmad ibn Naqib al-Misri, edited/translated by Nuh Ha Mim Keller. Lettered N/O/A passages are marked additions/commentary; marker identities not separately verified."
+  },
+  {
+    "id": "H-UM-FOOD2",
+    "title": "Ibn Qudama Umdat al-fiqh",
+    "url": "https://umdatalfiqh.com/-book-of-foods-continued",
+    "language": "English with Arabic",
+    "locator": "Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136",
+    "source_family": "Ibn Qudama",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Arabic matn/English translation read; explanatory modern notes not attributed to Ibn Qudama."
+  },
+  {
+    "id": "J7",
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/8226/",
+    "language": "English",
+    "locator": "Rulings 2632, 2634, 2636 and 2638, fishing",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Official English primary authority",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 52227,
+        "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Official Sistani English publication."
+  },
+  {
+    "id": "IIFA198",
+    "title": "Transmutation, Dilution, and Additives in Food and Medication — Resolution198(4/21)",
+    "url": "https://iifa-aifi.org/en/33063.html",
+    "language": "English issuer translation",
+    "locator": "Second1; plasma paragraph; recommendations1–4",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_full_relevant_resolution",
+    "status": "independently_checked_scoped_record",
+    "limits": "2013 plasma conclusion reopened in210/2015. Incomplete English sentences retained as incomplete; no latest-force audit.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_full_relevant_resolution",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 31594,
+        "sha256": "878131887678ff093bd18cf5974d2755b2d9d233b70acba75316c4a856f41fa5"
+      }
+    ],
+    "publication_date": "2013-11-22"
+  },
+  {
+    "id": "IIFA210",
+    "title": "Transmutation and Dilution of Additives in Food and Medication — Resolution210(6/22)",
+    "url": "https://iifa-aifi.org/en/33099.html",
+    "language": "English issuer translation",
+    "locator": "Fourth General Principles4–7; Hormones and Enzymes; Cheese Manufactured by Rennet Curdling",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_full_relevant_resolution",
+    "status": "independently_checked_scoped_record",
+    "limits": "Session22–25March2015, Kuwait City; web date is not adoption date. Quotes1995IOMS seminar but is a2015IIFA instrument. English rennet/insulin clauses partly truncated; missing predicates not supplied.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_full_relevant_resolution",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 31594,
+        "sha256": "878131887678ff093bd18cf5974d2755b2d9d233b70acba75316c4a856f41fa5"
+      }
+    ],
+    "publication_date": "2015-03-22",
+    "session_dates": [
+      "2015-03-22",
+      "2015-03-25"
+    ],
+    "exact_adoption_date": null
+  },
+  {
+    "id": "P1C6-REL-TAN",
+    "title": "Sahih Muslim366a: tanning hides",
+    "url": "https://sunnah.com/muslim:366a",
+    "language": "Arabic and English",
+    "locator": "Hadith366a; chapter27",
+    "source_family": "Sahih-Muslim-digital-edition",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_primary_hadith_text",
+    "status": "independently_checked_scoped_record",
+    "limits": "Digital hadith text, not market history. Utterance date/place and print edition unestablished; chapter heading distinct from report.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_primary_hadith_text",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 31594,
+        "sha256": "878131887678ff093bd18cf5974d2755b2d9d233b70acba75316c4a856f41fa5"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "P1C6-REL-JALLALA",
+    "title": "Sunan Abi Dawud3785: jallalah and milk",
+    "url": "https://sunnah.com/abudawud:3785",
+    "language": "Arabic and English",
+    "locator": "Hadith3785; book28 report50",
+    "source_family": "Abu-Dawud-digital-edition",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_primary_hadith_text",
+    "status": "independently_checked_scoped_record",
+    "limits": "Prohibition report, without quarantine duration. Host-displayed Al-Albani grading is later scholarship, not adoption evidence.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_primary_hadith_text",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 21437,
+        "sha256": "95249c44528447e2db83a844b05b3e0fb1308b4286be0a590ed044489fd8ef44"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "J6",
+    "title": "Islamic Laws: Eating and Drinking",
+    "url": "https://www.sistani.org/english/book/48/8227/",
+    "language": "Official English",
+    "locator": "Rulings2648(horse);2649(young-animal feeding and istibra)",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_complete_returned_chapter",
+    "status": "independently_checked_scoped_record",
+    "limits": "Named authority only. Seven-day rule concerns specified young-animal feeding case, not all excrement-fed animals. General jallala refers to219, not acquired.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_complete_returned_chapter",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 21437,
+        "sha256": "95249c44528447e2db83a844b05b3e0fb1308b4286be0a590ed044489fd8ef44"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "P1C6-REL-Q55",
+    "title": "Quran5:5",
+    "url": "https://quran.com/5/5",
+    "language": "Arabic and The Clear Quran English translation",
+    "locator": "Surah al-Maidah5:5",
+    "source_family": "Quran",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_verse_and_translation",
+    "status": "independently_checked_scoped_record",
+    "limits": "Scriptural text, not dated consumer transition. Verse, translation and abridged tafsir are different layers. No product certificate inferred.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_verse_and_translation",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 21437,
+        "sha256": "95249c44528447e2db83a844b05b3e0fb1308b4286be0a590ed044489fd8ef44"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "P1C6-REL-IIFA263",
+    "title": "Resolution263(8/26): Stunning Birds and Animals Before Slaughter and Its Impact on Legality",
+    "url": "https://iifa-aifi.org/en/56075.html",
+    "language": "English issuer translation",
+    "locator": "Session preamble; RESOLVES postponement",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_extract_full_short_resolution",
+    "status": "independently_checked_scoped_record",
+    "limits": "Session4–8May2025, Doha. Postponement does not reverse or consolidate earlier rules. Machine-slaughter instrument not acquired.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_extract_full_short_resolution",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 33506,
+        "sha256": "37ea84c4f9f12e8cc23f3d545eb851bf6a16073226e51332b1fd0a94122e203c"
+      }
+    ],
+    "publication_date": "2025-11-20",
+    "session_dates": [
+      "2025-05-04",
+      "2025-05-08"
+    ],
+    "exact_adoption_date": null
+  },
+  {
+    "id": "P1C6-REL-MUI-AJI-HELD",
+    "title": "HIMPUNAN FATWA MAJELIS ULAMA INDONESIA — indexed Ajinomoto material",
+    "url": "https://mui.or.id/storage/fatwa/bec5b69749c53147606429c5d18ab212-lampiran.pdf",
+    "language": "Indonesian",
+    "locator": "Indexed printedp617 preamble mentioning1999–2000; full instrument not acquired",
+    "source_family": "MUI-Ajinomoto-2000-record",
+    "accessed": "2026-10-01",
+    "document_type": "indexed_original_language_lead_held",
+    "status": "held_original_language_lead",
+    "limits": "Language-held discovery only; no translation/adoption or current certificate status. Provider age is not a verified fatwa date.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "indexed_original_language_lead_held",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 32209,
+        "sha256": "d12e963696edc5ed22980fd34bce69657514e3fe671ce3c7c9360f11b9f0378f"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "P1C6-REL-AJI-JP-LEAD",
+    "title": "Ajinomoto to get halal certificate — Jakarta Post mirrored by jawawa",
+    "url": "https://jawawa.id/newsitem/ajinomoto-to-get-halal-certificate-1447893297",
+    "language": "English",
+    "locator": "Headline/date; opening paragraphs quoting MUI chairman Umar Shihab",
+    "source_family": "JakartaPost-Ajinomoto-2001-report",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_excerpt_contemporary_news_report",
+    "status": "independently_checked_scoped_record",
+    "limits": "Original newspaper edition/full article not obtained. Reported application/testing is not certificate issuance or independent chemical verification.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_excerpt_contemporary_news_report",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 32209,
+        "sha256": "d12e963696edc5ed22980fd34bce69657514e3fe671ce3c7c9360f11b9f0378f"
+      }
+    ],
+    "publication_date": "2001-02-01"
+  },
+  {
+    "id": "P1C6-REL-WHO2017",
+    "title": "Vaccine Safety and False Contraindications to Vaccination — Training Manual",
+    "url": "https://iris.who.int/bitstream/handle/10665/350968/WHO-EURO-2017-4683-44446-62833-eng.pdf",
+    "language": "English",
+    "locator": "Printedp30 §4.2.2; p81 reference37",
+    "source_family": "WHO-Europe-training-manual",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_PDF_excerpts",
+    "status": "independently_checked_scoped_record",
+    "limits": "WHO manual reports an IOMS opinion; not original religious instrument. Underlying letter unacquired in this unit. No patient guidance, product eligibility or measured adoption.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_PDF_excerpts",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 36549,
+        "sha256": "1455a8749696e5d02219d54650bf6d0fa51d8d3326f8bdeb98ea531e0ab058c2"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "P1C6-REL-AJI2015",
+    "title": "Ajinomoto Group Sustainability Report 2015: Respecting food diversity",
+    "url": "https://www.ajinomoto.com/en/ir/library/databook/main/03/teaserItems1/0/linkList/0/link/ajinomoto_csr15.pdf",
+    "language": "English",
+    "locator": "Printed p20, Lessons learned from the Halal incident and footnote2",
+    "source_family": "Ajinomoto-company-retrospective",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_PDF_excerpt",
+    "status": "independently_checked_scoped_record",
+    "limits": "Company retrospective only. Indexed title Ajinomoto Group Philosophy is not the report title. Provider relative publication age not accepted. Direct PDF download failed before bytes; no full report reading. Product composition, MUI instrument, restoration date and consumer recovery unverified.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_PDF_excerpt",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30465,
+        "sha256": "185af3a3094bf3eace9f1c87f9452dc950a51da58e463c8d44a3ffa7bb962697"
+      }
+    ],
+    "publication_date": null,
+    "edition_year": 2015
+  },
+  {
+    "id": "P1C6-REL-AJI2024",
+    "title": "Ajinomoto ASV Report 2024: History",
+    "url": "https://www.ajinomoto.com/sustainability/pdf/2024/ar2024en_030-033.pdf",
+    "language": "English",
+    "locator": "Printed p031, 2001 entry",
+    "source_family": "Ajinomoto-company-retrospective",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_PDF_excerpt",
+    "status": "independently_checked_scoped_record",
+    "limits": "Same company family as 2015 retrospective; not independent corroboration or original MUI ruling.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_PDF_excerpt",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30465,
+        "sha256": "185af3a3094bf3eace9f1c87f9452dc950a51da58e463c8d44a3ffa7bb962697"
+      }
+    ],
+    "publication_date": null,
+    "edition_year": 2024
+  },
+  {
+    "id": "P1C6-REL-ISTIBRA219",
+    "title": "Islamic Laws: Istibra of an excrement-eating animal",
+    "url": "https://www.sistani.org/english/book/48/2150/",
+    "language": "Official English",
+    "locator": "Ruling219 entire paragraph; same-number 2023 PDF printed p53 indexed in same capture",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "provider_search_excerpt_complete_ruling",
+    "status": "independently_checked_scoped_record",
+    "limits": "Named authority only. Periods are recommended precaution; cessation of habitual excrement-eating is the criterion. Urine/faeces purity provision linked to meat via Ruling2649; not a universal seven-day rule or adoption-rate evidence. Full print editions/date not verified.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_search_excerpt_complete_ruling",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 17014,
+        "sha256": "218f46ce32b75d4f74add5b27a5cac63472637c4a52fd4eacc7b089ddf4ff5b6"
+      }
+    ],
+    "publication_date": null
+  },
+  {
+    "id": "J8",
+    "title": "Ali al-Sistani Official question and answer: Gelatin",
+    "url": "https://www.sistani.org/english/qa/01201/",
+    "language": "English",
+    "locator": "Questions 1–2",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Official English primary authority",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Official Sistani English Q&A; compared with separate Arabic Q&A page."
+  },
+  {
+    "id": "J9",
+    "title": "Ali al-Sistani Official question and answer: al-Jilatin",
+    "url": "https://www.sistani.org/arabic/qa/02067/",
+    "language": "Arabic",
+    "locator": "Questions 1–3 and 9–10",
+    "source_family": "Sistani-office",
+    "accessed": "2026-10-01",
+    "document_type": "retained_checked_research_record_not_original_source_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "Official Arabic primary authority",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "retained_checked_research_record_not_original_source_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 54457,
+        "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 72120,
+        "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff"
+      }
+    ],
+    "publication_date": null,
+    "source_layer": "Official Sistani Arabic Q&A."
+  },
+  {
+    "id": "P1C6-REL-AJI2015-PDF",
+    "title": "Ajinomoto Group Sustainability Report2015",
+    "url": "https://www.ajinomoto.com/en/ir/library/databook/main/03/teaserItems1/0/linkList/0/link/ajinomoto_csr15.pdf",
+    "language": "English",
+    "locator": "Printedp20/PDF21, both columns, footnotes2–3 and captions",
+    "source_family": "Ajinomoto-company-retrospective",
+    "accessed": "2026-10-01",
+    "document_type": "complete_original_PDF_bytes_with_one_page_visual_and_text_reading",
+    "status": "independently_checked_scoped_record",
+    "limits": "Supersedes excerpt-only access limitation for this report; source-first prior captures remain unchanged. Company retrospective; no original MUI instrument, certificate restoration date, final residue analysis or market recovery evidence.",
+    "human_verification": "Pending",
+    "sha256": "2bd99118e032b03773e81f86e5695998a96667cb9d56eb2356e88e1721ba40a8",
+    "capture_kind": "complete_original_PDF_bytes_with_one_page_visual_and_text_reading",
+    "capture_receipts": [
+      {
+        "kind": "original_PDF",
+        "bytes": 23660307,
+        "sha256": "2bd99118e032b03773e81f86e5695998a96667cb9d56eb2356e88e1721ba40a8"
+      },
+      {
+        "kind": "derived_text",
+        "bytes": 1107125,
+        "sha256": "66cad0826f717f5658cecddbf8330425fd7b32cc3e2313813681b51b042ba65c"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 529715,
+        "sha256": "1bac3f56a797a5ccb74a14e1951d294660bdbdac9afd15d2c1e29f45f35a726d"
+      }
+    ],
+    "publication_date": null,
+    "edition_year": 2015,
+    "pdf_metadata": {
+      "creation_date": "2016-01-12",
+      "modification_date": "2016-03-01",
+      "dates_are_report_publication": false
+    },
+    "whole_report_read": false,
+    "page_count": 151,
+    "review_scope": "Specialist independently visually read coordinator render of printed20 and checked its text; other150PDFpages not substantively read."
+  },
+  {
+    "id": "P1C6-REL-IIFA95",
+    "title": "Animal Slaughters — Resolution95(3/10)",
+    "url": "https://iifa-aifi.org/en/32542.html",
+    "language": "English issuer translation",
+    "locator": "Second; Fifth1–2 and subpoint6; Seventh; Eighth; Ninth1",
+    "source_family": "IIFA",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_complete_returned_resolution_not_original_bytes",
+    "status": "independently_checked_scoped_record",
+    "limits": "English contains visibly truncated/corrupt technical numbers and endings; no electrical values adopted. Verse citation in Ninth appears as al-Maidah6, whereas independent Quran source is5:5; do not silently endorse webpage miscitation. Later2025stunning postponement is separate; no current consolidated force/national implementation established.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_extract_complete_returned_resolution_not_original_bytes",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 35533,
+        "sha256": "810de8fd31725dc1f5470bb368af7f11c0c7d289368706ee4e7e3cb8893c8dd2"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 16215,
+        "sha256": "4faec04442fd328d005a8a87df6805ba17d5e659b414afdaf6808226c2472552"
+      }
+    ],
+    "publication_date": "1997-07-03",
+    "session_dates": [
+      "1997-06-28",
+      "1997-07-03"
+    ],
+    "session_place": "Jeddah, Saudi Arabia",
+    "exact_adoption_date": null
+  },
+  {
+    "id": "P1C6-EMP-E01",
+    "title": "Chaim Nissim, Between Mamluks and Ottomans: The Worldview of Muhammad Ibn Tulun",
+    "url": "https://www.atiner.gr/papers/TUR2015-2167.pdf",
+    "language": "English",
+    "locator": "printed pp12–13, especially p12 footnote5 referring to Ibn Tulun, Tarikh al-Sham pp359–362",
+    "source_family": "Nissim analysis of Ibn Tulun and earlier historiography",
+    "accessed": "2026-10-01",
+    "document_type": "modern scholarly historical analysis",
+    "status": "independently_checked_scoped_record",
+    "limits": "Original modern paper read; not an original 1511 chronicle. Suggested citation says2016; imprint24 March2017; seriesTUR2015-2167. Preserve version distinctions.",
+    "human_verification": "Pending",
+    "sha256": "940feacc0b3ac49a232fa6bd05bf35fd0a9894d6f86087886f9eb59c0f65f176",
+    "capture_kind": "original_bytes_with_scoped_reading",
+    "capture_receipts": [
+      {
+        "kind": "original_PDF",
+        "bytes": 621613,
+        "sha256": "940feacc0b3ac49a232fa6bd05bf35fd0a9894d6f86087886f9eb59c0f65f176"
+      },
+      {
+        "kind": "derived_text",
+        "bytes": 76718,
+        "sha256": "916b978604f3224472cc01c4cd20dec3f0f1966abd6872137bcdce860aa7d7c9"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E02",
+    "title": "Umdat al-safwa manuscript and edition discovery",
+    "url": "https://dspace.univ-emir-constantine.edu.dz/jspui/handle/123456789/4478?mode=full",
+    "language": "Arabic catalogue with English metadata",
+    "locator": "university catalogue result, title/author/manuscript metadata and three listed images; also Google Books2007 edition in same capture",
+    "source_family": "Jaziri manuscript catalogue trail",
+    "accessed": "2026-10-01",
+    "document_type": "university catalogue indexed passage",
+    "status": "independently_checked_scoped_record",
+    "limits": "Catalogue metadata only; relevant manuscript passage and collation not read. Third-party bibliographic listing explicitly says no copy is held; it is not a primary chronicle.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 36054,
+        "sha256": "1d3a30a0d8b9220dd190fe958ad8d988fe73f1e02a40713e34c0de5d3ac769d7"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E03",
+    "title": "Butter and Margarine Availability Over the Last Century",
+    "url": "https://ers.usda.gov/amber-waves/2016/july/butter-and-margarine-availability-over-the-last-century",
+    "language": "English",
+    "locator": "5 July2016; paragraphs on1942–1972,1958 crossover,1976 peak and2005 reversal",
+    "source_family": "USDA ERS food availability series",
+    "accessed": "2026-10-01",
+    "document_type": "official retrospective statistical interpretation",
+    "status": "independently_checked_scoped_record",
+    "limits": "Official compiler's account; underlying full annual series not downloaded. Availability is a consumption proxy, not observed individual ingestion or causal displacement.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30398,
+        "sha256": "919829704484cc32d1ddf9bca51277e6b1efbd1c3a5bf0a1d0c5588df35de3d6"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 7881,
+        "sha256": "c5724d2c414cd5ed56846c78dccc47f3924bbf55143e89441ba91907e1747ada"
+      }
+    ]
+  },
+  {
+    "id": "lee_sumner_2026_plant_based_milk_displacement",
+    "title": "Lee and Sumner, Estimating plant-based milk impacts on U.S. fluid milk prices and quantities",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0306919226000862",
+    "language": "English",
+    "locator": "DOI10.1016/j.foodpol.2026.103119; sections2,3.1.1,3.2,6–7 and Table1 in retained indexed passages",
+    "source_family": "Lee–Sumner2026 Food Policy model",
+    "accessed": "2026-10-01",
+    "document_type": "primary empirical demand study, publisher passages",
+    "status": "independently_checked_scoped_record",
+    "limits": "Substantial selected publisher text, not complete tables/supplement independently read here. Coordinator is conducting separate original-article review. Different Lee–Sumner staggered-rollout study must not be merged with this model.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 36054,
+        "sha256": "7fe1e3c11eeb12bb0b9d337b24283821f40a54570de6b94bb2d7f9fa4ac1f8cf"
+      }
+    ],
+    "shared_library_source": {
+      "register": "../../ai-protein/source-register.json",
+      "id": "lee_sumner_2026_plant_based_milk_displacement",
+      "external_forecast_join_verified": false
+    }
+  },
+  {
+    "id": "P1C6-EMP-E05",
+    "title": "Indian parliamentary debate,10 April 1950, vanaspati",
+    "url": "https://eparlib.sansad.in/bitstream/123456789/759948/1/ppd_10-04-1950.pdf",
+    "language": "English",
+    "locator": "printed p2732, Ch. Mukhtiar Singh continuation on resemblance to ghee, adulteration and coloring",
+    "source_family": "Lok Sabha/Parliamentary debates",
+    "accessed": "2026-10-01",
+    "document_type": "contemporaneous parliamentary speech, indexed passage",
+    "status": "independently_checked_scoped_record",
+    "limits": "Participant arguments are evidence of controversy, not verified health effects or market shares; full debate not obtained.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30317,
+        "sha256": "ece19de6d0473095610482f3a5daca6233af68857029eae146b5fde30e5a4d9b"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E06",
+    "title": "Estimates Committee 1960–61,127 th Report, Ministry of Food and Agriculture",
+    "url": "https://eparlib.sansad.in/bitstream/123456789/58035/1/ec_02_127_1960.pdf",
+    "language": "English",
+    "locator": "title March1961; printed p29, sections57–58, forecasts immediately preceding; early institutional functions in opened text",
+    "source_family": "Indian Ministry evidence to Estimates Committee",
+    "accessed": "2026-10-01",
+    "document_type": "original parliamentary committee report, indexed passages",
+    "status": "independently_checked_scoped_record",
+    "limits": "Direct original-PDF download timed out with zero bytes. Search retained relevant p29; open retained title/early pages only. Forecasts not realized output. File name1960 is not the March1961 report date.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30317,
+        "sha256": "ece19de6d0473095610482f3a5daca6233af68857029eae146b5fde30e5a4d9b"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 23374,
+        "sha256": "36ff2f6bc61bd04a9836c8f273fa513f48451a361550cb44bbd750b02432ffef"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E07",
+    "title": "Pakistan Economic Survey 2023–24",
+    "url": "https://www.finance.gov.pk/survey/chapter_24/Economic_Survey_2023_24.pdf",
+    "language": "English",
+    "locator": "Table2.8, poultry production and footnotes; indexed primary passage",
+    "source_family": "Pakistan Ministry of National Food Security and Research estimates",
+    "accessed": "2026-10-01",
+    "document_type": "official estimates, indexed tables",
+    "status": "independently_checked_scoped_record",
+    "limits": "Relevant tables came from indexed primary text. Open13 retained early chapter pages. Poultry estimates use2005–06 statistics; other livestock estimates use1996/2006 inter-census growth. Not direct contemporary observation of every output or demand substitution.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 27377,
+        "sha256": "774b15e9ef1783dabcaa027457df58e745fb6612ceb59de9edd965e2425f0d32"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 23116,
+        "sha256": "b659f58754e7bc2af03067f3fa6abca06fbc43cb209f45b89921f1c59f7e22e7"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E08",
+    "title": "USDA Statistical Bulletin 965, Food Consumption, Prices, and Expenditures 1970–97",
+    "url": "https://www.ers.usda.gov/media/7890/sb-965.pdf?v=12606",
+    "language": "English",
+    "locator": "April1999; Table2 selected periods in indexed search; open title/contents/method discussion",
+    "source_family": "USDA ERS food availability series",
+    "accessed": "2026-10-01",
+    "document_type": "official historical food-availability compilation",
+    "status": "independently_checked_scoped_record",
+    "limits": "Table2 numerical rows were indexed; exact meat-weight footnote not retained at target table. Do not use this as a validated broiler-only displacement coefficient; precise table/footnote check remains outstanding.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 30398,
+        "sha256": "919829704484cc32d1ddf9bca51277e6b1efbd1c3a5bf0a1d0c5588df35de3d6"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 20495,
+        "sha256": "1b22432fcaa996acc241cae437492c372ef6f2f0fd2c9caf62ce849eaf036d9d"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E12",
+    "title": "Egg Price Impacts of the 2014–15 Highly Pathogenic Avian Influenza Outbreak",
+    "url": "https://www.ers.usda.gov/amber-waves/2018/april/egg-price-impacts-of-the-2014-15-highly-pathogenic-avian-influenza-outbreak",
+    "language": "English",
+    "locator": "2 April2018, paragraphs on bird losses, egg production, prices and processing-grade substitution",
+    "source_family": "USDA ERS HPAI2014–15 analysis",
+    "accessed": "2026-10-01",
+    "document_type": "official retrospective analysis",
+    "status": "independently_checked_scoped_record",
+    "limits": "Bird losses combine disease/depopulation; price benchmark is New York wholesale consumer-grade eggs, not national retail. Underlying full2017 report not newly read.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 34167,
+        "sha256": "b5879e278276ed3535ac625f4c957b21cafa0b8a1823eb86c6f1a35ba2227914"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 7537,
+        "sha256": "290c0c68d7664021d378585c726d2dd1ecc5f54b9527b003990cdb786f7b81b8"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E13",
+    "title": "U.S. egg prices continue to adjust following the 2015 HPAI outbreak",
+    "url": "https://www.ers.usda.gov/data-products/charts-of-note/79273",
+    "language": "English",
+    "locator": "29 August2016; April/August2015 and May2016 wholesale quotations",
+    "source_family": "USDA ERS HPAI2014–15 analysis",
+    "accessed": "2026-10-01",
+    "document_type": "official near-contemporaneous market series account",
+    "status": "independently_checked_scoped_record",
+    "limits": "Indexed complete short account; same ERS family asE12, not independent corroboration.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 34167,
+        "sha256": "b5879e278276ed3535ac625f4c957b21cafa0b8a1823eb86c6f1a35ba2227914"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E14",
+    "title": "Baladna Annual Report 2020, Overview",
+    "url": "https://baladna.com/digital_reports/2020/images/pdfs/overview.pdf",
+    "language": "English",
+    "locator": "printed pp11–13; operating highlights and Journey to the IPO",
+    "source_family": "Baladna company reporting",
+    "accessed": "2026-10-01",
+    "document_type": "participant company's retrospective report",
+    "status": "independently_checked_scoped_record",
+    "limits": "Four-page report excerpt text retained; charts' flattened value order requires care. Timeline and explicitly labeled herd series can be read; no national milk-demand denominator verified.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 3450,
+        "sha256": "8627a4ced05bcf32207a01fd884fc4a4dd867a738359f8ca0e4d41face65bad4"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E15",
+    "title": "Baladna plans to meet Qatar dairy needs by April 2018",
+    "url": "https://www.baladna.com/en/corporate/news/baladna-farm-plans-to-meet-qatars-dairy-needs-by-april-2018-2",
+    "language": "English",
+    "locator": "7 August2017, CEO plans for4,000 cows and100 tonnes/day; same search includes2021 annual-report herd table",
+    "source_family": "Baladna company reporting",
+    "accessed": "2026-10-01",
+    "document_type": "contemporaneous company-hosted interview/announcement",
+    "status": "independently_checked_scoped_record",
+    "limits": "Announced targets are not realized output. Later company report is same source family; self-sufficiency/market-share claims not independently verified.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 35807,
+        "sha256": "f52bdd0745e6d1330dd61e45ad08e837e2f20e0ebe02fb9cbb416731bd47419c"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-E16",
+    "title": "UAE National Food Security Strategy 2051",
+    "url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/environment-and-energy/national-food-security-strategy-2051",
+    "language": "English",
+    "locator": "official page updated30 December2024; indexed official SDG report p31 and UAE2018 book pp80–81 date launch November2018",
+    "source_family": "UAE government food-security policy",
+    "accessed": "2026-10-01",
+    "document_type": "official strategy description",
+    "status": "independently_checked_scoped_record",
+    "limits": "Direct open returned zero text; indexed official English/Arabic text retained.38 initiatives,18 items and3–5 sources are design/targets, not audited implementation outcomes.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 39105,
+        "sha256": "8c827e45c40fb0a74ae8fa9f8854325c9579590d69a8120e29ce44ff96f586d9"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 567,
+        "sha256": "cb879afcd57a5685ae8c8bc8fb0e1f57cc1f9fb253743f758b2ef9a4e661da42"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-EMP-PAK2025",
+    "title": "Pakistan Economic Survey 2024–25, Agriculture chapter",
+    "url": "https://www.finance.gov.pk/survey/chapter_25/2_Agriculture.pdf",
+    "language": "English",
+    "locator": "Table2.6, livestock products and footnotes; indexed primary passage",
+    "source_family": "Pakistan Ministry of National Food Security and Research estimates",
+    "accessed": "2026-10-01",
+    "document_type": "official estimates, indexed tables",
+    "status": "independently_checked_scoped_record",
+    "limits": "Relevant tables came from indexed primary text. Open13 retained early chapter pages. Poultry estimates use2005–06 statistics; other livestock estimates use1996/2006 inter-census growth. Not direct contemporary observation of every output or demand substitution.",
+    "human_verification": "Pending",
+    "sha256": null,
+    "capture_kind": "provider_passages_or_prior_checked_source",
+    "capture_receipts": [
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 27377,
+        "sha256": "774b15e9ef1783dabcaa027457df58e745fb6612ceb59de9edd965e2425f0d32"
+      },
+      {
+        "kind": "provider_or_prior_review_capture",
+        "bytes": 23116,
+        "sha256": "b659f58754e7bc2af03067f3fa6abca06fbc43cb209f45b89921f1c59f7e22e7"
+      }
+    ]
+  },
+  {
+    "id": "P1C6-QAT-ABSTRACT2020",
+    "title": "Qatar Statistical Abstract2020, Agriculture chapter",
+    "url": "https://www.psa.gov.qa/en/statistics/Statistical%20Releases/General/StatisticalAbstract/2020/1_Agricuitural_2020_AE.pdf",
+    "language": "Bilingual Arabic and English",
+    "locator": "Table15: quantity of agricultural production and self-sufficiency2017–2020; row5Milk and Milk Products",
+    "source_family": "Qatar-official-agricultural-statistics",
+    "limits": "Indexed primary table only. Former-host retrieval timed out; same path at currentNPCdomain returnedHTML404. Figure transcription and revision lineage not verified from original page.",
+    "accessed": "2026-10-01",
+    "document_type": "official_indexed_passage_or_dataset_metadata",
+    "status": "held_edition_specific_national_series_lead",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C6-QAT-ENV2020",
+    "title": "Environmental Statistics in State of Qatar2020",
+    "url": "https://www.psa.gov.qa/en/statistics/Statistical%20Releases/Environmental/EnvironmentalStatistics/Environment_Statistics_bulletin_2020_En.pdf",
+    "language": "English",
+    "locator": "Printedp56, section1.4, Figure3.5 and Table3.6 source/update note",
+    "source_family": "Qatar-official-agricultural-statistics",
+    "limits": "Indexed primary passage only; original page inaccessible. Dairy2019 figure72.8 differs from abstract73.00; no silent rounding/revision reconciliation.",
+    "accessed": "2026-10-01",
+    "document_type": "official_indexed_passage_or_dataset_metadata",
+    "status": "held_edition_specific_national_series_lead",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C6-QAT-DATASET",
+    "title": "Quantity of agricultural production — Qatar Open Data",
+    "url": "https://www.data.gov.qa/explore/dataset/quantity-of-agricultural-production/",
+    "language": "English",
+    "locator": "Dataset description, identifier quantity-of-agricultural-production and publisher metadata",
+    "source_family": "Qatar-official-agricultural-statistics",
+    "limits": "Landing metadata only; actual dataset rows not retrieved. Metadata2012–2023coverage andCCBYlabel do not verify any quantity or self-sufficiency denominator.",
+    "accessed": "2026-10-01",
+    "document_type": "official_indexed_passage_or_dataset_metadata",
+    "status": "held_edition_specific_national_series_lead",
+    "sha256": null,
+    "human_verification": "Pending"
   }
 ]
