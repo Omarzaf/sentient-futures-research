@@ -4,7 +4,9 @@
 
 ## What changed
 
-The third batch adds a [real manufacturing dossier](manufacturing-dossier.md), [separate Egyptian institutional leads](egypt-institutions.md), and [China’s ASF historical comparison](china-asf-history.md). The registers now contain **45 sources and 45 bounded claims**. Singapore, Egypt and China gain partial evidence within their original roles. Exact current product certificates, original Egyptian rulings and identified demand coefficients remain unestablished.
+The fourth batch adds [named institutional roles](geography.md) for Saudi Arabia, the UAE, Singapore and Oman, plus a visual reading of Oman's issued 2021 Basic Statute. The registers now contain **58 sources and 53 bounded claims**. Full current legal scope and school-prevalence evidence remain open. Direct Egyptian publisher HTML strengthens the [article-level evidence](egypt-institutions.md); the original fatwas remain unlocated.
+
+The third batch adds a [real manufacturing dossier](manufacturing-dossier.md), [separate Egyptian institutional leads](egypt-institutions.md), and [China’s ASF historical comparison](china-asf-history.md). At that checkpoint the registers contained 45 sources and 45 bounded claims. Singapore, Egypt and China gain partial evidence within their original roles. Exact current product certificates, original Egyptian rulings and identified demand coefficients remain unestablished.
 
 The second batch adds a [geography reference](geography.md), separating dated affiliation estimates from legal school status, and [school-text gap progress](school-gap-progress.md). At that checkpoint the registers contained 23 sources and 26 bounded claims. Nine previously queued country entries now contain partial evidence; India and Pakistan also gain historical rows. None is marked complete. A direct al-Qurtubi organ passage is located, while edition, translation and the narrow Sistani questions remain open.
 

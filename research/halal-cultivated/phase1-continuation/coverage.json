@@ -42,7 +42,8 @@
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
       "claim_ids": [
-        "P1C2-SAU-DEMOGRAPHY"
+        "P1C2-SAU-DEMOGRAPHY",
+        "P1C4-CORE-SAU-INSTITUTION"
       ]
     },
     {
@@ -53,7 +54,9 @@
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
       "claim_ids": [
-        "P1C2-ARE-DEMOGRAPHY"
+        "P1C2-ARE-DEMOGRAPHY",
+        "P1C4-CORE-ARE-COMPOSITION",
+        "P1C4-CORE-ARE-REMIT"
       ]
     },
     {
@@ -64,7 +67,10 @@
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
       "claim_ids": [
-        "P1C3-PROCESS-C11"
+        "P1C3-PROCESS-C11",
+        "P1C4-CORE-SGP-COMMITTEE",
+        "P1C4-CORE-SGP-REQUEST",
+        "P1C4-CORE-SGP-OPERATIONS"
       ]
     },
     {
@@ -131,7 +137,9 @@
       "populationSchoolShares": null,
       "claim_ids": [
         "P1C2-W04A-C07",
-        "P1C2-W04A-C08"
+        "P1C2-W04A-C08",
+        "P1C4-GULF-C01",
+        "P1C4-OMN-ARTICLE2"
       ]
     },
     {

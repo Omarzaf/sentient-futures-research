@@ -4,7 +4,7 @@
 
 ## Al-Azhar-related statement
 
-The World Organization for Al-Azhar Graduates published a [24 September 2024 report quoting Abbas Shoman](https://waag-azhar.org/34362), identified there as the organization's chair and secretary-general of the Council of Senior Scholars. The complete short report was returned by the search provider; direct retrieval failed.
+The World Organization for Al-Azhar Graduates published a [24 September 2024 report quoting Abbas Shoman](https://waag-azhar.org/34362), identified there as the organization's chair and secretary-general of the Council of Senior Scholars. The initial reading used the complete short report returned by the search provider. A follow-up on 1 October 2026 recovered the publisher's original HTML and independently checked it. Its metadata also records a 19 November 2025 modification; without a prior-version comparison, that is not evidence of a new ruling or substantive revision.
 
 Our provisional reading attributes to Shoman a slaughtered-donor restriction, exclusion of cells taken from a living donor with a fish/locust exception, nutrients free from ritual impurities, and demonstrated absence of health harm. The exact exception's scope remains for qualified Arabic and jurisprudential review. “Living donor” describes procurement; it must not be rewritten as a ban on viable cultured cells. [WAAG, first paragraph](https://waag-azhar.org/34362).
 
@@ -29,3 +29,9 @@ The seven rows below are researcher-defined comparison dimensions from the proje
 | Labeling | Not established | Not established |
 
 All cells describe the retrieved reports; none upgrades institutional acceptance. Later-statement checking is incomplete. A conflicting secondary lead about an October 2024 position remains excluded until its original authority and text can be checked. Empty search results do not establish either prohibition or permission.
+
+## Follow-up on the original-source trail
+
+Direct publisher HTML was recovered for WAAG, Veto and the [Cairo24 report](https://www.cairo24.com/1859625). The two news sites' Dar al-Ifta anchors lead to other articles on their own sites. They do not supply the original institutional page. Their similar wording may share the same underlying answer and does not count as independent institutional corroboration.
+
+An [academic PDF lead](https://jlr.journals.ekb.eg/article_414108_c97e249bd564ed1a9b22985b96eb3b88.pdf) mentions a Dar al-Ifta fatwa in the indexed passage, but the original PDF and its footnote could not be acquired. It remains a locator lead. The original fatwa number, author, date and full text, the Council's instrument and the seminar paper remain unresolved. The [acquisition follow-up](egypt-institutions.json) preserves publisher-byte hashes and these limits alongside the unchanged matrices.

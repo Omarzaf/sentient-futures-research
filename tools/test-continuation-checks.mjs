@@ -54,7 +54,17 @@ const cases=[
  ['output change ratio becomes causal substitution fraction',f=>alter(f,'china-asf-history.json',r=>{r.production.causal_substitution_fraction=2.45/11.49;}),'China causal substitution'],
  ['unreviewed paper lead supplies numerical elasticity',f=>alter(f,'china-asf-history.json',r=>{r.elasticity.identified_numeric_value=-0.5;}),'China elasticity unestablished'],
  ['conventional poultry history supplies cultivated adoption gate',f=>alter(f,'china-asf-history.json',r=>{r.transport_to_cultivated_chicken.religious_gate=1;}),'China cultivated transfer'],
- ['manufacturing agent check becomes human approval',f=>alter(f,'manufacturing-dossier.json',r=>{r.human_review='approved';}),'new artifact human review']
+ ['manufacturing agent check becomes human approval',f=>alter(f,'manufacturing-dossier.json',r=>{r.human_review='approved';}),'new artifact human review'],
+ ['fatwa body cites another country claim',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='SAU').main_fatwa_bodies[0].claim_ids=['P1C-C01'];}),'fatwa body claim/source lineage'],
+ ['fatwa body borrows an unrelated valid source',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='SGP').main_fatwa_bodies[0].source_ids.push('P1C-IN-NSF');}),'fatwa body source jurisdiction'],
+ ['partial institutional excerpt promoted to complete instrument',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='ARE').main_fatwa_bodies[0].complete_operative_instrument_read=true;}),'fatwa body authority overclaimed'],
+ ['new body records conceal invented national school',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='SAU').legally_named_state_school={name:'Hanbali'};}),'unsupported legally named state school'],
+ ['Oman landing date substituted for issue and effect',f=>alter(f,'geography.json',r=>{const o=r.countries.find(c=>c.id==='OMN').legal_document_observation;o.issued=o.landing_metadata_date;o.effective=o.landing_metadata_date;}),'Oman issue/effect date'],
+ ['Article 2 silence becomes all-law school absence',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='OMN').legal_document_observation.absence_of_school_in_all_law_established=true;}),'Oman clause scope'],
+ ['Egypt article hash attributed to another source',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.article_acquisitions[0].sha256=r.followup_retrieval.article_acquisitions[1].sha256;}),'Egypt acquisition identity'],
+ ['publisher article acquisition becomes original fatwa',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.original_rulings_obtained=true;}),'Egypt followup promoted'],
+ ['news story anchors become original fatwa links',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.link_trace.original_fatwa_links_found=true;}),'Egypt news-link trace'],
+ ['WAAG HTML modification becomes a new ruling',f=>alter(f,'egypt-institutions.json',r=>{r.followup_retrieval.waag_metadata.modified_date_is_new_ruling=true;}),'WAAG metadata promoted']
 ];
 for(const [name,mutate,expected] of cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',validFixtureChecks:checkContinuation(fixture).checks,negativeCases:cases.length}));

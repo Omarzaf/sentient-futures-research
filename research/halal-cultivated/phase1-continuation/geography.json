@@ -111,14 +111,65 @@
         }
       ],
       "numerical_remainder": null,
-      "main_fatwa_bodies": null,
-      "institutional_scope_notes": null,
-      "next_actions": [
-        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
-        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
-        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      "main_fatwa_bodies": [
+        {
+          "name": "General Presidency of Islamic Research and Ifta",
+          "role": "Institutional self-description: legal rulings and fatwas derived from Quran and Sunnah",
+          "source_ids": [
+            "P1C4-CORE-S02"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "institutional_description_only",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Senior Scholars Council",
+          "role": "Named via its General Secretariat; precise English operative remit unresolved",
+          "source_ids": [
+            "P1C4-CORE-S02",
+            "P1C4-CORE-S03"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "partial_english_identity_arabic_mandate_lead_held",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Permanent Fatwa Committee",
+          "role": "Named on official Presidency page; precise founding mandate unresolved",
+          "source_ids": [
+            "P1C4-CORE-S02"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "identity_only",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
       ],
-      "complete": false
+      "institutional_scope_notes": "Undated English Presidency statement is usable for a bounded institutional row. Basic Law original retrieval failed; Arabic Council lead held. Neither Hanbali state method nor demographic prevalence established here.",
+      "next_actions": [
+        "Obtain complete English and Arabic Basic Law, operative Article 45 and amendment record.",
+        "Obtain Council/Permanent Committee establishing instrument and qualified Arabic review.",
+        "Research categorical school prevalence independently."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
     },
     {
       "id": "ARE",
@@ -126,7 +177,10 @@
       "predominant_juristic_schools": null,
       "school_prevalence_source_ids": [],
       "legally_named_state_school": null,
-      "legal_claim_ids": [],
+      "legal_claim_ids": [
+        "P1C4-CORE-ARE-COMPOSITION",
+        "P1C4-CORE-ARE-REMIT"
+      ],
       "current_affiliation": null,
       "historical_affiliation": [
         {
@@ -148,14 +202,33 @@
         }
       ],
       "numerical_remainder": null,
-      "main_fatwa_bodies": null,
-      "institutional_scope_notes": null,
-      "next_actions": [
-        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
-        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
-        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      "main_fatwa_bodies": [
+        {
+          "name": "UAE Council for Fatwa",
+          "role": "Federal statutory council; public/contemporary fatwas and fatwa policy coordinated with Concerned Authorities",
+          "source_ids": [
+            "P1C4-CORE-S04"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-ARE-COMPOSITION",
+            "P1C4-CORE-ARE-REMIT"
+          ],
+          "mandate_status": "partial_indexed_federal_law",
+          "territory": "Federal law; emirate allocation unresolved",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
       ],
-      "complete": false
+      "institutional_scope_notes": "Federal Law 3/2024 Arts 6–7 partly read. Emirate representation does not establish territorial exclusivity. Concerned Authorities and local mandates unresolved; no Maliki-prevalence or cultivated-product permission inferred.",
+      "next_actions": [
+        "Retrieve full Federal Law 3/2024 with dates, definitions, repeal and amendment provisions.",
+        "Read named emirate-level fatwa-governance instruments and reconcile federal/local authority.",
+        "Research legal method and categorical prevalence independently."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
     },
     {
       "id": "SGP",
@@ -163,18 +236,56 @@
       "predominant_juristic_schools": null,
       "school_prevalence_source_ids": [],
       "legally_named_state_school": null,
-      "legal_claim_ids": [],
+      "legal_claim_ids": [
+        "P1C4-CORE-SGP-COMMITTEE",
+        "P1C4-CORE-SGP-REQUEST"
+      ],
       "current_affiliation": null,
       "historical_affiliation": [],
       "numerical_remainder": null,
-      "main_fatwa_bodies": null,
-      "institutional_scope_notes": null,
-      "next_actions": [
-        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
-        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
-        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      "main_fatwa_bodies": [
+        {
+          "name": "Legal Committee of the Majlis (Fatwa Committee)",
+          "role": "Mufti-chaired statutory committee with amended composition and request-consideration procedure",
+          "source_ids": [
+            "P1C4-CORE-S05",
+            "P1C4-CORE-S06"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SGP-COMMITTEE",
+            "P1C4-CORE-SGP-REQUEST"
+          ],
+          "mandate_status": "partial_indexed_statute_with_2025_amendment_annotations",
+          "territory": "Singapore",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Office of the Mufti, MUIS",
+          "role": "Fatwa Committee Secretariat, supporting references and expert input",
+          "source_ids": [
+            "P1C4-CORE-S06"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SGP-OPERATIONS"
+          ],
+          "mandate_status": "dated_official_operational_description",
+          "territory": "Singapore",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
       ],
-      "complete": false
+      "institutional_scope_notes": "AMLA indexed §§31–32 show Act 4/2024 amendments effective 7 August 2025. MUIS operational page updated 20 July 2026. Current §33 not retained, so school method remains unfilled; no food approval or certificate inferred.",
+      "next_actions": [
+        "Retrieve authoritative full AMLA consolidation with §33 and remaining §32 adoption rules.",
+        "Keep statutory ordinary school method separate from population prevalence."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
     },
     {
       "id": "MYS",
@@ -325,9 +436,8 @@
       "main_fatwa_bodies": null,
       "institutional_scope_notes": null,
       "next_actions": [
-        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
-        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
-        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+        "English original retrieval failed through official legal and government-portal hosts; retain Arabic indexed family-law lead for a changed retrieval method and qualified review.",
+        "Do not convert Sunni/Jafari personal-status provisions into national adherence or general food-fatwa competence."
       ],
       "complete": false
     },
@@ -337,7 +447,9 @@
       "predominant_juristic_schools": null,
       "school_prevalence_source_ids": [],
       "legally_named_state_school": null,
-      "legal_claim_ids": [],
+      "legal_claim_ids": [
+        "P1C4-OMN-ARTICLE2"
+      ],
       "current_affiliation": null,
       "historical_affiliation": [
         {
@@ -359,14 +471,49 @@
         }
       ],
       "numerical_remainder": null,
-      "main_fatwa_bodies": null,
-      "institutional_scope_notes": null,
-      "next_actions": [
-        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
-        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
-        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      "main_fatwa_bodies": [
+        {
+          "name": "Mufti/Ifta Office, Ministry of Endowments and Religious Affairs",
+          "role": "Official English page describes intake, routing to sheikhs, delivery and recording of fatwas, with supporting research and publications.",
+          "source_ids": [
+            "P1C4-GULF-S01"
+          ],
+          "claim_ids": [
+            "P1C4-GULF-C01"
+          ],
+          "mandate_status": "undated_official_operational_description",
+          "territory": "Oman",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
       ],
-      "complete": false
+      "institutional_scope_notes": "Official English MARA workflow account and Arabic issued 2021 Basic Statute read. Full current institutional structure, later amendments and categorical school prevalence remain unestablished.",
+      "next_actions": [
+        "Find qualified categorical affiliation and school evidence; do not subtract the historical Shia estimate to invent an Ibadi or Sunni share.",
+        "Audit later amendments and the operative Ifta-office mandate; the 2021 issued instrument and undated workflow account have different scopes."
+      ],
+      "complete": false,
+      "institutional_map_complete": false,
+      "legal_document_observation": {
+        "source_ids": [
+          "P1C4-OMN-STATUTE"
+        ],
+        "claim_ids": [
+          "P1C4-OMN-ARTICLE2"
+        ],
+        "instrument": "Royal Decree 6/2021 and attached Basic Statute",
+        "issued": "2021-01-11",
+        "effective": "2021-01-11",
+        "gazette_publication_date": null,
+        "landing_metadata_date": "2021-01-12",
+        "clause": "Attached Statute Article 2",
+        "school_named_in_this_clause": false,
+        "absence_of_school_in_all_law_established": false,
+        "current_consolidation_verified": false,
+        "qualified_translation_approved": false
+      }
     },
     {
       "id": "IRN",

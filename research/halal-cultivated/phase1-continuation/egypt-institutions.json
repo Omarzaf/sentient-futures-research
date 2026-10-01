@@ -190,5 +190,51 @@
       ],
       "human_review": "pending"
     }
-  ]
+  ],
+  "followup_retrieval": {
+    "as_of": "2026-10-01",
+    "review_id": "R4-OMAN-EGYPT",
+    "original_rulings_obtained": false,
+    "article_acquisitions": [
+      {
+        "source_id": "P1C3-EGY-S01",
+        "sha256": "74d88d999b8b813a6447e7bd8daa414322fcd679dcb1ac7e15c3716e80822101",
+        "bytes": 274917,
+        "access": "direct_original_publisher_html"
+      },
+      {
+        "source_id": "P1C3-EGY-S02",
+        "sha256": "fe6a7edbe0c3c310a8bcdee05be33b6ff81e549247585bacceedf3607971df3d",
+        "bytes": 110337,
+        "access": "direct_original_publisher_html"
+      },
+      {
+        "source_id": "P1C3-EGY-S03",
+        "sha256": "23884d5043add6b47cc31a71561f08495518058fc3953f860aaf856c7eb3958b",
+        "bytes": 91573,
+        "access": "direct_original_publisher_html"
+      }
+    ],
+    "link_trace": {
+      "original_fatwa_links_found": false,
+      "scope": "Inspected Dar al-Ifta anchor destinations in the two retained news pages; both link to other articles on the same news publisher, not the original fatwa.",
+      "destinations": [
+        "https://www.cairo24.com/1859385",
+        "https://www.vetogate.com/4965286",
+        "https://www.vetogate.com/4963141"
+      ]
+    },
+    "waag_metadata": {
+      "article_publication": "2024-09-24",
+      "html_modified_date": "2025-11-19",
+      "modified_date_is_new_ruling": false,
+      "prior_article_text_version_verified": false
+    },
+    "academic_locator_lead": {
+      "url": "https://jlr.journals.ekb.eg/article_414108_c97e249bd564ed1a9b22985b96eb3b88.pdf",
+      "access": "indexed_mention_only_original_retrieval_failed",
+      "original_fatwa_locator_obtained": false
+    },
+    "limits": "Original publisher bytes strengthen the retained article attribution only. Same-event news accounts are not independent institutional rulings. The footnote lead was not acquired; a changed archive or proceeding route remains necessary. No absence claim or newly accepted national position."
+  }
 }

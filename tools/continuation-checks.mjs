@@ -56,10 +56,33 @@ export function checkContinuation(files) {
  check(geography?.complete===false&&geography.human_review==='pending','geography prematurely completed or human approved');
  const pewValues={IND:[10,15,null],PAK:[10,15,null],SAU:[10,15,null],ARE:[null,null,10],QAT:[null,null,10],KWT:[20,25,null],BHR:[65,75,null],OMN:[5,10,null],IRN:[90,95,null],IRQ:[65,70,null],YEM:[35,40,null]};
  const linkedSources=(ids,claim)=>Array.isArray(ids)&&ids.length>0&&new Set(ids).size===ids.length&&ids.every(id=>sourceIds.has(id)&&claim?.source_ids?.includes(id));
+ const bodyScopes={
+  SAU:{count:3,territory:'Saudi Arabia',sources:['P1C4-CORE-S02','P1C4-CORE-S03'],statuses:['institutional_description_only','partial_english_identity_arabic_mandate_lead_held','identity_only']},
+  ARE:{count:1,territory:'Federal law; emirate allocation unresolved',sources:['P1C4-CORE-S04'],statuses:['partial_indexed_federal_law']},
+  SGP:{count:2,territory:'Singapore',sources:['P1C4-CORE-S05','P1C4-CORE-S06'],statuses:['partial_indexed_statute_with_2025_amendment_annotations','dated_official_operational_description']},
+  OMN:{count:1,territory:'Oman',sources:['P1C4-GULF-S01'],statuses:['undated_official_operational_description']}
+ };
  for(const country of geographyRows){
   const sameCountry=id=>claims.find(r=>r.id===id&&r.country===country.id);
   check(Array.isArray(country.legal_claim_ids)&&country.legal_claim_ids.every(id=>sameCountry(id)),'geography legal claim lineage: '+country.id);
-  check(country.predominant_juristic_schools===null&&Array.isArray(country.school_prevalence_source_ids)&&country.school_prevalence_source_ids.length===0&&country.current_affiliation===null&&country.numerical_remainder===null&&country.main_fatwa_bodies===null,'unestablished geography field promoted or zero-filled: '+country.id);
+  check(country.predominant_juristic_schools===null&&Array.isArray(country.school_prevalence_source_ids)&&country.school_prevalence_source_ids.length===0&&country.current_affiliation===null&&country.numerical_remainder===null,'unestablished geography field promoted or zero-filled: '+country.id);
+  const bodyScope=bodyScopes[country.id];
+  if(bodyScope){
+   const bodies=Array.isArray(country.main_fatwa_bodies)?country.main_fatwa_bodies:[];
+   check(bodies.length===bodyScope.count&&new Set(bodies.map(b=>b.name)).size===bodyScope.count&&country.institutional_map_complete===false,'partial fatwa-body map coverage lost: '+country.id);
+   for(const body of bodies){
+    check(typeof body.name==='string'&&body.name.length>0&&typeof body.role==='string'&&body.role.length>0&&body.territory===bodyScope.territory&&bodyScope.statuses.includes(body.mandate_status),'fatwa body role/territory/partial mandate lost: '+country.id);
+    check(Array.isArray(body.source_ids)&&body.source_ids.length>0&&new Set(body.source_ids).size===body.source_ids.length&&body.source_ids.every(id=>sourceIds.has(id)&&bodyScope.sources.includes(id)),'fatwa body source jurisdiction lost: '+country.id);
+    check(Array.isArray(body.claim_ids)&&body.claim_ids.length>0&&new Set(body.claim_ids).size===body.claim_ids.length&&body.claim_ids.every(id=>{const c=sameCountry(id);return c&&c.source_ids.every(source=>body.source_ids?.includes(source));}),'fatwa body claim/source lineage lost: '+country.id);
+    check(body.complete_operative_instrument_read===false&&body.exclusive_national_authority===null&&body.cultivated_product_ruling_established===false&&body.product_certificate===null,'fatwa body authority overclaimed: '+country.id);
+   }
+  }else check(country.main_fatwa_bodies===null,'unestablished fatwa bodies filled: '+country.id);
+  if(country.id==='OMN'){
+   const legal=country.legal_document_observation,source=sources.find(r=>r.id==='P1C4-OMN-STATUTE');
+   check(legal?.source_ids?.length===1&&legal.source_ids[0]==='P1C4-OMN-STATUTE'&&legal.claim_ids?.length===1&&legal.claim_ids[0]==='P1C4-OMN-ARTICLE2'&&country.legal_claim_ids.includes(legal.claim_ids[0])&&linkedSources(legal.source_ids,sameCountry(legal.claim_ids[0])),'Oman legal observation source/claim lineage lost');
+   check(legal?.issued==='2021-01-11'&&legal.effective===legal.issued&&source?.issue_date===legal.issued&&source.effective_date===legal.effective&&legal.landing_metadata_date==='2021-01-12'&&source.landing_metadata_date===legal.landing_metadata_date&&legal.gazette_publication_date===null&&source.gazette_publication_date===null,'Oman issue/effect date confused with landing or gazette date');
+   check(legal?.clause==='Attached Statute Article 2'&&legal.school_named_in_this_clause===false&&legal.absence_of_school_in_all_law_established===false&&legal.current_consolidation_verified===false&&legal.qualified_translation_approved===false,'Oman clause scope or review status overclaimed');
+  }
   check(country.complete===false,'geography country prematurely completed: '+country.id);
   if(country.id==='IRN'){
    const legal=country.legally_named_state_school;
@@ -138,6 +161,22 @@ export function checkContinuation(files) {
   }
   check(institution.later_and_counterstatements?.status==='incomplete'&&Array.isArray(institution.later_and_counterstatements.counterlead_source_ids)&&institution.later_and_counterstatements.counterlead_source_ids.every(id=>sourceIds.has(id)&&institution.source_ids?.includes(id)),'Egypt later/counterstatement scope or lineage lost');
  }
+ // These hashes bind the followup acquisitions; earlier source-register access snapshots remain historical.
+ const egyptCaptures={
+  'P1C3-EGY-S01':{sha256:'74d88d999b8b813a6447e7bd8daa414322fcd679dcb1ac7e15c3716e80822101',bytes:274917},
+  'P1C3-EGY-S02':{sha256:'fe6a7edbe0c3c310a8bcdee05be33b6ff81e549247585bacceedf3607971df3d',bytes:110337},
+  'P1C3-EGY-S03':{sha256:'23884d5043add6b47cc31a71561f08495518058fc3953f860aaf856c7eb3958b',bytes:91573}
+ };
+ const followup=egypt?.followup_retrieval;
+ check(followup?.original_rulings_obtained===false&&reviews.some(r=>r.id===followup.review_id&&r.human_review===false),'Egypt followup promoted or review lineage lost');
+ const acquisitions=Array.isArray(followup?.article_acquisitions)?followup.article_acquisitions:[];
+ check(acquisitions.length===3&&new Set(acquisitions.map(r=>r.source_id)).size===3&&acquisitions.every(r=>sourceIds.has(r.source_id)&&institutions.some(i=>i.source_ids?.includes(r.source_id))&&egyptCaptures[r.source_id]?.sha256===r.sha256&&egyptCaptures[r.source_id]?.bytes===r.bytes&&r.access==='direct_original_publisher_html'),'Egypt acquisition identity, bytes or source lineage lost');
+ const newsLinks=['https://www.cairo24.com/1859385','https://www.vetogate.com/4965286','https://www.vetogate.com/4963141'];
+ const trace=followup?.link_trace;
+ check(trace?.original_fatwa_links_found===false&&Array.isArray(trace.destinations)&&trace.destinations.length===3&&new Set(trace.destinations).size===3&&trace.destinations.every(url=>newsLinks.includes(url)),'Egypt news-link trace promoted or changed');
+ const waag=followup?.waag_metadata;
+ check(waag?.article_publication==='2024-09-24'&&waag.html_modified_date==='2025-11-19'&&waag.modified_date_is_new_ruling===false&&waag.prior_article_text_version_verified===false,'WAAG metadata promoted to ruling or authenticated prior text');
+ check(followup?.academic_locator_lead?.original_fatwa_locator_obtained===false&&followup.academic_locator_lead.access==='indexed_mention_only_original_retrieval_failed','Egypt academic lead promoted to acquired original locator');
  check(china?.country==='CHN'&&china.id==='HISTORY-18'&&artifactLineage(china,'CHN'),'China history source/claim lineage');
  const production=china?.production,household=china?.household;
  check(production?.baseline_year===2018&&production.baseline_is_unexposed===false,'China baseline exposure lost');

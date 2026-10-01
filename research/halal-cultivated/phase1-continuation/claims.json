@@ -656,5 +656,117 @@
     "human_review": "pending",
     "limits": "This is an attributed abstract-level finding; the study’s causal identification, full numerical results and uncertainty were not independently assessed. No coefficient accepted as a PhaseTwo input.",
     "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C4-CORE-SAU-INSTITUTION",
+    "country": "SAU",
+    "assertion": "The General Presidency describes its function as stating legal rulings and issuing fatwas derived from the Quran and Sunnah; its English page lists a General Secretariat of the Senior Scholars Council and a Permanent Fatwa Committee.",
+    "source_ids": [
+      "P1C4-CORE-S02"
+    ],
+    "locator": "About Presidency opening paragraph and institution list",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is an undated institutional self-description, not the exact founding mandate of each named organ. Does not identify a national school or population prevalence. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-ARE-COMPOSITION",
+    "country": "ARE",
+    "assertion": "The retained official indexed English extract of Federal Law 3/2024 states: Article 6 provides for a UAE Council for Fatwa comprising a Chairman, Vice-Chairman and members representing the Emirates and relevant expertise; formation is by federal decree, with four-year membership terms automatically renewable unless restructured by federal decree.",
+    "source_ids": [
+      "P1C4-CORE-S04"
+    ],
+    "locator": "Article 6(1)–(2)",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Formal statutory design only. Actual appointments, current composition and full amendment history are not verified. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-ARE-REMIT",
+    "country": "ARE",
+    "assertion": "The retained official indexed English extract of Federal Law 3/2024 states: Article 7 assigns the Council public, contemporary, urgent and proactive fatwas; public fatwas on varied issues or requests; and policies/resolutions regulating fatwa affairs in coordination with Concerned Authorities in the State.",
+    "source_ids": [
+      "P1C4-CORE-S04"
+    ],
+    "locator": "Article 7(1)–(3)",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Concerned Authorities definition and emirate instruments were not read. No claim of exclusive jurisdiction, local-body repeal, particular school method or cultivated-food approval. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-COMMITTEE",
+    "country": "SGP",
+    "assertion": "The retained official indexed AMLA excerpt, with 2025 amendment annotations, states: AMLA section 31 provides a Legal Committee of the Majlis chaired by the Mufti and comprising at most eight other fit and proper Muslims, at least two of whom must be Majlis members. Other members are appointed by the President on Majlis advice; appointments are notified in the Gazette.",
+    "source_ids": [
+      "P1C4-CORE-S05"
+    ],
+    "locator": "Section 31(1)–(4); Act 4 of 2024 amendment note effective 7 August 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Statutory design from indexed primary extract, not verified officeholders. Older composition descriptions may be superseded; complete current consolidation not retained. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-REQUEST",
+    "country": "SGP",
+    "assertion": "The retained official indexed AMLA excerpt, with 2025 amendment annotations, states: Under AMLA section 32, a person can request a ruling by letter to the Chief Executive, who refers it to the Legal Committee chair. The Committee considers requests unless frivolous; following consideration, section 32(3A) permits a draft ruling when appropriate or necessary.",
+    "source_ids": [
+      "P1C4-CORE-S05"
+    ],
+    "locator": "Section 32(1)–(3A); Act 4 of 2024 amendment note effective 7 August 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Remaining adoption procedure and section 33 legal-school method not read. Do not describe a request as automatically producing an adopted fatwa. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-OPERATIONS",
+    "country": "SGP",
+    "assertion": "MUIS describes its Office of the Mufti as Secretariat to the Fatwa Committee: it handles issuance operations and gathers references and information; experts, including scientific experts, may be invited into discussions.",
+    "source_ids": [
+      "P1C4-CORE-S06"
+    ],
+    "locator": "Opening institutional description, provider lines 29–31",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "MUIS explains operations; this is not a product fatwa, halal certificate, regulatory food decision or evidence about population school adherence. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-GULF-C01",
+    "country": "OMN",
+    "assertion": "Oman’s Ministry of Endowments and Religious Affairs publishes a description of its Mufti/Ifta Office in which fatwa requests are received, sorted and assigned to sheikhs, completed answers are recorded and delivered, and a research unit prepares supporting material and fatwa publications.",
+    "source_ids": [
+      "P1C4-GULF-S01"
+    ],
+    "locator": "Official page headings Fatwa Department, Department of Fatwas and Research and Studies Department; derived text lines 113–143",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Published institutional function description only; not proof of legal exclusivity, complete current structure, school adherence, population composition or any food ruling. Single institutional source; no second independent primary corroboration.",
+    "review_id": "R4-OMAN-EGYPT",
+    "evidence_level": "checked_attributed_institutional_self_description"
+  },
+  {
+    "id": "P1C4-OMN-ARTICLE2",
+    "country": "OMN",
+    "assertion": "In the issued 2021 Arabic Basic Statute, Article 2 states that Islam is the religion of the state and Islamic Sharia is the basis of legislation. That clause names no juristic school. Royal Decree 6/2021 is dated 11 January 2021 and says it operates from issuance.",
+    "source_ids": [
+      "P1C4-OMN-STATUTE"
+    ],
+    "locator": "PDF/printed page 2: decree Article 3 and signature date; page 3: attached Statute Article 2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Source-bounded agent reading of the issued Arabic instrument; qualified translation and full subsequent amendment audit remain pending. This is not proof that no other law names a school, that the current legal order is fully mapped, or that any population follows a particular school. Official landing metadata displays 12 January 2021; a separate gazette publication date is unestablished.",
+    "review_id": "R4-OMAN-EGYPT",
+    "evidence_level": "checked_issued_legal_edition"
   }
 ]

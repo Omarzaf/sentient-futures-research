@@ -124,5 +124,31 @@
     "scope": "Preliminary production, at-home purchases, FAO historical controls and attributed abstract-level study findings; no identified elasticity or adoption transfer.",
     "outcome": "bounded_documentary_agreement",
     "human_review": false
+  },
+  {
+    "id": "R4-CORE",
+    "claim_ids": [
+      "P1C4-CORE-SAU-INSTITUTION",
+      "P1C4-CORE-ARE-COMPOSITION",
+      "P1C4-CORE-ARE-REMIT",
+      "P1C4-CORE-SGP-COMMITTEE",
+      "P1C4-CORE-SGP-REQUEST",
+      "P1C4-CORE-SGP-OPERATIONS"
+    ],
+    "method": "Fresh reader retained independent primary-excerpt findings before seeing candidate claims; coordinator applied explicit indexed-access attribution and narrowed Singapore currentness wording.",
+    "scope": "Six attributed institution/statute readings; official text fragments and MUIS operations, not full current law, school prevalence or product certification.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R4-OMAN-EGYPT",
+    "claim_ids": [
+      "P1C4-GULF-C01",
+      "P1C4-OMN-ARTICLE2"
+    ],
+    "method": "Fresh reader inspected official Oman institutional HTML and rendered decree pages 1–3 before candidate reconciliation; coordinator independently viewed pages 2–3. Egyptian article links were separately traced.",
+    "scope": "Oman issued-edition and institutional reading; Egyptian direct article acquisitions do not establish original fatwas.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
   }
 ]

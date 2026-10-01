@@ -2,6 +2,14 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 1 October 2026 — country institutions and original-source follow-up
+
+Added 13 source records and eight independently checked, bounded claims. The supplement now has 58 sources and 53 claims. Saudi Arabia, the UAE, Singapore and Oman gain named institutional rows, with source access, territorial scope and incomplete mandate limits retained. Oman's official Arabic Decree 6/2021 pages 1–3 were visually checked; the issued edition and separate landing metadata dates remain distinct. Population school prevalence stays unestablished.
+
+Egyptian publisher HTML was acquired and article hyperlinks traced. Those links do not recover the original institutional fatwas; earlier matrices and claims remain unchanged. Bahrain English legal originals and the complete Singapore consolidation remain unresolved after bounded retrieval. Human scholarly and qualified translation review are pending.
+
+Source-first review and reconciliation precede integration. Validation now checks institutional claim/source/country links, partial mandates, Oman's date and clause limits, and the distinction between Egyptian news bytes and original rulings. The original sixteen-country scope and all prior evidence are retained. Full Phase One is still incomplete; no new push, merge or deployment is part of this research checkpoint.
+
 ## 1 October 2026 — manufacturing, Egypt and China continuation
 
 **Added:** A [named GOOD Meat dossier](phase1-continuation/manufacturing-dossier.md) separates donor and cell-bank history, media stages, measured residues, composition, process amendments and jurisdiction-specific records. A [two-institution Egypt account](phase1-continuation/egypt-institutions.md) retains original-ruling gaps and held matrix cells. A [China ASF case](phase1-continuation/china-asf-history.md) separates preliminary output from household purchases, food mass from protein mass, and descriptive change from causal parameters.
