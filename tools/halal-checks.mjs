@@ -8,9 +8,10 @@ export function parseCsv(text) {
  for(let i=0;i<text.length;i++){
   const c=text[i];
   if(quoted){if(c==='"'){if(text[i+1]==='"'){field+='"';i++;}else quoted=false;}else field+=c;}
-  else if(c==='"'&&field===''&&!wasQuoted){quoted=true;wasQuoted=true;}
   else if(c===','){row.push(field);field='';wasQuoted=false;}
   else if(c==='\n'||c==='\r'){if(c==='\r'&&text[i+1]==='\n')i++;row.push(field);rows.push(row);row=[];field='';wasQuoted=false;}
+  else if(wasQuoted)throw Error('Text after a closing quote');
+  else if(c==='"'){if(field!=='')throw Error('Quote inside an unquoted field');quoted=true;wasQuoted=true;}
   else field+=c;
  }
  if(quoted)throw Error('Unterminated quoted field');
@@ -75,14 +76,23 @@ export function checkHalal(files) {
  let register=[];try{register=JSON.parse(files[pkg.sourceRegister]);}catch{check(false,'source register missing or invalid');}
  check(Array.isArray(register),'source register must be an array');if(!Array.isArray(register))register=[];
  for(const r of register){check(/^(CO|SA|GP|HS)-[A-Za-z0-9-]+$/.test(r.id||''),'register id '+r.id+': expected CO-, SA-, GP- or HS- prefix');check(/^https?:\/\//.test(r.url||''),'register '+r.id+': public url required');check(!!r.title,'register '+r.id+': title required');}
- const ids=new Set(register.map(r=>r.id));
+ const registerIds=new Set(register.map(r=>r.id));const ids=new Set(registerIds);
  for(const [res,key] of [['claims','claim_id'],['scripture-sources','source_id'],['historical-parallels','parallel_id'],['rulings','ruling_id'],['madhhab-geography','record_id'],['certification','record_id'],['elasticities','record_id']])for(const r of t[res]||[])ids.add(r[key]);
  check(ids.size===register.length+['claims','scripture-sources','historical-parallels','rulings','madhhab-geography','certification','elasticities'].reduce((n,k)=>n+(t[k]||[]).length,0),'the same ID is used in more than one register');
  for(const rows of Object.values(t))for(const r of rows){
-  for(const k of ['source_ids','source_id','H_rel_ruling','local_survey_id','repeats','elasticity_ids','column_id'])for(const id of tokens(r[k]))check(ids.has(id),r._where+' '+k+': unknown ID '+id);
+  for(const k of ['source_ids','source_id','H_rel_ruling','local_survey_id','repeats','elasticity_ids','column_id'])for(const id of tokens(r[k])){
+   check(ids.has(id),r._where+' '+k+': unknown ID '+id);
+   // Claims are what the speaker said, not evidence; only the consensus matrix may name one.
+   if(k!=='column_id')check(!/^CL-/.test(id),r._where+' '+k+': '+id+' is a claim, not a source');
+  }
  }
+ for(const r of t.scenarios||[])if(r.local_survey_id)check(registerIds.has(r.local_survey_id),r._where+': local_survey_id must be a source register record');
  const rulingIds=new Set((t.rulings||[]).map(r=>r.ruling_id));
- for(const rows of [t['market-records'],t.scenarios])for(const r of rows||[])if(r.H_rel_ruling)check(rulingIds.has(r.H_rel_ruling),r._where+': H_rel_ruling must be an FT- ruling');
+ const repeatingIds=new Set((t.rulings||[]).filter(r=>r.repeats).map(r=>r.ruling_id));
+ for(const rows of [t['market-records'],t.scenarios])for(const r of rows||[])if(r.H_rel_ruling){
+  check(rulingIds.has(r.H_rel_ruling),r._where+': H_rel_ruling must be an FT- ruling');
+  check(!repeatingIds.has(r.H_rel_ruling),r._where+': rule 8, H_rel_ruling must cite the original ruling, not a report of it');
+ }
 
  // Missing stays missing: a named institution for H_rel; dated registry searches for none_found.
  for(const r of t['market-records']||[]){
@@ -101,7 +111,7 @@ export function checkHalal(files) {
   for(const id of tokens(r.source_ids))check(/^(QS|HP)-/.test(id),r._where+': claim sources must be QS- or HP- records');
  }
  for(const r of t['scripture-sources']||[]){
-  if(r.kind==='quran'){const m=/^(\d{1,3}):(\d{1,3})(?:-(\d{1,3}))?$/.exec(r.reference||'');check(!!m&&+m[1]>=1&&+m[1]<=114&&(!m[3]||+m[3]>=+m[2]),r._where+': Quran reference must be surah:ayah');}
+  if(r.kind==='quran'){const m=/^(\d{1,3}):(\d{1,3})(?:-(\d{1,3}))?$/.exec(r.reference||'');check(!!m&&+m[1]>=1&&+m[1]<=114&&+m[2]>=1&&(!m[3]||+m[3]>=+m[2]),r._where+': Quran reference must be surah:ayah');}
   if(r.kind==='hadith')check(!!(r.collection&&r.grading&&r.graded_by),r._where+': hadith needs collection, grading and graded_by');
   check(!!r.english_translation||r.flag_no_english===true,r._where+': english_translation or flag_no_english');
  }
@@ -130,6 +140,9 @@ export function checkHalal(files) {
  // Q = D x p x G, capped by K; a reason code for every zero or missing Q.
  for(const r of t.scenarios||[]){
   if(r.D!==null&&r.p!==null&&r.G!==null)check(r.Q_uncapped!==null&&close(r.Q_uncapped,r.D*r.p*r.G),r._where+': Q_uncapped must equal D x p x G');
+  // Missing stays missing: with D, p or G blank, Q is unknown unless a closed gate makes it zero.
+  else if(r.G===0)check(r.Q_uncapped===null||r.Q_uncapped===0,r._where+': a closed gate gives Q_uncapped 0 or blank');
+  else check(r.Q_uncapped===null&&r.Q===null&&r.reason_code==='input_missing',r._where+': D, p or G is missing, so Q_uncapped and Q stay blank with reason_code input_missing');
   if(r.Q_uncapped!==null){
    const want=r.K===null?r.Q_uncapped:Math.min(r.Q_uncapped,r.K);
    check(r.Q!==null&&close(r.Q,want),r._where+': Q must equal Q_uncapped capped by K');
@@ -169,6 +182,8 @@ export function checkHalal(files) {
   for(const r of rows){
    if(r===base)continue;const m=tokens(r.shock_mechanism);
    check(r.p===base.p,r._where+': rule 7, a shock never changes p');
+   check(r.H_rel===base.H_rel&&r.H_rel_condition_met===base.H_rel_condition_met&&r.H_rel_ruling===base.H_rel_ruling,r._where+': rule 7, a shock never changes the religious ruling H_rel');
+   if(!m.includes('L'))check(r.L_includes_halal===base.L_includes_halal,r._where+': rule 7, L_includes_halal changed by a shock whose mechanism excludes L');
    if(!m.includes('D'))check(r.D===base.D,r._where+': rule 7, D changed by a shock whose mechanism excludes D');
    if(!m.includes('K'))check(r.K===base.K,r._where+': rule 7, K changed by a shock whose mechanism excludes K');
    if(!m.includes('L'))check(r.L===base.L,r._where+': rule 7, L changed by a shock whose mechanism excludes L');
@@ -176,9 +191,8 @@ export function checkHalal(files) {
  }
 
  // Rule 8: related evidence counts once.
- const repeating=new Set();
- for(const r of t.rulings||[])if(r.repeats){check(r.repeats!==r.ruling_id&&rulingIds.has(r.repeats),r._where+': rule 8, repeats must name another ruling');repeating.add(r.ruling_id);}
- for(const r of t['consensus-matrix']||[])check(!repeating.has(r.column_id),r._where+': rule 8, cite the original ruling, not a report of it');
+ for(const r of t.rulings||[])if(r.repeats)check(r.repeats!==r.ruling_id&&rulingIds.has(r.repeats),r._where+': rule 8, repeats must name another ruling');
+ for(const r of t['consensus-matrix']||[])check(!repeatingIds.has(r.column_id),r._where+': rule 8, cite the original ruling, not a report of it');
  const groupCountry=new Map();
  for(const r of t.elasticities||[])if(r.evidence_group){const k=r.evidence_group+'|'+r.geo+'|'+r.good+'|'+r.type+'|'+r.with_respect_to;check(!groupCountry.has(k),r._where+': rule 8, one estimate per evidence_group for the same elasticity');groupCountry.set(k,r.record_id);}
 

@@ -18,8 +18,11 @@ const server=http.createServer((req,res)=>{
  const file=path.join(root,name);
  if(!fs.existsSync(file)||fs.lstatSync(file).isSymbolicLink()){res.writeHead(404);res.end('Not found');return;}
  const real=fs.realpathSync(file);if(!real.startsWith(root+path.sep)){res.writeHead(404);res.end('Not found');return;}
- res.writeHead(200,{'Content-Type':types[path.extname(name)]||'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'no-store'});
- if(req.method==='HEAD')res.end();else fs.createReadStream(file).pipe(res);
+ const headers={'Content-Type':types[path.extname(name)]||'application/octet-stream','X-Content-Type-Options':'nosniff','Cache-Control':'no-store'};
+ if(req.method==='HEAD'){res.writeHead(200,headers);res.end();return;}
+ const stream=fs.createReadStream(file);
+ stream.on('open',()=>{res.writeHead(200,headers);stream.pipe(res);});
+ stream.on('error',()=>{if(res.headersSent)res.destroy();else{res.writeHead(404);res.end('Not found');}});
 });
 server.on('error',err=>{console.error('Could not start local preview: '+err.code+'. Check RESEARCH_PORT and permission to bind to loopback.');process.exitCode=1;});
 server.listen(port,'127.0.0.1',()=>console.log('Research library: http://127.0.0.1:'+port+'/'));
