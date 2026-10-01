@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "dossier_id": "GOODMEAT-US-CCC000001-PUBLIC-20230320",
+  "title": "GOOD Meat cultivated-chicken manufacturing dossier",
+  "compiledAtUtc": "2026-10-01T21:10:11.865Z",
+  "human_review": "pending",
+  "agent_review": "source_first_independent_check_and_coordinator_reconciliation",
+  "scope": "Public U.S. CCC000001 process through March2023 consultation plus June2023 labeling correction; Singapore serum-free announcement maintained as a separate process record.",
+  "source_ids": [
+    "P1C3-PROCESS-S01",
+    "P1C3-PROCESS-S02",
+    "P1C3-PROCESS-S03",
+    "P1C3-PROCESS-S04",
+    "P1C3-PROCESS-S05",
+    "P1C3-PROCESS-S06",
+    "P1C3-PROCESS-S07",
+    "P1C3-PROCESS-S08",
+    "P1C3-PROCESS-S09"
+  ],
+  "claim_ids": [
+    "P1C3-PROCESS-C01",
+    "P1C3-PROCESS-C02",
+    "P1C3-PROCESS-C03",
+    "P1C3-PROCESS-C04",
+    "P1C3-PROCESS-C05",
+    "P1C3-PROCESS-C06",
+    "P1C3-PROCESS-C07",
+    "P1C3-PROCESS-C08",
+    "P1C3-PROCESS-C09",
+    "P1C3-PROCESS-C10",
+    "P1C3-PROCESS-C11",
+    "P1C3-PROCESS-C12"
+  ],
+  "processIdentity": {
+    "manufacturer": "GOOD Meat, Inc.",
+    "species": "Gallus gallus",
+    "biomass": "Cultured cells with fibroblast characteristics, harvested as cell mass/paste",
+    "cellLine": "UMNSAH/DF1; ATCC CRL12203; C1F -> C1F-P1",
+    "originalLineAcquired": {
+      "date": "2018-02-22",
+      "batch": "70006277",
+      "basis": "Company dossier §4.1 p10"
+    },
+    "cellCultureFacilityAsDocumented": "JOINN Biologics US, Richmond, California",
+    "currentFacilityStatus": null,
+    "retailProductSKU": null,
+    "current2026Process": null
+  },
+  "donor": {
+    "origin": "Embryonic torso tissue from10-day chicken embryos, used to establish parental line",
+    "procurement": "Commercial ATCC line; dossier reports two initial adherent passages before parental banking",
+    "immortalization": "Spontaneous selection; company says its C1F cells are not recombinant/engineered",
+    "liveAdultDonor": false,
+    "adultSlaughterEvidence": null,
+    "embryoIndividualIdentity": null,
+    "halalProcurementCertificate": null,
+    "limits": "false means this described source is embryonic, not a finding about all company cell lines.",
+    "sources": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ]
+  },
+  "stages": [
+    {
+      "stage": "Parental-line supplier/history",
+      "knownInputs": "Appended historical ATCC sheet describes DMEM plus10% FBS, Trypsin-EDTA subculture and complete growth medium plus5% DMSO cryopreservation.",
+      "animalInputs": [
+        "FBS"
+      ],
+      "unknowns": [
+        "Trypsin source",
+        "Exact source lots and donor handling",
+        "Whether all supplier recommendations were actually followed"
+      ],
+      "locator": "July8 amendment appended ATCC sheet p12/PDFp114; visually checked",
+      "boundary": "Historical supplier instructions are not GOOD Meat C1F-P1 banking or production recipes."
+    },
+    {
+      "stage": "C1F adherent expansion and suspension adaptation",
+      "knownInputs": "Serum-supplemented medium; subsequently lower bovine serum and C1F-P1 naming.",
+      "animalInputs": [
+        "Bovine serum"
+      ],
+      "unknowns": [
+        "Complete medium recipe",
+        "Exact adaptation serum concentrations",
+        "Supplier-specific origin of every component"
+      ],
+      "locator": "Main pp10–13; FDA memo pp4–6"
+    },
+    {
+      "stage": "Master cell bank",
+      "knownInputs": "C1F-P1 expansion in low-serum conditions, concentration and cryopreservation; documented batch and chain of custody.",
+      "animalInputs": [
+        "Bovine serum in bank establishment"
+      ],
+      "unknowns": [
+        "Current cryopreservation-medium complete recipe",
+        "Actual DMSO concentration if any",
+        "Bank lot certificates"
+      ],
+      "locator": "Main §§4.4–4.6 pp13–14; FDA memo p6",
+      "boundary": "Do not import5% DMSO/10% FBS from the appended ATCC recommendation into this recipe."
+    },
+    {
+      "stage": "Master working cell bank",
+      "knownInputs": "MCB aliquots thawed; medium dilution, centrifugation, resuspension, expansion, then cryopreservation; vials stored in vapor-phase liquid nitrogen.",
+      "animalInputs": [
+        "Bovine serum in bank establishment"
+      ],
+      "unknowns": [
+        "Full cryomedium recipe and component origins"
+      ],
+      "locator": "Main §§4.5–4.6 pp13–14; FDA memo p6"
+    },
+    {
+      "stage": "Seed expansion",
+      "knownInputs": "Qualified bank thaw; shake flasks, wave bag; basal amino acids, vitamins, salts and other components plus FBS.",
+      "animalInputs": [
+        "FBS"
+      ],
+      "unknowns": [
+        "FBS volume fraction",
+        "Complete basal recipe",
+        "Amino acid, vitamin, growth factor and other component source provenance"
+      ],
+      "locator": "Main §§5.1–5.2 pp15–16; §5.2.3.9 p58; FDA memo p9"
+    },
+    {
+      "stage": "Bioreactor proliferation",
+      "knownInputs": "200L then1000L vessels in the disclosed flow. Basal medium plus FBS. D-glucose may supplement; sodium hydroxide/hydrochloric acid may control pH. PluronicF68 anti-clumping agent documented.",
+      "animalInputs": [
+        "FBS"
+      ],
+      "unknowns": [
+        "Exact FBS percentage and complete stage recipe",
+        "Batch-specific origins",
+        "Current scale/capacity"
+      ],
+      "locator": "Main pp15–16,58,61,63; FDA memo pp8–9,19–20"
+    },
+    {
+      "stage": "Sampling/quality-control aliquot",
+      "knownInputs": "For aggregates, sampled cells are centrifuged, resuspended in TrypLE and enzyme activity inactivated with serum-containing medium before counting.",
+      "animalInputs": [
+        "Serum in analytical aliquot"
+      ],
+      "unknowns": [
+        "TrypLE formulation/source in this record"
+      ],
+      "locator": "Main §4.3 p12",
+      "boundary": "An analytical sample treatment; not established as a production-wide harvest input or returned-to-batch ingredient."
+    },
+    {
+      "stage": "Harvest and wash",
+      "knownInputs": "Centrifugation,0.45%NaCl washes; second/final wash tested; cells stored at -20C or below according to FDA memo.",
+      "animalInputs": [
+        "Residual BSA measured in harvested cells"
+      ],
+      "unknowns": [
+        "Full mass balance for every medium constituent",
+        "Lot-specific final residues"
+      ],
+      "locator": "Main §§5.1.2,5.3–5.4 pp15,62–64; FDA memo pp8–9"
+    },
+    {
+      "stage": "Finished food formulation",
+      "knownInputs": "Biomass shipped for later food manufacture. Process amendment describes intended products with60–75%w/w cultured chicken ingredient.",
+      "animalInputs": [
+        "Cultured chicken biomass with its residuals"
+      ],
+      "unknowns": [
+        "Exact SKU recipe",
+        "Remaining25–40% formulation",
+        "Scaffold/binder origin in finished product",
+        "Certificate matching exact final product"
+      ],
+      "locator": "Main §6.2.1 p75; process amendment p6/PDFp145",
+      "boundary": "Intended formulation range is not a verified marketed2026 product or evidence for GOOD Meat3."
+    }
+  ],
+  "publicNamedComponents": {
+    "basalCategories": [
+      "amino acids",
+      "vitamins",
+      "inorganic salts",
+      "antioxidants",
+      "other components"
+    ],
+    "selectedNamed": [
+      "folic acid",
+      "ferric nitrate",
+      "hypoxanthine sodium",
+      "lipoic acid",
+      "putrescine dihydrochloride",
+      "sodium pyruvate",
+      "thymidine",
+      "Pluronic F-68/Poloxamer188",
+      "fetal bovine serum"
+    ],
+    "additionalProcessInputs": [
+      "D-glucose",
+      "sodium hydroxide",
+      "hydrochloric acid",
+      "sodium chloride wash"
+    ],
+    "completeFormulaPublic": false,
+    "confidentialBasis": "FDA memo p9 fn10 and p10; dossier p16",
+    "componentProvenanceComplete": false,
+    "antibiotics": {
+      "currentProcess": "No antibiotic agents identified by firm for its cell culture process (FDA memo p9)",
+      "historicalLineDevelopment": "Appended patent protocols contain antibiotics; not imported into current process",
+      "boundary": "Current-process statement is not a claim that no antibiotic ever occurred in parental-line history."
+    }
+  },
+  "animalMaterialControls": {
+    "source": "July8 response pp14–15/PDFpp116–117; FDA memo p5",
+    "documented": "Bovine source controls, disease screening, approved harvest facilities, filtration and heat inactivation are described.",
+    "halalSlaughterEvidence": null,
+    "reason": "Veterinary/food-safety source controls do not supply religious slaughter/certification provenance."
+  },
+  "scaffoldsAndAids": {
+    "scaffold": {
+      "status": "not_established_in_public_record",
+      "value": null,
+      "basis": "Described proliferation is suspension culture and harvest is biomass. No introduced scaffold is identified in reviewed flow; this is not proof of absence across all processes."
+    },
+    "antiClumping": "PluronicF68",
+    "samplingEnzyme": "TrypLE, analytical-aliquot context",
+    "foodContact": "Single-use plastics and CIP/SIP stainless steel; company food-contact assertions; no material-origin/certifier audit conducted.",
+    "certifiedAnimalFree": null
+  },
+  "residuals": {
+    "bsaHarvestedCellMaterial": {
+      "unit": "micrograms/g",
+      "batches": [
+        42.46,
+        11.97,
+        5.27,
+        3
+      ],
+      "reportedMean": 15.67,
+      "reportedMeanMgPer100g": 1.57,
+      "reportedMaximum": 42.46,
+      "n": 4,
+      "method": "ELISA",
+      "locator": "Main Table33 p60",
+      "rounding": "Rounded displayed inputs average15.675; preserve reported15.67 rather than impose a new rounding rule."
+    },
+    "bsaFinalWash": {
+      "unit": "mg/L",
+      "values": [
+        "<0.31",
+        1.4,
+        0.6,
+        "<0.31",
+        "<0.31",
+        0.35
+      ],
+      "n": 6,
+      "lod": 0.31,
+      "locator": "Main Table38 p64",
+      "matrix": "Wash liquid, not harvested cell biomass"
+    },
+    "pluronicFinalWash": {
+      "n": 6,
+      "results": "All <0.01%",
+      "locator": "Main Table37 p64"
+    },
+    "pluronicHarvestedBiomass": {
+      "result": "Not detected; FDA discusses conservative upper-bound10mg/100g at assay detection limit",
+      "locator": "FDA memo pp19–20"
+    },
+    "zeroResidueEstablished": false,
+    "totalFBSQuantified": false,
+    "halalPurityConclusion": null
+  },
+  "composition": {
+    "matrix": "Harvested cultured-cell biomass; wet basis",
+    "source": "Main Table45 p73",
+    "n": 6,
+    "proteinPercent": [
+      9.75,
+      7.88,
+      7.75,
+      8.19,
+      8.88,
+      8.12
+    ],
+    "moisturePercent": [
+      88.73,
+      89.91,
+      90.54,
+      89.87,
+      88.77,
+      89.07
+    ],
+    "fatPercent": [
+      1.55,
+      1.2,
+      1.66,
+      1.38,
+      1.2,
+      1.18
+    ],
+    "ashPercent": [
+      0.84,
+      1,
+      0.78,
+      0.71,
+      0.95,
+      0.86
+    ],
+    "carbohydratePercent": [
+      "<0.1",
+      "<0.1",
+      "<0.1",
+      "<0.1",
+      0.2,
+      0.77
+    ],
+    "finishedProductComposition": null,
+    "boundary": "Not nutritional equivalence per wet-weight serving; dry-normalized comparison and intended formulation share are distinct."
+  },
+  "versionCrosswalk": [
+    {
+      "document": "Main dossier",
+      "date": "2022-03-04",
+      "pages": "PDF1–102",
+      "effect": "Initial public narrative; must be read with amendments",
+      "source": "P1C3-PROCESS-S01"
+    },
+    {
+      "document": "Clarification response",
+      "date": "2022-07-08",
+      "pages": "PDF103–139",
+      "effect": "Added cell provenance, serum source/process controls, and folic-acid reduction2.65->0.265mg/L in all manufacturing steps",
+      "source": "P1C3-PROCESS-S01"
+    },
+    {
+      "document": "Process amendment",
+      "date": "2022-08-04",
+      "pages": "PDF140–145",
+      "effect": "90% folic acid reduction; same banks/manufacturing otherwise; intended60–75%w/w biomass formulations",
+      "dateCaveat": "Cover August4 2022; signature page March2 2023; final response refers to an August8 amendment. FDA acceptance chronology retains August4.",
+      "source": "P1C3-PROCESS-S01"
+    },
+    {
+      "document": "Clarification response",
+      "date": "2022-09-14",
+      "pages": "PDF146–151",
+      "effect": "Clarifies disclosure and food safety controls",
+      "source": "P1C3-PROCESS-S01"
+    },
+    {
+      "document": "Response document",
+      "date": "2023-03-02",
+      "pages": "PDF152–155",
+      "effect": "Sterility rationale, aerobic count specification tightened to less than 1,000 CFU/g, iron and BSA narrative corrections; confirms disclosure of process amendment",
+      "source": "P1C3-PROCESS-S01"
+    },
+    {
+      "document": "FDA scientific memo",
+      "date": "2023-03-17",
+      "pages": "20pages",
+      "effect": "Assesses amended CCC000001; signatures completedMarch20; index dateMarch20",
+      "source": "P1C3-PROCESS-S03"
+    },
+    {
+      "document": "FDA response",
+      "date": "2023-03-20",
+      "pages": "2pages",
+      "effect": "No questions about firm's safety conclusion for defined process; not blanket approval or certificate",
+      "source": "P1C3-PROCESS-S02"
+    },
+    {
+      "document": "FDA labeling correction",
+      "date": "2023-06-09",
+      "pages": "2pages",
+      "effect": "USDA-FSIS labeling authority includes unprocessed cell material from harvest; safety conclusion unchanged",
+      "source": "P1C3-PROCESS-S04"
+    }
+  ],
+  "separateSingaporeRecord": {
+    "id": "GOODMEAT-SGP-SERUMFREE-ANNOUNCED-20230118",
+    "announcementDate": "2023-01-18",
+    "evidence": [
+      "P1C3-PROCESS-S06",
+      "P1C3-PROCESS-S07"
+    ],
+    "approvalInstrument": null,
+    "fullFormulation": null,
+    "exactCellBankMatchToUS": null,
+    "animalComponentFree": null,
+    "halalCertificate": null,
+    "crosswalkToCCC000001": "Not established. Serum-free media announcement does not revise the U.S. serum-containing dossier."
+  },
+  "certificateMatch": {
+    "status": "unestablished_in_bounded_retrieval",
+    "certifier": null,
+    "certificateNumber": null,
+    "issueDate": null,
+    "expiryDate": null,
+    "manufacturerSite": null,
+    "productSKU": null,
+    "cellBank": null,
+    "mediumVersion": null,
+    "processVersion": null,
+    "claim": "No exact certificate established; no claim that none exists.",
+    "conditionalAdviceSource": "P1C3-PROCESS-S08",
+    "religiousRulingByThisDossier": null
+  },
+  "openEvidence": [
+    "Complete stage-specific medium and cryomedium recipes, origins and supplier/lot certificates",
+    "Donor/embryo procurement and religious-source criteria",
+    "Exact introduced scaffold or finished-food binder status",
+    "Full residual characterization, including non-BSA serum components",
+    "Actual SFA serum-free decision and process-to-product identity",
+    "Certifier-issued certificate with product/site/process/validity scope",
+    "Current2026 manufacturing and marketed-product identity"
+  ],
+  "sourceIndependence": "FDA assessment is independently authored regulatory evaluation; experimental observations remain largely manufacturer-supplied. FDA hosting is not independent assay replication.",
+  "coverage": "Substantive source-bounded dossier; not full PhaseOne completion, not human scholarly approval.",
+  "current_certificate_verified": false,
+  "full_phase1_complete": false
+}

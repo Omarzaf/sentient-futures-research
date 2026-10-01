@@ -2,6 +2,16 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 1 October 2026 — manufacturing, Egypt and China continuation
+
+**Added:** A [named GOOD Meat dossier](phase1-continuation/manufacturing-dossier.md) separates donor and cell-bank history, media stages, measured residues, composition, process amendments and jurisdiction-specific records. A [two-institution Egypt account](phase1-continuation/egypt-institutions.md) retains original-ruling gaps and held matrix cells. A [China ASF case](phase1-continuation/china-asf-history.md) separates preliminary output from household purchases, food mass from protein mass, and descriptive change from causal parameters.
+
+**Review:** Fresh source-first readers checked original PDFs/HTML and retained Arabic passages before candidates. Donor wording and a publication-year ambiguity were repaired. The registers contain 45 sources and 45 bounded claims; full Phase One, current product certification and human approval remain incomplete.
+
+**Verification:** Build, four fixture suites, new semantic counterexamples and a deterministic rebuild are required before committing. The private source receipts and original PDFs remain outside the repository.
+
+**Retrospective:** Exact process versions and assay matrices made broad brand-level claims testable. Retrieval limits and source metadata discrepancies remain visible; no missing value is filled by inference. Use absolute paths for multi-repository checks.
+
 ## 1 October 2026 — geography and school-text continuation
 
 **Added:** The [geography reference](phase1-continuation/geography.md) now records dated affiliation estimates and selected legal readings for seven additional countries, with four core-country historical rows from the same source. The continuation has 23 source records and 26 bounded claims. Contemporary values, juristic-school prevalence and complete fatwa-body mandates remain unknown. Iraq's 2009 synthesized estimate and late-2011 survey stay separate; its later code approval is distinguished from earlier commentary.

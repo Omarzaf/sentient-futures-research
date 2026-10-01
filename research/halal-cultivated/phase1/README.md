@@ -31,3 +31,5 @@ The parent CSV registers describe the earlier discovery pass. Their search-summa
 ## Verification
 
 From the repository root, run `node tools/build-library.mjs`, `node tools/verify.mjs`, and `node tools/test-halal-checks.mjs`. The verifier checks public-release counts, citation and review lineage, uncertainty labels, forbidden interview references and repository privacy rules. These are structural checks, not a new source audit or scholarly certification. The local original's 410 checks and 17-page visual QA are not represented as validation of this adapted edition.
+
+The [third continuation batch](../phase1-continuation/README.md) adds a named process dossier, Egyptian institutional report leads and a China disease-shock comparison. These supplement the historical review; they do not mark the full Phase One scope complete.

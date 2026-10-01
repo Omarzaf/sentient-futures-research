@@ -4,7 +4,9 @@
 
 ## What changed
 
-The second batch adds a [geography reference](geography.md), separating dated affiliation estimates from legal school status, and [school-text gap progress](school-gap-progress.md). The registers now contain 23 sources and 26 bounded claims. Nine previously queued country entries now contain partial evidence; India and Pakistan also gain historical rows. None is marked complete. A direct al-Qurtubi organ passage is located, while edition, translation and the narrow Sistani questions remain open.
+The third batch adds a [real manufacturing dossier](manufacturing-dossier.md), [separate Egyptian institutional leads](egypt-institutions.md), and [China’s ASF historical comparison](china-asf-history.md). The registers now contain **45 sources and 45 bounded claims**. Singapore, Egypt and China gain partial evidence within their original roles. Exact current product certificates, original Egyptian rulings and identified demand coefficients remain unestablished.
+
+The second batch adds a [geography reference](geography.md), separating dated affiliation estimates from legal school status, and [school-text gap progress](school-gap-progress.md). At that checkpoint the registers contained 23 sources and 26 bounded claims. Nine previously queued country entries now contain partial evidence; India and Pakistan also gain historical rows. None is marked complete. A direct al-Qurtubi organ passage is located, while edition, translation and the narrow Sistani questions remain open.
 
 **India now has a named administrative record to follow.** FSSAI's September 2026 register places Biokraft Foods' cultivated chicken-based product in its Under Process section, row 28, with stage 7. The legend groups clarification, approval and rejection under that stage. The receipt date is 20 August 2025; it is not an approval date. The underlying decision remains needed. [Register, PDF pages 64, 66 and 79](https://fssai.gov.in/docs/standards/specfic-food/Status%20of%20application%20as%20on%2001.09.2026.pdf).
 

@@ -78,5 +78,51 @@
     "scope": "Organ-specific locator in al-Qurtubi issues 4 and 14; edition authentication and qualified translation remain pending.",
     "outcome": "bounded_textual_agreement",
     "human_review": false
+  },
+  {
+    "id": "R3-PROCESS",
+    "claim_ids": [
+      "P1C3-PROCESS-C01",
+      "P1C3-PROCESS-C02",
+      "P1C3-PROCESS-C03",
+      "P1C3-PROCESS-C04",
+      "P1C3-PROCESS-C05",
+      "P1C3-PROCESS-C06",
+      "P1C3-PROCESS-C07",
+      "P1C3-PROCESS-C08",
+      "P1C3-PROCESS-C09",
+      "P1C3-PROCESS-C10",
+      "P1C3-PROCESS-C11",
+      "P1C3-PROCESS-C12"
+    ],
+    "method": "Fresh checker read original dossier and FDA memo before candidates; six PDF pages visually compared, source hashes and12 claims reconciled.",
+    "scope": "Historical named process and amendment chain, donor/media/residual/composition evidence, separate Singapore announcement and certificate non-discovery limits.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R3-EGYPT",
+    "claim_ids": [
+      "P1C3-EGY-C01",
+      "P1C3-EGY-C02",
+      "P1C3-EGY-C03"
+    ],
+    "method": "Fresh checker read retained Arabic source passages before candidates; donor wording and adjacent exception repaired and rechecked.",
+    "scope": "Attributed WAAG officeholder report and Veto reproduction only; neither original Council resolution nor original Dar al-Ifta fatwa accepted.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R3-CHINA",
+    "claim_ids": [
+      "P1C3-CN-OUTPUT",
+      "P1C3-CN-HOUSEHOLDS",
+      "P1C3-CN-CONTROLS",
+      "P1C3-CN-STUDY"
+    ],
+    "method": "Fresh checker read original NBS HTML and ERS text/table image before candidates; source-specific dates, units and release year reconciled.",
+    "scope": "Preliminary production, at-home purchases, FAO historical controls and attributed abstract-level study findings; no identified elasticity or adoption transfer.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
   }
 ]

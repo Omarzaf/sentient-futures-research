@@ -33,7 +33,28 @@ const cases=[
  ['Iraq publication date treated as survey fieldwork',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='IRQ').historical_affiliation[1].year=2014;}),'Iraq survey design'],
  ['Iran legal school becomes population predominance',f=>alter(f,'geography.json',r=>{r.countries.find(c=>c.id==='IRN').predominant_juristic_schools=['Twelver Jafari'];}),'unestablished geography field'],
  ['Maliki organ locator becomes school consensus',f=>alter(f,'school-gap-progress.json',r=>{r.readings[0].school_wide_consensus_established=true;}),'classical locator overclaimed'],
- ['bounded negative search becomes proposition absence',f=>alter(f,'school-gap-progress.json',r=>{r.unresolved[0].proposition_absent=true;}),'negative search promoted']
+ ['bounded negative search becomes proposition absence',f=>alter(f,'school-gap-progress.json',r=>{r.unresolved[0].proposition_absent=true;}),'negative search promoted'],
+ ['manufacturing dossier source orphan',f=>alter(f,'manufacturing-dossier.json',r=>{r.source_ids[0]='missing';}),'dossier source/claim lineage'],
+ ['Singapore announcement replaces US labeling correction',f=>alter(f,'manufacturing-dossier.json',r=>{r.versionCrosswalk.find(v=>v.document==='FDA labeling correction').source='P1C3-PROCESS-S06';}),'process version crosswalk'],
+ ['Singapore serum-free process assumed identical to US bank',f=>alter(f,'manufacturing-dossier.json',r=>{r.separateSingaporeRecord.exactCellBankMatchToUS=true;}),'Singapore process separation'],
+ ['conditional advice becomes a matched certificate',f=>alter(f,'manufacturing-dossier.json',r=>{r.certificateMatch.certificateNumber='ADVICE-2023';}),'unestablished certificate'],
+ ['US seed process relabeled serum-free',f=>alter(f,'manufacturing-dossier.json',r=>{r.stages.find(s=>s.stage==='Seed expansion').animalInputs=[];}),'documented serum stages'],
+ ['harvested-cell BSA relabeled as wash concentration',f=>alter(f,'manufacturing-dossier.json',r=>{r.residuals.bsaHarvestedCellMaterial.unit='mg/L';}),'BSA matrix/unit'],
+ ['censored wash result replaced with zero',f=>alter(f,'manufacturing-dossier.json',r=>{r.residuals.bsaFinalWash.values[0]=0;}),'wash censoring'],
+ ['harvested wet biomass promoted to retail nutrition',f=>alter(f,'manufacturing-dossier.json',r=>{r.composition.matrix='Finished retail product; wet basis';}),'biomass composition scope'],
+ ['censored carbohydrate result replaced with zero',f=>alter(f,'manufacturing-dossier.json',r=>{r.composition.carbohydratePercent[0]=0;}),'composition censoring'],
+ ['Egypt matrix omits a condition',f=>alter(f,'egypt-institutions.json',r=>{r.institutions[0].seven_condition_matrix.pop();}),'Egypt seven-condition matrix'],
+ ['Egypt news date becomes original ruling date',f=>alter(f,'egypt-institutions.json',r=>{r.institutions[0].original_ruling_date=r.institutions[0].publication_date;}),'Egypt report promoted'],
+ ['held Egyptian attribution becomes institutional acceptance',f=>alter(f,'egypt-institutions.json',r=>{r.institutions[1].seven_condition_matrix[0].status='accepted_institutional_position';}),'Egypt held position'],
+ ['Egypt attributed report claim promoted to original ruling',f=>alter(f,'claims.json',r=>{r.find(c=>c.id==='P1C3-EGY-C01').evidence_level='accepted_institutional_ruling';}),'Egypt attributed claim promoted'],
+ ['Egypt institution borrows a valid China claim',f=>alter(f,'egypt-institutions.json',r=>{r.institutions[0].claim_ids=['P1C3-CN-OUTPUT'];}),'Egypt source/country lineage'],
+ ['ASF-exposed 2018 becomes an untreated baseline',f=>alter(f,'china-asf-history.json',r=>{r.production.baseline_is_unexposed=true;}),'China baseline exposure'],
+ ['production food mass becomes protein mass',f=>alter(f,'china-asf-history.json',r=>{r.production.protein_mass=true;}),'China production scope'],
+ ['household series extended to away-from-home meals',f=>alter(f,'china-asf-history.json',r=>{r.household.away_from_home_included=true;}),'China household scope'],
+ ['output change ratio becomes causal substitution fraction',f=>alter(f,'china-asf-history.json',r=>{r.production.causal_substitution_fraction=2.45/11.49;}),'China causal substitution'],
+ ['unreviewed paper lead supplies numerical elasticity',f=>alter(f,'china-asf-history.json',r=>{r.elasticity.identified_numeric_value=-0.5;}),'China elasticity unestablished'],
+ ['conventional poultry history supplies cultivated adoption gate',f=>alter(f,'china-asf-history.json',r=>{r.transport_to_cultivated_chicken.religious_gate=1;}),'China cultivated transfer'],
+ ['manufacturing agent check becomes human approval',f=>alter(f,'manufacturing-dossier.json',r=>{r.human_review='approved';}),'new artifact human review']
 ];
 for(const [name,mutate,expected] of cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',validFixtureChecks:checkContinuation(fixture).checks,negativeCases:cases.length}));

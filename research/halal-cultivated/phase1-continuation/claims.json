@@ -361,5 +361,300 @@
     "human_review": "pending",
     "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
     "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C3-PROCESS-C01",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The evaluated U.S. dossier comprises the March 4 2022 submission and four amendments received through March 2 2023, with a March 20 FDA response and June 9 labeling correction.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S02",
+      "P1C3-PROCESS-S04",
+      "P1C3-PROCESS-S05"
+    ],
+    "locator": "FDA letter p 1; inventory; amendment covers PDFpp 103, 140, 146, 152",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical consulted process; not every later GOOD Meat product. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C02",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "CCC000001 traces to commercial chicken fibroblast line UMNSAH/DF1 (ATCC CRL12203), derived from 10-day chicken embryos and spontaneously immortalized by selection; GOOD Meat named its acquired line C1F and adapted derivative C1F-P1.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.1–4.4 pp 10–13; FDA memo pp 4–6",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Embryonic line, not an established adult biopsy/slaughter procurement route. Donor slaughter compliance is unestablished. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C03",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Master working cell banks are expanded from master-bank aliquots and supply commercial production; batch identity, cryogenic storage, chain-of-custody and release testing are described.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.4–4.7 pp 13–15; FDA memo pp 6–7",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Public text does not disclose the current complete cryopreservation recipe or lot-specific halal provenance. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C04",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Bovine serum is used in adaptation and banking, and fetal bovine serum is explicitly used in seed and production medium for this process. A complete substance list was supplied to FDA confidentially.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.3, 5.2.1, 5.2.3.9 pp 12, 16, 58; FDA memo pp 5–6, 9–10 fn 10",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No claim of serum-free, animal-component-free, or publicly complete formulation. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C05",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The disclosed process expands qualified cells in suspension through shake flasks, a wave bag, 200 L and 1000 L bioreactors; cells are centrifuged, washed in sodium chloride solution, packaged and frozen for later food manufacture.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §5.1 p 15 and §5.3 p 62; FDA memo pp 7–9",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Version-specific documented vessels, not current capacity or proof of a scaffold-free finished retail product. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C06",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Table 33 reports residual bovine serum albumin in four cultured-cell batches: 42.46, 11.97, 5.27, 3.0 micrograms/g; published average 15.67 micrograms/g (1.57 mg/100 g). FDA records the 1.57 mg/100 g average.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier Table 33 p 60 (visually checked); FDA memo p 20",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "BSA is a proxy analyte, not total FBS; measured presence after washing is not a religious purity determination. Published rounding retained. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C07",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Dossier wash-liquid assays are distinct from harvested-cell BSA assays. Table 38 gives six final-wash BSA results (<0.31, 1.40, 0.60,<0.31,<0.31, 0.35 mg/L); Table 37 reports PluronicF68 below 0.01% in six wash samples.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§5.4.1–5.4.2, Tables 36–38 p 64; FDA memo p 9",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Wash concentrations cannot substitute for finished-cell concentrations; below-detection observations are not zero. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C08",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The six Table 45 harvested-biomass batches contain 7.75–9.75% protein and 88.73–90.54% moisture; these wet-basis cell-material data differ from the dry-normalized comparison and from finished product formulations.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier Table 45 p 73 (visually checked), Table 48 p 75; FDA memo p 12",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No retail-product nutrition, adoption or market-share estimate follows. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C09",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The July 8 response reports folic acid reduced from 2.65 to 0.265 mg/L throughout manufacturing. The process amendment says the same banks and manufacturing method are retained, with a 90% folic-acid reduction.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier July 8 response §6.1.3 printedp 33/PDFp 135; process amendment §3.1 printedp 3/PDFp 142; FDA memo Appendix 2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This amendment changes folate inputs; it does not remove FBS. Cover August 4 2022 and signed March 2 2023 page are retained separately. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C10",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "FDA's response reports no questions about the firm's safety conclusion for the defined process and retains the firm's regulatory obligations. June 9 correspondence corrects the dossier: USDA-FSIS oversees poultry-cell-food labeling from harvest onward.",
+    "source_ids": [
+      "P1C3-PROCESS-S02",
+      "P1C3-PROCESS-S04",
+      "P1C3-PROCESS-S05",
+      "P1C3-PROCESS-S09"
+    ],
+    "locator": "Response letter pp 1–2; June 9 correction pp 1–2; official inventory",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No blanket FDA product approval, USDA grant of inspection, halal certificate, or 2026 sales status is established here. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C11",
+    "country": "SGP",
+    "jurisdiction": "SGP",
+    "assertion": "GOOD Meat announced SFA approval for serum-free media on January 18 2023; Singapore's Ministry of Sustainability and the Environment corroborates the serum-free approval in its 2023 speech.",
+    "source_ids": [
+      "P1C3-PROCESS-S06",
+      "P1C3-PROCESS-S07"
+    ],
+    "locator": "Company announcement opening; MSE speech paragraph 21",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Separate Singapore process. Exact SFA decision, complete inputs and animal-origin status across historical banking remain unestablished. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C12",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "This bounded retrieval establishes no certifier-issued halal certificate matched to the CCC000001 line, medium, site and product. The retained 2023 law-firm excerpt describes conditional scholarly advice.",
+    "source_ids": [
+      "P1C3-PROCESS-S08"
+    ],
+    "locator": "Retrievals 14, 17; law-firm indexed opening; dossier/certificate match audit",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Search non-discovery is not evidence of global nonexistence or current non-certification; exact certificate fields remain null. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-EGY-C01",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "WAAG's 24 September 2024 report attributes to Abbas Shoman a slaughtered-donor restriction, exclusion of cells taken from a living donor with a fish/locust exception, cell nutrients free from ritual impurities, and demonstrated absence of health harm. Exact exception scope awaits qualified Arabic review.",
+    "source_ids": [
+      "P1C3-EGY-S01"
+    ],
+    "locator": "First article paragraph",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Does not establish a retrieved Council resolution, national rule, certificate or successful product compliance. Dated report only; later statements not systematically checked.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-EGY-C02",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "The same report links Shoman's position to a Jeddah seminar paper and says it agrees with the Council's approval; the underlying decision is unidentified.",
+    "source_ids": [
+      "P1C3-EGY-S01"
+    ],
+    "locator": "Final article paragraph",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "First-party report of agreement cannot supply the absent decision's full passage, authority or scope. Report date 2024-09-24; Council decision date unknown.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-EGY-C03",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "Veto's 3 September 2023 report attributes a conditional answer to Dar al-Ifta: edible slaughtered donor, no live biopsy, no impure cultivation inputs, and no immediate or future human-health harm. Food-safety requirements also apply.",
+    "source_ids": [
+      "P1C3-EGY-S02"
+    ],
+    "locator": "Lines 68–99",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Not an accepted institutional matrix position until the original is found and checked. The report's technical premises are unverified. News date only; original fatwa date and author unknown.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-CN-OUTPUT",
+    "country": "CHN",
+    "assertion": "NBS reported pork output 54.04 and poultry 19.94 million tons for 2018;42.55 and 22.39 for 2019. The release for 2019 (published 28 February 2020) reports changes of−21.3% and+12.3%, respectively. These are preliminary national production series.",
+    "source_ids": [
+      "P1C3-CN-NBS18",
+      "P1C3-CN-NBS19"
+    ],
+    "locator": "Agriculture output paragraphs and both note 1 s",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "2018 is partly exposed to ASF; no causal poultry substitution rate, household-intake measure, protein-mass conversion or cultivated-adoption implication.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-HOUSEHOLDS",
+    "country": "CHN",
+    "assertion": "ERS reproduces NBS household pork purchases of 22.8 kg per person in 2018, 20.3 in 2019, 18.2 in 2020 and 25.8 in 2021. Its Table 4 reports poultry changes of+3.7 kg in 2018–20 and−0.4 kg in 2020–21, alongside pork−4.6 kg and+7.6 kg.",
+    "source_ids": [
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "Printedpp 22–23,Fig 10 andTable 4; PDFpp 28–29",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "At-home household series, excluding away-from-home consumption; foodmass notproteinmass. Rebound is not evidence of permanent substitution. COVID measurement/composition and source cross-reference caveat retained; no new numerical demand elasticity.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-CONTROLS",
+    "country": "CHN",
+    "assertion": "FAO’s 1 March 2019 account dates China’s first confirmed outbreak to 3 August 2018 and describes zoning, live-pig movement restrictions, closures of affected/adjacent live-pig markets and a swill-feeding ban. ERS instead dates the initial report to 1 August; their common supported period isAugust 2018.",
+    "source_ids": [
+      "P1C3-CN-FAO19",
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "FAO first/control paragraphs; ERS printedp 4",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Reported dates describe confirmation/reporting differently; exact chronology unresolved. These are documented historical measures, not a quantified causal contribution to poultry purchases.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-STUDY",
+    "country": "CHN",
+    "assertion": "Hao and coauthors’ publisher abstract describes a 2015–2020 panel of 31 mainland provinces using difference-in-differences and reports reduced pork/total meat and increased poultry, with urban/rural heterogeneity. Publisher bibliographic year is 2023; ERS cites 2022.",
+    "source_ids": [
+      "P1C3-CN-HAO23",
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "Publisher abstract lines 72–76 and bibliographic record; ERS printedpp 22, 39",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is an attributed abstract-level finding; the study’s causal identification, full numerical results and uncertainty were not independently assessed. No coefficient accepted as a PhaseTwo input.",
+    "review_id": "R3-CHINA"
   }
 ]

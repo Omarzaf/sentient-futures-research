@@ -60,10 +60,12 @@
       "id": "SGP",
       "name": "Singapore",
       "role": "comparison",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C3-PROCESS-C11"
+      ]
     },
     {
       "id": "MYS",
@@ -172,19 +174,28 @@
       "id": "EGY",
       "name": "Egypt",
       "role": "contemporary institutions",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.4B",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C3-EGY-C01",
+        "P1C3-EGY-C02",
+        "P1C3-EGY-C03"
+      ]
     },
     {
       "id": "CHN",
       "name": "China",
       "role": "historical disease shock",
-      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "coverage": "partial_new_evidence",
       "scopeBasis": "PLAN §6.4A",
       "populationSchoolShares": null,
-      "claim_ids": []
+      "claim_ids": [
+        "P1C3-CN-OUTPUT",
+        "P1C3-CN-HOUSEHOLDS",
+        "P1C3-CN-CONTROLS",
+        "P1C3-CN-STUDY"
+      ]
     }
   ],
   "open_work": [
