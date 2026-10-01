@@ -1448,5 +1448,742 @@
     "review_id": "R6-EMPIRICAL-HISTORY",
     "evidence_level": "bounded_policy_design_precedent_excluded_from_outcome_calibration",
     "requirement_id": "HISTORY-21"
+  },
+  {
+    "id": "R07-EL-C01",
+    "country": "IND",
+    "assertion": "Rural and urban chicken own-price estimates are -0.432 and -0.328; their reported t-values are -0.44 and -0.61. The unrestricted 1993–94 state-aggregate model leaves compensation and current transport unresolved.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Obtain original table rendering and resolve real-expenditure/compensation definition; validate a newer species-specific system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-017",
+      "EST-018",
+      "EST-019",
+      "EST-020",
+      "EST-021",
+      "EST-022",
+      "EST-023",
+      "EST-024",
+      "EST-041",
+      "EST-042",
+      "EST-043",
+      "EST-044",
+      "EST-045",
+      "EST-046",
+      "EST-047",
+      "EST-048",
+      "EST-055",
+      "EST-056",
+      "EST-057"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C02",
+    "country": "IND",
+    "assertion": "The closest original category combines beef and buffalo; rural own-price is positive 3.179 and urban is -0.476. Neither identifies beef alone.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Recover separately coded cattle-beef quantities/prices and a corresponding estimate; resolve positive own-price/regularity and current validity.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-009",
+      "EST-010",
+      "EST-011",
+      "EST-012",
+      "EST-013",
+      "EST-014",
+      "EST-015",
+      "EST-016",
+      "EST-033",
+      "EST-034",
+      "EST-035",
+      "EST-036",
+      "EST-037",
+      "EST-038",
+      "EST-039",
+      "EST-040",
+      "EST-052",
+      "EST-053",
+      "EST-054"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C03",
+    "country": "IND",
+    "assertion": "The original bundles mutton and goat. Rural and urban own-price entries are -0.030 and -3.308; separate adult-sheep mutton demand is unidentified.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Obtain an explicit mutton definition and a separately estimated adult-sheep or agreed target category; retain the bundle until then.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-001",
+      "EST-002",
+      "EST-003",
+      "EST-004",
+      "EST-005",
+      "EST-006",
+      "EST-007",
+      "EST-008",
+      "EST-025",
+      "EST-026",
+      "EST-027",
+      "EST-028",
+      "EST-029",
+      "EST-030",
+      "EST-031",
+      "EST-032",
+      "EST-049",
+      "EST-050",
+      "EST-051"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C04",
+    "country": "PAK",
+    "assertion": "HIES 2010–11 chicken own-price entries are -0.648 rural, -1.022 urban and -0.807 pooled. The source needs reconciliation of sample counts and log-model notation before forecast use.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve equation (1), estimation sample and unit-value/endogeneity handling; seek a current corresponding household system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-066",
+      "EST-067",
+      "EST-068",
+      "EST-069",
+      "EST-078",
+      "EST-079",
+      "EST-080",
+      "EST-081",
+      "EST-090",
+      "EST-091",
+      "EST-092",
+      "EST-093",
+      "EST-100",
+      "EST-101",
+      "EST-102"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C05",
+    "country": "PAK",
+    "assertion": "Table 7 uses a short beef response label and a beef-and-buffalo price column. Its pooled reported own entry is -1.068, but a beef-only quantity/price estimand cannot be established.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve the original HIES item codes and row/price definition; do not relabel the bundled regressor beef.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-058",
+      "EST-059",
+      "EST-060",
+      "EST-061",
+      "EST-070",
+      "EST-071",
+      "EST-072",
+      "EST-073",
+      "EST-082",
+      "EST-083",
+      "EST-084",
+      "EST-085",
+      "EST-094",
+      "EST-095",
+      "EST-096"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C06",
+    "country": "PAK",
+    "assertion": "Table 7 uses a short mutton response label and a mutton-and-goat price column. Pooled reported own entry is -0.859; sheep-only mutton effects remain unidentified.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve original commodity coding and category symmetry before any target transport.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-062",
+      "EST-063",
+      "EST-064",
+      "EST-065",
+      "EST-074",
+      "EST-075",
+      "EST-076",
+      "EST-077",
+      "EST-086",
+      "EST-087",
+      "EST-088",
+      "EST-089",
+      "EST-097",
+      "EST-098",
+      "EST-099"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C07",
+    "country": "SAU",
+    "assertion": "The national 1985–2010 Rotterdam model gives conditional compensated chicken own-price -0.088 and group expenditure elasticity 0.48. It does not supply a current unconditional Marshallian parameter.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Match target conditioning, obtain elasticity uncertainty and updated data; estimate upper-stage expenditure response if unconditional demand is needed.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-107",
+      "EST-108",
+      "EST-109",
+      "EST-110",
+      "EST-116"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C08",
+    "country": "SAU",
+    "assertion": "The national 1985–2010 Rotterdam model gives conditional compensated beef own-price -0.204 and group expenditure elasticity 1.07. Elasticity SE/CI are not supplied in Table 6.4.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Match population, historical/current context and conditional compensated estimand; obtain uncertainty and any necessary upper-stage system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-103",
+      "EST-104",
+      "EST-105",
+      "EST-106",
+      "EST-115"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C09",
+    "country": "SAU",
+    "assertion": "The closest original response is lamb: conditional compensated own-price -0.103 and group expenditure elasticity 1.27. The publication does not establish an adult-sheep mutton mapping.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Recover source commodity codes/age definitions, then estimate or justify the exact requested mutton target.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-111",
+      "EST-112",
+      "EST-113",
+      "EST-114",
+      "EST-117"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C10",
+    "country": "ARE",
+    "assertion": "The publication reports chicken own-price -0.319 Marshallian and -0.531 Hicksian with positive expenditure elasticity 0.690. The more-negative compensated value conflicts with the positive-share Slutsky relation.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Obtain a correction or reproducible estimation resolving Tables 2–4 and survey year; retain printed values only as source findings.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-136",
+      "EST-137",
+      "EST-138",
+      "EST-139",
+      "EST-140",
+      "EST-141",
+      "EST-160",
+      "EST-161",
+      "EST-162",
+      "EST-163",
+      "EST-164",
+      "EST-165",
+      "EST-169"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C11",
+    "country": "ARE",
+    "assertion": "Reported beef own-price is +0.666 Marshallian and +0.568 Hicksian. Positive Hicksian own effect and the negative compensation increment with positive expenditure elasticity prevent coherent demand-model transfer.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Obtain corrected tables or reproducible data/model plus survey year and sampling verification.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-118",
+      "EST-119",
+      "EST-120",
+      "EST-121",
+      "EST-122",
+      "EST-123",
+      "EST-142",
+      "EST-143",
+      "EST-144",
+      "EST-145",
+      "EST-146",
+      "EST-147",
+      "EST-166"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C12",
+    "country": "ARE",
+    "assertion": "The source has separate lamb and goat categories, neither explicitly mutton. Lamb own-price is -0.041 Marshallian and +0.134 Hicksian; the latter also fails the nonpositive own substitution restriction.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Resolve adult-sheep mutton versus lamb/goat categories and the source regularity issues; no weighted average without target shares and a valid model.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-124",
+      "EST-125",
+      "EST-126",
+      "EST-127",
+      "EST-128",
+      "EST-129",
+      "EST-148",
+      "EST-149",
+      "EST-150",
+      "EST-151",
+      "EST-152",
+      "EST-153",
+      "EST-167"
+    ],
+    "forecast_value": null,
+    "supporting_estimate_ids": [
+      "EST-130",
+      "EST-131",
+      "EST-132",
+      "EST-133",
+      "EST-134",
+      "EST-135",
+      "EST-154",
+      "EST-155",
+      "EST-156",
+      "EST-157",
+      "EST-158",
+      "EST-159",
+      "EST-168"
+    ],
+    "supporting_estimate_role": "Separate goat category demonstrates the category boundary; these rows are not mutton estimates and are not part of the requested mutton slot primary series."
+  },
+  {
+    "id": "R07-EL-C13",
+    "country": "PAK",
+    "assertion": "Hayat et al. estimate a pooled meat group that includes fish and other poultry. Reported meat own-price values are -0.12486 uncompensated and +0.090241 compensated; expenditure elasticity is 1.683099. These do not identify species effects, and the positive compensated own effect is a regularity concern.",
+    "source_ids": [
+      "P1C7-EL-PAK-HAYAT-2023"
+    ],
+    "locator": "§3; §4 equations 7–8; Tables 3–4, Meat row",
+    "limits": "Single aggregate-meat study; fish and other poultry included. Source regularity concerns and species disaggregation remain unresolved; no current forecast coefficient adopted.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_aggregate_study_excluded_from_species_calibration",
+    "requirement_ids": [
+      "EL-PAK-CHICKEN",
+      "EL-PAK-BEEF",
+      "EL-PAK-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-170",
+      "EST-171",
+      "EST-172",
+      "EST-173",
+      "EST-174",
+      "EST-175",
+      "EST-176",
+      "EST-177",
+      "EST-178",
+      "EST-179",
+      "EST-180",
+      "EST-181",
+      "EST-182",
+      "EST-183",
+      "EST-184",
+      "EST-185",
+      "EST-186"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R7-FEED-C01",
+    "country": "IND",
+    "assertion": "Publisher abstract reports two Indian-institution broiler trials of partially defatted BSFL meal: 0/2.5/5% diet and 0/5/7.5/10%; early growth improved at up to 5%, while FCR increased later and growth declined at 7.5/10%.",
+    "source_ids": [
+      "R7-FEED-S04"
+    ],
+    "locator": "Abstract; affiliation",
+    "limits": "Full methods/site, substrate, price and cost endpoints unexamined; improved growth cannot establish cheaper feed.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_abstract",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C02",
+    "country": "IND",
+    "assertion": "Acknowledgements identify Intulse Technologies (Gandhi Nagar), Insectifii (Bengaluru) and Maharashtra Hybrid Seeds (Jalna) as sample providers.",
+    "source_ids": [
+      "R7-FEED-S04"
+    ],
+    "locator": "Acknowledgements",
+    "limits": "Sample provision does not measure commercial production, market revenue or supply capacity.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_attributed",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C03",
+    "country": "IND",
+    "assertion": "ICAR-CIBA’s 11 August 2023 account describes an Insectika Biotech research agreement to evaluate BSF meal in aquafeed and optimize its production cost.",
+    "source_ids": [
+      "R7-FEED-S03"
+    ],
+    "locator": "dated opening and research paragraphs",
+    "limits": "Aquafeed collaboration and intent are not a measured poultry-cost effect or realized national sales.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_primary",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C04",
+    "country": "PAK",
+    "assertion": "Indexed publisher discussion reports somewhat higher feed costs in mealworm-supplemented groups but performance-related gains in gross returns and net profit under heat stress.",
+    "source_ids": [
+      "R7-FEED-S05"
+    ],
+    "locator": "indexed economics discussion",
+    "limits": "Original table and full methods blocked; numerical cost-effect size, trial date and exact site remain unverified. Not an industry effect.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_primary_limited",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C05",
+    "country": "PAK",
+    "assertion": "Peshawar university’s 2022–2023 report extract attributes 400 kg of mealworm meal to the project and reports training 50 women poultry farmers.",
+    "source_ids": [
+      "R7-FEED-S06"
+    ],
+    "locator": "named mealworm mass-production project paragraph",
+    "limits": "Cumulative project amount; exact duration, species/product specification, annual output and sales not established.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_institutional",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C06",
+    "country": "PAK",
+    "assertion": "A 2025 original-paper indexed methods sentence locates a 35-day Ross308 insect-protein trial at UVAS Ravi Campus, Pattoki, Lahore, Pakistan.",
+    "source_ids": [
+      "R7-FEED-S11"
+    ],
+    "locator": "indexed methods sentence",
+    "limits": "No numerical effect or economic conclusion adopted from this unexamined full text.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "primary_trial_lead",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C07",
+    "country": "SAU",
+    "assertion": "Saudi-affiliated Abbas et al. report a 360-bird finisher experiment replacing 0–50% of soybean meal; 30% replacement corresponds to 90 g BSFL meal/kg as-fed diet in Table 3.",
+    "source_ids": [
+      "R7-FEED-S07"
+    ],
+    "locator": "pp312–314;Table 3",
+    "limits": "Saudi affiliations and ethics approval do not independently prove trial-site address. Finisher22–35days; Indian full-fat supplier meal, substrate unknown. No monetary outcome in inspected passage.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_partial_primary_extract",
+    "requirement_id": "FEED-SAU",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C08",
+    "country": "SAU",
+    "assertion": "PHYLA’s timeline labels 2024 pilot work,2025 pre-commercial entry, and2026 industrial facilities as a future launch; its protein powder targets poultry, aquaculture and pet feed.",
+    "source_ids": [
+      "R7-FEED-S08"
+    ],
+    "locator": "PHYLA history;products",
+    "limits": "The same page’s advertised Pro scale is a design claim, not audited annual output or national market size.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_company_attribution",
+    "requirement_id": "FEED-SAU",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C09",
+    "country": "ARE",
+    "assertion": "Circa’s Al Ain page describes pre-consumer food waste conversion and labels 1200 tons of insect protein as produced annually.",
+    "source_ids": [
+      "R7-FEED-S09"
+    ],
+    "locator": "facility description;Power in Numbers",
+    "limits": "Undated company wording lacks reporting year, audited output/sales, meal-vs-pure-protein mass basis and poultry allocation.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_company_attribution",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C10",
+    "country": "ARE",
+    "assertion": "Masdar’s launch account quotes a planned full-scale 22000 tonnes of animal feed/year; its initial 1.5 tonnes/month figure refers to organic fertilizer.",
+    "source_ids": [
+      "R7-FEED-S10"
+    ],
+    "locator": "CEO full-industrial-scale quote;initial-production paragraph",
+    "limits": "Publication/event date unresolved; future plan and fertilizer output cannot substitute for measured insect-meal sales or poultry-cost effects.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_participant_projection",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C11",
+    "country": "ARE",
+    "assertion": "A MOCCAE document with printed 21 July 2020 heading identifies Circa’s food-waste-to-feed activity in an innovation competition.",
+    "source_ids": [
+      "R7-FEED-S12"
+    ],
+    "locator": "dated heading;teams category paragraph",
+    "limits": "Confirms described activity only; no audited throughput, product approval or cost effect.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_government",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-CO-JOR",
+    "country": null,
+    "assertion": "Jordan’s General Iftaa Department distinguishes live worms/insects, dead insects and feed mixtures, reports a Shafii qualification, and conditions its answer on expert assessment of harm. This is an attributed institutional answer, not certification of a named insect-meal product.",
+    "source_ids": [
+      "R7-F-JOR4015"
+    ],
+    "locator": "Fatwa4015,23October2025; answer paragraphs1–4",
+    "limits": "Arabic interpretation pending qualified review; quoted classical passages are not all independently acquired. No blanket school consensus, national market permission or product safety finding.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-HANAFI",
+    "country": null,
+    "assertion": "The mirrored Askimam answer tells the questioner there is no need to feed live worms because chickens hunt them themselves. Its supporting quotation distinguishes mixed feeding from jallala with altered flesh. The answer does not give an industrial insect-meal approval.",
+    "source_ids": [
+      "R7-F-ASK125569"
+    ],
+    "locator": "Answer1 and footnote1; Tuhfat al-fuqaha3:65 cited in mirror",
+    "limits": "Original issuer page, Deoband6945 and cited print edition remain unacquired. Attribution is to this answer, not all Hanafi authorities.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-HANBALI",
+    "country": null,
+    "assertion": "In al-Mughni section 7800, Ibn Qudama attributes a majority-impure-feed formulation to al-Qadi, then says that exact formulation was not heard from Ahmad and is not the apparent meaning of Ahmad’s statement. This internal attribution difference prevents treating it as an undisputed numerical feed threshold.",
+    "source_ids": [
+      "R7-F-MUGHNI7800"
+    ],
+    "locator": "Al-Mughni, displayed 9:330, section 7800; full displayed digital section",
+    "limits": "Full displayed section read through a digital-library provider rendering; exact print edition and broader surrounding context remain unverified. Jallala doctrine does not itself classify a particular insect species, industrial meal or product.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-SHAFII",
+    "country": null,
+    "assertion": "The indexed al-Majmu discussion contrasts a feed-majority criterion with a smell/taint criterion. It therefore cannot be reduced to a universal percentage of insect inclusion.",
+    "source_ids": [
+      "R7-F-MAJMU-JALLALA"
+    ],
+    "locator": "Al-Majmu, food chapter, jallala discussion, displayed volume9",
+    "limits": "Exact print edition and complete passage require checking. The passage addresses impurity and animal status, not a tested industrial insect-feed formulation.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-JAFARI",
+    "country": null,
+    "assertion": "Sistani’s recorded jallala rule concerns habituation to human excrement and cessation through clean feeding; the pig-milk subcase is separate. These rules do not classify every insect or establish that insect-fed poultry is automatically jallala.",
+    "source_ids": [
+      "P1C6-REL-ISTIBRA219",
+      "J6"
+    ],
+    "locator": "Sistani, Islamic Laws, rulings219 and2649",
+    "limits": "Named authority only. Insect species, insect substrate and the poultry diet require separate facts and a matched ruling. Prior source captures reused; no new qualified interpretation or certificate.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-ETH2011",
+    "country": null,
+    "assertion": "The 2011 Nyishi/Galo study interviewed 20 informants from each group in East Kameng and West Siang and describes itself as qualitative. Its reported insect uses concern the sampled communities, not the prevalence or protein intake of South Asia.",
+    "source_ids": [
+      "R7-F-ETH2011"
+    ],
+    "locator": "Methods and Results and Discussion",
+    "limits": "Publication year is not an established observation year. Targeted knowledgeable informants do not form a national probability sample; reported medicinal uses are not clinical efficacy.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "INSECTS-SOUTH-ASIA"
+  },
+  {
+    "id": "R7-CO-ETH2013",
+    "country": null,
+    "assertion": "The 2013 Eastern Arunachal study reports interviews with 20 informants in each of six named groups in Tirap and Changlang. It provides another scoped account of insect use, not a regional consumption total.",
+    "source_ids": [
+      "R7-F-ETH2013"
+    ],
+    "locator": "Abstract and introductory population scope",
+    "limits": "Same author/research programme as the 2011 paper; different sampled groups are not independent national corroboration. Original field dates and population prevalence are not established here.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "INSECTS-SOUTH-ASIA"
   }
 ]

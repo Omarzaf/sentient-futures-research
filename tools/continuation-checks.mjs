@@ -1,5 +1,6 @@
 // Structural and known semantic boundaries for the October Phase One supplement.
 // These checks do not establish scholarly correctness or full research completion.
+import {parseCsv} from './halal-checks.mjs';
 export function checkContinuation(files) {
  const failures=[];let checks=0;
  const check=(ok,message)=>{checks++;if(!ok)failures.push('Continuation: '+message);};
@@ -10,6 +11,7 @@ export function checkContinuation(files) {
  const dossier=read('manufacturing-dossier.json'),egypt=read('egypt-institutions.json'),china=read('china-asf-history.json');
  const institutionMatrix=read('institution-matrix.json'),literature=read('literature-review.json'),standardsReview=read('standards-review.json');
  const history=read('historical-cases.json'),driverMap=read('driver-map.json'),historySynthesis=read('historical-synthesis.json');
+ const elasticity=read('elasticity-review.json'),elasticityData=read('elasticity-estimates.json'),feed=read('feed-review.json');
  if(failures.length)return {checks,failures};
  for(const [name,rows] of [['sources',sources],['claims',claims],['reviews',reviews]])check(Array.isArray(rows)&&rows.length>0,'invalid '+name);
  if(failures.length)return {checks,failures};
@@ -361,5 +363,115 @@ export function checkContinuation(files) {
   check(rowCases.length>0&&new Set(rowCases).size===rowCases.length&&rowCases.every(id=>historicalIds.includes(id))&&sameMembers(row.claim_ids,rowClaims)&&reviewCovers(historySynthesis.review_id,rowClaims),'historical synthesis case/claim/review join lost: '+row.driver);
   check(row.inference_status==='analytical_hypothesis_from_bounded_cases'&&row.quantitative_effect===null&&row.ruling_speed===null&&['evidence_summary','conditional_mechanism','counterexample','transportability_limit'].every(key=>typeof row[key]==='string'&&row[key].length>0),'historical synthesis hypothesis promoted to measured effect or ruling time: '+row.driver);
  }
+ // Run 07 keeps publication findings distinct from usable forecast parameters.
+ const focalCountries=['IND','PAK','SAU','ARE'];
+ const elStudies=Array.isArray(elasticity?.studies)?elasticity.studies:[],elRows=Array.isArray(elasticityData?.estimates)?elasticityData.estimates:[],elSlots=Array.isArray(elasticity?.requirements)?elasticity.requirements:[];
+ const elStudyIds=['IND-DASTAGIRI-2004','PAK-AUJLA-2019','PAK-HAYAT-2023','SAU-ALBALAWI-2016','ARE-BASARIR-2013'];
+ const elStudy=id=>elStudies.find(s=>s.id===id),elRow=id=>elRows.find(e=>e.id===id);
+ const elExpectedSlots=focalCountries.flatMap(country=>['CHICKEN','BEEF','MUTTON'].map(good=>'EL-'+country+'-'+good));
+ check(sameMembers(elSlots.map(r=>r.requirement_id),elExpectedSlots)&&sameMembers([...new Set(elSlots.map(r=>r.country))],focalCountries),'elasticity twelve-slot/four-country roster lost');
+ check(sameMembers(elStudies.map(s=>s.id),elStudyIds),'elasticity five-study roster lost');
+ check(elasticity?.estimate_file==='elasticity-estimates.json'&&elasticity.estimate_csv==='elasticity-estimates.csv'&&elasticity.estimate_count===186&&elasticityData?.row_count===186&&elRows.length===186&&new Set(elRows.map(e=>e.id)).size===186,'elasticity 186-estimate file/count identity lost');
+ check(elasticity?.human_review==='pending'&&elasticity.full_phase_one_complete===false&&elasticityData?.review_status==='human_review_pending'&&elasticity.compatible_forecast_parameters===0&&elasticity.pooled_cross_study_estimate===null&&elasticity.inverse_flexibility_reciprocal_allowed===false&&elasticity.combined_categories_are_species_specific===false,'elasticity findings promoted to forecast, species specificity or approval');
+ const elClaims=Array.from({length:13},(_,i)=>'R07-EL-C'+String(i+1).padStart(2,'0'));
+ check(elasticity?.review_id==='R7-ELASTICITY'&&reviewCovers(elasticity.review_id,elClaims)&&sameMembers(reviews.find(r=>r.id===elasticity.review_id)?.claim_ids,elClaims),'elasticity independent review coverage lost');
+ const indComp='not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification';
+ const pakComp='not explicitly labeled; uncompensated-intent only, model notation unresolved';
+ const expComp='not applicable to expenditure estimand',sauComp='conditional compensated Slutsky/Hicksian-type';
+ const uaeSample='pooled surveyed households across seven emirates; national representativeness unestablished';
+ const indGoods=['mutton and goat meat','beef and buffalo meat','chicken'],pakGoods=['beef row / beef and buffalo category unresolved','mutton row / mutton and goat category unresolved','chicken'],sauGoods=['beef','chicken','lamb'],uaeGoods=['beef','lamb','goat','chicken'];
+ const expectedElRows=[];
+ const appendEl=(study_id,good,with_respect_to,sample,compensation)=>expectedElRows.push({id:'EST-'+String(expectedElRows.length+1).padStart(3,'0'),study_id,good,with_respect_to,sample,compensation});
+ const appendMatrix=(study,goods,prices,sample,comp)=>goods.forEach(g=>prices.forEach(p=>appendEl(study,g,p,sample,comp)));
+ for(const sample of ['rural state aggregates','urban state aggregates'])appendMatrix(elStudyIds[0],indGoods,['milk',...indGoods.slice(0,2),'chicken','eggs','fish','other food','non-food'],sample,indComp);
+ indGoods.forEach(g=>['rural','urban','pooled'].forEach(sample=>appendEl(elStudyIds[0],g,'expenditure',sample,expComp)));
+ for(const sample of ['urban','rural','pooled'])appendMatrix(elStudyIds[1],pakGoods,['beef and buffalo meat','mutton and goat meat','chicken','fish'],sample,pakComp);
+ pakGoods.forEach(g=>['rural','urban','pooled'].forEach(sample=>appendEl(elStudyIds[1],g,'expenditure',sample,expComp)));
+ appendMatrix(elStudyIds[3],sauGoods,['beef','chicken','lamb','fish'],'national annual 1985–2010',sauComp);
+ sauGoods.forEach(g=>appendEl(elStudyIds[3],g,'expenditure','pooled/national','not applicable; meat/fish group expenditure elasticity'));
+ for(const comp of ['Marshallian','Hicksian'])appendMatrix(elStudyIds[4],uaeGoods,['beef','lamb','goat','chicken','camel','fish'],uaeSample,comp+', conditional on six-product group');
+ uaeGoods.forEach(g=>appendEl(elStudyIds[4],g,'expenditure',uaeSample,'not applicable; six-product group expenditure elasticity'));
+ for(const comp of ['Marshallian','Hicksian'])appendMatrix(elStudyIds[2],['meat aggregate'],['cereals','pulses','milk','meat aggregate','fruits','vegetables','sugar','ghee/oils'],'pooled/national',comp+', conditional on eight-food budget');
+ appendEl(elStudyIds[2],'meat aggregate','expenditure','pooled/national','not applicable; eight-food budget expenditure elasticity');
+ const elPeriods=['1993–1994','2010–2011','2018–2019','1985–2010',null],elCounts=[57,45,17,15,52];
+ for(const [i,id] of elStudyIds.entries()){
+  const study=elStudy(id),studyClaims=claims.filter(c=>elClaims.includes(c.id)&&c.source_ids?.includes('P1C7-EL-'+id));
+  check(study?.source_id==='P1C7-EL-'+id&&sourceIds.has(study.source_id)&&studyClaims.length>0&&studyClaims.every(c=>c.review_id===elasticity.review_id&&reviewCovers(c.review_id,[c.id])),'elasticity study source/claim/review lineage lost: '+id);
+  check(study?.country===id.slice(0,3)&&study.observation_period===elPeriods[i]&&elRows.filter(e=>e.study_id===id).length===elCounts[i]&&study.review_status==='human_review_pending'&&study.transport_to_current_forecast===null,'elasticity study population period/count or transport changed: '+id);
+  check(['population','method','conditioning','compensation','identification','uncertainty'].every(k=>typeof study?.[k]==='string'&&study[k].length>0)&&Array.isArray(study?.limitations)&&study.limitations.length>0&&Array.isArray(study?.public_locators)&&study.public_locators.length>0,'elasticity study method/uncertainty scope missing: '+id);
+ }
+ check(elStudy(elStudyIds[0])?.sample?.estimation_observation_sets_total===64&&elStudy(elStudyIds[1])?.sample?.table1_households===16107&&elStudy(elStudyIds[1])?.sample?.table3_households===16082&&elStudy(elStudyIds[1])?.sample?.estimation_n===null&&elStudy(elStudyIds[2])?.sample?.analysis_households===24620&&elStudy(elStudyIds[3])?.sample?.annual_levels===26&&elStudy(elStudyIds[4])?.sample?.questionnaires===500,'elasticity underlying surveys confused with estimation samples');
+ for(const spec of expectedElRows){
+  const row=elRow(spec.id),study=elStudy(spec.study_id);
+  check(row&&['study_id','good','with_respect_to','sample','compensation'].every(k=>row[k]===spec[k]),'elasticity row direction/category/compensation changed: '+spec.id);
+  const ownBundle=spec.study_id===elStudyIds[1]&&((spec.good===pakGoods[0]&&spec.with_respect_to==='beef and buffalo meat')||(spec.good===pakGoods[1]&&spec.with_respect_to==='mutton and goat meat'));
+  const estimand=spec.with_respect_to==='expenditure'?'expenditure':ownBundle?'own_price_author_labeled_category_unresolved':spec.good===spec.with_respect_to?'own_price':'cross_price';
+  check(row?.estimand===estimand&&Number.isFinite(row.value)&&row.unit==='dimensionless elasticity, percent quantity change per 1 percent regressor change as reported','elasticity estimand/value/unit changed: '+spec.id);
+  check(row?.country===study?.country&&row?.population===study?.population&&row?.observation_period===study?.observation_period&&row?.conditioning===study?.conditioning&&row?.source_url===study?.source_url&&typeof row?.public_locator==='string'&&row.public_locator.length>0,'elasticity estimate study/source/population lineage lost: '+spec.id);
+  check(row?.se===null&&row.ci===null&&(row.reported_t===null||Number.isFinite(row.reported_t))&&[null,'*','**','***'].includes(row.reported_mark)&&(spec.study_id===elStudyIds[0]||spec.study_id===elStudyIds[1]||row.reported_t===null),'elasticity missing uncertainty promoted or t-statistic repurposed: '+spec.id);
+  check(row?.category_transport===null&&row.forecast_value===null&&row.review_status==='human_review_pending','elasticity estimate promoted to target parameter or human approval: '+spec.id);
+  check(claims.some(c=>elClaims.includes(c.id)&&[...(c.estimate_ids||[]),...(c.supporting_estimate_ids||[])].includes(spec.id)&&c.source_ids?.includes(study?.source_id)&&c.review_id==='R7-ELASTICITY'&&reviewCovers(c.review_id,[c.id])),'elasticity estimate claim/review lineage lost: '+spec.id);
+ }
+ const elSlotSpecs=[
+  [elStudyIds[0],'chicken','reported_estimates_with_method_hold'],[elStudyIds[0],indGoods[1],'category_mismatch'],[elStudyIds[0],indGoods[0],'category_mismatch'],
+  [elStudyIds[1],'chicken','reported_estimates_with_method_hold'],[elStudyIds[1],pakGoods[0],'category_definition_hold'],[elStudyIds[1],pakGoods[1],'category_definition_hold'],
+  [elStudyIds[3],'chicken','conditional_compensated_only'],[elStudyIds[3],'beef','conditional_compensated_only'],[elStudyIds[3],'lamb','category_mismatch'],
+  [elStudyIds[4],'chicken','hold_internal_consistency'],[elStudyIds[4],'beef','hold_internal_consistency'],[elStudyIds[4],'lamb','category_mismatch_and_consistency_hold']
+ ];
+ for(const [i,requirement] of elExpectedSlots.entries()){
+  const slot=elSlots.find(r=>r.requirement_id===requirement),[studyId,good,status]=elSlotSpecs[i],study=elStudy(studyId),primaryClaim=claims.find(c=>c.id===elClaims[i]);
+  const entries=elRows.filter(e=>e.study_id===studyId&&e.good===good),own=entries.filter(e=>e.estimand?.startsWith('own_price'));
+  const expectedClaims=[elClaims[i],...(requirement.startsWith('EL-PAK-')?[elClaims[12]]:[])],expectedSources=[study?.source_id,...(requirement.startsWith('EL-PAK-')?['P1C7-EL-PAK-HAYAT-2023']:[])];
+  check(slot?.country===requirement.split('-')[1]&&slot.requested_good===requirement.split('-')[2].toLowerCase()&&slot.primary_study_id===studyId&&slot.reported_source_category===good&&slot.status===status,'elasticity slot species/category/disposition changed: '+requirement);
+  check(artifactLineage(slot,slot?.country)&&sameMembers(slot?.source_ids,expectedSources)&&sameMembers(slot?.claim_ids,expectedClaims)&&slot?.review_id==='R7-ELASTICITY'&&reviewCovers(slot.review_id,expectedClaims)&&expectedClaims.every(id=>claims.find(c=>c.id===id)?.requirement_ids?.includes(requirement)),'elasticity slot source/claim/review lineage lost: '+requirement);
+  check(sameMembers(slot?.study_estimate_ids,entries.map(e=>e.id))&&sameMembers(primaryClaim?.estimate_ids,entries.map(e=>e.id))&&sameMembers(primaryClaim?.requirement_ids,[requirement])&&sameMembers(slot?.cross_price_evidence_ids,entries.filter(e=>e.estimand==='cross_price').map(e=>e.id))&&sameMembers(slot?.expenditure_evidence_ids,entries.filter(e=>e.estimand==='expenditure').map(e=>e.id)),'elasticity slot estimate/estimand partition lost: '+requirement);
+  check(sameMembers(slot?.own_price_evidence?.map(e=>e.estimate_id),own.map(e=>e.id))&&(slot?.own_price_evidence||[]).every(e=>{const original=elRow(e.estimate_id);return original&&['value','sample','compensation','reported_t','reported_mark','se','ci'].every(k=>e[k]===original[k]);}),'elasticity own-price summary differs from study evidence: '+requirement);
+  check(['observation_period','population','method','compensation','conditioning','source_url'].every(k=>slot?.[k]===study?.[k])&&slot?.review_status==='human_review_pending'&&['forecast_parameter','forecast_cross_parameters','transport_justification','independent_corroborating_family'].every(k=>slot?.[k]===null)&&typeof slot?.reopening_trigger==='string'&&slot.reopening_trigger.length>0,'elasticity slot population/forecast/review boundary lost: '+requirement);
+ }
+ const goatIds=elRows.filter(e=>e.study_id===elStudyIds[4]&&e.good==='goat').map(e=>e.id),hayatIds=elRows.filter(e=>e.study_id===elStudyIds[2]).map(e=>e.id);
+ check(sameMembers(claims.find(c=>c.id==='R07-EL-C12')?.supporting_estimate_ids,goatIds)&&!elSlots.find(r=>r.requirement_id==='EL-ARE-MUTTON')?.study_estimate_ids?.some(id=>goatIds.includes(id))&&sameMembers(claims.find(c=>c.id==='R07-EL-C13')?.estimate_ids,hayatIds)&&sameMembers(claims.find(c=>c.id==='R07-EL-C13')?.requirement_ids,elExpectedSlots.filter(id=>id.startsWith('EL-PAK-'))),'elasticity goat/aggregate supporting evidence promoted or orphaned');
+ for(const [id,value] of Object.entries({'EST-020':-.432,'EST-044':-.328,'EST-087':-.859,'EST-092':-.807,'EST-103':-.204,'EST-104':.033,'EST-107':.011,'EST-108':-.088,'EST-118':.666,'EST-139':-.319,'EST-142':.568,'EST-163':-.531,'EST-166':.804,'EST-169':.690,'EST-173':-.12486,'EST-181':.090241})){check(elRow(id)?.value===value,'elasticity checked directional/sign anchor changed: '+id);}
+ const excluded=Array.isArray(elasticity?.excluded_studies)?elasticity.excluded_studies:[],excludedIds=['USDA-ICP','PAK-MEMON-2012','SAU-ALMAHISH-2020','SAU-KOTB-2026'];
+ check(sameMembers(excluded.map(s=>s.id),excludedIds),'elasticity held-study roster lost');
+ for(const [i,id] of excludedIds.entries()){
+  const study=excluded.find(s=>s.id===id);
+  check(study?.source_id==='P1C7-EL-'+id&&sourceIds.has(study.source_id)&&study.coefficient===null&&study.review_status==='human_review_pending'&&study.disposition===['category_mismatch','hold_internal_table_label_conflict','exclude_estimand_mismatch','exclude_category_mismatch'][i]&&typeof study.reopen==='string'&&study.reopen.length>0&&!elRows.some(e=>e.study_id===id),'elasticity held inverse/aggregate study promoted: '+id);
+ }
+ const csvColumns=['id','study_id','country','population','observation_period','good','with_respect_to','estimand','value','unit','se','ci','reported_t','reported_mark','reported_significance','compensation','conditioning','sample','source_url','public_locator','forecast_value','review_status'];
+ let elCsv=[];try{elCsv=parseCsv(files['elasticity-estimates.csv']||'');}catch{check(false,'elasticity CSV is invalid');}
+ check(JSON.stringify(elCsv[0])===JSON.stringify(csvColumns)&&elCsv.length===187,'elasticity CSV header/count differs from JSON');
+ for(const [i,cells] of elCsv.slice(1).entries())check(cells.length===csvColumns.length&&csvColumns.every((key,j)=>cells[j]===(elRows[i]?.[key]===null?'':String(elRows[i]?.[key]))),'elasticity CSV row differs from JSON or null semantics: '+(i+2));
+ const feedCountries=Array.isArray(feed?.countries)?feed.countries:[],feedCountry=id=>feedCountries.find(c=>c.country===id);
+ check(sameMembers(feedCountries.map(c=>c.country),focalCountries)&&sameMembers(feedCountries.map(c=>c.requirement_id),focalCountries.map(id=>'FEED-'+id)),'feed four-country roster lost');
+ check(feed?.human_review==='pending'&&feed.full_phase_one_complete===false&&feed.human_protein_accounting_eligible===false&&sameMembers(feed.review_ids,['R7-FEED-ECONOMICS','R7-FEED-SCHOOLS-ETHNOGRAPHY']),'feed input promoted to human protein, completion or approval');
+ const feedSources={IND:['R7-FEED-S01','R7-FEED-S02','R7-FEED-S03','R7-FEED-S04'],PAK:['R7-FEED-S05','R7-FEED-S06','R7-FEED-S11'],SAU:['R7-FEED-S07','R7-FEED-S08'],ARE:['R7-FEED-S09','R7-FEED-S10','R7-FEED-S12']};
+ const feedClaims={IND:['R7-FEED-C01','R7-FEED-C02','R7-FEED-C03'],PAK:['R7-FEED-C04','R7-FEED-C05','R7-FEED-C06'],SAU:['R7-FEED-C07','R7-FEED-C08'],ARE:['R7-FEED-C09','R7-FEED-C10','R7-FEED-C11']};
+ for(const c of feedCountries){
+  check(c.requirement_id==='FEED-'+c.country&&artifactLineage(c,c.country)&&sameMembers(c.source_ids,feedSources[c.country]||[])&&sameMembers(c.claim_ids,feedClaims[c.country]||[])&&c.review_id==='R7-FEED-ECONOMICS'&&reviewCovers(c.review_id,c.claim_ids||[]),'feed country source/claim/review lineage lost: '+c.country);
+  check(['market_value','market_currency','market_year','market_volume','market_volume_unit','market_observation_period','industry_chicken_cost_effect','forecast_parameter'].every(k=>c[k]===null)&&c.market_activity?.observed_sales_value===null,'feed unmeasured market/cost/forecast zero-filled or invented: '+c.country);
+  check(c.human_review==='pending'&&c.final_requirement_completion===false&&typeof c.market_reopening_trigger==='string'&&c.market_reopening_trigger.length>0&&Array.isArray(c.reopen)&&c.reopen.length>0&&!!c.cost_assessment?.causal_scope,'feed country review or reopening boundary lost: '+c.country);
+  if(c.trial)check(c.source_ids?.includes(c.trial.source_id)&&c.trial.experiment_dates===null&&['diet_cost','feed_cost_per_kg_gain','measured_fcr_values'].every(k=>c.trial[k]===null),'feed biological trial promoted to monetary cost or invented observation date: '+c.country);
+ }
+ const indiaTrial=feedCountry('IND')?.trial,pakTrial=feedCountry('PAK')?.trial,saudiTrial=feedCountry('SAU')?.trial;
+ check(JSON.stringify(indiaTrial?.diet_inclusion_percent)===JSON.stringify([[0,2.5,5],[0,5,7.5,10]])&&indiaTrial?.soybean_replacement_percent===null,'India diet inclusion confused with soybean replacement');
+ check(pakTrial?.n===150&&JSON.stringify(pakTrial.inclusion_g_per_kg_feed)===JSON.stringify([0,.5,1,1.5,2])&&pakTrial.net_profit_effect===null&&pakTrial.site===null&&pakTrial.soybean_replacement_percent===null&&feedCountry('PAK')?.market_activity?.quantity===400&&feedCountry('PAK').market_activity.unit==='kg mealworm meal during project'&&feedCountry('PAK').market_activity.annualized_quantity===null,'Pakistan supplement units, project period or cost effect promoted');
+ check(saudiTrial?.n===360&&saudiTrial.site===null&&JSON.stringify(saudiTrial.treatment_period_days)===JSON.stringify([22,35])&&JSON.stringify(saudiTrial.soybean_replacement_percent)===JSON.stringify([0,10,20,30,40,50])&&JSON.stringify(saudiTrial.bsfl_g_per_kg_diet)===JSON.stringify([0,30,60,90,120,150])&&saudiTrial.bsfl_g_per_kg_diet[3]===90,'Saudi soybean replacement confused with whole-diet inclusion or trial site');
+ check(saudiTrial?.diet_basis==='as-fed complete diet; Table 3 Ingredients per kg as fed','Saudi complete-diet as-fed basis lost');
+ const saudiActivity=feedCountry('SAU')?.market_activity,uaeActivity=feedCountry('ARE')?.market_activity,uaeRecords=Array.isArray(uaeActivity?.records)?uaeActivity.records:[];
+ check(saudiActivity?.actual_production===null&&saudiActivity.claimed_timeline?.find(t=>t.year===2026)?.state==='industrial facilities will launch'&&saudiActivity.advertised_design?.[0]?.input_value===1000000&&saudiActivity.advertised_design[0].output_value===200000&&saudiActivity.advertised_design[0].output_relation==='over'&&saudiActivity.advertised_design[0].status==='company system-design claim; deployment/actual production unverified','Saudi advertised design/timeline promoted to actual production');
+ const uaeExpected=[['R7-FEED-S09',1200,'tons/year as stated','company-labelled insect protein produced annually','reported company annual-output wording; reporting period, measured utilization and mass basis unverified'],['R7-FEED-S09',6000,'tons/year as stated','food waste diverted annually','company waste-input/diversion claim; not feed-market volume'],['R7-FEED-S10',22000,'tonnes/year','planned full industrial-scale animal feed','future plan; not actual output'],['R7-FEED-S10',1.5,'tonnes/month','initial organic fertilizer','launch wording; excluded from insect-meal market']];
+ check(uaeRecords.length===4&&uaeActivity?.national_aggregation_eligible===false&&uaeExpected.every(([source,value,unit,metric,status],i)=>{const r=uaeRecords[i];return r?.source_id===source&&r.value===value&&r.unit===unit&&r.metric===metric&&r.status===status&&r.year===null;}),'UAE participant output, waste, future plan or fertilizer conflated');
+ const feedSchools=Array.isArray(feed?.schools)?feed.schools:[],schoolNames=['Hanafi','Maliki','Shafii','Hanbali','Jafari'];
+ check(sameMembers(feedSchools.map(s=>s.school),schoolNames),'feed five-school route coverage lost');
+ const schoolRefs={Hanafi:[['R7-F-ASK125569'],['R7-CO-HANAFI']],Maliki:[[],[]],Shafii:[['R7-F-JOR4015','R7-F-MAJMU-JALLALA'],['R7-CO-JOR','R7-CO-SHAFII']],Hanbali:[['R7-F-MUGHNI7800'],['R7-CO-HANBALI']],Jafari:[['P1C6-REL-ISTIBRA219','J6'],['R7-CO-JAFARI']]};
+ for(const school of feedSchools){
+  const refs=schoolRefs[school.school]||[[],[]];
+  check(school.requirement_id==='FEED-SCHOOLS'&&sameMembers(school.source_ids,refs[0])&&sameMembers(school.claim_ids,refs[1])&&(school.school==='Maliki'||artifactLineage(school,null)&&reviewCovers('R7-FEED-SCHOOLS-ETHNOGRAPHY',school.claim_ids||[])&&school.claim_ids.every(id=>claims.find(c=>c.id===id)?.review_id==='R7-FEED-SCHOOLS-ETHNOGRAPHY')),'feed school source/claim/review lineage lost: '+school.school);
+  check(school.human_review==='pending'&&school.school_consensus_established===false&&school.automatic_human_food_rule_transfer===false&&school.product_certificate===null&&Array.isArray(school.unknowns)&&school.unknowns.length>0&&typeof school.reopen==='string'&&school.reopen.length>0,'feed named authority promoted to consensus, human-food transfer or certificate: '+school.school);
+ }
+ const maliki=feedSchools.find(s=>s.school==='Maliki'),ethnography=feed?.ethnography;
+ check(maliki?.status==='bounded_unresolved_primary_text_gap'&&sameMembers(maliki.held_source_ids,['R7-F-EGY1983-LEAD'])&&sourceIds.has('R7-F-EGY1983-LEAD')&&!claims.some(c=>c.source_ids?.includes('R7-F-EGY1983-LEAD')),'feed held Maliki attribution promoted to adopted rule');
+ check(ethnography?.requirement_id==='INSECTS-SOUTH-ASIA'&&artifactLineage(ethnography,null)&&sameMembers(ethnography.source_ids,['R7-F-ETH2011','R7-F-ETH2013'])&&sameMembers(ethnography.claim_ids,['R7-CO-ETH2011','R7-CO-ETH2013'])&&reviewCovers('R7-FEED-SCHOOLS-ETHNOGRAPHY',ethnography.claim_ids),'feed ethnography source/claim/review lineage lost');
+ check(ethnography?.paragraph_count===1&&typeof ethnography.paragraph==='string'&&ethnography.paragraph.trim().length>0&&ethnography.paragraph.trim().split(/\n\s*\n/).length===1&&ethnography.publication_year_is_observation_year===false&&ethnography.representative_population_prevalence===null&&ethnography.human_protein_total===null&&ethnography.clinical_efficacy_established===false&&ethnography.human_review==='pending','feed ethnography paragraph or population/clinical/protein boundary lost');
  return {checks,failures};
 }

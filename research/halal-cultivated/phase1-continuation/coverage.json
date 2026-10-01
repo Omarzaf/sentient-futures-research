@@ -18,7 +18,13 @@
         "P1C-C03",
         "P1C-C08",
         "P1C2-IND-DEMOGRAPHY",
-        "R6E-HISTORY-16-SCOPE"
+        "R6E-HISTORY-16-SCOPE",
+        "R07-EL-C01",
+        "R07-EL-C02",
+        "R07-EL-C03",
+        "R7-FEED-C01",
+        "R7-FEED-C02",
+        "R7-FEED-C03"
       ]
     },
     {
@@ -34,7 +40,14 @@
         "P1C-C06",
         "P1C2-PAK-DEMOGRAPHY",
         "P1C5-STD-C02",
-        "R6E-HISTORY-17-SCOPE"
+        "R6E-HISTORY-17-SCOPE",
+        "R07-EL-C04",
+        "R07-EL-C05",
+        "R07-EL-C06",
+        "R07-EL-C13",
+        "R7-FEED-C04",
+        "R7-FEED-C05",
+        "R7-FEED-C06"
       ]
     },
     {
@@ -46,7 +59,12 @@
       "populationSchoolShares": null,
       "claim_ids": [
         "P1C2-SAU-DEMOGRAPHY",
-        "P1C4-CORE-SAU-INSTITUTION"
+        "P1C4-CORE-SAU-INSTITUTION",
+        "R07-EL-C07",
+        "R07-EL-C08",
+        "R07-EL-C09",
+        "R7-FEED-C07",
+        "R7-FEED-C08"
       ]
     },
     {
@@ -61,7 +79,13 @@
         "P1C4-CORE-ARE-COMPOSITION",
         "P1C4-CORE-ARE-REMIT",
         "P1C5-STD-C06",
-        "R6E-HISTORY-21-SCOPE"
+        "R6E-HISTORY-21-SCOPE",
+        "R07-EL-C10",
+        "R07-EL-C11",
+        "R07-EL-C12",
+        "R7-FEED-C09",
+        "R7-FEED-C10",
+        "R7-FEED-C11"
       ]
     },
     {

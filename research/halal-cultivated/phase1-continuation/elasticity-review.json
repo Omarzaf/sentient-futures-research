@@ -1,0 +1,1421 @@
+{
+  "schema": "phase-one-elasticity-review/v1",
+  "as_of": "2026-10-01",
+  "requirements": [
+    {
+      "requirement_id": "EL-IND-CHICKEN",
+      "country": "IND",
+      "requested_good": "chicken",
+      "status": "reported_estimates_with_method_hold",
+      "substantive_review": "Rural and urban chicken own-price estimates are -0.432 and -0.328; their reported t-values are -0.44 and -0.61. The unrestricted 1993–94 state-aggregate model leaves compensation and current transport unresolved.",
+      "primary_study_id": "IND-DASTAGIRI-2004",
+      "reported_source_category": "chicken",
+      "study_estimate_ids": [
+        "EST-017",
+        "EST-018",
+        "EST-019",
+        "EST-020",
+        "EST-021",
+        "EST-022",
+        "EST-023",
+        "EST-024",
+        "EST-041",
+        "EST-042",
+        "EST-043",
+        "EST-044",
+        "EST-045",
+        "EST-046",
+        "EST-047",
+        "EST-048",
+        "EST-055",
+        "EST-056",
+        "EST-057"
+      ],
+      "observation_period": "1993–1994",
+      "population": "Indian rural and urban residents; NSS 50th round",
+      "method": "Unrestricted double-log system, GLS/SURE; regional dummy",
+      "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+      "conditioning": "Eight price regressors including other-food and non-food; real income/expenditure held in equation. Exact compensation concept unresolved.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-020",
+          "value": -0.432,
+          "sample": "rural state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": -0.44,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-044",
+          "value": -0.328,
+          "sample": "urban state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": -0.61,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-017",
+        "EST-018",
+        "EST-019",
+        "EST-021",
+        "EST-022",
+        "EST-023",
+        "EST-024",
+        "EST-041",
+        "EST-042",
+        "EST-043",
+        "EST-045",
+        "EST-046",
+        "EST-047",
+        "EST-048"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-055",
+        "EST-056",
+        "EST-057"
+      ],
+      "study_limitations": [
+        "Author says homogeneity and symmetry restrictions could not be estimated and were not imposed.",
+        "Printed significance marks do not consistently match ordinary two-sided t thresholds; retain marks and t-values without repairing.",
+        "Zero consumption treatment and unit-value quality correction not established.",
+        "Original repository PDF requests failed; methods and tables read from author-uploaded public full-text representation.",
+        "Pooled expenditure estimates are reported, but pooled numeric price table was not recovered; do not average rural/urban price coefficients."
+      ],
+      "source_url": "https://doi.org/10.22004/ag.econ.344973",
+      "public_locators": [
+        "§2.1 pp.3–4",
+        "§2.2 p.5",
+        "§2.3 p.6",
+        "Table 2 p.8",
+        "Table 3 p.9",
+        "Table 4 p.10"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Obtain original table rendering and resolve real-expenditure/compensation definition; validate a newer species-specific system.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-IND-DASTAGIRI-2004"
+      ],
+      "claim_ids": [
+        "R07-EL-C01"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-IND-BEEF",
+      "country": "IND",
+      "requested_good": "beef",
+      "status": "category_mismatch",
+      "substantive_review": "The closest original category combines beef and buffalo; rural own-price is positive 3.179 and urban is -0.476. Neither identifies beef alone.",
+      "primary_study_id": "IND-DASTAGIRI-2004",
+      "reported_source_category": "beef and buffalo meat",
+      "study_estimate_ids": [
+        "EST-009",
+        "EST-010",
+        "EST-011",
+        "EST-012",
+        "EST-013",
+        "EST-014",
+        "EST-015",
+        "EST-016",
+        "EST-033",
+        "EST-034",
+        "EST-035",
+        "EST-036",
+        "EST-037",
+        "EST-038",
+        "EST-039",
+        "EST-040",
+        "EST-052",
+        "EST-053",
+        "EST-054"
+      ],
+      "observation_period": "1993–1994",
+      "population": "Indian rural and urban residents; NSS 50th round",
+      "method": "Unrestricted double-log system, GLS/SURE; regional dummy",
+      "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+      "conditioning": "Eight price regressors including other-food and non-food; real income/expenditure held in equation. Exact compensation concept unresolved.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-011",
+          "value": 3.179,
+          "sample": "rural state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": 2.16,
+          "reported_mark": "***",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-035",
+          "value": -0.476,
+          "sample": "urban state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": -0.27,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-009",
+        "EST-010",
+        "EST-012",
+        "EST-013",
+        "EST-014",
+        "EST-015",
+        "EST-016",
+        "EST-033",
+        "EST-034",
+        "EST-036",
+        "EST-037",
+        "EST-038",
+        "EST-039",
+        "EST-040"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-052",
+        "EST-053",
+        "EST-054"
+      ],
+      "study_limitations": [
+        "Author says homogeneity and symmetry restrictions could not be estimated and were not imposed.",
+        "Printed significance marks do not consistently match ordinary two-sided t thresholds; retain marks and t-values without repairing.",
+        "Zero consumption treatment and unit-value quality correction not established.",
+        "Original repository PDF requests failed; methods and tables read from author-uploaded public full-text representation.",
+        "Pooled expenditure estimates are reported, but pooled numeric price table was not recovered; do not average rural/urban price coefficients."
+      ],
+      "source_url": "https://doi.org/10.22004/ag.econ.344973",
+      "public_locators": [
+        "§2.1 pp.3–4",
+        "§2.2 p.5",
+        "§2.3 p.6",
+        "Table 2 p.8",
+        "Table 3 p.9",
+        "Table 4 p.10"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Recover separately coded cattle-beef quantities/prices and a corresponding estimate; resolve positive own-price/regularity and current validity.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-IND-DASTAGIRI-2004"
+      ],
+      "claim_ids": [
+        "R07-EL-C02"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-IND-MUTTON",
+      "country": "IND",
+      "requested_good": "mutton",
+      "status": "category_mismatch",
+      "substantive_review": "The original bundles mutton and goat. Rural and urban own-price entries are -0.030 and -3.308; separate adult-sheep mutton demand is unidentified.",
+      "primary_study_id": "IND-DASTAGIRI-2004",
+      "reported_source_category": "mutton and goat meat",
+      "study_estimate_ids": [
+        "EST-001",
+        "EST-002",
+        "EST-003",
+        "EST-004",
+        "EST-005",
+        "EST-006",
+        "EST-007",
+        "EST-008",
+        "EST-025",
+        "EST-026",
+        "EST-027",
+        "EST-028",
+        "EST-029",
+        "EST-030",
+        "EST-031",
+        "EST-032",
+        "EST-049",
+        "EST-050",
+        "EST-051"
+      ],
+      "observation_period": "1993–1994",
+      "population": "Indian rural and urban residents; NSS 50th round",
+      "method": "Unrestricted double-log system, GLS/SURE; regional dummy",
+      "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+      "conditioning": "Eight price regressors including other-food and non-food; real income/expenditure held in equation. Exact compensation concept unresolved.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-002",
+          "value": -0.03,
+          "sample": "rural state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": -0.03,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-026",
+          "value": -3.308,
+          "sample": "urban state aggregates",
+          "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+          "reported_t": -1.21,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-001",
+        "EST-003",
+        "EST-004",
+        "EST-005",
+        "EST-006",
+        "EST-007",
+        "EST-008",
+        "EST-025",
+        "EST-027",
+        "EST-028",
+        "EST-029",
+        "EST-030",
+        "EST-031",
+        "EST-032"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-049",
+        "EST-050",
+        "EST-051"
+      ],
+      "study_limitations": [
+        "Author says homogeneity and symmetry restrictions could not be estimated and were not imposed.",
+        "Printed significance marks do not consistently match ordinary two-sided t thresholds; retain marks and t-values without repairing.",
+        "Zero consumption treatment and unit-value quality correction not established.",
+        "Original repository PDF requests failed; methods and tables read from author-uploaded public full-text representation.",
+        "Pooled expenditure estimates are reported, but pooled numeric price table was not recovered; do not average rural/urban price coefficients."
+      ],
+      "source_url": "https://doi.org/10.22004/ag.econ.344973",
+      "public_locators": [
+        "§2.1 pp.3–4",
+        "§2.2 p.5",
+        "§2.3 p.6",
+        "Table 2 p.8",
+        "Table 3 p.9",
+        "Table 4 p.10"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Obtain an explicit mutton definition and a separately estimated adult-sheep or agreed target category; retain the bundle until then.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-IND-DASTAGIRI-2004"
+      ],
+      "claim_ids": [
+        "R07-EL-C03"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-PAK-CHICKEN",
+      "country": "PAK",
+      "requested_good": "chicken",
+      "status": "reported_estimates_with_method_hold",
+      "substantive_review": "HIES 2010–11 chicken own-price entries are -0.648 rural, -1.022 urban and -0.807 pooled. The source needs reconciliation of sample counts and log-model notation before forecast use.",
+      "primary_study_id": "PAK-AUJLA-2019",
+      "reported_source_category": "chicken",
+      "study_estimate_ids": [
+        "EST-066",
+        "EST-067",
+        "EST-068",
+        "EST-069",
+        "EST-078",
+        "EST-079",
+        "EST-080",
+        "EST-081",
+        "EST-090",
+        "EST-091",
+        "EST-092",
+        "EST-093",
+        "EST-100",
+        "EST-101",
+        "EST-102"
+      ],
+      "observation_period": "2010–2011",
+      "population": "Pakistan HIES households, rural and urban",
+      "method": "Author-reported log-linear SURE",
+      "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+      "conditioning": "Four meat prices and household monthly income/total expenditure; not a fixed meat-only budget.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-068",
+          "value": -1.022,
+          "sample": "urban",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -14.454,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-080",
+          "value": -0.648,
+          "sample": "rural",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -11.036,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-092",
+          "value": -0.807,
+          "sample": "pooled",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -17.759,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-066",
+        "EST-067",
+        "EST-069",
+        "EST-078",
+        "EST-079",
+        "EST-081",
+        "EST-090",
+        "EST-091",
+        "EST-093"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-100",
+        "EST-101",
+        "EST-102"
+      ],
+      "study_limitations": [
+        "Equation (1) prints Y on the left, though text calls the model log-linear; a literal level-log equation would not make price slopes elasticities.",
+        "Table 7 species labels are inconsistent: short row labels versus bundled price columns.",
+        "Table 7 rural -1.712 statistic carries *; exact significance interpretation unresolved.",
+        "Household HIES consumption omits social events and religious rituals; projection baseline comes from separate official availability figures.",
+        "Published 2030 projections are not observed demand or new elasticity estimates."
+      ],
+      "source_url": "https://cer.salu.edu.pk/public/wp-content/uploads/2020/03/Demand-Estimates-and-Projections-for-Meat-in-Pakistan-by-the-Year-2030-AD.pdf",
+      "public_locators": [
+        "Introduction p.25",
+        "Materials and Method p.26",
+        "Table 1 p.26",
+        "Table 3 p.28",
+        "Table 5 p.30",
+        "Table 7 p.32"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Resolve equation (1), estimation sample and unit-value/endogeneity handling; seek a current corresponding household system.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-PAK-AUJLA-2019",
+        "P1C7-EL-PAK-HAYAT-2023"
+      ],
+      "claim_ids": [
+        "R07-EL-C04",
+        "R07-EL-C13"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-PAK-BEEF",
+      "country": "PAK",
+      "requested_good": "beef",
+      "status": "category_definition_hold",
+      "substantive_review": "Table 7 uses a short beef response label and a beef-and-buffalo price column. Its pooled reported own entry is -1.068, but a beef-only quantity/price estimand cannot be established.",
+      "primary_study_id": "PAK-AUJLA-2019",
+      "reported_source_category": "beef row / beef and buffalo category unresolved",
+      "study_estimate_ids": [
+        "EST-058",
+        "EST-059",
+        "EST-060",
+        "EST-061",
+        "EST-070",
+        "EST-071",
+        "EST-072",
+        "EST-073",
+        "EST-082",
+        "EST-083",
+        "EST-084",
+        "EST-085",
+        "EST-094",
+        "EST-095",
+        "EST-096"
+      ],
+      "observation_period": "2010–2011",
+      "population": "Pakistan HIES households, rural and urban",
+      "method": "Author-reported log-linear SURE",
+      "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+      "conditioning": "Four meat prices and household monthly income/total expenditure; not a fixed meat-only budget.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-058",
+          "value": -0.119,
+          "sample": "urban",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -1.326,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-070",
+          "value": -1.953,
+          "sample": "rural",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -26.26,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-082",
+          "value": -1.068,
+          "sample": "pooled",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -18.674,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-059",
+        "EST-060",
+        "EST-061",
+        "EST-071",
+        "EST-072",
+        "EST-073",
+        "EST-083",
+        "EST-084",
+        "EST-085"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-094",
+        "EST-095",
+        "EST-096"
+      ],
+      "study_limitations": [
+        "Equation (1) prints Y on the left, though text calls the model log-linear; a literal level-log equation would not make price slopes elasticities.",
+        "Table 7 species labels are inconsistent: short row labels versus bundled price columns.",
+        "Table 7 rural -1.712 statistic carries *; exact significance interpretation unresolved.",
+        "Household HIES consumption omits social events and religious rituals; projection baseline comes from separate official availability figures.",
+        "Published 2030 projections are not observed demand or new elasticity estimates."
+      ],
+      "source_url": "https://cer.salu.edu.pk/public/wp-content/uploads/2020/03/Demand-Estimates-and-Projections-for-Meat-in-Pakistan-by-the-Year-2030-AD.pdf",
+      "public_locators": [
+        "Introduction p.25",
+        "Materials and Method p.26",
+        "Table 1 p.26",
+        "Table 3 p.28",
+        "Table 5 p.30",
+        "Table 7 p.32"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Resolve the original HIES item codes and row/price definition; do not relabel the bundled regressor beef.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-PAK-AUJLA-2019",
+        "P1C7-EL-PAK-HAYAT-2023"
+      ],
+      "claim_ids": [
+        "R07-EL-C05",
+        "R07-EL-C13"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-PAK-MUTTON",
+      "country": "PAK",
+      "requested_good": "mutton",
+      "status": "category_definition_hold",
+      "substantive_review": "Table 7 uses a short mutton response label and a mutton-and-goat price column. Pooled reported own entry is -0.859; sheep-only mutton effects remain unidentified.",
+      "primary_study_id": "PAK-AUJLA-2019",
+      "reported_source_category": "mutton row / mutton and goat category unresolved",
+      "study_estimate_ids": [
+        "EST-062",
+        "EST-063",
+        "EST-064",
+        "EST-065",
+        "EST-074",
+        "EST-075",
+        "EST-076",
+        "EST-077",
+        "EST-086",
+        "EST-087",
+        "EST-088",
+        "EST-089",
+        "EST-097",
+        "EST-098",
+        "EST-099"
+      ],
+      "observation_period": "2010–2011",
+      "population": "Pakistan HIES households, rural and urban",
+      "method": "Author-reported log-linear SURE",
+      "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+      "conditioning": "Four meat prices and household monthly income/total expenditure; not a fixed meat-only budget.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-063",
+          "value": -0.466,
+          "sample": "urban",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -5.08,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-075",
+          "value": -1.292,
+          "sample": "rural",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -19.652,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-087",
+          "value": -0.859,
+          "sample": "pooled",
+          "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+          "reported_t": -15.571,
+          "reported_mark": "*",
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-062",
+        "EST-064",
+        "EST-065",
+        "EST-074",
+        "EST-076",
+        "EST-077",
+        "EST-086",
+        "EST-088",
+        "EST-089"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-097",
+        "EST-098",
+        "EST-099"
+      ],
+      "study_limitations": [
+        "Equation (1) prints Y on the left, though text calls the model log-linear; a literal level-log equation would not make price slopes elasticities.",
+        "Table 7 species labels are inconsistent: short row labels versus bundled price columns.",
+        "Table 7 rural -1.712 statistic carries *; exact significance interpretation unresolved.",
+        "Household HIES consumption omits social events and religious rituals; projection baseline comes from separate official availability figures.",
+        "Published 2030 projections are not observed demand or new elasticity estimates."
+      ],
+      "source_url": "https://cer.salu.edu.pk/public/wp-content/uploads/2020/03/Demand-Estimates-and-Projections-for-Meat-in-Pakistan-by-the-Year-2030-AD.pdf",
+      "public_locators": [
+        "Introduction p.25",
+        "Materials and Method p.26",
+        "Table 1 p.26",
+        "Table 3 p.28",
+        "Table 5 p.30",
+        "Table 7 p.32"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Resolve original commodity coding and category symmetry before any target transport.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-PAK-AUJLA-2019",
+        "P1C7-EL-PAK-HAYAT-2023"
+      ],
+      "claim_ids": [
+        "R07-EL-C06",
+        "R07-EL-C13"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-SAU-CHICKEN",
+      "country": "SAU",
+      "requested_good": "chicken",
+      "status": "conditional_compensated_only",
+      "substantive_review": "The national 1985–2010 Rotterdam model gives conditional compensated chicken own-price -0.088 and group expenditure elasticity 0.48. It does not supply a current unconditional Marshallian parameter.",
+      "primary_study_id": "SAU-ALBALAWI-2016",
+      "reported_source_category": "chicken",
+      "study_estimate_ids": [
+        "EST-107",
+        "EST-108",
+        "EST-109",
+        "EST-110",
+        "EST-116"
+      ],
+      "observation_period": "1985–2010",
+      "population": "Saudi national annual per-capita meat and fish series",
+      "method": "Rotterdam demand system under preference independence, trend constants; DAP2000/DEMMOD-3",
+      "compensation": "Hicksian/Slutsky-type conditional elasticities: equation (3.5) divides Slutsky coefficients by conditional budget shares; analyst classification from model, not an invented table label.",
+      "conditioning": "Conditional on the four-good meat-and-fish group, with Divisia group quantity/expenditure held fixed for price effects.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-108",
+          "value": -0.088,
+          "sample": "national annual 1985–2010",
+          "compensation": "conditional compensated Slutsky/Hicksian-type",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-107",
+        "EST-109",
+        "EST-110"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-116"
+      ],
+      "study_limitations": [
+        "Cannot substitute these conditional compensated values for unconditional Marshallian responses.",
+        "Lamb is not demonstrably adult-sheep mutton or mutton/goat.",
+        "Only 26 annual levels; historical series and current target differ.",
+        "Stationarity table marks beef-price changes p=.108 stationary at 11%, a weak threshold, while heading says 5%.",
+        "Group income-flexibility coefficient -0.215 has SE .298; elasticity significance is not established by signs.",
+        "Chapter 5 preliminary rough estimates and Chapter 7 import regressions are different estimators/markets and are not pooled with Table 6.4."
+      ],
+      "source_url": "https://doi.org/10.25904/1912/1672",
+      "public_locators": [
+        "§5.1–5.2 pp.83–84",
+        "§6.3 pp.122–126; equations (3.1)–(3.5)",
+        "Tables 6.3–6.4 pp.127–128"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Match target conditioning, obtain elasticity uncertainty and updated data; estimate upper-stage expenditure response if unconditional demand is needed.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-SAU-ALBALAWI-2016"
+      ],
+      "claim_ids": [
+        "R07-EL-C07"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-SAU-BEEF",
+      "country": "SAU",
+      "requested_good": "beef",
+      "status": "conditional_compensated_only",
+      "substantive_review": "The national 1985–2010 Rotterdam model gives conditional compensated beef own-price -0.204 and group expenditure elasticity 1.07. Elasticity SE/CI are not supplied in Table 6.4.",
+      "primary_study_id": "SAU-ALBALAWI-2016",
+      "reported_source_category": "beef",
+      "study_estimate_ids": [
+        "EST-103",
+        "EST-104",
+        "EST-105",
+        "EST-106",
+        "EST-115"
+      ],
+      "observation_period": "1985–2010",
+      "population": "Saudi national annual per-capita meat and fish series",
+      "method": "Rotterdam demand system under preference independence, trend constants; DAP2000/DEMMOD-3",
+      "compensation": "Hicksian/Slutsky-type conditional elasticities: equation (3.5) divides Slutsky coefficients by conditional budget shares; analyst classification from model, not an invented table label.",
+      "conditioning": "Conditional on the four-good meat-and-fish group, with Divisia group quantity/expenditure held fixed for price effects.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-103",
+          "value": -0.204,
+          "sample": "national annual 1985–2010",
+          "compensation": "conditional compensated Slutsky/Hicksian-type",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-104",
+        "EST-105",
+        "EST-106"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-115"
+      ],
+      "study_limitations": [
+        "Cannot substitute these conditional compensated values for unconditional Marshallian responses.",
+        "Lamb is not demonstrably adult-sheep mutton or mutton/goat.",
+        "Only 26 annual levels; historical series and current target differ.",
+        "Stationarity table marks beef-price changes p=.108 stationary at 11%, a weak threshold, while heading says 5%.",
+        "Group income-flexibility coefficient -0.215 has SE .298; elasticity significance is not established by signs.",
+        "Chapter 5 preliminary rough estimates and Chapter 7 import regressions are different estimators/markets and are not pooled with Table 6.4."
+      ],
+      "source_url": "https://doi.org/10.25904/1912/1672",
+      "public_locators": [
+        "§5.1–5.2 pp.83–84",
+        "§6.3 pp.122–126; equations (3.1)–(3.5)",
+        "Tables 6.3–6.4 pp.127–128"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Match population, historical/current context and conditional compensated estimand; obtain uncertainty and any necessary upper-stage system.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-SAU-ALBALAWI-2016"
+      ],
+      "claim_ids": [
+        "R07-EL-C08"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-SAU-MUTTON",
+      "country": "SAU",
+      "requested_good": "mutton",
+      "status": "category_mismatch",
+      "substantive_review": "The closest original response is lamb: conditional compensated own-price -0.103 and group expenditure elasticity 1.27. The publication does not establish an adult-sheep mutton mapping.",
+      "primary_study_id": "SAU-ALBALAWI-2016",
+      "reported_source_category": "lamb",
+      "study_estimate_ids": [
+        "EST-111",
+        "EST-112",
+        "EST-113",
+        "EST-114",
+        "EST-117"
+      ],
+      "observation_period": "1985–2010",
+      "population": "Saudi national annual per-capita meat and fish series",
+      "method": "Rotterdam demand system under preference independence, trend constants; DAP2000/DEMMOD-3",
+      "compensation": "Hicksian/Slutsky-type conditional elasticities: equation (3.5) divides Slutsky coefficients by conditional budget shares; analyst classification from model, not an invented table label.",
+      "conditioning": "Conditional on the four-good meat-and-fish group, with Divisia group quantity/expenditure held fixed for price effects.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-113",
+          "value": -0.103,
+          "sample": "national annual 1985–2010",
+          "compensation": "conditional compensated Slutsky/Hicksian-type",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-111",
+        "EST-112",
+        "EST-114"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-117"
+      ],
+      "study_limitations": [
+        "Cannot substitute these conditional compensated values for unconditional Marshallian responses.",
+        "Lamb is not demonstrably adult-sheep mutton or mutton/goat.",
+        "Only 26 annual levels; historical series and current target differ.",
+        "Stationarity table marks beef-price changes p=.108 stationary at 11%, a weak threshold, while heading says 5%.",
+        "Group income-flexibility coefficient -0.215 has SE .298; elasticity significance is not established by signs.",
+        "Chapter 5 preliminary rough estimates and Chapter 7 import regressions are different estimators/markets and are not pooled with Table 6.4."
+      ],
+      "source_url": "https://doi.org/10.25904/1912/1672",
+      "public_locators": [
+        "§5.1–5.2 pp.83–84",
+        "§6.3 pp.122–126; equations (3.1)–(3.5)",
+        "Tables 6.3–6.4 pp.127–128"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Recover source commodity codes/age definitions, then estimate or justify the exact requested mutton target.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-SAU-ALBALAWI-2016"
+      ],
+      "claim_ids": [
+        "R07-EL-C09"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-ARE-CHICKEN",
+      "country": "ARE",
+      "requested_good": "chicken",
+      "status": "hold_internal_consistency",
+      "substantive_review": "The publication reports chicken own-price -0.319 Marshallian and -0.531 Hicksian with positive expenditure elasticity 0.690. The more-negative compensated value conflicts with the positive-share Slutsky relation.",
+      "primary_study_id": "ARE-BASARIR-2013",
+      "reported_source_category": "chicken",
+      "study_estimate_ids": [
+        "EST-136",
+        "EST-137",
+        "EST-138",
+        "EST-139",
+        "EST-140",
+        "EST-141",
+        "EST-160",
+        "EST-161",
+        "EST-162",
+        "EST-163",
+        "EST-164",
+        "EST-165",
+        "EST-169"
+      ],
+      "observation_period": null,
+      "population": "500 face-to-face household questionnaires across all seven UAE emirates, allocations by emirate population; weekly purchases and prices",
+      "method": "LA/AIDS with demographics; SUR/maximum likelihood in SAS; fish equation dropped",
+      "compensation": "Explicit Marshallian Table 2 and Hicksian Table 3",
+      "conditioning": "Six-good meat/fish expenditure shares normalized to unity.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-139",
+          "value": -0.319,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Marshallian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-163",
+          "value": -0.531,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Hicksian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": "**",
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-136",
+        "EST-137",
+        "EST-138",
+        "EST-140",
+        "EST-141",
+        "EST-160",
+        "EST-161",
+        "EST-162",
+        "EST-164",
+        "EST-165"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-169"
+      ],
+      "study_limitations": [
+        "Positive compensated beef and lamb own-price estimates violate the usual nonpositive own substitution effect.",
+        "With positive expenditure elasticities, reported Hicksian-minus-Marshallian own effects for beef and chicken are negative, inconsistent with the Slutsky identity and positive shares.",
+        "Lamb and goat are separate; no demonstrated mapping to requested mutton.",
+        "Low equation R-squared .089–.237 is reported; national representativeness cannot be established from the sampling description alone.",
+        "Printed coefficients retained as findings about this publication; no corrected values invented."
+      ],
+      "source_url": "https://www.agrojournal.org/19/01-05.pdf",
+      "public_locators": [
+        "Research Methodology pp.34–35",
+        "Results and Discussions p.35",
+        "Tables 2–4 p.37"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Obtain a correction or reproducible estimation resolving Tables 2–4 and survey year; retain printed values only as source findings.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-ARE-BASARIR-2013"
+      ],
+      "claim_ids": [
+        "R07-EL-C10"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-ARE-BEEF",
+      "country": "ARE",
+      "requested_good": "beef",
+      "status": "hold_internal_consistency",
+      "substantive_review": "Reported beef own-price is +0.666 Marshallian and +0.568 Hicksian. Positive Hicksian own effect and the negative compensation increment with positive expenditure elasticity prevent coherent demand-model transfer.",
+      "primary_study_id": "ARE-BASARIR-2013",
+      "reported_source_category": "beef",
+      "study_estimate_ids": [
+        "EST-118",
+        "EST-119",
+        "EST-120",
+        "EST-121",
+        "EST-122",
+        "EST-123",
+        "EST-142",
+        "EST-143",
+        "EST-144",
+        "EST-145",
+        "EST-146",
+        "EST-147",
+        "EST-166"
+      ],
+      "observation_period": null,
+      "population": "500 face-to-face household questionnaires across all seven UAE emirates, allocations by emirate population; weekly purchases and prices",
+      "method": "LA/AIDS with demographics; SUR/maximum likelihood in SAS; fish equation dropped",
+      "compensation": "Explicit Marshallian Table 2 and Hicksian Table 3",
+      "conditioning": "Six-good meat/fish expenditure shares normalized to unity.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-118",
+          "value": 0.666,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Marshallian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": "***",
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-142",
+          "value": 0.568,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Hicksian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": "***",
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-119",
+        "EST-120",
+        "EST-121",
+        "EST-122",
+        "EST-123",
+        "EST-143",
+        "EST-144",
+        "EST-145",
+        "EST-146",
+        "EST-147"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-166"
+      ],
+      "study_limitations": [
+        "Positive compensated beef and lamb own-price estimates violate the usual nonpositive own substitution effect.",
+        "With positive expenditure elasticities, reported Hicksian-minus-Marshallian own effects for beef and chicken are negative, inconsistent with the Slutsky identity and positive shares.",
+        "Lamb and goat are separate; no demonstrated mapping to requested mutton.",
+        "Low equation R-squared .089–.237 is reported; national representativeness cannot be established from the sampling description alone.",
+        "Printed coefficients retained as findings about this publication; no corrected values invented."
+      ],
+      "source_url": "https://www.agrojournal.org/19/01-05.pdf",
+      "public_locators": [
+        "Research Methodology pp.34–35",
+        "Results and Discussions p.35",
+        "Tables 2–4 p.37"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Obtain corrected tables or reproducible data/model plus survey year and sampling verification.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-ARE-BASARIR-2013"
+      ],
+      "claim_ids": [
+        "R07-EL-C11"
+      ],
+      "review_id": "R7-ELASTICITY"
+    },
+    {
+      "requirement_id": "EL-ARE-MUTTON",
+      "country": "ARE",
+      "requested_good": "mutton",
+      "status": "category_mismatch_and_consistency_hold",
+      "substantive_review": "The source has separate lamb and goat categories, neither explicitly mutton. Lamb own-price is -0.041 Marshallian and +0.134 Hicksian; the latter also fails the nonpositive own substitution restriction.",
+      "primary_study_id": "ARE-BASARIR-2013",
+      "reported_source_category": "lamb",
+      "study_estimate_ids": [
+        "EST-124",
+        "EST-125",
+        "EST-126",
+        "EST-127",
+        "EST-128",
+        "EST-129",
+        "EST-148",
+        "EST-149",
+        "EST-150",
+        "EST-151",
+        "EST-152",
+        "EST-153",
+        "EST-167"
+      ],
+      "observation_period": null,
+      "population": "500 face-to-face household questionnaires across all seven UAE emirates, allocations by emirate population; weekly purchases and prices",
+      "method": "LA/AIDS with demographics; SUR/maximum likelihood in SAS; fish equation dropped",
+      "compensation": "Explicit Marshallian Table 2 and Hicksian Table 3",
+      "conditioning": "Six-good meat/fish expenditure shares normalized to unity.",
+      "own_price_evidence": [
+        {
+          "estimate_id": "EST-125",
+          "value": -0.041,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Marshallian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        },
+        {
+          "estimate_id": "EST-149",
+          "value": 0.134,
+          "sample": "pooled surveyed households across seven emirates; national representativeness unestablished",
+          "compensation": "Hicksian, conditional on six-product group",
+          "reported_t": null,
+          "reported_mark": null,
+          "se": null,
+          "ci": null
+        }
+      ],
+      "cross_price_evidence_ids": [
+        "EST-124",
+        "EST-126",
+        "EST-127",
+        "EST-128",
+        "EST-129",
+        "EST-148",
+        "EST-150",
+        "EST-151",
+        "EST-152",
+        "EST-153"
+      ],
+      "expenditure_evidence_ids": [
+        "EST-167"
+      ],
+      "study_limitations": [
+        "Positive compensated beef and lamb own-price estimates violate the usual nonpositive own substitution effect.",
+        "With positive expenditure elasticities, reported Hicksian-minus-Marshallian own effects for beef and chicken are negative, inconsistent with the Slutsky identity and positive shares.",
+        "Lamb and goat are separate; no demonstrated mapping to requested mutton.",
+        "Low equation R-squared .089–.237 is reported; national representativeness cannot be established from the sampling description alone.",
+        "Printed coefficients retained as findings about this publication; no corrected values invented."
+      ],
+      "source_url": "https://www.agrojournal.org/19/01-05.pdf",
+      "public_locators": [
+        "Research Methodology pp.34–35",
+        "Results and Discussions p.35",
+        "Tables 2–4 p.37"
+      ],
+      "forecast_parameter": null,
+      "forecast_cross_parameters": null,
+      "transport_justification": null,
+      "independent_corroborating_family": null,
+      "reopening_trigger": "Resolve adult-sheep mutton versus lamb/goat categories and the source regularity issues; no weighted average without target shares and a valid model.",
+      "review_status": "human_review_pending",
+      "source_ids": [
+        "P1C7-EL-ARE-BASARIR-2013"
+      ],
+      "claim_ids": [
+        "R07-EL-C12"
+      ],
+      "review_id": "R7-ELASTICITY"
+    }
+  ],
+  "studies": [
+    {
+      "id": "IND-DASTAGIRI-2004",
+      "country": "IND",
+      "publication_year": 2004,
+      "observation_period": "1993–1994",
+      "population": "Indian rural and urban residents; NSS 50th round",
+      "sample": {
+        "underlying_households_rural": 76784,
+        "underlying_households_urban": 40009,
+        "estimation_observation_sets_total": 64,
+        "unit": "state/union-territory rural and urban aggregates; not 116793 independent model observations"
+      },
+      "method": "Unrestricted double-log system, GLS/SURE; regional dummy",
+      "conditioning": "Eight price regressors including other-food and non-food; real income/expenditure held in equation. Exact compensation concept unresolved.",
+      "compensation": "not explicitly Marshallian or Hicksian; real-expenditure wording precludes silent classification",
+      "expenditure_base": "real income or total expenditure",
+      "categories": [
+        "milk",
+        "mutton and goat meat",
+        "beef and buffalo meat",
+        "chicken",
+        "eggs",
+        "fish price regressor",
+        "other food",
+        "non-food"
+      ],
+      "identification": "Cross-sectional state-level quantity/value variation; no causal price instrument established.",
+      "uncertainty": "Tables 2–4 report t-values and significance marks, not elasticity SE or CI.",
+      "limitations": [
+        "Author says homogeneity and symmetry restrictions could not be estimated and were not imposed.",
+        "Printed significance marks do not consistently match ordinary two-sided t thresholds; retain marks and t-values without repairing.",
+        "Zero consumption treatment and unit-value quality correction not established.",
+        "Original repository PDF requests failed; methods and tables read from author-uploaded public full-text representation.",
+        "Pooled expenditure estimates are reported, but pooled numeric price table was not recovered; do not average rural/urban price coefficients."
+      ],
+      "public_locators": [
+        "§2.1 pp.3–4",
+        "§2.2 p.5",
+        "§2.3 p.6",
+        "Table 2 p.8",
+        "Table 3 p.9",
+        "Table 4 p.10"
+      ],
+      "source_id": "P1C7-EL-IND-DASTAGIRI-2004",
+      "source_url": "https://doi.org/10.22004/ag.econ.344973",
+      "review_status": "human_review_pending",
+      "transport_to_current_forecast": null
+    },
+    {
+      "id": "PAK-AUJLA-2019",
+      "country": "PAK",
+      "publication_year": 2019,
+      "observation_period": "2010–2011",
+      "population": "Pakistan HIES households, rural and urban",
+      "sample": {
+        "table1_households": 16107,
+        "table1_rural": 9599,
+        "table1_urban": 6508,
+        "table3_households": 16082,
+        "table3_rural": 9577,
+        "table3_urban": 6505,
+        "estimation_n": null,
+        "n_note": "The source presents both counts without a clear reconciliation or equation-specific N."
+      },
+      "method": "Author-reported log-linear SURE",
+      "conditioning": "Four meat prices and household monthly income/total expenditure; not a fixed meat-only budget.",
+      "compensation": "not explicitly labeled; uncompensated-intent only, model notation unresolved",
+      "expenditure_base": "total household monthly income or expenditure, not per-capita income",
+      "categories": [
+        "beef row, beef and buffalo price column",
+        "mutton row, mutton and goat price column",
+        "chicken",
+        "fish"
+      ],
+      "identification": "Cross-sectional HIES expenditure/quantity data; causal price identification and quality-adjusted unit values not established.",
+      "uncertainty": "Table 5 explicitly identifies t-values and * at 1%; Table 7 gives parenthetic statistics and marks but no local legend. Preserve as printed; no SE reconstruction.",
+      "limitations": [
+        "Equation (1) prints Y on the left, though text calls the model log-linear; a literal level-log equation would not make price slopes elasticities.",
+        "Table 7 species labels are inconsistent: short row labels versus bundled price columns.",
+        "Table 7 rural -1.712 statistic carries *; exact significance interpretation unresolved.",
+        "Household HIES consumption omits social events and religious rituals; projection baseline comes from separate official availability figures.",
+        "Published 2030 projections are not observed demand or new elasticity estimates."
+      ],
+      "public_locators": [
+        "Introduction p.25",
+        "Materials and Method p.26",
+        "Table 1 p.26",
+        "Table 3 p.28",
+        "Table 5 p.30",
+        "Table 7 p.32"
+      ],
+      "source_id": "P1C7-EL-PAK-AUJLA-2019",
+      "source_url": "https://cer.salu.edu.pk/public/wp-content/uploads/2020/03/Demand-Estimates-and-Projections-for-Meat-in-Pakistan-by-the-Year-2030-AD.pdf",
+      "review_status": "human_review_pending",
+      "transport_to_current_forecast": null
+    },
+    {
+      "id": "PAK-HAYAT-2023",
+      "country": "PAK",
+      "publication_year": 2023,
+      "observation_period": "2018–2019",
+      "population": "Pakistan HIES households",
+      "sample": {
+        "original_households": 24809,
+        "analysis_households": 24620,
+        "exclusion": "missing quantities/expenditures"
+      },
+      "method": "LA/AIDS, SUR/GLS; authors state homogeneity and symmetry imposed",
+      "conditioning": "Eight-food-group budget; food expenditure is income proxy, not total household income.",
+      "compensation": "Tables 3 and 4 explicitly uncompensated and compensated",
+      "expenditure_base": "per-capita spending across eight food groups",
+      "categories": [
+        "cereals",
+        "pulses",
+        "milk",
+        "meat including beef, mutton, chicken, fish and other poultry",
+        "fruits",
+        "vegetables",
+        "sugar",
+        "ghee/oils"
+      ],
+      "identification": "Unit values computed as expenditure/quantity; no independent causal price variation established.",
+      "uncertainty": "Regression SE in Table 2; no elasticity SE, CI or stars in Tables 3–4. Do not transfer regression SE to nonlinear elasticities.",
+      "limitations": [
+        "Pooled meat cannot identify species-specific own or cross effects.",
+        "Table 4 meat compensated own-price value is positive; this fails the usual nonpositive compensated own-price restriction at the reported point estimate.",
+        "Methods contain inequality/terminology inconsistencies; reported labels do not establish demand-system regularity."
+      ],
+      "public_locators": [
+        "§3 Data and its sources",
+        "§4 Estimation method, equations 1–8",
+        "Table 3, Meat row",
+        "Table 4, Meat row"
+      ],
+      "source_id": "P1C7-EL-PAK-HAYAT-2023",
+      "source_url": "https://doi.org/10.1016/j.heliyon.2023.e19518",
+      "review_status": "human_review_pending",
+      "transport_to_current_forecast": null
+    },
+    {
+      "id": "SAU-ALBALAWI-2016",
+      "country": "SAU",
+      "publication_year": 2016,
+      "version_note": "Repository publication 2016; thesis front matter submitted April 2015.",
+      "observation_period": "1985–2010",
+      "population": "Saudi national annual per-capita meat and fish series",
+      "sample": {
+        "annual_levels": 26,
+        "annual_changes_maximum": 25,
+        "estimation_n": null,
+        "data_sources": [
+          "Saudi Ministry of Agriculture",
+          "Saudi Ministry of Trade and Industry",
+          "FAO statistical publications"
+        ]
+      },
+      "method": "Rotterdam demand system under preference independence, trend constants; DAP2000/DEMMOD-3",
+      "conditioning": "Conditional on the four-good meat-and-fish group, with Divisia group quantity/expenditure held fixed for price effects.",
+      "compensation": "Hicksian/Slutsky-type conditional elasticities: equation (3.5) divides Slutsky coefficients by conditional budget shares; analyst classification from model, not an invented table label.",
+      "expenditure_base": "meat-and-fish group spending; authors call the result income elasticity",
+      "categories": [
+        "beef",
+        "chicken",
+        "lamb",
+        "fish"
+      ],
+      "identification": "Observational annual price/quantity demand system with model restrictions; no exogenous price instrument established.",
+      "uncertainty": "Table 6.3 coefficient SE reported; Table 6.4 elasticity SE/CI/significance absent.",
+      "limitations": [
+        "Cannot substitute these conditional compensated values for unconditional Marshallian responses.",
+        "Lamb is not demonstrably adult-sheep mutton or mutton/goat.",
+        "Only 26 annual levels; historical series and current target differ.",
+        "Stationarity table marks beef-price changes p=.108 stationary at 11%, a weak threshold, while heading says 5%.",
+        "Group income-flexibility coefficient -0.215 has SE .298; elasticity significance is not established by signs.",
+        "Chapter 5 preliminary rough estimates and Chapter 7 import regressions are different estimators/markets and are not pooled with Table 6.4."
+      ],
+      "public_locators": [
+        "§5.1–5.2 pp.83–84",
+        "§6.3 pp.122–126; equations (3.1)–(3.5)",
+        "Tables 6.3–6.4 pp.127–128"
+      ],
+      "source_id": "P1C7-EL-SAU-ALBALAWI-2016",
+      "source_url": "https://doi.org/10.25904/1912/1672",
+      "review_status": "human_review_pending",
+      "transport_to_current_forecast": null
+    },
+    {
+      "id": "ARE-BASARIR-2013",
+      "country": "ARE",
+      "publication_year": 2013,
+      "observation_period": null,
+      "period_note": "Survey fieldwork year not stated in the retained article; 2012 receipt/acceptance dates are not survey dates.",
+      "population": "500 face-to-face household questionnaires across all seven UAE emirates, allocations by emirate population; weekly purchases and prices",
+      "sample": {
+        "questionnaires": 500,
+        "random_selection": "author-reported",
+        "survey_frame_and_response_rate": null
+      },
+      "method": "LA/AIDS with demographics; SUR/maximum likelihood in SAS; fish equation dropped",
+      "conditioning": "Six-good meat/fish expenditure shares normalized to unity.",
+      "compensation": "Explicit Marshallian Table 2 and Hicksian Table 3",
+      "expenditure_base": "six-product group expenditure; household income also appears as a separate demographic regressor",
+      "categories": [
+        "beef",
+        "lamb",
+        "goat",
+        "chicken",
+        "camel",
+        "fish"
+      ],
+      "identification": "Household purchase unit values and demographics; cluster average prices substituted for missing prices at zero purchases. No exogenous price instrument or full censoring model established.",
+      "uncertainty": "Tables 2–4 have stars, not SE/CI; * .01, ** .05, *** .10.",
+      "limitations": [
+        "Positive compensated beef and lamb own-price estimates violate the usual nonpositive own substitution effect.",
+        "With positive expenditure elasticities, reported Hicksian-minus-Marshallian own effects for beef and chicken are negative, inconsistent with the Slutsky identity and positive shares.",
+        "Lamb and goat are separate; no demonstrated mapping to requested mutton.",
+        "Low equation R-squared .089–.237 is reported; national representativeness cannot be established from the sampling description alone.",
+        "Printed coefficients retained as findings about this publication; no corrected values invented."
+      ],
+      "public_locators": [
+        "Research Methodology pp.34–35",
+        "Results and Discussions p.35",
+        "Tables 2–4 p.37"
+      ],
+      "source_id": "P1C7-EL-ARE-BASARIR-2013",
+      "source_url": "https://www.agrojournal.org/19/01-05.pdf",
+      "review_status": "human_review_pending",
+      "transport_to_current_forecast": null
+    }
+  ],
+  "excluded_studies": [
+    {
+      "id": "USDA-ICP",
+      "disposition": "category_mismatch",
+      "reason": "2005 ICP international system reports broad Meats, not chicken/beef/mutton. The separate 1996 cross-price release is a different vintage. Marginal-utility-constant (Frisch) and real-income-constant elasticities must not be conflated.",
+      "coefficient": null,
+      "reopen": "Obtain a documented species-disaggregated original for the requested country; a broad Meats spreadsheet alone does not reopen a slot.",
+      "source_url": "https://www.ers.usda.gov/data-products/international-food-consumption-patterns/documentation",
+      "review_status": "human_review_pending",
+      "source_id": "P1C7-EL-USDA-ICP"
+    },
+    {
+      "id": "PAK-MEMON-2012",
+      "disposition": "hold_internal_table_label_conflict",
+      "reason": "Indexed author manuscript reports annual published HIES data 2000–2010. Adjacent text labels the price tables inconsistently as Marshallian/Hicksian; expenditure prose swaps chicken/mutton relative to Table 4 headings. No coefficient imported pending original equations and correction.",
+      "coefficient": null,
+      "reopen": "Lawful original with stable table labels, complete definitions, and resolution of chicken/mutton order; do not choose the convenient interpretation.",
+      "source_url": "https://www.researchgate.net/publication/291833833_AN_EMPIRICAL_ANALYSIS_OF_MEAT_DEMAND_A_CASE_STUDY_OF_PAKISTAN",
+      "review_status": "human_review_pending",
+      "source_id": "P1C7-EL-PAK-MEMON-2012"
+    },
+    {
+      "id": "SAU-ALMAHISH-2020",
+      "disposition": "exclude_estimand_mismatch",
+      "reason": "Inverse-demand study models price responses to quantities/scale. Price flexibilities are not ordinary quantity responses to prices; do not take cellwise reciprocals.",
+      "coefficient": null,
+      "reopen": "Full inverse-system Jacobian, expenditure conditioning and valid matrix inversion plus target model justification; or a direct-demand study.",
+      "source_url": "https://doi.org/10.36899/JAPS.2020.2.0040",
+      "review_status": "human_review_pending",
+      "source_id": "P1C7-EL-SAU-ALMAHISH-2020"
+    },
+    {
+      "id": "SAU-KOTB-2026",
+      "disposition": "exclude_category_mismatch",
+      "reason": "ECM-AIDS annual 1990–2024 study uses red meat, poultry and fish. Red meat does not isolate beef or mutton; poultry is not established as chicken only.",
+      "coefficient": null,
+      "reopen": "Original commodity-code mapping disaggregating requested species and matching own/cross estimands.",
+      "source_url": "https://doi.org/10.1007/s44447-026-00172-6",
+      "review_status": "human_review_pending",
+      "source_id": "P1C7-EL-SAU-KOTB-2026"
+    }
+  ],
+  "estimate_file": "elasticity-estimates.json",
+  "estimate_csv": "elasticity-estimates.csv",
+  "estimate_count": 186,
+  "independent_check": "Source and transcription review; not methodological or scholarly acceptance",
+  "human_review": "pending",
+  "full_phase_one_complete": false,
+  "compatible_forecast_parameters": 0,
+  "pooled_cross_study_estimate": null,
+  "inverse_flexibility_reciprocal_allowed": false,
+  "combined_categories_are_species_specific": false,
+  "review_id": "R7-ELASTICITY"
+}

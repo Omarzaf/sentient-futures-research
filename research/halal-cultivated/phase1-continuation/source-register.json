@@ -2841,5 +2841,557 @@
     "status": "held_edition_specific_national_series_lead",
     "sha256": null,
     "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-PAK-HAYAT-2023",
+    "title": "Households food consumption pattern in Pakistan: Evidence from recent household integrated economic survey",
+    "url": "https://doi.org/10.1016/j.heliyon.2023.e19518",
+    "original_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10481291/fullTextXML",
+    "language": "English",
+    "locator": "Methods; Tables 2–4; XML tbl2, tbl3, tbl4",
+    "source_family": "Hayat et al 2023 HIES",
+    "limits": "Pooled meat cannot identify species-specific own or cross effects. Table 4 meat compensated own-price value is positive; this fails the usual nonpositive compensated own-price restriction at the reported point estimate. Methods contain inequality/terminology inconsistencies; reported labels do not establish demand-system regularity. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "original_journal_xml",
+    "status": "bounded_study_reading_with_method_holds",
+    "sha256": "8c63805e5e34f3c3e0e28401476268f04da95298ba8052a14e0f81596e69e737",
+    "bytes": 136652,
+    "authors": [
+      "Naveed Hayat",
+      "Ghulam Mustafa",
+      "Bader Alhafi Alotaibi",
+      "Roshan K. Nayak",
+      "Muhammad Naeem"
+    ],
+    "capture_receipts": [],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-PAK-AUJLA-2019",
+    "title": "Demand Estimates and Projections for Meat in Pakistan by the Year 2030 AD",
+    "url": "https://cer.salu.edu.pk/public/wp-content/uploads/2020/03/Demand-Estimates-and-Projections-for-Meat-in-Pakistan-by-the-Year-2030-AD.pdf",
+    "language": "English",
+    "locator": "Materials and Method, p.26; Tables 5 and 7, pp.30 and 32",
+    "source_family": "Aujla et al 2019 HIES",
+    "limits": "Equation (1) prints Y on the left, though text calls the model log-linear; a literal level-log equation would not make price slopes elasticities. Table 7 species labels are inconsistent: short row labels versus bundled price columns. Table 7 rural -1.712 statistic carries *; exact significance interpretation unresolved. Household HIES consumption omits social events and religious rituals; projection baseline comes from separate official availability figures. Published 2030 projections are not observed demand or new elasticity estimates. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "original_pdf",
+    "status": "bounded_study_reading_with_method_holds",
+    "sha256": "d9f6f91cd903d08baf640422130c524bc5d4793f3ccb4ddecaab550719247d9b",
+    "bytes": 426651,
+    "authors": [
+      "Khalid Mahmood Aujla",
+      "Jamil Lund",
+      "Abid Hussain",
+      "Muhammad Asif"
+    ],
+    "capture_receipts": [],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-SAU-ALBALAWI-2016",
+    "title": "Meat Consumption Pattern in Saudi Arabia",
+    "url": "https://doi.org/10.25904/1912/1672",
+    "original_url": "https://research-repository.griffith.edu.au/server/api/core/bitstreams/75402624-3968-5cce-ad12-6cce4f384335/content",
+    "language": "English",
+    "locator": "Chapter 5; Chapter 6, sections 6.3–6.4; Tables 6.3–6.4",
+    "source_family": "Albalawi thesis",
+    "limits": "Cannot substitute these conditional compensated values for unconditional Marshallian responses. Lamb is not demonstrably adult-sheep mutton or mutton/goat. Only 26 annual levels; historical series and current target differ. Stationarity table marks beef-price changes p=.108 stationary at 11%, a weak threshold, while heading says 5%. Group income-flexibility coefficient -0.215 has SE .298; elasticity significance is not established by signs. Chapter 5 preliminary rough estimates and Chapter 7 import regressions are different estimators/markets and are not pooled with Table 6.4. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "original_pdf",
+    "status": "bounded_study_reading_with_method_holds",
+    "sha256": "e3ed07586ba734c051adcfdf83693da2904ac1ff6c029143de073dbc6466795d",
+    "bytes": 2700096,
+    "authors": [
+      "Saad Basheir M. Albalawi"
+    ],
+    "capture_receipts": [],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-ARE-BASARIR-2013",
+    "title": "An Almost Ideal Demand System Analysis of Meat Demand in UAE",
+    "url": "https://www.agrojournal.org/19/01-05.pdf",
+    "language": "English",
+    "locator": "Research Methodology, pp.34–35; Tables 2–4, p.37",
+    "source_family": "Basarir 2013 survey",
+    "limits": "Positive compensated beef and lamb own-price estimates violate the usual nonpositive own substitution effect. With positive expenditure elasticities, reported Hicksian-minus-Marshallian own effects for beef and chicken are negative, inconsistent with the Slutsky identity and positive shares. Lamb and goat are separate; no demonstrated mapping to requested mutton. Low equation R-squared .089–.237 is reported; national representativeness cannot be established from the sampling description alone. Printed coefficients retained as findings about this publication; no corrected values invented. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "original_pdf",
+    "status": "bounded_study_reading_with_method_holds",
+    "sha256": "e6b4100c935d4aedb26eff0e596a96406bd515350d89e18bf9b8479d9d86f90e",
+    "bytes": 367789,
+    "authors": [
+      "A. Basarir"
+    ],
+    "capture_receipts": [],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-IND-DASTAGIRI-2004",
+    "title": "Demand and Supply Projections for Livestock Products in India",
+    "url": "https://doi.org/10.22004/ag.econ.344973",
+    "original_url": "https://ageconsearch.umn.edu/record/344973",
+    "language": "English",
+    "locator": "Policy Paper 21; sections 2.1–2.3 pp.3–6; Tables 2–4 pp.8–10",
+    "source_family": "Dastagiri 2004 NCAP",
+    "limits": "Author says homogeneity and symmetry restrictions could not be estimated and were not imposed. Printed significance marks do not consistently match ordinary two-sided t thresholds; retain marks and t-values without repairing. Zero consumption treatment and unit-value quality correction not established. Original repository PDF requests failed; methods and tables read from author-uploaded public full-text representation. Pooled expenditure estimates are reported, but pooled numeric price table was not recovered; do not average rural/urban price coefficients. Methods and tables read through an author-uploaded full-text representation; repository and mirror PDF downloads failed. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "public_index_or_author_copy_capture",
+    "status": "bounded_study_reading_with_method_holds",
+    "sha256": null,
+    "authors": [
+      "M. B. Dastagiri"
+    ],
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "7fbe8c0e7b0e9c9c935531664d26b13d5d56fd71271ce58d94bf0a79a7d157d7",
+        "bytes": 30029
+      },
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "f0baf2a56d00415cbce38348a5e325fc4ac05dd786508f7c38e84d77c6ce6be6",
+        "bytes": 30549
+      },
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "adbd4d4ec300895480a8665cc48e61643d07acd397d3f46936f505c6e471955e",
+        "bytes": 29297
+      },
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "f84c42b037bba833c493e8e4707bb53070b079e7ec7e887984a31312a0bd6de6",
+        "bytes": 25342
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-USDA-ICP",
+    "title": "International Food Consumption Patterns",
+    "url": "https://www.ers.usda.gov/data-products/international-food-consumption-patterns/documentation",
+    "language": "English",
+    "locator": "Documentation; 2005 ICP and 1996 cross-price release",
+    "source_family": "USDA international food consumption patterns",
+    "limits": "2005 ICP international system reports broad Meats, not chicken/beef/mutton. The separate 1996 cross-price release is a different vintage. Marginal-utility-constant (Frisch) and real-income-constant elasticities must not be conflated. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "public_index_or_author_copy_capture",
+    "status": "category_mismatch",
+    "sha256": null,
+    "authors": [
+      "USDA Economic Research Service"
+    ],
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "847c1acd01b3bd7c196c61d66ef24b6b7ae41ea1f5f4085059fb9e7f3a7e3285",
+        "bytes": 38413
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-PAK-MEMON-2012",
+    "title": "An Empirical Analysis of Meat Demand: A Case Study of Pakistan",
+    "url": "https://www.researchgate.net/publication/291833833_AN_EMPIRICAL_ANALYSIS_OF_MEAT_DEMAND_A_CASE_STUDY_OF_PAKISTAN",
+    "language": "English",
+    "locator": "Indexed manuscript, Tables 2–4",
+    "source_family": "Memon et al 2012",
+    "limits": "Indexed manuscript text only; not a downloaded full original. Indexed author manuscript reports annual published HIES data 2000–2010. Adjacent text labels the price tables inconsistently as Marshallian/Hicksian; expenditure prose swaps chicken/mutton relative to Table 4 headings. No coefficient imported pending original equations and correction. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "public_index_or_author_copy_capture",
+    "status": "hold_internal_table_label_conflict",
+    "sha256": null,
+    "authors": [
+      "Manzoor H. Memon",
+      "Latifa Mansoor",
+      "Khalid Khan",
+      "Manzoor Ahmed"
+    ],
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "e74281a542e96d0c323839ef43bdf4811d43325f1ad5f354a8f638e13c036716",
+        "bytes": 27959
+      },
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "29f7b2f92874281d8edb29905d03eb43471a760bd371294721d5e94862e6e483",
+        "bytes": 32980
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-SAU-ALMAHISH-2020",
+    "title": "Estimation of Scale Elasticities and Price Flexibilities of Meat and Fish in Saudi Arabia",
+    "url": "https://doi.org/10.36899/JAPS.2020.2.0040",
+    "language": "English",
+    "locator": "Methods; inverse demand tables",
+    "source_family": "Al-Mahish 2020 inverse system",
+    "limits": "Inverse-demand study models price responses to quantities/scale. Price flexibilities are not ordinary quantity responses to prices; do not take cellwise reciprocals. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "public_index_or_author_copy_capture",
+    "status": "exclude_estimand_mismatch",
+    "sha256": null,
+    "authors": [
+      "Mohammed Al-Mahish"
+    ],
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "bd5d73b05723de1ecfdce6665579a851e9f9832deeaa25b50835093f47ee1105",
+        "bytes": 32085
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P1C7-EL-SAU-KOTB-2026",
+    "title": "Dynamic demand for meat products in Saudi Arabia: an ECM-AIDS approach",
+    "url": "https://doi.org/10.1007/s44447-026-00172-6",
+    "language": "English",
+    "locator": "Abstract; data and methods",
+    "source_family": "Kotb 2026 ECM-AIDS",
+    "limits": "ECM-AIDS annual 1990–2024 study uses red meat, poultry and fish. Red meat does not isolate beef or mutton; poultry is not established as chicken only. Single study family; human review and contemporary forecast transport remain unestablished.",
+    "accessed": "2026-10-01",
+    "document_type": "public_index_or_author_copy_capture",
+    "status": "exclude_category_mismatch",
+    "sha256": null,
+    "authors": [
+      "Alaa Ahmed Ahmed Kotb"
+    ],
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "60063876eaa9b34ceceb5cc9ad97161512c89b9d69e554a573d74180914ea1cf",
+        "bytes": 37741
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S01",
+    "title": "ICAR–Directorate of Poultry Research Annual Report 2024 (lead; suspended host)",
+    "url": "https://pdonpoultry.org/wp-content/uploads/2025/07/DPR_AR_2024_E-for-web_opt.pdf",
+    "language": "English",
+    "locator": "indexed title; open: Account Suspended",
+    "source_family": "ICAR-DPR-report-2024",
+    "limits": "Annual report bytes not obtained or read. No findings derived from its snippets.",
+    "accessed": "2026-10-01",
+    "document_type": "failed_original_redirect",
+    "status": "failed_original_redirect",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S02",
+    "title": "New Start-Up initiative for producing Black Soldier Fly meal (BSF) as effective and sustainable fishmeal replacement",
+    "url": "https://www.icar.gov.in/en/new-start-initiative-producing-black-soldier-fly-meal-bsf-effective-and-sustainable-fishmeal",
+    "language": "English",
+    "locator": "dated opening and MoU paragraphs",
+    "source_family": "ICAR-CIBA-2021-startup",
+    "limits": "Government institutional activity account; aquafeed MoU, not observed poultry cost or national sales.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_primary_page",
+    "status": "provider_indexed_primary_page",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S03",
+    "title": "ICAR-CIBA inked MoU for evaluating alternate ingredient to fish meal protein in aqua feeds",
+    "url": "https://www.icar.gov.in/en/icar-ciba-inked-mou-evaluating-alternate-ingredient-fish-meal-protein-aqua-feeds",
+    "language": "English",
+    "locator": "dated opening; director and company research paragraphs",
+    "source_family": "ICAR-CIBA-Insectika-2023",
+    "limits": "Research agreement and intended cost optimization only; no realized poultry cost saving.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_primary_page",
+    "status": "provider_indexed_primary_page",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S04",
+    "title": "Source variation in nutrient profile and the effects of black soldier fly (Hermetia illucens) larva meal inclusion in diet at graded levels on broiler chicken",
+    "url": "https://link.springer.com/article/10.1007/s42690-023-01139-8",
+    "language": "English",
+    "locator": "Abstract; Acknowledgements; Authors and Affiliations; About this article",
+    "source_family": "Raju-BSFL-trials-2023-2024",
+    "limits": "Publisher identifies subscription preview. Full methods, cost tables and raw data not read. ResearchGate preprint 10.21203/rs.3.rs-2760965/v1 is same research family, not independent corroboration.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_extract_publisher_abstract_and_metadata",
+    "status": "provider_extract_publisher_abstract_and_metadata",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S05",
+    "title": "Effect of Tenebrio molitor Supplementation on Performance and Immunity of Broilers under Heat Stress Conditions",
+    "url": "https://researcherslinks.com//current-issues/Effect-of-Tenebrio-molitor-Supplementation/20/1/10073/html",
+    "language": "English",
+    "locator": "indexed publisher abstract; indexed economics table footnote immediately before DISCUSSION; indexed discussion economics paragraph",
+    "source_family": "Amin-heat-stress-mealworm-PJZ-2024",
+    "limits": "HTML and PDF provider opens failed; first direct attempt DNS failed; retry returned HTTP403 security HTML of5573bytes despite .pdf filename. No full table, PDF or original study-site verification. No bypass attempted. Mirror is same source family and unused.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_primary_only_original_blocked",
+    "status": "provider_indexed_primary_only_original_blocked",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S06",
+    "title": "Annual Report 2022–2023",
+    "url": "https://assets.aup.edu.pk/assets/media/assets/6gahfhxj_1728457646_6201.pdf",
+    "language": "English",
+    "locator": "indexed project: Optimization of Environmental and Nutritional Standards for Mass Production of Mealworm under Tropical Environment of Pakistan",
+    "source_family": "AUP-annual-report-2022-2023",
+    "limits": "Page number unavailable in indexed extract. Project cumulative production is not annual commercial sales; original complete report not read.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_institutional_report_original_open_failed",
+    "status": "provider_indexed_institutional_report_original_open_failed",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S07",
+    "title": "Substitution of Soybean Meal with Black Soldier Fly (Hermetia illucens) Larvae Meal in Broiler Diets: Comprehensive Effects on Growth, Gut Health and Physiological Resilience",
+    "url": "https://www.pvj.com.pk/pdf-files/26-058.pdf",
+    "language": "English",
+    "locator": "p312 title/affiliations/abstract; p313 Ethical approval and Preparation and analysis of BSFLM; p314 Tables2–3 and Birds and experimental protocols",
+    "source_family": "Abbas-Cobb500-BSFL-2026",
+    "limits": "Provider detected nine pages, but capture only exposes pp312–315 to assay methods. No whole-paper reading, economic table, explicit trial-site address or experiment date established. Journal country is not trial country; Saudi institutional association is explicit.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_pdf_extract_partial_not_original_bytes",
+    "status": "provider_pdf_extract_partial_not_original_bytes",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S08",
+    "title": "PHYLA official company website",
+    "url": "https://www.phyla.sa/",
+    "language": "English",
+    "locator": "PHYLA history; PHYLA products; How we operate: PHYLA Pro / PHYLA Zero",
+    "source_family": "PHYLA-company-account",
+    "limits": "Undated participant account retrieved2026-10-01. Timeline distinguishes pilot/pre-commercial/future launch; design claims are not independently measured production. No price, sales or actual utilization.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_company_page_and_open_metadata",
+    "status": "provider_indexed_company_page_and_open_metadata",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S09",
+    "title": "Al Ain Facility",
+    "url": "https://www.circabiotech.com/projects/al-ain-facility",
+    "language": "English",
+    "locator": "facility description; Power in Numbers",
+    "source_family": "Circa Biotech participant accounts",
+    "limits": "Undated company annual-output wording has no reporting period or supporting audited series. Insect protein product mass basis ambiguous. Company GMP and LCA assertions not independently checked.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_company_page_and_open_metadata",
+    "status": "provider_indexed_company_page_and_open_metadata",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S10",
+    "title": "UAE launches region’s first waste-to-feed project",
+    "url": "https://masdarcity.ae/news-and-media/news/2023/09/27/uae-launches-regions-first-wastetofeed-project",
+    "language": "English",
+    "locator": "CEO quote beginning At a full industrial scale; initial fertilizer and later expansion paragraph",
+    "source_family": "Circa Biotech participant accounts",
+    "limits": "URL date2023-09-27 and provider relative publication metadata conflict; exact event/publication date held. Company quote repeats participant family, not independent measurement. Aquaculture fishmeal expenditure statement cannot become poultry feed cost.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_primary_participant_page_and_open_metadata",
+    "status": "provider_indexed_primary_participant_page_and_open_metadata",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S11",
+    "title": "Comparative evaluation of Acheta domesticus and Hermetia illucens as alternative protein sources for the growth, health, and meat quality of the broiler",
+    "url": "https://www.frontiersin.org/journals/animal-science/articles/10.3389/fanim.2025.1531761/full",
+    "language": "English",
+    "locator": "indexed methods sentence specifying UVAS Ravi Campus, Pattoki, Lahore, Pakistan",
+    "source_family": "UVAS-Ross308-insect-trial-2025",
+    "limits": "Country trial-site lead explicit; full text and cost endpoints not retrieved. No numerical effect adopted.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_primary_article_lead",
+    "status": "provider_indexed_primary_article_lead",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-FEED-S12",
+    "title": "iFarm, Palm Co. Win The CovHack Virtual Innovation Challenge on Circular Food Economy",
+    "url": "https://moccae.gov.ae/Handlers/DownloadPDF.ashx?id=58786",
+    "language": "English",
+    "locator": "heading date; Circa Biotech teams-category paragraph",
+    "source_family": "MOCCAE-CovHack-2020",
+    "limits": "Provider Published4monthsago metadata conflicts with printed2020date. Innovation-award participation corroborates activity, not actual output, sales or approval.",
+    "accessed": "2026-10-01",
+    "document_type": "provider_indexed_government_document",
+    "status": "provider_indexed_government_document",
+    "sha256": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-JOR4015",
+    "title": "Jordan General Iftaa Department, fatwa4015: feeding birds and animals worms and insects",
+    "url": "https://www.aliftaa.jo/QuestionPrint.aspx?QuestionId=4015",
+    "language": "Arabic",
+    "document_type": "named_institution_fatwa",
+    "locator": "Question and four substantive answer paragraphs; fatwa4015,23October2025",
+    "source_family": "General Iftaa Department of Jordan",
+    "limits": "Full24-line issuer passage through provider; no originalHTMLdownload. Translation and quoted-school attributions require qualified review.",
+    "published": "2025-10-23",
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "fa80466a50390d13558c384b46031431b72f4f483b83509c7aa3d9981938713e",
+        "bytes": 30332
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-ASK125569",
+    "title": "Live worms / Is manure impure? Attributed Askimam answer, mirrored by IslamQA.org",
+    "url": "https://islamqa.org/hanafi/askimam/125569/live-worms-is-manure-impure/",
+    "original_url": "https://askimam.org/public/question_detail/39302",
+    "language": "English and Arabic",
+    "document_type": "attributed_answer_mirror",
+    "locator": "Question1, answer1 and footnote1 citing Deoband question6945 and Tuhfat al-fuqaha3:65",
+    "source_family": "Askimam under Ebrahim Desai; mirror not independent corroboration",
+    "limits": "Original issuer page and cited Deoband item not acquired; direct request is about live garden worms, not industrial insect meal.",
+    "published": null,
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "fa80466a50390d13558c384b46031431b72f4f483b83509c7aa3d9981938713e",
+        "bytes": 30332
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-MUGHNI7800",
+    "title": "Ibn Qudama, al-Mughni, section7800 on jallala flesh and milk",
+    "url": "https://www.islamweb.net/ar/library/content/15/6817/فصل-حكم-أكل-لحوم-الجلالة-وألبانها",
+    "language": "Arabic",
+    "document_type": "primary_juristic_text_provider_full_section",
+    "locator": "Al-Mughni, displayed9:330, section7800",
+    "source_family": "Ibn Qudama; al-Mughni digital edition",
+    "limits": "Full displayed section retrieved through digital library; print edition and broader context not verified. This is a jallala discussion, not a product-specific insect-feed ruling.",
+    "published": null,
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "d4a1f5535e14e5354ccf6d6315a655a8b3dc5f51cc8f4fece390a5c5e809bb8a",
+        "bytes": 26957
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-MAJMU-JALLALA",
+    "title": "Al-Nawawi, al-Majmu, food chapter on jallala",
+    "url": "https://www.islamweb.net/ar/library/content/14/5286/حيوان-البحر-يحل-منه-السمك",
+    "language": "Arabic",
+    "document_type": "primary_juristic_text_indexed",
+    "locator": "Food chapter, jallala discussion; displayed volume9",
+    "source_family": "Al-Nawawi; al-Majmu digital edition",
+    "limits": "Indexed passage and URL label differ in granularity; full edition/originalpage not acquired. Not an industrial insect-feed ruling.",
+    "published": null,
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "231873aebc37e1a33d7d5bf8c2477018d59ba93bcb23bba7b0088bf21edee526",
+        "bytes": 29868
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-EGY1983-LEAD",
+    "title": "Egypt Dar al-Ifta: slaughterhouse waste, dead animals and pig material in feed",
+    "url": "https://dar-alifta.org/ar/fatwa/details/14373/حكم-استخدام-مخلفات-المجازر-والحيوانات-النافقة-والخنزير-في-الأعلاف",
+    "language": "Arabic",
+    "document_type": "institutional_attribution_lead",
+    "locator": "Indexed answer, school attributions and Dasuqi1:58–62 reference",
+    "source_family": "Egypt Dar al-Ifta",
+    "limits": "Substantive quoted section is indexed, but complete answer/date and underlying Maliki passage not acquired. Hold as source-route evidence, not an adopted school ruling.",
+    "published": null,
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "held_primary_text_lead",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "7c478caf91a9ee898bb6f5f023dfacb1db93e56a5a1e9e93211a6f43125bc70d",
+        "bytes": 34537
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-ETH2011",
+    "title": "Chakravorty, Ghosh and Meyer-Rochow2011: Nyishi and Galo entomophagy and entomotherapy",
+    "url": "https://link.springer.com/article/10.1186/1746-4269-7-5",
+    "language": "English",
+    "document_type": "primary_ethnographic_study",
+    "locator": "Methods; Results and Discussion; DOI10.1186/1746-4269-7-5",
+    "source_family": "Chakravorty-Ghosh-Meyer-Rochow Arunachal fieldwork",
+    "limits": "Indexed substantive methods/results; publisher identity opened, PMC directopen met challenge. Observation years are not specified in inspected passages. Qualitative scoped informants, not population prevalence.",
+    "published": "2011",
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "7c478caf91a9ee898bb6f5f023dfacb1db93e56a5a1e9e93211a6f43125bc70d",
+        "bytes": 34537
+      }
+    ],
+    "human_verification": "Pending"
+  },
+  {
+    "id": "R7-F-ETH2013",
+    "title": "Chakravorty, Ghosh and Meyer-Rochow2013: six tribes of Eastern Arunachal Pradesh",
+    "url": "https://link.springer.com/article/10.1186/1746-4269-9-50",
+    "language": "English",
+    "document_type": "primary_ethnographic_study",
+    "locator": "Abstract and introductory scope; DOI10.1186/1746-4269-9-50",
+    "source_family": "Chakravorty-Ghosh-Meyer-Rochow Arunachal fieldwork",
+    "limits": "Indexed publisher abstract/scope and openedpublisheridentity; related authors/programme, different sampled groups, not independent nationwide corroboration.",
+    "published": "2013-07-19",
+    "accessed": "2026-10-01",
+    "sha256": null,
+    "status": "bounded_authority_or_ethnographic_passage",
+    "capture_receipts": [
+      {
+        "kind": "provider_capture_not_original_bytes",
+        "sha256": "7c478caf91a9ee898bb6f5f023dfacb1db93e56a5a1e9e93211a6f43125bc70d",
+        "bytes": 34537
+      }
+    ],
+    "human_verification": "Pending"
   }
 ]

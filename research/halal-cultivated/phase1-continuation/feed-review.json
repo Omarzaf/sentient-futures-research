@@ -1,0 +1,578 @@
+{
+  "schema": "phase-one-insect-feed-review/v1",
+  "as_of": "2026-10-01",
+  "market_definition": "Observed annual value of insect-derived meal sold as animal-feed input within each country; product/year/currency/coverage must be explicit. This packet does not substitute production, capacity, project output or all-feed market totals.",
+  "definitions": {
+    "national_insect_meal_market": "Observed annual domestic sales value of insect-derived meal sold as an animal-feed ingredient, with species/product definition and country coverage; do not include live insects, oil, frass, generic compound feed or forecast revenue unless separately measured and labelled.",
+    "cost_outcomes": "Diet ingredient price, formulated-feed cost per kg, feed intake, FCR (feed per bodyweight gain), feed cost per kg gain, total farm production cost and retail chicken price are different outcomes.",
+    "mechanism": "As an accounting identity for compatible units, feed cost per kg liveweight gain equals formulated-feed cost per kg multiplied by FCR. Other farm costs, yield, mortality, processing, transport, regulation and margins affect chicken cost. This identity supplies no parameter or observed causal effect.",
+    "eligibility": "Feed is an input to poultry production and is excluded from human-protein totals; no demand elasticity, adoption weight or halal verdict follows from these economic records."
+  },
+  "countries": [
+    {
+      "requirement_id": "FEED-IND",
+      "country": "IND",
+      "country_name": "India",
+      "market_value": null,
+      "market_currency": null,
+      "market_year": null,
+      "market_volume": null,
+      "market_volume_unit": null,
+      "market_observation_period": null,
+      "human_review": "pending",
+      "final_requirement_completion": false,
+      "industry_chicken_cost_effect": null,
+      "forecast_parameter": null,
+      "religious_status": "Not assessed here; coordinator owns named-school feed analysis.",
+      "unknown_interpretation": "Null is unmeasured in the bounded inspected evidence, not zero market size or evidence of no economic effect.",
+      "market_reopening_trigger": "An accessible country-specific statistical series or original study must define insect-meal product scope, observed sales period, price/value units, sample/coverage and uncertainty. Generic animal-feed totals or global forecasts remain ineligible.",
+      "claim_ids": [
+        "R7-FEED-C01",
+        "R7-FEED-C02",
+        "R7-FEED-C03"
+      ],
+      "source_ids": [
+        "R7-FEED-S01",
+        "R7-FEED-S02",
+        "R7-FEED-S03",
+        "R7-FEED-S04"
+      ],
+      "coverage": "Primary publisher abstract supplies biological feed-performance evidence and counterevidence; institutional research accounts establish named activity. This bounded packet does not establish an observed national market value or a verified monetary poultry-cost estimate.",
+      "product": {
+        "species": "Hermetia illucens",
+        "form": "partially defatted larvae meal in broiler trials; separate aquafeed research",
+        "substrate": null,
+        "substrate_limit": "Trial substrate is not in accessible publisher abstract. ICAR-CIBA kitchen/restaurant-waste context belongs to a separate aquafeed collaboration and is not imputed to these trial lots."
+      },
+      "trial": {
+        "source_id": "R7-FEED-S04",
+        "publication": "online 2023-11-30; issue February 2024",
+        "experiment_dates": null,
+        "site": "ICAR-DPR Hyderabad affiliation; exact trial site not established from abstract",
+        "design": "Two male-broiler experiments; n=216 with 12 replicates of 6 per diet and n=1500 with 15 replicates of 25 per diet.",
+        "diet_inclusion_percent": [
+          [
+            0,
+            2.5,
+            5
+          ],
+          [
+            0,
+            5,
+            7.5,
+            10
+          ]
+        ],
+        "soybean_replacement_percent": null,
+        "measured_fcr_values": null,
+        "diet_cost": null,
+        "feed_cost_per_kg_gain": null,
+        "counterevidence": "Abstract says FCR increased during weeks 3–5 and higher 7.5/10% diets depressed growth/intake, so early growth benefit does not imply a uniform efficiency or monetary benefit.",
+        "locators": [
+          "Abstract",
+          "Acknowledgements"
+        ]
+      },
+      "market_activity": {
+        "kind": "named sample providers and research MoU",
+        "observed_sales_value": null,
+        "observed_production_tonnes": null,
+        "announced_capacity_tonnes": null,
+        "commercial_scale_verified": false,
+        "limits": "Sample provision and cost-optimization research cannot quantify the market."
+      },
+      "cost_assessment": {
+        "position": "Conditional technical substitution potential, with dose-related adverse results; monetary cost direction unknown.",
+        "mechanism": "The replacement ingredient’s delivered price and digestible nutrient profile must be assessed with its full diet formulation and FCR. Drying/defatting and substrate composition can alter the trade-off.",
+        "causal_scope": "Experimental feed response only; no industry causal effect or retail-price pass-through established."
+      },
+      "reopen": [
+        "Retrieve lawful accessible complete original trial methods/tables or author-deposited version; verify substrate, exact site, experiment dates and any cost endpoints.",
+        "Find observed Indian insect-meal transaction or production data with sector allocation, rather than aquafeed MoUs or global forecasts."
+      ],
+      "retrieval_cutoff": "2026-10-01",
+      "assessment_status": "partial_checked; market and monetary poultry-cost evidence unresolved",
+      "search_boundary": "Broad country economics search plus trial follow-up; no exhaustive national statistics or supplier-sales audit. Annual-report host suspended; changed to original publisher abstract. Full article remains subscription preview; no purchase or access bypass.",
+      "review_id": "R7-FEED-ECONOMICS"
+    },
+    {
+      "requirement_id": "FEED-PAK",
+      "country": "PAK",
+      "country_name": "Pakistan",
+      "market_value": null,
+      "market_currency": null,
+      "market_year": null,
+      "market_volume": null,
+      "market_volume_unit": null,
+      "market_observation_period": null,
+      "human_review": "pending",
+      "final_requirement_completion": false,
+      "industry_chicken_cost_effect": null,
+      "forecast_parameter": null,
+      "religious_status": "Not assessed here; coordinator owns named-school feed analysis.",
+      "unknown_interpretation": "Null is unmeasured in the bounded inspected evidence, not zero market size or evidence of no economic effect.",
+      "market_reopening_trigger": "An accessible country-specific statistical series or original study must define insect-meal product scope, observed sales period, price/value units, sample/coverage and uncertainty. Generic animal-feed totals or global forecasts remain ineligible.",
+      "claim_ids": [
+        "R7-FEED-C04",
+        "R7-FEED-C05",
+        "R7-FEED-C06"
+      ],
+      "source_ids": [
+        "R7-FEED-S05",
+        "R7-FEED-S06",
+        "R7-FEED-S11"
+      ],
+      "coverage": "Indexed original-paper cost direction, institution-reported project quantity and separately located poultry research provide substantive leads. Full economics table and national sales remain unverified.",
+      "product": {
+        "species": "Tenebrio molitor in heat-stress supplement trial; mealworm species not explicit in the university report excerpt",
+        "form": "dried mealworm supplementation; project meal",
+        "substrate": null,
+        "substrate_limit": "Substrate not established in inspected passages."
+      },
+      "trial": {
+        "source_id": "R7-FEED-S05",
+        "publication": "indexed 2024 paper; exact publication date unknown",
+        "experiment_dates": null,
+        "site": null,
+        "site_limit": "Peshawar department affiliation is indexed; exact heat-stress experiment site not independently verified. S11 is a different UVAS trial and cannot fill this gap.",
+        "n": 150,
+        "temperature_celsius_range": [
+          32,
+          38
+        ],
+        "inclusion_g_per_kg_feed": [
+          0,
+          0.5,
+          1,
+          1.5,
+          2
+        ],
+        "soybean_replacement_percent": null,
+        "diet_cost": null,
+        "feed_cost_per_kg_gain": null,
+        "net_profit_effect": null,
+        "measured_fcr_values": null,
+        "indexed_price_leads": [
+          {
+            "value": 250,
+            "currency": "PKR",
+            "unit": "per kg broiler",
+            "status": "held indexed table footnote; not current market price"
+          },
+          {
+            "value": 150,
+            "currency": "PKR",
+            "unit": "per 100 g dried Tenebrio molitor",
+            "status": "held indexed table footnote; date and local market basis unverified"
+          }
+        ],
+        "locators": [
+          "indexed abstract",
+          "economics footnote preceding Discussion",
+          "Discussion economics paragraph"
+        ],
+        "counterevidence": "Higher feed cost accompanies the reported return/profit improvement. Do not rewrite this as cheaper formulated feed, lower national chicken prices or a transferable margin."
+      },
+      "market_activity": {
+        "source_id": "R7-FEED-S06",
+        "kind": "university project self-report",
+        "quantity": 400,
+        "unit": "kg mealworm meal during project",
+        "time": "project cumulative quantity within report labelled 2022–2023; start/end unspecified",
+        "annualized_quantity": null,
+        "observed_sales_value": null,
+        "limits": "Research output and farmer training are not national commercial sales. Full annual-report page not obtained."
+      },
+      "cost_assessment": {
+        "position": "Indexed original discussion supports an attributed, trial-specific direction of higher feed cost and higher returns; numerical net effect remains held.",
+        "mechanism": "Improved gain in heat-stressed birds can increase gross return despite more expensive feed. Baseline heat stress, sale price, supplement price and dose constrain transfer.",
+        "causal_scope": "Reported trial association/intervention finding pending full methods/tables; no industry estimate."
+      },
+      "reopen": [
+        "Obtain lawful accessible original PJZ paper and inspect economics table, experiment dates/site, cost denominator and statistical uncertainty; do not estimate missing table cells from snippets.",
+        "Retrieve the university report’s complete project page to verify cumulative quantity, species and project duration.",
+        "Inspect UVAS paper independently for compatible monetary outcomes; do not merge trials by country name.",
+        "Seek observed commercial insect-meal sales series with country scope."
+      ],
+      "retrieval_cutoff": "2026-10-01",
+      "assessment_status": "partial_checked; market and monetary poultry-cost evidence unresolved",
+      "search_boundary": "After two provider failures, changed retrieval route to bounded direct request, then stopped at the security challenge. No further repeated queries or bypass. Dedicated national market statistics remain unexamined.",
+      "review_id": "R7-FEED-ECONOMICS"
+    },
+    {
+      "requirement_id": "FEED-SAU",
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "market_value": null,
+      "market_currency": null,
+      "market_year": null,
+      "market_volume": null,
+      "market_volume_unit": null,
+      "market_observation_period": null,
+      "human_review": "pending",
+      "final_requirement_completion": false,
+      "industry_chicken_cost_effect": null,
+      "forecast_parameter": null,
+      "religious_status": "Not assessed here; coordinator owns named-school feed analysis.",
+      "unknown_interpretation": "Null is unmeasured in the bounded inspected evidence, not zero market size or evidence of no economic effect.",
+      "market_reopening_trigger": "An accessible country-specific statistical series or original study must define insect-meal product scope, observed sales period, price/value units, sample/coverage and uncertainty. Generic animal-feed totals or global forecasts remain ineligible.",
+      "claim_ids": [
+        "R7-FEED-C07",
+        "R7-FEED-C08"
+      ],
+      "source_ids": [
+        "R7-FEED-S07",
+        "R7-FEED-S08"
+      ],
+      "coverage": "Primary company timeline and partial original-paper extract establish a relevant research/supplier context; no verified national market estimate, actual industrial throughput or poultry-cost delta.",
+      "product": {
+        "species": "Hermetia illucens",
+        "form": "PHYLA protein powder; separate trial full-fat dried meal from Hindustan Protein, India",
+        "substrate": null,
+        "substrate_limit": "Company says organic waste generically; trial supplier substrate unreported in inspected extract. These are separate source/product chains."
+      },
+      "trial": {
+        "source_id": "R7-FEED-S07",
+        "publication": "2026-02-27; Pakistan Veterinary Journal 46(2):312–320",
+        "experiment_dates": null,
+        "site": null,
+        "site_limit": "Saudi university affiliations and KFU ethics approval; physical trial country/site not explicitly established in captured methods. Not Pakistan evidence merely because of journal title.",
+        "n": 360,
+        "breed": "male Cobb500",
+        "treatment_period_days": [
+          22,
+          35
+        ],
+        "soybean_replacement_percent": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "bsfl_g_per_kg_diet": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150
+        ],
+        "diet_cost": null,
+        "feed_cost_per_kg_gain": null,
+        "measured_fcr_values": null,
+        "locators": [
+          "pp312–314",
+          "Table 3"
+        ],
+        "counterevidence": "Do not confuse 30% soybean replacement with 30% total diet. Table 3 changes bran, corn and oil alongside BSFL; economic effects require whole-diet accounting and full-paper review.",
+        "diet_basis": "as-fed complete diet; Table 3 Ingredients per kg as fed"
+      },
+      "market_activity": {
+        "source_id": "R7-FEED-S08",
+        "kind": "undated company timeline and advertised system specification",
+        "claimed_timeline": [
+          {
+            "year": 2024,
+            "state": "pilot industrial systems"
+          },
+          {
+            "year": 2025,
+            "state": "pre-commercial operations / initial market entry; company says off-takers signed"
+          },
+          {
+            "year": 2026,
+            "state": "industrial facilities will launch"
+          }
+        ],
+        "advertised_design": [
+          {
+            "system": "PHYLA Pro",
+            "input_value": 1000000,
+            "input_unit": "tons organic waste/year",
+            "output_value": 200000,
+            "output_relation": "over",
+            "output_unit": "tons protein/year",
+            "status": "company system-design claim; deployment/actual production unverified"
+          },
+          {
+            "system": "PHYLA Zero",
+            "input_value": 10,
+            "input_unit": "tons waste/month",
+            "output_value": null,
+            "status": "company design claim"
+          }
+        ],
+        "actual_production": null,
+        "observed_sales_value": null,
+        "limits": "This bounded packet does not establish a country total, actual utilization, commissioning or audited sales; retain quoted scale only as attributed design, not baseline supply."
+      },
+      "cost_assessment": {
+        "position": "No measured monetary feed/chicken cost effect in inspected country-associated evidence.",
+        "mechanism": "Local production could substitute imports, but insect processing, waste handling, energy and delivered nutrient prices determine whether cost decreases. Trial FCR response alone cannot identify those costs.",
+        "causal_scope": "Company intent and biological trial abstract; industry cost-saving hypothesis remains unquantified."
+      },
+      "reopen": [
+        "Verify trial’s physical site and full economic endpoints from complete original article.",
+        "Find a dated commissioning/output account and audited sales/transaction evidence for the Saudi supplier.",
+        "Obtain a complete locally priced broiler formulation comparison with uncertainty before attributing a chicken-cost effect."
+      ],
+      "retrieval_cutoff": "2026-10-01",
+      "assessment_status": "partial_checked; market and monetary poultry-cost evidence unresolved",
+      "search_boundary": "Primary supplier timeline retained; partnership social post excluded from effect claims. No exhaustive market statistics, commercial invoice or regulator-production audit.",
+      "review_id": "R7-FEED-ECONOMICS"
+    },
+    {
+      "requirement_id": "FEED-ARE",
+      "country": "ARE",
+      "country_name": "United Arab Emirates",
+      "market_value": null,
+      "market_currency": null,
+      "market_year": null,
+      "market_volume": null,
+      "market_volume_unit": null,
+      "market_observation_period": null,
+      "human_review": "pending",
+      "final_requirement_completion": false,
+      "industry_chicken_cost_effect": null,
+      "forecast_parameter": null,
+      "religious_status": "Not assessed here; coordinator owns named-school feed analysis.",
+      "unknown_interpretation": "Null is unmeasured in the bounded inspected evidence, not zero market size or evidence of no economic effect.",
+      "market_reopening_trigger": "An accessible country-specific statistical series or original study must define insect-meal product scope, observed sales period, price/value units, sample/coverage and uncertainty. Generic animal-feed totals or global forecasts remain ineligible.",
+      "claim_ids": [
+        "R7-FEED-C09",
+        "R7-FEED-C10",
+        "R7-FEED-C11"
+      ],
+      "source_ids": [
+        "R7-FEED-S09",
+        "R7-FEED-S10",
+        "R7-FEED-S12"
+      ],
+      "coverage": "Company facility output wording, host’s expansion account and government innovation record establish activity. They do not measure national insect-meal market value or causal poultry-cost reduction.",
+      "product": {
+        "species": "Hermetia illucens / black soldier fly",
+        "form": "insect protein/meal, separate oil and frass co-products",
+        "substrate": "pre-consumer food waste (Al Ain company account)",
+        "substrate_limit": "Waste composition and production-lot specifications unverified; no school ruling or feed certificate inferred."
+      },
+      "trial": null,
+      "market_activity": {
+        "kind": "participant accounts with distinct quantities and unresolved dates",
+        "records": [
+          {
+            "source_id": "R7-FEED-S09",
+            "metric": "company-labelled insect protein produced annually",
+            "value": 1200,
+            "unit": "tons/year as stated",
+            "year": null,
+            "site": "Al Hiyar, Al Ain",
+            "status": "reported company annual-output wording; reporting period, measured utilization and mass basis unverified"
+          },
+          {
+            "source_id": "R7-FEED-S09",
+            "metric": "food waste diverted annually",
+            "value": 6000,
+            "unit": "tons/year as stated",
+            "year": null,
+            "status": "company waste-input/diversion claim; not feed-market volume"
+          },
+          {
+            "source_id": "R7-FEED-S10",
+            "metric": "planned full industrial-scale animal feed",
+            "value": 22000,
+            "unit": "tonnes/year",
+            "year": null,
+            "status": "future plan; not actual output"
+          },
+          {
+            "source_id": "R7-FEED-S10",
+            "metric": "initial organic fertilizer",
+            "value": 1.5,
+            "unit": "tonnes/month",
+            "year": null,
+            "status": "launch wording; excluded from insect-meal market"
+          }
+        ],
+        "observed_sales_value": null,
+        "national_aggregation_eligible": false,
+        "limits": "Do not compare 1200 and 22000 as measured growth or add them. Product basis, dates and status differ. Participant host quote is not independent company-output corroboration."
+      },
+      "cost_assessment": {
+        "position": "No accessible UAE broiler trial or monetary poultry-cost result obtained within this bounded search.",
+        "mechanism": "Food-waste conversion and local feed supply are potential input channels; processing, collection and distribution costs, formulation and bird performance determine net chicken cost.",
+        "causal_scope": "Company viability and sustainability statements do not establish a price or cost change. Aquaculture fishmeal expense cannot become a poultry feed cost share."
+      },
+      "reopen": [
+        "Obtain dated output and sales records separating meal, pure protein, oil, frass, domestic sales and exports.",
+        "Resolve Masdar event/publication date from the original dated page or public archive; do not infer from URL alone.",
+        "Find original UAE broiler formulation/FCR/cost data and delivered insect-meal prices."
+      ],
+      "retrieval_cutoff": "2026-10-01",
+      "assessment_status": "partial_checked; market and monetary poultry-cost evidence unresolved",
+      "search_boundary": "Primary participant/company and official innovation records checked through provider extracts; no national price series, audited transactions or local broiler economic experiment identified. No exhaustive absence claim.",
+      "review_id": "R7-FEED-ECONOMICS"
+    }
+  ],
+  "schools": [
+    {
+      "id": "FI-SCHOOL-HANAFI",
+      "school": "Hanafi",
+      "source_ids": [
+        "R7-F-ASK125569"
+      ],
+      "claim_ids": [
+        "R7-CO-HANAFI"
+      ],
+      "status": "attributed_mirror_with_primary_gap",
+      "input_assessment": "Garden live-worm question; no inspected industrial insect-meal ruling.",
+      "jallala_boundary": "Quoted mixed-feed/changed-flesh distinction; original cited edition unverified.",
+      "poultry_outcome": "No product-specific determination.",
+      "unknowns": [
+        "Direct Askimam/Deoband instrument and classical edition",
+        "Species/substrate/processing and qualified application to meal"
+      ],
+      "reopen": "Retrieve issuer answer/Deoband6945 and exact Tuhfat al-fuqaha3:65, then assess a defined formulation.",
+      "requirement_id": "FEED-SCHOOLS",
+      "human_review": "pending",
+      "school_consensus_established": false,
+      "automatic_human_food_rule_transfer": false,
+      "product_certificate": null
+    },
+    {
+      "id": "FI-SCHOOL-MALIKI",
+      "school": "Maliki",
+      "source_ids": [],
+      "claim_ids": [],
+      "status": "bounded_unresolved_primary_text_gap",
+      "held_source_ids": [
+        "R7-F-EGY1983-LEAD"
+      ],
+      "input_assessment": "No directly inspected Maliki insect-feed instrument in this run.",
+      "jallala_boundary": "Later institutional attribution and a Dasuqi locator are leads, not an adopted school rule.",
+      "poultry_outcome": "Unknown for a defined insect-meal formulation.",
+      "unknowns": [
+        "Original Dasuqi1:58–62 passage and edition",
+        "Direct Maliki treatment of feed/insect/input distinctions"
+      ],
+      "reopen": "Acquire and check the cited Maliki passage or a named primary Maliki feed ruling; do not infer feed status from human insect edibility.",
+      "requirement_id": "FEED-SCHOOLS",
+      "human_review": "pending",
+      "school_consensus_established": false,
+      "automatic_human_food_rule_transfer": false,
+      "product_certificate": null
+    },
+    {
+      "id": "FI-SCHOOL-SHAFII",
+      "school": "Shafii",
+      "source_ids": [
+        "R7-F-JOR4015",
+        "R7-F-MAJMU-JALLALA"
+      ],
+      "claim_ids": [
+        "R7-CO-JOR",
+        "R7-CO-SHAFII"
+      ],
+      "status": "named_institution_and_primary_text_with_limits",
+      "input_assessment": "Issuer separates live/dead insects and mixture composition; its answer is conditional.",
+      "jallala_boundary": "Classical smell/taint discussion cannot become a universal insect-inclusion cutoff.",
+      "poultry_outcome": "A named formulation, harm evidence and qualified interpretation remain necessary.",
+      "unknowns": [
+        "Exact editions of cited classical passages",
+        "Resolution of the source’s pronoun/attribution wording",
+        "Product-specific substrate/processing facts"
+      ],
+      "reopen": "Qualified Arabic review of fatwa4015 and cited Fath al-qarib58/Tuhfat al-muhtaj9:386 against a defined meal.",
+      "requirement_id": "FEED-SCHOOLS",
+      "human_review": "pending",
+      "school_consensus_established": false,
+      "automatic_human_food_rule_transfer": false,
+      "product_certificate": null
+    },
+    {
+      "id": "FI-SCHOOL-HANBALI",
+      "school": "Hanbali",
+      "source_ids": [
+        "R7-F-MUGHNI7800"
+      ],
+      "claim_ids": [
+        "R7-CO-HANBALI"
+      ],
+      "status": "primary_displayed_section_read_with_edition_and_application_gaps",
+      "input_assessment": "Jallala passage found; specific insect species/meal classification not established.",
+      "jallala_boundary": "Ibn Qudama questions whether al-Qadi’s majority-impure-feed criterion represents Ahmad’s wording; the passage also records differing reports.",
+      "poultry_outcome": "No universal threshold or product certificate supplied.",
+      "unknowns": [
+        "Verified print edition, broader chapter context and separately cited insect-purity passage",
+        "Product-specific application"
+      ],
+      "reopen": "Verify the print edition and surrounding context for the retrieved section 7800, and acquire al-Mughni 1:32 cited by Jordan; then assess species, substrate and mixture scope.",
+      "requirement_id": "FEED-SCHOOLS",
+      "human_review": "pending",
+      "school_consensus_established": false,
+      "automatic_human_food_rule_transfer": false,
+      "product_certificate": null
+    },
+    {
+      "id": "FI-SCHOOL-JAFARI",
+      "school": "Jafari",
+      "source_ids": [
+        "P1C6-REL-ISTIBRA219",
+        "J6"
+      ],
+      "claim_ids": [
+        "R7-CO-JAFARI"
+      ],
+      "status": "named_authority_rule_without_insect_specific_determination",
+      "input_assessment": "Human-excrement habituation and a separate pig-milk subcase; neither classifies all insects.",
+      "jallala_boundary": "Insect substrate and feeding insects to poultry cannot be equated without a matched fact pattern.",
+      "poultry_outcome": "Unknown for a specified industrial meal.",
+      "unknowns": [
+        "Named-authority insect-meal ruling",
+        "Insect substrate and poultry feeding history"
+      ],
+      "reopen": "Obtain an explicit ruling matched to species, substrate, processing and poultry use; retain Sistani-only attribution.",
+      "requirement_id": "FEED-SCHOOLS",
+      "human_review": "pending",
+      "school_consensus_established": false,
+      "automatic_human_food_rule_transfer": false,
+      "product_certificate": null
+    }
+  ],
+  "institutional_context_claim_ids": [
+    "R7-CO-JOR"
+  ],
+  "ethnography": {
+    "id": "FI-SOUTH-ASIA",
+    "requirement_id": "INSECTS-SOUTH-ASIA",
+    "paragraph": "Field studies in Arunachal Pradesh document insect collection and eating among particular communities: Nyishi and Galo respondents in East Kameng and West Siang in a study published in 2011, and six groups in Tirap and Changlang in a study published in 2013. Each study interviewed 20 informants per group. The former explicitly describes its evidence as qualitative; both concern situated knowledge and uses rather than representative consumption prevalence. The studies share an author and research programme. These accounts do not describe all South Asia, establish medicinal efficacy, or provide human-protein demand totals; publication years are not established fieldwork dates.",
+    "source_ids": [
+      "R7-F-ETH2011",
+      "R7-F-ETH2013"
+    ],
+    "claim_ids": [
+      "R7-CO-ETH2011",
+      "R7-CO-ETH2013"
+    ],
+    "paragraph_count": 1,
+    "publication_year_is_observation_year": false,
+    "representative_population_prevalence": null,
+    "human_protein_total": null,
+    "clinical_efficacy_established": false,
+    "human_review": "pending"
+  },
+  "scope_rules": [
+    "Input species/purity, substrate, insect state, processing, feeding mixture and eventual poultry status are separate.",
+    "Human-insect consumption rules do not automatically establish feed rules.",
+    "Named rulings are attributed, not school consensus or national product certification.",
+    "Feed never enters human alternative-protein demand totals."
+  ],
+  "human_protein_accounting_eligible": false,
+  "full_phase_one_complete": false,
+  "human_review": "pending",
+  "review_ids": [
+    "R7-FEED-ECONOMICS",
+    "R7-FEED-SCHOOLS-ETHNOGRAPHY"
+  ]
+}
