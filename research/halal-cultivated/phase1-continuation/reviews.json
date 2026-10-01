@@ -1,0 +1,37 @@
+[
+  {
+    "id": "R-DGFT",
+    "claim_ids": [
+      "P1C-C02",
+      "P1C-C03"
+    ],
+    "method": "Independent visual reading of original full PDF pages before receiving coordinator conclusions; reconciled with coordinator reading",
+    "scope": "Identifiers, operative paragraphs, dates, tariff/destination limits and unchanged provisions",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R-FSSAI",
+    "claim_ids": [
+      "P1C-C01",
+      "P1C-C08"
+    ],
+    "method": "Independent visual reading of section heading, exact row and status legend; separate coordinator extraction",
+    "scope": "Register identity, applicant/product/file/receipt and ambiguity of stage 7; mismatched regulation link and actual returned register identity",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R-LEGAL",
+    "claim_ids": [
+      "P1C-C04",
+      "P1C-C05",
+      "P1C-C06",
+      "P1C-C07"
+    ],
+    "method": "Blind source-capture reread; current Pakistan and Malaysia original PDFs then independently rendered and checked",
+    "scope": "Named constitutional/statutory provisions and Punjab operational guidance; version limitations retained",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  }
+]

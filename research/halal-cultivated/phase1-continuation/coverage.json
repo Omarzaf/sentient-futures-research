@@ -1,0 +1,174 @@
+{
+  "as_of": "2026-10-01",
+  "completion_established": false,
+  "full_phase1_review_complete": false,
+  "human_review": "pending",
+  "scope_basis": "All16 countries actually named in the controlling Phase One plans, with their stated roles; countries mentioned only in newly retrieved source lists do not automatically expand the project.",
+  "countries": [
+    {
+      "id": "IND",
+      "name": "India",
+      "role": "focal",
+      "coverage": "partial_new_evidence",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": [
+        "P1C-C01",
+        "P1C-C02",
+        "P1C-C03",
+        "P1C-C08"
+      ]
+    },
+    {
+      "id": "PAK",
+      "name": "Pakistan",
+      "role": "focal",
+      "coverage": "partial_new_evidence",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": [
+        "P1C-C04",
+        "P1C-C05",
+        "P1C-C06"
+      ]
+    },
+    {
+      "id": "SAU",
+      "name": "Saudi Arabia",
+      "role": "focal",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "ARE",
+      "name": "United Arab Emirates",
+      "role": "focal",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "SGP",
+      "name": "Singapore",
+      "role": "comparison",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "MYS",
+      "name": "Malaysia",
+      "role": "comparison",
+      "coverage": "partial_new_evidence",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": [
+        "P1C-C07"
+      ]
+    },
+    {
+      "id": "IDN",
+      "name": "Indonesia",
+      "role": "comparison",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "AGENTIC-PLAN §Objective and scope; PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "QAT",
+      "name": "Qatar",
+      "role": "geography and dairy history",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §§6.4A,6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "KWT",
+      "name": "Kuwait",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "BHR",
+      "name": "Bahrain",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "OMN",
+      "name": "Oman",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "IRN",
+      "name": "Iran",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "IRQ",
+      "name": "Iraq",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "YEM",
+      "name": "Yemen",
+      "role": "geography",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.5",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "EGY",
+      "name": "Egypt",
+      "role": "contemporary institutions",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.4B",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    },
+    {
+      "id": "CHN",
+      "name": "China",
+      "role": "historical disease shock",
+      "coverage": "queued_or_prior_evidence_needs_revalidation",
+      "scopeBasis": "PLAN §6.4A",
+      "populationSchoolShares": null,
+      "claim_ids": []
+    }
+  ],
+  "open_work": [
+    "All 45 school questions and unresolved classical passages",
+    "Full operative access dossiers for 7 core countries",
+    "Geography and institutional coverage for all named countries",
+    "Seven-condition institutional matrix, named literature and international standards",
+    "Historical cases and precedent-setting synthesis",
+    "Four-country elasticities and feed evidence",
+    "Real manufacturing dossier, manuscript and uncertainty appendix",
+    "Complete lineage/counter-evidence review, two full-scope reviews and author acceptance"
+  ]
+}

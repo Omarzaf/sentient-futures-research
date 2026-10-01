@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {checkPhaseOne} from './phase1-checks.mjs';
+import './test-continuation-checks.mjs';
 
 const directory=fileURLToPath(new URL('../research/halal-cultivated/phase1/',import.meta.url));
 const fixture=Object.fromEntries(fs.readdirSync(directory).map(name=>[name,fs.readFileSync(directory+name,'utf8')]));
@@ -17,7 +18,13 @@ const cases=[
  ['false scholarly approval',files=>alter(files,'release.json',record=>{record.human_scholarly_review=true;}),'review limits lost'],
  ['missing school slot',files=>alter(files,'school-questions.json',rows=>{rows.pop();}),'school coverage'],
  ['corrupt release file',files=>{files['release.json']='{';},'missing or invalid release.json'],
- ['missing review',files=>{delete files['review.md'];},'missing review.md']
+ ['missing review',files=>{delete files['review.md'];},'missing review.md'],
+ ['missing gap register',files=>{delete files['gaps.json'];},'missing or invalid gaps.json'],
+ ['dangling gap question',files=>alter(files,'gaps.json',rows=>{rows.find(r=>r.id==='G2').rows[0]='H-Q7';}),'unresolved or duplicate gap question'],
+ ['duplicate gap question',files=>alter(files,'gaps.json',rows=>{rows.find(r=>r.id==='G2').rows.push(rows.find(r=>r.id==='G2').rows[0]);}),'unresolved or duplicate gap question'],
+ ['duplicate gap identity',files=>alter(files,'gaps.json',rows=>{rows[1].id=rows[0].id;}),'duplicate gap IDs'],
+ ['valid ID in wrong extraction tradition',files=>alter(files,'gaps.json',rows=>{rows.find(r=>r.id==='G8').rows=['HB-Q4'];}),'gap extraction batch mismatch'],
+ ['ambiguous school in gap scope',files=>alter(files,'gaps.json',rows=>{rows.find(r=>r.id==='G-BIBLIO').scope='H-Q4';}),'ambiguous gap school scope']
 ];
 for(const [name,mutate,expected] of cases){
  const files={...fixture};mutate(files);

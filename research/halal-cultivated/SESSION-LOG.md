@@ -2,6 +2,18 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 1 October 2026 — Phase One continuation checkpoint
+
+**Added:** A [partial continuation](phase1-continuation/README.md) with ten source records, eight bounded claims and the sixteen countries named in the controlling plans. New evidence covers India's export instruments and named cultivated-chicken application, Pakistan's constitutional editions and Punjab registration guidance, and Malaysia's Federal Territories fatwa rules. The seven detailed country cases retain their original role.
+
+**Decisions:** FSSAI stage 7 permits several outcomes; the product decision and approval date remain unknown. Export conditions do not establish domestic approval. Legal-method provisions do not establish population affiliation. The mislabeled FSSAI regulation download is retained as rejected evidence of that regulation, with its actual identity and hash. All human-review and full-completion gates remain open.
+
+**Repairs and review:** Corrected ambiguous gap-to-question references and added lineage, country-scope, approval-status and adversarial checks. Independent source readers checked the load-bearing Indian instruments and Pakistan/Malaysia legal passages; technical reviewers checked the new validation rules. Original discovery CSVs and the earlier review remain preserved. Build, repository verification and all four fixture suites are the release checks for this checkpoint.
+
+**Still open:** Remaining country and school evidence, institutions and standards, historical comparisons, elasticities and feed, a matched manufacturing dossier, final synthesis and full-scope scholarly reviews. This checkpoint is not Phase One completion.
+
+**Retrospective:** Original bytes and visual checks resolved misleading document labels and ambiguous status codes. Provider failures and reconstructed request timestamps limit parts of the acquisition audit. Proposed practice: record document identity, edition, section and status legend before promoting an administrative code into a substantive claim.
+
 ## 30 September 2026 — corrections to the earlier discovery rows
 
 **Done:** Checked the Phase One public-source edition against the first-pass registers and corrected the rows it contradicted. `certification.csv`: India and Saudi Arabia route changed from `none_found` to `statute_only` and `operational`, Singapore from `unknown` to `operational`, with notes on the UAE, Pakistan and Indonesia. `rulings.csv` and `consensus-matrix.csv`: the IIFA 265 live-donor reading withdrawn, and the MUIS monograph added. `scripture-sources.csv`: a note on Ghamidi's published treatment of flesh from a living animal. Each changed row says it was corrected and points to `phase1/review.md`.

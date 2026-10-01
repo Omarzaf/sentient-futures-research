@@ -2,7 +2,7 @@
 
 [Read the 1 October pilot feedback](bridge-v2/PILOT-FEEDBACK.html) · [Markdown review](bridge-v2/PILOT-FEEDBACK.md). These are proposed next steps, not an adopted protocol amendment or human approval.
 
-[Read the completed Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [updated project plan](PLAN.md) points to the active [Phase Two bridge v2](bridge-v2/METHOD.md). Session history is in the [session log](SESSION-LOG.md). Updated 1 October 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
+[Read the 30 September bounded Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [updated project plan](PLAN.md) points to the active [Phase Two bridge v2](bridge-v2/METHOD.md). Session history is in the [session log](SESSION-LOG.md). Updated 1 October 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
 
 The new `phase1/` edition contains 74 public-source claims, 76 source records, 45 school questions, seven country accounts and four historical comparisons, with independent review decisions and explicit gaps. Its findings supersede the earlier search-summary pass for the questions it covers. The parent CSV tables and 24-source register below are retained as that earlier discovery snapshot: five tables contain provisional rows and the others remain empty. Their original statuses have not been silently upgraded. Phase Two quantities and interview CSV rows have not been fabricated.
 
@@ -37,3 +37,5 @@ The interview transcript and translation (`TR-` segments) are someone else's unp
 Unknown evidence is separate from scenario assumptions. Surveys cannot replace sales penetration. Value shares need an explicit compatible price conversion before multiplying mass. Missing or incompatible capacity leaves feasible quantity null. Conditioning, scope, overlapping segments, allocation reuse, hybrid counting and false output quantiles are checked.
 
 Discovery-table rules still preserve source lineage, original-ruling deduplication, categorical madhhab context, carried-claim status, dated bounded searches and poultry-feed exclusions. Human scholarly/source review remains pending; test success does not certify evidence.
+
+The [October continuation](phase1-continuation/README.md) adds versioned evidence and records remaining work across every named country. Full Phase One completion remains unestablished.

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "P1C-C01",
+    "country": "IND",
+    "assertion": "The September 2026 FSSAI register lists Biokraft Foods Private Limited’s Cultivated Chicken-based Product at row 28, file 80/Std/PA/FSSAI/2025, receipt 20 August 2025, stage 7. Its legend combines clarification, approval and rejection; the displayed code does not establish which decision occurred.",
+    "source_ids": [
+      "P1C-IN-NSF"
+    ],
+    "locator": "PDFpp 64,66,79",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "A named administrative record is now located; actual decision, approved process and certification remain unestablished.",
+    "review_id": "R-FSSAI"
+  },
+  {
+    "id": "P1C-C02",
+    "country": "IND",
+    "assertion": "Notification 34/2024-25 adds conditions for specified products exported as halal-certified to listed destinations, including i-CAS facilities, NABCB-accredited certification and applicable importing-country requirements. Non-halal-certified export procedures are left unchanged. Paragraph 2 restricts the additions to listed tariff codes.",
+    "source_ids": [
+      "P1C-IN34"
+    ],
+    "locator": "Paragraph 1(i)–(v); paragraph 2 table, pp 1–4",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No 0207 poultry code is listed in this instrument, but the classification of a cultivated product is not supplied; neither blanket inclusion nor exemption follows. No domestic food approval follows.",
+    "review_id": "R-DGFT"
+  },
+  {
+    "id": "P1C-C03",
+    "country": "IND",
+    "assertion": "Notification 59/2025-26 adds twenty destinations to 34/2024-25. The additional countries other than Egypt receive a two-week transition from 9 February 2026. Notification 28/2026-27 replaces Egypt’s original six-month period with nine months from 9 February 2026, leaving other provisions unchanged.",
+    "source_ids": [
+      "P1C-IN59",
+      "P1C-IN28"
+    ],
+    "locator": "59 paragraphs 2–4;28 paragraphs 2–3",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This describes the retrieved amendment chain, not every later export rule. The time origin is February, not August.",
+    "review_id": "R-DGFT"
+  },
+  {
+    "id": "P1C-C04",
+    "country": "PAK",
+    "assertion": "The 2025 constitutional edition retains sect-specific interpretation for Muslim personal law in Article 227 and representation of different schools on the Council of Islamic Ideology where practicable in Article 228. These provisions establish neither population proportions nor one national madhhab.",
+    "source_ids": [
+      "P1C-PK-CONST"
+    ],
+    "locator": "Articles 227(1) explanation and 228(3)(a), printedp 139",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Legal and institutional scope only.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C05",
+    "country": "PAK",
+    "assertion": "Article 229 in the 2025 edition uses a one-fourth legislative referral threshold; its footnote attributes replacement of two-fifths to the 2024 amendment. Article 230 gives advice/recommendation functions and its revised paragraph 4 requires consideration of the final report within twelve months after laying.",
+    "source_ids": [
+      "P1C-PK-CONST",
+      "P1C-PK-CONST2017"
+    ],
+    "locator": "Printedpp 140–141, Articles 229,230(1),(4), amendment footnotes",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "The 2017 hosted edition is not a substitute for this version. Its Article 230(2) prints 299, while the 2025 version prints 229; preserve the discrepancy rather than silently correcting a quotation.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C06",
+    "country": "PAK",
+    "assertion": "Punjab Food Authority guidance describes registration for products sold in Punjab, including goods produced elsewhere, and lists ingredient information, analyses, raw-material halal certificates, labeling and shelf-life documents. Scrutiny, sampling and competent-authority approval precede issuance of a registration certificate.",
+    "source_ids": [
+      "P1C-PK-PFA"
+    ],
+    "locator": "Overview, Required Documents and FAQs 1,4,11",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "General provincial procedure; no cultivated-chicken authorization, accepted manufacturing dossier or nationwide scope established.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C07",
+    "country": "MYS",
+    "assertion": "Act 505’s 2013 reprint directs the Federal Territories Mufti ordinarily to accepted Shafii views, permits named other schools where that conflicts with public interest, and ultimately permits the Mufti’s judgment under the specified conditions. Section 34 makes gazetting a prerequisite to the stated fatwa status and territorial legal effect.",
+    "source_ids": [
+      "P1C-MY505"
+    ],
+    "locator": "Sections 34(1)–(4),37 and 39(1)–(3), printedpp 26–28",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Not a national demographic claim, not every state’s law, and not proof of current consolidated wording or a particular national-committee opinion’s legal effect.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C08",
+    "country": "IND",
+    "assertion": "The saved FSSAI page component labels a link as the 2017 approval regulation, but the retrieved 43-page PDF is an application-status register dated 4 January 2023. It was rejected as evidence of the regulation text.",
+    "source_ids": [
+      "P1C-IN-LINK",
+      "P1C-IN-MISMATCH"
+    ],
+    "locator": "Page-component Regulation block and downloaded PDFpage 1/footer",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "A source-identity finding for the saved response; no claim about whether the endpoint will return the same bytes later.",
+    "review_id": "R-FSSAI"
+  }
+]
