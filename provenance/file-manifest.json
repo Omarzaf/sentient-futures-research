@@ -247,6 +247,11 @@
       "sha256": "40ba5e73f198911a33bcb12a0e72b72ff2f4d8b7a8f2a4942290b14350896f64"
     },
     {
+      "path": "research/halal-cultivated/phase1/literature-leads.md",
+      "bytes": 4606,
+      "sha256": "d8182edcb90af8c145f9ee42daceded73716643673e5c6e8f2661c8411b2a38c"
+    },
+    {
       "path": "research/halal-cultivated/phase1/reconciliation.json",
       "bytes": 52227,
       "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78"
