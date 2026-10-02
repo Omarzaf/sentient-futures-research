@@ -31,6 +31,8 @@ def main(path: Path) -> None:
     normal.paragraph_format.line_spacing = 1.12
     normal.paragraph_format.space_after = Pt(7)
     normal.paragraph_format.widow_control = True
+    normal.element.get_or_add_rPr().append(element("szCs", val="22"))
+    normal.element.rPr.get_or_add_rFonts().set(qn("w:cs"), "Noto Naskh Arabic")
     for style in doc.styles:
         if style.type == 1:
             style.font.color.rgb = RGBColor(0, 0, 0)
@@ -38,13 +40,13 @@ def main(path: Path) -> None:
             if color is not None:
                 for attr in ("themeColor", "themeTint", "themeShade"):
                     color.attrib.pop(qn("w:" + attr), None)
-        if style.name.startswith("Heading"):
+        if style.type == 1 and style.name.startswith("Heading"):
             style.font.name = "Calibri"
             style.font.bold = True
             style.paragraph_format.keep_with_next = True
             style.paragraph_format.space_before = Pt(16)
             style.paragraph_format.space_after = Pt(7)
-        if style.name in ("Footnote Text", "Footnote"):
+        if style.type == 1 and style.name in ("Footnote Text", "Footnote"):
             style.font.name = "Georgia"
             style.font.size = Pt(8.5)
             style.paragraph_format.line_spacing = 1.0
@@ -58,6 +60,11 @@ def main(path: Path) -> None:
         doc.styles[name].font.size = Pt(size)
         doc.styles[name].font.color.rgb = RGBColor(0, 0, 0)
     for section in doc.sections:
+        footnote_props = section._sectPr.find(qn("w:footnotePr"))
+        if footnote_props is not None:
+            restart = footnote_props.find(qn("w:numRestart"))
+            if restart is not None:
+                restart.set(qn("w:val"), "continuous")
         section.page_width = Inches(8.5)
         section.page_height = Inches(11)
         section.left_margin = section.right_margin = Inches(0.85)
@@ -66,7 +73,7 @@ def main(path: Path) -> None:
         section.header_distance = section.footer_distance = Inches(0.3)
         header = section.header.paragraphs[0]
         header.text = "CULTIVATED CHICKEN AND HALAL MARKET ACCESS"
-        header.style = doc.styles["Header"]
+        header.style = doc.styles["Header" if "Header" in doc.styles else "Normal"]
         header.runs[0].font.size = Pt(8)
         header.runs[0].font.color.rgb = RGBColor(0, 0, 0)
         footer = section.footer.paragraphs[0]
@@ -82,8 +89,10 @@ def main(path: Path) -> None:
             paragraph.style = doc.styles["Heading 1"]
         elif paragraph.style.name == "Heading 3":
             paragraph.style = doc.styles["Heading 2"]
-        if paragraph.text.startswith(("Appendix ", "Bibliography")) or (
-            paragraph.text == "Contents" or paragraph.text.startswith("1. Introduction")
+        if paragraph.style.name == "Heading 1" and (
+            paragraph.text.startswith(("Appendix ", "Bibliography"))
+            or paragraph.text == "Contents"
+            or paragraph.text.startswith("1. Introduction")
         ):
             paragraph.paragraph_format.page_break_before = True
         if paragraph.text.startswith("Figure "):
@@ -137,6 +146,10 @@ def main(path: Path) -> None:
                     for run in paragraph.runs:
                         run.font.name = "Calibri"
                         run.font.size = Pt(9)
+                        run._r.get_or_add_rPr().append(element("szCs", val="18"))
+                        run._r.rPr.get_or_add_rFonts().set(
+                            qn("w:cs"), "Noto Naskh Arabic"
+                        )
                         run.font.color.rgb = RGBColor(0, 0, 0)
                         if i == 0:
                             run.bold = True

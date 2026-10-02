@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7162,
-      "sha256": "d368607f6db2a8ebe70590203856a929fc385fef28675e7155bcc56cee00c4fc"
+      "bytes": 7511,
+      "sha256": "204b0e77bb07bb2ac0ebb7c75b5cd503961e25867d100532d3ed503b26a75a03"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -58,8 +58,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9948,
-      "sha256": "97497cdea6eb3f024f4ab65d1a03412d06e7cb389c3d71f729f82602c61ce32f"
+      "bytes": 10675,
+      "sha256": "2316c12a1fdc5e012166f78ff09d1159e67c6fb43ba28d3e0a81f09d145a115c"
     },
     {
       "path": "provenance/import-records.json",
@@ -173,13 +173,13 @@
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 4909,
-      "sha256": "366151fab7dffc5210c1a39f820b5d8fe01d0ea7d3a2d5d83d7e4ccd818a13fe"
+      "bytes": 5221,
+      "sha256": "3d3c7d85d8417a28d6e67d3a3ecd656e64534c07cfd07904dcf2158921666192"
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 19013,
-      "sha256": "cb6e86ae33b021e86d483a699106f2ac5e298b506d3645a0e24e437e5fed9585"
+      "bytes": 19998,
+      "sha256": "1fdd0b9d161803094f6a94681e2e557e597352a829b65a62e32b48995c6e5dcd"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
@@ -273,13 +273,13 @@
     },
     {
       "path": "research/halal-cultivated/paper/README.md",
-      "bytes": 2965,
-      "sha256": "33a008263d871070fe3d1b3ca4db45c7260c978fe27bf043701dfed8fb52eec5"
+      "bytes": 3291,
+      "sha256": "95f8b34f36426a095e0197577aea5ee0e0279a28c0e9174c01a8c3d870c5403c"
     },
     {
       "path": "research/halal-cultivated/paper/REVIEW-REPORT-2026-10-02.md",
-      "bytes": 6037,
-      "sha256": "d6c87cb1abd531ab9b7e3c0ac8460da2650681ab131dfe3e341658e37ab057f4"
+      "bytes": 8687,
+      "sha256": "8e6182d5f74bd0674a1312fafbf48fbffb8adaa7e70fb7f11fa28a80e246f165"
     },
     {
       "path": "research/halal-cultivated/paper/allowlist.json",
@@ -308,8 +308,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/execution-state.json",
-      "bytes": 2510,
-      "sha256": "e652bd3f835b41e76ffa976a4c8bad785a2b6b5befc66cac935a960df759a9b6"
+      "bytes": 3170,
+      "sha256": "b7b11ad8801c2c0e369557dae4f5073de1a0922007921f01b8c5c4060b941d79"
     },
     {
       "path": "research/halal-cultivated/paper/figure-data.json",
@@ -347,6 +347,11 @@
       "sha256": "f0214bb1ace17d30ff40c738af6911fb51225cd0807ae4ffe82a30e5fc8bc429"
     },
     {
+      "path": "research/halal-cultivated/paper/index.html",
+      "bytes": 284791,
+      "sha256": "89fab1093b2f673ab30ada6133f75b93db80a22d6876dfa344934b84b233aafd"
+    },
+    {
       "path": "research/halal-cultivated/paper/input-manifest.json",
       "bytes": 10434,
       "sha256": "b820b0a865f0e0ecba1ae4fbf708b5836ea6a1f91fa8d21047fedc09bb6abd0a"
@@ -367,9 +372,14 @@
       "sha256": "0c9de8d14d53f5bf067c7401073d093daa5c59e7146e898b5ab46ee0d9594056"
     },
     {
+      "path": "research/halal-cultivated/paper/reader-build.json",
+      "bytes": 302,
+      "sha256": "e5c9f3e9a890d886994180619d247a2c86aadd4b1e07a01495871872e625104a"
+    },
+    {
       "path": "research/halal-cultivated/paper/review-log.md",
-      "bytes": 15209,
-      "sha256": "ad7d902a62b00ecc889849d6bc8fc14b6671fcf3544fb295dad9b9ea7a7c16b2"
+      "bytes": 16104,
+      "sha256": "a663ef18b8c112f63c2b0b31d2ab4c747117bbf84d0d8fd7d537ca053f28cc45"
     },
     {
       "path": "research/halal-cultivated/paper/search-log.json",
@@ -683,8 +693,8 @@
     },
     {
       "path": "research/library.json",
-      "bytes": 4874,
-      "sha256": "52414ef24c88a59b783a9f1eb0b6ed431aed75719f1e8bb6604993887131e959"
+      "bytes": 5516,
+      "sha256": "19a80f90ab7bbc88a409a4478a13e905958f2b192bf48749e23fe840a5426632"
     },
     {
       "path": "research/orientation/README.md",
@@ -758,18 +768,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 144670,
-      "sha256": "467b1993322f372f101acb03a0042d179c87573a47645b755542d9a9d953727b"
+      "bytes": 147310,
+      "sha256": "d342ef32167a7c4011de514f07c9370956657a93311574de0584d14628977362"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 574436,
-      "sha256": "4effe6c69df3c3719abe4898f9e2e7d9cc398cb3c0966b72ef296fd2ddebc79c"
+      "bytes": 592196,
+      "sha256": "dc4cedaa0fa7cf17ea3fd5c9ca03ea1c72b304908a71346304056b9143258232"
     },
     {
       "path": "sources/index.html",
-      "bytes": 415556,
-      "sha256": "fd73346b8a9073b603400407f40436ca47ecae4b440309a87b6f12e64b01f7e4"
+      "bytes": 420776,
+      "sha256": "96e9d18e41626f0b98f354c4c5414f4d532a2944121c0f0d9b9ba1dd072e7fca"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -778,8 +788,8 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 17564,
-      "sha256": "a9f0aba6d6f0ce46f04ecf345d973197049c15b0dc0543b352f1d6bad5a98585"
+      "bytes": 18128,
+      "sha256": "3e6fb4d1a7ea4405e7b5a036ad70faeae599ca502f6744c20213f78b39feb2bc"
     },
     {
       "path": "tools/build-paper-appendices.mjs",
@@ -803,8 +813,8 @@
     },
     {
       "path": "tools/export-paper.mjs",
-      "bytes": 6986,
-      "sha256": "e1e316f4c93001bdc1a4a4eb74a35a4c9d83483869968b4b70e5f6cc1fb93b8e"
+      "bytes": 7230,
+      "sha256": "0346d58acb225a391e25f1b0742c452e93a898587564a806afd96ad2786acb5f"
     },
     {
       "path": "tools/fetch-citations.mjs",
@@ -848,8 +858,8 @@
     },
     {
       "path": "tools/style_paper_docx.py",
-      "bytes": 6752,
-      "sha256": "c19a672e3fbd142eb54fae4c0f3724db12f7e630c008eca90042f17eefc71c53"
+      "bytes": 7532,
+      "sha256": "aa83cd95c307abbe291acfc640ca38c7fc907dc38f1bb38173febce620a225d7"
     },
     {
       "path": "tools/survey-checks.mjs",
@@ -904,7 +914,7 @@
     {
       "path": "tools/verify.mjs",
       "bytes": 11556,
-      "sha256": "3943086cea80428ed3396876c74d1948a0d5ef62729b8b3919eb145236eb3892"
+      "sha256": "1722b835f26a1e974429fc09c5cd699f2a8f85fdaf3156b60117db400d92b8e8"
     }
   ]
 }

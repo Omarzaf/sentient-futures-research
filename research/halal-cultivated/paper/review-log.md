@@ -106,3 +106,9 @@ Repairs correct MUIS coverage, Saudi figure scope, the held al-Tahtawi note, Kas
 Final A–E result: no blocking or unjustified major findings on manuscript `7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598`. Human scholarly review, mentor approval and the final author read remain pending. No remote action was taken.
 
 Moderator: PASS for preparing local exports. Retrospective: source and figure reading found errors mechanical checks missed; future audits should test the meaning of exclusions and evidence-layer labels as well as their structure. No global rule was changed.
+
+## Stage 7 local author-review package
+
+Prepared the [reader](index.html), editable Word and PDF copies from the reviewed manuscript, linked the paper in the library and both READMEs, and recorded the export details in the [review report](REVIEW-REPORT-2026-10-02.md). Body length is 11,851 words; the paper has three figures, five appendices and 177 authored note definitions (251 rendered notes). All 63 PDF pages, source-link preservation and desktop/mobile navigation were checked. The quantitative baseline remains missing; human scholarly and mentor review remain pending. Stage 7 is ready for the author's final reading, not a merge or publication approval.
+
+Moderator: PASS for local handoff. Retrospective: independent full-page and mixed-script inspection repaired layout defects that successful conversion did not catch. Keep source review and export verification as separate gates.

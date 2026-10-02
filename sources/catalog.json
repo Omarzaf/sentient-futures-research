@@ -223,6 +223,13 @@
           "limitations": "The Maastricht University author publication record supplies the abstract and bibliographic identity. Springer article and PDF requests returned a client challenge; their HTTP 200 responses are not full-text retrieval. Crossref gives online publication 29 April 2017 and print issue December 2018. Cite 2018 for volume 57, issue 6. Only the abstract proposition is admitted; the full reasoning and cited authorities have not been reviewed.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -812,6 +819,13 @@
           "limitations": "Actual article XML captured from Europe PMC; the ScienceDirect request returned 403. Methods, section 4.2, section 4.4 and conclusion were reviewed. This review includes scholarly articles, news, interviews and personal opinions, so its references do not all have equal authority. Its search ends on 3 March 2023, before MUIS 2024 and IIFA 2025. The egg-embryo argument is these authors’ application of transformation, not a new independently verified consensus. Article XML gives electronic publication 2 April 2024 and collection date 15 April 2024; Crossref gives April 2024.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -1086,6 +1100,13 @@
           "limitations": "Actual article XML captured from Europe PMC; ScienceDirect returned 403. The source appeared online on 15 November 2022 but is in volume 30, issue 1, January 2023. Correct the issue citation year to 2023 while retaining 2022 as online-publication lineage. Section 6 conditionally suggests that serum-grown cells could qualify through complete transformation, contrasts a rinsing argument, reports restrictive serum standards and recommends avoiding serum. The conclusion requires suitable cell sourcing and halal media/scaffolds. Do not collapse those qualifications into unconditional permission for serum.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -1888,6 +1909,13 @@
           "limitations": "Publisher landing page and PDF match the full title, both authors, DOI and year. The PDF issue header says June 2023; Crossref dates the article publication 4 October 2023. Cite 2023 and preserve the issue/article metadata distinction without inventing a single exact publication day. Only the publisher-provided English abstract was reviewed for the proposition below. The Indonesian body remains outside evidence under the current language boundary; no translation was generated. The abstract’s examples and classification are author proposals, not an independently validated taxonomy of all schools.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -1908,6 +1936,13 @@
           "limitations": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -2107,6 +2142,13 @@
           "limitations": "Publisher landing page and full PDF captured. Published 31 July 2025. Crossref, publisher citation and PDF first page identify Halalsphere 5(2):53–61; later PDF running heads identify volume 6(2). Retain 5(2) as the publisher/Crossref citation with this internal discrepancy disclosed. The authors characterize the work as a qualitative narrative review and identify their conclusions as their interpretation. Their restrictive position rests partly on their own account of zabiha, biological function and spiritual integrity; those premises are not independently established scientific facts or an institutional ruling.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -2161,6 +2203,13 @@
           "limitations": "The original consensus.app discovery link was resolved to the publisher page, Crossref DOI and publisher PDF. Published 13 June 2024. Only the English abstract on page 45 supports this candidate; the Arabic body is not promoted as read. The abstract favors purification through transformation and summarizes disagreements. Its broad school labels must not replace the paper’s edition-specific primary-source account.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -2329,6 +2378,13 @@
           "limitations": "Europe PMC full XML and publisher PDF were captured. The MDPI landing page and version-notes requests returned JavaScript shells; those attempts remain not_retrieved. Publication date is 9 April 2026. Barbara Poniedziałek is the fourth author, omitted in the discovery summary. Sections 3–6 and Table 1 were reviewed. This is a narrative perspective whose authors explicitly limit their conclusions by missing empirical production evidence and unsettled religious interpretation. Do not copy its 17–56% acceptance range: Table 1 describes 56% doubts, rather than acceptance, in one cited Malaysian sample. Individual underlying surveys were not re-audited.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -2349,6 +2405,13 @@
           "limitations": "The single additional review was discovered through search and matched through a Crossref title query. Publisher PDF captured and read at the introductory workflow, Figure 1 and section 3.2. Published 13 July 2021. The MDPI landing page and version-notes requests returned shells; neither is counted as content retrieval. The review describes tissue-biopsy/post-mortem primary cells and pluripotent-cell alternatives, enrichment, expansion and scaffold maturation. It does not supply this candidate with evidence of a cell-bank stage or every possible harvest/processing method. Root should use audited product/process records for those details.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -3135,6 +3198,13 @@
           "limitations": "Dated regional background, not a present country-by-country census or a basis for assigning halal authority to a population label.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -3291,6 +3361,13 @@
           "limitations": "Official English translation; Indonesian prevails. Issued15September2025, takes effect three months later. Does not settle cultivated-food authorization.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -3800,6 +3877,13 @@
           "limitations": "Official gazette reproduced by FAOLEX. Territorial scope and deferred commencement of sections17–20 must be retained. No complete provincial food-law audit.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -3874,6 +3958,13 @@
           "limitations": "2024 framework, not a current 2026 audit. Page 14 visually inspected by root. Same institution as release.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -4777,6 +4868,13 @@
           "limitations": "2013 plasma conclusion was reopened in2015; never treat it as an unrevised final institutional position.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -4817,6 +4915,13 @@
           "limitations": "2015 resolution quotes1995 IOMS material but is itself an IIFA resolution. Some English clauses are truncated; omit uncertain words. Gelatin further study, not blanket authorization.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -4887,6 +4992,13 @@
           "limitations": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5235,6 +5347,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5275,6 +5394,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5315,6 +5441,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5365,6 +5498,13 @@
           "limitations": "Digital transcription; print publisher and year unconfirmed. English paraphrases by agents.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5405,6 +5545,13 @@
           "limitations": "Same book and author as HAN; these are not independent corroborating sources.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5445,6 +5592,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5852,6 +6006,13 @@
           "limitations": "General system scope, not a cultivated-meat-specific ruling or food authorization; do not generalize compulsory scope to every food.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -5966,6 +6127,13 @@
           "limitations": "Federal Territories procedure in this dated reprint; neither a population estimate nor a rule for every Malaysian state or a cultivated-meat certificate.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6016,6 +6184,13 @@
           "limitations": "These provisions do not establish the population share of a school, a cultivated-meat ruling or food authorization. No national school is assigned from them.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6316,6 +6491,13 @@
           "limitations": "A direct cultivated-cell application is not stated.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6366,6 +6548,13 @@
           "limitations": "The Clear Quran translation.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6396,6 +6585,13 @@
           "limitations": "The Clear Quran translation; separate interpretation from text.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6426,6 +6622,13 @@
           "limitations": "Scriptural reference; interpretation remains distinct from wording.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -6624,6 +6827,13 @@
           "limitations": "Confirms a pathway; does not resolve older document-number discrepancy or approve a particular product.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -7198,6 +7408,13 @@
           "limitations": "Publisher English report of Abbas Shouman, paired with Arabic report dated the previous day. Not an independently retrieved Council resolution and not independent corroboration of the Arabic report. The unusual headline is reproduced without correcting it.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -7881,6 +8098,13 @@
           "limitations": "The specified 1992/2005 text is not a full audit of current Saudi legislation. Its institutional provisions are distinct from a demographic or legal-practice description.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -7901,6 +8125,13 @@
           "limitations": "Attributed community description, with no numerical estimate reproduced. It is neither a national census nor an institutional ruling. The two-page spread was inspected visually.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -8553,6 +8784,13 @@
           "limitations": "Company process evidence hosted by FDA. Not an independent assay replication, universal product description, or halal finding. Do not transfer it to the serum-free SFA process.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -8901,6 +9139,13 @@
           "limitations": "Compendium read. Later application-list completeness not established; landing page served a JavaScript shell. No named chicken approval inferred.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9141,6 +9386,13 @@
           "limitations": "English portal still references MS1500:2009. Use for institutional structure; not an audit of the latest standards edition or named certificate.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9499,6 +9751,13 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9569,6 +9828,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9599,6 +9865,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9729,6 +10002,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9799,6 +10079,13 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9829,6 +10116,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -9859,6 +10153,13 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -10241,6 +10542,13 @@
           "limitations": "Evidence of the named institution’s account of method, not a cultivated-meat ruling or a substitute for the blocked direct statutory capture.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -10291,6 +10599,13 @@
           "limitations": "Issuing-body press release; not full deliberations or a product certificate.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11020,6 +11335,13 @@
           "limitations": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11062,6 +11384,13 @@
         },
         {
           "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
+        },
+        {
+          "collection": "Report source link",
           "document": "research/orientation/food-systems-briefing.html",
           "sourceId": null,
           "recordPath": "research/orientation/food-systems-briefing.html",
@@ -11096,6 +11425,13 @@
           "limitations": "Source refers to5031:2020. The source is a dossier guide, not a product decision.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11126,6 +11462,13 @@
           "limitations": "English is informational; Arabic prevails. Cover shows SFDA.FD513/2020 while other official materials use5031 and5013; version/number unresolved.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11156,6 +11499,13 @@
           "limitations": "Official Arabic primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11196,6 +11546,13 @@
           "limitations": "Official Arabic primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11226,6 +11583,13 @@
           "limitations": "Gelatin question. Do not automatically transfer its answer to cell proliferation.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11256,6 +11620,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11286,6 +11657,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11316,6 +11694,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11366,6 +11751,13 @@
           "limitations": "Named contemporary authority; does not establish all Jafari positions.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11416,6 +11808,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11456,6 +11855,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11496,6 +11902,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },
@@ -11536,6 +11949,13 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Report source link",
+          "document": "research/halal-cultivated/paper/index.html",
+          "sourceId": null,
+          "recordPath": "research/halal-cultivated/paper/index.html",
+          "humanVerification": "Pending; link extraction only"
         }
       ]
     },

@@ -37,8 +37,41 @@ The final corrected snapshot passes A–E with no remaining blocking or unjustif
 
 Reviewed manuscript SHA-256: `7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598`. Verification includes the full repository checks, six fixture suites, stable rebuild, appendix reproducibility and preservation of all 42 frozen inputs. Human scholarly and mentor review remain pending, and the author's final reading checkpoint has not been inferred from outline approval.
 
-Moderator verdict: **PASS for local export preparation**. Source qualifications, language holds, open interpretations and missing quantitative inputs remain explicit. Export layout and browser inspection are the next separate gate.
+Moderator verdict: **PASS for local export preparation**. Source qualifications, language holds, open interpretations and missing quantitative inputs remain explicit. The completed export and browser gate is recorded below.
 
 ## Retrospective
 
 Worked: independent passage reading and inspection of figure meanings found errors missed by structural checks. Did not: a nonempty exclusion reason and an admitted document label were insufficient to prove the reason or evidence layer was correct. Proposed practice: manually compare exclusions with current admission decisions and inspect each figure cell against its stated dimension. No global rule was changed.
+
+## Local export and reader review
+
+The reviewed manuscript is prepared as a local HTML reader, an editable Word document and a 63-page PDF. It contains 11,851 body words, three figures and five appendices. The 177 authored note definitions produce 251 rendered notes because reused references receive separate numbered notes. All 19 contents links resolve; three images are embedded; all 60 distinct source URLs survive Word and PDF export (with percent encoding for non-ASCII PDF links).
+
+All 63 rendered pages were visually inspected at original resolution. Revisions repaired contents-page breaks, adjacent note separators, Arabic and Urdu type size, and title direction around dates and embedded digits. The final two corrected pages were reopened; the remaining 61 raster images were byte-identical to the inspected version. No clipping, missing glyphs, broken tables or blank pages remained. This verifies the supplied rendering; other Word installations can paginate differently.
+
+The local reader passed desktop and 390-pixel mobile inspection: contents navigation, citation jump and return, loaded figures with alternative text, full-size SVG access, and contained horizontal scrolling. Every fragment target resolves. The local server served the reader and rejected an ignored working-file route. Browser-extension warnings were present; the inspected log window had no page-origin error. This is local usability QA, not accessibility certification.
+
+Export SHA-256 receipts:
+
+- Word: `66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458`.
+- PDF: `c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a`.
+- HTML: `89fab1093b2f673ab30ada6133f75b93db80a22d6876dfa344934b84b233aafd`.
+
+```text
+MODERATOR REVIEW
+Scope: local reader, Word/PDF exports, navigation, layout and handoff
+[BLOCK] None remaining after verified repairs.
+[WARN] Final author read and qualified scholarly review remain pending.
+[NIT] No unresolved export defect.
+[IDEA] Obtain named language and jurisprudence review before public release.
+Verdict: PASS for local author-review handoff.
+```
+
+```text
+RETROSPECTIVE
+Worked: full-page inspection and independent appendix review caught export-only defects.
+Did not: successful conversion alone did not ensure correct bidirectional title layout.
+Rule proposal: inspect mixed-script titles with embedded dates and verify all citation links after export.
+```
+
+Stage 7 preparation is complete locally. Its author checkpoint remains open. No push, pull request, merge, deployment or publication occurred in the paper work. The broader continuation and missing quantitative baseline remain separate unfinished work.

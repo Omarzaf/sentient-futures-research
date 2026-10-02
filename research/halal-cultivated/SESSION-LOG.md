@@ -2,6 +2,14 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — paper ready for final author read
+
+Completed the [working paper](paper/index.html) following the approved outline: 11,851 body words, three figures, five appendices and audited citations. Independent checks A–E and subsequent source/style repairs are described in the [review report](paper/REVIEW-REPORT-2026-10-02.md). The source register retains 63 qualified, 22 held and ten unretrieved records; human scholarly review is pending.
+
+Word and PDF copies are prepared locally, all 63 pages inspected, and desktop/mobile reader navigation checked. The paper is now linked in the ten-document library. The author requested local work: no paper push, PR, merge or deployment. Final author reading remains the next checkpoint; the quantitative baseline and broader continuation remain unresolved.
+
+Moderator: PASS for local author-review handoff. Retrospective: source-level review and page-by-page inspection found distinct problems; both gates remain necessary.
+
 ## 2 October 2026 — repair report for continuing agents
 
 Added the [repository repair report and handoff](phase1-continuation/REPAIR-REPORT-2026-10-02.md), linked from the repository and continuation READMEs. It records repair commit `867fcdf`, both reviewed input heads, all five resolved findings, historical verification results, reproducible commands and remaining research gates. Private workspace reports and evidence receipts are not bundled. This documentation update does not change evidence statuses, numerical inputs, research scope or human-review state.

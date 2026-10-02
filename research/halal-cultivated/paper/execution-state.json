@@ -1,6 +1,6 @@
 {
-  "stage": 6,
-  "status": "cross_checks_complete_pending_local_exports",
+  "stage": 7,
+  "status": "ready_for_final_author_read",
   "outlineApproved": true,
   "humanReview": false,
   "mentorApproved": false,
@@ -87,5 +87,23 @@
     "humanScholarlyReview": "pending",
     "finalAuthorRead": "pending",
     "report": "REVIEW-REPORT-2026-10-02.md"
-  }
+  },
+  "releasePreparation": {
+    "status": "complete_local",
+    "bodyWords": 11851,
+    "figures": 3,
+    "appendices": 5,
+    "authoredNoteDefinitions": 177,
+    "renderedNotes": 251,
+    "pdfPages": 63,
+    "reader": "index.html",
+    "readerSha256": "89fab1093b2f673ab30ada6133f75b93db80a22d6876dfa344934b84b233aafd",
+    "docxSha256": "66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458",
+    "pdfSha256": "c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a",
+    "layoutReview": "pass",
+    "browserReview": "pass_desktop_and_390px",
+    "finalAuthorRead": "pending",
+    "mergeApproved": false
+  },
+  "stage7Gate": "pending_final_author_read"
 }

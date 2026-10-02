@@ -10,6 +10,7 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
+| [Cultivated Chicken and Halal Market Access](research/halal-cultivated/paper/index.html) · [Markdown](research/halal-cultivated/paper/paper.md) | **Working paper for author review.** Approximately 11,900 words, three figures, five appendices and audited citations. Independent agent checks complete; human scholarly review pending | 2 Oct 2026 |
 | [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
 | [Cultivated Chicken in the Focal Countries: Where the Evidence Stands](research/halal-cultivated/phase1-continuation/SYNTHESIS.md) | **Current workstream, in progress.** October continuation: country-by-country answer, gate table across six process profiles, 188 source records and 156 claims, open leads and questions for mentors | 2 Oct 2026 |
 | [Cultivated Chicken: Religious Conditions and Market Access](research/halal-cultivated/phase1/review.md) | **Current workstream.** Phase One review: 45 school questions, seven countries, four historical comparisons, evidence registers and a Phase Two handoff; uncertainty and scholarly-review limits retained | 30 Sep 2026 |

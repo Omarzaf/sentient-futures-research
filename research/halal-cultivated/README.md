@@ -1,5 +1,7 @@
 # Halal conditionality for cultivated meat
 
+[Read the cultivated-chicken working paper](paper/index.html) · [Auditable Markdown](paper/paper.md) · [Independent review report](paper/REVIEW-REPORT-2026-10-02.md). Prepared locally on 2 October 2026 with three figures and five appendices. The author's final read and human scholarly review remain pending.
+
 [Read the 1 October pilot feedback](bridge-v2/PILOT-FEEDBACK.html) · [Markdown review](bridge-v2/PILOT-FEEDBACK.md). These are proposed next steps, not an adopted protocol amendment or human approval.
 
 [Read the 30 September bounded Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [updated project plan](PLAN.md) points to the active [Phase Two bridge v2](bridge-v2/METHOD.md). Session history is in the [session log](SESSION-LOG.md). Updated 1 October 2026; AI-assisted working draft with human verification pending. Not mentor-approved.

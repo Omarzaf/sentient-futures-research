@@ -2,6 +2,15 @@
   "status": "AI-assisted drafts; human verification pending",
   "documents": [
     {
+      "id": "halal-paper",
+      "title": "Cultivated Chicken and Halal Market Access",
+      "path": "research/halal-cultivated/paper/index.html",
+      "textPath": "research/halal-cultivated/paper/paper.md",
+      "cutoff": "2 October 2026",
+      "kind": "Working paper for author review",
+      "description": "An approximately 11,900-word paper separating donor procurement, culture inputs, transformation, edibility, certification and food authorization. Three figures and five appendices retain source qualifications and open questions. Agent source and coverage checks completed; human scholarly review remains pending."
+    },
+    {
       "id": "india-pakistan",
       "title": "Protein Consumption and Alternative Protein Adoption in India and Pakistan",
       "path": "research/india-pakistan/index.html",
