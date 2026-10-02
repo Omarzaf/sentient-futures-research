@@ -16,6 +16,9 @@ private/
 *.xlsx
 *.pptx
 *.pdf
+# The author approved sharing these exact, reviewed paper exports.
+!research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf
+!research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx
 *.pem
 *.key
 *token*

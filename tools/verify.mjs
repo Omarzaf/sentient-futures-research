@@ -8,7 +8,7 @@ import {checkPhaseOne} from './phase1-checks.mjs';
 import {checkPaper} from './paper-checks.mjs';
 import {checkContinuation} from './continuation-checks.mjs';
 import {checkSurvey} from './survey-checks.mjs';
-import {isExcludedPath, privacyHazards, privacyHazardNames} from './privacy-checks.mjs';
+import {isExcludedPath, privacyHazards, privacyHazardNames, reviewedBinaryExports, isReviewedBinaryExport} from './privacy-checks.mjs';
 import {repoFiles,unescapeEntities} from './repo-files.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -22,7 +22,7 @@ check(new Set(manifest.map(f=>f.path)).size===manifest.length,'Duplicate manifes
 check(JSON.stringify(paths.filter(p=>p!=='provenance/file-manifest.json'))===JSON.stringify(manifest.map(f=>f.path).sort()),'Manifest does not match repository files');
 for(const f of manifest){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&crypto.createHash('sha256').update(b).digest('hex')===f.sha256,'Hash/size mismatch: '+f.path);}
 
-for(const p of paths){check(!isExcludedPath(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);const foundHazards=new Set(privacyHazards(s));for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
+for(const p of paths){check(!isExcludedPath(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);if(Object.hasOwn(reviewedBinaryExports,p)){check(isReviewedBinaryExport(p,fs.readFileSync(path.join(root,p))),'Reviewed export bytes changed: '+p);continue;}const s=read(p);const foundHazards=new Set(privacyHazards(s));for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
 
 let internalLinks=0;
 for(const p of paths.filter(p=>/\.(html|md|svg)$/.test(p))){
@@ -103,7 +103,9 @@ const phaseOneDir=halalDir+'phase1/';
 for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
 const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
 checks+=phaseOne.checks;failures.push(...phaseOne.failures);
-const paper=checkPaper(Object.fromEntries(paths.filter(p=>p.startsWith(paperDir)).map(p=>[p.slice(paperDir.length),read(p)])),{phaseOneFiles:Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)]))});
+// The two reviewed binaries are digest-checked above; do not decode them as
+// manuscript text. Every other paper path still reaches the exclusion checks.
+const paper=checkPaper(Object.fromEntries(paths.filter(p=>p.startsWith(paperDir)&&!Object.hasOwn(reviewedBinaryExports,p)).map(p=>[p.slice(paperDir.length),read(p)])),{phaseOneFiles:Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)]))});
 checks+=paper.checks;failures.push(...paper.failures);
 for(const r of paperRegister)if(r.url)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===paperDir+'source-register.json'&&o.sourceId===r.id)),'Paper source missing from catalog '+r.id);
 const continuation=checkContinuation(Object.fromEntries(paths.filter(p=>p.startsWith(continuationDir)).map(p=>[p.slice(continuationDir.length),read(p)])));

@@ -42,10 +42,17 @@
   ],
   "stage0Commit": "47e478c",
   "remoteAction": {
-    "status": "user_requested_local_only",
-    "push": false,
+    "status": "feature_branch_sharing_authorized",
+    "pushRequested": true,
     "draftPullRequest": false,
-    "reason": "User selected Keep working locally on 2 October 2026. The plan draft-PR step is deferred."
+    "mergeApproved": false,
+    "deploymentApproved": false,
+    "authorization": {
+      "date": "2026-10-02",
+      "request": "push this file to repo as a branch",
+      "formatSelection": "Paper source, PDF and Word"
+    },
+    "reason": "This explicit request supersedes the earlier local-only choice for sharing this paper branch. This record captures authorization; remote completion is verified against GitHub separately."
   },
   "auditCounts": {
     "verified_with_note": 63,
@@ -105,5 +112,6 @@
     "finalAuthorRead": "pending",
     "mergeApproved": false
   },
-  "stage7Gate": "pending_final_author_read"
+  "stage7Gate": "pending_final_author_read",
+  "formalResearchRelease": false
 }

@@ -112,3 +112,7 @@ Moderator: PASS for preparing local exports. Retrospective: source and figure re
 Prepared the [reader](index.html), editable Word and PDF copies from the reviewed manuscript, linked the paper in the library and both READMEs, and recorded the export details in the [review report](REVIEW-REPORT-2026-10-02.md). Body length is 11,851 words; the paper has three figures, five appendices and 177 authored note definitions (251 rendered notes). All 63 PDF pages, source-link preservation and desktop/mobile navigation were checked. The quantitative baseline remains missing; human scholarly and mentor review remain pending. Stage 7 is ready for the author's final reading, not a merge or publication approval.
 
 Moderator: PASS for local handoff. Retrospective: independent full-page and mixed-script inspection repaired layout defects that successful conversion did not catch. Keep source review and export verification as separate gates.
+
+## Author-authorized branch sharing
+
+After the local handoff, the author requested a repository branch and selected paper source, PDF and Word. The two unchanged reviewed exports are now included under exports/. Only these exact paths and SHA-256 byte sequences are exempted from the general Office/PDF exclusion; renamed or modified copies fail the gate. Source text and export content are unchanged. This supersedes the earlier local-only delivery choice without granting final scholarly approval, merge or deployment authority. Earlier local verification receipts remain historical.

@@ -1,5 +1,6 @@
 import assertStrict from 'node:assert/strict';
-import {isExcludedPath, privacyHazards, privacyHazardNames} from './privacy-checks.mjs';
+import fs from 'node:fs';
+import {isExcludedPath, privacyHazards, privacyHazardNames, reviewedBinaryExports, isReviewedBinaryExport} from './privacy-checks.mjs';
 
 let cases=0;
 const assert=(...args)=>{cases++;assertStrict(...args);};
@@ -55,5 +56,17 @@ for(const path of [
  'working/review-packet.json',
 ])assert(isExcludedPath(path),path);
 for(const path of ['research/protein-survey-data/README.txt','sources/catalog.json','research/ai-protein/index.html'])assert(!isExcludedPath(path),path);
+
+for(const path of Object.keys(reviewedBinaryExports)) {
+ const bytes=fs.readFileSync(new URL('../'+path,import.meta.url));
+ assert(!isExcludedPath(path),path);
+ assert(isReviewedBinaryExport(path,bytes),'Reviewed bytes must match');
+ const changed=Buffer.from(bytes);changed[changed.length-1]^=1;
+ assert(!isReviewedBinaryExport(path,changed),'Changed export must require a new review');
+ const renamed=path.replace('working-paper.','unreviewed-copy.');
+ assert(isExcludedPath(renamed),'Nearby binary path remains excluded');
+ assert(!isReviewedBinaryExport(renamed,bytes),'Approval does not transfer by identical contents');
+}
+assert(!isReviewedBinaryExport('toString',Buffer.from('unreviewed')),'Inherited object keys are not approvals');
 
 console.log(JSON.stringify({status:'PASS',cases,failed:0}));

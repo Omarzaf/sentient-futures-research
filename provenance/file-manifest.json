@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 364,
-      "sha256": "eb35b5e11d3e846622959bd3c6209f11991dc4f6c1dbafa109a9d7f190ba5e9f"
+      "bytes": 457,
+      "sha256": "c51dc2259d7394653217ec7a456ede094133dafba09dd477999db6d09cb7f722"
     },
     {
       "path": ".gitattributes",
@@ -18,8 +18,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 274,
-      "sha256": "ca8b8bf6a39a663fb41746c78f82b3a9097efc4a5d27357d5d8d79d39b1c18e2"
+      "bytes": 510,
+      "sha256": "52fe0ab3b6ec5faaa0ff7d240309ee3738fb8c88f612b451d8d84895e14810eb"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -273,8 +273,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/README.md",
-      "bytes": 3291,
-      "sha256": "95f8b34f36426a095e0197577aea5ee0e0279a28c0e9174c01a8c3d870c5403c"
+      "bytes": 3642,
+      "sha256": "1033a5a1801a98b93b56ac4e80ea2f39b79855822b2b45b0c54a969ad9a63ce0"
     },
     {
       "path": "research/halal-cultivated/paper/REVIEW-REPORT-2026-10-02.md",
@@ -308,8 +308,18 @@
     },
     {
       "path": "research/halal-cultivated/paper/execution-state.json",
-      "bytes": 3170,
-      "sha256": "b7b11ad8801c2c0e369557dae4f5073de1a0922007921f01b8c5c4060b941d79"
+      "bytes": 3545,
+      "sha256": "e77ae6822e8117a131c25ff78f6a9de245d36d5dbdf57c12a16e725ed7173d97"
+    },
+    {
+      "path": "research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx",
+      "bytes": 523970,
+      "sha256": "66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458"
+    },
+    {
+      "path": "research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf",
+      "bytes": 1740753,
+      "sha256": "c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a"
     },
     {
       "path": "research/halal-cultivated/paper/figure-data.json",
@@ -378,8 +388,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/review-log.md",
-      "bytes": 16104,
-      "sha256": "a663ef18b8c112f63c2b0b31d2ab4c747117bbf84d0d8fd7d537ca053f28cc45"
+      "bytes": 16691,
+      "sha256": "506d9c01a1788b270a9f8a73d3884f9aec571fd44a9c4d94fa8cc36a19fa4df9"
     },
     {
       "path": "research/halal-cultivated/paper/search-log.json",
@@ -843,8 +853,8 @@
     },
     {
       "path": "tools/privacy-checks.mjs",
-      "bytes": 1750,
-      "sha256": "52dc22480b3bcca1fbb2c9766eeb987b9d3d8e8b64c681fbb522d3c88c117861"
+      "bytes": 2549,
+      "sha256": "e775d9804e18aa56bf911aba15c8c305ff569f10ed2e1efdfc2de88b455dec26"
     },
     {
       "path": "tools/repo-files.mjs",
@@ -898,8 +908,8 @@
     },
     {
       "path": "tools/test-privacy-checks.mjs",
-      "bytes": 2960,
-      "sha256": "f5ae504ac05ff14b3d93f3151975bcbeb1f873cff0e1422add73a80314213794"
+      "bytes": 3775,
+      "sha256": "bd3c6a50a07da171c9df62df0b8bc7bd335649c233231149f9fea0785455a0b9"
     },
     {
       "path": "tools/test-survey-checks.mjs",
@@ -913,8 +923,8 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 11556,
-      "sha256": "1722b835f26a1e974429fc09c5cd699f2a8f85fdaf3156b60117db400d92b8e8"
+      "bytes": 11957,
+      "sha256": "4665b04e5faf205e1fb9eb93fbbd652f3d3ebf63306b107e0482921736627668"
     }
   ]
 }

@@ -37,7 +37,7 @@ const hazards=[
 ];
 
 export function isExcludedPath(path) {
- return forbiddenPath.test(path);
+ return !Object.hasOwn(reviewedBinaryExports,path)&&forbiddenPath.test(path);
 }
 
 export function privacyHazards(text) {
@@ -45,3 +45,15 @@ export function privacyHazards(text) {
 }
 
 export const privacyHazardNames=hazards.map(([name])=>name);
+import crypto from 'node:crypto';
+
+// Exact bytes reviewed for layout, metadata and source-link preservation, then
+// explicitly approved by the author for feature-branch sharing on 2 October 2026.
+export const reviewedBinaryExports=Object.freeze({
+ 'research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf':'c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a',
+ 'research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx':'66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458'
+});
+
+export function isReviewedBinaryExport(path,bytes) {
+ return Object.hasOwn(reviewedBinaryExports,path)&&crypto.createHash('sha256').update(bytes).digest('hex')===reviewedBinaryExports[path];
+}
