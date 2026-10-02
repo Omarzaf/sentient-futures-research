@@ -4945,7 +4945,8 @@
       "issue": "1"
     },
     "bibliographic_note": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained. Publisher and Crossref date the article 30 April 2014; Crossref issue metadata gives 21 July 2014. DOI created/deposited dates are not substituted for publication. The PDF byline is Zulkifli. Publisher/Crossref metadata duplicate the mononym as Zulkifli Zulkifli; cite the displayed PDF byline and preserve the metadata distinction.",
-    "limits": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained."
+    "limits": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained.",
+    "reading_scope": "full_text_scoped_passages"
   },
   {
     "original_records": [],

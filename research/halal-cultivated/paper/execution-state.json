@@ -1,7 +1,7 @@
 {
-  "stage": 4,
-  "status": "awaiting_author_outline_approval",
-  "outlineApproved": false,
+  "stage": 5,
+  "status": "draft_complete_pending_independent_review",
+  "outlineApproved": true,
   "humanReview": false,
   "mentorApproved": false,
   "sourcePlanCommit": "36042dde08de130bab2d84fb3d7330e5ea71514a",
@@ -9,7 +9,7 @@
   "decisions": {
     "D1": {
       "value": "outside_body",
-      "status": "default_pending_outline_approval",
+      "status": "author_approved",
       "note": "Continuation has driver, elasticity and feed records; exclusion is a scope choice, not absence of records."
     },
     "D2": {
@@ -18,7 +18,7 @@
     },
     "D3": {
       "value": "incubator_working_paper_10000_to_13000_body_words_chicago",
-      "status": "default_pending_outline_approval"
+      "status": "author_approved"
     },
     "D4": {
       "value": "excluded",
@@ -29,13 +29,15 @@
       "status": "pending"
     }
   },
-  "manuscriptDrafted": false,
+  "manuscriptDrafted": true,
   "published": false,
   "completedStages": [
     0,
     1,
     2,
-    3
+    3,
+    4,
+    5
   ],
   "stage0Commit": "47e478c",
   "remoteAction": {
@@ -51,7 +53,7 @@
   },
   "originalSources": 76,
   "canonicalSources": 95,
-  "newClaims": 33,
+  "newClaims": 39,
   "searchRecords": 152,
   "stage3Scope": "B1–B4 bounded searches completed with explicit remaining gaps; no exhaustive corpus or complete country geography claim.",
   "stage3Commit": "160bf56b66d7f252ae6d36d5cd4da4ae6c6d347d",
@@ -61,6 +63,11 @@
     "thesisWords": 103,
     "bodyWordTarget": 12050,
     "plannedFigures": 3,
-    "approval": "pending"
+    "approval": "approved",
+    "approvalRecord": {
+      "date": "2026-10-02T19:26:58.396Z",
+      "response": "approved",
+      "scope": "Author checkpoint 1: outlined local drafting, D1–D3 defaults, three figures; no remote write or scholarly approval."
+    }
   }
 }

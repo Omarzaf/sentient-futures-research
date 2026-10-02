@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="324pt" viewBox="0 0 518.4 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 518.4 324 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 165.888 141.264 
+L 466.56 141.264 
+L 466.56 45.36 
+L 165.888 45.36 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 165.888 49.719273 
+L 420.69478 49.719273 
+L 420.69478 69.838993 
+L 165.888 69.838993 
+z
+" clip-path="url(#pa7b950118d)" style="fill: #306f69"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 165.888 83.25214 
+L 254.868145 83.25214 
+L 254.868145 103.37186 
+L 165.888 103.37186 
+z
+" clip-path="url(#pa7b950118d)" style="fill: #ab7032"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 165.888 116.785007 
+L 206.333521 116.785007 
+L 206.333521 136.904727 
+L 165.888 136.904727 
+z
+" clip-path="url(#pa7b950118d)" style="fill: #67727a"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #193b38" x="162.388" y="63.578352" transform="rotate(-0 162.388 63.578352)">Qualified records</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #193b38" x="162.388" y="97.111219" transform="rotate(-0 162.388 97.111219)">Held</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #193b38" x="162.388" y="130.644086" transform="rotate(-0 162.388 130.644086)">Not retrieved</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="425.790915" y="62.636555" transform="rotate(-0 425.790915 62.636555)">63</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="259.964281" y="96.169422" transform="rotate(-0 259.964281 96.169422)">22</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="211.429656" y="129.702289" transform="rotate(-0 211.429656 129.702289)">10</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="165.888" y="35.36" transform="rotate(-0 165.888 35.36)">Canonical records · n = 95</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 165.888 285.12 
+L 466.56 285.12 
+L 466.56 221.184 
+L 165.888 221.184 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 165.888 224.090182 
+L 420.69478 224.090182 
+L 420.69478 245.886545 
+L 165.888 245.886545 
+z
+" clip-path="url(#p63c7e94566)" style="fill: #306f69"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 165.888 260.417455 
+L 293.29139 260.417455 
+L 293.29139 282.213818 
+L 165.888 282.213818 
+z
+" clip-path="url(#p63c7e94566)" style="fill: #ab7032"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #193b38" x="162.388" y="238.787582" transform="rotate(-0 162.388 238.787582)">Full-text passages</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #193b38" x="162.388" y="275.114855" transform="rotate(-0 162.388 275.114855)">English abstract only</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="425.790915" y="237.845786" transform="rotate(-0 425.790915 237.845786)">6</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="298.387525" y="274.173058" transform="rotate(-0 298.387525 274.173058)">3</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="165.888" y="211.184" transform="rotate(-0 165.888 211.184)">Admitted journal articles · n = 9</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193b38" x="20.736" y="18.838125" transform="rotate(-0 20.736 18.838125)">Evidence available to this paper</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #67727a" transform="translate(20.736 302.457676)">Counts measure research availability, not independent authorities, agreement or legal validity.</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; fill: #67727a" transform="translate(20.736 312.66)">Five aliases are folded into canonical records; one qualified record supplies index metadata only.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa7b950118d">
+   <rect x="165.888" y="45.36" width="300.672" height="95.904"/>
+  </clipPath>
+  <clipPath id="p63c7e94566">
+   <rect x="165.888" y="221.184" width="300.672" height="63.936"/>
+  </clipPath>
+ </defs>
+</svg>

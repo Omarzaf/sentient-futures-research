@@ -84,3 +84,15 @@ The specialist preflight passed 519 checks: all 74 original and 33 added claims,
 Moderator verdict: PASS for presenting the outline to the author. This is not outline approval or a manuscript-readiness verdict. Stage 4 remains awaiting the author checkpoint; completedStages stops at 3, outlineApproved remains false, and manuscriptDrafted remains false. D1 and D3 are proposed defaults, D2 holds continue, and qualified scholarly review remains pending.
 
 Retrospective: current claim-level admission prevented an artificially balanced five-tradition narrative. The older writing plan's numerical fields and expected source availability did not survive current verification. Proposed practice: reconcile each outline with the active evidence edition and method before asking the author to approve it. No global rule was changed.
+
+## Author checkpoint 1 — approved
+
+The author responded “approved” to the concrete outline approval request on 2 October 2026. This approves the recorded outline and its D1–D3 defaults for local drafting, including the three planned figures. The approved outline SHA-256 is `4883ad7642510ad37cac91720c9e0b488d8fe6f69eba207a869aa555ee074a8b`. Stage5 may now proceed. Human scholarly, mentor and final manuscript review remain pending; no remote write is authorized.
+
+## Stage 5 — assembled manuscript, 2 October 2026
+
+Author approval is recorded against the accepted outline. The complete local draft has thirteen sections, a separate abstract, three figures, five appendices and177 footnotes citing60 canonical records. All original items are traced or have specific exclusion reasons. Generated AppendicesA/B/D preserve45 slots, seven countries and95 source records. Internal method disclosures use one narrow source-scope exception tied to repository evidence; it does not permit uncited external claims. Figures measure process scope and research availability, never religious votes or market uptake. Private inputs remain excluded; no human scholarly or mentor approval is claimed.
+
+Fragment verification passed; whole-library checks and all six fixture suites passed. Final repeat verification and deterministic rebuild receipt accompany the stage commit. Independent blind re-derivation and sentence support review are the next gate.
+
+Moderator: PASS for the drafting checkpoint; not a release or scholarly verdict. Retrospective: atomic claims and scoped internal-method records made the draft auditable. Capture filename selection initially omitted PMC XML; the blind-review packet was corrected using raw captures without disclosing answers. Proposed practice: build review packets from capture receipts, not filename suffixes.

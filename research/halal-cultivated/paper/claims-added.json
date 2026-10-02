@@ -540,5 +540,84 @@
     "status": "agent_checked",
     "extractor": "coordinator_scoped_claim_split",
     "human_verification": "Pending"
+  },
+  {
+    "id": "P-GAP-B1-SEARCH",
+    "statement": "The logged B1 searches did not locate the required original statements for several named institutions; WAAG remains a report and language-held originals remain outside substantive citation.",
+    "source_ids": [],
+    "locator": "search-log.json and GAP-RESEARCH-2026-10-02.md",
+    "kind": "gap",
+    "status": "open",
+    "limitation": "A bounded corpus non-finding is not an assertion that no relevant ruling, institution or country pattern exists.",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GAP-B3-COUNTRIES",
+    "statement": "The bounded geography review leaves country-specific predominance, formal-school or institutional details unestablished where the required dated text was not retrieved or did not support that scope.",
+    "source_ids": [],
+    "locator": "search-log.json and GAP-RESEARCH-2026-10-02.md",
+    "kind": "gap",
+    "status": "open",
+    "limitation": "A bounded corpus non-finding is not an assertion that no relevant ruling, institution or country pattern exists.",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-J-RENNET",
+    "statement": "Sistani rules that rennet in the stomach of a lamb or kid dying before it starts grazing is pure. If the rennet is not liquid, its exterior that contacted the dead animal must be washed.",
+    "source_ids": [
+      "J2"
+    ],
+    "locator": "Islamic Laws, fourth edition, ruling 90",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "This is a specified rennet case, not a ruling on industrial enzymes, serum, founder cells or all animal-derived inputs.",
+    "human_scholarly_review": false
+  },
+  {
+    "id": "P-PROCESS-GOOD",
+    "statement": "The GOOD Meat applicant dossier describes master and working cell banks, thawing and seed expansion, scale-up into bioreactors, and harvesting by concentration and washing before packaging and frozen storage for use as a chicken ingredient.",
+    "source_ids": [
+      "GOOD-DOSSIER"
+    ],
+    "locator": "Dossier printed pp.9,13–16; sections4.4–4.6 and5.1.1–5.1.2, Figures2–3",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "An applicant’s documented process, not a universal cultivated-meat workflow, an independent safety finding or a halal certificate.",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GAP-BRIDGE-V2",
+    "kind": "gap",
+    "status": "open",
+    "source_ids": [],
+    "statement": "The active bridge-v2 contract separates religious position, certification route, product certificate, food authorization and import access. Its production state is blocked_missing_baseline with no populated assessments, baselines or capacity pools; compatible reference-market inputs and scoped access evidence remain missing.",
+    "limitation": "Internal project state, not a claim about the external world or a religious authority. No numerical assessment is added by this paper.",
+    "internal_evidence": [
+      "../bridge-v2/METHOD.md",
+      "../bridge-v2/schema.json",
+      "../bridge-v2/production-state.json",
+      "../bridge-v2/LEGACY-CROSSWALK.md"
+    ],
+    "human_scholarly_review": false,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-METHOD-INTERNAL",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "source_ids": [],
+    "statement": "This paper uses the frozen Phase One inventory, canonicalizes duplicate source IDs, distinguishes retrieval and claim-support decisions, logs bounded searches, holds unavailable or unreviewed-language material, labels inferences, excludes private interviews and retains pending human scholarly review. The current register has95 canonical records with63 qualified admissions,22 held and10 not retrieved; nine admitted journal records have six full-text scoped-passage readings and three English-abstract-only readings.",
+    "limitation": "Procedural project evidence only; counts do not measure religious agreement, independent authorities or scholarly approval.",
+    "internal_evidence": [
+      "input-manifest.json",
+      "source-register.json",
+      "citation-audit.json",
+      "coverage.json",
+      "search-log.json",
+      "execution-state.json",
+      "../phase1/release.json"
+    ],
+    "human_scholarly_review": false,
+    "human_verification": "Pending"
   }
 ]

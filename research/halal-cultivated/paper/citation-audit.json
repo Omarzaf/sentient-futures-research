@@ -1998,6 +1998,12 @@
         "result": "premise_supported",
         "locator": "Main dossier sections4.3,5.2.3.9; printed pp12,58–60; Table33",
         "note": "Supports a documented premise only; the manufacturing extension remains the paper’s inference."
+      },
+      {
+        "id": "P-PROCESS-GOOD",
+        "result": "supported",
+        "locator": "Dossier printed pp.9,13–16; sections4.4–4.6 and5.1.1–5.1.2, Figures2–3",
+        "note": "An applicant’s documented process, not a universal cultivated-meat workflow, an independent safety finding or a halal certificate."
       }
     ],
     "verdict": "verified_with_note",
@@ -4432,6 +4438,12 @@
         "result": "premise_supported",
         "note": "Ruling 87 supplies the detached-living-part premise; it does not determine founder cells or later biomass.",
         "locator": "Rulings 85–90; ruling 92 as context"
+      },
+      {
+        "id": "P-J-RENNET",
+        "result": "supported",
+        "locator": "Islamic Laws, fourth edition, ruling 90",
+        "note": "This is a specified rennet case, not a ruling on industrial enzymes, serum, founder cells or all animal-derived inputs."
       }
     ],
     "verdict": "verified_with_note",

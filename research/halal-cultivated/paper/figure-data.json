@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-10-02",
+  "human_review": "pending",
+  "counts": {
+    "canonical_records": 95,
+    "verdicts": {
+      "verified_with_note": 63,
+      "held": 22,
+      "not_retrieved": 10
+    },
+    "admitted_article_reading_scopes": {
+      "full_text_scoped_passages": 6,
+      "abstract_only": 3
+    },
+    "aliases": 5
+  },
+  "countries": [
+    {
+      "country": "India",
+      "scope_labels": [
+        "Not located",
+        "Not established",
+        "Not established",
+        "2017 route",
+        "Not located",
+        "Regional only"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "scope_labels": [
+        "Not located",
+        "2016 remit",
+        "Not established",
+        "Not established",
+        "Not located",
+        "Constitution"
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "scope_labels": [
+        "Not located",
+        "Guide / scope",
+        "Not established",
+        "Novel-food docs",
+        "Not located",
+        "Basic Law only"
+      ]
+    },
+    {
+      "country": "UAE",
+      "scope_labels": [
+        "Not located",
+        "Halal system",
+        "Not established",
+        "Unretrieved lead",
+        "Not located",
+        "Unretrieved"
+      ]
+    },
+    {
+      "country": "Singapore",
+      "scope_labels": [
+        "MUIS conditions",
+        "2024 framework",
+        "Not established",
+        "SFA framework",
+        "Named processes",
+        "Dated plurality"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "scope_labels": [
+        "Language hold",
+        "Foreign bodies",
+        "Not established",
+        "Not established",
+        "Not located",
+        "Territories only"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "scope_labels": [
+        "Language hold",
+        "2025 mechanism",
+        "Not established",
+        "Not established",
+        "Not located",
+        "Dated study"
+      ]
+    }
+  ],
+  "manufacturing_sources": [
+    "B4-CELLS",
+    "GOOD-DOSSIER",
+    "SG-LIST"
+  ],
+  "interpretation": "Document availability and scope only; no country access assessment or religious vote."
+}

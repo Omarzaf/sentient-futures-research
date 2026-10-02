@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 270,
-      "sha256": "0db44a17fc2dc87f4edbeca68db883795e02e1f751a8e39c87cf2e700e3c54fa"
+      "bytes": 364,
+      "sha256": "eb35b5e11d3e846622959bd3c6209f11991dc4f6c1dbafa109a9d7f190ba5e9f"
     },
     {
       "path": ".gitattributes",
@@ -273,33 +273,73 @@
     },
     {
       "path": "research/halal-cultivated/paper/README.md",
-      "bytes": 2824,
-      "sha256": "5c9795406cc13d037275f094c0db717e6dfc2f504306b27aef11a9906d736380"
+      "bytes": 2965,
+      "sha256": "33a008263d871070fe3d1b3ca4db45c7260c978fe27bf043701dfed8fb52eec5"
     },
     {
       "path": "research/halal-cultivated/paper/allowlist.json",
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 311,
+      "sha256": "836f92cf0ddcf9b3379ab7611611b3d0090b5d7a89fabaca8a65faa731aadc0b"
+    },
+    {
+      "path": "research/halal-cultivated/paper/appendices-data.json",
+      "bytes": 207354,
+      "sha256": "c75091d0b6ae9909913744a78e21b2f763254d28d81d5ec09b7f8235f577d6ec"
     },
     {
       "path": "research/halal-cultivated/paper/citation-audit.json",
-      "bytes": 333667,
-      "sha256": "f9efd9bd4f5cb7d14095ad5c4e3e6431809c2ac8705fff882908946ff63c3c1b"
+      "bytes": 334275,
+      "sha256": "8192f5db1c12421a4df8c7a863839d70cc2465f711ae813db41768b48e1e1470"
     },
     {
       "path": "research/halal-cultivated/paper/claims-added.json",
-      "bytes": 25456,
-      "sha256": "e86d8f3bd24a529d5d1ffc08b262359326202071c7c97f799b930394e8d020fe"
+      "bytes": 29783,
+      "sha256": "8ee6d87568741298d648538d925d76e13b9a90f517f1b4e37214ffb8206769f4"
     },
     {
       "path": "research/halal-cultivated/paper/coverage.json",
-      "bytes": 426111,
-      "sha256": "cd76f7f6bb57ade78cd588f234e2f917a97925df264d8e4f8ce2af4e8386d150"
+      "bytes": 431404,
+      "sha256": "210f5f43230b2d9c35fa83bcfdc52369bf7eff7ebe47927065e1b12c4ea1abd2"
     },
     {
       "path": "research/halal-cultivated/paper/execution-state.json",
-      "bytes": 1857,
-      "sha256": "b71d7599eb788f8e095771f692e405ad0bd5baaf9796dd723f91e6ead269d9ab"
+      "bytes": 2083,
+      "sha256": "8551350197aa74544614b75f7779fa954830f4146d9c477fc0de5bc0953493ee"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figure-data.json",
+      "bytes": 2115,
+      "sha256": "a51332cb42c6569450b7f61fd17b36cb5112af2ea8692111541122b38e517b15"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-1-process.png",
+      "bytes": 156601,
+      "sha256": "0545a8ef34291cd99fad7b15178517f4729372029e4fff496f7f27de0272b120"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-1-process.svg",
+      "bytes": 8908,
+      "sha256": "1c7bbc8250fcedd1b20ed84bf978d62b1b7db166ec351774c58baa3d4dea6e8a"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-2-countries.png",
+      "bytes": 216329,
+      "sha256": "303e6cfd91007ad22487dcd64591aaab7d0ebb12d3a6bed19317efb483560fff"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-2-countries.svg",
+      "bytes": 32996,
+      "sha256": "125673cce74672cd6e88fd22a34324e8d608787c533a856e18458cef4e4df5d5"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-3-audit.png",
+      "bytes": 86728,
+      "sha256": "5f2edc69c7b4bd5820648107497ed1c2e8ef6cf3aa3242166bfe85bd6fa9da58"
+    },
+    {
+      "path": "research/halal-cultivated/paper/figures/figure-3-audit.svg",
+      "bytes": 6232,
+      "sha256": "f0214bb1ace17d30ff40c738af6911fb51225cd0807ae4ffe82a30e5fc8bc429"
     },
     {
       "path": "research/halal-cultivated/paper/input-manifest.json",
@@ -313,8 +353,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/paper.md",
-      "bytes": 197,
-      "sha256": "b837563c190ffb6984a35ae6796fb0c53bd1a6272e2ef9a259cfb8a7061bebfc"
+      "bytes": 210006,
+      "sha256": "4ad202bf8d37457cfe7dfe48102d933caf57d2ae70e92def12ef691aba97be94"
     },
     {
       "path": "research/halal-cultivated/paper/problems.json",
@@ -323,8 +363,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/review-log.md",
-      "bytes": 11819,
-      "sha256": "3b8537d2785d6a53cbe3aca90c01729aae3ed1a6a1dad1efa5fe189264f1c725"
+      "bytes": 13667,
+      "sha256": "afcad1163cf8278bcc170adf1faa3d5a0b51be78ba7a9d0b050786e9dfccd8f6"
     },
     {
       "path": "research/halal-cultivated/paper/search-log.json",
@@ -333,8 +373,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/source-register.json",
-      "bytes": 253777,
-      "sha256": "2e58bb3a2c63a9919fbe7f7d2573fd2e7c7776bc340a40d3c78f6a2899169ea6"
+      "bytes": 253827,
+      "sha256": "083a4ac208a6080361ebe5e7a9cee8e4f6719b3cef99e25f9fd4bc586db5a29e"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/README.md",
@@ -737,6 +777,16 @@
       "sha256": "a9f0aba6d6f0ce46f04ecf345d973197049c15b0dc0543b352f1d6bad5a98585"
     },
     {
+      "path": "tools/build-paper-appendices.mjs",
+      "bytes": 37758,
+      "sha256": "6501b367fee194f4e19236a4440159fe866b29330425eada862e4189cf642648"
+    },
+    {
+      "path": "tools/build_paper_figures.py",
+      "bytes": 11887,
+      "sha256": "2ebdf92fe32a0fbec8497494ebb6cf1f3a20d07b5f3cc9fd27946e03b2ebc268"
+    },
+    {
       "path": "tools/consolidate-paper.mjs",
       "bytes": 25157,
       "sha256": "588731e44bbb87125218a8a8eeae38b62a2de2c74344544daf39875dffb47354"
@@ -747,6 +797,11 @@
       "sha256": "7bc996b2c78639db99168bd977762962d361618ad0db9491ceeb5ac7b587cbde"
     },
     {
+      "path": "tools/export-paper.mjs",
+      "bytes": 5708,
+      "sha256": "9cf713070989b2f5b8fd2030998cc04e5926faedc665d8b4c1e51f2bca018277"
+    },
+    {
       "path": "tools/fetch-citations.mjs",
       "bytes": 6889,
       "sha256": "36bedda925e914375357aa6bf9c81b67bc243bb31fb7288c78b59fd558b8c08f"
@@ -755,6 +810,11 @@
       "path": "tools/halal-checks.mjs",
       "bytes": 11859,
       "sha256": "a1884be551d39dbf8dd50e04f69a0d5890b946eb258b20d40f6fd11292901b8b"
+    },
+    {
+      "path": "tools/paper-bibliography.mjs",
+      "bytes": 1991,
+      "sha256": "f4982318b8214fdecdfc563613141c02f49ebd069a39220269bbd4d00017a092"
     },
     {
       "path": "tools/paper-checks.mjs",
@@ -778,8 +838,13 @@
     },
     {
       "path": "tools/serve.mjs",
-      "bytes": 2263,
-      "sha256": "a524a38c519b197e585a080510cfe41e792a3a58fa9c20d055816b7611cc29ca"
+      "bytes": 2282,
+      "sha256": "f0ef78731bee6b90463054b73544dacd0085c619e8943749b332de98aef2460d"
+    },
+    {
+      "path": "tools/style_paper_docx.py",
+      "bytes": 6010,
+      "sha256": "c22a3eda18dd770fe2d043031d16c133c7168bf7a82637d82c8e2c1b72157b06"
     },
     {
       "path": "tools/survey-checks.mjs",
@@ -825,6 +890,11 @@
       "path": "tools/test-survey-checks.mjs",
       "bytes": 4367,
       "sha256": "737c7c871ba2eb047eae4a35dc8c6638a4fb2ce4bb761a6fccd8e9397475ae46"
+    },
+    {
+      "path": "tools/verify-paper-section.mjs",
+      "bytes": 2765,
+      "sha256": "3be530baa7ce652f1745716b0b1a07b9408ccf1db86d9a33f0f3a23d3e248aa2"
     },
     {
       "path": "tools/verify.mjs",

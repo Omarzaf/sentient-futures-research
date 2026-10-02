@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "rule": "source_scope",
+    "match": "uncited|P-METHOD-INTERNAL",
+    "reason": "Only reproducible internal inventory, audit, method and pending-review disclosures supported by the listed repository records; no external religious, biological or regulatory proposition and no external footnote."
+  }
+]
