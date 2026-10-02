@@ -4,6 +4,8 @@
 
 **Work in progress.** This supplement preserves the [30 September review](../phase1/README.md) and adds checked readings, search leads and labelled inferences. It does not establish completion of Phase One, scholarly approval or a cultivated-product certificate.
 
+**For continuing agents:** read the [2 October repair report](REPAIR-REPORT-2026-10-02.md) for the resolved findings, commit provenance, verification commands and remaining work before changing claims, gates or forecast inputs.
+
 ## What changed
 
 A check on 2 October read the originals behind the eighth-batch leads where a document index held them. Ten claims are now `confirmed_original`, one is `disputed`, eleven remain `open`, and one source was rejected as unreliable. The check corrected the source of the Taqi Usmani report and the scope of the Uttar Pradesh order. It also located the UAE government’s account of a federal novel-food route and a January 2026 report of a lapse in FSSAI’s Food Authority; full operative texts and later status remain open. The registers now contain **188 sources and 156 claims**, including the provenance-preserving SG-LIST copy from the prior register. The repaired gate table keeps unconfirmed religious positions unresolved, separates the historical GOOD Meat report from the unmatched FDA process, and leaves Saudi whole-market coverage and India’s halal-dependent demand share unverified.

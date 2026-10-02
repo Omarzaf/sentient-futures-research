@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6898,
-      "sha256": "59c5364787452b421c2082342c079e3b06267e58d13f22783da2f24a965f0fb8"
+      "bytes": 7162,
+      "sha256": "d368607f6db2a8ebe70590203856a929fc385fef28675e7155bcc56cee00c4fc"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -173,8 +173,8 @@
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 18443,
-      "sha256": "444ba49a6677783234c0023ccb897dace0bb8c8cd277b7b6c095a5adb34c8830"
+      "bytes": 19013,
+      "sha256": "cb6e86ae33b021e86d483a699106f2ac5e298b506d3645a0e24e437e5fed9585"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
@@ -258,8 +258,13 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/README.md",
-      "bytes": 10823,
-      "sha256": "473667ff4d1bdffe399baa6f5cf6bbd8f3e6b82bd8f84b0b3094839468680356"
+      "bytes": 11052,
+      "sha256": "8433fefb1be535d62c7e39a0ead375e2b70303283e63c9bb244832d2ee223cf4"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/REPAIR-REPORT-2026-10-02.md",
+      "bytes": 7783,
+      "sha256": "9e4a78f2ab51b688b50300715afb2346de348c1e5db98786e472101d9ecf220c"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",

@@ -45,6 +45,8 @@ Open the loopback URL printed by the command. The server exposes only files list
 
 ## Check and maintain
 
+Agents continuing the October workstream should read the [2 October repair report and handoff](research/halal-cultivated/phase1-continuation/REPAIR-REPORT-2026-10-02.md): the five resolved findings, repair commit, regression results and remaining research gates.
+
 No package installation, Python environment, or API keys are required.
 
 ```sh

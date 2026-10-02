@@ -2,6 +2,10 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — repair report for continuing agents
+
+Added the [repository repair report and handoff](phase1-continuation/REPAIR-REPORT-2026-10-02.md), linked from the repository and continuation READMEs. It records repair commit `867fcdf`, both reviewed input heads, all five resolved findings, historical verification results, reproducible commands and remaining research gates. Private workspace reports and evidence receipts are not bundled. This documentation update does not change evidence statuses, numerical inputs, research scope or human-review state.
+
 ## 2 October 2026 — integration repair and forecast-method reconciliation
 
 **Scope:** Reconcile the October continuation and demand-forecast reply on a local branch. The earlier entries below are historical records of their respective checks; their initial gate readings are corrected in the current synthesis, table and claim annotations.
