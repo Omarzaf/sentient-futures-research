@@ -1,1 +1,3946 @@
-[]
+[
+  {
+    "id": "IIFA265",
+    "key": "IIFA265",
+    "aliases": [],
+    "title": "IIFA Resolution 265 on cultivated meat",
+    "url": "https://iifa-aifi.org/en/56085.html",
+    "host": "iifa-aifi.org",
+    "short_exact_quote": "lawful to eat if it is alive",
+    "locator": "Third 1–3; Fourth–Sixth",
+    "family": "IIFA",
+    "source_family": "IIFA",
+    "language": "English issuer translation",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "IIFA Resolution 265 on cultivated meat",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated.",
+    "original_records": [
+      {
+        "id": "IIFA265",
+        "title": "IIFA Resolution 265 on cultivated meat",
+        "url": "https://iifa-aifi.org/en/56085.html",
+        "language": "English issuer translation",
+        "locator": "Third 1–3; Fourth–Sixth",
+        "short_exact_quote": "lawful to eat if it is alive",
+        "source_family": "IIFA",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "IIFA265",
+        "quote": "lawful to eat if it is alive",
+        "locator": "Third 1–3; Fourth–Sixth",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "MUIS2024",
+    "key": "MUIS2024",
+    "aliases": [],
+    "title": "MUIS Fatwa on cultivated meat",
+    "url": "https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/",
+    "host": "www.muis.gov.sg",
+    "short_exact_quote": "Cell source must be taken from animals that are halal to consume",
+    "locator": "Release dated 3 February 2024, paragraphs 8–10",
+    "family": "MUIS",
+    "source_family": "MUIS",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "MUIS Fatwa on cultivated meat",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Issuing-body press release; not full deliberations or a product certificate.",
+    "original_records": [
+      {
+        "id": "MUIS2024",
+        "title": "MUIS Fatwa on cultivated meat",
+        "url": "https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/",
+        "language": "English",
+        "locator": "Release dated 3 February 2024, paragraphs 8–10",
+        "short_exact_quote": "Cell source must be taken from animals that are halal to consume",
+        "source_family": "MUIS",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Issuing-body press release; not full deliberations or a product certificate."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "MUIS2024",
+        "quote": "Cell source must be taken from animals that are halal to consume",
+        "locator": "Release dated 3 February 2024, paragraphs 8–10",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "HAN",
+    "key": "HAN",
+    "aliases": [
+      "H1"
+    ],
+    "title": "Ibn Abidin Radd al Muhtar",
+    "url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+    "host": "islamweb.net",
+    "short_exact_quote": "فإن الملح غير العظم واللحم ، فإذا صار ملحا ترتب حكم الملح",
+    "locator": "Book of Purification, chapter on impurities, displayed vol 1 p 327",
+    "family": "Ibn Abidin",
+    "source_family": "Ibn Abidin",
+    "language": "Arabic fallback",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Abidin Radd al Muhtar",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital transcription; print publisher and year unconfirmed. English paraphrases by agents.",
+    "original_records": [
+      {
+        "id": "HAN",
+        "title": "Ibn Abidin Radd al Muhtar",
+        "url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+        "language": "Arabic fallback",
+        "locator": "Book of Purification, chapter on impurities, displayed vol 1 p 327",
+        "short_exact_quote": "فإن الملح غير العظم واللحم ، فإذا صار ملحا ترتب حكم الملح",
+        "source_family": "Ibn Abidin",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Digital transcription; print publisher and year unconfirmed. English paraphrases by agents."
+      },
+      {
+        "id": "H1",
+        "title": "Ibn Abidin Radd al-Muhtar",
+        "url": "https://islamweb.net/ar/library/content/27/439/باب-الأنجاس",
+        "language": "Arabic",
+        "locator": "Vol. 1, Bab al-Anjas, displayed p. 327",
+        "source_family": "Ibn Abidin",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Ibn Abidin’s Arabic gloss, surrounding parenthetical base text distinguished.",
+        "short_exact_quote": "يجوز أكل ذلك الملح والصلاة على ذلك الرماد",
+        "passage_locator_checked": "Vol. 1 p. 327, transformation paragraph and first تنبيه"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "HAN",
+        "quote": "فإن الملح غير العظم واللحم ، فإذا صار ملحا ترتب حكم الملح",
+        "locator": "Book of Purification, chapter on impurities, displayed vol 1 p 327",
+        "status": "primary_read"
+      },
+      {
+        "source_id": "H1",
+        "quote": "يجوز أكل ذلك الملح والصلاة على ذلك الرماد",
+        "locator": "Vol. 1, Bab al-Anjas, displayed p. 327",
+        "status": "blind_agent_checked"
+      }
+    ],
+    "alias_review": {
+      "method": "retained_record_url_and_overlapping_locator_comparison",
+      "scope": "Same cited passage scope in the dated register; original page not retrieved during consolidation.",
+      "reason": "Same displayed volume 1 page 327 transformation paragraph; different excerpts remain separate.",
+      "quote_relationship": "different_excerpts_preserved",
+      "fresh_passage_verification": false
+    }
+  },
+  {
+    "id": "HAN-D",
+    "key": "HAN-D",
+    "aliases": [
+      "H2"
+    ],
+    "title": "Ibn Abidin Radd al Muhtar on slaughter",
+    "url": "https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح",
+    "host": "islamweb.net",
+    "short_exact_quote": "المنفصل من الحي",
+    "locator": "Book of Slaughter, displayed vol 6 p 311",
+    "family": "Ibn Abidin",
+    "source_family": "Ibn Abidin",
+    "language": "Arabic fallback",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Abidin Radd al Muhtar on slaughter",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Same book and author as HAN; these are not independent corroborating sources.",
+    "original_records": [
+      {
+        "id": "HAN-D",
+        "title": "Ibn Abidin Radd al Muhtar on slaughter",
+        "url": "https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح",
+        "language": "Arabic fallback",
+        "locator": "Book of Slaughter, displayed vol 6 p 311",
+        "short_exact_quote": "المنفصل من الحي",
+        "source_family": "Ibn Abidin",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Same book and author as HAN; these are not independent corroborating sources."
+      },
+      {
+        "id": "H2",
+        "title": "Ibn Abidin Radd al-Muhtar",
+        "url": "https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح",
+        "language": "Arabic",
+        "locator": "Vol. 6, Kitab al-Dhaba’ih, displayed pp. 310–311, detached living part",
+        "source_family": "Ibn Abidin",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Arabic base text with Ibn Abidin’s gloss; gloss excludes fish and locusts.",
+        "short_exact_quote": "( العضو ) يعني الجزء ( المنفصل من الحي )",
+        "passage_locator_checked": "Vol. 6 pp. 310–311, detached-part paragraph and gloss"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "HAN-D",
+        "quote": "المنفصل من الحي",
+        "locator": "Book of Slaughter, displayed vol 6 p 311",
+        "status": "primary_read"
+      },
+      {
+        "source_id": "H2",
+        "quote": "( العضو ) يعني الجزء ( المنفصل من الحي )",
+        "locator": "Vol. 6, Kitab al-Dhaba’ih, displayed pp. 310–311, detached living part",
+        "status": "blind_agent_checked"
+      }
+    ],
+    "alias_review": {
+      "method": "retained_record_url_and_overlapping_locator_comparison",
+      "scope": "Same cited passage scope in the dated register; original page not retrieved during consolidation.",
+      "reason": "Same detached-part paragraph on displayed volume 6 page 311; H2 also records page 310 and the gloss.",
+      "quote_relationship": "different_excerpts_preserved",
+      "fresh_passage_verification": false
+    }
+  },
+  {
+    "id": "SHA-D",
+    "key": "SHA-D",
+    "aliases": [
+      "S3"
+    ],
+    "title": "Al Nawawi Al Majmu on detached parts",
+    "url": "https://www.islamweb.com/ar/library/content/14/1214/الميتة-من-غير-السمك-والجراد-والآدمي",
+    "host": "www.islamweb.com",
+    "short_exact_quote": "العضو المنفصل من حيوان حي",
+    "locator": "Purification, removal of impurity, displayed vol 2 pp 580–581",
+    "family": "Al Nawawi",
+    "source_family": "Al Nawawi",
+    "language": "Arabic fallback",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Al Nawawi Al Majmu on detached parts",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital transcription; underlying print edition unconfirmed. Reported consensus is attributed to the author.",
+    "original_records": [
+      {
+        "id": "SHA-D",
+        "title": "Al Nawawi Al Majmu on detached parts",
+        "url": "https://www.islamweb.com/ar/library/content/14/1214/الميتة-من-غير-السمك-والجراد-والآدمي",
+        "language": "Arabic fallback",
+        "locator": "Purification, removal of impurity, displayed vol 2 pp 580–581",
+        "short_exact_quote": "العضو المنفصل من حيوان حي",
+        "source_family": "Al Nawawi",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Digital transcription; underlying print edition unconfirmed. Reported consensus is attributed to the author."
+      },
+      {
+        "id": "S3",
+        "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://www.islamweb.com/ar/library/content/14/1214/الميتة-من-غير-السمك-والجراد-والآدمي",
+        "language": "Arabic",
+        "locator": "Vol. 2, displayed pp. 580–581, carcasses and detached living parts",
+        "source_family": "al-Nawawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Nawawi Arabic commentary on al-Shirazi.",
+        "short_exact_quote": "الْعُضْوُ الْمُنْفَصِلُ مِنْ حَيَوَانٍ حَيٍّ",
+        "passage_locator_checked": "Vol. 2 pp. 580–581, remaining carcasses and detached-part branch"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SHA-D",
+        "quote": "العضو المنفصل من حيوان حي",
+        "locator": "Purification, removal of impurity, displayed vol 2 pp 580–581",
+        "status": "primary_read"
+      },
+      {
+        "source_id": "S3",
+        "quote": "الْعُضْوُ الْمُنْفَصِلُ مِنْ حَيَوَانٍ حَيٍّ",
+        "locator": "Vol. 2, displayed pp. 580–581, carcasses and detached living parts",
+        "status": "blind_agent_checked"
+      }
+    ],
+    "alias_review": {
+      "method": "retained_record_url_and_overlapping_locator_comparison",
+      "scope": "Same cited passage scope in the dated register; original page not retrieved during consolidation.",
+      "reason": "Same detached-part branch on displayed volume 2 pages 580–581; quote differs in Arabic diacritics.",
+      "quote_relationship": "normalization_equivalent",
+      "fresh_passage_verification": false
+    }
+  },
+  {
+    "id": "SHA-T",
+    "key": "SHA-T",
+    "aliases": [
+      "S4"
+    ],
+    "title": "Al Nawawi Al Majmu on transformation",
+    "url": "https://www.islamweb.net/amp/ar/library/content/14/1246/لا-يطهر-السرجين-والعذرة-وعظام-الميتة-وسائر-الأعيان-النجسة-بالإحراق-بالنار",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "ولا يطهر شيء من ذلك عندنا",
+    "locator": "Purification, displayed vol 2 p 597",
+    "family": "Al Nawawi",
+    "source_family": "Al Nawawi",
+    "language": "Arabic fallback",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Al Nawawi Al Majmu on transformation",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Same author and book as SHA-D; preserves other views and wine-vinegar distinction.",
+    "original_records": [
+      {
+        "id": "SHA-T",
+        "title": "Al Nawawi Al Majmu on transformation",
+        "url": "https://www.islamweb.net/amp/ar/library/content/14/1246/لا-يطهر-السرجين-والعذرة-وعظام-الميتة-وسائر-الأعيان-النجسة-بالإحراق-بالنار",
+        "language": "Arabic fallback",
+        "locator": "Purification, displayed vol 2 p 597",
+        "short_exact_quote": "ولا يطهر شيء من ذلك عندنا",
+        "source_family": "Al Nawawi",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Same author and book as SHA-D; preserves other views and wine-vinegar distinction."
+      },
+      {
+        "id": "S4",
+        "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://www.islamweb.net/amp/ar/library/content/14/1246/لا-يطهر-السرجين-والعذرة-وعظام-الميتة-وسائر-الأعيان-النجسة-بالإحراق-بالنار",
+        "language": "Arabic",
+        "locator": "Vol. 2, displayed pp. 596–597, impure substances transformed by burning/salt marsh",
+        "source_family": "al-Nawawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Shirazi base text; al-Nawawi’s explicit school-position commentary and discussion of alternative view.",
+        "short_exact_quote": "مذهبنا أنه لا يطهر السرجين والعذرة وعظام الميتة وسائر الأعيان النجسة بالإحراق بالنار",
+        "passage_locator_checked": "Vol. 2 p. 597, base text and commentary"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SHA-T",
+        "quote": "ولا يطهر شيء من ذلك عندنا",
+        "locator": "Purification, displayed vol 2 p 597",
+        "status": "primary_read"
+      },
+      {
+        "source_id": "S4",
+        "quote": "مذهبنا أنه لا يطهر السرجين والعذرة وعظام الميتة وسائر الأعيان النجسة بالإحراق بالنار",
+        "locator": "Vol. 2, displayed pp. 596–597, impure substances transformed by burning/salt marsh",
+        "status": "blind_agent_checked"
+      }
+    ],
+    "alias_review": {
+      "method": "retained_record_url_and_overlapping_locator_comparison",
+      "scope": "Same cited passage scope in the dated register; original page not retrieved during consolidation.",
+      "reason": "Same transformation discussion on displayed volume 2 page 597; S4 also records the preceding page and a distinct excerpt.",
+      "quote_relationship": "different_excerpts_preserved",
+      "fresh_passage_verification": false
+    }
+  },
+  {
+    "id": "SIS-EN",
+    "key": "SIS-EN",
+    "aliases": [
+      "J4"
+    ],
+    "title": "Sistani Islamic Laws on transformation",
+    "url": "https://www.sistani.org/english/book/48/2144/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "An impure object about which it is not known whether it has undergone a transformation is impure.",
+    "locator": "Rulings 189–191",
+    "family": "Sistani office",
+    "source_family": "Sistani office",
+    "language": "English official translation",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Sistani Islamic Laws on transformation",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Named contemporary authority; does not establish all Jafari positions.",
+    "original_records": [
+      {
+        "id": "SIS-EN",
+        "title": "Sistani Islamic Laws on transformation",
+        "url": "https://www.sistani.org/english/book/48/2144/",
+        "language": "English official translation",
+        "locator": "Rulings 189–191",
+        "short_exact_quote": "An impure object about which it is not known whether it has undergone a transformation is impure.",
+        "source_family": "Sistani office",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Named contemporary authority; does not establish all Jafari positions."
+      },
+      {
+        "id": "J4",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/2144/",
+        "language": "English",
+        "locator": "Rulings 189–191, transformation (istihalah)",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "An impure object about which it is not known whether it has undergone a transformation is impure.",
+        "passage_locator_checked": "Islamic Laws, rulings 189–191"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SIS-EN",
+        "quote": "An impure object about which it is not known whether it has undergone a transformation is impure.",
+        "locator": "Rulings 189–191",
+        "status": "primary_read"
+      },
+      {
+        "source_id": "J4",
+        "quote": "An impure object about which it is not known whether it has undergone a transformation is impure.",
+        "locator": "Rulings 189–191, transformation (istihalah)",
+        "status": "blind_agent_checked"
+      }
+    ],
+    "alias_review": {
+      "method": "retained_record_url_and_overlapping_locator_comparison",
+      "scope": "Same cited passage scope in the dated register; original page not retrieved during consolidation.",
+      "reason": "Same official transformation rulings 189–191 and identical retained quotation.",
+      "quote_relationship": "identical",
+      "fresh_passage_verification": false
+    }
+  },
+  {
+    "id": "SIS-AR",
+    "key": "SIS-AR",
+    "aliases": [],
+    "title": "Sistani official questions on transformation",
+    "url": "https://www.sistani.org/arabic/qa/0306/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "طهارة عظام الميتة النجسة لاتستلزم جواز اكلها او اكل المادة المستخلصة منها",
+    "locator": "Question 2, reference 4834",
+    "family": "Sistani office",
+    "source_family": "Sistani office",
+    "language": "Arabic fallback for additional question",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Sistani official questions on transformation",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Gelatin question. Do not automatically transfer its answer to cell proliferation.",
+    "original_records": [
+      {
+        "id": "SIS-AR",
+        "title": "Sistani official questions on transformation",
+        "url": "https://www.sistani.org/arabic/qa/0306/",
+        "language": "Arabic fallback for additional question",
+        "locator": "Question 2, reference 4834",
+        "short_exact_quote": "طهارة عظام الميتة النجسة لاتستلزم جواز اكلها او اكل المادة المستخلصة منها",
+        "source_family": "Sistani office",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Gelatin question. Do not automatically transfer its answer to cell proliferation."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SIS-AR",
+        "quote": "طهارة عظام الميتة النجسة لاتستلزم جواز اكلها او اكل المادة المستخلصة منها",
+        "locator": "Question 2, reference 4834",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "GHAMIDI",
+    "key": "GHAMIDI",
+    "aliases": [],
+    "title": "Ghamidi The Dietary Laws translated by Shehzad Saleem",
+    "url": "https://monthly-renaissance.com/issue/content.aspx?id=393",
+    "host": "monthly-renaissance.com",
+    "short_exact_quote": "Any piece cut from a living animal is maytah.",
+    "locator": "Paragraph beginning It is obvious that a piece of flesh; tasmiya discussion after Quran 6:121",
+    "family": "Ghamidi authored dietary framework",
+    "source_family": "Ghamidi authored dietary framework",
+    "language": "English published translation",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ghamidi The Dietary Laws translated by Shehzad Saleem",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "February 2002 issue. Primary authored essay, not this interview. Legacy page contains irrelevant commercial links; only named article used.",
+    "original_records": [
+      {
+        "id": "GHAMIDI",
+        "title": "Ghamidi The Dietary Laws translated by Shehzad Saleem",
+        "url": "https://monthly-renaissance.com/issue/content.aspx?id=393",
+        "language": "English published translation",
+        "locator": "Paragraph beginning It is obvious that a piece of flesh; tasmiya discussion after Quran 6:121",
+        "short_exact_quote": "Any piece cut from a living animal is maytah.",
+        "source_family": "Ghamidi authored dietary framework",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "February 2002 issue. Primary authored essay, not this interview. Legacy page contains irrelevant commercial links; only named article used."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "GHAMIDI",
+        "quote": "Any piece cut from a living animal is maytah.",
+        "locator": "Paragraph beginning It is obvious that a piece of flesh; tasmiya discussion after Quran 6:121",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "Q7",
+    "key": "Q7",
+    "aliases": [],
+    "title": "Quran 7 157",
+    "url": "https://quran.com/7/157",
+    "host": "quran.com",
+    "short_exact_quote": "permits for them what is lawful and forbids to them what is impure",
+    "locator": "Surah 7 verse 157",
+    "family": "Quran",
+    "source_family": "Quran",
+    "language": "English translation with Arabic",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Quran 7 157",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Scriptural reference; interpretation remains distinct from wording.",
+    "original_records": [
+      {
+        "id": "Q7",
+        "title": "Quran 7 157",
+        "url": "https://quran.com/7/157",
+        "language": "English translation with Arabic",
+        "locator": "Surah 7 verse 157",
+        "short_exact_quote": "permits for them what is lawful and forbids to them what is impure",
+        "source_family": "Quran",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Scriptural reference; interpretation remains distinct from wording."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "Q7",
+        "quote": "permits for them what is lawful and forbids to them what is impure",
+        "locator": "Surah 7 verse 157",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "Q6",
+    "key": "Q6",
+    "aliases": [],
+    "title": "Quran 6 145",
+    "url": "https://quran.com/6/145",
+    "host": "quran.com",
+    "short_exact_quote": "carrion, running blood, swine",
+    "locator": "Surah 6 verse 145",
+    "family": "Quran",
+    "source_family": "Quran",
+    "language": "English translation with Arabic",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Quran 6 145",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "The Clear Quran translation; separate interpretation from text.",
+    "original_records": [
+      {
+        "id": "Q6",
+        "title": "Quran 6 145",
+        "url": "https://quran.com/6/145",
+        "language": "English translation with Arabic",
+        "locator": "Surah 6 verse 145",
+        "short_exact_quote": "carrion, running blood, swine",
+        "source_family": "Quran",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "The Clear Quran translation; separate interpretation from text."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "Q6",
+        "quote": "carrion, running blood, swine",
+        "locator": "Surah 6 verse 145",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "Q5",
+    "key": "Q5",
+    "aliases": [],
+    "title": "Quran 5 3",
+    "url": "https://quran.com/5/3",
+    "host": "quran.com",
+    "short_exact_quote": "what is partly eaten by a predator unless you slaughter it",
+    "locator": "Surah 5 verse 3",
+    "family": "Quran",
+    "source_family": "Quran",
+    "language": "English translation with Arabic",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Quran 5 3",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "A direct cultivated-cell application is not stated.",
+    "original_records": [
+      {
+        "id": "Q5",
+        "title": "Quran 5 3",
+        "url": "https://quran.com/5/3",
+        "language": "English translation with Arabic",
+        "locator": "Surah 5 verse 3",
+        "short_exact_quote": "what is partly eaten by a predator unless you slaughter it",
+        "source_family": "Quran",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "A direct cultivated-cell application is not stated."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "Q5",
+        "quote": "what is partly eaten by a predator unless you slaughter it",
+        "locator": "Surah 5 verse 3",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "Q6121",
+    "key": "Q6121",
+    "aliases": [],
+    "title": "Quran 6 121",
+    "url": "https://quran.com/6/121",
+    "host": "quran.com",
+    "short_exact_quote": "Do not eat of what is not slaughtered in Allah’s Name.",
+    "locator": "Surah 6 verse 121",
+    "family": "Quran",
+    "source_family": "Quran",
+    "language": "English translation with Arabic",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Quran 6 121",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "The Clear Quran translation.",
+    "original_records": [
+      {
+        "id": "Q6121",
+        "title": "Quran 6 121",
+        "url": "https://quran.com/6/121",
+        "language": "English translation with Arabic",
+        "locator": "Surah 6 verse 121",
+        "short_exact_quote": "Do not eat of what is not slaughtered in Allah’s Name.",
+        "source_family": "Quran",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "The Clear Quran translation."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "Q6121",
+        "quote": "Do not eat of what is not slaughtered in Allah’s Name.",
+        "locator": "Surah 6 verse 121",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "AD2858",
+    "key": "AD2858",
+    "aliases": [],
+    "title": "Sunan Abi Dawud 2858",
+    "url": "https://sunnah.com/abudawud:2858",
+    "host": "sunnah.com",
+    "short_exact_quote": "Whatever is cut off of an animal when it is alive is dead.",
+    "locator": "Hadith 2858, Book 17 Hadith 15; English numbering Book 16 Hadith 2852",
+    "family": "Abu Dawud",
+    "source_family": "Abu Dawud",
+    "language": "English translation with Arabic",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Sunan Abi Dawud 2858",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Page displays Sahih attributed to Al Albani; grading not independently adjudicated.",
+    "original_records": [
+      {
+        "id": "AD2858",
+        "title": "Sunan Abi Dawud 2858",
+        "url": "https://sunnah.com/abudawud:2858",
+        "language": "English translation with Arabic",
+        "locator": "Hadith 2858, Book 17 Hadith 15; English numbering Book 16 Hadith 2852",
+        "short_exact_quote": "Whatever is cut off of an animal when it is alive is dead.",
+        "source_family": "Abu Dawud",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Page displays Sahih attributed to Al Albani; grading not independently adjudicated."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "AD2858",
+        "quote": "Whatever is cut off of an animal when it is alive is dead.",
+        "locator": "Hadith 2858, Book 17 Hadith 15; English numbering Book 16 Hadith 2852",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "WP595",
+    "key": "WP595",
+    "aliases": [],
+    "title": "MuftiWP Irsyad Hukum 595",
+    "url": "https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/4887-irsyad-al-fatwa-siri-ke-595-daging-kultur-cultured-meat-menurut-perspektif-syarak",
+    "host": "www.muftiwp.gov.my",
+    "short_exact_quote": "",
+    "locator": "Article 24 July 2021; answer and tissue-source discussion",
+    "family": "MuftiWP",
+    "source_family": "MuftiWP",
+    "language": "Malay despite en URL",
+    "accessed": "2026-09-30",
+    "status": "held_language",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "MuftiWP Irsyad Hukum 595",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "English or Arabic version needed before adoption under the selected language policy; translated findings held.",
+    "original_records": [
+      {
+        "id": "WP595",
+        "title": "MuftiWP Irsyad Hukum 595",
+        "url": "https://www.muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-umum-cat/4887-irsyad-al-fatwa-siri-ke-595-daging-kultur-cultured-meat-menurut-perspektif-syarak",
+        "language": "Malay despite en URL",
+        "locator": "Article 24 July 2021; answer and tissue-source discussion",
+        "short_exact_quote": "",
+        "source_family": "MuftiWP",
+        "accessed": "2026-09-30",
+        "status": "held_language",
+        "limits": "English or Arabic version needed before adoption under the selected language policy; translated findings held."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "WP595",
+        "quote": "",
+        "locator": "Article 24 July 2021; answer and tissue-source discussion",
+        "status": "held_language"
+      }
+    ]
+  },
+  {
+    "id": "MKI128",
+    "key": "MKI128",
+    "aliases": [],
+    "title": "JAKIM CIRi MKI128 cultivated meat opinion",
+    "url": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
+    "host": "ciri.islam.gov.my",
+    "short_exact_quote": "",
+    "locator": "Meeting 23–26 September 2025; conditions and metadata",
+    "family": "MKI JAKIM",
+    "source_family": "MKI JAKIM",
+    "language": "Malay",
+    "accessed": "2026-09-30",
+    "status": "held_language",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "JAKIM CIRi MKI128 cultivated meat opinion",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary discovered; analyst translation held outside English/Arabic lane. No current legal-effect conclusion.",
+    "original_records": [
+      {
+        "id": "MKI128",
+        "title": "JAKIM CIRi MKI128 cultivated meat opinion",
+        "url": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
+        "language": "Malay",
+        "locator": "Meeting 23–26 September 2025; conditions and metadata",
+        "short_exact_quote": "",
+        "source_family": "MKI JAKIM",
+        "accessed": "2026-09-30",
+        "status": "held_language",
+        "limits": "Primary discovered; analyst translation held outside English/Arabic lane. No current legal-effect conclusion."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "MKI128",
+        "quote": "",
+        "locator": "Meeting 23–26 September 2025; conditions and metadata",
+        "status": "held_language"
+      }
+    ]
+  },
+  {
+    "id": "IIFA-AR",
+    "key": "IIFA-AR",
+    "aliases": [],
+    "title": "IIFA Resolution 265 Arabic original",
+    "url": "https://iifa-aifi.org/ar/56053.html",
+    "host": "iifa-aifi.org",
+    "short_exact_quote": "أن تستخلص الخلايا من حيوان مباح الأكل إذا كان حيًّا",
+    "locator": "Third 1–6",
+    "family": "IIFA",
+    "source_family": "IIFA",
+    "language": "Arabic cross-check of English ambiguity",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "IIFA Resolution 265 Arabic original",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Same resolution, not another independent source. Arabic clause numbering differs from English.",
+    "original_records": [
+      {
+        "id": "IIFA-AR",
+        "title": "IIFA Resolution 265 Arabic original",
+        "url": "https://iifa-aifi.org/ar/56053.html",
+        "language": "Arabic cross-check of English ambiguity",
+        "locator": "Third 1–6",
+        "short_exact_quote": "أن تستخلص الخلايا من حيوان مباح الأكل إذا كان حيًّا",
+        "source_family": "IIFA",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "Same resolution, not another independent source. Arabic clause numbering differs from English."
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "IIFA-AR",
+        "quote": "أن تستخلص الخلايا من حيوان مباح الأكل إذا كان حيًّا",
+        "locator": "Third 1–6",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "MUIS-BOOK",
+    "key": "MUIS-BOOK",
+    "aliases": [],
+    "title": "MUIS From Lab to Table Novel Food from an Islamic Perspective",
+    "url": "https://file.go.gov.sg/novelfood.pdf",
+    "host": "file.go.gov.sg",
+    "short_exact_quote": "which have been slaughtered beforehand according to Islamic Law",
+    "locator": "First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
+    "family": "MUIS",
+    "source_family": "MUIS",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "primary_read",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "MUIS From Lab to Table Novel Food from an Islamic Perspective",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "2024 framework, not a current 2026 audit. Page 14 visually inspected by root. Same institution as release.",
+    "original_records": [
+      {
+        "id": "MUIS-BOOK",
+        "title": "MUIS From Lab to Table Novel Food from an Islamic Perspective",
+        "url": "https://file.go.gov.sg/novelfood.pdf",
+        "language": "English",
+        "locator": "First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
+        "short_exact_quote": "which have been slaughtered beforehand according to Islamic Law",
+        "source_family": "MUIS",
+        "accessed": "2026-09-30",
+        "status": "primary_read",
+        "limits": "2024 framework, not a current 2026 audit. Page 14 visually inspected by root. Same institution as release.",
+        "retrieval_sha256": "a4ccb9e7f792588fb27b3b790f154b095054bbdf089496fe04b8dd335fa1476f"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "MUIS-BOOK",
+        "quote": "which have been slaughtered beforehand according to Islamic Law",
+        "locator": "First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
+        "status": "primary_read"
+      }
+    ]
+  },
+  {
+    "id": "IN2017",
+    "key": "IN2017",
+    "aliases": [],
+    "title": "FSSAI Approval for Non Specified Food and Food Ingredients Regulations 2017",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_FSS_NFS_FA_17_10_2022.pdf",
+    "host": "www.fssai.gov.in",
+    "short_exact_quote": "No person shall manufacture or import any non-specified food or food ingredient",
+    "locator": "Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
+    "family": "FSSAI",
+    "source_family": "FSSAI",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "FSSAI Approval for Non Specified Food and Food Ingredients Regulations 2017",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Compendium read. Later application-list completeness not established; landing page served a JavaScript shell. No named chicken approval inferred.",
+    "original_records": [
+      {
+        "id": "IN2017",
+        "title": "FSSAI Approval for Non Specified Food and Food Ingredients Regulations 2017",
+        "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_FSS_NFS_FA_17_10_2022.pdf",
+        "locator": "Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
+        "short_exact_quote": "No person shall manufacture or import any non-specified food or food ingredient",
+        "source_family": "FSSAI",
+        "language": "English",
+        "source_date": "2017; compendium 2022",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Compendium read. Later application-list completeness not established; landing page served a JavaScript shell. No named chicken approval inferred.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "IN2017",
+        "quote": "No person shall manufacture or import any non-specified food or food ingredient",
+        "locator": "Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "PK2016",
+    "key": "PK2016",
+    "aliases": [],
+    "title": "Pakistan Halal Authority Act 2016",
+    "url": "https://faolex.fao.org/docs/pdf/pak164529.pdf",
+    "host": "faolex.fao.org",
+    "short_exact_quote": "inter-provincial trade and commerce",
+    "locator": "Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
+    "family": "Pakistan Parliament",
+    "source_family": "Pakistan Parliament",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Pakistan Halal Authority Act 2016",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official gazette reproduced by FAOLEX. Territorial scope and deferred commencement of sections17–20 must be retained. No complete provincial food-law audit.",
+    "original_records": [
+      {
+        "id": "PK2016",
+        "title": "Pakistan Halal Authority Act 2016",
+        "url": "https://faolex.fao.org/docs/pdf/pak164529.pdf",
+        "locator": "Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
+        "short_exact_quote": "inter-provincial trade and commerce",
+        "source_family": "Pakistan Parliament",
+        "language": "English",
+        "source_date": "2016-03-01",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official gazette reproduced by FAOLEX. Territorial scope and deferred commencement of sections17–20 must be retained. No complete provincial food-law audit.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "PK2016",
+        "quote": "inter-provincial trade and commerce",
+        "locator": "Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "SA-NOVEL",
+    "key": "SA-NOVEL",
+    "aliases": [],
+    "title": "SFDA General Requirements of Novel Foods",
+    "url": "https://www.sfda.gov.sa/sites/default/files/2021-10/NovelFoodGeneralRequirements.pdf",
+    "host": "www.sfda.gov.sa",
+    "short_exact_quote": "consisting of, isolated from or produced from cell culture or tissue culture",
+    "locator": "PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
+    "family": "SFDA",
+    "source_family": "SFDA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "SFDA General Requirements of Novel Foods",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "English is informational; Arabic prevails. Cover shows SFDA.FD513/2020 while other official materials use5031 and5013; version/number unresolved.",
+    "original_records": [
+      {
+        "id": "SA-NOVEL",
+        "title": "SFDA General Requirements of Novel Foods",
+        "url": "https://www.sfda.gov.sa/sites/default/files/2021-10/NovelFoodGeneralRequirements.pdf",
+        "locator": "PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
+        "short_exact_quote": "consisting of, isolated from or produced from cell culture or tissue culture",
+        "source_family": "SFDA",
+        "language": "English",
+        "source_date": "2020; posted2021",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "English is informational; Arabic prevails. Cover shows SFDA.FD513/2020 while other official materials use5031 and5013; version/number unresolved.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SA-NOVEL",
+        "quote": "consisting of, isolated from or produced from cell culture or tissue culture",
+        "locator": "PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "SA-GUIDE",
+    "key": "SA-GUIDE",
+    "aliases": [],
+    "title": "SFDA Guide to Apply for Approval of Novel Foods",
+    "url": "https://www.sfda.gov.sa/sites/default/files/2021-10/GuideApplyApprovalNovelFoods.pdf",
+    "host": "www.sfda.gov.sa",
+    "short_exact_quote": "Description of the production process",
+    "locator": "Both PDF pages; scope and required information",
+    "family": "SFDA",
+    "source_family": "SFDA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "SFDA Guide to Apply for Approval of Novel Foods",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Source refers to5031:2020. The source is a dossier guide, not a product decision.",
+    "original_records": [
+      {
+        "id": "SA-GUIDE",
+        "title": "SFDA Guide to Apply for Approval of Novel Foods",
+        "url": "https://www.sfda.gov.sa/sites/default/files/2021-10/GuideApplyApprovalNovelFoods.pdf",
+        "locator": "Both PDF pages; scope and required information",
+        "short_exact_quote": "Description of the production process",
+        "source_family": "SFDA",
+        "language": "English",
+        "source_date": "2021",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Source refers to5031:2020. The source is a dossier guide, not a product decision.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SA-GUIDE",
+        "quote": "Description of the production process",
+        "locator": "Both PDF pages; scope and required information",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "SA-2025",
+    "key": "SA-2025",
+    "aliases": [],
+    "title": "SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia",
+    "url": "https://sfda.gov.sa/en/news/18781",
+    "host": "sfda.gov.sa",
+    "short_exact_quote": "Technical Regulation for General Requirements of Novel Foods (SFDA.FD 5013)",
+    "locator": "News22December2025, final substantive paragraph",
+    "family": "SFDA",
+    "source_family": "SFDA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Confirms a pathway; does not resolve older document-number discrepancy or approve a particular product.",
+    "original_records": [
+      {
+        "id": "SA-2025",
+        "title": "SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia",
+        "url": "https://sfda.gov.sa/en/news/18781",
+        "locator": "News22December2025, final substantive paragraph",
+        "short_exact_quote": "Technical Regulation for General Requirements of Novel Foods (SFDA.FD 5013)",
+        "source_family": "SFDA",
+        "language": "English",
+        "source_date": "2025-12-22",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Confirms a pathway; does not resolve older document-number discrepancy or approve a particular product.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SA-2025",
+        "quote": "Technical Regulation for General Requirements of Novel Foods (SFDA.FD 5013)",
+        "locator": "News22December2025, final substantive paragraph",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "AE-HALAL",
+    "key": "AE-HALAL",
+    "aliases": [],
+    "title": "MOIAT UAE Halal System",
+    "url": "https://moiat.gov.ae/en/programs/halal",
+    "host": "moiat.gov.ae",
+    "short_exact_quote": "The Halal National Mark is an optional mark",
+    "locator": "Halal certification system and Halal National Mark sections",
+    "family": "MOIAT",
+    "source_family": "MOIAT",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "MOIAT UAE Halal System",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "General system scope, not a cultivated-meat-specific ruling or food authorization; do not generalize compulsory scope to every food.",
+    "original_records": [
+      {
+        "id": "AE-HALAL",
+        "title": "MOIAT UAE Halal System",
+        "url": "https://moiat.gov.ae/en/programs/halal",
+        "locator": "Halal certification system and Halal National Mark sections",
+        "short_exact_quote": "The Halal National Mark is an optional mark",
+        "source_family": "MOIAT",
+        "language": "English",
+        "source_date": "Undated live page",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "General system scope, not a cultivated-meat-specific ruling or food authorization; do not generalize compulsory scope to every food.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "AE-HALAL",
+        "quote": "The Halal National Mark is an optional mark",
+        "locator": "Halal certification system and Halal National Mark sections",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "AE-2025",
+    "key": "AE-2025",
+    "aliases": [],
+    "title": "Abu Dhabi novel food framework announcement",
+    "url": "https://www.wam.ae/en/article/bmd6z4n-abu-dhabi-launches-pioneering-regulatory-framework",
+    "host": "www.wam.ae",
+    "short_exact_quote": "initiative to develop a regulatory framework",
+    "locator": "24October2025, body describing initiative to develop the framework",
+    "family": "WAM and ADAFSA",
+    "source_family": "WAM and ADAFSA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Abu Dhabi novel food framework announcement",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Headline says launches; body describes development. Not proof of a fully operational national cultivated-food approval route.",
+    "original_records": [
+      {
+        "id": "AE-2025",
+        "title": "Abu Dhabi novel food framework announcement",
+        "url": "https://www.wam.ae/en/article/bmd6z4n-abu-dhabi-launches-pioneering-regulatory-framework",
+        "locator": "24October2025, body describing initiative to develop the framework",
+        "short_exact_quote": "initiative to develop a regulatory framework",
+        "source_family": "WAM and ADAFSA",
+        "language": "English",
+        "source_date": "2025-10-24",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Headline says launches; body describes development. Not proof of a fully operational national cultivated-food approval route.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "AE-2025",
+        "quote": "initiative to develop a regulatory framework",
+        "locator": "24October2025, body describing initiative to develop the framework",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "SG-FRAME",
+    "key": "SG-FRAME",
+    "aliases": [],
+    "title": "SFA Overview of Pre Market Approval Framework for Novel Food",
+    "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
+    "host": "www.sfa.gov.sg",
+    "short_exact_quote": "A pre-market approval for a novel food is not perpetual",
+    "locator": "Who must obtain approval; safety assessments; premarket approval sections",
+    "family": "SFA",
+    "source_family": "SFA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "SFA Overview of Pre Market Approval Framework for Novel Food",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Retrieved through direct download after web fetch403. Page dated27August2026. Approval and halal status are separate.",
+    "original_records": [
+      {
+        "id": "SG-FRAME",
+        "title": "SFA Overview of Pre Market Approval Framework for Novel Food",
+        "url": "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food",
+        "locator": "Who must obtain approval; safety assessments; premarket approval sections",
+        "short_exact_quote": "A pre-market approval for a novel food is not perpetual",
+        "source_family": "SFA",
+        "language": "English",
+        "source_date": "2026-08-27",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Retrieved through direct download after web fetch403. Page dated27August2026. Approval and halal status are separate.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SG-FRAME",
+        "quote": "A pre-market approval for a novel food is not perpetual",
+        "locator": "Who must obtain approval; safety assessments; premarket approval sections",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "SG-LIST",
+    "key": "SG-LIST",
+    "aliases": [],
+    "title": "SFA List of Approved Novel Foods",
+    "url": "https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf",
+    "host": "www.sfa.gov.sg",
+    "short_exact_quote": "A food safe growth medium, without animal-derived components.",
+    "locator": "PDF pp4,10,23; entries2,6,15",
+    "family": "SFA",
+    "source_family": "SFA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "SFA List of Approved Novel Foods",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
+    "original_records": [
+      {
+        "id": "SG-LIST",
+        "title": "SFA List of Approved Novel Foods",
+        "url": "https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf",
+        "locator": "PDF pp4,10,23; entries2,6,15",
+        "short_exact_quote": "A food safe growth medium, without animal-derived components.",
+        "source_family": "SFA",
+        "language": "English",
+        "source_date": "2026-08-14",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "SG-LIST",
+        "quote": "A food safe growth medium, without animal-derived components.",
+        "locator": "PDF pp4,10,23; entries2,6,15",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "MY-HALAL",
+    "key": "MY-HALAL",
+    "aliases": [],
+    "title": "JAKIM Foreign Halal Certification Body portal",
+    "url": "https://www.halal.gov.my/index.php?data=bW9kdWxlcy9jb2xsYXBzaWJsZV9jb250ZW50Ozs7Ow%3D%3D&utama=CB_LIST",
+    "host": "www.halal.gov.my",
+    "short_exact_quote": "the name of the said certification body",
+    "locator": "Recognition, importation, and Trade Descriptions Order2011 sections",
+    "family": "JAKIM",
+    "source_family": "JAKIM",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "JAKIM Foreign Halal Certification Body portal",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "English portal still references MS1500:2009. Use for institutional structure; not an audit of the latest standards edition or named certificate.",
+    "original_records": [
+      {
+        "id": "MY-HALAL",
+        "title": "JAKIM Foreign Halal Certification Body portal",
+        "url": "https://www.halal.gov.my/index.php?data=bW9kdWxlcy9jb2xsYXBzaWJsZV9jb250ZW50Ozs7Ow%3D%3D&utama=CB_LIST",
+        "locator": "Recognition, importation, and Trade Descriptions Order2011 sections",
+        "short_exact_quote": "the name of the said certification body",
+        "source_family": "JAKIM",
+        "language": "English",
+        "source_date": "Undated live page",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "English portal still references MS1500:2009. Use for institutional structure; not an audit of the latest standards edition or named certificate.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "MY-HALAL",
+        "quote": "the name of the said certification body",
+        "locator": "Recognition, importation, and Trade Descriptions Order2011 sections",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "ID221",
+    "key": "ID221",
+    "aliases": [],
+    "title": "BPJPH Decree221 of2025 on foreign halal certificate registration",
+    "url": "https://cmsbl.halal.go.id/uploads/Decree_Kepkaban_221_2025_Implementation_Procedure_of_Foreign_Halal_Certificate_Registration_bb95097144.pdf",
+    "host": "cmsbl.halal.go.id",
+    "short_exact_quote": "shall be registered by BPJPH prior to circulation",
+    "locator": "PDF pp1–5; operative Second/Third; AnnexI chaptersI–II",
+    "family": "BPJPH",
+    "source_family": "BPJPH",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "BPJPH Decree221 of2025 on foreign halal certificate registration",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English translation; Indonesian prevails. Issued15September2025, takes effect three months later. Does not settle cultivated-food authorization.",
+    "original_records": [
+      {
+        "id": "ID221",
+        "title": "BPJPH Decree221 of2025 on foreign halal certificate registration",
+        "url": "https://cmsbl.halal.go.id/uploads/Decree_Kepkaban_221_2025_Implementation_Procedure_of_Foreign_Halal_Certificate_Registration_bb95097144.pdf",
+        "locator": "PDF pp1–5; operative Second/Third; AnnexI chaptersI–II",
+        "short_exact_quote": "shall be registered by BPJPH prior to circulation",
+        "source_family": "BPJPH",
+        "language": "English",
+        "source_date": "2025-09-15",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English translation; Indonesian prevails. Issued15September2025, takes effect three months later. Does not settle cultivated-food authorization.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "ID221",
+        "quote": "shall be registered by BPJPH prior to circulation",
+        "locator": "PDF pp1–5; operative Second/Third; AnnexI chaptersI–II",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "IIFA198",
+    "key": "IIFA198",
+    "aliases": [],
+    "title": "IIFA Resolution198 on transmutation dilution and additives",
+    "url": "https://iifa-aifi.org/en/33063.html",
+    "host": "iifa-aifi.org",
+    "short_exact_quote": "If chemical interaction is partial, it is not considered transmutation",
+    "locator": "Resolution198(4/21), Second1 and blood-plasma paragraph",
+    "family": "IIFA",
+    "source_family": "IIFA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "IIFA Resolution198 on transmutation dilution and additives",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "2013 plasma conclusion was reopened in2015; never treat it as an unrevised final institutional position.",
+    "original_records": [
+      {
+        "id": "IIFA198",
+        "title": "IIFA Resolution198 on transmutation dilution and additives",
+        "url": "https://iifa-aifi.org/en/33063.html",
+        "locator": "Resolution198(4/21), Second1 and blood-plasma paragraph",
+        "short_exact_quote": "If chemical interaction is partial, it is not considered transmutation",
+        "source_family": "IIFA",
+        "language": "English",
+        "source_date": "2013-11-22",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "2013 plasma conclusion was reopened in2015; never treat it as an unrevised final institutional position.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "IIFA198",
+        "quote": "If chemical interaction is partial, it is not considered transmutation",
+        "locator": "Resolution198(4/21), Second1 and blood-plasma paragraph",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "IIFA210",
+    "key": "IIFA210",
+    "aliases": [],
+    "title": "IIFA Resolution210 on transmutation and dilution of additives",
+    "url": "https://iifa-aifi.org/en/33099.html",
+    "host": "iifa-aifi.org",
+    "short_exact_quote": "the subject should be revisited due to new information",
+    "locator": "Resolution210(6/22), First/Second; gelatin; hormones/enzymes; rennet",
+    "family": "IIFA",
+    "source_family": "IIFA",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "IIFA Resolution210 on transmutation and dilution of additives",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "2015 resolution quotes1995 IOMS material but is itself an IIFA resolution. Some English clauses are truncated; omit uncertain words. Gelatin further study, not blanket authorization.",
+    "original_records": [
+      {
+        "id": "IIFA210",
+        "title": "IIFA Resolution210 on transmutation and dilution of additives",
+        "url": "https://iifa-aifi.org/en/33099.html",
+        "locator": "Resolution210(6/22), First/Second; gelatin; hormones/enzymes; rennet",
+        "short_exact_quote": "the subject should be revisited due to new information",
+        "source_family": "IIFA",
+        "language": "English",
+        "source_date": "2015-03-22 to2015-03-25",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "2015 resolution quotes1995 IOMS material but is itself an IIFA resolution. Some English clauses are truncated; omit uncertain words. Gelatin further study, not blanket authorization.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "IIFA210",
+        "quote": "the subject should be revisited due to new information",
+        "locator": "Resolution210(6/22), First/Second; gelatin; hormones/enzymes; rennet",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "GOOD-DOSSIER",
+    "key": "GOOD-DOSSIER",
+    "aliases": [],
+    "title": "GOOD Meat cultured chicken submission to FDA CCC000001",
+    "url": "https://www.fda.gov/media/166346/download",
+    "host": "www.fda.gov",
+    "short_exact_quote": "Fetal bovine serum (FBS) is a component",
+    "locator": "Main dossier sections4.3,5.2.3.9; printed pp12,58–60; Table33",
+    "family": "GOOD Meat",
+    "source_family": "GOOD Meat",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "GOOD Meat cultured chicken submission to FDA CCC000001",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Company process evidence hosted by FDA. Not an independent assay replication, universal product description, or halal finding. Do not transfer it to the serum-free SFA process.",
+    "original_records": [
+      {
+        "id": "GOOD-DOSSIER",
+        "title": "GOOD Meat cultured chicken submission to FDA CCC000001",
+        "url": "https://www.fda.gov/media/166346/download",
+        "locator": "Main dossier sections4.3,5.2.3.9; printed pp12,58–60; Table33",
+        "short_exact_quote": "Fetal bovine serum (FBS) is a component",
+        "source_family": "GOOD Meat",
+        "language": "English",
+        "source_date": "2022 submission; later supplements",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Company process evidence hosted by FDA. Not an independent assay replication, universal product description, or halal finding. Do not transfer it to the serum-free SFA process.",
+        "verification_id": "V-COUNTRY-HISTORY"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "GOOD-DOSSIER",
+        "quote": "Fetal bovine serum (FBS) is a component",
+        "locator": "Main dossier sections4.3,5.2.3.9; printed pp12,58–60; Table33",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-RIS29",
+    "key": "M-RIS29",
+    "aliases": [],
+    "title": "Ibn Abi Zayd al-Qayrawani al-Risala",
+    "url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/book29.html",
+    "host": "www.iium.edu.my",
+    "short_exact_quote": "However, if the Bismillah is left out deliberately the animal cannot be eaten.",
+    "locator": "Chapter 29, especially 29.3d-e, 29.5a-h and 29.6a-i",
+    "family": "Ibn Abi Zayd al-Qayrawani",
+    "source_family": "Ibn Abi Zayd al-Qayrawani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Abi Zayd al-Qayrawani al-Risala",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Index credits Alhaj Bello Mohammad Daura and warns translation is not final; chapter headings and bracketed explanations are editorial/commentarial.",
+    "original_records": [
+      {
+        "id": "M-RIS29",
+        "title": "Ibn Abi Zayd al-Qayrawani al-Risala",
+        "url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/book29.html",
+        "language": "English",
+        "locator": "Chapter 29, especially 29.3d-e, 29.5a-h and 29.6a-i",
+        "source_family": "Ibn Abi Zayd al-Qayrawani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Index credits Alhaj Bello Mohammad Daura and warns translation is not final; chapter headings and bracketed explanations are editorial/commentarial.",
+        "source_layer": "Base translation plus separately bracketed commentary; English draft hosted by IIUM.",
+        "short_exact_quote": "However, if the Bismillah is left out deliberately the animal cannot be eaten.",
+        "passage_locator_checked": "29.3d; also read29.5 and29.6a-i"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-RIS29",
+        "quote": "However, if the Bismillah is left out deliberately the animal cannot be eaten.",
+        "locator": "Chapter 29, especially 29.3d-e, 29.5a-h and 29.6a-i",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-RIS-INDEX",
+    "key": "M-RIS-INDEX",
+    "aliases": [],
+    "title": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata al-Risala web index",
+    "url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/",
+    "host": "www.iium.edu.my",
+    "short_exact_quote": "Including commentary from ath-Thamr ad-Dani by al-Azhari",
+    "locator": "Title and translator/commentator lines",
+    "family": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata",
+    "source_family": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata al-Risala web index",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-RIS-INDEX",
+        "title": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata al-Risala web index",
+        "url": "https://www.iium.edu.my/deed/lawbase/risalah_maliki/",
+        "language": "English",
+        "locator": "Title and translator/commentator lines",
+        "source_family": "Ibn Abi Zayd al-Qayrawani; editorial translation metadata",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Editorial metadata; not a substantive legal ruling.",
+        "short_exact_quote": "Including commentary from ath-Thamr ad-Dani by al-Azhari",
+        "passage_locator_checked": "Index lines2-5 and final translation caveat"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-RIS-INDEX",
+        "quote": "Including commentary from ath-Thamr ad-Dani by al-Azhari",
+        "locator": "Title and translator/commentator lines",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-MUW25",
+    "key": "M-MUW25",
+    "aliases": [],
+    "title": "Malik ibn Anas, transmitted by Yahya al-Muwatta, Book of Game",
+    "url": "https://sunnah.com/malik/25",
+    "host": "sunnah.com",
+    "short_exact_quote": "أَكْلُ كُلِّ ذِي نَابٍ مِنَ السِّبَاعِ حَرَامٌ",
+    "locator": "English Book 25 reports 9-14; Arabic reports 1061-1066",
+    "family": "Malik ibn Anas, transmitted by Yahya",
+    "source_family": "Malik ibn Anas, transmitted by Yahya",
+    "language": "English with Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Malik ibn Anas, transmitted by Yahya al-Muwatta, Book of Game",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-MUW25",
+        "title": "Malik ibn Anas, transmitted by Yahya al-Muwatta, Book of Game",
+        "url": "https://sunnah.com/malik/25",
+        "language": "English with Arabic",
+        "locator": "English Book 25 reports 9-14; Arabic reports 1061-1066",
+        "source_family": "Malik ibn Anas, transmitted by Yahya",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Malik's transmitted prophetic reports and separately introduced Malik statements; Arabic and English read.",
+        "short_exact_quote": "أَكْلُ كُلِّ ذِي نَابٍ مِنَ السِّبَاعِ حَرَامٌ",
+        "passage_locator_checked": "English25:13-14/Arabic1065-1066; also25:12/Arabic1064"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-MUW25",
+        "quote": "أَكْلُ كُلِّ ذِي نَابٍ مِنَ السِّبَاعِ حَرَامٌ",
+        "locator": "English Book 25 reports 9-14; Arabic reports 1061-1066",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-QUR7157",
+    "key": "M-QUR7157",
+    "aliases": [],
+    "title": "Abu Abd Allah al-Qurtubi al-Jami li-ahkam al-Quran",
+    "url": "https://www.islamweb.net/ar/library/content/48/1482/قوله-تعالى-الذين-يتبعون-الرسول-النبي-الأمي",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "مذهب مالك أن الطيبات هي المحللات",
+    "locator": "Quran 7:157, sixth issue, vol. 7 p. 269 in host edition",
+    "family": "Abu Abd Allah al-Qurtubi",
+    "source_family": "Abu Abd Allah al-Qurtubi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Abu Abd Allah al-Qurtubi al-Jami li-ahkam al-Quran",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-QUR7157",
+        "title": "Abu Abd Allah al-Qurtubi al-Jami li-ahkam al-Quran",
+        "url": "https://www.islamweb.net/ar/library/content/48/1482/قوله-تعالى-الذين-يتبعون-الرسول-النبي-الأمي",
+        "language": "Arabic",
+        "locator": "Quran 7:157, sixth issue, vol. 7 p. 269 in host edition",
+        "source_family": "Abu Abd Allah al-Qurtubi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Al-Qurtubi's attribution and explanatory comparison, not Malik's own surviving wording.",
+        "short_exact_quote": "مذهب مالك أن الطيبات هي المحللات",
+        "passage_locator_checked": "Sixth issue at Quran7:157, host7:269"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-QUR7157",
+        "quote": "مذهب مالك أن الطيبات هي المحللات",
+        "locator": "Quran 7:157, sixth issue, vol. 7 p. 269 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-BID-FOOD",
+    "key": "M-BID-FOOD",
+    "aliases": [],
+    "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+    "url": "https://www.islamicbook.ws/asol/feqh/bdait-almjthd-004.html",
+    "host": "www.islamicbook.ws",
+    "short_exact_quote": "فروى ابن القاسم عن مالك أنها مكروهة وعلى هذا القول عول جمهور أصحابه",
+    "locator": "Kitab al-atima wa-l-ashriba: flowing blood; predatory quadrupeds; repulsive creatures; sea animals",
+    "family": "Ibn Rushd al-Hafid",
+    "source_family": "Ibn Rushd al-Hafid",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-BID-FOOD",
+        "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+        "url": "https://www.islamicbook.ws/asol/feqh/bdait-almjthd-004.html",
+        "language": "Arabic",
+        "locator": "Kitab al-atima wa-l-ashriba: flowing blood; predatory quadrupeds; repulsive creatures; sea animals",
+        "source_family": "Ibn Rushd al-Hafid",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Rushd's comparative jurisprudence. Several clauses in this online transcription are visibly incomplete; no silent repairs made.",
+        "short_exact_quote": "فروى ابن القاسم عن مالك أنها مكروهة وعلى هذا القول عول جمهور أصحابه",
+        "passage_locator_checked": "Book of Foods lines104-117,119-133"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-BID-FOOD",
+        "quote": "فروى ابن القاسم عن مالك أنها مكروهة وعلى هذا القول عول جمهور أصحابه",
+        "locator": "Kitab al-atima wa-l-ashriba: flowing blood; predatory quadrupeds; repulsive creatures; sea animals",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-BID-Q1",
+    "key": "M-BID-Q1",
+    "aliases": [],
+    "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+    "url": "https://www.islamweb.net/ar/library/content/97/431/الجملة-الأولى-المحرمات-في-حال-الاختيار",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "فمن رأى أنها المحرمات بنص الشرع لم يحرم من ذلك ما تستخبثه النفوس مما لم يرد فيه نص",
+    "locator": "Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition",
+    "family": "Ibn Rushd al-Hafid",
+    "source_family": "Ibn Rushd al-Hafid",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-BID-Q1",
+        "title": "Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid",
+        "url": "https://www.islamweb.net/ar/library/content/97/431/الجملة-الأولى-المحرمات-في-حال-الاختيار",
+        "language": "Arabic",
+        "locator": "Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition",
+        "source_family": "Ibn Rushd al-Hafid",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Rushd's analysis; clearer alternate host for this paragraph.",
+        "short_exact_quote": "فمن رأى أنها المحرمات بنص الشرع لم يحرم من ذلك ما تستخبثه النفوس مما لم يرد فيه نص",
+        "passage_locator_checked": "First division, fourth issue, paragraphs on repulsive creatures"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-BID-Q1",
+        "quote": "فمن رأى أنها المحرمات بنص الشرع لم يحرم من ذلك ما تستخبثه النفوس مما لم يرد فيه نص",
+        "locator": "Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-DHAK",
+    "key": "M-DHAK",
+    "aliases": [],
+    "title": "Shihab al-Din al-Qarafi al-Dhakhira",
+    "url": "https://islamweb.net/ar/library/content/92/116/الفصل-الثالث-في-المنفصل-عن-الحيوان",
+    "host": "islamweb.net",
+    "short_exact_quote": "فإذا ذهبت تلك الأعراض ذهابا كليا ارتفع الحكم بالنجاسة إجماعا",
+    "locator": "Kitab al-tahara, means 2, chapter 3 on animal-derived substances; vol. 1 pp. 185-189, especially branches 2-3, 7-8 and concluding principle",
+    "family": "Shihab al-Din al-Qarafi",
+    "source_family": "Shihab al-Din al-Qarafi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Shihab al-Din al-Qarafi al-Dhakhira",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-DHAK",
+        "title": "Shihab al-Din al-Qarafi al-Dhakhira",
+        "url": "https://islamweb.net/ar/library/content/92/116/الفصل-الثالث-في-المنفصل-عن-الحيوان",
+        "language": "Arabic",
+        "locator": "Kitab al-tahara, means 2, chapter 3 on animal-derived substances; vol. 1 pp. 185-189, especially branches 2-3, 7-8 and concluding principle",
+        "source_family": "Shihab al-Din al-Qarafi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Al-Qarafi quoting al-Jawahir and al-Tabsira in branches, followed by his own explanatory principle.",
+        "short_exact_quote": "فإذا ذهبت تلك الأعراض ذهابا كليا ارتفع الحكم بالنجاسة إجماعا",
+        "passage_locator_checked": "Animal-derived substances, host1:185-189; blood; branches2-3,7-8; concluding principle"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-DHAK",
+        "quote": "فإذا ذهبت تلك الأعراض ذهابا كليا ارتفع الحكم بالنجاسة إجماعا",
+        "locator": "Kitab al-tahara, means 2, chapter 3 on animal-derived substances; vol. 1 pp. 185-189, especially branches 2-3, 7-8 and concluding principle",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-DAS28",
+    "key": "M-DAS28",
+    "aliases": [],
+    "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+    "url": "https://www.islamweb.net/ar/library/content/13/28/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "وهو الباقي في العروق وكذا ما يوجد في قلب الشاة بعد ذبحها",
+    "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52",
+    "family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+    "source_family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-DAS28",
+        "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+        "url": "https://www.islamweb.net/ar/library/content/13/28/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+        "language": "Arabic",
+        "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52",
+        "source_family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Khalil's lemma in parentheses, al-Dardir's commentary, and al-Dasuqi's separately displayed gloss. Purity and eating explicitly distinguished.",
+        "short_exact_quote": "وهو الباقي في العروق وكذا ما يوجد في قلب الشاة بعد ذبحها",
+        "passage_locator_checked": "Pure entities, host1:49-52; marine bodies, residual blood, musk and transformed wine; related gloss read"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-DAS28",
+        "quote": "وهو الباقي في العروق وكذا ما يوجد في قلب الشاة بعد ذبحها",
+        "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "M-DAS30",
+    "key": "M-DAS30",
+    "aliases": [],
+    "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+    "url": "https://www.islamweb.net/ar/library/content/13/30/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "بخلاف اللحم والعصب والعروق فقد اتفقوا على نجاستها",
+    "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 53-55; detached parts and commentary on flesh, sinews and veins",
+    "family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+    "source_family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "M-DAS30",
+        "title": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi",
+        "url": "https://www.islamweb.net/ar/library/content/13/30/فصل-بيان-الأعيان-الطاهرة-والنجسة",
+        "language": "Arabic",
+        "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 53-55; detached parts and commentary on flesh, sinews and veins",
+        "source_family": "Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Commentary restricts the rule to animals whose carcasses are impure; gloss includes flesh, sinews and veins.",
+        "short_exact_quote": "بخلاف اللحم والعصب والعروق فقد اتفقوا على نجاستها",
+        "passage_locator_checked": "Host1:53-55; detached-parts paragraph and al-Dasuqi gloss at webline851"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "M-DAS30",
+        "quote": "بخلاف اللحم والعصب والعروق فقد اتفقوا على نجاستها",
+        "locator": "Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 53-55; detached parts and commentary on flesh, sinews and veins",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-UM-FOOD",
+    "key": "H-UM-FOOD",
+    "aliases": [],
+    "title": "Ibn Qudama Umdat al-fiqh",
+    "url": "https://umdatalfiqh.com/book-of-foods",
+    "host": "umdatalfiqh.com",
+    "short_exact_quote": "As for all foods other than animals, they are permissible",
+    "locator": "Book of Foods, opening matn before footnote 1464",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "English with Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama Umdat al-fiqh",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Translator identity not independently established from the reviewed page; Arabic parallel matn is visible.",
+    "original_records": [
+      {
+        "id": "H-UM-FOOD",
+        "title": "Ibn Qudama Umdat al-fiqh",
+        "url": "https://umdatalfiqh.com/book-of-foods",
+        "language": "English with Arabic",
+        "locator": "Book of Foods, opening matn before footnote 1464",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Translator identity not independently established from the reviewed page; Arabic parallel matn is visible.",
+        "source_layer": "Arabic matn/English translation distinct from numbered modern explanatory notes.",
+        "short_exact_quote": "As for all foods other than animals, they are permissible",
+        "passage_locator_checked": "Opening matn before note1464; Arabic continuation مضرا كالسموم appears later in web layout"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-UM-FOOD",
+        "quote": "As for all foods other than animals, they are permissible",
+        "locator": "Book of Foods, opening matn before footnote 1464",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-UM-FOOD2",
+    "key": "H-UM-FOOD2",
+    "aliases": [],
+    "title": "Ibn Qudama Umdat al-fiqh",
+    "url": "https://umdatalfiqh.com/-book-of-foods-continued",
+    "host": "umdatalfiqh.com",
+    "short_exact_quote": "إِلاَّ اْلحَيَّةَ، وَالضِّفْدَعَ، وَالتِّمْسَاحَ",
+    "locator": "Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "English with Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama Umdat al-fiqh",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-UM-FOOD2",
+        "title": "Ibn Qudama Umdat al-fiqh",
+        "url": "https://umdatalfiqh.com/-book-of-foods-continued",
+        "language": "English with Arabic",
+        "locator": "Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Arabic matn/English translation read; explanatory modern notes not attributed to Ibn Qudama.",
+        "short_exact_quote": "إِلاَّ اْلحَيَّةَ، وَالضِّفْدَعَ، وَالتِّمْسَاحَ",
+        "passage_locator_checked": "Sea/land animals matn near1473-1483, host p136"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-UM-FOOD2",
+        "quote": "إِلاَّ اْلحَيَّةَ، وَالضِّفْدَعَ، وَالتِّمْسَاحَ",
+        "locator": "Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-UM-SLAUGHTER",
+    "key": "H-UM-SLAUGHTER",
+    "aliases": [],
+    "title": "Ibn Qudama Umdat al-fiqh",
+    "url": "https://umdatalfiqh.com/-proper-slaughtering",
+    "host": "umdatalfiqh.com",
+    "short_exact_quote": "فَإِنْ تَرَكَ التَّسْمِيَّةَ عَلىٰ الذَّبِيْحَةِ عَامِدًا، لَمْ تَحِلَّ، وَإِنْ تَرَكَهَا سَاهِيًا، حَلَّتْ",
+    "locator": "Chapter on Proper Slaughtering; opening marine rule; second validity condition; matn adjacent to notes 1485-1493",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "English with Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama Umdat al-fiqh",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-UM-SLAUGHTER",
+        "title": "Ibn Qudama Umdat al-fiqh",
+        "url": "https://umdatalfiqh.com/-proper-slaughtering",
+        "language": "English with Arabic",
+        "locator": "Chapter on Proper Slaughtering; opening marine rule; second validity condition; matn adjacent to notes 1485-1493",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Arabic matn distinguishes slaughter and hunting. Modern note1494 records a variant; not Ibn Qudama's matn.",
+        "short_exact_quote": "فَإِنْ تَرَكَ التَّسْمِيَّةَ عَلىٰ الذَّبِيْحَةِ عَامِدًا، لَمْ تَحِلَّ، وَإِنْ تَرَكَهَا سَاهِيًا، حَلَّتْ",
+        "passage_locator_checked": "Opening marine rule; second condition; subsequent hunting distinction near1494; matn lines435-440,487-508"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-UM-SLAUGHTER",
+        "quote": "فَإِنْ تَرَكَ التَّسْمِيَّةَ عَلىٰ الذَّبِيْحَةِ عَامِدًا، لَمْ تَحِلَّ، وَإِنْ تَرَكَهَا سَاهِيًا، حَلَّتْ",
+        "locator": "Chapter on Proper Slaughtering; opening marine rule; second validity condition; matn adjacent to notes 1485-1493",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUGH-FOOD",
+    "key": "H-MUGH-FOOD",
+    "aliases": [],
+    "title": "Ibn Qudama, explaining al-Khiraqi al-Mughni",
+    "url": "https://www.islamicbook.ws/asol/hanbali/almgni-062.html",
+    "host": "www.islamicbook.ws",
+    "short_exact_quote": "هُمْ أَهْلُ الْحِجَازِ ، مِنْ أَهْلِ الْأَمْصَارِ",
+    "locator": "Issue 7780 and explanatory paragraphs on urban Hijazi usage and unfamiliar animals",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama, explaining al-Khiraqi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama, explaining al-Khiraqi al-Mughni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUGH-FOOD",
+        "title": "Ibn Qudama, explaining al-Khiraqi al-Mughni",
+        "url": "https://www.islamicbook.ws/asol/hanbali/almgni-062.html",
+        "language": "Arabic",
+        "locator": "Issue 7780 and explanatory paragraphs on urban Hijazi usage and unfamiliar animals",
+        "source_family": "Ibn Qudama, explaining al-Khiraqi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Al-Khiraqi's parenthesized matn followed by Ibn Qudama's explanation.",
+        "short_exact_quote": "هُمْ أَهْلُ الْحِجَازِ ، مِنْ أَهْلِ الْأَمْصَارِ",
+        "passage_locator_checked": "Issue7780, lines702-713"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUGH-FOOD",
+        "quote": "هُمْ أَهْلُ الْحِجَازِ ، مِنْ أَهْلِ الْأَمْصَارِ",
+        "locator": "Issue 7780 and explanatory paragraphs on urban Hijazi usage and unfamiliar animals",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUGH-PARTS",
+    "key": "H-MUGH-PARTS",
+    "aliases": [],
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://islamweb.net/ar/library/content/15/6794/مسألة-لا-يقطع-عضو-مما-ذكي-حتى-تزهق-نفسه",
+    "host": "islamweb.net",
+    "short_exact_quote": "وإن قطع من الحيوان شيء ، وفيه حياة مستقرة ، فهو ميتة",
+    "locator": "Kitab al-sayd wa-l-dhabaih, issues 7771-7773; vol. 9 p. 320 in host edition",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama al-Mughni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUGH-PARTS",
+        "title": "Ibn Qudama al-Mughni",
+        "url": "https://islamweb.net/ar/library/content/15/6794/مسألة-لا-يقطع-عضو-مما-ذكي-حتى-تزهق-نفسه",
+        "language": "Arabic",
+        "locator": "Kitab al-sayd wa-l-dhabaih, issues 7771-7773; vol. 9 p. 320 in host edition",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Qudama differentiates stable life before slaughter from a post-slaughter part cut before final death.",
+        "short_exact_quote": "وإن قطع من الحيوان شيء ، وفيه حياة مستقرة ، فهو ميتة",
+        "passage_locator_checked": "Issues7771-7773, host9:320"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUGH-PARTS",
+        "quote": "وإن قطع من الحيوان شيء ، وفيه حياة مستقرة ، فهو ميتة",
+        "locator": "Kitab al-sayd wa-l-dhabaih, issues 7771-7773; vol. 9 p. 320 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUGH-RENNET",
+    "key": "H-MUGH-RENNET",
+    "aliases": [],
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها",
+    "host": "islamweb.net",
+    "short_exact_quote": "ولبن الميتة وإنفحتها نجس في ظاهر المذهب",
+    "locator": "Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama al-Mughni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUGH-RENNET",
+        "title": "Ibn Qudama al-Mughni",
+        "url": "https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها",
+        "language": "Arabic",
+        "locator": "Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Qudama reports the apparent position and a contrary purity report; pagination not independently audited.",
+        "short_exact_quote": "ولبن الميتة وإنفحتها نجس في ظاهر المذهب",
+        "passage_locator_checked": "Issue85, carrion milk and rennet paragraph"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUGH-RENNET",
+        "quote": "ولبن الميتة وإنفحتها نجس في ظاهر المذهب",
+        "locator": "Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUGH-IST",
+    "key": "H-MUGH-IST",
+    "aliases": [],
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://islamweb.net/ar/library/content/15/808/فصل-أصاب-الأرض-ماء-المطر-أو-السيول-فغمرها-وجرى-عليها",
+    "host": "islamweb.net",
+    "short_exact_quote": "ولا تطهر النجاسة بالاستحالة",
+    "locator": "Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama al-Mughni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUGH-IST",
+        "title": "Ibn Qudama al-Mughni",
+        "url": "https://islamweb.net/ar/library/content/15/808/فصل-أصاب-الأرض-ماء-المطر-أو-السيول-فغمرها-وجرى-عليها",
+        "language": "Arabic",
+        "locator": "Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Qudama's denial of general purification; distinguishes the wine case.",
+        "short_exact_quote": "ولا تطهر النجاسة بالاستحالة",
+        "passage_locator_checked": "Issue1001, host1:419"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUGH-IST",
+        "quote": "ولا تطهر النجاسة بالاستحالة",
+        "locator": "Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUBDI",
+    "key": "H-MUBDI",
+    "aliases": [],
+    "title": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni al-Mubdi fi sharh al-Muqni",
+    "url": "https://islamweb.net/ar/library/content/96/160/حكم-النجاسة-إذا-استحالت",
+    "host": "islamweb.net",
+    "short_exact_quote": "( ولا يطهر شيء من النجاسات بالاستحالة )",
+    "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition",
+    "family": "Ibn Qudama",
+    "source_family": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni al-Mubdi fi sharh al-Muqni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUBDI",
+        "title": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni al-Mubdi fi sharh al-Muqni",
+        "url": "https://islamweb.net/ar/library/content/96/160/حكم-النجاسة-إذا-استحالت",
+        "language": "Arabic",
+        "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition",
+        "source_family": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Muflih explaining al-Muqni's lemma; records alternatives, including a reported/takhrij purification position.",
+        "short_exact_quote": "( ولا يطهر شيء من النجاسات بالاستحالة )",
+        "passage_locator_checked": "Host1:241-244; transformation, generated creatures, wine and cleaning subsections; lines769-778"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUBDI",
+        "quote": "( ولا يطهر شيء من النجاسات بالاستحالة )",
+        "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-TAY-IST",
+    "key": "H-TAY-IST",
+    "aliases": [],
+    "title": "Ibn Taymiyya Majmu al-fatawa",
+    "url": "https://www.islamweb.net/ar/library/content/22/2171/الماء-المتطهر-به-إذا-غمس-الجنب-يده-فيه-هل-يصير-مستعملا",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "وهذا هو الصواب المقطوع به",
+    "locator": "Vol. 21 pp. 70-72; discussion of smoke and substance transformed from impurity",
+    "family": "Ibn Taymiyya",
+    "source_family": "Ibn Taymiyya",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Taymiyya Majmu al-fatawa",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-TAY-IST",
+        "title": "Ibn Taymiyya Majmu al-fatawa",
+        "url": "https://www.islamweb.net/ar/library/content/22/2171/الماء-المتطهر-به-إذا-غمس-الجنب-يده-فيه-هل-يصير-مستعملا",
+        "language": "Arabic",
+        "locator": "Vol. 21 pp. 70-72; discussion of smoke and substance transformed from impurity",
+        "source_family": "Ibn Taymiyya",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Ibn Taymiyya explicitly chooses the permissive transformation position after reporting disagreement; not a unanimous school statement.",
+        "short_exact_quote": "وهذا هو الصواب المقطوع به",
+        "passage_locator_checked": "Majmu al-fatawa21:70-71, smoke/transformation paragraphs; lines1142-1143"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-TAY-IST",
+        "quote": "وهذا هو الصواب المقطوع به",
+        "locator": "Vol. 21 pp. 70-72; discussion of smoke and substance transformed from impurity",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-MUGH-LIVER",
+    "key": "H-MUGH-LIVER",
+    "aliases": [],
+    "title": "Ibn Qudama al-Mughni",
+    "url": "https://www.islamweb.net/ar/library/content/15/7113/مسألة-حلف-لا-يأكل-لحما-فأكل-الشحم-أو-المخ-أو-الدماغ",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "أما الدمان فالكبد والطحال",
+    "locator": "Kitab al-kaffarat, issue 8144; vol. 10 pp. 54-55 in host edition",
+    "family": "Ibn Qudama",
+    "source_family": "Ibn Qudama",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Qudama al-Mughni",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-MUGH-LIVER",
+        "title": "Ibn Qudama al-Mughni",
+        "url": "https://www.islamweb.net/ar/library/content/15/7113/مسألة-حلف-لا-يأكل-لحما-فأكل-الشحم-أو-المخ-أو-الدماغ",
+        "language": "Arabic",
+        "locator": "Kitab al-kaffarat, issue 8144; vol. 10 pp. 54-55 in host edition",
+        "source_family": "Ibn Qudama",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Prophetic report cited in Ibn Qudama's interpretation of an oath concerning meat.",
+        "short_exact_quote": "أما الدمان فالكبد والطحال",
+        "passage_locator_checked": "Issue8144, host10:54-55"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-MUGH-LIVER",
+        "quote": "أما الدمان فالكبد والطحال",
+        "locator": "Kitab al-kaffarat, issue 8144; vol. 10 pp. 54-55 in host edition",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H-INS-BLOOD",
+    "key": "H-INS-BLOOD",
+    "aliases": [],
+    "title": "Ala al-Din al-Mardawi al-Insaf fi marifat al-rajih min al-khilaf",
+    "url": "https://taqrib.ir/ar/library/content/2521/98",
+    "host": "taqrib.ir",
+    "short_exact_quote": "ومنها : الكبد والطحال وهما دمان ولا خلاف في طهارتهما",
+    "locator": "Section al-dima al-tahira al-mukhtalaf fiha wa-l-muttafaq alayha, numbered third discussion",
+    "family": "Ala al-Din al-Mardawi",
+    "source_family": "Ala al-Din al-Mardawi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ala al-Din al-Mardawi al-Insaf fi marifat al-rajih min al-khilaf",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Digital primary-text edition; underlying printed edition not always established.",
+    "original_records": [
+      {
+        "id": "H-INS-BLOOD",
+        "title": "Ala al-Din al-Mardawi al-Insaf fi marifat al-rajih min al-khilaf",
+        "url": "https://taqrib.ir/ar/library/content/2521/98",
+        "language": "Arabic",
+        "locator": "Section al-dima al-tahira al-mukhtalaf fiha wa-l-muttafaq alayha, numbered third discussion",
+        "source_family": "Ala al-Din al-Mardawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Digital primary-text edition; underlying printed edition not always established.",
+        "source_layer": "Al-Mardawi's school ranking distinguishes preferred positions, disagreement and an organ-purity consensus claim.",
+        "short_exact_quote": "ومنها : الكبد والطحال وهما دمان ولا خلاف في طهارتهما",
+        "passage_locator_checked": "Third discussion, blood types, lines114-121"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H-INS-BLOOD",
+        "quote": "ومنها : الكبد والطحال وهما دمان ولا خلاف في طهارتهما",
+        "locator": "Section al-dima al-tahira al-mukhtalaf fiha wa-l-muttafaq alayha, numbered third discussion",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H3",
+    "key": "H3",
+    "aliases": [],
+    "title": "al-Kasani Bada’i al-Sana’i",
+    "url": "https://www.islamweb.net/ar/library/content/12/2028/المأكول-وغير-المأكول-من-الحيوانات",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "لأنها من الخبائث لاستبعاد الطباع السليمة إياها",
+    "locator": "Vol. 5, displayed p. 36, al-ma’kul wa-ghayr al-ma’kul min al-hayawanat",
+    "family": "al-Kasani",
+    "source_family": "al-Kasani",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Kasani Bada’i al-Sana’i",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "H3",
+        "title": "al-Kasani Bada’i al-Sana’i",
+        "url": "https://www.islamweb.net/ar/library/content/12/2028/المأكول-وغير-المأكول-من-الحيوانات",
+        "language": "Arabic",
+        "locator": "Vol. 5, displayed p. 36, al-ma’kul wa-ghayr al-ma’kul min al-hayawanat",
+        "source_family": "al-Kasani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Kasani’s Arabic text.",
+        "short_exact_quote": "لأنها من الخبائث لاستبعاد الطباع السليمة إياها",
+        "passage_locator_checked": "Vol. 5 p. 36, land-creature paragraph"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H3",
+        "quote": "لأنها من الخبائث لاستبعاد الطباع السليمة إياها",
+        "locator": "Vol. 5, displayed p. 36, al-ma’kul wa-ghayr al-ma’kul min al-hayawanat",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H4",
+    "key": "H4",
+    "aliases": [],
+    "title": "al-Quduri Mukhtasar al-Quduri, English translation",
+    "url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "host": "studylib.net",
+    "short_exact_quote": "but if he leaves it out of forgetfulness it may be eaten.",
+    "locator": "Chapter 50, Hunting and Slaughter; invocation and edible species paragraphs",
+    "family": "al-Quduri",
+    "source_family": "al-Quduri",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Quduri Mukhtasar al-Quduri, English translation",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text in translated transcription; third-party mirror",
+    "original_records": [
+      {
+        "id": "H4",
+        "title": "al-Quduri Mukhtasar al-Quduri, English translation",
+        "url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+        "language": "English",
+        "locator": "Chapter 50, Hunting and Slaughter; invocation and edible species paragraphs",
+        "source_family": "al-Quduri",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text in translated transcription; third-party mirror",
+        "source_layer": "Al-Quduri, English translation by Tahir Mahmood Kiani; online transcription, not an inspected Arabic edition.",
+        "short_exact_quote": "but if he leaves it out of forgetfulness it may be eaten.",
+        "passage_locator_checked": "Chapter 50, invocation paragraph and final species paragraphs; translator named in foreword"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H4",
+        "quote": "but if he leaves it out of forgetfulness it may be eaten.",
+        "locator": "Chapter 50, Hunting and Slaughter; invocation and edible species paragraphs",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H5",
+    "key": "H5",
+    "aliases": [],
+    "title": "Ibn Abidin Radd al-Muhtar",
+    "url": "https://www.islamweb.net/ar/library/content/27/422/index.php",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "يوهم أن هذه الدماء طاهرة ولو كانت مسفوحة وليس بمراد",
+    "locator": "Vol. 1, displayed pp. 319–320, flowing blood and retained blood",
+    "family": "Ibn Abidin",
+    "source_family": "Ibn Abidin",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Abidin Radd al-Muhtar",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "H5",
+        "title": "Ibn Abidin Radd al-Muhtar",
+        "url": "https://www.islamweb.net/ar/library/content/27/422/index.php",
+        "language": "Arabic",
+        "locator": "Vol. 1, displayed pp. 319–320, flowing blood and retained blood",
+        "source_family": "Ibn Abidin",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Ibn Abidin’s Arabic gloss correcting an overbroad reading of the base wording.",
+        "short_exact_quote": "يوهم أن هذه الدماء طاهرة ولو كانت مسفوحة وليس بمراد",
+        "passage_locator_checked": "Vol. 1 pp. 319–320, blood paragraph and gloss"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H5",
+        "quote": "يوهم أن هذه الدماء طاهرة ولو كانت مسفوحة وليس بمراد",
+        "locator": "Vol. 1, displayed pp. 319–320, flowing blood and retained blood",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H6",
+    "key": "H6",
+    "aliases": [],
+    "title": "Ibn Nujaym al-Bahr al-Ra’iq",
+    "url": "https://www.islamweb.net/amp/ar/library/content/29/123/index.php",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "وإنما الخلاف بينهم في الإنفحة واللبن هل هما متنجسان",
+    "locator": "Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116.",
+    "family": "Ibn Nujaym",
+    "source_family": "Ibn Nujaym",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ibn Nujaym al-Bahr al-Ra’iq",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "H6",
+        "title": "Ibn Nujaym al-Bahr al-Ra’iq",
+        "url": "https://www.islamweb.net/amp/ar/library/content/29/123/index.php",
+        "language": "Arabic",
+        "locator": "Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116.",
+        "source_family": "Ibn Nujaym",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Ibn Nujaym’s Arabic commentary, reporting Abu Hanifa and the two companions.",
+        "short_exact_quote": "وإنما الخلاف بينهم في الإنفحة واللبن هل هما متنجسان",
+        "passage_locator_checked": "Vol. 1 p. 113, paragraph وشعر الإنسان والميتة وعظمهما طاهران"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H6",
+        "quote": "وإنما الخلاف بينهم في الإنفحة واللبن هل هما متنجسان",
+        "locator": "Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116.",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "key": "H7",
+    "aliases": [],
+    "title": "al-Tahtawi Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah",
+    "url": "https://www.camquran.site/kitabs/hashiyat-al-tahtawi-ala-maraqi-al-falah-sharh-nur-al-idah?page=2",
+    "host": "www.camquran.site",
+    "short_exact_quote": "فإن خبر أحل لنا ميتتان ودمان إنما هو في نفس الكبد والطحال",
+    "locator": "Digital page 2, flowing blood, liver/spleen and fish paragraphs",
+    "family": "al-Tahtawi",
+    "source_family": "al-Tahtawi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Tahtawi Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party mirror",
+    "original_records": [
+      {
+        "id": "H7",
+        "title": "al-Tahtawi Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah",
+        "url": "https://www.camquran.site/kitabs/hashiyat-al-tahtawi-ala-maraqi-al-falah-sharh-nur-al-idah?page=2",
+        "language": "Arabic",
+        "locator": "Digital page 2, flowing blood, liver/spleen and fish paragraphs",
+        "source_family": "al-Tahtawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party mirror",
+        "source_layer": "Al-Tahtawi Arabic commentary transcription on CamQuran; Khmer material not used.",
+        "short_exact_quote": "فإن خبر أحل لنا ميتتان ودمان إنما هو في نفس الكبد والطحال",
+        "passage_locator_checked": "Digital page 2, Arabic paragraphs والدم المسفوح, ودم الكبد والطحال, ودم السمك في الصحيح"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "H7",
+        "quote": "فإن خبر أحل لنا ميتتان ودمان إنما هو في نفس الكبد والطحال",
+        "locator": "Digital page 2, flowing blood, liver/spleen and fish paragraphs",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "S1",
+    "key": "S1",
+    "aliases": [],
+    "title": "al-Nawawi, commenting on al-Shirazi al-Majmu Sharh al-Muhadhdhab",
+    "url": "https://www.islamweb.net/ar/library/content/14/5280/index.php",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "وإنما يراجع العرب في حيوان لم يرد فيه نص بتحليل ولا تحريم",
+    "locator": "Vol. 9, displayed pp. 27–28, customary palatability and unclassified animals",
+    "family": "Al Nawawi",
+    "source_family": "al-Nawawi, commenting on al-Shirazi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Nawawi, commenting on al-Shirazi al-Majmu Sharh al-Muhadhdhab",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "S1",
+        "title": "al-Nawawi, commenting on al-Shirazi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://www.islamweb.net/ar/library/content/14/5280/index.php",
+        "language": "Arabic",
+        "locator": "Vol. 9, displayed pp. 27–28, customary palatability and unclassified animals",
+        "source_family": "al-Nawawi, commenting on al-Shirazi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Shirazi base text introduced قال المصنف; al-Nawawi commentary following الشرح.",
+        "short_exact_quote": "وإنما يراجع العرب في حيوان لم يرد فيه نص بتحليل ولا تحريم",
+        "passage_locator_checked": "Vol. 9 pp. 27–29, base text plus commentary وإنما يراجع العرب"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "S1",
+        "quote": "وإنما يراجع العرب في حيوان لم يرد فيه نص بتحليل ولا تحريم",
+        "locator": "Vol. 9, displayed pp. 27–28, customary palatability and unclassified animals",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "key": "S2",
+    "aliases": [],
+    "title": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller Reliance of the Traveller / Umdat al-Salik",
+    "url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "host": "dokumen.pub",
+    "short_exact_quote": "It is unlawful to eat anything impure",
+    "locator": "j16.3–j16.6; j17.1; j17.5",
+    "family": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller",
+    "source_family": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller Reliance of the Traveller / Umdat al-Salik",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text in annotated translation; third-party mirror",
+    "original_records": [
+      {
+        "id": "S2",
+        "title": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller Reliance of the Traveller / Umdat al-Salik",
+        "url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+        "language": "English",
+        "locator": "j16.3–j16.6; j17.1; j17.5",
+        "source_family": "Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text in annotated translation; third-party mirror",
+        "source_layer": "Ahmad ibn Naqib al-Misri, edited/translated by Nuh Ha Mim Keller. Lettered N/O/A passages are marked additions/commentary; marker identities not separately verified.",
+        "short_exact_quote": "It is unlawful to eat anything impure",
+        "passage_locator_checked": "j16.3–j16.6; j17.1; j17.5"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "S2",
+        "quote": "It is unlawful to eat anything impure",
+        "locator": "j16.3–j16.6; j17.1; j17.5",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "S5",
+    "key": "S5",
+    "aliases": [],
+    "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+    "url": "https://islamweb.net/ar/library/content/14/1207/نجاسة-الدم",
+    "host": "islamweb.net",
+    "short_exact_quote": "الدم المتحلب من الكبد والطحال ، والأصح في الجميع النجاسة",
+    "locator": "Vol. 2, displayed pp. 576–577, blood impurity",
+    "family": "Al Nawawi",
+    "source_family": "al-Nawawi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "S5",
+        "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://islamweb.net/ar/library/content/14/1207/نجاسة-الدم",
+        "language": "Arabic",
+        "locator": "Vol. 2, displayed pp. 576–577, blood impurity",
+        "source_family": "al-Nawawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Nawawi Arabic commentary, identifying preferred and reported views.",
+        "short_exact_quote": "الدم المتحلب من الكبد والطحال ، والأصح في الجميع النجاسة",
+        "passage_locator_checked": "Vol. 2 pp. 576–577, exuded-blood and retained-blood discussion"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "S5",
+        "quote": "الدم المتحلب من الكبد والطحال ، والأصح في الجميع النجاسة",
+        "locator": "Vol. 2, displayed pp. 576–577, blood impurity",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "key": "S6",
+    "aliases": [],
+    "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+    "url": "https://islamweb.net/ar/library/content/14/5316/فصل-أكل-الكبد-والطحال",
+    "host": "islamweb.net",
+    "short_exact_quote": "يحل أكل الكبد والطحال بلا خلاف",
+    "locator": "Vol. 9, displayed p. 78, section eating liver and spleen",
+    "family": "Al Nawawi",
+    "source_family": "al-Nawawi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "S6",
+        "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://islamweb.net/ar/library/content/14/5316/فصل-أكل-الكبد-والطحال",
+        "language": "Arabic",
+        "locator": "Vol. 9, displayed p. 78, section eating liver and spleen",
+        "source_family": "al-Nawawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Nawawi Arabic dietary discussion.",
+        "short_exact_quote": "يحل أكل الكبد والطحال بلا خلاف",
+        "passage_locator_checked": "Vol. 9 p. 78 embedded page marker, فصل أكل الكبد والطحال"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "S6",
+        "quote": "يحل أكل الكبد والطحال بلا خلاف",
+        "locator": "Vol. 9, displayed p. 78, section eating liver and spleen",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "S7",
+    "key": "S7",
+    "aliases": [],
+    "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+    "url": "https://www.islamweb.net/ar/library/content/14/5104/فرع-ذبح-شاة-وقال-أذبح-لرضاء-فلان",
+    "host": "www.islamweb.net",
+    "short_exact_quote": "فلو تركها عمدا أو سهوا حلت الذبيحة",
+    "locator": "Vol. 8, displayed pp. 384–387, invocation at slaughter",
+    "family": "Al Nawawi",
+    "source_family": "al-Nawawi",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Primary juristic text; third-party digital edition",
+    "original_records": [
+      {
+        "id": "S7",
+        "title": "al-Nawawi al-Majmu Sharh al-Muhadhdhab",
+        "url": "https://www.islamweb.net/ar/library/content/14/5104/فرع-ذبح-شاة-وقال-أذبح-لرضاء-فلان",
+        "language": "Arabic",
+        "locator": "Vol. 8, displayed pp. 384–387, invocation at slaughter",
+        "source_family": "al-Nawawi",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Primary juristic text; third-party digital edition",
+        "source_layer": "Al-Nawawi Arabic discussion with reported intra-school qualification.",
+        "short_exact_quote": "فلو تركها عمدا أو سهوا حلت الذبيحة",
+        "passage_locator_checked": "Vol. 8, الرابعة التسمية مستحبة and later comparative invocation branch, pp. 384–388"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "S7",
+        "quote": "فلو تركها عمدا أو سهوا حلت الذبيحة",
+        "locator": "Vol. 8, displayed pp. 384–387, invocation at slaughter",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J1",
+    "key": "J1",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/2117/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "Following a jurist in Islamic laws means acting according to a mujtahid’s instructions.",
+    "locator": "Ruling 2, taqlid",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J1",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/2117/",
+        "language": "English",
+        "locator": "Ruling 2, taqlid",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "Following a jurist in Islamic laws means acting according to a mujtahid’s instructions.",
+        "passage_locator_checked": "Islamic Laws, rulings 1–2"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J1",
+        "quote": "Following a jurist in Islamic laws means acting according to a mujtahid’s instructions.",
+        "locator": "Ruling 2, taqlid",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J2",
+    "key": "J2",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/2131/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "If flesh or something else that contains life is separated",
+    "locator": "Rulings 85–90, corpse and detached parts",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J2",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/2131/",
+        "language": "English",
+        "locator": "Rulings 85–90, corpse and detached parts",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "If flesh or something else that contains life is separated",
+        "passage_locator_checked": "Islamic Laws, rulings 85–90"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J2",
+        "quote": "If flesh or something else that contains life is separated",
+        "locator": "Rulings 85–90, corpse and detached parts",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J3",
+    "key": "J3",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/2132/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "boiling, heat, and fire do not purify it.",
+    "locator": "Rulings 93–94 and 100, blood",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J3",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/2132/",
+        "language": "English",
+        "locator": "Rulings 93–94 and 100, blood",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "boiling, heat, and fire do not purify it.",
+        "passage_locator_checked": "Islamic Laws, rulings 93–94 and 100"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J3",
+        "quote": "boiling, heat, and fire do not purify it.",
+        "locator": "Rulings 93–94 and 100, blood",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J5",
+    "key": "J5",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/8220/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "it is not sufficient for someone else to mention it.",
+    "locator": "Ruling 2611(4), conditions of slaughter",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J5",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/8220/",
+        "language": "English",
+        "locator": "Ruling 2611(4), conditions of slaughter",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "it is not sufficient for someone else to mention it.",
+        "passage_locator_checked": "Islamic Laws, ruling 2611(4)"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J5",
+        "quote": "it is not sufficient for someone else to mention it.",
+        "locator": "Ruling 2611(4), conditions of slaughter",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J6",
+    "key": "J6",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/8227/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "Even from those animals that are lawful to eat, some parts must not be eaten.",
+    "locator": "Rulings 2641–2643 and 2647, eating and drinking",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J6",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/8227/",
+        "language": "English",
+        "locator": "Rulings 2641–2643 and 2647, eating and drinking",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "Even from those animals that are lawful to eat, some parts must not be eaten.",
+        "passage_locator_checked": "Islamic Laws, rulings 2641–2643 and 2647"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J6",
+        "quote": "Even from those animals that are lawful to eat, some parts must not be eaten.",
+        "locator": "Rulings 2641–2643 and 2647, eating and drinking",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J7",
+    "key": "J7",
+    "aliases": [],
+    "title": "Ali al-Sistani Islamic Laws",
+    "url": "https://www.sistani.org/english/book/48/8226/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "it is pure but it is unlawful to eat",
+    "locator": "Rulings 2632, 2634, 2636 and 2638, fishing",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Islamic Laws",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J7",
+        "title": "Ali al-Sistani Islamic Laws",
+        "url": "https://www.sistani.org/english/book/48/8226/",
+        "language": "English",
+        "locator": "Rulings 2632, 2634, 2636 and 2638, fishing",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English publication.",
+        "short_exact_quote": "it is pure but it is unlawful to eat",
+        "passage_locator_checked": "Islamic Laws, rulings 2632, 2634, 2636, and 2638"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J7",
+        "quote": "it is pure but it is unlawful to eat",
+        "locator": "Rulings 2632, 2634, 2636 and 2638, fishing",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J8",
+    "key": "J8",
+    "aliases": [],
+    "title": "Ali al-Sistani Official question and answer: Gelatin",
+    "url": "https://www.sistani.org/english/qa/01201/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "in such a minute amount that it is completely absorbed in it.",
+    "locator": "Questions 1–2",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "English",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Official question and answer: Gelatin",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official English primary authority",
+    "original_records": [
+      {
+        "id": "J8",
+        "title": "Ali al-Sistani Official question and answer: Gelatin",
+        "url": "https://www.sistani.org/english/qa/01201/",
+        "language": "English",
+        "locator": "Questions 1–2",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official English primary authority",
+        "source_layer": "Official Sistani English Q&A; compared with separate Arabic Q&A page.",
+        "short_exact_quote": "in such a minute amount that it is completely absorbed in it.",
+        "passage_locator_checked": "Official English Gelatin Q&A, questions 1–2"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J8",
+        "quote": "in such a minute amount that it is completely absorbed in it.",
+        "locator": "Questions 1–2",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J9",
+    "key": "J9",
+    "aliases": [],
+    "title": "Ali al-Sistani Official question and answer: al-Jilatin",
+    "url": "https://www.sistani.org/arabic/qa/02067/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "إلّا أنّ ذلك غير ثابت",
+    "locator": "Questions 1–3 and 9–10",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Official question and answer: al-Jilatin",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official Arabic primary authority",
+    "original_records": [
+      {
+        "id": "J9",
+        "title": "Ali al-Sistani Official question and answer: al-Jilatin",
+        "url": "https://www.sistani.org/arabic/qa/02067/",
+        "language": "Arabic",
+        "locator": "Questions 1–3 and 9–10",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official Arabic primary authority",
+        "source_layer": "Official Sistani Arabic Q&A.",
+        "short_exact_quote": "إلّا أنّ ذلك غير ثابت",
+        "passage_locator_checked": "Official Arabic al-Jilatin Q&A, questions 1–3 and 9–10"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J9",
+        "quote": "إلّا أنّ ذلك غير ثابت",
+        "locator": "Questions 1–3 and 9–10",
+        "status": "blind_agent_checked"
+      }
+    ]
+  },
+  {
+    "id": "J10",
+    "key": "J10",
+    "aliases": [],
+    "title": "Ali al-Sistani Minhaj al-Salihin, vol. 3",
+    "url": "https://www.sistani.org/arabic/book/16/922/",
+    "host": "www.sistani.org",
+    "short_exact_quote": "يحرم تناول الأعيان النجسة وكذا المتنجّسة",
+    "locator": "Rulings 910–913, nonanimal foods",
+    "family": "Sistani office",
+    "source_family": "Ali al-Sistani",
+    "language": "Arabic",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "audit_verdict": "pending",
+    "human_verification": "Pending",
+    "bibliographic": {
+      "author": null,
+      "title": "Ali al-Sistani Minhaj al-Salihin, vol. 3",
+      "translator": null,
+      "editor": null,
+      "publisher": null,
+      "place": null,
+      "year": null,
+      "volume": null,
+      "page": null
+    },
+    "bibliographic_note": "Only explicit structured fields from the canonical original record are copied. Missing fields remain null until citation audit; author, edition and translator are not inferred from a title or family label.",
+    "limits": "Official Arabic primary authority",
+    "original_records": [
+      {
+        "id": "J10",
+        "title": "Ali al-Sistani Minhaj al-Salihin, vol. 3",
+        "url": "https://www.sistani.org/arabic/book/16/922/",
+        "language": "Arabic",
+        "locator": "Rulings 910–913, nonanimal foods",
+        "source_family": "Ali al-Sistani",
+        "accessed": "2026-09-30",
+        "status": "blind_agent_checked",
+        "limits": "Official Arabic primary authority",
+        "source_layer": "Official Sistani Arabic publication.",
+        "short_exact_quote": "يحرم تناول الأعيان النجسة وكذا المتنجّسة",
+        "passage_locator_checked": "Minhaj al-Salihin vol. 3, corrected 1445 AH edition, rulings 910–913"
+      }
+    ],
+    "quote_variants": [
+      {
+        "source_id": "J10",
+        "quote": "يحرم تناول الأعيان النجسة وكذا المتنجّسة",
+        "locator": "Rulings 910–913, nonanimal foods",
+        "status": "blind_agent_checked"
+      }
+    ]
+  }
+]

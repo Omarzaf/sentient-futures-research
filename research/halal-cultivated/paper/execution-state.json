@@ -1,6 +1,6 @@
 {
-  "stage": 0,
-  "status": "scaffold_complete",
+  "stage": 1,
+  "status": "consolidated",
   "outlineApproved": false,
   "humanReview": false,
   "mentorApproved": false,
@@ -30,5 +30,16 @@
     }
   },
   "manuscriptDrafted": false,
-  "published": false
+  "published": false,
+  "completedStages": [
+    0,
+    1
+  ],
+  "stage0Commit": "47e478c",
+  "remoteAction": {
+    "status": "automatic_review_rejected",
+    "push": false,
+    "draftPullRequest": false,
+    "reason": "Explicit current-session authorization for remote mutation requested; local work continues."
+  }
 }

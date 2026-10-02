@@ -1,6 +1,6 @@
 {
   "description": "Inventory of public references retained in the included research. It is not a fresh source audit or an exhaustive field bibliography.",
-  "originalRegisterRecords": 412,
+  "originalRegisterRecords": 483,
   "uniqueSourceIdentities": 426,
   "records": [
     {
@@ -2991,6 +2991,16 @@
           "limitations": "Malay held; record states not gazetted. JAKIM publication does not establish each state adoption or cultivated-product certification.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "MKI128",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary discovered; analyst translation held outside English/Arabic lane. No current legal-effect conclusion.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -3008,6 +3018,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Official English translation; Indonesian prevails. Issued15September2025, takes effect three months later. Does not settle cultivated-food authorization.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "ID221",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Official English translation; Indonesian prevails. Issued15September2025, takes effect three months later. Does not settle cultivated-food authorization.",
           "funding": null,
           "humanVerification": "Pending"
@@ -3280,6 +3300,16 @@
           "limitations": "Primary juristic text in annotated translation; third-party mirror",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "S2",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text in annotated translation; third-party mirror",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -3510,6 +3540,16 @@
           "limitations": "Official gazette reproduced by FAOLEX. Territorial scope and deferred commencement of sections17–20 must be retained. No complete provincial food-law audit.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "PK2016",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official gazette reproduced by FAOLEX. Territorial scope and deferred commencement of sections17–20 must be retained. No complete provincial food-law audit.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -3572,6 +3612,16 @@
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_reading",
           "limitations": "Whole PDF acquired; relevant passages read as text, prior phase1 p14 visual check retained. 2024 edition is not a 2026 certification audit. Istihala passage p11 belongs to insects, not cell culture.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "MUIS-BOOK",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "2024 framework, not a current 2026 audit. Page 14 visually inspected by root. Same institution as release.",
           "funding": null,
           "humanVerification": "Pending"
         }
@@ -4367,6 +4417,16 @@
           "limitations": "Same issuer and instrument as English; numbering differs. Not independent corroboration.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "IIFA-AR",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Same resolution, not another independent source. Arabic clause numbering differs from English.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4417,6 +4477,16 @@
           "limitations": "2013 plasma conclusion reopened in210/2015. Incomplete English sentences retained as incomplete; no latest-force audit.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "IIFA198",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "2013 plasma conclusion was reopened in2015; never treat it as an unrevised final institutional position.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4445,6 +4515,16 @@
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_record",
           "limitations": "Session22–25March2015, Kuwait City; web date is not adoption date. Quotes1995IOMS seminar but is a2015IIFA instrument. English rennet/insulin clauses partly truncated; missing predicates not supplied.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "IIFA210",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "2015 resolution quotes1995 IOMS material but is itself an IIFA resolution. Some English clauses are truncated; omit uncertain words. Gelatin further study, not blanket authorization.",
           "funding": null,
           "humanVerification": "Pending"
         }
@@ -4504,6 +4584,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_reading",
+          "limitations": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "IIFA265",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated.",
           "funding": null,
           "humanVerification": "Pending"
@@ -4785,6 +4875,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "S5",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4805,6 +4905,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "S6",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4822,6 +4932,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUGH-PARTS",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -4855,6 +4975,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUGH-RENNET",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4882,6 +5012,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_record",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUGH-IST",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -4925,6 +5065,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "HAN",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital transcription; print publisher and year unconfirmed. English paraphrases by agents.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -4953,6 +5103,16 @@
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
           "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "HAN-D",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Same book and author as HAN; these are not independent corroborating sources.",
           "funding": null,
           "humanVerification": "Pending"
         }
@@ -4985,6 +5145,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-DHAK",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -5012,6 +5182,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_record",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUBDI",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -5372,6 +5552,16 @@
           "limitations": "General system scope, not a cultivated-meat-specific ruling or food authorization; do not generalize compulsory scope to every food.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "AE-HALAL",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "General system scope, not a cultivated-meat-specific ruling or food authorization; do not generalize compulsory scope to every food.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -5400,6 +5590,16 @@
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_reading",
           "limitations": "Published framework separate from unavailable interview and from modern cell-culture ruling. Publication month comes from retained checked source register; current extract title lacks issue date. Article title correct; stray site links excluded.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "GHAMIDI",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "February 2002 issue. Primary authored essay, not this interview. Legacy page contains irrelevant commercial links; only named article used.",
           "funding": null,
           "humanVerification": "Pending"
         }
@@ -5796,6 +5996,16 @@
           "limitations": "A direct cultivated-cell application is not stated.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "Q5",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "A direct cultivated-cell application is not stated.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -5836,6 +6046,16 @@
           "limitations": "The Clear Quran translation.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "Q6121",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "The Clear Quran translation.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -5856,6 +6076,16 @@
           "limitations": "The Clear Quran translation; separate interpretation from text.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "Q6",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "The Clear Quran translation; separate interpretation from text.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -5873,6 +6103,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "primary_read",
+          "limitations": "Scriptural reference; interpretation remains distinct from wording.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "Q7",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Scriptural reference; interpretation remains distinct from wording.",
           "funding": null,
           "humanVerification": "Pending"
@@ -6064,6 +6304,16 @@
           "limitations": "Confirms a pathway; does not resolve older document-number discrepancy or approve a particular product.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SA-2025",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Confirms a pathway; does not resolve older document-number discrepancy or approve a particular product.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -6174,6 +6424,16 @@
           "limitations": "Primary juristic text in translated transcription; third-party mirror",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H4",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text in translated transcription; third-party mirror",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -6191,6 +6451,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "primary_read",
+          "limitations": "Page displays Sahih attributed to Al Albani; grading not independently adjudicated.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "AD2858",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Page displays Sahih attributed to Al Albani; grading not independently adjudicated.",
           "funding": null,
           "humanVerification": "Pending"
@@ -6254,6 +6524,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-MUW25",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -6291,6 +6571,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-INS-BLOOD",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -6438,6 +6728,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-UM-FOOD2",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -6458,6 +6758,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-UM-SLAUGHTER",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -6475,6 +6785,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Translator identity not independently established from the reviewed page; Arabic parallel matn is visible.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-UM-FOOD",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Translator identity not independently established from the reviewed page; Arabic parallel matn is visible.",
           "funding": null,
           "humanVerification": "Pending"
@@ -7004,6 +7324,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Primary juristic text; third-party mirror",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H7",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Primary juristic text; third-party mirror",
           "funding": null,
           "humanVerification": "Pending"
@@ -7843,6 +8173,16 @@
           "limitations": "Manufacturer evidence. Some appendix content remains confidential. Historical ATCC/patent protocols are not the current manufacturing recipe. Original table values remain versioned observations, not assays independently replicated in this run.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "GOOD-DOSSIER",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Company process evidence hosted by FDA. Not an independent assay replication, universal product description, or halal finding. Do not transfer it to the serum-free SFA process.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8181,6 +8521,16 @@
           "limitations": "Compendium read. Later application-list completeness not established; landing page served a JavaScript shell. No named chicken approval inferred.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "IN2017",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Compendium read. Later application-list completeness not established; landing page served a JavaScript shell. No named chicken approval inferred.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8411,6 +8761,16 @@
           "limitations": "English portal still references MS1500:2009. Use for institutional structure; not an audit of the latest standards edition or named certificate.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "MY-HALAL",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "English portal still references MS1500:2009. Use for institutional structure; not an audit of the latest standards edition or named certificate.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8471,6 +8831,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-RIS-INDEX",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8488,6 +8858,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Index credits Alhaj Bello Mohammad Daura and warns translation is not final; chapter headings and bracketed explanations are editorial/commentarial.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-RIS29",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Index credits Alhaj Bello Mohammad Daura and warns translation is not final; chapter headings and bracketed explanations are editorial/commentarial.",
           "funding": null,
           "humanVerification": "Pending"
@@ -8579,6 +8959,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-BID-FOOD",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8596,6 +8986,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUGH-FOOD",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -8627,6 +9027,16 @@
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
           "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SHA-D",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital transcription; underlying print edition unconfirmed. Reported consensus is attributed to the author.",
           "funding": null,
           "humanVerification": "Pending"
         }
@@ -8669,6 +9079,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SHA-T",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Same author and book as SHA-D; preserves other views and wine-vinegar distinction.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8699,6 +9119,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H6",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8716,6 +9146,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H3",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
@@ -8749,6 +9189,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-DAS28",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8766,6 +9216,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-DAS30",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -8789,6 +9249,16 @@
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "S7",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8806,6 +9276,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "S1",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
@@ -8869,6 +9349,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-MUGH-LIVER",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8899,6 +9389,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H-TAY-IST",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8916,6 +9416,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Primary juristic text; third-party digital edition",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "H5",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Primary juristic text; third-party digital edition",
           "funding": null,
           "humanVerification": "Pending"
@@ -8939,6 +9449,16 @@
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-QUR7157",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -8956,6 +9476,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Digital primary-text edition; underlying printed edition not always established.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "M-BID-Q1",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Digital primary-text edition; underlying printed edition not always established.",
           "funding": null,
           "humanVerification": "Pending"
@@ -9291,6 +9821,16 @@
           "limitations": "Malay body despite /en URL; provisional condition extraction held, not accepted translation, not gazetted instrument or product certificate.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "WP595",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "English or Arabic version needed before adoption under the selected language policy; translated findings held.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -9348,6 +9888,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_reading",
+          "limitations": "Issuing-body press release; not full deliberations or a product certificate.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "MUIS2024",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Issuing-body press release; not full deliberations or a product certificate.",
           "funding": null,
           "humanVerification": "Pending"
@@ -10070,6 +10620,16 @@
           "limitations": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SG-LIST",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10087,6 +10647,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Retrieved through direct download after web fetch403. Page dated27August2026. Approval and halal status are separate.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SG-FRAME",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Retrieved through direct download after web fetch403. Page dated27August2026. Approval and halal status are separate.",
           "funding": null,
           "humanVerification": "Pending"
@@ -10126,6 +10696,16 @@
           "limitations": "Source refers to5031:2020. The source is a dossier guide, not a product decision.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SA-GUIDE",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Source refers to5031:2020. The source is a dossier guide, not a product decision.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10146,6 +10726,16 @@
           "limitations": "English is informational; Arabic prevails. Cover shows SFDA.FD513/2020 while other official materials use5031 and5013; version/number unresolved.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SA-NOVEL",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "English is informational; Arabic prevails. Cover shows SFDA.FD513/2020 while other official materials use5031 and5013; version/number unresolved.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10163,6 +10753,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Official Arabic primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J10",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Official Arabic primary authority",
           "funding": null,
           "humanVerification": "Pending"
@@ -10196,6 +10796,16 @@
           "limitations": "Official Arabic primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J9",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official Arabic primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10213,6 +10823,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "primary_read",
+          "limitations": "Gelatin question. Do not automatically transfer its answer to cell proliferation.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SIS-AR",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Gelatin question. Do not automatically transfer its answer to cell proliferation.",
           "funding": null,
           "humanVerification": "Pending"
@@ -10236,6 +10856,16 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J1",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10256,6 +10886,16 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J2",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10273,6 +10913,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J3",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
@@ -10316,6 +10966,16 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "SIS-EN",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Named contemporary authority; does not establish all Jafari positions.",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10356,6 +11016,16 @@
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J5",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10383,6 +11053,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_record",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J7",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
@@ -10416,6 +11096,16 @@
           "limitations": "Named authority only. Seven-day rule concerns specified young-animal feeding case, not all excrement-fed animals. General jallala refers to219, not acquired.",
           "funding": null,
           "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J6",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
         }
       ]
     },
@@ -10443,6 +11133,16 @@
           "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-10-01",
           "access": "independently_checked_scoped_record",
+          "limitations": "Official English primary authority",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "J8",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Official English primary authority",
           "funding": null,
           "humanVerification": "Pending"
@@ -10697,6 +11397,16 @@
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
+          "limitations": "Headline says launches; body describes development. Not proof of a fully operational national cultivated-food approval route.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal paper preparation; audit state retained",
+          "sourceId": "AE-2025",
+          "recordPath": "research/halal-cultivated/paper/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "pending",
           "limitations": "Headline says launches; body describes development. Not proof of a fully operational national cultivated-food approval route.",
           "funding": null,
           "humanVerification": "Pending"

@@ -176,7 +176,8 @@ for (const row of sources) {
   const leadOnly = row.status === 'held_language';
   coverage.push({
     id: row.id, kind: 'source', sections: unique([...uses.flatMap(item => item.sections),
-      ...(leadOnly ? ['9.1'] : row.id === 'M-RIS-INDEX' ? ['4'] : []), 'Appendix D']),
+      ...(leadOnly ? ['9.1'] : row.id === 'M-RIS-INDEX' ? ['4'] : []),
+      ...(['GOOD-DOSSIER', 'SG-LIST', 'HAN-D', 'SIS-EN', 'IIFA198', 'IIFA210'].includes(canonical.get(row.id)) ? ['2'] : []), 'Appendix D']),
     disposition: 'planned', reason: leadOnly ? 'List only as an untranslated lead and in the audit summary; not evidence under the default language policy.'
       : row.id === 'M-RIS-INDEX' ? 'Uncited editorial metadata retained for the edition/translation audit and method account.'
         : 'Retain in source audit and planned record support; no source is citable before an allowed audit verdict.',

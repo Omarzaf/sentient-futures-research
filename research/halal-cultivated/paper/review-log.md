@@ -23,3 +23,30 @@ The paper checker has 73 negative fixtures covering all thirteen plan rules, inc
 Moderator verdict: PASS for the scaffold after these repairs. No research truth or human approval is inferred. The capture helper does not pin DNS, and the paper checker cannot decide claim semantics or compare stored capture hashes to external bytes; those remain explicit audit tasks.
 
 Retrospective: independent invalid-input probes found defects before bulk retrieval. Input identity and capture filenames initially lacked sufficient protection. Proposed practice: freeze source inputs and reject identity collisions before every evidence-capture run. No global rule was changed.
+
+## Stage 1 consolidation
+
+Consolidation retained all 76 original source records within 71 canonical passage records. All five alias groups preserve each excerpt and its historical status. The coverage map has 225 entries: 74 claims, 45 school accounts, seven country accounts, four historical accounts, seven counter-evidence records, twelve gaps and 76 original source identities. Every entry has a planned section and use limit. Forty-two input files have SHA-256 provenance. All original Phase One files remain frozen.
+
+All fifteen plan problems were confirmed in local records. Five additional problems record continuation scope, the actual library count, active bridge v2, incomplete expanded research, and inconsistent family grouping. These are local-record findings; no source has been freshly verified.
+
+The Stage 0 commit is local at `47e478c`. Automatic approval review rejected its branch push, interpreting current authorization as local-only. Explicit approval has been requested; local paper preparation continues. No remote workaround was attempted.
+
+Independent preservation review matched all 76 original source objects, all 225 coverage snapshots and all 42 input hashes. It confirmed all twenty local-record problems and retained the open Sistani criterion. The reviewer identified six production/vocabulary sources missing section 2 as a planned destination; the mapping was repaired, including aliases.
+
+```
+MODERATOR REVIEW
+Scope: consolidation, aliases, coverage, frozen inputs and scope reconciliation
+[BLOCK] None remaining.
+[WARN] Source truth, bibliographic completeness and human review remain pending.
+[NIT] Section 2 source placement repaired before this checkpoint.
+[IDEA] Retain a separate appendix for expanded continuation scope; do not widen the paper silently.
+Verdict: PASS for consolidation.
+```
+
+```
+RETROSPECTIVE
+Worked: exact original-record comparison caught possible loss independently of the generator.
+Did not: the dated paper plan did not describe the latest continuation or active numerical contract.
+Rule proposal: bind each new manuscript plan to its evidence edition and active method version.
+```
