@@ -4,6 +4,8 @@ AI-assisted working draft; human verification pending.
 
 This folder executes the [writing plan](../PAPER-PLAN.md). Start with the [execution state](execution-state.json), [review log](review-log.md) and [outline](outline.md). The [manuscript](paper.md) is a scaffold. Author approval of the completed outline is required before drafting.
 
+The outline is ready for checkpoint 1: a 103-word thesis, thirteen sections targeting 12,050 body words, Chicago notes, five appendices and three planned figures. It keeps all 45 comparison slots visible while limiting body assertions to admitted sources. Drivers, elasticities and feed remain outside the body; Malay and Indonesian originals remain held. Its Phase Two handoff follows the active v2 evidence dimensions without populating a numerical input or gate.
+
 The [2 October citation audit](AUDIT-REPORT-2026-10-02.md) records an outcome for all 76 original source IDs. The subsequent [bounded supplementary research](GAP-RESEARCH-2026-10-02.md) brings the register to 95 canonical records: 63 verified with qualifications, 22 held and ten unretrieved. Country, language and full-text gaps remain explicit. Work remains local at the author's request.
 
 The original [Phase One edition](../phase1/README.md) stays unchanged. Its source records are inputs, not freshly verified citations. Only paper audit verdicts `verified` and `verified_with_note` permit citation. The October continuation remains separately scoped; its historical agent checks do not transfer automatically.

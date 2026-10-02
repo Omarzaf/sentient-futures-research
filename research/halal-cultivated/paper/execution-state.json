@@ -1,6 +1,6 @@
 {
-  "stage": 3,
-  "status": "bounded_gap_research_complete_outline_in_preparation",
+  "stage": 4,
+  "status": "awaiting_author_outline_approval",
   "outlineApproved": false,
   "humanReview": false,
   "mentorApproved": false,
@@ -53,5 +53,14 @@
   "canonicalSources": 95,
   "newClaims": 33,
   "searchRecords": 152,
-  "stage3Scope": "B1–B4 bounded searches completed with explicit remaining gaps; no exhaustive corpus or complete country geography claim."
+  "stage3Scope": "B1–B4 bounded searches completed with explicit remaining gaps; no exhaustive corpus or complete country geography claim.",
+  "stage3Commit": "160bf56b66d7f252ae6d36d5cd4da4ae6c6d347d",
+  "outline": {
+    "path": "outline.md",
+    "sha256": "4883ad7642510ad37cac91720c9e0b488d8fe6f69eba207a869aa555ee074a8b",
+    "thesisWords": 103,
+    "bodyWordTarget": 12050,
+    "plannedFigures": 3,
+    "approval": "pending"
+  }
 }
