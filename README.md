@@ -46,6 +46,8 @@ Open the loopback URL printed by the command. The server exposes only files list
 
 ## Check and maintain
 
+For the MMM HTML build, start with the [Claude handoff](handoffs/claude-mmm/START-HERE.md) and its [complete prompt](handoffs/claude-mmm/CLAUDE-PROMPT.md). It supplies the design system, reference entry, figure plan and content-preservation checks while reusing the canonical paper and exports. The finished MMM presentation is not yet built.
+
 Agents continuing the October workstream should read the [2 October repair report and handoff](research/halal-cultivated/phase1-continuation/REPAIR-REPORT-2026-10-02.md): the five resolved findings, repair commit, regression results and remaining research gates.
 
 No package installation, Python environment, or API keys are required.

@@ -27,3 +27,11 @@ Verification: 7,626 library checks; 16 positive and 78 adversarial v2 cases; all
 **Preserved:** Survey JSON, machine CSVs, workbook-export CSVs, underlying source URLs, evidence values and unresolved caveats remain intact. Halal Phase One literature leads remain leads only; no claim, school-question or gap record was upgraded.
 
 **Still open:** Human source review, scholarly or mentor approval, live URL checks, respondent-level survey access, and any public-release history sanitation are outside these local packaging checks.
+
+## 2 October 2026 — Claude / MMM repository handoff
+
+The author requested a repository branch containing the local handoff so Claude can begin the HTML build. Added [the handoff entry point](handoffs/claude-mmm/START-HERE.md), full prompt, actual MMM design source, figure plan, content contract and verification checklist on `codex/claude-mmm-handoff`, based on paper commit `3aa03d4`. The paper, PDF, Word, evidence and figure files are reused unchanged at their canonical paths. The intended future output is `presentations/halal-mmm/`.
+
+Independent review: PASS; sixteen canonical inputs match the base commit, 47 copied-file hashes match provenance, and all required design files and five CSS imports resolve. The verifier and all six workflow suites passed. Final manifest verification and a stable rebuild are required before commit. Privacy guards, binary exceptions, research source counts and evidence status remain unchanged. [Review and retrospective](handoffs/claude-mmm/REVIEW-2026-10-02.md).
+
+This prepares the authorized feature-branch push. It does not build or deploy the final HTML, merge into main, or establish human scholarly approval. No new private raw evidence, ZIP or Git metadata is included in the handoff.

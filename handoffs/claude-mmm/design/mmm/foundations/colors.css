@@ -1,0 +1,68 @@
+:root {
+  /* Paper — warm neutral grounds */
+  --paper-1: #f4f1ea;   /* page */
+  --paper-2: #eee9df;   /* hover / inset */
+  --paper-3: #e5e0d3;   /* hairline rule */
+  --paper-4: #ddd7c8;   /* structural rule */
+
+  /* Ink — text and marks */
+  --ink-1: #2e2b27;     /* primary text, headings */
+  --ink-2: #3f3b35;     /* body prose */
+  --ink-3: #5c584f;     /* subheads, italic lead */
+  --ink-4: #726c5e;     /* excerpts */
+  --ink-5: #8c8578;     /* diagram stroke */
+  --ink-6: #a39a86;     /* mono labels */
+  --ink-7: #c0b8a5;     /* faint numerals, tick marks */
+
+  /* Accent — the single copper point. One per view, never as a fill.
+     Fixed across light and dark — this is the one color that must read
+     identically regardless of mode, so the series stays recognizable. */
+  --copper: #8a5a3b;
+
+  /* Semantic aliases */
+  --surface-page: var(--paper-1);
+  --surface-hover: var(--paper-2);
+  --rule-hairline: var(--paper-3);
+  --rule-structural: var(--paper-4);
+  --text-display: var(--ink-1);
+  --text-body: var(--ink-2);
+  --text-lead: var(--ink-3);
+  --text-support: var(--ink-4);
+  --text-label: var(--ink-6);
+  --text-faint: var(--ink-7);
+  --mark-stroke: var(--ink-5);
+  --mark-stroke-faint: var(--ink-7);
+  --mark-point: var(--copper);
+  --link-hover: var(--copper);
+}
+
+/*
+ * Dark mode — a deliberately designed second ground, not a mechanical
+ * inversion of the light ramp. "Warm paper" is the series' identity, so the
+ * dark ground is a warm near-black (coffee/walnut), not neutral or cold
+ * black, and the ink ramp is re-derived for readability at that ground
+ * rather than literally flipped. Copper is intentionally NOT redefined here
+ * — it is the one constant across modes.
+ *
+ * Applied via `[data-theme="dark"]` on <html> or <body>. Toggling should set
+ * that attribute; on the live site (not a Claude-hosted artifact) this can
+ * be persisted with localStorage safely.
+ */
+[data-theme="dark"] {
+  /* Paper — warm near-black grounds */
+  --paper-1: #1c1815;   /* page */
+  --paper-2: #241f1a;   /* hover / inset */
+  --paper-3: #332c25;   /* hairline rule */
+  --paper-4: #443a30;   /* structural rule */
+
+  /* Ink — re-derived for contrast against the dark ground, same warm hue family */
+  --ink-1: #f3ede1;     /* primary text, headings */
+  --ink-2: #ddd5c5;     /* body prose */
+  --ink-3: #c2b8a3;     /* subheads, italic lead */
+  --ink-4: #a89c85;     /* excerpts */
+  --ink-5: #8f8368;     /* diagram stroke */
+  --ink-6: #756a54;     /* mono labels */
+  --ink-7: #4c4335;     /* faint numerals, tick marks */
+
+  /* --copper is intentionally not overridden — see comment above. */
+}

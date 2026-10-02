@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7511,
-      "sha256": "204b0e77bb07bb2ac0ebb7c75b5cd503961e25867d100532d3ed503b26a75a03"
+      "bytes": 7855,
+      "sha256": "4c1025b24b3a356c85e23843ef1a95d1dd67796c9dcc941cab32350f606ef212"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -53,8 +53,273 @@
     },
     {
       "path": "SESSION-LOG.md",
-      "bytes": 3862,
-      "sha256": "f5ae82359352420be1e5da9d89f1544d8cf170d60cece10362c61f18e5668548"
+      "bytes": 5100,
+      "sha256": "1e0122e83b6676e44d29e259c8a11a1c2593e832c217bc764c89fab423e1bae6"
+    },
+    {
+      "path": "handoffs/claude-mmm/CLAUDE-PROMPT.md",
+      "bytes": 7422,
+      "sha256": "fb779cf3d06e746ece7f4e7ed5f7f8c508c54360d51ef7bce65a1b8834dfd770"
+    },
+    {
+      "path": "handoffs/claude-mmm/CONTENT-CONTRACT.json",
+      "bytes": 15117,
+      "sha256": "4e9a847930f4ffa395eb3e81fca370a85fcc6b07c607937e8f830661e008ea4d"
+    },
+    {
+      "path": "handoffs/claude-mmm/PROVENANCE.json",
+      "bytes": 20726,
+      "sha256": "e45f00d6cbeb7fa158df4e8a36a9707d7140e4d154a2b7ff16452007c15d6463"
+    },
+    {
+      "path": "handoffs/claude-mmm/PROVENANCE.md",
+      "bytes": 2162,
+      "sha256": "036096cbac2bedfa9d0f8a8646056c6cc2c5d4f8857b539b63f3453f7e870e38"
+    },
+    {
+      "path": "handoffs/claude-mmm/REVIEW-2026-10-02.md",
+      "bytes": 2838,
+      "sha256": "accbdf86ea0c75ccbd8f7ed5f214eac344a14b0a2d6b9b2e2d2200d6b929933a"
+    },
+    {
+      "path": "handoffs/claude-mmm/START-HERE.md",
+      "bytes": 5094,
+      "sha256": "fe44f8c7823c1ceae8c0b0807d8b0350f8c2cdc1f2df09f84cc2083cd4b6a1ab"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/DESIGN-BRIEF.md",
+      "bytes": 6669,
+      "sha256": "da1edfefd826753b12df9ba84046cfe70dc20358433761005544c43ca5197375"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/FIGURE-PLAN.md",
+      "bytes": 4222,
+      "sha256": "38fc182c12c032f190b309f48541cd1e51f314c779b5b5b0f2ba22df80da6b2f"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/DESIGN-REVIEW-2026-08-18.md",
+      "bytes": 9636,
+      "sha256": "44f45af382a11c1619db452a514d50874dfad46015b09391da002593655c49f3"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/SKILL.md",
+      "bytes": 1116,
+      "sha256": "7254efde3c9982ec9e94a830d52ff169fadb0cf16caa505a3429473eea15a642"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-dialogue.svg",
+      "bytes": 262,
+      "sha256": "24fdc3c263aaef31ba3213c83dfb1641070a90017199d8c5828d222918bf0a11"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-essay.svg",
+      "bytes": 174,
+      "sha256": "77e153888738757c183632d060b77319302d3eb864e1cfdc3562934ec163cb69"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-project.svg",
+      "bytes": 330,
+      "sha256": "91d3b09abdc63a30ac41db1583a4f0bdaae5280c6884aef6c660ea299548db4f"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/assets/series-mark.svg",
+      "bytes": 2243,
+      "sha256": "39d16e3e43e020a471ac8156f447095bd3ed3bdd5528304fc0bd71a72dbb7be3"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/DashedRule.d.ts",
+      "bytes": 261,
+      "sha256": "2fe5144eb88c99f6d7bfd7929356a37597c67a7604b44245804a82f731d91095"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/DashedRule.jsx",
+      "bytes": 269,
+      "sha256": "98621180dfb30febec0c4ac757c0c3a1b2c4ce76520c3562b9fa589e60aab0c5"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/Endnotes.d.ts",
+      "bytes": 595,
+      "sha256": "6cebc403e85dde73df05c672302013bad8407e80add73425810d4cfa6dafe0b7"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/Endnotes.jsx",
+      "bytes": 1537,
+      "sha256": "891a974e8705a9d1d847813c8bd3d9f779514dd2d84ee04c823a33a88cdbd1fc"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/EntryRow.d.ts",
+      "bytes": 556,
+      "sha256": "ee2933ddc7fe967a8ca5ea034a227302f97c01e6bcb12045b182910b1fd508ae"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/EntryRow.jsx",
+      "bytes": 1763,
+      "sha256": "d8c06ec4c33b76fbee36df8727b2f5d215507a6bda2b282d2b823c138d9e3973"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/Figure.d.ts",
+      "bytes": 487,
+      "sha256": "22c15744581ade12f07e029de472071716cc5991a6536b86501b375a176a8299"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/Figure.jsx",
+      "bytes": 755,
+      "sha256": "d84277aa96fcc4e9545b76e1e238f9a0ce12210cf5b51d3adbd057edf47f0df5"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/LeftNav.d.ts",
+      "bytes": 555,
+      "sha256": "780f129453671333101bcd1e97d9030734e965ec7933255dafaf24e7e5d0fb86"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/LeftNav.jsx",
+      "bytes": 1266,
+      "sha256": "1c794d5078a32fa5a75813174486bf294dcc5876ff1e96cb3f939afddf06201b"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginNote.d.ts",
+      "bytes": 420,
+      "sha256": "07f867b73d1312523f9fdead18a780173a0743ef2bc949b9965c9fe8ea9d0bca"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginNote.jsx",
+      "bytes": 772,
+      "sha256": "030a9557bd84bdc69c1be39df4db6c5875543f837dcd525834b58ea977ea4dff"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginThought.d.ts",
+      "bytes": 451,
+      "sha256": "81edaad54eab5bd0d2f52f6e626c12a271efb11b5e922f67a3c5d37654e13556"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginThought.jsx",
+      "bytes": 712,
+      "sha256": "af64f03fa08ff6ca49d602743a693a6c920754ded94cd8690bce2981191bb93b"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MetaList.d.ts",
+      "bytes": 291,
+      "sha256": "9d7cc2244990006fb04647b3c7b39ea6af7bd9c2cbd10348ee50378affe0bd21"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MetaList.jsx",
+      "bytes": 427,
+      "sha256": "290d5a9edd562dd897fb05140ff037d4db7e0c4456df1e92a9b76292b23af741"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MonoLabel.d.ts",
+      "bytes": 459,
+      "sha256": "4c0c4eb5a8be1748790d72b16ab3163facac4b388a8f553276279e8cd63229f2"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/MonoLabel.jsx",
+      "bytes": 735,
+      "sha256": "d2d7ecff36eecee0e456b9a1f6caab330a86ec7d46d93fd84958a9f2557da9a3"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/SeriesMark.d.ts",
+      "bytes": 587,
+      "sha256": "0801422400002713725e20c0f1da2dce7b538a5bca92852ea58386a371743107"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/SeriesMark.jsx",
+      "bytes": 1502,
+      "sha256": "87fd0266fcb4236b3e1d163dfa47a5bb0d6f3fdbe78e333ff15daaee9ac346ab"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/TLDR.d.ts",
+      "bytes": 369,
+      "sha256": "7549c38f29b8a142cb25104705e530b22fb04ffcbea01e1239f582d0b1c56052"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/TLDR.jsx",
+      "bytes": 1151,
+      "sha256": "0e8032029a9164737cc95dc45298418cb18f3ab3d0dd06d5501937af505c5f71"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/ThemeToggle.d.ts",
+      "bytes": 252,
+      "sha256": "e149e71492c593b94a5db9cb85a4d13af094ee66b15297b09330d65c713899fc"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/ThemeToggle.jsx",
+      "bytes": 941,
+      "sha256": "513ef141ba2a90a4d676003b2ebd92f3623813adc81fc60ee7f25c45851340a6"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/TypeGlyph.d.ts",
+      "bytes": 384,
+      "sha256": "1f965d7abe7b852d48f95b7c315e442916f0ea8019bf48ae38a4ebb930b44910"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/components/core/TypeGlyph.jsx",
+      "bytes": 979,
+      "sha256": "06cfcf948a334f4f464d795cacb993287eb104e891563bd29ff71181d51e782a"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/foundations/colors.css",
+      "bytes": 2647,
+      "sha256": "091f4c1547466aec4d187a20443f80eea24ebf50bec46aff2fcb93ba46ff4dea"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/foundations/fonts.css",
+      "bytes": 284,
+      "sha256": "02fa8ec27bc6e0e225785f9c508ac407d6f0e234018372326a67b04cb8013265"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/foundations/motion.css",
+      "bytes": 185,
+      "sha256": "5f3e59c510fa2bd3464c8da4a7fff2d8dbba8dd44a380f9ea39d134dd2f54f60"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/foundations/spacing.css",
+      "bytes": 1418,
+      "sha256": "7929cdfe7aa68076bd5a333945a8499e723db43180211788e9be60b7bb639c13"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/foundations/typography.css",
+      "bytes": 3125,
+      "sha256": "6d7d8c99754d8ffdc0ddaf847f6bb082b2ea9ba04f516162f14ed5a7c6d8b219"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/guidelines/illustration.md",
+      "bytes": 8850,
+      "sha256": "785b21223784eeaa650c8c5ef3f035b7e636be30558a1457c45ab6256e91b19a"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/readme.md",
+      "bytes": 17232,
+      "sha256": "3b8dac1e1b205de45192d49c06897cc727548a31fc972032cc95437df615b9f4"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/mmm/styles.css",
+      "bytes": 184,
+      "sha256": "00cb16512f6b5594a5bd6a325930f77b19e4d1f3e9b4cb8222f7fe02485f445b"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/reference/CONTENT-LICENSE.txt",
+      "bytes": 13902,
+      "sha256": "277607fc046432084bf5c92105f32cebacaeb8695cc74c69eeb8f3c97bba62bc"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/reference/REFERENCE-NOTES.md",
+      "bytes": 1912,
+      "sha256": "31115a50a04220ec40eb0121e45579316b37e680ac3a640b15601640f845a7d4"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/reference/TOOLS-LICENSE.txt",
+      "bytes": 1076,
+      "sha256": "67fad3ad592677724e3e70c7fecd94fc38089c34c6ecf81dd8eacb09ba2a5326"
+    },
+    {
+      "path": "handoffs/claude-mmm/design/reference/observatory-reference.html",
+      "bytes": 501984,
+      "sha256": "04550113c0bb1ce83ad038e9c2fd395c8488606e294a92f80ec01fecbedac683"
+    },
+    {
+      "path": "handoffs/claude-mmm/qa/ACCEPTANCE.md",
+      "bytes": 3553,
+      "sha256": "2b3d93f55e1fd8e7bc7f154a7cd5ed8be2828fb4ac2c0417e96d8d266b5acd83"
     },
     {
       "path": "index.html",
