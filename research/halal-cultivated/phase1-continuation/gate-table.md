@@ -29,7 +29,7 @@ P1 to P3 are real products. P4 to P6 are reference cases that the rulings discus
 | Country | Certification route | Food authorization | Segment |
 |---|---|---|---|
 | Saudi Arabia | General system, no cultivated scheme (medium) | Route exists, no approval (medium) | Whole market (medium) |
-| United Arab Emirates | General system, no cultivated scheme (medium) | Announced, status unknown (low) | Not established (low) |
+| United Arab Emirates | General system, no cultivated scheme (medium) | Route exists, no approval (medium) | Not established (low) |
 | Pakistan | General system, no cultivated scheme (medium) | No route found (low) | Not established (low) |
 | India | Private and contested (medium) | Application pending (medium) | Segment only (medium) |
 
@@ -51,7 +51,7 @@ The legal route exists and has halal built in, but no cultivated product is appr
 
 ## United Arab Emirates
 
-The weakest focal country on evidence. A slaughter-required Fatwa Council position is reported only by a tertiary source, and Abu Dhabi's single-window novel-food framework was announced in October 2025 with no operative instrument located.
+The weakest focal country on religious evidence. A slaughtered-donor position by the UAE Council for Fatwa is reported only by a tertiary source and was not confirmed. On the legal side, the UAE told Codex that cell-based food falls under the federal novel-food standard UAE.S 5048:2021, which requires pre-market evaluation; no application or approval was found, and Abu Dhabi's single-window framework was still a proposal in January 2026.
 
 | Layer | Reading | Confidence | Basis | Decisive next document |
 |---|---|---|---|---|
@@ -62,12 +62,12 @@ The weakest focal country on evidence. A slaughter-required Fatwa Council positi
 | Religious, P5 | Leans against | low | P1C8-C11 | The UAE Council for Fatwa instrument, number and date |
 | Religious, P6 | No ruling found | low | P1C8-C08 | Any UAE statement on reprogrammed cells |
 | Certification | General system, no cultivated scheme | medium | P1C5-STD-C06, P1C8-C17, AE-HALAL | MoIAT or ADAFSA rules for certifying a cell-cultured product |
-| Food authorization | Announced, status unknown | low | P1C8-C17, AE-2025 | The operative ADAFSA framework instrument and any federal counterpart |
+| Food authorization | Route exists, no approval | medium | P1C9-C01, P1C9-C02, P1C8-C17, AE-2025 | The text of UAE.S 5048:2021 and any cell-based application under it |
 | Segment | Not established | low | none | Federal and emirate rules on sale of non-halal meat and who buys halal-certified meat |
 
 ## Pakistan
 
-No food-authorization route for cultivated meat was identified. The leading Deobandi position, reported but not located in original, requires a slaughtered donor; a Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.
+No food-authorization route for cultivated meat was identified. A slaughtered-donor position attributed to scholars led by Mufti Muhammad Taqi Usmani traces to a 2022 Bloomberg report; the ruling itself was not located. A Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.
 
 | Layer | Reading | Confidence | Basis | Decisive next document |
 |---|---|---|---|---|
@@ -83,7 +83,7 @@ No food-authorization route for cultivated meat was identified. The leading Deob
 
 ## India
 
-The only focal country with a named cultivated-chicken application, still under process at FSSAI. No Indian Islamic institution's ruling was located. Halal certification is a contested market layer, so the religious gate covers a segment, not the market.
+The only focal country with a named cultivated-chicken application, still under process at FSSAI, though approval of novel ingredients needs a Food Authority that had not been reconstituted as of January 2026. No Indian Islamic institution's ruling was located. Non-halal chicken is legal, so the religious gate is legally a segment; traders estimate that about 90% of meat sold is halal, so in practice it may cover most of the market.
 
 | Layer | Reading | Confidence | Basis | Decisive next document |
 |---|---|---|---|---|
@@ -94,8 +94,8 @@ The only focal country with a named cultivated-chicken application, still under 
 | Religious, P5 | No ruling found | low | bounded search only | A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive |
 | Religious, P6 | No ruling found | low | bounded search only | A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive |
 | Certification | Private and contested | medium | P1C-C02, P1C8-C15 | The Uttar Pradesh order text and the Supreme Court's disposition |
-| Food authorization | Application pending | medium | P1C-C01, P1C8-C16 | FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods) |
-| Segment | Segment only | medium | P1C8-I04 | Household consumption of chicken by religious group from national survey tables |
+| Food authorization | Application pending | medium | P1C-C01, P1C8-C16, P1C9-C03 | FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods), and whether the Food Authority has been reconstituted |
+| Segment | Segment only | medium | P1C8-I04, P1C9-C04 | Household consumption of chicken by religious group from national survey tables |
 
 ## Reading the labels
 
@@ -117,4 +117,4 @@ The only focal country with a named cultivated-chicken application, still under 
 
 Confidence: low rests on secondary or snippet-level sources or on inference alone; medium rests on at least one checked source plus consistent leads. No cell is rated high.
 
-Claim IDs starting P1C8 are 2 October search leads (status `open`) or labelled inferences (status `inference`). IDs such as SA-NOVEL refer to the [30 September register](../phase1/source-register.json).
+Claim IDs starting P1C8 are 2 October search leads or labelled inferences (status `inference`). Leads read against their original text on 2 October have status `confirmed_original`; the rest stay `open`, and one is `disputed`. IDs starting P1C9 were added during that check. IDs such as SA-NOVEL refer to the [30 September register](../phase1/source-register.json).

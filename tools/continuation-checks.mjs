@@ -32,8 +32,8 @@ export function checkContinuation(files) {
   check(claim.human_review==='pending','unsupported human claim approval: '+claim.id);
   // AGENTIC-PLAN statuses. 'independently_checked' means a second agent read of the same retrieved source, not independent retrieval or human review.
  const reviewed=reviews.some(r=>r.id===claim.review_id&&r.claim_ids?.includes(claim.id));
- check(['independently_checked','inference','open','disputed'].includes(claim.status),'unsupported claim status: '+claim.id);
- check(claim.status!=='independently_checked'||reviewed,'missing independent claim review: '+claim.id);
+ check(['independently_checked','confirmed_original','inference','open','disputed'].includes(claim.status),'unsupported claim status: '+claim.id);
+ check((claim.status!=='independently_checked'&&claim.status!=='confirmed_original')||reviewed,'missing independent claim review: '+claim.id);
  check(claim.review_id===undefined||reviewed,'claim review link does not resolve: '+claim.id);
  check(claim.status!=='inference'||(typeof claim.premise==='string'&&claim.premise.length>0&&typeof claim.confirmation_test==='string'&&claim.confirmation_test.length>0),'inference without premise or confirmation test: '+claim.id);
  }
@@ -493,7 +493,7 @@ export function checkContinuation(files) {
     const basis=Array.isArray(cell?.basis_claim_ids)?cell.basis_claim_ids:null;
     check(allowed.includes(cell?.reading)&&['low','medium','high'].includes(cell?.confidence)&&typeof cell?.decisive_next==='string'&&cell.decisive_next.length>0&&!!gate.reading_labels?.[cell?.reading],'gate cell reading, confidence or next document invalid: '+where);
     check(basis!==null&&basis.every(id=>claimIds.has(id)),'gate cell basis does not resolve: '+where);
-    check(!positive.includes(cell?.reading)||(basis||[]).some(id=>claims.find(c=>c.id===id)?.status!=='open'),'gate cell positive reading rests only on unchecked leads: '+where);
+    check(!positive.includes(cell?.reading)||(basis||[]).some(id=>['independently_checked','confirmed_original','inference'].includes(claims.find(c=>c.id===id)?.status)),'gate cell positive reading rests only on unchecked leads: '+where);
     check(cell?.confidence!=='high'||(basis||[]).every(id=>claims.find(c=>c.id===id)?.status==='independently_checked'),'gate cell high confidence without checked basis: '+where);
    };
    for(const country of gate.countries||[]){

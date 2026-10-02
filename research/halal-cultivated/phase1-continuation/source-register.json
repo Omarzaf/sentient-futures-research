@@ -1067,7 +1067,12 @@
         "bytes": 20529,
         "sha256": "c98568ee2a9abc16d8205c989935764c104ff42c85f1db300c737a3647cc69f3"
       }
-    ]
+    ],
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed",
+      "note": "Issuer page text read on 2 October 2026 through the Bigdata.com index: preamble cites the SFDA Jeddah seminar of 24–25 September 2024; Third (1) keeps a living-donor alternative."
+    }
   },
   {
     "id": "IIFA-AR",
@@ -3407,7 +3412,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2025-11-20"
+    "published": "2025-11-20",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_read",
+      "note": "Resolution 266 page not read; the same seminar reference was confirmed on the Resolution 265 page itself."
+    }
   },
   {
     "id": "P1C8-S02",
@@ -3422,7 +3432,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2025-11-20"
+    "published": "2025-11-20",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed",
+      "note": "Issuer page text read: the Council postponed a resolution on insects. Its preamble repeats the cultivated-meat wording of Resolution 265, apparently copied on the issuer page."
+    }
   },
   {
     "id": "P1C8-S03",
@@ -3437,7 +3452,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2024-02-02"
+    "published": "2024-02-02",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "contradicted",
+      "note": "The article text quotes Imam Farhan Siddiqi on slaughtered-donor cells; the Taqi Usmani attribution came from a search summary and traces to a 2022 Bloomberg report (P1C9-S12)."
+    }
   },
   {
     "id": "P1C8-S04",
@@ -3452,7 +3472,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2019-09-17"
+    "published": "2019-09-17",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Original page unreachable and no full-text copy found."
+    }
   },
   {
     "id": "P1C8-S05",
@@ -3466,7 +3491,12 @@
     "accessed": "2026-10-02",
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
-    "human_verification": "Pending"
+    "human_verification": "Pending",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Original page unreachable; no full-text copy found. Likely shares wording with American Fiqh Academy Resolution 7."
+    }
   },
   {
     "id": "P1C8-S06",
@@ -3475,12 +3505,17 @@
     "language": "English",
     "document_type": "search_snippet_lead",
     "locator": "Article body",
-    "source_family": "Wifaq ul Ulama UK (Deobandi)",
+    "source_family": "American Fiqh Academy Resolution 7 text",
     "limits": "Read through a web-search result snippet only. The host was blocked by this environment's network policy, so the original page was not opened, hashed or visually checked. Confirm wording, date and attribution against the original before use. UK Deobandi scholars body; not a South Asian national institution.",
     "accessed": "2026-10-02",
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
-    "human_verification": "Pending"
+    "human_verification": "Pending",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed_with_correction",
+      "note": "Page text read. It reproduces the American Fiqh Academy Resolution 7 text, so it is the same source family, not a separate UK position."
+    }
   },
   {
     "id": "P1C8-S07",
@@ -3489,12 +3524,17 @@
     "language": "English",
     "document_type": "search_snippet_lead",
     "locator": "Resolution 7",
-    "source_family": "American Fiqh Academy",
+    "source_family": "American Fiqh Academy Resolution 7 text",
     "limits": "Read through a web-search result snippet only. The host was blocked by this environment's network policy, so the original page was not opened, hashed or visually checked. Confirm wording, date and attribution against the original before use. US scholarly academy; date not captured.",
     "accessed": "2026-10-02",
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
-    "human_verification": "Pending"
+    "human_verification": "Pending",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed",
+      "note": "Resolution text read on fiqhacademy.com, including the slaughtered-donor, live-animal, fetal bovine serum and feather-iPSC passages."
+    }
   },
   {
     "id": "P1C8-S08",
@@ -3508,7 +3548,12 @@
     "accessed": "2026-10-02",
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
-    "human_verification": "Pending"
+    "human_verification": "Pending",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "disputed",
+      "note": "Guide text not read; a second AHF page (P1C9-S14) states a softer position."
+    }
   },
   {
     "id": "P1C8-S09",
@@ -3523,7 +3568,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2021-09-27"
+    "published": "2021-09-27",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed_original_located",
+      "note": "The decision is reported on NU Online (P1C9-S10) in matching terms; Indonesian text held."
+    }
   },
   {
     "id": "P1C8-S10",
@@ -3537,7 +3587,12 @@
     "accessed": "2026-10-02",
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
-    "human_verification": "Pending"
+    "human_verification": "Pending",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "No Council instrument found. An unreliable site (P1C9-S11) makes a related claim; rejected."
+    }
   },
   {
     "id": "P1C8-S11",
@@ -3552,7 +3607,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2024-10-04"
+    "published": "2024-10-04",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Column not retrieved."
+    }
   },
   {
     "id": "P1C8-S12",
@@ -3567,7 +3627,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2023-09-18"
+    "published": "2023-09-18",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Quotation not found. The company release confirms that the cell line and the production process did not meet the criteria."
+    }
   },
   {
     "id": "P1C8-S13",
@@ -3582,7 +3647,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2025"
+    "published": "2025",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Report not retrieved."
+    }
   },
   {
     "id": "P1C8-S14",
@@ -3597,7 +3667,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2023-11-18"
+    "published": "2023-11-18",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed_with_correction",
+      "note": "Business Standard reports that the order excluded meat items as well as exports (P1C9-S05)."
+    }
   },
   {
     "id": "P1C8-S15",
@@ -3612,7 +3687,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2025-06-13"
+    "published": "2025-06-13",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Article not retrieved; see P1C9-S08 on the Food Authority lapse."
+    }
   },
   {
     "id": "P1C8-S16",
@@ -3627,7 +3707,12 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2024-10"
+    "published": "2024-10",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "not_confirmed",
+      "note": "Post not retrievable. Press reports of IIFA 265 also misstate it as slaughter-only, so the post may repeat that misreading."
+    }
   },
   {
     "id": "P1C8-S17",
@@ -3642,6 +3727,206 @@
     "sha256": null,
     "status": "search_snippet_lead_original_not_opened",
     "human_verification": "Pending",
-    "published": "2025-10"
+    "published": "2025-10",
+    "verification": {
+      "date": "2026-10-02",
+      "result": "confirmed_by_secondary",
+      "note": "Keller and Heckman (January 2026) describe the same plan as still proposed (P1C9-S07)."
+    }
+  },
+  {
+    "id": "P1C9-S01",
+    "title": "Saudi Press Agency: Islamic Fiqh Academy, SFDA hold symposium on halal products",
+    "url": "https://app.bigdata.com/documents/FC14CC8C21CAFDFA762597D6817F4F44",
+    "language": "English",
+    "document_type": "news_agency_report",
+    "locator": "Full report, Jeddah, 1 October 2024",
+    "source_family": "Saudi Press Agency",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. SPA wire text syndicated by SyndiGate; the SPA site URL was not captured. It does not name cultivated meat; IIFA 265 ties the seminar to that topic.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "full_text_read_via_index",
+    "human_verification": "Pending",
+    "published": "2024-10-01"
+  },
+  {
+    "id": "P1C9-S02",
+    "title": "IIFA Academy News, issue 57",
+    "url": "https://iifa-aifi.org/wp-content/uploads/2025/08/ACADEMY-NEWS-ISSUE-N57.pdf",
+    "language": "English",
+    "document_type": "issuer_newsletter",
+    "locator": "Passage on deferred rulings (stunning, insects)",
+    "source_family": "IIFA 26th session",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2025-08"
+  },
+  {
+    "id": "P1C9-S04",
+    "title": "Codex Alimentarius Commission CAC47 CRD04: submission including the UAE",
+    "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%3A%2F%2Fworkspace.fao.org%2Fsites%2Fcodex%2FMeetings%2FCX-701-47%2FCRDs%2Fcac47_crd04x.pdf",
+    "language": "English",
+    "document_type": "government_submission_to_codex",
+    "locator": "Agenda item 12, UAE passage on cell-based food",
+    "source_family": "UAE MoIAT submission to Codex",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. The standard UAE.S 5048:2021 itself was not read.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2024"
+  },
+  {
+    "id": "P1C9-S05",
+    "title": "Business Standard: Halal crackdown in UP, exemptions for meat items",
+    "url": "https://app.bigdata.com/documents/33F6EA725D64E01CCDA8611A97EFA110",
+    "language": "English",
+    "document_type": "news_report",
+    "locator": "Full report, citing The Indian Express",
+    "source_family": "Uttar Pradesh halal order news",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Secondary report of the order; the order text was not read.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "full_text_read_via_index",
+    "human_verification": "Pending",
+    "published": "2023-11-24"
+  },
+  {
+    "id": "P1C9-S06",
+    "title": "Business Standard: Uttar Pradesh govt's halal ban keeps meat sellers on tenterhooks",
+    "url": "https://app.bigdata.com/documents/8FCC3B418F7A57B3C197BE43F300A604",
+    "language": "English",
+    "document_type": "news_report",
+    "locator": "Opening paragraphs",
+    "source_family": "Uttar Pradesh halal order news",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Reports traders' unofficial estimate; no survey basis given.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2023-11-19"
+  },
+  {
+    "id": "P1C9-S07",
+    "title": "Keller and Heckman: UAE launches major strategic push into alternative protein market",
+    "url": "https://www.khlaw.com/insights/uae-launches-major-strategic-push-alternative-protein-market",
+    "language": "English",
+    "document_type": "law_firm_brief",
+    "locator": "Federal standard and Abu Dhabi plan paragraphs",
+    "source_family": "Keller and Heckman (also on Lexology)",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Law-firm summary, not the standard.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2026-01-21"
+  },
+  {
+    "id": "P1C9-S08",
+    "title": "The Economic Times: FSSAI left in limbo as Food Authority remains unreconstituted",
+    "url": "https://app.bigdata.com/documents/01947EE8FFE38EBB38CCDE2F3393F2ED",
+    "language": "English",
+    "document_type": "news_report",
+    "locator": "Full report",
+    "source_family": "The Economic Times",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Describes January 2026; later reconstitution of the Food Authority was not established.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "full_text_read_via_index",
+    "human_verification": "Pending",
+    "published": "2026-01-09"
+  },
+  {
+    "id": "P1C9-S09",
+    "title": "FnBnews: FSSAI reconstitutes Scientific Committee",
+    "url": "https://app.bigdata.com/documents/1726ACD0D03E4E09C744F3F07B7BCB05",
+    "language": "English",
+    "document_type": "trade_press",
+    "locator": "Opening paragraph",
+    "source_family": "FnBnews",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. The Scientific Committee is not the Food Authority.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2026-09-17"
+  },
+  {
+    "id": "P1C9-S10",
+    "title": "NU Online: Munas Alim Ulama NU 2021 putuskan daging berbasis sel haram dikonsumsi",
+    "url": "https://nu.or.id/nasional/munas-alim-ulama-nu-2021-putuskan-daging-berbasis-sel-haram-dikonsumsi-WYiSS",
+    "language": "Indonesian",
+    "document_type": "issuer_news_page",
+    "locator": "Report of the 26 September 2021 plenary",
+    "source_family": "Nahdlatul Ulama national conference 2021",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Indonesian text held under the English-first rule.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2021-09-27"
+  },
+  {
+    "id": "P1C9-S11",
+    "title": "The Nation Middle East: Halal lab-grown meat Abu Dhabi 2026",
+    "url": "https://thenationmiddleeast.com/uae-news/halal-lab-grown-meat-abu-dhabi-2026-supermarkets/",
+    "language": "English",
+    "document_type": "unverified_web_article",
+    "locator": "Article passage on the UAE Council for Fatwa",
+    "source_family": "thenationmiddleeast.com",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Not The National. Its claims (a late-2024 Council ruling; halal cultivated meat in Abu Dhabi supermarkets) are uncorroborated and the site's reliability is doubtful; retained only as a rejected lead.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "rejected_unreliable",
+    "human_verification": "Pending",
+    "published": "2026-01-05"
+  },
+  {
+    "id": "P1C9-S12",
+    "title": "Bloomberg: Can lab-grown meat really be halal or kosher? (Einhorn, Suhartono and Mangi)",
+    "url": "https://www.bloomberg.com/news/articles/2022-01-04/is-lab-grown-meat-halal-or-kosher-muslims-jews-look-for-answers",
+    "language": "English",
+    "document_type": "news_report",
+    "locator": "Cited in Hamdan et al. 2024 reference list",
+    "source_family": "Bloomberg 2022 report and its reproductions",
+    "limits": "Located through the Hamdan 2024 reference list and reproductions; the article itself was not opened (paywall and network policy).",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "citation_only_not_opened",
+    "human_verification": "Pending",
+    "published": "2022-01-04"
+  },
+  {
+    "id": "P1C9-S13",
+    "title": "Muslim Ink: Can lab grown meat from animal cells be halal?",
+    "url": "https://www.muslimink.com/news/can-lab-grown-meat-be-halal/",
+    "language": "English",
+    "document_type": "news_reproduction",
+    "locator": "Second passage",
+    "source_family": "Bloomberg 2022 report and its reproductions",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. Reproduces the Bloomberg-family wording, including \"last year\".",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2022-05-12"
+  },
+  {
+    "id": "P1C9-S14",
+    "title": "American Halal Foundation: What is lab-grown meat? A comprehensive scientific guide",
+    "url": "https://halalfoundation.org/what-is-lab-grown-meat/",
+    "language": "English",
+    "document_type": "certifier_explainer",
+    "locator": "Halal section",
+    "source_family": "American Halal Foundation (certifier)",
+    "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026.",
+    "accessed": "2026-10-02",
+    "sha256": null,
+    "status": "passage_read_via_index",
+    "human_verification": "Pending",
+    "published": "2025-05-09"
   }
 ]

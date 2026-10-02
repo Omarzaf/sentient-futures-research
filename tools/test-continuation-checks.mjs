@@ -133,6 +133,8 @@ const statusCases=[
  ['gate cell given a scenario value',f=>alter(f,'gate-table.json',g=>{g.countries[0].food_authorization.reading='open';}),'gate cell reading, confidence or next document invalid'],
  ['positive gate reading resting only on a snippet lead',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.basis_claim_ids=['P1C8-C14'];}),'gate cell positive reading rests only on unchecked leads'],
  ['gate cell rated high on leads',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='ARE');c.religious[3].confidence='high';}),'gate cell high confidence without checked basis'],
+ ['confirmed original without a review link',f=>alter(f,'claims.json',r=>{const c=r.find(x=>x.id==='P1C9-C01');delete c.review_id;}),'missing independent claim review'],
+ ['positive gate reading resting only on a disputed claim',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.basis_claim_ids=['P1C8-C09'];}),'gate cell positive reading rests only on unchecked leads'],
  ['focal country dropped from gate table',f=>alter(f,'gate-table.json',g=>{g.countries.pop();}),'gate table focal-country roster changed']
 ];
 for(const [name,mutate,expected] of statusCases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}

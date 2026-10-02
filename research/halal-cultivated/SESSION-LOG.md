@@ -2,6 +2,16 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — leads checked against originals
+
+**Done:** Read the originals behind the 2 October leads where a document index held them; the environment's network policy still blocked direct fetches. Ten claims now carry status `confirmed_original` under review R8-ORIGINALS, including five new P1C9 claims. Corrections: the Taqi Usmani report traces to Bloomberg (2022), not The National; the Uttar Pradesh order excluded meat; GOOD Meat's release names its "chicken cell line and production process", and the Axios quotation was not found. The American Fiqh Academy and Wifaq ul Ulama pages are one source family. The American Halal Foundation's two pages disagree, so that claim is `disputed`. One site was rejected as unreliable. The registers hold 187 sources and 156 claims.
+
+**Gate table:** The UAE's food-authorization reading moves to "route exists, no approval" on the UAE's Codex statement that cell-based food falls under UAE.S 5048:2021. India's cells add the Food Authority lapse (January 2026), the meat exclusion in Uttar Pradesh and the traders' 90% halal estimate.
+
+**Decisions:** `confirmed_original` needs a review link, like `independently_checked`. A positive gate reading must rest on a checked, confirmed or inference claim; an open or disputed claim alone no longer counts. Two new negative tests.
+
+**Still open:** The UAE Council for Fatwa instrument, the Taqi Usmani ruling, the Kuwaiti post on the Jeddah seminar, the Banuri Town text, UAE.S 5048:2021 itself and the Food Authority's current status. No claim has human review.
+
 ## 2 October 2026 — gate table and synthesis
 
 **Added:** A [synthesis](phase1-continuation/SYNTHESIS.md) and [gate table](phase1-continuation/gate-table.md) for the four focal countries across six founder-cell and medium profiles. 17 sources and claims from web searches fill focal-country gaps; each is status `open` because the environment's network policy blocked the original hosts. Five inference records carry a premise and a confirmation test. The registers now hold 174 sources and 151 claims.

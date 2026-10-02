@@ -338,5 +338,24 @@
     "scope": "Five named-school routes with one explicit unresolved primary-text gap, plus one bounded descriptive paragraph. No school consensus, product permission or qualified scholarly approval.",
     "outcome": "bounded_documentary_agreement",
     "human_review": false
+  },
+  {
+    "id": "R8-ORIGINALS",
+    "claim_ids": [
+      "P1C8-C01",
+      "P1C8-C03",
+      "P1C8-C07",
+      "P1C8-C08",
+      "P1C8-C15",
+      "P1C9-C01",
+      "P1C9-C02",
+      "P1C9-C03",
+      "P1C9-C04",
+      "P1C9-C05"
+    ],
+    "method": "Coordinator read the cited document's own text, retrieved through the Bigdata.com index because the environment's network policy blocked direct fetches, and compared it with each claim as worded; claims were corrected where the text differed. Not a second-agent check and not a human review.",
+    "scope": "Confirms that each listed document says what the claim attributes to it. For news reports this confirms the report, not the underlying instrument.",
+    "outcome": "confirmed_with_corrections",
+    "human_review": false
   }
 ]

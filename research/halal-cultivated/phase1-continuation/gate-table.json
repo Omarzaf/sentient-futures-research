@@ -205,7 +205,7 @@
     {
       "id": "ARE",
       "name": "United Arab Emirates",
-      "summary": "The weakest focal country on evidence. A slaughter-required Fatwa Council position is reported only by a tertiary source, and Abu Dhabi's single-window novel-food framework was announced in October 2025 with no operative instrument located.",
+      "summary": "The weakest focal country on religious evidence. A slaughtered-donor position by the UAE Council for Fatwa is reported only by a tertiary source and was not confirmed. On the legal side, the UAE told Codex that cell-based food falls under the federal novel-food standard UAE.S 5048:2021, which requires pre-market evaluation; no application or approval was found, and Abu Dhabi's single-window framework was still a proposal in January 2026.",
       "religious": [
         {
           "profile": "P1",
@@ -280,13 +280,15 @@
         ]
       },
       "food_authorization": {
-        "reading": "route_announced_status_unknown",
-        "confidence": "low",
+        "reading": "route_exists_no_approval",
+        "confidence": "medium",
         "basis_claim_ids": [
+          "P1C9-C01",
+          "P1C9-C02",
           "P1C8-C17"
         ],
-        "decisive_next": "The operative ADAFSA framework instrument and any federal counterpart",
-        "note": "Announced October 2025; operative status unknown.",
+        "decisive_next": "The text of UAE.S 5048:2021 and any cell-based application under it",
+        "note": "Federal route: UAE.S 5048:2021, General Requirements for Novel Foods, per the UAE's Codex submission. Abu Dhabi's single-window framework, announced October 2025, was still a proposal in January 2026.",
         "prior_edition_refs": [
           "AE-2025"
         ]
@@ -302,7 +304,7 @@
     {
       "id": "PAK",
       "name": "Pakistan",
-      "summary": "No food-authorization route for cultivated meat was identified. The leading Deobandi position, reported but not located in original, requires a slaughtered donor; a Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.",
+      "summary": "No food-authorization route for cultivated meat was identified. A slaughtered-donor position attributed to scholars led by Mufti Muhammad Taqi Usmani traces to a 2022 Bloomberg report; the ruling itself was not located. A Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.",
       "religious": [
         {
           "profile": "P1",
@@ -396,7 +398,7 @@
     {
       "id": "IND",
       "name": "India",
-      "summary": "The only focal country with a named cultivated-chicken application, still under process at FSSAI. No Indian Islamic institution's ruling was located. Halal certification is a contested market layer, so the religious gate covers a segment, not the market.",
+      "summary": "The only focal country with a named cultivated-chicken application, still under process at FSSAI, though approval of novel ingredients needs a Food Authority that had not been reconstituted as of January 2026. No Indian Islamic institution's ruling was located. Non-halal chicken is legal, so the religious gate is legally a segment; traders estimate that about 90% of meat sold is halal, so in practice it may cover most of the market.",
       "religious": [
         {
           "profile": "P1",
@@ -451,26 +453,28 @@
           "P1C8-C15"
         ],
         "decisive_next": "The Uttar Pradesh order text and the Supreme Court's disposition",
-        "note": "No national halal mandate for domestic sale; i-CAS applies to specified halal exports."
+        "note": "No national halal mandate for domestic sale; i-CAS applies to specified halal exports. Uttar Pradesh's 2023 order against halal-certified food excluded meat, so it does not reach chicken."
       },
       "food_authorization": {
         "reading": "application_pending",
         "confidence": "medium",
         "basis_claim_ids": [
           "P1C-C01",
-          "P1C8-C16"
+          "P1C8-C16",
+          "P1C9-C03"
         ],
-        "decisive_next": "FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods)",
-        "note": "Stage 7 in the September 2026 register covers clarification, approval or rejection."
+        "decisive_next": "FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods), and whether the Food Authority has been reconstituted",
+        "note": "Stage 7 in the September 2026 register covers clarification, approval or rejection. Novel-ingredient approvals need the Food Authority, which had not been reconstituted as of January 2026."
       },
       "segment": {
         "reading": "segment_gate",
         "confidence": "medium",
         "basis_claim_ids": [
-          "P1C8-I04"
+          "P1C8-I04",
+          "P1C9-C04"
         ],
         "decisive_next": "Household consumption of chicken by religious group from national survey tables",
-        "note": "Segment size unmeasured."
+        "note": "Legally a segment. Traders' unofficial estimate puts about 90% of meat sold in India as halal, so in practice the segment may be most of the market; this is not a measurement."
       }
     }
   ]
