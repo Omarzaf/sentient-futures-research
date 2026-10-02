@@ -2,6 +2,8 @@
 
 Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
 
+**2 October update:** The demand-forecast workstream replied to the requests in 4.5. Sections 4.1, 4.5, 5, 9 and 11 now reflect that reply. The main change is that this workstream supplies its own US meat denominator.
+
 **Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [completed public-source review](phase1/review.md) records the result. Phase Two scope and schema rules below remain unchanged.
 
 The schema in section 4 is implemented in [datapackage.json](datapackage.json), and the section 5 rules are checked by `tools/halal-checks.mjs`. See [README.md](README.md) for the files.
@@ -60,10 +62,12 @@ This is the fix for the category mismatch. Every data record in this workstream 
 | `geo` | ISO 3166 alpha-3 | Repository convention |
 | `year` | 2025 base; 2026, 2030, 2035 | Demand-forecast resolution years |
 | `metric` | `sales_value`, `volume`, `market_share` | See 4.2 |
-| `price_basis` | constant 2025 USD | Demand forecast |
-| `channel` | `retail`, `foodservice`, `all` | The demand forecast uses retail (US). Focal-market data will mostly be `all`; the field records which. |
+| `price_basis` | constant 2025 USD | Demand forecast. US values are deflated with BLS CPI-U Food at Home, U.S. city average, not seasonally adjusted (series CUUR0000SAF11), calendar-year averages. |
+| `channel` | `retail`, `foodservice`, `all` | The demand forecast's plant-based question is retail only. Its cultivated and fermentation question covers retail plus foodservice, so anything bridged from it is `all`. Focal-market data will mostly be `all`; the field records which. |
 | `quantile` | `q10`, `q50`, `q90` where a value is uncertain | Demand forecast |
 | `source_id` | existing CO-, SA-, GP- plus the new prefixes in 4.4 | Conditional Markets paper |
+
+The demand forecast asks for cultivated and fermentation-derived sales as two separate answers. Fermentation comes back as one total, so `fermentation_biomass` and `fermentation_precision` apply only to this workstream's own records. Its cultivated answer includes hybrids at their full product value, so it maps to `cultivated` and `hybrid_cultivated` together and cannot be split between them.
 
 ### 4.2 Units and denominators
 
@@ -109,19 +113,38 @@ The last four were added when the schema was built so that every table has a pri
 
 ### 4.5 The bridge to the demand-forecast numbers
 
-The demand forecast's second question gives US cultivated and fermentation sales for 2030 as q10, q50 and q90. The bridge uses only the cultivated part.
+The demand forecast's second question gives US cultivated sales and US fermentation-derived sales as separate answers, each as q10, q50 and q90. On 2 October the workstream agreed to ask it for 2026, 2030 and 2035. The bridge uses only the cultivated answer.
 
-1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales ÷ US meat sales for the same year, quantile and 2025-USD basis.
+1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales ÷ the US meat denominator in 4.5.1, for the same year, quantile and 2025-USD basis.
 2. **Baseline market in each focal country:** `D(c, y)` = projected meat consumption from the OECD-FAO Agricultural Outlook for the same years, in the units of 4.2.
-3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown.
+3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown. `p_US` is a value share and `D` is a volume, so this step assumes cultivated meat sells at the same price per kilogram as the meat it replaces. Each scenario row states that assumption in `notes`.
 4. **The gate `G(c)`** is 1 only when `H_rel` is `permitted` or `conditional` (with the condition met in the scenario) and `L` is `approved`. Otherwise it is 0. It is a switch, never a fraction.
 
 The result is a conditional share ("if the gate is open and adoption follows the US path"), not a forecast.
 
-**Two requests go to the demand-forecast workstream:**
+**4.5.1 The US meat denominator.** The demand forecast does not use a meat denominator, and its survey has no meat question. This workstream therefore supplies its own, matched to the scope of the cultivated answer:
 
-- Extend her cultivated question from 2030 to 2026 and 2035. She already noted it could be one question with three resolution dates.
-- Share the US meat sales denominator she uses, so both workstreams divide by the same number.
+- US sales through retail and foodservice (`channel` = `all`).
+- Meat, poultry and seafood, because the forecast's cultivated definition covers all animal meat, seafood included.
+- Constant 2025 USD, using the same CPI series as the forecast (4.1).
+- 2025 as the base year. 2026, 2030 and 2035 values are the 2025 value grown at the OECD-FAO projected rate for US meat consumption. At constant prices, value grows with volume.
+
+Candidate sources, none yet checked: BEA personal consumption expenditure by type of product (meat, poultry, fish and seafood bought for home use) as a retail-only lower bound, and USDA ERS food availability volumes valued at BLS average retail prices as an all-channel estimate. Whichever is chosen is recorded once as an `MR-` row with its locator, and every `p_US` uses that row. The `category` list has no value for total meat, poultry and seafood, so one is added to `datapackage.json` with that row.
+
+**4.5.2 What the cultivated answer contains.** Four features of the forecast's resolution criteria carry into `p_US`:
+
+- **Pet food is included.** This workstream covers human food, so pet food inflates `p_US`. Where a respondent's rationale states the pet-food portion, it is removed before dividing. Otherwise `p_US` is marked in `notes` as an upper bound.
+- **Hybrids count at full value.** A product with a small cultivated share counts entirely as cultivated. `p_US` is therefore the share of meat spending on products that contain cultivated cells, not the share of cultivated tissue. This matches rule 4.
+- **There is no resolution source.** No published series measures US cultivated sales. The question resolves against the closest measure available at the time, and the forecast weights the reasoning above accuracy. `p_US` is an elicited judgment, and outputs say so.
+- **It is close to unforecastable.** The forecast's LLM respondents report that the cultivated question is already nearly impossible to forecast for 2030. The quantiles are carried as given, never narrowed or averaged into a single figure. At the magnitudes involved, `Q` will be small in every focal country even with the gate open, so Phase 2 results will turn mainly on whether `G` is 0 or 1. `p_US` also carries US-specific obstacles, such as state sales bans, that do not apply in the focal countries. That limitation is stated alongside every result.
+
+**Requests sent to the demand-forecast workstream on 30 September, answered 2 October:**
+
+| Request | Answer |
+|---|---|
+| Extend the cultivated question from 2030 to 2026 and 2035 | Agreed. All three years will be asked. |
+| Share the US meat sales denominator | None is used. This workstream supplies its own (4.5.1). |
+| Are cultivated and fermentation reported separately? | Yes, as two answers. |
 
 ## 5. Double-counting rules
 
@@ -131,7 +154,7 @@ Each rule becomes a check in `tools/verify.mjs` where it can be tested mechanica
 2. **Consumer acceptance enters once.** The default carrier is the US analogue `p_US`. Local consumer surveys (Bryant et al. for India; Ahsan et al. and Irfan et al. for Pakistan) can replace `p_US` in a sensitivity run. They are never multiplied with it. They already include religious concerns, so they are also never combined with `H_rel` as a fraction.
 3. **Food approval and religious status are counted once each.** Where `L_includes_halal` is `true`, the food approval already carries the halal condition, and `H_rel` is not applied a second time.
 4. **Hybrid products are counted once.** Hybrid sales are counted once at the finished product under `hybrid_cultivated`. `cultivated_fraction` is used for supply and biomass accounting only, never as a displacement coefficient.
-5. **The demand forecast's two questions are never added together.** Its plant-based and cultivated/fermentation answers overlap by design (for example mycoprotein).
+5. **The demand forecast's answers are never added together.** Its plant-based figure can include fermentation-derived products marketed as plant-based, and the forecast states that its cultivated and fermentation question does not add to the plant-based one. The bridge also never sums the cultivated and fermentation answers. It uses the cultivated answer alone.
 6. **Insect protein is a feed input.** It affects the cost and supply of conventional chicken. It is never added to human protein supply, which would count the same protein twice (insect, then chicken).
 7. **Each shock has a declared mechanism.** The animal-disease shock changes `D` and conventional price only; the food-sovereignty shock changes `K` and `L` only (section 7). Each scenario row records which, and no shock changes `p_US`.
 8. **Related evidence counts once.** An original study and its correction count as one piece of evidence, as does a ruling and the reports that repeat it.
@@ -324,10 +347,10 @@ Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing
 
 | Week of | Work |
 |---|---|
-| 30 Sep | Set up the schema, registers and verify checks. Send the demand-forecast workstream the two requests in 4.5. Transcription and translation once the recording arrives. |
+| 30 Sep | Set up the schema, registers and verify checks. Send the demand-forecast workstream the requests in 4.5. Transcription and translation once the recording arrives. |
 | 7 Oct | Document 3 (claims register). Document 5 tables. |
 | 14 Oct | Document 4A and 4B. Consensus matrix. The demand forecast's first aggregated results are due. |
-| 21 Oct | Document 4C and 4D. Elasticities. OECD-FAO baselines. |
+| 21 Oct | Document 4C and 4D. Elasticities. OECD-FAO baselines. US meat denominator (4.5.1). |
 | 28 Oct | Phase 2 scenario grid using the demand forecast's medians and quantiles. |
 | 4 Nov | Write-up, human review of translations and fiqh sources, final verification run. Buffer to 13 November. |
 
@@ -341,8 +364,10 @@ Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing
 
 **From the demand-forecast workstream**
 
-- Her cultivated q10/q50/q90 for 2026, 2030 and 2035.
-- Her US meat sales denominator.
+- Her cultivated q10/q50/q90 for 2026, 2030 and 2035 (agreed 2 October).
+- Where a respondent states it, the pet-food portion of each cultivated answer (4.5.2).
+
+The US meat sales denominator is no longer requested. This workstream sources it (4.5.1).
 
 **Data (English, mostly free)**
 
@@ -396,6 +421,8 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 ## 11. Open items
 
 - Interview recording (`IMG 7313.*`) not yet in the repository.
-- Demand-forecast workstream asked on 30 September for the 2026/2035 extension, the US meat denominator, and whether cultivated sales are reported separately from fermentation. Awaiting reply.
+- Demand-forecast workstream answered on 2 October (4.5): all three years will be asked, cultivated and fermentation are separate answers, and it uses no meat denominator.
+- Choose and source the US meat denominator (4.5.1) and record it as one `MR-` row.
+- Ask the demand-forecast workstream whether respondents can state the pet-food portion of the cultivated answer separately (4.5.2).
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.

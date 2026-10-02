@@ -2,6 +2,22 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — reply from the demand-forecast workstream
+
+**Done:** Recorded the demand-forecast workstream's reply to the 30 September requests in plan section 4.5, and checked it against the scope rules in the team's survey draft. Updated sections 4.1, 4.5, 5, 9 and 11.
+
+**Decisions**
+
+- The cultivated question will be asked for 2026, 2030 and 2035. Cultivated and fermentation are separate answers, and the bridge uses the cultivated answer only.
+- The forecast uses no meat denominator, so this workstream supplies one: US meat, poultry and seafood, retail plus foodservice, constant 2025 USD on the forecast's CPI series (4.5.1). Not yet sourced.
+- The cultivated answer includes pet food and counts hybrids at full value. Pet food is removed where a rationale states it; otherwise `p_US` is marked as an upper bound (4.5.2).
+- The forecast's LLM respondents report the cultivated question is close to unforecastable for 2030. Quantiles are carried as given, and Phase 2 results will turn mainly on the gate.
+- Applying a value share to a volume baseline assumes price parity per kilogram. Each scenario row states this.
+
+**Note:** No survey wording or test responses were copied into the repository; they are the demand-forecast workstream's unpublished work.
+
+**Open:** Source the denominator. Ask whether respondents can state the pet-food portion separately.
+
 ## 30 September 2026 — corrections to the earlier discovery rows
 
 **Done:** Checked the Phase One public-source edition against the first-pass registers and corrected the rows it contradicted. `certification.csv`: India and Saudi Arabia route changed from `none_found` to `statute_only` and `operational`, Singapore from `unknown` to `operational`, with notes on the UAE, Pakistan and Indonesia. `rulings.csv` and `consensus-matrix.csv`: the IIFA 265 live-donor reading withdrawn, and the MUIS monograph added. `scripture-sources.csv`: a note on Ghamidi's published treatment of flesh from a living animal. Each changed row says it was corrected and points to `phase1/review.md`.
