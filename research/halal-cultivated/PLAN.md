@@ -2,7 +2,7 @@
 
 Version 1, 30 September 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
 
-**2 October update:** The demand-forecast workstream replied to the requests in 4.5. Sections 4.1, 4.5, 5, 9 and 11 now reflect that reply. The main change is that this workstream supplies its own US meat denominator.
+**2 October update:** The demand-forecast workstream replied to the requests in 4.5. Sections 2, 4.1, 4.5, 5, 9 and 11 now reflect that reply. The main changes: this workstream sets its own US meat denominator (4.5.1), and pet food is out of scope.
 
 **Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [completed public-source review](phase1/review.md) records the result. Phase Two scope and schema rules below remain unchanged.
 
@@ -25,6 +25,7 @@ It adds a halal layer to the team's work. It does not run its own forecast surve
 | Language | English sources only. Where no English version exists, flag it; Umar decides whether to use Urdu and translate himself. The Urdu interview being transcribed is the object of study, so it is the one standing exception. |
 | Geography | Four focal cases: India, Pakistan, Saudi Arabia, UAE. Three precedents: Malaysia, Singapore, Indonesia. No readiness ranking across them. |
 | Product | Cultivated chicken first. Other halal species (beef, mutton, goat) as an extension once chicken is done. |
+| Pet food | Out of scope (decided 2 October). Cultivated pet food is not modelled in the focal countries. |
 | Insects | Poultry feed input only, valued in market terms. Never counted as human protein or as an alternative protein, which keeps the demand forecast's exclusion intact. |
 | Scenarios | Halal status is the gate (declared halal, declared haram, prolonged silence). Animal-disease shocks and food-sovereignty policy are layered on top of each gate state. |
 | Double counting | None permitted. Rules in section 5. |
@@ -115,25 +116,46 @@ The last four were added when the schema was built so that every table has a pri
 
 The demand forecast's second question gives US cultivated sales and US fermentation-derived sales as separate answers, each as q10, q50 and q90. On 2 October the workstream agreed to ask it for 2026, 2030 and 2035. The bridge uses only the cultivated answer.
 
-1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales ÷ the US meat denominator in 4.5.1, for the same year, quantile and 2025-USD basis.
+1. **US analogue penetration:** `p_US(y, q)` = the forecast's cultivated sales, converted to tonnes, ÷ US meat consumption, for the same year and quantile (4.5.1).
 2. **Baseline market in each focal country:** `D(c, y)` = projected meat consumption from the OECD-FAO Agricultural Outlook for the same years, in the units of 4.2.
-3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown. `p_US` is a value share and `D` is a volume, so this step assumes cultivated meat sells at the same price per kilogram as the meat it replaces. Each scenario row states that assumption in `notes`.
+3. **Conditional quantity:** `Q(c, y, q)` = `D(c, y)` × `p_US(y, q)` × `G(c)`, then capped by allocated supply `K(c, y)` where supply evidence exists. Otherwise the cap is recorded as unknown. `p_US` and `D` are both volumes, as 4.2 requires.
 4. **The gate `G(c)`** is 1 only when `H_rel` is `permitted` or `conditional` (with the condition met in the scenario) and `L` is `approved`. Otherwise it is 0. It is a switch, never a fraction.
 
 The result is a conditional share ("if the gate is open and adoption follows the US path"), not a forecast.
 
-**4.5.1 The US meat denominator.** The demand forecast does not use a meat denominator, and its survey has no meat question. This workstream therefore supplies its own, matched to the scope of the cultivated answer:
+**4.5.1 The US meat denominator.** The demand forecast uses no meat denominator and asks no meat question, so this workstream sets its own.
 
-- US sales through retail and foodservice (`channel` = `all`).
-- Meat, poultry and seafood, because the forecast's cultivated definition covers all animal meat, seafood included.
-- Constant 2025 USD, using the same CPI series as the forecast (4.1).
-- 2025 as the base year. 2026, 2030 and 2035 values are the 2025 value grown at the OECD-FAO projected rate for US meat consumption. At constant prices, value grows with volume.
+**Choice.** US meat consumption from the OECD-FAO Agricultural Outlook 2026–2035, the same edition that supplies `D`, in the same unit, for each year. The cultivated sales answer is first converted to tonnes at the 2025 average US retail meat price:
 
-Candidate sources, none yet checked: BEA personal consumption expenditure by type of product (meat, poultry, fish and seafood bought for home use) as a retail-only lower bound, and USDA ERS food availability volumes valued at BLS average retail prices as an all-channel estimate. Whichever is chosen is recorded once as an `MR-` row with its locator, and every `p_US` uses that row. The `category` list has no value for total meat, poultry and seafood, so one is added to `datapackage.json` with that row.
+`p_US(y, q)` = (cultivated sales(y, q) ÷ `P_US`) ÷ `D(USA, y)`
+
+`P_US` is the 2025 US retail price of beef, pork and chicken, weighted by each meat's share of 2025 US consumption, converted to the unit of `D` and expressed per tonne in 2025 USD. The intended sources are the USDA ERS retail meat prices and its retail-to-carcass conversion factors. Neither has been read yet.
+
+**Why this one**
+
+- **It measures the US the same way `p_US` is applied.** The share is multiplied by each focal country's OECD-FAO consumption. Taking the US figure from the same source, edition, definitions and years makes the comparison like for like.
+- **It gives a volume share,** which is how 4.2 defines market share. A spending denominator would give a value share that the bridge then multiplies by tonnes, and 4.2 rules that out.
+- **It covers every channel.** Consumption includes meat eaten in restaurants, and the cultivated answer includes foodservice sales.
+- **It brings its own projections.** The Outlook runs to 2035, so 2026, 2030 and 2035 need no separate growth assumption.
+- **It adds no new assumption.** The bridge already has to assume cultivated meat sells at the average meat price per kilogram. That assumption now sits in one named number, `P_US`, instead of being hidden in step 3.
+
+**Rejected**
+
+- **BEA consumer spending on meat, poultry and seafood.** Official and simple, but it covers only food bought for home use, while the cultivated answer includes restaurants. It would also give a value share.
+- **Industry retail scanner data,** such as the figures in the Power of Meat study. Retail only, proprietary and not reproducible.
+- **Market-research totals for "meat, poultry and seafood".** Unclear definitions, usually paywalled.
+
+**Known biases.** Each mismatch pushes `p_US` up, so `p_US` reads as an upper bound on the US human-food share:
+
+- The cultivated answer includes seafood and pet food. OECD-FAO meat consumption includes neither.
+- Restaurant sales in the cultivated answer carry menu prices, but `P_US` is a shop price, so foodservice dollars convert to too many tonnes.
+- Hybrids count at full product value (4.5.2).
+
+The US consumption figures and `P_US` are recorded as `MR-` rows with locators, and every `p_US` uses those rows. The `category` list has no value for pork and the `metric` list has none for a price, so both are added to `datapackage.json` with those rows.
 
 **4.5.2 What the cultivated answer contains.** Four features of the forecast's resolution criteria carry into `p_US`:
 
-- **Pet food is included.** This workstream covers human food, so pet food inflates `p_US`. Where a respondent's rationale states the pet-food portion, it is removed before dividing. Otherwise `p_US` is marked in `notes` as an upper bound.
+- **Pet food is included.** Pet food is out of scope for this workstream (section 2), so nothing is modelled for it in the focal countries. The US answer is used as given, without removing pet food. The small upward effect is listed under the known biases in 4.5.1.
 - **Hybrids count at full value.** A product with a small cultivated share counts entirely as cultivated. `p_US` is therefore the share of meat spending on products that contain cultivated cells, not the share of cultivated tissue. This matches rule 4.
 - **There is no resolution source.** No published series measures US cultivated sales. The question resolves against the closest measure available at the time, and the forecast weights the reasoning above accuracy. `p_US` is an elicited judgment, and outputs say so.
 - **It is close to unforecastable.** The forecast's LLM respondents report that the cultivated question is already nearly impossible to forecast for 2030. The quantiles are carried as given, never narrowed or averaged into a single figure. At the magnitudes involved, `Q` will be small in every focal country even with the gate open, so Phase 2 results will turn mainly on whether `G` is 0 or 1. `p_US` also carries US-specific obstacles, such as state sales bans, that do not apply in the focal countries. That limitation is stated alongside every result.
@@ -365,9 +387,8 @@ Outputs report `q10`, `q50` and `q90`, the reason code for every zero or missing
 **From the demand-forecast workstream**
 
 - Her cultivated q10/q50/q90 for 2026, 2030 and 2035 (agreed 2 October).
-- Where a respondent states it, the pet-food portion of each cultivated answer (4.5.2).
 
-The US meat sales denominator is no longer requested. This workstream sources it (4.5.1).
+The US meat denominator is no longer requested. This workstream sets its own (4.5.1).
 
 **Data (English, mostly free)**
 
@@ -376,6 +397,7 @@ The US meat sales denominator is no longer requested. This workstream sources it
 | Baselines | OECD-FAO Agricultural Outlook (meat consumption projections by country) |
 | Country poultry detail | USDA FAS GAIN country reports |
 | Elasticities | USDA ERS international food-demand elasticities |
+| US meat price for `P_US` | USDA ERS retail meat prices and retail-to-carcass conversion factors |
 | Supply | FAOSTAT food balances |
 | Price conversion | National food CPI; World Bank exchange rates |
 | Religious composition | Pew (2009, 2012) |
@@ -422,7 +444,6 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 
 - Interview recording (`IMG 7313.*`) not yet in the repository.
 - Demand-forecast workstream answered on 2 October (4.5): all three years will be asked, cultivated and fermentation are separate answers, and it uses no meat denominator.
-- Choose and source the US meat denominator (4.5.1) and record it as one `MR-` row.
-- Ask the demand-forecast workstream whether respondents can state the pet-food portion of the cultivated answer separately (4.5.2).
+- Read the OECD-FAO US consumption figures and the ERS retail prices and conversion factors, then enter them as `MR-` rows (4.5.1). Both hosts were blocked in the 2 October session.
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.

@@ -4,19 +4,20 @@ One entry per working session, newest first. Records what was done, what was dec
 
 ## 2 October 2026 — reply from the demand-forecast workstream
 
-**Done:** Recorded the demand-forecast workstream's reply to the 30 September requests in plan section 4.5, and checked it against the scope rules in the team's survey draft. Updated sections 4.1, 4.5, 5, 9 and 11.
+**Done:** Recorded the demand-forecast workstream's reply to the 30 September requests in plan section 4.5, and checked it against the scope rules in the team's survey draft. Updated sections 2, 4.1, 4.5, 5, 9 and 11.
 
 **Decisions**
 
 - The cultivated question will be asked for 2026, 2030 and 2035. Cultivated and fermentation are separate answers, and the bridge uses the cultivated answer only.
-- The forecast uses no meat denominator, so this workstream supplies one: US meat, poultry and seafood, retail plus foodservice, constant 2025 USD on the forecast's CPI series (4.5.1). Not yet sourced.
-- The cultivated answer includes pet food and counts hybrids at full value. Pet food is removed where a rationale states it; otherwise `p_US` is marked as an upper bound (4.5.2).
+- The forecast uses no meat denominator, so this workstream sets its own: US meat consumption from the OECD-FAO Outlook 2026–2035, the source used for the focal countries, with the cultivated sales converted to tonnes at the 2025 average US retail meat price `P_US` (4.5.1). This gives a volume share, as plan 4.2 requires. BEA home-food spending and industry retail data were considered and rejected; the reasons are in 4.5.1.
+- Pet food is out of scope. The US answer, which includes pet food, is used as given and `p_US` is read as an upper bound.
 - The forecast's LLM respondents report the cultivated question is close to unforecastable for 2030. Quantiles are carried as given, and Phase 2 results will turn mainly on the gate.
-- Applying a value share to a volume baseline assumes price parity per kilogram. Each scenario row states this.
 
 **Note:** No survey wording or test responses were copied into the repository; they are the demand-forecast workstream's unpublished work.
 
-**Open:** Source the denominator. Ask whether respondents can state the pet-food portion separately.
+**Limits of this session:** The OECD, USDA ERS, BEA, BLS and FRED hosts were blocked, so no denominator values were entered.
+
+**Open:** Read the OECD-FAO US consumption figures and ERS retail prices, and enter them as `MR-` rows.
 
 ## 30 September 2026 — corrections to the earlier discovery rows
 
