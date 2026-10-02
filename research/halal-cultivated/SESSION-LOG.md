@@ -2,6 +2,20 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — mechanical fixes after review
+
+**Changed:** The continuation checker now accepts the AGENTIC-PLAN statuses `inference`, `open` and `disputed` alongside `independently_checked`. An inference must carry a premise and a confirmation test, and any review link must resolve. Three negative tests and two positive tests cover this. No claim's status was changed.
+
+**Cleaned:** Doubled `bounded_bounded_` evidence levels in four history claims; `en`/`ar` language codes in the source register now read `English`/`Arabic`; run-together words and numbers in the history, synthesis, feed and institution-matrix Markdown (for example "the1995IOMS", "byOctober", "Hukum595,24July2021"). URLs, source IDs and JSON values other than these were not changed.
+
+**Flagged:** The 2021 China household pork value (25.8 kg, from ERS) conflicts with NBS's widely reported 25.2 kg. The value is kept as transcribed and marked for checking in the claims, the China record and both Markdown accounts.
+
+**Still open:** `document_type` (110 values) and the descriptive `language` values remain uncontrolled. No research finding was added or reinterpreted.
+
+## 1 October 2026 — institution matrix, literature, standards, history, elasticities and feed
+
+Batches five to seven, logged after the fact from the continuation README. Batch five added the seven-condition institution matrix (11 named institutional or adviser columns plus Ghamidi's published account; 47 of 84 cells explicit unknowns), the Alqurashi argument review with Hamdan 2018 access unresolved, and the standards edition comparison; the registers then held 81 sources and 67 claims. Batch six assessed 21 historical candidates, drew a seven-driver synthesis and mapped the plan's six factors to the shared forecast vocabulary; 129 sources and 98 claims. Batch seven extracted 186 study-level elasticity estimates for twelve country and species questions and four country insect-feed packets with five named-school routes; 157 sources and 129 claims. No estimate is accepted as a forecast parameter, no feed market value is established, and human scholarly review remains pending.
+
 ## 1 October 2026 — country institutions and original-source follow-up
 
 Added 13 source records and eight independently checked, bounded claims. The supplement now has 58 sources and 53 claims. Saudi Arabia, the UAE, Singapore and Oman gain named institutional rows, with source access, territorial scope and incomplete mandate limits retained. Oman's official Arabic Decree 6/2021 pages 1–3 were visually checked; the issued edition and separate landing metadata dates remain distinct. Population school prevalence stays unestablished.

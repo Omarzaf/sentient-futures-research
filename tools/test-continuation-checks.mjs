@@ -122,6 +122,15 @@ const cases=[
  ['history synthesis borrows a valid unrelated claim',f=>alter(f,'historical-synthesis.json',r=>{r.rows.find(d=>d.driver==='disease').claim_ids.push('R6E-HISTORY-14-SCOPE');}),'historical synthesis case/claim/review join'],
  ['qualitative precedent becomes a predicted ruling deadline',f=>alter(f,'historical-synthesis.json',r=>{r.rows[0].ruling_speed=30;}),'historical synthesis hypothesis promoted']
 ];
+// Statuses from AGENTIC-PLAN: a labelled inference with premise and test passes; malformed statuses fail.
+{const f={...fixture};alter(f,'claims.json',r=>{Object.assign(r[0],{status:'inference',premise:'Stated premise.',confirmation_test:'Evidence that would defeat it.'});delete r[0].review_id;});assert.deepEqual(checkContinuation(f).failures,[],'labelled inference must be accepted');}
+{const f={...fixture};alter(f,'claims.json',r=>{r[0].status='open';delete r[0].review_id;});assert.deepEqual(checkContinuation(f).failures,[],'open claim must be accepted');}
+const statusCases=[
+ ['claim status outside the plan vocabulary',f=>alter(f,'claims.json',r=>{r[0].status='accepted';}),'unsupported claim status'],
+ ['inference without premise',f=>alter(f,'claims.json',r=>{r[0].status='inference';delete r[0].premise;}),'inference without premise or confirmation test'],
+ ['open claim with dangling review link',f=>alter(f,'claims.json',r=>{r[0].status='open';r[0].review_id='missing';}),'claim review link does not resolve']
+];
+for(const [name,mutate,expected] of statusCases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 for(const [name,mutate,expected] of cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 // Preserve the earlier 115 cases; new mutations must hit their exact semantic guard.
 assert.equal(cases.length,115,'prior continuation negative cases must remain intact');
@@ -197,4 +206,4 @@ const run07Cases=[
  ['school reviewer becomes human scholarly approval',f=>alter(f,'feed-review.json',d=>{d.schools[0].human_review='approved';}),'feed named authority promoted to consensus, human-food transfer or certificate: Hanafi']
 ];
 for(const [name,mutate,expected] of run07Cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.includes('Continuation: '+expected),name+' must reject with the exact intended guard');}
-console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',fixture:'canonical',validFixtureChecks:checkContinuation(fixture).checks,previousNegativeCases:cases.length,run07NegativeCases:run07Cases.length,negativeCases:cases.length+run07Cases.length}));
+console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',fixture:'canonical',validFixtureChecks:checkContinuation(fixture).checks,previousNegativeCases:cases.length,run07NegativeCases:run07Cases.length,statusCases:statusCases.length,negativeCases:cases.length+run07Cases.length+statusCases.length}));

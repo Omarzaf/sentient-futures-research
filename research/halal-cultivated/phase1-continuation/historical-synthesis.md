@@ -58,7 +58,7 @@ Local prohibitions, quality-control institutions and food-security strategies de
 
 Counterpoint: Strategy targets are not outcomes; emergency action for conventional dairy does not imply immediate cultivated-product approval.
 
-Limit: The UAE example is not a six-countryGCC evaluation. Legal access, religious status and national supply shares must each be evidenced.
+Limit: The UAE example is not a six-country GCC evaluation. Legal access, religious status and national supply shares must each be evidenced.
 
 Cases: [HP-13](historical-cases.md#hp-13), [HP-16](historical-cases.md#hp-16), [HP-20](historical-cases.md#hp-20), [HP-21](historical-cases.md#hp-21). Claim IDs are recorded in the [structured synthesis](historical-synthesis.json).
 

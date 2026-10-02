@@ -28,61 +28,61 @@ Resolution 265 (10/26)
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Source animal must be lawful to eat. | attributed_primary_position | English Third1; Arabic Third1; IIFA265, IIFA-AR |
-| donor_procurement | Living-donor and lawfully slaughtered-donor alternatives are retained; slaughter applies where required. | attributed_primary_position | English Third1; Arabic Third1; IIFA265, IIFA-AR |
-| medium | No prohibited medium or additives; flowing blood and porcine gelatin are examples. | attributed_primary_position | Third2; IIFA265 |
-| istihala | Unknown: First reaffirms Resolution198 on transmutation/dilution; it does not expressly classify ordinary cell multiplication as istihala. | unknown_in_inspected_scope | First; compare Third2; IIFA265 |
-| slaughter | Donor slaughter is conditional, alongside the living-donor route; no separate final-biomass slaughter rule is stated. | attributed_primary_position | English Third1; Arabic Third1; IIFA265, IIFA-AR |
+| species | Source animal must be lawful to eat. | attributed_primary_position | English Third 1; Arabic Third 1; IIFA265, IIFA-AR |
+| donor_procurement | Living-donor and lawfully slaughtered-donor alternatives are retained; slaughter applies where required. | attributed_primary_position | English Third 1; Arabic Third 1; IIFA265, IIFA-AR |
+| medium | No prohibited medium or additives; flowing blood and porcine gelatin are examples. | attributed_primary_position | Third 2; IIFA265 |
+| istihala | Unknown: First reaffirms Resolution 198 on transmutation/dilution; it does not expressly classify ordinary cell multiplication as istihala. | unknown_in_inspected_scope | First; compare Third 2; IIFA265 |
+| slaughter | Donor slaughter is conditional, alongside the living-donor route; no separate final-biomass slaughter rule is stated. | attributed_primary_position | English Third 1; Arabic Third 1; IIFA265, IIFA-AR |
 | safety | Final product must be safe and non-harmful under relevant authorities’ standards and procedures. | attributed_primary_position | Fifth; IIFA265 |
 | labelling | Companies must disclose needed information to consumers, with supervisory verification of compliance. | attributed_primary_position | Fourth; IIFA265 |
 
 ## MUIS / Fatwa Committee of Singapore — INST-069
 
-2024 fatwa as reported in release; From Lab to Table first edition2024; AnnexC Key Fatwas2022–2025
+2024 fatwa as reported in release; From Lab to Table first edition 2024; Annex C Key Fatwas 2022–2025
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Halal-consumable animal source required. | attributed_primary_position | Release8(i); booklet printedp13; AnnexC §1 lines33–35; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
-| donor_procurement | Conflicting or incompletely reconciled procurement formulations remain in official materials. | conflicting_official_passages | Release8(i); booklet printedp14/PDFp16; AnnexC §1 lines33–49; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
-| medium | All constituent ingredients and cultivation media must satisfy halal requirements; AnnexC adds no non-halal cross-contamination. | attributed_primary_position | Release8(ii); booklet printedpp13–14; AnnexC lines41–49; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
-| istihala | Unknown: Bookletp11 and AnnexC §2 apply istihala discussion to insect-derived alternative proteins, not expressly to cultivated animal cells. | unknown_in_inspected_scope | Booklet printedp11 versuspp12–14; AnnexC §1 versus§2 lines83–88; MUIS-BOOK, C2-MUIS-ANNEX |
-| slaughter | Donor-slaughter and egg/stem-cell exceptions remain unreconciled; no distinct finished-biomass slaughter rule established. | conflicting_official_passages | Booklet printedp14; AnnexC §1 lines36–49; MUIS-BOOK, C2-MUIS-ANNEX |
-| safety | Clean, non-toxic product required. | attributed_primary_position | Paragraph8(iii); MUIS2024 |
-| labelling | Booklet describes prevailing Singapore labelling rules for novel-food producers. | related_regulatory_context_only | Printedp6/PDFp8, Singapore Novel Food Regulatory Framework; MUIS-BOOK |
+| species | Halal-consumable animal source required. | attributed_primary_position | Release 8(i); booklet printed p. 13; Annex C §1 lines 33–35; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
+| donor_procurement | Conflicting or incompletely reconciled procurement formulations remain in official materials. | conflicting_official_passages | Release 8(i); booklet printed p. 14/PDF p. 16; Annex C §1 lines 33–49; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
+| medium | All constituent ingredients and cultivation media must satisfy halal requirements; Annex C adds no non-halal cross-contamination. | attributed_primary_position | Release 8(ii); booklet printed pp. 13–14; Annex C lines 41–49; MUIS2024, MUIS-BOOK, C2-MUIS-ANNEX |
+| istihala | Unknown: Booklet p. 11 and Annex C §2 apply istihala discussion to insect-derived alternative proteins, not expressly to cultivated animal cells. | unknown_in_inspected_scope | Booklet printed p. 11 versus pp. 12–14; Annex C §1 versus §2 lines 83–88; MUIS-BOOK, C2-MUIS-ANNEX |
+| slaughter | Donor-slaughter and egg/stem-cell exceptions remain unreconciled; no distinct finished-biomass slaughter rule established. | conflicting_official_passages | Booklet printed p. 14; Annex C §1 lines 36–49; MUIS-BOOK, C2-MUIS-ANNEX |
+| safety | Clean, non-toxic product required. | attributed_primary_position | Paragraph 8(iii); MUIS2024 |
+| labelling | Booklet describes prevailing Singapore labelling rules for novel-food producers. | related_regulatory_context_only | Printed p. 6/PDF p. 8, Singapore Novel Food Regulatory Framework; MUIS-BOOK |
 
 ## Mufti Wilayah Persekutuan — INST-070
 
-Irsyad Hukum595,24July2021; Muhammad Fathi Noordin byline
+Irsyad Hukum 595, 24 July 2021; Muhammad Fathi Noordin byline
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Provisional reading: edible donor species; cattle/goats and marine categories discussed. | held_language | Provider lines21,35,66; WP595 |
-| donor_procurement | Provisional reading: ordinary body tissue from live or unslaughtered animals excluded; lawful slaughter, milk and marine cases distinguished. | held_language | Provider lines35–41,53,66; WP595 |
-| medium | Unknown: Article discusses donor-tissue impurities and cites a1990 surface-active-agent rule, but no complete specific growth-medium prescription is established here. | unknown_in_inspected_scope | Provider lines21,59,72; WP595 |
-| istihala | Unknown: No explicit cultivated-cell istihala conclusion established in inspected article. | unknown_in_inspected_scope | Provider lines19–81; WP595 |
-| slaughter | Provisional reading: donor slaughter for ordinary terrestrial body tissue; marine sources and milk treated separately. | held_language | Provider lines35–41,53,66; WP595 |
-| safety | Provisional reading: safety required; harmful product forbidden; further competent-authority study urged. | held_language | Provider lines22,74–77; WP595 |
-| labelling | Unknown: No cultivated-product label requirement established by inspected passage. | unknown_in_inspected_scope | Provider lines19–81; WP595 |
+| species | Provisional reading: edible donor species; cattle/goats and marine categories discussed. | held_language | Provider lines 21, 35, 66; WP595 |
+| donor_procurement | Provisional reading: ordinary body tissue from live or unslaughtered animals excluded; lawful slaughter, milk and marine cases distinguished. | held_language | Provider lines 35–41, 53, 66; WP595 |
+| medium | Unknown: Article discusses donor-tissue impurities and cites a 1990 surface-active-agent rule, but no complete specific growth-medium prescription is established here. | unknown_in_inspected_scope | Provider lines 21, 59, 72; WP595 |
+| istihala | Unknown: No explicit cultivated-cell istihala conclusion established in inspected article. | unknown_in_inspected_scope | Provider lines 19–81; WP595 |
+| slaughter | Provisional reading: donor slaughter for ordinary terrestrial body tissue; marine sources and milk treated separately. | held_language | Provider lines 35–41, 53, 66; WP595 |
+| safety | Provisional reading: safety required; harmful product forbidden; further competent-authority study urged. | held_language | Provider lines 22, 74–77; WP595 |
+| labelling | Unknown: No cultivated-product label requirement established by inspected passage. | unknown_in_inspected_scope | Provider lines 19–81; WP595 |
 
 Next action: Eligible English/Arabic edition or qualified Malay review; establish later changes and legal status separately.
 
 ## GOOD Meat named advisers — INST-071
 
-11September2023 participant notices; signed opinion not obtained
+11 September 2023 participant notices; signed opinion not obtained
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Permissible animal required; chicken and cow are examples. | attributed_participant_report | Law-firm condition1; manufacturer line23; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
-| donor_procurement | Cell-line donor must be slaughtered under Islamic law. | attributed_participant_report | Law-firm condition2; manufacturer line24; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
-| medium | Permissible nutrients; excludes spilled blood, alcohol and improperly slaughtered-animal or pig materials. | attributed_participant_report | Law-firm condition3; manufacturer line26; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
+| species | Permissible animal required; chicken and cow are examples. | attributed_participant_report | Law-firm condition 1; manufacturer line 23; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
+| donor_procurement | Cell-line donor must be slaughtered under Islamic law. | attributed_participant_report | Law-firm condition 2; manufacturer line 24; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
+| medium | Permissible nutrients; excludes spilled blood, alcohol and improperly slaughtered-animal or pig materials. | attributed_participant_report | Law-firm condition 3; manufacturer line 26; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
 | istihala | Unknown: Neither notice expressly determines whether cell cultivation constitutes istihala. | unknown_in_inspected_scope | Four-condition lists; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
-| slaughter | Donor slaughter required; final cultivated tissue is not separately addressed. | attributed_participant_report | Law-firm condition2; manufacturer line24; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
-| safety | Edibility and non-harm require specialist confirmation, such as a food regulator. | attributed_participant_report | Law-firm condition4; manufacturer line28; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
+| slaughter | Donor slaughter required; final cultivated tissue is not separately addressed. | attributed_participant_report | Law-firm condition 2; manufacturer line 24; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
+| safety | Edibility and non-harm require specialist confirmation, such as a food regulator. | attributed_participant_report | Law-firm condition 4; manufacturer line 28; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
 | labelling | Unknown: No label condition appears in the four reported conditions. | unknown_in_inspected_scope | Four-condition lists; P1C3-PROCESS-S08, P1C5-INST-GOODMEAT |
 
 ## JAKIM / MKI Muzakarah — INST-072
 
-128thMKI session23–26September2025; CIRi16914
+128th MKI session, 23–26 September 2025; CIRi16914
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
@@ -166,13 +166,13 @@ Seminar paper statement as reported by speaker's organization; Council concurren
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| donor_procurement | Slaughtered donor stated; cells taken from a living donor excluded, with a fish/locust exception; exact exception scope awaits qualified Arabic review | held_reported_officeholder_position | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| medium | Impurity exclusion stated | held_reported_officeholder_position | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| istihala | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| slaughter | Donor slaughter stated; fish/locust exception stated | held_reported_officeholder_position | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| safety | No health harm must be established | held_reported_officeholder_position | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
-| labelling | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG24Sep2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| species | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| donor_procurement | Slaughtered donor stated; cells taken from a living donor excluded, with a fish/locust exception; exact exception scope awaits qualified Arabic review | held_reported_officeholder_position | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| medium | Impurity exclusion stated | held_reported_officeholder_position | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| istihala | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| slaughter | Donor slaughter stated; fish/locust exception stated | held_reported_officeholder_position | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| safety | No health harm must be established | held_reported_officeholder_position | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
+| labelling | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | WAAG 24 Sep 2024 three article paragraphs; condition paragraph1; P1C3-EGY-S01 |
 
 Attribution limit: Named Shoman report with claimed Council concurrence; graduates’ organization is not the Council’s actual decision.
 
@@ -182,29 +182,29 @@ Media reproduction of alleged institutional fatwa; original instrument unlocated
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | Edible animal stated in reproduced answer | held_secondary_attribution | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| donor_procurement | Slaughtered donor and no live biopsy stated in reproduced answer | held_secondary_attribution | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| medium | No impure cultivation inputs stated in reproduced answer | held_secondary_attribution | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| istihala | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| slaughter | Donor slaughter stated in reproduced answer | held_secondary_attribution | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| safety | Immediate/future health harm excluded; food-safety requirements mentioned | held_secondary_attribution | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
-| labelling | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| species | Edible animal stated in reproduced answer | held_secondary_attribution | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| donor_procurement | Slaughtered donor and no live biopsy stated in reproduced answer | held_secondary_attribution | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| medium | No impure cultivation inputs stated in reproduced answer | held_secondary_attribution | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| istihala | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| slaughter | Donor slaughter stated in reproduced answer | held_secondary_attribution | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| safety | Immediate/future health harm excluded; food-safety requirements mentioned | held_secondary_attribution | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
+| labelling | Unknown: This condition was not established in the retained report; original ruling remains unlocated. | unknown_in_inspected_report | Veto 3 Sep 2023 conditions paragraphs/provider lines 68–99; Cairo24 same-day attribution; P1C3-EGY-S02, P1C3-EGY-S03 |
 
 Attribution limit: News reproduction, not an acquired Dar al-Ifta ruling; same alleged answer across outlets is one source family.
 
 ## Javed Ahmad Ghamidi — published author — GHAMIDI
 
-The Dietary Laws / The Dietary Shariah; Shehzad Saleem translation; February2002issue
+The Dietary Laws / The Dietary Shariah; Shehzad Saleem translation; February 2002 issue
 
 | Condition | Position | Status | Locator / source IDs |
 |---|---|---|---|
-| species | General framework combines innate discernment and revealed dietary prohibitions, including pork. | general_framework_only | Provider lines15–25; GHAMIDI |
-| donor_procurement | General essay treats flesh detached from a living animal as maytah. | general_framework_only | Provider lines34–39; priorG01; GHAMIDI |
-| medium | Unknown: No direct cultivated-cell medium position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; priorG01–G02; returned provider first part; GHAMIDI |
-| istihala | Unknown: No direct cultivated-cell istihala position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; priorG01–G02; returned provider first part; GHAMIDI |
-| slaughter | Essay explains tadhkiyah, with fish/locust and hunting distinctions in its wider dietary framework. | general_framework_only | Provider lines39–68; priorG02tasmiya passage separately checked; GHAMIDI |
-| safety | Unknown: No direct cultivated-cell safety position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; priorG01–G02; returned provider first part; GHAMIDI |
-| labelling | Unknown: No direct cultivated-cell labelling position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; priorG01–G02; returned provider first part; GHAMIDI |
+| species | General framework combines innate discernment and revealed dietary prohibitions, including pork. | general_framework_only | Provider lines 15–25; GHAMIDI |
+| donor_procurement | General essay treats flesh detached from a living animal as maytah. | general_framework_only | Provider lines 34–39; prior G01; GHAMIDI |
+| medium | Unknown: No direct cultivated-cell medium position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; prior G01–G02; returned provider first part; GHAMIDI |
+| istihala | Unknown: No direct cultivated-cell istihala position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; prior G01–G02; returned provider first part; GHAMIDI |
+| slaughter | Essay explains tadhkiyah, with fish/locust and hunting distinctions in its wider dietary framework. | general_framework_only | Provider lines 39–68; prior G02 tasmiya passage separately checked; GHAMIDI |
+| safety | Unknown: No direct cultivated-cell safety position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; prior G01–G02; returned provider first part; GHAMIDI |
+| labelling | Unknown: No direct cultivated-cell labelling position established from this published dietary essay. | unknown_in_inspected_scope | Named essay; prior G01–G02; returned provider first part; GHAMIDI |
 
 ## Evidence and retrieval boundaries
 

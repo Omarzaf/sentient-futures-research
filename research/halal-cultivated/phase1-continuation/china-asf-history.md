@@ -13,7 +13,7 @@ The release for 2019, published on 28 February 2020, reports changes of −21.3%
 
 ## Household series rebounded; permanence is unestablished
 
-ERS reproduces NBS household pork purchases of 22.8 kg per person in 2018, 20.3 in 2019, 18.2 in 2020 and 25.8 in 2021. Its Table 4 reports poultry rising 3.7 kg per person during 2018–2020, then falling 0.4 kg in 2020–2021. The series excludes meals away from home, and ERS flags possible survey or pandemic-related composition effects in 2021. These are kilograms of food, not protein. Table 4's printed reference to Figure 11 differs from the adjacent Figure 10; the original discrepancy is preserved. [Gale, Kee and Huang, ERR-326, pp. 22–23](https://ers.usda.gov/sites/default/files/_laserfiche/publications/107925/ERR-326.pdf).
+ERS reproduces NBS household pork purchases of 22.8 kg per person in 2018, 20.3 in 2019, 18.2 in 2020 and 25.8 in 2021. NBS's own 2021 figure is widely reported as 25.2 kg (its 2022 figure, 26.9 kg up 6.75%, implies 25.2), so the 2021 value needs checking against the NBS yearbook before reuse. Its Table 4 reports poultry rising 3.7 kg per person during 2018–2020, then falling 0.4 kg in 2020–2021. The series excludes meals away from home, and ERS flags possible survey or pandemic-related composition effects in 2021. These are kilograms of food, not protein. Table 4's printed reference to Figure 11 differs from the adjacent Figure 10; the original discrepancy is preserved. [Gale, Kee and Huang, ERR-326, pp. 22–23](https://ers.usda.gov/sites/default/files/_laserfiche/publications/107925/ERR-326.pdf).
 
 ## Mechanism and institutional response
 

@@ -9,11 +9,11 @@
 | [HP-03](#hp-03) Musk | Not established → Musk treated as pure in the inspected Dardir/Dasuqi list. | retained primary juristic purity example |
 | [HP-04](#hp-04) Jallala and feed quarantine | Filth/excrement-feeding animal; separate subcase of young animal fed pig milk. → Under Sistani’s stated criteria, excrement-feeding status removed through pure feed/istibra; not all pig-milk cases receive the same outcome. | hadith and named authority condition change |
 | [HP-05](#hp-05) Rennet and non-Muslim cheese | Animal rennet with disputed carcass/source status in cheese production. → Distinct doctrinal treatments; genetically engineered rennet expressly permitted in IIFA210. No observed replacement trajectory established. | contested ingredient doctrine and institutional resolution |
-| [HP-06](#hp-06) Gelatin and the1995IOMS seminar | Animal-derived gelatin input whose source and transformation status require assessment. → A proposed transformed/pure gelatin category remains conditional and contested in the inspected evidence; no universally accepted product outcome established. | later institutional reference and named authority counterevidence |
-| [HP-07](#hp-07) Ajinomoto Indonesia2001 | AJI-NO-MOTO seasoning production using a bacterial preservation-medium supply chain implicated in the company’s account. → Company-reported halal-management reforms and a contemporaneous reported mameno application/testing route; final certificate and exact product/process identity not obtained. | company retrospective with contemporary report lead and language held instrument |
+| [HP-06](#hp-06) Gelatin and the 1995 IOMS seminar | Animal-derived gelatin input whose source and transformation status require assessment. → A proposed transformed/pure gelatin category remains conditional and contested in the inspected evidence; no universally accepted product outcome established. | later institutional reference and named authority counterevidence |
+| [HP-07](#hp-07) Ajinomoto Indonesia 2001 | AJI-NO-MOTO seasoning production using a bacterial preservation-medium supply chain implicated in the company’s account. → Company-reported halal-management reforms and a contemporaneous reported mameno application/testing route; final certificate and exact product/process identity not obtained. | company retrospective with contemporary report lead and language held instrument |
 | [HP-08](#hp-08) Porcine insulin and vaccine ingredients | Pig-derived insulin; separately, porcine gelatin used in some vaccine discussions. → Different necessity/transformation arguments; no combined universal acceptance transition or product-specific outcome established. | necessity rule and secondary religious attribution |
-| [HP-09](#hp-09) Stunning and machine slaughter | Animals/birds proposed to be stunned before slaughter; mechanised slaughter is a separate process question. → Conditional treatment of stunning and mechanised poultry slaughter under IIFA95;2025 stunning deliberation remains postponed. No observed production transition established. | historical institutional process conditions and later postponement |
-| [HP-10](#hp-10) People of the Book: Quran5:5 | Not established → Food of those given Scripture permitted in the verse’s statement; reciprocal food permission. | scriptural baseline and historical institutional interpretation |
+| [HP-09](#hp-09) Stunning and machine slaughter | Animals/birds proposed to be stunned before slaughter; mechanised slaughter is a separate process question. → Conditional treatment of stunning and mechanised poultry slaughter under IIFA95; 2025 stunning deliberation remains postponed. No observed production transition established. | historical institutional process conditions and later postponement |
+| [HP-10](#hp-10) People of the Book: Quran 5:5 | Not established → Food of those given Scripture permitted in the verse’s statement; reciprocal food permission. | scriptural baseline and historical institutional interpretation |
 | [HP-11](#hp-11) Alcohol thresholds in flavourings | Wine-containing food versus a slight alcohol solvent used for otherwise insoluble components. → Distinct conditional treatments in an institutional text; no numeric flavouring threshold or observed reformulation transition established. | qualitative institutional condition with numeric gap |
 | [HP-12](#hp-12) Horse meat and shrimp across schools | Horse meat and shrimp as disputed food categories; no observed starting consumption baseline. → A named horse rule and differing aquatic categories; full shrimp and five-school horse comparison unresolved. | partial named authority comparison not completed five school survey |
 | [HP-13](#hp-13) Mecca 1511 coffee controversy | Coffee already consumed locally, according to modern analysis of a chronicle → Reported local prohibition; exact rescission instrument/date not established here | retain as contestation example primary instrument unread |
@@ -21,7 +21,7 @@
 | [HP-15](#hp-15) Plant-based milk and US fluid cow's milk | Observed market with conventional, organic, lactose-free and plant-based milks → Modeled equilibrium if every plant-based option is removed | bounded model counterfactual not observed historical transition |
 | [HP-16](#hp-16) India vanaspati and desi ghee | Milk-fat ghee and existing oils; no quantified baseline consumption established → Hydrogenated vegetable-fat industry under quality controls and contested resemblance to ghee | bounded industrial identity and control case no measured displacement |
 | [HP-17](#hp-17) Broiler expansion versus beef and mutton | Existing conventional poultry, beef and mutton sectors → Published poultry estimates rise; substitution away from red meat is not identified | capacity estimate case reject unidentified substitution claim |
-| [HP-18](#hp-18) China ASF and poultry comparison | Pork-centered conventional meat market;2018 already partly exposed → Pork output contracts while poultry expands; later pork household rebound | reuse independently checked bounded descriptive case |
+| [HP-18](#hp-18) China ASF and poultry comparison | Pork-centered conventional meat market; 2018 already partly exposed → Pork output contracts while poultry expands; later pork household rebound | reuse independently checked bounded descriptive case |
 | [HP-19](#hp-19) US 2014–15 avian influenza culls and egg-market recovery | Pre-outbreak table-egg capacity and wholesale prices → Reduced egg output and higher prices, followed by flock/production recovery | bounded supply shock and recovery case not alternative food adoption |
 | [HP-20](#hp-20) Qatar 2017 blockade and Baladna dairy expansion | Domestic dairy project designed January 2017; imported/local milk mix not quantified here → Company reports local milking, airlifted cows and expanded dairy facilities | participant capacity timeline national displacement unestablished |
 | [HP-21](#hp-21) Gulf food-security strategies: bounded UAE example | Prior policy baseline and food quantities not established by this source set → Adopted strategy description prioritizes diversified sourcing and technology-enabled domestic supply | policy design precedent excluded from outcome calibration |
@@ -44,7 +44,7 @@ Sources: [M-DAS28](https://www.islamweb.net/ar/library/content/13/28/فصل-بي
 
 Retain as a material-purity precedent, with ingestion and species scope held. It is not a measured food adoption case.
 
-Sahih Muslim366 a, Sunnah.com Arabic/English digital presentation; no exact report-event date/place or print edition verified.
+Sahih Muslim 366a, Sunnah.com Arabic/English digital presentation; no exact report-event date/place or print edition verified.
 
 Still unknown: School-specific hide/species exceptions and food-use rules. Historical date/place and observed uptake of tanning.
 
@@ -68,7 +68,7 @@ Sources: [M-DAS28](https://www.islamweb.net/ar/library/content/13/28/فصل-بي
 
 Retain as a conditional feeding-history precedent, not proof that a seven-day wait universally purifies animal material. Provider excerpts are available; the modern office text is one named authority.
 
-Abu Dawud 3785 plus current Sistani web rulings219/2649; source publication/edition dates unknown, accessed 2026-10-01.
+Abu Dawud 3785 plus current Sistani web rulings 219/2649; source publication/edition dates unknown, accessed 2026-10-01.
 
 Still unknown: Cross-school quarantine rules. Chemical/biological equivalence of animal feeding and cell culture. Observed compliance, market uptake and exact historical dates.
 
@@ -88,11 +88,11 @@ Sources: [H6](https://www.islamweb.net/amp/ar/library/content/29/123/index.php),
 
 ## HP-06
 
-**Gelatin and the1995IOMS seminar**
+**Gelatin and the 1995 IOMS seminar**
 
 Retain as an unresolved institutional/process debate. The 1995 original-instrument gap is real; the later quotation is useful but cannot be relabeled the original or a settled blanket permission.
 
-Original 1995 instrument absent;2015 IIFA text is directly attributable to IIFA. Sistani Q&A pages have no verified publication date.
+Original 1995 instrument absent; 2015 IIFA text is directly attributable to IIFA. Sistani Q&A pages have no verified publication date.
 
 Still unknown: Original signed/issued 1995 IOMS text, edition and complete gelatin conclusion. Process-specific biochemical and customary-identity evidence. Historical market response.
 
@@ -100,11 +100,11 @@ Sources: [IIFA210](https://iifa-aifi.org/en/33099.html), [J8](https://www.sistan
 
 ## HP-07
 
-**Ajinomoto Indonesia2001**
+**Ajinomoto Indonesia 2001**
 
-Retain as a concrete but incompletely documented institutional-response event. Do not turn a process-aid controversy into an unsupported claim that finished MSG contained pork, or turn a prospective news headline into granted certification. The complete company PDF is now obtained, with independent visual reading limited to printed20/PDF21.
+Retain as a concrete but incompletely documented institutional-response event. Do not turn a process-aid controversy into an unsupported claim that finished MSG contained pork, or turn a prospective news headline into granted certification. The complete company PDF is now obtained, with independent visual reading limited to printed p. 20 / PDF p. 21.
 
-2015 company retrospective printedp20,2024 timeline p031;1 February 2001 news lead;2003 group standard is a reported milestone, not recovery completion.
+2015 company retrospective printed p. 20, 2024 timeline p. 031; 1 February 2001 news lead; 2003 group standard is a reported milestone, not recovery completion.
 
 Still unknown: Complete eligible-language MUI instrument and named signatories/version. Original certificate withdrawal/restoration records. Independent supply-chain and final-product composition evidence. Sales/consumer response series with timing and controls.
 
@@ -128,7 +128,7 @@ Sources: [IIFA210](https://iifa-aifi.org/en/33099.html), [P1C6-REL-WHO2017](http
 
 Retain the 1997 conditional mechanisation/stunning instrument together with 2025 postponement. This supports a scoped institutional response to technical processes, not measured industrial adoption or a verified current consolidated rule.
 
-IIFA95 page date3 July 1997, session28 June–3 July; IIFA263 page20 November 2025, session4–8 May. Exact adoption days/current consolidation unknown.
+IIFA95 page date 3 July 1997, session 28 June–3 July; IIFA263 page 20 November 2025, session 4–8 May. Exact adoption days/current consolidation unknown.
 
 Still unknown: Complete authoritative technical specifications/translation. Whether later instruments amend or consolidate 1997 conditions, and national incorporation. Observed adoption dates/shares and exact process versions.
 
@@ -136,11 +136,11 @@ Sources: [P1C6-REL-IIFA263](https://iifa-aifi.org/en/56075.html), [P1C6-REL-IIFA
 
 ## HP-10
 
-**People of the Book: Quran5:5**
+**People of the Book: Quran 5:5**
 
 Retain as a scriptural baseline. Do not label it a measured liberalisation, universal modern slaughter certificate or a demonstrated expansion of demand. The 1997 institutional application narrows the interpretation with explicit conditions but still supplies no observed market transition.
 
-Quran5:5 Arabic with The Clear Quran translation. No exact revelation date/place or historical behavioural sequence verified. IIFA95 provides a dated institutional application at Jeddah,28 June–3 July 1997; this is not the verse’s revelation chronology.
+Quran 5:5 Arabic with The Clear Quran translation. No exact revelation date/place or historical behavioural sequence verified. IIFA95 provides a dated institutional application at Jeddah, 28 June–3 July 1997; this is not the verse’s revelation chronology.
 
 Still unknown: A historically documented before/after dietary episode. Complete school-specific interpretation and process exceptions. Revelation-event chronology if required for the historical argument.
 
@@ -212,7 +212,7 @@ Sources: [lee_sumner_2026_plant_based_milk_displacement](https://www.sciencedire
 
 The 1950 debate records opposition to making vegetable fat resemble ghee; the 1961 committee report records testing and quality-control machinery. Its 3.5/4.75 lakh-ton figures are forecasts and planned magnitudes, not observed replacement of ghee. The case supports a distinction between authorized product manufacture, honest substitution and adulteration. It supplies no reliable adoption speed, relative-price path or religious-acceptance outcome.
 
-India; 1950 parliamentary controversy;1960–61 committee report
+India; 1950 parliamentary controversy; 1960–61 committee report
 
 Still unknown: Original downloaded committee bytes unavailable; relevant p 29 is indexed primary text No before/after ghee consumption or relative-price series No realized market share, causal replacement or elasticity No issued religious decision established by these sources
 
@@ -234,11 +234,11 @@ Sources: [P1C6-EMP-E07](https://www.finance.gov.pk/survey/chapter_24/Economic_Su
 
 **China ASF and poultry comparison**
 
-The checked China dossier records preliminary pork output falling 54.04→42.55 million tons and poultry rising 19.94→22.39 in 2018–2019. At-home pork purchases later rebounded to 25.8 kg/person in 2021, alongside a poultry decline from 2020. These observations show a supply-shock response and reversal, not durable conversion. COVID, trade, rebuilding, geographic exclusions and a partly exposed 2018 baseline remain material. Elasticity and a causal substitution fraction stay null.
+The checked China dossier records preliminary pork output falling 54.04→42.55 million tons and poultry rising 19.94→22.39 in 2018–2019. At-home pork purchases later rebounded to 25.8 kg/person in 2021 (as transcribed from ERS; NBS's own figure is widely reported as 25.2 kg, so this needs a check), alongside a poultry decline from 2020. These observations show a supply-shock response and reversal, not durable conversion. COVID, trade, rebuilding, geographic exclusions and a partly exposed 2018 baseline remain material. Elasticity and a causal substitution fraction stay null.
 
-China excluding Hong Kong, Macao and Taiwan; August 2018 onset;2018–2019 production;2018–2021 household series
+China excluding Hong Kong, Macao and Taiwan; August 2018 onset; 2018–2019 production; 2018–2021 household series
 
-Still unknown: Original NBS yearbook householdtable and full survey design not independently retrieved. Hao full methods, coefficients and parallel-trend evidence remain unreviewed. Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed. No qualified human scholarly acceptance. ERS reproduces NBS household evidence and is not an independent household survey Do not divide poultry gains by pork losses and call it a causal replacement fraction
+Still unknown: Original NBS yearbook household table and full survey design not independently retrieved. Hao full methods, coefficients and parallel-trend evidence remain unreviewed. Ma 2021 full inverse-demand estimates and model assumptions not acquired; 2020 conference lead failed. No qualified human scholarly acceptance. ERS reproduces NBS household evidence and is not an independent household survey Do not divide poultry gains by pork losses and call it a causal replacement fraction
 
 Sources: [P1C3-CN-NBS18](https://www.stats.gov.cn/english/PressRelease/201902/t20190228_1651335.html), [P1C3-CN-NBS19](https://www.stats.gov.cn/english/PressRelease/202002/t20200228_1728917.html), [P1C3-CN-ERS326](https://ers.usda.gov/sites/default/files/_laserfiche/publications/107925/ERR-326.pdf). Locators and source-family boundaries: [structured cases](historical-cases.json), [source register](source-register.json).
 
@@ -248,7 +248,7 @@ Sources: [P1C3-CN-NBS18](https://www.stats.gov.cn/english/PressRelease/201902/t2
 
 ERS reports more than 50 million bird losses from disease/depopulation and a 10% decline in egg production during May–December 2015 relative to the prior year. New York benchmark egg prices rose 61% over the same comparison. Output returned to pre-outbreak levels in early 2016. The source distinguishes processing and consumer eggs and notes substitution difficulties. This is an incumbent supply/recovery episode, not measured adoption of egg alternatives; an elasticity cannot be calculated from those two percentages.
 
-United States; New York wholesale egg price benchmark; December 2014–June 2015 outbreak;2015 loss;early 2016 recovery
+United States; New York wholesale egg price benchmark; December 2014–June 2015 outbreak; 2015 loss; early 2016 recovery
 
 Still unknown: No identified elasticity; ratio of output decline to price increase would be invalid No measured alternative-protein uptake ERS articles share the same analysis/data family
 
@@ -258,9 +258,9 @@ Sources: [P1C6-EMP-E12](https://www.ers.usda.gov/amber-waves/2018/april/egg-pric
 
 **Qatar 2017 blockade and Baladna dairy expansion**
 
-Baladna's retrospective report dates the blockade to 5 June 2017 and its first milking to 11 July,36 days later; it records 4,000 cows arriving byOctober and phase 1 completion inDecember. Its project design began inJanuary, before the blockade. The 2017 announcement's 100 tonnes/day goal was a plan, not an observed national outcome. This is a company capacity timeline for the same cow's-milk category. National dairy displacement and self-sufficiency remain unverified. Subsequent official indexed series provide national leads, but the editions report different 2019 dairy shares; they remain held pending original-page and revision checks.
+Baladna's retrospective report dates the blockade to 5 June 2017 and its first milking to 11 July, 36 days later; it records 4,000 cows arriving by October and phase 1 completion in December. Its project design began in January, before the blockade. The 2017 announcement's 100 tonnes/day goal was a plan, not an observed national outcome. This is a company capacity timeline for the same cow's-milk category. National dairy displacement and self-sufficiency remain unverified. Subsequent official indexed series provide national leads, but the editions report different 2019 dairy shares; they remain held pending original-page and revision checks.
 
-Qatar; Baladna company operations; 5 June 2017 blockade;July–December 2017 startup;2018 expansion;2019–2020 herd series
+Qatar; Baladna company operations; 5 June 2017 blockade; July–December 2017 startup; 2018 expansion; 2019–2020 herd series
 
 Still unknown: Official national series located as indexed edition-specific leads; original pages and revision/denominator reconciliation remain unavailable. No independently checked national self-sufficiency denominator Fresh milk is narrower than all dairy No price elasticity, consumer substitution or causal share
 
@@ -272,9 +272,9 @@ National-series leads remain held: the 2020 statistical abstract indexes 2019 mi
 
 **Gulf food-security strategies: bounded UAE example**
 
-The UAE's 2018 strategy defines 18 food types,38 initiatives and a goal of 3–5 sources per main food category. It combines domestic technology with diversified imports, partnerships and waste reduction. Those numbers describe policy design, not realized production or adoption. The 2051 horizon is a target date, not observed transition speed. This bounded UAE example does not stand in for every Gulf strategy or establish any cultivated-meat approval.
+The UAE's 2018 strategy defines 18 food types, 38 initiatives and a goal of 3–5 sources per main food category. It combines domestic technology with diversified imports, partnerships and waste reduction. Those numbers describe policy design, not realized production or adoption. The 2051 horizon is a target date, not observed transition speed. This bounded UAE example does not stand in for every Gulf strategy or establish any cultivated-meat approval.
 
-United Arab Emirates; Qatarcase 20 used only as a separate comparator; Strategy launched November 2018;2021 agenda and 2051 horizon;page updated 2024
+United Arab Emirates; Qatar case 20 used only as a separate comparator; Strategy launched November 2018; 2021 agenda and 2051 horizon; page updated 2024
 
 Still unknown: No ex-post quantities, prices, protein outputs or causal evaluation retrieved No primary six-country GCC strategy comparison No novel-product approval or religious certification implied Direct page open returned no text; indexed official passages retained
 

@@ -94,6 +94,7 @@
     "away_from_home_included": false,
     "protein_mass": false,
     "covid_comparability_caveat": true,
+    "value_2021_discrepancy": "NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg; its 2022 figure (26.9 kg, up 6.75%) implies 25.2. ERS value 25.8 retained as transcribed pending a check of ERR-326 Table 4 against the NBS yearbook.",
     "source_table_note_discrepancy": "Table4 saysFigure11; neighboringFigure10 supplies the national series. Originalyearbooktable not independently retrieved."
   },
   "drivers": [

@@ -52,9 +52,9 @@ Primary company timeline and partial original-paper extract establish a relevant
 
 **National market value:** not established. **Industry chicken-cost effect:** not established. Null is unmeasured in the bounded inspected evidence, not zero market size or evidence of no economic effect.
 
-Saudi-affiliated Abbas et al. report a 360-bird finisher experiment replacing 0–50% of soybean meal; 30% replacement corresponds to 90 g BSFL meal/kg as-fed diet in Table 3. [R7-FEED-S07](https://www.pvj.com.pk/pdf-files/26-058.pdf). Saudi affiliations and ethics approval do not independently prove trial-site address. Finisher22–35days; Indian full-fat supplier meal, substrate unknown. No monetary outcome in inspected passage.
+Saudi-affiliated Abbas et al. report a 360-bird finisher experiment replacing 0–50% of soybean meal; 30% replacement corresponds to 90 g BSFL meal/kg as-fed diet in Table 3. [R7-FEED-S07](https://www.pvj.com.pk/pdf-files/26-058.pdf). Saudi affiliations and ethics approval do not independently prove trial-site address. Finisher 22–35 days; Indian full-fat supplier meal, substrate unknown. No monetary outcome in inspected passage.
 
-PHYLA’s timeline labels 2024 pilot work,2025 pre-commercial entry, and2026 industrial facilities as a future launch; its protein powder targets poultry, aquaculture and pet feed. [R7-FEED-S08](https://www.phyla.sa/). The same page’s advertised Pro scale is a design claim, not audited annual output or national market size.
+PHYLA’s timeline labels 2024 pilot work, 2025 pre-commercial entry, and 2026 industrial facilities as a future launch; its protein powder targets poultry, aquaculture and pet feed. [R7-FEED-S08](https://www.phyla.sa/). The same page’s advertised Pro scale is a design claim, not audited annual output or national market size.
 
 Cost interpretation: No measured monetary feed/chicken cost effect in inspected country-associated evidence. Company intent and biological trial abstract; industry cost-saving hypothesis remains unquantified.
 
@@ -88,9 +88,9 @@ Input species, purity, substrate, live/dead state, processing, mixture and event
 
 Garden live-worm question; no inspected industrial insect-meal ruling. Quoted mixed-feed/changed-flesh distinction; original cited edition unverified. No product-specific determination.
 
-The mirrored Askimam answer tells the questioner there is no need to feed live worms because chickens hunt them themselves. Its supporting quotation distinguishes mixed feeding from jallala with altered flesh. The answer does not give an industrial insect-meal approval. [R7-F-ASK125569](https://islamqa.org/hanafi/askimam/125569/live-worms-is-manure-impure/). Original issuer page, Deoband6945 and cited print edition remain unacquired. Attribution is to this answer, not all Hanafi authorities.
+The mirrored Askimam answer tells the questioner there is no need to feed live worms because chickens hunt them themselves. Its supporting quotation distinguishes mixed feeding from jallala with altered flesh. The answer does not give an industrial insect-meal approval. [R7-F-ASK125569](https://islamqa.org/hanafi/askimam/125569/live-worms-is-manure-impure/). Original issuer page, Deoband 6945 and cited print edition remain unacquired. Attribution is to this answer, not all Hanafi authorities.
 
-Reopen when: Retrieve issuer answer/Deoband6945 and exact Tuhfat al-fuqaha3:65, then assess a defined formulation.
+Reopen when: Retrieve issuer answer/Deoband 6945 and exact Tuhfat al-fuqaha 3:65, then assess a defined formulation.
 
 ### Maliki
 
@@ -108,7 +108,7 @@ Jordan’s General Iftaa Department distinguishes live worms/insects, dead insec
 
 The indexed al-Majmu discussion contrasts a feed-majority criterion with a smell/taint criterion. It therefore cannot be reduced to a universal percentage of insect inclusion. [R7-F-MAJMU-JALLALA](https://www.islamweb.net/ar/library/content/14/5286/حيوان-البحر-يحل-منه-السمك). Exact print edition and complete passage require checking. The passage addresses impurity and animal status, not a tested industrial insect-feed formulation.
 
-Reopen when: Qualified Arabic review of fatwa4015 and cited Fath al-qarib58/Tuhfat al-muhtaj9:386 against a defined meal.
+Reopen when: Qualified Arabic review of fatwa 4015 and cited Fath al-qarib 58/Tuhfat al-muhtaj 9:386 against a defined meal.
 
 ### Hanbali
 

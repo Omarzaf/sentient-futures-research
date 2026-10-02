@@ -626,7 +626,7 @@
     "locator": "Printedpp 22–23,Fig 10 andTable 4; PDFpp 28–29",
     "status": "independently_checked",
     "human_review": "pending",
-    "limits": "At-home household series, excluding away-from-home consumption; foodmass notproteinmass. Rebound is not evidence of permanent substitution. COVID measurement/composition and source cross-reference caveat retained; no new numerical demand elasticity.",
+    "limits": "At-home household series, excluding away-from-home consumption; foodmass notproteinmass. Rebound is not evidence of permanent substitution. COVID measurement/composition and source cross-reference caveat retained; no new numerical demand elasticity. Unresolved discrepancy: NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg, and its 2022 figure (26.9 kg, up 6.75%) implies 25.2. Check ERS ERR-326 Table 4 against the NBS yearbook before reusing 25.8 or describing ERS as reproducing NBS.",
     "review_id": "R3-CHINA"
   },
   {
@@ -1334,7 +1334,7 @@
     "status": "independently_checked",
     "human_review": "pending",
     "review_id": "R6-EMPIRICAL-HISTORY",
-    "evidence_level": "bounded_bounded_official_historical_availability_case",
+    "evidence_level": "bounded_official_historical_availability_case",
     "requirement_id": "HISTORY-14"
   },
   {
@@ -1349,7 +1349,7 @@
     "status": "independently_checked",
     "human_review": "pending",
     "review_id": "R6-EMPIRICAL-HISTORY",
-    "evidence_level": "bounded_bounded_model_counterfactual_not_observed_historical_transition",
+    "evidence_level": "bounded_model_counterfactual_not_observed_historical_transition",
     "requirement_id": "HISTORY-15"
   },
   {
@@ -1365,7 +1365,7 @@
     "status": "independently_checked",
     "human_review": "pending",
     "review_id": "R6-EMPIRICAL-HISTORY",
-    "evidence_level": "bounded_bounded_industrial_identity_and_control_case_no_measured_displacement",
+    "evidence_level": "bounded_industrial_identity_and_control_case_no_measured_displacement",
     "requirement_id": "HISTORY-16"
   },
   {
@@ -1395,7 +1395,7 @@
       "P1C3-CN-ERS326"
     ],
     "locator": "Agriculture paragraph, total output of pork; note1;28 February2019; Agriculture paragraph, total output of pork; note1;28 February2020; November2023; printed pp22–23,36; Figure10 and Table4; prior visual check PDFp29",
-    "limits": "Original NBS yearbook householdtable and full survey design not independently retrieved. Hao full methods, coefficients and parallel-trend evidence remain unreviewed. Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed. No qualified human scholarly acceptance. ERS reproduces NBS household evidence and is not an independent household survey Do not divide poultry gains by pork losses and call it a causal replacement fraction",
+    "limits": "Original NBS yearbook householdtable and full survey design not independently retrieved. Hao full methods, coefficients and parallel-trend evidence remain unreviewed. Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed. No qualified human scholarly acceptance. ERS reproduces NBS household evidence and is not an independent household survey Do not divide poultry gains by pork losses and call it a causal replacement fraction. Unresolved discrepancy: NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg, and its 2022 figure (26.9 kg, up 6.75%) implies 25.2. Check ERS ERR-326 Table 4 against the NBS yearbook before reusing 25.8 or describing ERS as reproducing NBS.",
     "status": "independently_checked",
     "human_review": "pending",
     "review_id": "R6-EMPIRICAL-HISTORY",
@@ -1415,7 +1415,7 @@
     "status": "independently_checked",
     "human_review": "pending",
     "review_id": "R6-EMPIRICAL-HISTORY",
-    "evidence_level": "bounded_bounded_supply_shock_and_recovery_case_not_alternative_food_adoption",
+    "evidence_level": "bounded_supply_shock_and_recovery_case_not_alternative_food_adoption",
     "requirement_id": "HISTORY-19"
   },
   {

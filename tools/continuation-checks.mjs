@@ -30,7 +30,12 @@ export function checkContinuation(files) {
   check(claim.source_ids?.length>0&&claim.source_ids.every(id=>sourceIds.has(id)),'unresolved claim source: '+claim.id);
   check(!!claim.assertion&&!!claim.locator&&!!claim.limits,'claim scope missing: '+claim.id);
   check(claim.human_review==='pending','unsupported human claim approval: '+claim.id);
-  check(claim.status==='independently_checked'&&reviews.some(r=>r.id===claim.review_id&&r.claim_ids?.includes(claim.id)),'missing independent claim review: '+claim.id);
+  // AGENTIC-PLAN statuses. 'independently_checked' means a second agent read of the same retrieved source, not independent retrieval or human review.
+ const reviewed=reviews.some(r=>r.id===claim.review_id&&r.claim_ids?.includes(claim.id));
+ check(['independently_checked','inference','open','disputed'].includes(claim.status),'unsupported claim status: '+claim.id);
+ check(claim.status!=='independently_checked'||reviewed,'missing independent claim review: '+claim.id);
+ check(claim.review_id===undefined||reviewed,'claim review link does not resolve: '+claim.id);
+ check(claim.status!=='inference'||(typeof claim.premise==='string'&&claim.premise.length>0&&typeof claim.confirmation_test==='string'&&claim.confirmation_test.length>0),'inference without premise or confirmation test: '+claim.id);
  }
  for(const review of reviews)check(review.claim_ids?.every(id=>claimIds.has(id))&&!!review.method&&!!review.scope&&review.human_review===false,'invalid review scope: '+review.id);
  const expected=['IND','PAK','SAU','ARE','SGP','MYS','IDN','QAT','KWT','BHR','OMN','IRN','IRQ','YEM','EGY','CHN'];
