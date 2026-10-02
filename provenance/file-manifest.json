@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7855,
-      "sha256": "4c1025b24b3a356c85e23843ef1a95d1dd67796c9dcc941cab32350f606ef212"
+      "bytes": 8006,
+      "sha256": "70956b4c04bb8277b5b8b453aa72177d326c655d5bb096bd96b0137aa5712b09"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -325,6 +325,101 @@
       "path": "index.html",
       "bytes": 10675,
       "sha256": "2316c12a1fdc5e012166f78ff09d1159e67c6fb43ba28d3e0a81f09d145a115c"
+    },
+    {
+      "path": "presentations/halal-mmm/FIGURE-MAP.md",
+      "bytes": 4406,
+      "sha256": "ab566265158f51c572cc661989b5c5745dd2d4f21dabc472d7301b0195ca5beb"
+    },
+    {
+      "path": "presentations/halal-mmm/QA.md",
+      "bytes": 9993,
+      "sha256": "902b1c09ad231d979f841dce03e61a24c651d862a47d2fdee82bab561dafd4b4"
+    },
+    {
+      "path": "presentations/halal-mmm/README.md",
+      "bytes": 5265,
+      "sha256": "781a114e59ccfae789fb7cfaa77af95d264ada90604e229d6924abd69456cab3"
+    },
+    {
+      "path": "presentations/halal-mmm/assets/mmm.css",
+      "bytes": 27964,
+      "sha256": "fa76f1d7aadfea71a6788cb8bbf050a314e12d58be840569902ecf13b08f60b5"
+    },
+    {
+      "path": "presentations/halal-mmm/assets/mmm.js",
+      "bytes": 6393,
+      "sha256": "edd80f9758b8df7628a41b1115441ff38768870300637a2222b867f01a1705c2"
+    },
+    {
+      "path": "presentations/halal-mmm/build-record.json",
+      "bytes": 1468,
+      "sha256": "305205a7410ac29a3ee981fa53afb50f4fc486e4b4b79304bdf9a2a469ebc952"
+    },
+    {
+      "path": "presentations/halal-mmm/build/browser-qa.mjs",
+      "bytes": 16403,
+      "sha256": "1e9c58d7131ddecdb55d9a13dda0644cd9746e44a227c5bcfa0f3c4d6022fb80"
+    },
+    {
+      "path": "presentations/halal-mmm/build/build.mjs",
+      "bytes": 22396,
+      "sha256": "ca630b2f61801c69453159c69dd6456d266eccf7361dd6054126da54b639bd32"
+    },
+    {
+      "path": "presentations/halal-mmm/build/check.mjs",
+      "bytes": 10322,
+      "sha256": "e0dd9717fd8bfe564ef573c7a77c9f7a1ab896064c91d3fc01c60691d8c9a885"
+    },
+    {
+      "path": "presentations/halal-mmm/build/editorial.mjs",
+      "bytes": 13537,
+      "sha256": "1bbc84624e9ee88170d8a79e323cfecec23c50d7fa93b0b36b92a37b28203ec7"
+    },
+    {
+      "path": "presentations/halal-mmm/build/figures.mjs",
+      "bytes": 22524,
+      "sha256": "559329596529e33806f5c0e15f775426dae510a9a2bdb9812f99eb5a0cee7b60"
+    },
+    {
+      "path": "presentations/halal-mmm/build/markdown.mjs",
+      "bytes": 4635,
+      "sha256": "562687405a054cd321d79ba077304e2cb05c2c9e9d3525545185a201d8a532c1"
+    },
+    {
+      "path": "presentations/halal-mmm/index.html",
+      "bytes": 494388,
+      "sha256": "d8377f4a1b100f4c0edf055968c370c20b9021a8bdc8138509bd55292af38629"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/desktop-1280-web-fonts.png",
+      "bytes": 138012,
+      "sha256": "b9835815f305257c8f85783f8ab3b1134ff2126260e27c9444c2e6ce05a88940"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/desktop-1440-dark.png",
+      "bytes": 139239,
+      "sha256": "5e66c01da1a4572ad0afd7c36ea145e47babd971fef0d8fdbc76aea62cb468a1"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/desktop-1440-light.png",
+      "bytes": 139409,
+      "sha256": "ab3f75ed959b5608d76035aeda541c150e0d6342a825726a658df055c34eee93"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/phone-390-contents.png",
+      "bytes": 46436,
+      "sha256": "3d339691854dea990a1e1a0e00abf42fb5276cc6b88756ff939df9e2117d7970"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/phone-390-figure-2.png",
+      "bytes": 81411,
+      "sha256": "d90dce921039ec35d072700a855ddcf828459043f72dd8f0b3ea1e9ae09f0b2f"
+    },
+    {
+      "path": "presentations/halal-mmm/qa/phone-390-light.png",
+      "bytes": 75623,
+      "sha256": "32649c0d41aa99cd68470f3933e40240f5c8d9f560e40798b10006be9f8e71fb"
     },
     {
       "path": "provenance/import-records.json",

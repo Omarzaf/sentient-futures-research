@@ -1,0 +1,42 @@
+{
+  "generator": "presentations/halal-mmm/build/build.mjs",
+  "inputs": {
+    "presentations/halal-mmm/assets/mmm.css": "fa76f1d7aadfea71a6788cb8bbf050a314e12d58be840569902ecf13b08f60b5",
+    "presentations/halal-mmm/assets/mmm.js": "edd80f9758b8df7628a41b1115441ff38768870300637a2222b867f01a1705c2",
+    "research/halal-cultivated/paper/paper.md": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598",
+    "research/halal-cultivated/paper/appendices-data.json": "6498e84624cf31c6a73a78700180160e5b80212bf9315f4308c19c5af17fcb60",
+    "research/halal-cultivated/paper/source-register.json": "63940857c300f39112dfc526fb9f87b699ff0b2050c1d468b02d5b22f64caadb",
+    "research/halal-cultivated/paper/figure-data.json": "8f1d037611e7fb4562cd1026b6abd77459834a6c5ee98889e9fc2715900d8c5c",
+    "handoffs/claude-mmm/CONTENT-CONTRACT.json": "4e9a847930f4ffa395eb3e81fca370a85fcc6b07c607937e8f830661e008ea4d"
+  },
+  "output": {
+    "presentations/halal-mmm/index.html": "d8377f4a1b100f4c0edf055968c370c20b9021a8bdc8138509bd55292af38629"
+  },
+  "notes": 177,
+  "referenceOccurrences": 251,
+  "figures": {
+    "original": [
+      "fig-1",
+      "fig-3",
+      "fig-2"
+    ],
+    "edition": [
+      "fig-r1",
+      "fig-r2",
+      "fig-r3"
+    ]
+  },
+  "fig2Cells": {
+    "admitted": 16,
+    "held": 2,
+    "missing": 24
+  },
+  "slots": {
+    "attributed": 17,
+    "inference": 8,
+    "none": 19,
+    "open": 1
+  },
+  "humanReview": "pending",
+  "published": false
+}
