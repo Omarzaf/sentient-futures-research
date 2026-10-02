@@ -50,10 +50,10 @@ function add(record,occurrence) {
  addOccurrence(g,occurrence);
 }
 let originalRecords=0;
-for(const [collection,p] of [['India\u2013Pakistan current review','research/india-pakistan/source-register.json'],['Halal conditionality discovery pass','research/halal-cultivated/source-register.json'],['Halal Phase One public-source review','research/halal-cultivated/phase1/source-register.json'],['Halal Phase One continuation','research/halal-cultivated/phase1-continuation/source-register.json'],['Comparative protein synthesis','research/comparative-protein/source-register.json'],['AI/protein literature foundation','research/ai-protein/source-register.json']]) {
+for(const [collection,p] of [['India\u2013Pakistan current review','research/india-pakistan/source-register.json'],['Halal conditionality discovery pass','research/halal-cultivated/source-register.json'],['Halal Phase One public-source review','research/halal-cultivated/phase1/source-register.json'],['Halal Phase One continuation','research/halal-cultivated/phase1-continuation/source-register.json'],['Halal paper preparation; audit state retained','research/halal-cultivated/paper/source-register.json'],['Comparative protein synthesis','research/comparative-protein/source-register.json'],['AI/protein literature foundation','research/ai-protein/source-register.json']]) {
  for(const r of JSON.parse(read(p))) {
   originalRecords++;
-  add(r,{collection,sourceId:r.id,recordPath:p,accessed:r.accessed||null,access:r.access||r.status||null,limitations:r.limitations||r.limits||null,funding:r.funding||null,humanVerification:r.human_verification||'Pending'});
+  add(r,{collection,sourceId:r.id,recordPath:p,accessed:r.accessed||null,access:r.audit_verdict||r.access||r.status||null,limitations:r.limitations||r.limits||null,funding:r.funding||null,humanVerification:r.human_verification||'Pending'});
  }
 }
 for(const r of JSON.parse(read('research/orientation/sources.json')).sources) {

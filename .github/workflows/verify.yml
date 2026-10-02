@@ -21,6 +21,10 @@ jobs:
         run: node tools/test-halal-checks.mjs
       - name: Check Phase One evidence and privacy rules against fixtures
         run: node tools/test-phase1-checks.mjs
+      - name: Check paper citation and trace rules against fixtures
+        run: node tools/test-paper-checks.mjs
+      - name: Check citation capture integrity without network
+        run: node tools/test-fetch-citations.mjs
       - name: Check survey data package against fixtures
         run: node tools/test-survey-checks.mjs
       - name: Check privacy detector fixtures

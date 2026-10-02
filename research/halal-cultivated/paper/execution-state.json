@@ -1,0 +1,34 @@
+{
+  "stage": 0,
+  "status": "scaffold_complete",
+  "outlineApproved": false,
+  "humanReview": false,
+  "mentorApproved": false,
+  "sourcePlanCommit": "36042dde08de130bab2d84fb3d7330e5ea71514a",
+  "startingCommit": "a3cc999707c5a67eb51ee1b008c197b5a6785a82",
+  "decisions": {
+    "D1": {
+      "value": "outside_body",
+      "status": "default_pending_outline_approval",
+      "note": "Continuation has driver, elasticity and feed records; exclusion is a scope choice, not absence of records."
+    },
+    "D2": {
+      "value": "held",
+      "status": "default"
+    },
+    "D3": {
+      "value": "incubator_working_paper_10000_to_13000_body_words_chicago",
+      "status": "default_pending_outline_approval"
+    },
+    "D4": {
+      "value": "excluded",
+      "status": "default"
+    },
+    "D5": {
+      "value": null,
+      "status": "pending"
+    }
+  },
+  "manuscriptDrafted": false,
+  "published": false
+}
