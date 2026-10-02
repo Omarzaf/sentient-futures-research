@@ -1,6 +1,6 @@
 {
-  "stage": 1,
-  "status": "consolidated",
+  "stage": 2,
+  "status": "original_sources_audited_gap_closure_in_progress",
   "outlineApproved": false,
   "humanReview": false,
   "mentorApproved": false,
@@ -33,13 +33,21 @@
   "published": false,
   "completedStages": [
     0,
-    1
+    1,
+    2
   ],
   "stage0Commit": "47e478c",
   "remoteAction": {
-    "status": "automatic_review_rejected",
+    "status": "user_requested_local_only",
     "push": false,
     "draftPullRequest": false,
-    "reason": "Explicit current-session authorization for remote mutation requested; local work continues."
-  }
+    "reason": "User selected Keep working locally on 2 October 2026. The plan draft-PR step is deferred."
+  },
+  "auditCounts": {
+    "verified_with_note": 46,
+    "held": 19,
+    "not_retrieved": 6
+  },
+  "originalSources": 76,
+  "canonicalSources": 71
 }

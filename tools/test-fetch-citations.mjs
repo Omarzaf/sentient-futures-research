@@ -211,6 +211,15 @@ test('A blocked HTTP 200 JavaScript shell does not become retrieved evidence', (
   assert.equal(receipt.sha256, sha(Buffer.from(body)));
 });
 
+test('A publisher client challenge remains blocked despite HTTP 200 and long text', () => {
+  const body = `<html><body><h1>Client Challenge</h1><p>${fixtureText}</p></body></html>`;
+  const fixture = runFixture([source()], {routes: {'https://sources.example.org/A': fixtureBody(body, 'text/html')}});
+  const [receipt] = successfulRun(fixture);
+  assert.equal(receipt.http_status, 200);
+  assert.equal(receipt.capture_status, 'not_retrieved');
+  assert.equal(receipt.sha256, sha(Buffer.from(body)));
+});
+
 test('Unsafe redirect destinations are rejected before the next request', () => {
   const fixture = runFixture([source()], {routes: {'https://sources.example.org/A': {
     status: 302, headers: {location: 'http://127.0.0.1/source'}, body_base64: null,

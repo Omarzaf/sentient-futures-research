@@ -4,6 +4,8 @@ AI-assisted working draft; human verification pending.
 
 This folder executes the [writing plan](../PAPER-PLAN.md). Start with the [execution state](execution-state.json), [review log](review-log.md) and [outline](outline.md). The [manuscript](paper.md) is a scaffold. Author approval of the completed outline is required before drafting.
 
+The [2 October citation audit](AUDIT-REPORT-2026-10-02.md) records an outcome for all 76 original source IDs: 46 canonical records verified with qualifications, 19 held and six not retrieved. Gap-closure research is in progress. Work remains local at the author's request.
+
 The original [Phase One edition](../phase1/README.md) stays unchanged. Its source records are inputs, not freshly verified citations. Only paper audit verdicts `verified` and `verified_with_note` permit citation. The October continuation remains separately scoped; its historical agent checks do not transfer automatically.
 
 The planned reader aids are a production-chain diagram, a country-by-layer evidence table and an audit chart whose counts come from the registers. They will show documented conditions and gaps, without invented probabilities or market forecasts.

@@ -179,10 +179,16 @@ const consolidated={...fixture,'paper.md':scaffold['paper.md'], 'execution-state
 assert.deepEqual(check(consolidated).failures,[],'stage one permits complete mapped registers without a manuscript');
 const undated={...fixture};
 alter(undated,'source-register.json',rows=>{rows[0].source_type='classical Arabic text';rows[0].audit_verdict='verified_with_note';rows[0].bibliographic.year=null;rows[0].bibliographic.publisher=null;});
-alter(undated,'citation-audit.json',rows=>{rows[0].verdict='verified_with_note';rows[0].notes='Edition and publication year are not established on the host; author, work, volume and page are displayed.';});
+alter(undated,'citation-audit.json',rows=>{rows[0].verdict='verified_with_note';rows[0].notes='Edition and publication year are not established on the host; author, work, volume and page are displayed.';rows[0].identity.date=false;rows[0].date_status='undated';rows[0].date_note='No edition or publication date is stated in the captured transcription.';});
 assert.deepEqual(check(undated).failures,[],'an explicitly qualified unknown edition must remain unknown');
+const unexplainedDate={...undated};
+alter(unexplainedDate,'citation-audit.json',rows=>{delete rows[0].date_note;});
+assert(check(unexplainedDate).failures.some(message=>message.includes('verified audit lacks identity')),'an undated record requires an explicit checked reason');
+const contradictoryDate={...undated};
+alter(contradictoryDate,'source-register.json',rows=>{rows[0].bibliographic.year=2026;});
+assert(check(contradictoryDate).failures.some(message=>message.includes('verified audit lacks identity')),'an undated audit cannot carry an invented publication year');
 assert.deepEqual(checkPaper({...scaffold,'execution-state.json':json({stage:1,status:'consolidation',outlineApproved:false,humanReview:false})},{phaseOneFiles:phase}).failures.filter(message=>message.includes('missing coverage')).length,coverage.length,'stage one requires complete original coverage');
 assert(checkPaper({...scaffold,'execution-state.json':json({stage:2})},{phaseOneFiles:{...phase,'claims.json':'broken'}}).failures.some(message=>message.includes('missing or invalid claims.json')),'malformed Phase One input must fail closed');
 assert(checkPaper(scaffold,{stage:5}).failures.some(message=>message.includes('stage override disagrees')),'a caller cannot silently override recorded stage');
 assert(valid.warnings.length>=Object.keys({Abstract:1,1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1}).length,'rule 13 checks every section, including absent sections');
-console.log(JSON.stringify({status:'PASS',validFixtureChecks:valid.checks,negativeFixtures:cases.length,wordCountWarningFixture:true,failed:0}));
+console.log(JSON.stringify({status:'PASS',validFixtureChecks:valid.checks,negativeFixtures:cases.length+2,undatedDateFixtures:2,wordCountWarningFixture:true,failed:0}));

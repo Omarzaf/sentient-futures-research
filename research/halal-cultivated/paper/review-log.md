@@ -50,3 +50,15 @@ Worked: exact original-record comparison caught possible loss independently of t
 Did not: the dated paper plan did not describe the latest continuation or active numerical contract.
 Rule proposal: bind each new manuscript plan to its evidence edition and active method version.
 ```
+
+## Stage 2 original-source audit
+
+The author chose “Keep working locally” in response to the push/draft-PR question. Those remote actions are deferred. The explicitly requested public-source research continues; a Crossref approval-review rejection was resolved by supplying the original objective and exact plan scope. No private data or Git changes were sent.
+
+The [audit report](AUDIT-REPORT-2026-10-02.md) records 71 canonical outcomes covering all 76 original IDs: 46 verified with qualifications, 19 held, six not retrieved. There are 138 original claim/source rechecks; thirteen continuation rechecks are preserved separately. Integration verified 71 original capture hashes, 49 citable passages, fifteen work-level second-library references and all 42 frozen inputs. All 225 original coverage snapshots remain present.
+
+The checker now accepts a genuinely undated source only with `verified_with_note`, an explicit date explanation and a null publication year. Two negative fixtures prevent absent reasons and contradictory years. A captured publisher challenge exposed one additional retrieval-shell pattern; the helper now rejects it and its offline fixture passes. Manual source reading remains necessary.
+
+Verification passed: library build and 17,722 checks, the six standalone fixture suites, including the bridge and continuation checks they invoke. Paper checker: 75 negative fixtures. Capture helper: sixteen cases with no real network attempts. A mistyped test filename failed without modifying files; the correct capture suite was then run. The manuscript remains a scaffold, and no outline approval or scholarly approval has been inferred.
+
+Moderator: PASS for the local audit checkpoint, with uncitable sources and compound-claim limits carried forward. Retrospective: separate retrieval, quotation, bibliography and support checks worked; HTTP success and matching source identities were insufficient. Keep the four decisions distinct at subsequent intake. No global rule was changed.

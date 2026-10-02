@@ -190,7 +190,8 @@ export function checkPaper(files,{phaseOneFiles={},stage:stageOverride}={}) {
    check(Number.isInteger(audit.http_status)&&audit.http_status>=200&&audit.http_status<300&&/^https?:\/\//.test(audit.final_url||'')&&nonempty(audit.content_type)&&nonempty(audit.retrieved_at)&&Number.isFinite(Date.parse(audit.retrieved_at)),'verified audit lacks successful retrieval metadata: '+audit.key);
    check(nonempty(audit.host_type)&&nonempty(audit.family)&&/^[a-f0-9]{64}$/i.test(audit.sha256??audit.capture_sha256??''),'verified audit lacks host, family or capture hash: '+audit.key);
    check(audit.quote_found===true&&audit.locator_found===true&&audit.bibliographic_complete===true,'verified audit lacks passage, locator or bibliography: '+audit.key);
-   check(object(audit.identity)&&['title','issuer','date'].every(field=>audit.identity[field]===true),'verified audit lacks identity check: '+audit.key);
+   const checkedUndated=audit.verdict==='verified_with_note'&&audit.identity?.date===false&&audit.date_status==='undated'&&nonempty(audit.date_note)&&byKey.get(key)?.bibliographic?.year===null;
+   check(object(audit.identity)&&['title','issuer'].every(field=>audit.identity[field]===true)&&(audit.identity.date===true||checkedUndated),'verified audit lacks identity check: '+audit.key);
    check(nonempty(audit.quote_expected)&&passages.some(passage=>normalizeQuote(passage.text).includes(normalizeQuote(audit.quote_expected))),'verified quote absent from stored passages: '+audit.key);
    const source=byKey.get(key);
    if(source){

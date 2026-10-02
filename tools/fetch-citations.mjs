@@ -81,7 +81,7 @@ async function capture(row){
    catch{receipt.extraction_error='Unsupported or invalid text encoding: '+encoding;}
   }
   if(plain){save(key+'.txt',plain);receipt.text_sha256=sha(plain);receipt.text_characters=plain.length;}
-  const blocked=/access denied|request blocked|verify you are human|enable javascript|just a moment|captcha/i.test(plain.slice(0,1600));
+  const blocked=/access denied|request blocked|verify you are human|enable javascript|client challenge|just a moment|captcha/i.test(plain.slice(0,1600));
   receipt.capture_status=response.ok&&bytes.length&&plain.length>120&&!blocked?'retrieved_candidate':'not_retrieved';
   receipt.note='Candidate means bytes and extractable text only. Identity, locator, exact passage, context and bibliography require a separate review.';
  }catch(error){receipt.error={name:error.name,message:error.message,cause:error.cause?.code||null};}
