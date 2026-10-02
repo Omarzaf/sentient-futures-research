@@ -8,6 +8,7 @@ All existing CSV bytes and Phase One evidence remain preserved. The old `scenari
 | --- | --- | --- |
 | `p_US` as cultivated sales value / meat sales value | `basis = value_share_two_component`, then mass conversion | Inclusive denominator, same-market component prices, currency/year, weight basis, dimensions and conditioning |
 | `p_US` as observed/forecast volume share | `basis = mass_share` | Compatible finished-product numerator and denominator, actual source type and allowed transfer |
+| 2 October proposal: mixed cultivated sales / average conventional retail price / US meat consumption | Held; no automatic v2 adapter and no established upper bound | Separate human-food chicken sales, compatible product/channel prices and finished-product mass, reviewed conversions, reference-market denominator and baseline conditioning; see [plan 4.5](../PLAN.md#45-active-bridge-v2) |
 | `acceptance_source = local_survey` | No migration to penetration | New independently validated purchase calibration; survey attitudes retained as contextual evidence |
 | Legacy `H_rel`, `L`, `cert_route` | Separate dimension-specific assessments | Institution, exact product/process/territory/segment, conditions, instrument and dates |
 | `L_includes_halal = true` | No bypass field | Separate evidence for each dimension; an instrument may support several records with precise locators |

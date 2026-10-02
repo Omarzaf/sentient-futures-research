@@ -2,6 +2,18 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — integration repair and forecast-method reconciliation
+
+**Scope:** Reconcile the October continuation and demand-forecast reply on a local branch. The earlier entries below are historical records of their respective checks; their initial gate readings are corrected in the current synthesis, table and claim annotations.
+
+**Forecast reply retained:** The workstream agreed to request 2026, 2030 and 2035, gives separate cultivated and fermentation answers, and uses no meat denominator. Its reported cultivated scope includes retail and foodservice, multiple species, full-value hybrids and pet food. The versioned input and compatible human-food chicken component remain missing. No unpublished questionnaire or respondent output is reproduced here.
+
+**Method resolution:** Quantitative bridge v2 remains active. The proposed OECD-FAO/average-retail-price conversion is recorded as held: it does not establish cultivated finished-product mass, remove pet food/seafood, align channels or support an upper bound. No price or baseline value, category extension or numerical result was added. Unknown gates and feasible quantities remain null, and marginal input quantile ratios are not output quantiles. The reply replaces the earlier unanswered-request entry without restoring the superseded v1 calculation rules.
+
+**Evidence repair:** The retained product examples are not a census; unofficial halal-sales estimates are not halal-requiring demand shares; reported positions do not establish universal agreement; donor/medium failure explanations and Saudi whole-market scope remain unresolved where the instruments or process match are missing. Evidence labels are carried through to the displayed gate readings. Full Phase One scope and human review remain pending.
+
+**Validation:** Applicability and process-profile guards are strengthened, with regression cases for the failures reproduced in the repository update review. The final integration is checked with the full library suite and deterministic rebuild; source truth and scholarly acceptance remain separate.
+
 ## 2 October 2026 — leads checked against originals
 
 **Done:** Read the originals behind the 2 October leads where a document index held them; the environment's network policy still blocked direct fetches. Ten claims now carry status `confirmed_original` under review R8-ORIGINALS, including five new P1C9 claims. Corrections: the Taqi Usmani report traces to Bloomberg (2022), not The National; the Uttar Pradesh order excluded meat; GOOD Meat's release names its "chicken cell line and production process", and the Axios quotation was not found. The American Fiqh Academy and Wifaq ul Ulama pages are one source family. The American Halal Foundation's two pages disagree, so that claim is `disputed`. One site was rejected as unreliable. The registers hold 187 sources and 156 claims.

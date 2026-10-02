@@ -3771,7 +3771,7 @@
     "language": "English",
     "document_type": "government_submission_to_codex",
     "locator": "Agenda item 12, UAE passage on cell-based food",
-    "source_family": "UAE MoIAT submission to Codex",
+    "source_family": "UAE government submission to Codex",
     "limits": "Text retrieved through the Bigdata.com index (direct fetch blocked by the environment network policy); read against the claim on 2 October 2026. The standard UAE.S 5048:2021 itself was not read.",
     "accessed": "2026-10-02",
     "sha256": null,
@@ -3928,5 +3928,28 @@
     "status": "passage_read_via_index",
     "human_verification": "Pending",
     "published": "2025-05-09"
+  },
+  {
+    "id": "SG-LIST",
+    "title": "SFA List of Approved Novel Foods",
+    "url": "https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf",
+    "locator": "PDF pp4,10,23; entries2,6,15",
+    "short_exact_quote": "A food safe growth medium, without animal-derived components.",
+    "source_family": "SFA",
+    "language": "English",
+    "source_date": "2026-08-14",
+    "accessed": "2026-09-30",
+    "status": "blind_agent_checked",
+    "limits": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
+    "verification_id": "V-COUNTRY-HISTORY",
+    "document_type": "official_approved_novel_food_list",
+    "sha256": null,
+    "human_verification": "Pending",
+    "carried_from": {
+      "path": "../phase1/source-register.json",
+      "source_id": "SG-LIST",
+      "record_sha256": "0a85056b710ff9da92c12ef262666c736501aa6d9ddfdb11af3ecceabca55a3e",
+      "retrieval_status": "retained_2026_09_30_record_not_retrieved_again"
+    }
   }
 ]

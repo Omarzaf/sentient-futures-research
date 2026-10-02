@@ -2,123 +2,167 @@
   "as_of": "2026-10-02",
   "status": "draft_for_mentor_review",
   "human_review": "pending",
-  "scope": "Four focal countries. Readings describe the current evidence; they are not scenario gate values and must not be passed to the quantitative bridge without the bridge's own scenario labelling.",
+  "scope": "Four focal countries, bounded by the retained evidence inspected through 2 October 2026. Readings are attributed evidence assessments, not national legal determinations, scholarly rulings, certificates or quantitative scenario gate values.",
   "reading_definitions": {
-    "supported_conditional": "Retained positions accept this profile if every stated condition is met.",
-    "disputed": "Retained authorities with standing in this country disagree.",
-    "leans_closed": "The only retained position for this country rejects the profile, from a weak source.",
-    "conditions_not_met": "The documented process fails at least one condition of the retained positions.",
-    "unresolved": "No retained position classifies this founder-cell type.",
-    "no_institutional_text_located": "No ruling from a relevant institution in this country was located.",
-    "general_route_no_cultivated_scheme": "A general halal certification system exists; no scheme for cell-cultured products was found.",
-    "contested_domestic_route": "Halal certification is private and politically contested for domestic sale.",
-    "route_exists_no_approval": "A food-authorization route covering cell culture exists; no approval was found.",
-    "application_pending": "A named application is under process.",
+    "supported_conditional": "The named actor’s retained account describes a conditional path for this reference profile, subject to every stated condition. No national adoption, matched product approval or certificate follows.",
+    "disputed": "Applicable retained texts establish differing positions within the explicitly named scope; this label alone would not establish a formal institutional dispute.",
+    "leans_closed": "A checked applicable position supports an adverse reading within its named scope; an unconfirmed lead cannot supply this label.",
+    "conditions_not_met": "Checked applicable evidence identifies an unmet condition for the exact matched process version; an unmatched historical report cannot supply this label.",
+    "unresolved": "The inspected evidence does not establish an applicable classification for the named authority and matched process, or retained formulations remain unreconciled.",
+    "no_institutional_text_located": "No applicable institutional text was located in this bounded retained packet through 2 October 2026; this is not an exhaustive absence finding.",
+    "general_route_no_cultivated_scheme": "The named official account describes a general halal certification system. No cultivated-specific scheme is established by this packet; full operative scope remains unverified.",
+    "contested_domestic_route": "Applicable evidence would establish the specified domestic certification route and dispute; export rules or news context alone are insufficient.",
+    "route_exists_no_approval": "The retained government account describes a food-authorization route covering cell-based food. No product approval is established in this packet; the complete operative standard remains unread.",
+    "application_pending": "The retained register places a named application under process, but its mixed stage code leaves the actual decision unresolved.",
     "route_announced_status_unknown": "A route has been announced; whether it operates is unknown.",
-    "no_route_identified": "No authorization route for cultivated meat was identified.",
-    "whole_market_gate": "Halal status conditions sale across the market.",
-    "segment_gate": "Halal status conditions sale only to a segment of buyers.",
-    "unverified": "Not established."
+    "no_route_identified": "No applicable cultivated-food authorization route was identified in this bounded packet through 2 October 2026; generic procedures and unlocated instruments remain open.",
+    "whole_market_gate": "Applicable operative evidence would establish halal status as a condition across the defined market, including relevant channel and product scope.",
+    "segment_gate": "Applicable legal and demand evidence would establish a defined subset of purchases contingent on halal status; a supply share alone is insufficient.",
+    "unverified": "The inspected evidence does not establish this reading or scope."
   },
   "reading_labels": {
-    "supported_conditional": "Accepted if conditions met",
+    "supported_conditional": "Named conditional account",
     "disputed": "Disputed",
     "leans_closed": "Leans against",
     "conditions_not_met": "Conditions not met",
     "unresolved": "Unresolved",
-    "no_institutional_text_located": "No ruling found",
-    "general_route_no_cultivated_scheme": "General system, no cultivated scheme",
+    "no_institutional_text_located": "No text located in packet",
+    "general_route_no_cultivated_scheme": "General system described; cultivated scope open",
     "contested_domestic_route": "Private and contested",
-    "route_exists_no_approval": "Route exists, no approval",
-    "application_pending": "Application pending",
+    "route_exists_no_approval": "Route described; no approval established",
+    "application_pending": "Under-process record; decision unresolved",
     "route_announced_status_unknown": "Announced, status unknown",
-    "no_route_identified": "No route found",
+    "no_route_identified": "No route located in packet",
     "whole_market_gate": "Whole market",
     "segment_gate": "Segment only",
     "unverified": "Not established"
   },
   "confidence_definitions": {
-    "low": "Rests on secondary or snippet-level sources, or on inference alone.",
-    "medium": "Rests on at least one checked source plus consistent leads.",
-    "high": "Rests on checked primary sources with no contrary evidence. Not used yet."
+    "low": "Evidence is unresolved, incomplete, contextual or inferential; no positive or adverse determination follows.",
+    "medium": "At least one checked applicable source supports the narrowly attributed reading. This does not establish complete legal coverage, scholarly acceptance or product certification.",
+    "high": "Would require checked applicable direct evidence for every asserted actor and substantive reading; not used here."
   },
   "process_profiles": [
     {
       "id": "P1",
       "label": "Embryo-derived fibroblast line, serum medium",
       "founder_cells": "Chicken fibroblast line from 10-day embryos (DF-1 lineage)",
-      "medium": "Contains fetal bovine serum",
-      "documented_in": "GOOD Meat FDA consultation CCC000001 (2023); Singapore approval (2020)",
-      "real_product": true
+      "medium": "Fetal bovine serum documented in the retained FDA-reviewed process",
+      "documented_in": "GOOD Meat FDA consultation CCC000001 (2023); no process-version equivalence to Singapore approval asserted",
+      "real_product": true,
+      "source_ids": [
+        "P1C3-PROCESS-S01",
+        "P1C3-PROCESS-S03"
+      ],
+      "locator": "Company dossier cell-line and culture-media sections; FDA memo manufacturing/process description",
+      "founder_route": "embryo_fibroblast",
+      "medium_status": "serum_present"
     },
     {
       "id": "P2",
-      "label": "Embryo-derived line, serum-free medium",
-      "founder_cells": "As P1",
-      "medium": "Serum-free; full formula not public",
-      "documented_in": "GOOD Meat Singapore serum-free approval (January 2023)",
-      "real_product": true
+      "label": "Later GOOD Meat serum-free version; founder match unresolved",
+      "founder_cells": "Founder lineage and cell-bank match to the FDA-reviewed version are unestablished in the retained Singapore announcement",
+      "medium": "Serum-free approval reported; exact formulation and historical cell-bank inputs unresolved",
+      "documented_in": "GOOD Meat Singapore serum-free announcement (January 2023), corroborated by Singapore government speech; not matched to CCC000001",
+      "real_product": true,
+      "source_ids": [
+        "P1C3-PROCESS-S06",
+        "P1C3-PROCESS-S07"
+      ],
+      "locator": "Manufacturer serum-free approval announcement; government speech paragraph 21",
+      "founder_route": "unresolved_version_match",
+      "medium_status": "serum_free_formula_unresolved"
     },
     {
       "id": "P3",
       "label": "Embryonic stem cells, animal-component-free medium",
-      "founder_cells": "Chicken embryonic stem cells",
-      "medium": "Described as free of animal components",
-      "documented_in": "Vital Meat, Singapore list (2025), from the 30 September register",
-      "real_product": true
+      "founder_cells": "Chicken embryonic stem cells in the retained SFA-listed Vital Meat process",
+      "medium": "Reported food-safe medium without animal-derived components; no inference about unlisted historical stages",
+      "documented_in": "Vital Meat 2025 entry in the SFA list retained with the 30 September register; not a product certificate",
+      "real_product": true,
+      "source_ids": [
+        "SG-LIST"
+      ],
+      "locator": "SFA approved novel foods list dated 14 August 2026, PDF page 23, entry 15; carried from prior register",
+      "founder_route": "embryonic_stem",
+      "medium_status": "animal_component_free_reported"
     },
     {
       "id": "P4",
-      "label": "Slaughtered-donor cells, animal-free medium",
-      "founder_cells": "Cells taken from a bird slaughtered by Islamic rules",
-      "medium": "Every input permitted",
-      "documented_in": "Reference case; no product documented",
-      "real_product": false
+      "label": "Slaughtered-donor cells, permitted-input reference",
+      "founder_cells": "Cells from a permissible bird slaughtered according to the named authority’s requirements",
+      "medium": "Hypothetical permitted inputs; all additional stated conditions must also be met",
+      "documented_in": "Reference case in IIFA 265 and the reported GOOD Meat adviser conditions; no matching product established in this packet",
+      "real_product": false,
+      "source_ids": [
+        "IIFA265",
+        "P1C5-INST-GOODMEAT"
+      ],
+      "locator": "IIFA 265 Third(1); GOOD Meat 11 September 2023 four-condition account",
+      "founder_route": "slaughtered_donor",
+      "medium_status": "permitted_inputs_hypothetical"
     },
     {
       "id": "P5",
-      "label": "Live-biopsy adult cells, animal-free medium",
+      "label": "Live-biopsy adult cells, permitted-input reference",
       "founder_cells": "Biopsy from a living adult bird",
-      "medium": "Every input permitted",
-      "documented_in": "Reference case; the living-donor route in IIFA 265",
-      "real_product": false
+      "medium": "Hypothetical permitted inputs; all additional stated conditions must also be met",
+      "documented_in": "Reference case from IIFA 265 living-donor alternative; no national adoption or matching product established",
+      "real_product": false,
+      "source_ids": [
+        "IIFA265"
+      ],
+      "locator": "IIFA 265 Third(1), living-donor alternative",
+      "founder_route": "live_adult_biopsy",
+      "medium_status": "permitted_inputs_hypothetical"
     },
     {
       "id": "P6",
-      "label": "Feather-derived induced pluripotent cells, animal-free medium",
-      "founder_cells": "Reprogrammed cells from chicken feathers",
-      "medium": "Every input permitted",
-      "documented_in": "Reference case; American Fiqh Academy Resolution 7",
-      "real_product": false
+      "label": "Feather-derived induced pluripotent cells, permitted-input reference",
+      "founder_cells": "Reprogrammed chicken feather cells as a reference route",
+      "medium": "Hypothetical permitted inputs; all additional stated conditions must also be met",
+      "documented_in": "Reference case in American Fiqh Academy Resolution 7; no focal-country adoption or matching product established",
+      "real_product": false,
+      "source_ids": [
+        "P1C8-S07"
+      ],
+      "locator": "American Fiqh Academy Resolution 7, permissible sources discussion",
+      "founder_route": "feather_induced_pluripotent",
+      "medium_status": "permitted_inputs_hypothetical"
     }
   ],
   "countries": [
     {
       "id": "SAU",
       "name": "Saudi Arabia",
-      "summary": "The legal route exists and has halal built in, but no cultivated product is approved. The religious answer turns on donor procurement: Saudi scholars advising GOOD Meat require a slaughtered donor, while IIFA, whose seminar the SFDA co-organised, keeps a living-donor route.",
+      "summary": "The Saudi legal instrument identity and current cultivated-food scope remain unresolved. The manufacturer/counsel account reports a conditional path from named Saudi advisers, not state adoption. IIFA retains a living-donor alternative, but its international text and SFDA seminar participation do not establish a Saudi national ruling.",
       "religious": [
         {
           "profile": "P1",
-          "reading": "conditions_not_met",
-          "confidence": "medium",
+          "reading": "unresolved",
+          "confidence": "low",
           "basis_claim_ids": [
-            "P1C5-INST-C01",
             "P1C5-INST-C02",
-            "P1C8-I02",
-            "P1C8-C13"
+            "P1C8-I02"
           ],
-          "decisive_next": "A certificate or adviser statement for a later GOOD Meat line"
+          "decisive_next": "An adviser or company statement naming the assessed line, process version and failed condition",
+          "authority_ids": [
+            "GOOD-MEAT-ADVISERS"
+          ],
+          "note": "Historical company noncompliance report; exact failed condition and match to P1 are unestablished."
         },
         {
           "profile": "P2",
           "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-I01",
-            "P1C5-INST-C01"
+            "P1C8-I01"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "Confirm the serum-free version’s founder lineage, cell-bank history and full process, then obtain a named authority’s classification",
+          "authority_ids": [
+            "GOOD-MEAT-ADVISERS"
+          ],
+          "note": "A matched founder-line and full-process classification remains needed."
         },
         {
           "profile": "P3",
@@ -127,7 +171,11 @@
           "basis_claim_ids": [
             "P1C8-I01"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells",
+          "authority_ids": [
+            "GOOD-MEAT-ADVISERS"
+          ],
+          "note": "A matched founder-line and full-process classification remains needed."
         },
         {
           "profile": "P4",
@@ -135,162 +183,194 @@
           "confidence": "medium",
           "basis_claim_ids": [
             "P1C5-INST-C01",
-            "P1C5-INST-C03",
             "P1C8-I03"
           ],
-          "decisive_next": "A Saudi Halal Center or SFDA statement applying these conditions to a product"
+          "decisive_next": "A Saudi Halal Center or SFDA statement applying these conditions to a product",
+          "authority_ids": [
+            "GOOD-MEAT-ADVISERS"
+          ],
+          "note": "Manufacturer/counsel report of a commissioned adviser engagement, subject to all conditions; no signed original opinion, national adoption or certificate."
         },
         {
           "profile": "P5",
-          "reading": "disputed",
-          "confidence": "medium",
+          "reading": "unresolved",
+          "confidence": "low",
           "basis_claim_ids": [
-            "P1C5-INST-C03",
-            "P1C5-INST-C01",
-            "P1C8-C01",
-            "P1C8-C02"
+            "P1C5-INST-C03"
           ],
-          "decisive_next": "The Jeddah seminar recommendations and the Arabic text of IIFA 265, Third (1), read side by side"
+          "decisive_next": "The Jeddah seminar recommendations and the Arabic text of IIFA 265, Third (1), read side by side",
+          "authority_ids": [
+            "GOOD-MEAT-ADVISERS",
+            "IIFA"
+          ],
+          "note": "The retained accounts differ in procurement wording and scope; this is not a formal Saudi institutional dispute or national decision."
         },
         {
           "profile": "P6",
           "reading": "no_institutional_text_located",
           "confidence": "low",
-          "basis_claim_ids": [
-            "P1C8-C08"
-          ],
-          "decisive_next": "Any Saudi or IIFA statement on reprogrammed cells"
+          "basis_claim_ids": [],
+          "decisive_next": "Any Saudi or IIFA statement on reprogrammed cells",
+          "authority_ids": [],
+          "note": "No applicable Saudi text located in this packet. The American resolution does not establish Saudi adoption."
         }
       ],
       "certification": {
-        "reading": "general_route_no_cultivated_scheme",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C8-C14",
-          "P1C5-STD-C03",
           "P1C8-I05"
         ],
         "decisive_next": "A Saudi Halal Center scheme or certificate for a cell-cultured product",
-        "note": "Halal requirements for animal-origin food run through GSO 2055-1 and GSO 993.",
+        "note": "Secondary and earlier-edition context does not establish current operative coverage or a cultivated-specific certification route.",
         "prior_edition_refs": [
           "SA-NOVEL",
           "SA-2025"
+        ],
+        "authority_ids": [
+          "SFDA"
         ]
       },
       "food_authorization": {
-        "reading": "route_exists_no_approval",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C8-C14",
           "P1C8-I05"
         ],
         "decisive_next": "The current Arabic SFDA novel-food regulation with its number reconciled (FD 5013 versus 5031 and 513)",
-        "note": "The novel-food regulation covers animal cell culture; no approval found.",
+        "note": "A route is suggested by retained earlier and secondary accounts, but instrument identity, version and current scope require reconciliation. No approval is established in this packet.",
         "prior_edition_refs": [
           "SA-NOVEL",
           "SA-GUIDE",
           "SA-2025"
+        ],
+        "authority_ids": [
+          "SFDA"
         ]
       },
       "segment": {
-        "reading": "whole_market_gate",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C8-I05"
         ],
-        "decisive_next": "Confirmation that no channel permits non-halal animal-origin novel food",
-        "note": "Religious and legal gates are coupled."
+        "decisive_next": "Current operative Saudi instruments establishing product, territorial and channel coverage, including exceptions",
+        "note": "Whole-market coverage, product scope, exceptions and channels are unverified.",
+        "authority_ids": [
+          "SFDA"
+        ]
       }
     },
     {
       "id": "ARE",
       "name": "United Arab Emirates",
-      "summary": "The weakest focal country on religious evidence. A slaughtered-donor position by the UAE Council for Fatwa is reported only by a tertiary source and was not confirmed. On the legal side, the UAE told Codex that cell-based food falls under the federal novel-food standard UAE.S 5048:2021, which requires pre-market evaluation; no application or approval was found, and Abu Dhabi's single-window framework was still a proposal in January 2026.",
+      "summary": "The UAE Council for Fatwa position remains an unconfirmed tertiary report. A UAE government submission to Codex describes a cell-based-food route under UAE.S 5048:2021; the standard itself is unread and no product approval is established in this packet. The announced Abu Dhabi framework was described as a proposal by a law firm in January 2026; its later status is unknown.",
       "religious": [
         {
           "profile": "P1",
-          "reading": "conditions_not_met",
+          "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-C11",
-            "P1C8-I02",
-            "P1C5-INST-C03"
+            "P1C8-C11"
           ],
-          "decisive_next": "The UAE Council for Fatwa instrument itself"
+          "decisive_next": "The UAE Council for Fatwa instrument itself",
+          "authority_ids": [
+            "UAE-COUNCIL-FATWA"
+          ],
+          "note": "The original instrument, date, complete conditions and matched-profile applicability remain unestablished."
         },
         {
           "profile": "P2",
           "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-I01",
             "P1C8-C11"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "Confirm the serum-free version’s founder lineage, cell-bank history and full process, then obtain a named authority’s classification",
+          "authority_ids": [
+            "UAE-COUNCIL-FATWA"
+          ],
+          "note": "The original instrument, date, complete conditions and matched-profile applicability remain unestablished."
         },
         {
           "profile": "P3",
           "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-I01"
+            "P1C8-C11"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells",
+          "authority_ids": [
+            "UAE-COUNCIL-FATWA"
+          ],
+          "note": "The original instrument, date, complete conditions and matched-profile applicability remain unestablished."
         },
         {
           "profile": "P4",
-          "reading": "supported_conditional",
-          "confidence": "low",
-          "basis_claim_ids": [
-            "P1C8-C11",
-            "P1C8-I03"
-          ],
-          "decisive_next": "The UAE Council for Fatwa instrument, number and date"
-        },
-        {
-          "profile": "P5",
-          "reading": "leans_closed",
+          "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
             "P1C8-C11"
           ],
-          "decisive_next": "The UAE Council for Fatwa instrument, number and date"
+          "decisive_next": "The UAE Council for Fatwa instrument, number and date",
+          "authority_ids": [
+            "UAE-COUNCIL-FATWA"
+          ],
+          "note": "The original instrument, date, complete conditions and matched-profile applicability remain unestablished."
+        },
+        {
+          "profile": "P5",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C11"
+          ],
+          "decisive_next": "The UAE Council for Fatwa instrument, number and date",
+          "authority_ids": [
+            "UAE-COUNCIL-FATWA"
+          ],
+          "note": "The original instrument, date, complete conditions and matched-profile applicability remain unestablished."
         },
         {
           "profile": "P6",
           "reading": "no_institutional_text_located",
           "confidence": "low",
-          "basis_claim_ids": [
-            "P1C8-C08"
-          ],
-          "decisive_next": "Any UAE statement on reprogrammed cells"
+          "basis_claim_ids": [],
+          "decisive_next": "Any UAE statement on reprogrammed cells",
+          "authority_ids": [],
+          "note": "No applicable UAE text located in this packet."
         }
       ],
       "certification": {
         "reading": "general_route_no_cultivated_scheme",
         "confidence": "medium",
         "basis_claim_ids": [
-          "P1C5-STD-C06",
-          "P1C8-C17"
+          "P1C5-STD-C06"
         ],
         "decisive_next": "MoIAT or ADAFSA rules for certifying a cell-cultured product",
-        "note": "MoIAT runs a halal certificate system through registered bodies; the Abu Dhabi framework would fold halal certification into one window.",
+        "note": "Official administrative account of a general system; complete decree, exclusions, exact standards edition and cultivated-product route remain unestablished.",
         "prior_edition_refs": [
           "AE-HALAL"
+        ],
+        "authority_ids": [
+          "MOIAT"
         ]
       },
       "food_authorization": {
         "reading": "route_exists_no_approval",
         "confidence": "medium",
         "basis_claim_ids": [
-          "P1C9-C01",
-          "P1C9-C02",
-          "P1C8-C17"
+          "P1C9-C01"
         ],
         "decisive_next": "The text of UAE.S 5048:2021 and any cell-based application under it",
-        "note": "Federal route: UAE.S 5048:2021, General Requirements for Novel Foods, per the UAE's Codex submission. Abu Dhabi's single-window framework, announced October 2025, was still a proposal in January 2026.",
+        "note": "Attributed government account of UAE.S 5048:2021 and pre-market evaluation. Full operative text is unread; no product decision is established.",
         "prior_edition_refs": [
           "AE-2025"
+        ],
+        "authority_ids": [
+          "UAE-CODEX-DELEGATION"
         ]
       },
       "segment": {
@@ -298,84 +378,113 @@
         "confidence": "low",
         "basis_claim_ids": [],
         "decisive_next": "Federal and emirate rules on sale of non-halal meat and who buys halal-certified meat",
-        "note": "Licensed non-halal retail exists; segment size unknown."
+        "note": "Neither the operative scope of non-halal channels nor buyer dependence is established in this packet.",
+        "authority_ids": []
       }
     },
     {
       "id": "PAK",
       "name": "Pakistan",
-      "summary": "No food-authorization route for cultivated meat was identified. A slaughtered-donor position attributed to scholars led by Mufti Muhammad Taqi Usmani traces to a 2022 Bloomberg report; the ruling itself was not located. A Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.",
+      "summary": "No applicable cultivated-food authorization route was located in this bounded packet. Punjab provides generic provincial registration guidance. The reported Taqi Usmani-led position lacks its original ruling, and the Banuri Town Urdu answer remains held for qualified language review. These do not establish profile acceptance or rejection.",
       "religious": [
         {
           "profile": "P1",
-          "reading": "conditions_not_met",
+          "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
             "P1C8-C04",
-            "P1C8-C05",
-            "P1C8-I02"
+            "P1C8-C05"
           ],
-          "decisive_next": "The original Taqi Usmani-led ruling and a translated Banuri Town answer"
+          "decisive_next": "The original Taqi Usmani-led ruling and a translated Banuri Town answer",
+          "authority_ids": [
+            "MUFTI-TAQI-USMANI-REPORTED-PANEL",
+            "BANURI-TOWN"
+          ],
+          "note": "Reported or language-held context; no checked applicable classification for this profile."
         },
         {
           "profile": "P2",
           "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-I01",
-            "P1C8-C04"
+            "P1C8-C04",
+            "P1C8-C05"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "Confirm the serum-free version’s founder lineage, cell-bank history and full process, then obtain a named authority’s classification",
+          "authority_ids": [
+            "MUFTI-TAQI-USMANI-REPORTED-PANEL",
+            "BANURI-TOWN"
+          ],
+          "note": "Reported or language-held context; no checked applicable classification for this profile."
         },
         {
           "profile": "P3",
           "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
-            "P1C8-I01"
+            "P1C8-C04",
+            "P1C8-C05"
           ],
-          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells",
+          "authority_ids": [
+            "MUFTI-TAQI-USMANI-REPORTED-PANEL",
+            "BANURI-TOWN"
+          ],
+          "note": "Reported or language-held context; no checked applicable classification for this profile."
         },
         {
           "profile": "P4",
-          "reading": "supported_conditional",
+          "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
             "P1C8-C04",
-            "P1C8-I03"
+            "P1C8-C05"
           ],
-          "decisive_next": "The original Taqi Usmani-led ruling, with date and signatories"
+          "decisive_next": "The original Taqi Usmani-led ruling, with date and signatories",
+          "authority_ids": [
+            "MUFTI-TAQI-USMANI-REPORTED-PANEL",
+            "BANURI-TOWN"
+          ],
+          "note": "Reported or language-held context; no checked applicable classification for this profile."
         },
         {
           "profile": "P5",
-          "reading": "leans_closed",
+          "reading": "unresolved",
           "confidence": "low",
           "basis_claim_ids": [
             "P1C8-C04",
-            "P1C8-C06"
+            "P1C8-C05"
           ],
-          "decisive_next": "The original ruling and Council of Islamic Ideology records"
+          "decisive_next": "The original ruling and Council of Islamic Ideology records",
+          "authority_ids": [
+            "MUFTI-TAQI-USMANI-REPORTED-PANEL",
+            "BANURI-TOWN"
+          ],
+          "note": "Reported or language-held context; no checked applicable classification for this profile."
         },
         {
           "profile": "P6",
           "reading": "no_institutional_text_located",
           "confidence": "low",
-          "basis_claim_ids": [
-            "P1C8-C08"
-          ],
-          "decisive_next": "Any Pakistani statement on reprogrammed cells"
+          "basis_claim_ids": [],
+          "decisive_next": "Any Pakistani statement on reprogrammed cells",
+          "authority_ids": [],
+          "note": "No applicable Pakistani text located in this packet."
         }
       ],
       "certification": {
-        "reading": "general_route_no_cultivated_scheme",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C5-STD-C02"
         ],
         "decisive_next": "Pakistan Halal Authority rules for a cell-cultured product",
-        "note": "PS 3733 adopts OIC/SMIIC 1; the Pakistan Halal Authority accredits certifiers.",
+        "note": "The national standards catalogue identifies PS 3733 and related certification-body standards; full modified clauses and the cultivated-product route remain unestablished.",
         "prior_edition_refs": [
           "PK2016"
+        ],
+        "authority_ids": [
+          "PSQCA"
         ]
       },
       "food_authorization": {
@@ -385,75 +494,93 @@
           "P1C-C06"
         ],
         "decisive_next": "Federal or provincial novel-food provisions, or a cultivated-meat application",
-        "note": "Punjab's generic registration procedure is the nearest documented route."
+        "note": "Generic Punjab guidance is provincial and is not a cultivated-food decision or proof that no other route exists.",
+        "authority_ids": [
+          "PUNJAB-FOOD-AUTHORITY"
+        ]
       },
       "segment": {
         "reading": "unverified",
         "confidence": "low",
         "basis_claim_ids": [],
         "decisive_next": "A legal basis for treating halal status as a condition of meat sale",
-        "note": "Likely whole-market in practice, but the legal basis was not established."
+        "note": "The legal coverage and extent of halal-dependent demand remain unestablished.",
+        "authority_ids": []
       }
     },
     {
       "id": "IND",
       "name": "India",
-      "summary": "The only focal country with a named cultivated-chicken application, still under process at FSSAI, though approval of novel ingredients needs a Food Authority that had not been reconstituted as of January 2026. No Indian Islamic institution's ruling was located. Non-halal chicken is legal, so the religious gate is legally a segment; traders estimate that about 90% of meat sold is halal, so in practice it may cover most of the market.",
+      "summary": "The inspected packet contains a named FSSAI cultivated-chicken application in the September 2026 Under Process register, with a mixed stage code that leaves the decision unresolved. A January 2026 report describes a Food Authority lapse; later status is unknown. No applicable Indian institutional ruling was located in this packet. Export instruments and a trade estimate about all meat sold do not establish domestic legal coverage or halal-dependent chicken demand.",
       "religious": [
         {
           "profile": "P1",
           "reading": "no_institutional_text_located",
           "confidence": "low",
           "basis_claim_ids": [],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         },
         {
           "profile": "P2",
           "reading": "no_institutional_text_located",
           "confidence": "low",
           "basis_claim_ids": [],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         },
         {
           "profile": "P3",
           "reading": "no_institutional_text_located",
           "confidence": "low",
           "basis_claim_ids": [],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         },
         {
           "profile": "P4",
           "reading": "no_institutional_text_located",
           "confidence": "low",
-          "basis_claim_ids": [
-            "P1C8-I03"
-          ],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         },
         {
           "profile": "P5",
           "reading": "no_institutional_text_located",
           "confidence": "low",
           "basis_claim_ids": [],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         },
         {
           "profile": "P6",
           "reading": "no_institutional_text_located",
           "confidence": "low",
           "basis_claim_ids": [],
-          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive",
+          "authority_ids": [],
+          "note": "Bounded retained search only; not proof of institutional silence or absence of a ruling."
         }
       ],
       "certification": {
-        "reading": "contested_domestic_route",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C-C02",
           "P1C8-C15"
         ],
         "decisive_next": "The Uttar Pradesh order text and the Supreme Court's disposition",
-        "note": "No national halal mandate for domestic sale; i-CAS applies to specified halal exports. Uttar Pradesh's 2023 order against halal-certified food excluded meat, so it does not reach chicken."
+        "note": "Specified halal-export requirements and a news-reported state-order meat exclusion do not establish a complete domestic certification route. The operative order and later disposition remain unread.",
+        "authority_ids": [
+          "DGFT",
+          "UTTAR-PRADESH-GOVERNMENT"
+        ]
       },
       "food_authorization": {
         "reading": "application_pending",
@@ -464,18 +591,42 @@
           "P1C9-C03"
         ],
         "decisive_next": "FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods), and whether the Food Authority has been reconstituted",
-        "note": "Stage 7 in the September 2026 register covers clarification, approval or rejection. Novel-ingredient approvals need the Food Authority, which had not been reconstituted as of January 2026."
+        "note": "The September 2026 Under Process register uses stage 7, whose legend combines clarification, approval and rejection. Obtain the actual decision. The separate Food Authority lapse report is dated January 2026 and does not establish present status.",
+        "authority_ids": [
+          "FSSAI"
+        ]
       },
       "segment": {
-        "reading": "segment_gate",
-        "confidence": "medium",
+        "reading": "unverified",
+        "confidence": "low",
         "basis_claim_ids": [
           "P1C8-I04",
           "P1C9-C04"
         ],
-        "decisive_next": "Household consumption of chicken by religious group from national survey tables",
-        "note": "Legally a segment. Traders' unofficial estimate puts about 90% of meat sold in India as halal, so in practice the segment may be most of the market; this is not a measurement."
+        "decisive_next": "Applicable domestic legal instruments and chicken-specific evidence of purchases contingent on halal status",
+        "note": "The unofficial 90% estimate concerns all meat sold, not chicken buyers whose purchases require halal status. No forecast segment share follows.",
+        "authority_ids": [
+          "BUSINESS-STANDARD"
+        ]
       }
     }
-  ]
+  ],
+  "applicability_boundary": "Claim gate_scope applies only to the named country, layer, profile and attributed actor. A country context does not confer national jurisdiction on an international institution, private adviser or publisher. Direct support verifies the narrowly stated source account, not human scholarly approval or completeness of operative law.",
+  "authority_definitions": {
+    "GOOD-MEAT-ADVISERS": "Named Saudi scholars in the manufacturer/counsel account of a commissioned engagement; no state-body adoption established",
+    "IIFA": "International Islamic Fiqh Academy; international institutional text, not automatic Saudi national adoption",
+    "SFDA": "Saudi Food and Drug Authority; operative instrument identity and coverage unresolved here",
+    "UAE-COUNCIL-FATWA": "Reported UAE Council for Fatwa position; original instrument unlocated",
+    "MUFTI-TAQI-USMANI-REPORTED-PANEL": "Panel attributed in a news report; original ruling and signatories unlocated",
+    "BANURI-TOWN": "Named Karachi seminary; Urdu answer held for qualified language review",
+    "MOIAT": "UAE Ministry of Industry and Advanced Technology administrative certification account",
+    "UAE-CODEX-DELEGATION": "UAE government submission to Codex; no attribution to a specific ministry inferred",
+    "PSQCA": "Pakistan Standards and Quality Control Authority catalogue; full clauses and product route unresolved",
+    "PUNJAB-FOOD-AUTHORITY": "Punjab provincial regulator; generic registration guidance",
+    "FSSAI": "Food Safety and Standards Authority of India; named administrative register and separately dated reports",
+    "DGFT": "India Directorate General of Foreign Trade; specified export instruments",
+    "UTTAR-PRADESH-GOVERNMENT": "State government order as described in a news report; operative text unread",
+    "BUSINESS-STANDARD": "Publisher of the retained trade estimate; not a regulator or evidence of buyer dependence"
+  },
+  "profile_evidence_scope": "P1–P3 are retained manufacturer/process examples, not a worldwide or current-market inventory. Separate versions are not merged without a demonstrated match. P4–P6 are hypothetical reference cases; absence of a matching product from this packet does not establish nonexistence."
 }

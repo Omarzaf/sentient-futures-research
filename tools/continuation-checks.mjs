@@ -480,27 +480,75 @@ export function checkContinuation(files) {
  check(ethnography?.paragraph_count===1&&typeof ethnography.paragraph==='string'&&ethnography.paragraph.trim().length>0&&ethnography.paragraph.trim().split(/\n\s*\n/).length===1&&ethnography.publication_year_is_observation_year===false&&ethnography.representative_population_prevalence===null&&ethnography.human_protein_total===null&&ethnography.clinical_efficacy_established===false&&ethnography.human_review==='pending','feed ethnography paragraph or population/clinical/protein boundary lost');
 
  // Gate table (2 October): evidence readings for the focal countries, never scenario gate values.
+ check(files['gate-table.json']!==undefined,'gate table missing');
  if(files['gate-table.json']!==undefined){
   let gate=null;try{gate=JSON.parse(files['gate-table.json']);}catch{check(false,'gate table is invalid JSON');}
+  check(gate!==null&&typeof gate==='object'&&!Array.isArray(gate),'gate table must be an object');
   if(gate){
    const religiousReadings=['supported_conditional','disputed','leans_closed','conditions_not_met','unresolved','no_institutional_text_located'];
    const layerReadings={certification:['general_route_no_cultivated_scheme','contested_domestic_route','no_route_identified','unverified'],food_authorization:['route_exists_no_approval','application_pending','route_announced_status_unknown','no_route_identified','unverified'],segment:['whole_market_gate','segment_gate','unverified']};
-   const positive=['supported_conditional','route_exists_no_approval','application_pending','general_route_no_cultivated_scheme','whole_market_gate','segment_gate'];
-   const profileIds=(gate.profiles||gate.process_profiles||[]).map(p=>p.id);
-   check(gate.human_review==='pending'&&profileIds.length>0&&new Set(profileIds).size===profileIds.length,'gate table review status or profiles invalid');
-   check(sameMembers((gate.countries||[]).map(c=>c.id),['IND','PAK','SAU','ARE']),'gate table focal-country roster changed');
-   const checkCell=(where,cell,allowed)=>{
-    const basis=Array.isArray(cell?.basis_claim_ids)?cell.basis_claim_ids:null;
-    check(allowed.includes(cell?.reading)&&['low','medium','high'].includes(cell?.confidence)&&typeof cell?.decisive_next==='string'&&cell.decisive_next.length>0&&!!gate.reading_labels?.[cell?.reading],'gate cell reading, confidence or next document invalid: '+where);
-    check(basis!==null&&basis.every(id=>claimIds.has(id)),'gate cell basis does not resolve: '+where);
-    check(!positive.includes(cell?.reading)||(basis||[]).some(id=>['independently_checked','confirmed_original','inference'].includes(claims.find(c=>c.id===id)?.status)),'gate cell positive reading rests only on unchecked leads: '+where);
-    check(cell?.confidence!=='high'||(basis||[]).every(id=>claims.find(c=>c.id===id)?.status==='independently_checked'),'gate cell high confidence without checked basis: '+where);
+   // Both favorable and adverse conclusions need direct evidence. A general inference
+   // or a checked statement that merely reports a source's existence cannot supply it.
+   const substantive=['supported_conditional','disputed','leans_closed','conditions_not_met','route_exists_no_approval','application_pending','general_route_no_cultivated_scheme','contested_domestic_route','route_announced_status_unknown','whole_market_gate','segment_gate'];
+   const profileIds=['P1','P2','P3','P4','P5','P6'];
+   const profileIdentity={
+    P1:['embryo_fibroblast','serum_present',['P1C3-PROCESS-S01','P1C3-PROCESS-S03']],
+    P2:['unresolved_version_match','serum_free_formula_unresolved',['P1C3-PROCESS-S06','P1C3-PROCESS-S07']],
+    P3:['embryonic_stem','animal_component_free_reported',['SG-LIST']],
+    P4:['slaughtered_donor','permitted_inputs_hypothetical',['IIFA265','P1C5-INST-GOODMEAT']],
+    P5:['live_adult_biopsy','permitted_inputs_hypothetical',['IIFA265']],
+    P6:['feather_induced_pluripotent','permitted_inputs_hypothetical',['P1C8-S07']]
    };
-   for(const country of gate.countries||[]){
-    check(sameMembers((country.religious||[]).map(c=>c.profile),profileIds),'gate table religious profiles incomplete: '+country.id);
-    for(const cell of country.religious||[])checkCell(country.id+'/'+cell.profile,cell,religiousReadings);
-    for(const [layer,allowed] of Object.entries(layerReadings))checkCell(country.id+'/'+layer,country[layer],allowed);
-    check(typeof country.summary==='string'&&country.summary.length>0,'gate table country summary missing: '+country.id);
+   const profiles=Array.isArray(gate.process_profiles)?gate.process_profiles:[];
+   const countries=Array.isArray(gate.countries)?gate.countries:[];
+   const nonempty=value=>typeof value==='string'&&value.trim().length>0;
+   const distinctList=(value,allowed,allowEmpty=false)=>Array.isArray(value)&&(allowEmpty||value.length>0)&&new Set(value).size===value.length&&value.every(id=>allowed.includes(id));
+   const layers=['religious',...Object.keys(layerReadings)];
+   const authorityIds=['GOOD-MEAT-ADVISERS','IIFA','SFDA','UAE-COUNCIL-FATWA','MUFTI-TAQI-USMANI-REPORTED-PANEL','BANURI-TOWN','MOIAT','ADAFSA','UAE-CODEX-DELEGATION','PSQCA','PUNJAB-FOOD-AUTHORITY','FSSAI','DGFT','UTTAR-PRADESH-GOVERNMENT','BUSINESS-STANDARD'];
+   const allReadings=[...religiousReadings,...Object.values(layerReadings).flat()];
+   const checkedClaim=claim=>['independently_checked','confirmed_original'].includes(claim?.status)&&reviews.some(r=>r.id===claim.review_id&&r.claim_ids?.includes(claim.id));
+   check(gate.human_review==='pending'&&gate.profiles===undefined&&sameMembers(profiles.map(p=>p?.id),profileIds),'gate table review status or profiles invalid');
+   for(const profile of profiles){
+    check(['label','founder_cells','medium','documented_in','locator'].every(key=>nonempty(profile?.[key]))&&profile.real_product===['P1','P2','P3'].includes(profile.id),'gate profile identity or locator missing: '+profile?.id);
+    check(Array.isArray(profile?.source_ids)&&profile.source_ids.length>0&&new Set(profile.source_ids).size===profile.source_ids.length&&profile.source_ids.every(id=>sourceIds.has(id)),'gate profile source provenance invalid: '+profile?.id);
+    const identity=profileIdentity[profile?.id];
+    check(identity&&profile.founder_route===identity[0]&&profile.medium_status===identity[1]&&sameMembers(profile.source_ids,identity[2]),'gate profile process version/source identity changed: '+profile?.id);
+   }
+   check(sameMembers(countries.map(c=>c?.id),['IND','PAK','SAU','ARE']),'gate table focal-country roster changed');
+   const checkCell=(country,layer,cell,allowed)=>{
+    const where=country+'/'+(layer==='religious'?cell?.profile:layer);
+    const basis=Array.isArray(cell?.basis_claim_ids)?cell.basis_claim_ids:null;
+    const basisClaims=(basis||[]).map(id=>claims.find(c=>c.id===id));
+    const authorities=Array.isArray(cell?.authority_ids)?cell.authority_ids:[];
+    check(allowed.includes(cell?.reading)&&['low','medium','high'].includes(cell?.confidence)&&nonempty(cell?.decisive_next)&&!!gate.reading_labels?.[cell?.reading],'gate cell reading, confidence or next document invalid: '+where);
+    check(basis!==null&&new Set(basis).size===basis.length&&basis.every(id=>claimIds.has(id)),'gate cell basis does not resolve: '+where);
+    check(distinctList(cell?.authority_ids,authorityIds,true)&&((basis?.length||0)===0?authorities.length===0:authorities.length>0)&&authorities.every(id=>basisClaims.some(claim=>claim?.gate_scope?.authority_ids?.includes(id))),'gate cell authority does not resolve: '+where);
+    const applicable=basisClaims.map(claim=>{
+     if(!claim)return false;
+     const scope=claim.gate_scope;
+     const valid=scope&&distinctList(scope.country_ids,focalCountries)&&distinctList(scope.layers,layers)&&distinctList(scope.profile_ids,profileIds,!scope.layers?.includes('religious'))&&(!scope.layers?.includes('religious')?scope.profile_ids?.length===0:true)&&distinctList(scope.authority_ids,authorityIds)&&['direct','context','inference'].includes(scope.evidence_role)&&distinctList(scope.supported_readings,allReadings,scope.evidence_role!=='direct')&&(scope.evidence_role==='direct'?claim.status!=='inference':scope.supported_readings?.length===0)&&(claim.status!=='inference'||scope.evidence_role==='inference');
+     check(valid,'gate claim scope invalid: '+claim.id);
+     const countryMatch=valid&&scope.country_ids.includes(country)&&(claim.country===null||claim.country===country);
+     const layerMatch=valid&&scope.layers.includes(layer);
+     const profileMatch=valid&&(layer!=='religious'||scope.profile_ids.includes(cell?.profile));
+     const authorityMatch=valid&&scope.authority_ids.some(id=>authorities.includes(id));
+     check(countryMatch,'gate claim country mismatch: '+where+'/'+claim.id);
+     check(layerMatch,'gate claim layer mismatch: '+where+'/'+claim.id);
+     check(profileMatch,'gate claim profile mismatch: '+where+'/'+claim.id);
+     check(authorityMatch,'gate claim authority mismatch: '+where+'/'+claim.id);
+     return countryMatch&&layerMatch&&profileMatch&&authorityMatch;
+    });
+    const directClaims=basisClaims.filter((claim,i)=>applicable[i]&&checkedClaim(claim)&&claim.gate_scope.evidence_role==='direct'&&claim.gate_scope.supported_readings.includes(cell?.reading));
+    const directSupport=directClaims.length>0&&authorities.length>0&&authorities.every(id=>directClaims.some(claim=>claim.gate_scope.authority_ids.includes(id)));
+    check(!substantive.includes(cell?.reading)||directSupport,'gate cell positive reading rests only on unchecked leads: '+where);
+    check(cell?.confidence!=='high'||(basisClaims.length>0&&directSupport&&applicable.every(Boolean)&&basisClaims.every(checkedClaim)),'gate cell high confidence without checked basis: '+where);
+   };
+   for(const country of countries){
+    const religious=Array.isArray(country?.religious)?country.religious:[];
+    check(sameMembers(religious.map(c=>c?.profile),profileIds),'gate table religious profiles incomplete: '+country?.id);
+    for(const cell of religious)checkCell(country?.id,'religious',cell,religiousReadings);
+    for(const [layer,allowed] of Object.entries(layerReadings))checkCell(country?.id,layer,country?.[layer],allowed);
+    check(nonempty(country?.summary),'gate table country summary missing: '+country?.id);
    }
   }
  }

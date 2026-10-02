@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6896,
-      "sha256": "0b9e507977aed146cd5522158d8ec4b93fd05f2c8c953501088e5645f05936f5"
+      "bytes": 6898,
+      "sha256": "59c5364787452b421c2082342c079e3b06267e58d13f22783da2f24a965f0fb8"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -59,7 +59,7 @@
     {
       "path": "index.html",
       "bytes": 9948,
-      "sha256": "c3e70245ec6e4f03e6e0432bb4fdcd5de40270ef397957c869ed235469ddb73f"
+      "sha256": "8431d28510b6c89cef9f2ccefeba54493ed52a9ef713cfba71247f36ee64ba96"
     },
     {
       "path": "provenance/import-records.json",
@@ -163,8 +163,8 @@
     },
     {
       "path": "research/halal-cultivated/PLAN.md",
-      "bytes": 25973,
-      "sha256": "042fece94c50266dfff8986dfe537722489a34f355adebb985a6126d9e6c6824"
+      "bytes": 32213,
+      "sha256": "4a9cb15eb22a505f8d1272ef1d85dd632a1a5da963e4906c62745160c5ffae3a"
     },
     {
       "path": "research/halal-cultivated/README.md",
@@ -173,18 +173,18 @@
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 16352,
-      "sha256": "184f14dea921306c8f3bb45baeab7fb4c5a98bd1f7187f13967f597c1bae2603"
+      "bytes": 18443,
+      "sha256": "444ba49a6677783234c0023ccb897dace0bb8c8cd277b7b6c095a5adb34c8830"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
-      "bytes": 3636,
-      "sha256": "495d004d03f59994f6d8aa8f8d6c1e8b446fa78890275c2ba67e35b302738212"
+      "bytes": 4027,
+      "sha256": "43b7715a1f74fb1bf42d749392cd977b62a74f44de7ef4762eae56b0396bc190"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/METHOD.md",
-      "bytes": 9219,
-      "sha256": "e12ac0f74e4cee391cc7a7beb289c7107498b462275e031f454f8a09ab113fba"
+      "bytes": 9764,
+      "sha256": "37537b20a8527dd79908453aee3e3827d325c4013ef106dbb1254be576981fbe"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/PILOT-FEEDBACK.html",
@@ -258,13 +258,13 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/README.md",
-      "bytes": 10269,
-      "sha256": "7e28fcfe5afdf072fdfdb6d931a9d617913359c400ce558ec9668097456206cd"
+      "bytes": 10823,
+      "sha256": "473667ff4d1bdffe399baa6f5cf6bbd8f3e6b82bd8f84b0b3094839468680356"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",
-      "bytes": 10376,
-      "sha256": "3a1ba86c753db23d8a1e44aa69aae744e36d9263bda5768d5f66e3940193030b"
+      "bytes": 11492,
+      "sha256": "fd9b670ab8f29dbc4006bdd24aab7e7a09161553151dc24405a79983e989af4d"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/china-asf-history.json",
@@ -278,8 +278,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/claims.json",
-      "bytes": 128424,
-      "sha256": "9a048049d406ee04a561e8beb1c5532b660c5b7aa14fae75a1133558efce47b1"
+      "bytes": 137024,
+      "sha256": "8d70a8a40eb7c1e218b923b7fa0bf279912103c281a75f2129a068917760f83e"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/coverage.json",
@@ -338,13 +338,13 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/gate-table.json",
-      "bytes": 19302,
-      "sha256": "67b3a83da409b5b9c8df40da28f827a632c58b8c7358f21daad7be583bc3bdc1"
+      "bytes": 30804,
+      "sha256": "7e477c4bd243270096d1276dbe2f009f53fc063889a7799c4826f8d1c44bbad2"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/gate-table.md",
-      "bytes": 11938,
-      "sha256": "85b79cff297927d04041cb3b7abe75b613ed8e6aeb1b7695a1b6e44774455ba6"
+      "bytes": 23878,
+      "sha256": "3b3aed5b1fba15da977b2cf995d6be9322b0dd4820a6c30a06d4684b869db05c"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/geography.json",
@@ -413,8 +413,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/reviews.json",
-      "bytes": 14565,
-      "sha256": "7c7e1dc7969bd058767c6e271d5697a9f659f1d0584e213a9664db341a0c1cdf"
+      "bytes": 16178,
+      "sha256": "469f887b9e1664aab8881e8afb9913bf6323deeb071cea4b251ff370d0b229fc"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/school-gap-progress.json",
@@ -428,8 +428,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/source-register.json",
-      "bytes": 199135,
-      "sha256": "9bb70009e903992bbf497e105fcc877b8c3b73136ea3cd3688c265a50ac6d35a"
+      "bytes": 200237,
+      "sha256": "d3091499a47d2db6ea80ba611a9dc601f73f35513f14a4adfe5b5d04a13c9abf"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/standards-review.json",
@@ -628,18 +628,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 134897,
-      "sha256": "ff68769f1bc54557ed5e5b86305b4a021c19a425166b1cea6f4d9576b6a763e7"
+      "bytes": 134973,
+      "sha256": "892d44c2c637346519ed0532f5880bccb637b58a8d05a3e3bb9382c36454c1f0"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 517420,
-      "sha256": "5ad5e21e141f5f278866a7f199867ad58a7f64673ee49d596e1bb13127d271a4"
+      "bytes": 517925,
+      "sha256": "7f71001057b3f6e202b3d301eb02434d4a3f55021d3c8b41034123b707075e18"
     },
     {
       "path": "sources/index.html",
-      "bytes": 372648,
-      "sha256": "11c407a6b8e5305675c92cb251062e7bcb2ff496a7503fd5432ea66458929784"
+      "bytes": 373006,
+      "sha256": "bf51da05d283d928a8bc44a02880b8769aa0bfd4a89b22da32f7520f7e5ad686"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -653,8 +653,8 @@
     },
     {
       "path": "tools/continuation-checks.mjs",
-      "bytes": 82782,
-      "sha256": "85f819fef4aa500fb315917ea15ded8d3f4c9434e4c472eb61d4a3f789546919"
+      "bytes": 87826,
+      "sha256": "7bc996b2c78639db99168bd977762962d361618ad0db9491ceeb5ac7b587cbde"
     },
     {
       "path": "tools/halal-checks.mjs",
@@ -693,8 +693,8 @@
     },
     {
       "path": "tools/test-continuation-checks.mjs",
-      "bytes": 38330,
-      "sha256": "574c1999e225f8a9afaef5c38cbd23956e73f2c4ea3d53ff09f20b71359ae609"
+      "bytes": 46975,
+      "sha256": "a34127f4372eb5e42feced9194937fa3bdbc09ffd4cbac2d9abcb3cb81fd928c"
     },
     {
       "path": "tools/test-halal-checks.mjs",

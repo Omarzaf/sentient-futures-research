@@ -131,10 +131,10 @@ const statusCases=[
  ['open claim with dangling review link',f=>alter(f,'claims.json',r=>{r[0].status='open';r[0].review_id='missing';}),'claim review link does not resolve'],
  ['gate cell cites a missing claim',f=>alter(f,'gate-table.json',g=>{g.countries[0].religious[0].basis_claim_ids=['missing'];}),'gate cell basis does not resolve'],
  ['gate cell given a scenario value',f=>alter(f,'gate-table.json',g=>{g.countries[0].food_authorization.reading='open';}),'gate cell reading, confidence or next document invalid'],
- ['positive gate reading resting only on a snippet lead',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.basis_claim_ids=['P1C8-C14'];}),'gate cell positive reading rests only on unchecked leads'],
+ ['positive gate reading resting only on a snippet lead',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.reading='route_exists_no_approval';c.food_authorization.basis_claim_ids=['P1C8-C14'];}),'gate cell positive reading rests only on unchecked leads'],
  ['gate cell rated high on leads',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='ARE');c.religious[3].confidence='high';}),'gate cell high confidence without checked basis'],
  ['confirmed original without a review link',f=>alter(f,'claims.json',r=>{const c=r.find(x=>x.id==='P1C9-C01');delete c.review_id;}),'missing independent claim review'],
- ['positive gate reading resting only on a disputed claim',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.basis_claim_ids=['P1C8-C09'];}),'gate cell positive reading rests only on unchecked leads'],
+ ['positive gate reading resting only on a disputed claim',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.reading='route_exists_no_approval';c.food_authorization.basis_claim_ids=['P1C8-C09'];}),'gate cell positive reading rests only on unchecked leads'],
  ['focal country dropped from gate table',f=>alter(f,'gate-table.json',g=>{g.countries.pop();}),'gate table focal-country roster changed']
 ];
 for(const [name,mutate,expected] of statusCases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
@@ -213,4 +213,47 @@ const run07Cases=[
  ['school reviewer becomes human scholarly approval',f=>alter(f,'feed-review.json',d=>{d.schools[0].human_review='approved';}),'feed named authority promoted to consensus, human-food transfer or certificate: Hanafi']
 ];
 for(const [name,mutate,expected] of run07Cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.includes('Continuation: '+expected),name+' must reject with the exact intended guard');}
-console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',fixture:'canonical',validFixtureChecks:checkContinuation(fixture).checks,previousNegativeCases:cases.length,run07NegativeCases:run07Cases.length,statusCases:statusCases.length,negativeCases:cases.length+run07Cases.length+statusCases.length}));
+assert.equal(cases.length+run07Cases.length+statusCases.length,191,'all prior continuation negative cases must remain intact');
+const gateCell=(files,country,key,mutate)=>alter(files,'gate-table.json',gate=>{const row=gate.countries.find(c=>c.id===country);mutate(key.startsWith('P')?row.religious.find(c=>c.profile===key):row[key]);});
+const gateClaim=(files,id,mutate)=>alter(files,'claims.json',claims=>mutate(claims.find(c=>c.id===id)));
+const gateBasis=(files,country,key,ids)=>{
+ const claims=JSON.parse(files['claims.json']);
+ gateCell(files,country,key,cell=>{cell.basis_claim_ids=ids;cell.authority_ids=[...new Set(ids.flatMap(id=>claims.find(c=>c.id===id)?.gate_scope?.authority_ids||[]))];});
+};
+const gateCases=[
+ ['Saudi religious support borrowed from Indian food registration',f=>{gateBasis(f,'SAU','P4',['P1C-C01']);gateCell(f,'SAU','P4',c=>{c.reading='supported_conditional';c.confidence='high';});},'gate claim country mismatch: SAU/P4/P1C-C01'],
+ ['empty adverse evidence accepted at high confidence',f=>{gateBasis(f,'SAU','P1',[]);gateCell(f,'SAU','P1',c=>{c.reading='conditions_not_met';c.confidence='high';});},'gate cell high confidence without checked basis: SAU/P1'],
+ ['adverse conclusion without any substantive evidence',f=>{gateBasis(f,'SAU','P1',[]);gateCell(f,'SAU','P1',c=>{c.reading='conditions_not_met';c.confidence='low';});},'gate cell positive reading rests only on unchecked leads: SAU/P1'],
+ ['single self-defined profile replaces the full roster',f=>alter(f,'gate-table.json',g=>{g.process_profiles=g.process_profiles.filter(p=>p.id==='P4');for(const c of g.countries)c.religious=c.religious.filter(r=>r.profile==='P4');}),'gate table review status or profiles invalid'],
+ ['profile IDs retained while identity and provenance erased',f=>alter(f,'gate-table.json',g=>{g.process_profiles=g.process_profiles.map(p=>({id:p.id}));}),'gate profile identity or locator missing: P1'],
+ ['valid authority substituted for the cited institution',f=>gateCell(f,'ARE','food_authorization',c=>{c.authority_ids=JSON.parse(f['claims.json']).find(r=>r.id==='P1C-C01').gate_scope.authority_ids;}),'gate claim authority mismatch: ARE/food_authorization/P1C9-C01'],
+ ['religious claim applied to a different process profile',f=>{gateClaim(f,'P1C5-INST-C01',c=>{c.gate_scope.profile_ids=['P5'];});gateBasis(f,'SAU','P4',['P1C5-INST-C01']);},'gate claim profile mismatch: SAU/P4/P1C5-INST-C01'],
+ ['general inference launders an accepted profile',f=>{gateBasis(f,'SAU','P4',['P1C8-I03']);gateCell(f,'SAU','P4',c=>{c.reading='supported_conditional';});},'gate cell positive reading rests only on unchecked leads: SAU/P4'],
+ ['one authority lends acceptance to another cited only by inference',f=>{gateClaim(f,'P1C8-I03',c=>{c.gate_scope.authority_ids=['GOOD-MEAT-ADVISERS','IIFA'];});gateBasis(f,'SAU','P4',['P1C5-INST-C01','P1C8-I03']);},'gate cell positive reading rests only on unchecked leads: SAU/P4'],
+ ['one valid direct claim hides an unrelated extra claim',f=>gateCell(f,'SAU','P4',c=>{c.basis_claim_ids.push('P1C-C01');}),'gate claim country mismatch: SAU/P4/P1C-C01'],
+ ['null-country claim treated as implicit worldwide evidence',f=>{gateBasis(f,'SAU','P4',['P1C8-I03']);gateClaim(f,'P1C8-I03',c=>{delete c.gate_scope;});},'gate claim scope invalid: P1C8-I03'],
+ ['global wildcard replaces explicit country scope',f=>{gateClaim(f,'P1C8-I03',c=>{c.gate_scope.country_ids=['GLOBAL'];});gateBasis(f,'SAU','P4',['P1C8-I03']);},'gate claim scope invalid: P1C8-I03'],
+ ['explicit global claim scope excludes the consuming country',f=>{gateClaim(f,'P1C8-I03',c=>{c.gate_scope.country_ids=['IND'];});gateBasis(f,'SAU','P4',['P1C8-I03']);},'gate claim country mismatch: SAU/P4/P1C8-I03'],
+ ['same-country food route used for religious permission',f=>{gateClaim(f,'P1C5-INST-C01',c=>{c.gate_scope.layers=['food_authorization'];c.gate_scope.profile_ids=[];});gateBasis(f,'SAU','P4',['P1C5-INST-C01']);},'gate claim layer mismatch: SAU/P4/P1C5-INST-C01'],
+ ['inference relabeled direct without establishing evidence',f=>{gateClaim(f,'P1C8-I03',c=>{c.gate_scope.evidence_role='direct';c.gate_scope.supported_readings=['supported_conditional'];});gateBasis(f,'SAU','P4',['P1C8-I03']);},'gate claim scope invalid: P1C8-I03'],
+ ['checked contextual observation promoted to high-confidence route',f=>{gateClaim(f,'P1C9-C01',c=>{c.gate_scope.evidence_role='context';c.gate_scope.supported_readings=[];});gateBasis(f,'ARE','food_authorization',['P1C9-C01']);gateCell(f,'ARE','food_authorization',c=>{c.confidence='high';});},'gate cell high confidence without checked basis: ARE/food_authorization'],
+ ['direct route source does not support the claimed reading',f=>{gateClaim(f,'P1C9-C01',c=>{c.gate_scope.supported_readings=['route_announced_status_unknown'];});gateBasis(f,'ARE','food_authorization',['P1C9-C01']);},'gate cell positive reading rests only on unchecked leads: ARE/food_authorization'],
+ ['unchecked claim declares direct positive support',f=>{gateClaim(f,'P1C8-C14',c=>{c.gate_scope.evidence_role='direct';c.gate_scope.supported_readings=['route_exists_no_approval'];});gateBasis(f,'SAU','food_authorization',['P1C8-C14']);gateCell(f,'SAU','food_authorization',c=>{c.reading='route_exists_no_approval';});},'gate cell positive reading rests only on unchecked leads: SAU/food_authorization'],
+ ['authority omitted while evidence remains',f=>gateCell(f,'ARE','food_authorization',c=>{c.authority_ids=[];}),'gate cell authority does not resolve: ARE/food_authorization'],
+ ['invented authority made consistent across claim and cell',f=>{gateClaim(f,'P1C9-C01',c=>{c.gate_scope.authority_ids=['INVENTED-AUTHORITY'];});gateBasis(f,'ARE','food_authorization',['P1C9-C01']);},'gate claim scope invalid: P1C9-C01'],
+ ['duplicate claim inflates evidence count',f=>gateCell(f,'ARE','food_authorization',c=>{c.basis_claim_ids.push(c.basis_claim_ids[0]);}),'gate cell basis does not resolve: ARE/food_authorization'],
+ ['gate table silently removed',f=>{delete f['gate-table.json'];},'gate table missing'],
+ ['null JSON replaces the gate table',f=>{f['gate-table.json']='null';},'gate table must be an object'],
+ ['profile source ID does not resolve',f=>alter(f,'gate-table.json',g=>{g.process_profiles[0].source_ids=['missing'];}),'gate profile source provenance invalid: P1'],
+ ['serum-free version borrows FDA serum-process sources',f=>alter(f,'gate-table.json',g=>{g.process_profiles.find(p=>p.id==='P2').source_ids=['P1C3-PROCESS-S01','P1C3-PROCESS-S03'];}),'gate profile process version/source identity changed: P2'],
+ ['unmatched serum-free founder lineage filled from older process',f=>alter(f,'gate-table.json',g=>{g.process_profiles.find(p=>p.id==='P2').founder_route='embryo_fibroblast';}),'gate profile process version/source identity changed: P2'],
+ ['hypothetical slaughtered-donor profile becomes a real product',f=>alter(f,'gate-table.json',g=>{g.process_profiles.find(p=>p.id==='P4').real_product=true;}),'gate profile identity or locator missing: P4'],
+ ['process source locator dropped',f=>alter(f,'gate-table.json',g=>{g.process_profiles[0].locator='';}),'gate profile identity or locator missing: P1'],
+ ['one country drops a religious profile',f=>alter(f,'gate-table.json',g=>{g.countries.find(c=>c.id==='IND').religious.pop();}),'gate table religious profiles incomplete: IND']
+];
+for(const [name,mutate,expected] of gateCases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.includes('Continuation: '+expected),name+' must reject with the exact intended guard');}
+// Valid bounded context and confirmed-original direct support must remain usable.
+{const f={...fixture};gateClaim(f,'P1C9-C01',c=>{c.gate_scope.evidence_role='context';c.gate_scope.supported_readings=[];});gateBasis(f,'ARE','food_authorization',['P1C9-C01']);gateCell(f,'ARE','food_authorization',c=>{c.reading='unverified';c.confidence='low';});assert.deepEqual(checkContinuation(f).failures,[],'bounded contextual evidence must remain valid');}
+{const f={...fixture};gateBasis(f,'SAU','P4',['P1C8-I03']);gateCell(f,'SAU','P4',c=>{c.reading='unresolved';c.confidence='low';});assert.deepEqual(checkContinuation(f).failures,[],'scoped inference must remain usable as unresolved context');}
+{const f={...fixture};gateBasis(f,'ARE','food_authorization',['P1C9-C01']);gateCell(f,'ARE','food_authorization',c=>{c.confidence='high';});assert.deepEqual(checkContinuation(f).failures,[],'checked applicable confirmed-original direct evidence must remain valid');}
+console.log(JSON.stringify({status:'PASS',suite:'phase1-continuation',fixture:'canonical',validFixtureChecks:checkContinuation(fixture).checks,previousNegativeCases:cases.length,run07NegativeCases:run07Cases.length,statusCases:statusCases.length,gateNegativeCases:gateCases.length,negativeCases:cases.length+run07Cases.length+statusCases.length+gateCases.length}));

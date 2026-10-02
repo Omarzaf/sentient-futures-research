@@ -10,7 +10,23 @@
     "status": "independently_checked",
     "human_review": "pending",
     "limits": "A named administrative record is now located; actual decision, approved process and certification remain unestablished.",
-    "review_id": "R-FSSAI"
+    "review_id": "R-FSSAI",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "application_pending"
+      ]
+    }
   },
   {
     "id": "P1C-C02",
@@ -23,7 +39,21 @@
     "status": "independently_checked",
     "human_review": "pending",
     "limits": "No 0207 poultry code is listed in this instrument, but the classification of a cultivated product is not supplied; neither blanket inclusion nor exemption follows. No domestic food approval follows.",
-    "review_id": "R-DGFT"
+    "review_id": "R-DGFT",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "DGFT"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C-C03",
@@ -77,7 +107,21 @@
     "status": "independently_checked",
     "human_review": "pending",
     "limits": "General provincial procedure; no cultivated-chicken authorization, accepted manufacturing dossier or nationwide scope established.",
-    "review_id": "R-LEGAL"
+    "review_id": "R-LEGAL",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "PUNJAB-FOOD-AUTHORITY"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C-C07",
@@ -781,7 +825,25 @@
     "limits": "The accounts describe one commissioned engagement. No signed original opinion, state-body adoption or product certificate is supplied.",
     "status": "independently_checked",
     "human_review": "pending",
-    "review_id": "R5-INSTITUTIONS"
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P4"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "supported_conditional"
+      ]
+    }
   },
   {
     "id": "P1C5-INST-C02",
@@ -794,7 +856,23 @@
     "limits": "Historical participant self-report, not current nonconformity. Exact failed condition and identifier match to another process version are unestablished.",
     "status": "independently_checked",
     "human_review": "pending",
-    "review_id": "R5-INSTITUTIONS"
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C5-INST-C03",
@@ -812,7 +890,24 @@
     "limits": "Texts have different scopes and source families. This is not a formal inter-institutional dispute about one identical product, a universal consensus finding, or a reconciliation of the MUIS passages.",
     "status": "independently_checked",
     "human_review": "pending",
-    "review_id": "R5-INSTITUTIONS"
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P5"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS",
+        "IIFA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C5-LIT-C01",
@@ -907,7 +1002,21 @@
     "status": "independently_checked",
     "human_review": "pending",
     "limits": "The national modifications and relevant clauses remain unavailable in the inspected list; adoption metadata is not automatic product authorization.",
-    "review_id": "R5-STANDARDS"
+    "review_id": "R5-STANDARDS",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "PSQCA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C5-STD-C03",
@@ -960,7 +1069,23 @@
     "status": "independently_checked",
     "human_review": "pending",
     "limits": "Administrative explanation only; full decree, scope exclusions, exact standard edition and cultivated-chicken product route remain unestablished.",
-    "review_id": "R5-STANDARDS"
+    "review_id": "R5-STANDARDS",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "MOIAT"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "general_route_no_cultivated_scheme"
+      ]
+    }
   },
   {
     "id": "P1C6-REL-C01",
@@ -2237,7 +2362,27 @@
     "locator": "Bloomberg January 2022 report as reproduced",
     "limits": "Corrected on 2 October: The National was wrongly given as the source; its article quotes Imam Farhan Siddiqi, not Usmani. Bloomberg was not opened, and the ruling itself (form, date, signatories, institution) was not located. Treat as a reported position.",
     "status": "open",
-    "human_review": "pending"
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "MUFTI-TAQI-USMANI-REPORTED-PANEL"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C05",
@@ -2249,7 +2394,27 @@
     "locator": "Answer 144012201327",
     "limits": "Search-snippet lead; original not opened. Urdu text summarised by a machine; qualified translation needed. The snippet does not mention a slaughter condition either way. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
     "status": "open",
-    "human_review": "pending"
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "BANURI-TOWN"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C06",
@@ -2325,7 +2490,27 @@
     "locator": "Article sentence",
     "limits": "Search-snippet lead; original not opened. No Council instrument, number or date was located; this is the weakest source class in the register. Not confirmed on 2 October. A January 2026 article on thenationmiddleeast.com makes a related claim, but the site is unreliable and is recorded as a rejected lead (P1C9-S11).",
     "status": "open",
-    "human_review": "pending"
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "UAE-COUNCIL-FATWA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C12",
@@ -2361,7 +2546,22 @@
     "locator": "Novel foods and halal sections",
     "limits": "Search-snippet lead; original not opened. Secondary summary; reconcile with the SFDA texts already in the 30 September register (SA-NOVEL, SA-2025). Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
     "status": "open",
-    "human_review": "pending"
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "certification",
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "SFDA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C15",
@@ -2374,7 +2574,21 @@
     "limits": "Corrected on 2 October: meat was excluded, so the order does not reach chicken. The order text and the Supreme Court proceedings were not read.",
     "status": "confirmed_original",
     "human_review": "pending",
-    "review_id": "R8-ORIGINALS"
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "UTTAR-PRADESH-GOVERNMENT"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C16",
@@ -2386,7 +2600,21 @@
     "locator": "FSSAI paragraphs",
     "limits": "Search-snippet lead; original not opened. Reported statements, not an FSSAI instrument; the September 2026 register still lists the Biokraft file under process. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
     "status": "open",
-    "human_review": "pending"
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-C17",
@@ -2403,40 +2631,74 @@
   {
     "id": "P1C8-I01",
     "country": null,
-    "assertion": "Embryo-derived founder cells fall outside both procurement routes that the retained rulings name. The documented products approved so far use such cells, so their religious status is unresolved rather than either permitted or prohibited.",
+    "assertion": "The retained FDA-reviewed GOOD Meat embryo-derived fibroblast process and the prior SFA-listed Vital Meat embryonic-stem-cell process raise procurement questions not resolved for the named focal-country authorities in this packet. The later GOOD Meat serum-free version has not been matched to the FDA-reviewed lineage.",
     "source_ids": [
       "P1C3-PROCESS-S01",
       "P1C3-PROCESS-S03",
       "MUIS-BOOK",
-      "P1C5-LIT-HAMDAN24"
+      "P1C5-LIT-HAMDAN24",
+      "SG-LIST"
     ],
     "locator": "See premise",
-    "limits": "Inference for reviewer questions, not a ruling. The Vital Meat profile is carried from the 30 September register and was not re-read here.",
+    "limits": "Inference for reviewer questions, not a ruling or a worldwide product inventory. The Vital Meat profile is carried from the 30 September register and was not re-read in this check. Founder-cell classification alone cannot establish halal status; other input, process, safety and certification conditions remain.",
     "status": "inference",
     "human_review": "pending",
-    "premise": "GOOD Meat's reviewed line derives from 10-day chicken embryos; Singapore approved an embryonic stem-cell product in 2025; retained rulings speak of live biopsy or a slaughtered donor; MUIS mentions an egg or embryo exception and Hamdan (2024) argues egg-derived cells can become pure.",
-    "confirmation_test": "A named authority classifying an embryo-derived or egg-derived founder line, or MUIS clarifying its egg passage, would settle the cell for that authority."
+    "premise": "The FDA dossier describes GOOD Meat cells derived from 10-day chicken embryos. The retained SFA list describes the Vital Meat embryonic-stem-cell process. Retained institutional texts discuss procurement routes, while the MUIS egg/embryo passage and Hamdan author argument require separate interpretation; they are not interchangeable focal-country rulings.",
+    "confirmation_test": "Obtain a qualified, named authority’s classification of the exact founder line and matched process, reconcile the MUIS passages, and assess all remaining conditions. A cell-origin answer alone would not settle product certification.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P2",
+        "P3"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-I02",
     "country": null,
-    "assertion": "The US-reviewed GOOD Meat process fails its own advisers' donor condition and probably their medium condition.",
+    "assertion": "GOOD Meat’s September 2023 statement reports that its then regulator-approved line and process did not meet the advisers’ criteria. The exact failed condition and a match to the FDA CCC000001 process are unestablished.",
     "source_ids": [
       "P1C5-INST-GOODMEAT",
       "P1C3-PROCESS-S08",
       "P1C3-PROCESS-S01"
     ],
     "locator": "See premise",
-    "limits": "Applies only to the documented CCC000001 process, not to the later serum-free Singapore version.",
+    "limits": "Historical company self-report. Donor procurement and serum use are questions for a matched-process review, not confirmed reasons for failure. It establishes neither current nonconformity nor the status of the later Singapore serum-free version.",
     "status": "inference",
     "human_review": "pending",
-    "premise": "The advisers required a slaughtered donor and excluded blood and improperly slaughtered animal material; the line comes from embryos, not a slaughtered bird; fetal bovine serum is used in seed and production; the company said its chicken cell line and production process did not meet the criteria.",
-    "confirmation_test": "An adviser or company statement naming the failing condition, or a certificate for a later line, would confirm or defeat this."
+    "premise": "The company reported four adviser conditions and said its then line and process did not meet them. Separately, the FDA dossier documents embryo-derived cells and fetal bovine serum. The retained evidence does not identify the failed condition or establish that the company statement refers to that exact dossier version.",
+    "confirmation_test": "Obtain the adviser or company statement identifying the assessed line, process version and failed condition, with any later matched certificate or decision.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-I03",
     "country": null,
-    "assertion": "A slaughtered-donor line grown in an animal-free medium is the only process profile that every retained authority accepts in principle.",
+    "assertion": "A slaughtered-donor process with permitted inputs is a conditional reference case in the retained IIFA text and the reported GOOD Meat adviser conditions. This does not establish universal agreement, exclusivity or product certification.",
     "source_ids": [
       "IIFA265",
       "P1C5-INST-GOODMEAT",
@@ -2447,42 +2709,88 @@
       "P1C9-S14"
     ],
     "locator": "See premise",
-    "limits": "Acceptance in principle is not a certificate and assumes every input is permitted. No such product is documented. The UAE position is excluded because it is unconfirmed.",
+    "limits": "The sources have different institutional scopes, language-review states and source families. No matching product is established in this packet; this is not evidence that none exists. Unconfirmed UAE and Pakistani reports, held-language material and institutional silence cannot establish acceptance.",
     "status": "inference",
     "human_review": "pending",
-    "premise": "IIFA allows a slaughtered donor; the GOOD Meat advisers and MUIS require or accept one; the American Fiqh Academy text (also reproduced by Wifaq ul Ulama) accepts one; a reported Pakistani position requires one; Nahdlatul Ulama rejects only living-donor cells; the American Halal Foundation's pages both accept a slaughtered donor.",
-    "confirmation_test": "Any named authority rejecting cultivated meat outright regardless of donor, or rejecting slaughtered-donor lines, would defeat this."
+    "premise": "IIFA names a slaughtered-donor route, and the manufacturer and counsel accounts report a slaughter condition among the GOOD Meat advisers’ criteria. Other retained sources supply comparisons with their own limits. A rejection of living-donor cells, including the held Nahdlatul Ulama account, does not by itself establish acceptance of a different route. Wifaq’s reproduction and the American Fiqh Academy text are one source family.",
+    "confirmation_test": "Read each named institution’s complete applicable text and conditions, including unresolved originals and language holds, before making any claim about agreement across institutions. Match any product separately.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P4"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-I04",
     "country": "IND",
-    "assertion": "In India the halal gate is legally a segment of the chicken market, but in practice it covers most of it.",
+    "assertion": "The retained Indian export instruments and news reports do not establish the legal scope or size of a halal-dependent cultivated-chicken demand segment. A reported estimate about halal meat sold cannot quantify buyers whose chicken purchases depend on halal status.",
     "source_ids": [
       "P1C-IN34",
       "P1C9-S05",
       "P1C9-S06"
     ],
     "locator": "See premise",
-    "limits": "The 90% figure is an unofficial trade estimate reported in the press, not a measurement.",
+    "limits": "The unofficial 2023 trade estimate concerns about 90% of all meat sold, with no retained measurement method. It is supply-side context, not a chicken-specific, consumer-level or causal demand estimate. It must not set a forecast gate or segment share.",
     "status": "inference",
     "human_review": "pending",
-    "premise": "Non-halal chicken can be sold legally; halal export rules apply only to specified exports; Uttar Pradesh's 2023 order against halal-certified food excluded meat; traders estimate that about 90% of meat sold in India is halal.",
-    "confirmation_test": "A national rule making halal status a condition of chicken sale would defeat the segment reading; consumption data by religion and channel would replace the traders' estimate."
+    "premise": "The export notification covers specified halal-certified exports. A news report describes a meat exclusion in the Uttar Pradesh order, whose original remains unread. A separate report quotes traders’ unofficial estimate about all meat sold. These observations do not establish comprehensive domestic law or behaviourally contingent chicken demand.",
+    "confirmation_test": "Reconcile operative domestic instruments and product classifications, then obtain chicken-specific buyer or channel evidence that measures whether purchases depend on halal status. Religion or consumption shares alone do not identify that dependence.",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "BUSINESS-STANDARD"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C8-I05",
     "country": "SAU",
-    "assertion": "In Saudi Arabia the halal requirement is built into food authorization for animal-origin products, so the religious and legal gates are coupled and apply to the whole market.",
+    "assertion": "Retained Saudi secondary and earlier-edition evidence suggests halal relevance to animal-origin novel foods, but current operative coverage and a whole-market halal gate remain unverified.",
     "source_ids": [
       "P1C8-S13",
       "P1C5-STD-S05"
     ],
     "locator": "See premise",
-    "limits": "Rests on a secondary summary plus the earlier SFDA reading; the SFDA regulation's version conflict is still unresolved.",
+    "limits": "The USDA source is an unconfirmed snippet-level lead; the SFDA regulation’s version conflict remains unresolved. A GSO catalogue entry does not establish national incorporation, exemptions or coverage of every channel.",
     "status": "inference",
     "human_review": "pending",
-    "premise": "USDA's summary of SFDA rules and the 30 September reading of the SFDA novel-food text both require halal sources for animal-origin food, referring to GSO 2055-1.",
-    "confirmation_test": "An SFDA instrument permitting non-halal animal-origin novel food for some channel would defeat this."
+    "premise": "The USDA summary and the retained earlier SFDA reading describe halal sourcing requirements for animal-origin food. Their instrument identities and current scope have not been reconciled, and the GSO catalogue supplies standards context rather than proof of Saudi legal incorporation.",
+    "confirmation_test": "Read and reconcile the current operative Saudi instruments, their adoption, territorial and product scope, exceptions and channels before asserting market-wide coverage.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "certification",
+        "food_authorization",
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "SFDA"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C9-C01",
@@ -2495,7 +2803,23 @@
     "limits": "Government statement about the standard; UAE.S 5048:2021 itself was not read. No cell-based application or approval is established.",
     "status": "confirmed_original",
     "human_review": "pending",
-    "review_id": "R8-ORIGINALS"
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "UAE-CODEX-DELEGATION"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "route_exists_no_approval"
+      ]
+    }
   },
   {
     "id": "P1C9-C02",
@@ -2521,7 +2845,21 @@
     "limits": "Status after January 2026 was not established; FSSAI reconstituted its Scientific Committee in September 2026 (P1C9-S09), which is a different body.",
     "status": "confirmed_original",
     "human_review": "pending",
-    "review_id": "R8-ORIGINALS"
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C9-C04",
@@ -2534,7 +2872,21 @@
     "limits": "Unofficial trade estimate with no stated basis; not a measurement of consumption by religion.",
     "status": "confirmed_original",
     "human_review": "pending",
-    "review_id": "R8-ORIGINALS"
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "BUSINESS-STANDARD"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
   },
   {
     "id": "P1C9-C05",

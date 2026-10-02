@@ -1,6 +1,8 @@
 # Halal conditionality for cultivated meat: research plan
 
-Version 2, 1 October 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
+Version 2, updated 2 October 2026. Author: Muhammad Umar Zafar, AI-assisted. Status: working plan, not mentor-approved; AI-assisted, human verification pending.
+
+**2 October reconciliation:** The demand-forecast reply is recorded in section 4.5.1. It clarifies input scope and responsibility for a denominator; it does not supply a compatible numerical baseline. The proposed average-retail-price conversion is held for the reasons in 4.5.2. Quantitative bridge v2 remains the active method.
 
 **Phase One update:** The [revised agentic plan](AGENTIC-PLAN.md) supersedes this document's Phase One deadlines, language restriction and transcript/human-gate prerequisites. The [30 September bounded public-source review](phase1/review.md) records that edition's result; the [October continuation](phase1-continuation/README.md) remains in progress. Phase One evidence remains preserved. The approved experiment-led plan now supersedes the old Phase Two bridge, gate, survey substitution, unknown-capacity and deadline rules. [Quantitative bridge v2](bridge-v2/METHOD.md) is the active method; [the crosswalk](bridge-v2/LEGACY-CROSSWALK.md) preserves the earlier interfaces.
 
@@ -23,6 +25,7 @@ It adds a halal layer to the team's work. It does not run its own forecast surve
 | Language | English sources only. Where no English version exists, flag it; Umar decides whether to use Urdu and translate himself. The Urdu interview being transcribed is the object of study, so it is the one standing exception. |
 | Geography | Four focal cases: India, Pakistan, Saudi Arabia, UAE. Three precedents: Malaysia, Singapore, Indonesia. No readiness ranking across them. |
 | Product | Cultivated chicken first. Other halal species (beef, mutton, goat) as an extension once chicken is done. |
+| Pet food | Outside this workstream's human-food estimand. Pet-food revenue in an external forecast must be separated before numerical transfer; declaring it out of scope does not remove it from the input. |
 | Insects | Poultry feed input only, valued in market terms. Never counted as human protein or as an alternative protein, which keeps the demand forecast's exclusion intact. |
 | Scenarios | Evidence statuses remain separate from explicit open, closed or unresolved assumptions. Gate applicability is institution/product/process/segment specific; unknown evidence is not zero. |
 | Double counting | None permitted. Rules in section 5. |
@@ -55,13 +58,13 @@ Sections 4.1–4.4 document the preserved legacy CSV discovery layout. These fie
 
 | Field | Values | Source of the convention |
 |---|---|---|
-| `category` | `plant_based`, `fermentation_biomass`, `fermentation_precision`, `cultivated`, `hybrid_cultivated`; conventional comparators `chicken`, `beef`, `mutton_goat` | The demand forecast's GFI-based definitions, used word for word |
+| `category` | `plant_based`, `fermentation_biomass`, `fermentation_precision`, `cultivated`, `hybrid_cultivated`; conventional comparators `chicken`, `beef`, `mutton_goat` | Preserved discovery labels; the external forecast's aggregated cultivated answer cannot be silently split across these categories or species |
 | `excluded` | insects as human protein, animal feed | Demand forecast |
 | `geo` | ISO 3166 alpha-3 | Repository convention |
 | `year` | 2025 base; 2026, 2030, 2035 | Demand-forecast resolution years |
 | `metric` | `sales_value`, `volume`, `market_share` | See 4.2 |
-| `price_basis` | constant 2025 USD | Demand forecast |
-| `channel` | `retail`, `foodservice`, `all` | The demand forecast uses retail (US). Focal-market data will mostly be `all`; the field records which. |
+| `price_basis` | constant 2025 USD | The 2 October reply identifies CPI series CUUR0000SAF11, calendar-year averages; this is reported input metadata, not a validated channel or mass conversion |
+| `channel` | `retail`, `foodservice`, `all` | The reply distinguishes retail-only plant-based sales from cultivated/fermentation sales covering retail plus foodservice; target and accepted input channels must match |
 | `quantile` | `q10`, `q50`, `q90` where a value is uncertain | Demand forecast |
 | `source_id` | existing CO-, SA-, GP- plus the new prefixes in 4.4 | Conditional Markets paper |
 
@@ -115,6 +118,33 @@ Use the [method, worked example and limits](bridge-v2/METHOD.md) with the [machi
 
 Unknown, conditional, conflicting and bounded-search-not-found evidence remains explicit. Religious positions, certification routes, specific certificates, food authorization and import access use separate scope-specific records. An institution's prohibition cannot close every national consumer segment. An evidence-led national closure requires binding national access evidence; hypothetical closure must be labeled. No generic `L_includes_halal` bypass survives in v2.
 
+### 4.5.1 Demand-forecast reply: input metadata, not baseline acceptance
+
+The 2 October workstream reply, recorded in the repository's session log, answers the earlier requests as follows. No unpublished questionnaire wording or respondent output is reproduced here. These reported specifications still need to accompany a versioned, owner-supported handoff.
+
+| Item | Recorded reply | Consequence for this workstream |
+|---|---|---|
+| Years | Cultivated answers will be requested for 2026, 2030 and 2035 | Match the input and target year; agreement to ask is not delivery of a forecast |
+| Separate technologies | Cultivated and fermentation are separate answers | Use only compatible cultivated observations; never add the answers or infer biomass/precision-fermentation splits |
+| US denominator | The forecast uses no meat denominator | This workstream must source and review a compatible reference market; none has been accepted |
+| Species and pet food | The cultivated answer includes multiple animal species, seafood and pet food | Obtain a supported human-food chicken component before a chicken transfer; an aggregate answer cannot supply it |
+| Hybrids | The answer counts the full finished-product value | Count a compatible finished product once; cultivated fraction is for biomass accounting, not a displacement adjustment |
+| Channels | Cultivated sales cover retail and foodservice | Require prices and quantities for the same channel scope; a retail price is not an all-channel conversion |
+| Uncertainty and resolution | q10/q50/q90 are elicited judgments; no fixed published resolution series is identified | Retain the elicitation limits; do not label ratios of marginal quantiles as output quantiles or infer scenario probabilities |
+| Embedded conditions | The US answer includes market and access constraints | Record price, supply, legal and acceptance conditioning; v2 needs a new supported full-access reference baseline before adding an access gate |
+
+The current evidence does not establish the pet-food contribution, the chicken contribution, future cultivated prices or resulting focal-country quantities. It does not establish that any such contribution is small or that the gate must dominate the numerical result. Input uncertainty remains visible even when a scenario assumes an open gate.
+
+### 4.5.2 Denominator and price-conversion proposal: held
+
+The proposed input path uses OECD-FAO Agricultural Outlook 2026–2035 US meat consumption and a 2025 US retail beef/pork/chicken price weighted by consumption. The proposed OECD-FAO values, USDA ERS prices and retail-to-carcass factors were not retrieved in the reported session. No new values, pork-category rows or price-metric rows are accepted by this reconciliation.
+
+Dividing mixed cultivated sales by an assumed conventional retail price yields **conventional-price-equivalent mass**, not established cultivated finished-product mass. The proposal mixes human food with pet food, terrestrial meat with seafood, retail prices with all-channel revenue, and potentially carcass-equivalent consumption with finished-product mass. Using one Outlook edition for US and focal-country consumption does not resolve those numerator and conversion differences.
+
+This proxy is not a demonstrated upper bound: the actual cultivated price can differ in either direction from the assumed conventional price. Full hybrid-product value is appropriate for a finished-product estimand and is not inherently an upward bias. Any exploratory proxy would need a separate, reviewed sensitivity method and must not populate v2 production inputs.
+
+Before numerical transfer, obtain the compatible human-food chicken component, a documented cultivated-plus-conventional reference market, matched price and channel evidence, reviewed upstream mass conversions, a supported conditioning revision and the permitted uncertainty method. Register the resulting version, source locators, assumptions and limitations before running the existing v2 validator. If these cannot be established, the baseline remains missing. The dimensionless transferred mass share is `p_mass`; `D_compatible`, `Q_unconstrained` and `Q_feasible` are finished-product mass. They are not spending shares or causal displacement estimates.
+
 ## 5. Active invariants and double-counting rules
 
 1. Freeze geography, mutually exclusive segment, year, species/product, channel, denominator, currency/price year, mass basis, evidence type and source vintage. No silent channel, species, year or weight conversion.
@@ -122,6 +152,7 @@ Unknown, conditional, conflicting and bounded-search-not-found evidence remains 
 3. Use deterministic sensitivities in this version. Marginal q10/q10 ratios are not output quantiles; a probabilistic method requires a registered implementation and dependence evidence.
 4. Allocate each capacity pool once within a simultaneous scenario group. Distinct alternatives are identified separately. Unknown or incompatible capacity cannot produce a feasible number.
 5. Count each finished hybrid observation once. Use its cultivated fraction for biomass only; no displacement coefficient is inferred. Segment aggregation requires a documented disjoint partition.
+   The external plant-based, cultivated and fermentation answers are not added together. Mixed-species or pet-food revenue cannot enter a human-food chicken input without a supported separation.
 6. Survey responses, aggregate available-protein supply and demand/penetration remain different measurements. The earlier comparative calculator's behavioral retained-demand share is not a religious gate.
 7. Record every shock's parameter, evidence and assumed status once. Fixed penetration with a conventional-price shock is a restricted accounting exercise, not price-induced substitution.
 8. Related evidence counts once. Consensus records cite the original ruling, and repeated studies share evidence groups.
@@ -323,18 +354,21 @@ The table below records the former deadline-based plan only. It authorizes no co
 
 **From the demand-forecast workstream**
 
-- Her cultivated q10/q50/q90 for 2026, 2030 and 2035.
-- Her US meat sales denominator.
+- The versioned cultivated answers for 2026, 2030 and 2035, whose requested years were agreed on 2 October, with units, channels, species, forecast vintage and elicitation limits.
+- A supported separation of human-food chicken from other species and pet food, and explicit baseline conditioning. Missing components remain missing rather than estimated from notes.
+
+The forecast workstream has no US meat denominator to share. This workstream owns sourcing a compatible reference market; the proposal in 4.5.2 is held rather than accepted.
 
 **Data (English, mostly free)**
 
 | Use | Sources |
 |---|---|
-| Baselines | OECD-FAO Agricultural Outlook (meat consumption projections by country) |
+| Candidate reference markets | OECD-FAO Agricultural Outlook country series, subject to species/channel/mass-basis review; not automatically a compatible finished-product baseline |
 | Country poultry detail | USDA FAS GAIN country reports |
 | Elasticities | USDA ERS international food-demand elasticities |
 | Supply | FAOSTAT food balances |
 | Price conversion | National food CPI; World Bank exchange rates |
+| Held US price/conversion leads | USDA ERS retail meat prices and retail-to-carcass factors; retrieval and compatibility review pending |
 | Religious composition | Pew (2009, 2012) |
 | Official state madhhab | constituteproject.org |
 | Halal standards (some paywalled) | GSO 2055-1, MS 1500, OIC/SMIIC 1 |
@@ -378,6 +412,7 @@ Consensus, Elicit and Scholar Gateway for literature searches.
 ## 11. Open items
 
 - Interview recording (`IMG 7313.*`) not yet in the repository.
-- Demand-forecast workstream asked on 30 September for the 2026/2035 extension, the US meat denominator, and whether cultivated sales are reported separately from fermentation. Awaiting reply.
+- The 2 October reply confirms the three requested years and separate cultivated/fermentation answers; the forecast has no meat denominator. Obtain the compatible, versioned input handoff described in 4.5.1.
+- Resolve the species, pet-food, price, channel, mass-basis and conditioning gaps in 4.5.2 before accepting a reference market or running numerical production. The average-retail-price proxy has no established upper-bound interpretation.
 - Mentor sign-off on the halal scope and the role question, deferred by decision.
 - Flags for Urdu-only sources: none yet.

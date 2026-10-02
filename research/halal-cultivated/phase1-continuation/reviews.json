@@ -357,5 +357,36 @@
     "scope": "Confirms that each listed document says what the claim attributes to it. For news reports this confirms the report, not the underlying instrument.",
     "outcome": "confirmed_with_corrections",
     "human_review": false
+  },
+  {
+    "id": "R8-INTEGRATION-REPAIR",
+    "claim_ids": [
+      "P1C8-I01",
+      "P1C8-I02",
+      "P1C8-I03",
+      "P1C8-I04",
+      "P1C8-I05"
+    ],
+    "method": "Independent repository-consistency and integration review after specialist evidence and validator repairs; compared the revised inferences, gate readings, process versions and forecast handoff with their retained source limits and active v2 contract. Four invalid gate mutations were independently reproduced and rejected. No new source retrieval or scholarly review.",
+    "scope": "Narrows overclaims, separates historical process accounts and unresolved versions, distinguishes halal supply from conditional demand, and retains unresolved national coverage. Applicability metadata and machine guards establish declared consistency, not source truth, legal effect or independent institutional agreement.",
+    "outcome": "bounded_reconciliation_without_source_status_promotion",
+    "human_review": false,
+    "reviewed_input_commits": [
+      "1b875a187e081a8bb6ebbeaae974fb540eb1f771",
+      "fd749937d55db61bd9c8701fa38e175cc309b597"
+    ],
+    "source_record_corrections": [
+      {
+        "source_id": "P1C9-S04",
+        "field": "source_family",
+        "previous": "UAE MoIAT submission to Codex",
+        "current": "UAE government submission to Codex",
+        "reason": "Retained account does not establish the specific ministry."
+      },
+      {
+        "source_id": "SG-LIST",
+        "action": "Carried retained prior-edition record with original locator, access date and record hash; not a new retrieval."
+      }
+    ]
   }
 ]

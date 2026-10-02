@@ -1,6 +1,6 @@
 {
   "description": "Inventory of public references retained in the included research. It is not a fresh source audit or an exhaustive field bibliography.",
-  "originalRegisterRecords": 411,
+  "originalRegisterRecords": 412,
   "uniqueSourceIdentities": 426,
   "records": [
     {
@@ -10055,6 +10055,16 @@
           "collection": "Halal Phase One public-source review",
           "sourceId": "SG-LIST",
           "recordPath": "research/halal-cultivated/phase1/source-register.json",
+          "accessed": "2026-09-30",
+          "access": "blind_agent_checked",
+          "limitations": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
+          "funding": null,
+          "humanVerification": "Pending"
+        },
+        {
+          "collection": "Halal Phase One continuation",
+          "sourceId": "SG-LIST",
+          "recordPath": "research/halal-cultivated/phase1-continuation/source-register.json",
           "accessed": "2026-09-30",
           "access": "blind_agent_checked",
           "limitations": "List downloaded and read. Describes specified processes, not every product sold under a brand; no halal certificate inferred.",
