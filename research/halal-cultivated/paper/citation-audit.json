@@ -128,6 +128,12 @@
         "result": "partly_supported",
         "locator": "Release dated 3 February 2024, paragraphs 8–10",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. Paragraph 8 names permitted animal sources, halal ingredients and cleanliness/non-toxicity. Paragraphs 3 and 9–10 distinguish SFA approval from halal guidance and certification. Detailed donor slaughter terms come from the separately audited booklet."
+      },
+      {
+        "id": "P-MUIS-RELEASE",
+        "result": "supported",
+        "locator": "Release dated 3 February 2024, paragraphs 8–10",
+        "note": "Detailed slaughter and egg-embryo conditions require the separate booklet; the release does not certify a named product."
       }
     ],
     "verdict": "verified_with_note",
@@ -486,7 +492,14 @@
     "archive_url": "",
     "human_scholarly_review": false,
     "date_status": "undated",
-    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null."
+    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null.",
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "SHA-T",
@@ -617,7 +630,14 @@
         "note": "The source-attributed component is present in the captured passage; the comparative claim also requires its separately named sources. No historical consumption trend or contemporary product ruling follows.",
         "locator": "Purification, displayed vol 2 p 597"
       }
-    ]
+    ],
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "SIS-EN",
@@ -1095,30 +1115,69 @@
     "final_url": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
     "http_status": 200,
     "content_type": "text/html; charset=UTF-8",
-    "retrieved_at": "2026-10-02T18:13:51.184Z",
+    "retrieved_at": "2026-10-02T18:32:07.602Z",
     "sha256": "572f9157e2f53ee8e7780bf00748583969f32350a340a66401fca46da3ebfa7f",
+    "receipt_path": "working/citations/stage3-b1-rulings-01/P-JAKIM-MKI128.receipt.json",
+    "capture_key": "P-JAKIM-MKI128",
     "identity": {
       "title": true,
       "issuer": true,
       "date": true
     },
-    "date_status": "stated",
-    "date_note": "Metadata gives 2025 and meeting 23–26 September 2025.",
-    "locator_found": false,
-    "quote_expected": "",
-    "quote_found": false,
-    "original_quote_expected": "",
-    "original_quote_found": false,
-    "quote_correction": null,
-    "passages": [],
-    "host_type": "issuer",
+    "date_status": "verified",
+    "date_note": "Meeting interval and year verified, exact adoption day not asserted.",
+    "locator_found": true,
+    "quote_expected": "23 hingga 26 September 2025M",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Introductory meeting paragraph",
+        "text": "23 hingga 26 September 2025M"
+      }
+    ],
+    "host_type": "issuer_owned_domain",
     "family": "MKI JAKIM",
-    "bibliographic_complete": false,
+    "bibliographic_complete": true,
     "claims_rechecked": [],
     "verdict": "held",
-    "notes": "Malay text is retrieved, but D2 has not approved a translation route. Meeting/title metadata only; no substantive position enters the paper. Metadata gives 2025 and meeting 23–26 September 2025.",
-    "archive_status": "not_checked_nonblocking",
-    "archive_url": null
+    "notes": "Existing paper key MKI128; do not create a duplicate source. Fresh own-site capture establishes meeting/title/year metadata, but substantive Malay text remains held under D2. The meeting interval is not an exact adoption day. No English position or legal-effect inference is supplied.",
+    "human_scholarly_review": false,
+    "language_gate": "held",
+    "prior_audits": [
+      {
+        "stage": 2,
+        "key": "MKI128",
+        "aliases": [],
+        "url_checked": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
+        "final_url": "https://ciri.islam.gov.my/view/fatwa_cetak.php?id=16914",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at": "2026-10-02T18:13:51.184Z",
+        "sha256": "572f9157e2f53ee8e7780bf00748583969f32350a340a66401fca46da3ebfa7f",
+        "identity": {
+          "title": true,
+          "issuer": true,
+          "date": true
+        },
+        "date_status": "stated",
+        "date_note": "Metadata gives 2025 and meeting 23–26 September 2025.",
+        "locator_found": false,
+        "quote_expected": "",
+        "quote_found": false,
+        "original_quote_expected": "",
+        "original_quote_found": false,
+        "quote_correction": null,
+        "passages": [],
+        "host_type": "issuer",
+        "family": "MKI JAKIM",
+        "bibliographic_complete": false,
+        "claims_rechecked": [],
+        "verdict": "held",
+        "notes": "Malay text is retrieved, but D2 has not approved a translation route. Meeting/title metadata only; no substantive position enters the paper. Metadata gives 2025 and meeting 23–26 September 2025.",
+        "archive_status": "not_checked_nonblocking",
+        "archive_url": null
+      }
+    ]
   },
   {
     "key": "IIFA-AR",
@@ -1219,6 +1278,12 @@
         "result": "premise_supported",
         "locator": "First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
         "note": "Supports a documented premise only; the manufacturing extension remains the paper’s inference."
+      },
+      {
+        "id": "P-MUIS-BOOK-DONOR",
+        "result": "supported",
+        "locator": "First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
+        "note": "These are dated framework and FAQ statements; they do not establish the current certification status of a product."
       }
     ],
     "verdict": "verified_with_note",
@@ -1269,6 +1334,12 @@
         "result": "partly_supported",
         "locator": "Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
         "note": "Supports the stated institutional mechanism. The original record also contains a search-scoped non-finding that this document alone cannot establish. Retain the gap separately."
+      },
+      {
+        "id": "P-IN-APPROVAL",
+        "result": "supported",
+        "locator": "Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
+        "note": "This dated instrument does not establish completeness of current application decisions, a specific cultivated-chicken approval or halal certification."
       }
     ],
     "verdict": "verified_with_note",
@@ -1313,6 +1384,12 @@
         "result": "partly_supported",
         "locator": "Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
         "note": "Supports the stated institutional mechanism. The original record also contains a search-scoped non-finding that this document alone cannot establish. Retain the gap separately."
+      },
+      {
+        "id": "P-PK-HALAL-REMIT",
+        "result": "supported",
+        "locator": "Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
+        "note": "It does not settle the cultivated-food route or provincial responsibilities; commencement notifications for sections 17–20 remain separate."
       }
     ],
     "verdict": "verified_with_note",
@@ -1357,6 +1434,12 @@
         "result": "partly_supported",
         "locator": "PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. Sections 3.1, 4.2, 4.3 and 4.9 address cell/tissue culture, prior marketing approval, halal sources and a safety/production dossier. The English disclaimer gives Arabic precedence. Cover number 513/2020 differs from the guide and 2025 news. Do not infer a controlling current version or certificate for a named product."
+      },
+      {
+        "id": "P-SA-NOVEL-SCOPE",
+        "result": "supported",
+        "locator": "PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
+        "note": "Arabic prevails. The cover’s 513/2020 numbering conflicts with other retrieved references; no controlling current version or product certificate is inferred."
       }
     ],
     "verdict": "verified_with_note",
@@ -1401,6 +1484,12 @@
         "result": "partly_supported",
         "locator": "Both PDF pages; scope and required information",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. The guide requests production, safety and exposure information and refers to SFDA FD5031:2020. The English version is informational and Arabic prevails. Its reference number is not silently reconciled with 513/2020 or 5013."
+      },
+      {
+        "id": "P-SA-GUIDE",
+        "result": "supported",
+        "locator": "Both PDF pages; scope and required information",
+        "note": "The undated informational English guide gives Arabic precedence; its reference is not silently equated with 513/2020 or 5013."
       }
     ],
     "verdict": "verified_with_note",
@@ -1445,6 +1534,12 @@
         "result": "partly_supported",
         "locator": "News22December2025, final substantive paragraph",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. The final substantive paragraph names SFDA.FD 5013, a dedicated guideline and the SFDA Platform. This is evidence of the authority’s announcement and numbering, not a substitute for the operative Arabic regulation or product decision."
+      },
+      {
+        "id": "P-SA-ANNOUNCEMENT",
+        "result": "supported",
+        "locator": "News22December2025, final substantive paragraph",
+        "note": "This establishes the authority’s announcement, not the operative Arabic rule, a reconciliation of reference numbers or product authorization."
       }
     ],
     "verdict": "verified_with_note",
@@ -1489,6 +1584,12 @@
         "result": "partly_supported",
         "locator": "Halal certification system and Halal National Mark sections",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. The portal describes certification by Ministry-registered bodies within the UAE system and separately describes the National Mark as optional. This page does not establish the Abu Dhabi novel-food announcement or authorization of cultivated chicken."
+      },
+      {
+        "id": "P-AE-HALAL-SYSTEM",
+        "result": "supported",
+        "locator": "Halal certification system and Halal National Mark sections",
+        "note": "The optional mark does not make all certificate obligations optional. This undated page does not establish a cultivated-food approval pathway or current product certificate."
       }
     ],
     "verdict": "verified_with_note",
@@ -1572,6 +1673,12 @@
         "result": "partly_supported",
         "locator": "Who must obtain approval; safety assessments; premarket approval sections",
         "note": "Supports only this source’s component of the composite country record; split claims and use component-specific citations in the paper. The framework requires premarket approval for covered novel foods and distinguishes ongoing approval from an unconditional perpetual entitlement. It describes cancellation under the Food Safety and Security Act and safety assessment. This is separate from MUIS certification."
+      },
+      {
+        "id": "P-SG-FOOD-FRAME",
+        "result": "supported",
+        "locator": "Who must obtain approval; safety assessments; premarket approval sections",
+        "note": "Food authorization is distinct from MUIS religious guidance and halal certification; scope must be matched to a particular product."
       }
     ],
     "verdict": "verified_with_note",
@@ -1628,6 +1735,12 @@
         "result": "premise_supported",
         "locator": "PDF pp4,10,23; entries2,6,15",
         "note": "Supports a documented premise only; the manufacturing extension remains the paper’s inference."
+      },
+      {
+        "id": "P-SG-PROCESS-LIST",
+        "result": "supported",
+        "locator": "PDF pp4,10,23; entries2,6,15",
+        "note": "These are specified food-process entries, not halal certificates or evidence that every cell-bank stage is free of animal components."
       }
     ],
     "verdict": "verified_with_note",
@@ -1685,6 +1798,12 @@
         "result": "partly_supported",
         "locator": "Recognition, importation, and Trade Descriptions Order2011 sections",
         "note": "Supports the stated institutional mechanism. The original record also contains a search-scoped non-finding that this document alone cannot establish. Retain the gap separately."
+      },
+      {
+        "id": "P-MY-CERTIFIERS",
+        "result": "supported",
+        "locator": "Recognition, importation, and Trade Descriptions Order2011 sections",
+        "note": "The undated page cites an older MS1500:2009 edition; it establishes neither a current cultivated-meat certificate nor food-market authorization."
       }
     ],
     "verdict": "verified_with_note",
@@ -3568,6 +3687,12 @@
         "result": "partly_supported",
         "note": "Supports flowing/retained blood distinctions, but the gloss has origin and non-flowing qualifications; avoid a blanket exuded-blood prohibition.",
         "locator": "Vol. 1, displayed pp. 319–320, flowing blood and retained blood"
+      },
+      {
+        "id": "P-H-BLOOD-DISTINCTIONS",
+        "result": "supported",
+        "locator": "Vol. 1, displayed pp. 319–320, flowing blood and retained blood",
+        "note": "Do not turn this qualified passage into a blanket assertion about all blood exuding from edible organs or a ruling on a particular serum preparation."
       }
     ],
     "verdict": "verified_with_note",
@@ -3832,7 +3957,14 @@
     "archive_url": "",
     "human_scholarly_review": false,
     "date_status": "undated",
-    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null."
+    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null.",
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "S2",
@@ -3992,7 +4124,14 @@
     "archive_url": "",
     "human_scholarly_review": false,
     "date_status": "undated",
-    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null."
+    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null.",
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "S6",
@@ -4078,7 +4217,14 @@
     "archive_url": "",
     "human_scholarly_review": false,
     "date_status": "undated",
-    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null."
+    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null.",
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "S7",
@@ -4164,7 +4310,14 @@
     "archive_url": "",
     "human_scholarly_review": false,
     "date_status": "undated",
-    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null."
+    "date_note": "The captured digital transcription supplies no established publication date for this copy. Site copyright/current dates are not book publication dates. The print edition is not established; bibliographic.year is null.",
+    "stage3_recovery": {
+      "date": "2026-10-02",
+      "result": "none_found_within_bounded_search",
+      "reason": "The exact-phrase searches returned no matching selected passage. Inspected Shamela pages identify the work but discuss different subjects from the original cited passages. No second-library requirement is marked complete.",
+      "candidate": "working/citations/stage3-majmu-recovery-01/MAJMU-S1-SECOND.receipt.json",
+      "selected_passage_matched": false
+    }
   },
   {
     "key": "J1",
@@ -4351,6 +4504,12 @@
         "result": "partly_supported",
         "note": "Ruling 100 addresses blood contamination and non-purification by heat, based on obligatory precaution. It does not establish gelatin conditions; separate this sentence and use J8/J9 for gelatin.",
         "locator": "Rulings 93–94 and 100"
+      },
+      {
+        "id": "P-J-HEAT",
+        "result": "supported",
+        "locator": "Rulings 93–94 and 100",
+        "note": "An attributed precaution, not a statement that every purification or transformation process is identical to heating."
       }
     ],
     "verdict": "verified_with_note",
@@ -4611,6 +4770,12 @@
         "result": "supported",
         "note": "Question 1 supports the English gelatin distinctions, with minute absorption limited to the stated uncertain-slaughter case. J9 supplies the Arabic qualification that transformation is not established.",
         "locator": "Questions 1–2, references 15276 and 25550"
+      },
+      {
+        "id": "P-J-GELATIN",
+        "result": "supported",
+        "locator": "Questions 1–2, references 15276 and 25550",
+        "note": "One authority and source family. The limited uncertain-slaughter absorption answer does not license known impurity generally, and neither answer resolves every serum or enzyme process."
       }
     ],
     "verdict": "verified_with_note",
@@ -4656,6 +4821,12 @@
         "result": "supported",
         "note": "Questions 1–3 and 9 support the Arabic transformation uncertainty, known-impurity and customary-identity qualifications; J8 supplies the separately worded English answer.",
         "locator": "Questions 1–3 and 9–10; references 6042, 21250, 21251, 21976, 22199"
+      },
+      {
+        "id": "P-J-GELATIN",
+        "result": "supported",
+        "locator": "Questions 1–3 and 9–10; references 6042, 21250, 21251, 21976, 22199",
+        "note": "One authority and source family. The limited uncertain-slaughter absorption answer does not license known impurity generally, and neither answer resolves every serum or enzyme process."
       }
     ],
     "verdict": "verified_with_note",
@@ -4706,5 +4877,1595 @@
     "verdict": "verified_with_note",
     "notes": "The page explicitly identifies the corrected 1445 AH edition and volume 3; no Gregorian publication date or print page is supplied. Rulings 910–913 concern impurity and substantial harm, not a direct tayyib/khabith decision-maker test. J-Q1 remains open. Corrected 1445 AH edition, volume 3, as explicitly displayed; cited by rulings 910–913, not invented print pages. The page title identifies the corrected 1445 AH edition. No Gregorian conversion or separate publication/update day is supplied.",
     "metadata_checks": []
+  },
+  {
+    "key": "P-WAAG-AR-2024",
+    "aliases": [],
+    "url_checked": "https://waag-azhar.org/34362",
+    "final_url": "https://waag-azhar.org/34362",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_at": "2026-10-02T18:32:07.549Z",
+    "sha256": "bd474cb2ab1cec5339730b92115b6e9982dee0af0776e26776376260f561131f",
+    "receipt_path": "working/citations/stage3-b1-rulings-01/P-WAAG-AR-2024.receipt.json",
+    "capture_key": "P-WAAG-AR-2024",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "verified",
+    "date_note": "Dated publication or issue metadata verified.",
+    "locator_found": true,
+    "quote_expected": "إلا إن كان سمكا أو جرادا",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Dated article, first and final body paragraphs",
+        "text": "إلا إن كان سمكا أو جرادا"
+      },
+      {
+        "locator": "Final body paragraph",
+        "text": "يتفق مع ما أقرته هيئة كبار العلماء بالأزهر الشريف"
+      }
+    ],
+    "host_type": "issuer_owned_domain",
+    "family": "WAAG-Shoman-Jeddah-seminar-2024-09-24",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-B1-WAAG-CONDITIONS",
+        "result": "supported",
+        "note": "Supported only as an attributed publisher report; no Council resolution or product dossier is substituted.",
+        "locator": "First body paragraph and following caution"
+      },
+      {
+        "id": "P-B1-WAAG-ATTRIBUTION",
+        "result": "supported",
+        "note": "Supported only as an attributed publisher report; no Council resolution or product dossier is substituted.",
+        "locator": "Final body paragraph"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Publisher report of a named officeholder and seminar paper. Not the Council decision itself. Retain the fish/locust exception with the donor restriction. Arabic and English are one source family. No human scholarly approval.",
+    "human_scholarly_review": false,
+    "language_gate": "English_or_Arabic_authorized",
+    "continuation_rechecks": [
+      {
+        "id": "P1C3-EGY-C01",
+        "result": "supported",
+        "note": "The original report attribution is freshly supported; the original Council decision remains unlocated.",
+        "locator": "Dated article, first and final body paragraphs"
+      },
+      {
+        "id": "P1C3-EGY-C02",
+        "result": "supported",
+        "note": "The original report attribution is freshly supported; the original Council decision remains unlocated.",
+        "locator": "Dated article, first and final body paragraphs"
+      }
+    ]
+  },
+  {
+    "key": "P-WAAG-EN-2024",
+    "aliases": [],
+    "url_checked": "https://waag-azhar.org/en/25006/",
+    "final_url": "https://waag-azhar.org/en/25006/",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_at": "2026-10-02T18:32:07.601Z",
+    "sha256": "c171cf684801b45230fa00a3398e3bc5ccaa8d084d8861d8e36be3ef60a747d4",
+    "receipt_path": "working/citations/stage3-b1-rulings-01/P-WAAG-EN-2024.receipt.json",
+    "capture_key": "P-WAAG-EN-2024",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "verified",
+    "date_note": "Dated publication or issue metadata verified.",
+    "locator_found": true,
+    "quote_expected": "unless it is a fish or Locust",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Dated article, body paragraphs 1–2",
+        "text": "unless it is a fish or Locust"
+      },
+      {
+        "locator": "Final body paragraph",
+        "text": "agrees with what is endorsed by al-Azhar Council of Senior Scholars"
+      }
+    ],
+    "host_type": "issuer_owned_domain",
+    "family": "WAAG-Shoman-Jeddah-seminar-2024-09-24",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-B1-WAAG-CONDITIONS",
+        "result": "supported",
+        "note": "Supported only as an attributed publisher report; no Council resolution or product dossier is substituted.",
+        "locator": "First body paragraph and following caution"
+      },
+      {
+        "id": "P-B1-WAAG-ATTRIBUTION",
+        "result": "supported",
+        "note": "Supported only as an attributed publisher report; no Council resolution or product dossier is substituted.",
+        "locator": "Final body paragraph"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Publisher English report of Abbas Shouman, paired with Arabic report dated the previous day. Not an independently retrieved Council resolution and not independent corroboration of the Arabic report. The unusual headline is reproduced without correcting it.",
+    "human_scholarly_review": false,
+    "language_gate": "English_or_Arabic_authorized"
+  },
+  {
+    "key": "P-BANURI-2019",
+    "aliases": [],
+    "url_checked": "https://www.banuri.edu.pk/readquestion/%D9%84%DB%8C%D8%A8%D8%A7%D8%B1%D9%B9%D8%B1%DB%8C-%D9%85%DB%8C%DA%BA-%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B4%D8%AF%DB%81-%DA%AF%D9%88%D8%B4%D8%AA-%DA%A9%D8%A7-%D8%AD%DA%A9%D9%85-144012201327/17-09-2019",
+    "final_url": "https://www.banuri.edu.pk/readquestion/144012201327/17-09-2019",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_at": "2026-10-02T18:32:24.048Z",
+    "sha256": "ac6e819c6987f830b3a3d714cb2506eaacca5ccbdfd4aaa69dad86541e643447",
+    "receipt_path": "working/citations/stage3-b1-rulings-01/P-BANURI-2019.receipt.json",
+    "capture_key": "P-BANURI-2019",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "verified",
+    "date_note": "Raw HTML JSON-LD datePublished verified.",
+    "locator_found": true,
+    "quote_expected": "فتویٰ نمبر : 144012201327",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Answer 144012201327; JSON-LD datePublished",
+        "text": "فتویٰ نمبر : 144012201327"
+      }
+    ],
+    "host_type": "issuer_owned_domain",
+    "family": "Banuri Town Darul Iftaa",
+    "bibliographic_complete": true,
+    "claims_rechecked": [],
+    "verdict": "held",
+    "notes": "The full original answer is now retrieved. Raw HTML JSON-LD establishes datePublished 2019-09-17T11:36:41+02:00 and the answer identifier. Substantive Urdu remains outside the approved English/Arabic lane. Banuri is distinct from Pakistan CII and Darul Uloom Deoband. No translation or new substantive ruling claim is approved.",
+    "human_scholarly_review": false,
+    "language_gate": "held",
+    "continuation_rechecks": [
+      {
+        "id": "P1C8-C05",
+        "result": "held",
+        "note": "Original full text and date retrieved, but no approved Urdu reader/translation lane. Do not promote the prior snippet-derived substantive assertion.",
+        "locator": "Answer 144012201327; JSON-LD datePublished"
+      }
+    ]
+  },
+  {
+    "key": "P-LPPOM-MUI-2023",
+    "aliases": [],
+    "url_checked": "https://halalmui.org/wp-content/uploads/2023/07/Jurnal-Halal-162.pdf",
+    "final_url": "https://halalmui.org/wp-content/uploads/2023/07/Jurnal-Halal-162.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:32:24.058Z",
+    "sha256": "d4b6406b7790555334ad64327c671ae9e39805e08082c15ca392f59e70299a1f",
+    "receipt_path": "working/citations/stage3-b1-rulings-01/P-LPPOM-MUI-2023.receipt.json",
+    "capture_key": "P-LPPOM-MUI-2023",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "verified",
+    "date_note": "Dated publication or issue metadata verified.",
+    "locator_found": true,
+    "quote_expected": "No. 162/2023",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Cover metadata; cultured-meat discussion at PDF/printed p.38",
+        "text": "No. 162/2023"
+      }
+    ],
+    "host_type": "issuer_owned_domain",
+    "family": "LPPOM MUI Jurnal Halal 162",
+    "bibliographic_complete": true,
+    "claims_rechecked": [],
+    "verdict": "held",
+    "notes": "A publisher magazine, not a MUI Fatwa Commission resolution. Indonesian remains held under D2. The p.38 statement about fatwa availability is historical publisher commentary and must not be converted into a present-day absence-of-ruling claim. Publisher year/issue and PDF passage are retrieved; no substantive English claim added.",
+    "human_scholarly_review": false,
+    "language_gate": "held"
+  },
+  {
+    "key": "B4-CELLS",
+    "aliases": [],
+    "url_checked": "https://mdpi-res.com/d_attachment/ijms/ijms-22-07513/article_deploy/ijms-22-07513.pdf",
+    "final_url": "https://mdpi-res.com/d_attachment/ijms/ijms-22-07513/article_deploy/ijms-22-07513.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:26:13.887Z",
+    "sha256": "bac26e3b86641d2e4427acf42305eae1c03b85757ef30350fa484dade61db75f",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "The first step in this workflow is sourcing cells",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Introduction and Figure 1, pages 2–3; section 3.2",
+        "text": "The first step in this workflow is sourcing cells"
+      }
+    ],
+    "host_type": "publisher",
+    "family": "Reiss et al. 2021 process review",
+    "bibliographic_complete": true,
+    "doi": "10.3390/ijms22147513",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works?query.title=Cell%20Sources%20for%20Cultivated%20Meat%3A%20Applications%20and%20Considerations%20throughout%20the%20Production%20Workflow&rows=2",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:26:06.517Z",
+        "sha256": "93f2ea5c966890a6d377e2d9d8b132ab000806e0f30dc8cf66a7eb0d7a167da7",
+        "capture_receipt": "working/citations/stage3-scholarship-process-query-01/B4-CELLS-CROSSREF.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            13
+          ]
+        ]
+      },
+      "print": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            13
+          ]
+        ]
+      },
+      "date_note": "The single additional review was discovered through search and matched through a Crossref title query. Publisher PDF captured and read at the introductory workflow, Figure 1 and section 3.2. Published 13 July 2021. The MDPI landing page and version-notes requests returned shells; neither is counted as content retrieval. The review describes tissue-biopsy/post-mortem primary cells and pluripotent-cell alternatives, enrichment, expansion and scaffold maturation. It does not supply this candidate with evidence of a cell-bank stage or every possible harvest/processing method. Root should use audited product/process records for those details."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-PROCESS-REISS21",
+        "result": "supported",
+        "note": "A general workflow in a 2021 review, not a universal recipe or description of any certified product. Cell banking and product-specific harvest/processing claims require other evidence. Neither donor sourcing nor medium purity alone establishes halal status.",
+        "locator": "Introduction and Figure 1, pages 2–3; section 3.2"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "The single additional review was discovered through search and matched through a Crossref title query. Publisher PDF captured and read at the introductory workflow, Figure 1 and section 3.2. Published 13 July 2021. The MDPI landing page and version-notes requests returned shells; neither is counted as content retrieval. The review describes tissue-biopsy/post-mortem primary cells and pluripotent-cell alternatives, enrichment, expansion and scaffold maturation. It does not supply this candidate with evidence of a cell-bank stage or every possible harvest/processing method. Root should use audited product/process records for those details.",
+    "reading_scope": "full_text_scoped_passages",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": null,
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Dynamic publisher version-history pages may be unavailable; absence of a found notice is not a guarantee of an unchanged publication."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/B4-CELLS-PDF.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://www.mdpi.com/1422-0067/22/14/7513",
+        "http_status": 200,
+        "content_type": "text/html",
+        "retrieved_at": "2026-10-02T18:26:13.886Z",
+        "sha256": "e11b95d121d069966696df227419c284aaf9ed82000b010b78adebaf57526e6c",
+        "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/B4-CELLS-PUB.receipt.json",
+        "verdict": "not_retrieved"
+      },
+      {
+        "url": "https://www.mdpi.com/1422-0067/22/14/7513/notes",
+        "http_status": 200,
+        "content_type": "text/html",
+        "retrieved_at": "2026-10-02T18:29:08.715Z",
+        "sha256": "020a57eee07737a098a31588f8a31550780880dd5196e0d07994d6b4c1045510",
+        "capture_receipt": "working/citations/stage3-scholarship-notes-01/B4-CELLS-NOTES.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-006",
+    "aliases": [],
+    "url_checked": "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/",
+    "final_url": "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "retrieved_at": "2026-10-02T18:26:13.884Z",
+    "sha256": "1221b7203ecb6a8183340176cb390223b3f3288a0bbb880cc678bc1d051a95c2",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "no blood or serum is used in the process",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Institutional publication record, Abstract",
+        "text": "no blood or serum is used in the process"
+      }
+    ],
+    "host_type": "institutional_repository",
+    "family": "Hamdan et al. 2018 article",
+    "bibliographic_complete": true,
+    "doi": "10.1007/s10943-017-0403-3",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works/10.1007%2Fs10943-017-0403-3",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:24:20.392Z",
+        "sha256": "79f59e0f00163404d818705205d46858063b5c3615ca2a697b4b7d2a02b34d46",
+        "capture_receipt": "working/citations/stage3-scholarship-doi-01/HS-006-DOI.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2017,
+            4,
+            29
+          ]
+        ]
+      },
+      "print": {
+        "date-parts": [
+          [
+            2018,
+            12
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            4,
+            29
+          ]
+        ]
+      },
+      "date_note": "The Maastricht University author publication record supplies the abstract and bibliographic identity. Springer article and PDF requests returned a client challenge; their HTTP 200 responses are not full-text retrieval. Crossref gives online publication 29 April 2017 and print issue December 2018. Cite 2018 for volume 57, issue 6. Only the abstract proposition is admitted; the full reasoning and cited authorities have not been reviewed."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-HAMDAN18",
+        "result": "supported",
+        "note": "Abstract-only reading from an author institution record. This is an attributed scholarly proposition, not a ruling by an institution, a whole-school position or certification of a process.",
+        "locator": "Institutional publication record, Abstract"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "The Maastricht University author publication record supplies the abstract and bibliographic identity. Springer article and PDF requests returned a client challenge; their HTTP 200 responses are not full-text retrieval. Crossref gives online publication 29 April 2017 and print issue December 2018. Cite 2018 for volume 57, issue 6. Only the abstract proposition is admitted; the full reasoning and cited authorities have not been reviewed.",
+    "reading_scope": "abstract_only",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": {},
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Full body was not reviewed for notices; abstract/header and available publisher/index metadata only."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-006-INSTITUTION.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10943-017-0403-3",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at": "2026-10-02T18:24:19.886Z",
+        "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-006-PUB.receipt.json",
+        "verdict": "not_retrieved"
+      },
+      {
+        "url": "http://link.springer.com/content/pdf/10.1007/s10943-017-0403-3.pdf",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at": "2026-10-02T18:26:12.767Z",
+        "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+        "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-006-PDF.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-007",
+    "aliases": [],
+    "url_checked": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11004531/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11004531/fullTextXML",
+    "http_status": 200,
+    "content_type": "application/xml",
+    "retrieved_at": "2026-10-02T18:24:19.927Z",
+    "sha256": "9fc705b36b5dd6249bc8bf4155dd440a4033d2858a2d3cbaec72e5833fe5c930",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "This transformation is known as istihalah (complete transformation)",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Section 4.2, Second: the status and source of stem cells used in the cell culture process",
+        "text": "This transformation is known as istihalah (complete transformation)"
+      }
+    ],
+    "host_type": "recognized_digital_library",
+    "family": "Hamdan et al. 2024 review",
+    "bibliographic_complete": true,
+    "doi": "10.1016/j.heliyon.2024.e28491",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works?query.bibliographic=A%20review%20of%20the%20discussions%20on%20cultivated%20meat%20from%20the%20Islamic%20perspective&rows=3",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:23:12.715Z",
+        "sha256": "a6d646422227f253ba0f11c67a2ff49941212f3c849e91dd91d9142ff89d6189",
+        "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-007-CROSSREF.receipt.json"
+      },
+      "online": null,
+      "print": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      },
+      "date_note": "Actual article XML captured from Europe PMC; the ScienceDirect request returned 403. Methods, section 4.2, section 4.4 and conclusion were reviewed. This review includes scholarly articles, news, interviews and personal opinions, so its references do not all have equal authority. Its search ends on 3 March 2023, before MUIS 2024 and IIFA 2025. The egg-embryo argument is these authors’ application of transformation, not a new independently verified consensus. Article XML gives electronic publication 2 April 2024 and collection date 15 April 2024; Crossref gives April 2024."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-HAMDAN24-METHOD",
+        "result": "supported",
+        "note": "A description of this review’s selection method. Its literature cutoff does not establish later institutional positions, and its mixed source types cannot be counted as independent legal authorities of equal weight.",
+        "locator": "Section 3, Methods"
+      },
+      {
+        "id": "P-LIT-HAMDAN24-EMBRYO",
+        "result": "supported",
+        "note": "The cultivated-meat application is the reviewed authors’ reasoning. Their reported agreement concerning eggs is not promoted to consensus on cultivated meat. No particular product is certified by the article.",
+        "locator": "Section 4.2, Second: the status and source of stem cells used in the cell culture process"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Actual article XML captured from Europe PMC; the ScienceDirect request returned 403. Methods, section 4.2, section 4.4 and conclusion were reviewed. This review includes scholarly articles, news, interviews and personal opinions, so its references do not all have equal authority. Its search ends on 3 March 2023, before MUIS 2024 and IIFA 2025. The egg-embryo argument is these authors’ application of transformation, not a new independently verified consensus. Article XML gives electronic publication 2 April 2024 and collection date 15 April 2024; Crossref gives April 2024.",
+    "reading_scope": "full_text_scoped_passages",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": null,
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Dynamic publisher version-history pages may be unavailable; absence of a found notice is not a guarantee of an unchanged publication."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-007-PMC.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405844024045225",
+        "http_status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at": "2026-10-02T18:24:19.927Z",
+        "sha256": "6fc40b5512c15a87cf3721e1275b7da3bab8affef60ef02c5da5ed166bba6262",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-007-PUB.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-008",
+    "aliases": [],
+    "url_checked": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9712126/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9712126/fullTextXML",
+    "http_status": 200,
+    "content_type": "application/xml",
+    "retrieved_at": "2026-10-02T18:26:05.435Z",
+    "sha256": "89234d5abd1cebd4e0fdfbba14bf753bd2d141d0dcbef8719671e4f7bd0a689c",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "however, this depends on the opinions of different Islamic scholars",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Section 6.1, Permissibility of cultured meat to be consumed, Principle 4; section 7, Conclusion",
+        "text": "however, this depends on the opinions of different Islamic scholars"
+      }
+    ],
+    "host_type": "recognized_digital_library",
+    "family": "Kashim et al. 2023 article",
+    "bibliographic_complete": true,
+    "doi": "10.1016/j.sjbs.2022.103501",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works?query.bibliographic=Scientific%20and%20Islamic%20perspectives%20in%20relation%20to%20the%20Halal%20status%20of%20cultured%20meat&rows=3",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:23:12.715Z",
+        "sha256": "4ce3012e146529edfb8f00557c6ef0ba87cb0b4f6a8bdfd42ba42c901e6b4780",
+        "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-008-CROSSREF.receipt.json"
+      },
+      "online": null,
+      "print": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "date_note": "Actual article XML captured from Europe PMC; ScienceDirect returned 403. The source appeared online on 15 November 2022 but is in volume 30, issue 1, January 2023. Correct the issue citation year to 2023 while retaining 2022 as online-publication lineage. Section 6 conditionally suggests that serum-grown cells could qualify through complete transformation, contrasts a rinsing argument, reports restrictive serum standards and recommends avoiding serum. The conclusion requires suitable cell sourcing and halal media/scaffolds. Do not collapse those qualifications into unconditional permission for serum."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-KASHIM23",
+        "result": "supported",
+        "note": "This is the authors’ qualified analysis in section 6 and the conclusion. It is neither proof that any actual culture process achieves complete transformation nor an institutional permission to consume serum. The article’s broad summaries of schools are not substitutes for the primary texts.",
+        "locator": "Section 6.1, Permissibility of cultured meat to be consumed, Principle 4; section 7, Conclusion"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Actual article XML captured from Europe PMC; ScienceDirect returned 403. The source appeared online on 15 November 2022 but is in volume 30, issue 1, January 2023. Correct the issue citation year to 2023 while retaining 2022 as online-publication lineage. Section 6 conditionally suggests that serum-grown cells could qualify through complete transformation, contrasts a rinsing argument, reports restrictive serum standards and recommends avoiding serum. The conclusion requires suitable cell sourcing and halal media/scaffolds. Do not collapse those qualifications into unconditional permission for serum.",
+    "reading_scope": "full_text_scoped_passages",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": null,
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Dynamic publisher version-history pages may be unavailable; absence of a found notice is not a guarantee of an unchanged publication."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-008-PMC.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S1319562X2200417X",
+        "http_status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at": "2026-10-02T18:24:24.811Z",
+        "sha256": "f7cbf5b5451ba302e4f62d24af1655a8762a5894b9474a0fd4485d3a776431d7",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-008-PUB.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-009",
+    "aliases": [],
+    "url_checked": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML",
+    "http_status": 200,
+    "content_type": "application/xml",
+    "retrieved_at": "2026-10-02T18:26:12.765Z",
+    "sha256": "c71d4b451dde5dee682f3469f0b6e1486293fc15a15ac542661e5d190dce4039",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "absence of empirical data from halal-certified cultured meat production systems",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Section 6, Conclusions",
+        "text": "absence of empirical data from halal-certified cultured meat production systems"
+      }
+    ],
+    "host_type": "recognized_digital_library",
+    "family": "Alqurashi et al. 2026 article",
+    "bibliographic_complete": true,
+    "doi": "10.3390/foods15081288",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20Meat%20and%20Its%20Acceptability%20in%20Muslim%20Societies%3A%20A%20Narrative%20Perspective%20on%20Halal%20Perspectives%20and%20Regulatory%20Challenges&rows=3",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:23:13.192Z",
+        "sha256": "ea1135b2c09755b5515492a0088013c8a9ecb6632f22755530bfd2fa3691d478",
+        "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-009-CROSSREF.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "print": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "date_note": "Europe PMC full XML and publisher PDF were captured. The MDPI landing page and version-notes requests returned JavaScript shells; those attempts remain not_retrieved. Publication date is 9 April 2026. Barbara Poniedziałek is the fourth author, omitted in the discovery summary. Sections 3–6 and Table 1 were reviewed. This is a narrative perspective whose authors explicitly limit their conclusions by missing empirical production evidence and unsettled religious interpretation. Do not copy its 17–56% acceptance range: Table 1 describes 56% doubts, rather than acceptance, in one cited Malaysian sample. Individual underlying surveys were not re-audited."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-ALQURASHI26",
+        "result": "supported",
+        "note": "This describes the article’s framework and self-stated evidential limits. It does not establish a market acceptance rate, an actual halal certificate, consensus or the validity of every institutional statement summarized in the article.",
+        "locator": "Section 6, Conclusions"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Europe PMC full XML and publisher PDF were captured. The MDPI landing page and version-notes requests returned JavaScript shells; those attempts remain not_retrieved. Publication date is 9 April 2026. Barbara Poniedziałek is the fourth author, omitted in the discovery summary. Sections 3–6 and Table 1 were reviewed. This is a narrative perspective whose authors explicitly limit their conclusions by missing empirical production evidence and unsettled religious interpretation. Do not copy its 17–56% acceptance range: Table 1 describes 56% doubts, rather than acceptance, in one cited Malaysian sample. Individual underlying surveys were not re-audited.",
+    "reading_scope": "full_text_scoped_passages",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": null,
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Dynamic publisher version-history pages may be unavailable; absence of a found notice is not a guarantee of an unchanged publication."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-009-PMC.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://mdpi-res.com/d_attachment/foods/foods-15-01288/article_deploy/foods-15-01288.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "retrieved_at": "2026-10-02T18:26:12.758Z",
+        "sha256": "d2bc2237231cb61ca55cb57dd7391e6958a8641877d4407cb371386be6897384",
+        "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-009-PDF.receipt.json",
+        "verdict": "reviewed_for_identity_or_context"
+      },
+      {
+        "url": "https://www.mdpi.com/2304-8158/15/8/1288",
+        "http_status": 200,
+        "content_type": "text/html",
+        "retrieved_at": "2026-10-02T18:24:24.816Z",
+        "sha256": "2e398856dfa71450c05ba59f5dd5c0d1c6f2e571e010e166c71a43c0bdb58dcc",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-009-PUB.receipt.json",
+        "verdict": "not_retrieved"
+      },
+      {
+        "url": "https://www.mdpi.com/2304-8158/15/8/1288/notes",
+        "http_status": 200,
+        "content_type": "text/html",
+        "retrieved_at": "2026-10-02T18:29:08.761Z",
+        "sha256": "ff96761f2d17307cbd8ae5b161e71f95efd0e5ad4f1833d4c98d1ab14784ffb6",
+        "capture_receipt": "working/citations/stage3-scholarship-notes-01/HS-009-NOTES.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-010",
+    "aliases": [],
+    "url_checked": "https://journals.iium.edu.my/inst/index.php/hs/article/view/122",
+    "final_url": "https://journals.iium.edu.my/inst/index.php/hs/article/view/122",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_at": "2026-10-02T18:24:24.818Z",
+    "sha256": "832614cec11a073044c278100495a69076fbbd3538f147d474a7e58ce69b3f5e",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "cultured meat does not meet the criteria for halal status under current Islamic jurisprudence.",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "Publisher abstract; article sections 2 and 8–10, pages 53–61",
+        "text": "cultured meat does not meet the criteria for halal status under current Islamic jurisprudence."
+      }
+    ],
+    "host_type": "publisher",
+    "family": "Alzeer et al. 2025 article",
+    "bibliographic_complete": true,
+    "doi": "10.31436/hs.v5i2.122",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works/10.31436%2Fhs.v5i2.122",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:24:39.869Z",
+        "sha256": "dc032acb3645e278d3a3d56df4099418a590a6f6161e976670ab9e2eadf735da",
+        "capture_receipt": "working/citations/stage3-scholarship-doi-02/HS-010-DOI.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            31
+          ]
+        ]
+      },
+      "print": null,
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            31
+          ]
+        ]
+      },
+      "date_note": "Publisher landing page and full PDF captured. Published 31 July 2025. Crossref, publisher citation and PDF first page identify Halalsphere 5(2):53–61; later PDF running heads identify volume 6(2). Retain 5(2) as the publisher/Crossref citation with this internal discrepancy disclosed. The authors characterize the work as a qualitative narrative review and identify their conclusions as their interpretation. Their restrictive position rests partly on their own account of zabiha, biological function and spiritual integrity; those premises are not independently established scientific facts or an institutional ruling."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-ALZEER25",
+        "result": "supported",
+        "note": "Attribute this conclusion to these three authors. Their interpretation does not establish the position of all Islamic jurisprudence, overturn named institutional rulings, or establish their biological and spiritual premises as consensus.",
+        "locator": "Publisher abstract; article sections 2 and 8–10, pages 53–61"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Publisher landing page and full PDF captured. Published 31 July 2025. Crossref, publisher citation and PDF first page identify Halalsphere 5(2):53–61; later PDF running heads identify volume 6(2). Retain 5(2) as the publisher/Crossref citation with this internal discrepancy disclosed. The authors characterize the work as a qualitative narrative review and identify their conclusions as their interpretation. Their restrictive position rests partly on their own account of zabiha, biological function and spiritual integrity; those premises are not independently established scientific facts or an institutional ruling.",
+    "reading_scope": "full_text_scoped_passages",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": {},
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Dynamic publisher version-history pages may be unavailable; absence of a found notice is not a guarantee of an unchanged publication."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-010-PUB.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://journals.iium.edu.my/inst/index.php/hs/article/download/122/118",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "retrieved_at": "2026-10-02T18:26:05.389Z",
+        "sha256": "2b6af0794034cebe8828b9ea5c320fb7b9bc31b884969a1c84ad1569dfc3e964",
+        "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-010-PDF.receipt.json",
+        "verdict": "reviewed_for_identity_or_context"
+      }
+    ]
+  },
+  {
+    "key": "HS-011",
+    "aliases": [],
+    "url_checked": "https://al-kindipublisher.com/index.php/ijcrs/article/download/7419/6237",
+    "final_url": "https://al-kindipublisher.com/index.php/ijcrs/article/download/7419/6237",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:26:05.434Z",
+    "sha256": "76dbcb6ce21ffacaa53f8a2791fca16b67249c2573bf291a4ffd7e56b06fa873",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "istihalah can be a means of purifying impurities",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "English abstract, page 45",
+        "text": "istihalah can be a means of purifying impurities"
+      }
+    ],
+    "host_type": "publisher",
+    "family": "Baserat and Enayat 2024 article",
+    "bibliographic_complete": true,
+    "doi": "10.32996/ijcrs.2024.4.1.5",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works/10.32996%2Fijcrs.2024.4.1.5",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:25:00.767Z",
+        "sha256": "3a082b55847a47b700d93a65353a708acf0711c4ff37d65d6d69a5f4b3bd3306",
+        "capture_receipt": "working/citations/stage3-scholarship-doi-03/HS-011-DOI.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            13
+          ]
+        ]
+      },
+      "print": null,
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            13
+          ]
+        ]
+      },
+      "date_note": "The original consensus.app discovery link was resolved to the publisher page, Crossref DOI and publisher PDF. Published 13 June 2024. Only the English abstract on page 45 supports this candidate; the Arabic body is not promoted as read. The abstract favors purification through transformation and summarizes disagreements. Its broad school labels must not replace the paper’s edition-specific primary-source account."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-BASERAT24",
+        "result": "supported",
+        "note": "English-abstract scope only. The article’s body is Arabic and has not been reviewed here. This is a statement of the authors’ conclusion, not independent confirmation of each school-level generalization or of cultivated-meat permissibility.",
+        "locator": "English abstract, page 45"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "The original consensus.app discovery link was resolved to the publisher page, Crossref DOI and publisher PDF. Published 13 June 2024. Only the English abstract on page 45 supports this candidate; the Arabic body is not promoted as read. The abstract favors purification through transformation and summarizes disagreements. Its broad school labels must not replace the paper’s edition-specific primary-source account.",
+    "reading_scope": "abstract_only",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": {},
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Full body was not reviewed for notices; abstract/header and available publisher/index metadata only."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-011-PDF2.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://al-kindipublisher.com/index.php/ijcrs/article/view/7419",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at": "2026-10-02T18:24:26.938Z",
+        "sha256": "153b20bd7e4d7726e8695ab8655f4ce429715fdbc46e3872a911cdc836f12b28",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-011-PUB.receipt.json",
+        "verdict": "reviewed_for_identity_or_context"
+      },
+      {
+        "url": "https://al-kindipublishers.org/index.php/ijcrs/article/download/7419/6237",
+        "http_status": null,
+        "content_type": null,
+        "retrieved_at": "2026-10-02T18:24:26.941Z",
+        "sha256": null,
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-011-PDF.receipt.json",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "key": "HS-012",
+    "aliases": [],
+    "url_checked": "https://api.crossref.org/works/10.31838%2Fjcr.07.05.206",
+    "final_url": "https://api.crossref.org/works/10.31838%2Fjcr.07.05.206",
+    "http_status": 404,
+    "content_type": "text/plain",
+    "retrieved_at": "2026-10-02T18:25:40.690Z",
+    "sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+    "identity": {
+      "title": false,
+      "issuer": false,
+      "date": false
+    },
+    "locator_found": false,
+    "quote_expected": null,
+    "quote_found": false,
+    "passages": [],
+    "host_type": "bibliographic_index",
+    "family": "Unresolved Kashim 2020 discovery record",
+    "bibliographic_complete": false,
+    "doi": null,
+    "crossref_match": {
+      "matched": false,
+      "doi_candidate": "10.31838/jcr.07.05.206",
+      "exact_doi_status": 404,
+      "title_query": {
+        "url": "https://api.crossref.org/works?query.bibliographic=Principles%20regarding%20the%20use%20of%20haram%20sources%20in%20modern%20food%20products%3A%20an%20Islamic%20perspective&rows=3",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:26:27.457Z",
+        "sha256": "3ff9b7ba62c5f5774d51fc71e3dee77131c4e4a4178a79a399e4bfa7cae8be9f",
+        "capture_receipt": "working/citations/stage3-scholarship-crossref-03/HS-012-CROSSREF.receipt.json"
+      },
+      "note": "The discovery title/year was not resolved to a publisher article in this bounded session. A secondary lead supplied DOI 10.31838/jcr.07.05.206; its Crossref work endpoint and DOI resolver both returned 404. An exact-title Crossref query returned a different 2015 article among its three results. That work is not silently substituted. This does not establish that the 2020 article does not exist."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-KASHIM20-UNRESOLVED",
+        "result": "not_retrieved",
+        "note": "The discovery title/year was not resolved to a publisher article in this bounded session. A secondary lead supplied DOI 10.31838/jcr.07.05.206; its Crossref work endpoint and DOI resolver both returned 404. An exact-title Crossref query returned a different 2015 article among its three results. That work is not silently substituted. This does not establish that the 2020 article does not exist.",
+        "locator": "No verified article locator"
+      }
+    ],
+    "verdict": "not_retrieved",
+    "notes": "The discovery title/year was not resolved to a publisher article in this bounded session. A secondary lead supplied DOI 10.31838/jcr.07.05.206; its Crossref work endpoint and DOI resolver both returned 404. An exact-title Crossref query returned a different 2015 article among its three results. That work is not silently substituted. This does not establish that the 2020 article does not exist.",
+    "correction_retraction_check": {
+      "status": "not_completed_identity_unresolved",
+      "scope": "No verified publisher identity to check; no claim about correction or retraction status."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-doi-05/HS-012-DOI.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://doi.org/10.31838/jcr.07.05.206",
+        "http_status": 404,
+        "content_type": "text/html;charset=utf-8",
+        "retrieved_at": "2026-10-02T18:24:26.948Z",
+        "sha256": "81112a94353200facce81ecf7afc4cbf425438a0289264cd9762679e6b56d9ba",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-012-DOI-RESOLVE.receipt.json"
+      },
+      {
+        "url": "https://doi.org/10.31838/jcr.07.05.206",
+        "http_status": 404,
+        "content_type": "text/html;charset=utf-8",
+        "retrieved_at": "2026-10-02T18:28:41.826Z",
+        "sha256": "81112a94353200facce81ecf7afc4cbf425438a0289264cd9762679e6b56d9ba",
+        "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-012-RESOLVE.receipt.json"
+      }
+    ]
+  },
+  {
+    "key": "HS-024",
+    "aliases": [],
+    "url_checked": "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/download/2731/2002/8599",
+    "final_url": "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/download/2731/2002/8599",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:24:27.622Z",
+    "sha256": "24a1fc01d813e246cc289c88cfd2bd75fe0c4265f83589d6eb93dfe322146454",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "locator_found": true,
+    "quote_expected": "physical, chemical, and physical-chemical transformations",
+    "quote_found": true,
+    "normalization": "nfc+ws+quotes+dashes+arabic",
+    "passages": [
+      {
+        "locator": "English abstract, page 1",
+        "text": "physical, chemical, and physical-chemical transformations"
+      }
+    ],
+    "host_type": "publisher",
+    "family": "Miswanto and Musaffa 2023 article",
+    "bibliographic_complete": true,
+    "doi": "10.14421/azzarqa.v15i1.2731",
+    "crossref_match": {
+      "matched": true,
+      "title": true,
+      "author": true,
+      "year": true,
+      "journal": true,
+      "metadata": {
+        "url": "https://api.crossref.org/works/10.14421%2Fazzarqa.v15i1.2731",
+        "http_status": 200,
+        "content_type": "application/json",
+        "retrieved_at": "2026-10-02T18:25:18.701Z",
+        "sha256": "1cfa6fb0b63ac8682928e72a4b3860d08682dc8b30b739123066a1de25f34d9f",
+        "capture_receipt": "working/citations/stage3-scholarship-doi-04/HS-024-DOI.receipt.json"
+      },
+      "online": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            4
+          ]
+        ]
+      },
+      "print": null,
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            4
+          ]
+        ]
+      },
+      "date_note": "Publisher landing page and PDF match the full title, both authors, DOI and year. The PDF issue header says June 2023; Crossref dates the article publication 4 October 2023. Cite 2023 and preserve the issue/article metadata distinction without inventing a single exact publication day. Only the publisher-provided English abstract was reviewed for the proposition below. The Indonesian body remains outside evidence under the current language boundary; no translation was generated. The abstract’s examples and classification are author proposals, not an independently validated taxonomy of all schools."
+    },
+    "archive_url": "",
+    "archive_status": "not_checked_nonblocking",
+    "claims_rechecked": [
+      {
+        "id": "P-LIT-MISWANTO23",
+        "result": "supported",
+        "note": "An abstract-only account of the authors’ classification. The Indonesian body is not used as evidence, and the classification does not prove that cell multiplication or any named cultivation process meets a legal transformation test.",
+        "locator": "English abstract, page 1"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Publisher landing page and PDF match the full title, both authors, DOI and year. The PDF issue header says June 2023; Crossref dates the article publication 4 October 2023. Cite 2023 and preserve the issue/article metadata distinction without inventing a single exact publication day. Only the publisher-provided English abstract was reviewed for the proposition below. The Indonesian body remains outside evidence under the current language boundary; no translation was generated. The abstract’s examples and classification are author proposals, not an independently validated taxonomy of all schools.",
+    "reading_scope": "abstract_only",
+    "correction_retraction_check": {
+      "status": "none_found_in_records_checked",
+      "checked_on": "2026-10-02",
+      "scope": "Matched Crossref work metadata, captured article or abstract/header, and DOI-specific publisher-domain notice search. Negative finding is bounded to these checks.",
+      "crossref_relation": {},
+      "crossref_update_to": null,
+      "publisher_notice_found": false,
+      "limitations": "Full body was not reviewed for notices; abstract/header and available publisher/index metadata only."
+    },
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-024-PDF.receipt.json",
+    "supplemental_checks": [
+      {
+        "url": "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/view/2731",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at": "2026-10-02T18:24:27.621Z",
+        "sha256": "0497004a2fc047f536c7e1ad9641fe17751bbfb78ae79091eb84632cb9f40bdb",
+        "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-024-PUB.receipt.json",
+        "verdict": "reviewed_for_identity_or_context"
+      }
+    ]
+  },
+  {
+    "key": "P-GEO-MY505",
+    "aliases": [],
+    "url_checked": "https://muftiwp.gov.my/images/archive/akta_pekeliling/Act_505-Admistration_of_Islamic_Law__Federal_Territories_Act_1993.pdf",
+    "final_url": "https://muftiwp.gov.my/images/archive/akta_pekeliling/Act_505-Admistration_of_Islamic_Law__Federal_Territories_Act_1993.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:12.224Z",
+    "sha256": "2f4366d6993686a74cb0f98841d079a4e3e46553d62e60f9b36b492a3e3f056c",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-MY505.receipt.json",
+    "capture_key": "P-GEO-MY505",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "accepted views (qaul muktamad) of the Mazhab Syafie.",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Reprint as at 1 January 2013, section 39, printed p.28",
+        "text": "accepted views (qaul muktamad) of the Mazhab Syafie."
+      }
+    ],
+    "host_type": "issuer",
+    "family": "P-GEO-MY505",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-MY505-CLAIM",
+        "result": "supported",
+        "note": "Federal Territories procedure in this dated reprint; neither a population estimate nor a rule for every Malaysian state or a cultivated-meat certificate.",
+        "locator": "Reprint as at 1 January 2013, section 39, printed p.28"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Federal Territories procedure in this dated reprint; neither a population estimate nor a rule for every Malaysian state or a cultivated-meat certificate.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-PKCONST",
+    "aliases": [],
+    "url_checked": "https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf",
+    "final_url": "https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:12.275Z",
+    "sha256": "1a6740ea1af759b4baa5ddf50ef9a242475876eaa5e996f765dff8f0ecd170f1",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-PKCONST.receipt.json",
+    "capture_key": "P-GEO-PKCONST",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "so far as practicable various schools of thought are",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Articles 227–230, printed pp.139–141; edition through the Twenty-Seventh Amendment",
+        "text": "so far as practicable various schools of thought are"
+      }
+    ],
+    "host_type": "issuer",
+    "family": "P-GEO-PKCONST",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-PKCONST-CLAIM",
+        "result": "supported",
+        "note": "These provisions do not establish the population share of a school, a cultivated-meat ruling or food authorization. No national school is assigned from them.",
+        "locator": "Articles 227–230, printed pp.139–141; edition through the Twenty-Seventh Amendment"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "These provisions do not establish the population share of a school, a cultivated-meat ruling or food authorization. No national school is assigned from them.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-SA-BASIC",
+    "aliases": [],
+    "url_checked": "https://www.constituteproject.org/constitution/Saudi_Arabia_2005.pdf",
+    "final_url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2005.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:15.509Z",
+    "sha256": "30c0ccc6b966ff7628d2d81bc39982faa2b53c52c5e90ec681889ced06c3df39",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-SA-BASIC.receipt.json",
+    "capture_key": "P-GEO-SA-BASIC",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "The source of Ifta (religious ruling) in the Kingdom of Saudi Arabia",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Basic Law articles 1 and 45, PDF pp.4 and 9; generated 30 June 2026",
+        "text": "The source of Ifta (religious ruling) in the Kingdom of Saudi Arabia"
+      }
+    ],
+    "host_type": "constitutional_text_repository",
+    "family": "P-GEO-SA-BASIC",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-SA-BASIC-CLAIM",
+        "result": "supported",
+        "note": "The specified 1992/2005 text is not a full audit of current Saudi legislation. Its institutional provisions are distinct from a demographic or legal-practice description.",
+        "locator": "Basic Law articles 1 and 45, PDF pp.4 and 9; generated 30 June 2026"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "The specified 1992/2005 text is not a full audit of current Saudi legislation. Its institutional provisions are distinct from a demographic or legal-practice description.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-SOUTHASIA",
+    "aliases": [],
+    "url_checked": "https://assets.publishing.service.gov.uk/media/57a08b32ed915d3cfd000bc6/working_paper_50.pdf",
+    "final_url": "https://assets.publishing.service.gov.uk/media/57a08b32ed915d3cfd000bc6/working_paper_50.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:15.511Z",
+    "sha256": "47317e2e8bcf495124441a4f8a658adda9f0ac85a0e81bcfb2deb6fab0d5cb3b",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-SOUTHASIA.receipt.json",
+    "capture_key": "P-GEO-SOUTHASIA",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "branches of the Hanafi school, Barelvi and Deobandi.",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Working Paper 50, section 2 Background, printed p.6 (PDF p.12)",
+        "text": "branches of the Hanafi school, Barelvi and Deobandi."
+      }
+    ],
+    "host_type": "government_hosted_academic_report",
+    "family": "P-GEO-SOUTHASIA",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-SOUTHASIA-CLAIM",
+        "result": "supported",
+        "note": "Dated regional background, not a present country-by-country census or a basis for assigning halal authority to a population label.",
+        "locator": "Working Paper 50, section 2 Background, printed p.6 (PDF p.12)"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Dated regional background, not a present country-by-country census or a basis for assigning halal authority to a population label.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-SG-READER",
+    "aliases": [],
+    "url_checked": "https://www.darul-arqam.org.sg/wp-content/uploads/2022/03/Journey-to-Recovery-2021-lr.pdf",
+    "final_url": "https://www.darul-arqam.org.sg/wp-content/uploads/2022/03/Journey-to-Recovery-2021-lr.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:16.804Z",
+    "sha256": "d089e053c3419ac565eb8be6336dc4c6cfd25cebac0c8f85bc235db4253bc231",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-SG-READER.receipt.json",
+    "capture_key": "P-GEO-SG-READER",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "Malays, following the Shafi’i school",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "The Muslim Reader, vol.38, issue 2021, printed pp.42–43 (PDF p.22)",
+        "text": "Malays, following the Shafi’i school"
+      }
+    ],
+    "host_type": "community_publisher",
+    "family": "P-GEO-SG-READER",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-SG-READER-CLAIM",
+        "result": "supported",
+        "note": "Attributed community description, with no numerical estimate reproduced. It is neither a national census nor an institutional ruling. The two-page spread was inspected visually.",
+        "locator": "The Muslim Reader, vol.38, issue 2021, printed pp.42–43 (PDF p.22)"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Attributed community description, with no numerical estimate reproduced. It is neither a national census nor an institutional ruling. The two-page spread was inspected visually.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null,
+    "visual_check": {
+      "pdf_page": 22,
+      "inspected": true,
+      "note": "Read the original rendered page; layout/font-extraction artifacts are not silently normalized."
+    }
+  },
+  {
+    "key": "P-GEO-ID-STUDY",
+    "aliases": [],
+    "url_checked": "https://studiaislamika.ppimcensis.or.id/index.php/studia-islamika/article/download/879/774",
+    "final_url": "https://studiaislamika.ppimcensis.or.id/index.php/studia-islamika/article/download/879/774",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:16.808Z",
+    "sha256": "25afe2b11c99921f1ea84e2de3535db8e2d53ff7ad33dcf074f5ef507cebc783",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-ID-STUDY.receipt.json",
+    "capture_key": "P-GEO-ID-STUDY",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Publisher and Crossref date the article 30 April 2014; Crossref issue metadata gives 21 July 2014. DOI created/deposited dates are not substituted for publication.",
+    "locator_found": true,
+    "quote_expected": "the majority of Muslims in",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Printed p.82 (PDF p.8), paragraph distinguishing Jafari and Shafii jurisprudence",
+        "text": "the majority of Muslims in"
+      }
+    ],
+    "host_type": "journal_publisher",
+    "family": "P-GEO-ID-STUDY",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-ID-STUDY-CLAIM",
+        "result": "supported",
+        "note": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained.",
+        "locator": "Printed p.82 (PDF p.8), paragraph distinguishing Jafari and Shafii jurisprudence"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null,
+    "metadata_note": "Crossref and publisher metadata independently checked: publication 30 April 2014; issue metadata 21 July 2014; mononym duplicated in metadata, PDF byline authoritative.",
+    "visual_check": {
+      "pdf_page": 8,
+      "inspected": true,
+      "note": "Read the original rendered page; layout/font-extraction artifacts are not silently normalized."
+    },
+    "metadata_checks": {
+      "crossref": {
+        "url": "https://api.crossref.org/works?query.bibliographic=Education%2C%20Identity%2C%20and%20Recognition%3A%20The%20Shi%E2%80%98i%20Islamic%20Education%20in%20Indonesia&rows=3",
+        "http_status": 200,
+        "retrieved_at": "2026-10-02T18:37:43.853Z",
+        "sha256": "d598b8f31c07b35399ed7e537e4ff081f25c36f4b78721cc968075d52b4761a0",
+        "receipt": "working/citations/stage3-scholarship-geography-metadata-01/P-GEO-ID-CROSSREF.receipt.json"
+      },
+      "publisher": {
+        "url": "https://studiaislamika.ppimcensis.or.id/index.php/studia-islamika/article/view/879",
+        "http_status": 200,
+        "retrieved_at": "2026-10-02T18:37:43.870Z",
+        "sha256": "985002f4f8dd6c6c6ee2b26b9909e959820bf92673ba73f21d2776aa8aeb542e",
+        "receipt": "working/citations/stage3-scholarship-geography-metadata-01/P-GEO-ID-PUBLISHER.receipt.json"
+      },
+      "notice_check": {
+        "result": "none_found_in_records_checked",
+        "crossref_relation": null,
+        "crossref_update_to": null,
+        "publisher_notice_found": false,
+        "scope": "Actual publisher page and matched Crossref metadata plus publisher-domain exact-DOI search. Bounded negative only; no full-paper claim review."
+      }
+    }
+  },
+  {
+    "key": "P-GEO-MUIS33",
+    "aliases": [],
+    "url_checked": "https://www.muis.gov.sg/resources/khutbah-and-religious-advice/fatwa/explanation-by-the-fatwa-committee-on-the-fatwa-friday-prayer-before-zawal--english/",
+    "final_url": "https://www.muis.gov.sg/resources/khutbah-and-religious-advice/fatwa/explanation-by-the-fatwa-committee-on-the-fatwa-friday-prayer-before-zawal--english/",
+    "http_status": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-02T18:30:21.927Z",
+    "sha256": "203a22cd56990bf2ab715566ffb068361878cb00e0184ad993c4e652257a2df8",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-MUIS33.receipt.json",
+    "capture_key": "P-GEO-MUIS33",
+    "identity": {
+      "title": true,
+      "issuer": true,
+      "date": true
+    },
+    "date_status": "stated",
+    "date_note": "Document or edition date stated; access date is separate.",
+    "locator_found": true,
+    "quote_expected": "Restricting opinions to only one mazhab can create difficulties.",
+    "quote_found": true,
+    "passages": [
+      {
+        "locator": "Paragraphs 9–10; page updated 21 February 2025, discussing the June 2020 fatwa",
+        "text": "Restricting opinions to only one mazhab can create difficulties."
+      }
+    ],
+    "host_type": "issuer",
+    "family": "P-GEO-MUIS33",
+    "bibliographic_complete": true,
+    "claims_rechecked": [
+      {
+        "id": "P-GEO-MUIS33-CLAIM",
+        "result": "supported",
+        "note": "Evidence of the named institution’s account of method, not a cultivated-meat ruling or a substitute for the blocked direct statutory capture.",
+        "locator": "Paragraphs 9–10; page updated 21 February 2025, discussing the June 2020 fatwa"
+      }
+    ],
+    "verdict": "verified_with_note",
+    "notes": "Evidence of the named institution’s account of method, not a cultivated-meat ruling or a substitute for the blocked direct statutory capture.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-SGAMLA",
+    "aliases": [],
+    "url_checked": "https://sso.agc.gov.sg/Act-Rev/AMLA1966/Published/20211231?DocDate=20211231",
+    "final_url": "https://sso.agc.gov.sg/Act-Rev/AMLA1966/Published/20211231?DocDate=20211231",
+    "http_status": 403,
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-02T18:30:12.275Z",
+    "sha256": "e13c63008e342917eeda527df60f0ac205e0d51286cdcbd7a296fadc532bb0b1",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-SGAMLA.receipt.json",
+    "capture_key": "P-GEO-SGAMLA",
+    "identity": {
+      "title": false,
+      "issuer": false,
+      "date": false
+    },
+    "date_status": "unestablished",
+    "date_note": "HTTP 403. Search extracts and a separate MUIS explanation do not verify this direct statutory capture.",
+    "locator_found": false,
+    "quote_expected": "",
+    "quote_found": false,
+    "passages": [],
+    "host_type": "issuer",
+    "family": "P-GEO-SGAMLA",
+    "bibliographic_complete": false,
+    "claims_rechecked": [],
+    "verdict": "not_retrieved",
+    "notes": "HTTP 403. Search extracts and a separate MUIS explanation do not verify this direct statutory capture.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-SA-IRF",
+    "aliases": [],
+    "url_checked": "https://2021-2025.state.gov/wp-content/uploads/2024/05/547499_SAUDI-ARABIA-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf",
+    "final_url": "https://2021-2025.state.gov/wp-content/uploads/2024/05/547499_SAUDI-ARABIA-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf",
+    "http_status": 200,
+    "content_type": "text/html",
+    "retrieved_at": "2026-10-02T18:30:15.511Z",
+    "sha256": "359e3b8b6b844d69fa29bd39c40f970af1586af0500dcda1f98a302721eafe1d",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-SA-IRF.receipt.json",
+    "capture_key": "P-GEO-SA-IRF",
+    "identity": {
+      "title": false,
+      "issuer": false,
+      "date": false
+    },
+    "date_status": "unestablished",
+    "date_note": "Both PDF URL and HTML alternative returned HTTP 200 technical-difficulties pages, not the report. The helper’s retrieval-candidate label was rejected by manual review. Search-result text is not accepted.",
+    "locator_found": false,
+    "quote_expected": "",
+    "quote_found": false,
+    "passages": [],
+    "host_type": "issuer",
+    "family": "P-GEO-SA-IRF",
+    "bibliographic_complete": false,
+    "claims_rechecked": [],
+    "verdict": "not_retrieved",
+    "notes": "Both PDF URL and HTML alternative returned HTTP 200 technical-difficulties pages, not the report. The helper’s retrieval-candidate label was rejected by manual review. Search-result text is not accepted.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null,
+    "recovery_attempts": [
+      {
+        "key": "P-GEO-SA-IRF-HTML",
+        "aliases": [],
+        "url_checked": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saudi-arabia/",
+        "final_url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saudi-arabia/",
+        "http_status": 200,
+        "content_type": "text/html",
+        "retrieved_at": "2026-10-02T18:37:38.613Z",
+        "redirects": [],
+        "bytes": 188865,
+        "sha256": "359e3b8b6b844d69fa29bd39c40f970af1586af0500dcda1f98a302721eafe1d",
+        "text_sha256": "a94dd544df62b143a69993c1eb056a6b1fdf0086f173a9159f8a7f5af715e91d",
+        "capture_status": "retrieved_candidate",
+        "audit_verdict": "pending",
+        "error": null,
+        "text_encoding": "utf-8",
+        "text_characters": 155,
+        "note": "Candidate means bytes and extractable text only. Identity, locator, exact passage, context and bibliography require a separate review."
+      }
+    ]
+  },
+  {
+    "key": "P-GEO-GEORGETOWN",
+    "aliases": [],
+    "url_checked": "https://giwps.georgetown.edu/wp-content/uploads/2024/06/Islam-and-Negotiation-Action-Guide-for-Muslim-Women.pdf",
+    "final_url": "https://giwps.georgetown.edu/wp-content/uploads/2024/06/Islam-and-Negotiation-Action-Guide-for-Muslim-Women.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "retrieved_at": "2026-10-02T18:30:16.808Z",
+    "sha256": "b72d13a6c3ba7668e16cc04e8d3f3cc5fc6377a25c166ec1e758d2a725a47522",
+    "receipt_path": "working/citations/stage3-geography-01/P-GEO-GEORGETOWN.receipt.json",
+    "capture_key": "P-GEO-GEORGETOWN",
+    "identity": {
+      "title": false,
+      "issuer": false,
+      "date": false
+    },
+    "date_status": "unestablished",
+    "date_note": "The second-edition PDF does not establish its publication year. The publisher landing page is dated August 2022 but links a later file; the date is not transferred between editions. Its broad geography table is not used for current country predominance.",
+    "locator_found": false,
+    "quote_expected": "",
+    "quote_found": false,
+    "passages": [],
+    "host_type": "issuer",
+    "family": "P-GEO-GEORGETOWN",
+    "bibliographic_complete": false,
+    "claims_rechecked": [],
+    "verdict": "held",
+    "notes": "The second-edition PDF does not establish its publication year. The publisher landing page is dated August 2022 but links a later file; the date is not transferred between editions. Its broad geography table is not used for current country predominance.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
+  },
+  {
+    "key": "P-GEO-UAE-FATWA",
+    "aliases": [],
+    "url_checked": "https://uaelegislation.gov.ae/en/legislations/2331/download",
+    "final_url": "https://uaelegislation.gov.ae/en/legislations/2331/download",
+    "http_status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_at": "2026-10-02T18:37:38.578Z",
+    "sha256": "6a5827b18469293abcb69e6a4b441ce6dc8d6537640eb7b689d5ea13fe39cb9c",
+    "receipt_path": "working/citations/stage3-geography-02/P-GEO-UAE-FATWA.receipt.json",
+    "capture_key": "P-GEO-UAE-FATWA",
+    "identity": {
+      "title": false,
+      "issuer": false,
+      "date": false
+    },
+    "date_status": "unestablished",
+    "date_note": "Official PDF request returned HTTP403. The search-discovered institution/competence wording does not become an accepted legal citation.",
+    "locator_found": false,
+    "quote_expected": "",
+    "quote_found": false,
+    "passages": [],
+    "host_type": "issuer",
+    "family": "P-GEO-UAE-FATWA",
+    "bibliographic_complete": false,
+    "claims_rechecked": [],
+    "verdict": "not_retrieved",
+    "notes": "Official PDF request returned HTTP403. The search-discovered institution/competence wording does not become an accepted legal citation.",
+    "archive_status": "not_checked_nonblocking",
+    "archive_url": null
   }
 ]

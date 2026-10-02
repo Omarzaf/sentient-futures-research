@@ -241,7 +241,10 @@ export function checkPaper(files,{phaseOneFiles={},stage:stageOverride}={}) {
   check(row.disposition==='excluded'?nonempty(row.reason):Array.isArray(row.sections)&&row.sections.length>0,'coverage requires section or exclusion reason: '+identity);
  }
  if(stage>=1)for(const row of expectedCoverage)check(coverageById.has(row.kind+':'+row.id),'missing coverage: '+row.kind+':'+row.id);
- for(const search of searches)check(nonempty(search.date)&&Array.isArray(search.terms)&&search.terms.length>0&&Array.isArray(search.hosts)&&search.hosts.length>0&&nonempty(search.result),'incomplete search record');
+ for(const search of searches) {
+  const hostScope=Array.isArray(search.hosts)&&search.hosts.every(nonempty)&&(search.hosts.length>0||(search.method==='web_search'&&search.host_scope==='unrestricted'));
+  check(nonempty(search.date)&&Array.isArray(search.terms)&&search.terms.length>0&&search.terms.every(nonempty)&&hostScope&&nonempty(search.result),'incomplete search record');
+ }
  const text=files['paper.md'],firstLines=text.split(/\r?\n/).map(line=>line.trim()).filter(Boolean);
  check(/^#\s+\S/.test(firstLines[0]||'')&&firstLines[1]?.replace(/^[*_]+|[*_]+$/g,'')===NOTICE,'draft notice must appear immediately under title');
  const prose=visible(text);

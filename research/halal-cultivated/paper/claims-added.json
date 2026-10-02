@@ -1,1 +1,544 @@
-[]
+[
+  {
+    "id": "P-B1-WAAG-CONDITIONS",
+    "statement": "WAAG’s English report of 25 September 2024 attributes to Abbas Shouman a slaughtered-donor restriction with a fish/locust exception, impurity-free cell nutrition and demonstrated absence of health harm, together with caution about expansion before the conditions are met.",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "source_ids": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "locator": "First body paragraph and following caution",
+    "limitation": "A report of Shouman’s position, not the Council decision, product certification or independent technical assessment. Paired languages are one family.",
+    "human_scholarly_review": false,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-B1-WAAG-ATTRIBUTION",
+    "statement": "WAAG’s paired reports place Shouman’s position in a Jeddah seminar paper and report agreement with the Al-Azhar Council of Senior Scholars. These report pages do not supply the underlying Council decision number, date or full text.",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "source_ids": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "locator": "Final body paragraph",
+    "limitation": "No claim that the Council has no decision; only the limits of these two report pages.",
+    "human_scholarly_review": false,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-HAMDAN18",
+    "statement": "In their abstract, Hamdan, Post, Ramli and Mustafa describe a conditional route to halal cultured meat: stem cells from a halal slaughtered animal, with no blood or serum used in production.",
+    "limitation": "Abstract-only reading from an author institution record. This is an attributed scholarly proposition, not a ruling by an institution, a whole-school position or certification of a process.",
+    "sections": [
+      3
+    ],
+    "source_ids": [
+      "HS-006"
+    ],
+    "locator": "Institutional publication record, Abstract",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-006",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-HAMDAN24-METHOD",
+    "statement": "Hamdan and colleagues’ 2024 review searched through 3 March 2023 and included research papers alongside institutional statements, news, interviews and personal opinions.",
+    "locator": "Section 3, Methods",
+    "limitation": "A description of this review’s selection method. Its literature cutoff does not establish later institutional positions, and its mixed source types cannot be counted as independent legal authorities of equal weight.",
+    "sections": [
+      3,
+      4
+    ],
+    "source_ids": [
+      "HS-007"
+    ],
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-007",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-HAMDAN24-EMBRYO",
+    "statement": "In section 4.2, Hamdan and colleagues argue that embryos from chicken or bird eggs can provide a pure and edible cultivated-meat route through transformation; they distinguish that route from embryos extracted from living cows or goats.",
+    "limitation": "The cultivated-meat application is the reviewed authors’ reasoning. Their reported agreement concerning eggs is not promoted to consensus on cultivated meat. No particular product is certified by the article.",
+    "sections": [
+      3,
+      5,
+      7
+    ],
+    "source_ids": [
+      "HS-007"
+    ],
+    "locator": "Section 4.2, Second: the status and source of stem cells used in the cell culture process",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-007",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-KASHIM23",
+    "statement": "Kashim and colleagues discuss complete transformation as a possible basis for treating serum-grown cells as halal, expressly make this dependent on scholarly opinion, and also recommend avoiding serum while requiring halal production inputs.",
+    "limitation": "This is the authors’ qualified analysis in section 6 and the conclusion. It is neither proof that any actual culture process achieves complete transformation nor an institutional permission to consume serum. The article’s broad summaries of schools are not substitutes for the primary texts.",
+    "sections": [
+      3,
+      6,
+      7
+    ],
+    "source_ids": [
+      "HS-008"
+    ],
+    "locator": "Section 6.1, Permissibility of cultured meat to be consumed, Principle 4; section 7, Conclusion",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-008",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-ALQURASHI26",
+    "statement": "Alqurashi, Sikora, Rzymski and Poniedziałek organize their narrative perspective around production inputs and certification, and explicitly state that their account lacks empirical data from halal-certified cultured-meat production systems and rests on evolving religious interpretations.",
+    "limitation": "This describes the article’s framework and self-stated evidential limits. It does not establish a market acceptance rate, an actual halal certificate, consensus or the validity of every institutional statement summarized in the article.",
+    "sections": [
+      3,
+      9,
+      12
+    ],
+    "source_ids": [
+      "HS-009"
+    ],
+    "locator": "Section 6, Conclusions",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-009",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-ALZEER25",
+    "statement": "Alzeer, Abou Hadeed and Tufail reach a restrictive conclusion in their 2025 narrative review, arguing that cultured meat does not meet halal requirements under their interpretation of slaughter, biological function and spiritual integrity.",
+    "limitation": "Attribute this conclusion to these three authors. Their interpretation does not establish the position of all Islamic jurisprudence, overturn named institutional rulings, or establish their biological and spiritual premises as consensus.",
+    "sections": [
+      3,
+      5,
+      11
+    ],
+    "source_ids": [
+      "HS-010"
+    ],
+    "locator": "Publisher abstract; article sections 2 and 8–10, pages 53–61",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-010",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-BASERAT24",
+    "statement": "Baserat and Enayat’s English abstract describes transformation as a change in a substance’s essence and attributes and favors the view that transformation can purify impurities.",
+    "limitation": "English-abstract scope only. The article’s body is Arabic and has not been reviewed here. This is a statement of the authors’ conclusion, not independent confirmation of each school-level generalization or of cultivated-meat permissibility.",
+    "sections": [
+      3,
+      7
+    ],
+    "source_ids": [
+      "HS-011"
+    ],
+    "locator": "English abstract, page 45",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-011",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-MISWANTO23",
+    "statement": "In their English abstract, Miswanto and Musaffa classify transformation examples into physical, chemical, and combined physical-chemical models.",
+    "limitation": "An abstract-only account of the authors’ classification. The Indonesian body is not used as evidence, and the classification does not prove that cell multiplication or any named cultivation process meets a legal transformation test.",
+    "sections": [
+      3,
+      7,
+      12
+    ],
+    "source_ids": [
+      "HS-024"
+    ],
+    "locator": "English abstract, page 1",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-024",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-PROCESS-REISS21",
+    "statement": "Reiss, Robertson and Suzuki describe a muscle-tissue production workflow that can begin with primary cells from tissue biopsy or post-mortem tissue, or with pluripotent cells, followed by progenitor preparation, expansion, scaffold seeding and maturation.",
+    "limitation": "A general workflow in a 2021 review, not a universal recipe or description of any certified product. Cell banking and product-specific harvest/processing claims require other evidence. Neither donor sourcing nor medium purity alone establishes halal status.",
+    "sections": [
+      2
+    ],
+    "source_ids": [
+      "B4-CELLS"
+    ],
+    "locator": "Introduction and Figure 1, pages 2–3; section 3.2",
+    "kind": "evidence",
+    "status": "primary_read",
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-B4-CELLS",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-LIT-KASHIM20-UNRESOLVED",
+    "statement": "The 2020 Kashim discovery record remains unresolved after the logged Crossref title query, alleged-DOI lookup and DOI resolver check.",
+    "source_ids": [
+      "HS-012"
+    ],
+    "locator": "Crossref title query and alleged DOI resolver attempts, 2 October 2026",
+    "kind": "gap",
+    "status": "open",
+    "limitation": "The discovery title/year was not resolved to a publisher article in this bounded session. A secondary lead supplied DOI 10.31838/jcr.07.05.206; its Crossref work endpoint and DOI resolver both returned 404. An exact-title Crossref query returned a different 2015 article among its three results. That work is not silently substituted. This does not establish that the 2020 article does not exist.",
+    "sections": [
+      3,
+      12
+    ],
+    "extractor": "research_scholarship_stage3",
+    "verification_id": "P-AUDIT-HS-012",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-MY505-CLAIM",
+    "statement": "In the 2013 reprint of Act 505, section 39 directs the Federal Territories Mufti ordinarily to accepted Shafii views, permits the named other Sunni schools where the public interest requires, and ultimately permits the specified exercise of judgment.",
+    "source_ids": [
+      "P-GEO-MY505"
+    ],
+    "locator": "Reprint as at 1 January 2013, section 39, printed p.28",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "Federal Territories procedure in this dated reprint; neither a population estimate nor a rule for every Malaysian state or a cultivated-meat certificate.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-PKCONST-CLAIM",
+    "statement": "The 2025 constitutional edition provides for sect-specific interpretation in the personal-law explanation to article 227, representation of different schools in the Council of Islamic Ideology under article 228, and advisory functions under article 230.",
+    "source_ids": [
+      "P-GEO-PKCONST"
+    ],
+    "locator": "Articles 227–230, printed pp.139–141; edition through the Twenty-Seventh Amendment",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "These provisions do not establish the population share of a school, a cultivated-meat ruling or food authorization. No national school is assigned from them.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-SA-BASIC-CLAIM",
+    "statement": "Articles 1 and 45 of the reviewed Basic Law text name the Quran and Sunnah and provide for the religious-ruling institutions; those provisions do not name a national Hanbali school.",
+    "source_ids": [
+      "P-GEO-SA-BASIC"
+    ],
+    "locator": "Basic Law articles 1 and 45, PDF pp.4 and 9; generated 30 June 2026",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "The specified 1992/2005 text is not a full audit of current Saudi legislation. Its institutional provisions are distinct from a demographic or legal-practice description.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-SOUTHASIA-CLAIM",
+    "statement": "Kirmani and Zaidi describe Barelvi and Deobandi Hanafi traditions as major South Asian Muslim currents in their 2010 Pakistan research context.",
+    "source_ids": [
+      "P-GEO-SOUTHASIA"
+    ],
+    "locator": "Working Paper 50, section 2 Background, printed p.6 (PDF p.12)",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "Dated regional background, not a present country-by-country census or a basis for assigning halal authority to a population label.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-SG-READER-CLAIM",
+    "statement": "Gulam’s 2021 community publication describes Shafii practice among Singapore Malay Muslims, Hanafi practice among many Muslims of South Asian origin, and a Shia presence.",
+    "source_ids": [
+      "P-GEO-SG-READER"
+    ],
+    "locator": "The Muslim Reader, vol.38, issue 2021, printed pp.42–43 (PDF p.22)",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "Attributed community description, with no numerical estimate reproduced. It is neither a national census nor an institutional ruling. The two-page spread was inspected visually.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-ID-STUDY-CLAIM",
+    "statement": "Zulkifli’s 2014 study distinguishes the Jafari jurisprudence of its Shia subjects from the Shafii jurisprudence followed by a described majority of Indonesian Muslims.",
+    "source_ids": [
+      "P-GEO-ID-STUDY"
+    ],
+    "locator": "Printed p.82 (PDF p.8), paragraph distinguishing Jafari and Shafii jurisprudence",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "A dated qualitative scholarly description, not a measured contemporary share or statutory designation. PDF font encoding loses letters in some names; the cited page was visually checked. Crossref duplicates the author’s mononym; the PDF byline is retained.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-GEO-MUIS33-CLAIM",
+    "statement": "In its explanation of a prayer ruling, MUIS invokes AMLA section 33 and explains the use of opinions beyond the Shafii school in light of changing circumstances and public interest.",
+    "source_ids": [
+      "P-GEO-MUIS33"
+    ],
+    "locator": "Paragraphs 9–10; page updated 21 February 2025, discussing the June 2020 fatwa",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "limitation": "Evidence of the named institution’s account of method, not a cultivated-meat ruling or a substitute for the blocked direct statutory capture.",
+    "extractor": "paper-geography-audit",
+    "verification_id": null,
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-IN-APPROVAL",
+    "statement": "In the reviewed 2022 compendium of India’s 2017 non-specified-food regulations, prior FSSAI approval precedes manufacture or import, and a separate licence follows approval; Form I covers novel food and technology.",
+    "limitation": "This dated instrument does not establish completeness of current application decisions, a specific cultivated-chicken approval or halal certification.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "IN2017"
+    ],
+    "locator": "IN2017: Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-PK-HALAL-REMIT",
+    "statement": "The Pakistan Halal Authority Act 2016 distinguishes nationwide international and interprovincial halal trade from other purposes in Islamabad Capital Territory and assigns standards, accreditation, certification and logo functions.",
+    "limitation": "It does not settle the cultivated-food route or provincial responsibilities; commencement notifications for sections 17–20 remain separate.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "PK2016"
+    ],
+    "locator": "PK2016: Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-SA-NOVEL-SCOPE",
+    "statement": "The reviewed English SFDA novel-food instrument includes animal cell and tissue culture, prior marketing approval, halal-source requirements and safety/production information.",
+    "limitation": "Arabic prevails. The cover’s 513/2020 numbering conflicts with other retrieved references; no controlling current version or product certificate is inferred.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "SA-NOVEL"
+    ],
+    "locator": "SA-NOVEL: PDF pp3–6, sections3.1, 4.2, 4.3 and4.9",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-SA-GUIDE",
+    "statement": "The reviewed SFDA guide requests production, safety and exposure information and refers to SFDA FD5031:2020.",
+    "limitation": "The undated informational English guide gives Arabic precedence; its reference is not silently equated with 513/2020 or 5013.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "SA-GUIDE"
+    ],
+    "locator": "SA-GUIDE: Both PDF pages; scope and required information",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-SA-ANNOUNCEMENT",
+    "statement": "The SFDA announcement of 22 December 2025 names SFDA.FD 5013, a dedicated guideline and the SFDA Platform.",
+    "limitation": "This establishes the authority’s announcement, not the operative Arabic rule, a reconciliation of reference numbers or product authorization.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "SA-2025"
+    ],
+    "locator": "SA-2025: News22December2025, final substantive paragraph",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-AE-HALAL-SYSTEM",
+    "statement": "The MOIAT portal describes certification through Ministry-registered bodies within the UAE halal system and separately describes the Halal National Mark as optional.",
+    "limitation": "The optional mark does not make all certificate obligations optional. This undated page does not establish a cultivated-food approval pathway or current product certificate.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "AE-HALAL"
+    ],
+    "locator": "AE-HALAL: Halal certification system and Halal National Mark sections",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-SG-FOOD-FRAME",
+    "statement": "SFA’s framework, updated 27 August 2026, requires premarket approval for covered novel foods and describes safety assessment and cancellation of approvals.",
+    "limitation": "Food authorization is distinct from MUIS religious guidance and halal certification; scope must be matched to a particular product.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "SG-FRAME"
+    ],
+    "locator": "SG-FRAME: Who must obtain approval; safety assessments; premarket approval sections",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-SG-PROCESS-LIST",
+    "statement": "SFA’s list revised 14 August 2026 records Eat Just’s FBS process allowed on 26 November 2020, its serum-free process on 11 January 2023, and Vital Meat embryonic chicken-cell biomass on 17 October 2025.",
+    "limitation": "These are specified food-process entries, not halal certificates or evidence that every cell-bank stage is free of animal components.",
+    "sections": [
+      "2",
+      "6",
+      "9.4"
+    ],
+    "source_ids": [
+      "SG-LIST"
+    ],
+    "locator": "SG-LIST: PDF pp4,10,23; entries2,6,15",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-MUIS-RELEASE",
+    "statement": "MUIS’s 3 February 2024 release specifies permitted animal sources, halal ingredients, cleanliness and non-toxicity, while distinguishing SFA approval from halal guidance and certification.",
+    "limitation": "Detailed slaughter and egg-embryo conditions require the separate booklet; the release does not certify a named product.",
+    "sections": [
+      "5",
+      "9.1",
+      "9.4"
+    ],
+    "source_ids": [
+      "MUIS2024"
+    ],
+    "locator": "MUIS2024: Release dated 3 February 2024, paragraphs 8–10",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-MUIS-BOOK-DONOR",
+    "statement": "MUIS’s first-edition 2024 booklet describes a slaughter requirement in its then-current certification framework, an egg-embryo exception, and the need to develop guidelines before certification.",
+    "limitation": "These are dated framework and FAQ statements; they do not establish the current certification status of a product.",
+    "sections": [
+      "5",
+      "9.1",
+      "9.4"
+    ],
+    "source_ids": [
+      "MUIS-BOOK"
+    ],
+    "locator": "MUIS-BOOK: First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-MY-CERTIFIERS",
+    "statement": "JAKIM’s retrieved English portal describes recognition of foreign certifiers and imported halal descriptions, citing the 2011 certification/marking order.",
+    "limitation": "The undated page cites an older MS1500:2009 edition; it establishes neither a current cultivated-meat certificate nor food-market authorization.",
+    "sections": [
+      "9.4"
+    ],
+    "source_ids": [
+      "MY-HALAL"
+    ],
+    "locator": "MY-HALAL: Recognition, importation, and Trade Descriptions Order2011 sections",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-J-GELATIN",
+    "statement": "Sistani’s English and Arabic gelatin answers distinguish uncertain origin, known animal origin, slaughter, limited minute absorption and established transformation; the Arabic answers do not treat manufacturing transformation as established and retain a customary-identity test.",
+    "limitation": "One authority and source family. The limited uncertain-slaughter absorption answer does not license known impurity generally, and neither answer resolves every serum or enzyme process.",
+    "sections": [
+      "6",
+      "7"
+    ],
+    "source_ids": [
+      "J8",
+      "J9"
+    ],
+    "locator": "J8: Questions 1–2, references 15276 and 25550; J9: Questions 1–3 and 9–10; references 6042, 21250, 21251, 21976, 22199",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-J-HEAT",
+    "statement": "Sistani’s ruling 100 states, on the basis of obligatory precaution, that boiling, heat and fire do not purify food contaminated with a particle of blood.",
+    "limitation": "An attributed precaution, not a statement that every purification or transformation process is identical to heating.",
+    "sections": [
+      "6",
+      "7"
+    ],
+    "source_ids": [
+      "J3"
+    ],
+    "locator": "J3: Rulings 93–94 and 100",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  },
+  {
+    "id": "P-H-BLOOD-DISTINCTIONS",
+    "statement": "The reviewed Radd al-Muhtar passage distinguishes flowing blood from retained or non-flowing blood and supplies further qualifications concerning origin and circumstance.",
+    "limitation": "Do not turn this qualified passage into a blanket assertion about all blood exuding from edible organs or a ruling on a particular serum preparation.",
+    "sections": [
+      "6"
+    ],
+    "source_ids": [
+      "H5"
+    ],
+    "locator": "H5: Vol. 1, displayed pp. 319–320, flowing blood and retained blood",
+    "kind": "evidence",
+    "status": "agent_checked",
+    "extractor": "coordinator_scoped_claim_split",
+    "human_verification": "Pending"
+  }
+]

@@ -73,6 +73,9 @@ assert.notEqual(normalizeQuote('four exact words appear'),normalizeQuote('four s
 
 // At least one meaningful negative fixture for every mandatory section 9 rule.
 const cases=[
+ ['search missing host scope',files=>{files['search-log.json']=json([{date:'2026-10-02',terms:['exact query'],hosts:[],result:'none_found'}]);},'incomplete search record'],
+ ['raw fetch cannot be unrestricted',files=>{files['search-log.json']=json([{date:'2026-10-02',method:'raw_public_fetch',terms:['exact query'],hosts:[],host_scope:'unrestricted',result:'not_retrieved'}]);},'incomplete search record'],
+ ['search empty terms',files=>{files['search-log.json']=json([{date:'2026-10-02',method:'web_search',terms:[''],hosts:[],host_scope:'unrestricted',result:'none_found'}]);},'incomplete search record'],
  ['1 terminal register keys',files=>{files['paper.md']=paper.replace('chapter 1. [H1]','chapter 1.');},'footnote definition lacks terminal'],
  ['1 unresolved alias',files=>{files['paper.md']=paper.replace('[H1]','[MISSING]');},'unknown footnote source'],
  ['1 ambiguous alias',files=>alter(files,'source-register.json',rows=>{rows[1].aliases=['H1'];}),'ambiguous or duplicate alias'],
@@ -153,6 +156,8 @@ for(const [name,mutate,expected] of cases) {
 }
 
 const normalized={...fixture};
+const unrestricted={...fixture,'search-log.json':json([{date:'2026-10-02',method:'web_search',terms:['exact query'],hosts:[],host_scope:'unrestricted',result:'none_found'}])};
+assert.deepEqual(check(unrestricted).failures,[],'an explicitly unrestricted web query preserves its actual scope');
 normalized['paper.md']=paper.replace('“four exact words appear”','“four  exact\nwords appear”');
 assert.deepEqual(check(normalized).failures,[],'whitespace normalization must preserve valid exact quotes');
 const noApproval={...fixture};

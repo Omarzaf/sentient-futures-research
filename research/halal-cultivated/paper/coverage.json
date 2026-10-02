@@ -10980,5 +10980,871 @@
         "verdict": "verified_with_note"
       }
     ]
+  },
+  {
+    "id": "P-B1-WAAG-CONDITIONS",
+    "kind": "claim",
+    "sections": [
+      "5",
+      "9.1"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "canonical_source_keys": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "status": "agent_checked",
+    "statement": "WAAG’s English report of 25 September 2024 attributes to Abbas Shouman a slaughtered-donor restriction with a fish/locust exception, impurity-free cell nutrition and demonstrated absence of health harm, together with caution about expansion before the conditions are met.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-WAAG-EN-2024",
+        "verdict": "verified_with_note"
+      },
+      {
+        "key": "P-WAAG-AR-2024",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-B1-WAAG-ATTRIBUTION",
+    "kind": "claim",
+    "sections": [
+      "5",
+      "9.1"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "canonical_source_keys": [
+      "P-WAAG-EN-2024",
+      "P-WAAG-AR-2024"
+    ],
+    "status": "agent_checked",
+    "statement": "WAAG’s paired reports place Shouman’s position in a Jeddah seminar paper and report agreement with the Al-Azhar Council of Senior Scholars. These report pages do not supply the underlying Council decision number, date or full text.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-WAAG-EN-2024",
+        "verdict": "verified_with_note"
+      },
+      {
+        "key": "P-WAAG-AR-2024",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-HAMDAN18",
+    "kind": "claim",
+    "sections": [
+      "3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-006"
+    ],
+    "canonical_source_keys": [
+      "HS-006"
+    ],
+    "status": "primary_read",
+    "statement": "In their abstract, Hamdan, Post, Ramli and Mustafa describe a conditional route to halal cultured meat: stem cells from a halal slaughtered animal, with no blood or serum used in production.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-006",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-HAMDAN24-METHOD",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-007"
+    ],
+    "canonical_source_keys": [
+      "HS-007"
+    ],
+    "status": "primary_read",
+    "statement": "Hamdan and colleagues’ 2024 review searched through 3 March 2023 and included research papers alongside institutional statements, news, interviews and personal opinions.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-007",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-HAMDAN24-EMBRYO",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "5",
+      "7"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-007"
+    ],
+    "canonical_source_keys": [
+      "HS-007"
+    ],
+    "status": "primary_read",
+    "statement": "In section 4.2, Hamdan and colleagues argue that embryos from chicken or bird eggs can provide a pure and edible cultivated-meat route through transformation; they distinguish that route from embryos extracted from living cows or goats.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-007",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-KASHIM23",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "6",
+      "7"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-008"
+    ],
+    "canonical_source_keys": [
+      "HS-008"
+    ],
+    "status": "primary_read",
+    "statement": "Kashim and colleagues discuss complete transformation as a possible basis for treating serum-grown cells as halal, expressly make this dependent on scholarly opinion, and also recommend avoiding serum while requiring halal production inputs.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-008",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-ALQURASHI26",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "9",
+      "12"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-009"
+    ],
+    "canonical_source_keys": [
+      "HS-009"
+    ],
+    "status": "primary_read",
+    "statement": "Alqurashi, Sikora, Rzymski and Poniedziałek organize their narrative perspective around production inputs and certification, and explicitly state that their account lacks empirical data from halal-certified cultured-meat production systems and rests on evolving religious interpretations.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-009",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-ALZEER25",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "5",
+      "11"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-010"
+    ],
+    "canonical_source_keys": [
+      "HS-010"
+    ],
+    "status": "primary_read",
+    "statement": "Alzeer, Abou Hadeed and Tufail reach a restrictive conclusion in their 2025 narrative review, arguing that cultured meat does not meet halal requirements under their interpretation of slaughter, biological function and spiritual integrity.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-010",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-BASERAT24",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "7"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-011"
+    ],
+    "canonical_source_keys": [
+      "HS-011"
+    ],
+    "status": "primary_read",
+    "statement": "Baserat and Enayat’s English abstract describes transformation as a change in a substance’s essence and attributes and favors the view that transformation can purify impurities.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-011",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-MISWANTO23",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "7",
+      "12"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "HS-024"
+    ],
+    "canonical_source_keys": [
+      "HS-024"
+    ],
+    "status": "primary_read",
+    "statement": "In their English abstract, Miswanto and Musaffa classify transformation examples into physical, chemical, and combined physical-chemical models.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "HS-024",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-PROCESS-REISS21",
+    "kind": "claim",
+    "sections": [
+      "2"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "B4-CELLS"
+    ],
+    "canonical_source_keys": [
+      "B4-CELLS"
+    ],
+    "status": "primary_read",
+    "statement": "Reiss, Robertson and Suzuki describe a muscle-tissue production workflow that can begin with primary cells from tissue biopsy or post-mortem tissue, or with pluripotent cells, followed by progenitor preparation, expansion, scaffold seeding and maturation.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "B4-CELLS",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-LIT-KASHIM20-UNRESOLVED",
+    "kind": "claim",
+    "sections": [
+      "3",
+      "12"
+    ],
+    "disposition": "excluded",
+    "reason": "Retrieval gap retained in audit appendix; no substantive claim enters the body.",
+    "source_ids": [
+      "HS-012"
+    ],
+    "canonical_source_keys": [
+      "HS-012"
+    ],
+    "status": "open",
+    "statement": "The 2020 Kashim discovery record remains unresolved after the logged Crossref title query, alleged-DOI lookup and DOI resolver check.",
+    "claim_kind": "gap",
+    "citation_audit_state": "sources_held",
+    "audit_verdicts": [
+      {
+        "key": "HS-012",
+        "verdict": "not_retrieved"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-MY505-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-MY505"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-MY505"
+    ],
+    "status": "agent_checked",
+    "statement": "In the 2013 reprint of Act 505, section 39 directs the Federal Territories Mufti ordinarily to accepted Shafii views, permits the named other Sunni schools where the public interest requires, and ultimately permits the specified exercise of judgment.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-MY505",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-PKCONST-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-PKCONST"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-PKCONST"
+    ],
+    "status": "agent_checked",
+    "statement": "The 2025 constitutional edition provides for sect-specific interpretation in the personal-law explanation to article 227, representation of different schools in the Council of Islamic Ideology under article 228, and advisory functions under article 230.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-PKCONST",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-SA-BASIC-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-SA-BASIC"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-SA-BASIC"
+    ],
+    "status": "agent_checked",
+    "statement": "Articles 1 and 45 of the reviewed Basic Law text name the Quran and Sunnah and provide for the religious-ruling institutions; those provisions do not name a national Hanbali school.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-SA-BASIC",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-SOUTHASIA-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-SOUTHASIA"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-SOUTHASIA"
+    ],
+    "status": "agent_checked",
+    "statement": "Kirmani and Zaidi describe Barelvi and Deobandi Hanafi traditions as major South Asian Muslim currents in their 2010 Pakistan research context.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-SOUTHASIA",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-SG-READER-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-SG-READER"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-SG-READER"
+    ],
+    "status": "agent_checked",
+    "statement": "Gulam’s 2021 community publication describes Shafii practice among Singapore Malay Muslims, Hanafi practice among many Muslims of South Asian origin, and a Shia presence.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-SG-READER",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-ID-STUDY-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-ID-STUDY"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-ID-STUDY"
+    ],
+    "status": "agent_checked",
+    "statement": "Zulkifli’s 2014 study distinguishes the Jafari jurisprudence of its Shia subjects from the Shafii jurisprudence followed by a described majority of Indonesian Muslims.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-ID-STUDY",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-GEO-MUIS33-CLAIM",
+    "kind": "claim",
+    "sections": [
+      "9.3"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "P-GEO-MUIS33"
+    ],
+    "canonical_source_keys": [
+      "P-GEO-MUIS33"
+    ],
+    "status": "agent_checked",
+    "statement": "In its explanation of a prayer ruling, MUIS invokes AMLA section 33 and explains the use of opinions beyond the Shafii school in light of changing circumstances and public interest.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "P-GEO-MUIS33",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-IN-APPROVAL",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "IN2017"
+    ],
+    "canonical_source_keys": [
+      "IN2017"
+    ],
+    "status": "agent_checked",
+    "statement": "In the reviewed 2022 compendium of India’s 2017 non-specified-food regulations, prior FSSAI approval precedes manufacture or import, and a separate licence follows approval; Form I covers novel food and technology.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "IN2017",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-PK-HALAL-REMIT",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "PK2016"
+    ],
+    "canonical_source_keys": [
+      "PK2016"
+    ],
+    "status": "agent_checked",
+    "statement": "The Pakistan Halal Authority Act 2016 distinguishes nationwide international and interprovincial halal trade from other purposes in Islamabad Capital Territory and assigns standards, accreditation, certification and logo functions.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "PK2016",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-SA-NOVEL-SCOPE",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "SA-NOVEL"
+    ],
+    "canonical_source_keys": [
+      "SA-NOVEL"
+    ],
+    "status": "agent_checked",
+    "statement": "The reviewed English SFDA novel-food instrument includes animal cell and tissue culture, prior marketing approval, halal-source requirements and safety/production information.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "SA-NOVEL",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-SA-GUIDE",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "SA-GUIDE"
+    ],
+    "canonical_source_keys": [
+      "SA-GUIDE"
+    ],
+    "status": "agent_checked",
+    "statement": "The reviewed SFDA guide requests production, safety and exposure information and refers to SFDA FD5031:2020.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "SA-GUIDE",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-SA-ANNOUNCEMENT",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "SA-2025"
+    ],
+    "canonical_source_keys": [
+      "SA-2025"
+    ],
+    "status": "agent_checked",
+    "statement": "The SFDA announcement of 22 December 2025 names SFDA.FD 5013, a dedicated guideline and the SFDA Platform.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "SA-2025",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-AE-HALAL-SYSTEM",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "AE-HALAL"
+    ],
+    "canonical_source_keys": [
+      "AE-HALAL"
+    ],
+    "status": "agent_checked",
+    "statement": "The MOIAT portal describes certification through Ministry-registered bodies within the UAE halal system and separately describes the Halal National Mark as optional.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "AE-HALAL",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-SG-FOOD-FRAME",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "SG-FRAME"
+    ],
+    "canonical_source_keys": [
+      "SG-FRAME"
+    ],
+    "status": "agent_checked",
+    "statement": "SFA’s framework, updated 27 August 2026, requires premarket approval for covered novel foods and describes safety assessment and cancellation of approvals.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "SG-FRAME",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-SG-PROCESS-LIST",
+    "kind": "claim",
+    "sections": [
+      "2",
+      "6",
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "SG-LIST"
+    ],
+    "canonical_source_keys": [
+      "SG-LIST"
+    ],
+    "status": "agent_checked",
+    "statement": "SFA’s list revised 14 August 2026 records Eat Just’s FBS process allowed on 26 November 2020, its serum-free process on 11 January 2023, and Vital Meat embryonic chicken-cell biomass on 17 October 2025.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "SG-LIST",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-MUIS-RELEASE",
+    "kind": "claim",
+    "sections": [
+      "5",
+      "9.1",
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "MUIS2024"
+    ],
+    "canonical_source_keys": [
+      "MUIS2024"
+    ],
+    "status": "agent_checked",
+    "statement": "MUIS’s 3 February 2024 release specifies permitted animal sources, halal ingredients, cleanliness and non-toxicity, while distinguishing SFA approval from halal guidance and certification.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "MUIS2024",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-MUIS-BOOK-DONOR",
+    "kind": "claim",
+    "sections": [
+      "5",
+      "9.1",
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "MUIS-BOOK"
+    ],
+    "canonical_source_keys": [
+      "MUIS-BOOK"
+    ],
+    "status": "agent_checked",
+    "statement": "MUIS’s first-edition 2024 booklet describes a slaughter requirement in its then-current certification framework, an egg-embryo exception, and the need to develop guidelines before certification.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "MUIS-BOOK",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-MY-CERTIFIERS",
+    "kind": "claim",
+    "sections": [
+      "9.4"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "MY-HALAL"
+    ],
+    "canonical_source_keys": [
+      "MY-HALAL"
+    ],
+    "status": "agent_checked",
+    "statement": "JAKIM’s retrieved English portal describes recognition of foreign certifiers and imported halal descriptions, citing the 2011 certification/marking order.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "MY-HALAL",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-J-GELATIN",
+    "kind": "claim",
+    "sections": [
+      "6",
+      "7"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "J8",
+      "J9"
+    ],
+    "canonical_source_keys": [
+      "J8",
+      "J9"
+    ],
+    "status": "agent_checked",
+    "statement": "Sistani’s English and Arabic gelatin answers distinguish uncertain origin, known animal origin, slaughter, limited minute absorption and established transformation; the Arabic answers do not treat manufacturing transformation as established and retain a customary-identity test.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "J8",
+        "verdict": "verified_with_note"
+      },
+      {
+        "key": "J9",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-J-HEAT",
+    "kind": "claim",
+    "sections": [
+      "6",
+      "7"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "J3"
+    ],
+    "canonical_source_keys": [
+      "J3"
+    ],
+    "status": "agent_checked",
+    "statement": "Sistani’s ruling 100 states, on the basis of obligatory precaution, that boiling, heat and fire do not purify food contaminated with a particle of blood.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "J3",
+        "verdict": "verified_with_note"
+      }
+    ]
+  },
+  {
+    "id": "P-H-BLOOD-DISTINCTIONS",
+    "kind": "claim",
+    "sections": [
+      "6"
+    ],
+    "disposition": "planned",
+    "reason": "Scoped paper claim; retains attribution, dated text and explicit limitations.",
+    "source_ids": [
+      "H5"
+    ],
+    "canonical_source_keys": [
+      "H5"
+    ],
+    "status": "agent_checked",
+    "statement": "The reviewed Radd al-Muhtar passage distinguishes flowing blood from retained or non-flowing blood and supplies further qualifications concerning origin and circumstance.",
+    "claim_kind": "evidence",
+    "citation_audit_state": "sources_citable_claim_limits_apply",
+    "audit_verdicts": [
+      {
+        "key": "H5",
+        "verdict": "verified_with_note"
+      }
+    ]
   }
 ]

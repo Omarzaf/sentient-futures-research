@@ -1,1 +1,2478 @@
-[]
+[
+  {
+    "id": "B1-SEARCH-01",
+    "date": "2026-10-02",
+    "terms": [
+      "site:azhar.eg اللحوم المستنبتة حكم"
+    ],
+    "hosts": [
+      "azhar.eg"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-01.json"
+  },
+  {
+    "id": "B1-SEARCH-02",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org اللحوم المستنبتة"
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-01.json"
+  },
+  {
+    "id": "B1-SEARCH-03",
+    "date": "2026-10-02",
+    "terms": [
+      "site:mui.or.id \"daging\" \"kultur\""
+    ],
+    "hosts": [
+      "mui.or.id"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-01.json"
+  },
+  {
+    "id": "B1-SEARCH-04",
+    "date": "2026-10-02",
+    "terms": [
+      "site:islam.gov.my \"daging kultur\""
+    ],
+    "hosts": [
+      "islam.gov.my"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "found_held_language",
+    "scope_note": "JAKIM own-site record captured; Malay remains held under D2.",
+    "evidence_log": "working/audit-candidates/b1-search-01.json"
+  },
+  {
+    "id": "B1-SEARCH-05",
+    "date": "2026-10-02",
+    "terms": [
+      "site:cii.gov.pk \"cultured meat\""
+    ],
+    "hosts": [
+      "cii.gov.pk"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-02.json"
+  },
+  {
+    "id": "B1-SEARCH-06",
+    "date": "2026-10-02",
+    "terms": [
+      "site:ifa-india.org \"cultured meat\""
+    ],
+    "hosts": [
+      "ifa-india.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-02.json"
+  },
+  {
+    "id": "B1-SEARCH-07",
+    "date": "2026-10-02",
+    "terms": [
+      "site:darulifta-deoband.com \"cultured meat\""
+    ],
+    "hosts": [
+      "darulifta-deoband.com"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-02.json"
+  },
+  {
+    "id": "B1-SEARCH-08",
+    "date": "2026-10-02",
+    "terms": [
+      "site:waag-azhar.org/34362"
+    ],
+    "hosts": [
+      "waag-azhar.org/34362"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-02.json"
+  },
+  {
+    "id": "B1-SEARCH-09",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"Al-Azhar\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-03.json"
+  },
+  {
+    "id": "B1-SEARCH-10",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"Dar al-Ifta\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-03.json"
+  },
+  {
+    "id": "B1-SEARCH-11",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"MUI\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-03.json"
+  },
+  {
+    "id": "B1-SEARCH-12",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"JAKIM\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-03.json"
+  },
+  {
+    "id": "B1-SEARCH-13",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"Council of Islamic Ideology\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-04.json"
+  },
+  {
+    "id": "B1-SEARCH-14",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"Islamic Fiqh Academy\" India"
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-04.json"
+  },
+  {
+    "id": "B1-SEARCH-15",
+    "date": "2026-10-02",
+    "terms": [
+      "site:scholar.google.com \"cultured meat\" \"Deoband\""
+    ],
+    "hosts": [
+      "scholar.google.com"
+    ],
+    "method": "Scholarly-index domain-restricted web discovery",
+    "result": "none_found",
+    "scope_note": "No matching indexed results returned by this query. This is not proof that the body has no ruling.",
+    "evidence_log": "working/audit-candidates/b1-search-04.json"
+  },
+  {
+    "id": "B1-SEARCH-16",
+    "date": "2026-10-02",
+    "terms": [
+      "site:azhar.eg (\"المستنبتة\" OR \"المستزرعة\") لحوم"
+    ],
+    "hosts": [
+      "azhar.eg"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-05.json"
+  },
+  {
+    "id": "B1-SEARCH-17",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org (\"مختبر\" OR \"مستنبت\" OR \"مستزرع\") لحوم"
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-05.json"
+  },
+  {
+    "id": "B1-SEARCH-18",
+    "date": "2026-10-02",
+    "terms": [
+      "site:mui.or.id (\"daging kultur\" OR \"daging buatan\" OR \"cultured meat\")"
+    ],
+    "hosts": [
+      "mui.or.id"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-05.json"
+  },
+  {
+    "id": "B1-SEARCH-19",
+    "date": "2026-10-02",
+    "terms": [
+      "site:cii.gov.pk (گوشت OR meat) (لیبارٹری OR cultured OR cultivated)"
+    ],
+    "hosts": [
+      "cii.gov.pk"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-05.json"
+  },
+  {
+    "id": "B1-SEARCH-20",
+    "date": "2026-10-02",
+    "terms": [
+      "site:ifa-india.org (مصنوعی OR \"cultured\" OR \"cultivated\")"
+    ],
+    "hosts": [
+      "ifa-india.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-06.json"
+  },
+  {
+    "id": "B1-SEARCH-21",
+    "date": "2026-10-02",
+    "terms": [
+      "site:darulifta-deoband.com (\"لیبارٹری\" OR \"مصنوعی گوشت\" OR \"lab grown\")"
+    ],
+    "hosts": [
+      "darulifta-deoband.com"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-06.json"
+  },
+  {
+    "id": "B1-SEARCH-22",
+    "date": "2026-10-02",
+    "terms": [
+      "site:darululoom-deoband.com \"meat\" \"lab\""
+    ],
+    "hosts": [
+      "darululoom-deoband.com"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-06.json"
+  },
+  {
+    "id": "B1-SEARCH-23",
+    "date": "2026-10-02",
+    "terms": [
+      "\"اللحوم المستنبتة\" \"شومان\" \"34362\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-06.json"
+  },
+  {
+    "id": "B1-SEARCH-24",
+    "date": "2026-10-02",
+    "terms": [
+      "\"اللحوم المستنبتة\" \"هيئة كبار العلماء\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "found_publisher_report_only",
+    "scope_note": "WAAG report captured; Council resolution remains unlocated.",
+    "evidence_log": "working/audit-candidates/b1-search-07.json"
+  },
+  {
+    "id": "B1-SEARCH-25",
+    "date": "2026-10-02",
+    "terms": [
+      "\"daging kultur\" \"MUI\" fatwa"
+    ],
+    "hosts": [
+      "mui.or.id",
+      "halalmui.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "found_held_language_periodical",
+    "scope_note": "LPPOM MUI magazine captured; Indonesian held and not a Fatwa Commission resolution.",
+    "evidence_log": "working/audit-candidates/b1-search-07.json"
+  },
+  {
+    "id": "B1-SEARCH-26",
+    "date": "2026-10-02",
+    "terms": [
+      "\"گوشت\" \"مصنوعی\" \"دیوبند\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-07.json"
+  },
+  {
+    "id": "B1-SEARCH-27",
+    "date": "2026-10-02",
+    "terms": [
+      "\"cultured meat\" \"Islamic Fiqh Academy\" India ruling"
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "none_found",
+    "scope_note": "No dated cultured-meat ruling issued by the named body was located through this bounded query. Unrelated results are excluded; no institutional absence claim follows.",
+    "evidence_log": "working/audit-candidates/b1-search-07.json"
+  },
+  {
+    "id": "B1-SEARCH-28",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org \"اللحوم\" \"المعامل\""
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-08.json"
+  },
+  {
+    "id": "B1-SEARCH-29",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org \"cultured\" \"meat\""
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-08.json"
+  },
+  {
+    "id": "B1-SEARCH-30",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org \"اللحوم\" \"المستنبتة\""
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-08.json"
+  },
+  {
+    "id": "B1-SEARCH-31",
+    "date": "2026-10-02",
+    "terms": [
+      "\"حكم تناول اللحوم المستنبتة\" \"الإفتاء\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-08.json"
+  },
+  {
+    "id": "B1-SEARCH-32",
+    "date": "2026-10-02",
+    "terms": [
+      "\"اللحوم المستزرعة\" \"dar-alifta\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-09.json"
+  },
+  {
+    "id": "B1-SEARCH-33",
+    "date": "2026-10-02",
+    "terms": [
+      "\"اللحوم المخبرية\" \"دار الإفتاء\" \"رقم\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-09.json"
+  },
+  {
+    "id": "B1-SEARCH-34",
+    "date": "2026-10-02",
+    "terms": [
+      "\"cultured meat\" \"Egypt\" \"dar-alifta.org\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-09.json"
+  },
+  {
+    "id": "B1-SEARCH-35",
+    "date": "2026-10-02",
+    "terms": [
+      "\"حكم تناول اللحوم المستزرعة والمستنبتة في المختبرات\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-09.json"
+  },
+  {
+    "id": "B1-SEARCH-36",
+    "date": "2026-10-02",
+    "terms": [
+      "\"7697\" \"اللحوم\" \"الإفتاء\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-10.json"
+  },
+  {
+    "id": "B1-SEARCH-37",
+    "date": "2026-10-02",
+    "terms": [
+      "site:dar-alifta.org \"7697\""
+    ],
+    "hosts": [
+      "dar-alifta.org"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-10.json"
+  },
+  {
+    "id": "B1-SEARCH-38",
+    "date": "2026-10-02",
+    "terms": [
+      "\"المستنبتة\" \"dar-alifta.gov.eg\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-10.json"
+  },
+  {
+    "id": "B1-SEARCH-39",
+    "date": "2026-10-02",
+    "terms": [
+      "\"اللحوم المستزرعة\" \"27\" \"2023\""
+    ],
+    "hosts": [
+      "public web search"
+    ],
+    "method": "Public own-site or lead-recovery web search",
+    "result": "secondary_leads_only_original_not_retrieved",
+    "scope_note": "Dar al-Ifta secondary sources identify fatwa7697 dated27May2023; no original ruling URL/content was verified.",
+    "evidence_log": "working/audit-candidates/b1-search-10.json"
+  },
+  {
+    "id": "B1-INDEX-EPMC",
+    "date": "2026-10-02",
+    "terms": [
+      "(\"cultured meat\" OR \"cultivated meat\" OR \"lab-grown meat\") AND (\"Al-Azhar\" OR \"Dar al-Ifta\" OR \"Majelis Ulama Indonesia\" OR \"JAKIM\" OR \"Council of Islamic Ideology\" OR \"Islamic Fiqh Academy\" OR \"Deoband\")"
+    ],
+    "hosts": [
+      "www.ebi.ac.uk"
+    ],
+    "method": "Europe PMC scholarly-index public API",
+    "result": "five_scholarly_records_found",
+    "hit_count": 5,
+    "results": [
+      {
+        "id": "42073176",
+        "pmcid": "PMC13115498",
+        "doi": "10.3390/foods15081288",
+        "title": "Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges.",
+        "year": "2026"
+      },
+      {
+        "id": "38601623",
+        "pmcid": "PMC11004531",
+        "doi": "10.1016/j.heliyon.2024.e28491",
+        "title": "A review of the discussions on cultivated meat from the Islamic perspective.",
+        "year": "2024"
+      },
+      {
+        "id": "40238310",
+        "pmcid": "PMC11989096",
+        "doi": "10.3390/foods14071135",
+        "title": "Integrity Challenges in Halal Meat Supply Chain: Potential Industry 4.0 Technologies as Catalysts for Resolution.",
+        "year": "2025"
+      },
+      {
+        "id": "36618954",
+        "pmcid": "PMC9816357",
+        "doi": "10.1007/s41649-022-00210-9",
+        "title": "Three-Dimensional (3D) Printing of Organs according to the Perspective of Islamic Law.",
+        "year": "2023"
+      },
+      {
+        "id": "36466219",
+        "pmcid": "PMC9712126",
+        "doi": "10.1016/j.sjbs.2022.103501",
+        "title": "Scientific and Islamic perspectives in relation to the Halal status of cultured meat.",
+        "year": "2023"
+      }
+    ],
+    "scope_note": "Metadata leads only. This index query does not establish any named institution ruling.",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22cultured+meat%22+OR+%22cultivated+meat%22+OR+%22lab-grown+meat%22%29+AND+%28%22Al-Azhar%22+OR+%22Dar+al-Ifta%22+OR+%22Majelis+Ulama+Indonesia%22+OR+%22JAKIM%22+OR+%22Council+of+Islamic+Ideology%22+OR+%22Islamic+Fiqh+Academy%22+OR+%22Deoband%22%29&format=json&pageSize=50",
+    "http_status": 200,
+    "retrieved_at": "2026-10-02T18:34:12.870Z",
+    "sha256": "e1654e9a660c2c5f6d4aa062b6c22251cd512a7cc06957866aa2e5140e02b2f3",
+    "receipt_path": "working/citations/stage3-b1-index-01/B1-INDEX-EPMC.receipt.json"
+  },
+  {
+    "id": "B1-DAR-REFERENCE-RECOVERY",
+    "date": "2026-10-02",
+    "terms": [
+      "ResearchGate record390999404, footnote4: fatwa7697,27May2023",
+      "https://www.dar-alifta.org/ar/fatwa/details/7697"
+    ],
+    "hosts": [
+      "www.researchgate.net",
+      "www.dar-alifta.org"
+    ],
+    "method": "Read scholarly reference and attempt direct official URL",
+    "result": "original_not_retrieved",
+    "scope_note": "The secondary reference names a fatwa number/date; a constructed current-site detail route was inaccessible through the web tool and is not accepted as an established original URL. No HTTP status or SHA is invented."
+  },
+  {
+    "id": "B1-MDPI-LEAD-OPEN",
+    "date": "2026-10-02",
+    "terms": [
+      "10.3390/foods15081288",
+      "https://www.mdpi.com/2304-8158/15/8/1288"
+    ],
+    "hosts": [
+      "www.mdpi.com"
+    ],
+    "method": "Open scholarly lead from index",
+    "result": "not_retrieved",
+    "scope_note": "Web tool reported HTTP429; no content used as ruling evidence."
+  },
+  {
+    "id": "P-B2-WEB-01",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"Cultured meat and halal\" \"Alzeer\""
+    ],
+    "hosts": [
+      "journals.iium.edu.my"
+    ],
+    "result": "found_publisher",
+    "note": "Publisher issue and citation records identified DOI 10.31436/hs.v5i2.122.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-02",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"Concept of\" \"Istihalah\" \"Baserat\""
+    ],
+    "hosts": [
+      "al-kindipublisher.com"
+    ],
+    "result": "found_publisher",
+    "note": "Publisher article 7419 identified DOI 10.32996/ijcrs.2024.4.1.5.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-03",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"Principles regarding the use of haram sources\""
+    ],
+    "hosts": [
+      "irep.iium.edu.my",
+      "ukm.my"
+    ],
+    "result": "identity_unresolved",
+    "note": "A different 2015 paper and a public author listing surfaced; no 2020 publisher text was established.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-04",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"Investigating Al-Istihalah\""
+    ],
+    "hosts": [
+      "ejournal.uin-suka.ac.id"
+    ],
+    "result": "found_publisher",
+    "note": "Publisher article 2731 and its PDF identified.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-05",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"Principles regarding the use of haram sources in modern food products\" Kashim 2020"
+    ],
+    "hosts": [
+      "researchgate.net",
+      "ukm.my"
+    ],
+    "result": "discovery_lead_only",
+    "note": "Secondary listing suggested 10.31838/jcr.07.05.206; subsequent Crossref and DOI resolver calls returned 404.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-06",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "site.journals.iium.edu.my \"hs.v5i2.122\""
+    ],
+    "hosts": [
+      "journals.iium.edu.my"
+    ],
+    "result": "none_found_additional",
+    "note": "Malformed site syntax in the actual query is retained; it established no additional primary record.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-07",
+    "date": "2026-10-02",
+    "track": "B4",
+    "method": "web_search",
+    "terms": [
+      "\"cell\" \"cultivated meat\" \"process\" review scaffolds cell banking medium harvesting DOI"
+    ],
+    "hosts": [
+      "pmc.ncbi.nlm.nih.gov",
+      "mdpi.com"
+    ],
+    "result": "found_candidate",
+    "note": "Reiss et al. 2021 selected as the only additional process review, then matched through Crossref and read from publisher PDF. Other leads were not admitted.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-08",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.1007/s10943-017-0403-3\" retraction correction erratum"
+    ],
+    "hosts": [
+      "link.springer.com"
+    ],
+    "result": "none_found",
+    "note": "No exact correction/retraction notice surfaced in this bounded publisher-domain search.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-09",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.1016/j.heliyon.2024.e28491\" retraction correction corrigendum"
+    ],
+    "hosts": [
+      "sciencedirect.com",
+      "cell.com",
+      "pmc.ncbi.nlm.nih.gov"
+    ],
+    "result": "none_found",
+    "note": "Original article/citations surfaced; no exact notice found.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-10",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.1016/j.sjbs.2022.103501\" retraction correction corrigendum"
+    ],
+    "hosts": [
+      "sciencedirect.com",
+      "pmc.ncbi.nlm.nih.gov"
+    ],
+    "result": "none_found",
+    "note": "Original article/citations surfaced; no exact notice found.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-11",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.3390/foods15081288\" retraction correction"
+    ],
+    "hosts": [
+      "mdpi.com"
+    ],
+    "result": "none_found",
+    "note": "Original article surfaced; no exact notice found.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-12",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.31436/hs.v5i2.122\" retraction correction"
+    ],
+    "hosts": [
+      "journals.iium.edu.my"
+    ],
+    "result": "none_found",
+    "note": "Original article surfaced; no exact notice found.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-13",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.32996/ijcrs.2024.4.1.5\" retraction correction"
+    ],
+    "hosts": [
+      "al-kindipublisher.com",
+      "alkindipublisher.com"
+    ],
+    "result": "none_found",
+    "note": "No exact correction/retraction notice surfaced.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-14",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.14421/azzarqa.v15i1.2731\" retraction correction"
+    ],
+    "hosts": [
+      "ejournal.uin-suka.ac.id"
+    ],
+    "result": "none_found",
+    "note": "Original article/issue/citations surfaced; no exact notice found.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-WEB-15",
+    "date": "2026-10-02",
+    "track": "B2",
+    "method": "web_search",
+    "terms": [
+      "\"10.3390/ijms22147513\" retraction correction"
+    ],
+    "hosts": [
+      "mdpi.com"
+    ],
+    "result": "none_found",
+    "note": "Original article and version notes surfaced; no formal notice found. Raw version-notes capture was a shell, so that tool-text lead is not elevated to reviewed publisher history.",
+    "provenance": "Search discovery only; source verification uses separately captured raw pages. Hosts list the search restriction when applied or relevant result hosts; the actual query text is preserved."
+  },
+  {
+    "id": "P-B2-FETCH-001",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.762Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured Meat in Islamic Perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20Meat%20in%20Islamic%20Perspective&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-006-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-002",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.802Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "A review of the discussions on cultivated meat from the Islamic perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=A%20review%20of%20the%20discussions%20on%20cultivated%20meat%20from%20the%20Islamic%20perspective&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-007-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-003",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.803Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Scientific and Islamic perspectives in relation to the Halal status of cultured meat"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Scientific%20and%20Islamic%20perspectives%20in%20relation%20to%20the%20Halal%20status%20of%20cultured%20meat&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-008-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-004",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.818Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20Meat%20and%20Its%20Acceptability%20in%20Muslim%20Societies%3A%20A%20Narrative%20Perspective%20on%20Halal%20Perspectives%20and%20Regulatory%20Challenges&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-009-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-005",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.819Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured meat and halal: A comprehensive analysis from jurisprudence, biology, and ethics"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20meat%20and%20halal%3A%20A%20comprehensive%20analysis%20from%20jurisprudence%2C%20biology%2C%20and%20ethics&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-010-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-006",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.819Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "The Concept of \"Istihalah\" (Transformation) in Islamic Jurisprudence and Its Contemporary Applications"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=The%20Concept%20of%20%22Istihalah%22%20(Transformation)%20in%20Islamic%20Jurisprudence%20and%20Its%20Contemporary%20Applications&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-011-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-007",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.821Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Principles regarding the use of haram sources in modern food products: an Islamic perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Principles%20regarding%20the%20use%20of%20haram%20sources%20in%20modern%20food%20products%3A%20an%20Islamic%20perspective&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-012-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-008",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:22:10.822Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Investigating Al-Istihalah in the Provisions of Shariah Texts"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Investigating%20Al-Istihalah%20in%20the%20Provisions%20of%20Shariah%20Texts&rows=3",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Retrieval failure: TypeError / ENOTFOUND / fetch failed",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-01/HS-024-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-009",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:12.675Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured Meat in Islamic Perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20Meat%20in%20Islamic%20Perspective&rows=3",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-006-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-010",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:12.715Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "A review of the discussions on cultivated meat from the Islamic perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=A%20review%20of%20the%20discussions%20on%20cultivated%20meat%20from%20the%20Islamic%20perspective&rows=3",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "a6d646422227f253ba0f11c67a2ff49941212f3c849e91dd91d9142ff89d6189",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-007-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-011",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:12.715Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Scientific and Islamic perspectives in relation to the Halal status of cultured meat"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Scientific%20and%20Islamic%20perspectives%20in%20relation%20to%20the%20Halal%20status%20of%20cultured%20meat&rows=3",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "4ce3012e146529edfb8f00557c6ef0ba87cb0b4f6a8bdfd42ba42c901e6b4780",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-008-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-012",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:13.192Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20Meat%20and%20Its%20Acceptability%20in%20Muslim%20Societies%3A%20A%20Narrative%20Perspective%20on%20Halal%20Perspectives%20and%20Regulatory%20Challenges&rows=3",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "ea1135b2c09755b5515492a0088013c8a9ecb6632f22755530bfd2fa3691d478",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-009-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-013",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:13.193Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Cultured meat and halal: A comprehensive analysis from jurisprudence, biology, and ethics"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Cultured%20meat%20and%20halal%3A%20A%20comprehensive%20analysis%20from%20jurisprudence%2C%20biology%2C%20and%20ethics&rows=3",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-010-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-014",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:13.193Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "The Concept of \"Istihalah\" (Transformation) in Islamic Jurisprudence and Its Contemporary Applications"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=The%20Concept%20of%20%22Istihalah%22%20(Transformation)%20in%20Islamic%20Jurisprudence%20and%20Its%20Contemporary%20Applications&rows=3",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-011-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-015",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:13.413Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Principles regarding the use of haram sources in modern food products: an Islamic perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Principles%20regarding%20the%20use%20of%20haram%20sources%20in%20modern%20food%20products%3A%20an%20Islamic%20perspective&rows=3",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-012-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-016",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:23:13.414Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Investigating Al-Istihalah in the Provisions of Shariah Texts"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Investigating%20Al-Istihalah%20in%20the%20Provisions%20of%20Shariah%20Texts&rows=3",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-02/HS-024-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-017",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:27.457Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "Principles regarding the use of haram sources in modern food products: an Islamic perspective"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.bibliographic=Principles%20regarding%20the%20use%20of%20haram%20sources%20in%20modern%20food%20products%3A%20an%20Islamic%20perspective&rows=3",
+    "http_status": 200,
+    "result": "none_found",
+    "note": "No exact 2020 identity among three Crossref query results. The first result is a different 2015 article and was not substituted.",
+    "sha256": "3ff9b7ba62c5f5774d51fc71e3dee77131c4e4a4178a79a399e4bfa7cae8be9f",
+    "capture_receipt": "working/citations/stage3-scholarship-crossref-03/HS-012-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-018",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:20.392Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.1007%2Fs10943-017-0403-3"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.1007%2Fs10943-017-0403-3",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "79f59e0f00163404d818705205d46858063b5c3615ca2a697b4b7d2a02b34d46",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-01/HS-006-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-019",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:20.408Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.31436%2Fhs.v5i2.122"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.31436%2Fhs.v5i2.122",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-01/HS-010-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-020",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:20.409Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.32996%2Fijcrs.2024.4.1.5"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.32996%2Fijcrs.2024.4.1.5",
+    "http_status": 429,
+    "result": "not_retrieved",
+    "note": "Crossref returned HTTP 429. Later individually paced requests, where made, are separate retained records.",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-01/HS-011-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-021",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:39.869Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.31436%2Fhs.v5i2.122"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.31436%2Fhs.v5i2.122",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "dc032acb3645e278d3a3d56df4099418a590a6f6161e976670ab9e2eadf735da",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-02/HS-010-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-022",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:25:00.767Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.32996%2Fijcrs.2024.4.1.5"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.32996%2Fijcrs.2024.4.1.5",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "3a082b55847a47b700d93a65353a708acf0711c4ff37d65d6d69a5f4b3bd3306",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-03/HS-011-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-023",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:25:18.701Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.14421%2Fazzarqa.v15i1.2731"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.14421%2Fazzarqa.v15i1.2731",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "1cfa6fb0b63ac8682928e72a4b3860d08682dc8b30b739123066a1de25f34d9f",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-04/HS-024-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-024",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:25:40.690Z",
+    "track": "B2",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works/10.31838%2Fjcr.07.05.206"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works/10.31838%2Fjcr.07.05.206",
+    "http_status": 404,
+    "result": "not_retrieved",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+    "capture_receipt": "working/citations/stage3-scholarship-doi-05/HS-012-DOI.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-025",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:05.389Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://journals.iium.edu.my/inst/index.php/hs/article/download/122/118"
+    ],
+    "hosts": [
+      "journals.iium.edu.my"
+    ],
+    "url": "https://journals.iium.edu.my/inst/index.php/hs/article/download/122/118",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "2b6af0794034cebe8828b9ea5c320fb7b9bc31b884969a1c84ad1569dfc3e964",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-010-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-026",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:05.434Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://al-kindipublisher.com/index.php/ijcrs/article/download/7419/6237"
+    ],
+    "hosts": [
+      "al-kindipublisher.com"
+    ],
+    "url": "https://al-kindipublisher.com/index.php/ijcrs/article/download/7419/6237",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "76dbcb6ce21ffacaa53f8a2791fca16b67249c2573bf291a4ffd7e56b06fa873",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-011-PDF2.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-027",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:05.435Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9712126/fullTextXML"
+    ],
+    "hosts": [
+      "www.ebi.ac.uk"
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9712126/fullTextXML",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "89234d5abd1cebd4e0fdfbba14bf753bd2d141d0dcbef8719671e4f7bd0a689c",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-008-PMC.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-028",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:12.758Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://mdpi-res.com/d_attachment/foods/foods-15-01288/article_deploy/foods-15-01288.pdf"
+    ],
+    "hosts": [
+      "mdpi-res.com"
+    ],
+    "url": "https://mdpi-res.com/d_attachment/foods/foods-15-01288/article_deploy/foods-15-01288.pdf",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "d2bc2237231cb61ca55cb57dd7391e6958a8641877d4407cb371386be6897384",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-009-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-029",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:12.765Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML"
+    ],
+    "hosts": [
+      "www.ebi.ac.uk"
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "c71d4b451dde5dee682f3469f0b6e1486293fc15a15ac542661e5d190dce4039",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-009-PMC.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-030",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:12.767Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "http://link.springer.com/content/pdf/10.1007/s10943-017-0403-3.pdf"
+    ],
+    "hosts": [
+      "link.springer.com"
+    ],
+    "url": "http://link.springer.com/content/pdf/10.1007/s10943-017-0403-3.pdf",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-006-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-031",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:13.884Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/"
+    ],
+    "hosts": [
+      "cris.maastrichtuniversity.nl"
+    ],
+    "url": "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "1221b7203ecb6a8183340176cb390223b3f3288a0bbb880cc678bc1d051a95c2",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/HS-006-INSTITUTION.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-032",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:13.886Z",
+    "track": "B4",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.mdpi.com/1422-0067/22/14/7513"
+    ],
+    "hosts": [
+      "www.mdpi.com"
+    ],
+    "url": "https://www.mdpi.com/1422-0067/22/14/7513",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "e11b95d121d069966696df227419c284aaf9ed82000b010b78adebaf57526e6c",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/B4-CELLS-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-033",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:13.887Z",
+    "track": "B4",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://mdpi-res.com/d_attachment/ijms/ijms-22-07513/article_deploy/ijms-22-07513.pdf"
+    ],
+    "hosts": [
+      "mdpi-res.com"
+    ],
+    "url": "https://mdpi-res.com/d_attachment/ijms/ijms-22-07513/article_deploy/ijms-22-07513.pdf",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "bac26e3b86641d2e4427acf42305eae1c03b85757ef30350fa484dade61db75f",
+    "capture_receipt": "working/citations/stage3-scholarship-fulltext-01/B4-CELLS-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-034",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:29:08.715Z",
+    "track": "B4",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.mdpi.com/1422-0067/22/14/7513/notes"
+    ],
+    "hosts": [
+      "www.mdpi.com"
+    ],
+    "url": "https://www.mdpi.com/1422-0067/22/14/7513/notes",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "020a57eee07737a098a31588f8a31550780880dd5196e0d07994d6b4c1045510",
+    "capture_receipt": "working/citations/stage3-scholarship-notes-01/B4-CELLS-NOTES.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-035",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:29:08.761Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.mdpi.com/2304-8158/15/8/1288/notes"
+    ],
+    "hosts": [
+      "www.mdpi.com"
+    ],
+    "url": "https://www.mdpi.com/2304-8158/15/8/1288/notes",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "ff96761f2d17307cbd8ae5b161e71f95efd0e5ad4f1833d4c98d1ab14784ffb6",
+    "capture_receipt": "working/citations/stage3-scholarship-notes-01/HS-009-NOTES.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-036",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:26:06.517Z",
+    "track": "B4",
+    "method": "crossref_api",
+    "terms": [
+      "https://api.crossref.org/works?query.title=Cell%20Sources%20for%20Cultivated%20Meat%3A%20Applications%20and%20Considerations%20throughout%20the%20Production%20Workflow&rows=2"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "url": "https://api.crossref.org/works?query.title=Cell%20Sources%20for%20Cultivated%20Meat%3A%20Applications%20and%20Considerations%20throughout%20the%20Production%20Workflow&rows=2",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "93f2ea5c966890a6d377e2d9d8b132ab000806e0f30dc8cf66a7eb0d7a167da7",
+    "capture_receipt": "working/citations/stage3-scholarship-process-query-01/B4-CELLS-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-037",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:19.886Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://link.springer.com/article/10.1007/s10943-017-0403-3"
+    ],
+    "hosts": [
+      "link.springer.com"
+    ],
+    "url": "https://link.springer.com/article/10.1007/s10943-017-0403-3",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-006-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-038",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:19.927Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.sciencedirect.com/science/article/pii/S2405844024045225"
+    ],
+    "hosts": [
+      "www.sciencedirect.com"
+    ],
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405844024045225",
+    "http_status": 403,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "6fc40b5512c15a87cf3721e1275b7da3bab8affef60ef02c5da5ed166bba6262",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-007-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-039",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:19.927Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11004531/fullTextXML"
+    ],
+    "hosts": [
+      "www.ebi.ac.uk"
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11004531/fullTextXML",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "9fc705b36b5dd6249bc8bf4155dd440a4033d2858a2d3cbaec72e5833fe5c930",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-007-PMC.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-040",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:24.811Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.sciencedirect.com/science/article/pii/S1319562X2200417X"
+    ],
+    "hosts": [
+      "www.sciencedirect.com"
+    ],
+    "url": "https://www.sciencedirect.com/science/article/pii/S1319562X2200417X",
+    "http_status": 403,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "f7cbf5b5451ba302e4f62d24af1655a8762a5894b9474a0fd4485d3a776431d7",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-008-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-041",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:24.816Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.mdpi.com/2304-8158/15/8/1288"
+    ],
+    "hosts": [
+      "www.mdpi.com"
+    ],
+    "url": "https://www.mdpi.com/2304-8158/15/8/1288",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "2e398856dfa71450c05ba59f5dd5c0d1c6f2e571e010e166c71a43c0bdb58dcc",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-009-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-042",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:24.818Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://journals.iium.edu.my/inst/index.php/hs/article/view/122"
+    ],
+    "hosts": [
+      "journals.iium.edu.my"
+    ],
+    "url": "https://journals.iium.edu.my/inst/index.php/hs/article/view/122",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "832614cec11a073044c278100495a69076fbbd3538f147d474a7e58ce69b3f5e",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-010-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-043",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:26.938Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://al-kindipublisher.com/index.php/ijcrs/article/view/7419"
+    ],
+    "hosts": [
+      "al-kindipublisher.com"
+    ],
+    "url": "https://al-kindipublisher.com/index.php/ijcrs/article/view/7419",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "153b20bd7e4d7726e8695ab8655f4ce429715fdbc46e3872a911cdc836f12b28",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-011-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-044",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:26.941Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://al-kindipublishers.org/index.php/ijcrs/article/download/7419/6237"
+    ],
+    "hosts": [
+      "al-kindipublishers.org"
+    ],
+    "url": "https://al-kindipublishers.org/index.php/ijcrs/article/download/7419/6237",
+    "http_status": null,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": null,
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-011-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-045",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:26.948Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.31838/jcr.07.05.206"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.31838/jcr.07.05.206",
+    "http_status": 404,
+    "result": "not_retrieved",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "81112a94353200facce81ecf7afc4cbf425438a0289264cd9762679e6b56d9ba",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-012-DOI-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-046",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:27.621Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/view/2731"
+    ],
+    "hosts": [
+      "ejournal.uin-suka.ac.id"
+    ],
+    "url": "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/view/2731",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "0497004a2fc047f536c7e1ad9641fe17751bbfb78ae79091eb84632cb9f40bdb",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-024-PUB.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-047",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:24:27.622Z",
+    "track": "B2",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/download/2731/2002/8599"
+    ],
+    "hosts": [
+      "ejournal.uin-suka.ac.id"
+    ],
+    "url": "https://ejournal.uin-suka.ac.id/syariah/azzarqa/article/download/2731/2002/8599",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "24a1fc01d813e246cc289c88cfd2bd75fe0c4265f83589d6eb93dfe322146454",
+    "capture_receipt": "working/citations/stage3-scholarship-publishers-01/HS-024-PDF.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-048",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:38.783Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.1007/s10943-017-0403-3"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.1007/s10943-017-0403-3",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-006-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-049",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:38.832Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.1016/j.heliyon.2024.e28491"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e28491",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "50af0ac33b738e5f652bec27e8926b281b092ce44c24a7ee516feea2734b2cc9",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-007-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-050",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:38.833Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.1016/j.sjbs.2022.103501"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.1016/j.sjbs.2022.103501",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "226523cdd6aae7a9b3858d5cd399b76f9cc7e7a5872606aa0eef4b6e23134fc8",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-008-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-051",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:39.984Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.3390/foods15081288"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.3390/foods15081288",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "84dab312d07b254effa0143905a58cfe292464d86ae923418cdf6b439dc05061",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-009-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-052",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:39.985Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.31436/hs.v5i2.122"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.31436/hs.v5i2.122",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "832614cec11a073044c278100495a69076fbbd3538f147d474a7e58ce69b3f5e",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-010-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-053",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:39.985Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.32996/ijcrs.2024.4.1.5"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.32996/ijcrs.2024.4.1.5",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "153b20bd7e4d7726e8695ab8655f4ce429715fdbc46e3872a911cdc836f12b28",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-011-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-054",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:41.826Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.31838/jcr.07.05.206"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.31838/jcr.07.05.206",
+    "http_status": 404,
+    "result": "not_retrieved",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "81112a94353200facce81ecf7afc4cbf425438a0289264cd9762679e6b56d9ba",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-012-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-055",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:41.827Z",
+    "track": "B2",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.14421/azzarqa.v15i1.2731"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.14421/azzarqa.v15i1.2731",
+    "http_status": 200,
+    "result": "retrieved_candidate",
+    "note": "Raw retrieval logged; identity and passage admission are separate in scholarship.json.",
+    "sha256": "23609e13003c700e693df70b50e23dfe2d2a98f129b25cb58a8f2cf725b80028",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/HS-024-RESOLVE.receipt.json"
+  },
+  {
+    "id": "P-B2-FETCH-056",
+    "date": "2026-10-02",
+    "retrieved_at": "2026-10-02T18:28:41.828Z",
+    "track": "B4",
+    "method": "doi_resolution",
+    "terms": [
+      "https://doi.org/10.3390/ijms22147513"
+    ],
+    "hosts": [
+      "doi.org"
+    ],
+    "url": "https://doi.org/10.3390/ijms22147513",
+    "http_status": 200,
+    "result": "not_retrieved",
+    "note": "Challenge, JavaScript shell, error or inaccessible article content; HTTP 200 alone is not verification.",
+    "sha256": "ed2f6036041d7d35835b168d5bcab9de6a44bb70b181afaf7ee3ef01304e46fe",
+    "capture_receipt": "working/citations/stage3-scholarship-resolve-01/B4-CELLS-RESOLVE.receipt.json"
+  },
+  {
+    "id": "B3-S01",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.state.gov \"2023\" \"Pakistan\" \"Hanafi\""
+    ],
+    "hosts": [
+      "state.gov"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S02",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.state.gov \"2023\" \"India\" \"Shafi\""
+    ],
+    "hosts": [
+      "state.gov"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S03",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.muis.gov.sg Shafii school Singapore Muslims history"
+    ],
+    "hosts": [
+      "muis.gov.sg"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S04",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.state.gov \"2023\" \"Saudi Arabia\" \"Hanbali\""
+    ],
+    "hosts": [
+      "state.gov"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S05",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "Pakistan Hanafi predominant school Sunni"
+    ],
+    "hosts": [
+      "state.gov",
+      "uscirf.gov",
+      "gov.uk"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S06",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "India Hanafi Shafii Muslims schools"
+    ],
+    "hosts": [
+      "state.gov",
+      "gov.uk",
+      "oxfordreference.com",
+      "cambridge.org"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S07",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "Singapore Shafii school predominant Administration Muslim Law section 33"
+    ],
+    "hosts": [
+      "muis.gov.sg",
+      "sso.agc.gov.sg"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S08",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "Indonesia Malaysia Shafii predominant school"
+    ],
+    "hosts": [
+      "state.gov",
+      "gov.uk",
+      "muis.gov.sg"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S09",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.muis.gov.sg \"Shafi\" \"majority\""
+    ],
+    "hosts": [
+      "muis.gov.sg"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S10",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "\"Indonesia\" \"Shafi\" \"2023\" school predominant journal"
+    ],
+    "hosts": [],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence.",
+    "method": "web_search",
+    "host_scope": "unrestricted"
+  },
+  {
+    "id": "B3-S11",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.state.gov \"United Arab Emirates\" \"Maliki\" \"2023\""
+    ],
+    "hosts": [
+      "state.gov"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S12",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.constituteproject.org Saudi Arabia 1992 constitution article 1 45"
+    ],
+    "hosts": [
+      "constituteproject.org"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S13",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.uaelegislation.gov.ae \"Fatwa\" \"Maliki\""
+    ],
+    "hosts": [
+      "uaelegislation.gov.ae"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S14",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.muis.gov.sg \"Shafi’i\" \"Muslims\""
+    ],
+    "hosts": [
+      "muis.gov.sg"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S15",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.cambridge.org Indonesia \"dominant\" \"Shafi\""
+    ],
+    "hosts": [
+      "cambridge.org"
+    ],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence."
+  },
+  {
+    "id": "B3-S16",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "\"UAE\" \"Fatwa Council\" \"2024\" law official"
+    ],
+    "hosts": [],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence.",
+    "method": "web_search",
+    "host_scope": "unrestricted"
+  },
+  {
+    "id": "B3-S17",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "\"Indonesia\" \"Shafi‘i\" \"majority\" Cambridge"
+    ],
+    "hosts": [],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence.",
+    "method": "web_search",
+    "host_scope": "unrestricted"
+  },
+  {
+    "id": "B3-S18",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "\"India\" \"Hanafi\" \"predominant\" university"
+    ],
+    "hosts": [],
+    "result": "candidate_screening",
+    "note": "Search discovery only. Individual candidates require full-page capture and audit; raw aggregate tool responses are retained locally. Unrelated and secondary results were not accepted as evidence.",
+    "method": "web_search",
+    "host_scope": "unrestricted"
+  },
+  {
+    "id": "B3-S19",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "\"Islam and Negotiation\" \"Second Edition\" \"2024\" Georgetown"
+    ],
+    "hosts": [
+      "giwps.georgetown.edu"
+    ],
+    "result": "none_found",
+    "note": "Metadata and statutory follow-up. Search results require captured-page review."
+  },
+  {
+    "id": "B3-S20",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.giwps.georgetown.edu \"Islam and Negotiation\""
+    ],
+    "hosts": [
+      "giwps.georgetown.edu"
+    ],
+    "result": "candidate_found",
+    "note": "Metadata and statutory follow-up. Search results require captured-page review."
+  },
+  {
+    "id": "B3-S21",
+    "track": "B3",
+    "date": "2026-10-02",
+    "terms": [
+      "site.uaelegislation.gov.ae/en/legislations \"Council\" \"Fatwa\""
+    ],
+    "hosts": [
+      "uaelegislation.gov.ae"
+    ],
+    "result": "candidate_found",
+    "note": "Metadata and statutory follow-up. Search results require captured-page review."
+  },
+  {
+    "id": "P-B3-ZULKIFLI-CR",
+    "date": "2026-10-02",
+    "method": "crossref_api",
+    "terms": [
+      "Education, Identity, and Recognition: The Shi‘i Islamic Education in Indonesia"
+    ],
+    "hosts": [
+      "api.crossref.org"
+    ],
+    "result": "matched",
+    "note": "First result matches title, year, journal and author identity; two other results excluded.",
+    "capture_receipt": "working/citations/stage3-scholarship-geography-metadata-01/P-GEO-ID-CROSSREF.receipt.json"
+  },
+  {
+    "id": "P-B3-ZULKIFLI-PUB",
+    "date": "2026-10-02",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://studiaislamika.ppimcensis.or.id/index.php/studia-islamika/article/view/879"
+    ],
+    "hosts": [
+      "studiaislamika.ppimcensis.or.id"
+    ],
+    "result": "retrieved_and_identity_matched",
+    "capture_receipt": "working/citations/stage3-scholarship-geography-metadata-01/P-GEO-ID-PUBLISHER.receipt.json"
+  },
+  {
+    "id": "P-B3-ZULKIFLI-NOTICES",
+    "date": "2026-10-02",
+    "method": "web_search",
+    "terms": [
+      "\"10.15408/sdi.v21i1.879\" correction retraction erratum"
+    ],
+    "hosts": [
+      "studiaislamika.ppimcensis.or.id",
+      "journal.uinjkt.ac.id"
+    ],
+    "result": "none_found",
+    "note": "Original article and issue surfaced, no exact notice found. Search discovery result only, separate from captured publisher metadata."
+  },
+  {
+    "date": "2026-10-02",
+    "terms": [
+      "\"يحل أكل الكبد والطحال بلا خلاف\" \"المجموع\"",
+      "\"ولا يطهر شيء من ذلك عندنا\" \"المجموع\"",
+      "\"مذهبنا أنه لا يطهر السرجين\" \"المجموع\""
+    ],
+    "hosts": [
+      "shamela.ws",
+      "usul.ai",
+      "islamicbook.ws"
+    ],
+    "result": "none_found",
+    "evidence": "working/audit-candidates/majmu-recovery-search.json",
+    "note": "Results from other works were excluded. This is only a scoped search failure.",
+    "id": "P-CLASSICAL-RECOVERY-1",
+    "track": "stage2_recovery"
+  },
+  {
+    "date": "2026-10-02",
+    "terms": [
+      "site:shamela.ws/book/2186 \"الكبد والطحال\""
+    ],
+    "hosts": [
+      "shamela.ws"
+    ],
+    "result": "none_found",
+    "note": "Web search returned empty results.",
+    "id": "P-CLASSICAL-RECOVERY-2",
+    "track": "stage2_recovery"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-GEORGETOWN",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://giwps.georgetown.edu/wp-content/uploads/2024/06/Islam-and-Negotiation-Action-Guide-for-Muslim-Women.pdf"
+    ],
+    "hosts": [
+      "giwps.georgetown.edu"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-GEORGETOWN.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-ID-STUDY",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://studiaislamika.ppimcensis.or.id/index.php/studia-islamika/article/download/879/774"
+    ],
+    "hosts": [
+      "studiaislamika.ppimcensis.or.id"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-ID-STUDY.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-MUIS33",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.muis.gov.sg/resources/khutbah-and-religious-advice/fatwa/explanation-by-the-fatwa-committee-on-the-fatwa-friday-prayer-before-zawal--english/"
+    ],
+    "hosts": [
+      "www.muis.gov.sg"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-MUIS33.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-MY505",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://muftiwp.gov.my/images/archive/akta_pekeliling/Act_505-Admistration_of_Islamic_Law__Federal_Territories_Act_1993.pdf"
+    ],
+    "hosts": [
+      "muftiwp.gov.my"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-MY505.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-PKCONST",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf"
+    ],
+    "hosts": [
+      "na.gov.pk"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-PKCONST.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-SA-BASIC",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.constituteproject.org/constitution/Saudi_Arabia_2005.pdf"
+    ],
+    "hosts": [
+      "www.constituteproject.org"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-SA-BASIC.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-SA-IRF",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://2021-2025.state.gov/wp-content/uploads/2024/05/547499_SAUDI-ARABIA-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    ],
+    "hosts": [
+      "2021-2025.state.gov"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-SA-IRF.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-SG-READER",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://www.darul-arqam.org.sg/wp-content/uploads/2022/03/Journey-to-Recovery-2021-lr.pdf"
+    ],
+    "hosts": [
+      "www.darul-arqam.org.sg"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-SG-READER.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-SGAMLA",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://sso.agc.gov.sg/Act-Rev/AMLA1966/Published/20211231?DocDate=20211231"
+    ],
+    "hosts": [
+      "sso.agc.gov.sg"
+    ],
+    "result": "not_retrieved",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-SGAMLA.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-01-P-GEO-SOUTHASIA",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://assets.publishing.service.gov.uk/media/57a08b32ed915d3cfd000bc6/working_paper_50.pdf"
+    ],
+    "hosts": [
+      "assets.publishing.service.gov.uk"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-01/P-GEO-SOUTHASIA.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-02-P-GEO-GEORGETOWN-META",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://giwps.georgetown.edu/resource/islam-and-negotiation/"
+    ],
+    "hosts": [
+      "giwps.georgetown.edu"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-02/P-GEO-GEORGETOWN-META.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-02-P-GEO-SA-IRF-HTML",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saudi-arabia/"
+    ],
+    "hosts": [
+      "2021-2025.state.gov"
+    ],
+    "result": "retrieved_candidate",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-02/P-GEO-SA-IRF-HTML.receipt.json"
+  },
+  {
+    "id": "P-B3-FETCH-stage3-geography-02-P-GEO-UAE-FATWA",
+    "date": "2026-10-02",
+    "track": "B3",
+    "method": "raw_public_fetch",
+    "terms": [
+      "https://uaelegislation.gov.ae/en/legislations/2331/download"
+    ],
+    "hosts": [
+      "uaelegislation.gov.ae"
+    ],
+    "result": "not_retrieved",
+    "note": "Retrieval label only. Separate semantic audit rejects shells and preserves language, date and identity holds.",
+    "capture_receipt": "working/citations/stage3-geography-02/P-GEO-UAE-FATWA.receipt.json"
+  }
+]
