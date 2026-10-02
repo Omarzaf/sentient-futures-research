@@ -3268,7 +3268,7 @@
       }
     ],
     "host_type": "recognized_digital_library",
-    "family": "Ibn Qudama",
+    "family": "Ibn Muflih commentary on Ibn Qudama",
     "bibliographic_complete": true,
     "claims_rechecked": [
       {
@@ -3300,7 +3300,8 @@
         "note": "The source-attributed component is present in the captured passage; the comparative claim also requires its separately named sources. No historical consumption trend or contemporary product ruling follows.",
         "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition"
       }
-    ]
+    ],
+    "family_note": "Commentary authorship is distinct from the Ibn Qudama base text; no independent corroboration is inferred from this relationship."
   },
   {
     "key": "H-TAY-IST",
@@ -5480,12 +5481,12 @@
       {
         "id": "P-LIT-KASHIM23",
         "result": "supported",
-        "note": "This is the authors’ qualified analysis in section 6 and the conclusion. It is neither proof that any actual culture process achieves complete transformation nor an institutional permission to consume serum. The article’s broad summaries of schools are not substitutes for the primary texts.",
+        "note": "This is the authors’ qualified analysis in section 6 and the conclusion. It is neither proof that any actual culture process achieves complete transformation nor an institutional permission to consume serum. The article’s broad summaries of schools are not substitutes for the primary texts. The conclusion’s non-animal medium and scaffold condition remains part of the attributed position.",
         "locator": "Section 6.1, Permissibility of cultured meat to be consumed, Principle 4; section 7, Conclusion"
       }
     ],
     "verdict": "verified_with_note",
-    "notes": "Actual article XML captured from Europe PMC; ScienceDirect returned 403. The source appeared online on 15 November 2022 but is in volume 30, issue 1, January 2023. Correct the issue citation year to 2023 while retaining 2022 as online-publication lineage. Section 6 conditionally suggests that serum-grown cells could qualify through complete transformation, contrasts a rinsing argument, reports restrictive serum standards and recommends avoiding serum. The conclusion requires suitable cell sourcing and halal media/scaffolds. Do not collapse those qualifications into unconditional permission for serum.",
+    "notes": "Actual article XML captured from Europe PMC; ScienceDirect returned 403. The source appeared online on 15 November 2022 but is in volume 30, issue 1, January 2023. Correct the issue citation year to 2023 while retaining 2022 as online-publication lineage. Section 6 conditionally suggests that serum-grown cells could qualify through complete transformation, contrasts a rinsing argument, reports restrictive serum standards and recommends avoiding serum. The conclusion requires suitable cell sourcing and halal and wholesome media/scaffolds not derived from animal sources. Do not collapse those qualifications into unconditional permission for serum.",
     "reading_scope": "full_text_scoped_passages",
     "correction_retraction_check": {
       "status": "none_found_in_records_checked",
@@ -6320,7 +6321,7 @@
       }
     ],
     "host_type": "issuer",
-    "family": "P-GEO-MUIS33",
+    "family": "MUIS",
     "bibliographic_complete": true,
     "claims_rechecked": [
       {

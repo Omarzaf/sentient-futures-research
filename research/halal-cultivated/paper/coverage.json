@@ -91,8 +91,8 @@
     "sections": [
       "9.1"
     ],
-    "disposition": "excluded",
-    "reason": "Substantive original relies on language-held material; retained as a research lead, not asserted in the paper.",
+    "disposition": "included",
+    "reason": "English MUIS release conditions and the separation of religious guidance, future certification and prior SFA permission for sale are traced in section 9.1.",
     "source_ids": [
       "MUIS2024"
     ],
@@ -127,10 +127,10 @@
     "id": "R04",
     "kind": "claim",
     "sections": [
-      "9.4"
+      "9.1"
     ],
-    "disposition": "excluded",
-    "reason": "Substantive original relies on language-held material; retained as a research lead, not asserted in the paper.",
+    "disposition": "included",
+    "reason": "English MUIS release conditions and the separation of religious guidance, future certification and prior SFA permission for sale are traced in section 9.1.",
     "source_ids": [
       "MUIS2024"
     ],
@@ -11140,7 +11140,7 @@
       "HS-008"
     ],
     "status": "primary_read",
-    "statement": "Kashim and colleagues discuss complete transformation as a possible basis for treating serum-grown cells as halal, expressly make this dependent on scholarly opinion, and also recommend avoiding serum while requiring halal production inputs.",
+    "statement": "Kashim and colleagues discuss complete transformation as a possible basis for treating serum-grown cells as halal, expressly make this dependent on scholarly opinion, and also recommend avoiding serum while requiring suitable cell sources and, in the conclusion, halal and wholesome media and scaffold materials not derived from animal sources.",
     "claim_kind": "evidence",
     "citation_audit_state": "sources_citable_claim_limits_apply",
     "audit_verdicts": [

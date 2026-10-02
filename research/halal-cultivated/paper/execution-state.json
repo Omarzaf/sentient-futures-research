@@ -1,6 +1,6 @@
 {
-  "stage": 5,
-  "status": "draft_complete_pending_independent_review",
+  "stage": 6,
+  "status": "cross_checks_complete_pending_local_exports",
   "outlineApproved": true,
   "humanReview": false,
   "mentorApproved": false,
@@ -37,7 +37,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "stage0Commit": "47e478c",
   "remoteAction": {
@@ -69,5 +70,22 @@
       "response": "approved",
       "scope": "Author checkpoint 1: outlined local drafting, D1–D3 defaults, three figures; no remote write or scholarly approval."
     }
+  },
+  "review": {
+    "status": "pass_with_limits",
+    "manuscriptSha256": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598",
+    "checks": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "rounds": 2,
+    "blockingFindings": 0,
+    "unjustifiedMajorFindings": 0,
+    "humanScholarlyReview": "pending",
+    "finalAuthorRead": "pending",
+    "report": "REVIEW-REPORT-2026-10-02.md"
   }
 }

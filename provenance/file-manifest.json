@@ -277,39 +277,44 @@
       "sha256": "33a008263d871070fe3d1b3ca4db45c7260c978fe27bf043701dfed8fb52eec5"
     },
     {
+      "path": "research/halal-cultivated/paper/REVIEW-REPORT-2026-10-02.md",
+      "bytes": 6037,
+      "sha256": "d6c87cb1abd531ab9b7e3c0ac8460da2650681ab131dfe3e341658e37ab057f4"
+    },
+    {
       "path": "research/halal-cultivated/paper/allowlist.json",
       "bytes": 311,
       "sha256": "836f92cf0ddcf9b3379ab7611611b3d0090b5d7a89fabaca8a65faa731aadc0b"
     },
     {
       "path": "research/halal-cultivated/paper/appendices-data.json",
-      "bytes": 207354,
-      "sha256": "c75091d0b6ae9909913744a78e21b2f763254d28d81d5ec09b7f8235f577d6ec"
+      "bytes": 207371,
+      "sha256": "6498e84624cf31c6a73a78700180160e5b80212bf9315f4308c19c5af17fcb60"
     },
     {
       "path": "research/halal-cultivated/paper/citation-audit.json",
-      "bytes": 334275,
-      "sha256": "8192f5db1c12421a4df8c7a863839d70cc2465f711ae813db41768b48e1e1470"
+      "bytes": 334591,
+      "sha256": "18871fdca117bcd8cc54d827d1ed54e98ed6ae75fc7a0a6810790014bf971d21"
     },
     {
       "path": "research/halal-cultivated/paper/claims-added.json",
-      "bytes": 29783,
-      "sha256": "8ee6d87568741298d648538d925d76e13b9a90f517f1b4e37214ffb8206769f4"
+      "bytes": 29987,
+      "sha256": "77ded9ffeb558ea6cf86d5ef071b546ccbf07464f8eeda5619ba03c9e862a381"
     },
     {
       "path": "research/halal-cultivated/paper/coverage.json",
-      "bytes": 431404,
-      "sha256": "210f5f43230b2d9c35fa83bcfdc52369bf7eff7ebe47927065e1b12c4ea1abd2"
+      "bytes": 431597,
+      "sha256": "9e3ab28462de123b5c7c289a50709a047f01102db874197e099b3da8c0029cec"
     },
     {
       "path": "research/halal-cultivated/paper/execution-state.json",
-      "bytes": 2083,
-      "sha256": "8551350197aa74544614b75f7779fa954830f4146d9c477fc0de5bc0953493ee"
+      "bytes": 2510,
+      "sha256": "e652bd3f835b41e76ffa976a4c8bad785a2b6b5befc66cac935a960df759a9b6"
     },
     {
       "path": "research/halal-cultivated/paper/figure-data.json",
-      "bytes": 2115,
-      "sha256": "a51332cb42c6569450b7f61fd17b36cb5112af2ea8692111541122b38e517b15"
+      "bytes": 2117,
+      "sha256": "8f1d037611e7fb4562cd1026b6abd77459834a6c5ee98889e9fc2715900d8c5c"
     },
     {
       "path": "research/halal-cultivated/paper/figures/figure-1-process.png",
@@ -323,13 +328,13 @@
     },
     {
       "path": "research/halal-cultivated/paper/figures/figure-2-countries.png",
-      "bytes": 216329,
-      "sha256": "303e6cfd91007ad22487dcd64591aaab7d0ebb12d3a6bed19317efb483560fff"
+      "bytes": 216176,
+      "sha256": "5d07b42f2d516d90e42f98566a1e945d0c86f3f0256b1acf430c20a888de74b7"
     },
     {
       "path": "research/halal-cultivated/paper/figures/figure-2-countries.svg",
-      "bytes": 32996,
-      "sha256": "125673cce74672cd6e88fd22a34324e8d608787c533a856e18458cef4e4df5d5"
+      "bytes": 33077,
+      "sha256": "79e5043772dd3be9e2ded7e4ae4a7691af1a90cfe8919bf3d86f8bff0906ad75"
     },
     {
       "path": "research/halal-cultivated/paper/figures/figure-3-audit.png",
@@ -353,8 +358,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/paper.md",
-      "bytes": 210006,
-      "sha256": "4ad202bf8d37457cfe7dfe48102d933caf57d2ae70e92def12ef691aba97be94"
+      "bytes": 211054,
+      "sha256": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598"
     },
     {
       "path": "research/halal-cultivated/paper/problems.json",
@@ -363,8 +368,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/review-log.md",
-      "bytes": 13667,
-      "sha256": "afcad1163cf8278bcc170adf1faa3d5a0b51be78ba7a9d0b050786e9dfccd8f6"
+      "bytes": 15209,
+      "sha256": "ad7d902a62b00ecc889849d6bc8fc14b6671fcf3544fb295dad9b9ea7a7c16b2"
     },
     {
       "path": "research/halal-cultivated/paper/search-log.json",
@@ -373,8 +378,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/source-register.json",
-      "bytes": 253827,
-      "sha256": "083a4ac208a6080361ebe5e7a9cee8e4f6719b3cef99e25f9fd4bc586db5a29e"
+      "bytes": 253996,
+      "sha256": "63940857c300f39112dfc526fb9f87b699ff0b2050c1d468b02d5b22f64caadb"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/README.md",
@@ -778,13 +783,13 @@
     },
     {
       "path": "tools/build-paper-appendices.mjs",
-      "bytes": 37758,
-      "sha256": "6501b367fee194f4e19236a4440159fe866b29330425eada862e4189cf642648"
+      "bytes": 37978,
+      "sha256": "69199e97a801ebec6d6c3367400e8d6647ba86b5bf58be06f7538bd576f74aa7"
     },
     {
       "path": "tools/build_paper_figures.py",
-      "bytes": 11887,
-      "sha256": "2ebdf92fe32a0fbec8497494ebb6cf1f3a20d07b5f3cc9fd27946e03b2ebc268"
+      "bytes": 11889,
+      "sha256": "584e29ed8f88caf86b62da1478a122f3fe7e0f7d3cb669cd233cfa46ce36ee3e"
     },
     {
       "path": "tools/consolidate-paper.mjs",
@@ -798,8 +803,8 @@
     },
     {
       "path": "tools/export-paper.mjs",
-      "bytes": 5708,
-      "sha256": "9cf713070989b2f5b8fd2030998cc04e5926faedc665d8b4c1e51f2bca018277"
+      "bytes": 6986,
+      "sha256": "e1e316f4c93001bdc1a4a4eb74a35a4c9d83483869968b4b70e5f6cc1fb93b8e"
     },
     {
       "path": "tools/fetch-citations.mjs",
@@ -813,8 +818,8 @@
     },
     {
       "path": "tools/paper-bibliography.mjs",
-      "bytes": 1991,
-      "sha256": "f4982318b8214fdecdfc563613141c02f49ebd069a39220269bbd4d00017a092"
+      "bytes": 2443,
+      "sha256": "26d80b84b12d015b47aa2a0cb6b3b9efb7bb435ed57a02743ef7e4cc8ab6174b"
     },
     {
       "path": "tools/paper-checks.mjs",
@@ -843,8 +848,8 @@
     },
     {
       "path": "tools/style_paper_docx.py",
-      "bytes": 6010,
-      "sha256": "c22a3eda18dd770fe2d043031d16c133c7168bf7a82637d82c8e2c1b72157b06"
+      "bytes": 6752,
+      "sha256": "c19a672e3fbd142eb54fae4c0f3724db12f7e630c008eca90042f17eefc71c53"
     },
     {
       "path": "tools/survey-checks.mjs",

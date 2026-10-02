@@ -16,15 +16,15 @@
     },
     {
       "path": "research/halal-cultivated/paper/source-register.json",
-      "sha256": "083a4ac208a6080361ebe5e7a9cee8e4f6719b3cef99e25f9fd4bc586db5a29e"
+      "sha256": "63940857c300f39112dfc526fb9f87b699ff0b2050c1d468b02d5b22f64caadb"
     },
     {
       "path": "research/halal-cultivated/paper/citation-audit.json",
-      "sha256": "8192f5db1c12421a4df8c7a863839d70cc2465f711ae813db41768b48e1e1470"
+      "sha256": "18871fdca117bcd8cc54d827d1ed54e98ed6ae75fc7a0a6810790014bf971d21"
     },
     {
       "path": "research/halal-cultivated/paper/claims-added.json",
-      "sha256": "8ee6d87568741298d648538d925d76e13b9a90f517f1b4e37214ffb8206769f4"
+      "sha256": "77ded9ffeb558ea6cf86d5ef071b546ccbf07464f8eeda5619ba03c9e862a381"
     }
   ],
   "scope": "Appendices A, B and D candidate; not a coverage mutation or complete-paper validation.",
@@ -3752,7 +3752,7 @@
       "url": "https://islamweb.net/ar/library/content/96/160/حكم-النجاسة-إذا-استحالت",
       "aliases": [],
       "alias_titles": [],
-      "family": "Ibn Qudama",
+      "family": "Ibn Muflih commentary on Ibn Qudama",
       "host_type": "recognized_digital_library",
       "verdict": "held",
       "reading_scope": "Held; metadata only",
@@ -4906,7 +4906,7 @@
       "url": "https://www.muis.gov.sg/resources/khutbah-and-religious-advice/fatwa/explanation-by-the-fatwa-committee-on-the-fatwa-friday-prayer-before-zawal--english/",
       "aliases": [],
       "alias_titles": [],
-      "family": "P-GEO-MUIS33",
+      "family": "MUIS",
       "host_type": "issuer",
       "verdict": "verified_with_note",
       "reading_scope": "Specified document passages",

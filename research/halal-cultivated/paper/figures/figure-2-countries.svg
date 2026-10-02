@@ -208,7 +208,7 @@ Q 195.348185 116.613743 195.348185 116.968696
 L 195.348185 139.685635 
 Q 195.348185 140.040587 196.216615 140.040587 
 z
-" clip-path="url(#p92f031b529)" style="fill: #deede9"/>
+" clip-path="url(#p92f031b529)" style="fill: #f0f1f2"/>
    </g>
    <g id="patch_16">
     <path d="M 283.059692 140.040587 
@@ -654,7 +654,8 @@ z
     <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193b38" x="150.189785" y="130.301681" transform="rotate(-0 150.189785 130.301681)">Not located</text>
    </g>
    <g id="text_24">
-    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193b38" x="237.032862" y="130.301681" transform="rotate(-0 237.032862 130.301681)">Guide / scope</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #193b38" transform="translate(230.375143 125.740345)">Not</text>
+    <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #193b38" transform="translate(215.234518 134.862423)">established</text>
    </g>
    <g id="text_25">
     <text style="font-size: 7.6px; font-family: 'DejaVu Sans'; fill: #193b38" transform="translate(317.21822 125.740345)">Not</text>

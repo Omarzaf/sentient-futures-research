@@ -65,15 +65,15 @@ Hamdan, Post, Ramli and Mustafa’s abstract describes a conditional route: the 
 
 The 2024 review by Hamdan and colleagues broadens the discussion while drawing on varied kinds of material. Its search ended on March 3, 2023, and its references include scholarly articles, institutional statements, interviews, news and individual opinions. Those categories do not all exercise the same authority. Its search date also matters when comparing it with later institutional documents. In its discussion of source cells, the authors argue that embryos from chicken or bird eggs can yield pure, edible cultivated material through transformation, distinguishing embryos taken from living mammals. This is their extension of the underlying categories to cultivation.[^s3-03] <!-- trace: P-LIT-HAMDAN24-METHOD P-LIT-HAMDAN24-EMBRYO | kind: mixed -->
 
-Kashim and colleagues give transformation a role in assessing serum-grown cells. Their discussion presents complete transformation as a possible route, expressly dependent on scholarly opinion. It also reports restrictive serum treatment and recommends avoiding serum, while requiring suitable cell sources and permitted production materials. Reading only the permissive possibility would lose these qualifications. The article therefore supplies a proposition to evaluate against a process and an authority’s criterion. It does not establish that a particular manufacturing run achieves the required transformation or that washing and transformation are the same explanation of the final material.[^s3-02] <!-- trace: P-LIT-KASHIM23 | kind: mixed -->
+Kashim and colleagues give transformation a role in assessing serum-grown cells. Their discussion presents complete transformation as a possible route, expressly dependent on scholarly opinion. It also reports restrictive serum treatment and recommends avoiding serum, while requiring suitable cell sources and, in its conclusion, halal and wholesome media and scaffold materials that are not derived from animals. Reading only the permissive possibility would lose these qualifications. The article therefore supplies a proposition to evaluate against a process and an authority’s criterion. It does not establish that a particular manufacturing run achieves the required transformation or that washing and transformation are the same explanation of the final material.[^s3-02] <!-- trace: P-LIT-KASHIM23 | kind: mixed -->
 
-Alzeer, Abou Hadeed and Tufail’s 2025 narrative review offers a substantive restrictive counterargument. Their interpretation connects slaughter with biological function and spiritual integrity, and concludes that cultivated meat fails the requirements they identify. The paper must engage that position without assigning it the authority of a binding institutional ruling or treating its biological and spiritual premises as accepted findings. It also poses a useful challenge to a narrowly documentary approach: even complete ingredient information might leave disagreement over what the resulting food is. Section 11 tests that objection using a defined donor-and-input scenario.[^s3-04] <!-- trace: P-LIT-ALZEER25 | kind: mixed -->
+Alzeer, Abou Hadeed and Tufail’s 2025 narrative review offers a restrictive counterargument. Their interpretation connects slaughter with biological function and spiritual integrity, concluding that cultivated meat fails the requirements they identify. The objection concerns the classification of the resulting food as well as ingredient compliance: complete ingredient information might still leave that classification disputed. This is the authors’ interpretation, without the authority of a binding institutional ruling; its biological and spiritual premises are not accepted here as findings. Section 11 tests the objection using a defined donor-and-input scenario.[^s3-04] <!-- trace: P-LIT-ALZEER25 | kind: mixed -->
 
-Alqurashi, Sikora, Rzymski and Poniedziałek’s 2026 narrative perspective similarly organizes the subject around production inputs and certification. Its conclusion explicitly acknowledges missing empirical evidence from certified cultivated-meat production systems and reliance on evolving religious interpretations. That admission limits what can be drawn from a proposed compliance framework. The present paper uses it as an account of the authors’ approach and its evidential boundary, without importing an acceptance percentage, inferring an issued certificate or relying on every institutional statement that the article summarizes. The relevant underlying documents require their own examination.[^s3-05] <!-- trace: P-LIT-ALQURASHI26 | kind: mixed -->
+Alqurashi, Sikora, Rzymski and Poniedziałek’s 2026 narrative perspective organizes the subject around production inputs and certification. Its discussion helps frame the documents needed for assessment, subject to the authors’ empirical and interpretive limits summarized in section 12. The present paper uses that framework without importing an acceptance percentage, inferring an issued certificate or adopting every institutional statement that the article summarizes. The underlying institutional documents require their own examination.[^s3-05] <!-- trace: P-LIT-ALQURASHI26 | kind: mixed -->
 
 Two transformation studies contribute more limited conceptual material. Baserat and Enayat’s English abstract describes changes in essence and attributes and favors purification through transformation. Miswanto and Musaffa’s English abstract distinguishes physical, chemical and combined models. The Arabic body of the former and Indonesian body of the latter have not been admitted as read evidence. Their classifications help identify questions, but they cannot demonstrate that cell proliferation satisfies a legal transformation test. Nor can their broad formulations replace the author-specific primary passages where those passages preserve disagreement or particular exceptions.[^s3-06][^s3-07] <!-- trace: P-LIT-BASERAT24 P-LIT-MISWANTO23 | kind: mixed -->
 
-The separate 2020 Kashim discovery record remains unresolved after the bounded bibliographic checks. It is retained as a gap rather than replaced with a different publication or cited through a summary. More generally, these uneven readings limit comparisons of the authors’ complete arguments. A full-text proposition, an abstract’s conclusion and an unresolved reference have different evidential standing, even when all appeared in the initial discovery material. The absent reading remains visible so that later recovery can change the comparison without rewriting its present evidence base. <!-- trace: P-LIT-KASHIM20-UNRESOLVED | kind: gap -->
+The separate 2020 Kashim discovery record remains unresolved after the bounded bibliographic checks. It is retained as a gap rather than replaced with a different publication or cited through a summary. These uneven readings limit comparisons of the authors’ complete arguments. A full-text proposition, an abstract’s conclusion and an unresolved reference have different evidential standing, even when all appeared in the initial discovery material. <!-- trace: P-LIT-KASHIM20-UNRESOLVED | kind: gap -->
 
 The contribution proposed here is narrower than a new theory of religious permissibility. It is a comparison in which the reader can follow each attributed position to its source, distinguish the author’s argument from this paper’s application, and identify the product evidence still needed. The thematic organization brings related disagreements together while preserving differences in authority, date and legal object. The following methods section explains how that distinction controls admission to the manuscript and the wording of its conclusions. <!-- trace: | kind: framing -->
 
@@ -138,7 +138,7 @@ A useful test scenario therefore starts with a permitted species, documented law
 
 ## 6. Culture inputs
 
-Culture inputs require several questions that a single animal-origin label cannot answer. What substance entered the process, where did it come from, what happened to it, and what remains in the food? The admitted texts distinguish forms of blood and particular organs; the modern dossier distinguishes a growth medium from measured residues. Those distinctions should guide the inquiry before an analogy is chosen. In particular, permission concerning retained blood in meat does not automatically extend to an isolated blood fraction added during production. A dossier should identify both the ingredient and the proposed legal reason for its treatment.[^s6-01][^s6-02] <!-- trace: M-Q4 H03 | kind: inference -->
+Culture inputs require identification of the substance, its origin, what happened to it and what remains in the food. A single animal-origin label cannot supply that account. The admitted texts distinguish forms of blood and particular organs; the modern dossier distinguishes a growth medium from measured residues. Those distinctions should guide the inquiry before an analogy is chosen. In particular, permission concerning retained blood in meat does not automatically extend to an isolated blood fraction added during production. A dossier should identify both the ingredient and the proposed legal reason for its treatment.[^s6-01][^s6-02] <!-- trace: M-Q4 H03 | kind: inference -->
 
 ### 6.1 Blood and organs
 
@@ -156,7 +156,7 @@ The GOOD Meat dossier provides a bounded example of what process evidence can es
 
 Singapore’s list further prevents a manufacturer’s different processes from being collapsed into one description. It records Eat Just’s fetal bovine serum process, allowed in November 2020, separately from its serum-free process, allowed in January 2023. It also identifies Vital Meat’s embryonic chicken cell process in October 2025. These entries distinguish specified food processes. The serum-free entry does not, on its own, establish that all earlier founder or cell-bank stages lacked animal components. Nor does any of the entries establish religious certification. A religious assessment would need the actual history relevant to its criteria.[^s6-10] <!-- trace: P-SG-PROCESS-LIST H03 | kind: mixed -->
 
-Kashim and colleagues’ 2023 article presents a possible transformation argument for cells grown with serum, expressly dependent on the opinions of religious scholars. The same discussion reports restrictive treatment of serum and recommends avoiding it; the conclusion requires suitable cell sources and permitted media and scaffolds. These elements should remain together. Their conditional proposal is neither a measurement of an actual transformation nor an institutional permission to use serum. It is useful as an argument to test against a specified process, while its broad descriptions of schools cannot replace the particular primary passages examined here.[^s6-11] <!-- trace: P-LIT-KASHIM23 | kind: evidence -->
+Kashim and colleagues’ 2023 article presents a possible transformation argument for cells grown with serum, expressly dependent on the opinions of religious scholars. The same discussion reports restrictive treatment of serum and recommends avoiding it; the conclusion requires suitable cell sources and halal and wholesome media and scaffolds that are not derived from animals. These elements should remain together. Their conditional proposal is neither a measurement of an actual transformation nor an institutional permission to use serum. It is useful as an argument to test against a specified process, while its broad descriptions of schools cannot replace the particular primary passages examined here.[^s6-11] <!-- trace: P-LIT-KASHIM23 | kind: evidence -->
 
 ### 6.3 Rennet, gelatin and processing
 
@@ -182,7 +182,7 @@ Ibn Qudama’s admitted passage supplies a restrictive comparison. In *al-Mughni
 
 Sistani’s *Islamic Laws* requires a change in essence into another pure thing. Ordinary processing can leave the operative identity intact: the manual distinguishes transformation from grinding impure wheat or baking it, and uncertainty about whether transformation occurred does not establish purification. The gelatin answers sharpen this issue by referring to customary identity and the persistence of the properties constituting it. Their caution that a manufacturing transformation has not been established is consequential. A possibility described in general terms cannot be reported as an accomplished change in a particular batch, and a supplier’s process name does not itself supply the missing determination.[^s7-02][^s7-07] <!-- trace: S05 J-Q6 P-J-GELATIN | kind: mixed -->
 
-The contemporary literature offers concepts to examine without removing these source-specific differences. In their English abstract, Baserat and Enayat discuss a change of essence and attributes and favor purification through transformation. Miswanto and Musaffa’s English abstract distinguishes physical, chemical and combined models. These are accounts of the authors’ classifications, admitted here only at abstract level; the respective Arabic and Indonesian bodies have not been reviewed for this paper. Their labels do not establish that cell multiplication meets a religious criterion or demonstrate that each school accepts the same threshold. They supply questions for comparison, not additional institutional decisions on a cultivated product.[^s7-08][^s7-09] <!-- trace: P-LIT-BASERAT24 P-LIT-MISWANTO23 | kind: mixed -->
+The two transformation studies discussed in section 3 supply categories, admitted here only through their English abstracts; their respective Arabic and Indonesian bodies have not been reviewed. Baserat and Enayat’s essence-and-attributes account and Miswanto and Musaffa’s physical, chemical and combined models do not establish that cell multiplication changes the legally relevant identity. Applying those categories still requires the named authority’s criterion and process-specific evidence; the abstracts establish neither a shared threshold across schools nor an institutional decision on a cultivated product.[^s7-08][^s7-09] <!-- trace: P-LIT-BASERAT24 P-LIT-MISWANTO23 | kind: mixed -->
 
 IIFA provides another defined criterion rather than a shortcut around this inquiry. Resolution 198 distinguishes complete transformation from partial chemical interaction, and Resolution 210 reaffirms that distinction. Their treatment of plasma also shows that applying a criterion to a material can remain revisable when new information appears. For the present analysis, this makes two kinds of evidence necessary: evidence of the authority’s rule and evidence about the substance to which it is being applied. Repeating a definition addresses the first. A manufacturing description addresses part of the second. Neither alone supplies the conclusion that the defined process satisfies the rule.[^s7-03][^s7-10] <!-- trace: H01 | kind: inference -->
 
@@ -192,7 +192,7 @@ One serious alternative deserves to remain open: a cultivated food might acquire
 
 An assessment can make that test concrete without inventing a numerical threshold. It should specify the initially problematic material, the operation claimed to change it, the characteristics said to disappear and the material remaining at harvest. A finding that the authority regards the decisive identity as unchanged would defeat the proposed transformation argument under that criterion. Evidence of a changed identity accepted by that authority would support it, subject to other dietary conditions. Uncertainty belongs in the result rather than being removed by the analyst. This formulation also allows different authorities to evaluate the same disclosed facts without manufacturing agreement between their standards.[^s7-02][^s7-03] <!-- trace: H01 gap:G2 | kind: inference -->
 
-The practical consequence is to keep transformation connected to procurement and input records. A claim about the final biomass should identify how it addresses the original source problem; a claim about an ingredient should identify that ingredient’s fate. Removal from the product and change into another substance are separate proposed explanations. Neither an unexamined growth process nor the general availability of a transformation doctrine closes the missing link. The next step is therefore a process-specific assessment under a named position, with the remaining uncertainty disclosed. The classical passages and limited contemporary abstracts examined here support that inquiry without supplying its eventual verdict.[^s7-01][^s7-02][^s7-03] <!-- trace: H01 gap:G-MODERN gap:G7 | kind: inference -->
+Transformation therefore needs to be connected to procurement and input records. A claim about final biomass should address the original source problem; a claim about an ingredient should identify its fate. Removal and change into another substance require separate explanations. The missing determination is whether the disclosed operation changes the identified material in the way the named authority requires, including how that change addresses the procurement or input restriction. The process-specific assessment must disclose any remaining uncertainty.[^s7-01][^s7-02][^s7-03] <!-- trace: H01 gap:G-MODERN gap:G7 | kind: inference -->
 
 ## 8. Category and edibility
 
@@ -210,7 +210,7 @@ The more specific question of who determines *tayyib* or *khabith* under Sistani
 
 Marine examples expose another distinction: purity and permission to eat are separate. Al-Dardir and al-Dasuqi treat marine carcasses as pure in the admitted passage. The broader claims concerning marine edibility require other sources that are not admitted here. Sistani’s fishing rules make the separation particularly explicit. They distinguish scaled from scaleless fish and attach consequences to capture and death in water, while preserving a net-capture exception. A fish can accordingly be pure without being lawful to eat under the stated conditions. A purity finding alone cannot carry the full dietary conclusion.[^s8-10][^s8-11] <!-- trace: M-Q8 J-Q8 | kind: mixed -->
 
-Sistani also distinguishes fishing from terrestrial slaughter: the fisher need not be Muslim or perform invocation, but the required capture circumstances must be established. This difference does not provide an aquatic exemption for a chicken-derived product. Its analytical value is to show why the source organism and collection method must be identified before an analogy is transferred. Even for a marine input, the cited rules would require the actual species and circumstances; an aquatic label would be insufficient. For the chicken question, the comparison supports careful classification without supplying an alternative verdict.[^s8-11] <!-- trace: J-Q8 | kind: mixed -->
+Sistani also distinguishes fishing from terrestrial slaughter: the fisher need not be Muslim or perform invocation, but the required capture circumstances must be established. Even for a marine input, an aquatic label cannot replace evidence of species and capture. Those rules supply no aquatic exemption for a chicken-derived product, whose donor material and procurement route require classification under the applicable terrestrial rules.[^s8-11] <!-- trace: J-Q8 | kind: mixed -->
 
 These contrasts cannot sustain a complete comparison of five traditions on category and edibility. The evidence concerning customary repugnance, scriptural exclusivity and marine conditions is uneven, and several comparative entries remain without admitted support. Appendix A retains those questions so that their absence is visible. The consequence for the argument is narrower scope: this section identifies particular distinctions that a cultivated-chicken assessment must respect, while leaving unsupported positions unstated. It does not infer agreement from a missing text or treat the better-documented authority as the default answer for the others. <!-- trace: gap:G1 gap:G3 gap:G4 gap:G5 gap:G6 | kind: gap -->
 
@@ -218,9 +218,9 @@ These contrasts cannot sustain a complete comparison of five traditions on categ
 
 ### 9.1 Institutional positions and their limits
 
-The International Islamic Fiqh Academy’s 2025 resolution permits consumption and marketing subject to conditions. Its donor clause retains living-animal and lawfully slaughtered-animal alternatives. Its other provisions address prohibited media and substances, specialist supervision, disclosure and safety. Reading the donor clause alone would therefore omit conditions attached to the permission. Conversely, replacing that clause with a universal slaughter requirement would narrow the Academy’s actual wording. The resolution supplies an institutional position against which a specified process could be assessed; it does not identify a product that has satisfied every condition or issue a national food authorization.[^s9-01] <!-- trace: R01 R02 | kind: evidence -->
+The International Islamic Fiqh Academy’s 2025 resolution permits consumption and marketing conditionally. As section 5 details, it retains living-animal and lawfully slaughtered-animal donor alternatives alongside restrictions on media and substances, specialist supervision, disclosure and safety. Its institutional role is to state conditions against which a specified process can be assessed. The resolution identifies neither a product satisfying every condition nor a national food authorization.[^s9-01] <!-- trace: R01 R02 | kind: evidence -->
 
-Singapore’s Islamic Religious Council, MUIS, gives a differently structured account. Its February 2024 release requires a permitted animal source, halal ingredients and a clean, non-toxic product. The accompanying first-edition booklet describes slaughter within its then-current certification framework and separately permits embryos taken from eggs without slaughter. It also says that certification guidelines would need to be developed before products could be certified. These documents distinguish religious guidance from the work of certifying a particular product. Their statements about certification are dated 2024; they do not establish the present certificate status of a company or product.[^s9-02][^s9-03] <!-- trace: R05 R06 P-MUIS-RELEASE P-MUIS-BOOK-DONOR | kind: evidence -->
+Singapore’s Islamic Religious Council, MUIS, gives a differently structured account. Its February 2024 release requires a permitted animal source, halal ingredients and a clean, non-toxic product. The release separately reports SFA’s earlier approval of sale. The accompanying first-edition booklet describes slaughter within its then-current certification framework and separately permits embryos taken from eggs without slaughter. It also says that certification guidelines would need to be developed before products could be certified. These documents distinguish religious guidance from the work of certifying a particular product. Their statements about certification are dated 2024; they do not establish the present certificate status of a company or product.[^s9-02][^s9-03] <!-- trace: R03 R04 R05 R06 P-MUIS-RELEASE P-MUIS-BOOK-DONOR | kind: evidence -->
 
 A September 2024 report from the World Association for Alazhar Graduates attributes three conditions to Abbas Shouman: a lawfully slaughtered donor, with a fish-and-locust exception; cell nutrition free from impurities such as flowing blood; and demonstrated absence of harm to human health. The report also conveys his caution about expanding production before those conditions can be met. It places the argument in a seminar paper and reports agreement with the Al-Azhar Council of Senior Scholars. The retrieved report does not supply the Council’s underlying decision number, date or full text. It consequently supports an attributed account of Shouman’s position, rather than a reconstructed Council resolution.[^s9-04] <!-- trace: P-B1-WAAG-CONDITIONS P-B1-WAAG-ATTRIBUTION | kind: evidence -->
 
@@ -228,9 +228,9 @@ The institutional comparison remains incomplete. The bounded searches did not re
 
 ### 9.2 Comparing positions without manufacturing consensus
 
-The comparison should record the proposition, issuer and object of each statement before asking whether positions agree. A donor condition can concern a religious permission, a certification framework or a particular process. Agreement about one condition leaves the others unresolved. For this reason, the paper treats institutional positions, certification and food authorization as separate questions. The distinction follows from reading the Academy’s conditional resolution alongside MUIS’s explanation of guidance and certification; it is the paper’s organizing inference, rather than a claim that both institutions use an identical classification system.[^s9-01][^s9-02] <!-- trace: I03 | kind: inference -->
+The comparison records each statement’s proposition, issuer and object. A donor condition can concern religious permission, a certification framework or a particular process; agreement on that condition leaves others unresolved. IIFA’s conditional resolution and MUIS’s account thus support distinguishing religious guidance, a product certificate and a food decision. This is the paper’s organizing inference, without assuming that the institutions use identical classifications.[^s9-01][^s9-02] <!-- trace: I03 | kind: inference -->
 
-The accompanying position table therefore groups documents by issuer, conditions, date and scope. It records held leads and unavailable originals as gaps. It does not assign an agreement score, count language versions as separate authorities, or treat the number of documents as a measure of religious acceptance. The country comparison uses the same discipline, asking what each document establishes before considering what further evidence a producer would need. <!-- trace: | kind: framing -->
+The position table groups documents by issuer, conditions, date and scope, recording held leads and unavailable originals as gaps. The country comparison then identifies what each document establishes and what further evidence a producer would need. <!-- trace: | kind: framing -->
 
 | Issuer and dated document | Conditions or position | Evidential scope |
 | --- | --- | --- |
@@ -282,7 +282,7 @@ The analogy reaches its limit when permission for a processing ingredient is tre
 
 Plasma, serum and washing supply a third test, concerned with what remains after processing. IIFA’s 2013 resolution permitted plasma on its stated transformation rationale; its 2015 resolution reopened the matter in light of further information. The earlier paragraph therefore cannot settle every culture-serum question. Separately, the GOOD Meat applicant dossier describes serum use and reports measurable bovine serum albumin in representative batches after downstream processing. Its table is evidence about the applicant’s documented process. It establishes neither a religious ruling nor zero residue. Together, these materials suggest keeping legal transformation, physical removal and measured exposure as distinct questions.[^s10-03] <!-- trace: H03 historical:H03 ce:CE4 ce:CE5 | kind: inference -->
 
-The proposed test would inspect every medium stage, the removal procedure, the residual assay and its detection limit. Evidence of incomplete removal would defeat a claim that washing had eliminated all relevant material; a lower measurement alone would not establish an accepted legal dilution threshold. A genuinely different process might avoid that specific input question, which is why the SFA-listed serum-containing and serum-free processes should remain separate. Even then, the list does not supply a complete history of every cell-bank stage. Product-specific records and the selected authority’s criteria are needed before the analogy can carry a conclusion.[^s10-04] <!-- trace: H03 historical:H03 ce:CE5 | kind: inference -->
+The proposed test would inspect every medium stage, the removal procedure, the residual assay and its detection limit. Evidence of incomplete removal would defeat a claim that washing had eliminated all relevant material; a lower measurement alone would not establish an accepted legal dilution threshold. A process using different inputs might avoid that specific input question, which is why the SFA-listed serum-containing and serum-free processes should remain separate. Even then, the list does not supply a complete history of every cell-bank stage. Product-specific records and the selected authority’s criteria are needed before the analogy can carry a conclusion.[^s10-04] <!-- trace: H03 historical:H03 ce:CE5 | kind: inference -->
 
 Detached flesh and egg-derived cells test the procurement bridge. Ibn Abidin’s detached-part rule distinguishes material removed from a living animal from removal after effective slaughter. IIFA’s contemporary resolution retains living-donor and slaughtered-donor alternatives, while MUIS’s booklet separately discusses embryos taken from eggs. These documents prevent the comparison from starting with one assumed procurement route. The paper therefore separates donor procurement, the original sample, the founder line and later biomass. A rule concerning detached tissue is a relevant premise, but its extension to a microscopic line and its descendants is the step that needs to be defended.[^s10-05] <!-- trace: H04 historical:H04 ce:CE1 ce:CE2 | kind: inference -->
 
@@ -308,7 +308,7 @@ A serious objection to this framework is that it could preserve uncertainty inde
 
 ### 11.1 Tests for a product dossier
 
-The counter-evidence can be expressed as tests that a dossier must pass. First, does an argument based on avoiding slaughter address the detached-part rule it proposes to apply? Second, does an asserted slaughter requirement preserve IIFA’s actual donor alternatives and MUIS’s egg discussion? Third, does a purification claim identify a qualifying change rather than merely an operation? These tests allow different outcomes under different premises. They reject a shortcut when its conclusion exceeds the stated rule; they do not supply a substitute rule for the disputed product. Each answer should identify both its documentary premise and the material being classified.[^s11-01][^s11-02][^s11-03][^s11-04] <!-- trace: H04 H01 ce:CE1 ce:CE2 ce:CE3 | kind: inference -->
+The counter-evidence yields three tests. An argument based on avoiding slaughter must address the detached-part rule it proposes to apply. An asserted slaughter requirement must preserve IIFA’s donor alternatives and MUIS’s egg discussion. A purification claim must identify a qualifying change rather than merely an operation. These tests allow different outcomes under different premises and reject conclusions that exceed the stated rule. Each test requires a documentary premise and an identified material; together they scrutinize the proposed application without supplying a substitute rule for the disputed product.[^s11-01][^s11-02][^s11-03][^s11-04] <!-- trace: H04 H01 ce:CE1 ce:CE2 ce:CE3 | kind: inference -->
 
 Three further tests concern inputs. A plasma argument must account for IIFA’s later reopening of the issue and explain any extension to serum. A washing argument must be tested against what remains: the GOOD Meat dossier’s albumin measurements contradict a zero-residue description of that documented process. An organ analogy must retain the named authority’s distinctions; Sistani’s spleen prohibition and obligatory precaution for the other listed bird organs cannot be replaced with another author’s paired organ exception. Here the questions are respectively about the authority’s current reasoning, the measured process and the permissible scope of comparison.[^s11-07][^s11-08][^s11-09] <!-- trace: H03 J-Q4 ce:CE4 ce:CE5 ce:CE7 | kind: mixed -->
 
@@ -324,7 +324,7 @@ The institutional dossier would then pair that process description with the deci
 
 The quantitative handoff remains blocked by missing compatible inputs. It lacks an accepted versioned baseline, a compatible finished-product reference market, the required product-specific access evidence and allocated capacity. No numerical input or gate is filled by this paper. In particular, a search that fails to recover a ruling does not establish market closure, and a conditional religious permission does not establish national access. Evidence for one institution or segment cannot be expanded to all consumers. The handoff preserves those unknowns while leaving a defined route for reviewing later evidence. <!-- trace: P-GAP-BRIDGE-V2 P-GAP-B1-SEARCH | kind: gap -->
 
-This endpoint is also narrower than the research agenda proposed in the recent literature. Alqurashi and colleagues organize their narrative perspective around production and certification, while explicitly acknowledging a lack of empirical evidence from certified cultivated-meat production systems and reliance on evolving religious interpretation. Their limitation reinforces the need to distinguish a proposed assessment framework from observed implementation. It supplies no acceptance rate for the present paper and no basis for estimating sales from the religious conditions reviewed here.[^s11-12] <!-- trace: P-LIT-ALQURASHI26 | kind: mixed -->
+Alqurashi and colleagues’ narrative perspective helps organize these production and certification questions. Applying its framework would require an actual disclosed process and evidence for the chosen authority’s conditions, subject to the study’s limits summarized in section 12. This paper imports no acceptance rate from that perspective and derives no sales estimate from religious conditions.[^s11-12] <!-- trace: P-LIT-ALQURASHI26 | kind: mixed -->
 
 Demand drivers, elasticities and insects as feed belong to the separate Phase Two continuation. Their exclusion from this paper is a scope decision. Before any later quantitative use, the continuation must evaluate the relevant records against a defined market and product, including the assumptions already embedded in its baseline. The immediate handoff from this paper is the list of documents and interpretations still needed for the specified decisions. It leaves behavioral uptake and quantities to the research designed to measure them. <!-- trace: | kind: framing -->
 
@@ -338,15 +338,15 @@ Digital texts introduce a different limitation. Some classical passages have est
 
 Substantive gaps also remain within the available comparison. These include a direct Maliki organ locator, an affirmative Sistani liver ruling, fuller aquatic conditions in some accounts and direct interpretations of the scriptural list. Sistani’s specific test for who determines customary repugnance remains open. The extension from detached tissue to cell lines and the evidence for transformation in a particular process also remain unresolved. These gaps prevent equal doctrinal depth across the traditions. The paper’s conclusions concern the distinctions supported by the admitted passages, with the unestablished comparisons preserved in the appendices. <!-- trace: gap:G-M-LIVER gap:G-MODERN gap:G1 gap:G2 gap:G3 gap:G5 gap:G6 gap:G7 J-Q1 | kind: gap -->
 
-Finally, the process and regulatory evidence is specific to documents and dates. It cannot establish a later product’s composition, current certificate validity or access elsewhere. A later amendment, altered formulation or change in the scope of a certificate would require a fresh assessment. The retrieval date therefore marks the evidence examined, not a guarantee of continuing legal effect. Alqurashi and colleagues themselves acknowledge missing empirical evidence from certified production systems in their narrative perspective. That limitation is not an estimate of availability or demand. This paper produces no adoption forecast, national access determination or numerical production result; the quantitative handoff retains its missing compatible inputs and pending review.[^s12-04] <!-- trace: P-LIT-ALQURASHI26 P-GAP-BRIDGE-V2 | kind: mixed -->
+Finally, the process and regulatory evidence is specific to documents and dates. It cannot establish a later product’s composition, current certificate validity or access elsewhere. An amendment, altered formulation or changed certificate scope would require reassessment. The retrieval date marks the evidence examined, without guaranteeing continuing legal effect. Alqurashi and colleagues’ narrative perspective acknowledges missing empirical evidence from certified cultivated-meat production systems and reliance on evolving religious interpretations. This limitation cannot yield estimates of availability or demand. The paper produces no adoption forecast, national access determination or numerical production result; the quantitative handoff retains its missing compatible inputs and pending review.[^s12-04] <!-- trace: P-LIT-ALQURASHI26 P-GAP-BRIDGE-V2 | kind: mixed -->
 
 ## 13. Conclusion
 
 The admitted sources support a conditional account of cultivated-chicken access. IIFA’s resolution retains donor alternatives while imposing further production conditions. MUIS’s release and booklet distinguish religious requirements, donor routes and the work of certification. These findings give a specified assessment premises to examine; they do not supply one rule for every tradition or a certificate for a named product. The useful comparison identifies the object to which a rule applies and the institution whose decision is required. It preserves the distinction between a religious position, demonstrated compliance and the separate authorization of a food process.[^s13-01][^s13-02][^s13-03] <!-- trace: R01 R02 P-MUIS-RELEASE P-MUIS-BOOK-DONOR I03 | kind: mixed -->
 
-The next evidential task is consequently concrete. A product dossier should connect the donor and original sample to the founder line, banking history, culture inputs and harvested material. Any transformation argument should state its criterion and the facts said to satisfy it. A current institutional determination can then answer the question within its scope, while certificate and access documents address their respective requirements. A later change in donor source, ingredients or production stages would require checking whether the earlier decision still covers the process being assessed. This approach allows closure when the needed evidence is present. It also identifies why a result cannot yet be reached, rather than turning every disagreement into a prohibition or treating uncertainty as permission.[^s13-01][^s13-03][^s13-04] <!-- trace: H04 H01 I03 | kind: inference -->
+A product dossier should connect the donor and original sample to the founder line, banking history, culture inputs and harvested material. Any transformation argument should state its criterion and supporting facts. A current institutional determination can answer the question within its scope; certificate and access documents address their respective requirements. Changes in donor source, ingredients or production stages require checking whether the decision still covers the process. This provides an endpoint when the evidence is sufficient and identifies the missing facts otherwise, without equating disagreement with prohibition or uncertainty with permission.[^s13-01][^s13-03][^s13-04] <!-- trace: H04 H01 I03 | kind: inference -->
 
-The remaining work includes recovering excluded passages, resolving the open interpretive questions and obtaining qualified scholarly and regulatory review. Those tasks are distinct from the evidence needed for a quantitative forecast. The active handoff still lacks compatible baseline, reference-market, product-access and capacity inputs, and this paper fills no numerical gate or assessment. Its outcome is a documented research framework with attributed conditions and visible limits. That framework can guide the next request for evidence without substituting the analyst’s conclusion for the decisions of the relevant authorities. <!-- trace: P-GAP-BRIDGE-V2 gap:G2 gap:G-MODERN | kind: gap -->
+Recovering excluded passages, resolving open interpretive questions and obtaining qualified scholarly and regulatory review remain necessary. The separate quantitative handoff lacks compatible baseline, reference-market, product-access and capacity inputs; this paper fills no numerical gate or assessment. The attributed conditions and unresolved questions identify the next evidence to seek, while reserving the relevant decisions to the responsible authorities. <!-- trace: P-GAP-BRIDGE-V2 gap:G2 gap:G-MODERN | kind: gap -->
 
 ## Appendix A. The 45 comparison slots
 
@@ -367,7 +367,18 @@ These tables preserve the original nine questions across five traditions. Histor
 | 9. Living cells and the limits of analogy | Historical inference | Inference: assess donor removal and any later change of substance separately; applying the detached-part rule to cultured descendants requires a further argument.[^abd-05] |
 <!-- trace: HN-Q3 P-H-BLOOD-DISTINCTIONS HN-Q6 HN-Q7 HN-Q9 | kind: mixed -->
 
-Audit gaps: question 1 — Badai al-sanai fi tartib al-sharai: held from substantive citation. question 2 — Mukhtasar al-Quduri: passage not retrieved. question 4 — Only the narrower blood distinction is admitted; the original organ-specific component is not repeated. question 5 — Mukhtasar al-Quduri: passage not retrieved. question 8 — Mukhtasar al-Quduri: passage not retrieved; Hashiyat al-Tahtawi ala Maraqi al-falah sharh Nur al-idah: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+Audit gaps by question:
+
+- Question 1: Badai al-sanai fi tartib al-sharai: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 2: Mukhtasar al-Quduri: passage not retrieved. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 4: Only the narrower blood distinction is admitted; the original organ-specific component is not repeated. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 5: Mukhtasar al-Quduri: passage not retrieved. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 8: Mukhtasar al-Quduri: passage not retrieved; Hashiyat al-Tahtawi ala Maraqi al-falah sharh Nur al-idah: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
 
 ### Maliki sources
 
@@ -384,7 +395,20 @@ Audit gaps: question 1 — Badai al-sanai fi tartib al-sharai: held from substan
 | 9. Living cells and the limits of analogy | Historical inference | Inference: detached-tissue and transformation premises raise distinct questions about donor material and later biomass; the admitted passages do not decide viable cell lines.[^abd-12] |
 <!-- trace: M-Q1 M-Q3 M-Q4 M-Q6 M-Q7 M-Q8 M-Q9 | kind: mixed -->
 
-Audit gaps: question 2 — Al-Muwatta, Book of Game: passage not retrieved; Bidayat al-mujtahid wa-nihayat al-muqtasid: held from substantive citation. question 3 — Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. question 4 — A Maliki passage naming the liver and spleen exception remains unverified; the held food-book component adds no support. question 5 — Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. question 7 — Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. question 8 — The wider marine-edibility account depends on held or unretrieved texts and is not asserted. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+Audit gaps by question:
+
+- Question 2: Al-Muwatta, Book of Game: passage not retrieved; Bidayat al-mujtahid wa-nihayat al-muqtasid: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 3: Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 4: A Maliki passage naming the liver and spleen exception remains unverified; the held food-book component adds no support. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 5: Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 7: Al-Risala: A Treatise on Maliki Fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 8: The wider marine-edibility account depends on held or unretrieved texts and is not asserted. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
 
 ### Shafii sources
 
@@ -401,7 +425,26 @@ Audit gaps: question 2 — Al-Muwatta, Book of Game: passage not retrieved; Bida
 | 9. Living cells and the limits of analogy | Historical inference | No answer admitted in this version. |
 <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
 
-Audit gaps: question 1 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 2 — Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved; Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 3 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 4 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 5 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 6 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 7 — Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved; Al-Majmu sharh al-Muhadhdhab: held from substantive citation. question 8 — Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved. question 9 — Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+Audit gaps by question:
+
+- Question 1: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 2: Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved; Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 3: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 4: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 5: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 6: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 7: Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved; Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 8: Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik: passage not retrieved. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 9: Al-Majmu sharh al-Muhadhdhab: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
 
 ### Hanbali sources
 
@@ -418,7 +461,26 @@ Audit gaps: question 1 — Al-Majmu sharh al-Muhadhdhab: held from substantive c
 | 9. Living cells and the limits of analogy | Historical inference | Inference: the stable-life excision rule supplies a procurement premise, without deciding the classification of cultured cells or their descendants.[^abd-17] |
 <!-- trace: HB-Q3 HB-Q4 HB-Q6 HB-Q7 HB-Q9 | kind: mixed -->
 
-Audit gaps: question 1 — Al-Mughni: held from substantive citation; Umdat al-fiqh: held from substantive citation. question 2 — Umdat al-fiqh: held from substantive citation. question 3 — Umdat al-fiqh: held from substantive citation. question 4 — This is not a complete blood taxonomy; the al-Insaf component remains held. question 5 — Umdat al-fiqh: held from substantive citation. question 6 — The planned contrasting positions remain held, so this entry is limited to the admitted author passage. question 7 — Al-Mubdi fi sharh al-Muqni: held from substantive citation; Majmu fatawa Ibn Taymiyya: held from substantive citation. question 8 — Umdat al-fiqh: held from substantive citation. question 9 — Majmu fatawa Ibn Taymiyya: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+Audit gaps by question:
+
+- Question 1: Al-Mughni: held from substantive citation; Umdat al-fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 2: Umdat al-fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 3: Umdat al-fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 4: This is not a complete blood taxonomy; the al-Insaf component remains held. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 5: Umdat al-fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 6: The planned contrasting positions remain held, so this entry is limited to the admitted author passage. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 7: Al-Mubdi fi sharh al-Muqni: held from substantive citation; Majmu fatawa Ibn Taymiyya: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 8: Umdat al-fiqh: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
+- Question 9: Majmu fatawa Ibn Taymiyya: held from substantive citation. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
 
 ### Sistani: a named Jafari authority
 
@@ -435,9 +497,13 @@ Audit gaps: question 1 — Al-Mughni: held from substantive citation; Umdat al-f
 | 9. Living cells and the limits of analogy | Historical inference | Inference: donor species, detachment and later transformation require separate analysis; the cited rules do not themselves decide cultivated cells.[^abd-25] |
 <!-- trace: J-Q2 J-Q3 J-Q4 J-Q5 J-Q6 P-J-GELATIN J-Q8 J-Q9 | kind: mixed -->
 
-Audit gaps: question 7 — Only the narrower gelatin claim is used here. Related rennet and heat rules do not establish gelatin conditions or every serum/enzyme process. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+Audit gaps by question:
+
+- Question 7: Only the narrower gelatin claim is used here. Related rennet and heat rules do not establish gelatin conditions or every serum/enzyme process. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
+
 
 The question of who decides tayyib and khabith remains open in the reviewed Sistani material. General rules on following a jurist, impurity or harm do not establish the specific customary-repugnance test. <!-- trace: J-Q1 | kind: gap -->
+
 
 ## Appendix B. Seven countries by documentary layer
 
@@ -533,6 +599,7 @@ Bounded gap: The Indonesian magazine lead remains held. The named product’s ca
 
 Evidence question: Does the recognized foreign certificate and BPJPH registration cover this precise product, and is its separate food authorization documented? Documents still needed: Certificate scope and recognition, BPJPH registration, current category/transitional rules and food decision. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
 
+
 ## Appendix C. Open evidence requirements
 
 The following requirements remain open in this paper. The original gaps were recorded in the Phase One review; the paper audit checked their citation implications again on 2 October 2026. A missing passage or failed retrieval describes this research record. It does not establish that a ruling, edition or institution does not exist. The source audit and search log retain the attempted hosts, retrieval times and reasons for each hold. <!-- trace: gap:G-M-LIVER gap:G-ENGLISH gap:G-BIBLIO gap:G-MODERN gap:G1 gap:G2 gap:G3 gap:G4 gap:G5 gap:G6 gap:G7 gap:G8 | kind: gap -->
@@ -550,7 +617,7 @@ The following requirements remain open in this paper. The original gaps were rec
 | Hanafi floating-dead fish | Fuller commentary with the conditions and legal force of the translated term | The unresolved example is not transferred to chicken. |
 | Sistani's affirmative liver ruling | An explicit permission with applicable qualifications | Absence from a prohibited-organ list is not reported as an unrestricted affirmative ruling. |
 | Gelatin transformation | Named process facts and evidence meeting the authority's identity-change criterion | Chemical processing, ordinary heating and minute absorption remain distinct. |
-| Al-Tahtawi edition | Independent bibliographic confirmation for the consulted mirror | Its narrower blood distinction retains the edition qualification. |
+| Al-Tahtawi edition | Independent bibliographic confirmation for the consulted mirror | The passage remains excluded pending edition and second-library verification. |
 
 These twelve requirements preserve the original gap coverage. Some locators became clearer during the paper audit, but none of these research tasks is silently promoted into a completed human assessment. The body states usable components where available and names the remaining qualification beside the affected claim. <!-- trace: gap:G-M-LIVER gap:G-ENGLISH gap:G-BIBLIO gap:G-MODERN gap:G1 gap:G2 gap:G3 gap:G4 gap:G5 gap:G6 gap:G7 gap:G8 | kind: gap -->
 
@@ -621,25 +688,25 @@ Alias records refer to repeated entries for two Radd al-Muhtar passages, two al-
 
 | Source and recorded year | Reading scope | Edition or admission note |
 | --- | --- | --- |
-| Al Nawawi Al Majmu on detached parts (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete; contradictory transcription detail remains unresolved. Includes 1 alias. |
-| Al Nawawi Al Majmu on transformation (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. Includes 1 alias. |
+| Al-Majmu sharh al-Muhadhdhab — Purification, removal of impurity, displayed vol 2 pp 580–581 (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete; contradictory transcription detail remains unresolved. Includes 1 alias. |
+| Al-Majmu sharh al-Muhadhdhab — Purification, displayed vol 2 p 597 (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. Includes 1 alias. |
 | MuftiWP Irsyad Hukum 595 (2021) | Held; metadata only | Malay substantive text held under the language policy. |
 | PENENTUAN HUKUM MEMAKAN DAGING KULTUR (CULTURED MEAT) MENURUT PERSPEKTIF ISLAM DAN SAINS (2025) | Held; metadata only | Meeting/title/year metadata captured; Malay substantive text held under the language policy. |
-| Ibn Abi Zayd al-Qayrawani al-Risala (year unestablished) | Held; metadata only | Translation edition not established; host calls the translation non-final; second-library passage check incomplete. |
-| Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid (year unestablished) | Held; metadata only | Print pagination not established; host segment is not a print volume. |
-| Ibn Qudama Umdat al-fiqh (year unestablished) | Held; metadata only | Translator, print edition and pagination unestablished; second-library check incomplete. |
-| Ibn Qudama Umdat al-fiqh (year unestablished) | Held; metadata only | Translator and print edition unestablished; host pagination is not verified print pagination. |
-| Ibn Qudama Umdat al-fiqh (year unestablished) | Held; metadata only | Translator and print edition unestablished; second-library check incomplete. |
-| Ibn Qudama, explaining al-Khiraqi al-Mughni (year unestablished) | Held; metadata only | Print pagination unestablished; host segment is not a print volume. |
-| Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni al-Mubdi fi sharh al-Muqni (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
-| Ibn Taymiyya Majmu al-fatawa (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
-| Ala al-Din al-Mardawi al-Insaf fi marifat al-rajih min al-khilaf (year unestablished) | Held; metadata only | Author/pagination evidence and second-library check incomplete. |
-| al-Kasani Bada’i al-Sana’i (year unestablished) | Held; metadata only | Second-library authority and passage checks incomplete. |
-| al-Tahtawi Hashiyat al-Tahtawi ala Maraqi al-Falah sharh Nur al-Idah (year unestablished) | Held; metadata only | Print edition/pagination and second-library check incomplete. |
-| al-Nawawi, commenting on al-Shirazi al-Majmu Sharh al-Muhadhdhab (year unestablished) | Held; metadata only | Locator corrected to displayed pages 27–29; edition and second-library check incomplete. |
-| al-Nawawi al-Majmu Sharh al-Muhadhdhab (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
-| al-Nawawi al-Majmu Sharh al-Muhadhdhab (year unestablished) | Held; metadata only | Displayed page 78 located within a wider container; edition and second-library check incomplete. |
-| al-Nawawi al-Majmu Sharh al-Muhadhdhab (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
+| Al-Risala: A Treatise on Maliki Fiqh (year unestablished) | Held; metadata only | Translation edition not established; host calls the translation non-final; second-library passage check incomplete. |
+| Bidayat al-mujtahid wa-nihayat al-muqtasid — Kitab al-atima wa-l-ashriba: flowing blood; predatory quadrupeds; repulsive creatures; sea animals (year unestablished) | Held; metadata only | Print pagination not established; host segment is not a print volume. |
+| Umdat al-fiqh — Book of Foods, opening matn before footnote 1464 (year unestablished) | Held; metadata only | Translator, print edition and pagination unestablished; second-library check incomplete. |
+| Umdat al-fiqh — Book of Foods continued, Sea and Land Animals, matn adjacent to notes 1473-1483; host page 136 (year unestablished) | Held; metadata only | Translator and print edition unestablished; host pagination is not verified print pagination. |
+| Umdat al-fiqh — Chapter on Proper Slaughtering; opening marine rule; second validity condition; matn adjacent to notes 1485-1493 (year unestablished) | Held; metadata only | Translator and print edition unestablished; second-library check incomplete. |
+| Al-Mughni — Issue 7780 and explanatory paragraphs on urban Hijazi usage and unfamiliar animals (year unestablished) | Held; metadata only | Print pagination unestablished; host segment is not a print volume. |
+| Al-Mubdi fi sharh al-Muqni (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
+| Majmu fatawa Ibn Taymiyya (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
+| Al-Insaf fi marifat al-rajih min al-khilaf ala madhhab al-Imam Ahmad ibn Hanbal (year unestablished) | Held; metadata only | Author/pagination evidence and second-library check incomplete. |
+| Badai al-sanai fi tartib al-sharai (year unestablished) | Held; metadata only | Second-library authority and passage checks incomplete. |
+| Hashiyat al-Tahtawi ala Maraqi al-falah sharh Nur al-idah (year unestablished) | Held; metadata only | Print edition/pagination and second-library check incomplete. |
+| Al-Majmu sharh al-Muhadhdhab — Al-Majmu, displayed vol. 9 pp. 27–29; quoted limiting sentence on p. 29 (year unestablished) | Held; metadata only | Locator corrected to displayed pages 27–29; edition and second-library check incomplete. |
+| Al-Majmu sharh al-Muhadhdhab — Vol. 2, displayed pp. 576–577, blood impurity (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
+| Al-Majmu sharh al-Muhadhdhab — Vol. 9, displayed p. 78, section eating liver and spleen (year unestablished) | Held; metadata only | Displayed page 78 located within a wider container; edition and second-library check incomplete. |
+| Al-Majmu sharh al-Muhadhdhab — Vol. 8, displayed pp. 384–387, invocation at slaughter (year unestablished) | Held; metadata only | Edition and required second-library passage check incomplete. |
 | لیبارٹری میں تیار شدہ گوشت کا حکم (2019) | Held; metadata only | Urdu substantive text outside the approved language lane; institution distinct from CII and Deoband. |
 | Jurnal Halal, No. 162/2023, July–August 2023 (2023) | Held; metadata only | Indonesian publisher magazine held; not a retrieved Fatwa Commission resolution. |
 | Islam and Negotiation: Action Guide for Muslim Women, second edition (year unestablished) | Held; metadata only | Second-edition publication year unestablished; landing-page date not transferred to the PDF. |
@@ -652,9 +719,9 @@ Alias records refer to repeated entries for two Radd al-Muhtar passages, two al-
 | The Dietary Laws: The Dietary Shari‘ah (year unestablished) | Passage not retrieved | Raw capture blocked; separate web-tool reading does not supply an admissible raw capture or verified issue date. Published essay only. |
 | Sunan Abi Dawud 2858: Game (Kitab Al-Said), When a Piece Is Cut from the Game (year unestablished) | Passage not retrieved | Raw capture blocked; translation edition and date unestablished. |
 | Abu Dhabi novel food framework announcement (year unestablished) | Passage not retrieved | HTTP-success response contained a JavaScript shell, not the article. |
-| Malik ibn Anas, transmitted by Yahya al-Muwatta, Book of Game (year unestablished) | Passage not retrieved | Raw capture blocked; separate web visibility does not replace the missing raw passage receipt. |
-| al-Quduri Mukhtasar al-Quduri, English translation (year unestablished) | Passage not retrieved | Raw passage blocked; catalogue metadata does not establish the identity of the blocked copy. |
-| Ahmad ibn Naqib al-Misri; translator/commentator Nuh Ha Mim Keller Reliance of the Traveller / Umdat al-Salik (1997) | Passage not retrieved | Print edition matched by catalogue, but the legal passage was not retrieved. |
+| Al-Muwatta, Book of Game (year unestablished) | Passage not retrieved | Raw capture blocked; separate web visibility does not replace the missing raw passage receipt. |
+| Mukhtasar al-Quduri (year unestablished) | Passage not retrieved | Raw passage blocked; catalogue metadata does not establish the identity of the blocked copy. |
+| Reliance of the Traveller: The Classic Manual of Islamic Sacred Law Umdat al-salik (1997) | Passage not retrieved | Print edition matched by catalogue, but the legal passage was not retrieved. |
 | Principles regarding the use of haram sources in modern food products: an Islamic perspective (year unestablished) | Passage not retrieved | Article identity unresolved; attempted DOI endpoints returned 404. No absence-of-publication conclusion follows. |
 | Administration of Muslim Law Act 1966, 2021 revised edition (year unestablished) | Passage not retrieved | Direct statutory capture returned HTTP 403. |
 | 2023 Report on International Religious Freedom: Saudi Arabia (year unestablished) | Passage not retrieved | Both routes returned technical-difficulties pages rather than the report. |
@@ -667,9 +734,9 @@ Alias records refer to repeated entries for two Radd al-Muhtar passages, two al-
 | --- | --- | --- |
 | IIFA Resolution 265 on cultivated meat (2025) | Specified document passages | Translation credit retained in metadata. |
 | MUIS Fatwa on cultivated meat (2024) | Specified document passages | Admission limited to audited passages and claim rechecks. |
-| Ibn Abidin Radd al Muhtar (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. Includes 1 alias. |
-| Ibn Abidin Radd al Muhtar on slaughter (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. Includes 1 alias. |
-| Islamic Laws: 4. Transformation (istiḥālah) (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. Includes 1 alias. |
+| Radd al-muhtar ala al-Durr al-mukhtar — Book of Purification, chapter on impurities, displayed vol 1 p 327 (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. Includes 1 alias. |
+| Radd al-muhtar ala al-Durr al-mukhtar — Book of Slaughter, displayed vol 6 p 311 (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. Includes 1 alias. |
+| Islamic Laws, fourth edition — Rulings 189–191 (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. Includes 1 alias. |
 | المطهرات ـ الاستحالة (year unestablished) | Specified document passages | Year unestablished. |
 | Qur’an 7:157, Al-A‘raf (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
 | Qur’an 6:145, Al-An‘am (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
@@ -686,28 +753,28 @@ Alias records refer to repeated entries for two Radd al-Muhtar passages, two al-
 | SFA Overview of Pre Market Approval Framework for Novel Food (2026) | Specified document passages | Admission limited to audited passages and claim rechecks. |
 | SFA novel-food process list (2026) | Specified document passages | Admission limited to audited passages and claim rechecks. |
 | JAKIM Foreign Halal Certification Body portal (year unestablished) | Specified document passages | Year unestablished. |
-| BPJPH Decree221 of2025 on foreign halal certificate registration (2025) | Specified document passages | Translation credit retained in metadata. |
-| IIFA Resolution198 on transmutation dilution and additives (2013) | Specified document passages | Translation credit retained in metadata. |
-| IIFA Resolution210 on transmutation and dilution of additives (2015) | Specified document passages | Translation credit retained in metadata. |
+| BPJPH Decree 221 of 2025 on foreign halal certificate registration (2025) | Specified document passages | Translation credit retained in metadata. |
+| IIFA Resolution 198 on transmutation dilution and additives (2013) | Specified document passages | Translation credit retained in metadata. |
+| IIFA Resolution 210 on transmutation and dilution of additives (2015) | Specified document passages | Translation credit retained in metadata. |
 | Dossier in Support of the Safety of Good Meat Cultured Chicken as a Human Food Ingredient (2022) | Specified document passages | Admission limited to audited passages and claim rechecks. |
-| Ibn Abi Zayd al-Qayrawani; editorial translation metadata al-Risala web index (year unestablished) | Host/index metadata only | Index metadata only; does not qualify the translated substantive chapter. |
-| Abu Abd Allah al-Qurtubi al-Jami li-ahkam al-Quran (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Rushd al-Hafid Bidayat al-mujtahid wa-nihayat al-muqtasid (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Shihab al-Din al-Qarafi al-Dhakhira (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ahmad al-Dardir and Muhammad ibn Ahmad al-Dasuqi, commenting on Khalil al-Sharh al-kabir with Hashiyat al-Dasuqi (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Qudama al-Mughni (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Qudama al-Mughni (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Qudama al-Mughni (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Qudama al-Mughni (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Abidin Radd al-Muhtar (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Ibn Nujaym al-Bahr al-Ra’iq (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
-| Islamic Laws: Following a Jurist (Taqlīd) (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
-| Islamic Laws: 4. Corpse (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
-| Islamic Laws: 5. Blood (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
-| Islamic Laws: Conditions of Slaughtering an Animal (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
-| Islamic Laws: Eating and Drinking (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
-| Islamic Laws: Fishing and Hunting Locusts (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| The Risala: A Treatise on Maliki Fiqh — index (year unestablished) | Host/index metadata only | Index metadata only; does not qualify the translated substantive chapter. |
+| Tafsir al-Qurtubi (al-Jami li-ahkam al-Quran) (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Bidayat al-mujtahid wa-nihayat al-muqtasid — Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Dhakhira (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Hashiyat al-Dasuqi ala al-Sharh al-kabir — Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 49-52 (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Hashiyat al-Dasuqi ala al-Sharh al-kabir — Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 53-55; detached parts and commentary on flesh, sinews and veins (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Mughni — Kitab al-sayd wa-l-dhabaih, issues 7771-7773; vol. 9 p. 320 in host edition (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Mughni — Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Mughni — Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Mughni — Kitab al-kaffarat, issue 8144; vol. 10 pp. 54-55 in host edition (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Radd al-muhtar ala al-Durr al-mukhtar — Vol. 1, displayed pp. 319–320, flowing blood and retained blood (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Al-Bahr al-raiq sharh Kanz al-daqaiq (year unestablished) | Specified document passages | Year unestablished. Digital transcription; edition qualified. |
+| Islamic Laws, fourth edition — Rulings 1–2 (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| Islamic Laws, fourth edition — Rulings 85–90; ruling 92 as context (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| Islamic Laws, fourth edition — Rulings 93–94 and 100 (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| Islamic Laws, fourth edition — Ruling 2611(4) (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| Islamic Laws, fourth edition — Rulings 2641–2643 and 2647 (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
+| Islamic Laws, fourth edition — Rulings 2632, 2634, 2636 and 2638 (year unestablished) | Specified document passages | Year unestablished. Translation credit retained in metadata. |
 | Gelatin — Question & Answer (year unestablished) | Specified document passages | Year unestablished. |
 | الجيلاتين — الاستفتاءات (year unestablished) | Specified document passages | Year unestablished. |
 | منهاج الصالحين، الجزء الثالث، الطبعة المصححة 1445 هـ: كتاب الأطعمة والأشربة، الفصل الثاني في غير الحيوان (1445 AH) | Specified document passages | Admission limited to audited passages and claim rechecks. |
@@ -732,6 +799,7 @@ Alias records refer to repeated entries for two Radd al-Muhtar passages, two al-
 
 The bibliography lists the sources cited in evidential footnotes. Held and unretrieved leads remain in this inventory and the open-question appendix; their appearance here does not admit their substantive propositions. <!-- trace: P-METHOD-INTERNAL | kind: evidence -->
 
+
 ## Appendix E. Terms used in this paper
 
 The translations below are reading aids. A named authority's actual rule and its qualifications govern the discussion in the body. The glossary does not supply additional rulings. <!-- trace: | kind: framing -->
@@ -744,10 +812,10 @@ The translations below are reading aids. A named authority's actual rule and its
 | Tayyib / khabaith | Good or wholesome / impure or objectionable things in the dietary discussion; identifying the legal criterion is itself a question. |
 | Najasah | Ritual impurity. A purity ruling does not necessarily give permission to eat the substance. |
 | Istihalah | Transformation under the named authority's criterion. Sistani's account requires a change in the thing's essence; ordinary grinding or baking does not suffice. |
-| Istihlak | Absorption or disappearance within another substance, used here only with the conditions in the cited gelatin answers. |
+| Istihlak | Absorption or dilution of one substance within another; IIFA’s general discussion and Sistani’s gelatin answers retain their distinct conditions. |
 | Obligatory precaution | The explicit status attached to particular instructions in Sistani's account; the paper preserves it rather than rewriting it as an unqualified prohibition. |
 
-These entries summarize the attributed passages discussed in sections 5–8. Al-Qurtubi and Ibn Rushd supply the specific Maliki dietary interpretation used here; Sistani's cited rules supply the distinctions concerning slaughter, purity, transformation, gelatin and precaution. The meanings are not offered as a uniform glossary for every tradition.[^gl-legal] <!-- trace: M-Q1 J-Q3 J-Q4 J-Q5 J-Q6 P-J-GELATIN | kind: mixed -->
+These entries summarize the attributed passages discussed in sections 5–8. Al-Qurtubi and Ibn Rushd supply the specific Maliki dietary interpretation used here; Sistani's cited rules supply the distinctions concerning slaughter, purity, transformation, gelatin and precaution. IIFA supplies the separate discussion of absorption and dilution. The meanings are not offered as a uniform glossary for every tradition.[^gl-legal][^s2-13] <!-- trace: M-Q1 J-Q3 J-Q4 J-Q5 J-Q6 P-J-GELATIN H03 | kind: mixed -->
 
 | Production term | Use in this paper |
 | --- | --- |
@@ -895,7 +963,7 @@ For the paper's institutional comparison, *religious permission* means the named
 [^abd-01]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Slaughter, displayed vol 6 p 311. [HAN-D]
 [^abd-02]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Vol. 1, displayed pp. 319–320, flowing blood and retained blood. [H5]
 [^abd-03]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Purification, chapter on impurities, displayed vol 1 p 327. [HAN]
-[^abd-04]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Purification, chapter on impurities, displayed vol 1 p 327. Zayn al-Din ibn Ibrahim ibn Muhammad Ibn Nujaym, *Al-Bahr al-raiq sharh Kanz al-daqaiq* (n.d.), Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116.. [HAN] [H6]
+[^abd-04]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Purification, chapter on impurities, displayed vol 1 p 327. Zayn al-Din ibn Ibrahim ibn Muhammad Ibn Nujaym, *Al-Bahr al-raiq sharh Kanz al-daqaiq* (n.d.), Vol. 1, displayed p. 113, carrion rennet and milk; book section spans pp 112–116. [HAN] [H6]
 [^abd-05]: Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Slaughter, displayed vol 6 p 311. Muhammad Amin ibn Umar Ibn Abidin, *Radd al-muhtar ala al-Durr al-mukhtar* (n.d.), Book of Purification, chapter on impurities, displayed vol 1 p 327. [HAN-D] [HAN]
 [^abd-06]: Shams al-Din Muhammad ibn Ahmad al-Ansari al-Qurtubi, *Tafsir al-Qurtubi (al-Jami li-ahkam al-Quran)* (n.d.), Quran 7:157, sixth issue, vol. 7 p. 269 in host edition. Abu al-Walid Muhammad ibn Ahmad ibn Muhammad Ibn Rushd al-Qurtubi, *Bidayat al-mujtahid wa-nihayat al-muqtasid* (n.d.), Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition. [M-QUR7157] [M-BID-Q1]
 [^abd-07]: Muhammad ibn Ahmad ibn Arafa al-Dasuqi, glossing al-Dardir, *Hashiyat al-Dasuqi ala al-Sharh al-kabir* (n.d.), Bab ahkam al-tahara, pure/impure entities, vol. 1 pp. 53-55; detached parts and commentary on flesh, sinews and veins. [M-DAS30]
@@ -918,29 +986,29 @@ For the paper's institutional comparison, *religious permission* means the named
 [^abd-24]: Ali al-Husayni al-Sistani, *Islamic Laws, fourth edition* (n.d.), Rulings 2632, 2634, 2636 and 2638. [J7]
 [^abd-25]: Ali al-Husayni al-Sistani, *Islamic Laws, fourth edition* (n.d.), Rulings 85–90; ruling 92 as context. Ali al-Husayni al-Sistani, *Islamic Laws, fourth edition* (n.d.), Rulings 189–191. Ali al-Husayni al-Sistani, *Islamic Laws, fourth edition* (n.d.), Rulings 2632, 2634, 2636 and 2638. [J2] [SIS-EN] [J7]
 [^abd-26]: Food Safety and Standards Authority of India, *FSSAI Approval for Non Specified Food and Food Ingredients Regulations 2017* (2022), Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I. [IN2017]
-[^abd-27]: Nida Kirmani and Sarah Zaidi, *The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan* (2010), Working Paper 50, section 2 Background, printed p.6 (PDF p.12). [P-GEO-SOUTHASIA]
-[^abd-28]: Parliament of Pakistan, *Pakistan Halal Authority Act 2016* (2016), Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10. [PK2016]
-[^abd-29]: Government of Pakistan, Ministry of Law and Justice, *Constitution of the Islamic Republic of Pakistan, fourteenth edition* (2025), Articles 227–230, printed pp.139–141; edition through the Twenty-Seventh Amendment. [P-GEO-PKCONST]
-[^abd-30]: Nida Kirmani and Sarah Zaidi, *The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan* (2010), Working Paper 50, section 2 Background, printed p.6 (PDF p.12). [P-GEO-SOUTHASIA]
-[^abd-31]: Saudi Food and Drug Authority, *SFDA General Requirements of Novel Foods* (2020), PDF pp3–6, sections3.1, 4.2, 4.3 and4.9. [SA-NOVEL]
+[^abd-27]: Nida Kirmani and Sarah Zaidi, *The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan* (2010), Working Paper 50, section 2 Background, printed p. 6 (PDF p. 12). [P-GEO-SOUTHASIA]
+[^abd-28]: Parliament of Pakistan, *Pakistan Halal Authority Act 2016* (2016), Gazette 1 March 2016, printed pp 71–78, sections 1, 2 and 10. [PK2016]
+[^abd-29]: Government of Pakistan, Ministry of Law and Justice, *Constitution of the Islamic Republic of Pakistan, fourteenth edition* (2025), Articles 227–230, printed pp. 139–141; edition through the Twenty-Seventh Amendment. [P-GEO-PKCONST]
+[^abd-30]: Nida Kirmani and Sarah Zaidi, *The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan* (2010), Working Paper 50, section 2 Background, printed p. 6 (PDF p. 12). [P-GEO-SOUTHASIA]
+[^abd-31]: Saudi Food and Drug Authority, *SFDA General Requirements of Novel Foods* (2020), PDF pp 3–6, sections 3.1, 4.2, 4.3 and 4.9. [SA-NOVEL]
 [^abd-32]: Saudi Food and Drug Authority, *SFDA Guide to Apply for Approval of Novel Foods* (n.d.), Both PDF pages; scope and required information. [SA-GUIDE]
-[^abd-33]: Saudi Food and Drug Authority, *SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia* (2025), News22December2025, final substantive paragraph. [SA-2025]
-[^abd-34]: Kingdom of Saudi Arabia, English text distributed by the Comparative Constitutions Project, *Saudi Arabia: Basic Law, 1992, revised 2005* (2005), Basic Law articles 1 and 45, PDF pp.4 and 9; generated 30 June 2026. [P-GEO-SA-BASIC]
+[^abd-33]: Saudi Food and Drug Authority, *SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia* (2025), News 22 December 2025, final substantive paragraph. [SA-2025]
+[^abd-34]: Kingdom of Saudi Arabia, English text distributed by the Comparative Constitutions Project, *Saudi Arabia: Basic Law, 1992, revised 2005* (2005), Basic Law articles 1 and 45, PDF pp. 4 and 9; generated 30 June 2026. [P-GEO-SA-BASIC]
 [^abd-35]: United Arab Emirates Ministry of Industry and Advanced Technology, *MOIAT UAE Halal System* (n.d.), Halal certification system and Halal National Mark sections. [AE-HALAL]
 [^abd-36]: Singapore Food Agency, *SFA Overview of Pre Market Approval Framework for Novel Food* (2026), Who must obtain approval; safety assessments; premarket approval sections. [SG-FRAME]
-[^abd-37]: Singapore Food Agency, *SFA List of Approved Novel Foods* (2026), PDF pp4,10,23; entries2,6,15. [SG-LIST]
+[^abd-37]: Singapore Food Agency, *SFA List of Approved Novel Foods* (2026), PDF pp 4,10,23; entries 2,6,15. [SG-LIST]
 [^abd-38]: Islamic Religious Council of Singapore (MUIS), *MUIS Fatwa on cultivated meat* (2024), Release dated 3 February 2024, paragraphs 8–10. [MUIS2024]
 [^abd-39]: Islamic Religious Council of Singapore (MUIS), *From Lab to Table: Novel Food from an Islamic Perspective* (2024), First edition 2024; printed p 14 (PDF page 16); printed p 19 FAQ4. [MUIS-BOOK]
-[^abd-40]: Hyder Gulam, *Bioethics in Islam* (2021), The Muslim Reader, vol.38, issue 2021, printed pp.42–43 (PDF p.22). [P-GEO-SG-READER]
+[^abd-40]: Hyder Gulam, *Bioethics in Islam* (2021), The Muslim Reader, vol. 38, issue 2021, printed pp. 42–43 (PDF p. 22). [P-GEO-SG-READER]
 [^abd-41]: MUIS Fatwa Committee, *Explanation by the Fatwa Committee on the Fatwa Friday Prayer before zawal (English)* (2025), Paragraphs 9–10; page updated 21 February 2025, discussing the June 2020 fatwa. [P-GEO-MUIS33]
-[^abd-42]: Department of Islamic Development Malaysia (JAKIM), *JAKIM Foreign Halal Certification Body portal* (n.d.), Recognition, importation, and Trade Descriptions Order2011 sections. [MY-HALAL]
-[^abd-43]: Parliament of Malaysia, *Administration of Islamic Law (Federal Territories) Act 1993, Act 505* (2013), Reprint as at 1 January 2013, section 39, printed p.28. [P-GEO-MY505]
-[^abd-44]: Halal Product Assurance Organizing Agency of Indonesia (BPJPH), *BPJPH Decree221 of2025 on foreign halal certificate registration* (2025), PDF pp1–5; operative Second/Third; AnnexI chaptersI–II. [ID221]
-[^abd-45]: Zulkifli, *Education, Identity, and Recognition: The Shi‘i Islamic Education in Indonesia* (2014), Printed p.82 (PDF p.8), paragraph distinguishing Jafari and Shafii jurisprudence. [P-GEO-ID-STUDY]
+[^abd-42]: Department of Islamic Development Malaysia (JAKIM), *JAKIM Foreign Halal Certification Body portal* (n.d.), Recognition, importation, and Trade Descriptions Order 2011 sections. [MY-HALAL]
+[^abd-43]: Parliament of Malaysia, *Administration of Islamic Law (Federal Territories) Act 1993, Act 505* (2013), Reprint as at 1 January 2013, section 39, printed p. 28. [P-GEO-MY505]
+[^abd-44]: Halal Product Assurance Organizing Agency of Indonesia (BPJPH), *BPJPH Decree 221 of 2025 on foreign halal certificate registration* (2025), PDF pp 1–5; operative Second/Third; Annex I chapters I–II. [ID221]
+[^abd-45]: Zulkifli, *Education, Identity, and Recognition: The Shi‘i Islamic Education in Indonesia* (2014), Printed p. 82 (PDF p. 8), paragraph distinguishing Jafari and Shafii jurisprudence. [P-GEO-ID-STUDY]
 [^gl-legal]: Al-Qurtubi, *al-Jami li-ahkam al-Quran*, commentary on 7:157; Ibn Rushd, *Bidayat al-mujtahid*, dietary discussion, displayed vol. 1, 387; Ali al-Sistani, *Islamic Laws*, rules 85–90, 2611(4), 2641; “Transformation (Istiḥālah),” rules 189–191; “Gelatin,” questions 1–3 and 9–10. Digital editions and locators are identified in the source audit; unestablished print details remain unknown. [M-QUR7157] [M-BID-Q1] [J2] [J5] [J6] [SIS-EN] [J9]
-[^gl-process]: Jacob Reiss, Samantha Robertson, and Masatoshi Suzuki, “Cell Sources for Cultivated Meat: Applications and Considerations throughout the Production Workflow,” *International Journal of Molecular Sciences* 22, no. 14 (2021): 7513, Introduction and figure 1, 2–3, and section 3.2; GOOD Meat, “Safety Assessment of Cultured Chicken,” applicant dossier submitted March 4, 2022, printed 9, 13–16, sections 4.4–4.6 and 5.1.1–5.1.2. [B4-CELLS] [GOOD-DOSSIER]
-[^gl-inputs]: International Islamic Fiqh Academy, resolutions 198 (2013) and 210 (2015); GOOD Meat, “Safety Assessment of Cultured Chicken,” table 33, printed 60. [IIFA198] [IIFA210] [GOOD-DOSSIER]
-[^gl-layers]: International Islamic Fiqh Academy, resolution 265 (2025), Third–Sixth; Islamic Religious Council of Singapore, “Fatwa on Cultivated Meat,” February 3, 2024, paragraphs 8–10; Singapore Food Agency, “Requirements for Safety Assessment of Novel Foods and Novel Food Ingredients,” safety-assessment and pre-market framework. [IIFA265] [MUIS2024] [SG-FRAME]
+[^gl-process]: Jacob Reiss, Samantha Robertson, and Masatoshi Suzuki, “Cell Sources for Cultivated Meat: Applications and Considerations throughout the Production Workflow,” *International Journal of Molecular Sciences* 22, no. 14 (2021): 7513, Introduction and figure 1, 2–3, and section 3.2; GOOD Meat, “Dossier in Support of the Safety of Good Meat Cultured Chicken as a Human Food Ingredient,” applicant dossier submitted March 4, 2022, printed 9, 13–16, sections 4.4–4.6 and 5.1.1–5.1.2. [B4-CELLS] [GOOD-DOSSIER]
+[^gl-inputs]: International Islamic Fiqh Academy, resolutions 198 (2013) and 210 (2015); GOOD Meat, “Dossier in Support of the Safety of Good Meat Cultured Chicken as a Human Food Ingredient,” table 33, printed 60. [IIFA198] [IIFA210] [GOOD-DOSSIER]
+[^gl-layers]: International Islamic Fiqh Academy, resolution 265 (2025), Third–Sixth; Islamic Religious Council of Singapore, “Fatwa on Cultivated Meat,” February 3, 2024, paragraphs 8–10; Singapore Food Agency, “Overview of Pre-Market Approval Framework for Novel Food,” updated August 27, 2026, prior approval, safety assessment and cancellation sections. [IIFA265] [MUIS2024] [SG-FRAME]
 
 ## Bibliography
 
@@ -948,47 +1016,53 @@ Abu al-Abbas Shihab al-Din Ahmad ibn Idris al-Qarafi. *Al-Dhakhira*. Vol. 1. n.d
 
 Abu al-Walid Muhammad ibn Ahmad ibn Muhammad Ibn Rushd al-Qurtubi. *Bidayat al-mujtahid wa-nihayat al-muqtasid*. Vol. 1. n.d. Cited location: Kitab al-atima wa-l-ashriba, first division, fourth issue, vol. 1 p. 387 in host edition. https://www.islamweb.net/ar/library/content/97/431/الجملة-الأولى-المحرمات-في-حال-الاختيار. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [M-BID-Q1]
 
-Miswanto, Agus, and Muhamad Ulul Albab Musaffa. “Investigating Al-Istihalah in the Provisions of Shariah Texts: A Study on Models of Transformation from Impure (Najis) to Pure (Halal) Substances, or Vice Versa.” *Az-Zarqa': Jurnal Hukum Bisnis Islam* 15, no. 1 (2023): 1-25. Cited location: English abstract, page 1. https://doi.org/10.14421/azzarqa.v15i1.2731. Accessed 2026-10-02. [HS-024]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 1–2. https://www.sistani.org/english/book/48/2117/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J1]
-
-Ali al-Husayni al-Sistani. *منهاج الصالحين، الجزء الثالث، الطبعة المصححة 1445 هـ: كتاب الأطعمة والأشربة، الفصل الثاني في غير الحيوان*. Vol. 3. Office of His Eminence Al-Sayyid Ali Al-Husseini Al-Sistani, 1445 AH. Cited location: Volume 3, rulings 910–913. https://www.sistani.org/arabic/book/16/922/. Accessed 2026-10-02. [J10]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 85–90; ruling 92 as context. https://www.sistani.org/english/book/48/2131/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J2]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 93–94 and 100. https://www.sistani.org/english/book/48/2132/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J3]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Ruling 2611(4). https://www.sistani.org/english/book/48/8220/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J5]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 2641–2643 and 2647. https://www.sistani.org/english/book/48/8227/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J6]
-
-Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 2632, 2634, 2636 and 2638. https://www.sistani.org/english/book/48/8226/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J7]
-
 Ali al-Husayni al-Sistani. “Gelatin — Question & Answer.” Office of His Eminence Al-Sayyid Ali Al-Husseini Al-Sistani, n.d. Cited location: Questions 1–2, references 15276 and 25550. https://www.sistani.org/english/qa/01201/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J8]
 
 Ali al-Husayni al-Sistani. “الجيلاتين — الاستفتاءات.” Office of His Eminence Al-Sayyid Ali Al-Husseini Al-Sistani, n.d. Cited location: Questions 1–3 and 9–10; references 6042, 21250, 21251, 21976, 22199. https://www.sistani.org/arabic/qa/02067/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J9]
 
 Ali al-Husayni al-Sistani. “المطهرات ـ الاستحالة.” Office of His Eminence Al-Sayyid Ali Al-Husseini Al-Sistani, n.d. Cited location: Question 2, reference 4834; question 6, reference 23208 for enzyme context. https://www.sistani.org/arabic/qa/0306/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [SIS-AR]
 
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Ruling 2611(4). https://www.sistani.org/english/book/48/8220/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J5]
+
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 1–2. https://www.sistani.org/english/book/48/2117/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J1]
+
 Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 189–191. https://www.sistani.org/english/book/48/2144/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [SIS-EN]
 
-Department of Islamic Development Malaysia (JAKIM). “JAKIM Foreign Halal Certification Body portal.” n.d. Cited location: Recognition, importation, and Trade Descriptions Order2011 sections. https://www.halal.gov.my/index.php?data=bW9kdWxlcy9jb2xsYXBzaWJsZV9jb250ZW50Ozs7Ow%3D%3D&utama=CB_LIST. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [MY-HALAL]
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 2632, 2634, 2636 and 2638. https://www.sistani.org/english/book/48/8226/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J7]
+
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 2641–2643 and 2647. https://www.sistani.org/english/book/48/8227/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J6]
+
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 85–90; ruling 92 as context. https://www.sistani.org/english/book/48/2131/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J2]
+
+Ali al-Husayni al-Sistani. *Islamic Laws, fourth edition*. Translated by Mohammed Ali Ismail. Edited by Abbas Mohamed Husein Ismail (copy editor). The World Federation of KSIMC, n.d. Cited location: Rulings 93–94 and 100. https://www.sistani.org/english/book/48/2132/. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [J3]
+
+Ali al-Husayni al-Sistani. *منهاج الصالحين، الجزء الثالث، الطبعة المصححة 1445 هـ: كتاب الأطعمة والأشربة، الفصل الثاني في غير الحيوان*. Vol. 3. Office of His Eminence Al-Sayyid Ali Al-Husseini Al-Sistani, 1445 AH. Cited location: Volume 3, rulings 910–913. https://www.sistani.org/arabic/book/16/922/. Accessed 2026-10-02. [J10]
+
+Alqurashi, Randah M., Dominika Sikora, Piotr Rzymski, and Barbara Poniedziałek. “Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges.” *Foods* 15, no. 8 (2026): 1288. Cited location: Section 6, Conclusions. https://doi.org/10.3390/foods15081288. Accessed 2026-10-02. [HS-009]
+
+Alzeer, Jawad, Khaled Abou Hadeed, and Farhan Tufail. “Cultured meat and halal: A comprehensive analysis from jurisprudence, biology, and ethics.” *Halalsphere* 5, no. 2 (2025): 53-61. Cited location: Publisher abstract; article sections 2 and 8–10, pages 53–61. https://doi.org/10.31436/hs.v5i2.122. Accessed 2026-10-02. [HS-010]
 
 Baserat, Fazel Rahim, and Abdullah Enayat. “The Concept of "Istihalah" (Transformation) in Islamic Jurisprudence and Its Contemporary Applications.” *International Journal of Cultural and Religious Studies* 4, no. 1 (2024): 45–54. Cited location: English abstract, page 45. https://doi.org/10.32996/ijcrs.2024.4.1.5. Accessed 2026-10-02. [HS-011]
 
+Department of Islamic Development Malaysia (JAKIM). “JAKIM Foreign Halal Certification Body portal.” n.d. Cited location: Recognition, importation, and Trade Descriptions Order 2011 sections. https://www.halal.gov.my/index.php?data=bW9kdWxlcy9jb2xsYXBzaWJsZV9jb250ZW50Ozs7Ow%3D%3D&utama=CB_LIST. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [MY-HALAL]
+
 Food Safety and Standards Authority of India. “FSSAI Approval for Non Specified Food and Food Ingredients Regulations 2017.” 2022. Cited location: Compendium version I 14 October 2022; regulations 2, 3(1), 4; Form I. https://www.fssai.gov.in/upload/uploadfiles/files/Compendium_FSS_NFS_FA_17_10_2022.pdf. Accessed 2026-10-02. [IN2017]
 
-Good Meat, Inc., with Polsinelli PC, AR Toxicology and Burdock Group Consultants. “Dossier in Support of the Safety of Good Meat Cultured Chicken as a Human Food Ingredient.” Good Meat, Inc., 2022. Cited location: Main dossier sections4.3,5.2.3.9; printed pp12,58–60; Table33. https://www.fda.gov/media/166346/download. Accessed 2026-10-02. [GOOD-DOSSIER]
+Good Meat, Inc., with Polsinelli PC, AR Toxicology and Burdock Group Consultants. “Dossier in Support of the Safety of Good Meat Cultured Chicken as a Human Food Ingredient.” Good Meat, Inc., 2022. Cited location: Main dossier sections 4.3,5.2.3.9; printed pp 12,58–60; Table 33. https://www.fda.gov/media/166346/download. Accessed 2026-10-02. [GOOD-DOSSIER]
 
-Government of Pakistan, Ministry of Law and Justice. “Constitution of the Islamic Republic of Pakistan, fourteenth edition.” 2025. Cited location: Articles 227–230, printed pp.139–141; edition through the Twenty-Seventh Amendment. https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf. Accessed 2026-10-02. [P-GEO-PKCONST]
+Government of Pakistan, Ministry of Law and Justice. “Constitution of the Islamic Republic of Pakistan, fourteenth edition.” 2025. Cited location: Articles 227–230, printed pp. 139–141; edition through the Twenty-Seventh Amendment. https://na.gov.pk/uploads/documents/6926e060076ed_467.pdf. Accessed 2026-10-02. [P-GEO-PKCONST]
 
-Halal Product Assurance Organizing Agency of Indonesia (BPJPH). “BPJPH Decree221 of2025 on foreign halal certificate registration.” Translated by Issuer-provided English version; individual translator not identified. 2025. Cited location: PDF pp1–5; operative Second/Third; AnnexI chaptersI–II. https://cmsbl.halal.go.id/uploads/Decree_Kepkaban_221_2025_Implementation_Procedure_of_Foreign_Halal_Certificate_Registration_bb95097144.pdf. Accessed 2026-10-02. [ID221]
+Halal Product Assurance Organizing Agency of Indonesia (BPJPH). “BPJPH Decree 221 of 2025 on foreign halal certificate registration.” Translated by Issuer-provided English version; individual translator not identified. 2025. Cited location: PDF pp 1–5; operative Second/Third; Annex I chapters I–II. https://cmsbl.halal.go.id/uploads/Decree_Kepkaban_221_2025_Implementation_Procedure_of_Foreign_Halal_Certificate_Registration_bb95097144.pdf. Accessed 2026-10-02. [ID221]
 
-Hyder Gulam. “Bioethics in Islam.” Muslim Converts’ Association of Singapore (Darul Arqam), 2021. Cited location: The Muslim Reader, vol.38, issue 2021, printed pp.42–43 (PDF p.22). https://www.darul-arqam.org.sg/wp-content/uploads/2022/03/Journey-to-Recovery-2021-lr.pdf. Accessed 2026-10-02. [P-GEO-SG-READER]
+Hamdan, Mohammad Naqib, Mark J. Post, Mohd Anuar Ramli, and Amin Rukaini Mustafa. “Cultured Meat in Islamic Perspective.” *Journal of Religion and Health* 57, no. 6 (2018): 2193-2206. Cited location: Institutional publication record, Abstract. https://doi.org/10.1007/s10943-017-0403-3. Accessed 2026-10-02. [HS-006]
 
-International Islamic Fiqh Academy. “IIFA Resolution198 on transmutation dilution and additives.” Translated by Issuer-provided English version; individual translator not identified. 2013. Cited location: Resolution198(4/21), Second1 and blood-plasma paragraph. https://iifa-aifi.org/en/33063.html. Accessed 2026-10-02. [IIFA198]
+Hamdan, Mohammad Naqib, Rufaihah Abdul Jalil, Mohd Anuar Ramli, Nasiibah Ramli, Mohd Nor Adzhar Ibrahim, Muhamad Firdaus Ab Rahman, Hussein ‘Azeemi Abdullah Thaidi, and Nur Najwa Hanani Abd Rahman. “A review of the discussions on cultivated meat from the Islamic perspective.” *Heliyon* 10, no. 7 (2024): e28491. Cited location: Section 4.2, Second: the status and source of stem cells used in the cell culture process. https://doi.org/10.1016/j.heliyon.2024.e28491. Accessed 2026-10-02. [HS-007]
 
-International Islamic Fiqh Academy. “IIFA Resolution210 on transmutation and dilution of additives.” Translated by Issuer-provided English version; individual translator not identified. 2015. Cited location: Resolution210(6/22), First/Second; gelatin; hormones/enzymes; rennet. https://iifa-aifi.org/en/33099.html. Accessed 2026-10-02. [IIFA210]
+Hyder Gulam. “Bioethics in Islam.” Muslim Converts’ Association of Singapore (Darul Arqam), 2021. Cited location: The Muslim Reader, vol. 38, issue 2021, printed pp. 42–43 (PDF p. 22). https://www.darul-arqam.org.sg/wp-content/uploads/2022/03/Journey-to-Recovery-2021-lr.pdf. Accessed 2026-10-02. [P-GEO-SG-READER]
+
+International Islamic Fiqh Academy. “IIFA Resolution 198 on transmutation dilution and additives.” Translated by Issuer-provided English version; individual translator not identified. 2013. Cited location: Resolution 198(4/21), Second 1 and blood-plasma paragraph. https://iifa-aifi.org/en/33063.html. Accessed 2026-10-02. [IIFA198]
+
+International Islamic Fiqh Academy. “IIFA Resolution 210 on transmutation and dilution of additives.” Translated by Issuer-provided English version; individual translator not identified. 2015. Cited location: Resolution 210(6/22), First/Second; gelatin; hormones/enzymes; rennet. https://iifa-aifi.org/en/33099.html. Accessed 2026-10-02. [IIFA210]
 
 International Islamic Fiqh Academy. “IIFA Resolution 265 on cultivated meat.” Translated by Issuer-provided English version; individual translator not identified. 2025. Cited location: Third 1–3; Fourth–Sixth. https://iifa-aifi.org/en/56085.html. Accessed 2026-10-02. [IIFA265]
 
@@ -996,21 +1070,15 @@ Islamic Religious Council of Singapore (MUIS). “From Lab to Table: Novel Food 
 
 Islamic Religious Council of Singapore (MUIS). “MUIS Fatwa on cultivated meat.” 2024. Cited location: Release dated 3 February 2024, paragraphs 8–10. https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/. Accessed 2026-10-02. [MUIS2024]
 
-Reiss, Jacob, Samantha Robertson, and Masatoshi Suzuki. “Cell Sources for Cultivated Meat: Applications and Considerations throughout the Production Workflow.” *International Journal of Molecular Sciences* 22, no. 14 (2021): 7513. Cited location: Introduction and Figure 1, pages 2–3; section 3.2. https://doi.org/10.3390/ijms22147513. Accessed 2026-10-02. [B4-CELLS]
-
-Alzeer, Jawad, Khaled Abou Hadeed, and Farhan Tufail. “Cultured meat and halal: A comprehensive analysis from jurisprudence, biology, and ethics.” *Halalsphere* 5, no. 2 (2025): 53-61. Cited location: Publisher abstract; article sections 2 and 8–10, pages 53–61. https://doi.org/10.31436/hs.v5i2.122. Accessed 2026-10-02. [HS-010]
-
-Kingdom of Saudi Arabia, and English text distributed by the Comparative Constitutions Project. “Saudi Arabia: Basic Law, 1992, revised 2005.” Translated by Comparative Constitutions Project hosted English text; individual translator not identified. 2005. Cited location: Basic Law articles 1 and 45, PDF pp.4 and 9; generated 30 June 2026. https://www.constituteproject.org/constitution/Saudi_Arabia_2005.pdf. Accessed 2026-10-02. [P-GEO-SA-BASIC]
-
-Hamdan, Mohammad Naqib, Mark J. Post, Mohd Anuar Ramli, and Amin Rukaini Mustafa. “Cultured Meat in Islamic Perspective.” *Journal of Religion and Health* 57, no. 6 (2018): 2193-2206. Cited location: Institutional publication record, Abstract. https://doi.org/10.1007/s10943-017-0403-3. Accessed 2026-10-02. [HS-006]
-
-Hamdan, Mohammad Naqib, Rufaihah Abdul Jalil, Mohd Anuar Ramli, Nasiibah Ramli, Mohd Nor Adzhar Ibrahim, Muhamad Firdaus Ab Rahman, Hussein ‘Azeemi Abdullah Thaidi, and Nur Najwa Hanani Abd Rahman. “A review of the discussions on cultivated meat from the Islamic perspective.” *Heliyon* 10, no. 7 (2024): e28491. Cited location: Section 4.2, Second: the status and source of stem cells used in the cell culture process. https://doi.org/10.1016/j.heliyon.2024.e28491. Accessed 2026-10-02. [HS-007]
-
 Kashim, Mohd Izhar Ariff Mohd, Alia Aryssa Abdul Haris, Sahilah Abd. Mutalib, Nurina Anuar, and Safiyyah Shahimi. “Scientific and Islamic perspectives in relation to the Halal status of cultured meat.” *Saudi Journal of Biological Sciences* 30, no. 1 (2023): 103501. Cited location: Section 6.1, Permissibility of cultured meat to be consumed, Principle 4; section 7, Conclusion. https://doi.org/10.1016/j.sjbs.2022.103501. Accessed 2026-10-02. [HS-008]
 
-Muhammad Amin ibn Umar Ibn Abidin. *Radd al-muhtar ala al-Durr al-mukhtar*. Vol. 1. n.d. Cited location: Vol. 1, displayed pp. 319–320, flowing blood and retained blood. https://www.islamweb.net/ar/library/content/27/422/index.php. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H5]
+Kingdom of Saudi Arabia, and English text distributed by the Comparative Constitutions Project. “Saudi Arabia: Basic Law, 1992, revised 2005.” Translated by Comparative Constitutions Project hosted English text; individual translator not identified. 2005. Cited location: Basic Law articles 1 and 45, PDF pp. 4 and 9; generated 30 June 2026. https://www.constituteproject.org/constitution/Saudi_Arabia_2005.pdf. Accessed 2026-10-02. [P-GEO-SA-BASIC]
+
+Miswanto, Agus, and Muhamad Ulul Albab Musaffa. “Investigating Al-Istihalah in the Provisions of Shariah Texts: A Study on Models of Transformation from Impure (Najis) to Pure (Halal) Substances, or Vice Versa.” *Az-Zarqa': Jurnal Hukum Bisnis Islam* 15, no. 1 (2023): 1-25. Cited location: English abstract, page 1. https://doi.org/10.14421/azzarqa.v15i1.2731. Accessed 2026-10-02. [HS-024]
 
 Muhammad Amin ibn Umar Ibn Abidin. *Radd al-muhtar ala al-Durr al-mukhtar*. Vol. 1. n.d. Cited location: Book of Purification, chapter on impurities, displayed vol 1 p 327. https://islamweb.net/ar/library/content/27/439/باب-الأنجاس. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [HAN]
+
+Muhammad Amin ibn Umar Ibn Abidin. *Radd al-muhtar ala al-Durr al-mukhtar*. Vol. 1. n.d. Cited location: Vol. 1, displayed pp. 319–320, flowing blood and retained blood. https://www.islamweb.net/ar/library/content/27/422/index.php. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H5]
 
 Muhammad Amin ibn Umar Ibn Abidin. *Radd al-muhtar ala al-Durr al-mukhtar*. Vol. 6. n.d. Cited location: Book of Slaughter, displayed vol 6 p 311. https://islamweb.net/ar/library/content/27/7324/كتاب-الذبائح. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [HAN-D]
 
@@ -1022,44 +1090,44 @@ MUIS Fatwa Committee. “Explanation by the Fatwa Committee on the Fatwa Friday 
 
 Muwaffaq al-Din Abd Allah ibn Ahmad Ibn Qudama al-Maqdisi. *Al-Mughni*. Vol. 1. n.d. Cited location: Kitab al-salat, impurity chapter, issue 1001; vol. 1 p. 419 in host edition. https://islamweb.net/ar/library/content/15/808/فصل-أصاب-الأرض-ماء-المطر-أو-السيول-فغمرها-وجرى-عليها. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H-MUGH-IST]
 
+Muwaffaq al-Din Abd Allah ibn Ahmad Ibn Qudama al-Maqdisi. *Al-Mughni*. Vol. 1. n.d. Cited location: Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified. https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H-MUGH-RENNET]
+
 Muwaffaq al-Din Abd Allah ibn Ahmad Ibn Qudama al-Maqdisi. *Al-Mughni*. Vol. 10. n.d. Cited location: Kitab al-kaffarat, issue 8144; vol. 10 pp. 54-55 in host edition. https://www.islamweb.net/ar/library/content/15/7113/مسألة-حلف-لا-يأكل-لحما-فأكل-الشحم-أو-المخ-أو-الدماغ. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H-MUGH-LIVER]
 
 Muwaffaq al-Din Abd Allah ibn Ahmad Ibn Qudama al-Maqdisi. *Al-Mughni*. Vol. 9. n.d. Cited location: Kitab al-sayd wa-l-dhabaih, issues 7771-7773; vol. 9 p. 320 in host edition. https://islamweb.net/ar/library/content/15/6794/مسألة-لا-يقطع-عضو-مما-ذكي-حتى-تزهق-نفسه. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H-MUGH-PARTS]
 
-Muwaffaq al-Din Abd Allah ibn Ahmad Ibn Qudama al-Maqdisi. *Al-Mughni*. Vol. 1. n.d. Cited location: Kitab al-tahara, Bab al-aniya, issue 85, on milk and rennet of carrion; exact edition pagination unverified. https://islamweb.net/ar/library/content/15/72/فصل-لبن-الميتة-وإنفحتها. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H-MUGH-RENNET]
+Nida Kirmani and Sarah Zaidi. “The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan.” University of Birmingham, Religions and Development Research Programme, 2010. Cited location: Working Paper 50, section 2 Background, printed p. 6 (PDF p. 12). https://assets.publishing.service.gov.uk/media/57a08b32ed915d3cfd000bc6/working_paper_50.pdf. Accessed 2026-10-02. [P-GEO-SOUTHASIA]
 
-Nida Kirmani and Sarah Zaidi. “The Role of Faith in the Charity and Development Sector in Karachi and Sindh, Pakistan.” University of Birmingham, Religions and Development Research Programme, 2010. Cited location: Working Paper 50, section 2 Background, printed p.6 (PDF p.12). https://assets.publishing.service.gov.uk/media/57a08b32ed915d3cfd000bc6/working_paper_50.pdf. Accessed 2026-10-02. [P-GEO-SOUTHASIA]
+Parliament of Malaysia. “Administration of Islamic Law (Federal Territories) Act 1993, Act 505.” 2013. Cited location: Reprint as at 1 January 2013, section 39, printed p. 28. https://muftiwp.gov.my/images/archive/akta_pekeliling/Act_505-Admistration_of_Islamic_Law__Federal_Territories_Act_1993.pdf. Accessed 2026-10-02. [P-GEO-MY505]
 
-Parliament of Malaysia. “Administration of Islamic Law (Federal Territories) Act 1993, Act 505.” 2013. Cited location: Reprint as at 1 January 2013, section 39, printed p.28. https://muftiwp.gov.my/images/archive/akta_pekeliling/Act_505-Admistration_of_Islamic_Law__Federal_Territories_Act_1993.pdf. Accessed 2026-10-02. [P-GEO-MY505]
-
-Parliament of Pakistan. “Pakistan Halal Authority Act 2016.” 2016. Cited location: Gazette 1 March 2016, printed pp71–78, sections 1, 2 and 10. https://faolex.fao.org/docs/pdf/pak164529.pdf. Accessed 2026-10-02. [PK2016]
+Parliament of Pakistan. “Pakistan Halal Authority Act 2016.” 2016. Cited location: Gazette 1 March 2016, printed pp 71–78, sections 1, 2 and 10. https://faolex.fao.org/docs/pdf/pak164529.pdf. Accessed 2026-10-02. [PK2016]
 
 Qur’an (scripture, and no human author attributed). “Qur’an 5:3, Al-Ma’idah.” Translated by Mustafa Khattab, The Clear Quran. Quran.com (digital presentation), n.d. Cited location: Surah 5, verse 3. https://quran.com/5/3. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [Q5]
 
-Qur’an (scripture, and no human author attributed). “Qur’an 6:145, Al-An‘am.” Translated by Mustafa Khattab, The Clear Quran. Quran.com (digital presentation), n.d. Cited location: Surah 6, verse 145. https://quran.com/6/145. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [Q6]
-
 Qur’an (scripture, and no human author attributed). “Qur’an 6:121, Al-An‘am.” Translated by Mustafa Khattab, The Clear Quran. Quran.com (digital presentation), n.d. Cited location: Surah 6, verse 121. https://quran.com/6/121. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [Q6121]
+
+Qur’an (scripture, and no human author attributed). “Qur’an 6:145, Al-An‘am.” Translated by Mustafa Khattab, The Clear Quran. Quran.com (digital presentation), n.d. Cited location: Surah 6, verse 145. https://quran.com/6/145. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [Q6]
 
 Qur’an (scripture, and no human author attributed). “Qur’an 7:157, Al-A‘raf.” Translated by Mustafa Khattab, The Clear Quran. Quran.com (digital presentation), n.d. Cited location: Surah 7, verse 157. https://quran.com/7/157. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [Q7]
 
-Alqurashi, Randah M., Dominika Sikora, Piotr Rzymski, and Barbara Poniedziałek. “Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges.” *Foods* 15, no. 8 (2026): 1288. Cited location: Section 6, Conclusions. https://doi.org/10.3390/foods15081288. Accessed 2026-10-02. [HS-009]
+Reiss, Jacob, Samantha Robertson, and Masatoshi Suzuki. “Cell Sources for Cultivated Meat: Applications and Considerations throughout the Production Workflow.” *International Journal of Molecular Sciences* 22, no. 14 (2021): 7513. Cited location: Introduction and Figure 1, pages 2–3; section 3.2. https://doi.org/10.3390/ijms22147513. Accessed 2026-10-02. [B4-CELLS]
 
-Saudi Food and Drug Authority. “SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia.” 2025. Cited location: News22December2025, final substantive paragraph. https://sfda.gov.sa/en/news/18781. Accessed 2026-10-02. [SA-2025]
+Saudi Food and Drug Authority. “SFDA Drives Food Innovation and Biotechnology Advancement in Saudi Arabia.” 2025. Cited location: News 22 December2025, final substantive paragraph. https://sfda.gov.sa/en/news/18781. Accessed 2026-10-02. [SA-2025]
+
+Saudi Food and Drug Authority. “SFDA General Requirements of Novel Foods.” Translated by Issuer-provided English version; individual translator not identified. 2020. Cited location: PDF pp 3–6, sections 3.1, 4.2, 4.3 and 4.9. https://www.sfda.gov.sa/sites/default/files/2021-10/NovelFoodGeneralRequirements.pdf. Accessed 2026-10-02. [SA-NOVEL]
 
 Saudi Food and Drug Authority. “SFDA Guide to Apply for Approval of Novel Foods.” Translated by Issuer-provided English version; individual translator not identified. n.d. Cited location: Both PDF pages; scope and required information. https://www.sfda.gov.sa/sites/default/files/2021-10/GuideApplyApprovalNovelFoods.pdf. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [SA-GUIDE]
 
-Saudi Food and Drug Authority. “SFDA General Requirements of Novel Foods.” Translated by Issuer-provided English version; individual translator not identified. 2020. Cited location: PDF pp3–6, sections3.1, 4.2, 4.3 and4.9. https://www.sfda.gov.sa/sites/default/files/2021-10/NovelFoodGeneralRequirements.pdf. Accessed 2026-10-02. [SA-NOVEL]
-
 Shams al-Din Muhammad ibn Ahmad al-Ansari al-Qurtubi. *Tafsir al-Qurtubi (al-Jami li-ahkam al-Quran)*. Vol. 7. n.d. Cited location: Quran 7:157, sixth issue, vol. 7 p. 269 in host edition. https://www.islamweb.net/ar/library/content/48/1482/قوله-تعالى-الذين-يتبعون-الرسول-النبي-الأمي. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [M-QUR7157]
 
-Singapore Food Agency. “SFA Overview of Pre Market Approval Framework for Novel Food.” 2026. Cited location: Who must obtain approval; safety assessments; premarket approval sections. https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food. Accessed 2026-10-02. [SG-FRAME]
+Singapore Food Agency. “SFA List of Approved Novel Foods.” 2026. Cited location: PDF pp 4,10,23; entries 2,6,15. https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf. Accessed 2026-10-02. [SG-LIST]
 
-Singapore Food Agency. “SFA List of Approved Novel Foods.” 2026. Cited location: PDF pp4,10,23; entries2,6,15. https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf. Accessed 2026-10-02. [SG-LIST]
+Singapore Food Agency. “SFA Overview of Pre Market Approval Framework for Novel Food.” 2026. Cited location: Who must obtain approval; safety assessments; premarket approval sections. https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food. Accessed 2026-10-02. [SG-FRAME]
 
 United Arab Emirates Ministry of Industry and Advanced Technology. “MOIAT UAE Halal System.” n.d. Cited location: Halal certification system and Halal National Mark sections. https://moiat.gov.ae/en/programs/halal. Accessed 2026-10-02. Publication year unestablished; cited digital version and locator retained. [AE-HALAL]
 
 World Association for Alazhar Graduates. “Prof. Shouman: Eating Cultured Meat Is Not Permitted Only on Terms.” 2024. Cited location: Dated article, body paragraphs 1–2. https://waag-azhar.org/en/25006/. Accessed 2026-10-02. [P-WAAG-EN-2024]
 
-Zayn al-Din ibn Ibrahim ibn Muhammad Ibn Nujaym. *Al-Bahr al-raiq sharh Kanz al-daqaiq*. Vol. 1. n.d. Cited location: Vol.1, displayed p.113, carrion rennet and milk; book section spans pp112–116. https://www.islamweb.net/amp/ar/library/content/29/123/index.php. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H6]
+Zayn al-Din ibn Ibrahim ibn Muhammad Ibn Nujaym. *Al-Bahr al-raiq sharh Kanz al-daqaiq*. Vol. 1. n.d. Cited location: Vol. 1, displayed p. 113, carrion rennet and milk; book section spans pp 112–116. https://www.islamweb.net/amp/ar/library/content/29/123/index.php. Accessed 2026-09-30. Publication year unestablished; cited digital version and locator retained. [H6]
 
-Zulkifli. “Education, Identity, and Recognition: The Shi‘i Islamic Education in Indonesia.” *Studia Islamika* 21, no. 1 (2014): 77–108. Cited location: Printed p.82 (PDF p.8), paragraph distinguishing Jafari and Shafii jurisprudence. https://doi.org/10.15408/sdi.v21i1.879. Accessed 2026-10-02. [P-GEO-ID-STUDY]
+Zulkifli. “Education, Identity, and Recognition: The Shi‘i Islamic Education in Indonesia.” *Studia Islamika* 21, no. 1 (2014): 77–108. Cited location: Printed p. 82 (PDF p. 8), paragraph distinguishing Jafari and Shafii jurisprudence. https://doi.org/10.15408/sdi.v21i1.879. Accessed 2026-10-02. [P-GEO-ID-STUDY]

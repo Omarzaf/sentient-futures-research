@@ -1,3 +1,13 @@
+/** Repair display spacing without changing identifiers or URL bytes. */
+export function normalizeCitation(text) {
+ return text.split(/(https?:\/\/\S+)/).map(part=>part.startsWith('http')?part:part
+  .replace(/\b(pp?\.?|[Vv]ol\.)(?=\d)/g,'$1 ')
+  .replace(/\b(Resolution|Table|Decree|Order|sections?|entries|News|of|and|December|Second)(?=\d)/g,'$1 ')
+  .replace(/(\d)(December)/g,'$1 $2')
+  .replace(/\b(Annex|chapters?)(?=I\b|I–)/g,'$1 ')
+  .replace(/\.{2,}/g,'.')).join('');
+}
+
 /** Format the checked identity without inventing missing edition metadata. */
 export function bibliographyEntry(source) {
  const b=source.bibliographic;
@@ -18,7 +28,7 @@ export function bibliographyEntry(source) {
  parts.push(source.doi?`https://doi.org/${source.doi}.`:`${source.url}.`);
  parts.push(`Accessed ${source.accessed??'2026-10-02'}.`);
  if(b.year===null)parts.push('Publication year unestablished; cited digital version and locator retained.');
- return parts.filter(Boolean).join(' ').replaceAll('n.d..','n.d.').replaceAll('.. ','. ')+' ['+source.key+']';
+ return normalizeCitation(parts.filter(Boolean).join(' '))+' ['+source.key+']';
 }
 
 /** Return only keys present at the end of footnote definitions. */

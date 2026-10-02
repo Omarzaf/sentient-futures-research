@@ -149,7 +149,7 @@ def country_figure() -> list[dict]:
             "Saudi Arabia",
             [
                 "Not located",
-                "Guide / scope",
+                "Not established",
                 "Not established",
                 "Novel-food docs",
                 "Not located",

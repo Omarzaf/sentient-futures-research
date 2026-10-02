@@ -76,7 +76,15 @@ def main(path: Path) -> None:
         field = element("fldSimple", instr="PAGE")
         footer._p.append(field)
     for paragraph in doc.paragraphs:
-        if paragraph.text.startswith(("Appendix ", "Bibliography")):
+        if paragraph.text == "Cultivated Chicken and Halal Market Access":
+            paragraph.style = doc.styles["Title"]
+        elif paragraph.style.name == "Heading 2":
+            paragraph.style = doc.styles["Heading 1"]
+        elif paragraph.style.name == "Heading 3":
+            paragraph.style = doc.styles["Heading 2"]
+        if paragraph.text.startswith(("Appendix ", "Bibliography")) or (
+            paragraph.text == "Contents" or paragraph.text.startswith("1. Introduction")
+        ):
             paragraph.paragraph_format.page_break_before = True
         if paragraph.text.startswith("Figure "):
             paragraph.paragraph_format.space_before = Pt(7)
@@ -95,9 +103,16 @@ def main(path: Path) -> None:
         n = len(table.columns)
         weights = {
             2: [0.28, 0.72],
-            3: [0.18, 0.49, 0.33],
+            3: [0.25, 0.40, 0.35],
             4: [0.20, 0.15, 0.30, 0.35],
         }.get(n, [1 / n] * n)
+        first_header = table.rows[0].cells[0].text
+        if first_header == "Question":
+            weights = [0.26, 0.20, 0.54]
+        elif first_header == "Source and recorded year":
+            weights = [0.45, 0.18, 0.37]
+        elif first_header == "Category":
+            weights = [0.72, 0.28]
         for column, weight in zip(table.columns, weights):
             column.width = Inches(6.8 * weight)
         for i, row in enumerate(table.rows):

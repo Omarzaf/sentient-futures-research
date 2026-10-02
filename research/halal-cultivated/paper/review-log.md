@@ -96,3 +96,13 @@ Author approval is recorded against the accepted outline. The complete local dra
 Fragment verification passed; whole-library checks and all six fixture suites passed. Final repeat verification and deterministic rebuild receipt accompany the stage commit. Independent blind re-derivation and sentence support review are the next gate.
 
 Moderator: PASS for the drafting checkpoint; not a release or scholarly verdict. Retrospective: atomic claims and scoped internal-method records made the draft auditable. Capture filename selection initially omitted PMC XML; the blind-review packet was corrected using raw captures without disclosing answers. Proposed practice: build review packets from capture receipts, not filename suffixes.
+
+## Stage 6 — independent review and repairs
+
+Fresh blind, source-support and adversarial/coverage/style sessions reviewed the complete manuscript. The [review report](REVIEW-REPORT-2026-10-02.md) records scope, independence limits, findings and repairs. The first source pass covered all sixty cited sources and177 authored footnote definitions. Every changed cited paragraph and citation was then checked against raw captures; sixty source hashes remained unchanged. The blind answers were compared again without exposing the manuscript to that checker.
+
+Repairs correct MUIS coverage, Saudi figure scope, the held al-Tahtawi note, Kashim’s non-animal media/scaffold condition, glossary citations and dilution wording, source-family attribution and repeated prose. Follow-up caught and repaired two attribution regressions before the final snapshot. All original Phase One evidence remains unchanged. The corrected body is approximately11,900words; the three figures, five appendices and all required inventories remain.
+
+Final A–E result: no blocking or unjustified major findings on manuscript `7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598`. Human scholarly review, mentor approval and the final author read remain pending. No remote action was taken.
+
+Moderator: PASS for preparing local exports. Retrospective: source and figure reading found errors mechanical checks missed; future audits should test the meaning of exclusions and evidence-layer labels as well as their structure. No global rule was changed.

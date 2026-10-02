@@ -2769,7 +2769,7 @@
     "host": "islamweb.net",
     "short_exact_quote": "( ولا يطهر شيء من النجاسات بالاستحالة )",
     "locator": "Kitab al-tahara, removal of impurity, vol. 1 pp. 241-244 in host edition",
-    "family": "Ibn Qudama",
+    "family": "Ibn Muflih commentary on Ibn Qudama",
     "source_family": "Burhan al-Din Ibrahim ibn Muflih, commenting on Ibn Qudama's al-Muqni",
     "language": "Arabic",
     "accessed": "2026-09-30",
@@ -2813,7 +2813,8 @@
         "status": "blind_agent_checked"
       }
     ],
-    "source_type": "classical_arabic_book"
+    "source_type": "classical_arabic_book",
+    "family_note": "Commentary authorship is distinct from the Ibn Qudama base text; no independent corroboration is inferred from this relationship."
   },
   {
     "id": "H-TAY-IST",
@@ -4961,7 +4962,7 @@
     "language": "English",
     "source_type": "institutional_explanation",
     "doi": null,
-    "family": "P-GEO-MUIS33",
+    "family": "MUIS",
     "source_family": "P-GEO-MUIS33",
     "short_exact_quote": "Restricting opinions to only one mazhab can create difficulties.",
     "locator": "Paragraphs 9–10; page updated 21 February 2025, discussing the June 2020 fatwa",

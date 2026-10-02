@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {checkPaper} from './paper-checks.mjs';
-import {bibliographyEntry, citedSourceKeys} from './paper-bibliography.mjs';
+import {bibliographyEntry, citedSourceKeys, normalizeCitation} from './paper-bibliography.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base='research/halal-cultivated/',paper=base+'paper/';
@@ -83,7 +83,7 @@ function component(id,keys,text,dimension=null){
 function footnote(item){
  const name='abd-'+String(notes.size+1).padStart(2,'0');
  const entries=item.locators.map(({key,locator})=>{const s=byKey.get(key),b=s.bibliographic;return b.author.replaceAll(';', ',')+', *'+b.title+'* ('+(b.year??'n.d.')+'), '+locator+'.';});
- notes.set(name,entries.join(' ')+' '+item.source_keys.map(key=>'['+key+']').join(' '));
+ notes.set(name,normalizeCitation(entries.join(' '))+' '+item.source_keys.map(key=>'['+key+']').join(' '));
  return '[^'+name+']';
 }
 function originalSourceStates(row){return row.source_ids.map(id=>{
@@ -201,7 +201,11 @@ for(const prefix of order){
  }
  out+=trace(ids.length?ids:['P-METHOD-INTERNAL'],ids.some(id=>claims.get(id).kind==='inference')?'mixed':'evidence')+'\n\n';
  const limited=rows.filter(r=>r.current_admission!=='bounded'&&r.current_admission!=='open');
- if(limited.length)out+='Audit gaps: '+limited.map(r=>'question '+r.question_number+' — '+r.gap).join(' ')+' '+trace(['P-METHOD-INTERNAL'],'evidence')+'\n\n';
+ if(limited.length){
+  out+='Audit gaps by question:\n\n';
+  for(const r of limited)out+='- Question '+r.question_number+': '+r.gap+' '+trace(['P-METHOD-INTERNAL'],'evidence')+'\n\n';
+  out+='\n';
+ }
  if(prefix==='J')out+='The question of who decides tayyib and khabith remains open in the reviewed Sistani material. General rules on following a jurist, impurity or harm do not establish the specific customary-repugnance test. '+trace(['J-Q1'],'gap')+'\n\n';
 }
 out+='## Appendix B. Seven countries by documentary layer\n\n';
@@ -237,7 +241,9 @@ const briefNotes={
 for(const verdict of Object.keys(data.counts.source_verdicts)){
  out+='### '+(displayVerdict[verdict]??verdict)+' — individual records\n\n| Source and recorded year | Reading scope | Edition or admission note |\n| --- | --- | --- |\n';
  for(const s of sourceRows.filter(s=>s.verdict===verdict)){
-  const original=byKey.get(s.key),title=s.key==='SG-LIST'?'SFA novel-food process list':original.title;
+  const original=byKey.get(s.key);
+  const duplicate=sourceRows.filter(other=>other.title===s.title).length>1;
+  const title=normalizeCitation((s.key==='SG-LIST'?'SFA novel-food process list':s.title)+(duplicate&&s.locator?' — '+s.locator:''));
   const generic=[s.bibliographic.year===null?'Year unestablished.':null,/classical/.test(original.source_type??'')?'Digital transcription; edition qualified.':null,s.bibliographic.translator?'Translation credit retained in metadata.':null].filter(Boolean).join(' ');
   const note=briefNotes[s.key]??(!qualified.has(verdict)?s.metadata_note:generic||'Admission limited to audited passages and claim rechecks.');
   const aliasNote=s.aliases.length?' Includes '+s.aliases.length+' alias.':'';
