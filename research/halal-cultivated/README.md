@@ -1,6 +1,6 @@
 # Halal conditionality for cultivated meat
 
-[Read the completed Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [original project plan](PLAN.md) remains the reference for Phase Two. Session history is in the [session log](SESSION-LOG.md). Updated 30 September 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
+[Read the completed Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [paper plan](PAPER-PLAN.md) sets out how Codex will consolidate Phase One into one paper and check its citations. The [original project plan](PLAN.md) remains the reference for Phase Two. Session history is in the [session log](SESSION-LOG.md). Updated 30 September 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
 
 The new `phase1/` edition contains 74 public-source claims, 76 source records, 45 school questions, seven country accounts and four historical comparisons, with independent review decisions and explicit gaps. Its findings supersede the earlier search-summary pass for the questions it covers. The parent CSV tables and 24-source register below are retained as that earlier discovery snapshot: five tables contain provisional rows and the others remain empty. Their original statuses have not been silently upgraded. Phase Two quantities and interview CSV rows have not been fabricated.
 

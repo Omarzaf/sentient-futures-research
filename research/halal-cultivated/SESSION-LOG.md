@@ -2,6 +2,14 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026: plan for the Phase One paper
+
+**Done:** Wrote [PAPER-PLAN.md](PAPER-PLAN.md), the brief Codex follows to consolidate the Phase One registers into one thematic paper. It maps every part of Phase One to a section, sets a citation audit for all 76 sources with verdicts, adds mechanical checks and blind cross-checks, and lists 15 problems already found in the evidence (duplicate source IDs, file-sharing hosts for two English translations, consensus.app links in place of four articles, unnamed Quran translations and others).
+
+**Decisions proposed, pending Umar:** drivers, elasticities and insect feed stay out of the paper body (D1); Malay and Indonesian rulings stay held (D2); incubator working paper of about 12,000 words with Chicago notes (D3).
+
+**Not done:** No paper text, no source re-checks and no edits to `phase1/`. The anti-AI writing style file was not available to this session, so the plan carries a fallback list and asks for the file to be copied into `working/style/`.
+
 ## 30 September 2026 — corrections to the earlier discovery rows
 
 **Done:** Checked the Phase One public-source edition against the first-pass registers and corrected the rows it contradicted. `certification.csv`: India and Saudi Arabia route changed from `none_found` to `statute_only` and `operational`, Singapore from `unknown` to `operational`, with notes on the UAE, Pakistan and Indonesia. `rulings.csv` and `consensus-matrix.csv`: the IIFA 265 live-donor reading withdrawn, and the MUIS monograph added. `scripture-sources.csv`: a note on Ghamidi's published treatment of flesh from a living animal. Each changed row says it was corrected and points to `phase1/review.md`.

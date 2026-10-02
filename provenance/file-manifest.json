@@ -157,19 +157,24 @@
       "sha256": "98bda98c2dcdb8169ea79b93d3d85c13fe568ad60f53ea42106b86ff976c4b5d"
     },
     {
+      "path": "research/halal-cultivated/PAPER-PLAN.md",
+      "bytes": 35278,
+      "sha256": "9d5d4348e2fcff41ca3b76e99f7349d3085746f9433ab134a86a72f7d8ecff3a"
+    },
+    {
       "path": "research/halal-cultivated/PLAN.md",
       "bytes": 25628,
       "sha256": "907b98061be47df784e80742699ac550825df719a20570d57c656e256d0f08fd"
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 4185,
-      "sha256": "55a923c9071b682c9b476975595cece3f9bdad95915eca9deecbf2d98fda72e3"
+      "bytes": 4303,
+      "sha256": "dffbafd2c746f1d97a8de3ad4708d4ca8ff21b6ab4bf9ca18a444ec514ab8c3d"
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 5310,
-      "sha256": "47c388f3f825658b0b2a6ee144e0b3900e34a76d0773c6732a6a2ce22438968b"
+      "bytes": 6319,
+      "sha256": "77d63125a83b062efc040e9c734f956a105fe519a883a2b6f9fae2aee4050e51"
     },
     {
       "path": "research/halal-cultivated/certification.csv",
