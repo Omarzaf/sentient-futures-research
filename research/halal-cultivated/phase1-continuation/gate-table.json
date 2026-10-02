@@ -1,0 +1,477 @@
+{
+  "as_of": "2026-10-02",
+  "status": "draft_for_mentor_review",
+  "human_review": "pending",
+  "scope": "Four focal countries. Readings describe the current evidence; they are not scenario gate values and must not be passed to the quantitative bridge without the bridge's own scenario labelling.",
+  "reading_definitions": {
+    "supported_conditional": "Retained positions accept this profile if every stated condition is met.",
+    "disputed": "Retained authorities with standing in this country disagree.",
+    "leans_closed": "The only retained position for this country rejects the profile, from a weak source.",
+    "conditions_not_met": "The documented process fails at least one condition of the retained positions.",
+    "unresolved": "No retained position classifies this founder-cell type.",
+    "no_institutional_text_located": "No ruling from a relevant institution in this country was located.",
+    "general_route_no_cultivated_scheme": "A general halal certification system exists; no scheme for cell-cultured products was found.",
+    "contested_domestic_route": "Halal certification is private and politically contested for domestic sale.",
+    "route_exists_no_approval": "A food-authorization route covering cell culture exists; no approval was found.",
+    "application_pending": "A named application is under process.",
+    "route_announced_status_unknown": "A route has been announced; whether it operates is unknown.",
+    "no_route_identified": "No authorization route for cultivated meat was identified.",
+    "whole_market_gate": "Halal status conditions sale across the market.",
+    "segment_gate": "Halal status conditions sale only to a segment of buyers.",
+    "unverified": "Not established."
+  },
+  "reading_labels": {
+    "supported_conditional": "Accepted if conditions met",
+    "disputed": "Disputed",
+    "leans_closed": "Leans against",
+    "conditions_not_met": "Conditions not met",
+    "unresolved": "Unresolved",
+    "no_institutional_text_located": "No ruling found",
+    "general_route_no_cultivated_scheme": "General system, no cultivated scheme",
+    "contested_domestic_route": "Private and contested",
+    "route_exists_no_approval": "Route exists, no approval",
+    "application_pending": "Application pending",
+    "route_announced_status_unknown": "Announced, status unknown",
+    "no_route_identified": "No route found",
+    "whole_market_gate": "Whole market",
+    "segment_gate": "Segment only",
+    "unverified": "Not established"
+  },
+  "confidence_definitions": {
+    "low": "Rests on secondary or snippet-level sources, or on inference alone.",
+    "medium": "Rests on at least one checked source plus consistent leads.",
+    "high": "Rests on checked primary sources with no contrary evidence. Not used yet."
+  },
+  "process_profiles": [
+    {
+      "id": "P1",
+      "label": "Embryo-derived fibroblast line, serum medium",
+      "founder_cells": "Chicken fibroblast line from 10-day embryos (DF-1 lineage)",
+      "medium": "Contains fetal bovine serum",
+      "documented_in": "GOOD Meat FDA consultation CCC000001 (2023); Singapore approval (2020)",
+      "real_product": true
+    },
+    {
+      "id": "P2",
+      "label": "Embryo-derived line, serum-free medium",
+      "founder_cells": "As P1",
+      "medium": "Serum-free; full formula not public",
+      "documented_in": "GOOD Meat Singapore serum-free approval (January 2023)",
+      "real_product": true
+    },
+    {
+      "id": "P3",
+      "label": "Embryonic stem cells, animal-component-free medium",
+      "founder_cells": "Chicken embryonic stem cells",
+      "medium": "Described as free of animal components",
+      "documented_in": "Vital Meat, Singapore list (2025), from the 30 September register",
+      "real_product": true
+    },
+    {
+      "id": "P4",
+      "label": "Slaughtered-donor cells, animal-free medium",
+      "founder_cells": "Cells taken from a bird slaughtered by Islamic rules",
+      "medium": "Every input permitted",
+      "documented_in": "Reference case; no product documented",
+      "real_product": false
+    },
+    {
+      "id": "P5",
+      "label": "Live-biopsy adult cells, animal-free medium",
+      "founder_cells": "Biopsy from a living adult bird",
+      "medium": "Every input permitted",
+      "documented_in": "Reference case; the living-donor route in IIFA 265",
+      "real_product": false
+    },
+    {
+      "id": "P6",
+      "label": "Feather-derived induced pluripotent cells, animal-free medium",
+      "founder_cells": "Reprogrammed cells from chicken feathers",
+      "medium": "Every input permitted",
+      "documented_in": "Reference case; American Fiqh Academy Resolution 7",
+      "real_product": false
+    }
+  ],
+  "countries": [
+    {
+      "id": "SAU",
+      "name": "Saudi Arabia",
+      "summary": "The legal route exists and has halal built in, but no cultivated product is approved. The religious answer turns on donor procurement: Saudi scholars advising GOOD Meat require a slaughtered donor, while IIFA, whose seminar the SFDA co-organised, keeps a living-donor route.",
+      "religious": [
+        {
+          "profile": "P1",
+          "reading": "conditions_not_met",
+          "confidence": "medium",
+          "basis_claim_ids": [
+            "P1C5-INST-C01",
+            "P1C5-INST-C02",
+            "P1C8-I02",
+            "P1C8-C13"
+          ],
+          "decisive_next": "A certificate or adviser statement for a later GOOD Meat line"
+        },
+        {
+          "profile": "P2",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01",
+            "P1C5-INST-C01"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P3",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P4",
+          "reading": "supported_conditional",
+          "confidence": "medium",
+          "basis_claim_ids": [
+            "P1C5-INST-C01",
+            "P1C5-INST-C03",
+            "P1C8-I03"
+          ],
+          "decisive_next": "A Saudi Halal Center or SFDA statement applying these conditions to a product"
+        },
+        {
+          "profile": "P5",
+          "reading": "disputed",
+          "confidence": "medium",
+          "basis_claim_ids": [
+            "P1C5-INST-C03",
+            "P1C5-INST-C01",
+            "P1C8-C01",
+            "P1C8-C02"
+          ],
+          "decisive_next": "The Jeddah seminar recommendations and the Arabic text of IIFA 265, Third (1), read side by side"
+        },
+        {
+          "profile": "P6",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C08"
+          ],
+          "decisive_next": "Any Saudi or IIFA statement on reprogrammed cells"
+        }
+      ],
+      "certification": {
+        "reading": "general_route_no_cultivated_scheme",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C8-C14",
+          "P1C5-STD-C03",
+          "P1C8-I05"
+        ],
+        "decisive_next": "A Saudi Halal Center scheme or certificate for a cell-cultured product",
+        "note": "Halal requirements for animal-origin food run through GSO 2055-1 and GSO 993.",
+        "prior_edition_refs": [
+          "SA-NOVEL",
+          "SA-2025"
+        ]
+      },
+      "food_authorization": {
+        "reading": "route_exists_no_approval",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C8-C14",
+          "P1C8-I05"
+        ],
+        "decisive_next": "The current Arabic SFDA novel-food regulation with its number reconciled (FD 5013 versus 5031 and 513)",
+        "note": "The novel-food regulation covers animal cell culture; no approval found.",
+        "prior_edition_refs": [
+          "SA-NOVEL",
+          "SA-GUIDE",
+          "SA-2025"
+        ]
+      },
+      "segment": {
+        "reading": "whole_market_gate",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C8-I05"
+        ],
+        "decisive_next": "Confirmation that no channel permits non-halal animal-origin novel food",
+        "note": "Religious and legal gates are coupled."
+      }
+    },
+    {
+      "id": "ARE",
+      "name": "United Arab Emirates",
+      "summary": "The weakest focal country on evidence. A slaughter-required Fatwa Council position is reported only by a tertiary source, and Abu Dhabi's single-window novel-food framework was announced in October 2025 with no operative instrument located.",
+      "religious": [
+        {
+          "profile": "P1",
+          "reading": "conditions_not_met",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C11",
+            "P1C8-I02",
+            "P1C5-INST-C03"
+          ],
+          "decisive_next": "The UAE Council for Fatwa instrument itself"
+        },
+        {
+          "profile": "P2",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01",
+            "P1C8-C11"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P3",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P4",
+          "reading": "supported_conditional",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C11",
+            "P1C8-I03"
+          ],
+          "decisive_next": "The UAE Council for Fatwa instrument, number and date"
+        },
+        {
+          "profile": "P5",
+          "reading": "leans_closed",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C11"
+          ],
+          "decisive_next": "The UAE Council for Fatwa instrument, number and date"
+        },
+        {
+          "profile": "P6",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C08"
+          ],
+          "decisive_next": "Any UAE statement on reprogrammed cells"
+        }
+      ],
+      "certification": {
+        "reading": "general_route_no_cultivated_scheme",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C5-STD-C06",
+          "P1C8-C17"
+        ],
+        "decisive_next": "MoIAT or ADAFSA rules for certifying a cell-cultured product",
+        "note": "MoIAT runs a halal certificate system through registered bodies; the Abu Dhabi framework would fold halal certification into one window.",
+        "prior_edition_refs": [
+          "AE-HALAL"
+        ]
+      },
+      "food_authorization": {
+        "reading": "route_announced_status_unknown",
+        "confidence": "low",
+        "basis_claim_ids": [
+          "P1C8-C17"
+        ],
+        "decisive_next": "The operative ADAFSA framework instrument and any federal counterpart",
+        "note": "Announced October 2025; operative status unknown.",
+        "prior_edition_refs": [
+          "AE-2025"
+        ]
+      },
+      "segment": {
+        "reading": "unverified",
+        "confidence": "low",
+        "basis_claim_ids": [],
+        "decisive_next": "Federal and emirate rules on sale of non-halal meat and who buys halal-certified meat",
+        "note": "Licensed non-halal retail exists; segment size unknown."
+      }
+    },
+    {
+      "id": "PAK",
+      "name": "Pakistan",
+      "summary": "No food-authorization route for cultivated meat was identified. The leading Deobandi position, reported but not located in original, requires a slaughtered donor; a Karachi seminary fatwa sets ingredient conditions and withholds a final ruling.",
+      "religious": [
+        {
+          "profile": "P1",
+          "reading": "conditions_not_met",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C04",
+            "P1C8-C05",
+            "P1C8-I02"
+          ],
+          "decisive_next": "The original Taqi Usmani-led ruling and a translated Banuri Town answer"
+        },
+        {
+          "profile": "P2",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01",
+            "P1C8-C04"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P3",
+          "reading": "unresolved",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I01"
+          ],
+          "decisive_next": "A named authority's ruling on embryo- or egg-derived founder cells"
+        },
+        {
+          "profile": "P4",
+          "reading": "supported_conditional",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C04",
+            "P1C8-I03"
+          ],
+          "decisive_next": "The original Taqi Usmani-led ruling, with date and signatories"
+        },
+        {
+          "profile": "P5",
+          "reading": "leans_closed",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C04",
+            "P1C8-C06"
+          ],
+          "decisive_next": "The original ruling and Council of Islamic Ideology records"
+        },
+        {
+          "profile": "P6",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-C08"
+          ],
+          "decisive_next": "Any Pakistani statement on reprogrammed cells"
+        }
+      ],
+      "certification": {
+        "reading": "general_route_no_cultivated_scheme",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C5-STD-C02"
+        ],
+        "decisive_next": "Pakistan Halal Authority rules for a cell-cultured product",
+        "note": "PS 3733 adopts OIC/SMIIC 1; the Pakistan Halal Authority accredits certifiers.",
+        "prior_edition_refs": [
+          "PK2016"
+        ]
+      },
+      "food_authorization": {
+        "reading": "no_route_identified",
+        "confidence": "low",
+        "basis_claim_ids": [
+          "P1C-C06"
+        ],
+        "decisive_next": "Federal or provincial novel-food provisions, or a cultivated-meat application",
+        "note": "Punjab's generic registration procedure is the nearest documented route."
+      },
+      "segment": {
+        "reading": "unverified",
+        "confidence": "low",
+        "basis_claim_ids": [],
+        "decisive_next": "A legal basis for treating halal status as a condition of meat sale",
+        "note": "Likely whole-market in practice, but the legal basis was not established."
+      }
+    },
+    {
+      "id": "IND",
+      "name": "India",
+      "summary": "The only focal country with a named cultivated-chicken application, still under process at FSSAI. No Indian Islamic institution's ruling was located. Halal certification is a contested market layer, so the religious gate covers a segment, not the market.",
+      "religious": [
+        {
+          "profile": "P1",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        },
+        {
+          "profile": "P2",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        },
+        {
+          "profile": "P3",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        },
+        {
+          "profile": "P4",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [
+            "P1C8-I03"
+          ],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        },
+        {
+          "profile": "P5",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        },
+        {
+          "profile": "P6",
+          "reading": "no_institutional_text_located",
+          "confidence": "low",
+          "basis_claim_ids": [],
+          "decisive_next": "A Darul Uloom Deoband, Islamic Fiqh Academy India or Barelvi ruling located in its archive"
+        }
+      ],
+      "certification": {
+        "reading": "contested_domestic_route",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C-C02",
+          "P1C8-C15"
+        ],
+        "decisive_next": "The Uttar Pradesh order text and the Supreme Court's disposition",
+        "note": "No national halal mandate for domestic sale; i-CAS applies to specified halal exports."
+      },
+      "food_authorization": {
+        "reading": "application_pending",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C-C01",
+          "P1C8-C16"
+        ],
+        "decisive_next": "FSSAI's decision on file 80/Std/PA/FSSAI/2025 (Biokraft Foods)",
+        "note": "Stage 7 in the September 2026 register covers clarification, approval or rejection."
+      },
+      "segment": {
+        "reading": "segment_gate",
+        "confidence": "medium",
+        "basis_claim_ids": [
+          "P1C8-I04"
+        ],
+        "decisive_next": "Household consumption of chicken by religious group from national survey tables",
+        "note": "Segment size unmeasured."
+      }
+    }
+  ]
+}

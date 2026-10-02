@@ -24,7 +24,10 @@
         "R07-EL-C03",
         "R7-FEED-C01",
         "R7-FEED-C02",
-        "R7-FEED-C03"
+        "R7-FEED-C03",
+        "P1C8-C15",
+        "P1C8-C16",
+        "P1C8-I04"
       ]
     },
     {
@@ -47,7 +50,9 @@
         "R07-EL-C13",
         "R7-FEED-C04",
         "R7-FEED-C05",
-        "R7-FEED-C06"
+        "R7-FEED-C06",
+        "P1C8-C04",
+        "P1C8-C05"
       ]
     },
     {
@@ -64,7 +69,11 @@
         "R07-EL-C08",
         "R07-EL-C09",
         "R7-FEED-C07",
-        "R7-FEED-C08"
+        "R7-FEED-C08",
+        "P1C8-C01",
+        "P1C8-C02",
+        "P1C8-C14",
+        "P1C8-I05"
       ]
     },
     {
@@ -85,7 +94,10 @@
         "R07-EL-C12",
         "R7-FEED-C09",
         "R7-FEED-C10",
-        "R7-FEED-C11"
+        "R7-FEED-C11",
+        "P1C8-C11",
+        "P1C8-C12",
+        "P1C8-C17"
       ]
     },
     {
@@ -122,7 +134,8 @@
       "populationSchoolShares": null,
       "claim_ids": [
         "P1C6-REL-C12",
-        "P1C6-REL-C13"
+        "P1C6-REL-C13",
+        "P1C8-C10"
       ]
     },
     {

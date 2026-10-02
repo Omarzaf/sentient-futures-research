@@ -123,12 +123,17 @@ const cases=[
  ['qualitative precedent becomes a predicted ruling deadline',f=>alter(f,'historical-synthesis.json',r=>{r.rows[0].ruling_speed=30;}),'historical synthesis hypothesis promoted']
 ];
 // Statuses from AGENTIC-PLAN: a labelled inference with premise and test passes; malformed statuses fail.
-{const f={...fixture};alter(f,'claims.json',r=>{Object.assign(r[0],{status:'inference',premise:'Stated premise.',confirmation_test:'Evidence that would defeat it.'});delete r[0].review_id;});assert.deepEqual(checkContinuation(f).failures,[],'labelled inference must be accepted');}
-{const f={...fixture};alter(f,'claims.json',r=>{r[0].status='open';delete r[0].review_id;});assert.deepEqual(checkContinuation(f).failures,[],'open claim must be accepted');}
+{const f={...fixture};alter(f,'claims.json',r=>{const c=r.find(x=>x.id==='R7-CO-ETH2013');Object.assign(c,{status:'inference',premise:'Stated premise.',confirmation_test:'Evidence that would defeat it.'});delete c.review_id;});assert.deepEqual(checkContinuation(f).failures,[],'labelled inference must be accepted');}
+{const f={...fixture};alter(f,'claims.json',r=>{const c=r.find(x=>x.id==='R7-CO-ETH2013');c.status='open';delete c.review_id;});assert.deepEqual(checkContinuation(f).failures,[],'open claim must be accepted');}
 const statusCases=[
  ['claim status outside the plan vocabulary',f=>alter(f,'claims.json',r=>{r[0].status='accepted';}),'unsupported claim status'],
  ['inference without premise',f=>alter(f,'claims.json',r=>{r[0].status='inference';delete r[0].premise;}),'inference without premise or confirmation test'],
- ['open claim with dangling review link',f=>alter(f,'claims.json',r=>{r[0].status='open';r[0].review_id='missing';}),'claim review link does not resolve']
+ ['open claim with dangling review link',f=>alter(f,'claims.json',r=>{r[0].status='open';r[0].review_id='missing';}),'claim review link does not resolve'],
+ ['gate cell cites a missing claim',f=>alter(f,'gate-table.json',g=>{g.countries[0].religious[0].basis_claim_ids=['missing'];}),'gate cell basis does not resolve'],
+ ['gate cell given a scenario value',f=>alter(f,'gate-table.json',g=>{g.countries[0].food_authorization.reading='open';}),'gate cell reading, confidence or next document invalid'],
+ ['positive gate reading resting only on a snippet lead',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='SAU');c.food_authorization.basis_claim_ids=['P1C8-C14'];}),'gate cell positive reading rests only on unchecked leads'],
+ ['gate cell rated high on leads',f=>alter(f,'gate-table.json',g=>{const c=g.countries.find(x=>x.id==='ARE');c.religious[3].confidence='high';}),'gate cell high confidence without checked basis'],
+ ['focal country dropped from gate table',f=>alter(f,'gate-table.json',g=>{g.countries.pop();}),'gate table focal-country roster changed']
 ];
 for(const [name,mutate,expected] of statusCases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}
 for(const [name,mutate,expected] of cases){const f={...fixture};mutate(f);assert(checkContinuation(f).failures.some(s=>s.includes(expected)),name+' must reject');}

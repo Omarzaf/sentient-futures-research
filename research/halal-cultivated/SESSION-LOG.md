@@ -2,6 +2,14 @@
 
 One entry per working session, newest first. Records what was done, what was decided, and what is still open. It contains no private links and no interview text.
 
+## 2 October 2026 — gate table and synthesis
+
+**Added:** A [synthesis](phase1-continuation/SYNTHESIS.md) and [gate table](phase1-continuation/gate-table.md) for the four focal countries across six founder-cell and medium profiles. 17 sources and claims from web searches fill focal-country gaps; each is status `open` because the environment's network policy blocked the original hosts. Five inference records carry a premise and a confirmation test. The registers now hold 174 sources and 151 claims.
+
+**Decisions:** Gate-table readings describe evidence and are never scenario gate values. A positive reading must rest on at least one checked claim or labelled inference, never on leads alone; no cell is rated high. The checker enforces both, with five new negative tests.
+
+**Still open:** Confirm every 2 October lead against its original; close the four food-authorization routes; put the embryo-line question to a qualified reviewer.
+
 ## 2 October 2026 — mechanical fixes after review
 
 **Changed:** The continuation checker now accepts the AGENTIC-PLAN statuses `inference`, `open` and `disputed` alongside `independently_checked`. An inference must carry a premise and a confirmation test, and any review link must resolve. Three negative tests and two positive tests cover this. No claim's status was changed.

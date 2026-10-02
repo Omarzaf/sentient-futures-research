@@ -2185,5 +2185,295 @@
     "human_review": "pending",
     "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
     "requirement_id": "INSECTS-SOUTH-ASIA"
+  },
+  {
+    "id": "P1C8-C01",
+    "country": "SAU",
+    "assertion": "IIFA's 26th-session resolution on genetically modified animal foods cites recommendations from a seminar the Academy held with the Saudi Food and Drug Authority in Jeddah on 24–25 September 2024, which also covered cultivated meat.",
+    "source_ids": [
+      "P1C8-S01"
+    ],
+    "locator": "Resolution 266 preamble",
+    "limits": "Search-snippet lead; original not opened. It ties the Saudi food regulator to the IIFA process; it is not an SFDA decision on cultivated meat.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C02",
+    "country": "SAU",
+    "assertion": "An October 2024 Kuwait Network post describes the Jeddah outcome as permitting cultivated meat only when the stem cell comes from a permissible animal that has been slaughtered.",
+    "source_ids": [
+      "P1C8-S16"
+    ],
+    "locator": "Post text",
+    "limits": "Search-snippet lead; original not opened. If accurate, it differs from the living-donor alternative in the final Resolution 265 text and would place part of the procurement dispute inside IIFA's own drafting history.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C03",
+    "country": null,
+    "assertion": "IIFA Resolution 267 (12/26) postpones a ruling on the consumption and marketing of insects pending further research.",
+    "source_ids": [
+      "P1C8-S02"
+    ],
+    "locator": "Operative paragraph",
+    "limits": "Search-snippet lead; original not opened. Concerns insects as human food; it does not decide insects as poultry feed.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C04",
+    "country": "PAK",
+    "assertion": "The National reports that scholars in Pakistan led by Mufti Muhammad Taqi Usmani ruled cultivated meat permissible only if the original cells come from animals slaughtered according to Sharia.",
+    "source_ids": [
+      "P1C8-S03"
+    ],
+    "locator": "Paragraph on Pakistan",
+    "limits": "Search-snippet lead; original not opened. The original ruling, date and signatories were not located; treat as a reported position.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C05",
+    "country": "PAK",
+    "assertion": "Banuri Town's Darul Iftaa (answer 144012201327, 2019) lists conditions for laboratory meat: no impure or forbidden ingredients, pure culture vessels, a source animal that is not forbidden, non-forbidden hormones and no harm to health; it withholds a final ruling until those facts are examined.",
+    "source_ids": [
+      "P1C8-S04"
+    ],
+    "locator": "Answer 144012201327",
+    "limits": "Search-snippet lead; original not opened. Urdu text summarised by a machine; qualified translation needed. The snippet does not mention a slaughter condition either way.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C06",
+    "country": null,
+    "assertion": "A South African Hanafi answer (Fatwaa.com, Shaykh Ismail Moosa) holds cultivated meat halal if stem cells come from an Islamically slaughtered animal and all other ingredients are halal, and says the same ruling applies to meat produced from cell lines of the original animals.",
+    "source_ids": [
+      "P1C8-S05"
+    ],
+    "locator": "Answer 174720",
+    "limits": "Search-snippet lead; original not opened. Whether the cell-line sentence extends to a living donor is unclear from the snippet.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C07",
+    "country": null,
+    "assertion": "Wifaq ul Ulama (UK) cites the report that a part cut from a living animal is carrion and requires stem cells from an animal slaughtered by Islamic rules.",
+    "source_ids": [
+      "P1C8-S06"
+    ],
+    "locator": "Article body",
+    "limits": "Search-snippet lead; original not opened.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C08",
+    "country": null,
+    "assertion": "The American Fiqh Academy's Resolution 7 holds meat from muscle stem cells taken from live animals impermissible, treats a fetal bovine serum medium as making the product impermissible, and permits induced pluripotent stem cells derived from chicken feathers without slaughter.",
+    "source_ids": [
+      "P1C8-S07"
+    ],
+    "locator": "Resolution 7",
+    "limits": "Search-snippet lead; original not opened. Adds a feather-derived route that no focal-country authority has addressed.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C09",
+    "country": null,
+    "assertion": "The American Halal Foundation's guide states that halal cultivated meat requires cells from an animal slaughtered by Islamic rites and that cells from a biopsy of a living animal cannot be used.",
+    "source_ids": [
+      "P1C8-S08"
+    ],
+    "locator": "Guide body",
+    "limits": "Search-snippet lead; original not opened. A US certifier's rule, relevant as certification practice rather than a focal-country position.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C10",
+    "country": "IDN",
+    "assertion": "Nahdlatul Ulama's 2021 national conference declared meat grown from cells taken from living animals such as cattle and chickens impure and forbidden, treating the cells as a part separated from a living animal.",
+    "source_ids": [
+      "P1C8-S09"
+    ],
+    "locator": "News report of the Munas decision",
+    "limits": "Search-snippet lead; original not opened. Indonesian-language report held under the English-first rule.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C11",
+    "country": "ARE",
+    "assertion": "A tertiary reference reports that the UAE Council for Fatwa approved the manufacture and consumption of cell-based meat proteins provided that the donor animals are lawfully slaughtered.",
+    "source_ids": [
+      "P1C8-S10"
+    ],
+    "locator": "Article sentence",
+    "limits": "Search-snippet lead; original not opened. No Council instrument, number or date was located; this is the weakest source class in the register.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C12",
+    "country": "ARE",
+    "assertion": "Dubai's Grand Mufti, Ahmad Al-Haddad, published an October 2024 opinion column on how jurists treat cultivated meat.",
+    "source_ids": [
+      "P1C8-S11"
+    ],
+    "locator": "Opinion column",
+    "limits": "Search-snippet lead; original not opened. Content not read beyond the snippet; a personal column, not a Council decision.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C13",
+    "country": null,
+    "assertion": "Axios quotes a GOOD Meat spokesperson in September 2023: \"Our current cell line does not meet that guidance, but future cell lines will.\"",
+    "source_ids": [
+      "P1C8-S12"
+    ],
+    "locator": "Spokesperson quotation",
+    "limits": "Search-snippet lead; original not opened. Narrows the company's own 11 September 2023 caveat to the cell line; confirm the wording.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C14",
+    "country": "SAU",
+    "assertion": "USDA's 2025 FAIRS report summarises SFDA FD 5013:2020 as defining novel foods to include foods produced from cell or tissue culture of animal origin, gives a 90-working-day registration period, and states that animal-source products must meet halal requirements under SFDA.FD/GSO 2055-1 and GSO 993.",
+    "source_ids": [
+      "P1C8-S13"
+    ],
+    "locator": "Novel foods and halal sections",
+    "limits": "Search-snippet lead; original not opened. Secondary summary; reconcile with the SFDA texts already in the 30 September register (SA-NOVEL, SA-2025).",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C15",
+    "country": "IND",
+    "assertion": "On 18 November 2023 Uttar Pradesh banned the production, storage, distribution and sale of halal-certified food products in the state, exempting products made for export; the ban was challenged in the Supreme Court.",
+    "source_ids": [
+      "P1C8-S14"
+    ],
+    "locator": "News report",
+    "limits": "Search-snippet lead; original not opened. The order text, its scope for meat and the court's disposition were not read.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C16",
+    "country": "IND",
+    "assertion": "In June 2025 trade press reported FSSAI officials saying cultivated meat follows the novel or non-specified food route and that approval should take six to eight months if the product meets the standards.",
+    "source_ids": [
+      "P1C8-S15"
+    ],
+    "locator": "FSSAI paragraphs",
+    "limits": "Search-snippet lead; original not opened. Reported statements, not an FSSAI instrument; the September 2026 register still lists the Biokraft file under process.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C17",
+    "country": "ARE",
+    "assertion": "Abu Dhabi's October 2025 announcement says ADAFSA, QCC and ADIO will build a novel-food framework that unifies registration, halal certification and production or import permits through one contact point.",
+    "source_ids": [
+      "P1C8-S17"
+    ],
+    "locator": "Announcement body",
+    "limits": "Search-snippet lead; original not opened. Describes a framework under development; no operative instrument, first approval or federal equivalent was located.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-I01",
+    "country": null,
+    "assertion": "Embryo-derived founder cells fall outside both procurement routes that the retained rulings name. The documented products approved so far use such cells, so their religious status is unresolved rather than either permitted or prohibited.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03",
+      "MUIS-BOOK",
+      "P1C5-LIT-HAMDAN24"
+    ],
+    "locator": "See premise",
+    "limits": "Inference for reviewer questions, not a ruling. The Vital Meat profile is carried from the 30 September register and was not re-read here.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "GOOD Meat's reviewed line derives from 10-day chicken embryos; Singapore approved an embryonic stem-cell product in 2025; retained rulings speak of live biopsy or a slaughtered donor; MUIS mentions an egg or embryo exception and Hamdan (2024) argues egg-derived cells can become pure.",
+    "confirmation_test": "A named authority classifying an embryo-derived or egg-derived founder line, or MUIS clarifying its egg passage, would settle the cell for that authority."
+  },
+  {
+    "id": "P1C8-I02",
+    "country": null,
+    "assertion": "The US-reviewed GOOD Meat process fails its own advisers' donor condition and probably their medium condition.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT",
+      "P1C3-PROCESS-S08",
+      "P1C3-PROCESS-S01",
+      "P1C8-S12"
+    ],
+    "locator": "See premise",
+    "limits": "Applies only to the documented CCC000001 process, not to the later serum-free Singapore version.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "The advisers required a slaughtered donor and excluded blood and improperly slaughtered animal material; the line comes from embryos, not a slaughtered bird; fetal bovine serum is used in seed and production; the company said the line did not meet the guidance.",
+    "confirmation_test": "An adviser or company statement naming the failing condition, or a certificate for a later line, would confirm or defeat this."
+  },
+  {
+    "id": "P1C8-I03",
+    "country": null,
+    "assertion": "A slaughtered-donor line grown in an animal-free medium is the only process profile that every retained authority accepts in principle.",
+    "source_ids": [
+      "IIFA265",
+      "P1C5-INST-GOODMEAT",
+      "MUIS2024",
+      "P1C8-S03",
+      "P1C8-S06",
+      "P1C8-S07",
+      "P1C8-S08",
+      "P1C8-S09",
+      "P1C8-S10"
+    ],
+    "locator": "See premise",
+    "limits": "Acceptance in principle is not a certificate and assumes every input is permitted. No such product is documented.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "IIFA allows a slaughtered donor; the GOOD Meat advisers, MUIS, the reported UAE and Pakistani positions, Wifaq ul Ulama, the American Fiqh Academy's reasoning and the American Halal Foundation all require or accept one; Nahdlatul Ulama rejects only living-donor cells.",
+    "confirmation_test": "Any named authority rejecting cultivated meat outright regardless of donor, or rejecting slaughtered-donor lines, would defeat this."
+  },
+  {
+    "id": "P1C8-I04",
+    "country": "IND",
+    "assertion": "In India the halal gate binds a segment of the chicken market, not the whole market.",
+    "source_ids": [
+      "P1C-IN34",
+      "P1C8-S14"
+    ],
+    "locator": "See premise",
+    "limits": "Segment size is unmeasured; the inference does not say how large the halal-requiring segment is.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "Non-halal chicken is legally sold in India; halal export rules apply only to specified exports; Uttar Pradesh restricted halal-certified food in 2023, showing that halal certification is a contested market layer rather than a legal condition of sale.",
+    "confirmation_test": "A national rule making halal status a condition of chicken sale would defeat this. Sizing the segment needs consumption-by-religion survey data."
+  },
+  {
+    "id": "P1C8-I05",
+    "country": "SAU",
+    "assertion": "In Saudi Arabia the halal requirement is built into food authorization for animal-origin products, so the religious and legal gates are coupled and apply to the whole market.",
+    "source_ids": [
+      "P1C8-S13",
+      "P1C5-STD-S05"
+    ],
+    "locator": "See premise",
+    "limits": "Rests on a secondary summary plus the earlier SFDA reading; the SFDA regulation's version conflict is still unresolved.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "USDA's summary of SFDA rules and the 30 September reading of the SFDA novel-food text both require halal sources for animal-origin food, referring to GSO 2055-1.",
+    "confirmation_test": "An SFDA instrument permitting non-halal animal-origin novel food for some channel would defeat this."
   }
 ]

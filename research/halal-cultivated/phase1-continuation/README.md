@@ -1,8 +1,12 @@
 # Phase One continuation: evidence added on 1 October 2026
 
-**Work in progress.** This supplement preserves the [30 September review](../phase1/README.md) and adds independently checked readings. It does not establish completion of Phase One, scholarly approval or a cultivated-product certificate.
+**Start with the [synthesis](SYNTHESIS.md) and the [gate table](gate-table.md).** They give the current answer for each focal country, how much weight it bears and the document that would change it.
+
+**Work in progress.** This supplement preserves the [30 September review](../phase1/README.md) and adds checked readings, search leads and labelled inferences. It does not establish completion of Phase One, scholarly approval or a cultivated-product certificate.
 
 ## What changed
+
+The eighth batch (2 October) adds the [synthesis](SYNTHESIS.md) and a [gate table](gate-table.md) for India, Pakistan, Saudi Arabia and the UAE across six founder-cell and medium profiles. It records 17 search leads that fill focal-country gaps, among them the SFDA's role in IIFA's Jeddah seminar, a reported Taqi Usmani-led ruling, a Banuri Town fatwa, a reported UAE Council for Fatwa position and IIFA's postponed insect ruling. Each lead is status `open` because its original could not be opened. Five labelled inferences carry premises and confirmation tests. The registers now contain **174 sources and 151 claims**.
 
 The seventh batch reviews [demand elasticities for twelve country/species questions](elasticity-review.md) and [insect-feed economics, five named-school routes and one South Asian ethnographic paragraph](feed-review.md). The registers contain **157 sources and 129 bounded claims**. The accompanying [186 study-level estimates](elasticity-estimates.json) preserve categories, conditioning, reported uncertainty and source anomalies. No estimate is accepted as a current cultivated-meat forecast parameter. None of the four feed-country packets establishes a national insect-meal market value or an industry chicken-cost effect; this is a limit of the inspected evidence, not a finding that no market or effect exists. Full synthesis, final reviews and human scholarly acceptance remain outstanding.
 

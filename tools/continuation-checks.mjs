@@ -478,5 +478,31 @@ export function checkContinuation(files) {
  check(maliki?.status==='bounded_unresolved_primary_text_gap'&&sameMembers(maliki.held_source_ids,['R7-F-EGY1983-LEAD'])&&sourceIds.has('R7-F-EGY1983-LEAD')&&!claims.some(c=>c.source_ids?.includes('R7-F-EGY1983-LEAD')),'feed held Maliki attribution promoted to adopted rule');
  check(ethnography?.requirement_id==='INSECTS-SOUTH-ASIA'&&artifactLineage(ethnography,null)&&sameMembers(ethnography.source_ids,['R7-F-ETH2011','R7-F-ETH2013'])&&sameMembers(ethnography.claim_ids,['R7-CO-ETH2011','R7-CO-ETH2013'])&&reviewCovers('R7-FEED-SCHOOLS-ETHNOGRAPHY',ethnography.claim_ids),'feed ethnography source/claim/review lineage lost');
  check(ethnography?.paragraph_count===1&&typeof ethnography.paragraph==='string'&&ethnography.paragraph.trim().length>0&&ethnography.paragraph.trim().split(/\n\s*\n/).length===1&&ethnography.publication_year_is_observation_year===false&&ethnography.representative_population_prevalence===null&&ethnography.human_protein_total===null&&ethnography.clinical_efficacy_established===false&&ethnography.human_review==='pending','feed ethnography paragraph or population/clinical/protein boundary lost');
+
+ // Gate table (2 October): evidence readings for the focal countries, never scenario gate values.
+ if(files['gate-table.json']!==undefined){
+  let gate=null;try{gate=JSON.parse(files['gate-table.json']);}catch{check(false,'gate table is invalid JSON');}
+  if(gate){
+   const religiousReadings=['supported_conditional','disputed','leans_closed','conditions_not_met','unresolved','no_institutional_text_located'];
+   const layerReadings={certification:['general_route_no_cultivated_scheme','contested_domestic_route','no_route_identified','unverified'],food_authorization:['route_exists_no_approval','application_pending','route_announced_status_unknown','no_route_identified','unverified'],segment:['whole_market_gate','segment_gate','unverified']};
+   const positive=['supported_conditional','route_exists_no_approval','application_pending','general_route_no_cultivated_scheme','whole_market_gate','segment_gate'];
+   const profileIds=(gate.profiles||gate.process_profiles||[]).map(p=>p.id);
+   check(gate.human_review==='pending'&&profileIds.length>0&&new Set(profileIds).size===profileIds.length,'gate table review status or profiles invalid');
+   check(sameMembers((gate.countries||[]).map(c=>c.id),['IND','PAK','SAU','ARE']),'gate table focal-country roster changed');
+   const checkCell=(where,cell,allowed)=>{
+    const basis=Array.isArray(cell?.basis_claim_ids)?cell.basis_claim_ids:null;
+    check(allowed.includes(cell?.reading)&&['low','medium','high'].includes(cell?.confidence)&&typeof cell?.decisive_next==='string'&&cell.decisive_next.length>0&&!!gate.reading_labels?.[cell?.reading],'gate cell reading, confidence or next document invalid: '+where);
+    check(basis!==null&&basis.every(id=>claimIds.has(id)),'gate cell basis does not resolve: '+where);
+    check(!positive.includes(cell?.reading)||(basis||[]).some(id=>claims.find(c=>c.id===id)?.status!=='open'),'gate cell positive reading rests only on unchecked leads: '+where);
+    check(cell?.confidence!=='high'||(basis||[]).every(id=>claims.find(c=>c.id===id)?.status==='independently_checked'),'gate cell high confidence without checked basis: '+where);
+   };
+   for(const country of gate.countries||[]){
+    check(sameMembers((country.religious||[]).map(c=>c.profile),profileIds),'gate table religious profiles incomplete: '+country.id);
+    for(const cell of country.religious||[])checkCell(country.id+'/'+cell.profile,cell,religiousReadings);
+    for(const [layer,allowed] of Object.entries(layerReadings))checkCell(country.id+'/'+layer,country[layer],allowed);
+    check(typeof country.summary==='string'&&country.summary.length>0,'gate table country summary missing: '+country.id);
+   }
+  }
+ }
  return {checks,failures};
 }

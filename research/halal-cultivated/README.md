@@ -38,4 +38,4 @@ Unknown evidence is separate from scenario assumptions. Surveys cannot replace s
 
 Discovery-table rules still preserve source lineage, original-ruling deduplication, categorical madhhab context, carried-claim status, dated bounded searches and poultry-feed exclusions. Human scholarly/source review remains pending; test success does not certify evidence.
 
-The [October continuation](phase1-continuation/README.md) adds versioned evidence and records remaining work across every named country. Full Phase One completion remains unestablished.
+The [October continuation](phase1-continuation/README.md) adds versioned evidence and records remaining work across every named country. Its [synthesis](phase1-continuation/SYNTHESIS.md) and [gate table](phase1-continuation/gate-table.md) give the current answer for each focal country. Full Phase One completion remains unestablished.

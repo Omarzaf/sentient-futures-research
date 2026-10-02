@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6550,
-      "sha256": "5315ca3d14c85e2f92b0765f75b6c2c86b8956d3230a9316bc211780afdecee5"
+      "bytes": 6896,
+      "sha256": "2ece5d539a66879edf0d3e5569074e9f7d2497e8f8fad4d65e0c3c003cacb1e4"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -58,8 +58,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9190,
-      "sha256": "c760c8cbe2ed2a949e6e508a130607fc51c52f671a2c35164dddfe0d1d19f809"
+      "bytes": 9948,
+      "sha256": "fbd9c3d3c0582742d828959bef830c2151bbbb55e7da4f44978cada502ca0dad"
     },
     {
       "path": "provenance/import-records.json",
@@ -168,13 +168,13 @@
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 4759,
-      "sha256": "e50fb4e8d43f5f97be7a70369e83f5829c451d2174136909cd356f5f4f925b42"
+      "bytes": 4909,
+      "sha256": "366151fab7dffc5210c1a39f820b5d8fe01d0ea7d3a2d5d83d7e4ccd818a13fe"
     },
     {
       "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 13845,
-      "sha256": "f86c33e4d895e5362c2586df34d351f0be9039216e289aaee838228c5f4f86c0"
+      "bytes": 14788,
+      "sha256": "5e7fadb78b5aa4a2fd761eb00fa9980aa41e17dfdb746d3a36918d960fddd52b"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
@@ -258,8 +258,13 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/README.md",
-      "bytes": 8760,
-      "sha256": "d80cffa6c0da5e210fd29d9796ddf9d18f8f823c15769baaa24a4c5a47f00a8f"
+      "bytes": 9609,
+      "sha256": "e0f5e935878481a9fbb9b7440359cfbee38d24b17a40029d55888cbd17c88b1a"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",
+      "bytes": 8001,
+      "sha256": "6eb3802dc6dedca8690b1ca2a57c8833beee2639c482aa62eca17454e07182f1"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/china-asf-history.json",
@@ -273,13 +278,13 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/claims.json",
-      "bytes": 108432,
-      "sha256": "4208f0a84182e7e30800da00aa918f3cf39752ff12f1cd7ec57ab1f09b7f38bc"
+      "bytes": 122893,
+      "sha256": "893716bdd00208184201f56512dcafe61a8ecc9c9e0d660aff5d31cc30b56409"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/coverage.json",
-      "bytes": 6768,
-      "sha256": "3e1d5afcd1b04bd49a12fc45b831d3dd618d70626c39454ffabc2baeeaeb4e13"
+      "bytes": 7028,
+      "sha256": "c6ba9598221da44f637b7a98ab3aef17a7bec758a749b4f329eea91215f667be"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/driver-map.json",
@@ -330,6 +335,16 @@
       "path": "research/halal-cultivated/phase1-continuation/feed-review.md",
       "bytes": 16542,
       "sha256": "315fdf9f717efa4afb7493708ffa1886eccab38bf25076ca03859ff094c11b5d"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/gate-table.json",
+      "bytes": 18216,
+      "sha256": "27432a238b9906008da1e22b0e77d4a1eb50dcb904df31720d74bcd087dedbee"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/gate-table.md",
+      "bytes": 11236,
+      "sha256": "01508a35df07a3d049fa0f6a08944e215abef95066aa538cb2ec43f614e9ffc6"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/geography.json",
@@ -413,8 +428,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/source-register.json",
-      "bytes": 170161,
-      "sha256": "c924cebcbe12646f6289e0f176b2ba0cc37113c40ba516e55a1b22bff6f92b74"
+      "bytes": 185315,
+      "sha256": "e857408b281345d628bd59848c2baae992ce5148dca7937e318d19d6ebf783cd"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/standards-review.json",
@@ -538,8 +553,8 @@
     },
     {
       "path": "research/library.json",
-      "bytes": 4209,
-      "sha256": "50eabd5aa6bbc4432e6121cc116157abe30b7dec2688b5c9469610d4fea77dd4"
+      "bytes": 4874,
+      "sha256": "52414ef24c88a59b783a9f1eb0b6ed431aed75719f1e8bb6604993887131e959"
     },
     {
       "path": "research/orientation/README.md",
@@ -613,18 +628,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 125823,
-      "sha256": "583534e2be4c365f447f5bd06313c5f2f6864a4a0d65abc28ad2ef6cfb403217"
+      "bytes": 130882,
+      "sha256": "6e970b3d808c56bb464944209ee99010ce68508f1ea7118c1505e32ee17eaff9"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 484573,
-      "sha256": "cc8203fe9e613a0468430f0810135182c10829dc825d52558ced384239f2999b"
+      "bytes": 504014,
+      "sha256": "c50a42643e654decafa713052118f9d4a1acc9002b0c4e1fe7c4cce1e46db9ab"
     },
     {
       "path": "sources/index.html",
-      "bytes": 345376,
-      "sha256": "f25845a3793fd693c85f7276bc41c2851ad15c93db2ff49c7534e8544384e677"
+      "bytes": 361630,
+      "sha256": "b4243f86c72f2431c1069f35393a621db72d791d8f05bff75b71658d2f90437e"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -633,13 +648,13 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 16855,
-      "sha256": "3b9449d6489c4253a679b499e8539eb906bcd5a58d3e3bc9d67f151f5e2fb6a6"
+      "bytes": 17442,
+      "sha256": "183d5edfdc5f62c35badd8f1295ce8c68a3960cbfa87b8e26d9e80271f4b96b7"
     },
     {
       "path": "tools/continuation-checks.mjs",
-      "bytes": 79988,
-      "sha256": "6e5e3f329c1dca88fc717ebf00cf8b9ca354e35f2f833eb75b5039141e5c21d0"
+      "bytes": 82662,
+      "sha256": "9d1533ba0ec38ec5ae05552302390b121d5a5e56e861b4eacb641e6339e9ad60"
     },
     {
       "path": "tools/halal-checks.mjs",
@@ -678,8 +693,8 @@
     },
     {
       "path": "tools/test-continuation-checks.mjs",
-      "bytes": 36911,
-      "sha256": "ef2b27058f4086ae7bfeb0c7135854a959baf4d1106bb46e40a63062097ded87"
+      "bytes": 37912,
+      "sha256": "71202f64bef857a3aa5772976ba927856e1ca5cb54dedcb0218a6c720ebc1880"
     },
     {
       "path": "tools/test-halal-checks.mjs",
@@ -703,8 +718,8 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 10869,
-      "sha256": "98fa39f0d6852c24432c4f0bc3492fe1c29fddf3399660d05cda06e966626dbc"
+      "bytes": 10868,
+      "sha256": "7f345bd3aa49b97bf1f5fa44325a8464dd39d7bb8014443b090859c270201899"
     }
   ]
 }

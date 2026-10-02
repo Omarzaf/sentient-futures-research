@@ -89,7 +89,7 @@ for(const r of json('research/orientation/sources.json').sources)check(catalog.r
 const imports=json('provenance/import-records.json');
 for(const prefix of ['research/orientation/','research/india-pakistan/'])for(const p of paths.filter(p=>p.startsWith(prefix)))check(imports.some(r=>r.path===p),'Missing import provenance '+p);
 for(const [rs,p] of [[comparative,'research/comparative-protein/source-register.json'],[foundation,'research/ai-protein/source-register.json'],[currentReview,'research/india-pakistan/source-register.json']])for(const r of rs)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===p&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const library=json('research/library.json');check(library.documents.length===8,'Expected eight research documents');
+const library=json('research/library.json');check(library.documents.length===9,'Expected nine research documents');
 for(const d of library.documents){check(paths.includes(d.path),'Missing library document '+d.id);check(/human verification pending/i.test(read(d.path)),'Missing visible draft notice '+d.id);}
 const ris=read('research/ai-protein/references.ris');check((ris.match(/^TY  - /gm)||[]).length===44&&(ris.match(/^ER  -/gm)||[]).length===44,'RIS record completeness');
 const halalDir='research/halal-cultivated/';
