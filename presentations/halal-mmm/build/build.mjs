@@ -1,5 +1,5 @@
 // Build presentations/halal-mmm/index.html from the canonical manuscript and
-// its supplied data. Reads only; never writes outside presentations/halal-mmm/.
+// its supplied data. Never writes outside presentations/halal-mmm/.
 //   node presentations/halal-mmm/build/build.mjs
 import fs from 'node:fs';
 import path from 'node:path';
@@ -19,12 +19,16 @@ const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
 const assert=(ok,msg)=>{if(!ok)throw Error(msg);};
 
 const P='research/halal-cultivated/paper/';
-const inputs=['presentations/halal-mmm/assets/mmm.css','presentations/halal-mmm/assets/mmm.js',P+'paper.md',P+'appendices-data.json',P+'source-register.json',P+'figure-data.json','handoffs/claude-mmm/CONTENT-CONTRACT.json'];
+const inputs=['presentations/halal-mmm/assets/mmm.css','presentations/halal-mmm/assets/mmm.js','presentations/halal-mmm/edition.json',P+'paper.md',P+'appendices-data.json',P+'source-register.json',P+'figure-data.json','handoffs/claude-mmm/CONTENT-CONTRACT.json'];
 const md=read(P+'paper.md');
 const appx=json(P+'appendices-data.json');
 const register=json(P+'source-register.json');
 const figData=json(P+'figure-data.json');
 const contract=json('handoffs/claude-mmm/CONTENT-CONTRACT.json');
+const edition=json('presentations/halal-mmm/edition.json');
+assert(edition.schemaVersion===1&&edition.authorApproval?.approved===true&&edition.authorApproval.approvedBy==='author'&&edition.authorApproval.date==='2026-10-02'&&edition.authorApproval.scope==='HTML edition for public sharing','Expected recorded author approval for this HTML edition');
+assert(edition.independentScholarlyReview==='pending','Author approval does not establish independent scholarly review');
+assert(JSON.stringify(edition.displayOmissions)===JSON.stringify([{location:'frontmatter',unitIndex:1,exactText:'AI-assisted working draft; human verification pending'}]),'Only the exact approved frontmatter disclaimer may be omitted');
 assert(sha(md)===contract.sourceManuscriptSha256,'paper.md differs from the content contract hash');
 
 const {blocks,notes}=parseManuscript(md);
@@ -171,7 +175,7 @@ function railFor(text){
 // Pass 2: render the paper.
 assert(blocks[0].type==='heading'&&blocks[0].level===1,'Title expected');
 const title=blocks[0].text,statusLine=blocks[1].text,subtitle=blocks[2].text,byline=blocks[3].text;
-assert(statusLine==='AI-assisted working draft; human verification pending','Status line changed');
+assert(blocks[1].type==='para'&&statusLine===edition.displayOmissions[0].exactText,'Approved frontmatter omission does not match the canonical disclaimer');
 let body='',open=false,h3text=null,figR2placed=false,figR3placed=false;
 const nav=[];
 for(let i=4;i<blocks.length;i++){
@@ -257,12 +261,10 @@ const slotEmpty=r2.totals.none+r2.totals.open;
 const noCert=figData.countries.filter(x=>F.countryState(x.scope_labels[2])==='missing').length;
 const readout=[['6',E.readoutLabels.questions(6),'#fig-r1'],[String(c.canonical_records),E.readoutLabels.records(c.canonical_records,c.verdicts.verified_with_note,c.verdicts.held,c.verdicts.not_retrieved),'#fig-3'],['45',E.readoutLabels.slots(45,slotEmpty),'#fig-r2'],[String(figData.countries.length),E.readoutLabels.countries(figData.countries.length,noCert),'#fig-2']];
 const hero=`<header class="hero" id="${useId('top')}">
-<div class="masthead">${F.seriesMark(48)}<span class="wordmark">Meaning, Man and Model</span></div>
 <p class="mono eyebrow">Research working paper — 2 October 2026</p>
 <h1>${esc(title)}</h1>
-<p class="status"><span class="status-mark" aria-hidden="true"></span>${esc(statusLine)}</p>
 <p class="thesis">${esc(subtitle)}</p>
-<div class="meta-row"><span class="byline">${esc(byline)}</span><span class="mono sm">Final author read — pending</span><span class="mono sm">Human scholarly review — pending</span></div>
+<div class="meta-row"><span class="byline">${esc(byline)}</span></div>
 </header>`;
 const guide=`<section class="guide" id="${useId('overview')}" aria-labelledby="guide-label">
 <p class="mono lg guide-label" id="guide-label">${esc(E.guideLabel)}</p>
@@ -281,8 +283,8 @@ const tocMobile=`<details class="toc-mobile" id="contents"><summary><span class=
 const notesSection=`<section class="endnotes" id="${useId('notes')}" aria-labelledby="notes-h"><h2 id="${useId('notes-h')}">Notes</h2><p class="notes-intro">The ${noteIds.length} notes of the manuscript, numbered in order of definition. Notes cited more than once appear once here, with a return link to each of the ${refTotal} places they are cited.</p>${notesHtml}</section>`;
 
 const pdf='../../research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf';
-const colophon=`<footer class="colophon-wrap"><div class="related"><span class="mono sm">The paper in other forms</span><a href="../../research/halal-cultivated/paper/paper.md">Canonical Markdown</a><a href="../../research/halal-cultivated/paper/index.html">Plain reader</a><a href="${pdf}">Reviewed PDF</a><a href="../../research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx">Word</a><a href="../../research/halal-cultivated/paper/source-register.json">Source register (JSON)</a></div>
-<div class="colophon"><span class="mono sm">${esc(E.colophon.series)}</span><span class="mono sm">${esc(E.colophon.status)}</span><span class="mono sm">No institutional or mentor endorsement is implied</span><span class="fonts">${esc(E.colophon.fonts)} <button type="button" class="link-button" id="fontToggle" hidden aria-pressed="false">Load web fonts from Google Fonts</button></span><span class="mono sm faint">${E.colophon.year}</span></div></footer>`;
+const colophon=`<footer class="colophon-wrap"><div class="related"><span class="mono sm">The paper in other forms</span><a href="../../research/halal-cultivated/paper/paper.md">Canonical Markdown</a><a href="../../research/halal-cultivated/paper/index.html">Plain reader</a><a href="${pdf}">PDF</a><a href="../../research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx">Word</a><a href="../../research/halal-cultivated/paper/source-register.json">Source register (JSON)</a></div>
+<div class="colophon"><span class="mono sm">${esc(E.colophon.label)}</span><span class="fonts">${esc(E.colophon.fonts)} <button type="button" class="link-button" id="fontToggle" hidden aria-pressed="false">Load web fonts from Google Fonts</button></span><span class="mono sm faint">${E.colophon.year}</span></div></footer>`;
 
 // Stylesheet and script are inlined so the page works from file://, from
 // tools/serve.mjs (which serves only listed MIME types) and as a single file.
@@ -291,8 +293,8 @@ const js=fs.readFileSync(path.join(out,'assets/mmm.js'),'utf8');
 assert(!css.includes('</style')&&!js.includes('</script'),'Asset would close its inline element');
 const html=`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark">
-<title>${esc(title)} — Meaning, Man and Model</title>
-<meta name="description" content="${esc(subtitle)}. AI-assisted working draft; human verification pending.">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(subtitle)}.">
 <script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('mmm-theme');}catch(e){}if(t!=='dark'&&t!=='light'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}d.setAttribute('data-theme',t);d.className+=' js';})();</script>
 <style>
 ${css}</style>
@@ -319,6 +321,6 @@ ${js}</script>
 </body></html>
 `;
 fs.writeFileSync(path.join(out,'index.html'),html);
-const record={generator:'presentations/halal-mmm/build/build.mjs',inputs:Object.fromEntries(inputs.map(p=>[p,sha(read(p))])),output:{'presentations/halal-mmm/index.html':sha(html)},notes:noteIds.length,referenceOccurrences:refTotal,figures:{original:['fig-1','fig-3','fig-2'],edition:['fig-r1','fig-r2','fig-r3']},fig2Cells:F.fig2(figData.countries,countryIds).tally,slots:r2.totals,humanReview:'pending',published:false};
+const record={generator:'presentations/halal-mmm/build/build.mjs',inputs:Object.fromEntries(inputs.map(p=>[p,sha(read(p))])),output:{'presentations/halal-mmm/index.html':sha(html)},notes:noteIds.length,referenceOccurrences:refTotal,figures:{original:['fig-1','fig-3','fig-2'],edition:['fig-r1','fig-r2','fig-r3']},fig2Cells:F.fig2(figData.countries,countryIds).tally,slots:r2.totals,authorApproval:edition.authorApproval,independentScholarlyReview:edition.independentScholarlyReview,displayOmissions:edition.displayOmissions};
 fs.writeFileSync(path.join(out,'build-record.json'),JSON.stringify(record,null,2)+'\n');
 console.log(JSON.stringify({output:rel(path.join(out,'index.html')),bytes:Buffer.byteLength(html),notes:noteIds.length,references:refTotal,ids:ids.size,slots:r2.totals}));

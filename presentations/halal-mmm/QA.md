@@ -1,4 +1,15 @@
-# QA report — MMM edition of "Cultivated Chicken and Halal Market Access"
+# QA report — HTML reading edition of "Cultivated Chicken and Halal Market Access"
+
+## Author-approved display update — 2 October 2026
+
+The author read the edition, approved public sharing and requested removal of the series tag and disclaimer. [edition.json](edition.json) records that approval separately from independent scholarly review, which remains pending. The page no longer renders the masthead/logo, series suffix, frontmatter disclaimer or review-status chrome. The PDF link is labelled simply “PDF”. The canonical manuscript, figures, evidence and original PDF/Word bytes remain unchanged; AI-assistance and specialist-review limitations remain in the canonical body.
+
+- Presentation build and checker: **PASS, 3,087 checks**. Of 974 canonical units, exactly the recorded frontmatter disclaimer at unit 1 is omitted; all 973 remaining units are preserved, with 177 authored notes, 251 references and 60 source URLs.
+- Four deliberately changed HTML fixtures were rejected: restored frontmatter disclaimer, restored series branding, deleted body AI-assistance disclosure, and deleted body scholarly-review limitation.
+- A second presentation build produced byte-identical HTML and build metadata.
+- The browser-check script was adapted to the absent series mark and passed its syntax check. Browser checks and new screenshots were not run for this display update; the earlier screenshots below show the prior header. Repository-wide verification and deployment are separate coordinator steps.
+
+## Historical PR validation before the display update
 
 Checked 2 October 2026 on branch `claude/friendly-knuth-tdkxnf`, created from `codex/claude-mmm-handoff` at `587bd9a`. Checks follow `handoffs/claude-mmm/qa/ACCEPTANCE.md`. Everything below was run; what was not run is listed at the end.
 

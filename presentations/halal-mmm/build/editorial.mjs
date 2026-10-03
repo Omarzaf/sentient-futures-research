@@ -13,7 +13,7 @@ export const findings=[
  {layer:'The specified process',html:'The original sample, founder line, cell bank, culture inputs and harvested biomass each need their own record. A rule about the donor sample may leave the later biomass unresolved, and a transformation claim needs a named authority’s criterion plus evidence about the material before and after.',refs:[['sec-5-3','§5.3'],['sec-7','§7']]},
  {layer:'Certification',html:'This review did not establish a halal certificate for a named cultivated-chicken product in any of the seven countries. In 2024 MUIS said certification guidelines still had to be developed.',refs:[['sec-9-1','§9.1'],['fig-2','Fig. 2']]},
  {layer:'Food authorization',html:'In this review, only Singapore’s documents list named cultivated-chicken processes: serum-containing in 2020, serum-free in 2023 and embryonic cells in 2025. These are food decisions, not halal certificates. For the other six countries the review found routes or mechanisms but no product decision.',refs:[['sec-9-4','§9.4'],['appx-b','App. B']]},
- {layer:'Not supplied',html:'The paper supplies no adoption forecast, national access estimate or product certification. The quantitative handoff lacks compatible inputs, and human scholarly review is pending.',refs:[['sec-11-2','§11.2'],['sec-12','§12']]}
+ {layer:'Not supplied',html:'The paper supplies no adoption forecast, national access estimate or product certification. The quantitative handoff lacks compatible inputs.',refs:[['sec-11-2','§11.2'],['sec-12','§12']]}
 ];
 
 export const readoutLabels={
@@ -60,8 +60,7 @@ export const captions={
 };
 
 export const colophon={
- series:'Meaning, Man and Model — Research working paper — 2 October 2026',
- status:'AI-assisted working draft; human verification pending',
+ label:'Research working paper — 2 October 2026',
  fonts:'Set in Newsreader and IBM Plex Mono where installed; otherwise Georgia and the system monospace.',
  year:'MMXXVI'
 };

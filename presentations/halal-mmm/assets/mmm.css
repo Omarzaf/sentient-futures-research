@@ -111,13 +111,9 @@ a.url{overflow-wrap:anywhere;word-break:break-word;unicode-bidi:isolate}
 
 /* ---------- hero ---------- */
 .hero{margin-bottom:var(--gap-page)}
-.masthead{display:flex;align-items:center;gap:var(--space-2);margin-bottom:var(--space-4)}
-.wordmark{font-family:var(--font-display);text-transform:uppercase;letter-spacing:var(--type-title-track);font-size:15px;line-height:1.2;color:var(--text-display)}
 .eyebrow{margin:0 0 var(--space-3)}
 .hero h1{font-size:var(--type-entry-size);line-height:var(--type-entry-line);letter-spacing:.005em;margin:0 0 var(--space-3);max-width:var(--measure-lead)}
-.content p.mono,.content p.status{max-width:none}
-.status{display:inline-flex;align-items:center;gap:var(--space-2);margin:0 0 var(--space-3);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:var(--type-label-track);font-size:var(--type-label-size);color:var(--text-display);border-top:1px solid var(--rule-structural);border-bottom:1px solid var(--rule-structural);padding:6px 0}
-.status-mark{width:9px;height:9px;border:1px dashed var(--ink-4);border-radius:50%;flex-shrink:0}
+.content p.mono{max-width:none}
 .hero .thesis{font-style:italic;font-size:var(--type-lead-size);line-height:var(--type-lead-line);color:var(--text-lead);margin:0 0 var(--space-4);max-width:var(--measure-lead)}
 .meta-row{display:flex;gap:var(--space-1) var(--space-4);flex-wrap:wrap;align-items:baseline;padding-top:var(--space-3);border-top:1px solid var(--rule-hairline);clear:left}
 .byline{font-size:16px;color:var(--text-display)}
@@ -241,21 +237,6 @@ tr:target th:first-child,tr.is-target th:first-child{box-shadow:inset 3px 0 0 va
 .f-pt:focus-visible .f-hit{stroke:var(--focus);stroke-width:1.5;fill:var(--surface-hover)}
 .fig-readout{min-height:3.2em;margin:0 0 var(--space-2);padding-top:var(--space-1);border-top:1px solid var(--rule-hairline);font-size:14px;line-height:1.45;color:var(--text-display)}
 .fig-readout .mono{display:block}
-
-/* series mark */
-.series-mark{flex-shrink:0;overflow:visible}
-.series-mark circle,.series-mark ellipse{fill:none}
-.series-mark *{vector-effect:non-scaling-stroke}
-.sm-outer{stroke:var(--ink-7);stroke-width:.75}
-.sm-ticks{stroke:var(--ink-6);stroke-width:.75}
-.sm-ring{stroke:var(--ink-6);stroke-width:.75}
-.sm-inner{stroke:var(--ink-5);stroke-width:1}
-.sm-orbit{stroke:var(--ink-7);stroke-width:.75}
-.sm-core{stroke:var(--ink-1);stroke-width:1.2}
-.series-mark .m-copper{fill:var(--copper)}
-.sm-moon{fill:var(--ink-1)!important}
-.drift{transform-box:view-box;transform-origin:70px 70px;animation:mmm-spin var(--dur-mark-rotation) linear infinite}
-@keyframes mmm-spin{to{transform:rotate(360deg)}}
 
 /* ---------- appendices, bibliography, notes ---------- */
 .bibliography .bib{max-width:var(--measure-prose);margin:0 0 var(--space-4)}

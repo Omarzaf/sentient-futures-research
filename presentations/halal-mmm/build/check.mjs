@@ -24,6 +24,7 @@ const html=fs.readFileSync(process.argv[2]||path.join(out,'index.html'),'utf8');
 const markup=html.replace(/<script\b[^>]*>[^]*?<\/script>/g,'').replace(/<style\b[^>]*>[^]*?<\/style>/g,'');
 const md=read('research/halal-cultivated/paper/paper.md');
 const contract=json('handoffs/claude-mmm/CONTENT-CONTRACT.json');
+const edition=json('presentations/halal-mmm/edition.json');
 const prov=json('handoffs/claude-mmm/PROVENANCE.json');
 const figData=json('research/halal-cultivated/paper/figure-data.json');
 const appx=json('research/halal-cultivated/paper/appendices-data.json');
@@ -32,6 +33,10 @@ const appx=json('research/halal-cultivated/paper/appendices-data.json');
 for(const f of prov.canonicalInputs){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&sha(b)===f.sha256,'Canonical input changed: '+f.path);}
 for(const f of prov.copiedFiles){const b=fs.readFileSync(path.join(root,f.path));check(sha(b)===f.sha256,'Handoff file changed: '+f.path);}
 check(sha(md)===contract.sourceManuscriptSha256,'Manuscript hash differs from contract');
+check(edition.schemaVersion===1&&edition.authorApproval?.approved===true&&edition.authorApproval.approvedBy==='author'&&edition.authorApproval.date==='2026-10-02'&&edition.authorApproval.scope==='HTML edition for public sharing','Expected recorded author approval for this HTML edition');
+check(edition.independentScholarlyReview==='pending','Independent scholarly review was not established by author approval');
+const approvedOmission={location:'frontmatter',unitIndex:1,exactText:'AI-assisted working draft; human verification pending'};
+check(JSON.stringify(edition.displayOmissions)===JSON.stringify([approvedOmission]),'Only the exact approved frontmatter disclaimer may be omitted');
 
 // 2. Text normalisation shared by both sides.
 const ENT={'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#39;':"'"};
@@ -55,7 +60,7 @@ const notesHtml=between(html,'<section class="endnotes"','<footer');
 const paperText=htmlText(stripEdition(paperHtml));
 const notesText=htmlText(stripEdition(notesHtml));
 
-// 3. Every canonical unit appears, in order.
+// 3. Every canonical unit appears, in order, except the one recorded frontmatter line.
 const {blocks,notes}=parseManuscript(md);
 const units=[];
 for(let i=0;i<blocks.length;i++){
@@ -68,7 +73,8 @@ for(let i=0;i<blocks.length;i++){
 }
 const heroUnits=units.slice(0,4);
 const heroText=htmlText(heroHtml);
-for(const u of heroUnits)check(heroText.includes(u),'Title block text missing: '+u.slice(0,80));
+check(blocks[1]?.type==='para'&&heroUnits[1]===approvedOmission.exactText,'Approved omission no longer matches the first canonical frontmatter paragraph');
+for(const [i,u] of heroUnits.entries())if(i!==approvedOmission.unitIndex)check(heroText.includes(u),'Title block text missing: '+u.slice(0,80));
 let pos=0,missing=0;
 for(const u of units.slice(4)){
  if(!u)continue;
@@ -123,19 +129,23 @@ check(f3.length===contract.sourceFigureCounts.canonical_records,'Fig. 3 point co
 check(JSON.stringify(f3)===JSON.stringify(['verified_with_note','held','not_retrieved'].flatMap(v=>appx.sources.filter(s=>s.verdict===v).map(s=>s.key))),'Fig. 3 point order differs from Appendix D');
 const f3a=[...html.matchAll(/id="f3a-([^"]+)"/g)].map(m=>m[1]);
 check(f3a.length===contract.sourceFigureCounts.admitted_article_reading_scopes.full_text_scoped_passages+contract.sourceFigureCounts.admitted_article_reading_scopes.abstract_only,'Fig. 3 article panel count');
-check((html.match(/class="m-copper"/g)||[]).length===3,'Copper points: series mark, Fig. 3 and R3 only');
+check((html.match(/class="m-copper"/g)||[]).length===2,'Copper points: Fig. 3 and R3 only');
 const r2=[...html.matchAll(/<a class="f-pt" href="#slot-([^"]+)" id="r2-/g)].map(m=>m[1]);
 check(r2.length===45,'R2 point count '+r2.length);
 for(const id of r2){const row=between(html,`<tr id="slot-${id}"`,'</tr>');const cells=[...row.matchAll(/<td[^>]*>([^]*?)<\/td>/g)].map(m=>htmlText(m[1]));const slot=appx.school_slots.find(s=>s.original_id===id);check(slot&&cells.length===2,'Slot row '+id);}
 
-// 8. Status, review state and language markup.
-check(heroText.includes('AI-assisted working draft; human verification pending'),'Draft status not near title');
-check(/Final author read — pending/.test(heroText)&&/Human scholarly review — pending/.test(heroText),'Review states not shown');
+// 8. Author-requested display changes; scholarly limits remain in the checked prose.
+const footerText=htmlText(between(markup,'<footer','</footer>'));
+const guideText=htmlText(between(markup,'<section class="guide"','<div class="paper-divider"'));
+check(!heroText.includes(approvedOmission.exactText),'Approved frontmatter disclaimer removal was not applied');
+check(!/Final author read|Human scholarly review|human verification pending|No institutional or mentor endorsement/i.test(heroText+' '+guideText+' '+footerText),'Removed review-status chrome reappeared');
+check(!/Meaning,\s*Man and Model|\bMMM\b/.test(htmlText(markup))&&!/class="(?:masthead|wordmark|series-mark)\b/.test(markup),'Removed series branding reappeared');
+check(/<title>([^<]*)<\/title>/.exec(html)?.[1]===contract.title,'Page title differs from the paper title');
 const visible=html.replace(/<script[^]*?<\/script>/g,'').replace(/<title>[^]*?<\/title>/g,'').replace(/<desc>[^]*?<\/desc>/g,'')
  .replace(/<span lang="(ar|ur)" dir="rtl">[^<]*<\/span>/g,'').replace(/<a class="url"[^>]*>[^<]*<\/a>/g,'').replace(/"[^"]*"/g,'""');
 check(!/[\u0600-\u06ff]/.test(visible),'Arabic-script text outside a lang/dir span');
 check(/<span lang="ur" dir="rtl">/.test(html),'Urdu title not marked lang="ur"');
 
-const result={status:failures.length?'FAIL':'PASS',checks,canonicalUnits:units.length,missingUnits:missing,notes:noteLis.length,references:refs.length,ids:ids.length,fragmentLinks:frag.length,externalUrls:ext.size,fig3Points:f3.length,r2Points:r2.length,failures:failures.slice(0,40),failureCount:failures.length};
+const result={status:failures.length?'FAIL':'PASS',checks,canonicalUnits:units.length,approvedDisplayOmissions:1,displayedCanonicalUnits:units.length-1,missingUnits:missing,notes:noteLis.length,references:refs.length,ids:ids.length,fragmentLinks:frag.length,externalUrls:ext.size,fig3Points:f3.length,r2Points:r2.length,failures:failures.slice(0,40),failureCount:failures.length};
 console.log(JSON.stringify(result,null,2));
 if(failures.length)process.exitCode=1;

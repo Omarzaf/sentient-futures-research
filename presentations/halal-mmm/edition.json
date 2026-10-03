@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "authorApproval": {
+    "approved": true,
+    "approvedBy": "author",
+    "date": "2026-10-02",
+    "scope": "HTML edition for public sharing"
+  },
+  "independentScholarlyReview": "pending",
+  "displayOmissions": [
+    {
+      "location": "frontmatter",
+      "unitIndex": 1,
+      "exactText": "AI-assisted working draft; human verification pending"
+    }
+  ]
+}

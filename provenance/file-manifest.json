@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 457,
-      "sha256": "c51dc2259d7394653217ec7a456ede094133dafba09dd477999db6d09cb7f722"
+      "bytes": 520,
+      "sha256": "a91b9a1810688fb429c4a941219120c529c25e9bc9db92ea54cf41a51da9eae4"
     },
     {
       "path": ".gitattributes",
@@ -333,18 +333,18 @@
     },
     {
       "path": "presentations/halal-mmm/QA.md",
-      "bytes": 9993,
-      "sha256": "902b1c09ad231d979f841dce03e61a24c651d862a47d2fdee82bab561dafd4b4"
+      "bytes": 11485,
+      "sha256": "f7d10b267d6c73ee3a7e74abe11cb2d5d493f7b3f331c7c5980025b80ce0a0a8"
     },
     {
       "path": "presentations/halal-mmm/README.md",
-      "bytes": 5265,
-      "sha256": "781a114e59ccfae789fb7cfaa77af95d264ada90604e229d6924abd69456cab3"
+      "bytes": 6704,
+      "sha256": "48e203fd84e36202507eaf6a5c349c9b32739856f6c7a418dd3d72ff7e9679ec"
     },
     {
       "path": "presentations/halal-mmm/assets/mmm.css",
-      "bytes": 27964,
-      "sha256": "fa76f1d7aadfea71a6788cb8bbf050a314e12d58be840569902ecf13b08f60b5"
+      "bytes": 26545,
+      "sha256": "b1274bc65dc831bae41b99ae410bfdd6113ecba71d32414b7c81d25c5cff8611"
     },
     {
       "path": "presentations/halal-mmm/assets/mmm.js",
@@ -353,28 +353,28 @@
     },
     {
       "path": "presentations/halal-mmm/build-record.json",
-      "bytes": 1468,
-      "sha256": "305205a7410ac29a3ee981fa53afb50f4fc486e4b4b79304bdf9a2a469ebc952"
+      "bytes": 1894,
+      "sha256": "a55bba2d213d17f036b35de5efa24d1a236e1eaca420228dabf7db0f23339b24"
     },
     {
       "path": "presentations/halal-mmm/build/browser-qa.mjs",
-      "bytes": 16403,
-      "sha256": "1e9c58d7131ddecdb55d9a13dda0644cd9746e44a227c5bcfa0f3c4d6022fb80"
+      "bytes": 16541,
+      "sha256": "02279b5525199439b4ce00d4a12ca72efca1e41ba5e80f2d0249dc4610d41515"
     },
     {
       "path": "presentations/halal-mmm/build/build.mjs",
-      "bytes": 22396,
-      "sha256": "ca630b2f61801c69453159c69dd6456d266eccf7361dd6054126da54b639bd32"
+      "bytes": 22755,
+      "sha256": "92d6328bcb7b68dd8597489125d247402d324655e3ce638e16e5dff772577975"
     },
     {
       "path": "presentations/halal-mmm/build/check.mjs",
-      "bytes": 10322,
-      "sha256": "e0dd9717fd8bfe564ef573c7a77c9f7a1ab896064c91d3fc01c60691d8c9a885"
+      "bytes": 11917,
+      "sha256": "5bb2e2082fe0802ef9c2719506abca5af7afb45db3ccb24877c8bcd89ad39b99"
     },
     {
       "path": "presentations/halal-mmm/build/editorial.mjs",
-      "bytes": 13537,
-      "sha256": "1bbc84624e9ee88170d8a79e323cfecec23c50d7fa93b0b36b92a37b28203ec7"
+      "bytes": 13405,
+      "sha256": "43bb15a6c9140f1d88de099a078c38409113d45718bddc427bcb86be8814b99d"
     },
     {
       "path": "presentations/halal-mmm/build/figures.mjs",
@@ -387,9 +387,14 @@
       "sha256": "562687405a054cd321d79ba077304e2cb05c2c9e9d3525545185a201d8a532c1"
     },
     {
+      "path": "presentations/halal-mmm/edition.json",
+      "bytes": 389,
+      "sha256": "9e25e99c5e25cbd1fc097b982d608625caefa80736263f13cd4231db7ef7a392"
+    },
+    {
       "path": "presentations/halal-mmm/index.html",
-      "bytes": 494388,
-      "sha256": "d8377f4a1b100f4c0edf055968c370c20b9021a8bdc8138509bd55292af38629"
+      "bytes": 490785,
+      "sha256": "3677e6151a8a5422349fc303817949e314e75ad466cf5bb016631f11ca8dfa8d"
     },
     {
       "path": "presentations/halal-mmm/qa/desktop-1280-web-fonts.png",
@@ -1165,6 +1170,11 @@
       "path": "tools/build-paper-appendices.mjs",
       "bytes": 37978,
       "sha256": "69199e97a801ebec6d6c3367400e8d6647ba86b5bf58be06f7538bd576f74aa7"
+    },
+    {
+      "path": "tools/build-public-paper.mjs",
+      "bytes": 3622,
+      "sha256": "f02db6883201be438e35f563077f64281a73f9c773bb29149378b3148f080c2e"
     },
     {
       "path": "tools/build_paper_figures.py",

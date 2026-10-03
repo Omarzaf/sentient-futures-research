@@ -170,11 +170,11 @@ for(const scheme of ['light','dark']){
  await ctx.close();
 }
 
-// 9. Reduced motion stops the drift; normal motion keeps it.
+// 9. The author removed the animated series mark; both motion modes stay still.
 for(const reduce of [false,true]){
  const {ctx,page}=await open({reduce});
- const a=await page.evaluate(()=>getComputedStyle(document.querySelector('.drift')).animationName);
- rec(`drift animation ${reduce?'stopped under reduced motion':'present by default'}`,reduce?a==='none':a==='mmm-spin',a);
+ const state=await page.evaluate(()=>({brandMarks:document.querySelectorAll('.masthead,.wordmark,.series-mark').length,animations:document.getAnimations().filter(a=>a.playState==='running').length}));
+ rec(`series mark absent and no running animation (${reduce?'reduced':'normal'} motion)`,state.brandMarks===0&&state.animations===0,state);
  await ctx.close();
 }
 
