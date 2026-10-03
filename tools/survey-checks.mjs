@@ -2,7 +2,6 @@ import {parseCsv} from './halal-checks.mjs';
 
 const studyFields=['Study ID','Citation / short title','Population','Total sample n','Fieldwork','Study type and method','DOI','Findings','Limitations / corrections','Read / download URL','Primary source URL','Access status','Respondent-level data'];
 const findingFields=['record_id','source_id','geography','protein','measure','value','unit','qualifier','sample_n','numerator','measurement_type','source_location','note'];
-const workbookFindingFields=['Record ID','Study ID','Country / group','Protein','Measure','Value','Unit','Qualifier','Sample n','Numerator','Measurement type','Source location','Note'];
 const expectedStudyIds=Array.from({length:9},(_,i)=>'S'+String(i+1).padStart(2,'0'));
 const expectedObservationIds=Array.from({length:29},(_,i)=>'R'+String(i+1).padStart(2,'0'));
 const allowedUnits=new Set(['proportion','respondents','qualitative']);
@@ -77,35 +76,15 @@ function normalizeObservation(record) {
  };
 }
 
-const workbookToMachine={
- 'Record ID':'record_id',
- 'Study ID':'source_id',
- 'Country / group':'geography',
- Protein:'protein',
- Measure:'measure',
- Value:'value',
- Unit:'unit',
- Qualifier:'qualifier',
- 'Sample n':'sample_n',
- Numerator:'numerator',
- 'Measurement type':'measurement_type',
- 'Source location':'source_location',
- Note:'note'
-};
-
-function mappedWorkbookFinding(row) {
- return Object.fromEntries(Object.entries(workbookToMachine).map(([from,to])=>[to,row[from]??'']));
-}
-
 // files: {relativeName: text} for everything in research/protein-survey-data.
 export function checkSurvey(files) {
  const failures=[];let checks=0;
  const check=(ok,message)=>{checks++;if(!ok)failures.push('survey: '+message);};
- for(const name of ['survey_data.json','Study_Register.csv','Survey_Findings.csv','Alternative_Meat_Survey_Data_Studies.csv','Alternative_Meat_Survey_Data_Findings.csv','README.txt','Source_Links.html'])check(name in files,'missing '+name);
+ for(const name of ['survey-data.json','studies.csv','findings.csv','README.md','index.html'])check(name in files,'missing '+name);
  if(failures.length)return {checks,failures};
 
  let data;
- try{data=JSON.parse(files['survey_data.json']);}catch(e){check(false,'survey_data.json invalid: '+e.message);return {checks,failures};}
+ try{data=JSON.parse(files['survey-data.json']);}catch(e){check(false,'survey-data.json invalid: '+e.message);return {checks,failures};}
  const sources=Array.isArray(data.sources)?data.sources:[];
  const observations=Array.isArray(data.observations)?data.observations:[];
  check(sources.length===9,'expected 9 studies');
@@ -150,53 +129,36 @@ export function checkSurvey(files) {
   }
  }
 
- const studyCsv=rowsByHeader(files['Study_Register.csv']);
- const studyWorkbook=rowsByHeader(files['Alternative_Meat_Survey_Data_Studies.csv']);
- const findingCsv=rowsByHeader(files['Survey_Findings.csv']);
- const findingWorkbook=rowsByHeader(files['Alternative_Meat_Survey_Data_Findings.csv']);
- check(headerEquals(studyCsv.header,studyFields),'Study_Register.csv header');
- check(headerEquals(studyWorkbook.header,studyFields),'Alternative_Meat_Survey_Data_Studies.csv header');
- check(headerEquals(findingCsv.header,findingFields),'Survey_Findings.csv header');
- check(headerEquals(findingWorkbook.header,workbookFindingFields),'Alternative_Meat_Survey_Data_Findings.csv header');
- check(studyCsv.records.length===9,'Study_Register.csv row count');
- check(studyWorkbook.records.length===9,'Alternative_Meat_Survey_Data_Studies.csv row count');
- check(findingCsv.records.length===29,'Survey_Findings.csv row count');
- check(findingWorkbook.records.length===29,'Alternative_Meat_Survey_Data_Findings.csv row count');
- check(allWidths(studyCsv,studyFields.length),'Study_Register.csv row width');
- check(allWidths(studyWorkbook,studyFields.length),'Alternative_Meat_Survey_Data_Studies.csv row width');
- check(allWidths(findingCsv,findingFields.length),'Survey_Findings.csv row width');
- check(allWidths(findingWorkbook,workbookFindingFields.length),'Alternative_Meat_Survey_Data_Findings.csv row width');
- check(exactColumnIds(studyCsv.records,'Study ID',expectedStudyIds),'Study_Register.csv must contain S01-S09 exactly once');
- check(exactColumnIds(studyWorkbook.records,'Study ID',expectedStudyIds),'Alternative_Meat_Survey_Data_Studies.csv must contain S01-S09 exactly once');
- check(exactColumnIds(findingCsv.records,'record_id',expectedObservationIds),'Survey_Findings.csv must contain R01-R29 exactly once');
- check(exactColumnIds(findingWorkbook.records,'Record ID',expectedObservationIds),'Alternative_Meat_Survey_Data_Findings.csv must contain R01-R29 exactly once');
- check(JSON.stringify(studyCsv.records)===JSON.stringify(studyWorkbook.records),'study workbook CSV must match Study_Register.csv');
+ const studyCsv=rowsByHeader(files['studies.csv']);
+ const findingCsv=rowsByHeader(files['findings.csv']);
+ check(headerEquals(studyCsv.header,studyFields),'studies.csv header');
+ check(headerEquals(findingCsv.header,findingFields),'findings.csv header');
+ check(studyCsv.records.length===9,'studies.csv row count');
+ check(findingCsv.records.length===29,'findings.csv row count');
+ check(allWidths(studyCsv,studyFields.length),'studies.csv row width');
+ check(allWidths(findingCsv,findingFields.length),'findings.csv row width');
+ check(exactColumnIds(studyCsv.records,'Study ID',expectedStudyIds),'studies.csv must contain S01-S09 exactly once');
+ check(exactColumnIds(findingCsv.records,'record_id',expectedObservationIds),'findings.csv must contain R01-R29 exactly once');
 
  const sourceById=new Map(sources.map(source=>[source.id,normalizeStudy(source)]));
  for(const row of studyCsv.records) {
   const expected=sourceById.get(row['Study ID']);
   check(!!expected,row['Study ID']+': study CSV ID exists in JSON');
-  if(expected)for(const field of studyFields)check(row[field]===expected[field],row['Study ID']+': Study_Register.csv mismatch '+field);
+  if(expected)for(const field of studyFields)check(row[field]===expected[field],row['Study ID']+': studies.csv mismatch '+field);
  }
 
  const observationById=new Map(observations.map(row=>[row.record_id,normalizeObservation(row)]));
  for(const row of findingCsv.records) {
   const expected=observationById.get(row.record_id);
   check(!!expected,row.record_id+': finding CSV ID exists in JSON');
-  if(expected)for(const field of findingFields)check(row[field]===expected[field],row.record_id+': Survey_Findings.csv mismatch '+field);
- }
- for(const row of findingWorkbook.records) {
-  const mapped=mappedWorkbookFinding(row);
-  const expected=observationById.get(mapped.record_id);
-  check(!!expected,mapped.record_id+': workbook finding ID exists in JSON');
-  if(expected)for(const field of findingFields)check(mapped[field]===expected[field],mapped.record_id+': Alternative_Meat_Survey_Data_Findings.csv mismatch '+field);
+  if(expected)for(const field of findingFields)check(row[field]===expected[field],row.record_id+': findings.csv mismatch '+field);
  }
 
- const html=files['Source_Links.html'];
- check((html.match(/<article>/g)||[]).length===9,'Source_Links.html must list 9 studies');
- check(!/\.xlsx\b/i.test(html),'Source_Links.html must not link an xlsx file');
- for(const file of ['../../index.html','survey_data.json','Alternative_Meat_Survey_Data_Findings.csv','Alternative_Meat_Survey_Data_Studies.csv','Survey_Findings.csv','Study_Register.csv','README.txt'])check(html.includes(file),'Source_Links.html missing link '+file);
- check(/human verification pending/i.test(html),'Source_Links.html must state human verification pending');
- check(/29 extracted findings/i.test(html)&&/nine studies/i.test(files['README.txt']),'survey package count notices');
+ const html=files['index.html'];
+ check((html.match(/<article>/g)||[]).length===9,'index.html must list 9 studies');
+ check(!/\.xlsx\b/i.test(html),'index.html must not link an xlsx file');
+ for(const file of ['../../index.html','survey-data.json','findings.csv','studies.csv','README.md'])check(html.includes(file),'index.html missing link '+file);
+ check(/human verification pending/i.test(html),'index.html must state human verification pending');
+ check(/29 extracted findings/i.test(html)&&/nine studies/i.test(files['README.md']),'survey package count notices');
  return {checks,failures};
 }

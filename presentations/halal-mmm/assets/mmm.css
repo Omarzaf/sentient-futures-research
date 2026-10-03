@@ -1,7 +1,7 @@
 /* Meaning, Man and Model — research entry stylesheet for
    "Cultivated Chicken and Halal Market Access".
-   Tokens follow handoffs/claude-mmm/design/mmm/foundations/ with the decisions
-   in handoffs/claude-mmm/design/DESIGN-BRIEF.md: copper fixed in both themes,
+   Tokens follow the MMM design system (github.com/Omarzaf/MMM) with the decisions
+   from this edition's design brief: copper fixed in both themes,
    essential labels at --ink-4 or stronger, ink (not copper) focus outlines.
    No remote font import: Newsreader and IBM Plex Mono are used when installed
    or after the reader opts in to web fonts; Georgia and system mono otherwise. */

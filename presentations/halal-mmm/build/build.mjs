@@ -19,12 +19,12 @@ const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
 const assert=(ok,msg)=>{if(!ok)throw Error(msg);};
 
 const P='research/halal-cultivated/paper/';
-const inputs=['presentations/halal-mmm/assets/mmm.css','presentations/halal-mmm/assets/mmm.js',P+'paper.md',P+'appendices-data.json',P+'source-register.json',P+'figure-data.json','handoffs/claude-mmm/CONTENT-CONTRACT.json'];
+const inputs=['presentations/halal-mmm/assets/mmm.css','presentations/halal-mmm/assets/mmm.js',P+'paper.md',P+'appendices-data.json',P+'source-register.json',P+'figure-data.json','presentations/halal-mmm/content-contract.json'];
 const md=read(P+'paper.md');
 const appx=json(P+'appendices-data.json');
 const register=json(P+'source-register.json');
 const figData=json(P+'figure-data.json');
-const contract=json('handoffs/claude-mmm/CONTENT-CONTRACT.json');
+const contract=json('presentations/halal-mmm/content-contract.json');
 assert(sha(md)===contract.sourceManuscriptSha256,'paper.md differs from the content contract hash');
 
 const {blocks,notes}=parseManuscript(md);
@@ -280,8 +280,7 @@ const tocMobile=`<details class="toc-mobile" id="contents"><summary><span class=
 
 const notesSection=`<section class="endnotes" id="${useId('notes')}" aria-labelledby="notes-h"><h2 id="${useId('notes-h')}">Notes</h2><p class="notes-intro">The ${noteIds.length} notes of the manuscript, numbered in order of definition. Notes cited more than once appear once here, with a return link to each of the ${refTotal} places they are cited.</p>${notesHtml}</section>`;
 
-const pdf='../../research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf';
-const colophon=`<footer class="colophon-wrap"><div class="related"><span class="mono sm">The paper in other forms</span><a href="../../research/halal-cultivated/paper/paper.md">Canonical Markdown</a><a href="../../research/halal-cultivated/paper/index.html">Plain reader</a><a href="${pdf}">Reviewed PDF</a><a href="../../research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx">Word</a><a href="../../research/halal-cultivated/paper/source-register.json">Source register (JSON)</a></div>
+const colophon=`<footer class="colophon-wrap"><div class="related"><span class="mono sm">The paper in other forms</span><a href="../../research/halal-cultivated/paper/paper.md">Canonical Markdown</a><a href="../../research/halal-cultivated/paper/index.html">Plain reader</a><a href="../../research/halal-cultivated/paper/source-register.json">Source register (JSON)</a></div>
 <div class="colophon"><span class="mono sm">${esc(E.colophon.series)}</span><span class="mono sm">${esc(E.colophon.status)}</span><span class="mono sm">No institutional or mentor endorsement is implied</span><span class="fonts">${esc(E.colophon.fonts)} <button type="button" class="link-button" id="fontToggle" hidden aria-pressed="false">Load web fonts from Google Fonts</button></span><span class="mono sm faint">${E.colophon.year}</span></div></footer>`;
 
 // Stylesheet and script are inlined so the page works from file://, from

@@ -8,22 +8,20 @@ const fixture=Object.fromEntries(fs.readdirSync(directory).map(name=>[name,fs.re
 const valid=checkSurvey(fixture);
 assert.deepEqual(valid.failures,[],'Published survey fixture must pass');
 
-const alterJson=(files,mutate)=>{const data=JSON.parse(files['survey_data.json']);mutate(data);files['survey_data.json']=JSON.stringify(data);};
+const alterJson=(files,mutate)=>{const data=JSON.parse(files['survey-data.json']);mutate(data);files['survey-data.json']=JSON.stringify(data);};
 const cases=[
  ['duplicate study ID',files=>alterJson(files,data=>{data.sources[1].id='S01';}),'study IDs must be S01-S09'],
  ['unresolved finding source',files=>alterJson(files,data=>{data.observations[0].source_id='UNKNOWN';}),'unknown source_id'],
  ['bad proportion',files=>alterJson(files,data=>{data.observations[0].value=1.2;}),'proportion value'],
  ['qualitative upgraded to number',files=>alterJson(files,data=>{data.observations.find(r=>r.record_id==='R29').value=0.2;}),'qualitative row must not have numeric value'],
- ['machine CSV disagrees with JSON',files=>{files['Survey_Findings.csv']=files['Survey_Findings.csv'].replace('"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31"', '"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.32"');},'Survey_Findings.csv mismatch value'],
- ['workbook findings disagree with JSON',files=>{files['Alternative_Meat_Survey_Data_Findings.csv']=files['Alternative_Meat_Survey_Data_Findings.csv'].replace('"R02","S07","Malaysia","Cultivated meat","Would eat lab-grown meat: Yes","0.5"', '"R02","S07","Malaysia","Cultivated meat","Would eat lab-grown meat: Yes","0.55"');},'Alternative_Meat_Survey_Data_Findings.csv mismatch value'],
- ['study workbook disagrees with register',files=>{files['Alternative_Meat_Survey_Data_Studies.csv']=files['Alternative_Meat_Survey_Data_Studies.csv'].replace('"S09","Lwin, Malik, Ho and Schulz', '"S09","Changed');},'study workbook CSV must match Study_Register.csv'],
- ['study CSV IDs are incomplete even if workbook matches',files=>{for(const name of ['Study_Register.csv','Alternative_Meat_Survey_Data_Studies.csv'])files[name]=files[name].replace('"S02","Maqsood et al.', '"S01","Maqsood et al.');},'must contain S01-S09 exactly once'],
- ['finding CSV IDs are incomplete even if workbook matches',files=>{files['Survey_Findings.csv']=files['Survey_Findings.csv'].replace('"R02","S07","Malaysia"', '"R01","S07","Malaysia"');files['Alternative_Meat_Survey_Data_Findings.csv']=files['Alternative_Meat_Survey_Data_Findings.csv'].replace('"R02","S07","Malaysia"', '"R01","S07","Malaysia"');},'must contain R01-R29 exactly once'],
- ['extra CSV field rejected',files=>{files['Survey_Findings.csv']=files['Survey_Findings.csv'].replace('"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31","proportion","Reported","8305","","Hypothetical willingness","Country page 13",""', '"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31","proportion","Reported","8305","","Hypothetical willingness","Country page 13","","extra"');},'Survey_Findings.csv row width'],
- ['source page must expose JSON',files=>{files['Source_Links.html']=files['Source_Links.html'].replace('survey_data.json','missing.json');},'missing link survey_data.json'],
- ['source page must link back to index',files=>{files['Source_Links.html']=files['Source_Links.html'].replace('../../index.html','../index.html');},'missing link ../../index.html'],
- ['source page must carry visible draft notice',files=>{files['Source_Links.html']=files['Source_Links.html'].replace('AI-assisted extraction; human verification pending.','AI-assisted extraction.');},'Source_Links.html must state human verification pending'],
- ['xlsx link reintroduced',files=>{files['Source_Links.html']=files['Source_Links.html'].replace('Study_Register.csv','original.xlsx');},'must not link an xlsx']
+ ['machine CSV disagrees with JSON',files=>{files['findings.csv']=files['findings.csv'].replace('"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31"', '"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.32"');},'findings.csv mismatch value'],
+ ['study CSV IDs are incomplete',files=>{files['studies.csv']=files['studies.csv'].replace('"S02","Maqsood et al.', '"S01","Maqsood et al.');},'must contain S01-S09 exactly once'],
+ ['finding CSV IDs are incomplete',files=>{files['findings.csv']=files['findings.csv'].replace('"R02","S07","Malaysia"', '"R01","S07","Malaysia"');},'must contain R01-R29 exactly once'],
+ ['extra CSV field rejected',files=>{files['findings.csv']=files['findings.csv'].replace('"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31","proportion","Reported","8305","","Hypothetical willingness","Country page 13",""', '"R01","S07","Indonesia","Cultivated meat","Would eat lab-grown meat: Yes","0.31","proportion","Reported","8305","","Hypothetical willingness","Country page 13","","extra"');},'findings.csv row width'],
+ ['source page must expose JSON',files=>{files['index.html']=files['index.html'].replace('survey-data.json','missing.json');},'missing link survey-data.json'],
+ ['source page must link back to index',files=>{files['index.html']=files['index.html'].replace('../../index.html','../index.html');},'missing link ../../index.html'],
+ ['source page must carry visible draft notice',files=>{files['index.html']=files['index.html'].replace('AI-assisted extraction; human verification pending.','AI-assisted extraction.');},'index.html must state human verification pending'],
+ ['xlsx link reintroduced',files=>{files['index.html']=files['index.html'].replace('studies.csv','original.xlsx');},'must not link an xlsx']
 ];
 
 for(const [name,mutate,expected] of cases){

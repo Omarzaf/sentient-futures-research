@@ -8,7 +8,7 @@ Open [`index.html`](index.html) in a browser from inside this repository tree. T
 
 To serve it instead, run `node tools/serve.mjs` from the repository root and open `http://127.0.0.1:8796/presentations/halal-mmm/index.html`. The server only exposes files listed in `provenance/file-manifest.json`.
 
-The links under "The paper in other forms" (Markdown, plain reader, reviewed PDF and Word, source register) are relative to the repository, so they work only when the page sits at `presentations/halal-mmm/` in this tree.
+The links under "The paper in other forms" (Markdown, plain reader, source register) are relative to the repository, so they work only when the page sits at `presentations/halal-mmm/` in this tree.
 
 ## What is on the page
 
@@ -47,7 +47,7 @@ node tools/build-library.mjs                    # refreshes the repository manif
 node tools/verify.mjs
 ```
 
-Edit `assets/mmm.css`, `assets/mmm.js` or the files in `build/`, never `index.html` directly. `build/browser-qa.mjs` runs the browser checks and needs a Playwright installation outside this repository: `PLAYWRIGHT_MODULE=/path/to/node_modules/playwright node presentations/halal-mmm/build/browser-qa.mjs [screenshot-dir]`.
+Edit `assets/mmm.css`, `assets/mmm.js` or the files in `build/`, never `index.html` directly. `build/browser-qa.mjs` runs the browser checks and needs a Playwright installation outside this repository: `PLAYWRIGHT_MODULE=/path/to/node_modules/playwright node presentations/halal-mmm/build/browser-qa.mjs [screenshot-dir]`. Screenshots written to `presentations/halal-mmm/qa/` are ignored by Git.
 
 Test results, viewports and limits are in [QA.md](QA.md).
 

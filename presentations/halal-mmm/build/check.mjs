@@ -1,6 +1,6 @@
 // Content-preservation and link checks for presentations/halal-mmm/index.html.
 //   node presentations/halal-mmm/build/check.mjs
-// Compares the page with the canonical manuscript and the handoff's content
+// Compares the page with the canonical manuscript and the edition's content
 // contract. Visual similarity is not evidence of preservation; these checks
 // read the generated HTML as text.
 import fs from 'node:fs';
@@ -23,14 +23,13 @@ const html=fs.readFileSync(process.argv[2]||path.join(out,'index.html'),'utf8');
 // Link and id checks read markup only, not the inlined stylesheet and script.
 const markup=html.replace(/<script\b[^>]*>[^]*?<\/script>/g,'').replace(/<style\b[^>]*>[^]*?<\/style>/g,'');
 const md=read('research/halal-cultivated/paper/paper.md');
-const contract=json('handoffs/claude-mmm/CONTENT-CONTRACT.json');
-const prov=json('handoffs/claude-mmm/PROVENANCE.json');
+const contract=json('presentations/halal-mmm/content-contract.json');
+const record=json('presentations/halal-mmm/build-record.json');
 const figData=json('research/halal-cultivated/paper/figure-data.json');
 const appx=json('research/halal-cultivated/paper/appendices-data.json');
 
-// 1. Supplied inputs are byte-identical to the handoff record.
-for(const f of prov.canonicalInputs){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&sha(b)===f.sha256,'Canonical input changed: '+f.path);}
-for(const f of prov.copiedFiles){const b=fs.readFileSync(path.join(root,f.path));check(sha(b)===f.sha256,'Handoff file changed: '+f.path);}
+// 1. The page was built from the current inputs: rebuild after any input changes.
+for(const [p,h] of Object.entries(record.inputs))check(sha(fs.readFileSync(path.join(root,p)))===h,'Input changed since the last build: '+p);
 check(sha(md)===contract.sourceManuscriptSha256,'Manuscript hash differs from contract');
 
 // 2. Text normalisation shared by both sides.

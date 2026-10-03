@@ -25,7 +25,7 @@
       "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",
       "textPath": "research/halal-cultivated/phase1-continuation/gate-table.md",
       "cutoff": "2 October 2026",
-      "kind": "Research synthesis in progress",
+      "kind": "Evidence behind the working paper",
       "description": "The October continuation of the Phase One review: the current answer for India, Pakistan, Saudi Arabia and the UAE, a gate table across six founder-cell profiles, labelled search leads and inferences, and questions for mentors. No claim has had human scholarly review."
     },
     {
@@ -34,17 +34,17 @@
       "path": "research/halal-cultivated/phase1/review.md",
       "textPath": "research/halal-cultivated/phase1/README.md",
       "cutoff": "30 September 2026",
-      "kind": "Phase One research review",
+      "kind": "Evidence behind the working paper",
       "description": "A public-source review covering 45 school questions, seven countries and four historical comparisons, with 74 claims, explicit uncertainties and a Phase Two handoff. Religious positions, certification and market authorization remain distinct."
     },
     {
       "id": "protein-survey-data",
       "title": "Alternative Meat Survey Data",
-      "path": "research/protein-survey-data/Source_Links.html",
-      "textPath": "research/protein-survey-data/README.txt",
+      "path": "research/protein-survey-data/index.html",
+      "textPath": "research/protein-survey-data/README.md",
       "cutoff": "30 September 2026",
       "kind": "Survey data package",
-      "description": "Structured extraction from nine Muslim-country and Southeast Asian survey studies and reports, with 29 retained findings, source links, sample caveats and workbook CSV exports. Measures remain separated as willingness, preference, awareness, consumption, sample composition or qualitative findings."
+      "description": "Structured extraction from nine Muslim-country and Southeast Asian survey studies and reports, with 29 retained findings, source links and sample caveats. Measures remain separated as willingness, preference, awareness, consumption, sample composition or qualitative findings."
     },
     {
       "id": "comparative-protein",

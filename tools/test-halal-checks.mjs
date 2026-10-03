@@ -10,6 +10,7 @@ const dir=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../research
 const pkgText=fs.readFileSync(path.join(dir,'datapackage.json'),'utf8');
 const pkg=JSON.parse(pkgText);
 const header=name=>pkg.resources.find(r=>r.name===name).schema.fields.map(f=>f.name);
+const csv=name=>pkg.resources.find(r=>r.name===name).path;
 const q=v=>v==null?'':/[",\n]/.test(String(v))?'"'+String(v).replaceAll('"','""')+'"':String(v);
 const table=(name,rows)=>[header(name).join(','),...rows.map(r=>header(name).map(k=>q(r[k])).join(','))].join('\n')+'\n';
 
@@ -32,7 +33,7 @@ function valid() {
  };
 }
 function files(data) {
- const out={'datapackage.json':pkgText,'source-register.json':JSON.stringify(data.register)};
+ const out={'datapackage.json':pkgText,[pkg.sourceRegister]:JSON.stringify(data.register)};
  for(const name of ['schema.json','synthetic-example.json','production-state.json'])out['bridge-v2/'+name]=fs.readFileSync(path.join(dir,'bridge-v2',name),'utf8');
  for(const r of pkg.resources)out[r.path]=table(r.name,data[r.name]||[]);
  return out;
@@ -43,7 +44,7 @@ const cases=[
  ['active v2 contract missing',d=>d,'schema missing',f=>{delete f['bridge-v2/schema.json'];}],
  ['unconverted value in synthetic output',d=>d,'p_mass expected output',f=>{const d=JSON.parse(f['bridge-v2/synthetic-example.json']);d.expected_outputs[0].p_mass=.1;f['bridge-v2/synthetic-example.json']=JSON.stringify(d);}],
  ['text outside allowed values',d=>{d['market-records'][0].category='insects';},'not in allowed values'],
- ['renamed header',d=>d,'header differs',f=>{f['market-records.csv']=f['market-records.csv'].replace('category,','product_category,');}],
+ ['renamed header',d=>d,'header differs',f=>{f[csv('market-records')]=f[csv('market-records')].replace('category,','product_category,');}],
  ['blank read as zero placeholder',d=>{d['market-records'][0].value='NA';},'not a valid number'],
  ['rule 4: fraction on a non-hybrid',d=>{d['market-records'][0].cultivated_fraction='0.5';},'rule 4'],
  ['rule 4: same observation as cultivated and hybrid',d=>{d['market-records'].push({...d['market-records'][1],record_id:'MR-003',category:'cultivated',cultivated_fraction:''});},'rule 4'],
@@ -61,8 +62,8 @@ const cases=[
  ['Quran ayah zero',d=>{d['scripture-sources'][0].reference='2:0';},'surah:ayah'],
  ['rule 8: H_rel credited to a report of a ruling',d=>{d['market-records'][1].H_rel_ruling='FT-002';},'rule 8, H_rel_ruling'],
  ['claim cited as a source',d=>{d['market-records'][0].source_id='CL-001';},'is a claim, not a source'],
- ['text after a closing quote',d=>d,'Text after a closing quote',f=>{f['rulings.csv']=f['rulings.csv'].replace('FT-002,','"FT-002"x,');}],
- ['quote inside an unquoted field',d=>d,'Quote inside an unquoted field',f=>{f['rulings.csv']=f['rulings.csv'].replace('FT-002,','FT-0"02,');}]
+ ['text after a closing quote',d=>d,'Text after a closing quote',f=>{f[csv('rulings')]=f[csv('rulings')].replace('FT-002,','"FT-002"x,');}],
+ ['quote inside an unquoted field',d=>d,'Quote inside an unquoted field',f=>{f[csv('rulings')]=f[csv('rulings')].replace('FT-002,','FT-0"02,');}]
 ];
 
 let failed=0;

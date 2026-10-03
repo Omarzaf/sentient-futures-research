@@ -189,9 +189,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -650,9 +650,9 @@
         },
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -1622,9 +1622,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -1714,9 +1714,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -2078,9 +2078,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -2327,9 +2327,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -2344,9 +2344,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -2800,9 +2800,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -2817,9 +2817,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -3132,7 +3132,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-016",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Listing only. The dietary chapter was not read.",
@@ -3152,7 +3152,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-015",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reports that Ghamidi once said the zabiha requirement ends when meat can be grown in labs. Undated forum post; the lecture itself was not located. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -3434,7 +3434,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-011",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
@@ -3454,7 +3454,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-024",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
@@ -3474,7 +3474,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-010",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
@@ -3494,7 +3494,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-012",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only, via an aggregator listing. Journal page not located.",
@@ -3524,7 +3524,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-023",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Verse text quoted from a search summary that reproduced the Sahih International rendering.",
@@ -4152,7 +4152,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-004",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Secondary report, not the Korea Muslim Federation text. Its date is the date of press coverage, not of issue. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -4171,9 +4171,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -4188,9 +4188,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -4605,7 +4605,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-022",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Grading taken from search-result summaries, not from the page. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -4684,9 +4684,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -4701,9 +4701,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -4764,9 +4764,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -4956,7 +4956,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-001",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -5099,9 +5099,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -5116,9 +5116,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -5241,7 +5241,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-014",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Undated, not an institution's formal resolution. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -5778,9 +5778,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -5796,7 +5796,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-006",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract and search summaries only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -5935,9 +5935,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -5952,9 +5952,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -6245,7 +6245,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-017",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Found in search results; text not read. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -6352,7 +6352,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-007",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -6397,9 +6397,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -6440,9 +6440,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -6457,9 +6457,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -7038,7 +7038,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-021",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Grading taken from search-result summaries, not from the page. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -8657,7 +8657,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-019",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -8677,7 +8677,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-018",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -8990,9 +8990,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -9079,9 +9079,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -9200,7 +9200,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-013",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Company press release about an opinion commissioned by the company. It is not an institutional fatwa and is not independent of the industry. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -9284,7 +9284,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-005",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Secondary report, not the JAKIM or National Fatwa Committee text. Its date is the date of press coverage, not of issue. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -10253,9 +10253,9 @@
       "occurrences": [
         {
           "collection": "Report source link",
-          "document": "research/protein-survey-data/Source_Links.html",
+          "document": "research/protein-survey-data/index.html",
           "sourceId": null,
-          "recordPath": "research/protein-survey-data/Source_Links.html",
+          "recordPath": "research/protein-survey-data/index.html",
           "humanVerification": "Pending; link extraction only"
         }
       ]
@@ -10271,7 +10271,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-009",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract and search summaries only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -10466,7 +10466,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-003",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -10563,7 +10563,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-002",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -10761,7 +10761,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-020",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Sunni and Shia estimates only; the report gives no breakdown by school of law. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",
@@ -11141,7 +11141,7 @@
         {
           "collection": "Halal conditionality discovery pass",
           "sourceId": "HS-008",
-          "recordPath": "research/halal-cultivated/source-register.json",
+          "recordPath": "research/halal-cultivated/archive/discovery-pass/source-register.json",
           "accessed": "2026-09-30",
           "access": "Search-result summary only; page not opened.",
           "limitations": "Abstract only. Reached only through a web search summary. The network policy blocked direct fetches of the page on this date, so the full text was not read.",

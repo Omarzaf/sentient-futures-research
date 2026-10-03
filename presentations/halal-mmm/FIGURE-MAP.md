@@ -1,6 +1,6 @@
 # Figure map
 
-Planned before the build, following `handoffs/claude-mmm/design/FIGURE-PLAN.md` and the MMM illustration guide. The paper's three figures keep their original numbers (1, 3, 2, in the order they appear). Figures added for this edition are numbered R1–R3 ("reading figures") so they cannot be mistaken for the manuscript's own figures. Every figure is drawn at build time by `build/figures.mjs` from the inputs named below.
+Planned before the build, following the build handoff's figure plan and the MMM illustration guide. The paper's three figures keep their original numbers (1, 3, 2, in the order they appear). Figures added for this edition are numbered R1–R3 ("reading figures") so they cannot be mistaken for the manuscript's own figures. Every figure is drawn at build time by `build/figures.mjs` from the inputs named below.
 
 ## Figures by location
 

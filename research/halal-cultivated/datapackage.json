@@ -8,11 +8,11 @@
     "insects as human protein",
     "animal feed (except as poultry feed input in feed-inputs.csv)"
   ],
-  "sourceRegister": "source-register.json",
+  "sourceRegister": "archive/discovery-pass/source-register.json",
   "resources": [
     {
       "name": "market-records",
-      "path": "market-records.csv",
+      "path": "archive/discovery-pass/market-records.csv",
       "description": "Data records: the demand forecast keys first, then the halal fields (PLAN.md 4.1-4.3).",
       "schema": {
         "missingValues": [
@@ -339,7 +339,7 @@
     },
     {
       "name": "claims",
-      "path": "claims.csv",
+      "path": "archive/discovery-pass/claims.csv",
       "description": "Document 3: one row per claim made by Ghamidi Sahab in the interview. Short excerpts only.",
       "schema": {
         "missingValues": [
@@ -478,7 +478,7 @@
     },
     {
       "name": "scripture-sources",
-      "path": "scripture-sources.csv",
+      "path": "archive/discovery-pass/scripture-sources.csv",
       "description": "QS- records: Quran, hadith and Sunnah sources found for claims.",
       "schema": {
         "missingValues": [
@@ -599,7 +599,7 @@
     },
     {
       "name": "historical-parallels",
-      "path": "historical-parallels.csv",
+      "path": "archive/discovery-pass/historical-parallels.csv",
       "description": "HP- records (Document 4A).",
       "schema": {
         "missingValues": [
@@ -764,7 +764,7 @@
     },
     {
       "name": "rulings",
-      "path": "rulings.csv",
+      "path": "archive/discovery-pass/rulings.csv",
       "description": "FT- records: fatwas, resolutions and rulings (Document 4B).",
       "schema": {
         "missingValues": [
@@ -929,7 +929,7 @@
     },
     {
       "name": "consensus-matrix",
-      "path": "consensus-matrix.csv",
+      "path": "archive/discovery-pass/consensus-matrix.csv",
       "description": "Long-form consensus matrix: conditions by institutions and scholars.",
       "schema": {
         "missingValues": [
@@ -1012,7 +1012,7 @@
     },
     {
       "name": "madhhab-geography",
-      "path": "madhhab-geography.csv",
+      "path": "archive/discovery-pass/madhhab-geography.csv",
       "description": "MD- records (Document 5). Categorical only: no invented percentages.",
       "schema": {
         "missingValues": [
@@ -1138,7 +1138,7 @@
     },
     {
       "name": "certification",
-      "path": "certification.csv",
+      "path": "archive/discovery-pass/certification.csv",
       "description": "CT- records: certification body and standard per country (Document 5).",
       "schema": {
         "missingValues": [
@@ -1270,7 +1270,7 @@
     },
     {
       "name": "elasticities",
-      "path": "elasticities.csv",
+      "path": "archive/discovery-pass/elasticities.csv",
       "description": "EL- records: meat demand elasticities per focal country (Document 4C).",
       "schema": {
         "missingValues": [
@@ -1421,7 +1421,7 @@
     },
     {
       "name": "feed-inputs",
-      "path": "feed-inputs.csv",
+      "path": "archive/discovery-pass/feed-inputs.csv",
       "description": "Insects as poultry feed input only (Document 4D). Never human protein.",
       "schema": {
         "missingValues": [
@@ -1558,7 +1558,7 @@
     },
     {
       "name": "scenarios",
-      "path": "scenarios.csv",
+      "path": "archive/discovery-pass/scenarios.csv",
       "description": "Legacy Phase Two schema retained for traceability only. Any populated row is blocked from production; reconstruct and validate a v2 contract. Never substitute surveys, infer zero from uncertainty, or use unknown capacity as feasible quantity.",
       "schema": {
         "missingValues": [

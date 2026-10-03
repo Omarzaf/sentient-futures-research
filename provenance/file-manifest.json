@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 457,
-      "sha256": "c51dc2259d7394653217ec7a456ede094133dafba09dd477999db6d09cb7f722"
+      "bytes": 364,
+      "sha256": "eb35b5e11d3e846622959bd3c6209f11991dc4f6c1dbafa109a9d7f190ba5e9f"
     },
     {
       "path": ".gitattributes",
@@ -13,33 +13,33 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 1234,
-      "sha256": "67e5ffc69c89913855306eb55d2d00d893e259c93edd9bec09b87cb24fee856b"
+      "bytes": 1548,
+      "sha256": "05da57aeb2ed91f74dac368a0cfac91197ca7f38ee8f8649f92ab2c1c866b5c7"
     },
     {
       "path": ".gitignore",
-      "bytes": 510,
-      "sha256": "52fe0ab3b6ec5faaa0ff7d240309ee3738fb8c88f612b451d8d84895e14810eb"
+      "bytes": 398,
+      "sha256": "019bad5f9819360ee79e0bdaafb33ed1b8bae351bce2878a9b83d4f379eabeee"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1839,
-      "sha256": "fb5cbab8fd7dbef8764e168211b1c0db8cec0a9fb64df4b8bf0cbafa317c5d54"
+      "bytes": 1830,
+      "sha256": "669bc6c80970f7edf69d9003a1cea550ed5d84cd52c42ab8d9d38e14338a4f12"
     },
     {
       "path": "CURRENT-SCOPE.md",
-      "bytes": 4450,
-      "sha256": "6d998eec07f76f5ab8afb9c0449bb3bdb12f06a954bd2f5267396363c775943f"
+      "bytes": 4583,
+      "sha256": "105b629cf9321956f260c3897d0613fc520f1ed35be1804f2a4518ccd0b6a0b3"
     },
     {
       "path": "DATA-DICTIONARY.md",
-      "bytes": 7681,
-      "sha256": "cb7f2f93635826fa14d736977acb86a20d1a8971e3a5b960dde9121480c20ab5"
+      "bytes": 7642,
+      "sha256": "65fe67e0760921568eaa775a92c8c516a34f93ff523c4d308e7545d877a97cb6"
     },
     {
       "path": "README.md",
-      "bytes": 8006,
-      "sha256": "70956b4c04bb8277b5b8b453aa72177d326c655d5bb096bd96b0137aa5712b09"
+      "bytes": 7940,
+      "sha256": "a6f2fef8eec416a156891edeeeee331950363eff91e70b9df6f944359fc178ee"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -53,298 +53,33 @@
     },
     {
       "path": "SESSION-LOG.md",
-      "bytes": 5100,
-      "sha256": "1e0122e83b6676e44d29e259c8a11a1c2593e832c217bc764c89fab423e1bae6"
-    },
-    {
-      "path": "handoffs/claude-mmm/CLAUDE-PROMPT.md",
-      "bytes": 7422,
-      "sha256": "fb779cf3d06e746ece7f4e7ed5f7f8c508c54360d51ef7bce65a1b8834dfd770"
-    },
-    {
-      "path": "handoffs/claude-mmm/CONTENT-CONTRACT.json",
-      "bytes": 15117,
-      "sha256": "4e9a847930f4ffa395eb3e81fca370a85fcc6b07c607937e8f830661e008ea4d"
-    },
-    {
-      "path": "handoffs/claude-mmm/PROVENANCE.json",
-      "bytes": 20726,
-      "sha256": "e45f00d6cbeb7fa158df4e8a36a9707d7140e4d154a2b7ff16452007c15d6463"
-    },
-    {
-      "path": "handoffs/claude-mmm/PROVENANCE.md",
-      "bytes": 2162,
-      "sha256": "036096cbac2bedfa9d0f8a8646056c6cc2c5d4f8857b539b63f3453f7e870e38"
-    },
-    {
-      "path": "handoffs/claude-mmm/REVIEW-2026-10-02.md",
-      "bytes": 2838,
-      "sha256": "accbdf86ea0c75ccbd8f7ed5f214eac344a14b0a2d6b9b2e2d2200d6b929933a"
-    },
-    {
-      "path": "handoffs/claude-mmm/START-HERE.md",
-      "bytes": 5094,
-      "sha256": "fe44f8c7823c1ceae8c0b0807d8b0350f8c2cdc1f2df09f84cc2083cd4b6a1ab"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/DESIGN-BRIEF.md",
-      "bytes": 6669,
-      "sha256": "da1edfefd826753b12df9ba84046cfe70dc20358433761005544c43ca5197375"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/FIGURE-PLAN.md",
-      "bytes": 4222,
-      "sha256": "38fc182c12c032f190b309f48541cd1e51f314c779b5b5b0f2ba22df80da6b2f"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/DESIGN-REVIEW-2026-08-18.md",
-      "bytes": 9636,
-      "sha256": "44f45af382a11c1619db452a514d50874dfad46015b09391da002593655c49f3"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/SKILL.md",
-      "bytes": 1116,
-      "sha256": "7254efde3c9982ec9e94a830d52ff169fadb0cf16caa505a3429473eea15a642"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-dialogue.svg",
-      "bytes": 262,
-      "sha256": "24fdc3c263aaef31ba3213c83dfb1641070a90017199d8c5828d222918bf0a11"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-essay.svg",
-      "bytes": 174,
-      "sha256": "77e153888738757c183632d060b77319302d3eb864e1cfdc3562934ec163cb69"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/assets/glyph-project.svg",
-      "bytes": 330,
-      "sha256": "91d3b09abdc63a30ac41db1583a4f0bdaae5280c6884aef6c660ea299548db4f"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/assets/series-mark.svg",
-      "bytes": 2243,
-      "sha256": "39d16e3e43e020a471ac8156f447095bd3ed3bdd5528304fc0bd71a72dbb7be3"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/DashedRule.d.ts",
-      "bytes": 261,
-      "sha256": "2fe5144eb88c99f6d7bfd7929356a37597c67a7604b44245804a82f731d91095"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/DashedRule.jsx",
-      "bytes": 269,
-      "sha256": "98621180dfb30febec0c4ac757c0c3a1b2c4ce76520c3562b9fa589e60aab0c5"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/Endnotes.d.ts",
-      "bytes": 595,
-      "sha256": "6cebc403e85dde73df05c672302013bad8407e80add73425810d4cfa6dafe0b7"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/Endnotes.jsx",
-      "bytes": 1537,
-      "sha256": "891a974e8705a9d1d847813c8bd3d9f779514dd2d84ee04c823a33a88cdbd1fc"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/EntryRow.d.ts",
-      "bytes": 556,
-      "sha256": "ee2933ddc7fe967a8ca5ea034a227302f97c01e6bcb12045b182910b1fd508ae"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/EntryRow.jsx",
-      "bytes": 1763,
-      "sha256": "d8c06ec4c33b76fbee36df8727b2f5d215507a6bda2b282d2b823c138d9e3973"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/Figure.d.ts",
-      "bytes": 487,
-      "sha256": "22c15744581ade12f07e029de472071716cc5991a6536b86501b375a176a8299"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/Figure.jsx",
-      "bytes": 755,
-      "sha256": "d84277aa96fcc4e9545b76e1e238f9a0ce12210cf5b51d3adbd057edf47f0df5"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/LeftNav.d.ts",
-      "bytes": 555,
-      "sha256": "780f129453671333101bcd1e97d9030734e965ec7933255dafaf24e7e5d0fb86"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/LeftNav.jsx",
-      "bytes": 1266,
-      "sha256": "1c794d5078a32fa5a75813174486bf294dcc5876ff1e96cb3f939afddf06201b"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginNote.d.ts",
-      "bytes": 420,
-      "sha256": "07f867b73d1312523f9fdead18a780173a0743ef2bc949b9965c9fe8ea9d0bca"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginNote.jsx",
-      "bytes": 772,
-      "sha256": "030a9557bd84bdc69c1be39df4db6c5875543f837dcd525834b58ea977ea4dff"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginThought.d.ts",
-      "bytes": 451,
-      "sha256": "81edaad54eab5bd0d2f52f6e626c12a271efb11b5e922f67a3c5d37654e13556"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MarginThought.jsx",
-      "bytes": 712,
-      "sha256": "af64f03fa08ff6ca49d602743a693a6c920754ded94cd8690bce2981191bb93b"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MetaList.d.ts",
-      "bytes": 291,
-      "sha256": "9d7cc2244990006fb04647b3c7b39ea6af7bd9c2cbd10348ee50378affe0bd21"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MetaList.jsx",
-      "bytes": 427,
-      "sha256": "290d5a9edd562dd897fb05140ff037d4db7e0c4456df1e92a9b76292b23af741"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MonoLabel.d.ts",
-      "bytes": 459,
-      "sha256": "4c0c4eb5a8be1748790d72b16ab3163facac4b388a8f553276279e8cd63229f2"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/MonoLabel.jsx",
-      "bytes": 735,
-      "sha256": "d2d7ecff36eecee0e456b9a1f6caab330a86ec7d46d93fd84958a9f2557da9a3"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/SeriesMark.d.ts",
-      "bytes": 587,
-      "sha256": "0801422400002713725e20c0f1da2dce7b538a5bca92852ea58386a371743107"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/SeriesMark.jsx",
-      "bytes": 1502,
-      "sha256": "87fd0266fcb4236b3e1d163dfa47a5bb0d6f3fdbe78e333ff15daaee9ac346ab"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/TLDR.d.ts",
-      "bytes": 369,
-      "sha256": "7549c38f29b8a142cb25104705e530b22fb04ffcbea01e1239f582d0b1c56052"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/TLDR.jsx",
-      "bytes": 1151,
-      "sha256": "0e8032029a9164737cc95dc45298418cb18f3ab3d0dd06d5501937af505c5f71"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/ThemeToggle.d.ts",
-      "bytes": 252,
-      "sha256": "e149e71492c593b94a5db9cb85a4d13af094ee66b15297b09330d65c713899fc"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/ThemeToggle.jsx",
-      "bytes": 941,
-      "sha256": "513ef141ba2a90a4d676003b2ebd92f3623813adc81fc60ee7f25c45851340a6"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/TypeGlyph.d.ts",
-      "bytes": 384,
-      "sha256": "1f965d7abe7b852d48f95b7c315e442916f0ea8019bf48ae38a4ebb930b44910"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/components/core/TypeGlyph.jsx",
-      "bytes": 979,
-      "sha256": "06cfcf948a334f4f464d795cacb993287eb104e891563bd29ff71181d51e782a"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/foundations/colors.css",
-      "bytes": 2647,
-      "sha256": "091f4c1547466aec4d187a20443f80eea24ebf50bec46aff2fcb93ba46ff4dea"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/foundations/fonts.css",
-      "bytes": 284,
-      "sha256": "02fa8ec27bc6e0e225785f9c508ac407d6f0e234018372326a67b04cb8013265"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/foundations/motion.css",
-      "bytes": 185,
-      "sha256": "5f3e59c510fa2bd3464c8da4a7fff2d8dbba8dd44a380f9ea39d134dd2f54f60"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/foundations/spacing.css",
-      "bytes": 1418,
-      "sha256": "7929cdfe7aa68076bd5a333945a8499e723db43180211788e9be60b7bb639c13"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/foundations/typography.css",
-      "bytes": 3125,
-      "sha256": "6d7d8c99754d8ffdc0ddaf847f6bb082b2ea9ba04f516162f14ed5a7c6d8b219"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/guidelines/illustration.md",
-      "bytes": 8850,
-      "sha256": "785b21223784eeaa650c8c5ef3f035b7e636be30558a1457c45ab6256e91b19a"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/readme.md",
-      "bytes": 17232,
-      "sha256": "3b8dac1e1b205de45192d49c06897cc727548a31fc972032cc95437df615b9f4"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/mmm/styles.css",
-      "bytes": 184,
-      "sha256": "00cb16512f6b5594a5bd6a325930f77b19e4d1f3e9b4cb8222f7fe02485f445b"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/reference/CONTENT-LICENSE.txt",
-      "bytes": 13902,
-      "sha256": "277607fc046432084bf5c92105f32cebacaeb8695cc74c69eeb8f3c97bba62bc"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/reference/REFERENCE-NOTES.md",
-      "bytes": 1912,
-      "sha256": "31115a50a04220ec40eb0121e45579316b37e680ac3a640b15601640f845a7d4"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/reference/TOOLS-LICENSE.txt",
-      "bytes": 1076,
-      "sha256": "67fad3ad592677724e3e70c7fecd94fc38089c34c6ecf81dd8eacb09ba2a5326"
-    },
-    {
-      "path": "handoffs/claude-mmm/design/reference/observatory-reference.html",
-      "bytes": 501984,
-      "sha256": "04550113c0bb1ce83ad038e9c2fd395c8488606e294a92f80ec01fecbedac683"
-    },
-    {
-      "path": "handoffs/claude-mmm/qa/ACCEPTANCE.md",
-      "bytes": 3553,
-      "sha256": "2b3d93f55e1fd8e7bc7f154a7cd5ed8be2828fb4ac2c0417e96d8d266b5acd83"
+      "bytes": 25799,
+      "sha256": "f0d2395c740c95876c2b0134db59b4aea85f3213deef157f7ac922889d8c0c82"
     },
     {
       "path": "index.html",
-      "bytes": 10675,
-      "sha256": "2316c12a1fdc5e012166f78ff09d1159e67c6fb43ba28d3e0a81f09d145a115c"
+      "bytes": 10731,
+      "sha256": "0f5b7f1c4b92c6d97819208f1e438f36848fa552997f089bc4d42feb4ffae093"
     },
     {
       "path": "presentations/halal-mmm/FIGURE-MAP.md",
-      "bytes": 4406,
-      "sha256": "ab566265158f51c572cc661989b5c5745dd2d4f21dabc472d7301b0195ca5beb"
+      "bytes": 4394,
+      "sha256": "f8477d51893b140df51d5d972cdccdd8e3b0e517f0fea3fef472e9ab98b9daa7"
     },
     {
       "path": "presentations/halal-mmm/QA.md",
-      "bytes": 9993,
-      "sha256": "902b1c09ad231d979f841dce03e61a24c651d862a47d2fdee82bab561dafd4b4"
+      "bytes": 10457,
+      "sha256": "b7013d132308f2be86caab45d04b2c04826a30c97d68ec111e1eafb052b2dbd6"
     },
     {
       "path": "presentations/halal-mmm/README.md",
-      "bytes": 5265,
-      "sha256": "781a114e59ccfae789fb7cfaa77af95d264ada90604e229d6924abd69456cab3"
+      "bytes": 5315,
+      "sha256": "aaed8b45a40dc75850a1dd56b7942d7f33b004ca886e153c5a827cfdfc7c3625"
     },
     {
       "path": "presentations/halal-mmm/assets/mmm.css",
-      "bytes": 27964,
-      "sha256": "fa76f1d7aadfea71a6788cb8bbf050a314e12d58be840569902ecf13b08f60b5"
+      "bytes": 27954,
+      "sha256": "076e11667d046763ba6b4b498f913e4e3d7367644e46172e88370264a35bc739"
     },
     {
       "path": "presentations/halal-mmm/assets/mmm.js",
@@ -353,8 +88,8 @@
     },
     {
       "path": "presentations/halal-mmm/build-record.json",
-      "bytes": 1468,
-      "sha256": "305205a7410ac29a3ee981fa53afb50f4fc486e4b4b79304bdf9a2a469ebc952"
+      "bytes": 1472,
+      "sha256": "014f4d7e45aa491ce5e95cce6addfa2229ddc363e139ca9f8aec0658d9a4551b"
     },
     {
       "path": "presentations/halal-mmm/build/browser-qa.mjs",
@@ -363,13 +98,13 @@
     },
     {
       "path": "presentations/halal-mmm/build/build.mjs",
-      "bytes": 22396,
-      "sha256": "ca630b2f61801c69453159c69dd6456d266eccf7361dd6054126da54b639bd32"
+      "bytes": 22161,
+      "sha256": "240bf5fafd82163a9e09048829513be5d4bfde1ef7aaf97e952bbfdb076476cc"
     },
     {
       "path": "presentations/halal-mmm/build/check.mjs",
-      "bytes": 10322,
-      "sha256": "e0dd9717fd8bfe564ef573c7a77c9f7a1ab896064c91d3fc01c60691d8c9a885"
+      "bytes": 10188,
+      "sha256": "cbb018d77c6a6a9b440f232b4228553d00fe5a5e1c655bc93dfbe35c860cec80"
     },
     {
       "path": "presentations/halal-mmm/build/editorial.mjs",
@@ -387,44 +122,19 @@
       "sha256": "562687405a054cd321d79ba077304e2cb05c2c9e9d3525545185a201d8a532c1"
     },
     {
+      "path": "presentations/halal-mmm/content-contract.json",
+      "bytes": 15117,
+      "sha256": "4e9a847930f4ffa395eb3e81fca370a85fcc6b07c607937e8f830661e008ea4d"
+    },
+    {
       "path": "presentations/halal-mmm/index.html",
-      "bytes": 494388,
-      "sha256": "d8377f4a1b100f4c0edf055968c370c20b9021a8bdc8138509bd55292af38629"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/desktop-1280-web-fonts.png",
-      "bytes": 138012,
-      "sha256": "b9835815f305257c8f85783f8ab3b1134ff2126260e27c9444c2e6ce05a88940"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/desktop-1440-dark.png",
-      "bytes": 139239,
-      "sha256": "5e66c01da1a4572ad0afd7c36ea145e47babd971fef0d8fdbc76aea62cb468a1"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/desktop-1440-light.png",
-      "bytes": 139409,
-      "sha256": "ab3f75ed959b5608d76035aeda541c150e0d6342a825726a658df055c34eee93"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/phone-390-contents.png",
-      "bytes": 46436,
-      "sha256": "3d339691854dea990a1e1a0e00abf42fb5276cc6b88756ff939df9e2117d7970"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/phone-390-figure-2.png",
-      "bytes": 81411,
-      "sha256": "d90dce921039ec35d072700a855ddcf828459043f72dd8f0b3ea1e9ae09f0b2f"
-    },
-    {
-      "path": "presentations/halal-mmm/qa/phone-390-light.png",
-      "bytes": 75623,
-      "sha256": "32649c0d41aa99cd68470f3933e40240f5c8d9f560e40798b10006be9f8e71fb"
+      "bytes": 494155,
+      "sha256": "90b2cfe198438e2cb0020aadc159b69618c290ccdc21e2dcdf51cdc05be33e2e"
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 15821,
-      "sha256": "1fb64048ee659ac006bdfdcf719f493054cafefda1e64c2c5b724155b3e06eb5"
+      "bytes": 15829,
+      "sha256": "2b2a9bc65fbfdde03562aacd7f456f5abb21082ce5e8a27bc243fef12b8d086e"
     },
     {
       "path": "research/ai-protein/README.md",
@@ -517,29 +227,89 @@
       "sha256": "dcf47ddd4dccf0b2d89eb3131da3f8783801ee63f326421d01a005c55b6b341c"
     },
     {
-      "path": "research/halal-cultivated/AGENTIC-PLAN.md",
-      "bytes": 7292,
-      "sha256": "57194dd29f201b7d6b78d7c5096e761d67729833935712495c72653cf431f568"
-    },
-    {
-      "path": "research/halal-cultivated/PAPER-PLAN.md",
-      "bytes": 35279,
-      "sha256": "ceb76f5690a27acbda4cf40f3e986cc68e29c0b156d7ec00610d569e187e2479"
-    },
-    {
       "path": "research/halal-cultivated/PLAN.md",
-      "bytes": 32213,
-      "sha256": "4a9cb15eb22a505f8d1272ef1d85dd632a1a5da963e4906c62745160c5ffae3a"
+      "bytes": 32221,
+      "sha256": "ffaa24cad782fd8c32a48154c43ca4d07511e8af1d74bf83633ee0571023849f"
     },
     {
       "path": "research/halal-cultivated/README.md",
-      "bytes": 5221,
-      "sha256": "3d3c7d85d8417a28d6e67d3a3ecd656e64534c07cfd07904dcf2158921666192"
+      "bytes": 3562,
+      "sha256": "fcce22de3c1b684dddb6bead37225d9902c8bc09ca98eefe1f5a46219ba93044"
     },
     {
-      "path": "research/halal-cultivated/SESSION-LOG.md",
-      "bytes": 19998,
-      "sha256": "1fdd0b9d161803094f6a94681e2e557e597352a829b65a62e32b48995c6e5dcd"
+      "path": "research/halal-cultivated/archive/AGENTIC-PLAN.md",
+      "bytes": 7432,
+      "sha256": "e985190635e5411e657811f9df0a0b6f5f943bd61751a89f293fe281c8843d36"
+    },
+    {
+      "path": "research/halal-cultivated/archive/PAPER-PLAN.md",
+      "bytes": 35468,
+      "sha256": "e75994f63da22b488d66c89a866d0d13713afaa3eb8baefeb20061bf9be8ee5c"
+    },
+    {
+      "path": "research/halal-cultivated/archive/README.md",
+      "bytes": 2833,
+      "sha256": "8784b9193cf0cc7f1064442a30eaa6e141fd86e15140aa278520bd5b418ccc65"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/certification.csv",
+      "bytes": 4309,
+      "sha256": "8c0f4bb7adb315d6f69e35a2d230aa2c4e95f4b6c07689c781edc69358fe2648"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/claims.csv",
+      "bytes": 140,
+      "sha256": "1f33d576fb8bd6415c0c2828304623178159ac2902a033f12e21185dddd8b152"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/consensus-matrix.csv",
+      "bytes": 2802,
+      "sha256": "2fbadbd71181c072cacd24f8e5bd3a56ab7f2740d0e3c0fbc1127256a4430382"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/elasticities.csv",
+      "bytes": 141,
+      "sha256": "150c45c768b7c83867d472ab911aaabc74754a6b94452e9be11949c5c79b5298"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/feed-inputs.csv",
+      "bytes": 131,
+      "sha256": "dab78dd99c3759430f842e07b8f2377824f979e18fa8cb41fce7697613e756bb"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/historical-parallels.csv",
+      "bytes": 173,
+      "sha256": "0ef6987eb4ba50f177e82bbc38e0fac9873463796659ef527dedee3385322a4e"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/madhhab-geography.csv",
+      "bytes": 2321,
+      "sha256": "b0541aef11c3b6f061080912beeacbaa707e68d50b41ded992d3769f7bdf316f"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/market-records.csv",
+      "bytes": 316,
+      "sha256": "f09769a781b88f83f7f43075ab987533ab45af56be183243350c1513405bf834"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/rulings.csv",
+      "bytes": 4816,
+      "sha256": "93c9bca93d15ff3b49d8d222fbcff55ab443fa18e3fadd2c76502ae467312de6"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/scenarios.csv",
+      "bytes": 235,
+      "sha256": "2c841763d3c20c82aa8d848542fa11c90b60b5f2580ba6df05721c4bd334cad4"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/scripture-sources.csv",
+      "bytes": 6235,
+      "sha256": "374f77e3d4ff978e59a8d66a50580a12e741e97184aa0e800642d82e861fd1b4"
+    },
+    {
+      "path": "research/halal-cultivated/archive/discovery-pass/source-register.json",
+      "bytes": 15940,
+      "sha256": "32175dc5ceb9436bbd5c35a5a16fa1ec3eba8fe892c220ab15db14cbbbb396bb"
     },
     {
       "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
@@ -577,69 +347,14 @@
       "sha256": "2afa24b2c6a938fb9e235d48b78acb3105b2b1edbd68c05dbee43bcee4192241"
     },
     {
-      "path": "research/halal-cultivated/certification.csv",
-      "bytes": 4309,
-      "sha256": "8c0f4bb7adb315d6f69e35a2d230aa2c4e95f4b6c07689c781edc69358fe2648"
-    },
-    {
-      "path": "research/halal-cultivated/claims.csv",
-      "bytes": 140,
-      "sha256": "1f33d576fb8bd6415c0c2828304623178159ac2902a033f12e21185dddd8b152"
-    },
-    {
-      "path": "research/halal-cultivated/consensus-matrix.csv",
-      "bytes": 2802,
-      "sha256": "2fbadbd71181c072cacd24f8e5bd3a56ab7f2740d0e3c0fbc1127256a4430382"
-    },
-    {
       "path": "research/halal-cultivated/datapackage.json",
-      "bytes": 52429,
-      "sha256": "671da95cace3ca04b921afa608ae74beefb454e785ecf28cfe7843dd748c2f31"
-    },
-    {
-      "path": "research/halal-cultivated/elasticities.csv",
-      "bytes": 141,
-      "sha256": "150c45c768b7c83867d472ab911aaabc74754a6b94452e9be11949c5c79b5298"
-    },
-    {
-      "path": "research/halal-cultivated/feed-inputs.csv",
-      "bytes": 131,
-      "sha256": "dab78dd99c3759430f842e07b8f2377824f979e18fa8cb41fce7697613e756bb"
-    },
-    {
-      "path": "research/halal-cultivated/historical-parallels.csv",
-      "bytes": 173,
-      "sha256": "0ef6987eb4ba50f177e82bbc38e0fac9873463796659ef527dedee3385322a4e"
-    },
-    {
-      "path": "research/halal-cultivated/madhhab-geography.csv",
-      "bytes": 2321,
-      "sha256": "b0541aef11c3b6f061080912beeacbaa707e68d50b41ded992d3769f7bdf316f"
-    },
-    {
-      "path": "research/halal-cultivated/market-records.csv",
-      "bytes": 316,
-      "sha256": "f09769a781b88f83f7f43075ab987533ab45af56be183243350c1513405bf834"
-    },
-    {
-      "path": "research/halal-cultivated/paper/AUDIT-REPORT-2026-10-02.md",
-      "bytes": 7170,
-      "sha256": "bae40895e27fe3e4e0d45f191c5827035e98c85dcb1084bf68d722b56aa639ca"
-    },
-    {
-      "path": "research/halal-cultivated/paper/GAP-RESEARCH-2026-10-02.md",
-      "bytes": 12496,
-      "sha256": "d9b85f940980702d924d4e0cd2e4496f68c2f8112d3dc76b3f41eaa8ae4df7ed"
+      "bytes": 52705,
+      "sha256": "a495a7c6acdd51f4baf398f3fb82968de9aafa359c1d4d86b442a7bf021ac822"
     },
     {
       "path": "research/halal-cultivated/paper/README.md",
-      "bytes": 3642,
-      "sha256": "1033a5a1801a98b93b56ac4e80ea2f39b79855822b2b45b0c54a969ad9a63ce0"
-    },
-    {
-      "path": "research/halal-cultivated/paper/REVIEW-REPORT-2026-10-02.md",
-      "bytes": 8687,
-      "sha256": "8e6182d5f74bd0674a1312fafbf48fbffb8adaa7e70fb7f11fa28a80e246f165"
+      "bytes": 3614,
+      "sha256": "3da68c6ddeebcd8d031cd3fa606adf3e70bb1cb42a40a1606aa9fc7291ea444e"
     },
     {
       "path": "research/halal-cultivated/paper/allowlist.json",
@@ -668,18 +383,8 @@
     },
     {
       "path": "research/halal-cultivated/paper/execution-state.json",
-      "bytes": 3545,
-      "sha256": "e77ae6822e8117a131c25ff78f6a9de245d36d5dbdf57c12a16e725ed7173d97"
-    },
-    {
-      "path": "research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.docx",
-      "bytes": 523970,
-      "sha256": "66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458"
-    },
-    {
-      "path": "research/halal-cultivated/paper/exports/cultivated-chicken-halal-working-paper.pdf",
-      "bytes": 1740753,
-      "sha256": "c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a"
+      "bytes": 3561,
+      "sha256": "7131bb4dd8607fa1331f3309956577266cbc9d498db93db8c1bebaacb09abf47"
     },
     {
       "path": "research/halal-cultivated/paper/figure-data.json",
@@ -727,11 +432,6 @@
       "sha256": "b820b0a865f0e0ecba1ae4fbf708b5836ea6a1f91fa8d21047fedc09bb6abd0a"
     },
     {
-      "path": "research/halal-cultivated/paper/outline.md",
-      "bytes": 41644,
-      "sha256": "4883ad7642510ad37cac91720c9e0b488d8fe6f69eba207a869aa555ee074a8b"
-    },
-    {
       "path": "research/halal-cultivated/paper/paper.md",
       "bytes": 211054,
       "sha256": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598"
@@ -742,14 +442,34 @@
       "sha256": "0c9de8d14d53f5bf067c7401073d093daa5c59e7146e898b5ab46ee0d9594056"
     },
     {
+      "path": "research/halal-cultivated/paper/process/AUDIT-REPORT-2026-10-02.md",
+      "bytes": 7170,
+      "sha256": "bae40895e27fe3e4e0d45f191c5827035e98c85dcb1084bf68d722b56aa639ca"
+    },
+    {
+      "path": "research/halal-cultivated/paper/process/GAP-RESEARCH-2026-10-02.md",
+      "bytes": 12510,
+      "sha256": "ee6470c12f9e4f9d230f4a9a34972ed986826ca7f16de68ecd9e5740097c5b96"
+    },
+    {
+      "path": "research/halal-cultivated/paper/process/REVIEW-REPORT-2026-10-02.md",
+      "bytes": 8687,
+      "sha256": "8e6182d5f74bd0674a1312fafbf48fbffb8adaa7e70fb7f11fa28a80e246f165"
+    },
+    {
+      "path": "research/halal-cultivated/paper/process/outline.md",
+      "bytes": 41644,
+      "sha256": "4883ad7642510ad37cac91720c9e0b488d8fe6f69eba207a869aa555ee074a8b"
+    },
+    {
+      "path": "research/halal-cultivated/paper/process/review-log.md",
+      "bytes": 16705,
+      "sha256": "633de3392a89fa0f83bd80ed13a059171ac573b0842be49a41b66e39d8997cfc"
+    },
+    {
       "path": "research/halal-cultivated/paper/reader-build.json",
       "bytes": 302,
       "sha256": "e5c9f3e9a890d886994180619d247a2c86aadd4b1e07a01495871872e625104a"
-    },
-    {
-      "path": "research/halal-cultivated/paper/review-log.md",
-      "bytes": 16691,
-      "sha256": "506d9c01a1788b270a9f8a73d3884f9aec571fd44a9c4d94fa8cc36a19fa4df9"
     },
     {
       "path": "research/halal-cultivated/paper/search-log.json",
@@ -768,8 +488,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/REPAIR-REPORT-2026-10-02.md",
-      "bytes": 7783,
-      "sha256": "9e4a78f2ab51b688b50300715afb2346de348c1e5db98786e472101d9ecf220c"
+      "bytes": 7797,
+      "sha256": "a573a38c7514cc46467e9b3614820f22bf4c1637732a90ec2a6b2100721e5a3f"
     },
     {
       "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",
@@ -998,8 +718,8 @@
     },
     {
       "path": "research/halal-cultivated/phase1/review.md",
-      "bytes": 54968,
-      "sha256": "98730dd68b42cadac2ed18a0d015b372d67e62c0bf9ee4c4e150070547a5d600"
+      "bytes": 54976,
+      "sha256": "1f0a819c28fde38476712ebe3da2f8ca418145dd3f5af9a5a89c13300bad1ff1"
     },
     {
       "path": "research/halal-cultivated/phase1/school-questions.json",
@@ -1020,26 +740,6 @@
       "path": "research/halal-cultivated/phase1/verification.json",
       "bytes": 2465,
       "sha256": "b66c5ed59ffa217c44d0d7baccb69f5585e1cfb687baa9704a143b111e66be9e"
-    },
-    {
-      "path": "research/halal-cultivated/rulings.csv",
-      "bytes": 4816,
-      "sha256": "93c9bca93d15ff3b49d8d222fbcff55ab443fa18e3fadd2c76502ae467312de6"
-    },
-    {
-      "path": "research/halal-cultivated/scenarios.csv",
-      "bytes": 235,
-      "sha256": "2c841763d3c20c82aa8d848542fa11c90b60b5f2580ba6df05721c4bd334cad4"
-    },
-    {
-      "path": "research/halal-cultivated/scripture-sources.csv",
-      "bytes": 6235,
-      "sha256": "374f77e3d4ff978e59a8d66a50580a12e741e97184aa0e800642d82e861fd1b4"
-    },
-    {
-      "path": "research/halal-cultivated/source-register.json",
-      "bytes": 15940,
-      "sha256": "32175dc5ceb9436bbd5c35a5a16fa1ec3eba8fe892c220ab15db14cbbbb396bb"
     },
     {
       "path": "research/india-pakistan/README.md",
@@ -1063,8 +763,8 @@
     },
     {
       "path": "research/library.json",
-      "bytes": 5516,
-      "sha256": "19a80f90ab7bbc88a409a4478a13e905958f2b192bf48749e23fe840a5426632"
+      "bytes": 5497,
+      "sha256": "ef709be97831400e71e7dba733716179becfec68d17a630478163c78d45f8a86"
     },
     {
       "path": "research/orientation/README.md",
@@ -1097,59 +797,49 @@
       "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
     },
     {
-      "path": "research/protein-survey-data/Alternative_Meat_Survey_Data_Findings.csv",
-      "bytes": 5459,
-      "sha256": "e854c7165f32831e3be72827d4d197a702786076b2f1f33b59ae8c50ad6ebe4b"
+      "path": "research/protein-survey-data/README.md",
+      "bytes": 4382,
+      "sha256": "106ccb2eb261a6a2333aab75eb7cd007dec70a0b082a5e3cff2995d7fe4602d7"
     },
     {
-      "path": "research/protein-survey-data/Alternative_Meat_Survey_Data_Studies.csv",
-      "bytes": 6565,
-      "sha256": "3ab83e0ef258f5bd7b4922f9d466cee1f110c2a60330525d6012c04332f830ef"
+      "path": "research/protein-survey-data/findings.csv",
+      "bytes": 5469,
+      "sha256": "383e756c2d4cab5ca9f9bafff58dce264801695c6ff8b8e4e7a67cd99e368106"
     },
     {
-      "path": "research/protein-survey-data/README.txt",
-      "bytes": 3974,
-      "sha256": "0729044a51862461c764efe878969e00f15a980903ed20e271f41c54295afad8"
+      "path": "research/protein-survey-data/index.html",
+      "bytes": 9237,
+      "sha256": "1bb419e653504f6612d57a281c709a258f3ad714f74c326bf9570709e7e71d30"
     },
     {
-      "path": "research/protein-survey-data/Source_Links.html",
-      "bytes": 9396,
-      "sha256": "5f1cd1677679357ec566edda5229a8949a5c3c790394f961b78bf400f5a47bca"
+      "path": "research/protein-survey-data/studies.csv",
+      "bytes": 6580,
+      "sha256": "0b6f101672e8137a166d007b63d2dec8decade6471778cd56a478a20edc1c303"
     },
     {
-      "path": "research/protein-survey-data/Study_Register.csv",
-      "bytes": 6568,
-      "sha256": "02cef1f19be6c41d2393fa1c816a518af9b1399228d3e371a9030f1cefff989b"
-    },
-    {
-      "path": "research/protein-survey-data/Survey_Findings.csv",
-      "bytes": 5457,
-      "sha256": "f46bf30653c3675c0933b4268c13c315f9792d05fb708eb129e25fa4be5065cb"
-    },
-    {
-      "path": "research/protein-survey-data/survey_data.json",
-      "bytes": 22346,
-      "sha256": "e1b2cc2e880ece9bfab96bf9862c2a6a5ec39b469272ec4bd0a5b9cd4483319f"
+      "path": "research/protein-survey-data/survey-data.json",
+      "bytes": 22389,
+      "sha256": "4f187d6b8a4bff8a7fd170e14dea7afff11694f4f2499ba4a9962e87b00ea41c"
     },
     {
       "path": "sources/README.md",
-      "bytes": 2227,
-      "sha256": "9b6ea8edde264395c158c1d0d731d3c3787d463f53d795ea4d296efe12e9f5ec"
+      "bytes": 2518,
+      "sha256": "391d05a883b2aed9b91cfe8ac57c76f0da4e030081f1e8a18e545cdadefe4904"
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 147310,
-      "sha256": "d342ef32167a7c4011de514f07c9370956657a93311574de0584d14628977362"
+      "bytes": 147687,
+      "sha256": "dcb9904d621116a0ab157516c209347e30e6b6127d830fa19786ef35d9fbc3d7"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 592196,
-      "sha256": "dc4cedaa0fa7cf17ea3fd5c9ca03ea1c72b304908a71346304056b9143258232"
+      "bytes": 592398,
+      "sha256": "d23646a5294ec6880ddcb1f545819d6e52ad30d277bffbd621bfe3e5c612548b"
     },
     {
       "path": "sources/index.html",
-      "bytes": 420776,
-      "sha256": "96e9d18e41626f0b98f354c4c5414f4d532a2944121c0f0d9b9ba1dd072e7fca"
+      "bytes": 421153,
+      "sha256": "6173d8b6a91fb52abba8a2668cebe5201736c103a2a565f18ef3414bb5331f9f"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -1158,8 +848,8 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 18128,
-      "sha256": "3e6fb4d1a7ea4405e7b5a036ad70faeae599ca502f6744c20213f78b39feb2bc"
+      "bytes": 18214,
+      "sha256": "bb077f74e6c1a2ec88b1495f252cb2dba95aed3c3dda431015d326f8d6fbc6bc"
     },
     {
       "path": "tools/build-paper-appendices.mjs",
@@ -1173,8 +863,8 @@
     },
     {
       "path": "tools/consolidate-paper.mjs",
-      "bytes": 25157,
-      "sha256": "588731e44bbb87125218a8a8eeae38b62a2de2c74344544daf39875dffb47354"
+      "bytes": 25173,
+      "sha256": "c032194b0f2346dd98c77ebba3a9502ced0081d93a2abeab822ea6889234796c"
     },
     {
       "path": "tools/continuation-checks.mjs",
@@ -1213,8 +903,8 @@
     },
     {
       "path": "tools/privacy-checks.mjs",
-      "bytes": 2549,
-      "sha256": "e775d9804e18aa56bf911aba15c8c305ff569f10ed2e1efdfc2de88b455dec26"
+      "bytes": 1750,
+      "sha256": "52dc22480b3bcca1fbb2c9766eeb987b9d3d8e8b64c681fbb522d3c88c117861"
     },
     {
       "path": "tools/repo-files.mjs",
@@ -1233,8 +923,8 @@
     },
     {
       "path": "tools/survey-checks.mjs",
-      "bytes": 11429,
-      "sha256": "4c156045a284c12b23bf397009ff4c36798b2eb18591dd9bbdebd509f3fb5e9d"
+      "bytes": 8769,
+      "sha256": "8a0d94365a2e02a162fd5194dc45f0ae381edb140959965304971a0b07252526"
     },
     {
       "path": "tools/test-bridge-v2-checks.mjs",
@@ -1253,8 +943,8 @@
     },
     {
       "path": "tools/test-halal-checks.mjs",
-      "bytes": 7930,
-      "sha256": "c3d16b3c8ad7ac4d3634d14cae980e1f67df5455386bbb77845d707b0f76cf47"
+      "bytes": 7993,
+      "sha256": "640d18d70de467be43628462d4a02c35841dc463626fbaaf4b936a5356132aa6"
     },
     {
       "path": "tools/test-paper-checks.mjs",
@@ -1268,13 +958,13 @@
     },
     {
       "path": "tools/test-privacy-checks.mjs",
-      "bytes": 3775,
-      "sha256": "bd3c6a50a07da171c9df62df0b8bc7bd335649c233231149f9fea0785455a0b9"
+      "bytes": 3253,
+      "sha256": "28b2490b6b716491508022060e3767832fbb5e0c1c8cb14463076ef22e39af86"
     },
     {
       "path": "tools/test-survey-checks.mjs",
-      "bytes": 4367,
-      "sha256": "737c7c871ba2eb047eae4a35dc8c6638a4fb2ce4bb761a6fccd8e9397475ae46"
+      "bytes": 3307,
+      "sha256": "970059111b18c0e4a3cb08416e671cc783fb0512a458b1264d58fd67fafb9101"
     },
     {
       "path": "tools/verify-paper-section.mjs",
@@ -1283,8 +973,8 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 11957,
-      "sha256": "4665b04e5faf205e1fb9eb93fbbd652f3d3ebf63306b107e0482921736627668"
+      "bytes": 11758,
+      "sha256": "47cc9be64d9c78a09a73c19cbe95592c0e8cfd7b36b54adb17ad29deaae1d66b"
     }
   ]
 }

@@ -61,21 +61,21 @@ The combined [catalog](sources/catalog.json) contains normalized source identiti
 
 ## Alternative meat survey data
 
-Location: [research/protein-survey-data](research/protein-survey-data/README.txt). This package contains a structured extraction from nine published studies or reports and 29 retained findings. It is not respondent-level data, not a complete table export from every source, and not a pooled acceptance estimate.
+Location: [research/protein-survey-data](research/protein-survey-data/README.md). This package contains a structured extraction from nine published studies or reports and 29 retained findings. It is not respondent-level data, not a complete table export from every source, and not a pooled acceptance estimate.
 
-`survey_data.json` is the canonical structured version. `sources` holds the nine study records, including `id`, title, authors, year, geography, sample size, method, DOI or URLs, access status, respondent-level data status, notes and findings. `observations` holds the 29 extracted rows and joins to `sources` through `source_id`.
+`survey-data.json` is the canonical structured version. `sources` holds the nine study records, including `id`, title, authors, year, geography, sample size, method, DOI or URLs, access status, respondent-level data status, notes and findings. `observations` holds the 29 extracted rows and joins to `sources` through `source_id`.
 
-`Survey_Findings.csv` and `Study_Register.csv` are machine-readable CSV views of the JSON. `Alternative_Meat_Survey_Data_Findings.csv` and `Alternative_Meat_Survey_Data_Studies.csv` preserve the two sheet exports from the original workbook as CSV because `.xlsx` files are not part of the shareable file tree. The checker verifies that the JSON, machine CSVs and workbook CSV exports agree.
+`findings.csv` and `studies.csv` are CSV views of the JSON. The checker verifies that the JSON and both CSVs agree.
 
 For findings, `unit=proportion` stores proportions as decimals, so `0.31` means 31 percent. `unit=respondents` stores a count. `unit=qualitative` has a blank numeric value. Blank `numerator` means unreported or not extracted, never zero. `measurement_type` distinguishes willingness, preference, awareness, self-reported consumption, sample composition, sample size, association and qualitative records; these measures must not be pooled.
 
 ## Halal conditionality workstream
 
-Location: [research/halal-cultivated](research/halal-cultivated/README.md). [datapackage.json](research/halal-cultivated/datapackage.json) defines every field, type and allowed value for the eleven CSV registers, in the Frictionless Data format, so it can also be validated with `frictionless validate`. It is the only definition; this section does not repeat it.
+Location: [research/halal-cultivated](research/halal-cultivated/README.md). [datapackage.json](research/halal-cultivated/datapackage.json) defines every field, type and allowed value for the eleven CSV registers of the 30 September discovery pass, now in [archive/discovery-pass](research/halal-cultivated/archive/README.md), in the Frictionless Data format, so it can also be validated with `frictionless validate`. It is the only definition; this section does not repeat it.
 
 `market-records.csv` carries the demand forecast's keys (`category`, `geo`, `year`, `metric`, `price_basis`, `channel`, `quantile`, `source_id`) unrenamed, then the halal fields from plan section 4.3. Values are in constant 2025 USD; volumes are carcass-weight equivalent unless `unit` says retail weight. Volume and value shares use different units and are never mixed. Food-balance supply, household survey quantities, sales, stated intentions and projections are distinguished by `evidence_type` and never combined.
 
-Blank cells are missing, never zero. A registry search that found nothing is `none_found` with its date, not a prohibition. The registers are empty as of 30 September 2026.
+Blank cells are missing, never zero. A registry search that found nothing is `none_found` with its date, not a prohibition. Five registers hold provisional rows and six are header-only; Phase One, the October continuation and the working paper hold the later evidence in their own JSON registers.
 
 ## Integrity records
 

@@ -27,7 +27,7 @@ The [source register](source-register.json) contains 188 records and the [claim 
 
 `SG-LIST` was carried from the earlier source register with its original fields and a record hash; it is not a new retrieval. P1C9-S04's source-family label was corrected from an unsupported MoIAT attribution to the evidenced UAE-government attribution. All 21 earlier review records remain. `R8-INTEGRATION-REPAIR` in the [review register](reviews.json) records the bounded consistency check without promoting source status or human approval.
 
-All 143 requirements and sixteen-country coverage remain in scope. The [coverage record](coverage.json), [agentic plan](../AGENTIC-PLAN.md), accepted v2 schema, production state and synthetic fixture were unchanged by the repair. Private historical evidence stayed outside this repository handoff.
+All 143 requirements and sixteen-country coverage remain in scope. The [coverage record](coverage.json), [agentic plan](../archive/AGENTIC-PLAN.md), accepted v2 schema, production state and synthetic fixture were unchanged by the repair. Private historical evidence stayed outside this repository handoff.
 
 ## Verification at the repair snapshot
 
@@ -63,7 +63,7 @@ Compare generated-file hashes after the first and final builds; the second build
 2. Require exact actor, territory, product/process version, source role and reading support for any proposed gate promotion. Do not treat another profile's rejection as acceptance of the target profile.
 3. Confirm source originals, process lineage, full normative text and operative product decisions where currently unresolved. A new document or plausible match is a candidate until checked under the recorded review process.
 4. Continue the full Phase One manuscript, scope reconciliation and two full-scope reviews without dropping any of the 143 requirements or sixteen countries. Human scholarly, technical and regulatory review remain pending.
-5. Preserve source lineage, earlier review records and unresolved evidence. Update the [workstream log](../SESSION-LOG.md) and rerun repository checks after changes.
+5. Preserve source lineage, earlier review records and unresolved evidence. Update the [workstream log](../../../SESSION-LOG.md) and rerun repository checks after changes.
 
 ## Moderator and retrospective
 

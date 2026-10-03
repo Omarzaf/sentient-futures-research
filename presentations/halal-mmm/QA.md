@@ -1,6 +1,8 @@
 # QA report — MMM edition of "Cultivated Chicken and Halal Market Access"
 
-Checked 2 October 2026 on branch `claude/friendly-knuth-tdkxnf`, created from `codex/claude-mmm-handoff` at `587bd9a`. Checks follow `handoffs/claude-mmm/qa/ACCEPTANCE.md`. Everything below was run; what was not run is listed at the end.
+Checked 2 October 2026 on branch `claude/friendly-knuth-tdkxnf`, created from `codex/claude-mmm-handoff` at `587bd9a`. Checks followed the build handoff's acceptance list. Everything below was run; what was not run is listed at the end.
+
+On 3 October 2026 the handoff package (`handoffs/claude-mmm/`) and the screenshots were removed from the repository. The content contract moved to [content-contract.json](content-contract.json), and `check.mjs` now confirms that the page was built from the current inputs recorded in [build-record.json](build-record.json) instead of comparing against the handoff's provenance file. The results below are the 2 October record.
 
 Environment: Linux container, Node.js 22.22.0, Playwright 1.56.1 driving headless Chromium (build 1194). No other browser engine was available.
 
@@ -20,7 +22,7 @@ Baseline before the build: `verify.mjs` PASS with 25,636 checks over 239 files; 
 
 ## Content preservation (`check.mjs`)
 
-The checker reads the generated HTML as text and compares it with `paper.md` and `handoffs/claude-mmm/CONTENT-CONTRACT.json`. It was also run against five deliberately damaged copies (one word changed, one citation removed, one URL altered, the Urdu language marker removed, one figure label changed); each was caught.
+The checker reads the generated HTML as text and compares it with `paper.md` and the content contract (then `handoffs/claude-mmm/CONTENT-CONTRACT.json`, now `content-contract.json`). It was also run against five deliberately damaged copies (one word changed, one citation removed, one URL altered, the Urdu language marker removed, one figure label changed); each was caught.
 
 | Check | Result |
 | --- | --- |
@@ -73,7 +75,7 @@ Every essential text role meets 4.5:1. The light-theme `--ink-4` roles pass with
 
 ## Screenshots
 
-In `qa/`: [desktop light](qa/desktop-1440-light.png), [desktop dark](qa/desktop-1440-dark.png), [phone](qa/phone-390-light.png), [phone contents sheet](qa/phone-390-contents.png), [phone Figure 2 scrolling](qa/phone-390-figure-2.png) and [desktop with the optional web fonts](qa/desktop-1280-web-fonts.png). All other screenshots use the fallback fonts.
+Six screenshots were taken on 2 October 2026: desktop light and dark at 1440 px, phone at 390 px (page, contents sheet, Figure 2 scrolling) and desktop at 1280 px with the optional web fonts. They are no longer stored in the repository. To regenerate them, pass a screenshot folder to `build/browser-qa.mjs`; `qa/` is ignored by Git.
 
 ## Design decisions made during QA
 

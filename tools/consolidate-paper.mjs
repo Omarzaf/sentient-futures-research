@@ -267,7 +267,7 @@ requireTrue(problems.slice(0, 15).every(row => row.status === 'confirmed_in_loca
   'At least one problem from PAPER-PLAN section 13 could not be confirmed in local records.');
 
 const selectedInputs = [
-  `${base}/PAPER-PLAN.md`, `${base}/PLAN.md`, `${base}/AGENTIC-PLAN.md`,
+  `${base}/archive/PAPER-PLAN.md`, `${base}/PLAN.md`, `${base}/archive/AGENTIC-PLAN.md`,
   `${base}/source-register.json`, `${base}/consensus-matrix.csv`,
   ...['source-register.json', 'claims.json', 'coverage.json', 'reviews.json', 'SYNTHESIS.md', 'gate-table.json',
     'school-gap-progress.json', 'geography.json', 'institution-matrix.json', 'literature-review.json',
