@@ -55,7 +55,7 @@ Test results, viewports and limits are in [QA.md](QA.md).
 
 ## Public file export
 
-After the checks pass, `node tools/build-public-paper.mjs <new-release-directory>` from the repository root prepares a separate `site/public/` folder and Vercel configuration. The destination must be new and outside this repository. It contains this HTML at the site root and original presentation path, plus the linked canonical Markdown, plain reader, PDF, Word, source register and six figure files. All copies preserve their bytes; the downloads retain their original review labels. The receipt stays outside the deployment folder. Deploy only that `site/` directory, never the research checkout or its history.
+After the checks pass, `node tools/build-public-paper.mjs <new-release-directory>` from the repository root prepares a separate `site/public/` folder and Vercel configuration. The destination must be new and outside this repository. It contains only the approved self-contained HTML at the site root. The exporter removes exactly one footer block of local download links and three original-SVG download links; no separate Markdown, reader, PDF, Word or source-register files are uploaded. All paper text, notes, citations and inline figures remain. The receipt records source and output hashes outside the deployment folder. Deploy only that `site/` directory, never the research checkout or its history.
 
 ## Not claimed
 

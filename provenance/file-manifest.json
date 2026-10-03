@@ -338,8 +338,8 @@
     },
     {
       "path": "presentations/halal-mmm/README.md",
-      "bytes": 6704,
-      "sha256": "48e203fd84e36202507eaf6a5c349c9b32739856f6c7a418dd3d72ff7e9679ec"
+      "bytes": 6793,
+      "sha256": "25c3f9579bc5f6d4a4ceb6ca5fc042a26ce2ef4800a13251d3a2dff54e3f074c"
     },
     {
       "path": "presentations/halal-mmm/assets/mmm.css",
@@ -1173,8 +1173,8 @@
     },
     {
       "path": "tools/build-public-paper.mjs",
-      "bytes": 3622,
-      "sha256": "f02db6883201be438e35f563077f64281a73f9c773bb29149378b3148f080c2e"
+      "bytes": 4057,
+      "sha256": "8ef2418ebe952f51713eceb30b3eb8c143adca570c321628e3870258fa3d02ff"
     },
     {
       "path": "tools/build_paper_figures.py",
