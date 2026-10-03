@@ -1,0 +1,146 @@
+{
+  "id": "HISTORY-18",
+  "country": "CHN",
+  "title": "China’s2018–2021 ASF shock and poultry comparison",
+  "status": "independently_checked_bounded_case",
+  "human_review": "pending",
+  "source_ids": [
+    "P1C3-CN-NBS18",
+    "P1C3-CN-NBS19",
+    "P1C3-CN-ERS326",
+    "P1C3-CN-FAO19",
+    "P1C3-CN-HAO23",
+    "P1C3-CN-MA21",
+    "P1C3-CN-MA20"
+  ],
+  "claim_ids": [
+    "P1C3-CN-OUTPUT",
+    "P1C3-CN-HOUSEHOLDS",
+    "P1C3-CN-CONTROLS",
+    "P1C3-CN-STUDY"
+  ],
+  "before_food": "Pork within China’s existing animal-food market",
+  "after_food": "Pork contraction with concurrent poultry expansion; later pork rebound",
+  "event_period": "August2018 onward; primary comparison2018–2019; household extension2018–2021",
+  "baseline_exposure": "2018 already includes ASF outbreak months; not a clean untreated pre-period",
+  "production": {
+    "unit": "million tons as published by NBS",
+    "measure": "annual production output",
+    "geography": "China excluding Hong Kong SAR, Macao SAR and Taiwan Province",
+    "preliminary": true,
+    "source_ids": [
+      "P1C3-CN-NBS18",
+      "P1C3-CN-NBS19"
+    ],
+    "rows": [
+      {
+        "year": 2018,
+        "pork": 54.04,
+        "poultry": 19.94
+      },
+      {
+        "year": 2019,
+        "pork": 42.55,
+        "poultry": 22.39
+      }
+    ],
+    "derived_change": {
+      "pork": -11.49,
+      "poultry": 2.45
+    },
+    "reported_yoy_percent": {
+      "pork": -21.3,
+      "poultry": 12.3
+    },
+    "protein_mass": false,
+    "causal_substitution_fraction": null,
+    "baseline_year": 2018,
+    "baseline_is_unexposed": false
+  },
+  "household": {
+    "unit": "kg of food per person",
+    "measure": "NBS household purchases/consumption excluding away-from-home meals, as reproduced by ERS",
+    "source_id": "P1C3-CN-ERS326",
+    "pork": [
+      {
+        "year": 2018,
+        "value": 22.8
+      },
+      {
+        "year": 2019,
+        "value": 20.3
+      },
+      {
+        "year": 2020,
+        "value": 18.2
+      },
+      {
+        "year": 2021,
+        "value": 25.8
+      }
+    ],
+    "changes": [
+      {
+        "period": "2018–2020",
+        "pork": -4.6,
+        "poultry": 3.7
+      },
+      {
+        "period": "2020–2021",
+        "pork": 7.6,
+        "poultry": -0.4
+      }
+    ],
+    "away_from_home_included": false,
+    "protein_mass": false,
+    "covid_comparability_caveat": true,
+    "value_2021_discrepancy": "NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg; its 2022 figure (26.9 kg, up 6.75%) implies 25.2. ERS value 25.8 retained as transcribed pending a check of ERR-326 Table 4 against the NBS yearbook.",
+    "source_table_note_discrepancy": "Table4 saysFigure11; neighboringFigure10 supplies the national series. Originalyearbooktable not independently retrieved."
+  },
+  "drivers": [
+    {
+      "kind": "supply_shock",
+      "account": "ASF-related pig losses and disruption; poultry was an existing alternative species.",
+      "source_ids": [
+        "P1C3-CN-FAO19",
+        "P1C3-CN-ERS326"
+      ]
+    },
+    {
+      "kind": "institutional_response",
+      "account": "Movement restrictions, disease zoning and controls documented byFAO; their separate effects on household substitution are not identified.",
+      "source_ids": [
+        "P1C3-CN-FAO19"
+      ]
+    }
+  ],
+  "speed": {
+    "observation_window": "One calendar-year production comparison; two-year household change and subsequent one-year reversal",
+    "adoption_half_life": null,
+    "durable_poultry_conversion_established": false
+  },
+  "elasticity": {
+    "identified_numeric_value": null,
+    "unit": null,
+    "status": "not_established_by_retrieved_complete_methods",
+    "reason": "ERS qualitative inelasticity is not a fitted own/cross-price elasticity. Ma2021 inverse-demand policy model is a lead; full coefficients and methods remain unreviewed."
+  },
+  "transport_to_cultivated_chicken": {
+    "relevance": "Existing substitute capacity and relative prices can matter after a conventional livestock supply shock; test capacity, affordability and persistence separately.",
+    "causal_transfer_established": false,
+    "penetration_parameter": null,
+    "religious_gate": null,
+    "capacity_input": null,
+    "cautions": [
+      "Conventional poultry production is not cultivated-chicken adoption.",
+      "China’s pork-centred market and disease shock do not establish Muslim-country halal or market-access conditions.",
+      "Rebound and COVID-era survey composition weaken claims of permanent diet conversion."
+    ]
+  },
+  "unresolved": [
+    "Original NBS yearbook householdtable and full survey design not independently retrieved.",
+    "Hao full methods, coefficients and parallel-trend evidence remain unreviewed.",
+    "Ma2021 full inverse-demand estimates and model assumptions not acquired;2020conference lead failed.",
+    "No qualified human scholarly acceptance."
+  ]
+}

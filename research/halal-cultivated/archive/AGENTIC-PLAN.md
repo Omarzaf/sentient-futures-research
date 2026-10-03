@@ -1,12 +1,14 @@
 # Agentic research plan: cultivated chicken, Phase One
 
-Revised 30 September 2026 from the author's edited local Word plan. AI-assisted working protocol; human verification pending. This replaces the earlier cloud setup, new-transcription dependencies and October Phase One schedule. [Read the completed public-source review](phase1/review.md) and its [coverage and limitations](phase1/README.md).
+**Status: executed 30 September 2026; kept as a record.** The current output is the [working paper](../paper/README.md).
+
+Revised 30 September 2026 from the author's edited local Word plan. AI-assisted working protocol; human verification pending. This replaces the earlier cloud setup, new-transcription dependencies and October Phase One schedule. Read the [30 September bounded public-source review](../phase1/review.md), its [coverage and limitations](../phase1/README.md), and the [in-progress October continuation](../phase1-continuation/README.md).
 
 ## Objective and scope
 
 Map religious conditions, certification and market access for cultivated chicken. India, Pakistan, Saudi Arabia and the UAE remain the focal countries; Singapore, Malaysia and Indonesia are comparisons. Examine Hanafi, Maliki, Shafii and Hanbali primary accounts and Ali al-Sistani's named positions. Sistani is not a proxy for consensus across all Jafari authorities. Ghamidi's published account is a separate reference point.
 
-The earlier [project plan](PLAN.md) remains the reference for Phase Two demand inputs and double-counting rules. This document controls the revised Phase One method and delivery targets.
+The earlier [project plan](../PLAN.md) remains the reference for Phase Two demand inputs and double-counting rules. This document controls the revised Phase One method and delivery targets.
 
 ## Decisions in force
 
@@ -34,7 +36,7 @@ Run at most two specialist agents simultaneously. Extraction specialists cover p
 
 Evidence records identify author, source, language, passage, locator, supporting excerpt and scope. Inference records identify premises, reasoning, alternatives and the missing test. Statuses distinguish `primary_read`, `blind_agent_checked`, `agent_checked`, `inference`, `disputed` and `open`. A checked source reading can support an unresolved conclusion. Reported consensus stays attributed and bounded.
 
-The [Phase One JSON registers](phase1/README.md) carry these distinctions. The older CSV discovery registers and their original schema remain historical; they are not upgraded by this execution. In particular, the earlier interview CSV's timestamp and Urdu requirements are not filled with fabricated values.
+The [Phase One JSON registers](../phase1/README.md) carry these distinctions. The older CSV discovery registers and their original schema remain historical; they are not upgraded by this execution. In particular, the earlier interview CSV's timestamp and Urdu requirements are not filled with fabricated values.
 
 ## Delivery targets in the edited plan
 
@@ -64,7 +66,7 @@ Use accessible named primary works and their locators. Shamela exports can suppl
 
 ## Completion and next handoff
 
-The local execution examined all 45 school slots, seven countries and four historical comparisons, reconciled blind readings and produced an editable Word review. The public edition contains 74 claims and 76 source records; the private original additionally retains the interview and its interpretations. The [release record](phase1/release.json) documents this difference.
+The local execution examined all 45 school slots, seven countries and four historical comparisons, reconciled blind readings and produced an editable Word review. The public edition contains 74 claims and 76 source records; the private original additionally retains the interview and its interpretations. The [release record](../phase1/release.json) documents this difference.
 
 Product-specific rulings, complete current certification instruments, missing classical locators and a fully specified manufacturing dossier remain open where stated. Religious permission, purity, permission to eat, halal certification, food authorization and civil market access remain separate evidence layers. Next work should test a named process—donor, procurement, cell line, medium, scaffold, processing aids and finished product—before supplying any conditional gate to Phase Two.
 

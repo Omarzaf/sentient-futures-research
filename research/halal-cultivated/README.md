@@ -1,42 +1,36 @@
 # Halal conditionality for cultivated meat
 
-[Read the completed Phase One review](phase1/review.md), its [evidence registers](phase1/README.md), and the [revised agentic plan](AGENTIC-PLAN.md). The [original project plan](PLAN.md) remains the reference for Phase Two. Session history is in the [session log](SESSION-LOG.md). Updated 30 September 2026; AI-assisted working draft with human verification pending. Not mentor-approved.
+Under which religious, certification and regulatory conditions could cultivated chicken enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market could it reach if those conditions are met? AI-assisted working draft; human verification pending. Not mentor-approved.
 
-The new `phase1/` edition contains 74 public-source claims, 76 source records, 45 school questions, seven country accounts and four historical comparisons, with independent review decisions and explicit gaps. Its findings supersede the earlier search-summary pass for the questions it covers. The parent CSV tables and 24-source register below are retained as that earlier discovery snapshot: five tables contain provisional rows and the others remain empty. Their original statuses have not been silently upgraded. Phase Two quantities and interview CSV rows have not been fabricated.
+## Current output
 
-## Files
+[Cultivated Chicken and Halal Market Access](paper/index.html) is the working paper, prepared on 2 October 2026 with three figures and five appendices. Read the [auditable Markdown](paper/paper.md), the [MMM reading edition](../../presentations/halal-mmm/index.html) or the [independent review report](paper/process/REVIEW-REPORT-2026-10-02.md). The author's final read and human scholarly review remain pending.
 
-| File | Record prefix | Contents |
-| --- | --- | --- |
-| [datapackage.json](datapackage.json) | | Field names, types and allowed values for every table (Frictionless Data format). The single place these are defined. |
-| [market-records.csv](market-records.csv) | `MR-` | Market data: the demand forecast's keys first, then the halal fields (plan 4.1–4.3) |
-| [claims.csv](claims.csv) | `CL-` | Claims from the interview, with short excerpts only (plan 6.3) |
-| [scripture-sources.csv](scripture-sources.csv) | `QS-` | Quran, hadith and Sunnah sources found for those claims |
-| [consensus-matrix.csv](consensus-matrix.csv) | | Conditions by institutions and scholars, one row per cell |
-| [historical-parallels.csv](historical-parallels.csv) | `HP-` | Historical food substitutions and changed rulings (plan 6.4A) |
-| [rulings.csv](rulings.csv) | `FT-` | Fatwas, resolutions and rulings on cultivated meat (plan 6.4B) |
-| [elasticities.csv](elasticities.csv) | `EL-` | Meat demand elasticities per focal country (plan 6.4C) |
-| [feed-inputs.csv](feed-inputs.csv) | `FI-` | Insects as a poultry feed input only (plan 6.4D) |
-| [madhhab-geography.csv](madhhab-geography.csv) | `MD-` | Predominant schools and fatwa bodies by country, categorical only (plan 6.5) |
-| [certification.csv](certification.csv) | `CT-` | Halal certification body, standard and novel-food route per country (plan 6.5) |
-| [scenarios.csv](scenarios.csv) | `SC-` | Phase 2 grid: `Q = D × p × G`, capped by `K` (plan 4.5 and 7) |
-| [source-register.json](source-register.json) | `HS-`, carried `CO-`/`SA-`/`GP-` | Bibliographic sources, merged into the [combined catalog](../../sources/index.html) |
+## Evidence behind the paper
 
-The interview transcript and translation (`TR-` segments) are someone else's unpublished work. They stay in private storage and are referenced here only by segment ID.
+| Folder | What it holds |
+| --- | --- |
+| [phase1/](phase1/README.md) | The 30 September Phase One review: 74 public-source claims, 76 source records, 45 school questions, seven countries and four historical comparisons |
+| [phase1-continuation/](phase1-continuation/README.md) | The October continuation: country institutions, manufacturing dossier, elasticities, feed, history, and the [synthesis](phase1-continuation/SYNTHESIS.md) and [gate table](phase1-continuation/gate-table.md) for each focal country |
+| `paper/process/` | The paper's [approved outline](paper/process/outline.md), [citation audit](paper/process/AUDIT-REPORT-2026-10-02.md), [supplementary research](paper/process/GAP-RESEARCH-2026-10-02.md), [review log](paper/process/review-log.md) and [review report](paper/process/REVIEW-REPORT-2026-10-02.md) |
+
+## Phase Two method
+
+- [Project plan](PLAN.md): scope, shared keys with the demand-forecast workstream, and double-counting rules.
+- [Quantitative contract v2](bridge-v2/METHOD.md), its [schema](bridge-v2/schema.json) and [legacy crosswalk](bridge-v2/LEGACY-CROSSWALK.md). A [synthetic example](bridge-v2/synthetic-example.json) tests the arithmetic; the [production state](bridge-v2/production-state.json) keeps missing inputs null, so production stays blocked.
+- [Pilot feedback](bridge-v2/PILOT-FEEDBACK.md) from 1 October ([HTML](bridge-v2/PILOT-FEEDBACK.html)): proposed next steps, not an adopted protocol change.
+- [datapackage.json](datapackage.json) versions the active contract and keeps the field definitions for the archived discovery tables.
+
+Unknown evidence is kept separate from scenario assumptions. Surveys cannot stand in for sales penetration. Value shares need an explicit price conversion before they multiply mass. Missing or incompatible capacity leaves feasible quantity null.
+
+## Archive
+
+[archive/](archive/README.md) holds the 30 September discovery-pass tables and their 24-source register, kept for lineage and still validated, plus the executed agentic and paper plans. Phase One and the paper supersede the discovery rows for the questions they cover.
 
 ## Checks
 
-`node tools/verify.mjs` checks every table against `datapackage.json`: exact headers in order, types, required fields, allowed values, patterns and unique IDs. It also enforces the double-counting rules in plan section 5 and the missing-data rules:
+`node tools/verify.mjs` checks the archived tables against `datapackage.json`, the v2 contract, Phase One, the continuation and the paper's citations. Every legacy scenario row is rejected, so the old rules cannot become production numbers. `node tools/test-halal-checks.mjs` runs the discovery-table rules and the adversarial v2 suite. Passing checks do not certify the evidence.
 
-- `G` is 0 or 1 and matches the gate state, `H_rel`, `L` and `L_includes_halal`.
-- One acceptance carrier per scenario: `p_US` from the demand forecast's cultivated question, or a local survey, never both.
-- `Q_uncapped` equals `D × p × G`, `Q` equals it capped by `K`, and every zero or missing `Q` carries a reason code.
-- A shock changes only the variables its mechanism names, and never `p`.
-- Hybrids are counted once, insects appear only as poultry feed, and consensus cells cite an original ruling, not a report of it.
-- Madhhab is categorical; no percentages.
-- Carried values from earlier work stay `carried_unverified` until re-checked on a recorded date.
-- `none_found` needs a search date, and `H_rel` needs the `FT-` ruling it comes from.
+## Private material
 
-`node tools/test-halal-checks.mjs` runs these checks against a valid fixture and against broken variants to confirm that each rule catches what it should.
-
-Add a column by editing `datapackage.json` and the CSV header together, and tell the demand-forecast workstream if a shared key changes.
+The interview transcript and translation (`TR-` segments) are someone else's unpublished work. They stay in private storage and are referenced only by segment ID. Session history is in the repository [session log](../../SESSION-LOG.md).

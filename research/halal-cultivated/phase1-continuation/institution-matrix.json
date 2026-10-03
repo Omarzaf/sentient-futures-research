@@ -1,0 +1,2761 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-01T22:04:41.423Z",
+  "as_of": "2026-10-01",
+  "kind": "source_bounded_seven_condition_matrix",
+  "scope": {
+    "requirement_ids": [
+      "CONSENSUS",
+      "INST-068",
+      "INST-069",
+      "INST-070",
+      "INST-071",
+      "INST-072",
+      "INST-073",
+      "INST-074",
+      "INST-075",
+      "INST-076",
+      "INST-077",
+      "INST-078",
+      "GHAMIDI"
+    ],
+    "original_plan": "../PLAN.md",
+    "passages": "§6.3 consensus matrix;§6.4B institution roster",
+    "full_goal_requirements": 143,
+    "full_goal_country_roles": 16,
+    "scope_changed": false
+  },
+  "acceptance": {
+    "new_independent_review": "checked_scoped_reading",
+    "human_scholarly_acceptance": "pending",
+    "author_acceptance": "not_asserted",
+    "phase_one_done": false,
+    "authoritative_status_promotion": false,
+    "retrieval_completeness_is_not_scholarly_acceptance": true
+  },
+  "classification_policy": {
+    "original_plan_values": [
+      "unanimous",
+      "majority",
+      "disputed",
+      "single_source"
+    ],
+    "null_means": "researched but insufficient comparable positions for a defensible allowed classification; not silently forced into a vote",
+    "comparison_scope": "Direct institution text and explicitly attributed adviser reports are distinguished. Same-institution or same-engagement documents are source families, not extra votes.",
+    "unknown_is_not_failure": "A documented bounded unknown is useful scoped coverage; it does not establish the institution’s actual position or satisfy missing source/translation/human review gates."
+  },
+  "summary": {
+    "institutions_and_adviser_columns": 11,
+    "published_author_columns": 1,
+    "conditions": 7,
+    "cells": 84,
+    "non_null_positions": 37,
+    "unknown_positions": 47,
+    "status_counts": {
+      "attributed_primary_position": 9,
+      "unknown_in_inspected_scope": 14,
+      "conflicting_official_passages": 2,
+      "related_regulatory_context_only": 1,
+      "held_language": 8,
+      "attributed_participant_report": 5,
+      "researched_unknown_no_primary_instrument": 28,
+      "unknown_in_inspected_report": 5,
+      "held_reported_officeholder_position": 4,
+      "held_secondary_attribution": 5,
+      "general_framework_only": 3
+    },
+    "row_classifications": {
+      "disputed": 2,
+      "single_source": 1,
+      "unestablished": 4
+    },
+    "bounded_missing_institution_searches": 4,
+    "observable_retrieval_operations": 17
+  },
+  "conditions": [
+    "species",
+    "donor_procurement",
+    "medium",
+    "istihala",
+    "slaughter",
+    "safety",
+    "labelling"
+  ],
+  "institutions": [
+    {
+      "id": "IIFA",
+      "requirement_id": "INST-068",
+      "name": "International Islamic Fiqh Academy (OIC)",
+      "type": "institutional_resolution",
+      "territory": "International religious guidance; no national implementation established",
+      "source_ids": [
+        "IIFA265",
+        "IIFA-AR"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "Resolution 265 (10/26)",
+      "prior_review_ids": [
+        "V-RULINGS",
+        "SF-20261001-C2"
+      ],
+      "extra_conditions": [
+        {
+          "position": "Credible specialized supervision throughout cultivation.",
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "Third3"
+        },
+        {
+          "position": "Complementary use alongside conventional animal meat; no numerical cap specified.",
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "Sixth"
+        }
+      ],
+      "date_limit": "Session4–8May2025; posted20November2025; exact adoption/effect dates unknown.",
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Source animal must be lawful to eat.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            },
+            {
+              "source_id": "IIFA-AR",
+              "publication": "2025-11-20",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265",
+            "IIFA-AR"
+          ],
+          "locator": "English Third1; Arabic Third1",
+          "limits": "No exhaustive species list or country-specific animal classification supplied.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Living-donor and lawfully slaughtered-donor alternatives are retained; slaughter applies where required.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            },
+            {
+              "source_id": "IIFA-AR",
+              "publication": "2025-11-20",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265",
+            "IIFA-AR"
+          ],
+          "locator": "English Third1; Arabic Third1",
+          "limits": "No named live-biopsy process is certified; the live-animal wording is not restricted to a named species by this clause.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "No prohibited medium or additives; flowing blood and porcine gelatin are examples.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "Third2",
+          "limits": "Animal origin alone is not a complete impurity classification; exact ingredient/process facts remain necessary.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "First; compare Third2",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "First reaffirms Resolution198 on transmutation/dilution; it does not expressly classify ordinary cell multiplication as istihala.",
+          "search_disposition": "Resolution265 read; cross-reference198 not newly investigated in this assignment.",
+          "next_action": "Read198 with265 and obtain scoped fiqh review of the proposed cell process; preserve reference versus application distinction."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Donor slaughter is conditional, alongside the living-donor route; no separate final-biomass slaughter rule is stated.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            },
+            {
+              "source_id": "IIFA-AR",
+              "publication": "2025-11-20",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265",
+            "IIFA-AR"
+          ],
+          "locator": "English Third1; Arabic Third1",
+          "limits": "Do not generalize donor alternatives into an exemption for every species, ingredient or finished product.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "stage_scope": {
+            "donor": "conditional_alternatives",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "Final product must be safe and non-harmful under relevant authorities’ standards and procedures.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "Fifth",
+          "limits": "No named regulatory approval or safety dossier supplied.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": "Companies must disclose needed information to consumers, with supervisory verification of compliance.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "IIFA265",
+              "publication": "2025-11-20",
+              "session": [
+                "2025-05-04",
+                "2025-05-08"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "IIFA265"
+          ],
+          "locator": "Fourth",
+          "limits": "Disclosure condition; no particular label wording, logo licence or packaging specification supplied.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        }
+      }
+    },
+    {
+      "id": "MUIS",
+      "requirement_id": "INST-069",
+      "name": "MUIS / Fatwa Committee of Singapore",
+      "type": "official_release_booklet_and_summary_annex",
+      "territory": "Singapore; no export recognition inferred",
+      "source_ids": [
+        "MUIS2024",
+        "MUIS-BOOK",
+        "C2-MUIS-ANNEX"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "prior_review_ids": [
+        "V-RULINGS",
+        "V-MUIS-SUPPLEMENT",
+        "SF-20261001-C2"
+      ],
+      "instrument": "2024 fatwa as reported in release; From Lab to Table first edition2024; AnnexC Key Fatwas2022–2025",
+      "date_limit": "Release3Feb2024; booklet2024; exact annex publication and original adoption dates unknown.",
+      "later_counter_search": {
+        "operations": [
+          14
+        ],
+        "result": "Current search returned2024release and24Sep2025CEO speech; speech refers to guidance, not a revised procurement clause or product certificate.",
+        "disposition": "No verified supersession in bounded new search or prior pilot; not evidence of absence."
+      },
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Halal-consumable animal source required.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "MUIS2024",
+              "publication": "2024-02-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "publication": null,
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS2024",
+            "MUIS-BOOK",
+            "C2-MUIS-ANNEX"
+          ],
+          "locator": "Release8(i); booklet printedp13; AnnexC §1 lines33–35",
+          "limits": "No all-species catalogue or product conformity established.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Conflicting or incompletely reconciled procurement formulations remain in official materials.",
+          "status": "conflicting_official_passages",
+          "date": [
+            {
+              "source_id": "MUIS2024",
+              "publication": "2024-02-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "publication": null,
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS2024",
+            "MUIS-BOOK",
+            "C2-MUIS-ANNEX"
+          ],
+          "locator": "Release8(i); booklet printedp14/PDFp16; AnnexC §1 lines33–49",
+          "limits": "Release silence does not establish live-biopsy permission. Neither an amendment nor a hierarchy resolving booklet/annex passages was established.",
+          "unknown_reason": null,
+          "search_disposition": "All three retained passages compared; one new later-statement search plus prior blind search did not resolve the tension.",
+          "variants": [
+            {
+              "source_id": "MUIS2024",
+              "locator": "Paragraph8(i)",
+              "position": "Halal animal source; procurement method not specified."
+            },
+            {
+              "source_id": "MUIS-BOOK",
+              "locator": "Printedp14/PDFp16",
+              "position": "Framework paragraph requires prior Islamic slaughter; nearby egg-embryo paragraph permits extraction without slaughter."
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "locator": "PDFpp1–2 §1 lines36–40 and46–49",
+              "position": "Discussion extends milk/eggs/musk exceptions to stem cells; concluding list requires slaughtered halal donors."
+            }
+          ],
+          "next_action": "Obtain authoritative clarification/full fatwa version and qualified review of egg/stem-cell exceptions and certification scope."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "All constituent ingredients and cultivation media must satisfy halal requirements; AnnexC adds no non-halal cross-contamination.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "MUIS2024",
+              "publication": "2024-02-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "publication": null,
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS2024",
+            "MUIS-BOOK",
+            "C2-MUIS-ANNEX"
+          ],
+          "locator": "Release8(ii); booklet printedpp13–14; AnnexC lines41–49",
+          "limits": "Serum-free is not itself proof that every growth factor, additive, scaffold or process is halal.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "publication": null,
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS-BOOK",
+            "C2-MUIS-ANNEX"
+          ],
+          "locator": "Booklet printedp11 versuspp12–14; AnnexC §1 versus§2 lines83–88",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "Bookletp11 and AnnexC §2 apply istihala discussion to insect-derived alternative proteins, not expressly to cultivated animal cells.",
+          "search_disposition": "Adjacent subject inspected and excluded from cell-culture coding.",
+          "next_action": "Find an explicit cultivated-cell application or retain this scoped unknown."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Donor-slaughter and egg/stem-cell exceptions remain unreconciled; no distinct finished-biomass slaughter rule established.",
+          "status": "conflicting_official_passages",
+          "date": [
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "publication": null,
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS-BOOK",
+            "C2-MUIS-ANNEX"
+          ],
+          "locator": "Booklet printedp14; AnnexC §1 lines36–49",
+          "limits": "Do not choose one passage silently or infer a product-specific exemption.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "stage_scope": {
+            "donor": "conflicting_or_scope_dependent",
+            "finished_biomass": "not_separately_stated"
+          },
+          "variants": [
+            {
+              "source_id": "MUIS-BOOK",
+              "locator": "Printedp14/PDFp16",
+              "position": "Framework paragraph requires prior Islamic slaughter; nearby egg-embryo paragraph permits extraction without slaughter."
+            },
+            {
+              "source_id": "C2-MUIS-ANNEX",
+              "locator": "PDFpp1–2 §1 lines36–40 and46–49",
+              "position": "Discussion extends milk/eggs/musk exceptions to stem cells; concluding list requires slaughtered halal donors."
+            }
+          ],
+          "next_action": "Same procurement clarification, with donor versus harvest stage specified."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "Clean, non-toxic product required.",
+          "status": "attributed_primary_position",
+          "date": [
+            {
+              "source_id": "MUIS2024",
+              "publication": "2024-02-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS2024"
+          ],
+          "locator": "Paragraph8(iii)",
+          "limits": "SFA approval of some product in2020 is contextual and does not satisfy every future product’s safety or halal requirements.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": "Booklet describes prevailing Singapore labelling rules for novel-food producers.",
+          "status": "related_regulatory_context_only",
+          "date": [
+            {
+              "source_id": "MUIS-BOOK",
+              "publication": "2024",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MUIS-BOOK"
+          ],
+          "locator": "Printedp6/PDFp8, Singapore Novel Food Regulatory Framework",
+          "limits": "This is a general regulatory reference, not a distinct cultivated-meat halal-label requirement or verified operative label clause.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "comparison_eligible": false,
+          "next_action": "Locate the operative product/category label rule before legal or label-format advice."
+        }
+      }
+    },
+    {
+      "id": "MUFTI-WP",
+      "requirement_id": "INST-070",
+      "name": "Mufti Wilayah Persekutuan",
+      "type": "official_department_explanatory_article",
+      "territory": "Malaysia Federal Territories department; no national gazettal established",
+      "source_ids": [
+        "WP595"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "Irsyad Hukum595,24July2021; Muhammad Fathi Noordin byline",
+      "language_review": "held_Malay",
+      "next_action": "Eligible English/Arabic edition or qualified Malay review; establish later changes and legal status separately.",
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Provisional reading: edible donor species; cattle/goats and marine categories discussed.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines21,35,66",
+          "limits": "Malay interpretation is held; not a reviewed national species rule.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Provisional reading: ordinary body tissue from live or unslaughtered animals excluded; lawful slaughter, milk and marine cases distinguished.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines35–41,53,66",
+          "limits": "Preserve source-category exceptions; requires qualified language/fiqh review.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines21,59,72",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "Article discusses donor-tissue impurities and cites a1990 surface-active-agent rule, but no complete specific growth-medium prescription is established here.",
+          "search_disposition": "Malay article read provisionally; related ingredients passage not expanded into a modern medium rule.",
+          "next_action": "Review full eligible translation and exact ingredient clauses; keep donor source distinct from culture medium."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines19–81",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No explicit cultivated-cell istihala conclusion established in inspected article.",
+          "search_disposition": "Full returned article passage inspected in held language lane.",
+          "next_action": "Eligible translation or qualified review of article; seek explicit application only if needed."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Provisional reading: donor slaughter for ordinary terrestrial body tissue; marine sources and milk treated separately.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines35–41,53,66",
+          "limits": "No separate final-biomass slaughter instruction established.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "stage_scope": {
+            "donor": "held_conditional_by_source_category",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "Provisional reading: safety required; harmful product forbidden; further competent-authority study urged.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines22,74–77",
+          "limits": "No product testing, approval or current safety dossier supplied.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "WP595",
+              "publication": "2021-07-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "WP595"
+          ],
+          "locator": "Provider lines19–81",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No cultivated-product label requirement established by inspected passage.",
+          "search_disposition": "Explanatory article inspected; certification labelling instruments not researched here.",
+          "next_action": "Check applicable separate certification/food-labelling instrument if a product application is proposed."
+        }
+      }
+    },
+    {
+      "id": "GOOD-MEAT-ADVISERS",
+      "requirement_id": "INST-071",
+      "name": "GOOD Meat named advisers",
+      "type": "named_scholars_advice_reported_by_participants",
+      "territory": "Saudi-based advisers; no Saudi state or global legal effect established",
+      "source_ids": [
+        "P1C3-PROCESS-S08",
+        "P1C5-INST-GOODMEAT"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "11September2023 participant notices; signed opinion not obtained",
+      "named_advisers": [
+        "Sheikh Abdullah AlManea",
+        "Professor Abdullah al-Mutlaq",
+        "Professor Saad Al-Shathry"
+      ],
+      "identity_limit": "Names verified in participant notices. Their institutional affiliations do not convert this engagement into a Council/IIFA institutional decision.",
+      "historical_process_caveat": {
+        "source_id": "P1C5-INST-GOODMEAT",
+        "locator": "Provider line29",
+        "position": "Company said its then US/Singapore-approved cell line and process did not meet these conditions.",
+        "limits": "Statement dated2023; no current noncompliance inference or identifier match to a later dossier.",
+        "report_date": "2023-09-11",
+        "current_noncompliance_established": false,
+        "process_version_match_established": false
+      },
+      "audit_correction": {
+        "frozen_audit_requirement": "INST-071",
+        "overlooked_existing_claim": "P1C3-PROCESS-C12",
+        "overlooked_source": "P1C3-PROCESS-S08",
+        "correction": "Original audit missing label overlooked a retained participant lead. Full notice now acquired, but original signed opinion/certificate still unlocated."
+      },
+      "source_independence": "Law firm and manufacturer describe one engagement; not two independent scholar decisions.",
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Permissible animal required; chicken and cow are examples.",
+          "status": "attributed_participant_report",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Law-firm condition1; manufacturer line23",
+          "limits": "Commissioned-advice attribution; no exhaustive species list.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Cell-line donor must be slaughtered under Islamic law.",
+          "status": "attributed_participant_report",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Law-firm condition2; manufacturer line24",
+          "limits": "No supplied live-biopsy exception or independently authenticated signed opinion.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "Permissible nutrients; excludes spilled blood, alcohol and improperly slaughtered-animal or pig materials.",
+          "status": "attributed_participant_report",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Law-firm condition3; manufacturer line26",
+          "limits": "No complete formulation, process version or certificate attached.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Four-condition lists",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "Neither notice expressly determines whether cell cultivation constitutes istihala.",
+          "search_disposition": "Both participant accounts inspected; no original signed legal reasoning obtained.",
+          "next_action": "Obtain authenticated full opinion and reasoning before transformation coding."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Donor slaughter required; final cultivated tissue is not separately addressed.",
+          "status": "attributed_participant_report",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Law-firm condition2; manufacturer line24",
+          "limits": "Adviser condition, not a certifier-issued product determination.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "stage_scope": {
+            "donor": "required_as_reported",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "Edibility and non-harm require specialist confirmation, such as a food regulator.",
+          "status": "attributed_participant_report",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Law-firm condition4; manufacturer line28",
+          "limits": "A safety finding does not establish halal conformity.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "P1C3-PROCESS-S08",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C5-INST-GOODMEAT",
+              "publication": "2023-09-11",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-PROCESS-S08",
+            "P1C5-INST-GOODMEAT"
+          ],
+          "locator": "Four-condition lists",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No label condition appears in the four reported conditions.",
+          "search_disposition": "Participant accounts inspected; certification process remains separate.",
+          "next_action": "Inspect authenticated full opinion and applicable certification rules if label use is proposed."
+        }
+      }
+    },
+    {
+      "id": "JAKIM-MKI",
+      "requirement_id": "INST-072",
+      "name": "JAKIM / MKI Muzakarah",
+      "type": "MKI_religious_opinion_published_in_JAKIM_CIRi",
+      "territory": "Malaysia; state implementation/gazettal not established",
+      "source_ids": [
+        "MY-MKI-128"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "128thMKI session23–26September2025; CIRi16914",
+      "language_review": "held_Malay",
+      "gazettal": "Record states Tidak Diwartakan (not gazetted), provisional language reading.",
+      "date_limit": "Session interval only; exact adoption/publication/effect day unknown.",
+      "prior_review_ids": [
+        "SF-20261001-C3/P05"
+      ],
+      "next_action": "Qualified Malay or eligible English/Arabic source review; state adoption and certification implementation investigated separately.",
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Provisional reading: halal animal source required; forbidden species excluded.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Numbered1;2(b)",
+          "limits": "Published opinion is language-held; not a nationwide operative certification determination.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Provisional reading: cells from slaughtered halal animals; unslaughtered halal donor excluded.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Numbered1;2(a)",
+          "limits": "No verified exception or distinct live-biopsy route stated; language review remains pending.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "Provisional reading: halal medium; forbidden/impure medium and biological components excluded.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Numbered1;2(c); asterisk note",
+          "limits": "Asterisk specifies flowing-blood serum and biological component examples; precise interpretation requires language review.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Complete numbered1–2 and note",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No explicit transformation exception/application established in this short opinion.",
+          "search_disposition": "Retained original inspected provisionally; silence not rejection of istihala in every context.",
+          "next_action": "Review eligible translation or qualified reading; inspect full underlying deliberation if available."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Provisional reading: donor slaughter required; final biomass not separately addressed.",
+          "status": "held_language",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Numbered1;2(a)",
+          "limits": "No automatic transfer to state gazette law or product certification.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "stage_scope": {
+            "donor": "required_in_held_reading",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Complete numbered1–2 and note",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No separate safety condition established in this short cultivated-meat opinion.",
+          "search_disposition": "Opinion inspected; general certification/food law is a separate evidence question.",
+          "next_action": "Check separate operative standard or guidance for this condition without filling opinion silence."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "MY-MKI-128",
+              "publication": null,
+              "session": [
+                "2025-09-23",
+                "2025-09-26"
+              ],
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "MY-MKI-128"
+          ],
+          "locator": "Complete numbered1–2 and note",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No separate labelling condition established in this short cultivated-meat opinion.",
+          "search_disposition": "Opinion inspected; general certification/food law is a separate evidence question.",
+          "next_action": "Check separate operative standard or guidance for this condition without filling opinion silence."
+        }
+      }
+    },
+    {
+      "id": "MUI",
+      "requirement_id": "INST-073",
+      "name": "Majelis Ulama Indonesia",
+      "type": "named_institution_position_unlocated",
+      "territory": "Indonesia",
+      "source_ids": [],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": null,
+      "date_limit": "No attributable cultivated-meat instrument date established.",
+      "bounded_search": {
+        "cycles": 2,
+        "operation_ids": [
+          1,
+          5
+        ],
+        "status": "parked_after_two_unproductive_cycles",
+        "result": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+        "reopen_trigger": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held.",
+        "limits": "Bounded indexed searches only. English and, for MUI, Indonesian terms do not constitute an exhaustive archive review; seeded India/Deoband domains were not authenticated as complete current archives. No absence claim.",
+        "queries": [
+          {
+            "operation": 1,
+            "query": "site:mui.or.id \"daging kultur\" fatwa"
+          },
+          {
+            "operation": 5,
+            "query": "site:mui.or.id \"daging\" \"laboratorium\""
+          }
+        ],
+        "search_date": "2026-10-01"
+      },
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 1, 5",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Indonesian official site searches found unrelated plastic/food-testing material, not a cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            1,
+            5
+          ],
+          "next_action": "Official fatwa catalogue or authenticated resolution identifier plus eligible English/Arabic text; Indonesian-only material remains held."
+        }
+      }
+    },
+    {
+      "id": "CII",
+      "requirement_id": "INST-074",
+      "name": "Pakistan Council of Islamic Ideology",
+      "type": "named_institution_position_unlocated",
+      "territory": "Pakistan",
+      "source_ids": [],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": null,
+      "date_limit": "No attributable cultivated-meat instrument date established.",
+      "bounded_search": {
+        "cycles": 2,
+        "operation_ids": [
+          2,
+          6
+        ],
+        "status": "parked_after_two_unproductive_cycles",
+        "result": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+        "reopen_trigger": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position.",
+        "limits": "Bounded indexed searches only. English and, for MUI, Indonesian terms do not constitute an exhaustive archive review; seeded India/Deoband domains were not authenticated as complete current archives. No absence claim.",
+        "queries": [
+          {
+            "operation": 2,
+            "query": "site:cii.gov.pk \"cultivated\" OR \"cultured meat\" OR \"lab grown\""
+          },
+          {
+            "operation": 6,
+            "query": "\"Council of Islamic Ideology\" \"meat\" \"cultured\""
+          }
+        ],
+        "search_date": "2026-10-01"
+      },
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 2, 6",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain and named-body searches returned no attributable cultivated-meat instrument.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            2,
+            6
+          ],
+          "next_action": "Change to dated official annual reports/meeting agendas or authenticated opinion number; general constitutional advisory remit is not a cultivated-food position."
+        }
+      }
+    },
+    {
+      "id": "IFAI",
+      "requirement_id": "INST-075",
+      "name": "Islamic Fiqh Academy India",
+      "type": "named_institution_position_unlocated",
+      "territory": "India",
+      "source_ids": [],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": null,
+      "date_limit": "No attributable cultivated-meat instrument date established.",
+      "bounded_search": {
+        "cycles": 2,
+        "operation_ids": [
+          3,
+          7
+        ],
+        "status": "parked_after_two_unproductive_cycles",
+        "result": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+        "reopen_trigger": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier.",
+        "limits": "Bounded indexed searches only. English and, for MUI, Indonesian terms do not constitute an exhaustive archive review; seeded India/Deoband domains were not authenticated as complete current archives. No absence claim.",
+        "queries": [
+          {
+            "operation": 3,
+            "query": "site:ifa-india.org \"cultured\" OR \"cultivated\" OR \"lab\""
+          },
+          {
+            "operation": 7,
+            "query": "\"Islamic Fiqh Academy\" \"India\" \"cultured meat\""
+          }
+        ],
+        "search_date": "2026-10-01"
+      },
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 3, 7",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Domain-seeded and full institution-name searches located no Indian Academy resolution; International Islamic Fiqh Academy material is a different institution.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            3,
+            7
+          ],
+          "next_action": "Verify current official archive and dated seminar proceedings, including an eligible Arabic/English text or authenticated resolution identifier."
+        }
+      }
+    },
+    {
+      "id": "DEOBAND",
+      "requirement_id": "INST-076",
+      "name": "Darul Uloom Deoband",
+      "type": "named_institution_position_unlocated",
+      "territory": "India",
+      "source_ids": [],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": null,
+      "date_limit": "No attributable cultivated-meat instrument date established.",
+      "bounded_search": {
+        "cycles": 2,
+        "operation_ids": [
+          4,
+          8
+        ],
+        "status": "parked_after_two_unproductive_cycles",
+        "result": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+        "reopen_trigger": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads.",
+        "limits": "Bounded indexed searches only. English and, for MUI, Indonesian terms do not constitute an exhaustive archive review; seeded India/Deoband domains were not authenticated as complete current archives. No absence claim.",
+        "queries": [
+          {
+            "operation": 4,
+            "query": "site:darulifta-deoband.com \"cultured meat\" OR \"lab-grown\" OR \"cultivated\""
+          },
+          {
+            "operation": 8,
+            "query": "\"Deoband\" \"lab grown meat\" fatwa"
+          }
+        ],
+        "search_date": "2026-10-01"
+      },
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "researched_unknown_no_primary_instrument",
+          "date": [],
+          "source_ids": [],
+          "locator": "Bounded search queries recorded in this institution’s bounded_search object; operations 4, 8",
+          "limits": "No absence, prohibition, approval or consensus inferred.",
+          "unknown_reason": "Official-domain-seeded and named-body searches found no attributable cultivated-meat fatwa.",
+          "search_disposition": "Two bounded cycles completed; parked pending changed archive/identifier or eligible-language evidence.",
+          "date_note": "No instrument date established; 1 October 2026 is the search date, not an adoption date.",
+          "retrieval_operation_ids": [
+            4,
+            8
+          ],
+          "next_action": "Change to authenticated fatwa archive/index and question number; eligible Arabic/English text or qualified review required for other-language leads."
+        }
+      }
+    },
+    {
+      "id": "AL-AZHAR",
+      "requirement_id": "INST-077",
+      "name": "Al-Azhar",
+      "type": "article_attribution_underlying_institutional_instrument_unlocated",
+      "territory": "Egypt",
+      "source_ids": [
+        "P1C3-EGY-S01"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "Seminar paper statement as reported by speaker's organization; Council concurrence reported without decision text",
+      "date_limit": "Article published2024-09-24; original instrument date/number/authorship unresolved.",
+      "prior_claim_ids": [
+        "P1C3-EGY-C01",
+        "P1C3-EGY-C02"
+      ],
+      "prior_review_ids": [
+        "R3-EGYPT",
+        "R4-OMAN-EGYPT"
+      ],
+      "attribution_limits": "Named Shoman report with claimed Council concurrence; graduates’ organization is not the Council’s actual decision.",
+      "later_counter_review": {
+        "status": "incomplete",
+        "counterlead_source_ids": [
+          "P1C3-EGY-S05"
+        ],
+        "note": "Counterlead alleges an October2024 advisory/live-biopsy option; unsupported by retrieved primary document. Dedicated later-statement search remains pending."
+      },
+      "next_actions": [
+        "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship.",
+        "Retrieve full Shoman Jeddah seminar paper and corroborate the claimed Council concurrence.",
+        "Check later/counterstatements and obtain qualified Arabic/fiqh review before consensus coding."
+      ],
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": null,
+          "status": "unknown_in_inspected_report",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Fish/locust exception appears, but full permitted-species criterion is not explicit. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": "This condition was not established in the retained report; original ruling remains unlocated.",
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Slaughtered donor stated; cells taken from a living donor excluded, with a fish/locust exception; exact exception scope awaits qualified Arabic review",
+          "status": "held_reported_officeholder_position",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Cultivated animal-cell meat; not plant-based or fermentation guidance. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "Impurity exclusion stated",
+          "status": "held_reported_officeholder_position",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Cultivated animal-cell meat; not plant-based or fermentation guidance. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_report",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Cultivated animal-cell meat; not plant-based or fermentation guidance. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": "This condition was not established in the retained report; original ruling remains unlocated.",
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Donor slaughter stated; fish/locust exception stated",
+          "status": "held_reported_officeholder_position",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Donor condition only; no separate final-tissue slaughter claim. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship.",
+          "stage_scope": {
+            "donor": "held_reported_condition",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "No health harm must be established",
+          "status": "held_reported_officeholder_position",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Cultivated animal-cell meat; not plant-based or fermentation guidance. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_report",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S01",
+              "publication": "2024-09-24",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S01"
+          ],
+          "locator": "WAAG24Sep2024 three article paragraphs; condition paragraph1",
+          "limits": "Cultivated animal-cell meat; not plant-based or fermentation guidance. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": "This condition was not established in the retained report; original ruling remains unlocated.",
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [],
+          "next_action": "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship."
+        }
+      }
+    },
+    {
+      "id": "DAR-AL-IFTA-EGYPT",
+      "requirement_id": "INST-078",
+      "name": "Dar al-Ifta Egypt",
+      "type": "article_attribution_underlying_institutional_instrument_unlocated",
+      "territory": "Egypt",
+      "source_ids": [
+        "P1C3-EGY-S02",
+        "P1C3-EGY-S03"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Edition-specific attributed position; no exhaustive later-instrument or current-product conformity claim.",
+      "instrument": "Media reproduction of alleged institutional fatwa; original instrument unlocated",
+      "date_limit": "Article published2023-09-03; original instrument date/number/authorship unresolved.",
+      "prior_claim_ids": [
+        "P1C3-EGY-C03"
+      ],
+      "prior_review_ids": [
+        "R3-EGYPT",
+        "R4-OMAN-EGYPT"
+      ],
+      "attribution_limits": "News reproduction, not an acquired Dar al-Ifta ruling; same alleged answer across outlets is one source family.",
+      "later_counter_review": {
+        "status": "incomplete",
+        "counterlead_source_ids": [],
+        "note": "A November2023 news repetition surfaced in operation12. It is not proof of a newly issued or changed institutional ruling. No later/current institution statement verified."
+      },
+      "next_actions": [
+        "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text.",
+        "Check Dar al-Ifta current archive and later/counterstatements without inferring prohibition or approval from missing search hits.",
+        "Review technical premises separately from legal reasoning; secure qualified Arabic/fiqh review."
+      ],
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "Edible animal stated in reproduced answer",
+          "status": "held_secondary_attribution",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "Slaughtered donor and no live biopsy stated in reproduced answer",
+          "status": "held_secondary_attribution",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        },
+        "medium": {
+          "condition": "medium",
+          "position": "No impure cultivation inputs stated in reproduced answer",
+          "status": "held_secondary_attribution",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_report",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": "This condition was not established in the retained report; original ruling remains unlocated.",
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Donor slaughter stated in reproduced answer",
+          "status": "held_secondary_attribution",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "No separate final-tissue slaughter conclusion. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text.",
+          "stage_scope": {
+            "donor": "held_reported_condition",
+            "finished_biomass": "not_separately_stated"
+          }
+        },
+        "safety": {
+          "condition": "safety",
+          "position": "Immediate/future health harm excluded; food-safety requirements mentioned",
+          "status": "held_secondary_attribution",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": null,
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_report",
+          "date": [
+            {
+              "source_id": "P1C3-EGY-S02",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            },
+            {
+              "source_id": "P1C3-EGY-S03",
+              "publication": "2023-09-03",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "P1C3-EGY-S02",
+            "P1C3-EGY-S03"
+          ],
+          "locator": "Veto3Sep2023 conditions paragraphs/provider lines68–99; Cairo24same-day attribution",
+          "limits": "Candidate lead only; do not count in institution consensus. Underlying official instrument missing; no institutional vote.",
+          "unknown_reason": "This condition was not established in the retained report; original ruling remains unlocated.",
+          "search_disposition": "Run03 bounded institutional searches and run04 original-publisher recovery reused; no repeated new retrieval here.",
+          "prior_claim_ids": [],
+          "next_action": "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text."
+        }
+      }
+    },
+    {
+      "id": "GHAMIDI-PUBLISHED",
+      "requirement_id": "GHAMIDI",
+      "name": "Javed Ahmad Ghamidi — published author",
+      "type": "published_authored_dietary_framework_not_institution",
+      "territory": "Published general framework; no jurisdictional law or contemporary cell ruling",
+      "source_ids": [
+        "GHAMIDI"
+      ],
+      "review_status": "independently_checked_scoped_reading",
+      "human_scholarly_review": "pending",
+      "binding_civil_law_established": false,
+      "product_certificate_established": false,
+      "currentness": "Historical published framework only. This matrix does not use private interview material or establish a contemporary cultivated-cell verdict.",
+      "instrument": "The Dietary Laws / The Dietary Shariah; Shehzad Saleem translation; February2002issue",
+      "separate_from_interview": true,
+      "prior_claim_ids": [
+        "G01",
+        "G02"
+      ],
+      "prior_review_ids": [
+        "V-PUBLISHED-GHAMIDI"
+      ],
+      "cells": {
+        "species": {
+          "condition": "species",
+          "position": "General framework combines innate discernment and revealed dietary prohibitions, including pork.",
+          "status": "general_framework_only",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Provider lines15–25",
+          "limits": "Not a contemporary cultivated-cell species list or permission; no school consensus inferred.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "comparison_eligible": false
+        },
+        "donor_procurement": {
+          "condition": "donor_procurement",
+          "position": "General essay treats flesh detached from a living animal as maytah.",
+          "status": "general_framework_only",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Provider lines34–39; priorG01",
+          "limits": "Applying flesh language to isolated cultured cells is a separate modern inference, not his published cultivated-meat verdict.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "comparison_eligible": false
+        },
+        "slaughter": {
+          "condition": "slaughter",
+          "position": "Essay explains tadhkiyah, with fish/locust and hunting distinctions in its wider dietary framework.",
+          "status": "general_framework_only",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Provider lines39–68; priorG02tasmiya passage separately checked",
+          "limits": "No direct donor-cell or final-biomass ruling; do not attribute quoted Islahi reasoning exclusively to Ghamidi.",
+          "unknown_reason": null,
+          "search_disposition": "Relevant retained passage inspected; no exhaustive archive search implied.",
+          "comparison_eligible": false,
+          "stage_scope": {
+            "donor": "not_a_cell_donor_ruling",
+            "finished_biomass": "not_addressed"
+          }
+        },
+        "medium": {
+          "condition": "medium",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Named essay; priorG01–G02; returned provider first part",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No direct cultivated-cell medium position established from this published dietary essay.",
+          "search_disposition": "Known published framework checked; interview remains unavailable, and unreturned parts were not newly inspected.",
+          "next_action": "Locate explicit authored cultivated-cell treatment; do not substitute general dietary analogy or unpublished interview reconstruction."
+        },
+        "istihala": {
+          "condition": "istihala",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Named essay; priorG01–G02; returned provider first part",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No direct cultivated-cell istihala position established from this published dietary essay.",
+          "search_disposition": "Known published framework checked; interview remains unavailable, and unreturned parts were not newly inspected.",
+          "next_action": "Locate explicit authored cultivated-cell treatment; do not substitute general dietary analogy or unpublished interview reconstruction."
+        },
+        "safety": {
+          "condition": "safety",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Named essay; priorG01–G02; returned provider first part",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No direct cultivated-cell safety position established from this published dietary essay.",
+          "search_disposition": "Known published framework checked; interview remains unavailable, and unreturned parts were not newly inspected.",
+          "next_action": "Locate explicit authored cultivated-cell treatment; do not substitute general dietary analogy or unpublished interview reconstruction."
+        },
+        "labelling": {
+          "condition": "labelling",
+          "position": null,
+          "status": "unknown_in_inspected_scope",
+          "date": [
+            {
+              "source_id": "GHAMIDI",
+              "publication": "2002-02",
+              "session": null,
+              "exact_adoption": null
+            }
+          ],
+          "source_ids": [
+            "GHAMIDI"
+          ],
+          "locator": "Named essay; priorG01–G02; returned provider first part",
+          "limits": "Silence is not permission, prohibition, exemption, or evidence that no ruling exists.",
+          "unknown_reason": "No direct cultivated-cell labelling position established from this published dietary essay.",
+          "search_disposition": "Known published framework checked; interview remains unavailable, and unreturned parts were not newly inspected.",
+          "next_action": "Locate explicit authored cultivated-cell treatment; do not substitute general dietary analogy or unpublished interview reconstruction."
+        }
+      }
+    }
+  ],
+  "rows": [
+    {
+      "condition": "species",
+      "cell_ids": [
+        "IIFA/species",
+        "MUIS/species",
+        "MUFTI-WP/species",
+        "GOOD-MEAT-ADVISERS/species",
+        "JAKIM-MKI/species",
+        "MUI/species",
+        "CII/species",
+        "IFAI/species",
+        "DEOBAND/species",
+        "AL-AZHAR/species",
+        "DAR-AL-IFTA-EGYPT/species",
+        "GHAMIDI-PUBLISHED/species"
+      ],
+      "classification": null,
+      "classification_status": "insufficient_comparable_coverage",
+      "outliers": [],
+      "limits": "No vote among unchecked, unknown, language-held, secondary-held or general-framework columns. Agreement in observed passages cannot establish unanimity or majority of the full roster.",
+      "observed_comparison": "IIFA, MUIS and the reported GOOD Meat advice require a permissible animal source. Species-specific boundaries across the full roster remain unestablished."
+    },
+    {
+      "condition": "donor_procurement",
+      "cell_ids": [
+        "IIFA/donor_procurement",
+        "MUIS/donor_procurement",
+        "MUFTI-WP/donor_procurement",
+        "GOOD-MEAT-ADVISERS/donor_procurement",
+        "JAKIM-MKI/donor_procurement",
+        "MUI/donor_procurement",
+        "CII/donor_procurement",
+        "IFAI/donor_procurement",
+        "DEOBAND/donor_procurement",
+        "AL-AZHAR/donor_procurement",
+        "DAR-AL-IFTA-EGYPT/donor_procurement",
+        "GHAMIDI-PUBLISHED/donor_procurement"
+      ],
+      "classification": "disputed",
+      "classification_status": "documented_divergence_with_scope_and_attribution_qualifiers",
+      "outliers": [
+        "IIFA living-donor alternative",
+        "GOOD-MEAT-ADVISERS reported donor-slaughter condition",
+        "MUIS unresolved official formulations"
+      ],
+      "limits": "GOOD Meat evidence is participant-reported advice; MUIS certification/booklet and annex scopes remain unresolved. Held Malaysian/Egyptian reports and Ghamidi analogy are not additional accepted votes.",
+      "supporting_cell_ids": [
+        "IIFA/donor_procurement",
+        "GOOD-MEAT-ADVISERS/donor_procurement",
+        "MUIS/donor_procurement"
+      ],
+      "observed_comparison": "Retained positions diverge on donor slaughter; this does not prove the institutions formally debated one another or considered an identical process."
+    },
+    {
+      "condition": "medium",
+      "cell_ids": [
+        "IIFA/medium",
+        "MUIS/medium",
+        "MUFTI-WP/medium",
+        "GOOD-MEAT-ADVISERS/medium",
+        "JAKIM-MKI/medium",
+        "MUI/medium",
+        "CII/medium",
+        "IFAI/medium",
+        "DEOBAND/medium",
+        "AL-AZHAR/medium",
+        "DAR-AL-IFTA-EGYPT/medium",
+        "GHAMIDI-PUBLISHED/medium"
+      ],
+      "classification": null,
+      "classification_status": "insufficient_comparable_coverage",
+      "outliers": [],
+      "limits": "No vote among unchecked, unknown, language-held, secondary-held or general-framework columns. Agreement in observed passages cannot establish unanimity or majority of the full roster.",
+      "observed_comparison": "IIFA/MUIS and participant-reported GOOD Meat advice exclude prohibited inputs; wording and ingredient examples differ. No universal formulation or transformation exception established."
+    },
+    {
+      "condition": "istihala",
+      "cell_ids": [
+        "IIFA/istihala",
+        "MUIS/istihala",
+        "MUFTI-WP/istihala",
+        "GOOD-MEAT-ADVISERS/istihala",
+        "JAKIM-MKI/istihala",
+        "MUI/istihala",
+        "CII/istihala",
+        "IFAI/istihala",
+        "DEOBAND/istihala",
+        "AL-AZHAR/istihala",
+        "DAR-AL-IFTA-EGYPT/istihala",
+        "GHAMIDI-PUBLISHED/istihala"
+      ],
+      "classification": null,
+      "classification_status": "insufficient_comparable_coverage",
+      "outliers": [],
+      "limits": "No vote among unchecked, unknown, language-held, secondary-held or general-framework columns. Agreement in observed passages cannot establish unanimity or majority of the full roster.",
+      "observed_comparison": "No eligible direct cell-culture application established. IIFA198 cross-reference and MUIS insect transformation passage cannot fill the cultivated-cell question.",
+      "next_action": "Explicit institution-specific reasoning on cell multiplication/impure inputs, with qualified review, is needed."
+    },
+    {
+      "condition": "slaughter",
+      "cell_ids": [
+        "IIFA/slaughter",
+        "MUIS/slaughter",
+        "MUFTI-WP/slaughter",
+        "GOOD-MEAT-ADVISERS/slaughter",
+        "JAKIM-MKI/slaughter",
+        "MUI/slaughter",
+        "CII/slaughter",
+        "IFAI/slaughter",
+        "DEOBAND/slaughter",
+        "AL-AZHAR/slaughter",
+        "DAR-AL-IFTA-EGYPT/slaughter",
+        "GHAMIDI-PUBLISHED/slaughter"
+      ],
+      "classification": "disputed",
+      "classification_status": "donor_stage_only_documented_divergence",
+      "outliers": [
+        "IIFA conditional donor alternatives",
+        "GOOD-MEAT-ADVISERS reported donor slaughter",
+        "MUIS unresolved donor exceptions"
+      ],
+      "limits": "Same underlying donor issue, not an independent second disagreement count; no universal finished-tissue rule inferred.",
+      "supporting_cell_ids": [
+        "IIFA/slaughter",
+        "GOOD-MEAT-ADVISERS/slaughter",
+        "MUIS/slaughter"
+      ],
+      "observed_comparison": "Divergence concerns donor slaughter. A separate rule for slaughtering harvested biomass remains unestablished."
+    },
+    {
+      "condition": "safety",
+      "cell_ids": [
+        "IIFA/safety",
+        "MUIS/safety",
+        "MUFTI-WP/safety",
+        "GOOD-MEAT-ADVISERS/safety",
+        "JAKIM-MKI/safety",
+        "MUI/safety",
+        "CII/safety",
+        "IFAI/safety",
+        "DEOBAND/safety",
+        "AL-AZHAR/safety",
+        "DAR-AL-IFTA-EGYPT/safety",
+        "GHAMIDI-PUBLISHED/safety"
+      ],
+      "classification": null,
+      "classification_status": "insufficient_comparable_coverage",
+      "outliers": [],
+      "limits": "No vote among unchecked, unknown, language-held, secondary-held or general-framework columns. Agreement in observed passages cannot establish unanimity or majority of the full roster.",
+      "observed_comparison": "IIFA and MUIS require safe/non-harmful or clean/non-toxic product; GOOD Meat advisers’ reported condition adds specialist confirmation. Full-roster agreement is not demonstrated."
+    },
+    {
+      "condition": "labelling",
+      "cell_ids": [
+        "IIFA/labelling",
+        "MUIS/labelling",
+        "MUFTI-WP/labelling",
+        "GOOD-MEAT-ADVISERS/labelling",
+        "JAKIM-MKI/labelling",
+        "MUI/labelling",
+        "CII/labelling",
+        "IFAI/labelling",
+        "DEOBAND/labelling",
+        "AL-AZHAR/labelling",
+        "DAR-AL-IFTA-EGYPT/labelling",
+        "GHAMIDI-PUBLISHED/labelling"
+      ],
+      "classification": "single_source",
+      "classification_status": "single_attributed_religious_disclosure_condition_in_eligible_set",
+      "outliers": [
+        "IIFA disclosure condition"
+      ],
+      "limits": "Single_source means one eligible named institution directly states this religious disclosure condition in the retained set; it is not a claim that other bodies have no label requirements.",
+      "supporting_cell_ids": [
+        "IIFA/labelling"
+      ],
+      "observed_comparison": "IIFA expressly requires consumer disclosure. MUIS booklet mentions general prevailing food-labelling regulation, a different scope."
+    }
+  ],
+  "top_gaps": [
+    {
+      "priority": 1,
+      "gap": "MUIS procurement hierarchy/exceptions",
+      "action": "Resolve full official text/version and certification scope; keep all three readings until resolved."
+    },
+    {
+      "priority": 2,
+      "gap": "Four unlocated institutional instruments",
+      "action": "Change to authenticated archives/proceedings/identifiers after two failed search cycles; do not repeat the same generic queries."
+    },
+    {
+      "priority": 3,
+      "gap": "Qualified Malay readings and Egyptian originals",
+      "action": "Language review of WP/MKI; acquire Al-Azhar Council and Dar al-Ifta original instruments rather than more copies of news reports."
+    },
+    {
+      "priority": 4,
+      "gap": "Cell-culture istihala application",
+      "action": "Find explicit reasoned positions; do not borrow the insect ruling or automatically apply a general transformation cross-reference."
+    },
+    {
+      "priority": 5,
+      "gap": "Adviser-authenticated opinion and process match",
+      "action": "Preserve improved participant attribution, then obtain authenticated advice/certificate and exact process version if product qualification is required."
+    }
+  ],
+  "independent_review_id": "R5-INSTITUTIONS",
+  "source_register": "source-register.json",
+  "source_ids": [
+    "IIFA265",
+    "IIFA-AR",
+    "MUIS2024",
+    "MUIS-BOOK",
+    "C2-MUIS-ANNEX",
+    "WP595",
+    "MY-MKI-128",
+    "P1C5-INST-GOODMEAT",
+    "P1C3-PROCESS-S08",
+    "GHAMIDI",
+    "P1C3-EGY-S01",
+    "P1C3-EGY-S02",
+    "P1C3-EGY-S03"
+  ],
+  "source_dates": [
+    {
+      "source_id": "IIFA265",
+      "publication": "2025-11-20",
+      "session": [
+        "2025-05-04",
+        "2025-05-08"
+      ],
+      "limits": "Session 4–8 May 2025; English publication 20 November 2025. Exact adoption day unstated."
+    },
+    {
+      "source_id": "IIFA-AR",
+      "publication": "2025-11-20",
+      "session": null,
+      "limits": "Same issuer and instrument as English; numbering differs. Not independent corroboration."
+    },
+    {
+      "source_id": "MUIS2024",
+      "publication": "2024-02-03",
+      "session": null,
+      "limits": "Issuing-body press release; not full deliberations or a product certificate."
+    },
+    {
+      "source_id": "MUIS-BOOK",
+      "publication": "2024",
+      "session": null,
+      "limits": "Whole PDF acquired; relevant passages read as text, prior phase1 p14 visual check retained. 2024 edition is not a 2026 certification audit. Istihala passage p11 belongs to insects, not cell culture."
+    },
+    {
+      "source_id": "C2-MUIS-ANNEX",
+      "publication": null,
+      "session": null,
+      "limits": "Extraction exceptions and concluding slaughter condition both retained. No supersession established. Screenshot attempt did not produce visual-page evidence."
+    },
+    {
+      "source_id": "WP595",
+      "publication": "2021-07-24",
+      "session": null,
+      "limits": "Malay body despite /en URL; provisional condition extraction held, not accepted translation, not gazetted instrument or product certificate."
+    },
+    {
+      "source_id": "MY-MKI-128",
+      "publication": null,
+      "session": [
+        "2025-09-23",
+        "2025-09-26"
+      ],
+      "limits": "Malay held; record states not gazetted. JAKIM publication does not establish each state adoption or cultivated-product certification."
+    },
+    {
+      "source_id": "P1C5-INST-GOODMEAT",
+      "publication": "2023-09-11",
+      "session": null,
+      "limits": "Account of commissioned advice; no signed opinion, national body adoption, certification or current process conformity. Same engagement as law firm, not independent scholarly confirmation."
+    },
+    {
+      "source_id": "P1C3-PROCESS-S08",
+      "publication": "2023-09-11",
+      "session": null,
+      "limits": "Participant notice; same engagement as GOOD Meat. Original signed scholar opinion and certifier record absent. Original run03 claim P1C3-PROCESS-C12 already preserved this lead; audit INST071 omission corrected here, not by editing frozen audit."
+    },
+    {
+      "source_id": "GHAMIDI",
+      "publication": "2002-02",
+      "session": null,
+      "limits": "Published framework separate from unavailable interview and from modern cell-culture ruling. Publication month comes from retained checked source register; current extract title lacks issue date. Article title correct; stray site links excluded."
+    },
+    {
+      "source_id": "P1C3-EGY-S01",
+      "publication": "2024-09-24",
+      "session": null,
+      "limits": "Indexed publisher content, not successful direct acquisition. Exact Council ruling metadata and later statement review unresolved. Do not equate organization, university faculty, Council and Fatwa Center. Publisher is the graduates' organization; report attributes position to Shoman and states agreement with what the Council approved. The Council decision itself, its date, number and full text are not provided. The adjacent Arabic passage states an exception for fish and locusts. The exact scope requires qualified Arabic/fiqh review; do not separate this restriction from that exception. Run04 original publisher bytes strengthen article attribution only; they do not supply the underlying Council decision or Dar al-Ifta fatwa."
+    },
+    {
+      "source_id": "P1C3-EGY-S02",
+      "publication": "2023-09-03",
+      "session": null,
+      "limits": "Secondary lead only. Publication date is not original fatwa date. Process description treats cultured meat as genetically modified and serum-dependent; retain as that report's premise, not a verified technical description of all cultivation. Dar al-Ifta attribution made by journalist; named mufti, original fatwa number and original date absent. Run04 original publisher bytes strengthen article attribution only; they do not supply the underlying Council decision or Dar al-Ifta fatwa."
+    },
+    {
+      "source_id": "P1C3-EGY-S03",
+      "publication": "2023-09-03",
+      "session": null,
+      "limits": "Useful original-source lead. Same reported answer as S02; not counted as independent scholarly confirmation. Run04 original publisher bytes strengthen article attribution only; they do not supply the underlying Council decision or Dar al-Ifta fatwa."
+    }
+  ],
+  "claim_ids": [
+    "P1C5-INST-C01",
+    "P1C5-INST-C02",
+    "P1C5-INST-C03"
+  ]
+}

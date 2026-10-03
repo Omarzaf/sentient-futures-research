@@ -3,7 +3,10 @@
     "id": "G-M-LIVER",
     "scope": "M-Q4",
     "description": "Inspected Maliki primary passages clearly establish flowing/residual blood distinctions but did not explicitly name liver and spleen in the same doctrinal passage. Ibn Rushd mentions the two-blood report without specifying organs here. Do not promote the Hanbali organ citation into a Maliki citation; a named Maliki primary-text organ locator remains to be verified.",
-    "extraction_batch": "mh"
+    "extraction_batch": "mh",
+    "rows": [
+      "M-Q4"
+    ]
   },
   {
     "id": "G-ENGLISH",
@@ -13,15 +16,25 @@
   },
   {
     "id": "G-BIBLIO",
-    "scope": "H-Q4 and H-MUGH-RENNET",
+    "scope": "HB-Q4 and HB-Q7 (source H-MUGH-RENNET)",
     "description": "al-Insaf section text is read, but host page omits the work title and edition header; edition/page identity needs independent confirmation. al-Mughni rennet issue 85 is stable; exact host pagination was not independently confirmed.",
-    "extraction_batch": "mh"
+    "extraction_batch": "mh",
+    "rows": [
+      "HB-Q4",
+      "HB-Q7"
+    ]
   },
   {
     "id": "G-MODERN",
-    "scope": "Q7 and Q9 both schools",
+    "scope": "Q7 and Q9 in the Maliki and Hanbali extraction",
     "description": "No direct industrial serum/enzyme/gelatin or cell-culture ruling is claimed from classical sources. Selecting an analogy requires process facts and contemporary juristic assessment beyond this extraction.",
-    "extraction_batch": "mh"
+    "extraction_batch": "mh",
+    "rows": [
+      "M-Q7",
+      "M-Q9",
+      "HB-Q7",
+      "HB-Q9"
+    ]
   },
   {
     "id": "G1",
@@ -35,9 +48,9 @@
   {
     "id": "G2",
     "rows": [
-      "H-Q7",
+      "HN-Q7",
       "S-Q7",
-      "H-Q9",
+      "HN-Q9",
       "S-Q9",
       "J-Q9"
     ],
@@ -48,7 +61,7 @@
   {
     "id": "G3",
     "rows": [
-      "H-Q2",
+      "HN-Q2",
       "S-Q2",
       "J-Q2"
     ],
@@ -59,8 +72,8 @@
   {
     "id": "G4",
     "rows": [
-      "H-Q5",
-      "H-Q8",
+      "HN-Q5",
+      "HN-Q8",
       "S-Q8"
     ],
     "priority": "medium",
@@ -70,7 +83,7 @@
   {
     "id": "G5",
     "rows": [
-      "H-Q8"
+      "HN-Q8"
     ],
     "priority": "medium",
     "text": "Clarify precise floating-dead-fish conditions and the force of translated 'disapproved' from fuller Hanafi commentary.",
@@ -97,7 +110,7 @@
   {
     "id": "G8",
     "rows": [
-      "H-Q4"
+      "HN-Q4"
     ],
     "priority": "low",
     "text": "Al-Tahtawi mirror edition metadata needs independent bibliographic verification.",

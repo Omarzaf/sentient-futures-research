@@ -1,0 +1,8 @@
+{
+  "generator": "tools/export-paper.mjs",
+  "pandoc": "pandoc 3.10.1",
+  "manuscript_sha256": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598",
+  "reader_sha256": "89fab1093b2f673ab30ada6133f75b93db80a22d6876dfa344934b84b233aafd",
+  "human_review": "pending",
+  "published": false
+}

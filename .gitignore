@@ -25,3 +25,6 @@ private/
 # Private team material: keep in Drive, never commit
 drive-archive/
 uploads/
+
+# Browser QA screenshots: regenerate locally with presentations/halal-mmm/build/browser-qa.mjs
+presentations/halal-mmm/qa/

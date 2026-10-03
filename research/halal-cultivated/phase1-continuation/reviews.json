@@ -1,0 +1,392 @@
+[
+  {
+    "id": "R-DGFT",
+    "claim_ids": [
+      "P1C-C02",
+      "P1C-C03"
+    ],
+    "method": "Independent visual reading of original full PDF pages before receiving coordinator conclusions; reconciled with coordinator reading",
+    "scope": "Identifiers, operative paragraphs, dates, tariff/destination limits and unchanged provisions",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R-FSSAI",
+    "claim_ids": [
+      "P1C-C01",
+      "P1C-C08"
+    ],
+    "method": "Independent visual reading of section heading, exact row and status legend; separate coordinator extraction",
+    "scope": "Register identity, applicant/product/file/receipt and ambiguity of stage 7; mismatched regulation link and actual returned register identity",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R-LEGAL",
+    "claim_ids": [
+      "P1C-C04",
+      "P1C-C05",
+      "P1C-C06",
+      "P1C-C07"
+    ],
+    "method": "Blind source-capture reread; current Pakistan and Malaysia original PDFs then independently rendered and checked",
+    "scope": "Named constitutional/statutory provisions and Punjab operational guidance; version limitations retained",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R2-WEST-ASIA",
+    "claim_ids": [
+      "P1C2-IRN-LEGAL",
+      "P1C2-IRQ-LEGAL",
+      "P1C2-YEM-LEGAL",
+      "P1C2-IRN-DEMOGRAPHY",
+      "P1C2-IRQ-DEMOGRAPHY",
+      "P1C2-YEM-DEMOGRAPHY",
+      "P1C2-IND-DEMOGRAPHY",
+      "P1C2-PAK-DEMOGRAPHY",
+      "P1C2-SAU-DEMOGRAPHY",
+      "P1C2-ARE-DEMOGRAPHY"
+    ],
+    "method": "Fresh agent read preserved raw source captures before seeing coordinator candidates; exact table headings, chronology and document types reconciled.",
+    "scope": "Iran Article 12, Iraq enabling law and later code approval, Yemen compilation identity, dated Pew estimates and non-comparable Iraq survey; only captured passages.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R2-GULF",
+    "claim_ids": [
+      "P1C2-W04A-C01",
+      "P1C2-W04A-C02",
+      "P1C2-W04A-C04",
+      "P1C2-W04A-C05",
+      "P1C2-W04A-C06",
+      "P1C2-W04A-C07",
+      "P1C2-W04A-C08"
+    ],
+    "method": "Coordinator independently retrieved demographic table headers and methodology; fresh checker read Gulf raw captures before candidate comparison.",
+    "scope": "Kuwait Article 2, Qatar explanatory memorandum and four historical estimates; no current-law or school-prevalence certification.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R2-SCHOOL",
+    "claim_ids": [
+      "P1C2-M-Q4-TEXT"
+    ],
+    "method": "Coordinator read KSU Arabic passage before specialist candidate claims; independent interpretation of same transcription.",
+    "scope": "Organ-specific locator in al-Qurtubi issues 4 and 14; edition authentication and qualified translation remain pending.",
+    "outcome": "bounded_textual_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R3-PROCESS",
+    "claim_ids": [
+      "P1C3-PROCESS-C01",
+      "P1C3-PROCESS-C02",
+      "P1C3-PROCESS-C03",
+      "P1C3-PROCESS-C04",
+      "P1C3-PROCESS-C05",
+      "P1C3-PROCESS-C06",
+      "P1C3-PROCESS-C07",
+      "P1C3-PROCESS-C08",
+      "P1C3-PROCESS-C09",
+      "P1C3-PROCESS-C10",
+      "P1C3-PROCESS-C11",
+      "P1C3-PROCESS-C12"
+    ],
+    "method": "Fresh checker read original dossier and FDA memo before candidates; six PDF pages visually compared, source hashes and12 claims reconciled.",
+    "scope": "Historical named process and amendment chain, donor/media/residual/composition evidence, separate Singapore announcement and certificate non-discovery limits.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R3-EGYPT",
+    "claim_ids": [
+      "P1C3-EGY-C01",
+      "P1C3-EGY-C02",
+      "P1C3-EGY-C03"
+    ],
+    "method": "Fresh checker read retained Arabic source passages before candidates; donor wording and adjacent exception repaired and rechecked.",
+    "scope": "Attributed WAAG officeholder report and Veto reproduction only; neither original Council resolution nor original Dar al-Ifta fatwa accepted.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R3-CHINA",
+    "claim_ids": [
+      "P1C3-CN-OUTPUT",
+      "P1C3-CN-HOUSEHOLDS",
+      "P1C3-CN-CONTROLS",
+      "P1C3-CN-STUDY"
+    ],
+    "method": "Fresh checker read original NBS HTML and ERS text/table image before candidates; source-specific dates, units and release year reconciled.",
+    "scope": "Preliminary production, at-home purchases, FAO historical controls and attributed abstract-level study findings; no identified elasticity or adoption transfer.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R4-CORE",
+    "claim_ids": [
+      "P1C4-CORE-SAU-INSTITUTION",
+      "P1C4-CORE-ARE-COMPOSITION",
+      "P1C4-CORE-ARE-REMIT",
+      "P1C4-CORE-SGP-COMMITTEE",
+      "P1C4-CORE-SGP-REQUEST",
+      "P1C4-CORE-SGP-OPERATIONS"
+    ],
+    "method": "Fresh reader retained independent primary-excerpt findings before seeing candidate claims; coordinator applied explicit indexed-access attribution and narrowed Singapore currentness wording.",
+    "scope": "Six attributed institution/statute readings; official text fragments and MUIS operations, not full current law, school prevalence or product certification.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R4-OMAN-EGYPT",
+    "claim_ids": [
+      "P1C4-GULF-C01",
+      "P1C4-OMN-ARTICLE2"
+    ],
+    "method": "Fresh reader inspected official Oman institutional HTML and rendered decree pages 1–3 before candidate reconciliation; coordinator independently viewed pages 2–3. Egyptian article links were separately traced.",
+    "scope": "Oman issued-edition and institutional reading; Egyptian direct article acquisitions do not establish original fatwas.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R5-INSTITUTIONS",
+    "claim_ids": [
+      "P1C5-INST-C01",
+      "P1C5-INST-C02",
+      "P1C5-INST-C03"
+    ],
+    "method": "Coordinator retained source-first findings before viewing specialist matrix, then compared all 84 cells, dates, source families, held positions and bounded search queries. Existing prior checked Egyptian and Malaysian evidence remains limited to its prior scope.",
+    "scope": "Seven-condition matrix and three new attributed findings. Four bodies remain researched unknowns; no consensus, human approval, original signed adviser opinion or product certificate.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R5-LITERATURE",
+    "claim_ids": [
+      "P1C5-LIT-C01",
+      "P1C5-LIT-C02",
+      "P1C5-LIT-C03",
+      "P1C5-LIT-C04",
+      "P1C5-LIT-C05"
+    ],
+    "method": "Coordinator independently read the full Alqurashi article and all tables before candidate reconciliation, compared source locators, then checked Kashim serum and Hamdan 2024 embryo passages. Specialist additionally inspected publisher PDF diagrams.",
+    "scope": "Full Alqurashi argument map, scoped dependency counterarguments and bounded Hamdan 2018 access result; not independent verification of every cited study or institutional position.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R5-STANDARDS",
+    "claim_ids": [
+      "P1C5-STD-C01",
+      "P1C5-STD-C02",
+      "P1C5-STD-C03",
+      "P1C5-STD-C04",
+      "P1C5-STD-C05",
+      "P1C5-STD-C06"
+    ],
+    "method": "Fresh specialist recorded findings from retained official captures and visually inspected preview pages before reading coordinator claims. All six claims passed; issuer approval date renamed to distinguish national adoption.",
+    "scope": "Edition and availability metadata, GSO preview clauses and separate Pakistan/UAE references. Full normative texts, national legal effect and product compliance remain unestablished.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R6-RELIGIOUS-HISTORY",
+    "claim_ids": [
+      "P1C6-REL-C01",
+      "P1C6-REL-C02",
+      "P1C6-REL-C03",
+      "P1C6-REL-C04",
+      "P1C6-REL-C05",
+      "P1C6-REL-C06",
+      "P1C6-REL-C07",
+      "P1C6-REL-C08",
+      "P1C6-REL-C09",
+      "P1C6-REL-C10",
+      "P1C6-REL-C11",
+      "P1C6-REL-C12",
+      "P1C6-REL-C13",
+      "P1C6-REL-C14",
+      "P1C6-REL-C15",
+      "P1C6-REL-C16",
+      "P1C6-REL-C17",
+      "P1C6-REL-C18",
+      "P1C6-REL-C19",
+      "P1C6-REL-C20",
+      "P1C6-REL-C21",
+      "P1C6-REL-C22"
+    ],
+    "method": "Coordinator wrote source-first notes before reading12cases/22claims; directly compared new original-authority captures, visual Ajinomoto printed20, and prior independently checked school records.",
+    "scope": "Bounded religious/material/ingredient historical assessments. Prior editions are reused, not newly acquired; originalIOMS/MUI, species comparison and current-law gaps remain.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R6-EMPIRICAL-HISTORY",
+    "claim_ids": [
+      "R6E-HISTORY-13-SCOPE",
+      "R6E-HISTORY-14-SCOPE",
+      "R6E-HISTORY-15-SCOPE",
+      "R6E-HISTORY-16-SCOPE",
+      "R6E-HISTORY-17-SCOPE",
+      "R6E-HISTORY-18-SCOPE",
+      "R6E-HISTORY-19-SCOPE",
+      "R6E-HISTORY-20-SCOPE",
+      "R6E-HISTORY-21-SCOPE"
+    ],
+    "method": "Independent reviewer froze a source-first reading before seeing nine candidates, verified62source files and23capture joins; corrected2018–2020counterfactual conditions versus2020household scaling before integration.",
+    "scope": "Nine documentary/empirical/model assessments, with direct-source versus reported/estimated status. No causal substitution, transferable elasticity, universal Gulf outcome or religious permission inferred.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R6-DRIVER-SYNTHESIS",
+    "claim_ids": [
+      "P1C6-REL-C01",
+      "P1C6-REL-C02",
+      "P1C6-REL-C03",
+      "P1C6-REL-C04",
+      "P1C6-REL-C05",
+      "P1C6-REL-C06",
+      "P1C6-REL-C07",
+      "P1C6-REL-C08",
+      "P1C6-REL-C09",
+      "P1C6-REL-C10",
+      "P1C6-REL-C11",
+      "P1C6-REL-C12",
+      "P1C6-REL-C13",
+      "P1C6-REL-C14",
+      "P1C6-REL-C15",
+      "P1C6-REL-C16",
+      "P1C6-REL-C21",
+      "P1C6-REL-C17",
+      "P1C6-REL-C22",
+      "P1C6-REL-C18",
+      "P1C6-REL-C19",
+      "P1C6-REL-C20",
+      "R6E-HISTORY-13-SCOPE",
+      "R6E-HISTORY-14-SCOPE",
+      "R6E-HISTORY-15-SCOPE",
+      "R6E-HISTORY-16-SCOPE",
+      "R6E-HISTORY-17-SCOPE",
+      "R6E-HISTORY-18-SCOPE",
+      "R6E-HISTORY-19-SCOPE",
+      "R6E-HISTORY-20-SCOPE",
+      "R6E-HISTORY-21-SCOPE"
+    ],
+    "method": "Independent conceptual review against the exact plan and active bridge, with all 21 case and claim links checked. Timing and indirect-evidence wording corrected; global baseline-embedding rule added before acceptance.",
+    "scope": "Six-factor vocabulary and seven-driver analytical synthesis; empirical findings retain their separate source-first reviews. Candidate paths are not estimated weights or independent evidence counts. Human scholarly review and external forecast-owner acceptance remain pending.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R7-ELASTICITY",
+    "claim_ids": [
+      "R07-EL-C01",
+      "R07-EL-C02",
+      "R07-EL-C03",
+      "R07-EL-C04",
+      "R07-EL-C05",
+      "R07-EL-C06",
+      "R07-EL-C07",
+      "R07-EL-C08",
+      "R07-EL-C09",
+      "R07-EL-C10",
+      "R07-EL-C11",
+      "R07-EL-C12",
+      "R07-EL-C13"
+    ],
+    "method": "Independent original-table and source-capture reading before candidate comparison, followed by transcription, category and estimator checks.",
+    "scope": "Twelve focal-country species slots and five study families. Correct transcription does not repair source-method inconsistencies or validate transport to current cultivated-meat forecasts.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R7-FEED-ECONOMICS",
+    "claim_ids": [
+      "R7-FEED-C01",
+      "R7-FEED-C02",
+      "R7-FEED-C03",
+      "R7-FEED-C04",
+      "R7-FEED-C05",
+      "R7-FEED-C06",
+      "R7-FEED-C07",
+      "R7-FEED-C08",
+      "R7-FEED-C09",
+      "R7-FEED-C10",
+      "R7-FEED-C11"
+    ],
+    "method": "Independent source-first reading of retained original-publisher, institutional and company passages, then claim and four-country dossier comparison.",
+    "scope": "Evidence attribution and units only. Source excerpts, institutional affiliation, planned production and participant accounts do not establish national market statistics or causal poultry-cost effects.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "claim_ids": [
+      "R7-CO-JOR",
+      "R7-CO-HANAFI",
+      "R7-CO-HANBALI",
+      "R7-CO-SHAFII",
+      "R7-CO-JAFARI",
+      "R7-CO-ETH2011",
+      "R7-CO-ETH2013"
+    ],
+    "method": "Independent source-first reading followed by named-authority, school and ethnographic-scope comparison; supplemental section access reconciled.",
+    "scope": "Five named-school routes with one explicit unresolved primary-text gap, plus one bounded descriptive paragraph. No school consensus, product permission or qualified scholarly approval.",
+    "outcome": "bounded_documentary_agreement",
+    "human_review": false
+  },
+  {
+    "id": "R8-ORIGINALS",
+    "claim_ids": [
+      "P1C8-C01",
+      "P1C8-C03",
+      "P1C8-C07",
+      "P1C8-C08",
+      "P1C8-C15",
+      "P1C9-C01",
+      "P1C9-C02",
+      "P1C9-C03",
+      "P1C9-C04",
+      "P1C9-C05"
+    ],
+    "method": "Coordinator read the cited document's own text, retrieved through the Bigdata.com index because the environment's network policy blocked direct fetches, and compared it with each claim as worded; claims were corrected where the text differed. Not a second-agent check and not a human review.",
+    "scope": "Confirms that each listed document says what the claim attributes to it. For news reports this confirms the report, not the underlying instrument.",
+    "outcome": "confirmed_with_corrections",
+    "human_review": false
+  },
+  {
+    "id": "R8-INTEGRATION-REPAIR",
+    "claim_ids": [
+      "P1C8-I01",
+      "P1C8-I02",
+      "P1C8-I03",
+      "P1C8-I04",
+      "P1C8-I05"
+    ],
+    "method": "Independent repository-consistency and integration review after specialist evidence and validator repairs; compared the revised inferences, gate readings, process versions and forecast handoff with their retained source limits and active v2 contract. Four invalid gate mutations were independently reproduced and rejected. No new source retrieval or scholarly review.",
+    "scope": "Narrows overclaims, separates historical process accounts and unresolved versions, distinguishes halal supply from conditional demand, and retains unresolved national coverage. Applicability metadata and machine guards establish declared consistency, not source truth, legal effect or independent institutional agreement.",
+    "outcome": "bounded_reconciliation_without_source_status_promotion",
+    "human_review": false,
+    "reviewed_input_commits": [
+      "1b875a187e081a8bb6ebbeaae974fb540eb1f771",
+      "fd749937d55db61bd9c8701fa38e175cc309b597"
+    ],
+    "source_record_corrections": [
+      {
+        "source_id": "P1C9-S04",
+        "field": "source_family",
+        "previous": "UAE MoIAT submission to Codex",
+        "current": "UAE government submission to Codex",
+        "reason": "Retained account does not establish the specific ministry."
+      },
+      {
+        "source_id": "SG-LIST",
+        "action": "Carried retained prior-edition record with original locator, access date and record hash; not a new retrieval."
+      }
+    ]
+  }
+]

@@ -5,6 +5,10 @@ import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {checkHalal,parseCsv} from './halal-checks.mjs';
 import {checkPhaseOne} from './phase1-checks.mjs';
+import {checkPaper} from './paper-checks.mjs';
+import {checkContinuation} from './continuation-checks.mjs';
+import {checkSurvey} from './survey-checks.mjs';
+import {isExcludedPath, privacyHazards, privacyHazardNames} from './privacy-checks.mjs';
 import {repoFiles,unescapeEntities} from './repo-files.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -18,16 +22,7 @@ check(new Set(manifest.map(f=>f.path)).size===manifest.length,'Duplicate manifes
 check(JSON.stringify(paths.filter(p=>p!=='provenance/file-manifest.json'))===JSON.stringify(manifest.map(f=>f.path).sort()),'Manifest does not match repository files');
 for(const f of manifest){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&crypto.createHash('sha256').update(b).digest('hex')===f.sha256,'Hash/size mismatch: '+f.path);}
 
-const forbiddenPath=/(^|\/)(?:\.env(?:\.|$)|node_modules|\.venv|\.playwright-mcp|private|working|AGENTS\.md|\.DS_Store)(\/|$)|\.(?:docx?|xlsx?|pptx?|pdf|zip|pem|key|log)$/i;
-const hazards=[
- ['absolute home path',/\/(?:Users|home)\/[A-Za-z0-9._-]+\//],
- ['private document URL',/https?:\/\/(?:docs|drive)\.google\.com\//i],
- ['email address',/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i],
- ['private key',/-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----/],
- ['credential-like token',/\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{25,}|sk-[A-Za-z0-9_-]{24,})\b/],
- ['embedded raster',/data:image\/(?:jpeg|png|webp);base64,/i]
-];
-for(const p of paths){check(!forbiddenPath.test(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);for(const [name,re] of hazards)check(!re.test(s),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
+for(const p of paths){check(!isExcludedPath(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);const foundHazards=new Set(privacyHazards(s));for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
 
 let internalLinks=0;
 for(const p of paths.filter(p=>/\.(html|md|svg)$/.test(p))){
@@ -82,9 +77,13 @@ check(parsed.length===figures.countries.length,'CSV row count');
 for(const r of parsed){const original=figures.countries.find(c=>c.country===r.country);check(!!original,'Unknown CSV country '+r.country);for(const k of ['total2010','animal2010','total2023','animal2023','plant2023','animalShare2023'])check(r[k]===''?!Number.isFinite(original?.[k]):Number(r[k])===original?.[k],'CSV/JSON value mismatch '+r.country+' '+k);}
 
 const catalog=json('sources/catalog.json');
-const halalRegister=json('research/halal-cultivated/source-register.json');
+const halalRegister=json('research/halal-cultivated/archive/discovery-pass/source-register.json');
 const phaseOneRegister=json('research/halal-cultivated/phase1/source-register.json');
-const registerRecords=comparative.length+foundation.length+currentReview.length+halalRegister.length+phaseOneRegister.length;
+const continuationDir='research/halal-cultivated/phase1-continuation/';
+const continuationRegister=json(continuationDir+'source-register.json');
+const paperDir='research/halal-cultivated/paper/';
+const paperRegister=json(paperDir+'source-register.json');
+const registerRecords=comparative.length+foundation.length+currentReview.length+halalRegister.length+phaseOneRegister.length+continuationRegister.length+paperRegister.length;
 check(catalog.originalRegisterRecords===registerRecords,'Catalog register count');
 check(catalog.records.length===catalog.uniqueSourceIdentities,'Catalog count metadata');
 check(new Set(catalog.records.map(r=>r.id)).size===catalog.records.length,'Catalog IDs unique');
@@ -93,16 +92,27 @@ for(const r of json('research/orientation/sources.json').sources)check(catalog.r
 const imports=json('provenance/import-records.json');
 for(const prefix of ['research/orientation/','research/india-pakistan/'])for(const p of paths.filter(p=>p.startsWith(prefix)))check(imports.some(r=>r.path===p),'Missing import provenance '+p);
 for(const [rs,p] of [[comparative,'research/comparative-protein/source-register.json'],[foundation,'research/ai-protein/source-register.json'],[currentReview,'research/india-pakistan/source-register.json']])for(const r of rs)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===p&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const library=json('research/library.json');check(library.documents.length===7,'Expected seven research documents');
+const library=json('research/library.json');check(library.documents.length===10,'Expected ten research documents');
 for(const d of library.documents){check(paths.includes(d.path),'Missing library document '+d.id);check(/human verification pending/i.test(read(d.path)),'Missing visible draft notice '+d.id);}
 const ris=read('research/ai-protein/references.ris');check((ris.match(/^TY  - /gm)||[]).length===44&&(ris.match(/^ER  -/gm)||[]).length===44,'RIS record completeness');
 const halalDir='research/halal-cultivated/';
 const halal=checkHalal(Object.fromEntries(paths.filter(p=>p.startsWith(halalDir)).map(p=>[p.slice(halalDir.length),read(p)])));
 checks+=halal.checks;failures.push(...halal.failures);
-for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===halalDir+'source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
+for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===halalDir+'archive/discovery-pass/source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
 const phaseOneDir=halalDir+'phase1/';
 for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
 const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
 checks+=phaseOne.checks;failures.push(...phaseOne.failures);
-const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:registerRecords,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,failures};
+// The two reviewed binaries are digest-checked above; do not decode them as
+// manuscript text. Every other paper path still reaches the exclusion checks.
+const paper=checkPaper(Object.fromEntries(paths.filter(p=>p.startsWith(paperDir)).map(p=>[p.slice(paperDir.length),read(p)])),{phaseOneFiles:Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)]))});
+checks+=paper.checks;failures.push(...paper.failures);
+for(const r of paperRegister)if(r.url)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===paperDir+'source-register.json'&&o.sourceId===r.id)),'Paper source missing from catalog '+r.id);
+const continuation=checkContinuation(Object.fromEntries(paths.filter(p=>p.startsWith(continuationDir)).map(p=>[p.slice(continuationDir.length),read(p)])));
+checks+=continuation.checks;failures.push(...continuation.failures);
+for(const r of continuationRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===continuationDir+'source-register.json'&&o.sourceId===r.id)),'Continuation source missing from catalog '+r.id);
+const surveyDir='research/protein-survey-data/';
+const survey=checkSurvey(Object.fromEntries(paths.filter(p=>p.startsWith(surveyDir)).map(p=>[p.slice(surveyDir.length),read(p)])));
+checks+=survey.checks;failures.push(...survey.failures);
+const result={status:failures.length?'FAIL':'PASS',checks,files:paths.length,internalLinks,documents:library.documents.length,sourceIdentities:catalog.records.length,originalSourceRecords:registerRecords,countries:figures.countries.length,populatedCountries:populated.length,capabilityLocations:figures.hubs.length,claimPassages:passages.length,phaseOneChecks:phaseOne.checks,surveyChecks:survey.checks,failures};
 console.log(JSON.stringify(result,null,2));if(failures.length)process.exitCode=1;

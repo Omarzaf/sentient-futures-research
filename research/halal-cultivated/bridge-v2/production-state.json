@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0",
+  "mode": "research",
+  "status": "blocked_missing_baseline",
+  "notice": "Missing compatible versioned sales/mass-share baseline, finished-product reference market, product/process-specific gate evidence and allocated capacity. Human review pending. No numerical research estimate is produced.",
+  "sources": [],
+  "assessments": [],
+  "baselines": [],
+  "capacity_pools": [],
+  "partitions": [],
+  "scenarios": [
+    {
+      "id": "SC-BLOCKED-PAK-2030",
+      "version": "synthetic-1",
+      "scope": {
+        "geo": "PAK",
+        "segment": "halal_certified_segment",
+        "year": 2030,
+        "species": "chicken",
+        "product_definition": "finished_chicken_product",
+        "channel": "retail",
+        "denominator": "cultivated_plus_conventional",
+        "mass_basis": "kg_finished_product",
+        "currency": "USD",
+        "price_year": 2025
+      },
+      "as_of": "2030-01-01",
+      "product_id": "synthetic_chicken",
+      "process_profile_id": "synthetic_process",
+      "baseline_id": null,
+      "quantity": {
+        "value": null,
+        "scope": {
+          "geo": "PAK",
+          "segment": "halal_certified_segment",
+          "year": 2030,
+          "species": "chicken",
+          "product_definition": "finished_chicken_product",
+          "channel": "retail",
+          "denominator": "cultivated_plus_conventional",
+          "mass_basis": "kg_finished_product",
+          "currency": "USD",
+          "price_year": 2025
+        },
+        "source_ids": [],
+        "missing_reason": "Compatible versioned finished-product market input not yet supplied."
+      },
+      "transfer": {
+        "status": "not_required",
+        "rationale": null
+      },
+      "gate": {
+        "state": "unresolved",
+        "basis": "evidence_led",
+        "assessment_ids": [],
+        "required_dimensions": [
+          "religious_position",
+          "product_certificate",
+          "food_authorization"
+        ],
+        "assumed_conditions": [],
+        "assumption_rationale": null,
+        "contradicts_current_evidence": false,
+        "counterfactual_label": null
+      },
+      "mechanisms": [],
+      "capacity": null,
+      "allocation_group": "SYN-world",
+      "aggregation_group": null,
+      "partition_id": null,
+      "observation_id": "SYN-finished-product",
+      "product_form": "cultivated",
+      "cultivated_fraction": 1
+    }
+  ],
+  "expected_outputs": [
+    {
+      "scenario_id": "SC-BLOCKED-PAK-2030",
+      "p_mass": null,
+      "G": null,
+      "Q_unconstrained": null,
+      "Q_feasible": null,
+      "cultivated_biomass": null,
+      "reason_codes": [
+        "missing_capacity",
+        "missing_baseline",
+        "missing_reference_market",
+        "unresolved_gate"
+      ]
+    }
+  ]
+}

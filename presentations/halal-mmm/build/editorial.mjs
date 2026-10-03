@@ -1,0 +1,67 @@
+// Edition text: everything on the page that is not the canonical manuscript.
+// It summarizes, explains terms or captions figures, and points back to the
+// section that carries the claim. It adds no finding, ruling or forecast.
+// Margin explanations reuse the paper's own Appendix E wording where one exists.
+
+export const guideLabel='Reading guide, written for this edition';
+
+export const lead='Cultivated chicken is meat made by growing chicken cells in culture. This paper asks what has to be shown, and by which institution, before a specified product of that kind could reach Muslim consumers. It keeps four things apart that are easily run together: religious conditions, the production process, halal certification and food-safety authorization.';
+
+// Findings: each item names the layer it concerns and links to the sections that carry it.
+export const findings=[
+ {layer:'Religious conditions',html:'The International Islamic Fiqh Academy’s 2025 resolution permits consumption and marketing on conditions: cells from a living animal lawful to eat or from a lawfully slaughtered one, a medium free of prohibited substances, specialist supervision, disclosure and safety. MUIS’s 2024 guidance names a permitted source, halal ingredients and a clean, non-toxic product. Both are positions a disclosed process can be tested against. Neither certifies a product.',refs:[['sec-5-2','§5.2'],['sec-9-1','§9.1']]},
+ {layer:'The specified process',html:'The original sample, founder line, cell bank, culture inputs and harvested biomass each need their own record. A rule about the donor sample may leave the later biomass unresolved, and a transformation claim needs a named authority’s criterion plus evidence about the material before and after.',refs:[['sec-5-3','§5.3'],['sec-7','§7']]},
+ {layer:'Certification',html:'This review did not establish a halal certificate for a named cultivated-chicken product in any of the seven countries. In 2024 MUIS said certification guidelines still had to be developed.',refs:[['sec-9-1','§9.1'],['fig-2','Fig. 2']]},
+ {layer:'Food authorization',html:'In this review, only Singapore’s documents list named cultivated-chicken processes: serum-containing in 2020, serum-free in 2023 and embryonic cells in 2025. These are food decisions, not halal certificates. For the other six countries the review found routes or mechanisms but no product decision.',refs:[['sec-9-4','§9.4'],['appx-b','App. B']]},
+ {layer:'Not supplied',html:'The paper supplies no adoption forecast, national access estimate or product certification. The quantitative handoff lacks compatible inputs, and human scholarly review is pending.',refs:[['sec-11-2','§11.2'],['sec-12','§12']]}
+];
+
+export const readoutLabels={
+ questions:n=>`questions kept separate, from donor to food authorization`,
+ records:(n,q,h,nr)=>`canonical source records: ${q} qualified, ${h} held, ${nr} not retrieved`,
+ slots:(n,empty)=>`comparison slots across five traditions; ${empty} without an admitted answer`,
+ countries:(n,noCert)=>noCert===n?`country cases; this review established a named-product certificate in none`:`country cases`
+};
+
+export const dividerLabel='The paper';
+export const dividerText='Below is the complete 2 October 2026 manuscript: abstract, thirteen sections, five appendices, bibliography and notes. Only layout and markup differ from the canonical Markdown. The margin carries reading aids: term definitions taken from Appendix E, figure captions and scope reminders. None adds a finding.';
+
+// Margin explanations, inserted before the paragraph whose text starts with `before`.
+export const railNotes=[
+ {before:'What must be established before a specified',tag:'Reading the notes',html:'Superscript numbers open the endnotes, which give each source and locator. Every endnote links back to each place it is cited. Bracketed source keys such as IIFA265 open the bibliography entry.'},
+ {before:'Singapore’s food list distinguishes',tag:'Three institutions',html:'<b>IIFA</b>, the International Islamic Fiqh Academy, issues resolutions on religious questions; Resolution 265 (2025) concerns cultivated meat. <b>MUIS</b>, the Islamic Religious Council of Singapore, gives religious guidance and describes a certification framework. <b>SFA</b>, the Singapore Food Agency, requires premarket approval for covered novel foods.'},
+ {before:'Cultivated meat begins with cells',tag:'Production terms',html:'<b>Founder cells / cell line:</b> the starting cells and the continuing cultivated population. <b>Cell bank:</b> stored cell stocks used for later production. <b>Medium:</b> the material that supports cells during culture. <b>Scaffold:</b> a support used in some workflows. <b>Harvest:</b> recovery of the cultivated material. Adapted from <a href="#appx-e">Appendix E</a>.'},
+ {before:'Several legal terms help locate',tag:'Term — maytah',html:'Carrion, or an animal’s legally relevant unslaughtered death. The applicable source determines scope and exceptions (<a href="#appx-e">Appendix E</a>).'},
+ {before:'As used here, *dhabiha* concerns',tag:'Terms — dhabiha, tasmiya',html:'<b>Dhabiha:</b> a slaughtered animal, or its meat, under the relevant lawful-slaughter conditions. <b>Tasmiya:</b> invoking God’s name in connection with slaughter (<a href="#appx-e">Appendix E</a>).'},
+ {before:'Purity and permission to eat must also',tag:'Terms — najasah, tayyib',html:'<b>Najasah:</b> ritual impurity. A purity ruling does not necessarily give permission to eat. <b>Tayyib / khabaith:</b> good or wholesome / impure or objectionable things; which legal criterion identifies them is itself a question (<a href="#appx-e">Appendix E</a>).'},
+ {before:'*Istihalah*, transformation, concerns',tag:'Terms — istihalah, istihlak',html:'<b>Istihalah:</b> transformation under the named authority’s criterion. <b>Istihlak:</b> absorption or dilution of one substance within another. The paper does not treat them as interchangeable, or as descriptions of washing, growth or reduced concentration (<a href="#appx-e">Appendix E</a>).'},
+ {before:'Hamdan, Post, Ramli and Mustafa’s abstract',tag:'Reading scope',html:'Three works in this section enter only through their English abstracts: Hamdan and colleagues (2018), Baserat and Enayat (2024), and Miswanto and Musaffa (2023). Their full arguments are not treated as examined evidence (<a href="#sec-12">section 12</a>).'},
+ {before:'The current paper audit contains 95',tag:'What the counts measure',html:'63, 22 and 10 record whether a source could be read and admitted. They do not count independent authorities, agreement, legal weight or national acceptance.'},
+ {before:'In *Radd al-muhtar*, Ibn Abidin treats',tag:'The detached-part rule',html:'In the passages admitted here, a part cut from a living animal takes the animal’s carcass classification, and removal after valid slaughter is treated differently. Whether it reaches cells grown from such a sample is the step section 5.3 leaves open.'},
+ {before:'Sistani supplies a concrete reason',tag:'Term — obligatory precaution',html:'The explicit status Sistani attaches to particular instructions. The paper keeps the label rather than rewriting it as an unqualified prohibition (<a href="#appx-e">Appendix E</a>).'},
+ {before:'IIFA’s treatment of plasma demonstrates',tag:'Serum is not plasma',html:'The paper treats serum and plasma as distinct materials. IIFA’s discussion of blood plasma is not applied automatically to the fetal bovine serum in the GOOD Meat dossier (<a href="#appx-e">Appendix E</a>).'},
+ {before:'A transformation argument should begin',tag:'What a transformation claim must state',html:'The material that was problematic at the start; the operation said to change it; the characteristics said to disappear; the material left at harvest; and the named authority’s criterion. Section 7.2 sets out the test.'},
+ {before:'The International Islamic Fiqh Academy’s 2025 resolution permits',tag:'Four documentary layers',html:'<b>Religious permission:</b> a named authority’s position within its conditions. <b>Certification route:</b> a mechanism through which a product may be assessed. <b>Product certificate:</b> an actual decision for a specified product and scope. <b>Food authorization:</b> the regulator’s decision or legal route (<a href="#appx-e">Appendix E</a>).'},
+ {before:'For India, the reviewed October 2022',tag:'Bodies in section 9.4',html:'<b>FSSAI</b>, Food Safety and Standards Authority of India. <b>SFDA</b>, Saudi Food and Drug Authority. <b>MOIAT</b>, UAE Ministry of Industry and Advanced Technology. <b>JAKIM</b>, Department of Islamic Development Malaysia. <b>BPJPH</b>, Indonesia’s Halal Product Assurance Organizing Agency.'},
+ {before:'Wine becoming vinegar offers an analogy',tag:'Analogies as tests',html:'Each comparison in this section is a proposed test, not a ruling. The table at the end of the section lists what each analogy would have to demonstrate and what would defeat it.'},
+ {before:'The active Phase Two handoff accordingly',tag:'Phase Two',html:'A separate continuation of this research. Its quantitative part stays blocked until four inputs exist in compatible form: an accepted baseline, a finished-product reference market, product-specific access evidence and allocated capacity.'},
+ {before:'These tables preserve the original nine questions',tag:'Reading the slot tables',html:'“Historical status” is a slot’s state in the earlier research record; the last column is what this paper admits now. The two are different states. <a href="#fig-r2">Fig. R2</a> in section 4 draws that column for all 45 slots.'},
+ {before:'The inventory contains 95 canonical source records',tag:'The record column',html:'The three record tables below carry one column added for this edition: the register key, any alias, and a link to the bibliography entry where the paper cites the source. For a source the paper does not cite, the column gives the recorded host instead. <a href="#fig-3">Figure 3</a> points open these rows.'},
+ {before:'Abu al-Abbas Shihab al-Din Ahmad ibn Idris al-Qarafi',tag:'Under each entry',html:'A line added for this edition gives the source’s audit state and reading scope from the source register, the notes that cite it and its Appendix D row.'}
+];
+
+export const captions={
+ r1:{label:'Fig. R1 — Six questions, kept apart',html:'<p>A reading figure for this edition, drawn from section 1 and the labels of Figure 1. Each station is one of the questions the paper keeps separate, in the order sections 5–9 take them; select a station to open its section.</p><p>The first four concern the material and how it was made. The last two are decisions by institutions. Past the closed gate, the dashed segment is the quantitative Phase Two handoff, which this paper leaves unfilled. Spacing is for readability only.</p>'},
+ fig1:'<p class="edition">Redrawn for this edition with the reviewed labels unchanged. The numbered questions open sections 5–9. <a href="../../research/halal-cultivated/paper/figures/figure-1-process.svg">Reviewed original (SVG)</a></p>',
+ r2:{label:'Fig. R2 — The 45 comparison slots',html:'<p>A reading figure for this edition, drawn from the “Currently admitted answer” column of <a href="#appx-a">Appendix A</a>. One point per slot: filled for an answer attributed to a named author’s passage, hollow for the paper’s labeled inference, an em-rule where no answer is admitted, a dashed ring for the one slot recorded as open.</p><p>An admitted answer can be partial; its row states the limit. The points show where the reviewed sources reach. They do not show agreement, and an empty column is not evidence that a tradition has no position. Select a point to open its row.</p>'},
+ fig3:'<p class="edition">Redrawn for this edition from <code>figure-data.json</code> and the source records, one point per canonical record in Appendix D order. Filled: qualified with limitations. Hollow: held. Dashed: not retrieved. The copper point is the qualified record that supplies index metadata only. Select a point to open its Appendix D row. <a href="../../research/halal-cultivated/paper/figures/figure-3-audit.svg">Reviewed original (SVG)</a></p>',
+ fig2:'<p class="edition">Redrawn for this edition with every cell label kept. The marks replace the original colours: filled for an admitted, bounded document; hollow for a language hold; dashed for evidence not located, not established or unretrieved in this review. Rows follow the paper’s order and are not ranked. Select a cell to open the country in Appendix B. <a href="../../research/halal-cultivated/paper/figures/figure-2-countries.svg">Reviewed original (SVG)</a></p>',
+ r3:{label:'Fig. R3 — From a dossier to separate decisions',html:'<p>A reading figure for this edition, drawn from section 11.2. The left column lists what a manufacturing dossier would document. Each determination in the centre needs its own evidence, scope and date; the hollow rings mark that the present record contains no populated assessment.</p><p>The closed gate, marked in copper, is the quantitative handoff. None of its four inputs exists in compatible form, so the paper supplies no number.</p>'}
+};
+
+export const colophon={
+ series:'Meaning, Man and Model — Research working paper — 2 October 2026',
+ status:'AI-assisted working draft; human verification pending',
+ fonts:'Set in Newsreader and IBM Plex Mono where installed; otherwise Georgia and the system monospace.',
+ year:'MMXXVI'
+};

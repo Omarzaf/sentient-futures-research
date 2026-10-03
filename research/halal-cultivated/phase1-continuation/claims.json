@@ -1,0 +1,2904 @@
+[
+  {
+    "id": "P1C-C01",
+    "country": "IND",
+    "assertion": "The September 2026 FSSAI register lists Biokraft Foods Private Limited’s Cultivated Chicken-based Product at row 28, file 80/Std/PA/FSSAI/2025, receipt 20 August 2025, stage 7. Its legend combines clarification, approval and rejection; the displayed code does not establish which decision occurred.",
+    "source_ids": [
+      "P1C-IN-NSF"
+    ],
+    "locator": "PDFpp 64,66,79",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "A named administrative record is now located; actual decision, approved process and certification remain unestablished.",
+    "review_id": "R-FSSAI",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "application_pending"
+      ]
+    }
+  },
+  {
+    "id": "P1C-C02",
+    "country": "IND",
+    "assertion": "Notification 34/2024-25 adds conditions for specified products exported as halal-certified to listed destinations, including i-CAS facilities, NABCB-accredited certification and applicable importing-country requirements. Non-halal-certified export procedures are left unchanged. Paragraph 2 restricts the additions to listed tariff codes.",
+    "source_ids": [
+      "P1C-IN34"
+    ],
+    "locator": "Paragraph 1(i)–(v); paragraph 2 table, pp 1–4",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No 0207 poultry code is listed in this instrument, but the classification of a cultivated product is not supplied; neither blanket inclusion nor exemption follows. No domestic food approval follows.",
+    "review_id": "R-DGFT",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "DGFT"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C-C03",
+    "country": "IND",
+    "assertion": "Notification 59/2025-26 adds twenty destinations to 34/2024-25. The additional countries other than Egypt receive a two-week transition from 9 February 2026. Notification 28/2026-27 replaces Egypt’s original six-month period with nine months from 9 February 2026, leaving other provisions unchanged.",
+    "source_ids": [
+      "P1C-IN59",
+      "P1C-IN28"
+    ],
+    "locator": "59 paragraphs 2–4;28 paragraphs 2–3",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This describes the retrieved amendment chain, not every later export rule. The time origin is February, not August.",
+    "review_id": "R-DGFT"
+  },
+  {
+    "id": "P1C-C04",
+    "country": "PAK",
+    "assertion": "The 2025 constitutional edition retains sect-specific interpretation for Muslim personal law in Article 227 and representation of different schools on the Council of Islamic Ideology where practicable in Article 228. These provisions establish neither population proportions nor one national madhhab.",
+    "source_ids": [
+      "P1C-PK-CONST"
+    ],
+    "locator": "Articles 227(1) explanation and 228(3)(a), printedp 139",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Legal and institutional scope only.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C05",
+    "country": "PAK",
+    "assertion": "Article 229 in the 2025 edition uses a one-fourth legislative referral threshold; its footnote attributes replacement of two-fifths to the 2024 amendment. Article 230 gives advice/recommendation functions and its revised paragraph 4 requires consideration of the final report within twelve months after laying.",
+    "source_ids": [
+      "P1C-PK-CONST",
+      "P1C-PK-CONST2017"
+    ],
+    "locator": "Printedpp 140–141, Articles 229,230(1),(4), amendment footnotes",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "The 2017 hosted edition is not a substitute for this version. Its Article 230(2) prints 299, while the 2025 version prints 229; preserve the discrepancy rather than silently correcting a quotation.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C06",
+    "country": "PAK",
+    "assertion": "Punjab Food Authority guidance describes registration for products sold in Punjab, including goods produced elsewhere, and lists ingredient information, analyses, raw-material halal certificates, labeling and shelf-life documents. Scrutiny, sampling and competent-authority approval precede issuance of a registration certificate.",
+    "source_ids": [
+      "P1C-PK-PFA"
+    ],
+    "locator": "Overview, Required Documents and FAQs 1,4,11",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "General provincial procedure; no cultivated-chicken authorization, accepted manufacturing dossier or nationwide scope established.",
+    "review_id": "R-LEGAL",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "PUNJAB-FOOD-AUTHORITY"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C-C07",
+    "country": "MYS",
+    "assertion": "Act 505’s 2013 reprint directs the Federal Territories Mufti ordinarily to accepted Shafii views, permits named other schools where that conflicts with public interest, and ultimately permits the Mufti’s judgment under the specified conditions. Section 34 makes gazetting a prerequisite to the stated fatwa status and territorial legal effect.",
+    "source_ids": [
+      "P1C-MY505"
+    ],
+    "locator": "Sections 34(1)–(4),37 and 39(1)–(3), printedpp 26–28",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Not a national demographic claim, not every state’s law, and not proof of current consolidated wording or a particular national-committee opinion’s legal effect.",
+    "review_id": "R-LEGAL"
+  },
+  {
+    "id": "P1C-C08",
+    "country": "IND",
+    "assertion": "The saved FSSAI page component labels a link as the 2017 approval regulation, but the retrieved 43-page PDF is an application-status register dated 4 January 2023. It was rejected as evidence of the regulation text.",
+    "source_ids": [
+      "P1C-IN-LINK",
+      "P1C-IN-MISMATCH"
+    ],
+    "locator": "Page-component Regulation block and downloaded PDFpage 1/footer",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "A source-identity finding for the saved response; no claim about whether the endpoint will return the same bytes later.",
+    "review_id": "R-FSSAI"
+  },
+  {
+    "id": "P1C2-IRN-LEGAL",
+    "country": "IRN",
+    "assertion": "The inspected Article 12 names Islam and the Twelver Jafari school while recognizing specified other schools for rites, education, personal status and qualified local rules.",
+    "source_ids": [
+      "P1C2-IRN-CONST",
+      "P1C2-IRN-FIS"
+    ],
+    "locator": "Article 12",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Describes the retrieved constitutional wording. It does not measure prevalence, establish implementation, or verify a complete current consolidation.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRQ-LEGAL",
+    "country": "IRQ",
+    "assertion": "The 2025 amendment provides conditional Jafari personal-status choices and assigns a drafting/advisory role to the Shia Endowment Scientific Council. Decision 10 subsequently approves the code as an annex, effective on gazette publication.",
+    "source_ids": [
+      "P1C2-IRQ-LAW1",
+      "P1C2-IRQ-CODE10",
+      "P1C2-IRQ-JUDICIAL"
+    ],
+    "locator": "Law Article 1; Decision first/second clauses; Gazette 4843 dated 6 October 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Personal status is not an exclusive national madhhab, a food-approval framework or a demographic statistic. Underlying Arabic and the full code need qualified legal review.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-YEM-LEGAL",
+    "country": "YEM",
+    "assertion": "Articles 2–3 in WIPO’s 2015 compilation name Islam and Islamic Sharia without naming a juristic school in those provisions. The compilation appends a 2015 transitional declaration.",
+    "source_ids": [
+      "P1C2-YEM-CONST"
+    ],
+    "locator": "Edition metadata; Articles 2–3; appended declaration",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is a bounded reading of these provisions, not proof that no other law names a school or that this is an uncontested current governing instrument.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRN-DEMOGRAPHY",
+    "country": "IRN",
+    "assertion": "Pew’s 2009 estimate gives Shia affiliation as 90–95% of Iran’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, Iran row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical broad affiliation estimate, not a measured 2026 or Jafari-school share.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-IRQ-DEMOGRAPHY",
+    "country": "IRQ",
+    "assertion": "Pew’s 2009 estimate gives 65–70% Shia among Iraq’s Muslims. A later summary reports a late-2011 survey with 51% Shia, 42% Sunni and 5% just a Muslim.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD",
+      "P1C2-PEW14-IRAQ"
+    ],
+    "locator": "2009 Iraq table row; 2014 article on late-2011 survey",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Keep estimates and survey self-identification separate. Neither result is a current census, and their difference is not a time-series change estimate; do not allocate the unreported remainder.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-YEM-DEMOGRAPHY",
+    "country": "YEM",
+    "assertion": "Pew’s 2009 estimate gives Shia affiliation as 35–40% of Yemen’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, Yemen row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical broad affiliation estimate, not a measured Zaydi, regional northern-Yemen or current population share.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-W04A-C01",
+    "country": "KWT",
+    "assertion": "The official-hosted English constitutional text, Article 2, identifies Islam as state religion and Sharia as a main legislative source; that clause names no juristic school.",
+    "source_ids": [
+      "P1C2-KWT-CONST"
+    ],
+    "locator": "PDFp1, Article2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Consolidation and later constitutional measures not checked. Not a claim that no other Kuwaiti law names a school.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C02",
+    "country": "QAT",
+    "assertion": "The official-hosted constitutional explanatory memorandum discusses Sharia as a legislative source when explaining Article 1.",
+    "source_ids": [
+      "P1C2-QAT-MEMO"
+    ],
+    "locator": "PDFpp84–85, Article1 commentary",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Current operative Article1 and2024 amendments not established by this extract. Does not establish Hanbali population predominance or an official national school.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C04",
+    "country": "QAT",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as approximately 10 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line484",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C05",
+    "country": "KWT",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 20–25 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line475",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C06",
+    "country": "BHR",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 65–75 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line477",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C07",
+    "country": "OMN",
+    "assertion": "Pew's October 2009 report estimated the Shia share of the country's Muslim population as 5–10 percent.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp10 (PDFp13), row at extracted line481",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical estimate only;2026 value unknown. Not citizens-only, not percentage of all residents, not measured madhhab adherence; no Sunni or Ibadi remainder computed.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-W04A-C08",
+    "country": "OMN",
+    "assertion": "Pew's report does not separately quantify the Oman groups it places outside its Sunni/Shia categories.",
+    "source_ids": [
+      "P1C2-PEW09-PDF",
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "Printedp9 (PDFp12), lines454–459",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Method limitation of the2009 report. Oman Ibadi share remains unknown; do not use100minusShia as Sunni.",
+    "review_id": "R2-GULF"
+  },
+  {
+    "id": "P1C2-M-Q4-TEXT",
+    "country": null,
+    "question_id": "M-Q4",
+    "assertion": "Al-Qurtubi’s commentary on Quran 2:173 explicitly names liver and spleen in issues 4 and 14, supplying an organ-specific passage for the earlier Maliki locator gap.",
+    "source_ids": [
+      "P1C2-QURTUBI-2173"
+    ],
+    "locator": "Issue 4 and issue 14, paragraph beginning قلت",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Named-author transcription only. His assertion of agreement is not independently demonstrated consensus. No authenticated print edition, qualified translation, separated-serum ruling or cultivated-cell analogy is established.",
+    "review_id": "R2-SCHOOL"
+  },
+  {
+    "id": "P1C2-IND-DEMOGRAPHY",
+    "country": "IND",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of India’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-PAK-DEMOGRAPHY",
+    "country": "PAK",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of Pakistan’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-SAU-DEMOGRAPHY",
+    "country": "SAU",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as 10–15% of Saudi Arabia’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C2-ARE-DEMOGRAPHY",
+    "country": "ARE",
+    "assertion": "Pew’s 2009 estimate gives broad Shia affiliation as approximately 10% of the UAE’s Muslim population.",
+    "source_ids": [
+      "P1C2-PEW09",
+      "P1C2-PEW09-METHOD"
+    ],
+    "locator": "2009 table, named country row",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical synthesized estimate, not current population, citizen-only or juristic-school membership; no numerical remainder inferred.",
+    "review_id": "R2-WEST-ASIA"
+  },
+  {
+    "id": "P1C3-PROCESS-C01",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The evaluated U.S. dossier comprises the March 4 2022 submission and four amendments received through March 2 2023, with a March 20 FDA response and June 9 labeling correction.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S02",
+      "P1C3-PROCESS-S04",
+      "P1C3-PROCESS-S05"
+    ],
+    "locator": "FDA letter p 1; inventory; amendment covers PDFpp 103, 140, 146, 152",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Historical consulted process; not every later GOOD Meat product. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C02",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "CCC000001 traces to commercial chicken fibroblast line UMNSAH/DF1 (ATCC CRL12203), derived from 10-day chicken embryos and spontaneously immortalized by selection; GOOD Meat named its acquired line C1F and adapted derivative C1F-P1.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.1–4.4 pp 10–13; FDA memo pp 4–6",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Embryonic line, not an established adult biopsy/slaughter procurement route. Donor slaughter compliance is unestablished. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C03",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Master working cell banks are expanded from master-bank aliquots and supply commercial production; batch identity, cryogenic storage, chain-of-custody and release testing are described.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.4–4.7 pp 13–15; FDA memo pp 6–7",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Public text does not disclose the current complete cryopreservation recipe or lot-specific halal provenance. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C04",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Bovine serum is used in adaptation and banking, and fetal bovine serum is explicitly used in seed and production medium for this process. A complete substance list was supplied to FDA confidentially.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§4.3, 5.2.1, 5.2.3.9 pp 12, 16, 58; FDA memo pp 5–6, 9–10 fn 10",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No claim of serum-free, animal-component-free, or publicly complete formulation. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C05",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The disclosed process expands qualified cells in suspension through shake flasks, a wave bag, 200 L and 1000 L bioreactors; cells are centrifuged, washed in sodium chloride solution, packaged and frozen for later food manufacture.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §5.1 p 15 and §5.3 p 62; FDA memo pp 7–9",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Version-specific documented vessels, not current capacity or proof of a scaffold-free finished retail product. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C06",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Table 33 reports residual bovine serum albumin in four cultured-cell batches: 42.46, 11.97, 5.27, 3.0 micrograms/g; published average 15.67 micrograms/g (1.57 mg/100 g). FDA records the 1.57 mg/100 g average.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier Table 33 p 60 (visually checked); FDA memo p 20",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "BSA is a proxy analyte, not total FBS; measured presence after washing is not a religious purity determination. Published rounding retained. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C07",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "Dossier wash-liquid assays are distinct from harvested-cell BSA assays. Table 38 gives six final-wash BSA results (<0.31, 1.40, 0.60,<0.31,<0.31, 0.35 mg/L); Table 37 reports PluronicF68 below 0.01% in six wash samples.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier §§5.4.1–5.4.2, Tables 36–38 p 64; FDA memo p 9",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Wash concentrations cannot substitute for finished-cell concentrations; below-detection observations are not zero. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C08",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The six Table 45 harvested-biomass batches contain 7.75–9.75% protein and 88.73–90.54% moisture; these wet-basis cell-material data differ from the dry-normalized comparison and from finished product formulations.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier Table 45 p 73 (visually checked), Table 48 p 75; FDA memo p 12",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No retail-product nutrition, adoption or market-share estimate follows. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C09",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "The July 8 response reports folic acid reduced from 2.65 to 0.265 mg/L throughout manufacturing. The process amendment says the same banks and manufacturing method are retained, with a 90% folic-acid reduction.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03"
+    ],
+    "locator": "Dossier July 8 response §6.1.3 printedp 33/PDFp 135; process amendment §3.1 printedp 3/PDFp 142; FDA memo Appendix 2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This amendment changes folate inputs; it does not remove FBS. Cover August 4 2022 and signed March 2 2023 page are retained separately. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C10",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "FDA's response reports no questions about the firm's safety conclusion for the defined process and retains the firm's regulatory obligations. June 9 correspondence corrects the dossier: USDA-FSIS oversees poultry-cell-food labeling from harvest onward.",
+    "source_ids": [
+      "P1C3-PROCESS-S02",
+      "P1C3-PROCESS-S04",
+      "P1C3-PROCESS-S05",
+      "P1C3-PROCESS-S09"
+    ],
+    "locator": "Response letter pp 1–2; June 9 correction pp 1–2; official inventory",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No blanket FDA product approval, USDA grant of inspection, halal certificate, or 2026 sales status is established here. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C11",
+    "country": "SGP",
+    "jurisdiction": "SGP",
+    "assertion": "GOOD Meat announced SFA approval for serum-free media on January 18 2023; Singapore's Ministry of Sustainability and the Environment corroborates the serum-free approval in its 2023 speech.",
+    "source_ids": [
+      "P1C3-PROCESS-S06",
+      "P1C3-PROCESS-S07"
+    ],
+    "locator": "Company announcement opening; MSE speech paragraph 21",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Separate Singapore process. Exact SFA decision, complete inputs and animal-origin status across historical banking remain unestablished. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-PROCESS-C12",
+    "country": null,
+    "jurisdiction": "USA",
+    "assertion": "This bounded retrieval establishes no certifier-issued halal certificate matched to the CCC000001 line, medium, site and product. The retained 2023 law-firm excerpt describes conditional scholarly advice.",
+    "source_ids": [
+      "P1C3-PROCESS-S08"
+    ],
+    "locator": "Retrievals 14, 17; law-firm indexed opening; dossier/certificate match audit",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Search non-discovery is not evidence of global nonexistence or current non-certification; exact certificate fields remain null. 2022–2023 documentary process version; retrieved 2026-10-01; current commercial process not established",
+    "review_id": "R3-PROCESS",
+    "evidence_level": "checked_named_process_record"
+  },
+  {
+    "id": "P1C3-EGY-C01",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "WAAG's 24 September 2024 report attributes to Abbas Shoman a slaughtered-donor restriction, exclusion of cells taken from a living donor with a fish/locust exception, cell nutrients free from ritual impurities, and demonstrated absence of health harm. Exact exception scope awaits qualified Arabic review.",
+    "source_ids": [
+      "P1C3-EGY-S01"
+    ],
+    "locator": "First article paragraph",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Does not establish a retrieved Council resolution, national rule, certificate or successful product compliance. Dated report only; later statements not systematically checked.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-EGY-C02",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "The same report links Shoman's position to a Jeddah seminar paper and says it agrees with the Council's approval; the underlying decision is unidentified.",
+    "source_ids": [
+      "P1C3-EGY-S01"
+    ],
+    "locator": "Final article paragraph",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "First-party report of agreement cannot supply the absent decision's full passage, authority or scope. Report date 2024-09-24; Council decision date unknown.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-EGY-C03",
+    "country": "EGY",
+    "jurisdiction": "EGY",
+    "assertion": "Veto's 3 September 2023 report attributes a conditional answer to Dar al-Ifta: edible slaughtered donor, no live biopsy, no impure cultivation inputs, and no immediate or future human-health harm. Food-safety requirements also apply.",
+    "source_ids": [
+      "P1C3-EGY-S02"
+    ],
+    "locator": "Lines 68–99",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Not an accepted institutional matrix position until the original is found and checked. The report's technical premises are unverified. News date only; original fatwa date and author unknown.",
+    "review_id": "R3-EGYPT",
+    "evidence_level": "checked_attributed_report_not_accepted_institutional_ruling"
+  },
+  {
+    "id": "P1C3-CN-OUTPUT",
+    "country": "CHN",
+    "assertion": "NBS reported pork output 54.04 and poultry 19.94 million tons for 2018;42.55 and 22.39 for 2019. The release for 2019 (published 28 February 2020) reports changes of−21.3% and+12.3%, respectively. These are preliminary national production series.",
+    "source_ids": [
+      "P1C3-CN-NBS18",
+      "P1C3-CN-NBS19"
+    ],
+    "locator": "Agriculture output paragraphs and both note 1 s",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "2018 is partly exposed to ASF; no causal poultry substitution rate, household-intake measure, protein-mass conversion or cultivated-adoption implication.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-HOUSEHOLDS",
+    "country": "CHN",
+    "assertion": "ERS reproduces NBS household pork purchases of 22.8 kg per person in 2018, 20.3 in 2019, 18.2 in 2020 and 25.8 in 2021. Its Table 4 reports poultry changes of+3.7 kg in 2018–20 and−0.4 kg in 2020–21, alongside pork−4.6 kg and+7.6 kg.",
+    "source_ids": [
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "Printedpp 22–23,Fig 10 andTable 4; PDFpp 28–29",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "At-home household series, excluding away-from-home consumption; foodmass notproteinmass. Rebound is not evidence of permanent substitution. COVID measurement/composition and source cross-reference caveat retained; no new numerical demand elasticity. Unresolved discrepancy: NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg, and its 2022 figure (26.9 kg, up 6.75%) implies 25.2. Check ERS ERR-326 Table 4 against the NBS yearbook before reusing 25.8 or describing ERS as reproducing NBS.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-CONTROLS",
+    "country": "CHN",
+    "assertion": "FAO’s 1 March 2019 account dates China’s first confirmed outbreak to 3 August 2018 and describes zoning, live-pig movement restrictions, closures of affected/adjacent live-pig markets and a swill-feeding ban. ERS instead dates the initial report to 1 August; their common supported period isAugust 2018.",
+    "source_ids": [
+      "P1C3-CN-FAO19",
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "FAO first/control paragraphs; ERS printedp 4",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Reported dates describe confirmation/reporting differently; exact chronology unresolved. These are documented historical measures, not a quantified causal contribution to poultry purchases.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C3-CN-STUDY",
+    "country": "CHN",
+    "assertion": "Hao and coauthors’ publisher abstract describes a 2015–2020 panel of 31 mainland provinces using difference-in-differences and reports reduced pork/total meat and increased poultry, with urban/rural heterogeneity. Publisher bibliographic year is 2023; ERS cites 2022.",
+    "source_ids": [
+      "P1C3-CN-HAO23",
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "Publisher abstract lines 72–76 and bibliographic record; ERS printedpp 22, 39",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is an attributed abstract-level finding; the study’s causal identification, full numerical results and uncertainty were not independently assessed. No coefficient accepted as a PhaseTwo input.",
+    "review_id": "R3-CHINA"
+  },
+  {
+    "id": "P1C4-CORE-SAU-INSTITUTION",
+    "country": "SAU",
+    "assertion": "The General Presidency describes its function as stating legal rulings and issuing fatwas derived from the Quran and Sunnah; its English page lists a General Secretariat of the Senior Scholars Council and a Permanent Fatwa Committee.",
+    "source_ids": [
+      "P1C4-CORE-S02"
+    ],
+    "locator": "About Presidency opening paragraph and institution list",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "This is an undated institutional self-description, not the exact founding mandate of each named organ. Does not identify a national school or population prevalence. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-ARE-COMPOSITION",
+    "country": "ARE",
+    "assertion": "The retained official indexed English extract of Federal Law 3/2024 states: Article 6 provides for a UAE Council for Fatwa comprising a Chairman, Vice-Chairman and members representing the Emirates and relevant expertise; formation is by federal decree, with four-year membership terms automatically renewable unless restructured by federal decree.",
+    "source_ids": [
+      "P1C4-CORE-S04"
+    ],
+    "locator": "Article 6(1)–(2)",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Formal statutory design only. Actual appointments, current composition and full amendment history are not verified. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-ARE-REMIT",
+    "country": "ARE",
+    "assertion": "The retained official indexed English extract of Federal Law 3/2024 states: Article 7 assigns the Council public, contemporary, urgent and proactive fatwas; public fatwas on varied issues or requests; and policies/resolutions regulating fatwa affairs in coordination with Concerned Authorities in the State.",
+    "source_ids": [
+      "P1C4-CORE-S04"
+    ],
+    "locator": "Article 7(1)–(3)",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Concerned Authorities definition and emirate instruments were not read. No claim of exclusive jurisdiction, local-body repeal, particular school method or cultivated-food approval. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-COMMITTEE",
+    "country": "SGP",
+    "assertion": "The retained official indexed AMLA excerpt, with 2025 amendment annotations, states: AMLA section 31 provides a Legal Committee of the Majlis chaired by the Mufti and comprising at most eight other fit and proper Muslims, at least two of whom must be Majlis members. Other members are appointed by the President on Majlis advice; appointments are notified in the Gazette.",
+    "source_ids": [
+      "P1C4-CORE-S05"
+    ],
+    "locator": "Section 31(1)–(4); Act 4 of 2024 amendment note effective 7 August 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Statutory design from indexed primary extract, not verified officeholders. Older composition descriptions may be superseded; complete current consolidation not retained. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-REQUEST",
+    "country": "SGP",
+    "assertion": "The retained official indexed AMLA excerpt, with 2025 amendment annotations, states: Under AMLA section 32, a person can request a ruling by letter to the Chief Executive, who refers it to the Legal Committee chair. The Committee considers requests unless frivolous; following consideration, section 32(3A) permits a draft ruling when appropriate or necessary.",
+    "source_ids": [
+      "P1C4-CORE-S05"
+    ],
+    "locator": "Section 32(1)–(3A); Act 4 of 2024 amendment note effective 7 August 2025",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Remaining adoption procedure and section 33 legal-school method not read. Do not describe a request as automatically producing an adopted fatwa. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-CORE-SGP-OPERATIONS",
+    "country": "SGP",
+    "assertion": "MUIS describes its Office of the Mufti as Secretariat to the Fatwa Committee: it handles issuance operations and gathers references and information; experts, including scientific experts, may be invited into discussions.",
+    "source_ids": [
+      "P1C4-CORE-S06"
+    ],
+    "locator": "Opening institutional description, provider lines 29–31",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "MUIS explains operations; this is not a product fatwa, halal certificate, regulatory food decision or evidence about population school adherence. Single-source attribution; two independent source families are not established.",
+    "review_id": "R4-CORE",
+    "evidence_level": "checked_attributed_institutional_or_partial_statutory_reading"
+  },
+  {
+    "id": "P1C4-GULF-C01",
+    "country": "OMN",
+    "assertion": "Oman’s Ministry of Endowments and Religious Affairs publishes a description of its Mufti/Ifta Office in which fatwa requests are received, sorted and assigned to sheikhs, completed answers are recorded and delivered, and a research unit prepares supporting material and fatwa publications.",
+    "source_ids": [
+      "P1C4-GULF-S01"
+    ],
+    "locator": "Official page headings Fatwa Department, Department of Fatwas and Research and Studies Department; derived text lines 113–143",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Published institutional function description only; not proof of legal exclusivity, complete current structure, school adherence, population composition or any food ruling. Single institutional source; no second independent primary corroboration.",
+    "review_id": "R4-OMAN-EGYPT",
+    "evidence_level": "checked_attributed_institutional_self_description"
+  },
+  {
+    "id": "P1C4-OMN-ARTICLE2",
+    "country": "OMN",
+    "assertion": "In the issued 2021 Arabic Basic Statute, Article 2 states that Islam is the religion of the state and Islamic Sharia is the basis of legislation. That clause names no juristic school. Royal Decree 6/2021 is dated 11 January 2021 and says it operates from issuance.",
+    "source_ids": [
+      "P1C4-OMN-STATUTE"
+    ],
+    "locator": "PDF/printed page 2: decree Article 3 and signature date; page 3: attached Statute Article 2",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Source-bounded agent reading of the issued Arabic instrument; qualified translation and full subsequent amendment audit remain pending. This is not proof that no other law names a school, that the current legal order is fully mapped, or that any population follows a particular school. Official landing metadata displays 12 January 2021; a separate gazette publication date is unestablished.",
+    "review_id": "R4-OMAN-EGYPT",
+    "evidence_level": "checked_issued_legal_edition"
+  },
+  {
+    "id": "P1C5-INST-C01",
+    "country": null,
+    "assertion": "The 11 September 2023 manufacturer and counsel accounts name Abdullah AlManea, Abdullah al-Mutlaq and Saad Al-Shathry, and report conditions for permissible species, donor slaughter, permissible nutrients and safe edible output.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT",
+      "P1C3-PROCESS-S08"
+    ],
+    "locator": "Manufacturer conditions and named-adviser paragraphs; counsel four-condition list",
+    "limits": "The accounts describe one commissioned engagement. No signed original opinion, state-body adoption or product certificate is supplied.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P4"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "supported_conditional"
+      ]
+    }
+  },
+  {
+    "id": "P1C5-INST-C02",
+    "country": null,
+    "assertion": "GOOD Meat stated on 11 September 2023 that its then regulator-approved cell line and process did not meet the reported adviser criteria.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT"
+    ],
+    "locator": "Paragraph immediately following the four-condition list; retained provider line 29",
+    "limits": "Historical participant self-report, not current nonconformity. Exact failed condition and identifier match to another process version are unestablished.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C5-INST-C03",
+    "country": null,
+    "assertion": "The retrieved IIFA text retains a living-donor alternative; GOOD Meat’s participants report a slaughtered-donor condition. MUIS’s official 2024 materials and later summary retain unreconciled procurement formulations.",
+    "source_ids": [
+      "IIFA265",
+      "IIFA-AR",
+      "MUIS2024",
+      "MUIS-BOOK",
+      "C2-MUIS-ANNEX",
+      "P1C5-INST-GOODMEAT"
+    ],
+    "locator": "IIFA Third(1); MUIS release 8, booklet printed page 14 and Annex C section 1; manufacturer condition 2",
+    "limits": "Texts have different scopes and source families. This is not a formal inter-institutional dispute about one identical product, a universal consensus finding, or a reconciliation of the MUIS passages.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-INSTITUTIONS",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P5"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS",
+        "IIFA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C5-LIT-C01",
+    "country": null,
+    "assertion": "Alqurashi et al. describe a narrative perspective and propose production-stage, certification and governance controls; the article supplies no empirical results from halal-certified cultured-meat systems.",
+    "source_ids": [
+      "P1C5-LIT-ALQ-XML",
+      "P1C5-LIT-ALQ-PDF"
+    ],
+    "locator": "S1.P5–P6; S5.P1–P9; S6.P3; Tables 2–3 and Figures 2–3",
+    "limits": "Author proposals are not adopted standards, product certificates or tested risk thresholds. All 94 reference entries were read, not all 94 underlying works.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C02",
+    "country": null,
+    "assertion": "Alqurashi’s Table 1 labels 56% of a Malaysian sample of 102 as expressing doubts, while S4.P3 uses 56% as an endpoint of an acceptance range. The range is therefore not validated as a comparable acceptance measure.",
+    "source_ids": [
+      "P1C5-LIT-ALQ-XML"
+    ],
+    "locator": "S4.P3–P5; Table 1, Malaysian n=102 row",
+    "limits": "Internal article inconsistency only; original survey results need their own validation. Mixed willingness, interest, purchase intention and doubts cannot supply a pooled adoption baseline.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C03",
+    "country": null,
+    "assertion": "Kashim and colleagues discuss a qualified complete-transformation route for serum-grown meat, dependent on scholarly opinion, while contrasting a washing position attributed to Hamdan and noting MS1500’s prohibition on blood, plasma and serum.",
+    "source_ids": [
+      "P1C5-LIT-KASHIM"
+    ],
+    "locator": "Section s0060 paragraph 16, paragraph 17; conclusion s0065 paragraph 1",
+    "limits": "This is internally qualified author reasoning, not universal FBS permission or an issued ruling. The underlying Hamdan 2018 full text remains unread.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C04",
+    "country": null,
+    "assertion": "Hamdan and colleagues’ 2024 review argues that egg-derived cultivated chicken can become pure through transformation and distinguishes that route from embryos extracted from living mammals.",
+    "source_ids": [
+      "P1C5-LIT-HAMDAN24"
+    ],
+    "locator": "Section sec4.2 paragraphs 6–7; Methods sec3 paragraph 1",
+    "limits": "Paragraph 7 is author inference, not verified consensus or a named-product determination. Its review search ended 3 March 2023 and does not cover later institutions exhaustively.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-LIT-C05",
+    "country": null,
+    "assertion": "The inspected institutional and author bibliography routes establish Hamdan et al.’s 2018 paper identity but did not yield a complete manuscript for argument review.",
+    "source_ids": [
+      "P1C5-LIT-HAMDAN18-META",
+      "P1C5-LIT-HAMDAN18-AUTHOR"
+    ],
+    "locator": "Institutional author/bibliographic record and Access to Document; author publication citation",
+    "limits": "Explicit access limit after bounded retrieval, not a claim of global unavailability. Later Hamdan papers and secondary attributions are not substitutes.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R5-LITERATURE"
+  },
+  {
+    "id": "P1C5-STD-C01",
+    "country": null,
+    "assertion": "SMIIC lists OIC/SMIIC1:2019 for purchase; its project page describes Review at stage90.60. The publisher overview describes broad food-chain coverage, but the complete normative text was not obtained.",
+    "source_ids": [
+      "P1C5-STD-S01",
+      "P1C5-STD-S02",
+      "P1C5-STD-S03"
+    ],
+    "locator": "Catalogue first row; project24 metadata; publisher overview",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No clause-specific cultivated-meat permission, current national binding effect or purchased text established.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C02",
+    "country": "PAK",
+    "assertion": "PSQCA identifies PS3733-2022(R) as a modified adoption of OIC/SMIIC1:2019 second edition. It separately lists PS4992-2022(R) as modified adoption of the certification-body standard.",
+    "source_ids": [
+      "P1C5-STD-S04"
+    ],
+    "locator": "Updated standards, first two items",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "The national modifications and relevant clauses remain unavailable in the inspected list; adoption metadata is not automatic product authorization.",
+    "review_id": "R5-STANDARDS",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "PSQCA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C5-STD-C03",
+    "country": null,
+    "assertion": "GSO’s official store labels GSO2055-1:2015 edition2 current and gives approval on5November2015. Its linked English preview says Arabic controls conflicts and that the document replaces the2009regulation.",
+    "source_ids": [
+      "P1C5-STD-S05",
+      "P1C5-STD-S06"
+    ],
+    "locator": "Store header; preview foreword printediv",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Current means the observed catalogue label, not an exhaustive legal-currentness certification in each member state.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C04",
+    "country": null,
+    "assertion": "The linked preview covers scope, complementary references and definitions through3.9. It references separate slaughter, certification-body, accreditation, hygiene and labelling texts; the general food requirements, packaging, retail, transport, labelling and animal-classification clauses are not included.",
+    "source_ids": [
+      "P1C5-STD-S06"
+    ],
+    "locator": "Printed1–2, clauses1–3.9; contents printediii",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No unseen clause, donor rule, serum exception, transformation criterion or certificate can be supplied from the preview.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C05",
+    "country": null,
+    "assertion": "Project50611 labels GSO TC15/DS1 2055-1:2026 an initial draft updating GSO2055-1:2015, in Arabic and prepared by SASO.",
+    "source_ids": [
+      "P1C5-STD-S07"
+    ],
+    "locator": "Project title/type, language and related-standard fields",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "No adopted2026replacement, operative draft provision or national effective date established.",
+    "review_id": "R5-STANDARDS"
+  },
+  {
+    "id": "P1C5-STD-C06",
+    "country": "ARE",
+    "assertion": "The retained indexed MOIAT page names UAE.S2055-1 among halal standards and attributes certificate requirements for covered final products and raw materials to Cabinet10/2014. It describes the National Mark as optional.",
+    "source_ids": [
+      "P1C5-STD-S08"
+    ],
+    "locator": "About Halal, National Mark, Standards Relative to Halal",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "limits": "Administrative explanation only; full decree, scope exclusions, exact standard edition and cultivated-chicken product route remain unestablished.",
+    "review_id": "R5-STANDARDS",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "MOIAT"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "general_route_no_cultivated_scheme"
+      ]
+    }
+  },
+  {
+    "id": "P1C6-REL-C01",
+    "country": null,
+    "assertion": "The retained Maliki and Hanbali readings distinguish wine becoming vinegar from general purification by processing. Al-Mubdi records disagreement over deliberate conversion; Ibn Taymiyya’s wider transformation preference is not a unanimous Hanbali rule.",
+    "source_ids": [
+      "M-DAS28",
+      "M-DHAK",
+      "H-MUBDI",
+      "H-MUGH-IST",
+      "H-TAY-IST"
+    ],
+    "locator": "Prior M-Q6 and HB-Q6; Dasuqi vol1 pp49–52; Mubdi vol1 pp241–243; Mughni issue1001; Fatawa21:70–72",
+    "limits": "Retained checked research records, not newly retrieved editions. No dated change in consumer use is established.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_comparison",
+    "requirement_id": "HISTORY-01"
+  },
+  {
+    "id": "P1C6-REL-C02",
+    "country": null,
+    "assertion": "The checked transformation passages preserve disagreement: Ibn Abidin’s selected complete-change view differs from Abu Yusuf; Nawawi rejects a general ash/salt purification rule in his preferred account; Sistani distinguishes true change of essence from grinding or baking.",
+    "source_ids": [
+      "H1",
+      "S4",
+      "J4"
+    ],
+    "locator": "Prior HN-Q6, S-Q6 and J-Q6; Radd1:327; Majmu2:596–597; Islamic Laws189–191",
+    "limits": "These are named textual positions, not a survey proving unanimous school doctrine or modern process equivalence.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_comparison",
+    "requirement_id": "HISTORY-01"
+  },
+  {
+    "id": "P1C6-REL-C03",
+    "country": null,
+    "assertion": "Sahih Muslim366a reports Ibn Abbas relating that tanning makes a skin pure.",
+    "source_ids": [
+      "P1C6-REL-TAN"
+    ],
+    "locator": "Hadith366a",
+    "limits": "Purity of hide is the reported predicate. The passage does not establish permission to eat the hide, universal species coverage, a market transition, or cultivated-meat approval.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-02"
+  },
+  {
+    "id": "P1C6-REL-C04",
+    "country": null,
+    "assertion": "The retained Dardir/Dasuqi passage lists musk among pure substances.",
+    "source_ids": [
+      "M-DAS28"
+    ],
+    "locator": "Prior M-Q6; pure entities, vol1 p52",
+    "limits": "A named purity example; no verified biological manufacturing account, date of adoption, consumption trend or universal conversion rule.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_statement",
+    "requirement_id": "HISTORY-03"
+  },
+  {
+    "id": "P1C6-REL-C05",
+    "country": null,
+    "assertion": "Sunan Abi Dawud3785 reports a prohibition on eating the filth-feeding animal and drinking its milk, without specifying a quarantine duration.",
+    "source_ids": [
+      "P1C6-REL-JALLALA"
+    ],
+    "locator": "Hadith3785, book28 report50",
+    "limits": "Host-displayed grading is a later scholarly layer. No universal cleansing interval follows from this report.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-04"
+  },
+  {
+    "id": "P1C6-REL-C06",
+    "country": null,
+    "assertion": "Sistani’s Ruling219 requires cessation of habitual human-excrement feeding through pure feed; it gives recommended-precaution periods of camel40 days, cow20, sheep10, duck7 or5, and hen3. Ruling2649 links the excrement-eating animal’s meat to this process.",
+    "source_ids": [
+      "P1C6-REL-ISTIBRA219",
+      "J6"
+    ],
+    "locator": "Ruling219 entire paragraph; Eating and Drinking2649 final two sentences",
+    "limits": "One named authority and source family; these are prescribed conditions, not observed population adoption times. The periods are recommended precaution, not unqualified mandatory fixed durations.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-04"
+  },
+  {
+    "id": "P1C6-REL-C07",
+    "country": null,
+    "assertion": "Ruling2649 separately treats pig-milk-fed young animals: sufficient feeding to strengthen flesh and bones is disqualifying; a lesser-feeding case receives an obligatory-precaution seven-day pure-milk or grass regimen.",
+    "source_ids": [
+      "J6"
+    ],
+    "locator": "Ruling2649 opening and middle sentences",
+    "limits": "The seven-day lesser-feeding rule must not become a universal jallala rule or proof that all animal media can be purified by waiting.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-04"
+  },
+  {
+    "id": "P1C6-REL-C08",
+    "country": null,
+    "assertion": "The checked rennet passages preserve internal disagreement: Ibn Nujaym reports Abu Hanifa’s purity position for non-pig carcass rennet and different contamination treatment by his two companions; Ibn Qudama states an apparent impure position with a purity alternative.",
+    "source_ids": [
+      "H6",
+      "H-MUGH-RENNET"
+    ],
+    "locator": "Prior HN-Q7/HB-Q7; Bahr1:113 within112–116; Mughni issue85",
+    "limits": "An ingredient-specific dispute; not general permission for non-Muslim cheese, every enzyme, or modern serum.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_comparison",
+    "requirement_id": "HISTORY-05"
+  },
+  {
+    "id": "P1C6-REL-C09",
+    "country": null,
+    "assertion": "IIFA210 expressly permits genetically engineered rennet in its final rennet paragraph.",
+    "source_ids": [
+      "IIFA210"
+    ],
+    "locator": "Further Resolves: Cheese Manufactured by Rennet Curdling4",
+    "limits": "Other English rennet clauses contain missing predicates; do not reconstruct them. No observed replacement market share is supplied.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-05"
+  },
+  {
+    "id": "P1C6-REL-C10",
+    "country": null,
+    "assertion": "IIFA210 identifies a Kuwait IOMS seminar on22–24May1995 but leaves gelatin for further study.",
+    "source_ids": [
+      "IIFA210"
+    ],
+    "locator": "Fourth introduction; General Principles7",
+    "limits": "This is a2015IIFA text referring to1995IOMS; the original seminar instrument is not obtained. It cannot support blanket gelatin approval.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-06"
+  },
+  {
+    "id": "P1C6-REL-C11",
+    "country": null,
+    "assertion": "Previously checked Sistani gelatin answers distinguish unknown source, animal origin, lawful slaughter, minute absorption and proven transformation; the Arabic answers caution that transformation through manufacturing is not established.",
+    "source_ids": [
+      "J8",
+      "J9"
+    ],
+    "locator": "Prior J-Q7; English Gelatin Q1–2; Arabic al-Jilatin Q1–3,Q9–10",
+    "limits": "Named contemporary authority, not a historical adoption event or evidence every hydrolysis satisfies transformation.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_comparison",
+    "requirement_id": "HISTORY-06"
+  },
+  {
+    "id": "P1C6-REL-C12",
+    "country": "IDN",
+    "assertion": "Ajinomoto’s2015report attributes the2001Indonesia halal incident to pig-derived-enzyme involvement in bacterial preservation media and describes subsequent halal-management changes, including a2003group standard. Its2024timeline again records the2001incident.",
+    "source_ids": [
+      "P1C6-REL-AJI2015",
+      "P1C6-REL-AJI2024",
+      "P1C6-REL-AJI2015-PDF"
+    ],
+    "locator": "2015report printedp20, Lessons learned and footnote2;2024report p031,2001entry",
+    "limits": "Company retrospective; report variants share one source family. Complete2015PDF bytes obtained and printed20/PDF21 visually read; other pages not substantively read. No original MUI ruling, exact restoration date or final-product chemical analysis is established.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-07"
+  },
+  {
+    "id": "P1C6-REL-C13",
+    "country": "IDN",
+    "assertion": "A1February2001Jakarta Post report, retained as a mirrored search excerpt, reports an application/testing path for Ajinomoto seasoning using mameno instead of bactosoytone.",
+    "source_ids": [
+      "P1C6-REL-AJI-JP-LEAD"
+    ],
+    "locator": "Headline/date and opening paragraphs quoting MUI chairman Umar Shihab",
+    "limits": "Secondary reported participant statement only. Prospective certification is not a granted certificate; the original newspaper edition was not obtained.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "reported_event_lead",
+    "requirement_id": "HISTORY-07"
+  },
+  {
+    "id": "P1C6-REL-C14",
+    "country": null,
+    "assertion": "The retained English IIFA210 passage restricts pig-derived insulin except for necessity.",
+    "source_ids": [
+      "IIFA210"
+    ],
+    "locator": "Hormones and Enzymes",
+    "limits": "The following genetically engineered human-insulin clause is truncated; no missing conclusion is supplied. No medical advice, product determination, or measured substitution.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-08"
+  },
+  {
+    "id": "P1C6-REL-C15",
+    "country": null,
+    "assertion": "WHO Europe’s2017training manual reports an IOMS position allowing transformed porcine gelatin in vaccines.",
+    "source_ids": [
+      "P1C6-REL-WHO2017"
+    ],
+    "locator": "Printedp30 section4.2.2; p81reference37",
+    "limits": "Secondary attribution by WHO, not an obtained original religious instrument. The linked underlying letter could not be opened; this does not establish all vaccine compositions or individual eligibility.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "institutional_secondary_attribution",
+    "requirement_id": "HISTORY-08"
+  },
+  {
+    "id": "P1C6-REL-C16",
+    "country": null,
+    "assertion": "IIFA Resolution263(8/26) postpones a resolution on stunning before slaughter pending additional research. Its preamble cites a2022Jeddah seminar; the2025session was in Doha.",
+    "source_ids": [
+      "P1C6-REL-IIFA263"
+    ],
+    "locator": "Session preamble and RESOLVES paragraph; session4–8May2025; page20November2025",
+    "limits": "Postponement is not substantive approval, a reversal of earlier rulings, or a machine-slaughter decision.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-09"
+  },
+  {
+    "id": "P1C6-REL-C17",
+    "country": null,
+    "assertion": "Quran5:5 permits the food of those given Scripture and reciprocally permits the addressed community’s food to them.",
+    "source_ids": [
+      "P1C6-REL-Q55"
+    ],
+    "locator": "Surah al-Maidah5:5; Arabic verse and Mustafa Khattab translation",
+    "limits": "Verse, translation and later tafsir remain distinct. No exact revelation date, market integration effect, or blanket contemporary product certificate is inferred.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-10"
+  },
+  {
+    "id": "P1C6-REL-C18",
+    "country": null,
+    "assertion": "IIFA210 distinguishes wine-containing foods from limited alcohol use as a solvent for otherwise insoluble components; the latter passage invokes manufacturing evaporation and preference for alternatives, without a numeric threshold.",
+    "source_ids": [
+      "IIFA210"
+    ],
+    "locator": "Fourth, General Principles4–5",
+    "limits": "The English regulatory tail is incomplete. Do not infer0.1%,0.5%, a universal flavouring rule, or the rule’s national legal effect.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-11"
+  },
+  {
+    "id": "P1C6-REL-C19",
+    "country": null,
+    "assertion": "Sistani’s Eating and Drinking2648 describes eating horse, mule and donkey meat as disapproved.",
+    "source_ids": [
+      "J6"
+    ],
+    "locator": "Ruling2648 opening sentence",
+    "limits": "This is a named authority’s scoped formulation, not a pan-Jafari or five-school survey and not a historical change in demand.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-12"
+  },
+  {
+    "id": "P1C6-REL-C20",
+    "country": null,
+    "assertion": "The checked manuals use different aquatic categories: Quduri restricts edibility to fish; Reliance permits aquatic game with exclusions; Umdat al-fiqh lists excluded sea creatures; Sistani’s fishing rules distinguish scaled fish and capture conditions.",
+    "source_ids": [
+      "H4",
+      "S2",
+      "H-UM-FOOD2",
+      "J7"
+    ],
+    "locator": "Prior HN-Q8,S-Q8,HB-Q8,J-Q8; Quduri ch50; Reliance j16.4/j17.1; Umdat foods p136; Sistani2632/2634",
+    "limits": "These passages do not complete the shrimp-classification dispute. Inferring a named shrimp verdict from fish or aquatic categories would exceed the inspected evidence.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "prior_checked_textual_comparison",
+    "requirement_id": "HISTORY-12"
+  },
+  {
+    "id": "P1C6-REL-C21",
+    "country": null,
+    "assertion": "IIFA95 gives conditional permission for meat after stunning when survival to slaughter is technically certified, while prohibiting electric poultry stunning. Its Eighth section permits mechanical poultry slaughter subject to the Second section’s conditions and allows one invocation for an uninterrupted sequence, repeated after interruption.",
+    "source_ids": [
+      "P1C6-REL-IIFA95"
+    ],
+    "locator": "Fifth1–2 and subpoint6; Eighth with Second",
+    "limits": "Historical1997instrument. Corrupt numerical specifications are excluded. Later2025postponement does not establish repeal or a consolidated current standard.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-09"
+  },
+  {
+    "id": "P1C6-REL-C22",
+    "country": null,
+    "assertion": "IIFA95’s Seventh section qualifies People-of-the-Book meat permission by lawful species, absence of forbidden material and compliant slaughter; Ninth1 likewise attaches method and conditions to imports from the described countries.",
+    "source_ids": [
+      "P1C6-REL-IIFA95"
+    ],
+    "locator": "Seventh and Ninth1",
+    "limits": "Named1997institutional application, not a universal current country rule. The webpage miscites the verse as al-Maidah6; Quran5:5 is independently identified.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-RELIGIOUS-HISTORY",
+    "evidence_level": "attributed_source_statement",
+    "requirement_id": "HISTORY-10"
+  },
+  {
+    "id": "R6E-HISTORY-13-SCOPE",
+    "country": null,
+    "assertion": "Modern historian Chaim Nissim reports a 1511 Meccan prohibition dispute through Ibn Tulun and cites the underlying chronicle at pp 359–362. The retained Arabic catalogue leads are not a read chronicle. The defensible before/after is reported local consumption followed by a local prohibition, not a verified universal ban-and-reversal sequence. Keep it as a qualitative authority/contestation example; quantitative adoption and the original event instrument remain unresolved.",
+    "source_ids": [
+      "P1C6-EMP-E01",
+      "P1C6-EMP-E02"
+    ],
+    "locator": "printed pp12–13, especially p12 footnote5 referring to Ibn Tulun, Tarikh al-Sham pp359–362; university catalogue result, title/author/manuscript metadata and three listed images; also Google Books2007 edition in same capture",
+    "limits": "Original Ibn Tulun passage, Tarikh al-Sham pp 359–362, not read Jaziri catalogue/edition located but substantive manuscript passage not acquired Exact day and rescission cannot be certified; secondary accounts differ No sales, price, consumption, elasticity or transition-time series",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_retain_as_contestation_example_primary_instrument_unread",
+    "requirement_id": "HISTORY-13"
+  },
+  {
+    "id": "R6E-HISTORY-14-SCOPE",
+    "country": null,
+    "assertion": "USDA ERS reports butter availability falling from 16.4 to 5.0 lb/person/year between 1942 and 1972. Margarine crossed butter in 1958, peaked at 12.0 lb in 1976 and fell below butter by 2005 despite remaining cheaper. These are availability proxies, not causal replacement measurements. Scarcity, soybean supply, policy, formulation and health perceptions moved together. The reversal makes a permanent technology-driven displacement assumption especially weak.",
+    "source_ids": [
+      "P1C6-EMP-E03"
+    ],
+    "locator": "5 July2016; paragraphs on1942–1972,1958 crossover,1976 peak and2005 reversal",
+    "limits": "No causal decomposition or identified own/cross-price elasticity No protein-equivalent or Muslim-market transfer Full annual raw series not downloaded",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_official_historical_availability_case",
+    "requirement_id": "HISTORY-14"
+  },
+  {
+    "id": "R6E-HISTORY-15-SCOPE",
+    "country": null,
+    "assertion": "The Lee–Sumner paper uses2018–2020 scanner information and market conditions to simulate removing plant-based milk options; it uses a2020household baseline to express annual quantity changes. Its0.68gallon ratio is a static counterfactual displacement result, not an elasticity. Organic and lactose-free milk respond more than conventional milk. This example supports category-specific modeling; it does not establish a chronological adoption rate or an animal-production effect.",
+    "source_ids": [
+      "lee_sumner_2026_plant_based_milk_displacement"
+    ],
+    "locator": "DOI10.1016/j.foodpol.2026.103119; sections2,3.1.1,3.2,6–7 and Table1 in retained indexed passages",
+    "limits": "Relevant publisher methods/counterfactual passages were independently compared; complete estimation tables/supplement and numerical elasticities are not fully reviewed. No long-run causal displacement ratio or confidence interval imported Household gallons are not nutritional equivalence or animal-production outcomes",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_model_counterfactual_not_observed_historical_transition",
+    "requirement_id": "HISTORY-15"
+  },
+  {
+    "id": "R6E-HISTORY-16-SCOPE",
+    "country": "IND",
+    "assertion": "The 1950 debate records opposition to making vegetable fat resemble ghee; the 1961 committee report records testing and quality-control machinery. Its 3.5/4.75 lakh-ton figures are forecasts and planned magnitudes, not observed replacement of ghee. The case supports a distinction between authorized product manufacture, honest substitution and adulteration. It supplies no reliable adoption speed, relative-price path or religious-acceptance outcome.",
+    "source_ids": [
+      "P1C6-EMP-E05",
+      "P1C6-EMP-E06"
+    ],
+    "locator": "printed p2732, Ch. Mukhtiar Singh continuation on resemblance to ghee, adulteration and coloring; title March1961; printed p29, sections57–58, forecasts immediately preceding; early institutional functions in opened text",
+    "limits": "Original downloaded committee bytes unavailable; relevant p 29 is indexed primary text No before/after ghee consumption or relative-price series No realized market share, causal replacement or elasticity No issued religious decision established by these sources",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_industrial_identity_and_control_case_no_measured_displacement",
+    "requirement_id": "HISTORY-16"
+  },
+  {
+    "id": "R6E-HISTORY-17-SCOPE",
+    "country": "PAK",
+    "assertion": "Pakistan's tables distinguish broilers from total poultry, but their footnotes say the estimates derive from older statistical parameters. Poultry meat rises from 2160 to 2583 thousand tonnes over 2022–23 to 2024–25; mutton also rises, while beef changes direction. These figures cannot establish household substitution. An indexed US historical availability comparator suggests a longer research route, but its exact weight footnote and broiler-specific series were not fully checked, so no US replacement ratio is imported.",
+    "source_ids": [
+      "P1C6-EMP-E07",
+      "P1C6-EMP-E08",
+      "P1C6-EMP-PAK2025"
+    ],
+    "locator": "2023–24 Table2.8;2024–25 Table2.6 at https://www.finance.gov.pk/survey/chapter_25/2_Agriculture.pdf; April1999; Table2 selected periods in indexed search; open title/contents/method discussion",
+    "limits": "Observed matched household quantities and relative prices unavailable No identified cross-price coefficients for these historical windows US Table 2 weight footnote and broiler-only series not fully checked; exclude its numerical rows from calibrated comparison Do not treat these official estimates as newly observed realized production",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_capacity_estimate_case_reject_unidentified_substitution_claim",
+    "requirement_id": "HISTORY-17"
+  },
+  {
+    "id": "R6E-HISTORY-18-SCOPE",
+    "country": "CHN",
+    "assertion": "The checked China dossier records preliminary pork output falling 54.04→42.55 million tons and poultry rising 19.94→22.39 in 2018–2019. At-home pork purchases later rebounded to 25.8 kg/person in 2021, alongside a poultry decline from 2020. These observations show a supply-shock response and reversal, not durable conversion. COVID, trade, rebuilding, geographic exclusions and a partly exposed 2018 baseline remain material. Elasticity and a causal substitution fraction stay null.",
+    "source_ids": [
+      "P1C3-CN-NBS18",
+      "P1C3-CN-NBS19",
+      "P1C3-CN-ERS326"
+    ],
+    "locator": "Agriculture paragraph, total output of pork; note1;28 February2019; Agriculture paragraph, total output of pork; note1;28 February2020; November2023; printed pp22–23,36; Figure10 and Table4; prior visual check PDFp29",
+    "limits": "Original NBS yearbook householdtable and full survey design not independently retrieved. Hao full methods, coefficients and parallel-trend evidence remain unreviewed. Ma 2021 full inverse-demand estimates and model assumptions not acquired;2020 conference lead failed. No qualified human scholarly acceptance. ERS reproduces NBS household evidence and is not an independent household survey Do not divide poultry gains by pork losses and call it a causal replacement fraction. Unresolved discrepancy: NBS's own 2021 per-capita pork figure is widely reported as 25.2 kg, and its 2022 figure (26.9 kg, up 6.75%) implies 25.2. Check ERS ERR-326 Table 4 against the NBS yearbook before reusing 25.8 or describing ERS as reproducing NBS.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_reuse_independently_checked_bounded_descriptive_case",
+    "requirement_id": "HISTORY-18"
+  },
+  {
+    "id": "R6E-HISTORY-19-SCOPE",
+    "country": null,
+    "assertion": "ERS reports more than 50 million bird losses from disease/depopulation and a 10% decline in egg production during May–December 2015 relative to the prior year. New York benchmark egg prices rose 61% over the same comparison. Output returned to pre-outbreak levels in early 2016. The source distinguishes processing and consumer eggs and notes substitution difficulties. This is an incumbent supply/recovery episode, not measured adoption of egg alternatives; an elasticity cannot be calculated from those two percentages.",
+    "source_ids": [
+      "P1C6-EMP-E12",
+      "P1C6-EMP-E13"
+    ],
+    "locator": "2 April2018, paragraphs on bird losses, egg production, prices and processing-grade substitution; 29 August2016; April/August2015 and May2016 wholesale quotations",
+    "limits": "No identified elasticity; ratio of output decline to price increase would be invalid No measured alternative-protein uptake ERS articles share the same analysis/data family",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_supply_shock_and_recovery_case_not_alternative_food_adoption",
+    "requirement_id": "HISTORY-19"
+  },
+  {
+    "id": "R6E-HISTORY-20-SCOPE",
+    "country": "QAT",
+    "assertion": "Baladna's retrospective report dates the blockade to 5 June 2017 and its first milking to 11 July,36 days later; it records 4,000 cows arriving byOctober and phase 1 completion inDecember. Its project design began inJanuary, before the blockade. The 2017 announcement's 100 tonnes/day goal was a plan, not an observed national outcome. This is a company capacity timeline for the same cow's-milk category. National dairy displacement and self-sufficiency remain unverified.",
+    "source_ids": [
+      "P1C6-EMP-E14",
+      "P1C6-EMP-E15"
+    ],
+    "locator": "printed pp11–13; operating highlights and Journey to the IPO; 7 August2017, CEO plans for4,000 cows and100 tonnes/day; same search includes2021 annual-report herd table",
+    "limits": "No official matched 2016–2019 dairy import/output/consumption series obtained No independently checked national self-sufficiency denominator Fresh milk is narrower than all dairy No price elasticity, consumer substitution or causal share",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_participant_capacity_timeline_national_displacement_unestablished",
+    "requirement_id": "HISTORY-20"
+  },
+  {
+    "id": "R6E-HISTORY-21-SCOPE",
+    "country": "ARE",
+    "assertion": "The UAE's 2018 strategy defines 18 food types,38 initiatives and a goal of 3–5 sources per main food category. It combines domestic technology with diversified imports, partnerships and waste reduction. Those numbers describe policy design, not realized production or adoption. The 2051 horizon is a target date, not observed transition speed. This bounded UAE example does not stand in for every Gulf strategy or establish any cultivated-meat approval.",
+    "source_ids": [
+      "P1C6-EMP-E16"
+    ],
+    "locator": "official page updated30 December2024; indexed official SDG report p31 and UAE2018 book pp80–81 date launch November2018",
+    "limits": "No ex-post quantities, prices, protein outputs or causal evaluation retrieved No primary six-country GCC strategy comparison No novel-product approval or religious certification implied Direct page open returned no text; indexed official passages retained",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R6-EMPIRICAL-HISTORY",
+    "evidence_level": "bounded_policy_design_precedent_excluded_from_outcome_calibration",
+    "requirement_id": "HISTORY-21"
+  },
+  {
+    "id": "R07-EL-C01",
+    "country": "IND",
+    "assertion": "Rural and urban chicken own-price estimates are -0.432 and -0.328; their reported t-values are -0.44 and -0.61. The unrestricted 1993–94 state-aggregate model leaves compensation and current transport unresolved.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Obtain original table rendering and resolve real-expenditure/compensation definition; validate a newer species-specific system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-017",
+      "EST-018",
+      "EST-019",
+      "EST-020",
+      "EST-021",
+      "EST-022",
+      "EST-023",
+      "EST-024",
+      "EST-041",
+      "EST-042",
+      "EST-043",
+      "EST-044",
+      "EST-045",
+      "EST-046",
+      "EST-047",
+      "EST-048",
+      "EST-055",
+      "EST-056",
+      "EST-057"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C02",
+    "country": "IND",
+    "assertion": "The closest original category combines beef and buffalo; rural own-price is positive 3.179 and urban is -0.476. Neither identifies beef alone.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Recover separately coded cattle-beef quantities/prices and a corresponding estimate; resolve positive own-price/regularity and current validity.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-009",
+      "EST-010",
+      "EST-011",
+      "EST-012",
+      "EST-013",
+      "EST-014",
+      "EST-015",
+      "EST-016",
+      "EST-033",
+      "EST-034",
+      "EST-035",
+      "EST-036",
+      "EST-037",
+      "EST-038",
+      "EST-039",
+      "EST-040",
+      "EST-052",
+      "EST-053",
+      "EST-054"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C03",
+    "country": "IND",
+    "assertion": "The original bundles mutton and goat. Rural and urban own-price entries are -0.030 and -3.308; separate adult-sheep mutton demand is unidentified.",
+    "source_ids": [
+      "P1C7-EL-IND-DASTAGIRI-2004"
+    ],
+    "locator": "§2.1 pp.3–4; §2.2 p.5; §2.3 p.6; Table 2 p.8; Table 3 p.9; Table 4 p.10",
+    "limits": "Obtain an explicit mutton definition and a separately estimated adult-sheep or agreed target category; retain the bundle until then.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-IND-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-001",
+      "EST-002",
+      "EST-003",
+      "EST-004",
+      "EST-005",
+      "EST-006",
+      "EST-007",
+      "EST-008",
+      "EST-025",
+      "EST-026",
+      "EST-027",
+      "EST-028",
+      "EST-029",
+      "EST-030",
+      "EST-031",
+      "EST-032",
+      "EST-049",
+      "EST-050",
+      "EST-051"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C04",
+    "country": "PAK",
+    "assertion": "HIES 2010–11 chicken own-price entries are -0.648 rural, -1.022 urban and -0.807 pooled. The source needs reconciliation of sample counts and log-model notation before forecast use.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve equation (1), estimation sample and unit-value/endogeneity handling; seek a current corresponding household system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-066",
+      "EST-067",
+      "EST-068",
+      "EST-069",
+      "EST-078",
+      "EST-079",
+      "EST-080",
+      "EST-081",
+      "EST-090",
+      "EST-091",
+      "EST-092",
+      "EST-093",
+      "EST-100",
+      "EST-101",
+      "EST-102"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C05",
+    "country": "PAK",
+    "assertion": "Table 7 uses a short beef response label and a beef-and-buffalo price column. Its pooled reported own entry is -1.068, but a beef-only quantity/price estimand cannot be established.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve the original HIES item codes and row/price definition; do not relabel the bundled regressor beef.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-058",
+      "EST-059",
+      "EST-060",
+      "EST-061",
+      "EST-070",
+      "EST-071",
+      "EST-072",
+      "EST-073",
+      "EST-082",
+      "EST-083",
+      "EST-084",
+      "EST-085",
+      "EST-094",
+      "EST-095",
+      "EST-096"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C06",
+    "country": "PAK",
+    "assertion": "Table 7 uses a short mutton response label and a mutton-and-goat price column. Pooled reported own entry is -0.859; sheep-only mutton effects remain unidentified.",
+    "source_ids": [
+      "P1C7-EL-PAK-AUJLA-2019"
+    ],
+    "locator": "Introduction p.25; Materials and Method p.26; Table 1 p.26; Table 3 p.28; Table 5 p.30; Table 7 p.32",
+    "limits": "Resolve original commodity coding and category symmetry before any target transport.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-PAK-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-062",
+      "EST-063",
+      "EST-064",
+      "EST-065",
+      "EST-074",
+      "EST-075",
+      "EST-076",
+      "EST-077",
+      "EST-086",
+      "EST-087",
+      "EST-088",
+      "EST-089",
+      "EST-097",
+      "EST-098",
+      "EST-099"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C07",
+    "country": "SAU",
+    "assertion": "The national 1985–2010 Rotterdam model gives conditional compensated chicken own-price -0.088 and group expenditure elasticity 0.48. It does not supply a current unconditional Marshallian parameter.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Match target conditioning, obtain elasticity uncertainty and updated data; estimate upper-stage expenditure response if unconditional demand is needed.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-107",
+      "EST-108",
+      "EST-109",
+      "EST-110",
+      "EST-116"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C08",
+    "country": "SAU",
+    "assertion": "The national 1985–2010 Rotterdam model gives conditional compensated beef own-price -0.204 and group expenditure elasticity 1.07. Elasticity SE/CI are not supplied in Table 6.4.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Match population, historical/current context and conditional compensated estimand; obtain uncertainty and any necessary upper-stage system.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-103",
+      "EST-104",
+      "EST-105",
+      "EST-106",
+      "EST-115"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C09",
+    "country": "SAU",
+    "assertion": "The closest original response is lamb: conditional compensated own-price -0.103 and group expenditure elasticity 1.27. The publication does not establish an adult-sheep mutton mapping.",
+    "source_ids": [
+      "P1C7-EL-SAU-ALBALAWI-2016"
+    ],
+    "locator": "§5.1–5.2 pp.83–84; §6.3 pp.122–126; equations (3.1)–(3.5); Tables 6.3–6.4 pp.127–128",
+    "limits": "Recover source commodity codes/age definitions, then estimate or justify the exact requested mutton target.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-SAU-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-111",
+      "EST-112",
+      "EST-113",
+      "EST-114",
+      "EST-117"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C10",
+    "country": "ARE",
+    "assertion": "The publication reports chicken own-price -0.319 Marshallian and -0.531 Hicksian with positive expenditure elasticity 0.690. The more-negative compensated value conflicts with the positive-share Slutsky relation.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Obtain a correction or reproducible estimation resolving Tables 2–4 and survey year; retain printed values only as source findings.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-CHICKEN"
+    ],
+    "estimate_ids": [
+      "EST-136",
+      "EST-137",
+      "EST-138",
+      "EST-139",
+      "EST-140",
+      "EST-141",
+      "EST-160",
+      "EST-161",
+      "EST-162",
+      "EST-163",
+      "EST-164",
+      "EST-165",
+      "EST-169"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C11",
+    "country": "ARE",
+    "assertion": "Reported beef own-price is +0.666 Marshallian and +0.568 Hicksian. Positive Hicksian own effect and the negative compensation increment with positive expenditure elasticity prevent coherent demand-model transfer.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Obtain corrected tables or reproducible data/model plus survey year and sampling verification.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-BEEF"
+    ],
+    "estimate_ids": [
+      "EST-118",
+      "EST-119",
+      "EST-120",
+      "EST-121",
+      "EST-122",
+      "EST-123",
+      "EST-142",
+      "EST-143",
+      "EST-144",
+      "EST-145",
+      "EST-146",
+      "EST-147",
+      "EST-166"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R07-EL-C12",
+    "country": "ARE",
+    "assertion": "The source has separate lamb and goat categories, neither explicitly mutton. Lamb own-price is -0.041 Marshallian and +0.134 Hicksian; the latter also fails the nonpositive own substitution restriction.",
+    "source_ids": [
+      "P1C7-EL-ARE-BASARIR-2013"
+    ],
+    "locator": "Research Methodology pp.34–35; Results and Discussions p.35; Tables 2–4 p.37",
+    "limits": "Resolve adult-sheep mutton versus lamb/goat categories and the source regularity issues; no weighted average without target shares and a valid model.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_source_finding",
+    "requirement_ids": [
+      "EL-ARE-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-124",
+      "EST-125",
+      "EST-126",
+      "EST-127",
+      "EST-128",
+      "EST-129",
+      "EST-148",
+      "EST-149",
+      "EST-150",
+      "EST-151",
+      "EST-152",
+      "EST-153",
+      "EST-167"
+    ],
+    "forecast_value": null,
+    "supporting_estimate_ids": [
+      "EST-130",
+      "EST-131",
+      "EST-132",
+      "EST-133",
+      "EST-134",
+      "EST-135",
+      "EST-154",
+      "EST-155",
+      "EST-156",
+      "EST-157",
+      "EST-158",
+      "EST-159",
+      "EST-168"
+    ],
+    "supporting_estimate_role": "Separate goat category demonstrates the category boundary; these rows are not mutton estimates and are not part of the requested mutton slot primary series."
+  },
+  {
+    "id": "R07-EL-C13",
+    "country": "PAK",
+    "assertion": "Hayat et al. estimate a pooled meat group that includes fish and other poultry. Reported meat own-price values are -0.12486 uncompensated and +0.090241 compensated; expenditure elasticity is 1.683099. These do not identify species effects, and the positive compensated own effect is a regularity concern.",
+    "source_ids": [
+      "P1C7-EL-PAK-HAYAT-2023"
+    ],
+    "locator": "§3; §4 equations 7–8; Tables 3–4, Meat row",
+    "limits": "Single aggregate-meat study; fish and other poultry included. Source regularity concerns and species disaggregation remain unresolved; no current forecast coefficient adopted.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-ELASTICITY",
+    "evidence_level": "bounded_aggregate_study_excluded_from_species_calibration",
+    "requirement_ids": [
+      "EL-PAK-CHICKEN",
+      "EL-PAK-BEEF",
+      "EL-PAK-MUTTON"
+    ],
+    "estimate_ids": [
+      "EST-170",
+      "EST-171",
+      "EST-172",
+      "EST-173",
+      "EST-174",
+      "EST-175",
+      "EST-176",
+      "EST-177",
+      "EST-178",
+      "EST-179",
+      "EST-180",
+      "EST-181",
+      "EST-182",
+      "EST-183",
+      "EST-184",
+      "EST-185",
+      "EST-186"
+    ],
+    "forecast_value": null
+  },
+  {
+    "id": "R7-FEED-C01",
+    "country": "IND",
+    "assertion": "Publisher abstract reports two Indian-institution broiler trials of partially defatted BSFL meal: 0/2.5/5% diet and 0/5/7.5/10%; early growth improved at up to 5%, while FCR increased later and growth declined at 7.5/10%.",
+    "source_ids": [
+      "R7-FEED-S04"
+    ],
+    "locator": "Abstract; affiliation",
+    "limits": "Full methods/site, substrate, price and cost endpoints unexamined; improved growth cannot establish cheaper feed.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_abstract",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C02",
+    "country": "IND",
+    "assertion": "Acknowledgements identify Intulse Technologies (Gandhi Nagar), Insectifii (Bengaluru) and Maharashtra Hybrid Seeds (Jalna) as sample providers.",
+    "source_ids": [
+      "R7-FEED-S04"
+    ],
+    "locator": "Acknowledgements",
+    "limits": "Sample provision does not measure commercial production, market revenue or supply capacity.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_attributed",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C03",
+    "country": "IND",
+    "assertion": "ICAR-CIBA’s 11 August 2023 account describes an Insectika Biotech research agreement to evaluate BSF meal in aquafeed and optimize its production cost.",
+    "source_ids": [
+      "R7-FEED-S03"
+    ],
+    "locator": "dated opening and research paragraphs",
+    "limits": "Aquafeed collaboration and intent are not a measured poultry-cost effect or realized national sales.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_primary",
+    "requirement_id": "FEED-IND",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C04",
+    "country": "PAK",
+    "assertion": "Indexed publisher discussion reports somewhat higher feed costs in mealworm-supplemented groups but performance-related gains in gross returns and net profit under heat stress.",
+    "source_ids": [
+      "R7-FEED-S05"
+    ],
+    "locator": "indexed economics discussion",
+    "limits": "Original table and full methods blocked; numerical cost-effect size, trial date and exact site remain unverified. Not an industry effect.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_primary_limited",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C05",
+    "country": "PAK",
+    "assertion": "Peshawar university’s 2022–2023 report extract attributes 400 kg of mealworm meal to the project and reports training 50 women poultry farmers.",
+    "source_ids": [
+      "R7-FEED-S06"
+    ],
+    "locator": "named mealworm mass-production project paragraph",
+    "limits": "Cumulative project amount; exact duration, species/product specification, annual output and sales not established.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_institutional",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C06",
+    "country": "PAK",
+    "assertion": "A 2025 original-paper indexed methods sentence locates a 35-day Ross308 insect-protein trial at UVAS Ravi Campus, Pattoki, Lahore, Pakistan.",
+    "source_ids": [
+      "R7-FEED-S11"
+    ],
+    "locator": "indexed methods sentence",
+    "limits": "No numerical effect or economic conclusion adopted from this unexamined full text.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "primary_trial_lead",
+    "requirement_id": "FEED-PAK",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C07",
+    "country": "SAU",
+    "assertion": "Saudi-affiliated Abbas et al. report a 360-bird finisher experiment replacing 0–50% of soybean meal; 30% replacement corresponds to 90 g BSFL meal/kg as-fed diet in Table 3.",
+    "source_ids": [
+      "R7-FEED-S07"
+    ],
+    "locator": "pp312–314;Table 3",
+    "limits": "Saudi affiliations and ethics approval do not independently prove trial-site address. Finisher22–35days; Indian full-fat supplier meal, substrate unknown. No monetary outcome in inspected passage.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_partial_primary_extract",
+    "requirement_id": "FEED-SAU",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C08",
+    "country": "SAU",
+    "assertion": "PHYLA’s timeline labels 2024 pilot work,2025 pre-commercial entry, and2026 industrial facilities as a future launch; its protein powder targets poultry, aquaculture and pet feed.",
+    "source_ids": [
+      "R7-FEED-S08"
+    ],
+    "locator": "PHYLA history;products",
+    "limits": "The same page’s advertised Pro scale is a design claim, not audited annual output or national market size.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_company_attribution",
+    "requirement_id": "FEED-SAU",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C09",
+    "country": "ARE",
+    "assertion": "Circa’s Al Ain page describes pre-consumer food waste conversion and labels 1200 tons of insect protein as produced annually.",
+    "source_ids": [
+      "R7-FEED-S09"
+    ],
+    "locator": "facility description;Power in Numbers",
+    "limits": "Undated company wording lacks reporting year, audited output/sales, meal-vs-pure-protein mass basis and poultry allocation.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_company_attribution",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C10",
+    "country": "ARE",
+    "assertion": "Masdar’s launch account quotes a planned full-scale 22000 tonnes of animal feed/year; its initial 1.5 tonnes/month figure refers to organic fertilizer.",
+    "source_ids": [
+      "R7-FEED-S10"
+    ],
+    "locator": "CEO full-industrial-scale quote;initial-production paragraph",
+    "limits": "Publication/event date unresolved; future plan and fertilizer output cannot substitute for measured insect-meal sales or poultry-cost effects.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_participant_projection",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-FEED-C11",
+    "country": "ARE",
+    "assertion": "A MOCCAE document with printed 21 July 2020 heading identifies Circa’s food-waste-to-feed activity in an innovation competition.",
+    "source_ids": [
+      "R7-FEED-S12"
+    ],
+    "locator": "dated heading;teams category paragraph",
+    "limits": "Confirms described activity only; no audited throughput, product approval or cost effect.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-ECONOMICS",
+    "evidence_level": "single_source_indexed_government",
+    "requirement_id": "FEED-ARE",
+    "eligible_for_national_market_value": false,
+    "eligible_for_forecast_parameter": false
+  },
+  {
+    "id": "R7-CO-JOR",
+    "country": null,
+    "assertion": "Jordan’s General Iftaa Department distinguishes live worms/insects, dead insects and feed mixtures, reports a Shafii qualification, and conditions its answer on expert assessment of harm. This is an attributed institutional answer, not certification of a named insect-meal product.",
+    "source_ids": [
+      "R7-F-JOR4015"
+    ],
+    "locator": "Fatwa4015,23October2025; answer paragraphs1–4",
+    "limits": "Arabic interpretation pending qualified review; quoted classical passages are not all independently acquired. No blanket school consensus, national market permission or product safety finding.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-HANAFI",
+    "country": null,
+    "assertion": "The mirrored Askimam answer tells the questioner there is no need to feed live worms because chickens hunt them themselves. Its supporting quotation distinguishes mixed feeding from jallala with altered flesh. The answer does not give an industrial insect-meal approval.",
+    "source_ids": [
+      "R7-F-ASK125569"
+    ],
+    "locator": "Answer1 and footnote1; Tuhfat al-fuqaha3:65 cited in mirror",
+    "limits": "Original issuer page, Deoband6945 and cited print edition remain unacquired. Attribution is to this answer, not all Hanafi authorities.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-HANBALI",
+    "country": null,
+    "assertion": "In al-Mughni section 7800, Ibn Qudama attributes a majority-impure-feed formulation to al-Qadi, then says that exact formulation was not heard from Ahmad and is not the apparent meaning of Ahmad’s statement. This internal attribution difference prevents treating it as an undisputed numerical feed threshold.",
+    "source_ids": [
+      "R7-F-MUGHNI7800"
+    ],
+    "locator": "Al-Mughni, displayed 9:330, section 7800; full displayed digital section",
+    "limits": "Full displayed section read through a digital-library provider rendering; exact print edition and broader surrounding context remain unverified. Jallala doctrine does not itself classify a particular insect species, industrial meal or product.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-SHAFII",
+    "country": null,
+    "assertion": "The indexed al-Majmu discussion contrasts a feed-majority criterion with a smell/taint criterion. It therefore cannot be reduced to a universal percentage of insect inclusion.",
+    "source_ids": [
+      "R7-F-MAJMU-JALLALA"
+    ],
+    "locator": "Al-Majmu, food chapter, jallala discussion, displayed volume9",
+    "limits": "Exact print edition and complete passage require checking. The passage addresses impurity and animal status, not a tested industrial insect-feed formulation.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-JAFARI",
+    "country": null,
+    "assertion": "Sistani’s recorded jallala rule concerns habituation to human excrement and cessation through clean feeding; the pig-milk subcase is separate. These rules do not classify every insect or establish that insect-fed poultry is automatically jallala.",
+    "source_ids": [
+      "P1C6-REL-ISTIBRA219",
+      "J6"
+    ],
+    "locator": "Sistani, Islamic Laws, rulings219 and2649",
+    "limits": "Named authority only. Insect species, insect substrate and the poultry diet require separate facts and a matched ruling. Prior source captures reused; no new qualified interpretation or certificate.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "FEED-SCHOOLS"
+  },
+  {
+    "id": "R7-CO-ETH2011",
+    "country": null,
+    "assertion": "The 2011 Nyishi/Galo study interviewed 20 informants from each group in East Kameng and West Siang and describes itself as qualitative. Its reported insect uses concern the sampled communities, not the prevalence or protein intake of South Asia.",
+    "source_ids": [
+      "R7-F-ETH2011"
+    ],
+    "locator": "Methods and Results and Discussion",
+    "limits": "Publication year is not an established observation year. Targeted knowledgeable informants do not form a national probability sample; reported medicinal uses are not clinical efficacy.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "INSECTS-SOUTH-ASIA"
+  },
+  {
+    "id": "R7-CO-ETH2013",
+    "country": null,
+    "assertion": "The 2013 Eastern Arunachal study reports interviews with 20 informants in each of six named groups in Tirap and Changlang. It provides another scoped account of insect use, not a regional consumption total.",
+    "source_ids": [
+      "R7-F-ETH2013"
+    ],
+    "locator": "Abstract and introductory population scope",
+    "limits": "Same author/research programme as the 2011 paper; different sampled groups are not independent national corroboration. Original field dates and population prevalence are not established here.",
+    "status": "independently_checked",
+    "human_review": "pending",
+    "review_id": "R7-FEED-SCHOOLS-ETHNOGRAPHY",
+    "requirement_id": "INSECTS-SOUTH-ASIA"
+  },
+  {
+    "id": "P1C8-C01",
+    "country": "SAU",
+    "assertion": "IIFA Resolution 265's preamble says the Council reviewed the recommendations of a seminar organised with the Saudi Food and Drug Authority in Jeddah on 24–25 September 2024. The Saudi Press Agency reported on 1 October 2024 that IIFA and the SFDA held a fiqh symposium in Jeddah to support halal legislation, with the SFDA chief executive and Sheikh Saleh bin Humaid taking part.",
+    "source_ids": [
+      "IIFA265",
+      "P1C9-S01"
+    ],
+    "locator": "IIFA 265 preamble; SPA report of 1 October 2024",
+    "limits": "Ties the Saudi food regulator to the IIFA process; it is not an SFDA decision on cultivated meat. The SPA report does not name cultivated meat. Earlier, a June 2022 symposium covered other food rulings.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  },
+  {
+    "id": "P1C8-C02",
+    "country": "SAU",
+    "assertion": "An October 2024 Kuwait Network post describes the Jeddah outcome as permitting cultivated meat only when the stem cell comes from a permissible animal that has been slaughtered.",
+    "source_ids": [
+      "P1C8-S16"
+    ],
+    "locator": "Post text",
+    "limits": "Search-snippet lead; original not opened. If accurate, it differs from the living-donor alternative in the final Resolution 265 text and would place part of the procurement dispute inside IIFA's own drafting history. Not confirmed on 2 October. Press coverage of Resolution 265 itself misstates it as requiring a slaughtered donor, so this post may repeat the same misreading.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C03",
+    "country": null,
+    "assertion": "IIFA Resolution 267 (12/26) postpones a ruling on the consumption and marketing of insects pending further research.",
+    "source_ids": [
+      "P1C8-S02",
+      "P1C9-S02"
+    ],
+    "locator": "Resolution 267 operative paragraph; Academy News 57",
+    "limits": "Concerns insects as human food, not as poultry feed. The issuer page's preamble repeats Resolution 265's cultivated-meat wording, apparently a copying error on the page.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  },
+  {
+    "id": "P1C8-C04",
+    "country": "PAK",
+    "assertion": "A January 2022 Bloomberg report, repeated by later outlets, said scholars in Pakistan led by Mufti Muhammad Taqi Usmani had ruled the previous year that cultured meat is permissible only if the original cells come from animals slaughtered by Sharia rules.",
+    "source_ids": [
+      "P1C9-S12",
+      "P1C9-S13"
+    ],
+    "locator": "Bloomberg January 2022 report as reproduced",
+    "limits": "Corrected on 2 October: The National was wrongly given as the source; its article quotes Imam Farhan Siddiqi, not Usmani. Bloomberg was not opened, and the ruling itself (form, date, signatories, institution) was not located. Treat as a reported position.",
+    "status": "open",
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "MUFTI-TAQI-USMANI-REPORTED-PANEL"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C05",
+    "country": "PAK",
+    "assertion": "Banuri Town's Darul Iftaa (answer 144012201327, 2019) lists conditions for laboratory meat: no impure or forbidden ingredients, pure culture vessels, a source animal that is not forbidden, non-forbidden hormones and no harm to health; it withholds a final ruling until those facts are examined.",
+    "source_ids": [
+      "P1C8-S04"
+    ],
+    "locator": "Answer 144012201327",
+    "limits": "Search-snippet lead; original not opened. Urdu text summarised by a machine; qualified translation needed. The snippet does not mention a slaughter condition either way. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "PAK"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "BANURI-TOWN"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C06",
+    "country": null,
+    "assertion": "A South African Hanafi answer (Fatwaa.com, Shaykh Ismail Moosa) holds cultivated meat halal if stem cells come from an Islamically slaughtered animal and all other ingredients are halal, and says the same ruling applies to meat produced from cell lines of the original animals.",
+    "source_ids": [
+      "P1C8-S05"
+    ],
+    "locator": "Answer 174720",
+    "limits": "Search-snippet lead; original not opened. Whether the cell-line sentence extends to a living donor is unclear from the snippet. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C07",
+    "country": null,
+    "assertion": "Wifaq ul Ulama (UK)'s \"Artificial Meat\" page reproduces the American Fiqh Academy Resolution 7 text: cells cut from a living animal are carrion, while cells from an Islamically slaughtered animal are permissible if no forbidden input such as fetal bovine serum is used.",
+    "source_ids": [
+      "P1C8-S06"
+    ],
+    "locator": "Article body",
+    "limits": "Same text as P1C8-C08, so it counts as one source family, not an independent UK position.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  },
+  {
+    "id": "P1C8-C08",
+    "country": null,
+    "assertion": "American Fiqh Academy Resolution 7 holds meat from muscle stem cells taken from live animals impure and impermissible, including the replicated cells; permits cells taken from an Islamically slaughtered animal if no forbidden input such as fetal bovine serum is used; and permits induced pluripotent stem cells from a dropped chicken feather.",
+    "source_ids": [
+      "P1C8-S07"
+    ],
+    "locator": "Resolution 7",
+    "limits": "US scholarly academy, not a focal-country authority. Its date is uncertain: one citation gives 20 August 2020, while the same text appears on a UK page captured in 2018.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  },
+  {
+    "id": "P1C8-C09",
+    "country": null,
+    "assertion": "Two American Halal Foundation pages differ. Its guide, as summarised by search, says cells from a biopsy of a living animal cannot be used. Its May 2025 explainer says starter cells should come from an animal slaughtered by zabiha, but allows an interpretation under which cells taken from a living animal without harm could be acceptable.",
+    "source_ids": [
+      "P1C8-S08",
+      "P1C9-S14"
+    ],
+    "locator": "Guide body",
+    "limits": "US certifier practice, not a focal-country position. The guide page itself was not read.",
+    "status": "disputed",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C10",
+    "country": "IDN",
+    "assertion": "Nahdlatul Ulama's 2021 national conference declared meat grown from cells taken from living animals such as cattle and chickens impure and forbidden, treating the cells as a part separated from a living animal.",
+    "source_ids": [
+      "P1C8-S09",
+      "P1C9-S10"
+    ],
+    "locator": "News report of the Munas decision",
+    "limits": "Search-snippet lead; original not opened. Indonesian-language report held under the English-first rule. Original report located on NU Online and matches; Indonesian text still held under the English-first rule.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C11",
+    "country": "ARE",
+    "assertion": "A tertiary reference reports that the UAE Council for Fatwa approved the manufacture and consumption of cell-based meat proteins provided that the donor animals are lawfully slaughtered.",
+    "source_ids": [
+      "P1C8-S10"
+    ],
+    "locator": "Article sentence",
+    "limits": "Search-snippet lead; original not opened. No Council instrument, number or date was located; this is the weakest source class in the register. Not confirmed on 2 October. A January 2026 article on thenationmiddleeast.com makes a related claim, but the site is unreliable and is recorded as a rejected lead (P1C9-S11).",
+    "status": "open",
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "authority_ids": [
+        "UAE-COUNCIL-FATWA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C12",
+    "country": "ARE",
+    "assertion": "Dubai's Grand Mufti, Ahmad Al-Haddad, published an October 2024 opinion column on how jurists treat cultivated meat.",
+    "source_ids": [
+      "P1C8-S11"
+    ],
+    "locator": "Opinion column",
+    "limits": "Search-snippet lead; original not opened. Content not read beyond the snippet; a personal column, not a Council decision. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C13",
+    "country": null,
+    "assertion": "Axios quotes a GOOD Meat spokesperson in September 2023: \"Our current cell line does not meet that guidance, but future cell lines will.\"",
+    "source_ids": [
+      "P1C8-S12"
+    ],
+    "locator": "Spokesperson quotation",
+    "limits": "Search-snippet lead; original not opened. Narrows the company's own 11 September 2023 caveat to the cell line; confirm the wording. Not confirmed on 2 October: the quotation was not found. The company release confirms that the \"chicken cell line and production process\" did not meet the criteria, which covers more than the cell line.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-C14",
+    "country": "SAU",
+    "assertion": "USDA's 2025 FAIRS report summarises SFDA FD 5013:2020 as defining novel foods to include foods produced from cell or tissue culture of animal origin, gives a 90-working-day registration period, and states that animal-source products must meet halal requirements under SFDA.FD/GSO 2055-1 and GSO 993.",
+    "source_ids": [
+      "P1C8-S13"
+    ],
+    "locator": "Novel foods and halal sections",
+    "limits": "Search-snippet lead; original not opened. Secondary summary; reconcile with the SFDA texts already in the 30 September register (SA-NOVEL, SA-2025). Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "certification",
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "SFDA"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C15",
+    "country": "IND",
+    "assertion": "Business Standard, citing The Indian Express, reported that Uttar Pradesh's 18 November 2023 order banned the manufacture, storage, distribution and sale of halal-certified food products in the state, excluding products for export and meat items.",
+    "source_ids": [
+      "P1C9-S05"
+    ],
+    "locator": "Business Standard, 24 November 2023",
+    "limits": "Corrected on 2 October: meat was excluded, so the order does not reach chicken. The order text and the Supreme Court proceedings were not read.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "certification"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "UTTAR-PRADESH-GOVERNMENT"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C16",
+    "country": "IND",
+    "assertion": "In June 2025 trade press reported FSSAI officials saying cultivated meat follows the novel or non-specified food route and that approval should take six to eight months if the product meets the standards.",
+    "source_ids": [
+      "P1C8-S15"
+    ],
+    "locator": "FSSAI paragraphs",
+    "limits": "Search-snippet lead; original not opened. Reported statements, not an FSSAI instrument; the September 2026 register still lists the Biokraft file under process. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-C17",
+    "country": "ARE",
+    "assertion": "Abu Dhabi's October 2025 announcement says ADAFSA, QCC and ADIO will build a novel-food framework that unifies registration, halal certification and production or import permits through one contact point.",
+    "source_ids": [
+      "P1C8-S17"
+    ],
+    "locator": "Announcement body",
+    "limits": "Search-snippet lead; original not opened. Describes a framework under development; no operative instrument, first approval or federal equivalent was located. Not confirmed on 2 October: the original was unreachable and no full-text copy was found.",
+    "status": "open",
+    "human_review": "pending"
+  },
+  {
+    "id": "P1C8-I01",
+    "country": null,
+    "assertion": "The retained FDA-reviewed GOOD Meat embryo-derived fibroblast process and the prior SFA-listed Vital Meat embryonic-stem-cell process raise procurement questions not resolved for the named focal-country authorities in this packet. The later GOOD Meat serum-free version has not been matched to the FDA-reviewed lineage.",
+    "source_ids": [
+      "P1C3-PROCESS-S01",
+      "P1C3-PROCESS-S03",
+      "MUIS-BOOK",
+      "P1C5-LIT-HAMDAN24",
+      "SG-LIST"
+    ],
+    "locator": "See premise",
+    "limits": "Inference for reviewer questions, not a ruling or a worldwide product inventory. The Vital Meat profile is carried from the 30 September register and was not re-read in this check. Founder-cell classification alone cannot establish halal status; other input, process, safety and certification conditions remain.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "The FDA dossier describes GOOD Meat cells derived from 10-day chicken embryos. The retained SFA list describes the Vital Meat embryonic-stem-cell process. Retained institutional texts discuss procurement routes, while the MUIS egg/embryo passage and Hamdan author argument require separate interpretation; they are not interchangeable focal-country rulings.",
+    "confirmation_test": "Obtain a qualified, named authority’s classification of the exact founder line and matched process, reconcile the MUIS passages, and assess all remaining conditions. A cell-origin answer alone would not settle product certification.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P2",
+        "P3"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-I02",
+    "country": null,
+    "assertion": "GOOD Meat’s September 2023 statement reports that its then regulator-approved line and process did not meet the advisers’ criteria. The exact failed condition and a match to the FDA CCC000001 process are unestablished.",
+    "source_ids": [
+      "P1C5-INST-GOODMEAT",
+      "P1C3-PROCESS-S08",
+      "P1C3-PROCESS-S01"
+    ],
+    "locator": "See premise",
+    "limits": "Historical company self-report. Donor procurement and serum use are questions for a matched-process review, not confirmed reasons for failure. It establishes neither current nonconformity nor the status of the later Singapore serum-free version.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "The company reported four adviser conditions and said its then line and process did not meet them. Separately, the FDA dossier documents embryo-derived cells and fetal bovine serum. The retained evidence does not identify the failed condition or establish that the company statement refers to that exact dossier version.",
+    "confirmation_test": "Obtain the adviser or company statement identifying the assessed line, process version and failed condition, with any later matched certificate or decision.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P1"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-I03",
+    "country": null,
+    "assertion": "A slaughtered-donor process with permitted inputs is a conditional reference case in the retained IIFA text and the reported GOOD Meat adviser conditions. This does not establish universal agreement, exclusivity or product certification.",
+    "source_ids": [
+      "IIFA265",
+      "P1C5-INST-GOODMEAT",
+      "MUIS2024",
+      "P1C8-S07",
+      "P1C9-S12",
+      "P1C8-S09",
+      "P1C9-S14"
+    ],
+    "locator": "See premise",
+    "limits": "The sources have different institutional scopes, language-review states and source families. No matching product is established in this packet; this is not evidence that none exists. Unconfirmed UAE and Pakistani reports, held-language material and institutional silence cannot establish acceptance.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "IIFA names a slaughtered-donor route, and the manufacturer and counsel accounts report a slaughter condition among the GOOD Meat advisers’ criteria. Other retained sources supply comparisons with their own limits. A rejection of living-donor cells, including the held Nahdlatul Ulama account, does not by itself establish acceptance of a different route. Wifaq’s reproduction and the American Fiqh Academy text are one source family.",
+    "confirmation_test": "Read each named institution’s complete applicable text and conditions, including unresolved originals and language holds, before making any claim about agreement across institutions. Match any product separately.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "religious"
+      ],
+      "profile_ids": [
+        "P4"
+      ],
+      "authority_ids": [
+        "GOOD-MEAT-ADVISERS"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-I04",
+    "country": "IND",
+    "assertion": "The retained Indian export instruments and news reports do not establish the legal scope or size of a halal-dependent cultivated-chicken demand segment. A reported estimate about halal meat sold cannot quantify buyers whose chicken purchases depend on halal status.",
+    "source_ids": [
+      "P1C-IN34",
+      "P1C9-S05",
+      "P1C9-S06"
+    ],
+    "locator": "See premise",
+    "limits": "The unofficial 2023 trade estimate concerns about 90% of all meat sold, with no retained measurement method. It is supply-side context, not a chicken-specific, consumer-level or causal demand estimate. It must not set a forecast gate or segment share.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "The export notification covers specified halal-certified exports. A news report describes a meat exclusion in the Uttar Pradesh order, whose original remains unread. A separate report quotes traders’ unofficial estimate about all meat sold. These observations do not establish comprehensive domestic law or behaviourally contingent chicken demand.",
+    "confirmation_test": "Reconcile operative domestic instruments and product classifications, then obtain chicken-specific buyer or channel evidence that measures whether purchases depend on halal status. Religion or consumption shares alone do not identify that dependence.",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "BUSINESS-STANDARD"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C8-I05",
+    "country": "SAU",
+    "assertion": "Retained Saudi secondary and earlier-edition evidence suggests halal relevance to animal-origin novel foods, but current operative coverage and a whole-market halal gate remain unverified.",
+    "source_ids": [
+      "P1C8-S13",
+      "P1C5-STD-S05"
+    ],
+    "locator": "See premise",
+    "limits": "The USDA source is an unconfirmed snippet-level lead; the SFDA regulation’s version conflict remains unresolved. A GSO catalogue entry does not establish national incorporation, exemptions or coverage of every channel.",
+    "status": "inference",
+    "human_review": "pending",
+    "premise": "The USDA summary and the retained earlier SFDA reading describe halal sourcing requirements for animal-origin food. Their instrument identities and current scope have not been reconciled, and the GSO catalogue supplies standards context rather than proof of Saudi legal incorporation.",
+    "confirmation_test": "Read and reconcile the current operative Saudi instruments, their adoption, territorial and product scope, exceptions and channels before asserting market-wide coverage.",
+    "gate_scope": {
+      "country_ids": [
+        "SAU"
+      ],
+      "layers": [
+        "certification",
+        "food_authorization",
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "SFDA"
+      ],
+      "evidence_role": "inference",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C9-C01",
+    "country": "ARE",
+    "assertion": "In a submission to the Codex Alimentarius Commission, the UAE stated that cell-based food falls under UAE.S 5048:2021, General Requirements for Novel Foods, which requires a pre-marketing evaluation covering risk analysis, health and safety, and laboratory tests.",
+    "source_ids": [
+      "P1C9-S04"
+    ],
+    "locator": "CAC47 CRD04, UAE passage",
+    "limits": "Government statement about the standard; UAE.S 5048:2021 itself was not read. No cell-based application or approval is established.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "ARE"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "UAE-CODEX-DELEGATION"
+      ],
+      "evidence_role": "direct",
+      "supported_readings": [
+        "route_exists_no_approval"
+      ]
+    }
+  },
+  {
+    "id": "P1C9-C02",
+    "country": "ARE",
+    "assertion": "Keller and Heckman reported in January 2026 that the UAE has no specific rules for cultured meat beyond UAE.S 5048:2021, and that Abu Dhabi's October 2025 single-window process for novel foods was still a proposal.",
+    "source_ids": [
+      "P1C9-S07"
+    ],
+    "locator": "Federal standard and Abu Dhabi plan paragraphs",
+    "limits": "Law-firm summary as of January 2026; later changes were not established.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  },
+  {
+    "id": "P1C9-C03",
+    "country": "IND",
+    "assertion": "The Economic Times reported in January 2026 that FSSAI's Food Authority, whose members' term ended on 21 December 2025, had not been reconstituted, and that approval of products with novel ingredients needs the Authority.",
+    "source_ids": [
+      "P1C9-S08"
+    ],
+    "locator": "Full report",
+    "limits": "Status after January 2026 was not established; FSSAI reconstituted its Scientific Committee in September 2026 (P1C9-S09), which is a different body.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "food_authorization"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "FSSAI"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C9-C04",
+    "country": "IND",
+    "assertion": "Business Standard reported in November 2023 that traders' unofficial estimates put about 90% of the meat and meat products sold in India as halal.",
+    "source_ids": [
+      "P1C9-S06"
+    ],
+    "locator": "Opening paragraphs",
+    "limits": "Unofficial trade estimate with no stated basis; not a measurement of consumption by religion.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS",
+    "gate_scope": {
+      "country_ids": [
+        "IND"
+      ],
+      "layers": [
+        "segment"
+      ],
+      "profile_ids": [],
+      "authority_ids": [
+        "BUSINESS-STANDARD"
+      ],
+      "evidence_role": "context",
+      "supported_readings": []
+    }
+  },
+  {
+    "id": "P1C9-C05",
+    "country": "SAU",
+    "assertion": "The Saudi Press Agency reported that the Jeddah symposium was part of a continuing partnership in which IIFA and the SFDA also held a symposium on food rulings in June 2022.",
+    "source_ids": [
+      "P1C9-S01"
+    ],
+    "locator": "Final paragraph",
+    "limits": "Describes institutional cooperation, not a ruling.",
+    "status": "confirmed_original",
+    "human_review": "pending",
+    "review_id": "R8-ORIGINALS"
+  }
+]

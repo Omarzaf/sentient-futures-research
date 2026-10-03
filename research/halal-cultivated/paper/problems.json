@@ -1,0 +1,296 @@
+[
+  {
+    "id": "PLAN-01",
+    "status": "confirmed_in_local_records",
+    "finding": "Five alias pairs refer to the same retained passage scopes. Distinct excerpts and original review statuses are preserved; canonicalization adds no independent evidence.",
+    "evidence": [
+      {
+        "ids": [
+          "HAN",
+          "H1"
+        ],
+        "reason": "Same displayed volume 1 page 327 transformation paragraph; different excerpts remain separate."
+      },
+      {
+        "ids": [
+          "HAN-D",
+          "H2"
+        ],
+        "reason": "Same detached-part paragraph on displayed volume 6 page 311; H2 also records page 310 and the gloss."
+      },
+      {
+        "ids": [
+          "SHA-D",
+          "S3"
+        ],
+        "reason": "Same detached-part branch on displayed volume 2 pages 580–581; quote differs in Arabic diacritics."
+      },
+      {
+        "ids": [
+          "SHA-T",
+          "S4"
+        ],
+        "reason": "Same transformation discussion on displayed volume 2 page 597; S4 also records the preceding page and a distinct excerpt."
+      },
+      {
+        "ids": [
+          "SIS-EN",
+          "J4"
+        ],
+        "reason": "Same official transformation rulings 189–191 and identical retained quotation."
+      }
+    ],
+    "action": "Use 71 canonical passage records for 76 original IDs; audit each quote variant.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-02",
+    "status": "confirmed_in_local_records",
+    "finding": "H01–H04 occur in both claims and historical comparisons. Hanafi H1–H7 differ from Hanbali H-*; G01/G02 claims differ from G1–G8 gaps.",
+    "evidence": [
+      "phase1/claims.json",
+      "phase1/historical-comparisons.json",
+      "phase1/gaps.json"
+    ],
+    "action": "Use kind namespaces in coverage, gap: and ce: trace prefixes, and canonical source keys; no raw IDs in prose.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-03",
+    "status": "confirmed_in_local_records",
+    "finding": "H4 and S2 link to file-sharing hosts rather than their publishers.",
+    "evidence": [
+      "H4",
+      "S2"
+    ],
+    "action": "Verify print editions through a publisher or catalogue; footnotes omit file-sharing links. Retain original URLs only as provenance.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-04",
+    "status": "confirmed_in_local_records",
+    "finding": "English Umdat metadata and several host-edition page identities remain unestablished. M-RIS29 records its named translator and non-final translation warning.",
+    "evidence": [
+      "H-UM-FOOD",
+      "H-UM-FOOD2",
+      "H-UM-SLAUGHTER",
+      "M-RIS29",
+      "H7",
+      "G-BIBLIO",
+      "G-ENGLISH",
+      "G4",
+      "G8"
+    ],
+    "action": "Complete bibliographic audit without inferring publication details; preserve translation and edition holds.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-05",
+    "status": "confirmed_in_local_records",
+    "finding": "Only Q6 and Q6121 name The Clear Quran in the retained records; Q5 and Q7 do not identify a translation.",
+    "evidence": [
+      "Q5",
+      "Q6",
+      "Q6121",
+      "Q7"
+    ],
+    "action": "Identify the actual fetched translation for every quoted verse; do not supply translator names from memory.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-06",
+    "status": "confirmed_in_local_records",
+    "finding": "AD2858 records a grading attributed to al-Albani, not an independent adjudication.",
+    "evidence": [
+      "AD2858"
+    ],
+    "action": "Retain the attribution and both displayed numbering systems.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-07",
+    "status": "confirmed_in_local_records",
+    "finding": "SFDA records retain the inconsistent identifiers 513/2020, 5031:2020 and 5013.",
+    "evidence": [
+      "SA-NOVEL",
+      "SA-GUIDE",
+      "SA-2025"
+    ],
+    "action": "Keep the discrepancy open until authoritative instrument identity and current Arabic text are checked.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-08",
+    "status": "confirmed_in_local_records",
+    "finding": "Four discovery scholarship entries link to aggregator summaries rather than publications.",
+    "evidence": [
+      "HS-010",
+      "HS-011",
+      "HS-012",
+      "HS-024"
+    ],
+    "action": "Resolve and match publisher/DOI metadata and inspect relied-on passages before new-source intake.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-09",
+    "status": "confirmed_in_local_records",
+    "finding": "The KMF/JAKIM discovery cells rely on secondary reports, while MKI128 remains held in Malay.",
+    "evidence": [
+      "consensus-matrix.csv",
+      "HS-004",
+      "HS-005",
+      "MKI128"
+    ],
+    "action": "A checked news report remains a report; rebuild institutional cells only from accepted original statements.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-10",
+    "status": "confirmed_in_local_records",
+    "finding": "The individual fatwa and Ask Ghamidi forum entries do not establish institutional positions.",
+    "evidence": [
+      "HS-014",
+      "HS-015"
+    ],
+    "action": "Do not cite them in the paper; the published GHAMIDI essay remains the sole Ghamidi source under this plan.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-11",
+    "status": "confirmed_in_local_records",
+    "finding": "The discovery Mizan entry is an unread Internet Archive listing.",
+    "evidence": [
+      "HS-016"
+    ],
+    "action": "If ever considered separately, verify the publisher edition first; it is excluded from this paper by the published-essay-only rule.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-12",
+    "status": "confirmed_in_local_records",
+    "finding": "The twelve gap records use description/scope and text/priority variants.",
+    "evidence": [
+      "phase1/gaps.json"
+    ],
+    "action": "Coverage exposes one text field while preserving every original record unchanged.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-13",
+    "status": "confirmed_in_local_records",
+    "finding": "Extraction spacing defects are present in the dated records.",
+    "evidence": [
+      "FormI",
+      "AnnexI chaptersI–II",
+      "The2013",
+      "Rejected;2015"
+    ],
+    "action": "Preserve originals; correct spacing only in new prose, never inside a purported verbatim quote without original-source checking.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-14",
+    "status": "confirmed_in_local_records",
+    "finding": "M-RIS-INDEX is uncited metadata; WP595 and MKI128 are uncited held-language leads.",
+    "evidence": [
+      "M-RIS-INDEX",
+      "WP595",
+      "MKI128"
+    ],
+    "action": "Retain all three in coverage with explicit use limits; no disappearance through deduplication.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "PLAN-15",
+    "status": "confirmed_in_local_records",
+    "finding": "The SFA list and framework are dated 14 and 27 August 2026 respectively, with historical 30 September readings.",
+    "evidence": [
+      "SG-LIST",
+      "SG-FRAME"
+    ],
+    "action": "Re-retrieve during audit and report any change; the earlier recorded checking does not establish present status.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "CURRENT-01",
+    "status": "confirmed_in_local_records",
+    "finding": "PAPER-PLAN is based on the older edition. Continuation already has literature, geography, process, historical, elasticity and feed records; its statement that no driver/elasticity/feed records exist is stale.",
+    "evidence": {
+      "continuation_sources": 188,
+      "continuation_claims": 156,
+      "elasticity_estimates": 186,
+      "coverage_countries": 16
+    },
+    "action": "Preserve the full sixteen-country research scope. Treat continuation as versioned intake candidates, retain provenance, and audit any selected source/claim before paper use; defaults about paper body scope do not delete research requirements.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "CURRENT-02",
+    "status": "confirmed_in_local_records",
+    "finding": "The current library contains nine documents; the plan's stage 7 instruction to increase seven to eight is stale.",
+    "evidence": [
+      "research/library.json",
+      "tools/build-library.mjs",
+      "tools/verify.mjs"
+    ],
+    "action": "Do not add the paper during consolidation; release must increment the actual count when authorized.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "CURRENT-03",
+    "status": "confirmed_in_local_records",
+    "finding": "The paper plan names legacy Phase Two fields and gate shortcuts. Active bridge v2 supersedes that numerical contract, with missing compatible inputs and unresolved assessments.",
+    "evidence": [
+      "bridge-v2/METHOD.md",
+      "bridge-v2/schema.json",
+      "bridge-v2/production-state.json",
+      "bridge-v2/LEGACY-CROSSWALK.md"
+    ],
+    "action": "Use active v2 dimensions and compatibility rules. No L_includes_halal bypass or numeric gate, mass, supply-to-adoption transfer, or production estimate is established by this manuscript.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "CURRENT-04",
+    "status": "confirmed_in_local_records",
+    "finding": "Historical question coverage and handoff flags do not establish completed expanded Phase One research. The continuation expressly records incomplete full-scope review and pending human review.",
+    "evidence": [
+      "phase1/release.json",
+      "phase1-continuation/coverage.json",
+      "phase1-continuation/REPAIR-REPORT-2026-10-02.md"
+    ],
+    "action": "Describe the paper as a draft synthesis of dated, incomplete evidence; retain 143-requirement/sixteen-country research scope and both human checkpoints.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  },
+  {
+    "id": "CURRENT-05",
+    "status": "confirmed_in_local_records",
+    "finding": "Literal source-family strings differ from the historical independence grouping. Canonicalization does not prove independent corroboration.",
+    "evidence": {
+      "literal_family_strings": 39,
+      "historical_family_groups": 34
+    },
+    "action": "Keep source_family unchanged, retain the historical grouping separately as family, and audit authorship/independence before reliance.",
+    "source_truth_verified": false,
+    "human_review": "pending"
+  }
+]

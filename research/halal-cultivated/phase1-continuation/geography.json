@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "scope": "Fifteen geography rows; China remains a historical disease-shock case in the separate coverage roster.",
+  "human_review": "pending",
+  "complete": false,
+  "null_means": "Unestablished, not absent or zero.",
+  "countries": [
+    {
+      "id": "IND",
+      "name": "India",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 10,
+          "upper": 15,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-IND-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "PAK",
+      "name": "Pakistan",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C-C04",
+        "P1C-C05"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 10,
+          "upper": 15,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-PAK-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": "Council of Islamic Ideology constitutional advisory functions are in P1C-C04/C05; a complete fatwa-body map remains open.",
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "SAU",
+      "name": "Saudi Arabia",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 10,
+          "upper": 15,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-SAU-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": [
+        {
+          "name": "General Presidency of Islamic Research and Ifta",
+          "role": "Institutional self-description: legal rulings and fatwas derived from Quran and Sunnah",
+          "source_ids": [
+            "P1C4-CORE-S02"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "institutional_description_only",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Senior Scholars Council",
+          "role": "Named via its General Secretariat; precise English operative remit unresolved",
+          "source_ids": [
+            "P1C4-CORE-S02",
+            "P1C4-CORE-S03"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "partial_english_identity_arabic_mandate_lead_held",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Permanent Fatwa Committee",
+          "role": "Named on official Presidency page; precise founding mandate unresolved",
+          "source_ids": [
+            "P1C4-CORE-S02"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SAU-INSTITUTION"
+          ],
+          "mandate_status": "identity_only",
+          "territory": "Saudi Arabia",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
+      ],
+      "institutional_scope_notes": "Undated English Presidency statement is usable for a bounded institutional row. Basic Law original retrieval failed; Arabic Council lead held. Neither Hanbali state method nor demographic prevalence established here.",
+      "next_actions": [
+        "Obtain complete English and Arabic Basic Law, operative Article 45 and amendment record.",
+        "Obtain Council/Permanent Committee establishing instrument and qualified Arabic review.",
+        "Research categorical school prevalence independently."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
+    },
+    {
+      "id": "ARE",
+      "name": "United Arab Emirates",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C4-CORE-ARE-COMPOSITION",
+        "P1C4-CORE-ARE-REMIT"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": null,
+          "upper": null,
+          "point": 10,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-ARE-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": [
+        {
+          "name": "UAE Council for Fatwa",
+          "role": "Federal statutory council; public/contemporary fatwas and fatwa policy coordinated with Concerned Authorities",
+          "source_ids": [
+            "P1C4-CORE-S04"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-ARE-COMPOSITION",
+            "P1C4-CORE-ARE-REMIT"
+          ],
+          "mandate_status": "partial_indexed_federal_law",
+          "territory": "Federal law; emirate allocation unresolved",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
+      ],
+      "institutional_scope_notes": "Federal Law 3/2024 Arts 6–7 partly read. Emirate representation does not establish territorial exclusivity. Concerned Authorities and local mandates unresolved; no Maliki-prevalence or cultivated-product permission inferred.",
+      "next_actions": [
+        "Retrieve full Federal Law 3/2024 with dates, definitions, repeal and amendment provisions.",
+        "Read named emirate-level fatwa-governance instruments and reconcile federal/local authority.",
+        "Research legal method and categorical prevalence independently."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
+    },
+    {
+      "id": "SGP",
+      "name": "Singapore",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C4-CORE-SGP-COMMITTEE",
+        "P1C4-CORE-SGP-REQUEST"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": [
+        {
+          "name": "Legal Committee of the Majlis (Fatwa Committee)",
+          "role": "Mufti-chaired statutory committee with amended composition and request-consideration procedure",
+          "source_ids": [
+            "P1C4-CORE-S05",
+            "P1C4-CORE-S06"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SGP-COMMITTEE",
+            "P1C4-CORE-SGP-REQUEST"
+          ],
+          "mandate_status": "partial_indexed_statute_with_2025_amendment_annotations",
+          "territory": "Singapore",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        },
+        {
+          "name": "Office of the Mufti, MUIS",
+          "role": "Fatwa Committee Secretariat, supporting references and expert input",
+          "source_ids": [
+            "P1C4-CORE-S06"
+          ],
+          "claim_ids": [
+            "P1C4-CORE-SGP-OPERATIONS"
+          ],
+          "mandate_status": "dated_official_operational_description",
+          "territory": "Singapore",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
+      ],
+      "institutional_scope_notes": "AMLA indexed §§31–32 show Act 4/2024 amendments effective 7 August 2025. MUIS operational page updated 20 July 2026. Current §33 not retained, so school method remains unfilled; no food approval or certificate inferred.",
+      "next_actions": [
+        "Retrieve authoritative full AMLA consolidation with §33 and remaining §32 adoption rules.",
+        "Keep statutory ordinary school method separate from population prevalence."
+      ],
+      "complete": false,
+      "institutional_map_complete": false
+    },
+    {
+      "id": "MYS",
+      "name": "Malaysia",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C-C07"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": "Federal Territories Mufti provisions are in P1C-C07; not a complete national institutional map.",
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "IDN",
+      "name": "Indonesia",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [],
+      "current_affiliation": null,
+      "historical_affiliation": [],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "QAT",
+      "name": "Qatar",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C2-W04A-C02"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": null,
+          "upper": null,
+          "point": 10,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-W04A-C04"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "KWT",
+      "name": "Kuwait",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C2-W04A-C01"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 20,
+          "upper": 25,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-W04A-C05"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "BHR",
+      "name": "Bahrain",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 65,
+          "upper": 75,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-W04A-C06"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "English original retrieval failed through official legal and government-portal hosts; retain Arabic indexed family-law lead for a changed retrieval method and qualified review.",
+        "Do not convert Sunni/Jafari personal-status provisions into national adherence or general food-fatwa competence."
+      ],
+      "complete": false
+    },
+    {
+      "id": "OMN",
+      "name": "Oman",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C4-OMN-ARTICLE2"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 5,
+          "upper": 10,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-W04A-C07"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": [
+        {
+          "name": "Mufti/Ifta Office, Ministry of Endowments and Religious Affairs",
+          "role": "Official English page describes intake, routing to sheikhs, delivery and recording of fatwas, with supporting research and publications.",
+          "source_ids": [
+            "P1C4-GULF-S01"
+          ],
+          "claim_ids": [
+            "P1C4-GULF-C01"
+          ],
+          "mandate_status": "undated_official_operational_description",
+          "territory": "Oman",
+          "complete_operative_instrument_read": false,
+          "exclusive_national_authority": null,
+          "cultivated_product_ruling_established": false,
+          "product_certificate": null
+        }
+      ],
+      "institutional_scope_notes": "Official English MARA workflow account and Arabic issued 2021 Basic Statute read. Full current institutional structure, later amendments and categorical school prevalence remain unestablished.",
+      "next_actions": [
+        "Find qualified categorical affiliation and school evidence; do not subtract the historical Shia estimate to invent an Ibadi or Sunni share.",
+        "Audit later amendments and the operative Ifta-office mandate; the 2021 issued instrument and undated workflow account have different scopes."
+      ],
+      "complete": false,
+      "institutional_map_complete": false,
+      "legal_document_observation": {
+        "source_ids": [
+          "P1C4-OMN-STATUTE"
+        ],
+        "claim_ids": [
+          "P1C4-OMN-ARTICLE2"
+        ],
+        "instrument": "Royal Decree 6/2021 and attached Basic Statute",
+        "issued": "2021-01-11",
+        "effective": "2021-01-11",
+        "gazette_publication_date": null,
+        "landing_metadata_date": "2021-01-12",
+        "clause": "Attached Statute Article 2",
+        "school_named_in_this_clause": false,
+        "absence_of_school_in_all_law_established": false,
+        "current_consolidation_verified": false,
+        "qualified_translation_approved": false
+      }
+    },
+    {
+      "id": "IRN",
+      "name": "Iran",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": {
+        "name": "Twelver Jafari",
+        "scope": "Retrieved Article 12, with express protections and local-rule qualifications for other schools",
+        "source_ids": [
+          "P1C2-IRN-CONST",
+          "P1C2-IRN-FIS"
+        ],
+        "current_consolidation_verified": false
+      },
+      "legal_claim_ids": [
+        "P1C2-IRN-LEGAL"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 90,
+          "upper": 95,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-IRN-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "IRQ",
+      "name": "Iraq",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C2-IRQ-LEGAL"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 65,
+          "upper": 70,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-IRQ-DEMOGRAPHY"
+        },
+        {
+          "year": 2011,
+          "fieldwork": "late 2011",
+          "reported_in": 2014,
+          "design": "self_identification_survey",
+          "denominator": "Iraqi Muslim survey respondents as described in the report",
+          "unit": "percent",
+          "reported_categories": {
+            "Shia": 51,
+            "Sunni": 42,
+            "just_a_Muslim": 5
+          },
+          "unreported_remainder": null,
+          "age_sampling_weighting_details": null,
+          "source_ids": [
+            "P1C2-PEW14-IRAQ"
+          ],
+          "claim_id": "P1C2-IRQ-DEMOGRAPHY",
+          "directly_comparable_to_2009_estimate": false,
+          "population_change_estimate": null
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": "Shia Endowment Scientific Council role is personal-status drafting/advice in P1C2-IRQ-LEGAL; food-fatwa competence not established.",
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "YEM",
+      "name": "Yemen",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [
+        "P1C2-YEM-LEGAL"
+      ],
+      "current_affiliation": null,
+      "historical_affiliation": [
+        {
+          "year": 2009,
+          "design": "synthesized_demographic_estimate",
+          "group": "Shia",
+          "denominator": "Muslim population in the country",
+          "unit": "percent",
+          "lower": 35,
+          "upper": 40,
+          "point": null,
+          "approximate": true,
+          "range_is_confidence_interval": false,
+          "source_ids": [
+            "P1C2-PEW09",
+            "P1C2-PEW09-METHOD"
+          ],
+          "claim_id": "P1C2-YEM-DEMOGRAPHY"
+        }
+      ],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    },
+    {
+      "id": "EGY",
+      "name": "Egypt",
+      "predominant_juristic_schools": null,
+      "school_prevalence_source_ids": [],
+      "legally_named_state_school": null,
+      "legal_claim_ids": [],
+      "current_affiliation": null,
+      "historical_affiliation": [],
+      "numerical_remainder": null,
+      "main_fatwa_bodies": null,
+      "institutional_scope_notes": null,
+      "next_actions": [
+        "Source categorical juristic-school prevalence without inferring it from broad affiliation or state law.",
+        "Verify dated fatwa-body mandates and distinguish territories, residents and citizens.",
+        "Reconcile current instruments and demographic evidence; retain older estimates as historical."
+      ],
+      "complete": false
+    }
+  ]
+}

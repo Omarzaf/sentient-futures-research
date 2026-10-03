@@ -1,0 +1,117 @@
+{
+  "stage": 7,
+  "status": "ready_for_final_author_read",
+  "outlineApproved": true,
+  "humanReview": false,
+  "mentorApproved": false,
+  "sourcePlanCommit": "36042dde08de130bab2d84fb3d7330e5ea71514a",
+  "startingCommit": "a3cc999707c5a67eb51ee1b008c197b5a6785a82",
+  "decisions": {
+    "D1": {
+      "value": "outside_body",
+      "status": "author_approved",
+      "note": "Continuation has driver, elasticity and feed records; exclusion is a scope choice, not absence of records."
+    },
+    "D2": {
+      "value": "held",
+      "status": "default"
+    },
+    "D3": {
+      "value": "incubator_working_paper_10000_to_13000_body_words_chicago",
+      "status": "author_approved"
+    },
+    "D4": {
+      "value": "excluded",
+      "status": "default"
+    },
+    "D5": {
+      "value": null,
+      "status": "pending"
+    }
+  },
+  "manuscriptDrafted": true,
+  "published": false,
+  "completedStages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "stage0Commit": "47e478c",
+  "remoteAction": {
+    "status": "feature_branch_sharing_authorized",
+    "pushRequested": true,
+    "draftPullRequest": false,
+    "mergeApproved": false,
+    "deploymentApproved": false,
+    "authorization": {
+      "date": "2026-10-02",
+      "request": "push this file to repo as a branch",
+      "formatSelection": "Paper source, PDF and Word"
+    },
+    "reason": "This explicit request supersedes the earlier local-only choice for sharing this paper branch. This record captures authorization; remote completion is verified against GitHub separately."
+  },
+  "auditCounts": {
+    "verified_with_note": 63,
+    "held": 22,
+    "not_retrieved": 10
+  },
+  "originalSources": 76,
+  "canonicalSources": 95,
+  "newClaims": 39,
+  "searchRecords": 152,
+  "stage3Scope": "B1–B4 bounded searches completed with explicit remaining gaps; no exhaustive corpus or complete country geography claim.",
+  "stage3Commit": "160bf56b66d7f252ae6d36d5cd4da4ae6c6d347d",
+  "outline": {
+    "path": "process/outline.md",
+    "sha256": "4883ad7642510ad37cac91720c9e0b488d8fe6f69eba207a869aa555ee074a8b",
+    "thesisWords": 103,
+    "bodyWordTarget": 12050,
+    "plannedFigures": 3,
+    "approval": "approved",
+    "approvalRecord": {
+      "date": "2026-10-02T19:26:58.396Z",
+      "response": "approved",
+      "scope": "Author checkpoint 1: outlined local drafting, D1–D3 defaults, three figures; no remote write or scholarly approval."
+    }
+  },
+  "review": {
+    "status": "pass_with_limits",
+    "manuscriptSha256": "7e7c92461a289ab2d25356f9c41d08653c8083cd0b34b34169f2b3e752316598",
+    "checks": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "rounds": 2,
+    "blockingFindings": 0,
+    "unjustifiedMajorFindings": 0,
+    "humanScholarlyReview": "pending",
+    "finalAuthorRead": "pending",
+    "report": "process/REVIEW-REPORT-2026-10-02.md"
+  },
+  "releasePreparation": {
+    "status": "complete_local",
+    "bodyWords": 11851,
+    "figures": 3,
+    "appendices": 5,
+    "authoredNoteDefinitions": 177,
+    "renderedNotes": 251,
+    "pdfPages": 63,
+    "reader": "index.html",
+    "readerSha256": "89fab1093b2f673ab30ada6133f75b93db80a22d6876dfa344934b84b233aafd",
+    "docxSha256": "66a314d164d3d55d49ed8e5b9685bf9ea1b9dde66282680f142c3474c81d4458",
+    "pdfSha256": "c0fcc56d198202520379d2c7a80fdc42e85751ee6c5285cf6c8604dc830ef50a",
+    "layoutReview": "pass",
+    "browserReview": "pass_desktop_and_390px",
+    "finalAuthorRead": "pending",
+    "mergeApproved": false
+  },
+  "stage7Gate": "pending_final_author_read",
+  "formalResearchRelease": false
+}

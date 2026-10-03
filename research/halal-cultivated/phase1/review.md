@@ -22,7 +22,7 @@ The report maps attributed positions and tests analytical inferences. It does no
 
 ## Evidence and method
 
-The controlling input is the user-edited plan of 30 September, reflected in the [revised operating plan](../AGENTIC-PLAN.md). Its five milestones now share the same date. The edit accelerates the work but preserves the rule that an unresolved bounded question can close as a documented gap. Local originals remain preserved; unpublished interview material and its derived interpretations are outside this public edition.
+The controlling input is the user-edited plan of 30 September, reflected in the [revised operating plan](../archive/AGENTIC-PLAN.md). Its five milestones now share the same date. The edit accelerates the work but preserves the rule that an unresolved bounded question can close as a documented gap. Local originals remain preserved; unpublished interview material and its derived interpretations are outside this public edition.
 
 Each question was assigned to a narrow extraction pass. Two fresh checkers received neutral questions and source locators without the first answers. Their readings were compared afterwards. Earlier published-source and institutional checks are carried forward with their documented scope. A separate review tests the country and historical evidence. Status labels distinguish a primary read, a blind agent check, a contextual inference and an open issue; they are not interchangeable claims of certainty.
 

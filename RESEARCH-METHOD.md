@@ -4,7 +4,7 @@ This library preserves existing AI-assisted research drafts for peer and mentor 
 
 ## Research coverage
 
-The earlier orientation briefings have an evidence cutoff of 5 September 2026. The AI/protein literature foundation has a cutoff of 11 September 2026. The comparative protein-transition synthesis has a cutoff of 13 September 2026. The India–Pakistan brief reviewed evidence through 14 September 2026. These dates describe the original drafts; no current market or regulatory update was performed while assembling this repository.
+The earlier orientation briefings have an evidence cutoff of 5 September 2026. The AI/protein literature foundation has a cutoff of 11 September 2026. The comparative protein-transition synthesis has a cutoff of 13 September 2026. The India–Pakistan brief reviewed evidence through 14 September 2026. The halal Phase One review and survey data package were prepared on 30 September 2026, with later literature leads retained as leads only. These dates describe the original drafts; no current market or regulatory update was performed while assembling this repository.
 
 The India–Pakistan brief is a secondary synthesis. It reviewed official statistical releases, published consumer studies, and official policy and standards pages, and it records page-level locators for the national statistics it quotes. It conducted no primary data collection. Its register retains records that were reviewed but not cited.
 
@@ -17,6 +17,7 @@ The foundation is a selective, predominantly English-language scoping synthesis.
 - Treat national food-balance data as supply availability, not measured individual intake.
 - Treat household-survey estimates, food-frequency reports, and consumer experiments as answers to different questions; do not combine them into a single cross-country intake or acceptance ranking.
 - Treat stated purchase intention as distinct from trial, repeat purchase, and the food actually replaced.
+- Treat the survey data package as an extraction table, not respondent-level data or a meta-analysis. Study samples, denominators, countries, price scenarios and measurement types are not interchangeable.
 - Treat documented institutions and funded programmes as conditions that may affect purchase, not as evidence of approval, availability, or adoption. Absence from the sources reviewed is not evidence of absent policy.
 - Treat the selected countries as purposive examples, not representative samples of the Global North or Global South.
 - Treat capability locations as approximate locators for documented programs, not measured employment clusters or workforce rankings.
@@ -25,7 +26,7 @@ The foundation is a selective, predominantly English-language scoping synthesis.
 
 ## Source traceability
 
-The combined catalog points back to every retained source-register record and orientation link. Original collection IDs remain authoritative for citations inside each report. A combined catalog ID is a navigation aid, not a replacement reference number. Deduplication uses explicit DOI or normalized URL matches; it does not infer that two similar titles are the same work. Access dates, access limitations, and funding notes are preserved in the original registers.
+The combined catalog points back to every retained source-register record, orientation link and survey source page. Original collection IDs remain authoritative for citations inside each report or package. A combined catalog ID is a navigation aid, not a replacement reference number. Deduplication uses explicit DOI or normalized URL matches; it does not infer that two similar titles are the same work. Access dates, access limitations, and funding notes are preserved in the original registers.
 
 All original pending human-review fields remain pending. Orientation links without full bibliographic records are marked as links requiring bibliographic completion. A populated URL is not evidence that it was freshly checked or that the underlying claim is valid.
 
@@ -33,7 +34,7 @@ All original pending human-review fields remain pending. Orientation links witho
 
 The comparative report includes country values, retained source-table rows and page locators, figure inputs, source IDs, and a cited-passage ledger. Verification recomputes the derived plant-protein component and animal-origin share from the provided totals and checks references. It does not retrieve the underlying FAO publication or re-audit transcription against the original.
 
-The source inventory, portal, CSV catalog, and file checksums can be rebuilt with `node tools/build-library.mjs`. The research reports are curated snapshots, not outputs of a complete reproducible research pipeline. Original search sessions, private working records, and third-party downloads are not included. The catalog makes public sources discoverable without redistributing the originals.
+The source inventory, portal, CSV catalog, and file checksums can be rebuilt with `node tools/build-library.mjs`. The research reports are curated snapshots, not outputs of a complete reproducible research pipeline. Original search sessions, private working records, Git-history objects, and third-party downloads are not included in the clean shareable file tree. The catalog makes public sources discoverable without redistributing the originals. The survey checker verifies schema, counts, joins, value ranges and JSON/CSV agreement; it does not re-open or re-read the source papers.
 
 ## AI use and authorship
 

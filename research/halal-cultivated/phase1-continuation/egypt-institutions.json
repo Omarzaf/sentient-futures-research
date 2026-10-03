@@ -1,0 +1,240 @@
+{
+  "as_of": "2026-10-01",
+  "human_review": "pending",
+  "accepted_institutional_consensus": false,
+  "institutions": [
+    {
+      "institution_id": "P1C3-EGY-I01",
+      "requirement_id": "INST-077",
+      "name": "Al-Azhar",
+      "country": "EGY",
+      "status": "partial_report_located_primary_council_ruling_unresolved",
+      "source_ids": [
+        "P1C3-EGY-S01",
+        "P1C3-EGY-S04",
+        "P1C3-EGY-S05",
+        "P1C3-EGY-S06"
+      ],
+      "claim_ids": [
+        "P1C3-EGY-C01",
+        "P1C3-EGY-C02"
+      ],
+      "author_identity": "Named officeholder Abbas Shoman; WAAG publisher report, not full Al-Azhar Council decision",
+      "publication_date": "2024-09-24",
+      "original_ruling_date": null,
+      "legal_instrument": "Seminar paper statement as reported by speaker's organization; Council concurrence reported without decision text",
+      "binding_law_established": false,
+      "product_certificate_established": false,
+      "seven_condition_matrix": [
+        {
+          "condition": "species",
+          "position": null,
+          "claim_ids": [],
+          "status": "not_established_in_retrieved_report",
+          "scope": "Fish/locust exception appears, but full permitted-species criterion is not explicit."
+        },
+        {
+          "condition": "slaughtered_donor_vs_live_biopsy",
+          "position": "Slaughtered donor stated; cells taken from a living donor excluded, with a fish/locust exception; exact exception scope awaits qualified Arabic review",
+          "claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "status": "held_reported_officeholder_position",
+          "scope": "Cultivated animal-cell meat; not plant-based or fermentation guidance."
+        },
+        {
+          "condition": "growth_medium",
+          "position": "Impurity exclusion stated",
+          "claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "status": "held_reported_officeholder_position",
+          "scope": "Cultivated animal-cell meat; not plant-based or fermentation guidance."
+        },
+        {
+          "condition": "istihala_applies_to_cell_culture",
+          "position": null,
+          "claim_ids": [],
+          "status": "not_established_in_retrieved_report",
+          "scope": "Cultivated animal-cell meat; not plant-based or fermentation guidance."
+        },
+        {
+          "condition": "whether_slaughter_is_required",
+          "position": "Donor slaughter stated; fish/locust exception stated",
+          "claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "status": "held_reported_officeholder_position",
+          "scope": "Donor condition only; no separate final-tissue slaughter claim."
+        },
+        {
+          "condition": "safety",
+          "position": "No health harm must be established",
+          "claim_ids": [
+            "P1C3-EGY-C01"
+          ],
+          "status": "held_reported_officeholder_position",
+          "scope": "Cultivated animal-cell meat; not plant-based or fermentation guidance."
+        },
+        {
+          "condition": "labelling",
+          "position": null,
+          "claim_ids": [],
+          "status": "not_established_in_retrieved_report",
+          "scope": "Cultivated animal-cell meat; not plant-based or fermentation guidance."
+        }
+      ],
+      "later_and_counterstatements": {
+        "status": "incomplete",
+        "counterlead_source_ids": [
+          "P1C3-EGY-S05"
+        ],
+        "note": "Counterlead alleges an October2024 advisory/live-biopsy option; unsupported by retrieved primary document. Dedicated later-statement search remains pending."
+      },
+      "next_actions": [
+        "Retrieve complete Council of Senior Scholars decision or authenticated institutional text, identifying number/date/authorship.",
+        "Retrieve full Shoman Jeddah seminar paper and corroborate the claimed Council concurrence.",
+        "Check later/counterstatements and obtain qualified Arabic/fiqh review before consensus coding."
+      ],
+      "human_review": "pending"
+    },
+    {
+      "institution_id": "P1C3-EGY-I02",
+      "requirement_id": "INST-078",
+      "name": "Dar al-Ifta Egypt",
+      "country": "EGY",
+      "status": "secondary_ruling_report_located_original_unresolved",
+      "source_ids": [
+        "P1C3-EGY-S02",
+        "P1C3-EGY-S03"
+      ],
+      "claim_ids": [
+        "P1C3-EGY-C03"
+      ],
+      "author_identity": "Original mufti or Fatwa Secretariat authorship unknown; reporter Abdel Aziz Mahmoud is identified",
+      "publication_date": "2023-09-03",
+      "original_ruling_date": null,
+      "legal_instrument": "Media reproduction of alleged institutional fatwa; original instrument unlocated",
+      "binding_law_established": false,
+      "product_certificate_established": false,
+      "seven_condition_matrix": [
+        {
+          "condition": "species",
+          "position": "Edible animal stated in reproduced answer",
+          "claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "status": "held_secondary_attribution",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        },
+        {
+          "condition": "slaughtered_donor_vs_live_biopsy",
+          "position": "Slaughtered donor and no live biopsy stated in reproduced answer",
+          "claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "status": "held_secondary_attribution",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        },
+        {
+          "condition": "growth_medium",
+          "position": "No impure cultivation inputs stated in reproduced answer",
+          "claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "status": "held_secondary_attribution",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        },
+        {
+          "condition": "istihala_applies_to_cell_culture",
+          "position": null,
+          "claim_ids": [],
+          "status": "not_established_in_retrieved_report",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        },
+        {
+          "condition": "whether_slaughter_is_required",
+          "position": "Donor slaughter stated in reproduced answer",
+          "claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "status": "held_secondary_attribution",
+          "scope": "No separate final-tissue slaughter conclusion."
+        },
+        {
+          "condition": "safety",
+          "position": "Immediate/future health harm excluded; food-safety requirements mentioned",
+          "claim_ids": [
+            "P1C3-EGY-C03"
+          ],
+          "status": "held_secondary_attribution",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        },
+        {
+          "condition": "labelling",
+          "position": null,
+          "claim_ids": [],
+          "status": "not_established_in_retrieved_report",
+          "scope": "Candidate lead only; do not count in institution consensus."
+        }
+      ],
+      "later_and_counterstatements": {
+        "status": "incomplete",
+        "counterlead_source_ids": [],
+        "note": "A November2023 news repetition surfaced in operation12. It is not proof of a newly issued or changed institutional ruling. No later/current institution statement verified."
+      },
+      "next_actions": [
+        "Locate original fatwa using exact question/conditions and September2023 news leads; establish original number, date, author and full text.",
+        "Check Dar al-Ifta current archive and later/counterstatements without inferring prohibition or approval from missing search hits.",
+        "Review technical premises separately from legal reasoning; secure qualified Arabic/fiqh review."
+      ],
+      "human_review": "pending"
+    }
+  ],
+  "followup_retrieval": {
+    "as_of": "2026-10-01",
+    "review_id": "R4-OMAN-EGYPT",
+    "original_rulings_obtained": false,
+    "article_acquisitions": [
+      {
+        "source_id": "P1C3-EGY-S01",
+        "sha256": "74d88d999b8b813a6447e7bd8daa414322fcd679dcb1ac7e15c3716e80822101",
+        "bytes": 274917,
+        "access": "direct_original_publisher_html"
+      },
+      {
+        "source_id": "P1C3-EGY-S02",
+        "sha256": "fe6a7edbe0c3c310a8bcdee05be33b6ff81e549247585bacceedf3607971df3d",
+        "bytes": 110337,
+        "access": "direct_original_publisher_html"
+      },
+      {
+        "source_id": "P1C3-EGY-S03",
+        "sha256": "23884d5043add6b47cc31a71561f08495518058fc3953f860aaf856c7eb3958b",
+        "bytes": 91573,
+        "access": "direct_original_publisher_html"
+      }
+    ],
+    "link_trace": {
+      "original_fatwa_links_found": false,
+      "scope": "Inspected Dar al-Ifta anchor destinations in the two retained news pages; both link to other articles on the same news publisher, not the original fatwa.",
+      "destinations": [
+        "https://www.cairo24.com/1859385",
+        "https://www.vetogate.com/4965286",
+        "https://www.vetogate.com/4963141"
+      ]
+    },
+    "waag_metadata": {
+      "article_publication": "2024-09-24",
+      "html_modified_date": "2025-11-19",
+      "modified_date_is_new_ruling": false,
+      "prior_article_text_version_verified": false
+    },
+    "academic_locator_lead": {
+      "url": "https://jlr.journals.ekb.eg/article_414108_c97e249bd564ed1a9b22985b96eb3b88.pdf",
+      "access": "indexed_mention_only_original_retrieval_failed",
+      "original_fatwa_locator_obtained": false
+    },
+    "limits": "Original publisher bytes strengthen the retained article attribution only. Same-event news accounts are not independent institutional rulings. The footnote lead was not acquired; a changed archive or proceeding route remains necessary. No absence claim or newly accepted national position."
+  }
+}

@@ -1,6 +1,6 @@
 // Checks for the halal conditionality workstream (research/halal-cultivated).
-// Field names and allowed values come from datapackage.json. The numbered rules
-// follow the double-counting rules in PLAN.md section 5.
+// Legacy CSV schemas preserve source bytes. Quantitative production is bridge v2 only.
+import {checkBridgeFiles} from './bridge-v2-checks.mjs';
 
 export function parseCsv(text) {
  const rows=[];let row=[],field='',quoted=false,wasQuoted=false;
@@ -31,7 +31,6 @@ function cast(field,raw) {
 }
 
 const tokens=v=>v==null?[]:String(v).split(';');
-const close=(a,b)=>Math.abs(a-b)<=1e-9+1e-6*Math.max(Math.abs(a),Math.abs(b));
 
 // files: {relativeName: text} for everything in research/halal-cultivated.
 export function checkHalal(files) {
@@ -121,36 +120,11 @@ export function checkHalal(files) {
   if(r.type==='expenditure')check(r.with_respect_to==='expenditure',r._where+': expenditure elasticity');
  }
 
- // Rule 1 and 3: G is a 0/1 switch; halal status counted once through the gate.
- for(const r of t.scenarios||[]){
-  const expectH={declared_halal:['permitted','conditional'],declared_haram:['prohibited'],prolonged_silence:['silent']}[r.gate_state]||[];
-  check(expectH.includes(r.H_rel),r._where+': H_rel '+r.H_rel+' does not match gate_state '+r.gate_state);
-  if(r.H_rel==='conditional')check(r.H_rel_condition_met!==null,r._where+': conditional H_rel needs H_rel_condition_met');
-  const halalOk=r.L_includes_halal===true||r.H_rel==='permitted'||(r.H_rel==='conditional'&&r.H_rel_condition_met===true);
-  const g=r.gate_state==='declared_halal'&&r.L==='approved'&&halalOk?1:0;
-  check(r.G===g,r._where+': rule 1/3, G should be '+g);
- }
-
- // Rule 2 and 5: one acceptance carrier; only the cultivated part of the demand forecast.
- for(const r of t.scenarios||[]){
-  if(r.acceptance_source==='p_US')check(r.df_question==='q2_cultivated'&&!r.local_survey_id,r._where+': rule 2/5, p_US comes from q2_cultivated only, with no local survey');
-  if(r.acceptance_source==='local_survey')check(!!r.local_survey_id&&!r.df_question,r._where+': rule 2, a local survey replaces p_US and is never combined with it');
- }
-
- // Q = D x p x G, capped by K; a reason code for every zero or missing Q.
- for(const r of t.scenarios||[]){
-  if(r.D!==null&&r.p!==null&&r.G!==null)check(r.Q_uncapped!==null&&close(r.Q_uncapped,r.D*r.p*r.G),r._where+': Q_uncapped must equal D x p x G');
-  // Missing stays missing: with D, p or G blank, Q is unknown unless a closed gate makes it zero.
-  else if(r.G===0)check(r.Q_uncapped===null||r.Q_uncapped===0,r._where+': a closed gate gives Q_uncapped 0 or blank');
-  else check(r.Q_uncapped===null&&r.Q===null&&r.reason_code==='input_missing',r._where+': D, p or G is missing, so Q_uncapped and Q stay blank with reason_code input_missing');
-  if(r.Q_uncapped!==null){
-   const want=r.K===null?r.Q_uncapped:Math.min(r.Q_uncapped,r.K);
-   check(r.Q!==null&&close(r.Q,want),r._where+': Q must equal Q_uncapped capped by K');
-   check(r.cap_status===(r.K===null?'unknown':r.K<r.Q_uncapped?'capped':'not_binding'),r._where+': cap_status does not match K');
-  }
-  if(r.D!==null)check(!!r.D_unit,r._where+': D needs D_unit');
-  if(r.Q===null||r.Q===0)check(!!r.reason_code,r._where+': zero or missing Q needs reason_code');
- }
+ // Legacy scenario rows have no safe automatic interpretation. Retain archival
+ // columns but block every numerical use until explicit v2 reconstruction.
+ for(const r of t.scenarios||[])check(false,r._where+': legacy scenario production blocked; reconstruct a versioned bridge-v2 contract');
+ check(pkg.version==='2.0.0'&&pkg.quantitativeContract?.version==='2.0.0'&&pkg.quantitativeContract?.legacyScenarioUse==='blocked', 'active quantitative contract must be v2 with legacy production blocked');
+ const bridge=checkBridgeFiles(files);checks+=bridge.checks;failures.push(...bridge.failures);
 
  // Rule 4: hybrids counted once, at the finished product.
  const seen=new Map();
@@ -168,27 +142,7 @@ export function checkHalal(files) {
  for(const r of t['market-records']||[])check(!excludedWords.test(r.category||''),r._where+': rule 6, insects are never human protein');
  for(const r of t['feed-inputs']||[])check(r.use==='poultry_feed',r._where+': rule 6, insects enter only as poultry feed');
 
- // Rule 7: each shock has one mechanism and never touches p.
- const allowed={none:['none'],animal_disease:['D','conventional_price'],food_sovereignty:['K','L']};
- const groups=new Map();
- for(const r of t.scenarios||[]){
-  const m=tokens(r.shock_mechanism);
-  check(m.length>0&&m.every(x=>(allowed[r.shock]||[]).includes(x))&&(r.shock==='none'||!m.includes('none')),r._where+': rule 7, '+r.shock+' cannot change '+r.shock_mechanism);
-  const k=[r.geo,r.year,r.quantile,r.gate_state,r.acceptance_source,r.local_survey_id].join('|');
-  if(!groups.has(k))groups.set(k,[]);groups.get(k).push(r);
- }
- for(const rows of groups.values()){
-  const base=rows.find(r=>r.shock==='none');if(!base)continue;
-  for(const r of rows){
-   if(r===base)continue;const m=tokens(r.shock_mechanism);
-   check(r.p===base.p,r._where+': rule 7, a shock never changes p');
-   check(r.H_rel===base.H_rel&&r.H_rel_condition_met===base.H_rel_condition_met&&r.H_rel_ruling===base.H_rel_ruling,r._where+': rule 7, a shock never changes the religious ruling H_rel');
-   if(!m.includes('L'))check(r.L_includes_halal===base.L_includes_halal,r._where+': rule 7, L_includes_halal changed by a shock whose mechanism excludes L');
-   if(!m.includes('D'))check(r.D===base.D,r._where+': rule 7, D changed by a shock whose mechanism excludes D');
-   if(!m.includes('K'))check(r.K===base.K,r._where+': rule 7, K changed by a shock whose mechanism excludes K');
-   if(!m.includes('L'))check(r.L===base.L,r._where+': rule 7, L changed by a shock whose mechanism excludes L');
-  }
- }
+ // Scenario mechanisms are validated exclusively by the v2 contract.
 
  // Rule 8: related evidence counts once.
  for(const r of t.rulings||[])if(r.repeats)check(r.repeats!==r.ruling_id&&rulingIds.has(r.repeats),r._where+': rule 8, repeats must name another ruling');

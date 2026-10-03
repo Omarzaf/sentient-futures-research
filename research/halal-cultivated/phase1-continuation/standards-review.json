@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-10-01",
+  "complete": false,
+  "human_review": "pending",
+  "independent_review": "checked_scoped_reading",
+  "standards": [
+    {
+      "id": "OIC-SMIIC-1",
+      "requirement_id": "STANDARD-OIC-SMIIC-1",
+      "edition": "OIC/SMIIC1:2019",
+      "full_text_read": false,
+      "availability": "Official purchase listing; normative text not obtained",
+      "source_ids": [
+        "P1C5-STD-S01",
+        "P1C5-STD-S02",
+        "P1C5-STD-S03",
+        "P1C5-STD-S04"
+      ],
+      "claim_ids": [
+        "P1C5-STD-C01",
+        "P1C5-STD-C02"
+      ],
+      "relevant_clauses": null,
+      "unavailable_clauses": "Species, donor procurement, blood/serum, transformations, safety and labelling requirements not independently read in the normative text.",
+      "national_incorporation": [
+        {
+          "country": "PAK",
+          "status": "modified_adoption_metadata",
+          "identifier": "PS3733-2022(R)",
+          "legal_enforceability": null,
+          "modifications_read": false,
+          "product_application": null,
+          "claim_ids": [
+            "P1C5-STD-C02"
+          ]
+        }
+      ],
+      "reopen_trigger": "Lawfully supplied full OIC/SMIIC1:2019 and PS3733-2022(R), including national modifications and operative incorporation instrument."
+    },
+    {
+      "id": "GSO-2055-1",
+      "requirement_id": "STANDARD-GSO-2055-1",
+      "edition": "GSO2055-1:2015 edition2 English",
+      "catalogue_current_as_of": "2026-10-01",
+      "full_text_read": false,
+      "availability": "Official six-page preview; full text offered for purchase",
+      "source_ids": [
+        "P1C5-STD-S05",
+        "P1C5-STD-S06",
+        "P1C5-STD-S07",
+        "P1C5-STD-S08"
+      ],
+      "claim_ids": [
+        "P1C5-STD-C03",
+        "P1C5-STD-C04",
+        "P1C5-STD-C05",
+        "P1C5-STD-C06"
+      ],
+      "relevant_clauses": [
+        {
+          "clause": "1",
+          "scope": "Food-chain coverage",
+          "product_verdict": null
+        },
+        {
+          "clause": "2.1–2.6",
+          "scope": "References to distinct slaughter, conformity-assessment, hygiene and labelling texts",
+          "referenced_texts_read_in_this_run": false
+        },
+        {
+          "clause": "3.3–3.4,3.8–3.9",
+          "scope": "Definitions distinguish slaughter, product certificate, certifier and accreditation authority",
+          "cultivated_meat_determination": null
+        }
+      ],
+      "unavailable_clauses": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "Annex1"
+      ],
+      "draft": {
+        "identifier": "GSO TC15/DS1 2055-1:2026",
+        "status": "initial_draft",
+        "adopted": null,
+        "adoption_not_established": true,
+        "full_text_read": false,
+        "national_effective_date": null
+      },
+      "national_incorporation": [
+        {
+          "country": "ARE",
+          "status": "administrative_reference",
+          "identifier": "UAE.S2055-1",
+          "edition": null,
+          "full_decree_read": false,
+          "legal_enforceability": null,
+          "product_application": null,
+          "claim_ids": [
+            "P1C5-STD-C06"
+          ]
+        }
+      ],
+      "reopen_trigger": "Complete licensed2015text and national incorporation/version instruments; adopted replacement instrument if the2026project advances."
+    }
+  ],
+  "national_coverage_limit": "Only the above adoption/reference observations are established. GSO membership or OIC participation does not establish national incorporation. Other country cases retain their existing route evidence and unresolved version questions.",
+  "source_independence": "SMIIC pages share one publisher family; GSO catalogue, preview and draft share one issuer family. PSQCA and MOIAT separately describe their national contexts; neither establishes universal cross-country applicability.",
+  "excluded_leads": [
+    {
+      "url": "https://gso-sims-preview-doc-aws-test.s3-eu-west-1.amazonaws.com/gso-2055-1-2015-en.html",
+      "reason": "Search-returned test-host HTML labels edition1 and a conflicting Hijri date; operative catalogue links production-host edition2 PDF. Test-host version not used for operative claims."
+    },
+    {
+      "url": "https://worldhalal.uz/assets/documents/halal4.pdf",
+      "reason": "Non-publisher-hosted full-text lead not acquired or authenticated; not substituted for normative publisher text."
+    }
+  ],
+  "retrieval_operations": 22,
+  "source_register": "source-register.json",
+  "claim_register": "claims.json",
+  "independent_review_id": "R5-STANDARDS",
+  "source_ids": [
+    "P1C5-STD-S01",
+    "P1C5-STD-S02",
+    "P1C5-STD-S03",
+    "P1C5-STD-S04",
+    "P1C5-STD-S05",
+    "P1C5-STD-S06",
+    "P1C5-STD-S07",
+    "P1C5-STD-S08"
+  ],
+  "claim_ids": [
+    "P1C5-STD-C01",
+    "P1C5-STD-C02",
+    "P1C5-STD-C03",
+    "P1C5-STD-C04",
+    "P1C5-STD-C05",
+    "P1C5-STD-C06"
+  ]
+}

@@ -7,7 +7,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'provenance/file-manifest.json'),'utf8'));
 const allowed=new Set(manifest.files.map(f=>f.path).filter(p=>!p.split('/').some(s=>s.startsWith('.'))&&!p.startsWith('tools/')));
 allowed.add('provenance/file-manifest.json');
-const types={'.html':'text/html; charset=utf-8','.md':'text/plain; charset=utf-8','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8','.ris':'application/x-research-info-systems','.svg':'image/svg+xml'};
+const types={'.html':'text/html; charset=utf-8','.md':'text/plain; charset=utf-8','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8','.ris':'application/x-research-info-systems','.svg':'image/svg+xml','.png':'image/png'};
 const port=Number(process.env.RESEARCH_PORT||8796);
 if(!Number.isInteger(port)||port<1024||port>65535)throw Error('RESEARCH_PORT must be an integer from 1024 to 65535');
 const server=http.createServer((req,res)=>{

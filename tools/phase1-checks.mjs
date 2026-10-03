@@ -6,7 +6,7 @@ export function checkPhaseOne(files) {
  const sources=read('source-register.json'),claims=read('claims.json'),schools=read('school-questions.json');
  const countries=read('country-findings.json'),history=read('historical-comparisons.json');
  const reconciliation=read('reconciliation.json'),verification=read('verification.json'),release=read('release.json');
- const counterEvidence=read('counter-evidence.json'),independence=read('source-independence.json');
+ const counterEvidence=read('counter-evidence.json'),independence=read('source-independence.json'),gaps=read('gaps.json');
  check(typeof files['review.md']==='string','missing review.md');
  if(failures.length)return {checks,failures};
  const sourceIds=new Set(sources.map(r=>r.id));
@@ -27,6 +27,18 @@ export function checkPhaseOne(files) {
  }
  const expected=new Set(['HN','M','S','HB','J'].flatMap(prefix=>Array.from({length:9},(_,i)=>prefix+'-Q'+(i+1))));
  check(schools.every(r=>expected.delete(r.id))&&expected.size===0,'school coverage');
+ const questionIds=new Set(schools.map(r=>r.id));
+ check(Array.isArray(gaps),'invalid gap register');
+ if(Array.isArray(gaps)){
+  check(new Set(gaps.map(r=>r.id)).size===gaps.length,'duplicate gap IDs');
+  for(const gap of gaps){
+   if(gap.rows!==undefined){
+    check(Array.isArray(gap.rows)&&gap.rows.length>0&&gap.rows.every(id=>questionIds.has(id))&&new Set(gap.rows).size===gap.rows.length,'unresolved or duplicate gap question: '+gap.id);
+    if(Array.isArray(gap.rows))check(gap.rows.every(id=>schools.some(row=>row.id===id&&row.extraction_batch===gap.extraction_batch)),'gap extraction batch mismatch: '+gap.id);
+   }
+   check(!/\bH-Q[1-9]\b/.test(gap.scope||''),'ambiguous gap school scope: '+gap.id);
+  }
+ }
  const decisions=reconciliation.school_decisions;
  check(decisions.length===45&&new Set(decisions.map(r=>r.question_id)).size===45,'school reconciliation coverage');
  for(const r of schools){

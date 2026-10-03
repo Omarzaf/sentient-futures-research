@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-10-01",
+  "human_review": "pending",
+  "readings": [
+    {
+      "question_id": "M-Q4",
+      "gap_id": "G-M-LIVER",
+      "claim_id": "P1C2-M-Q4-TEXT",
+      "source_id": "P1C2-QURTUBI-2173",
+      "direct_organ_locator_found": true,
+      "school_wide_consensus_established": false,
+      "printed_edition_authenticated": false,
+      "qualified_translation_approved": false,
+      "modern_serum_or_cells_ruling_established": false,
+      "question_complete": false
+    }
+  ],
+  "unresolved": [
+    {
+      "question_id": "J-Q1",
+      "gap_id": "G1",
+      "status": "not_located_in_bounded_search",
+      "proposition_absent": false,
+      "next_action": "Inspect complete official food chapter and qualified commentary for the actual tayyib/khabith criterion."
+    },
+    {
+      "question_id": "J-Q4",
+      "gap_id": "G6",
+      "status": "not_located_in_bounded_search",
+      "proposition_absent": false,
+      "next_action": "Find affirmative official liver ruling; keep base text, commentary, purity and edibility distinct."
+    }
+  ]
+}

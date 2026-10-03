@@ -21,7 +21,20 @@ jobs:
         run: node tools/test-halal-checks.mjs
       - name: Check Phase One evidence and privacy rules against fixtures
         run: node tools/test-phase1-checks.mjs
-      - name: Check deterministic catalog and manifest build
+      - name: Check paper citation and trace rules against fixtures
+        run: node tools/test-paper-checks.mjs
+      - name: Check citation capture integrity without network
+        run: node tools/test-fetch-citations.mjs
+      - name: Check survey data package against fixtures
+        run: node tools/test-survey-checks.mjs
+      - name: Check privacy detector fixtures
+        run: node tools/test-privacy-checks.mjs
+      - name: Check October continuation evidence against fixtures
+        run: node tools/test-continuation-checks.mjs
+      - name: Check MMM reading edition against the manuscript
+        run: node presentations/halal-mmm/build/check.mjs
+      - name: Check deterministic reading-edition, catalog and manifest builds
         run: |
+          node presentations/halal-mmm/build/build.mjs
           node tools/build-library.mjs
           git diff --exit-code

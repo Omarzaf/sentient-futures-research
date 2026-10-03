@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "generated_by": "tools/consolidate-paper.mjs",
+  "scope": "Immutable historical edition plus selected public scope/continuation inputs. Inclusion is not source acceptance or fresh verification.",
+  "input_counts": {
+    "claims": 74,
+    "counter_evidence": 7,
+    "gaps": 12,
+    "original_sources": 76,
+    "canonical_passages": 71,
+    "school_questions": 45,
+    "country_accounts": 7,
+    "historical_accounts": 4,
+    "coverage_records": 225
+  },
+  "files": [
+    {
+      "path": "research/halal-cultivated/AGENTIC-PLAN.md",
+      "bytes": 7292,
+      "sha256": "57194dd29f201b7d6b78d7c5096e761d67729833935712495c72653cf431f568",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/PAPER-PLAN.md",
+      "bytes": 35279,
+      "sha256": "ceb76f5690a27acbda4cf40f3e986cc68e29c0b156d7ec00610d569e187e2479",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/PLAN.md",
+      "bytes": 32213,
+      "sha256": "4a9cb15eb22a505f8d1272ef1d85dd632a1a5da963e4906c62745160c5ffae3a",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/LEGACY-CROSSWALK.md",
+      "bytes": 4027,
+      "sha256": "43b7715a1f74fb1bf42d749392cd977b62a74f44de7ef4762eae56b0396bc190",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/METHOD.md",
+      "bytes": 9764,
+      "sha256": "37537b20a8527dd79908453aee3e3827d325c4013ef106dbb1254be576981fbe",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/production-state.json",
+      "bytes": 2775,
+      "sha256": "ccfbdee296fa30eeb7a167f05ae86daffd35e462dd4e1df1da6015af8f4e4e47",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/bridge-v2/schema.json",
+      "bytes": 27571,
+      "sha256": "fc08228a521639b760ab1f3a32241527f990ea2272043566b29781e612d83172",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/consensus-matrix.csv",
+      "bytes": 2802,
+      "sha256": "2fbadbd71181c072cacd24f8e5bd3a56ab7f2740d0e3c0fbc1127256a4430382",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/REPAIR-REPORT-2026-10-02.md",
+      "bytes": 7783,
+      "sha256": "9e4a78f2ab51b688b50300715afb2346de348c1e5db98786e472101d9ecf220c",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/SYNTHESIS.md",
+      "bytes": 11492,
+      "sha256": "fd9b670ab8f29dbc4006bdd24aab7e7a09161553151dc24405a79983e989af4d",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/claims.json",
+      "bytes": 137024,
+      "sha256": "8d70a8a40eb7c1e218b923b7fa0bf279912103c281a75f2129a068917760f83e",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/coverage.json",
+      "bytes": 7128,
+      "sha256": "0e5802e4e67f7ce79edaa4b43233c8c9601831e685fbe500b8b6c33470e57824",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/driver-map.json",
+      "bytes": 12633,
+      "sha256": "d42dcf7206d35ff80bdbbaf65ed3fb0cdab3cd7afcc21a9d3889e94f39b53df7",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/elasticity-estimates.json",
+      "bytes": 220962,
+      "sha256": "c65c179f13ba48c81f7428e4edd1f078b6ab62f86ce8b6354698f8693de9f2e5",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/elasticity-review.json",
+      "bytes": 59896,
+      "sha256": "f3f6115fed8b32ee8a9ecf9096332147967617de6e2cf85b7bb46322c9f583f0",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/feed-review.json",
+      "bytes": 29259,
+      "sha256": "824cb2f41f768c53c2b12962c75866a274a2fe8d43c70654836c507430534a57",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/gate-table.json",
+      "bytes": 30804,
+      "sha256": "7e477c4bd243270096d1276dbe2f009f53fc063889a7799c4826f8d1c44bbad2",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/geography.json",
+      "bytes": 25300,
+      "sha256": "4f8961482103ba1ed33c77397c6fed11c701e8114fdf0a77167c3c5942ea932d",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/historical-cases.json",
+      "bytes": 151021,
+      "sha256": "aa872cd60de6bf26cef42a813f64f2e3016bc1e73edf940d12b0232a83500aed",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/historical-synthesis.json",
+      "bytes": 8602,
+      "sha256": "012903b46b016f5a436b5c19554970436fb02659e59778cd1baee3671871b860",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/institution-matrix.json",
+      "bytes": 127157,
+      "sha256": "8a6d3ee07554a4a3ad8371d748cbaaa56811b44628f6a7bd7747cf64ac49ea25",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/literature-review.json",
+      "bytes": 92985,
+      "sha256": "c9ef1de1a1b62527e554c6d57bdc34702fb123370821b349fcaef71192683017",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/manufacturing-dossier.json",
+      "bytes": 16377,
+      "sha256": "ec655d134d3f9195a272e78f1ab0a7163f1554dadc1f944c4b1c0ad296980fd4",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/reviews.json",
+      "bytes": 16178,
+      "sha256": "469f887b9e1664aab8881e8afb9913bf6323deeb071cea4b251ff370d0b229fc",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/school-gap-progress.json",
+      "bytes": 1067,
+      "sha256": "d5ee10e54176ac2fbc494d2a95e91cf2d786c1d6a3039137288f27cb17105e12",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/source-register.json",
+      "bytes": 200237,
+      "sha256": "d3091499a47d2db6ea80ba611a9dc601f73f35513f14a4adfe5b5d04a13c9abf",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1-continuation/standards-review.json",
+      "bytes": 4921,
+      "sha256": "564342c695512f0a48c7bedee77e07adbbae6c3828fc73709b3977e95e87b4a4",
+      "role": "scope_or_continuation_reference"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/README.md",
+      "bytes": 4113,
+      "sha256": "ec0909eeea325899fa17d114d7008fa69a3bc61b1f051fa6685904b81f5a52cd",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/claims.json",
+      "bytes": 57075,
+      "sha256": "425b58377b8a3b1f337f77cd37360b520738cdb462c826ffbd3dc8ac778e07c8",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/counter-evidence.json",
+      "bytes": 1665,
+      "sha256": "a94f93e548a1d6f1e2d4c79cd7a1bdfa2c0bc1313a7a9b7176c3f4284a9e7344",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/country-findings.json",
+      "bytes": 6636,
+      "sha256": "0dcf5d0503cd447cd0a0122c8bddc54707deb2268f7f99f06139afb64e9ba7bd",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/gaps.json",
+      "bytes": 3959,
+      "sha256": "2ec7c095a58041da6f72bcea87a4024c93f49b81bf0bf3d7aba0b9246e6ab24d",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/historical-comparisons.json",
+      "bytes": 4202,
+      "sha256": "40ba5e73f198911a33bcb12a0e72b72ff2f4d8b7a8f2a4942290b14350896f64",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/literature-leads.md",
+      "bytes": 4606,
+      "sha256": "d8182edcb90af8c145f9ee42daceded73716643673e5c6e8f2661c8411b2a38c",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/reconciliation.json",
+      "bytes": 52227,
+      "sha256": "35dac3a94bbd880c89a592b52253e8c9a1f6251472d36bbb4bf715f4f88f4f78",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/release.json",
+      "bytes": 1228,
+      "sha256": "af7c634569f7f8f0b6be7da65056e845de1f1d73fbcc880df6a434499f5d9b76",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/review.md",
+      "bytes": 54968,
+      "sha256": "98730dd68b42cadac2ed18a0d015b372d67e62c0bf9ee4c4e150070547a5d600",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/school-questions.json",
+      "bytes": 72120,
+      "sha256": "85fea88f191ee49c34b453d438a2449a5bafef580729a132455eb6f41d5ffdff",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/source-independence.json",
+      "bytes": 2997,
+      "sha256": "a6ebfc8e056e5c9b8c024deb2637ddae171a9f18c46ecc63e17eced26bde3f9e",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/source-register.json",
+      "bytes": 54457,
+      "sha256": "085a7cabb5ad669729e526ae8229ad12d0dd63f4c727ec95c0aa0d03dca57b4f",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/phase1/verification.json",
+      "bytes": 2465,
+      "sha256": "b66c5ed59ffa217c44d0d7baccb69f5585e1cfb687baa9704a143b111e66be9e",
+      "role": "frozen_phase1_input"
+    },
+    {
+      "path": "research/halal-cultivated/source-register.json",
+      "bytes": 15940,
+      "sha256": "32175dc5ceb9436bbd5c35a5a16fa1ec3eba8fe892c220ab15db14cbbbb396bb",
+      "role": "scope_or_continuation_reference"
+    }
+  ]
+}

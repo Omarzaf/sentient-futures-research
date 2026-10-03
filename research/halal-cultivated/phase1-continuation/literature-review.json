@@ -1,0 +1,1916 @@
+{
+  "schema": "sentient-futures.source-bounded-literature-review.v1",
+  "created_at_utc": "2026-10-01T22:07:13.806618+00:00",
+  "status": "human_review_pending",
+  "scope": "Run05 literature subtask only; full Phase One 143-requirement/16-country goal remains incomplete",
+  "observable_retrieval_operations": 16,
+  "operation_limit": 18,
+  "Alqurashi2026": {
+    "doi": "10.3390/foods15081288",
+    "type": "narrative perspective",
+    "authors": [
+      "Randah M. Alqurashi",
+      "Dominika Sikora",
+      "Piotr Rzymski",
+      "Barbara Poniedziałek"
+    ],
+    "coverage": {
+      "body_sections_read": 6,
+      "body_paragraphs_mapped": 36,
+      "reference_entries_read": 94,
+      "tables_read": 3,
+      "figures_visually_read": 3,
+      "all_cited_sources_independently_read": false
+    },
+    "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13115498/fullTextXML",
+    "publisher_pdf": "https://mdpi-res.com/d_attachment/foods/foods-15-01288/article_deploy/foods-15-01288.pdf",
+    "argument_map": [
+      {
+        "locator": "S1.P1",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [
+          "B1-foods-15-01288",
+          "B2-foods-15-01288",
+          "B3-foods-15-01288",
+          "B4-foods-15-01288",
+          "B5-foods-15-01288",
+          "B6-foods-15-01288",
+          "B7-foods-15-01288",
+          "B8-foods-15-01288",
+          "B9-foods-15-01288",
+          "B10-foods-15-01288",
+          "B11-foods-15-01288",
+          "B12-foods-15-01288",
+          "B13-foods-15-01288",
+          "B14-foods-15-01288",
+          "B15-foods-15-01288",
+          "B16-foods-15-01288",
+          "B17-foods-15-01288",
+          "B18-foods-15-01288"
+        ],
+        "claim_type": "context",
+        "article_argument": "Environmental, public-health and demand considerations motivate alternatives.",
+        "counterargument_or_dependency_limit": "These are background arguments, not measured benefits of the particular GOOD Meat process; lifecycle and demand conditions need their own evidence.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S1.P2",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [
+          "B19-foods-15-01288",
+          "B20-foods-15-01288",
+          "B21-foods-15-01288",
+          "B22-foods-15-01288",
+          "B23-foods-15-01288",
+          "B24-foods-15-01288",
+          "B25-foods-15-01288"
+        ],
+        "claim_type": "technical model",
+        "article_argument": "A biopsy-to-expansion-to-structured-tissue workflow introduces the technology.",
+        "counterargument_or_dependency_limit": "Figure 1 is illustrative. It cannot establish that every process uses adult biopsy, stem cells, scaffolds or 3D printing.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S1.P3",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [
+          "B26-foods-15-01288",
+          "B27-foods-15-01288",
+          "B28-foods-15-01288",
+          "B29-foods-15-01288",
+          "B30-foods-15-01288",
+          "B31-foods-15-01288",
+          "B32-foods-15-01288"
+        ],
+        "claim_type": "regulatory context",
+        "article_argument": "International authorizations and applications are used to show technological progress and a Muslim-market research gap.",
+        "counterargument_or_dependency_limit": "References 26, 28 and 29 include advocacy/corporate news. FDA reference 30 is an inventory consultation entry, so the article's FDA pre-market approval language should not be propagated. Reference 31 reanalyzes regulatory data, rather than providing an independent manufacturing assay.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S1.P4",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [
+          "B33-foods-15-01288",
+          "B34-foods-15-01288",
+          "B35-foods-15-01288",
+          "B34-foods-15-01288",
+          "B33-foods-15-01288",
+          "B36-foods-15-01288",
+          "B1-foods-15-01288",
+          "B37-foods-15-01288",
+          "B38-foods-15-01288",
+          "B39-foods-15-01288",
+          "B40-foods-15-01288"
+        ],
+        "claim_type": "market rationale",
+        "article_argument": "Growing halal markets, import dependence and religious uncertainty motivate a framework.",
+        "counterargument_or_dependency_limit": "Market-size and demand figures are not Phase Two baselines. Literal absence of formal guidance is too broad given retained MUIS 2024 and IIFA 2025 instruments; lack of harmonization is a different claim. The article attributes a 2020 Pakistan consumption figure to a 2017 review (reference 36); the original statistic and reference fit need separate verification before numerical reuse.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S1.P5",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [],
+        "claim_type": "method and contribution",
+        "article_argument": "The authors introduce a stage-based analytical framework linking production steps with halal considerations.",
+        "counterargument_or_dependency_limit": "This is a narrative analytical contribution, not a certification standard, empirical validation or systematic evidence census.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S1.P6",
+        "section_id": "sec1-foods-15-01288",
+        "section_title": "1. Introduction",
+        "reference_ids": [
+          "B41-foods-15-01288",
+          "B42-foods-15-01288"
+        ],
+        "claim_type": "method limitation",
+        "article_argument": "The integrative perspective expressly does not claim a systematic or exhaustive review.",
+        "counterargument_or_dependency_limit": "Its principal Islamic-discussion dependencies include Hamdan 2024 [41] and Kashim 2023 [42], which share earlier sources and must not be counted as independent institutional rulings.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P1",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B43-foods-15-01288",
+          "B44-foods-15-01288"
+        ],
+        "claim_type": "general certification",
+        "article_argument": "Certification supplies consumer assurance across ingredients, production and handling.",
+        "counterargument_or_dependency_limit": "General halal certification reviews do not establish the competent authority, accreditation status or legal requirement for every jurisdiction.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P2",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B44-foods-15-01288",
+          "B45-foods-15-01288",
+          "B45-foods-15-01288",
+          "B46-foods-15-01288",
+          "B47-foods-15-01288"
+        ],
+        "claim_type": "purity claim",
+        "article_argument": "The text describes forbidden inputs, slaughter and strict contamination avoidance.",
+        "counterargument_or_dependency_limit": "The categorical trace-contamination statement needs qualification by applicable authority and transformation/dilution doctrine; Kashim 2023's conditional istihalah argument and this article's own S5.P7 are counterweights.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P3",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B48-foods-15-01288",
+          "B49-foods-15-01288"
+        ],
+        "claim_type": "institutional rationale",
+        "article_argument": "Saudi religious and economic influence is presented as a reason to emphasize its leadership.",
+        "counterargument_or_dependency_limit": "References 48 and 49 concern national identity/religion and healthspan respectively; neither is a cultivated-meat ruling or proof of transnational jurisdiction.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P4",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [],
+        "claim_type": "governance generalization",
+        "article_argument": "Religious interpretation and state administration interact in many Muslim-majority settings.",
+        "counterargument_or_dependency_limit": "An uncited descriptive generalization cannot erase differences between religious advice, standards, recognition, accreditation and food-law authorization.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P5",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B50-foods-15-01288",
+          "B51-foods-15-01288"
+        ],
+        "claim_type": "Saudi institution claim",
+        "article_argument": "SFDA and Saudi Halal Center responsibilities are described.",
+        "counterargument_or_dependency_limit": "References 50 and 51 are official general pages, not identified cultivated-meat instruments. Exact competence and the use of 'accredits' versus recognizes require separate primary standards/authority verification.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P6",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B38-foods-15-01288",
+          "B42-foods-15-01288"
+        ],
+        "claim_type": "institutional activity claim",
+        "article_argument": "JAKIM/IFANCA activity, preliminary fatwas and OIC harmonization are asserted.",
+        "counterargument_or_dependency_limit": "Reference 38 is a company halal-responsibility viewpoint, not an identified JAKIM or IFANCA cultivated-meat announcement. Reference 42 is an academic paper. No original cultivated-meat ruling is directly cited for this paragraph; the OIC sentence lacks an attached specific source.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S2.P7",
+        "section_id": "sec2-foods-15-01288",
+        "section_title": "2. Halal Certification",
+        "reference_ids": [
+          "B52-foods-15-01288"
+        ],
+        "claim_type": "Saudi current-status claim",
+        "article_argument": "The authors describe Saudi Arabia as cautious, without a cultivated-meat certificate or market authorization.",
+        "counterargument_or_dependency_limit": "Reference 52 is a smart-agriculture/Vision 2030 book chapter, not an exhaustive current certificate or authorization register. Treat the negative claim as unestablished for current product-level decisions.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S3.P1",
+        "section_id": "sec3-foods-15-01288",
+        "section_title": "3. Cultured Meat Production from a Halal Perspective",
+        "reference_ids": [
+          "B53-foods-15-01288",
+          "B54-foods-15-01288",
+          "B55-foods-15-01288",
+          "B53-foods-15-01288",
+          "B56-foods-15-01288",
+          "B55-foods-15-01288"
+        ],
+        "claim_type": "cell biology",
+        "article_argument": "Different starter cells, avian embryos and immortalization routes are introduced.",
+        "counterargument_or_dependency_limit": "Embryonic origin does not by itself make a line an embryonic stem-cell line. The actual GOOD Meat donor is embryonic chicken fibroblast tissue; the article's cell categories must be matched precisely.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S3.P2",
+        "section_id": "sec3-foods-15-01288",
+        "section_title": "3. Cultured Meat Production from a Halal Perspective",
+        "reference_ids": [
+          "B57-foods-15-01288",
+          "B58-foods-15-01288",
+          "B42-foods-15-01288",
+          "B42-foods-15-01288",
+          "B59-foods-15-01288"
+        ],
+        "claim_type": "juristic dispute",
+        "article_argument": "The paragraph presents competing views on live biopsy, embryo origin and slaughter.",
+        "counterargument_or_dependency_limit": "This is useful evidence of a literature dispute. Its secondary sources cannot settle MUIS wording or transform a slaughter recommendation into universal consensus.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S3.P3",
+        "section_id": "sec3-foods-15-01288",
+        "section_title": "3. Cultured Meat Production from a Halal Perspective",
+        "reference_ids": [
+          "B53-foods-15-01288",
+          "B60-foods-15-01288",
+          "B61-foods-15-01288",
+          "B20-foods-15-01288",
+          "B60-foods-15-01288",
+          "B62-foods-15-01288",
+          "B63-foods-15-01288"
+        ],
+        "claim_type": "medium and scaffold technology",
+        "article_argument": "Culture conditions, growth inputs, bioreactors and structural materials are described.",
+        "counterargument_or_dependency_limit": "Technical possibilities are not a complete bill of materials or process history for any marketed product.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S3.P4",
+        "section_id": "sec3-foods-15-01288",
+        "section_title": "3. Cultured Meat Production from a Halal Perspective",
+        "reference_ids": [
+          "B53-foods-15-01288",
+          "B62-foods-15-01288",
+          "B64-foods-15-01288",
+          "B42-foods-15-01288",
+          "B65-foods-15-01288",
+          "B66-foods-15-01288",
+          "B67-foods-15-01288",
+          "B68-foods-15-01288"
+        ],
+        "claim_type": "animal-component barriers",
+        "article_argument": "FBS and animal-derived scaffolds create concerns; replacements and recombinant inputs create further questions.",
+        "counterargument_or_dependency_limit": "Bovine origin alone is insufficient for halal gelatin/collagen. Serum-free does not establish animal-component-free banking, enzymes, carriers or downstream aids. Recombinant inputs require their own provenance.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S4.P1",
+        "section_id": "sec4-foods-15-01288",
+        "section_title": "4. Market Acceptance and Consumer Perspective",
+        "reference_ids": [
+          "B69-foods-15-01288",
+          "B70-foods-15-01288"
+        ],
+        "claim_type": "consumer conditions",
+        "article_argument": "Price, access and perceived value influence potential adoption.",
+        "counterargument_or_dependency_limit": "The article does not estimate realized demand or affordability for a certified product.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S4.P2",
+        "section_id": "sec4-foods-15-01288",
+        "section_title": "4. Market Acceptance and Consumer Perspective",
+        "reference_ids": [
+          "B71-foods-15-01288",
+          "B72-foods-15-01288",
+          "B73-foods-15-01288"
+        ],
+        "claim_type": "trust and heterogeneity",
+        "article_argument": "Institutional trust, generation, urbanization and communication may affect attitudes.",
+        "counterargument_or_dependency_limit": "Country and sample differences prevent a single Muslim-consumer parameter; these associations do not establish causal effects.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S4.P3",
+        "section_id": "sec4-foods-15-01288",
+        "section_title": "4. Market Acceptance and Consumer Perspective",
+        "reference_ids": [
+          "B69-foods-15-01288",
+          "B70-foods-15-01288",
+          "B72-foods-15-01288",
+          "B73-foods-15-01288",
+          "B74-foods-15-01288",
+          "B75-foods-15-01288",
+          "B76-foods-15-01288",
+          "B77-foods-15-01288",
+          "B70-foods-15-01288",
+          "B73-foods-15-01288",
+          "B78-foods-15-01288",
+          "B79-foods-15-01288",
+          "B80-foods-15-01288"
+        ],
+        "claim_type": "acceptance synthesis",
+        "article_argument": "The authors present variable willingness and a stated 17–56 percent acceptance range.",
+        "counterargument_or_dependency_limit": "Table 1's 56 percent is doubts in the 102-person Malaysian sample, while 44 percent accepted there. The reported range requires endpoint/source checking; do not import 17–56 percent as a comparable acceptance estimate.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S4.P4",
+        "section_id": "sec4-foods-15-01288",
+        "section_title": "4. Market Acceptance and Consumer Perspective",
+        "reference_ids": [
+          "B70-foods-15-01288",
+          "B74-foods-15-01288",
+          "B81-foods-15-01288",
+          "B82-foods-15-01288",
+          "B83-foods-15-01288"
+        ],
+        "claim_type": "counterargument to religious-only explanations",
+        "article_argument": "Disgust, unnaturalness and food neophobia may interact with or outweigh religious considerations.",
+        "counterargument_or_dependency_limit": "Certification alone therefore does not imply purchase or adoption; the causal contribution of religion remains unresolved.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S4.P5",
+        "section_id": "sec4-foods-15-01288",
+        "section_title": "4. Market Acceptance and Consumer Perspective",
+        "reference_ids": [],
+        "claim_type": "consumer evidence limitation",
+        "article_argument": "The authors warn that Table 1 mostly reflects hypothetical, self-reported intentions and often nonrepresentative samples.",
+        "counterargument_or_dependency_limit": "Preserve this explicit warning. The table is neither a systematic review nor a meta-analysis and cannot fill missing Phase Two adoption baselines.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P1",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "recommendation scope",
+        "article_argument": "Recommendations are directional and facilitative, organized by stage and time horizon.",
+        "counterargument_or_dependency_limit": "They are authors' proposals, with Tables 2–3 and Figures 2–3 operationalizing the model; they are not issued rules.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P2",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "proposed governance",
+        "article_argument": "The authors propose transnational coordination, national oversight and public-private collaboration.",
+        "counterargument_or_dependency_limit": "Figure 3's OIC-to-national-to-industry arrows depict a proposed arrangement, not an established command structure or proof of participating agencies' commitments.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P3",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [
+          "B42-foods-15-01288",
+          "B53-foods-15-01288",
+          "B54-foods-15-01288",
+          "B42-foods-15-01288",
+          "B55-foods-15-01288",
+          "B90-foods-15-01288"
+        ],
+        "claim_type": "preferred cell route",
+        "article_argument": "The authors recommend primary cells from slaughtered animals and seek clarification on avian embryos and donor birds.",
+        "counterargument_or_dependency_limit": "This is a precautionary recommendation. Reference 54 is a biopsy technology paper, not religious authority. The cited Hamdan 2024 review elsewhere argues egg-derived embryo transformation can be permissible, so there is an unaddressed substantive counterposition.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P4",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [
+          "B91-foods-15-01288",
+          "B92-foods-15-01288",
+          "B60-foods-15-01288",
+          "B93-foods-15-01288",
+          "B66-foods-15-01288",
+          "B94-foods-15-01288"
+        ],
+        "claim_type": "medium-term production proposal",
+        "article_argument": "Serum-free or substitute media and economic/scaling work are recommended.",
+        "counterargument_or_dependency_limit": "Technical feasibility and an author's expectation that FBS approval is unlikely do not establish a binding ruling or demonstrate halal compliance of a serum-free commercial process.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P5",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "long-term certification proposal",
+        "article_argument": "A practical harmonized certification framework and communication are advocated.",
+        "counterargument_or_dependency_limit": "Neither an issued certificate nor a presently adopted international standard is supplied.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P6",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "authors' protocol",
+        "article_argument": "The authors explicitly propose Halal-by-Design for startups.",
+        "counterargument_or_dependency_limit": "Keep attribution. The label is not an existing regulatory certification program established by the cited article.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P7",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "proposed operational controls",
+        "article_argument": "Traceable slaughter-derived banks, ingredient documentation including transformation routes, segregation, auditing and early engagement form a proposed minimum protocol.",
+        "counterargument_or_dependency_limit": "The exclusive slaughter route is more restrictive than some live-cell/egg readings. Istihalah appears as a potential compliance route, qualifying a simplistic absolute-contamination reading of S2.P2.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P8",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "proposed cooperation",
+        "article_argument": "Advisory boards, regulatory sandboxes and pilot testbeds are recommended.",
+        "counterargument_or_dependency_limit": "Mentioning SHC, JAKIM or OIC does not mean any has adopted this proposal or agreed to a joint body.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S5.P9",
+        "section_id": "sec5-foods-15-01288",
+        "section_title": "5. Challenges and Recommendations",
+        "reference_ids": [],
+        "claim_type": "implementation priorities",
+        "article_argument": "The authors propose validated cell banks, joint technical-religious work and public-private production investment.",
+        "counterargument_or_dependency_limit": "The proposed actions remain contingent. Table 3's High/Medium/Low designations are qualitative judgments, not estimated probabilities or validated risk scores.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S6.P1",
+        "section_id": "sec6-foods-15-01288",
+        "section_title": "6. Conclusions",
+        "reference_ids": [],
+        "claim_type": "synthesis",
+        "article_argument": "The stage framework connects religious compatibility and commercial possibilities.",
+        "counterargument_or_dependency_limit": "Feasibility is conditional; no product-specific determination follows.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S6.P2",
+        "section_id": "sec6-foods-15-01288",
+        "section_title": "6. Conclusions",
+        "reference_ids": [],
+        "claim_type": "innovation hypothesis",
+        "article_argument": "Halal-focused development may stimulate serum-free technology, traceability and standardization.",
+        "counterargument_or_dependency_limit": "This is a plausible hypothesis, not a measured causal outcome.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S6.P3",
+        "section_id": "sec6-foods-15-01288",
+        "section_title": "6. Conclusions",
+        "reference_ids": [],
+        "claim_type": "explicit evidence gaps",
+        "article_argument": "The authors acknowledge no empirical data from halal-certified cultivated-meat systems and reliance on evolving interpretations; they call for material, scholarly and consumer research.",
+        "counterargument_or_dependency_limit": "This admission sets the ceiling on product applicability and authority. Do not turn the framework into validated halal production evidence.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S6.P4",
+        "section_id": "sec6-foods-15-01288",
+        "section_title": "6. Conclusions",
+        "reference_ids": [],
+        "claim_type": "research sequencing proposal",
+        "article_argument": "The authors prioritize material compliance and jurisprudential clarification before downstream economic and adoption evaluation.",
+        "counterargument_or_dependency_limit": "This is their research ordering recommendation; conditional scenario analysis can still be useful if uncertainty remains explicit.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      },
+      {
+        "locator": "S6.P5",
+        "section_id": "sec6-foods-15-01288",
+        "section_title": "6. Conclusions",
+        "reference_ids": [],
+        "claim_type": "engagement proposal",
+        "article_argument": "Inclusive engagement is proposed to build legitimacy and trust.",
+        "counterargument_or_dependency_limit": "The article reports no completed cross-authority agreement or certificate.",
+        "review_status": "human_review_pending",
+        "source_ids": [
+          "P1C5-LIT-ALQ-XML"
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "foods-15-01288-t001",
+        "locator": "Table 1; section 4; PDF page 9",
+        "finding": "Six rows mix willingness to try, acceptance, doubts, purchase intentions, interest and qualitative halal preconditions. They cannot be pooled as adoption. The 56 percent doubts entry is inconsistent with treating the full 17–56 span as acceptance.",
+        "source_status": "full table read; individual underlying survey reports not newly verified"
+      },
+      {
+        "id": "foods-15-01288-t002",
+        "locator": "Table 2; XML floats-group; PDF page 10",
+        "finding": "Six guideline rows are an authors' compatibility map, with no row-level references. The live-biopsy/general production assumptions and animal-welfare row cannot be applied to embryonic fibroblasts/FBS without checking the actual process. Its possibility that slaughter may not be required is in tension with the exclusive bank-sourcing recommendation.",
+        "source_status": "full table read"
+      },
+      {
+        "id": "foods-15-01288-t003",
+        "locator": "Table 3; XML floats-group; PDF page 12",
+        "finding": "Five rows rank cell source and growth medium High, processing Medium, ethical dimension Low, and certification High. These are unvalidated qualitative author judgments. Proposed mitigation is not documented compliance.",
+        "source_status": "full table read"
+      }
+    ],
+    "figures": [
+      {
+        "id": "foods-15-01288-f001",
+        "pdf_page": 3,
+        "finding": "Illustrates biopsy, stem cells, expansion, bioreactor culture, scaffolds/3D printing and maturation. The structured-meat model is not GOOD Meat's documented suspension-biomass process."
+      },
+      {
+        "id": "foods-15-01288-f002",
+        "pdf_page": 11,
+        "finding": "Maps five production/certification stages to concerns and proposed solutions including slaughter-derived banks and serum-free/recombinant/plant media. It supplies no decision thresholds, certificate number or tested pass/fail algorithm."
+      },
+      {
+        "id": "foods-15-01288-f003",
+        "pdf_page": 12,
+        "finding": "The OIC, national authorities, certifiers, committees, safety agencies and industry arrangement is the authors' multilevel proposal. The diagram is not evidence that the displayed governance hierarchy or partnerships already operate."
+      }
+    ],
+    "title": "Cultured Meat and Its Acceptability in Muslim Societies: A Narrative Perspective on Halal Perspectives and Regulatory Challenges",
+    "publication": {
+      "online": "2026-04-09",
+      "collection": "2026-04",
+      "journal": "Foods",
+      "volume": 15,
+      "issue": 8,
+      "article": "1288"
+    },
+    "source_ids": [
+      "P1C5-LIT-ALQ-XML",
+      "P1C5-LIT-ALQ-PDF"
+    ],
+    "paragraph_numbering": "Direct paragraphs within each original body section; embedded lists stay in their owning paragraph. Tables and figures use the original XML IDs.",
+    "reference_index": [
+      {
+        "id": "B1-foods-15-01288",
+        "text": "1. OECD/FAO OECD-FAO Agricultural Outlook 2024–2033OECDParis, FranceFAORome, Italy202410.1787/4c5d2cfb-en",
+        "urls": [],
+        "dois": [
+          "10.1787/4c5d2cfb-en"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B2-foods-15-01288",
+        "text": "2. CrippaM. SolazzoE. GuizzardiD. Monforti-FerrarioF. TubielloF.N. LeipA. Food Systems Are Responsible for a Third of Global Anthropogenic GHG EmissionsNat. Food2021219820910.1038/s43016-021-00225-937117443",
+        "urls": [],
+        "dois": [
+          "10.1038/s43016-021-00225-9"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B3-foods-15-01288",
+        "text": "3. PooreJ. NemecekT. Reducing Food’s Environmental Impacts through Producers and ConsumersScience201836098799210.1126/science.aaq021629853680",
+        "urls": [],
+        "dois": [
+          "10.1126/science.aaq0216"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B4-foods-15-01288",
+        "text": "4. Abu-hashimM. OmranE.-S.E. AlloucheF.K. NegmA. Update, Conclusions, and Recommendations for “Agro-Environmental Sustainability in MENA Regions”Agro-Environmental Sustainability in MENA Regions Abu-hashimM. Khebour AlloucheF. NegmA. Springer International PublishingCham, Switzerland2021433457978-3-030-78574-1",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B5-foods-15-01288",
+        "text": "5. WahaK. KrummenauerL. AdamsS. AichV. BaarschF. CoumouD. FaderM. HoffH. JobbinsG. MarcusR. Climate Change Impacts in the Middle East and Northern Africa (MENA) Region and Their Implications for Vulnerable Population GroupsReg. Environ. Change2017171623163810.1007/s10113-017-1144-2",
+        "urls": [],
+        "dois": [
+          "10.1007/s10113-017-1144-2"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B6-foods-15-01288",
+        "text": "6. BahnR.A. YehyaA.A.K. ZuraykR. Digitalization for Sustainable Agri-Food Systems: Potential, Status, and Risks for the MENA RegionSustainability202113322310.3390/su13063223",
+        "urls": [],
+        "dois": [
+          "10.3390/su13063223"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B7-foods-15-01288",
+        "text": "7. HarrouzJ.P. Al AssaadD. OrabiM. GhaliK. OuahraniD. GhaddarN. Modeling and Optimization of Poultry House Passive Cooling Strategies in Semiarid ClimatesInt. J. Energy Res.202145207952081110.1002/er.7139",
+        "urls": [],
+        "dois": [
+          "10.1002/er.7139"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B8-foods-15-01288",
+        "text": "8. DaghirN.J. MurtadaM.R. Availability, Quality and Utilisation of Oil Seed Meals Produced in the Middle East and North Africa RegionsWorld’s Poult. Sci. J.201874456010.1017/S0043933917001015",
+        "urls": [],
+        "dois": [
+          "10.1017/S0043933917001015"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B9-foods-15-01288",
+        "text": "9. RahimiJ. SmeraldA. MoutahirH. KhorsandiM. Butterbach-BahlK. The Potential Consequences of Grain-Trade Disruption on Food Security in the Middle East and North Africa RegionFront. Nutr.202310123954810.3389/fnut.2023.123954837908300PMC10613703",
+        "urls": [],
+        "dois": [
+          "10.3389/fnut.2023.1239548"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B10-foods-15-01288",
+        "text": "10. CurrieA. Breakingviews-Iran War Exposes Food Security to Cascading Risks. Reuters2026Available online: https://www.reuters.com/commentary/breakingviews/iran-war-exposes-food-security-cascading-risks-2026-03-24/(accessed on 1 April 2026)",
+        "urls": [
+          "https://www.reuters.com/commentary/breakingviews/iran-war-exposes-food-security-cascading-risks-2026-03-24/"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B11-foods-15-01288",
+        "text": "11. OppewalJ. Middle East Poultry: War Disrupts Key Imports via Hormuz. Poultry World2026Available online: https://www.poultryworld.net/the-industrymarkets/market-trends-analysis-the-industrymarkets-2/war-shakes-up-poultry-supply-chains-across-the-middle-east/(accessed on 1 April 2026)",
+        "urls": [
+          "https://www.poultryworld.net/the-industrymarkets/market-trends-analysis-the-industrymarkets-2/war-shakes-up-poultry-supply-chains-across-the-middle-east/"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B12-foods-15-01288",
+        "text": "12. Ruiz-SaenzJ. DiazA. Bonilla-AldanaD.K. Rodríguez-MoralesA.J. Martinez-GutierrezM. AguilarP.V. African Swine Fever Virus: A Re-Emerging Threat to the Swine Industry and Food Security in the AmericasFront. Microbiol.202213101189110.3389/fmicb.2022.101189136274746PMC9581234",
+        "urls": [],
+        "dois": [
+          "10.3389/fmicb.2022.1011891"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B13-foods-15-01288",
+        "text": "13. RzymskiP. Avian Influenza Outbreaks in Domestic Cats: Another Reason to Consider Slaughter-Free Cell-Cultured Poultry?Front. Microbiol.202314128336110.3389/fmicb.2023.128336138163084PMC10754994",
+        "urls": [],
+        "dois": [
+          "10.3389/fmicb.2023.1283361"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B14-foods-15-01288",
+        "text": "14. MulchandaniR. WangY. GilbertM. BoeckelT.P.V. Global Trends in Antimicrobial Use in Food-Producing Animals: 2020 to 2030PLoS Glob. Public Health20233e000130510.1371/journal.pgph.000130536963007PMC10021213",
+        "urls": [],
+        "dois": [
+          "10.1371/journal.pgph.0001305"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B15-foods-15-01288",
+        "text": "15. MurrayC.J.L. IkutaK.S. ShararaF. SwetschinskiL. AguilarG.R. GrayA. HanC. BisignanoC. RaoP. WoolE. Global Burden of Bacterial Antimicrobial Resistance in 2019: A Systematic AnalysisLancet202239962965510.1016/S0140-6736(21)02724-035065702PMC8841637",
+        "urls": [],
+        "dois": [
+          "10.1016/S0140-6736(21)02724-0"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B16-foods-15-01288",
+        "text": "16. PainterJ.A. HoekstraR.M. AyersT. TauxeR.V. BradenC.R. AnguloF.J. GriffinP.M. Attribution of Foodborne Illnesses, Hospitalizations, and Deaths to Food Commodities by Using Outbreak Data, United States, 1998–2008Emerg. Infect. Dis.20131940710.3201/eid1903.11186623622497PMC3647642",
+        "urls": [],
+        "dois": [
+          "10.3201/eid1903.111866"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B17-foods-15-01288",
+        "text": "17. PereiraP.M.d.C.C. VicenteA.F.d.R.B. Meat Nutritional Composition and Nutritive Role in the Human DietMeat Sci.20139358659210.1016/j.meatsci.2012.09.01823273468",
+        "urls": [],
+        "dois": [
+          "10.1016/j.meatsci.2012.09.018"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B18-foods-15-01288",
+        "text": "18. Estévez-MorenoL.X. Miranda-de la LamaG.C. Meat Consumption and Consumer Attitudes in México: Can Persistence Lead to Change?Meat Sci.202219310894310.1016/j.meatsci.2022.10894335961125",
+        "urls": [],
+        "dois": [
+          "10.1016/j.meatsci.2022.108943"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B19-foods-15-01288",
+        "text": "19. BryantC.J. BarnettJ.C. What’s in a Name? Consumer Perceptions of in Vitro Meat under Different NamesAppetite201913710411310.1016/j.appet.2019.02.02130840874",
+        "urls": [],
+        "dois": [
+          "10.1016/j.appet.2019.02.021"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B20-foods-15-01288",
+        "text": "20. ChoiK.-H. YoonJ.W. KimM. LeeH.J. JeongJ. RyuM. JoC. LeeC.-K. Muscle Stem Cell Isolation and in Vitro Culture for Meat Production: A Methodological ReviewCompr. Rev. Food Sci. Food Saf.20212042945710.1111/1541-4337.1266133443788",
+        "urls": [],
+        "dois": [
+          "10.1111/1541-4337.12661"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B21-foods-15-01288",
+        "text": "21. PostM.J. Cultured Meat from Stem Cells: Challenges and ProspectsMeat Sci.20129229730110.1016/j.meatsci.2012.04.00822543115",
+        "urls": [],
+        "dois": [
+          "10.1016/j.meatsci.2012.04.008"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B22-foods-15-01288",
+        "text": "22. ReissJ. RobertsonS. SuzukiM. Cell Sources for Cultivated Meat: Applications and Considerations throughout the Production WorkflowInt. J. Mol. Sci.202122751310.3390/ijms2214751334299132PMC8307620",
+        "urls": [],
+        "dois": [
+          "10.3390/ijms22147513"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B23-foods-15-01288",
+        "text": "23. BodiouV. MoutsatsouP. PostM.J. Microcarriers for Upscaling Cultured Meat ProductionFront. Nutr.202071010.3389/fnut.2020.0001032154261PMC7045063",
+        "urls": [],
+        "dois": [
+          "10.3389/fnut.2020.00010"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B24-foods-15-01288",
+        "text": "24. KangD.-H. LouisF. LiuH. ShimodaH. NishiyamaY. NozawaH. KakitaniM. TakagiD. KasaD. NagamoriE. Engineered Whole Cut Meat-like Tissue by the Assembly of Cell Fibers Using Tendon-Gel Integrated BioprintingNat. Commun.202112505910.1038/s41467-021-25236-934429413PMC8385070",
+        "urls": [],
+        "dois": [
+          "10.1038/s41467-021-25236-9"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B25-foods-15-01288",
+        "text": "25. K. HandralH. Hua TayS. Wan ChanW. ChoudhuryD. 3D Printing of Cultured Meat ProductsCrit. Rev. Food Sci. Nutr.20226227228110.1080/10408398.2020.181517232951433",
+        "urls": [],
+        "dois": [
+          "10.1080/10408398.2020.1815172"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B26-foods-15-01288",
+        "text": "26.The Good Food Institute GOOD Meat and UPSIDE Foods Approved to Sell Cultivated Chicken Following Landmark USDA ActionAvailable online: https://gfi.org/press/good-meat-and-upside-foods-approved-to-sell-cultivated-chicken-following-landmark-usda-action/(accessed on 4 March 2024)",
+        "urls": [
+          "https://gfi.org/press/good-meat-and-upside-foods-approved-to-sell-cultivated-chicken-following-landmark-usda-action/"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B27-foods-15-01288",
+        "text": "27. TreichN. Cultured Meat: Promises and ChallengesEnviron. Resour. Econ.202179336110.1007/s10640-021-00551-333758465PMC7977488",
+        "urls": [],
+        "dois": [
+          "10.1007/s10640-021-00551-3"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B28-foods-15-01288",
+        "text": "28.EIT Food GOURMEY Files the First EU Novel Food Submission for Cultured Meat-EIT FoodAvailable online: https://www.eitfood.eu/news/gourmey-files-the-first-eu-novel-food-submission-for-cultured-meat(accessed on 13 December 2024)",
+        "urls": [
+          "https://www.eitfood.eu/news/gourmey-files-the-first-eu-novel-food-submission-for-cultured-meat"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B29-foods-15-01288",
+        "text": "29.Mosa Meat Submitting Our First EU Market Authorisation RequestAvailable online: https://mosameat.com/blog/submitting-our-first-eu-market-authorisation-request(accessed on 27 January 2025)",
+        "urls": [
+          "https://mosameat.com/blog/submitting-our-first-eu-market-authorisation-request"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B30-foods-15-01288",
+        "text": "30.FDA Human Food Made with Cultured Animal Cells InventoryAvailable online: https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=AnimalCellCultureFoods&id=005(accessed on 11 July 2025)",
+        "urls": [
+          "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=AnimalCellCultureFoods&id=005"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B31-foods-15-01288",
+        "text": "31. SikoraD. RzymskiP. Assessment of the Potential Nutritional Value of Cell-Cultured Chicken Meat in Light of European Dietary RecommendationsJ. Food Compos. Anal.202413510666310.1016/j.jfca.2024.106663",
+        "urls": [],
+        "dois": [
+          "10.1016/j.jfca.2024.106663"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B32-foods-15-01288",
+        "text": "32.Lab-Grown Meat List of Companies Creating Lab-Grown MeatAvailable online: https://labgrownmeat.com/list-of-lab-grown-meat-companies/(accessed on 19 February 2025)",
+        "urls": [
+          "https://labgrownmeat.com/list-of-lab-grown-meat-companies/"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B33-foods-15-01288",
+        "text": "33. AttwoodS. JameelS. FuseiniA. AlKhalawiE. HajatC. Halal Cultivated Meat: An Untapped OpportunityFront. Nutr.202310119647510.3389/fnut.2023.119647537502725PMC10370351",
+        "urls": [],
+        "dois": [
+          "10.3389/fnut.2023.1196475"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B34-foods-15-01288",
+        "text": "34. SukmaningrumP.S. MaulanaA. AnnisaR.F. Research on the Halal Meat Trend: Challenge and Opportunity AgendaI-IECONS E-Proc.20231070171210.33102/iiecons.v10i1.50",
+        "urls": [],
+        "dois": [
+          "10.33102/iiecons.v10i1.50"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B35-foods-15-01288",
+        "text": "35. KhaleelS. OsailiT. AbdelrahimD.N. ZebF. NajaF. RadwanH. FarisM.E. HasanH. Cheikh IsmailL. ObaidR.S. Attachment to Meat and Willingness Towards Cultured Alternatives Among Consumers: A Cross-Sectional Study in the UAENutrients2025172810.3390/nu17010028PMC1172297539796462",
+        "urls": [],
+        "dois": [
+          "10.3390/nu17010028"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B36-foods-15-01288",
+        "text": "36. SohaibM. JamilF. An Insight of Meat Industry in Pakistan with Special Reference to Halal Meat: A Comprehensive ReviewFood Sci. Anim. Resour.20173732934110.5851/kosfa.2017.37.3.329PMC551605928747818",
+        "urls": [],
+        "dois": [
+          "10.5851/kosfa.2017.37.3.329"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B37-foods-15-01288",
+        "text": "37. GaniA. A Policy Perspective on the Determinants of Live Animal Imports in the Gulf Cooperation Council CountriesJ. Saudi Soc. Agric. Sci.2025241310.1007/s44447-025-00020-z",
+        "urls": [],
+        "dois": [
+          "10.1007/s44447-025-00020-z"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B38-foods-15-01288",
+        "text": "38. TiemanM. HabirA.D. Organising Halal Responsibility in a CompanyICR J.202213139145",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B39-foods-15-01288",
+        "text": "39. ElzakiR.M. Al-MahishM. Food Insecurity and Water Management Shocks in Saudi Arabia: Bayesian VAR AnalysisPLoS ONE202419e029672110.1371/journal.pone.029672138266018PMC10807787",
+        "urls": [],
+        "dois": [
+          "10.1371/journal.pone.0296721"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B40-foods-15-01288",
+        "text": "40. YusufN. KooliC. KhojH. BajnaidN.O. Strategizing Sustainable Food Security in Saudi Arabia: A Policy and Scenario Approach to Agricultural ResilienceOutlook Agric.202554779010.1177/00307270241302091",
+        "urls": [],
+        "dois": [
+          "10.1177/00307270241302091"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B41-foods-15-01288",
+        "text": "41. HamdanM.N. Abdul JalilR. RamliM.A. RamliN. IbrahimM.N.A. Ab RahmanM.F. Abdullah ThaidiH.A. Abd RahmanN.N.H. A Review of the Discussions on Cultivated Meat from the Islamic PerspectiveHeliyon202410e2849110.1016/j.heliyon.2024.e2849138601623PMC11004531",
+        "urls": [],
+        "dois": [
+          "10.1016/j.heliyon.2024.e28491"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B42-foods-15-01288",
+        "text": "42. Izhar Ariff Mohd KashimM. Abdul HarisA.A. Abd. MutalibS. AnuarN. ShahimiS. Scientific and Islamic Perspectives in Relation to the Halal Status of Cultured MeatSaudi J. Biol. Sci.20233010350110.1016/j.sjbs.2022.10350136466219PMC9712126",
+        "urls": [],
+        "dois": [
+          "10.1016/j.sjbs.2022.103501"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B43-foods-15-01288",
+        "text": "43. HanzaeeK.H. RamezaniM. Intention to Halal Products in the World MarketsInterdiscip. J. Res. Bus.2011117",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B44-foods-15-01288",
+        "text": "44. Al-HarranS. Marketing of Halal Products: The Way Forward2010Available online: https://papers.ssrn.com/abstract=1577795(accessed on 1 April 2026)",
+        "urls": [
+          "https://papers.ssrn.com/abstract=1577795"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B45-foods-15-01288",
+        "text": "45. BatuA. RegensteinJ.M. Halal Food Certification Challenges and Their Implications for Muslim Societies WorldwideJ. Turk. Stud.2024911113010.7827/TurkishStudies.7451",
+        "urls": [],
+        "dois": [
+          "10.7827/TurkishStudies.7451"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B46-foods-15-01288",
+        "text": "46. KhanM.I. HaleemD.A. Understanding “Halal” and “Halal Certification & Accreditation System”-A Brief ReviewSaudi J. Bus. Manag. Stud.201613242",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B47-foods-15-01288",
+        "text": "47. RiazM. ChaudryM.M. The Value of Halal Food ProductionInf.-Int. News Fats Oils Relat. Mater.200415698700",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B48-foods-15-01288",
+        "text": "48. NevoJ. Religion and National Identity in Saudi ArabiaMiddle East. Stud.199834345310.1080/00263209808701231",
+        "urls": [],
+        "dois": [
+          "10.1080/00263209808701231"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B49-foods-15-01288",
+        "text": "49. MurshidG.A. The Rise of Healthy Longevity and Healthspan in Saudi Arabia: From Funding Geroscience Research to Precision Medicine and Personalized Digital TwinsDiscov. Med.202418310.1007/s44337-024-00086-8",
+        "urls": [],
+        "dois": [
+          "10.1007/s44337-024-00086-8"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B50-foods-15-01288",
+        "text": "50.SFDA–Saudi Food and Drug Authority Halal Regulations and Certification ProcessAvailable online: https://www.sfda.gov.sa/ar/taxonomy/term/50(accessed on 6 June 2025)",
+        "urls": [
+          "https://www.sfda.gov.sa/ar/taxonomy/term/50"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B51-foods-15-01288",
+        "text": "51.SHC–Saudi Halal Centerthiqah Halal Certification Guidelines for ImportersAvailable online: https://halal.gov.sa/home(accessed on 6 June 2025)",
+        "urls": [
+          "https://halal.gov.sa/home"
+        ],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B52-foods-15-01288",
+        "text": "52. HadidM. AhmedS.M. Role of Smart Agriculture on Food Security in Saudi ArabiaFood and Nutrition Security in the Kingdom of Saudi Arabia, Vol. 1: National Analysis of Agricultural and Food Security AhmedA.E. Al-KhayriJ.M. ElbushraA.A. Springer International PublishingCham, Switzerland2024229248978-3-031-46716-5",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B53-foods-15-01288",
+        "text": "53. MartinsB. BisterA. DohmenR.G.J. GouveiaM.A. HueberR. MelzenerL. MessmerT. PapadopoulosJ. PimentaJ. RainaD. Advances and Challenges in Cell Biology for Cultured MeatAnnu. Rev. Anim. Biosci.20241234536810.1146/annurev-animal-021022-05513237963400",
+        "urls": [],
+        "dois": [
+          "10.1146/annurev-animal-021022-055132"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B54-foods-15-01288",
+        "text": "54. MelzenerL. VerzijdenK.E. BuijsA.J. PostM.J. FlackJ.E. Cultured Beef: From Small Biopsy to Substantial QuantityJ. Sci. Food Agric.202110171410.1002/jsfa.1066332662148PMC7689697",
+        "urls": [],
+        "dois": [
+          "10.1002/jsfa.10663"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B55-foods-15-01288",
+        "text": "55. PasitkaL. CohenM. EhrlichA. GildorB. ReuveniE. AyyashM. WissotskyG. HerscoviciA. KaminkerR. NivA. Spontaneous Immortalization of Chicken Fibroblasts Generates Stable, High-Yield Cell Lines for Serum-Free Production of Cultured MeatNat. Food20234355010.1038/s43016-022-00658-w37118574",
+        "urls": [],
+        "dois": [
+          "10.1038/s43016-022-00658-w"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B56-foods-15-01288",
+        "text": "56. JaraT.C. ParkK. VahmaniP. Van EenennaamA.L. SmithL.R. DenicolA.C. Stem Cell-Based Strategies and Challenges for Production of Cultivated MeatNat. Food2023484185310.1038/s43016-023-00857-z37845547",
+        "urls": [],
+        "dois": [
+          "10.1038/s43016-023-00857-z"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B57-foods-15-01288",
+        "text": "57. Al-MazeediH.M. RegensteinJ.M. RiazM.N. The Issue of Undeclared Ingredients in Halal and Kosher Food Production: A Focus on Processing AidsCompr. Rev. Food Sci. Food Saf.20131222823310.1111/1541-4337.12002",
+        "urls": [],
+        "dois": [
+          "10.1111/1541-4337.12002"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B58-foods-15-01288",
+        "text": "58. YuenJ.S.K.Jr. StoutA.J. KaweckiN.S. LetcherS.M. TheodossiouS.K. CohenJ.M. BarrickB.M. SaadM.K. RubioN.R. PietropintoJ.A. Perspectives on Scaling Production of Adipose Tissue for Food ApplicationsBiomaterials202228012127310.1016/j.biomaterials.2021.12127334933254PMC8725203",
+        "urls": [],
+        "dois": [
+          "10.1016/j.biomaterials.2021.121273"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B59-foods-15-01288",
+        "text": "59. AbdullahF.A.A. BorilovaG. SteinhauserovaI. Halal Criteria Versus Conventional Slaughter TechnologyAnimals2019953010.3390/ani908053031387323PMC6718994",
+        "urls": [],
+        "dois": [
+          "10.3390/ani9080530"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B60-foods-15-01288",
+        "text": "60. LeeD.Y. YunS.H. LeeJ. MarianoE.Jr. ChoiY. HanD. ParkJ. KimJ.S. LeeS.Y. HurS.J. The Roles of Media Ingredients in Muscle Cell Culture for Cultured Meat Production—A Mini-ReviewFuture Foods20241010040310.1016/j.fufo.2024.100403",
+        "urls": [],
+        "dois": [
+          "10.1016/j.fufo.2024.100403"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B61-foods-15-01288",
+        "text": "61. O’NeillE.N. CosenzaZ.A. BaarK. BlockD.E. Considerations for the Development of Cost-Effective Cell Culture Media for Cultivated Meat ProductionCompr. Rev. Food Sci. Food Saf.20212068670910.1111/1541-4337.1267833325139",
+        "urls": [],
+        "dois": [
+          "10.1111/1541-4337.12678"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B62-foods-15-01288",
+        "text": "62. LeeM. ParkS. ChoiB. ChoiW. LeeH. LeeJ.M. LeeS.T. YooK.H. HanD. BangG. Cultured Meat with Enriched Organoleptic Properties by Regulating Cell DifferentiationNat. Commun.2024157710.1038/s41467-023-44359-938167486PMC10762223",
+        "urls": [],
+        "dois": [
+          "10.1038/s41467-023-44359-9"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B63-foods-15-01288",
+        "text": "63. YuenJ.S.K.Jr. SaadM.K. XiangN. BarrickB.M. DiCindioH. LiC. ZhangS.W. RittenbergM. LewE.T. ZhangK.L. Aggregating in Vitro-Grown Adipocytes to Produce Macroscale Cell-Cultured Fat Tissue with Tunable Lipid Compositions for Food ApplicationseLife202312e8212010.7554/eLife.8212037014056PMC10072877",
+        "urls": [],
+        "dois": [
+          "10.7554/eLife.82120"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B64-foods-15-01288",
+        "text": "64. Subbiahanadar ChelladuraiK. Selvan ChristyrajJ.D. RajagopalanK. YesudhasonB.V. VenkatachalamS. MohanM. Chellathurai VasanthaN. Selvan ChristyrajJ.R.S. Alternative to FBS in Animal Cell Culture-An Overview and Future PerspectiveHeliyon20217e0768610.1016/j.heliyon.2021.e0768634401573PMC8349753",
+        "urls": [],
+        "dois": [
+          "10.1016/j.heliyon.2021.e07686"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B65-foods-15-01288",
+        "text": "65. AhmadK. LimJ.-H. LeeE.-J. ChunH.-J. AliS. AhmadS.S. ShaikhS. ChoiI. Extracellular Matrix and the Production of Cultured MeatFoods202110311610.3390/foods1012311634945667PMC8700801",
+        "urls": [],
+        "dois": [
+          "10.3390/foods10123116"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B66-foods-15-01288",
+        "text": "66. DupuisJ.H. CheungL.K.Y. NewmanL. DeeD.R. YadaR.Y. Precision Cellular Agriculture: The Future Role of Recombinantly Expressed Protein as FoodCompr. Rev. Food Sci. Food Saf.20232288291210.1111/1541-4337.1309436546356",
+        "urls": [],
+        "dois": [
+          "10.1111/1541-4337.13094"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B67-foods-15-01288",
+        "text": "67. ErolA. Genetically Modified Foods from Islamic Law PerspectiveJ. Agric. Environ. Ethics202134310.1007/s10806-021-09845-4",
+        "urls": [],
+        "dois": [
+          "10.1007/s10806-021-09845-4"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B68-foods-15-01288",
+        "text": "68. BomkampC. SkaalureS.C. FernandoG.F. Ben-AryeT. SwartzE.W. SpechtE.A. Scaffolding Biomaterials for 3D Cultivated Meat: Prospects and ChallengesAdv. Sci.20229210290810.1002/advs.20210290834786874PMC8787436",
+        "urls": [],
+        "dois": [
+          "10.1002/advs.202102908"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B69-foods-15-01288",
+        "text": "69. BryantC. BarnettJ. Consumer Acceptance of Cultured Meat: An Updated Review (2018–2020)Appl. Sci.202010520110.3390/app1015520129684844",
+        "urls": [],
+        "dois": [
+          "10.3390/app10155201"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B70-foods-15-01288",
+        "text": "70. PaksereshtA. Ahmadi KalijiS. CanavariM. Review of Factors Affecting Consumer Acceptance of Cultured MeatAppetite202217010582910.1016/j.appet.2021.10582934863794",
+        "urls": [],
+        "dois": [
+          "10.1016/j.appet.2021.105829"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B71-foods-15-01288",
+        "text": "71. AufiI. JulianF.A. MaulidizenA. AriaputraR.F. FauzanM. The Role of Certification Standards in Shaping Halal Supply Chain Practices: A Qualitative Literature ReviewJ. Islam. Law Leg. Stud.202417891",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B72-foods-15-01288",
+        "text": "72. ManciniM.C. AntonioliF. Exploring Consumers’ Attitude towards Cultured Meat in ItalyMeat Sci.201915010111010.1016/j.meatsci.2018.12.01430616073",
+        "urls": [],
+        "dois": [
+          "10.1016/j.meatsci.2018.12.014"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B73-foods-15-01288",
+        "text": "73. SikoraD. RzymskiP. The Heat about Cultured Meat in Poland: A Cross-Sectional Acceptance StudyNutrients202315464910.3390/nu1521464937960301PMC10647623",
+        "urls": [],
+        "dois": [
+          "10.3390/nu15214649"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B74-foods-15-01288",
+        "text": "74. SiegristM. HartmannC. Perceived Naturalness, Disgust, Trust and Food Neophobia as Predictors of Cultured Meat Acceptance in Ten CountriesAppetite202015510481410.1016/j.appet.2020.10481432783971",
+        "urls": [],
+        "dois": [
+          "10.1016/j.appet.2020.104814"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B75-foods-15-01288",
+        "text": "75. BryantC. van NekL. RollandN.C.M. European Markets for Cultured Meat: A Comparison of Germany and FranceFoods20209115210.3390/foods909115232825592PMC7555944",
+        "urls": [],
+        "dois": [
+          "10.3390/foods9091152"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B76-foods-15-01288",
+        "text": "76. LiuJ. AlmeidaJ.M. RampadoN. PaneaB. HocquetteÉ. ChrikiS. Ellies-OuryM.-P. HocquetteJ.-F. Perception of Cultured “Meat” by Italian, Portuguese and Spanish ConsumersFront. Nutr.202310104361810.3389/fnut.2023.104361837408985PMC10319306",
+        "urls": [],
+        "dois": [
+          "10.3389/fnut.2023.1043618"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B77-foods-15-01288",
+        "text": "77. BoereboomA. MongondryP. AguiarL.K.d. UrbanoB. JiangZ. de KoningW. VriesekoopF. Identifying Consumer Groups and Their Characteristics Based on Their Willingness to Engage with Cultured Meat: A Comparison of Four European CountriesFoods20221119710.3390/foods1102019735053929PMC8774966",
+        "urls": [],
+        "dois": [
+          "10.3390/foods11020197"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B78-foods-15-01288",
+        "text": "78. MuiruriS.W. RickertsenK. Norwegian Consumers’ Willingness to Try Cultured MeatFuture Foods20241010040910.1016/j.fufo.2024.100409",
+        "urls": [],
+        "dois": [
+          "10.1016/j.fufo.2024.100409"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B79-foods-15-01288",
+        "text": "79. SzejdaK. BryantC.J. UrbanovichT. US and UK Consumer Adoption of Cultivated Meat: A Segmentation StudyFoods202110105010.3390/foods1005105034064740PMC8150824",
+        "urls": [],
+        "dois": [
+          "10.3390/foods10051050"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B80-foods-15-01288",
+        "text": "80. TsvakiraiC.Z. The Valency of Consumers’ Perceptions toward Cultured Meat: A ReviewHeliyon202410e2764910.1016/j.heliyon.2024.e2764938510023PMC10951585",
+        "urls": [],
+        "dois": [
+          "10.1016/j.heliyon.2024.e27649"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B81-foods-15-01288",
+        "text": "81. BryantC. BarnettJ. Consumer Acceptance of Cultured Meat: A Systematic ReviewMeat Sci.201814381710.1016/j.meatsci.2018.04.00829684844",
+        "urls": [],
+        "dois": [
+          "10.1016/j.meatsci.2018.04.008"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B82-foods-15-01288",
+        "text": "82. ManciniM.C. AntonioliF. To What Extent Are Consumers’ Perception and Acceptance of Alternative Meat Production Systems Affected by Information? The Case of Cultured MeatAnimals20201065610.3390/ani1004065632290141PMC7223365",
+        "urls": [],
+        "dois": [
+          "10.3390/ani10040656"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B83-foods-15-01288",
+        "text": "83. RombachM. DeanD. VriesekoopF. de KoningW. AguiarL.K. AndersonM. MongondryP. Oppong-GyamfiM. UrbanoB. Gómez LucianoC.A. Is Cultured Meat a Promising Consumer Alternative? Exploring Key Factors Determining Consumer’s Willingness to Try, Buy and Pay a Premium for Cultured MeatAppetite202217910630710.1016/j.appet.2022.10630736089124",
+        "urls": [],
+        "dois": [
+          "10.1016/j.appet.2022.106307"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B84-foods-15-01288",
+        "text": "84. HoS.S. WijayaS.A. OuM. Examining Muslims’ Opinions Toward Cultured Meat in Singapore: The Influence of Presumed Media Influence and Halal ConsciousnessSci. Commun.20244615117710.1177/10755470231225684",
+        "urls": [],
+        "dois": [
+          "10.1177/10755470231225684"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B85-foods-15-01288",
+        "text": "85. TeranoR. MatsuyoshiY. AidaA.A. RamliN.N. MohamedZ.A. Exploring Muslim Consumers’ Acceptance of Cultured Beef MeatAgrar. J. Agribus. Rural. Dev. Res.2023910011210.18196/agraris.v9i1.182",
+        "urls": [],
+        "dois": [
+          "10.18196/agraris.v9i1.182"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B86-foods-15-01288",
+        "text": "86. ErwanS. RamlanN. Cultured Meat Technology: Unveiling Awareness and Halal Perceptions Among Muslim Youth in MalaysiaIJAR20241272773710.21474/IJAR01/18609",
+        "urls": [],
+        "dois": [
+          "10.21474/IJAR01/18609"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B87-foods-15-01288",
+        "text": "87. HoS.S. OuM. VijayanA.V. Halal or Not? Exploring Muslim Perceptions of Cultured Meat in SingaporeFront. Sustain. Food Syst.20237112716410.3389/fsufs.2023.1127164",
+        "urls": [],
+        "dois": [
+          "10.3389/fsufs.2023.1127164"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B88-foods-15-01288",
+        "text": "88. ChrikiS. AlhujailiA. HallmanW.K. PayetV. Ellies-OuryM.-P. HocquetteJ.-F. Attitudes toward Artificial Meat in Arab CountriesJ. Food Sci.2024899711973110.1111/1750-3841.1755939656840",
+        "urls": [],
+        "dois": [
+          "10.1111/1750-3841.17559"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B89-foods-15-01288",
+        "text": "89. BoereboomA. SheikhM. IslamT. AchirimbiE. VriesekoopF. Brits and British Muslims and Their Perceptions of Cultured Meat: How Big Is Their Willingness to Purchase?Food Front.2022352954010.1002/fft2.165",
+        "urls": [],
+        "dois": [
+          "10.1002/fft2.165"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B90-foods-15-01288",
+        "text": "90. UPSIDE Foods Premarket Notice for Integral Tissue Cultured Poultry MeatUPSIDE FoodsBerkeley, CA, USA2021",
+        "urls": [],
+        "dois": [],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B91-foods-15-01288",
+        "text": "91. NicholJ.W. KoshyS.T. BaeH. HwangC.M. YamanlarS. KhademhosseiniA. Cell-Laden Microengineered Gelatin Methacrylate HydrogelsBiomaterials2010315536554410.1016/j.biomaterials.2010.03.06420417964PMC2878615",
+        "urls": [],
+        "dois": [
+          "10.1016/j.biomaterials.2010.03.064"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B92-foods-15-01288",
+        "text": "92. LiuQ. XieL. ChenW. Recombinant Porcine FGF1 Promotes Muscle Stem Cell Proliferation and Mitochondrial Function for Cultured Meat ProductionJ. Agric. Food Chem.2025732008201810.1021/acs.jafc.4c0921539772551",
+        "urls": [],
+        "dois": [
+          "10.1021/acs.jafc.4c09215"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B93-foods-15-01288",
+        "text": "93. BrondzI. Why Do Judaism and Islam Prohibit Eating Pork and Consuming Blood? Part II: Medical and Demographical Consequences of ProhibitionVoice Publ.2020617018210.4236/vp.2020.64021",
+        "urls": [],
+        "dois": [
+          "10.4236/vp.2020.64021"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      },
+      {
+        "id": "B94-foods-15-01288",
+        "text": "94. VenkatesanM. SemperC. SkrivergaardS. LeoR.D. MesaN. RasmussenM.K. YoungJ.F. TherkildsenM. StogiosP.J. SavchenkoA. Recombinant Production of Growth Factors for Application in Cell CultureiScience20222510505410.1016/j.isci.2022.10505436157583PMC9489951",
+        "urls": [],
+        "dois": [
+          "10.1016/j.isci.2022.105054"
+        ],
+        "read_status": "bibliographic_entry_read; underlying-work retrieval is separate"
+      }
+    ],
+    "reference_index_note": "Bibliographic entry text derived from original XML; whitespace may join adjacent metadata fields. These are original article reference IDs, not independent source claims. See dependency_source_ids for separately retrieved papers."
+  },
+  "Hamdan2018": {
+    "doi": "10.1007/s10943-017-0403-3",
+    "identity_status": "previously established; four authors; online 2017-04-29; issue December 2018; Journal of Religion and Health 57(6):2193–2206",
+    "fulltext_obtained": false,
+    "full_argument_review": "access_unresolved",
+    "routes": [
+      {
+        "url": "https://cris.maastrichtuniversity.nl/en/publications/cultured-meat-in-islamic-perspective/",
+        "result": "institutional record and abstract; no accessible manuscript attachment located",
+        "operation": 3
+      },
+      {
+        "url": "https://people.utm.my/mohammadnaqib/category/penerbitan/jurnal-berwasit/",
+        "result": "author's institutional publication listing, bibliographic entry only",
+        "operation": 6
+      },
+      {
+        "url": "https://www.researchgate.net/publication/316591779_Cultured_Meat_in_Islamic_Perspective",
+        "result": "publisher preview only; request-full-text contact not initiated",
+        "operation": 4
+      }
+    ],
+    "exclusions": [
+      "Unverified third-party PDFCoffee upload was not retrieved",
+      "Different later Hamdan papers do not substitute for this DOI",
+      "Secondary descriptions of the 2018 argument are labeled as such",
+      "No paywall bypass, paid access or author contact"
+    ],
+    "review_questions_for_lawful_fulltext": [
+      "What exact donor, embryo and slaughter distinctions are made?",
+      "Does washing address serum residue, cell transformation or both, and with what limits?",
+      "Which madhhab positions and primary authorities underpin the conclusion?",
+      "What are the full objections, qualifications and proposed conditions?"
+    ],
+    "bounded_use": "Identity and abstract remain separate from argument review; no claim of a full reading.",
+    "title": "Cultured Meat in Islamic Perspective",
+    "authors": [
+      "Mohammad Naqib Hamdan",
+      "Mark J. Post",
+      "Mohd Anuar Ramli",
+      "Amin Rukaini Mustafa"
+    ],
+    "publication": {
+      "online": "2017-04-29",
+      "issue": "2018-12",
+      "journal": "Journal of Religion and Health",
+      "volume": 57,
+      "issue_number": 6,
+      "pages": "2193–2206",
+      "online_date_basis": "Previously retained publisher metadata; current institutional record establishes issue identity."
+    },
+    "source_ids": [
+      "P1C5-LIT-HAMDAN18-META",
+      "P1C5-LIT-HAMDAN18-AUTHOR"
+    ]
+  },
+  "dependency_map": [
+    {
+      "id": "D01",
+      "from": [
+        "S1.P6",
+        "S3.P2",
+        "S3.P4",
+        "S5.P3"
+      ],
+      "references": [
+        41,
+        42
+      ],
+      "family": "academic Islamic cultured-meat reviews",
+      "chain": "Alqurashi 2026 → Hamdan 2024 / Kashim 2023 → partly shared Hamdan 2018, classical texts, interviews and institutional reports",
+      "classification": "secondary review; shared source ancestry",
+      "result": "Multiple reviews do not provide multiple independent rulings. Full dependency originals 41 and 42 were retrieved and targeted passages read."
+    },
+    {
+      "id": "D02",
+      "from": [
+        "S2.P6"
+      ],
+      "references": [
+        38
+      ],
+      "family": "Tieman–Habir company halal governance viewpoint",
+      "chain": "Alqurashi JAKIM/IFANCA assertion → Tieman and Habir 2022",
+      "classification": "citation-fit unresolved",
+      "result": "Primary indexed first-page text addresses company responsibility and general harmonization. Full text access failed; no original JAKIM/IFANCA cultivated-meat statement was established. Do not conclude the whole source lacks such content solely from a preview."
+    },
+    {
+      "id": "D03",
+      "from": [
+        "S2.P5"
+      ],
+      "references": [
+        50,
+        51
+      ],
+      "family": "Saudi government general webpages",
+      "chain": "Alqurashi → SFDA taxonomy and SHC homepage",
+      "classification": "official institution information, not original cultivated-meat ruling",
+      "result": "The article does not give a specific resolution, clause or certificate; competence wording needs separate primary review."
+    },
+    {
+      "id": "D04",
+      "from": [
+        "S2.P7"
+      ],
+      "references": [
+        52
+      ],
+      "family": "Saudi smart agriculture and Vision 2030",
+      "chain": "Current Saudi no-certificate/no-authorization statement adjacent to book chapter",
+      "classification": "insufficient evidence for a current exhaustive negative",
+      "result": "The cited chapter is not shown to be a complete current product register."
+    },
+    {
+      "id": "D05",
+      "from": [
+        "S1.P3"
+      ],
+      "references": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "family": "regulatory announcements and public dossier reuse",
+      "chain": "GFI / Treich review / EIT Food / Mosa Meat / FDA inventory / authors' regulatory-data review",
+      "classification": "mixed press, company, regulator and secondary analysis",
+      "result": "Keep US FDA consultation, USDA inspection/label functions, Singapore authorization and EU applications distinct. Regulatory-data reanalysis is not independent experimental corroboration."
+    },
+    {
+      "id": "D06",
+      "from": [
+        "Hamdan2024 sec3 Table 2 row citing bib27"
+      ],
+      "references": [
+        "Hamdan2024:bib27"
+      ],
+      "family": "Gulf News 2013 interview",
+      "chain": "Review → Billinghurst interview with Abdul Qahir Qamar",
+      "classification": "individual scholar/interview with institutional affiliation",
+      "result": "An interview with an IIFA official is not an adopted IIFA resolution. It must not substitute for Resolution 265 (2025)."
+    },
+    {
+      "id": "D07",
+      "from": [
+        "Hamdan2024 sec3 Table 2"
+      ],
+      "references": [
+        "Hamdan2024:bib34",
+        "Hamdan2024:bib43",
+        "Hamdan2024:bib44",
+        "Hamdan2024:bib45"
+      ],
+      "family": "potential institutional primary trail",
+      "chain": "American Fiqh Academy res07; Federal Territories Mufti Irsyad 595; East Java NU decision report; NU Online conference report",
+      "classification": "original institutional leads mixed with institution-hosted reporting",
+      "result": "These are promising original-instrument routes, but only the review's entries were read in this literature subtask. Primary verification belongs to the institution dossier; do not label these four entries independently verified rulings here."
+    },
+    {
+      "id": "D08",
+      "from": [
+        "Hamdan2024 sec3 Table 2"
+      ],
+      "references": [
+        "Hamdan2024:bib39",
+        "Hamdan2024:bib40",
+        "Hamdan2024:bib46",
+        "Hamdan2024:bib47",
+        "Hamdan2024:bib49",
+        "Hamdan2024:bib50"
+      ],
+      "family": "press and interview families",
+      "chain": "NST; Wired Middle East; Al Anba; Salam Gateway; Reuters Context/YouTube; Bloomberg",
+      "classification": "journalistic reporting of individual views",
+      "result": "Separate speaker, host publication, underlying statement and formal instrument. Repetition across later reviews is not independent corroboration of an adopted institutional position."
+    },
+    {
+      "id": "D09",
+      "from": [
+        "Kashim2023 s0060 paragraph 16"
+      ],
+      "references": [
+        "Kashim2023:b0095",
+        "Kashim2023:b0140"
+      ],
+      "family": "Hamdan 2018 shared ancestor and competing transformation analysis",
+      "chain": "Kashim explicitly contrasts its conditional istihalah position with the washing account it attributes to Hamdan 2017/2018",
+      "classification": "secondary attribution plus authors' counterargument",
+      "result": "It identifies an issue for reading Hamdan's unavailable full text; it cannot verify Hamdan's complete reasoning or qualifications."
+    },
+    {
+      "id": "D10",
+      "from": [
+        "Hamdan2024 sec5 conclusion paragraph 2"
+      ],
+      "references": [
+        "Hamdan2024:bib75"
+      ],
+      "family": "academic future-cooperation recommendation",
+      "chain": "Review recommends IIFA/JAKIM/MUIS cooperation → Attwood et al. 2023",
+      "classification": "authors' recommendation",
+      "result": "Not evidence of an already constituted alliance or ruling. It predates IIFA's 2025 resolution."
+    }
+  ],
+  "counterarguments": [
+    {
+      "issue": "Slaughter and live-cell origin",
+      "article_locators": [
+        "S3.P2",
+        "S5.P3",
+        "S5.P7",
+        "foods-15-01288-t002"
+      ],
+      "finding": "The article records disagreement but then proposes an exclusively slaughter-derived cell-bank route. Treat the latter as one preferred design pathway, not a resolution of every school or institution's view."
+    },
+    {
+      "issue": "Avian embryo versus mammalian uterine embryo",
+      "article_locators": [
+        "S3.P1",
+        "S3.P2",
+        "S5.P3"
+      ],
+      "dependency_locator": "Hamdan2024 sec4.2 paragraphs 6–7",
+      "finding": "The 2024 review distinguishes eggs from uterine embryos and argues that egg-derived cultured chicken can become pure through transformation. This is an authors' argument, not verified consensus or a certificate, but it is a material counterposition to implying avian donor slaughter is already necessary."
+    },
+    {
+      "issue": "Serum, washing and complete transformation",
+      "article_locators": [
+        "S2.P2",
+        "S3.P4",
+        "S5.P4",
+        "S5.P7"
+      ],
+      "dependency_locator": "Kashim2023 s0060 paragraph 16; conclusion s0065 paragraph 1",
+      "finding": "Kashim conditionally allows an istihalah tammah route depending on scholarly opinion and contrasts it with the washing claim attributed to Hamdan 2018. It also notes MS1500's prohibition on blood/plasma/serum. Do not turn this internally qualified author argument into a blanket FBS permission or treat a laboratory residual assay as proof of juristic transformation."
+    },
+    {
+      "issue": "Religious certification versus adoption",
+      "article_locators": [
+        "S4.P1",
+        "S4.P3",
+        "S4.P4",
+        "S4.P5"
+      ],
+      "finding": "Price, sensory appeal, availability, trust and neophobia remain obstacles even after certification. Hypothetical willingness and qualitative interviews cannot determine market uptake."
+    },
+    {
+      "issue": "No harmonized framework versus no formal guidance",
+      "article_locators": [
+        "S1.P4",
+        "S2.P6",
+        "S5.P2"
+      ],
+      "finding": "A lack of global harmonization is compatible with existing conditional MUIS and IIFA instruments. The article does not cite either original; its broad absence framing cannot displace them."
+    }
+  ],
+  "GOOD_Meat_applicability": [
+    {
+      "stage": "donor and line",
+      "real_process_evidence": "FDA CCC000001 GOOD Meat dossier: 10-day chicken embryo torso fibroblast line UMNSAH/DF-1, ATCC CRL-12203, subsequently selected/adapted as C1F and C1F-P1; spontaneous immortalization.",
+      "literature_fit": [
+        "S3.P1",
+        "S3.P2",
+        "S5.P3"
+      ],
+      "consequence": "Do not equate embryonic fibroblasts with ESCs or infer an adult live-biopsy route. Procurement/egg developmental status needs the relevant authority's exact reading; the article does not settle it."
+    },
+    {
+      "stage": "banking and medium",
+      "real_process_evidence": "The public US consultation version includes bovine serum in adaptation/banking and FBS in seed/production; portions of bank/medium formulation remain confidential or incompletely itemized.",
+      "literature_fit": [
+        "S3.P4",
+        "S5.P4",
+        "S5.P7"
+      ],
+      "consequence": "This actual version does not satisfy a simple asserted animal-free history. Audit all stages; later Singapore serum-free reporting is a separate version and cannot erase earlier animal inputs."
+    },
+    {
+      "stage": "scaffold and downstream process",
+      "real_process_evidence": "The consulted process grows suspension biomass, then centrifuges and washes with sodium chloride solution; an introduced scaffold is not identified in the described flow.",
+      "literature_fit": [
+        "S1.P2",
+        "S3.P3",
+        "foods-15-01288-f001"
+      ],
+      "consequence": "The article's scaffold/3D-printing schematic is not evidence of a scaffold in this process. Absence from the disclosed flow is narrower than proof of no animal-derived aids."
+    },
+    {
+      "stage": "residuals",
+      "real_process_evidence": "Dossier Table 33, printed page 60: harvested BSA values 42.46, 11.97, 5.27 and 3 micrograms/g; reported mean 15.67 micrograms/g, approximately 1.57 mg/100 g.",
+      "literature_fit": [
+        "S2.P2",
+        "S3.P4",
+        "S5.P7"
+      ],
+      "consequence": "Washing does not establish zero serum-related residue. These measurements do not themselves establish impurity, dilution/istihalah thresholds or halal status."
+    },
+    {
+      "stage": "composition and final product",
+      "real_process_evidence": "The reported harvested wet biomass composition is a process intermediate; retail formulations may add other ingredients and differ by version.",
+      "literature_fit": [
+        "S5.P7"
+      ],
+      "consequence": "A final-product assessment needs exact recipe, processing aids, version, facility and certificate scope. The article supplies none."
+    },
+    {
+      "stage": "decision and certificate",
+      "real_process_evidence": "FDA completed a safety consultation in March 2023; the file includes a June 2023 label correction. No exact matching halal certificate was established in the retained dossier.",
+      "literature_fit": [
+        "S1.P3",
+        "S2.P7",
+        "S5.P5"
+      ],
+      "consequence": "FDA no-questions consultation is not a halal certificate or a blanket approval of all product versions. Certificate status remains not established, not a claim that none exists anywhere."
+    }
+  ],
+  "MUIS_IIFA_held_dispute": {
+    "status": "held_for_qualified_human_review",
+    "MUIS_2024": {
+      "url": "https://www.muis.gov.sg/resources/media-releases/3-feb-24-fatwa-on-cultivated-meat/",
+      "locator": "3 February 2024 release, paragraphs 7–10, especially 8",
+      "reading": "Conditional permission requires permissible animal source, halal ingredients and a clean/non-toxic product. Paragraph 8 does not expressly settle donor slaughter. Conditional product language is not an actual certificate."
+    },
+    "MUIS_annex": {
+      "locator": "Annex C, Key Fatwas Issued 2022–2025, section 1, printed pages 1–2; retained receipt-05 source lines 23–52",
+      "reading": "The explanation discusses exceptions extending to cell extraction, while the concluding conditions require a halal-slaughtered animal source. The apparent tension and the relation to the 2024 release remain held; this literature review does not establish supersession or the intended precise procurement rule."
+    },
+    "IIFA_265": {
+      "url": "https://iifa-aifi.org/en/56085.html",
+      "locator": "Resolution 265 (10/26), Third(1)–(3), Fourth–Sixth; session 4–8 May 2025; web posting 20 November 2025",
+      "reading": "The source distinguishes permissible living animals and slaughter where required; bars prohibited media/substances; requires specialized oversight, disclosure and safety; states complementarity with conventional meat. These are an institution's conditional provisions, not a named product certificate or numerical market cap."
+    },
+    "literature_applicability": "Alqurashi provides useful questions and alternative reasoning, but no direct MUIS/IIFA original citation and no authority to reconcile their wording. Hamdan 2024's egg/istihalah discussion helps formulate the question for a scholar; Hamdan 2018's unavailable full argument cannot be enlisted to settle it. Keep each institution, date, instrument and product version separate."
+  },
+  "requirements_reviewed": [
+    "identity/access of both required papers",
+    "all Alqurashi body arguments",
+    "all tables and diagrams",
+    "counterarguments and internal tensions",
+    "citation and institution/source-family dependencies",
+    "primary rulings versus authors' proposals",
+    "actual GOOD Meat process applicability",
+    "MUIS/IIFA unresolved procurement issue",
+    "consumer and forecasting limitations",
+    "capture provenance and retrieval budget"
+  ],
+  "limitations": [
+    "Hamdan 2018 full text unresolved; its full argument remains unreviewed",
+    "Tieman/Habir full text unresolved; only indexed primary excerpt available",
+    "Most of Alqurashi's 94 cited works were not newly retrieved; the reference list and relevant dependency trail were reviewed",
+    "Classical Arabic authorities were not independently adjudicated",
+    "No qualified human scholarly approval, product certification determination or current comprehensive certificate search",
+    "No claim that full Phase One or Phase Two baselines are complete"
+  ],
+  "independent_review": "checked_scoped_reading",
+  "independent_review_id": "R5-LITERATURE",
+  "human_review": "pending",
+  "complete": false,
+  "acceptance_evidence": {
+    "table": "foods-15-01288-t001",
+    "paragraph": "S4.P3",
+    "malaysia_sample_n": 102,
+    "doubts_percent": 56,
+    "acceptance_range_validated": false,
+    "pooled_adoption_estimate": null,
+    "source_id": "P1C5-LIT-ALQ-XML",
+    "limits": "An internal table-versus-prose inconsistency; individual survey estimates were not newly revalidated."
+  },
+  "dependency_source_ids": [
+    "P1C5-LIT-KASHIM",
+    "P1C5-LIT-HAMDAN24"
+  ],
+  "authority_source_ids": [
+    "IIFA265",
+    "MUIS2024",
+    "C2-MUIS-ANNEX"
+  ],
+  "process_dossier": "manufacturing-dossier.json",
+  "claim_ids": [
+    "P1C5-LIT-C01",
+    "P1C5-LIT-C02",
+    "P1C5-LIT-C03",
+    "P1C5-LIT-C04",
+    "P1C5-LIT-C05"
+  ],
+  "authority_boundaries": {
+    "author_proposals_are_adopted_rules": false,
+    "author_counterarguments_are_institutional_rulings": false,
+    "review_constitutes_product_certification": false
+  }
+}
