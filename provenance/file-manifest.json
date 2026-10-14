@@ -57,6 +57,11 @@
       "sha256": "f0d2395c740c95876c2b0134db59b4aea85f3213deef157f7ac922889d8c0c82"
     },
     {
+      "path": "handoffs/claude-mmm/START-HERE.md",
+      "bytes": 643,
+      "sha256": "e1e26c4843dcc18ed544d3a7c376e4eccf4325f62dcd75b56740e93c83ddfe3e"
+    },
+    {
       "path": "index.html",
       "bytes": 10731,
       "sha256": "0f5b7f1c4b92c6d97819208f1e438f36848fa552997f089bc4d42feb4ffae093"
@@ -352,6 +357,16 @@
       "sha256": "a495a7c6acdd51f4baf398f3fb82968de9aafa359c1d4d86b442a7bf021ac822"
     },
     {
+      "path": "research/halal-cultivated/paper/AUDIT-REPORT-2026-10-02.md",
+      "bytes": 349,
+      "sha256": "e33597239f7c8c01fdf341a87956e03775583e0876d2810323420f8540f37c6e"
+    },
+    {
+      "path": "research/halal-cultivated/paper/GAP-RESEARCH-2026-10-02.md",
+      "bytes": 369,
+      "sha256": "dc0df70aa6ef3477e9334c484f358f330e9f132ffb13635d8c84385c805fb835"
+    },
+    {
       "path": "research/halal-cultivated/paper/README.md",
       "bytes": 3614,
       "sha256": "3da68c6ddeebcd8d031cd3fa606adf3e70bb1cb42a40a1606aa9fc7291ea444e"
@@ -430,6 +445,11 @@
       "path": "research/halal-cultivated/paper/input-manifest.json",
       "bytes": 10434,
       "sha256": "b820b0a865f0e0ecba1ae4fbf708b5836ea6a1f91fa8d21047fedc09bb6abd0a"
+    },
+    {
+      "path": "research/halal-cultivated/paper/outline.md",
+      "bytes": 342,
+      "sha256": "1b9866e11533dcfdce95ef7adb351ab7cde065b886e862433dd5a83b1907ff51"
     },
     {
       "path": "research/halal-cultivated/paper/paper.md",
