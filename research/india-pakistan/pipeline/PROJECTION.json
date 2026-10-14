@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "scope": "Authored historical code plus explicit aggregate fixtures; not a raw-input reproducibility claim.",
+  "python_scripts": 58,
+  "historical_R_helpers": 8,
+  "historical_main_test_modules": 9,
+  "unchanged_offline_test_modules": 3,
+  "raw_downloads_performed": 0,
+  "copied_files": [
+    {
+      "original": "scripts/altprotein/companies/build_company_candidates.py",
+      "public": "scripts/altprotein/companies/build_company_candidates.py",
+      "sha256": "f82b60843cc3fcf627150bbef2017693418eb24a70fa4aa0595fae6f0182c139",
+      "bytes": 8150,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/companies/build_reviewed_companies.py",
+      "public": "scripts/altprotein/companies/build_reviewed_companies.py",
+      "sha256": "c90d1445f0f6983bb14e474f7f1fb3474c4b1ed6f96196e9ba49d2c817e8fd20",
+      "bytes": 19699,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/india_policy/build.py",
+      "public": "scripts/altprotein/india_policy/build.py",
+      "sha256": "de45e1043404e403168b098d6eab0c59de768f980918a4c7115dee2e20c931c7",
+      "bytes": 17784,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/market/extract.py",
+      "public": "scripts/altprotein/market/extract.py",
+      "sha256": "bc0f21a8465114351bfb440ad7c7a160f539377d07e65c46e21667d0f42252c1",
+      "bytes": 11113,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/pakistan/build.py",
+      "public": "scripts/altprotein/pakistan/build.py",
+      "sha256": "6df6461fd65c6376f5f7816a29f83825dee1b8632087f6f0e7039c6a33fb77d5",
+      "bytes": 28468,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/pakistan/fetch.py",
+      "public": "scripts/altprotein/pakistan/fetch.py",
+      "sha256": "b7027626ace13b8b1440581ce00f1bfb61fd6537352b7f7692faed9ceafba566",
+      "bytes": 2034,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/supervisor_revision_20261013/build_staged.py",
+      "public": "scripts/altprotein/supervisor_revision_20261013/build_staged.py",
+      "sha256": "8b90d3c59b2f2ce94ce716a21f51b9e0320627f8e4c18e31fbe7c1ed657c6a5b",
+      "bytes": 31470,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/supervisor_revision_20261013/fetch_public.py",
+      "public": "scripts/altprotein/supervisor_revision_20261013/fetch_public.py",
+      "sha256": "5301f2e597f84b2b058593e8ff05a426c649a4c39f1b4c8f62f28a2ccc31184f",
+      "bytes": 2496,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/altprotein/supervisor_revision_20261013/validate_staged.py",
+      "public": "scripts/altprotein/supervisor_revision_20261013/validate_staged.py",
+      "sha256": "9cdd4948c18953f3267f2c06dc171b868fe3a89b6c9e33964ff3e7963009d5a3",
+      "bytes": 5775,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/audit_altprotein.py",
+      "public": "scripts/audit_altprotein.py",
+      "sha256": "23904d85bb62072414e06870be0d94e4fd8cba4d73973886a71485e4b1dceb49",
+      "bytes": 23261,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/audit_provenance.py",
+      "public": "scripts/audit_provenance.py",
+      "sha256": "e507d61790952d9a50764a15300d3d6adff81cffec92a5ec82746333c31d6f26",
+      "bytes": 3413,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_altprotein_sources.py",
+      "public": "scripts/build_altprotein_sources.py",
+      "sha256": "08ff4176b1b88a798533f169568c81e3270e9e15a12b1acd0321433afc4e6966",
+      "bytes": 9695,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_cultural_context.py",
+      "public": "scripts/build_cultural_context.py",
+      "sha256": "e05a3636dc3c2e565003e3e6b5dc624a57c4961296dd3adfe2b67a0ee15b4409",
+      "bytes": 4413,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_dashboard.py",
+      "public": "scripts/build_dashboard.py",
+      "sha256": "0e1fb3af692d50585e2cd434c725dc6e97386e837dccde0febd8326dc5ae654d",
+      "bytes": 5530,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_deficiency.py",
+      "public": "scripts/build_deficiency.py",
+      "sha256": "0bc84ef4a5db321b369ec5814781e53cb9a82a5b585cc77ba89806fc2b02cebe",
+      "bytes": 5528,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_diet.py",
+      "public": "scripts/build_diet.py",
+      "sha256": "d732d4873da8a0713ba7bc6be3882f380aedcc9da39be4db87b73ed2b513f31f",
+      "bytes": 7958,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_national.py",
+      "public": "scripts/build_national.py",
+      "sha256": "a93cc98fef23e21b89a62ab209b26ae0db673341274e5d2f18552f473ff91b76",
+      "bytes": 13698,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_pakistan_modelled.py",
+      "public": "scripts/build_pakistan_modelled.py",
+      "sha256": "423c290717e539d8d5bffa3d46a926550fb06165f134fb377339069fe3d64cfa",
+      "bytes": 26191,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_protein_gap.py",
+      "public": "scripts/build_protein_gap.py",
+      "sha256": "38aabe04b60382de3970dfd8d8d3baf4dceab1e8a13e399a04ebe857d8fa1520",
+      "bytes": 8969,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_regional.py",
+      "public": "scripts/build_regional.py",
+      "sha256": "17eebcf37f0d7ba9788846e891ae7b81fb34038cf68f2fd390d012d77a1e4a69",
+      "bytes": 9492,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/build_report.py",
+      "public": "scripts/build_report.py",
+      "sha256": "75a40e1b359ebfb79ca85d7d952535b6910341a80283dbfa9428c95403a34696",
+      "bytes": 19226,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/cultural/pakistan/build.py",
+      "public": "scripts/cultural/pakistan/build.py",
+      "sha256": "94244443356e4eeb3c07327bd781c4d92ef87d0b67449b6f5b885a9af3bfdf02",
+      "bytes": 20096,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/cultural/pakistan/fetch.py",
+      "public": "scripts/cultural/pakistan/fetch.py",
+      "sha256": "b152c8edcfc483ce30ddec27ad901c3b5dd44bf0e07e3b36f758dd74d486d490",
+      "bytes": 1522,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/deficiency/anthropometry/extract_anthropometry.py",
+      "public": "scripts/deficiency/anthropometry/extract_anthropometry.py",
+      "sha256": "64a11c882841a2a7f9a098b28a8fa4868cc42090b6361bcb67d5f565ed82e2b4",
+      "bytes": 19634,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/deficiency/sofi/extract.py",
+      "public": "scripts/deficiency/sofi/extract.py",
+      "sha256": "30267f3df568f091e63e508670a86878df5627cccc0d24387d1d1561d5c76b41",
+      "bytes": 9959,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/extract_pakistan_diet.py",
+      "public": "scripts/diet/extract_pakistan_diet.py",
+      "sha256": "cc427f7c65f1350709d634d485f77fdb4c86824a6bc932ece94fdbd8757ae7b6",
+      "bytes": 9144,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_coverage_20261013/run_coverage.py",
+      "public": "scripts/diet/m3_calibration_coverage_20261013/run_coverage.py",
+      "sha256": "f96e93a870d8a180b197b9452dab04af92cfcae4b51794481fbf30e1284cba1a",
+      "bytes": 12913,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_estimates_20261013/run_estimates.py",
+      "public": "scripts/diet/m3_calibration_estimates_20261013/run_estimates.py",
+      "sha256": "712a425eb102e25ff9df79d184b34658e9051edb876ecb9303ffb263feecd367",
+      "bytes": 12187,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_spec/compile_spec.py",
+      "public": "scripts/diet/m3_calibration_spec/compile_spec.py",
+      "sha256": "8d1549a553f0b205a00e4b9b5f4dd6aff4cb09a7924b60f51a6d3226e0006e93",
+      "bytes": 25711,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_spec/test_compile_spec.py",
+      "public": "scripts/diet/m3_calibration_spec/test_compile_spec.py",
+      "sha256": "88319c2348a3967059d0da3b6278a39313e63ead08f522fa0fed2186d7754f8d",
+      "bytes": 10223,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_food_crosswalk/build_crosswalk.py",
+      "public": "scripts/diet/m3_food_crosswalk/build_crosswalk.py",
+      "sha256": "86e02cfe1d355e07c2e3447f4c169b96be32f1f6b2809b4bb6799ffe17bda25c",
+      "bytes": 12584,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_food_crosswalk/supplement_regional_20261013/build_supplement.py",
+      "public": "scripts/diet/m3_food_crosswalk/supplement_regional_20261013/build_supplement.py",
+      "sha256": "a7c5e6f0a9152c10a43be1bc3ba398ae1ea5ab5f28f42981c1fc9a215df8c00a",
+      "bytes": 11251,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/grouping_exploration_20261013/verify_grouping.py",
+      "public": "scripts/diet/m3_microdata_profile/grouping_exploration_20261013/verify_grouping.py",
+      "sha256": "01c6e7dcbe7b40dda6a828eab61055214cf2c129e376f5b5be7a7f8c3598021a",
+      "bytes": 9567,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/summarize.py",
+      "public": "scripts/diet/m3_microdata_profile/summarize.py",
+      "sha256": "72fcb72336b56e47d7258987a0621eec43e50b0bd9f48db1b633401c14d14a7c",
+      "bytes": 9983,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/table_supplement_20261013/compare_tables.py",
+      "public": "scripts/diet/m3_microdata_profile/table_supplement_20261013/compare_tables.py",
+      "sha256": "a89ff468869586bf5302e86d516b6d75bd57cb877828f2feebee546ad2093bcc",
+      "bytes": 13039,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/table_supplement_20261013/verify_supplement.py",
+      "public": "scripts/diet/m3_microdata_profile/table_supplement_20261013/verify_supplement.py",
+      "sha256": "09c7d2f04e3e6c22488834f28699e4639fb8c164d66298d9f783250e753d5c45",
+      "bytes": 3832,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_price_inputs/extract_price_inputs.py",
+      "public": "scripts/diet/m3_price_inputs/extract_price_inputs.py",
+      "sha256": "a493335ab650be30a0063093eec659a226a17bfb1e80202ae357e0172f1aea89",
+      "bytes": 4917,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_price_inputs/overall_cpi/extract_overall.py",
+      "public": "scripts/diet/m3_price_inputs/overall_cpi/extract_overall.py",
+      "sha256": "e0300175fe76129ac679cb1d3809111be1a2aae56a0c2156a2d2540e6c688c40",
+      "bytes": 3376,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/m3_usda_supplement/extract_candidates.py",
+      "public": "scripts/diet/m3_usda_supplement/extract_candidates.py",
+      "sha256": "7e0f5f2eb3791cbad741417f059b9b0a0b55b57e21094242ca1bc1f09527fc20",
+      "bytes": 6124,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/pakistan_conversion.py",
+      "public": "scripts/diet/pakistan_conversion.py",
+      "sha256": "14270e686d9187ab24f6efb35e0dbb5f408a437b115f699c3d28a96de31953fd",
+      "bytes": 13499,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/requirements/build_supervisor_benchmarks.py",
+      "public": "scripts/diet/requirements/build_supervisor_benchmarks.py",
+      "sha256": "0341418e679d25a49ad1a1957b494ff160c612f127736934bc7d844711b7cbb8",
+      "bytes": 5986,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/requirements/register_requirement_evidence.py",
+      "public": "scripts/diet/requirements/register_requirement_evidence.py",
+      "sha256": "2d83bd5fa111cd6eddf604dc465b01722ab5dfc53883761be3983a1e55dc13cc",
+      "bytes": 8296,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/build_model.py",
+      "public": "scripts/diet/supervisor_model_20261013/build_model.py",
+      "sha256": "d5556ae5f7692bae2b1b04530f4aa961f7ba1efd6f39acdb707b152a65774517",
+      "bytes": 40854,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/test_model.py",
+      "public": "scripts/diet/supervisor_model_20261013/test_model.py",
+      "sha256": "91b502e37f1a2cc8d240a58cdcf129360602d06ff6c21b6bd33678f9b479fa55",
+      "bytes": 10334,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/fbs/restore_item_codes.py",
+      "public": "scripts/fbs/restore_item_codes.py",
+      "sha256": "a33924763fdbc2cdc828f7519748bb5f9197566fd727204c97feac15a7ee8f29",
+      "bytes": 6287,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/national/extract_national.py",
+      "public": "scripts/national/extract_national.py",
+      "sha256": "63ca2479f7591f37c2c17816c5abf6197c8e12d10bc012437bc64c14563e901f",
+      "bytes": 10049,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/national/usda-poultry-2026-10-13/extract_usda.py",
+      "public": "scripts/national/usda-poultry-2026-10-13/extract_usda.py",
+      "sha256": "68fb41b1aefac65ecf1289a94458c9e8df1f4eb968602dac130917bd2e9690c3",
+      "bytes": 18139,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/oecd/extract_meat.py",
+      "public": "scripts/oecd/extract_meat.py",
+      "sha256": "625d741f739a7340ea2aaf8f34353c9f3b273c95996fdbb10211fa1c5ef80731",
+      "bytes": 4733,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/provenance.py",
+      "public": "scripts/provenance.py",
+      "sha256": "67fad968e463e5d318d5aeca45363743769437a8e9c72d79d6524104d9756fde",
+      "bytes": 5332,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/regional/extract_regional.py",
+      "public": "scripts/regional/extract_regional.py",
+      "sha256": "8fea61022323b00cd919fa815dfef7d5e33e24f0a8ed696e1a6bf9b994041eb1",
+      "bytes": 13933,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/regional/india-supplement-2026-10-13/extract_bahs.py",
+      "public": "scripts/regional/india-supplement-2026-10-13/extract_bahs.py",
+      "sha256": "eede8cc81de95303f4c13802b0a8b4e37106846675876d336161fe3a06f7f07e",
+      "bytes": 20699,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/regional/india-supplement-2026-10-13/extract_hces.py",
+      "public": "scripts/regional/india-supplement-2026-10-13/extract_hces.py",
+      "sha256": "3e31f36e812520e7359c378454f02377232d15b63067257af13eeb0add8244cd",
+      "bytes": 11842,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/regional/pakistan_supplement_20261013/extract.py",
+      "public": "scripts/regional/pakistan_supplement_20261013/extract.py",
+      "sha256": "10cc5d35ac22e7025b2af3afeaa309e523cc8e7a072db277d5661f5132432358",
+      "bytes": 18907,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/register_boundaries.py",
+      "public": "scripts/register_boundaries.py",
+      "sha256": "bf093307fa3c2f9f980ebfb824fd9f1bfb7e568684ecd46ca8305c05508be56f",
+      "bytes": 3088,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/register_m1_sources.py",
+      "public": "scripts/register_m1_sources.py",
+      "sha256": "87e80aab9c08a54e7fe95c58a10609c9d18a5a2860bc609ef92e56c23ed895cb",
+      "bytes": 3939,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/register_m3_sources.py",
+      "public": "scripts/register_m3_sources.py",
+      "sha256": "d2416f86c60214a2445add2e5fc4cda19891c30816c1acd895574bc014ea4315",
+      "bytes": 3072,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/register_m5_evidence.py",
+      "public": "scripts/register_m5_evidence.py",
+      "sha256": "7e6089d39bef4c4b8d28ccfe3a15bd930e0174a1a1500f93a092441e465865cb",
+      "bytes": 7533,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "scripts/register_sentiment_evidence.py",
+      "public": "scripts/register_sentiment_evidence.py",
+      "sha256": "2876a5a58034dd88f8b65b17d5e4afb0cdf3dcc549229889ec6e5db2d442dea0",
+      "bytes": 1447,
+      "reason": "Authored non-sentiment source code; exact bytes retained; raw-dependent commands are historical, not default execution."
+    },
+    {
+      "original": "tests/test_altprotein_supervisor.py",
+      "public": "historical_tests/test_altprotein_supervisor.py",
+      "sha256": "a401d87d2207d46e461ba53e7b88a4b67d1244fe487289e88e3db0f15d8aaed8",
+      "bytes": 6125,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_consumer_unit.py",
+      "public": "historical_tests/test_consumer_unit.py",
+      "sha256": "e21a734d025577363ab70bb73b0af9e75ca679fe6bb64f357566443bf5ca2ff1",
+      "bytes": 2087,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_deficiency.py",
+      "public": "historical_tests/test_deficiency.py",
+      "sha256": "683d9f20840a3499cfa0ba25f72e4f2a241f5a47eaa3ff51af58b2335eae44bf",
+      "bytes": 3474,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_national.py",
+      "public": "historical_tests/test_national.py",
+      "sha256": "da3dc82eb6d0ffb3ec7cc8e6eeeac591966fc81a4c7739a0e4a674f1fae63b9b",
+      "bytes": 3382,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_pakistan_modelled.py",
+      "public": "historical_tests/test_pakistan_modelled.py",
+      "sha256": "71375eca0510444c551ffa213a94c488813d894d3987a0685bc49610913e4d25",
+      "bytes": 7817,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_protein_gap.py",
+      "public": "historical_tests/test_protein_gap.py",
+      "sha256": "fe3e5238c66610ad89ba952a663967b9566198de24b3e9ca5e019018c5902404",
+      "bytes": 4281,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_provenance_registration.py",
+      "public": "historical_tests/test_provenance_registration.py",
+      "sha256": "cc8cbf979d57fbca8ec82670d4c3e9265243b822028037f2e702d208b0047491",
+      "bytes": 3262,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_row_tiers.py",
+      "public": "historical_tests/test_row_tiers.py",
+      "sha256": "b85a989e478407d50062706507b0d58450d701012fb65e31cf0832ca457fddd3",
+      "bytes": 1890,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_supervisor_benchmarks.py",
+      "public": "historical_tests/test_supervisor_benchmarks.py",
+      "sha256": "126213375ea1ba61b9718a0c908ca7a13e819fb1c322b72a575b526a4cdfba31",
+      "bytes": 1521,
+      "reason": "Original test retained verbatim as historical documentation; some tests require excluded source bytes. Default suite is separately explicit."
+    },
+    {
+      "original": "tests/test_national.py",
+      "public": "tests/test_national.py",
+      "sha256": "da3dc82eb6d0ffb3ec7cc8e6eeeac591966fc81a4c7739a0e4a674f1fae63b9b",
+      "bytes": 3382,
+      "reason": "Original synthetic arithmetic/provenance tests run unchanged without source downloads."
+    },
+    {
+      "original": "tests/test_row_tiers.py",
+      "public": "tests/test_row_tiers.py",
+      "sha256": "b85a989e478407d50062706507b0d58450d701012fb65e31cf0832ca457fddd3",
+      "bytes": 1890,
+      "reason": "Original synthetic arithmetic/provenance tests run unchanged without source downloads."
+    },
+    {
+      "original": "tests/test_provenance_registration.py",
+      "public": "tests/test_provenance_registration.py",
+      "sha256": "cc8cbf979d57fbca8ec82670d4c3e9265243b822028037f2e702d208b0047491",
+      "bytes": 3262,
+      "reason": "Original synthetic arithmetic/provenance tests run unchanged without source downloads."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/scenario_summary.csv",
+      "public": "fixtures/supervisor_model/scenario_summary.csv",
+      "sha256": "b8331c5406a49bb8d0b80d60761649d6876bac40a4ff3ba7cbb5be847eecc3e9",
+      "bytes": 513970,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/method_ranges.csv",
+      "public": "fixtures/supervisor_model/method_ranges.csv",
+      "sha256": "2746e94a1a87da29024cb022d67a76efcc5a0694a39dbb57214c39e7b1fd54f2",
+      "bytes": 32008,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/food_coverage.csv",
+      "public": "fixtures/supervisor_model/food_coverage.csv",
+      "sha256": "f21910f39e197ba4ed728c67bb68468c31a7a43222d03f5b33f287feb7dc064f",
+      "bytes": 32729,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/scenario_definitions.csv",
+      "public": "fixtures/supervisor_model/scenario_definitions.csv",
+      "sha256": "f58e1dac416af53535bee25b63caad5a9d50dca4ec856d25b67710b732a553df",
+      "bytes": 2744,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/source_snapshot.csv",
+      "public": "fixtures/supervisor_model/source_snapshot.csv",
+      "sha256": "e9b7c7d5b4d0794a17a61017e64900058f3bc5e617e895d644a48e9236dd525e",
+      "bytes": 7414,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/supervisor_model_20261013/integrity_receipt.json",
+      "public": "fixtures/supervisor_model/integrity_receipt.json",
+      "sha256": "8d998b4f529601e1a31931c9f68a0d3e99db7e1c1126f6507226ba55d156cdd9",
+      "bytes": 8688,
+      "reason": "Reviewed aggregate methodological diagnostics or hashes/source metadata; no household rows or article content; permits public range/coverage checks without a raw-input rebuild."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_coverage_20261013/coverage.R",
+      "public": "scripts/diet/m3_calibration_coverage_20261013/coverage.R",
+      "sha256": "d8184c5fc3e4c56cae2009bf9703af58fd7b876489951be32d9010178c0cad3a",
+      "bytes": 24644,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_estimates_20261013/calibration_math.R",
+      "public": "scripts/diet/m3_calibration_estimates_20261013/calibration_math.R",
+      "sha256": "b1bf42d5da2ecf4bd3124e8fa299286bdcea37870a465d4fdfcb6bc905bc6008",
+      "bytes": 10767,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_calibration_estimates_20261013/estimates.R",
+      "public": "scripts/diet/m3_calibration_estimates_20261013/estimates.R",
+      "sha256": "47cafbb133ef0cace79176531faac80d18baeb9d46766cb0b4b06bd772f783c8",
+      "bytes": 27579,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/food_coverage.R",
+      "public": "scripts/diet/m3_microdata_profile/food_coverage.R",
+      "sha256": "743e737dcb3e244003827321d96c1da90ced782bb53035c436e08802078cdc2e",
+      "bytes": 2343,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/grouping_exploration_20261013/grouping.R",
+      "public": "scripts/diet/m3_microdata_profile/grouping_exploration_20261013/grouping.R",
+      "sha256": "b824ceceeb513fc49f0ee89df5f5a2d9919a79d22ca3ea227de92d0492f287f7",
+      "bytes": 14122,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/profile.R",
+      "public": "scripts/diet/m3_microdata_profile/profile.R",
+      "sha256": "70d63cf1c1af1633681a58dd2f8587ed51a9c6b2789595db322abb09dc240de9",
+      "bytes": 19367,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/table_supplement_20261013/balance_profile.R",
+      "public": "scripts/diet/m3_microdata_profile/table_supplement_20261013/balance_profile.R",
+      "sha256": "6f18203b58a953c2aeb981453b2c788bce2f43c22d5b15a5cdc457b03223b66b",
+      "bytes": 5180,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "scripts/diet/m3_microdata_profile/welfare_diagnostic.R",
+      "public": "scripts/diet/m3_microdata_profile/welfare_diagnostic.R",
+      "sha256": "0958dd77ec9b5e205d689391de0cf4d525818d595d040d4dcfd0eba926e33ead",
+      "bytes": 5740,
+      "reason": "Authored historical R helper, exact bytes; parse-only check; requires separately obtained microdata and data.table for execution."
+    },
+    {
+      "original": "requirements-dev.txt",
+      "public": "requirements-dev.txt",
+      "sha256": "0a1c9c560bcd8526148b305983c8848a7ab0a6bdbc5a2edd08ab02e2316b65f5",
+      "bytes": 54,
+      "reason": "Existing pinned development environment; no dependency installed by projection."
+    }
+  ],
+  "review": {
+    "method": "AI-assisted path, content-shape, embedded-literal and fixture-column inspection; original paths and exclusions retained in local receipt.",
+    "human_scholarly_verification": "pending",
+    "code": "Authored procedures, source identifiers, factual parameters and commentary. No source publication bodies embedded.",
+    "fixtures": "Aggregate country/residence/quintile/scenario method diagnostics, coverage records and provenance metadata; no household identifiers or respondent records.",
+    "rights": "Original publication rights remain with their owners; no blanket license over cited source materials is asserted."
+  }
+}

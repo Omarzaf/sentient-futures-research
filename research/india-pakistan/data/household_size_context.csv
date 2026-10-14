@@ -1,0 +1,7 @@
+country,residence,quintile,mean_household_size,unit,source_id,raw_locator,interpretation,tier,source_tier
+Pakistan,all,all,5.97839626581555,persons/household,pakistan_hies_2024_25_table23,Sheet1!C9,Household-size context only; not an adult-equivalent conversion factor,A,A
+Pakistan,all,Q1,7.5598700971339365,persons/household,pakistan_hies_2024_25_table23,Sheet1!D9,Household-size context only; not an adult-equivalent conversion factor,A,A
+Pakistan,all,Q2,6.8387635135568585,persons/household,pakistan_hies_2024_25_table23,Sheet1!E9,Household-size context only; not an adult-equivalent conversion factor,A,A
+Pakistan,all,Q3,6.14400177698368,persons/household,pakistan_hies_2024_25_table23,Sheet1!F9,Household-size context only; not an adult-equivalent conversion factor,A,A
+Pakistan,all,Q4,5.553511287472073,persons/household,pakistan_hies_2024_25_table23,Sheet1!G9,Household-size context only; not an adult-equivalent conversion factor,A,A
+Pakistan,all,Q5,4.651014268825815,persons/household,pakistan_hies_2024_25_table23,Sheet1!H9,Household-size context only; not an adult-equivalent conversion factor,A,A

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "geoBoundaries-IND-ADM1.geojson",
+    "sha256": "4c63fe43294a391e8f2de4e9f86f3edb60f8688275b9fee90c61fb2aa0c26061",
+    "distribution": "geoBoundaries",
+    "distribution_url": "https://www.geoboundaries.org/index.html",
+    "distribution_license": "CC BY 4.0",
+    "metadata_url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+    "original_source_license": "CC BY 2.5 IN",
+    "boundary_note": "Boundary depictions do not assert sovereignty."
+  },
+  {
+    "file": "geoBoundaries-PAK-ADM1.geojson",
+    "sha256": "c7ff4e70bcf740cfba47b871a7c2b2b2b243b59e4c0656e6e1bc2a64e295d93a",
+    "distribution": "geoBoundaries",
+    "distribution_url": "https://www.geoboundaries.org/index.html",
+    "distribution_license": "CC BY 4.0",
+    "metadata_url": "https://www.geoboundaries.org/api/current/gbOpen/PAK/ADM1/",
+    "original_source_license": "Public Domain",
+    "boundary_note": "Boundary depictions do not assert sovereignty."
+  }
+]

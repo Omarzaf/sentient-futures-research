@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "method": "supervisor-c12-authored-body-parity",
+  "checked_at": "2026-10-14T02:30:34.234495+00:00",
+  "scope": "Actual body-text extraction and parity. Page visual review and full C12 release acceptance are separate local checks.",
+  "markdown": {
+    "path": "research/india-pakistan/report/REPORT.md",
+    "sha256": "9ec2d975539426cd1c79e0f48b81660141bc36ece62528fb074efbe43b8793d2"
+  },
+  "canonical_text": {
+    "path": "provenance/supervisor-export-text/canonical.txt",
+    "sha256": "6de6bf6c313fdb11005c4cb0aef289333ffcfbcb9bbe1afa8096ba7700bdef21"
+  },
+  "verifier": {
+    "path": "research/india-pakistan/tools/verify_edition.py",
+    "sha256": "51f79f1d0e97607e7cbde9c9a33d58acdf80e1cc15a44f8890b88fa1f41ee773"
+  },
+  "exports": [
+    {
+      "path": "research/india-pakistan/report/report.pdf",
+      "sha256": "3de006454c8abd533271e931f584f466f24a02b7ea79ce67ec06057e62b015ca",
+      "text_path": "provenance/supervisor-export-text/pdf-body.txt",
+      "text_sha256": "6de6bf6c313fdb11005c4cb0aef289333ffcfbcb9bbe1afa8096ba7700bdef21"
+    },
+    {
+      "path": "research/india-pakistan/report/report.docx",
+      "sha256": "1956bdfc66ea71793662c2c6b9ac2faa06980ed34b7ec49e002a3c18a1893a5c",
+      "text_path": "provenance/supervisor-export-text/docx-body.txt",
+      "text_sha256": "6de6bf6c313fdb11005c4cb0aef289333ffcfbcb9bbe1afa8096ba7700bdef21"
+    }
+  ]
+}

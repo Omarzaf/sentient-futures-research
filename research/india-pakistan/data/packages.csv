@@ -1,0 +1,13 @@
+package_id,title,period,source_id,tier,source_tier,locator,edition_destination,report_destination
+P01,India-Pakistan theory brief,Evidence through 2026-09-14,package_P01,derived,D,INVENTORY.md; package=P01,"E: chapters 3, 11 and 15",Question and scope; theory; consumer evidence
+P02,Foundational plan,2026-09-14,package_P02,derived,D,INVENTORY.md; package=P02,No E requirement,Question and scope; dated scope development
+P03,"Protein data dashboard, M0-M9",2026-10-13,package_P03,derived,D,INVENTORY.md; package=P03,"E: chapters 1-8, 10, 13-15",Data and methods; findings; policy; limitations; appendices
+P04,Independent dashboard review,2026-10-13,package_P04,derived,D,INVENTORY.md; package=P04,"E: chapters 7 and 14-15, with other corrections beside the affected claims",Review-finding resolutions; limitations; methods; appendix C
+P05,Data assessment,2026-10-13,package_P05,derived,D,INVENTORY.md; package=P05,No E requirement,Data and methods; limitations; appendix D
+P06,Phase Two public-data search,2026-10-11,package_P06,derived,D,INVENTORY.md; package=P06,E: chapters 11 and 14-15,Consumer evidence; next steps; data and methods
+P07,Consumer survey extraction,2026-09-30,package_P07,derived,D,INVENTORY.md; package=P07,E: chapter 11,Consumer evidence; limitations; appendix D
+P08,Protein-supply benchmark,Frozen supply 2010-2023; verification receipt 2026-10-01,package_P08,derived,D,INVENTORY.md; package=P08,E: chapter 9,Supply futures; methods; limitations
+P09,Halal cultivated-chicken paper,2026-10-02,package_P09,derived,D,INVENTORY.md; package=P09,E: chapter 12,Halal pathway; methods; limitations
+P10,Five-page halal brief,2026-10-08,package_P10,derived,D,INVENTORY.md; package=P10,No E requirement,Halal pathway; limitations; source-package account
+P11,Cultivated-chicken comparative package,2026-09-20,package_P11,derived,D,INVENTORY.md; package=P11,No E requirement,Halal pathway; methodological development; limitations; appendix D
+P12,Approved design preview,2026-10-13,package_P12,derived,D,INVENTORY.md; package=P12,E: all chapters follow `DESIGN-SPEC.md`,Methods: presentation design and the six-chapter precursor

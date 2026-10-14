@@ -6,3 +6,10 @@
 *.svg text eol=lf
 *.csv text eol=lf
 *.ris text eol=lf
+
+# These reviewed snapshots and pipeline copies retain exact original bytes.
+# Their provenance hashes must survive staging and a fresh checkout.
+research/india-pakistan/data/** -text
+research/india-pakistan/pipeline/** -text
+research/india-pakistan/edition/geo/** -text
+research/india-pakistan/methods/** -text

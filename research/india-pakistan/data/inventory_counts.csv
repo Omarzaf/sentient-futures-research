@@ -1,0 +1,37 @@
+dataset_id,row_count,numeric_column,numeric_rows,source_id,tier,source_tier,unit,locator,audience
+altprotein_companies,16,,,package_P12,derived,D,rows,data/altprotein_companies.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_company_exclusions,2,,,package_P12,derived,D,rows,data/altprotein_company_exclusions.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_market,19,,,package_P12,derived,D,rows,data/altprotein_market.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_policy,16,,,package_P12,derived,D,rows,data/altprotein_policy.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_retail_offers,1,,,package_P12,derived,D,rows,data/altprotein_retail_offers.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_sources,111,value,105,package_P12,derived,D,rows,data/altprotein_sources.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+cultural_context,20,value,6,package_P12,derived,D,rows,data/cultural_context.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+deficiency_population,28,value,28,package_P12,derived,D,rows,data/deficiency_population.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+diet_composition,814,value,814,package_P12,derived,D,rows,data/diet_composition.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+meat_regional,2393,value,2393,package_P12,derived,D,rows,data/meat_regional.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+meat_supply_national,3221,value,3205,package_P12,derived,D,rows,data/meat_supply_national.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_gap,192,intake_g,156,package_P12,derived,D,rows,data/protein_gap.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_gap_group_summary,18,,,package_P12,derived,D,rows,data/protein_gap_group_summary.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_intake_consumer_unit,26,intake_g,26,package_P12,derived,D,rows,data/protein_intake_consumer_unit.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_intake_modelled,6,intake_g,0,package_P12,derived,D,rows,data/protein_intake_modelled.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_intake_observed,26,intake_g,26,package_P12,derived,D,rows,data/protein_intake_observed.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_model_food_coverage,38,,,package_P12,derived,D,rows,data/protein_model_food_coverage.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_model_method_ranges,12,,,package_P12,derived,D,rows,data/protein_model_method_ranges.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_model_physical_subtotals,156,,,package_P12,derived,D,rows,data/protein_model_physical_subtotals.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+protein_model_sensitivity,26,,,package_P12,derived,D,rows,data/protein_model_sensitivity.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+region_boundary_crosswalk,43,,,package_P12,derived,D,rows,data/region_boundary_crosswalk.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+packages,12,,,package_P12,derived,D,rows,data/packages.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+package_metrics,61,value,61,package_P12,derived,D,rows,data/package_metrics.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+benchmark_annual,56,value,56,package_P12,derived,D,rows,data/benchmark_annual.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+benchmark_forecast,48,point,48,package_P12,derived,D,rows,data/benchmark_forecast.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+benchmark_coverage,4,,,package_P12,derived,D,rows,data/benchmark_coverage.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+survey_studies,9,sample_n,9,package_P12,derived,D,rows,data/survey_studies.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+survey_findings,29,value,27,package_P12,derived,D,rows,data/survey_findings.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+phase_two_leads,43,sample_n,18,package_P12,derived,D,rows,data/phase_two_leads.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+reference_requirements,12,requirement_g_day,12,package_P12,derived,D,rows,data/reference_requirements.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+household_size_context,6,,,package_P12,derived,D,rows,data/household_size_context.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+review_status,29,,,package_P12,derived,D,rows,data/review_status.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+boundary_licenses,2,,,package_P12,derived,D,rows,data/boundary_licenses.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+sources,908,,,package_P12,derived,D,rows,data/sources.csv; data rows,report_only
+raw_manifest,1974,,,package_P12,derived,D,rows,Dashboard data/raw/MANIFEST.csv; data rows,report_only
+claims,642,,,package_P12,derived,D,rows,claims.csv; all master claims including report-only bindings,report_only

@@ -10,3 +10,11 @@ research/halal-cultivated/paper/source-register.json
 research/halal-cultivated/paper/input-manifest.json
 research/halal-cultivated/paper/appendices-data.json
 research/halal-cultivated/paper/figures/
+
+# Generated supervisor artifacts; inspect through source tables and check receipts.
+research/india-pakistan/edition/index.html
+research/india-pakistan/edition/geo/*.geojson
+research/india-pakistan/report/*.pdf
+research/india-pakistan/report/*.docx
+provenance/supervisor-export-text/*-body.txt
+provenance/supervisor-export-text/canonical.txt

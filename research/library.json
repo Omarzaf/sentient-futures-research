@@ -2,6 +2,15 @@
   "status": "AI-assisted drafts; human verification pending",
   "documents": [
     {
+      "id": "supervisor-edition",
+      "title": "Pakistan and India: The Protein Question",
+      "path": "research/india-pakistan/edition/index.html",
+      "textPath": "research/india-pakistan/report/REPORT.md",
+      "cutoff": "13 October 2026",
+      "kind": "Supervisor edition and full research report",
+      "description": "A source-linked reading edition with the full Markdown, PDF and Word report. It separates national food supply, household survey means, experimental physical-food subtotals, consumer studies and conditional policy pathways. AI-assisted research; human verification pending."
+    },
+    {
       "id": "halal-paper",
       "title": "Cultivated Chicken and Halal Market Access",
       "path": "research/halal-cultivated/paper/index.html",

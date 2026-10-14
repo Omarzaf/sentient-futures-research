@@ -1,0 +1,26 @@
+@page { size: A4; margin: 18mm 16mm; }
+html { background: #fff; color: #25221d; }
+body { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 10.6pt; line-height: 1.46; hyphens: none; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.14; break-after: avoid; }
+h1 { font-size: 27pt; margin: 0 0 20pt; color: #25221d; }
+h2 { font-size: 17pt; margin: 25pt 0 10pt; padding-top: 9pt; border-top: 1px solid #d6cfbd; }
+h3 { font-size: 12.8pt; margin: 17pt 0 7pt; }
+p { margin: 0 0 9pt; orphans: 3; widows: 3; }
+ul { margin: 0 0 11pt; padding: 0; }
+li { margin-bottom: 8pt; }
+a { color: #245c96; text-decoration: none; overflow-wrap: anywhere; }
+table { width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 8.1pt; line-height: 1.33; margin: 12pt 0 15pt; table-layout: fixed; }
+thead { display: table-row-group; break-after: avoid; }
+thead tr { break-after: avoid; }
+tbody tr:first-child { break-before: avoid; }
+tr { break-inside: avoid; }
+th, td { padding: 5pt 4pt; text-align: left; vertical-align: top; border-bottom: 0.5pt solid #d6cfbd; overflow-wrap: anywhere; }
+th { color: #36322c; font-weight: 600; background: #f4f1ea; border-top: 1pt solid #a89c85; }
+td:first-child, th:first-child { width: 35%; }
+pre, code { font-family: Menlo, "Courier New", monospace; font-size: 8.2pt; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #f4f1ea; padding: 10pt; break-inside: avoid; }
+code { overflow-wrap: anywhere; }
+.claim { font-variant-numeric: tabular-nums; }
+.source-cell { font-family: Arial, "Devanagari MT", sans-serif; }
+.keep-word, .allow-number { white-space: nowrap; }
+.report-title p { font-size: 27pt; line-height: 1.14; margin: 0 0 20pt; color: #25221d; }

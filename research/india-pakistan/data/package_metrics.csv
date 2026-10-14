@@ -1,0 +1,62 @@
+package_id,metric,value,unit,period,status,source_id,tier,source_tier,locator
+P01,source_records,20,records,2026-10-13,current_local_count,package_P01,derived,D,India-Pakistan source-register.json; array length
+P02,workstreams,2,workstreams,2026-09-14,authored_scope,package_P02,derived,D,INVENTORY.md; P02; scope count
+P03,source_records,728,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/sources.csv; source rows
+P03,core_processed_tables,21,tables,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/*.csv; excludes sources and newsframing appendix
+P03,raw_manifest_records,1974,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/raw/MANIFEST.csv; data rows
+P03,altprotein_companies,16,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/altprotein_companies.csv; data rows
+P03,altprotein_policy,16,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/altprotein_policy.csv; data rows
+P03,altprotein_company_exclusions,2,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/altprotein_company_exclusions.csv; data rows
+P03,altprotein_retail_offers,1,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/altprotein_retail_offers.csv; data rows
+P03,cultural_context,20,records,2026-10-13,current_local_count,package_P03,derived,D,Dashboard data/processed/cultural_context.csv; data rows
+P03,model_sensitivity_cases,26,cases,2026-10-13,current_local_count,package_P03,derived,D,protein_model_sensitivity.csv; national scenario rows
+P03,model_unresolved_foods,11,foods,2026-10-13,current_local_count,package_P03,derived,D,protein_model_food_coverage.csv; physical_route=unresolved
+P03,model_comparable_cases,23,cases,2026-10-13,current_local_count,package_P03,derived,D,protein_model_sensitivity.csv; scenario_role=comparable_conditional_components
+P04,numbered_findings,17,findings,2026-10-13,current_local_count,package_P04,derived,D,"REVIEW-FIXES.md; H/M, L, Y and E ID groups respectively"
+P04,low_findings,5,findings,2026-10-13,current_local_count,package_P04,derived,D,"REVIEW-FIXES.md; H/M, L, Y and E ID groups respectively"
+P04,hygiene_items,4,findings,2026-10-13,current_local_count,package_P04,derived,D,"REVIEW-FIXES.md; H/M, L, Y and E ID groups respectively"
+P04,additional_findings,3,findings,2026-10-13,current_local_count,package_P04,derived,D,"REVIEW-FIXES.md; H/M, L, Y and E ID groups respectively"
+P05,fbs_extract_rows,21018,records,2026-10-13,current_local_count,package_P05,derived,D,FAOSTAT assessment extract; CSV data rows
+P06,access_routes,43,records,2026-10-13,current_local_count,package_P06,derived,D,Phase Two source-register.json; sources array
+P06,contextual_routes,13,records,2026-10-13,current_local_count,package_P06,derived,D,Phase Two contextual-sources.json; sources array
+P06,respondent_datasets_acquired,0,datasets,2026-10-13,current_local_count,package_P06,derived,D,Phase Two source-register.json; raw_datasets_downloaded=false
+P07,study_records,9,studies,2026-10-13,current_local_count,package_P07,derived,D,Study_Register.csv; data rows
+P07,finding_records,29,findings,2026-10-13,current_local_count,package_P07,derived,D,Survey_Findings.csv; data rows
+P07,india_finding_records,0,findings,2026-10-13,current_local_count,package_P07,derived,D,Survey_Findings.csv; geography=India
+P07,pakistan_finding_records,1,findings,2026-10-13,current_local_count,package_P07,derived,D,Survey_Findings.csv; geography=Pakistan
+P08,annual_observations,56,observations,2026-10-13,current_local_count,package_P08,derived,D,future-research/data/annual.csv; data rows
+P08,selected_forecasts,48,forecasts,2026-10-13,current_local_count,package_P08,derived,D,future-research/forecast.json; forecasts array
+P08,forecast_end_year,2035,year,2026-10-13,current_local_count,package_P08,derived,D,future-research/forecast.json; max(target_year)
+P09,source_records,95,records,2026-10-13,current_local_count,package_P09,derived,D,Halal paper source-register.json; array length
+P09,sources_held,22,records,2026-10-13,current_local_count,package_P09,derived,D,Halal paper source-register.json; audit_verdict=held
+P09,sources_not_retrieved,10,records,2026-10-13,current_local_count,package_P09,derived,D,Halal paper source-register.json; audit_verdict=not_retrieved
+P09,sources_verified_with_note,63,records,2026-10-13,current_local_count,package_P09,derived,D,Halal paper source-register.json; audit_verdict=verified_with_note
+P09,human_verification_pending,95,records,2026-10-13,current_local_count,package_P09,derived,D,Halal paper source-register.json; human_verification=Pending
+P09,body_words,11851,body_words,2026-10-02,historical_receipt,package_P09,derived,D,Phase One artifact-receipt.json; body_words
+P09,figures,3,figures,2026-10-02,historical_receipt,package_P09,derived,D,Phase One artifact-receipt.json; figures
+P09,appendices,5,appendices,2026-10-02,historical_receipt,package_P09,derived,D,Phase One artifact-receipt.json; appendices
+P09,pdf_pages,63,pdf_pages,2026-10-02,historical_receipt,package_P09,derived,D,Phase One artifact-receipt.json; pdf_pages
+P10,pdf_pages,5,pages,2026-10-13,inventory_receipt,package_P10,derived,D,INVENTORY.md; P10; recorded PDF metadata inspection
+P10,framework_questions,6,questions,2026-10-08,authored_framework,package_P10,derived,D,INVENTORY.md; P10; authored framework
+P11,sources,54,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.sources
+P11,claims,69,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.claims
+P11,rulings,3,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.rulings
+P11,institutions,12,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.institutions
+P11,pathways,8,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.pathways
+P11,production_requirements,11,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.production_requirements
+P11,market_observations,10,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.market_observations
+P11,demand_studies,5,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.demand_studies
+P11,projects,4,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.projects
+P11,relationships,9,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.relationships
+P11,events,5,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.events
+P11,model_parameters,8,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.model_parameters
+P11,policy_options,5,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.policy_options
+P11,exclusions,19,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.exclusions
+P11,review_history,5,records,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; counts.review_history
+P11,claims_candidate,14,claims,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; review_counts.candidate
+P11,claims_ai_reviewed,55,claims,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; review_counts.ai_reviewed
+P11,claims_rejected,0,claims,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; review_counts.rejected
+P11,claims_human_reviewed,0,claims,2026-09-20,historical_receipt,package_P11,derived,D,Comparative review/validation.json; review_counts.human_reviewed
+P11,scenario_results,0,results,2026-10-13,blocked_missing_baseline,package_P11,derived,D,Comparative analysis/scenario-results.json; results array
+P12,preview_chapters,6,chapters,2026-10-13,inventory_receipt,package_P12,derived,D,INVENTORY.md; P12; six named HTML chapter sections
+P12,required_chapters,15,chapters,2026-10-13,design_requirement,package_P12,derived,D,DESIGN-SPEC.md; required edition chapter list

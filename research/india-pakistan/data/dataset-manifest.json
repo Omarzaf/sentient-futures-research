@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "altprotein_companies": {
+      "path": "data/altprotein_companies.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_company_exclusions": {
+      "path": "data/altprotein_company_exclusions.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_market": {
+      "path": "data/altprotein_market.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_policy": {
+      "path": "data/altprotein_policy.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_retail_offers": {
+      "path": "data/altprotein_retail_offers.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_sources": {
+      "path": "data/altprotein_sources.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "cultural_context": {
+      "path": "data/cultural_context.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "deficiency_population": {
+      "path": "data/deficiency_population.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "diet_composition": {
+      "path": "data/diet_composition.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "meat_regional": {
+      "path": "data/meat_regional.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "meat_supply_national": {
+      "path": "data/meat_supply_national.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_gap": {
+      "path": "data/protein_gap.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_gap_group_summary": {
+      "path": "data/protein_gap_group_summary.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_intake_consumer_unit": {
+      "path": "data/protein_intake_consumer_unit.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_intake_modelled": {
+      "path": "data/protein_intake_modelled.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_intake_observed": {
+      "path": "data/protein_intake_observed.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_model_food_coverage": {
+      "path": "data/protein_model_food_coverage.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_model_method_ranges": {
+      "path": "data/protein_model_method_ranges.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id",
+        "source_ids"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_model_physical_subtotals": {
+      "path": "data/protein_model_physical_subtotals.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id",
+        "source_ids"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "protein_model_sensitivity": {
+      "path": "data/protein_model_sensitivity.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id",
+        "source_ids"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "region_boundary_crosswalk": {
+      "path": "data/region_boundary_crosswalk.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report",
+      "copy_mode": "byte_identical"
+    },
+    "packages": {
+      "path": "data/packages.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "package_metrics": {
+      "path": "data/package_metrics.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "benchmark_annual": {
+      "path": "data/benchmark_annual.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "benchmark_forecast": {
+      "path": "data/benchmark_forecast.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id",
+        "input_source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "benchmark_coverage": {
+      "path": "data/benchmark_coverage.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "survey_studies": {
+      "path": "data/survey_studies.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "survey_findings": {
+      "path": "data/survey_findings.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "phase_two_leads": {
+      "path": "data/phase_two_leads.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "reference_requirements": {
+      "path": "data/reference_requirements.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id",
+        "requirement_source_id",
+        "weight_source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "household_size_context": {
+      "path": "data/household_size_context.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "review_status": {
+      "path": "data/review_status.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "boundary_licenses": {
+      "path": "data/boundary_licenses.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "edition_and_report"
+    },
+    "newsframing_agreement": {
+      "path": "data/newsframing_agreement.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id",
+        "source_ids"
+      ],
+      "audience": "report_only",
+      "copy_mode": "external_local_reference_only"
+    },
+    "newsframing_coverage": {
+      "path": "data/newsframing_coverage.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "report_only",
+      "copy_mode": "external_local_reference_only"
+    },
+    "inventory_counts": {
+      "path": "data/inventory_counts.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "report_only"
+    }
+  },
+  "sources": "data/sources.csv",
+  "claims": "claims.csv"
+}

@@ -1,5 +1,7 @@
 # Protein Consumption and Alternative Protein Adoption in India and Pakistan
 
+The October supervisor edition extends this earlier brief with repaired source-bound data, consumer-study comparisons and an explicit limitations record. [Read the scrolling edition](edition/index.html), the [full Markdown report](report/REPORT.md), [PDF](report/report.pdf) or [Word report](report/report.docx). Inspect the [data and claims](data/README.md) and [reproduction instructions](REPRODUCE.md). AI-assisted research draft; human verification pending. The September brief below remains a dated theoretical input.
+
 [Read the brief](india-pakistan-brief.md) or [open the formatted report](index.html). Evidence reviewed through 14 September 2026. Current research scope; AI-assisted draft with human verification pending.
 
 This is the consolidated secondary synthesis for the current India–Pakistan direction described in [CURRENT-SCOPE.md](../../CURRENT-SCOPE.md). It examines how affordability, dietary practice, social legitimacy, certification, and public policy shape whether a substitute product earns a recurring place in a household meal, and it proposes the comparative tests and forecast-question requirements that would follow.
