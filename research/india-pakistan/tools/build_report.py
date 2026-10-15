@@ -491,6 +491,8 @@ def appendices() -> str:
         "altprotein_company_exclusions": "Candidates excluded by the human-food scope rule; retained for an auditable boundary.",
         "altprotein_jobs": "AltProtein.Jobs directory rows for India, Brazil and Pakistan plus annual country vacancy counts; platform activity, not operation, employment or sales.",
         "altprotein_market": "Source-specific market/context quantities; geography, product definition and units are not interchangeable.",
+        "altprotein_proxy_inputs": "Public proxy observations (IMF, World Bank, FAOSTAT, GFI, AltProtein.Jobs) transcribed for the speculative market scenarios; each row keeps its source and locator.",
+        "altprotein_proxy_scenarios": "Analyst parameters and speculative scenario quantiles of market value; calculations, not observed market sizes.",
         "altprotein_policy": "Dated rules, drafts and programme events; a policy mention is not product authorization.",
         "altprotein_retail_offers": "Observed listing evidence; an offer does not establish local stock, sales or demand.",
         "altprotein_sources": "Feedstock, ingredient and capacity context records; production potential is not alternative-protein adoption.",

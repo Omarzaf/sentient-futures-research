@@ -37,6 +37,24 @@
       "audience": "edition_and_report",
       "copy_mode": "byte_identical"
     },
+    "altprotein_proxy_inputs": {
+      "path": "data/altprotein_proxy_inputs.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "report_only",
+      "copy_mode": "byte_identical"
+    },
+    "altprotein_proxy_scenarios": {
+      "path": "data/altprotein_proxy_scenarios.csv",
+      "derived": true,
+      "primary_source_columns": [
+        "source_ids"
+      ],
+      "audience": "report_only",
+      "copy_mode": "byte_identical"
+    },
     "altprotein_policy": {
       "path": "data/altprotein_policy.csv",
       "derived": false,

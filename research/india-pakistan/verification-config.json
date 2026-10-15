@@ -36,6 +36,22 @@
       ]
     },
     {
+      "id": "altprotein_proxy_inputs",
+      "path": "data/altprotein_proxy_inputs.csv",
+      "derived": false,
+      "source_columns": [
+        "source_id"
+      ]
+    },
+    {
+      "id": "altprotein_proxy_scenarios",
+      "path": "data/altprotein_proxy_scenarios.csv",
+      "derived": true,
+      "source_columns": [
+        "source_ids"
+      ]
+    },
+    {
       "id": "altprotein_policy",
       "path": "data/altprotein_policy.csv",
       "derived": false,

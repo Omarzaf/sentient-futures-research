@@ -1280,5 +1280,23 @@
     "sourceDocument": "Authored for the AltProtein.Jobs feedback repair, 15 October 2026",
     "sourceSha256": "ebcddabfcb3056cee544fa9996a1636da662c2fda0e7155be2a449424b5cf828",
     "changes": "New deterministic builder for data/altprotein_jobs.csv; reads only company and country fields."
+  },
+  {
+    "path": "research/india-pakistan/data/altprotein_proxy_inputs.csv",
+    "sourceDocument": "IMF World Economic Outlook October 2026 API, World Bank WDI API, GFI US retail market page (captured 15 October 2026) and existing package CSVs",
+    "sourceSha256": "ec41d2b48c4ad4f3294cb4b1fa9e76355cbc7b6412a83aa4c8a91e73d682dcb2",
+    "changes": "Built by tools/build_altprotein_proxy.py --inputs. Transcribes proxy observations with source, tier and locator; raw captures stay in the private workspace."
+  },
+  {
+    "path": "research/india-pakistan/data/altprotein_proxy_scenarios.csv",
+    "sourceDocument": "Authored speculative proxy model, 15 October 2026",
+    "sourceSha256": "a43dbb0bf636be19c2dbe73833b53d656867f982e23ce8a73f649e360e415e0f",
+    "changes": "Built by tools/build_altprotein_proxy.py from data/altprotein_proxy_inputs.csv only; fixed-seed Monte Carlo. Speculative scenarios, not observed market values."
+  },
+  {
+    "path": "research/india-pakistan/tools/build_altprotein_proxy.py",
+    "sourceDocument": "Authored for the India-Pakistan market-size scenarios, 15 October 2026",
+    "sourceSha256": "5b2dd33bbfe355e4b4f2d905b1c14c20088b08c9ec4820edc81467baf64d8959",
+    "changes": "New deterministic builder for the proxy inputs and scenario CSVs; standard library only."
   }
 ]

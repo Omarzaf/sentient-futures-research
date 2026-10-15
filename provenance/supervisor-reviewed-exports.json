@@ -3,30 +3,30 @@
   "human_verification": "pending",
   "markdown": {
     "path": "research/india-pakistan/report/REPORT.md",
-    "sha256": "8ab250202d38395755f58b66bdeb40fdbde0d88d2b5027fcf6cadeb689d05082"
+    "sha256": "d55ac114c442c0405c8c0169233b9808704a5bcc033b1ea9b15d549df69345ea"
   },
   "canonical_text": {
     "path": "provenance/supervisor-export-text/canonical.txt",
-    "sha256": "39d0e4c9d40740c16da189cb882f5250d365490c0c3fbacf8a2532e6cce27f25"
+    "sha256": "87c2284351563418ae8245fb567c32bac9e84b3cb5d4ce2c53ebb2387ce60103"
   },
   "parity_evidence": {
     "path": "provenance/supervisor-export-text/parity.json",
-    "sha256": "7d22ea4affaafa04793c5a58f0eb2c8fadb073d71fbc15a8d957d3614ecad15e"
+    "sha256": "01bdcefadec7f2568af79175093009f22ad3ec869c52b5036ed7aaaf02f3f7a9"
   },
   "exports": [
     {
       "path": "research/india-pakistan/report/report.pdf",
-      "sha256": "32e45c7a6944dff31525d2f077477920ebe2d290ebcbb6bb6cc55a3032b0c99e",
+      "sha256": "1077fad98eaf030e6c596adfb0cf1f2d52478e69670fb48df730a2b83db652c7",
       "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
       "text_path": "provenance/supervisor-export-text/pdf-body.txt",
-      "text_sha256": "39d0e4c9d40740c16da189cb882f5250d365490c0c3fbacf8a2532e6cce27f25"
+      "text_sha256": "87c2284351563418ae8245fb567c32bac9e84b3cb5d4ce2c53ebb2387ce60103"
     },
     {
       "path": "research/india-pakistan/report/report.docx",
-      "sha256": "0192c6a7f1c0989037ad5d8c9aed2c62b87b6208ad5993a24d8f36489e3a5f94",
+      "sha256": "dc97923e26e8b31e8bab41f18ca43b4e4eb5424eac991286e7249dded2574eb2",
       "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
       "text_path": "provenance/supervisor-export-text/docx-body.txt",
-      "text_sha256": "39d0e4c9d40740c16da189cb882f5250d365490c0c3fbacf8a2532e6cce27f25"
+      "text_sha256": "87c2284351563418ae8245fb567c32bac9e84b3cb5d4ce2c53ebb2387ce60103"
     }
   ]
 }
