@@ -1268,5 +1268,17 @@
     "sourceDocument": "Supervisor edition processed-data and authored-output projection",
     "sourceSha256": "fe40e79a058b1a58ded4f0e58ccaebca4762fbab521d79fc05d784a77a58c1ad",
     "changes": "File-only reviewed projection. Original raw downloads and private operational material are excluded. Public metadata and authored artifacts preserve their stated scope and rights."
+  },
+  {
+    "path": "research/india-pakistan/data/altprotein_jobs.csv",
+    "sourceDocument": "AltProtein.Jobs company directory and Global vacancy data 2023-2025 workbooks (shared with the project, 14 October 2026)",
+    "sourceSha256": "fa07fbdee9f17b6b68a19452a7d9d78e566b55d6b41255bbb2484c3cd588f4db",
+    "changes": "Built by tools/build_altprotein_jobs.py. Keeps India, Brazil and Pakistan directory rows and all country vacancy counts with sheet locators. Contact names and job titles are excluded; original workbooks are not redistributed."
+  },
+  {
+    "path": "research/india-pakistan/tools/build_altprotein_jobs.py",
+    "sourceDocument": "Authored for the AltProtein.Jobs feedback repair, 15 October 2026",
+    "sourceSha256": "ebcddabfcb3056cee544fa9996a1636da662c2fda0e7155be2a449424b5cf828",
+    "changes": "New deterministic builder for data/altprotein_jobs.csv; reads only company and country fields."
   }
 ]

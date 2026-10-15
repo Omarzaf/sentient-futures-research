@@ -197,6 +197,56 @@ Pulse production provides potential feedstock context, with crop definitions and
 
 The bounded public-source search recovered newer industry, consumer-awareness, export and global-market material. It did not establish a compatible newer estimate of India's domestic alternative-protein market. This is a narrower conclusion than saying no newer GFI information exists. Historical national scenarios, global sales and export opportunities remain different quantities.
 
+### Job-board records widen the Indian company list
+
+AltProtein.Jobs reviewed an earlier draft and supplied two tables. One is a directory of companies featured on its job board; the other counts vacancies by country and year. Both describe recruitment on one platform. Neither measures production, sales or national employment.
+
+The directory has {{claim:jobs_directory_india_rows}} rows for India, entered as either India or IN. They cover {{claim:jobs_directory_india_names}} distinct company names after trimming and lowercasing; a few near-duplicates, such as two Shaka Harry entries, remain. The report's own register holds {{claim:companies_register_india_count}} Indian records. By manual name matching, nine of those twelve also appear in the directory. The directory is therefore a much larger list of Indian candidates for verification. The supplier describes it as dated to {{year:2024}} and not fully current, so a listing does not show that a company operates today.
+
+Its posting column counts job posts since October {{year:2024}} and records no end date. Indian companies hold {{claim:jobs_directory_india_postings}} of those posts, spread across {{claim:jobs_directory_india_posting_names}} companies; one further Indian row has no posting value. Tata Consumer Products accounts for {{claim:jobs_directory_india_tata_consumer_products}} posts. Tata is a diversified food company, so its posts cannot all be assigned to alternative-protein work.
+
+| Indian company with posts | Posts since October {{year:2024}} | Protein category | Business model |
+| --- | --- | --- | --- |
+| Tata Consumer Products | {{claim:jobs_directory_india_tata_consumer_products}} | Plant-based | End-consumer brands and products |
+| Blue Tribe Foods | {{claim:jobs_directory_india_blue_tribe_foods}} | Plant-based | End-consumer brands and products |
+| Natturz Bio Kontrol Private Limited | {{claim:jobs_directory_india_natturz_bio_kontrol_private_limited}} | Plant-based | End-consumer brands and products |
+| Plantmade | {{claim:jobs_directory_india_plantmade}} | Plant-based | End-consumer brands and products |
+| ProMeat | {{claim:jobs_directory_india_promeat}} | Plant-based | End-consumer brands and products |
+| [Sea6 Energy Pvt Ltd.]{.claim-meta data-claim-meta="jobs_directory_india_sea6_energy_pvt_ltd" data-claim-field="filter.entity"} | {{claim:jobs_directory_india_sea6_energy_pvt_ltd}} | Other | Infrastructure and equipment |
+| Gujarat Ambuja Exports | {{claim:jobs_directory_india_gujarat_ambuja_exports_limited}} | Plant-based | End-consumer brands and products |
+| OMG Labs | {{claim:jobs_directory_india_omg_labs}} | Plant-based | End-consumer brands and products |
+| Vippy Industries | {{claim:jobs_directory_india_vippy_industries_ltd}} | Plant-based | Ingredients and inputs |
+| Go Zero | {{claim:jobs_directory_india_go_zero}} | Plant-based | End-consumer brands and products |
+| MyoWorks | {{claim:jobs_directory_india_myoworks}} | Cultivated | Infrastructure and equipment |
+| Oatey | {{claim:jobs_directory_india_oatey}} | Plant-based | End-consumer brands and products |
+| Symega Food Ingredients | {{claim:jobs_directory_india_symega_food_ingredients_ltd}} | Plant-based | Ingredients and inputs |
+| WhiteCub Vegan Foods | {{claim:jobs_directory_india_whitecub_vegan_foods}} | Plant-based | End-consumer brands and products |
+| Zero Cow Factory | {{claim:jobs_directory_india_zero_cow_factory}} | Fermentation | End-consumer brands and products |
+
+The companion data keep every Indian, Brazilian and Pakistani directory row with its sheet row number. Contact names and job titles in the original export are excluded.
+
+### India and Brazil lead the Global South job market on this platform
+
+According to AltProtein.Jobs, the vacancy table underlies its {{year:2025}} job market report ({{cite:altprotein_jobs_vacancy_2023_2025|report page}}) and covers {{claim:jobs_vacancies_country_count}} countries. India recorded {{claim:jobs_vacancies_india_2023}}, {{claim:jobs_vacancies_india_2024}} and {{claim:jobs_vacancies_india_2025}} vacancies in {{year:2023}}, {{year:2024}} and {{year:2025}}. Brazil recorded {{claim:jobs_vacancies_brazil_2023}}, {{claim:jobs_vacancies_brazil_2024}} and {{claim:jobs_vacancies_brazil_2025}}. India led Brazil in {{year:2023}}; Brazil led in the two later years.
+
+In {{year:2024}} and {{year:2025}}, only the United States, Germany, France, the United Kingdom and the Netherlands recorded more vacancies than Brazil and India. Every country above them is in North America or Europe. On this platform, India and Brazil are therefore the two largest job markets outside those regions. The ranking depends on which countries are counted as Global South, and India is not the sole leader in either later year.
+
+India's growth was slower than the platform's. The table total rose from {{claim:jobs_vacancies_total_2024}} to {{claim:jobs_vacancies_total_2025}} between {{year:2024}} and {{year:2025}}, so India's share of all recorded vacancies fell even as its count rose.
+
+### Pakistan appears in both tables with different pictures
+
+The directory holds {{claim:jobs_directory_pakistan_rows}} Pakistan rows: Shafi Gluco Chem and Shafi Gluco Chem (Pvt) Limited, probably one company under two names. Both rows record {{claim:jobs_directory_pakistan_postings}} posts since October {{year:2024}}. They disagree on business model: one lists ingredients and inputs, the other end-consumer brands. None of the register's {{claim:companies_register_pakistan_count}} Pakistani companies appears in the directory.
+
+The vacancy table nevertheless records {{claim:jobs_vacancies_pakistan_2023}}, {{claim:jobs_vacancies_pakistan_2024}} and {{claim:jobs_vacancies_pakistan_2025}} vacancies for Pakistan in {{year:2023}}, {{year:2024}} and {{year:2025}}. Neither table states whether country means company headquarters or job location. Pakistan-based roles at companies listed elsewhere could explain the difference, but the tables cannot confirm it. Both observations are kept rather than reconciled by assumption.
+
+### A commercial Asia forecast publishes growth bands without its inputs
+
+AltProtein.Jobs also suggested the IndexBox report on the Asian plant-based market, which forecasts to {{year:2035}}. The free report page ({{cite:indexbox_asia_plant_based_portfolio_2026|IndexBox Asia plant-based portfolio}}) gives regional growth bands for {{year:2026}} to {{year:2035}}. It publishes no absolute market size, base-year value or country figure, and no separate South Asia or Pakistan estimate. India appears only in qualitative statements about price sensitivity, foodservice and labelling rules.
+
+The page describes its method as category reconstruction from company disclosures, retailer and e-commerce checks, pricing review and triangulation. It names no proxy variable, coefficient or input value. Its scope excludes cultivated meat, bulk ingredients, protein powders and foodservice-only items. The publisher's general methodology adds AI-based normalisation and imputation ({{cite:indexbox_methodology_snapshot_20261013|IndexBox methodology}}).
+
+Two features weaken the page as a benchmark. Its regional growth band is identical to the band on the IndexBox page for Pakistani synthetic protein, which covers a different product scope ({{cite:indexbox_synthetic_protein_pakistan_2026|IndexBox Pakistan synthetic protein}}). Its list of country roles names the United States, the United Kingdom, Germany and Brazil, none of them in Asia. Both suggest templated text. The report therefore holds the IndexBox bands under the same rule as other figures whose AI-assisted derivation cannot be checked; the companion data record them with locators. For this project's own forecast, the page shows what a usable benchmark must state: a baseline value, a unit, a product scope and the proxies that carry it forward.
+
 ## Published consumer studies leave the bilateral comparison open
 
 ::: {data-package="P07"}

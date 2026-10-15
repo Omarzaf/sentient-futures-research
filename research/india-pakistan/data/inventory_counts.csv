@@ -1,7 +1,8 @@
 dataset_id,row_count,numeric_column,numeric_rows,source_id,tier,source_tier,unit,locator,audience
 altprotein_companies,16,,,package_P12,derived,D,rows,data/altprotein_companies.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_company_exclusions,2,,,package_P12,derived,D,rows,data/altprotein_company_exclusions.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
-altprotein_market,19,,,package_P12,derived,D,rows,data/altprotein_market.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_jobs,395,,,package_P12,derived,D,rows,data/altprotein_jobs.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_market,21,,,package_P12,derived,D,rows,data/altprotein_market.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_policy,16,,,package_P12,derived,D,rows,data/altprotein_policy.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_retail_offers,1,,,package_P12,derived,D,rows,data/altprotein_retail_offers.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_sources,111,value,105,package_P12,derived,D,rows,data/altprotein_sources.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
@@ -32,6 +33,6 @@ reference_requirements,12,requirement_g_day,12,package_P12,derived,D,rows,data/r
 household_size_context,6,,,package_P12,derived,D,rows,data/household_size_context.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 review_status,29,,,package_P12,derived,D,rows,data/review_status.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 boundary_licenses,2,,,package_P12,derived,D,rows,data/boundary_licenses.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
-sources,908,,,package_P12,derived,D,rows,data/sources.csv; data rows,report_only
-raw_manifest,1974,,,package_P12,derived,D,rows,Dashboard data/raw/MANIFEST.csv; data rows,report_only
-claims,642,,,package_P12,derived,D,rows,claims.csv; all master claims including report-only bindings,report_only
+sources,911,,,package_P12,derived,D,rows,data/sources.csv; data rows,report_only
+raw_manifest,1977,,,package_P12,derived,D,rows,Dashboard data/raw/MANIFEST.csv; data rows,report_only
+claims,683,,,package_P12,derived,D,rows,claims.csv; all master claims including report-only bindings,report_only

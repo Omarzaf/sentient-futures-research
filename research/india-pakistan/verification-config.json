@@ -20,6 +20,14 @@
       ]
     },
     {
+      "id": "altprotein_jobs",
+      "path": "data/altprotein_jobs.csv",
+      "derived": false,
+      "source_columns": [
+        "source_id"
+      ]
+    },
+    {
       "id": "altprotein_market",
       "path": "data/altprotein_market.csv",
       "derived": false,

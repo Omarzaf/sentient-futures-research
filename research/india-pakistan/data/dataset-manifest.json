@@ -19,6 +19,15 @@
       "audience": "edition_and_report",
       "copy_mode": "byte_identical"
     },
+    "altprotein_jobs": {
+      "path": "data/altprotein_jobs.csv",
+      "derived": false,
+      "primary_source_columns": [
+        "source_id"
+      ],
+      "audience": "report_only",
+      "copy_mode": "byte_identical"
+    },
     "altprotein_market": {
       "path": "data/altprotein_market.csv",
       "derived": false,

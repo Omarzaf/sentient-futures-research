@@ -489,6 +489,7 @@ def appendices() -> str:
     inventory_meanings = {
         "altprotein_companies": "Dated company/activity records; inclusion does not verify current sales or operating capacity.",
         "altprotein_company_exclusions": "Candidates excluded by the human-food scope rule; retained for an auditable boundary.",
+        "altprotein_jobs": "AltProtein.Jobs directory rows for India, Brazil and Pakistan plus annual country vacancy counts; platform activity, not operation, employment or sales.",
         "altprotein_market": "Source-specific market/context quantities; geography, product definition and units are not interchangeable.",
         "altprotein_policy": "Dated rules, drafts and programme events; a policy mention is not product authorization.",
         "altprotein_retail_offers": "Observed listing evidence; an offer does not establish local stock, sales or demand.",
