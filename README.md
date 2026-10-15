@@ -4,12 +4,13 @@ Research drafts, data, and source references maintained by **Muhammad Umar Zafar
 
 **Start with [the research library](index.html)** or the document links below. HTML files render when downloaded and opened in a browser; GitHub's file viewer displays their source. The Markdown literature review and policy table can be read directly on GitHub.
 
-These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. The current direction is the halal working paper, the India–Pakistan consumption brief, and the survey-data package below, with related forecast-methodology work still outside this repository; the broader research is background for that direction. [Current scope](CURRENT-SCOPE.md).
+These are **AI-assisted working drafts with human verification pending**, not finished or mentor-endorsed studies. Each document retains its original evidence cutoff. Start with the Pakistan–India supervisor edition and report, then the halal working paper, India–Pakistan scope brief and survey package. The edition includes the bounded protein-supply benchmark; it does not turn supply projections into adoption forecasts. [Current scope](CURRENT-SCOPE.md).
 
 ## Research
 
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
+| [Pakistan and India: The Protein Question](research/india-pakistan/edition/index.html) · [Full report](research/india-pakistan/report/REPORT.md) · [PDF](research/india-pakistan/report/report.pdf) · [Word](research/india-pakistan/report/report.docx) | **Supervisor edition.** Source-linked findings, methods, evidence limits and open questions. National supply, official household survey means, experimental food subtotals and consumer studies remain distinct. Human verification pending | 13 Oct 2026 |
 | [Cultivated Chicken and Halal Market Access](research/halal-cultivated/paper/index.html) · [Markdown](research/halal-cultivated/paper/paper.md) | **Working paper for author review.** Approximately 11,900 words, three figures, five appendices and audited citations. Independent agent checks complete; human scholarly review pending | 2 Oct 2026 |
 | [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/india-pakistan-brief.md) | **Current scope.** Comparative brief on affordability, dietary practice, legitimacy, certification, and policy; proposed comparative tests and forecast-question requirements | 14 Sep 2026 |
 | [Cultivated Chicken in the Focal Countries: Where the Evidence Stands](research/halal-cultivated/phase1-continuation/SYNTHESIS.md) | **Evidence behind the working paper.** October continuation: country-by-country answer, gate table across six process profiles, 188 source records and 156 claims, open leads and questions for mentors | 2 Oct 2026 |
@@ -57,7 +58,9 @@ node presentations/halal-mmm/build/check.mjs
 
 CI runs the same set on every push. After changing `paper.md` or the presentation sources, rebuild the reading edition with `node presentations/halal-mmm/build/build.mjs` before `build-library.mjs`; see [its README](presentations/halal-mmm/README.md) and [QA report](presentations/halal-mmm/QA.md).
 
-A few optional, one-off tools need more. `tools/build_paper_figures.py` regenerates the paper's figures in `research/halal-cultivated/paper/figures/` and needs Python. `tools/export-paper.mjs` (Pandoc) and `tools/style_paper_docx.py` (Python) produce the Word and PDF exports, and `presentations/halal-mmm/build/browser-qa.mjs` (Playwright) takes screenshots; those outputs go to Git-ignored folders.
+A few optional, one-off tools need more. `tools/build_paper_figures.py` regenerates the paper's figures in `research/halal-cultivated/paper/figures/` and needs Python. `tools/export-paper.mjs` (Pandoc) and `tools/style_paper_docx.py` (Python) produce the halal paper's Word and PDF exports, and `presentations/halal-mmm/build/browser-qa.mjs` (Playwright) takes screenshots; those outputs go to Git-ignored folders.
+
+The two authored supervisor report exports are a narrow exception, recorded in [the reviewed export registry](provenance/supervisor-reviewed-exports.json). Node-only CI verifies the exact binary, Markdown, extracted-text and parity-receipt hashes, compares the reviewed body text, and scans that text for privacy hazards. It does not decode compressed Word/PDF bytes as prose. The local supervisor verifier performs actual export regeneration and text extraction; CI preserves that evidence binding without installing document converters. Every other PDF/Word file and the existing private, vendor and credential exclusions remain blocked.
 
 The build regenerates the reading portal, combined catalog, and checksums. Verification checks source coverage, relative links, citation IDs, derived figures, survey-package consistency, file integrity, and common privacy hazards. It does not rerun the original research, access restricted databases, check live source availability, or certify factual accuracy.
 
@@ -65,4 +68,4 @@ Read [research method and AI-use disclosure](RESEARCH-METHOD.md), [feedback guid
 
 ## What is excluded
 
-Personal application and career material, meeting preparation, unpublished peer drafts and comments, private document links, credentials, raw working logs, Office originals, downloaded third-party publications, and respondent-level survey data are excluded from this clean file tree. The shareable artifact is a curated snapshot/export, not the original workspace, private branches, or full Git history.
+Personal application and career material, internal coordination notes, unpublished peer drafts and comments, private document links, credentials, raw working logs, Office originals, downloaded third-party publications, and respondent-level survey data are excluded from this clean file tree. Only the two reviewed authored supervisor report renderings have the binary exception described above. The shareable artifact is a curated snapshot/export, not the original workspace, private branches, or full Git history.

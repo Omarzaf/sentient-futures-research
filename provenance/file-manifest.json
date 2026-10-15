@@ -3,23 +3,23 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 364,
-      "sha256": "eb35b5e11d3e846622959bd3c6209f11991dc4f6c1dbafa109a9d7f190ba5e9f"
+      "bytes": 706,
+      "sha256": "600363bc209325d2b37077a631a6b55029d7708e25ce5b8df443e1efbe3ba87f"
     },
     {
       "path": ".gitattributes",
-      "bytes": 139,
-      "sha256": "c26fec6b3a8a444fc156ea72705fb7d6eab4bf37409aa142d733c3332628799a"
+      "bytes": 451,
+      "sha256": "578ad03a9b3e36459b0104090faf8e0af73462b4d83315b3db132b01cdc3ccee"
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 1548,
-      "sha256": "05da57aeb2ed91f74dac368a0cfac91197ca7f38ee8f8649f92ab2c1c866b5c7"
+      "bytes": 1953,
+      "sha256": "112711ed1581ced7ac08679f5f2bcdb94233710a8e24563b205ffe9206d83718"
     },
     {
       "path": ".gitignore",
-      "bytes": 398,
-      "sha256": "019bad5f9819360ee79e0bdaafb33ed1b8bae351bce2878a9b83d4f379eabeee"
+      "bytes": 610,
+      "sha256": "685553a1d3ace63c8ba4b47e2827812058c048f7240356b021123e356a7b1da3"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "CURRENT-SCOPE.md",
-      "bytes": 4583,
-      "sha256": "105b629cf9321956f260c3897d0613fc520f1ed35be1804f2a4518ccd0b6a0b3"
+      "bytes": 5712,
+      "sha256": "af7e044e4cc5f56b0767c82253a5431c6e27b5dea3b891db09668338494cecb2"
     },
     {
       "path": "DATA-DICTIONARY.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7940,
-      "sha256": "a6f2fef8eec416a156891edeeeee331950363eff91e70b9df6f944359fc178ee"
+      "bytes": 9226,
+      "sha256": "f6b43a9f0130a39a0f5d3346b961c9a536d6e4273143a6f5e155850874bfff08"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "RIGHTS-AND-REUSE.md",
-      "bytes": 2068,
-      "sha256": "798ab636b919150a76911a11482abe794fb837618b6b0d38a366eb05faaacc56"
+      "bytes": 3054,
+      "sha256": "1b37d78067024417374288d30249f1c15afebf54f510494f6334bfb1ca426038"
     },
     {
       "path": "SESSION-LOG.md",
@@ -57,9 +57,14 @@
       "sha256": "f0d2395c740c95876c2b0134db59b4aea85f3213deef157f7ac922889d8c0c82"
     },
     {
+      "path": "handoffs/claude-mmm/START-HERE.md",
+      "bytes": 643,
+      "sha256": "e1e26c4843dcc18ed544d3a7c376e4eccf4325f62dcd75b56740e93c83ddfe3e"
+    },
+    {
       "path": "index.html",
-      "bytes": 10731,
-      "sha256": "0f5b7f1c4b92c6d97819208f1e438f36848fa552997f089bc4d42feb4ffae093"
+      "bytes": 11470,
+      "sha256": "891cd19c491fa396efd86f25de625bebedbfba6317fb1dfd01c82ff9c046c9db"
     },
     {
       "path": "presentations/halal-mmm/FIGURE-MAP.md",
@@ -133,8 +138,33 @@
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 15829,
-      "sha256": "2b2a9bc65fbfdde03562aacd7f456f5abb21082ce5e8a27bc243fef12b8d086e"
+      "bytes": 96220,
+      "sha256": "342741a4f2165333979a87ba5e8774253f69555b2abc42d1c1df6dbfbf61538a"
+    },
+    {
+      "path": "provenance/supervisor-export-text/canonical.txt",
+      "bytes": 153758,
+      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    },
+    {
+      "path": "provenance/supervisor-export-text/docx-body.txt",
+      "bytes": 153758,
+      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    },
+    {
+      "path": "provenance/supervisor-export-text/parity.json",
+      "bytes": 1402,
+      "sha256": "1482ebb61708a98073f7142924e0e665338007b6e9df2fea95ebda5a47c66687"
+    },
+    {
+      "path": "provenance/supervisor-export-text/pdf-body.txt",
+      "bytes": 153758,
+      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    },
+    {
+      "path": "provenance/supervisor-reviewed-exports.json",
+      "bytes": 1463,
+      "sha256": "d3c8e3325784dba7102fe0542e3d4e6fa6f488dcafbdbd4a15c3506799c24815"
     },
     {
       "path": "research/ai-protein/README.md",
@@ -352,6 +382,16 @@
       "sha256": "a495a7c6acdd51f4baf398f3fb82968de9aafa359c1d4d86b442a7bf021ac822"
     },
     {
+      "path": "research/halal-cultivated/paper/AUDIT-REPORT-2026-10-02.md",
+      "bytes": 349,
+      "sha256": "e33597239f7c8c01fdf341a87956e03775583e0876d2810323420f8540f37c6e"
+    },
+    {
+      "path": "research/halal-cultivated/paper/GAP-RESEARCH-2026-10-02.md",
+      "bytes": 369,
+      "sha256": "dc0df70aa6ef3477e9334c484f358f330e9f132ffb13635d8c84385c805fb835"
+    },
+    {
       "path": "research/halal-cultivated/paper/README.md",
       "bytes": 3614,
       "sha256": "3da68c6ddeebcd8d031cd3fa606adf3e70bb1cb42a40a1606aa9fc7291ea444e"
@@ -430,6 +470,11 @@
       "path": "research/halal-cultivated/paper/input-manifest.json",
       "bytes": 10434,
       "sha256": "b820b0a865f0e0ecba1ae4fbf708b5836ea6a1f91fa8d21047fedc09bb6abd0a"
+    },
+    {
+      "path": "research/halal-cultivated/paper/outline.md",
+      "bytes": 342,
+      "sha256": "1b9866e11533dcfdce95ef7adb351ab7cde065b886e862433dd5a83b1907ff51"
     },
     {
       "path": "research/halal-cultivated/paper/paper.md",
@@ -742,9 +787,329 @@
       "sha256": "b66c5ed59ffa217c44d0d7baccb69f5585e1cfb687baa9704a143b111e66be9e"
     },
     {
+      "path": "research/india-pakistan/DESIGN-SPEC.md",
+      "bytes": 7495,
+      "sha256": "165e159ba265ead3a743c3d279c81750c0f59f5c38b49aebb80596112335304d"
+    },
+    {
+      "path": "research/india-pakistan/INVENTORY.md",
+      "bytes": 1675,
+      "sha256": "e6ae5cf642c02cbeaa08ced87bf52339595be6eb2daa1b781fbd9df7a47b3751"
+    },
+    {
       "path": "research/india-pakistan/README.md",
-      "bytes": 2308,
-      "sha256": "7851549b0aecb55eff62a6cea4f7af181257ef2209084ce088566fb44c52ad19"
+      "bytes": 2832,
+      "sha256": "9931779ce4f1e896632a631fbb684d97c496cbd8cd54c21129bc68d334385775"
+    },
+    {
+      "path": "research/india-pakistan/REPRODUCE.md",
+      "bytes": 4189,
+      "sha256": "96544cef5b1d298db146a29eaf09df356aed3bc934aa8c80699a3aee7f652386"
+    },
+    {
+      "path": "research/india-pakistan/claims.csv",
+      "bytes": 303866,
+      "sha256": "2a4752f80ed1629a34ea161ab8a6d4f62ddb518b6e6ca9e51999939c7f22b6a9"
+    },
+    {
+      "path": "research/india-pakistan/data/MANIFEST.csv",
+      "bytes": 965418,
+      "sha256": "79396c4fb475ef8bc2d974bd15b89f27598c891285ca1c02ceb79711e34cd102"
+    },
+    {
+      "path": "research/india-pakistan/data/README.md",
+      "bytes": 2335,
+      "sha256": "9b23a1bce1213bae9c8f8741d7461d89aa48122a985a7463919ab2705f4ab492"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_companies.csv",
+      "bytes": 16973,
+      "sha256": "66fd9966cfe10a4a38d39569a11f250376e8a6575b0c69e70e5ffe282832516e"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_company_exclusions.csv",
+      "bytes": 2459,
+      "sha256": "59890dc812c03dde42c8f1b3235682bcaad8dc004a17f7bab7305709d531f37f"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_jobs.csv",
+      "bytes": 198329,
+      "sha256": "fa07fbdee9f17b6b68a19452a7d9d78e566b55d6b41255bbb2484c3cd588f4db"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_market.csv",
+      "bytes": 41496,
+      "sha256": "cf2236909ede6b8363ef69872b66d82c36feb347cccf268570ad539f047905a0"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_policy.csv",
+      "bytes": 15575,
+      "sha256": "0fe17350066b469e05d8f6fcd17d5b51320207c551deb3b3849f8c8949df5383"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_proxy_inputs.csv",
+      "bytes": 36215,
+      "sha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_proxy_scenarios.csv",
+      "bytes": 57304,
+      "sha256": "65c7a71c00ee302b3c582041b5abd0de0bd32c52fc098cfc265f6528bb421b5c"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_retail_offers.csv",
+      "bytes": 1063,
+      "sha256": "9f888c02a633657d89dd040d6bdeeeffcbb6bf6c849e90cf68f55172a5a0138b"
+    },
+    {
+      "path": "research/india-pakistan/data/altprotein_sources.csv",
+      "bytes": 71966,
+      "sha256": "0333bafffdda4f2320006a8a7719566908b0017118cbb56d34513d2be4134045"
+    },
+    {
+      "path": "research/india-pakistan/data/benchmark_annual.csv",
+      "bytes": 11578,
+      "sha256": "2d7e239607052c962bd9bd1e8e785766240340caed45db85a1d27915278efe3b"
+    },
+    {
+      "path": "research/india-pakistan/data/benchmark_coverage.csv",
+      "bytes": 1461,
+      "sha256": "dfb53b89c7c37c64d4e845e3635dadf7b2c337a95c2ad9290b71d0aeb9dccccb"
+    },
+    {
+      "path": "research/india-pakistan/data/benchmark_forecast.csv",
+      "bytes": 22796,
+      "sha256": "a188bd5d201ebaf0a4ea480aa9e7096a9c2c625e951b1013e8d05709314d671f"
+    },
+    {
+      "path": "research/india-pakistan/data/boundary_licenses.csv",
+      "bytes": 838,
+      "sha256": "ba70726499e17544b11120f74716f290f92f68d7ae48268aa05e4e40da873607"
+    },
+    {
+      "path": "research/india-pakistan/data/claim-index.csv",
+      "bytes": 67261,
+      "sha256": "9a40cd4fbf3c917a8ea0b2df15dfabaaba02b004f5106df763906dfd9683cbcf"
+    },
+    {
+      "path": "research/india-pakistan/data/claims.csv",
+      "bytes": 303866,
+      "sha256": "2a4752f80ed1629a34ea161ab8a6d4f62ddb518b6e6ca9e51999939c7f22b6a9"
+    },
+    {
+      "path": "research/india-pakistan/data/cultural_context.csv",
+      "bytes": 18437,
+      "sha256": "6963793cac1ebbeac81042715926a220dba723f4c1b317db236b54a9880750bb"
+    },
+    {
+      "path": "research/india-pakistan/data/dataset-manifest.json",
+      "bytes": 9391,
+      "sha256": "0cf1eb07c7b9331e55d6b9959d1a51a46d2e4766a4cbe7367c96f70056c1bdb2"
+    },
+    {
+      "path": "research/india-pakistan/data/deficiency_population.csv",
+      "bytes": 44172,
+      "sha256": "0ec06fb085b5e28add5a8cad13db09e11f91a488264eeeb9dfd581f036eeabe5"
+    },
+    {
+      "path": "research/india-pakistan/data/diet_composition.csv",
+      "bytes": 1353962,
+      "sha256": "e25b26772f609292e701b437aede4ccfc60a61efb6fc626747597c0a76fa3f03"
+    },
+    {
+      "path": "research/india-pakistan/data/edition_claims.csv",
+      "bytes": 181465,
+      "sha256": "f483266b3db4db9c6892e66ff7f604d5b9a1d3a9b4705996e829d86ac4afe940"
+    },
+    {
+      "path": "research/india-pakistan/data/fetch_raw.py",
+      "bytes": 12572,
+      "sha256": "d5344f255c8e6aba47a46820bd1d6b015de80d2f142520820b6f98fb7075c874"
+    },
+    {
+      "path": "research/india-pakistan/data/household_size_context.csv",
+      "bytes": 1109,
+      "sha256": "a1f750e50c0e44d3938e827d50a23c14bcefaa5af323e46de1497ad38494520d"
+    },
+    {
+      "path": "research/india-pakistan/data/inventory_counts.csv",
+      "bytes": 6747,
+      "sha256": "cdfcbf6a1bdae878b30a1964879eed2ef260dad28bff5708deb95818d8306ade"
+    },
+    {
+      "path": "research/india-pakistan/data/link-status.json",
+      "bytes": 50924,
+      "sha256": "b75585b8e5cf2e86062cd3bdfacb3a342d30088005a3edb162d9b2ef98031ff7"
+    },
+    {
+      "path": "research/india-pakistan/data/meat_regional.csv",
+      "bytes": 3323201,
+      "sha256": "aa47fe7102173de1a58bc08157c7e0b482c0713302befb6605115787da63257c"
+    },
+    {
+      "path": "research/india-pakistan/data/meat_supply_national.csv",
+      "bytes": 2179224,
+      "sha256": "9686f4145b1e23464753fcedec56d4f9045f7fec99f1e579815e2388eb3714c7"
+    },
+    {
+      "path": "research/india-pakistan/data/newsframing_agreement.csv",
+      "bytes": 5913,
+      "sha256": "495f90c09acf90634d2c34e09bd0835d0706d64cb6ee7bb441fe29179cd42eda"
+    },
+    {
+      "path": "research/india-pakistan/data/newsframing_coverage.csv",
+      "bytes": 134125,
+      "sha256": "f6863870bb4d7d795499654b36ec019894f64635c54a1b1721269f1850a98368"
+    },
+    {
+      "path": "research/india-pakistan/data/package_metrics.csv",
+      "bytes": 8479,
+      "sha256": "2e9dc2a9c2302cc5464107907c702d6a93a3383dfa9b601e3d83a6d957548970"
+    },
+    {
+      "path": "research/india-pakistan/data/packages.csv",
+      "bytes": 2138,
+      "sha256": "3c4f07801a47ac9c8940af6933d719d5da8b55f43f6414b07a73d1eec1dfc6cf"
+    },
+    {
+      "path": "research/india-pakistan/data/phase_two_leads.csv",
+      "bytes": 21590,
+      "sha256": "511451f1ea7f579e3e8dc5a69ce3ee77e2241611bf01660a7cc97dbf4838da80"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_gap.csv",
+      "bytes": 452093,
+      "sha256": "5e661e8c9b3cd77a508ad8fe33f277eefc969214aca70065a9821b68ef3b9c2f"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_gap_group_summary.csv",
+      "bytes": 11041,
+      "sha256": "f794f51cbb4bbe435eb12bb6f77c7637f8ef94c373463c4cb11baa546dd2e1b2"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_intake_consumer_unit.csv",
+      "bytes": 31956,
+      "sha256": "36ee003539958111d8dc2fc67735bd3226e50b1509c0b4803e70c1bccc94848a"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_intake_modelled.csv",
+      "bytes": 19922,
+      "sha256": "5e2ef03e1eb6a9e1ebcd7586c6f7ea385248bd8cf98e81627a41b7ec955eb0a6"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_intake_observed.csv",
+      "bytes": 21666,
+      "sha256": "d1dfea6f6a667471c92da167f8e4be81b8129bc5215ada7c1725690b2aff06ca"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_model_food_coverage.csv",
+      "bytes": 37002,
+      "sha256": "254d77ef46b5c9ba1af6da4577930a551051b31f49d808f36b989d8a88198911"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_model_method_ranges.csv",
+      "bytes": 41228,
+      "sha256": "e3d117a105c675914b3fe4ffc5684a0c5d7e30e76ba63f0f6f83eb7954b9b923"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_model_physical_subtotals.csv",
+      "bytes": 555919,
+      "sha256": "59f6b59a2232453d2694acc6233585499493b879909033afeb69f94cb2375350"
+    },
+    {
+      "path": "research/india-pakistan/data/protein_model_sensitivity.csv",
+      "bytes": 93371,
+      "sha256": "73be90ad2b06c9d00718dbc1468f07e7c7ee5e03bb45011122ad06c230493da4"
+    },
+    {
+      "path": "research/india-pakistan/data/reader-links.json",
+      "bytes": 4686,
+      "sha256": "41d5aeedbccebd826008a42b1c6102772837cab72153710bd3f27040e9a48b88"
+    },
+    {
+      "path": "research/india-pakistan/data/reference_requirements.csv",
+      "bytes": 9513,
+      "sha256": "3124f145124ad80f103f11763cc13a0fd88d7daf1a836b0e633168b6c7dc7b53"
+    },
+    {
+      "path": "research/india-pakistan/data/region_boundary_crosswalk.csv",
+      "bytes": 13361,
+      "sha256": "db3f83170ccd26364329ab1258b769df30d925f21297b11e7f4136fdc0a66aa0"
+    },
+    {
+      "path": "research/india-pakistan/data/review_status.csv",
+      "bytes": 8884,
+      "sha256": "d438dda1997b11e3dc3663fe1473ac60f282498f4513da8acb5ef938e7009041"
+    },
+    {
+      "path": "research/india-pakistan/data/source-metadata-projections.csv",
+      "bytes": 4359,
+      "sha256": "e115e41e5ce8a9276870d4d9f0b3a15d22c5aa9bf53bf8109f8801264de6b6e6"
+    },
+    {
+      "path": "research/india-pakistan/data/sources.csv",
+      "bytes": 516394,
+      "sha256": "b651fa2133af7959527ab8c44053d96dcf85df9a58c6e935eddad504c54adbbe"
+    },
+    {
+      "path": "research/india-pakistan/data/survey_findings.csv",
+      "bytes": 21868,
+      "sha256": "c86c194d528ace2b179f78f760ab5d28dedbe921456325f8d6634c3cdabcf752"
+    },
+    {
+      "path": "research/india-pakistan/data/survey_studies.csv",
+      "bytes": 11632,
+      "sha256": "35086374c84a052cf5a6dfba36c60a1a463913e70dcaf731ee0c0e996c5a1d23"
+    },
+    {
+      "path": "research/india-pakistan/edition/build-receipt.json",
+      "bytes": 7826,
+      "sha256": "4c26652292501376bf940816d733da639a91829bb3f8d765fc60fdfdb1e1a15b"
+    },
+    {
+      "path": "research/india-pakistan/edition/build.py",
+      "bytes": 78895,
+      "sha256": "0e18e696438b68c4793b91a444feb3562d4e9b7b7a4629518967ddec7ddbe76f"
+    },
+    {
+      "path": "research/india-pakistan/edition/geo/geoBoundaries-IND-ADM1.geojson",
+      "bytes": 5103747,
+      "sha256": "4c63fe43294a391e8f2de4e9f86f3edb60f8688275b9fee90c61fb2aa0c26061"
+    },
+    {
+      "path": "research/india-pakistan/edition/geo/geoBoundaries-PAK-ADM1.geojson",
+      "bytes": 159152,
+      "sha256": "c7ff4e70bcf740cfba47b871a7c2b2b2b243b59e4c0656e6e1bc2a64e295d93a"
+    },
+    {
+      "path": "research/india-pakistan/edition/geo/provenance.json",
+      "bytes": 968,
+      "sha256": "cd215e894f61001a7f63df02d1b7f74baeab999f06b739d45230785b4de24d39"
+    },
+    {
+      "path": "research/india-pakistan/edition/index.html",
+      "bytes": 5928641,
+      "sha256": "1859126fc729c30fec1a064b5dc4087d3d219e805b1a75706c75c971125b59dc"
+    },
+    {
+      "path": "research/india-pakistan/edition/lib/D3-LICENSE.txt",
+      "bytes": 731,
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "research/india-pakistan/edition/lib/d3-7.9.0.min.js",
+      "bytes": 279706,
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
+      "path": "research/india-pakistan/edition/runtime.js",
+      "bytes": 38785,
+      "sha256": "bfefd4b5d44877307e1994bee49f09fb0d208c3894acc48c3c6485421fda82cb"
+    },
+    {
+      "path": "research/india-pakistan/edition/styles.css",
+      "bytes": 30240,
+      "sha256": "2d9c898dd3f755d58d13f21465be47839e35bf9b5a1dbcd39043da6545ca40a1"
     },
     {
       "path": "research/india-pakistan/index.html",
@@ -757,14 +1122,559 @@
       "sha256": "93e5cedd5fe9fe3e285e6ae3310b90611ad50cc47d4886d5efe607ddda7a20aa"
     },
     {
+      "path": "research/india-pakistan/methods/README.md",
+      "bytes": 1637,
+      "sha256": "bf48480c762e097f360844b01b99a5de6ecebb85e7d37d993f3d0a6297e8b940"
+    },
+    {
+      "path": "research/india-pakistan/methods/factor_evidence.csv",
+      "bytes": 418056,
+      "sha256": "d59bb59083b11d69cdd493600f0f354ac8fa1feb32843f5af6fb4529105a399c"
+    },
+    {
+      "path": "research/india-pakistan/methods/source_factor_catalog.csv",
+      "bytes": 48087,
+      "sha256": "fe40e79a058b1a58ded4f0e58ccaebca4762fbab521d79fc05d784a77a58c1ad"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/PROJECTION.json",
+      "bytes": 34376,
+      "sha256": "a1184f3742e82ed23ce30444ad6c23f47b2bfa004074a97a2846c3660fd271e6"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/README.md",
+      "bytes": 4899,
+      "sha256": "e40953e2fa7c42e562198a48e1506454e3effa71d2cbad58748233c97e994a0b"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/food_coverage.csv",
+      "bytes": 32729,
+      "sha256": "f21910f39e197ba4ed728c67bb68468c31a7a43222d03f5b33f287feb7dc064f"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/integrity_receipt.json",
+      "bytes": 8688,
+      "sha256": "8d998b4f529601e1a31931c9f68a0d3e99db7e1c1126f6507226ba55d156cdd9"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/method_ranges.csv",
+      "bytes": 32008,
+      "sha256": "2746e94a1a87da29024cb022d67a76efcc5a0694a39dbb57214c39e7b1fd54f2"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/scenario_definitions.csv",
+      "bytes": 2744,
+      "sha256": "f58e1dac416af53535bee25b63caad5a9d50dca4ec856d25b67710b732a553df"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/scenario_summary.csv",
+      "bytes": 513970,
+      "sha256": "b8331c5406a49bb8d0b80d60761649d6876bac40a4ff3ba7cbb5be847eecc3e9"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/fixtures/supervisor_model/source_snapshot.csv",
+      "bytes": 7414,
+      "sha256": "e9b7c7d5b4d0794a17a61017e64900058f3bc5e617e895d644a48e9236dd525e"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_altprotein_supervisor.py",
+      "bytes": 6125,
+      "sha256": "a401d87d2207d46e461ba53e7b88a4b67d1244fe487289e88e3db0f15d8aaed8"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_consumer_unit.py",
+      "bytes": 2087,
+      "sha256": "e21a734d025577363ab70bb73b0af9e75ca679fe6bb64f357566443bf5ca2ff1"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_deficiency.py",
+      "bytes": 3474,
+      "sha256": "683d9f20840a3499cfa0ba25f72e4f2a241f5a47eaa3ff51af58b2335eae44bf"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_national.py",
+      "bytes": 3382,
+      "sha256": "da3dc82eb6d0ffb3ec7cc8e6eeeac591966fc81a4c7739a0e4a674f1fae63b9b"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_pakistan_modelled.py",
+      "bytes": 7817,
+      "sha256": "71375eca0510444c551ffa213a94c488813d894d3987a0685bc49610913e4d25"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_protein_gap.py",
+      "bytes": 4281,
+      "sha256": "fe3e5238c66610ad89ba952a663967b9566198de24b3e9ca5e019018c5902404"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_provenance_registration.py",
+      "bytes": 3262,
+      "sha256": "cc8cbf979d57fbca8ec82670d4c3e9265243b822028037f2e702d208b0047491"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_row_tiers.py",
+      "bytes": 1890,
+      "sha256": "b85a989e478407d50062706507b0d58450d701012fb65e31cf0832ca457fddd3"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/historical_tests/test_supervisor_benchmarks.py",
+      "bytes": 1521,
+      "sha256": "126213375ea1ba61b9718a0c908ca7a13e819fb1c322b72a575b526a4cdfba31"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/pytest.ini",
+      "bytes": 61,
+      "sha256": "94fdc2d545b2d4077a4d70229fd22ba3ccac21d49d1097d2873f76d04e9a3c7a"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/requirements-dev.txt",
+      "bytes": 54,
+      "sha256": "0a1c9c560bcd8526148b305983c8848a7ab0a6bdbc5a2edd08ab02e2316b65f5"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/companies/build_company_candidates.py",
+      "bytes": 8150,
+      "sha256": "f82b60843cc3fcf627150bbef2017693418eb24a70fa4aa0595fae6f0182c139"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/companies/build_reviewed_companies.py",
+      "bytes": 19699,
+      "sha256": "c90d1445f0f6983bb14e474f7f1fb3474c4b1ed6f96196e9ba49d2c817e8fd20"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/india_policy/build.py",
+      "bytes": 17784,
+      "sha256": "de45e1043404e403168b098d6eab0c59de768f980918a4c7115dee2e20c931c7"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/market/extract.py",
+      "bytes": 11113,
+      "sha256": "bc0f21a8465114351bfb440ad7c7a160f539377d07e65c46e21667d0f42252c1"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/pakistan/build.py",
+      "bytes": 28468,
+      "sha256": "6df6461fd65c6376f5f7816a29f83825dee1b8632087f6f0e7039c6a33fb77d5"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/pakistan/fetch.py",
+      "bytes": 2034,
+      "sha256": "b7027626ace13b8b1440581ce00f1bfb61fd6537352b7f7692faed9ceafba566"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/supervisor_revision_20261013/build_staged.py",
+      "bytes": 31470,
+      "sha256": "8b90d3c59b2f2ce94ce716a21f51b9e0320627f8e4c18e31fbe7c1ed657c6a5b"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/supervisor_revision_20261013/fetch_public.py",
+      "bytes": 2496,
+      "sha256": "5301f2e597f84b2b058593e8ff05a426c649a4c39f1b4c8f62f28a2ccc31184f"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/altprotein/supervisor_revision_20261013/validate_staged.py",
+      "bytes": 5775,
+      "sha256": "9cdd4948c18953f3267f2c06dc171b868fe3a89b6c9e33964ff3e7963009d5a3"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/audit_altprotein.py",
+      "bytes": 23261,
+      "sha256": "23904d85bb62072414e06870be0d94e4fd8cba4d73973886a71485e4b1dceb49"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/audit_provenance.py",
+      "bytes": 3413,
+      "sha256": "e507d61790952d9a50764a15300d3d6adff81cffec92a5ec82746333c31d6f26"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_altprotein_sources.py",
+      "bytes": 9695,
+      "sha256": "08ff4176b1b88a798533f169568c81e3270e9e15a12b1acd0321433afc4e6966"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_cultural_context.py",
+      "bytes": 4413,
+      "sha256": "e05a3636dc3c2e565003e3e6b5dc624a57c4961296dd3adfe2b67a0ee15b4409"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_dashboard.py",
+      "bytes": 5530,
+      "sha256": "0e1fb3af692d50585e2cd434c725dc6e97386e837dccde0febd8326dc5ae654d"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_deficiency.py",
+      "bytes": 5528,
+      "sha256": "0bc84ef4a5db321b369ec5814781e53cb9a82a5b585cc77ba89806fc2b02cebe"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_diet.py",
+      "bytes": 7958,
+      "sha256": "d732d4873da8a0713ba7bc6be3882f380aedcc9da39be4db87b73ed2b513f31f"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_national.py",
+      "bytes": 13698,
+      "sha256": "a93cc98fef23e21b89a62ab209b26ae0db673341274e5d2f18552f473ff91b76"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_pakistan_modelled.py",
+      "bytes": 26191,
+      "sha256": "423c290717e539d8d5bffa3d46a926550fb06165f134fb377339069fe3d64cfa"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_protein_gap.py",
+      "bytes": 8969,
+      "sha256": "38aabe04b60382de3970dfd8d8d3baf4dceab1e8a13e399a04ebe857d8fa1520"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_regional.py",
+      "bytes": 9492,
+      "sha256": "17eebcf37f0d7ba9788846e891ae7b81fb34038cf68f2fd390d012d77a1e4a69"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/build_report.py",
+      "bytes": 19226,
+      "sha256": "75a40e1b359ebfb79ca85d7d952535b6910341a80283dbfa9428c95403a34696"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/cultural/pakistan/build.py",
+      "bytes": 20096,
+      "sha256": "94244443356e4eeb3c07327bd781c4d92ef87d0b67449b6f5b885a9af3bfdf02"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/cultural/pakistan/fetch.py",
+      "bytes": 1522,
+      "sha256": "b152c8edcfc483ce30ddec27ad901c3b5dd44bf0e07e3b36f758dd74d486d490"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/deficiency/anthropometry/extract_anthropometry.py",
+      "bytes": 19634,
+      "sha256": "64a11c882841a2a7f9a098b28a8fa4868cc42090b6361bcb67d5f565ed82e2b4"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/deficiency/sofi/extract.py",
+      "bytes": 9959,
+      "sha256": "30267f3df568f091e63e508670a86878df5627cccc0d24387d1d1561d5c76b41"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/extract_pakistan_diet.py",
+      "bytes": 9144,
+      "sha256": "cc427f7c65f1350709d634d485f77fdb4c86824a6bc932ece94fdbd8757ae7b6"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_coverage_20261013/coverage.R",
+      "bytes": 24644,
+      "sha256": "d8184c5fc3e4c56cae2009bf9703af58fd7b876489951be32d9010178c0cad3a"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_coverage_20261013/run_coverage.py",
+      "bytes": 12913,
+      "sha256": "f96e93a870d8a180b197b9452dab04af92cfcae4b51794481fbf30e1284cba1a"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_estimates_20261013/calibration_math.R",
+      "bytes": 10767,
+      "sha256": "b1bf42d5da2ecf4bd3124e8fa299286bdcea37870a465d4fdfcb6bc905bc6008"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_estimates_20261013/estimates.R",
+      "bytes": 27579,
+      "sha256": "47cafbb133ef0cace79176531faac80d18baeb9d46766cb0b4b06bd772f783c8"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_estimates_20261013/run_estimates.py",
+      "bytes": 12187,
+      "sha256": "712a425eb102e25ff9df79d184b34658e9051edb876ecb9303ffb263feecd367"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_spec/compile_spec.py",
+      "bytes": 25711,
+      "sha256": "8d1549a553f0b205a00e4b9b5f4dd6aff4cb09a7924b60f51a6d3226e0006e93"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_calibration_spec/test_compile_spec.py",
+      "bytes": 10223,
+      "sha256": "88319c2348a3967059d0da3b6278a39313e63ead08f522fa0fed2186d7754f8d"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_food_crosswalk/build_crosswalk.py",
+      "bytes": 12584,
+      "sha256": "86e02cfe1d355e07c2e3447f4c169b96be32f1f6b2809b4bb6799ffe17bda25c"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_food_crosswalk/supplement_regional_20261013/build_supplement.py",
+      "bytes": 11251,
+      "sha256": "a7c5e6f0a9152c10a43be1bc3ba398ae1ea5ab5f28f42981c1fc9a215df8c00a"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/food_coverage.R",
+      "bytes": 2343,
+      "sha256": "743e737dcb3e244003827321d96c1da90ced782bb53035c436e08802078cdc2e"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/grouping_exploration_20261013/grouping.R",
+      "bytes": 14122,
+      "sha256": "b824ceceeb513fc49f0ee89df5f5a2d9919a79d22ca3ea227de92d0492f287f7"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/grouping_exploration_20261013/verify_grouping.py",
+      "bytes": 9567,
+      "sha256": "01c6e7dcbe7b40dda6a828eab61055214cf2c129e376f5b5be7a7f8c3598021a"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/profile.R",
+      "bytes": 19367,
+      "sha256": "70d63cf1c1af1633681a58dd2f8587ed51a9c6b2789595db322abb09dc240de9"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/summarize.py",
+      "bytes": 9983,
+      "sha256": "72fcb72336b56e47d7258987a0621eec43e50b0bd9f48db1b633401c14d14a7c"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/table_supplement_20261013/balance_profile.R",
+      "bytes": 5180,
+      "sha256": "6f18203b58a953c2aeb981453b2c788bce2f43c22d5b15a5cdc457b03223b66b"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/table_supplement_20261013/compare_tables.py",
+      "bytes": 13039,
+      "sha256": "a89ff468869586bf5302e86d516b6d75bd57cb877828f2feebee546ad2093bcc"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/table_supplement_20261013/verify_supplement.py",
+      "bytes": 3832,
+      "sha256": "09c7d2f04e3e6c22488834f28699e4639fb8c164d66298d9f783250e753d5c45"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_microdata_profile/welfare_diagnostic.R",
+      "bytes": 5740,
+      "sha256": "0958dd77ec9b5e205d689391de0cf4d525818d595d040d4dcfd0eba926e33ead"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_price_inputs/extract_price_inputs.py",
+      "bytes": 4917,
+      "sha256": "a493335ab650be30a0063093eec659a226a17bfb1e80202ae357e0172f1aea89"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_price_inputs/overall_cpi/extract_overall.py",
+      "bytes": 3376,
+      "sha256": "e0300175fe76129ac679cb1d3809111be1a2aae56a0c2156a2d2540e6c688c40"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/m3_usda_supplement/extract_candidates.py",
+      "bytes": 6124,
+      "sha256": "7e0f5f2eb3791cbad741417f059b9b0a0b55b57e21094242ca1bc1f09527fc20"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/pakistan_conversion.py",
+      "bytes": 13499,
+      "sha256": "14270e686d9187ab24f6efb35e0dbb5f408a437b115f699c3d28a96de31953fd"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/requirements/build_supervisor_benchmarks.py",
+      "bytes": 5986,
+      "sha256": "0341418e679d25a49ad1a1957b494ff160c612f127736934bc7d844711b7cbb8"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/requirements/register_requirement_evidence.py",
+      "bytes": 8296,
+      "sha256": "2d83bd5fa111cd6eddf604dc465b01722ab5dfc53883761be3983a1e55dc13cc"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/supervisor_model_20261013/build_model.py",
+      "bytes": 40854,
+      "sha256": "d5556ae5f7692bae2b1b04530f4aa961f7ba1efd6f39acdb707b152a65774517"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/diet/supervisor_model_20261013/test_model.py",
+      "bytes": 10334,
+      "sha256": "91b502e37f1a2cc8d240a58cdcf129360602d06ff6c21b6bd33678f9b479fa55"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/fbs/restore_item_codes.py",
+      "bytes": 6287,
+      "sha256": "a33924763fdbc2cdc828f7519748bb5f9197566fd727204c97feac15a7ee8f29"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/national/extract_national.py",
+      "bytes": 10049,
+      "sha256": "63ca2479f7591f37c2c17816c5abf6197c8e12d10bc012437bc64c14563e901f"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/national/usda-poultry-2026-10-13/extract_usda.py",
+      "bytes": 18139,
+      "sha256": "68fb41b1aefac65ecf1289a94458c9e8df1f4eb968602dac130917bd2e9690c3"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/oecd/extract_meat.py",
+      "bytes": 4733,
+      "sha256": "625d741f739a7340ea2aaf8f34353c9f3b273c95996fdbb10211fa1c5ef80731"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/provenance.py",
+      "bytes": 5332,
+      "sha256": "67fad968e463e5d318d5aeca45363743769437a8e9c72d79d6524104d9756fde"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/regional/extract_regional.py",
+      "bytes": 13933,
+      "sha256": "8fea61022323b00cd919fa815dfef7d5e33e24f0a8ed696e1a6bf9b994041eb1"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/regional/india-supplement-2026-10-13/extract_bahs.py",
+      "bytes": 20699,
+      "sha256": "eede8cc81de95303f4c13802b0a8b4e37106846675876d336161fe3a06f7f07e"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/regional/india-supplement-2026-10-13/extract_hces.py",
+      "bytes": 11842,
+      "sha256": "3e31f36e812520e7359c378454f02377232d15b63067257af13eeb0add8244cd"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/regional/pakistan_supplement_20261013/extract.py",
+      "bytes": 18907,
+      "sha256": "10cc5d35ac22e7025b2af3afeaa309e523cc8e7a072db277d5661f5132432358"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/register_boundaries.py",
+      "bytes": 3088,
+      "sha256": "bf093307fa3c2f9f980ebfb824fd9f1bfb7e568684ecd46ca8305c05508be56f"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/register_m1_sources.py",
+      "bytes": 3939,
+      "sha256": "87e80aab9c08a54e7fe95c58a10609c9d18a5a2860bc609ef92e56c23ed895cb"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/register_m3_sources.py",
+      "bytes": 3072,
+      "sha256": "d2416f86c60214a2445add2e5fc4cda19891c30816c1acd895574bc014ea4315"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/register_m5_evidence.py",
+      "bytes": 7533,
+      "sha256": "7e6089d39bef4c4b8d28ccfe3a15bd930e0174a1a1500f93a092441e465865cb"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/scripts/register_sentiment_evidence.py",
+      "bytes": 1447,
+      "sha256": "2876a5a58034dd88f8b65b17d5e4afb0cdf3dcc549229889ec6e5db2d442dea0"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/conftest.py",
+      "bytes": 528,
+      "sha256": "15b09605695d715425fc955e3e6dd743a04255df4b43fec1d3cb9f163c672594"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/test_fetch_raw.py",
+      "bytes": 8911,
+      "sha256": "c767f8317af02f14d2e15857f11af3d416f5ed8d759ecac1c9e12ec27e0ab573"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/test_national.py",
+      "bytes": 3382,
+      "sha256": "da3dc82eb6d0ffb3ec7cc8e6eeeac591966fc81a4c7739a0e4a674f1fae63b9b"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/test_provenance_registration.py",
+      "bytes": 3262,
+      "sha256": "cc8cbf979d57fbca8ec82670d4c3e9265243b822028037f2e702d208b0047491"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/test_public_aggregates.py",
+      "bytes": 6452,
+      "sha256": "cf02f536992cf6c67111a44e6eed5db6493a7a26ca075a449cae3f0f696cc765"
+    },
+    {
+      "path": "research/india-pakistan/pipeline/tests/test_row_tiers.py",
+      "bytes": 1890,
+      "sha256": "b85a989e478407d50062706507b0d58450d701012fb65e31cf0832ca457fddd3"
+    },
+    {
+      "path": "research/india-pakistan/report/REPORT.md",
+      "bytes": 404648,
+      "sha256": "e66aaa5a7ca0638639d365f828230a8507938f68f242643e4936563b2d74ea5b"
+    },
+    {
+      "path": "research/india-pakistan/report/REPORT.template.md",
+      "bytes": 77275,
+      "sha256": "a6915013c911dc5bfb58900da112a942497e498ea938a670c5f187618ad17742"
+    },
+    {
+      "path": "research/india-pakistan/report/report.css",
+      "bytes": 1773,
+      "sha256": "32bb7e8fc60f86475c67352693ef5bc748cd2a44be7620795ca9495ae8c68776"
+    },
+    {
+      "path": "research/india-pakistan/report/report.docx",
+      "bytes": 80033,
+      "sha256": "d6bf578e57587086b35603929174088fe42db81d120c6d80d75e3339a9488f38"
+    },
+    {
+      "path": "research/india-pakistan/report/report.pdf",
+      "bytes": 674451,
+      "sha256": "cb821565945fc1709a0d02db5f0c48e46eb785e72ad88ee6e3de914359da1cd9"
+    },
+    {
       "path": "research/india-pakistan/source-register.json",
       "bytes": 38154,
       "sha256": "1a17f860facc0d95b7008be38f487aeda4b08834bd72f7fc7cabbebf505964a0"
     },
     {
+      "path": "research/india-pakistan/tests/test_altprotein_proxy.py",
+      "bytes": 2533,
+      "sha256": "6236be4f84261fedcb4ebd4e43d2be49542f634eb822c0b1ce99694f2f3ba34e"
+    },
+    {
+      "path": "research/india-pakistan/tests/test_verify_edition.py",
+      "bytes": 30905,
+      "sha256": "c096d4badd80ca24fd50a04e3b9fa2a587c3da6cf53c4624b660bc26f15dc819"
+    },
+    {
+      "path": "research/india-pakistan/tools/build_altprotein_jobs.py",
+      "bytes": 6247,
+      "sha256": "ebcddabfcb3056cee544fa9996a1636da662c2fda0e7155be2a449424b5cf828"
+    },
+    {
+      "path": "research/india-pakistan/tools/build_altprotein_proxy.py",
+      "bytes": 27873,
+      "sha256": "d47b901f661674626cebb1057b873432312ddb4560e3e76439dd6b74588870f1"
+    },
+    {
+      "path": "research/india-pakistan/tools/build_report.py",
+      "bytes": 35720,
+      "sha256": "357d2800b9de86994fdcaccb96f1f703daf48cb7b82a021895d957ef92a55a6a"
+    },
+    {
+      "path": "research/india-pakistan/tools/export_report.py",
+      "bytes": 3975,
+      "sha256": "7435cc1dfc6c4009da717c2cdac0cf38fd7202cf15a3e883b83dbfe35db1e798"
+    },
+    {
+      "path": "research/india-pakistan/tools/make_report_reference.py",
+      "bytes": 3512,
+      "sha256": "63fc24cb7671fb1859d926d4d1ac6edc41edbfec46ed6d502eba2a08995e767e"
+    },
+    {
+      "path": "research/india-pakistan/tools/probes.py",
+      "bytes": 39539,
+      "sha256": "0269dec4d0d575a836d5369c5cba80d0373511d066862504a2788e6aac6d0246"
+    },
+    {
+      "path": "research/india-pakistan/tools/verify_edition.py",
+      "bytes": 73838,
+      "sha256": "51f79f1d0e97607e7cbde9c9a33d58acdf80e1cc15a44f8890b88fa1f41ee773"
+    },
+    {
+      "path": "research/india-pakistan/verification-config.json",
+      "bytes": 7514,
+      "sha256": "075f7906495b1c9306d3bc591c5df1460331b8aa111c67394fbe734ba55689fb"
+    },
+    {
       "path": "research/library.json",
-      "bytes": 5497,
-      "sha256": "ef709be97831400e71e7dba733716179becfec68d17a630478163c78d45f8a86"
+      "bytes": 6118,
+      "sha256": "f4fa014cde49dfb6128705932ce4ba7f2301a62d6f399faba9bd4fb44091c72b"
     },
     {
       "path": "research/orientation/README.md",
@@ -828,18 +1738,18 @@
     },
     {
       "path": "sources/catalog.csv",
-      "bytes": 147687,
-      "sha256": "dcb9904d621116a0ab157516c209347e30e6b6127d830fa19786ef35d9fbc3d7"
+      "bytes": 170948,
+      "sha256": "15aa7175297bfe8ca139470f43f8ea329a45f799499912181aceacac138fe212"
     },
     {
       "path": "sources/catalog.json",
-      "bytes": 592398,
-      "sha256": "d23646a5294ec6880ddcb1f545819d6e52ad30d277bffbd621bfe3e5c612548b"
+      "bytes": 662778,
+      "sha256": "e486da2b71f605089c00892b961b1d5a8212e46bdacfe644fcf170ffd8b14cde"
     },
     {
       "path": "sources/index.html",
-      "bytes": 421153,
-      "sha256": "6173d8b6a91fb52abba8a2668cebe5201736c103a2a565f18ef3414bb5331f9f"
+      "bytes": 465387,
+      "sha256": "3c2094ea53bf686a5326af0207ef510dd9de4187855aaf20eecd215757db1696"
     },
     {
       "path": "tools/bridge-v2-checks.mjs",
@@ -848,8 +1758,8 @@
     },
     {
       "path": "tools/build-library.mjs",
-      "bytes": 18214,
-      "sha256": "bb077f74e6c1a2ec88b1495f252cb2dba95aed3c3dda431015d326f8d6fbc6bc"
+      "bytes": 18798,
+      "sha256": "c5aed548cabd9e2a614df79c8c5eae3b3a8c238b2f70b34989ff86853ce25ba8"
     },
     {
       "path": "tools/build-paper-appendices.mjs",
@@ -903,8 +1813,13 @@
     },
     {
       "path": "tools/privacy-checks.mjs",
-      "bytes": 1750,
-      "sha256": "52dc22480b3bcca1fbb2c9766eeb987b9d3d8e8b64c681fbb522d3c88c117861"
+      "bytes": 7985,
+      "sha256": "9debbb9b77c22275d7a1ddf87d6c0072e25a96ee55140b1a9839d338d42813a9"
+    },
+    {
+      "path": "tools/probes.py",
+      "bytes": 262,
+      "sha256": "ab72873e80f8d0b03c18ad86d200af98b01a0f9c6b4affd4c1f218f66ead921c"
     },
     {
       "path": "tools/repo-files.mjs",
@@ -962,6 +1877,11 @@
       "sha256": "28b2490b6b716491508022060e3767832fbb5e0c1c8cb14463076ef22e39af86"
     },
     {
+      "path": "tools/test-supervisor-publication-checks.mjs",
+      "bytes": 6250,
+      "sha256": "8b503300ce94bc5e6b5cb827e2149888295ddee547d0910b8054550f5d8845df"
+    },
+    {
       "path": "tools/test-survey-checks.mjs",
       "bytes": 3307,
       "sha256": "970059111b18c0e4a3cb08416e671cc783fb0512a458b1264d58fd67fafb9101"
@@ -973,8 +1893,13 @@
     },
     {
       "path": "tools/verify.mjs",
-      "bytes": 11758,
-      "sha256": "47cc9be64d9c78a09a73c19cbe95592c0e8cfd7b36b54adb17ad29deaae1d66b"
+      "bytes": 12732,
+      "sha256": "e63ce1a5e931072dc7b4063bca98194673dbb23e5e28bd92770b5fa382f4a254"
+    },
+    {
+      "path": "tools/verify_edition.py",
+      "bytes": 355,
+      "sha256": "20022f5d64bc42a208d3fd3a2dd020ef631874289f9ba47f4f41eac642518788"
     }
   ]
 }

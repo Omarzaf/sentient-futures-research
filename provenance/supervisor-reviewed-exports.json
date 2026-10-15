@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "human_verification": "pending",
+  "markdown": {
+    "path": "research/india-pakistan/report/REPORT.md",
+    "sha256": "e66aaa5a7ca0638639d365f828230a8507938f68f242643e4936563b2d74ea5b"
+  },
+  "canonical_text": {
+    "path": "provenance/supervisor-export-text/canonical.txt",
+    "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+  },
+  "parity_evidence": {
+    "path": "provenance/supervisor-export-text/parity.json",
+    "sha256": "1482ebb61708a98073f7142924e0e665338007b6e9df2fea95ebda5a47c66687"
+  },
+  "exports": [
+    {
+      "path": "research/india-pakistan/report/report.pdf",
+      "sha256": "cb821565945fc1709a0d02db5f0c48e46eb785e72ad88ee6e3de914359da1cd9",
+      "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
+      "text_path": "provenance/supervisor-export-text/pdf-body.txt",
+      "text_sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    },
+    {
+      "path": "research/india-pakistan/report/report.docx",
+      "sha256": "d6bf578e57587086b35603929174088fe42db81d120c6d80d75e3339a9488f38",
+      "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
+      "text_path": "provenance/supervisor-export-text/docx-body.txt",
+      "text_sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    }
+  ]
+}

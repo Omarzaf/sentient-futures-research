@@ -1,0 +1,74 @@
+{
+  "S01": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39656840&retmode=xml",
+    "reason": "NLM structured PubMed abstract record for the exact DOI; abstract access only. Publisher page returned 403 and PubMed HTML was a challenge response.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.17559",
+    "checked_at": "2026-10-14T01:20:05.120606+00:00",
+    "status": 200
+  },
+  "S05": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12345640/",
+    "reason": "NLM PMC full-text copy of the exact article; citation DOI and title verified in the retrieved body. Publisher page returned 403.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://www.mdpi.com/2304-8158/14/15/2590",
+    "checked_at": "2026-10-14T01:20:05.094251+00:00",
+    "status": 200
+  },
+  "S06": {
+    "url": "https://pdfs.semanticscholar.org/44af/76aedb5c5b5c8e16b01b4307176184f8b184.pdf",
+    "reason": "Third-party Semantic Scholar mirror of the published primary paper, not the publisher host. PDF title and DOI match; sample N=102 independently located in methods and Table 1. Publisher page returned 403.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://agraris.umy.ac.id/index.php/agraris/article/view/182",
+    "checked_at": "2026-10-14T01:20:05.689137+00:00",
+    "status": 200
+  },
+  "PK-L03": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555470/",
+    "reason": "NLM PMC full-text copy of the exact article; citation DOI and title verified in the retrieved body. Publisher page returned 403.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://www.mdpi.com/2304-8158/9/9/1292",
+    "checked_at": "2026-10-14T01:20:05.319462+00:00",
+    "status": 200
+  },
+  "PK-C04": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13115498/",
+    "reason": "NLM PMC full-text copy of the exact article; citation DOI and title verified in the retrieved body. Publisher page returned 403.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://www.mdpi.com/2304-8158/15/8/1288",
+    "checked_at": "2026-10-14T01:20:05.361092+00:00",
+    "status": 200
+  },
+  "PK-C05": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13545432/",
+    "reason": "NLM PMC full-text copy of the exact article; title, DOI and original publisher PII match. This confirms access, not a new population baseline or a review of every claim. Publisher page returned 403.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://www.sciencedirect.com/science/article/pii/S2475299126018780",
+    "checked_at": "2026-10-14T01:20:05.336564+00:00",
+    "status": 200
+  },
+  "CTX-12": {
+    "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Oilseeds+and+Products+Annual_Islamabad_Pakistan_PK2026-0004.pdf",
+    "reason": "Official USDA FAS PDF of the same Pakistan Oilseeds and Products Annual, report PK2026-0004 dated 3 April 2026. The original landing page returned 403; the direct official PDF returned 200.",
+    "evidencePath": "logs/link-audit/reader-link-verification-20261014T012600Z.json",
+    "original_url": "https://www.fas.usda.gov/data/gain/2026/04/pakistan-oilseeds-and-products-annual",
+    "checked_at": "2026-10-14T01:09:06.791200+00:00",
+    "status": 200
+  },
+  "IN-S07": {
+    "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-12-04377/article_deploy/sustainability-12-04377.pdf",
+    "original_url": "https://www.mdpi.com/2071-1050/12/11/4377",
+    "status": 200,
+    "checked_at": "2026-10-14T01:59:49.356406+00:00",
+    "reason": "Exact published primary paper from publisher CDN; title, DOI and survey-method section checked. Original HTML route returned403.",
+    "evidencePath": "logs/round2-bilateral-source-check.json"
+  },
+  "arora-brent-jaenicke-2020-india-alt-meat-wtp": {
+    "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-12-04377/article_deploy/sustainability-12-04377.pdf",
+    "original_url": "https://www.mdpi.com/2071-1050/12/11/4377",
+    "status": 200,
+    "checked_at": "2026-10-14T01:59:49.356406+00:00",
+    "reason": "Exact published primary paper from publisher CDN; title, DOI and survey-method section checked. Original HTML route returned403.",
+    "evidencePath": "logs/round2-bilateral-source-check.json"
+  }
+}

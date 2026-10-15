@@ -4,6 +4,9 @@
 !.env.example
 node_modules/
 .venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
 .cache/
 .playwright-mcp/
 coverage/
@@ -28,3 +31,7 @@ uploads/
 
 # Browser QA screenshots: regenerate locally with presentations/halal-mmm/build/browser-qa.mjs
 presentations/halal-mmm/qa/
+
+# Exact authored supervisor exports; hashes and reviewed text are checked in CI.
+!/research/india-pakistan/report/report.pdf
+!/research/india-pakistan/report/report.docx

@@ -1,0 +1,208 @@
+{
+  "imputation_performed": false,
+  "input_bindings": {
+    "data/raw/composition/pakistan-fct-37.png": {
+      "bytes": 119879,
+      "sha256": "3f9424e55c9fddbecf484ea42100fe2a8b2e9a11ac1e93f8ff676e4d1971c2d8"
+    },
+    "data/raw/composition/pakistan-fct-39.png": {
+      "bytes": 112785,
+      "sha256": "6198733102d96b31e8e066bc66eb4b81ebb6a40f445714474a3b00267c6318f1"
+    },
+    "data/raw/composition/pakistan-fct-41.png": {
+      "bytes": 137508,
+      "sha256": "e81e50c528b1b4fb326063043318fb1b82fef6182aa99638b635b2915c5fcc2c"
+    },
+    "data/raw/composition/pakistan-food-composition-2001.pdf": {
+      "bytes": 5673736,
+      "sha256": "257ac89b3e9b17bdb663c755141a6ef596cc832271bd780376392214c8db0520"
+    },
+    "data/raw/diet/m3-infoods-2026-10-13/bangladesh-fct-2013.pdf": {
+      "bytes": 5467777,
+      "sha256": "9728be753c4675e0673d02624297d81d1da41fea8a78fa36dee586aa9224cb93"
+    },
+    "data/raw/diet/m3-infoods-2026-10-13/density-v2.pdf": {
+      "bytes": 1398472,
+      "sha256": "41a48793d69061c9ef7d9d99d3cab4e901492b1c42c47f386bf0532f3bdb585c"
+    },
+    "data/raw/diet/m3-infoods-2026-10-13/food-matching-v1-2.pdf": {
+      "bytes": 600100,
+      "sha256": "7f51ddf38e3201cc3365ebf98744b41bb53b99215b72d10e746911c91b6286ce"
+    },
+    "data/raw/diet/m3-infoods-2026-10-13/hces-technical-notes.pdf": {
+      "bytes": 259167,
+      "sha256": "c5b138f6cfc8a6bb717838fb262e703f9742272c223190bf6f0082c88124ca8e"
+    },
+    "data/raw/diet/m3-infoods-2026-10-13/india-ifct-2017.pdf": {
+      "bytes": 12401190,
+      "sha256": "7fc5a5112a57240d25bf695dca82cccd8d93ed54e8c39530e42b5ad1820d0e8c"
+    },
+    "data/raw/diet/m3-usda-sr-legacy-2026-10-13/sr-legacy-documentation.pdf": {
+      "bytes": 177990,
+      "sha256": "fdc33442adb5707d448676e92b54f9adeaad63b6df267b683b5fe728307391cf"
+    },
+    "data/raw/diet/m3-usda-sr-legacy-2026-10-13/sr-legacy.zip": {
+      "bytes": 6074592,
+      "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+    },
+    "data/raw/diet/pakistan-hies-2024-25-female-questionnaire.pdf": {
+      "bytes": 2148619,
+      "sha256": "084e602cb645d43aae5ebbf18a896ee46eb8e2c4df2ff71550fc3cceb7b0e9f3"
+    },
+    "data/raw/diet/pakistan-hies-2024-25-manual.pdf": {
+      "bytes": 3085514,
+      "sha256": "188081a3fccf744e5f496b525b6a094916a61bb1ef7ebabc230ecc2f5cada91c"
+    },
+    "data/raw/diet/pakistan-hies-2024-25-manual.txt": {
+      "bytes": 520941,
+      "sha256": "40529fa3ccd846b835c4cd8cf9df1fda89a3ba393b4bd3cbc1d1adf1be7f0c2e"
+    },
+    "data/raw/regional/pakistan-hies-table23.xls": {
+      "bytes": 136192,
+      "sha256": "c11710ba93b596dca5fa2ff2d6a74da227ee57051700c1120a719421e71a7287"
+    },
+    "scripts/diet/extract_pakistan_diet.py": {
+      "bytes": 9144,
+      "sha256": "cc427f7c65f1350709d634d485f77fdb4c86824a6bc932ece94fdbd8757ae7b6"
+    },
+    "scripts/diet/m3_calibration_estimates_20261013/README.md": {
+      "bytes": 7955,
+      "sha256": "c378824e85b3379dc793c8006b2fe8baf6895bb3c72a72053a86a67accdd1d4d"
+    },
+    "scripts/diet/m3_calibration_estimates_20261013/SPEC.json": {
+      "bytes": 5739,
+      "sha256": "6e3fc3a88354c169a1e591defbac1a5c5c0feb8acd01125bf665424c2ded35f6"
+    },
+    "scripts/diet/m3_calibration_estimates_20261013/experimental_group_estimates.csv": {
+      "bytes": 518551,
+      "sha256": "5209ac00acfa81997d4c0f79fb90b27c41db73f1a82aa66487ad61ff97bf9cc0"
+    },
+    "scripts/diet/m3_calibration_spec/README.md": {
+      "bytes": 13018,
+      "sha256": "0deb0e665424b1be5739523efe49c90d5f81143261e282508d55184fc77e10b8"
+    },
+    "scripts/diet/m3_calibration_spec/compiled_factors.csv": {
+      "bytes": 800520,
+      "sha256": "da7dbb4fae9a1b4027e28b7e96d1763983d3b85de9388c26f2e0d220d99e0c44"
+    },
+    "scripts/diet/m3_calibration_spec/component_factors.csv": {
+      "bytes": 41824,
+      "sha256": "974844d087fb475a50bad5fb19f69a458f1d7a1c1f53f617a27084edce652a9b"
+    },
+    "scripts/diet/m3_calibration_spec/factor_catalog.csv": {
+      "bytes": 38552,
+      "sha256": "22b2c4632cae1eced61da95a0c889694e254f276a1d059d5aa24d239050c5a23"
+    },
+    "scripts/diet/m3_calibration_spec/recipes.psv": {
+      "bytes": 10706,
+      "sha256": "cfd253b3a353c99555f2efc945ac8b231c69e5ff7c251fd262643c28569acb06"
+    },
+    "scripts/diet/m3_calibration_spec/scenarios.json": {
+      "bytes": 3084,
+      "sha256": "13facfc9be9e4e2839cd391ac445783d44e42e7a453bbd58db1cc7fc03eb2cda"
+    },
+    "scripts/diet/m3_food_crosswalk/questionnaire_inventory.csv": {
+      "bytes": 80453,
+      "sha256": "51be46f0712eb8203ce19faba65917894f0d8af36ec23d0db2c339e0830fe206"
+    },
+    "scripts/diet/m3_food_crosswalk/supplement_regional_20261013/evidence/bangladesh-fct-2013.txt": {
+      "bytes": 836765,
+      "sha256": "9def86f81ed928d601039d7f6c889ce5151ca3988a6b1fb233985c8b4b08aca4"
+    },
+    "scripts/diet/m3_food_crosswalk/supplement_regional_20261013/regional_source_cells.csv": {
+      "bytes": 80310,
+      "sha256": "9f2afc60a21f12f271f9fdab1976c416fb758d18ac6d3e18aa552376cee13d45"
+    },
+    "scripts/diet/m3_microdata_profile/profile_receipt.json": {
+      "bytes": 923,
+      "sha256": "a060a6ea80c5544a3519a58f5b50178bf0a70d556cf6a3e17a001931ea60ba81"
+    },
+    "scripts/diet/m3_microdata_profile/table23_code_mapping.csv": {
+      "bytes": 5653,
+      "sha256": "8a55df7a4479552ddf96c373d3e118c1cf961521ba834aaa1264deba18619559"
+    },
+    "scripts/diet/m3_microdata_profile/table_supplement_20261013/README.md": {
+      "bytes": 5669,
+      "sha256": "d7969e40f56d31188c9251266fa3edc2ca9a5f50f1c655e9483ac838f463c6d3"
+    },
+    "scripts/diet/m3_microdata_profile/table_supplement_20261013/published_cell_inventory.csv": {
+      "bytes": 948579,
+      "sha256": "a02ac43b02d8241f85f384796482d19b43589ac095d7530c31ed375d29f3aacb"
+    },
+    "scripts/diet/m3_usda_supplement/README.md": {
+      "bytes": 3554,
+      "sha256": "df37be9d574daecfdfda1ed4e55fecad003896f2240a462266b78331eb7bbe4f"
+    },
+    "scripts/diet/m3_usda_supplement/portion_candidates.csv": {
+      "bytes": 2231,
+      "sha256": "82a996030df0950a90b5a0bd281a359689241213acb56216cb821f206189f120"
+    },
+    "scripts/diet/pakistan_conversion_factors.csv": {
+      "bytes": 34715,
+      "sha256": "b6eed82b752ce47f2ae9b82441e0814ac3bf839d1441e5a5ed594bea22873a38"
+    },
+    "scripts/diet/pakistan_conversion_mapping.csv": {
+      "bytes": 13771,
+      "sha256": "e9d1b12ced05c6f0a624c810b91f429916c69d9b1c6dd459e4cd9128ff55c003"
+    },
+    "scripts/diet/pakistan_diet_rows.csv": {
+      "bytes": 1225029,
+      "sha256": "2c2e8b15e08d70b8cc38e24489205926542bff9275bc88880ac67af4d04d6fbe"
+    },
+    "scripts/diet/supervisor_model_20261013/SPEC.json": {
+      "bytes": 5607,
+      "sha256": "62e4533ba94638e630bb59e9e561945a0ea32fcf16c0df2b655f342f6a1390f0"
+    },
+    "scripts/diet/supervisor_model_20261013/source_snapshot.csv": {
+      "bytes": 7414,
+      "sha256": "e9b7c7d5b4d0794a17a61017e64900058f3bc5e617e895d644a48e9236dd525e"
+    }
+  },
+  "notes": "Implementation/source-byte checks passed; food-form choices remain conditional and human scholarly approval is pending.",
+  "old_sensitivity_cases_disposed": 26,
+  "old_total_reused": false,
+  "outputs": {
+    "component_estimates.csv": {
+      "rows": 17784,
+      "sha256": "4356c73dc9f8a9e3a883d8305dee368be25f01f946a33cfaf12b593e96e12e10"
+    },
+    "factor_evidence.csv": {
+      "rows": 988,
+      "sha256": "d59bb59083b11d69cdd493600f0f354ac8fa1feb32843f5af6fb4529105a399c"
+    },
+    "food_coverage.csv": {
+      "rows": 38,
+      "sha256": "f21910f39e197ba4ed728c67bb68468c31a7a43222d03f5b33f287feb7dc064f"
+    },
+    "household_size_context.csv": {
+      "rows": 6,
+      "sha256": "a31ab6eb5d276c79bf6e59c378f31989bd7dfc4a297512c255f88485fd5f15be"
+    },
+    "method_ranges.csv": {
+      "rows": 36,
+      "sha256": "2746e94a1a87da29024cb022d67a76efcc5a0694a39dbb57214c39e7b1fd54f2"
+    },
+    "old_sensitivity_disposition.csv": {
+      "rows": 26,
+      "sha256": "f9c775ba102a10c7052b9f306fbbb3b2ef2713f7615d096f3eb0e0cddfd76304"
+    },
+    "scenario_definitions.csv": {
+      "rows": 26,
+      "sha256": "f58e1dac416af53535bee25b63caad5a9d50dca4ec856d25b67710b732a553df"
+    },
+    "scenario_summary.csv": {
+      "rows": 468,
+      "sha256": "b8331c5406a49bb8d0b80d60761649d6876bac40a4ff3ba7cbb5be847eecc3e9"
+    },
+    "source_factor_catalog.csv": {
+      "rows": 149,
+      "sha256": "fe40e79a058b1a58ded4f0e58ccaebca4762fbab521d79fc05d784a77a58c1ad"
+    }
+  },
+  "physical_scenarios": 26,
+  "quantity_rows_reconciled_to_xls": 684,
+  "raw_and_prior_files_unchanged": true,
+  "revision": "supervisor_table23_physical_20261013",
+  "table23_foods_covered": 38,
+  "whole_diet_total_available": false
+}

@@ -1,0 +1,1078 @@
+{
+  "m6_public3_doc_0f80d916b8de67bbefc6": {
+    "url": "http://origin-businesstoday.intoday.in/trending/world/now-you-can-buy-lab-grown-meat-in-this-country/story/423711.html",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "S06": {
+    "url": "https://agraris.umy.ac.id/index.php/agraris/article/view/182",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [
+      "study_s06_sample_n"
+    ],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "gdelt_doc2_sentiment_api": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_annotation_a_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_review4_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_review4_annotation_a_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_loop1_annotation_a_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_loop2_annotation_a_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_relevance_review_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_title_relevance_review_20261013": {
+    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "PK-C01": {
+    "url": "https://asab.nust.edu.pk/research/cultured-meat-research-group-cultmeat/",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_4dacf41f37df08796159": {
+    "url": "https://bestmediainfo.com/2020/11/plant-based-meat-brand-blue-tribe-awards-integrated-mandate-to-chimp-z-inc/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "HS-012": {
+    "url": "https://consensus.app/papers/details/c999774203c4515ba63444f034c50d6f/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_bahs_2025_old_url_attempt": {
+    "url": "https://dahd.gov.in/sites/default/files/2025-12/BasicAnimalHusbandryStatistics2025.pdf",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_dahd_2025_26_annual_attempt": {
+    "url": "https://dahd.gov.in/sites/default/files/2026-04/AnnualReport2025-26.pdf",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public13_b13_spokesman_epaper": {
+    "url": "https://dailyspokesman.net/live/wp-content/uploads/2024/04/Daily-The-Spokesman-April-21-2024-PDF.pdf",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_search_548929675d5d665a": {
+    "url": "https://dailytimes.com.pk/?s=lab-grown+meat",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "SCHOENEGGER2024": {
+    "url": "https://doi.org/10.1126/sciadv.adp1528",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "S2": {
+    "url": "https://dokumen.pub/reliance-of-the-traveller-classic-manual-of-islamic-sacred-law-0915957728-9780915957729.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "ahsan-uzair-ali-cultured-meat-pakistan": {
+    "url": "https://ejournal.upi.edu/index.php/AJSEE/article/view/38766",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "PK-D03": {
+    "url": "https://ejournal.upi.edu/index.php/AJSEE/article/view/38766",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "fermbox_biomanufacturing_2025": {
+    "url": "https://fermbox.bio/biotech-in-focus-indias-biomanufacturing-momentum-and-fermbox-bios-role-in-precision-fermentation/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_c1f90de2bd181fbb885b": {
+    "url": "https://food.ndtv.com/news/uk-gets-first-ever-vegan-butcher-with-alternative-meats-care-to-visit-2319960",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "S01": {
+    "url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/1750-3841.17559",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [
+      "study_s01_sample_n"
+    ],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawnimages_veganchicken": {
+    "url": "https://images.dawn.com/news/1186684/vegan-fried-chicken-that-tastes-just-like-chicken",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawnimages_veganpakistan": {
+    "url": "https://images.dawn.com/news/1186861",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m3_sage_hies_method_2024": {
+    "url": "https://journals.sagepub.com/doi/pdf/10.1177/21582440241285210?download=true",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "maharashtra_survey2025_26_tls_attempt": {
+    "url": "https://mahades.maharashtra.gov.in/ESM1920/chapter/English/ch7_e.pdf",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "GHAMIDI": {
+    "url": "https://monthly-renaissance.com/issue/content.aspx?id=393",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_ndtv_hindi_demand": {
+    "url": "https://ndtv.in/food/demand-for-lab-grown-meat-is-increasing-in-asia-pacific-region-report-7367770",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "west_bengal_pbgsbs_bahs_appendix_attempt": {
+    "url": "https://pbgsbs.gov.in/pds/sites/default/files/files/20thLivestock_cencus.pdf",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public9_b9_propk_shiok": {
+    "url": "https://propakistani.pk/lens/this-startup-grows-shrimp-and-lobster-meat-in-their-labs-and-its-safe-to-eat/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public9_b9_propk_shiok_network": {
+    "url": "https://propakistani.pk/lens/this-startup-grows-shrimp-and-lobster-meat-in-their-labs-and-its-safe-to-eat/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "H4": {
+    "url": "https://studylib.net/doc/27525043/quduri.....eng..ahmad-ibn-muh",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "AD2858": {
+    "url": "https://sunnah.com/abudawud:2858",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "M-MUW25": {
+    "url": "https://sunnah.com/malik/25",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "google_trends_sentiment_attempt": {
+    "url": "https://trends.google.com/trends/explore",
+    "status": 429,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "google_trends_explore": {
+    "url": "https://trends.google.com/trends/explore?date=2020-01-01%202026-10-13&geo=PK&q=plant-based%20meat,cultivated%20meat",
+    "status": 429,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "google_trends_pk_native_cooldown_20261013": {
+    "url": "https://trends.google.com/trends/explore?date=2020-01-01%202026-10-13&geo=PK&q=plant-based%20meat,cultivated%20meat",
+    "status": 429,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_discovery04_web": {
+    "url": "https://tribune.com.pk/story/2274326/singapore-approves-sale-of-lab-grown-meat-in-world-first",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_b9c17fcbbd8bfa1e654f": {
+    "url": "https://tribune.com.pk/story/2274326/singapore-approves-sale-of-lab-grown-meat-in-world-first",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_b9c17fcbbd8bfa1e654f": {
+    "url": "https://tribune.com.pk/story/2274326/singapore-approves-sale-of-lab-grown-meat-in-world-first",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "P-GEO-UAE-FATWA": {
+    "url": "https://uaelegislation.gov.ae/en/legislations/2331/download",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_b3_420a8213de8de98a": {
+    "url": "https://urdu.arynews.tv/?p=712697",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public9_b9_bol_italy_network": {
+    "url": "https://www.bolnews.com/international/2023/11/italy-forbids-lab-grown-meat-in-effort-for-farmers/",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public7_b7_brecorder_innovation": {
+    "url": "https://www.brecorder.com/news/40391802/why-is-food-innovation-a-strategic-necessity-for-pakistan",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public32_city42_index_denial_20261013": {
+    "url": "https://www.city42.tv/tag/%D9%84%DB%8C%D8%A8%D8%A7%D8%B1%D9%B9%D8%B1%DB%8C",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public32_search2_20261013": {
+    "url": "https://www.city42.tv/tag/%D9%84%DB%8C%D8%A8%D8%A7%D8%B1%D9%B9%D8%B1%DB%8C",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_bahs_2025_brochure_attempt": {
+    "url": "https://www.dahd.gov.in/sites/default/files/2025-11/BAHS2025Brochures.pdf",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_39fbefecb9e8431b70f4": {
+    "url": "https://www.dawn.com/news/1541237/meat-companies-induce-consumers-to-eat-vegetables",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_probe_39fbefecb9e8431b70f4": {
+    "url": "https://www.dawn.com/news/1541237/meat-companies-induce-consumers-to-eat-vegetables",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_912eee701df272130bca": {
+    "url": "https://www.dawn.com/news/1594460",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_probe_912eee701df272130bca": {
+    "url": "https://www.dawn.com/news/1594460",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawn1596807": {
+    "url": "https://www.dawn.com/news/1596807",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawn_fishfingers": {
+    "url": "https://www.dawn.com/news/1646290",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawn_beefrice": {
+    "url": "https://www.dawn.com/news/1821544",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop1_dawn_shrinkflation": {
+    "url": "https://www.dawn.com/news/1823423",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "FAOWHO2024": {
+    "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FMeetings%252FCX-701-47%252FCRDs%252Fcac47_crd04x.pdf",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "CTX-12": {
+    "url": "https://www.fas.usda.gov/data/gain/2026/04/pakistan-oilseeds-and-products-annual",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_244464560c5788649697": {
+    "url": "https://www.financialexpress.com/investing-abroad/stockal-specials/vegan-meat-offer-choices-wants-a-slice-of-the-traditional-food-market/2099277/",
+    "status": 410,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "CTX-08": {
+    "url": "https://www.foodsystemsdashboard.org/downloads",
+    "status": 429,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_6733e22a2b54b24adae1": {
+    "url": "https://www.gqindia.com/live-well/content/best-burgers-in-mumbai-an-insiders-guide-to-the-8-most-delicious-burgers-in-the-city",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public12_b12_healthshots_about": {
+    "url": "https://www.healthshots.com/hindi/about-us/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_b12_healthshots_recovered_annotation_a_20261013": {
+    "url": "https://www.healthshots.com/hindi/healthy-eating/does-vegan-milk-as-good-as-dairy-milk/amp",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public12_b12_healthshots_milk": {
+    "url": "https://www.healthshots.com/hindi/healthy-eating/does-vegan-milk-as-good-as-dairy-milk/amp",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_b12_healthshots_identity_review_20261013": {
+    "url": "https://www.healthshots.com/hindi/terms-of-use/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_b12_healthshots_terms_identity_20261013": {
+    "url": "https://www.healthshots.com/hindi/terms-of-use/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_probe_8650de3f82a01e830ed3": {
+    "url": "https://www.indiantelevision.com/keyword/ambuja-cement-0",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6loop2_lhr_beyondpork": {
+    "url": "https://www.lhrtimes.com/2020/11/18/beyond-meat-debuts-new-product-beyond-pork-in-china/",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "pakistan_meat_substitutes_market_wms_2025": {
+    "url": "https://www.marketresearch.com/Williams-Marshall-Strategy-v4196/Pakistan-Meat-Substitutes-Size-Trends-40053846/",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "arora-brent-jaenicke-2020-india-alt-meat-wtp": {
+    "url": "https://www.mdpi.com/2071-1050/12/11/4377",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "IN-S07": {
+    "url": "https://www.mdpi.com/2071-1050/12/11/4377",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m3_method_discovery_20261013": {
+    "url": "https://www.mdpi.com/2071-1050/14/12/7068",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "dean-rombach-mycoprotein-2022": {
+    "url": "https://www.mdpi.com/2072-6643/14/16/3292",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "S05": {
+    "url": "https://www.mdpi.com/2304-8158/14/15/2590",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [
+      "study_s05_sample_n"
+    ],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "PK-C04": {
+    "url": "https://www.mdpi.com/2304-8158/15/8/1288",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "PK-L03": {
+    "url": "https://www.mdpi.com/2304-8158/9/9/1292",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_79d1be6e1abd24ebfd10": {
+    "url": "https://www.moneycontrol.com/news/business/thai-food-companies-tap-into-faux-meat-boom-plan-to-expand-overseas-report-5961421.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_95bcc5cd68ceada98b73": {
+    "url": "https://www.moneycontrol.com/news/trends/lab-grown-meat-makes-historic-debut-in-singapore-6250101.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public11_b11_ndtv_topic": {
+    "url": "https://www.ndtv.com/topic/plant-based-meat",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public11_b11_ndtvprofit_exit": {
+    "url": "https://www.ndtvprofit.com/business/itc-tata-consumer-pull-the-plug-on-vegan-meat-offerings-as-trend-fades-10776842",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_3fa06a23b974d7029636": {
+    "url": "https://www.news18.com/news/buzz/tricking-the-taste-buds-flavour-makers-rise-to-meaty-challenge-amid-concerns-over-health-animal-welfare-3089069.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_fc67a09f2f147b80ae02": {
+    "url": "https://www.news18.com/news/lifestyle/world-vegan-day-clearing-the-air-on-veganism-3030791.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_bb802e2e328480994b01": {
+    "url": "https://www.outlookindia.com/outlooktraveller/explore/story/70979/burma-burma-is-now-in-kolkata",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "pbs_cpi_june_2025_obsolete_url_404": {
+    "url": "https://www.pbs.gov.pk/sites/default/files/price_statistics/cpi/Monthly%20Review%20June%2C%202025.pdf",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_bahs_2025_pib": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195049&lang=1\u00ae=3",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_pib_bioe3_platforms_2026": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1\u00ae=3",
+    "status": 404,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "pib-bioe3-implementation-2026-smart-proteins": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1\u00ae=3",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "IN-P01": {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288306&lang=1\u00ae=3",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_pib_bioe3_2024": {
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2\u00ae=48",
+    "status": 404,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "india_cultural_tourism_eid_2023": {
+    "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/events/eid-ul-zuha.html",
+    "status": 0,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "reddit_public_sentiment_search": {
+    "url": "https://www.reddit.com/r/pakistan/search.json",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_probe_74401f223ffc707c441a": {
+    "url": "https://www.samaa.tv/news/2020/12/lab-grown-meat-makes-historic-debut-in-singapore/",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "PK-C05": {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2475299126018780",
+    "status": 403,
+    "role": "active_citation_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": false,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_b27a29e6e36cbbad724f": {
+    "url": "https://www.team-bhp.com/forum/shifting-gears/230443-will-you-eat-lab-grown-meat-vs-actual-animal-meat.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public9_b9_tech_cellx": {
+    "url": "https://www.technologytimes.pk/2023/06/20/cellx-cultivated-meat-startup-raises-6-5m-in-series-a-funding-round/",
+    "status": 404,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_cd4dd682498190ea58d2": {
+    "url": "https://www.telegraphindia.com/opinion/in-a-not-so-distant-dystopian-future-mutton-chnaap-would-make-way-for-say-soya-steak/cid/1800403",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_a42b5322db1f90e69523": {
+    "url": "https://www.timesnownews.com/business-economy/article/lab-grown-meat-for-sale-in-singapore-markets-climate-change-hunger-compassion-drive-cultured-meat-market/693378",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_6b98ac0214c0cc741107": {
+    "url": "https://www.timesnownews.com/business-economy/companies/article/is-pace-of-launches-picking-or-has-become-the-innovation-new-mantra-for-fmcg/699557",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_bc496615037c42505376": {
+    "url": "https://www.timesnownews.com/business-economy/industry/article/lab-grown-meat-to-go-on-sale-in-singapore-in-world-first/689908",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_2a07a18812db596dbc7f": {
+    "url": "https://www.timesnownews.com/health/article/plant-based-protein-a-fact-or-a-fad/698633",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_abd6f03f3568a47d81c0": {
+    "url": "https://www.timesnownews.com/health/article/these-were-the-10-most-adopted-weight-loss-diets-in-2020-year-ender/697451",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public5_b5_e8de21b99a6f4811": {
+    "url": "https://www.urdupoint.com/daily/livenews/2023-01-08/news-3424449-dw.html",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_b3aa9e0eeed63d2958f7": {
+    "url": "https://www.wionews.com/world/morning-news-brief-armenia-azerbaijans-truce-update-on-covid-vaccine-and-more-342054",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_37d850a9b48fa21e0552": {
+    "url": "https://www.wionews.com/world/now-lab-grown-chicken-nugget-debuts-in-singapore-351667",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "m6_public3_doc_417f2b89def15c142d9f": {
+    "url": "https://yourstory.com:443/2020/12/mumba-based-alt-meat-startup-blue-tribe",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  },
+  "sentiment_native_417f2b89def15c142d9f": {
+    "url": "https://yourstory.com:443/2020/12/mumba-based-alt-meat-startup-blue-tribe",
+    "status": 403,
+    "role": "ledger_only_failure",
+    "claim_ids": [],
+    "reason": "Original URL unavailable in the recorded audit. Source identity and historical access metadata are preserved.",
+    "evidence": "logs/link-audit/20261014T010830.109787Z/audit.json",
+    "inactive": true,
+    "checked_at": "2026-10-14T01:08:30.109787Z"
+  }
+}

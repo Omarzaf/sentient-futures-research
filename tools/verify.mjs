@@ -1,14 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 import {checkHalal,parseCsv} from './halal-checks.mjs';
 import {checkPhaseOne} from './phase1-checks.mjs';
 import {checkPaper} from './paper-checks.mjs';
 import {checkContinuation} from './continuation-checks.mjs';
 import {checkSurvey} from './survey-checks.mjs';
-import {isExcludedPath, privacyHazards, privacyHazardNames} from './privacy-checks.mjs';
+import {isExcludedPath, privacyHazards, privacyHazardNames,checkReviewedSupervisorExports,checkInlineScripts} from './privacy-checks.mjs';
 import {repoFiles,unescapeEntities} from './repo-files.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -22,7 +21,21 @@ check(new Set(manifest.map(f=>f.path)).size===manifest.length,'Duplicate manifes
 check(JSON.stringify(paths.filter(p=>p!=='provenance/file-manifest.json'))===JSON.stringify(manifest.map(f=>f.path).sort()),'Manifest does not match repository files');
 for(const f of manifest){const b=fs.readFileSync(path.join(root,f.path));check(b.length===f.bytes&&crypto.createHash('sha256').update(b).digest('hex')===f.sha256,'Hash/size mismatch: '+f.path);}
 
-for(const p of paths){check(!isExcludedPath(p),'Excluded file type or path: '+p);check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);const s=read(p);const foundHazards=new Set(privacyHazards(s));for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}}
+let reviewedExports={checks:0,failures:[],allowedPaths:new Set()};
+try{reviewedExports=checkReviewedSupervisorExports(json('provenance/supervisor-reviewed-exports.json'),p=>fs.readFileSync(path.join(root,p)));}
+catch(error){reviewedExports.failures.push('Missing or invalid supervisor reviewed-export registry: '+error.message);}
+checks+=reviewedExports.checks;failures.push(...reviewedExports.failures);
+for(const p of paths){
+ check(!isExcludedPath(p)||reviewedExports.allowedPaths.has(p),'Excluded file type or path: '+p);
+ check(!fs.lstatSync(path.join(root,p)).isSymbolicLink(),'Symlink: '+p);
+ // Compressed or binary bytes are never decoded as prose. An unreviewed binary
+ // has already failed the ordinary exclusion above; reviewed exports require
+ // separately hash-bound text that was privacy-scanned by their evidence gate.
+ if(/\.(?:pdf|docx?)$/i.test(p))continue;
+ const s=read(p);const foundHazards=new Set(privacyHazards(s));
+ for(const name of privacyHazardNames)check(!foundHazards.has(name),name+': '+p);
+ if(p.endsWith('.json')){try{JSON.parse(s);check(true,'JSON');}catch{check(false,'Invalid JSON: '+p);}}
+}
 
 let internalLinks=0;
 for(const p of paths.filter(p=>/\.(html|md|svg)$/.test(p))){
@@ -44,7 +57,7 @@ for(const p of paths.filter(p=>/\.(html|md|svg)$/.test(p))){
   check(/<html[^>]+lang=/.test(text),'Missing document language '+p);
   check(/name=["']viewport["']/.test(text),'Missing viewport '+p);
   check(!/<(?:script|img|iframe|link)\b[^>]*(?:src|href)=["']https?:\/\//i.test(text),'Automatic external asset load '+p);
-  for(const m of text.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)){try{new vm.Script(m[1]);check(true,'Inline script');}catch(e){check(false,'Inline script syntax '+p+': '+e.message);}}
+  const scripts=checkInlineScripts(text);checks+=scripts.checks;failures.push(...scripts.failures.map(message=>message+' '+p));
  }
 }
 
@@ -92,19 +105,20 @@ for(const r of json('research/orientation/sources.json').sources)check(catalog.r
 const imports=json('provenance/import-records.json');
 for(const prefix of ['research/orientation/','research/india-pakistan/'])for(const p of paths.filter(p=>p.startsWith(prefix)))check(imports.some(r=>r.path===p),'Missing import provenance '+p);
 for(const [rs,p] of [[comparative,'research/comparative-protein/source-register.json'],[foundation,'research/ai-protein/source-register.json'],[currentReview,'research/india-pakistan/source-register.json']])for(const r of rs)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===p&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
-const library=json('research/library.json');check(library.documents.length===10,'Expected ten research documents');
+const library=json('research/library.json');check(library.documents.length===11,'Expected eleven research documents');
+check(library.documents[0]?.id==='supervisor-edition'&&library.documents[0]?.path==='research/india-pakistan/edition/index.html'&&library.documents[0]?.textPath==='research/india-pakistan/report/REPORT.md','Supervisor edition must be the first library document');
 for(const d of library.documents){check(paths.includes(d.path),'Missing library document '+d.id);check(/human verification pending/i.test(read(d.path)),'Missing visible draft notice '+d.id);}
 const ris=read('research/ai-protein/references.ris');check((ris.match(/^TY  - /gm)||[]).length===44&&(ris.match(/^ER  -/gm)||[]).length===44,'RIS record completeness');
 const halalDir='research/halal-cultivated/';
 const halal=checkHalal(Object.fromEntries(paths.filter(p=>p.startsWith(halalDir)).map(p=>[p.slice(halalDir.length),read(p)])));
 checks+=halal.checks;failures.push(...halal.failures);
-for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===halalDir+'archive/discovery-pass/source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
+for(const r of halalRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath==='research/halal-cultivated/archive/discovery-pass/source-register.json'&&o.sourceId===r.id)),'Source missing from catalog '+r.id);
 const phaseOneDir=halalDir+'phase1/';
 for(const r of phaseOneRegister)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===phaseOneDir+'source-register.json'&&o.sourceId===r.id)),'Phase One source missing from catalog '+r.id);
 const phaseOne=checkPhaseOne(Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)])));
 checks+=phaseOne.checks;failures.push(...phaseOne.failures);
-// The two reviewed binaries are digest-checked above; do not decode them as
-// manuscript text. Every other paper path still reaches the exclusion checks.
+// The older halal paper export exclusion remains intact; the narrow binary
+// exception applies only to the two reviewed supervisor report paths above.
 const paper=checkPaper(Object.fromEntries(paths.filter(p=>p.startsWith(paperDir)).map(p=>[p.slice(paperDir.length),read(p)])),{phaseOneFiles:Object.fromEntries(paths.filter(p=>p.startsWith(phaseOneDir)).map(p=>[p.slice(phaseOneDir.length),read(p)]))});
 checks+=paper.checks;failures.push(...paper.failures);
 for(const r of paperRegister)if(r.url)check(catalog.records.some(c=>c.occurrences.some(o=>o.recordPath===paperDir+'source-register.json'&&o.sourceId===r.id)),'Paper source missing from catalog '+r.id);

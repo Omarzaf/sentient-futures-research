@@ -4,6 +4,12 @@ The current research direction is a comparative brief on the social, cultural, a
 
 The consolidated brief for this scope is [Protein Consumption and Alternative Protein Adoption in India and Pakistan](research/india-pakistan/index.html), reviewed through 14 September 2026. It is a secondary synthesis and a proposed research design, not a completed comparative study, and its final human review is pending. The broader reports in this repository are earlier research inputs and should not be mistaken for an agreed final team output.
 
+## Supervisor edition
+
+The [Pakistan–India supervisor edition](research/india-pakistan/edition/index.html) and [full research report](research/india-pakistan/report/REPORT.md), dated 13 October 2026, assemble the subsequent evidence and its limitations. The report is also available as [PDF](research/india-pakistan/report/report.pdf) and [Word](research/india-pakistan/report/report.docx). These are AI-assisted working research outputs; human verification pending remains the review status.
+
+The edition separates food supply from household survey means, published India consumer-unit estimates from experimental Pakistan physical-food subtotals, and consumer-attitude studies from observed adoption. It preserves missing whole-diet and adoption baselines, the do-not-pool boundary for consumer studies, and the distinction between food approval, halal certification and market uptake. The benchmark concerns protein supply, not alternative-protein adoption. Source checking and export integrity do not constitute scholarly approval.
+
 ## Halal conditionality workstream
 
 A second workstream, set out in the [research plan](research/halal-cultivated/PLAN.md) of 30 September 2026, asks under which religious, certification and regulatory conditions cultivated meat can enter India, Pakistan, Saudi Arabia and the UAE, and what share of the meat market it could occupy if those conditions are met. It reuses the demand-forecast workstream's categories, years and quantiles so the two can be joined row by row, and it produces conditional shares, not forecasts. Its current output is the [working paper](research/halal-cultivated/paper/README.md) of 2 October 2026, built on the [Phase One review](research/halal-cultivated/phase1/review.md) (45 school questions, seven countries, four historical comparisons, 74 public-source claims) and the [October continuation](research/halal-cultivated/phase1-continuation/README.md). The author's final read, scholarly review and mentor approval remain pending. Phase Two quantitative work is blocked until compatible demand inputs exist; see the [v2 contract](research/halal-cultivated/bridge-v2/METHOD.md).
@@ -25,7 +31,7 @@ Country-level labels are starting points for investigation. They do not establis
 
 ## Evidence still needed
 
-The comparative dataset contains an India supply observation but no Pakistan observation. Food supply is not individual dietary intake. A completed India–Pakistan comparison requires appropriate country sources, attention to differences within countries, and compatible measurement definitions. No missing values have been imputed to complete the comparison.
+The older comparative dataset contains an India supply observation but no Pakistan observation. The supervisor edition adds separate country-source evidence without filling that historical table's missing cell. Food supply is not individual dietary intake. A completed India–Pakistan comparison still requires compatible measurement definitions and attention to differences within countries. Missing whole-diet or adoption baselines remain missing.
 
 The brief adds national household-survey evidence for both countries, but deliberately does not place those statistics on one intake scale. What it still lacks is primary evidence: no interviews, tasting trials, consumer survey, or forecasting experiment were conducted, and no verified national alternative-protein sales figures were established. Its claim that Pakistan has no directly comparable smart-protein programme is bounded to the sources reviewed and does not establish an absence of policy.
 
