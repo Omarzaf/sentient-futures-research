@@ -38,6 +38,7 @@ RAW_PREFIX = "data/raw/altprotein/proxy/"
 IMF = "imf_weo_2026_10"
 URBAN = "worldbank_wdi_urban_population_share_2026"
 FX = "worldbank_wdi_official_exchange_rate_2026"
+GDP_PC = "worldbank_wdi_gdp_per_capita_2026"
 GFI_US = "gfi_us_plant_based_retail_2025"
 GFI_INDIA = "gfi_india_smart_protein_economic_analysis_2022"
 FAO = "fao_fbs_2025_10_28"
@@ -123,7 +124,6 @@ def build_inputs(raw_dir: Path) -> None:
     imf_series = {
         "NGDP_RPCH": ("real_gdp_growth", "percent per year", range(2023, LAST_IMF_YEAR + 1), ("IND", "PAK")),
         "LP": ("population", "million people", range(2022, LAST_IMF_YEAR + 1), ("IND", "PAK", "USA")),
-        "PPPPC": ("gdp_per_capita_ppp", "current international dollars per person", (2022, 2025), ("IND", "PAK", "USA")),
         "PCPIPCH": ("consumer_price_inflation", "percent per year", range(2023, 2026), ("IND",)),
     }
     names = {"IND": "India", "PAK": "Pakistan", "USA": "United States"}
@@ -182,6 +182,31 @@ def build_inputs(raw_dir: Path) -> None:
                 RAW_PREFIX + fx_path.name,
                 sha256(fx_path),
                 f"WDI API v2 PA.NUS.FCRF; IND; date={PRICE_YEAR}",
+                "Rounded to six decimals from the API value.",
+            )
+
+    # GDP per person in market terms. The spending side is in market-exchange-rate
+    # dollars, so income ratios must be too; PPP ratios would mix bases.
+    gdp_series = (
+        ("NY.GDP.PCAP.CN", "lcu", "current local currency units per person", (("IND", 2022),)),
+        ("NY.GDP.PCAP.CD", "usd", "current US dollars per person", (("USA", PRICE_YEAR), ("IND", PRICE_YEAR), ("PAK", PRICE_YEAR))),
+    )
+    for code, tag, unit, wanted in gdp_series:
+        gdp_path = raw_dir / f"worldbank-{code}.json"
+        entries = {(e["countryiso3code"], int(e["date"])): e["value"] for e in json.loads(gdp_path.read_text())[1]}
+        for iso, year in wanted:
+            add(
+                f"wdi_gdp_per_capita_{tag}_{iso.lower()}_{year}",
+                names[iso],
+                year,
+                f"gdp_per_capita_{tag}",
+                round(entries[(iso, year)], 6),
+                unit,
+                GDP_PC,
+                "A",
+                RAW_PREFIX + gdp_path.name,
+                sha256(gdp_path),
+                f"WDI API v2 {code}; {iso}; date={year}",
                 "Rounded to six decimals from the API value.",
             )
 
@@ -379,9 +404,13 @@ def run_model() -> None:
     india_2022_usd_million = crore_to_usd_million(data.get("gfi_india_domestic_2022_central"))
     india_2022_per_capita = india_2022_usd_million / data.get("imf_lp_ind_2022")
     us_per_capita = data.get("gfi_us_retail_sales_2025") * 1000 / data.get("imf_lp_usa_2025")
-    ppp_ratio_us_india = data.get("imf_ppppc_usa_2025") / data.get("imf_ppppc_ind_2022")
+    # India 2022 income gets the anchor's own conversion: 2022 rupees inflated to 2025
+    # with IMF consumer prices, then the 2025 exchange rate. US 2025 dollars are
+    # already 2025 prices. Both sides are then market dollars at 2025 prices.
+    india_2022_income = data.get("wdi_gdp_per_capita_lcu_ind_2022") * cpi_factor / fx
+    income_ratio_us_india = data.get(f"wdi_gdp_per_capita_usd_usa_{PRICE_YEAR}") / india_2022_income
     elasticity_low = 1.0
-    elasticity_high = math.log(us_per_capita / india_2022_per_capita) / math.log(ppp_ratio_us_india)
+    elasticity_high = math.log(us_per_capita / india_2022_per_capita) / math.log(income_ratio_us_india)
     drift_low = data.get("gfi_us_retail_dollar_change_2025") / 100
     drift_high = (data.get("jobs_vacancies_india_2025") / data.get("jobs_vacancies_india_2023")) ** 0.5 - 1
     animal = {
@@ -399,7 +428,7 @@ def run_model() -> None:
     }
     ecosystem_low = per_million["Pakistan"][0] / per_million["India"][0]
     ecosystem_high = per_million["Pakistan"][1] / per_million["India"][1]
-    ppp_ratio_pak_india_2025 = data.get("imf_ppppc_pak_2025") / data.get("imf_ppppc_ind_2025")
+    income_ratio_pak_india_2025 = data.get(f"wdi_gdp_per_capita_usd_pak_{PRICE_YEAR}") / data.get(f"wdi_gdp_per_capita_usd_ind_{PRICE_YEAR}")
 
     def india_per_capita(year: int, elasticity: float, drift: float) -> float:
         return (
@@ -410,7 +439,7 @@ def run_model() -> None:
         )
 
     def pakistan_per_capita(year: int, india_value: float, elasticity: float, weight: float, ecosystem: float) -> float:
-        relative_income = ppp_ratio_pak_india_2025 * (income_index("pak", year) / income_index("pak", 2025)) / (
+        relative_income = income_ratio_pak_india_2025 * (income_index("pak", year) / income_index("pak", 2025)) / (
             income_index("ind", year) / income_index("ind", 2025)
         )
         return (
@@ -446,11 +475,11 @@ def run_model() -> None:
     emit("parameter", "India", ANCHOR_YEAR, "anchor_per_capita", "value", india_2022_per_capita, "US dollars per person at constant prices", [GFI_INDIA, IMF, FX], parameter_method)
     emit("parameter", "United States", PRICE_YEAR, "retail_per_capita", "value", us_per_capita, "US dollars per person at constant prices", [GFI_US, IMF], parameter_method, "GFI/SPINS retail sales divided by IMF population.")
     emit("parameter", "United States", PRICE_YEAR, "per_capita_ratio_to_india_anchor", "value", us_per_capita / india_2022_per_capita, "ratio", [GFI_US, GFI_INDIA, IMF, FX], parameter_method)
-    emit("parameter", "United States", PRICE_YEAR, "ppp_income_ratio_to_india_anchor", "value", ppp_ratio_us_india, "ratio", [IMF], parameter_method, "US 2025 over India 2022 GDP per person at PPP, current international dollars.")
+    emit("parameter", "United States", PRICE_YEAR, "market_income_ratio_to_india_anchor", "value", income_ratio_us_india, "ratio", [GDP_PC, IMF, FX], parameter_method, "US 2025 GDP per person over India 2022 GDP per person, both in market-exchange-rate US dollars at 2025 prices. India uses the anchor's CPI and exchange-rate conversion.")
     emit("parameter", "United States", PRICE_YEAR, "retail_dollar_decline", "value", -drift_low * 100, "percent", [GFI_US], parameter_method, "Size of the 2025 fall in US plant-based retail dollar sales.")
     emit("parameter", "India", ANCHOR_YEAR, "monte_carlo_draws", "value", DRAWS, "draws", [IMF], parameter_method, f"Fixed seed {SEED}.")
     emit("parameter", "India", ANCHOR_YEAR, "income_elasticity", "low", elasticity_low, "elasticity", [IMF], parameter_method, "Assumption: spending rises in proportion to income.")
-    emit("parameter", "India", ANCHOR_YEAR, "income_elasticity", "high", elasticity_high, "elasticity", [GFI_US, GFI_INDIA, IMF, FX], parameter_method, "Elasticity that would explain the whole US-India per-person gap by income alone.")
+    emit("parameter", "India", ANCHOR_YEAR, "income_elasticity", "high", elasticity_high, "elasticity", [GFI_US, GFI_INDIA, GDP_PC, IMF, FX], parameter_method, "Elasticity that would explain the whole US-India per-person gap by income alone, with spending and income both in market dollars at 2025 prices.")
     emit("parameter", "India", ANCHOR_YEAR, "adoption_drift", "low", drift_low * 100, "percent per year", [GFI_US], parameter_method, "US 2025 plant-based retail dollar change, used as the low non-income drift.")
     emit("parameter", "India", ANCHOR_YEAR, "adoption_drift", "high", drift_high * 100, "percent per year", [JOBS_VACANCY], parameter_method, "India job-board vacancy growth 2023-2025, used as the high non-income drift.")
     emit("parameter", "India", 2023, "animal_protein_supply", "value", animal["India"], "g/capita/day", [FAO], parameter_method, "Sum of seven FAOSTAT animal-source items.")
@@ -458,7 +487,7 @@ def run_model() -> None:
     emit("parameter", "Pakistan", 2023, "animal_protein_ratio_to_india", "value", animal_ratio, "ratio", [FAO], parameter_method)
     emit("parameter", "Pakistan", 2025, "ecosystem_factor", "low", ecosystem_low, "ratio", [JOBS_DIRECTORY, IMF], parameter_method, "Pakistan over India job-board directory rows per million people.")
     emit("parameter", "Pakistan", 2025, "ecosystem_factor", "high", ecosystem_high, "ratio", [JOBS_VACANCY, IMF], parameter_method, "Pakistan over India 2025 job-board vacancies per million people.")
-    emit("parameter", "Pakistan", 2025, "ppp_income_ratio_to_india", "value", ppp_ratio_pak_india_2025, "ratio", [IMF], parameter_method)
+    emit("parameter", "Pakistan", 2025, "market_income_ratio_to_india", "value", income_ratio_pak_india_2025, "ratio", [GDP_PC], parameter_method, "Pakistan over India 2025 GDP per person, current US dollars.")
     for iso, country in (("ind", "India"), ("pak", "Pakistan")):
         for year in (2025, 2035):
             emit("parameter", country, year, "urban_share", "value", urban(iso, year), "percent of total population", [URBAN], parameter_method, "Observed" if year <= 2025 else "Linear 2015-2025 trend continued")

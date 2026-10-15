@@ -1284,19 +1284,25 @@
   {
     "path": "research/india-pakistan/data/altprotein_proxy_inputs.csv",
     "sourceDocument": "IMF World Economic Outlook October 2026 API, World Bank WDI API, GFI US retail market page (captured 15 October 2026) and existing package CSVs",
-    "sourceSha256": "ec41d2b48c4ad4f3294cb4b1fa9e76355cbc7b6412a83aa4c8a91e73d682dcb2",
-    "changes": "Built by tools/build_altprotein_proxy.py --inputs. Transcribes proxy observations with source, tier and locator; raw captures stay in the private workspace."
+    "sourceSha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+    "changes": "Built by tools/build_altprotein_proxy.py --inputs. Transcribes proxy observations with source, tier and locator; raw captures stay in the private workspace. 15 October correction: PPP GDP per person replaced by World Bank WDI GDP per person in market terms (106 rows)."
   },
   {
     "path": "research/india-pakistan/data/altprotein_proxy_scenarios.csv",
     "sourceDocument": "Authored speculative proxy model, 15 October 2026",
-    "sourceSha256": "a43dbb0bf636be19c2dbe73833b53d656867f982e23ce8a73f649e360e415e0f",
-    "changes": "Built by tools/build_altprotein_proxy.py from data/altprotein_proxy_inputs.csv only; fixed-seed Monte Carlo. Speculative scenarios, not observed market values."
+    "sourceSha256": "65c7a71c00ee302b3c582041b5abd0de0bd32c52fc098cfc265f6528bb421b5c",
+    "changes": "Built by tools/build_altprotein_proxy.py from data/altprotein_proxy_inputs.csv only; fixed-seed Monte Carlo. Speculative scenarios, not observed market values. 15 October correction: income ratios in market-exchange-rate dollars at 2025 prices; high elasticity 1.81."
   },
   {
     "path": "research/india-pakistan/tools/build_altprotein_proxy.py",
     "sourceDocument": "Authored for the India-Pakistan market-size scenarios, 15 October 2026",
-    "sourceSha256": "5b2dd33bbfe355e4b4f2d905b1c14c20088b08c9ec4820edc81467baf64d8959",
-    "changes": "New deterministic builder for the proxy inputs and scenario CSVs; standard library only."
+    "sourceSha256": "d47b901f661674626cebb1057b873432312ddb4560e3e76439dd6b74588870f1",
+    "changes": "New deterministic builder for the proxy inputs and scenario CSVs; standard library only. 15 October correction: income ratios use WDI GDP per person in market dollars instead of IMF PPP."
+  },
+  {
+    "path": "research/india-pakistan/tests/test_altprotein_proxy.py",
+    "sourceDocument": "Authored regression test for the proxy model dollar basis, 15 October 2026",
+    "sourceSha256": "6236be4f84261fedcb4ebd4e43d2be49542f634eb822c0b1ce99694f2f3ba34e",
+    "changes": "New test: income ratios and the high elasticity must use market-exchange-rate dollars at 2025 prices; the PPP series must not feed the model."
   }
 ]
