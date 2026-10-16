@@ -1,0 +1,412 @@
+{
+  "title": "Twelve supplementary regulatory signpost questions: Pakistan and India",
+  "status": "Registered by the first local Git commit containing this exact question file; see the external commit receipt. No forecast computed.",
+  "brief_relationship": "Supplements, and does not replace, the final questionnaire's 18 country/pillar/year forecast cells.",
+  "created_at_utc": "2026-10-16T01:51:42Z",
+  "timezones": {
+    "India": "Asia/Kolkata",
+    "Pakistan": "Asia/Karachi"
+  },
+  "start_rule": "T0 is 00:00:00 local time on the first calendar day after the Git committer timestamp of the first local commit containing these questions, converted to the question country's timezone. Record that commit hash and both resulting T0 timestamps in an external run receipt before any projection. This removes same-day publication-time ambiguity.",
+  "common_resolution_rules": {
+    "yes": "YES requires a qualifying final official decision document, or an unambiguous officially published Approved entry with its reference, that establishes a new decision after T0 and by the deadline and its legal effectiveness by the deadline. The official publication must be dated by the event deadline. Later retrieval or an official archival copy is allowed until the resolution date. A later-republished old decision is not new.",
+    "no": "NO means no qualifying publicly documented decision was found after the prespecified official-channel searches and all required channels or their official archives were accessible. It is a finding about this public-documentation signpost, not proof that no confidential decision or product exists.",
+    "unresolved": "UNRESOLVED, with no forced binary outcome, if required official archives are inaccessible with no official substitute; dates, process, product identity, authorisation status or competent jurisdiction cannot be established; or surviving official records conflict without a controlling correction. Cap retrieval at three failed attempts per source, log the gap, and do not infer NO from a retrieval failure.",
+    "publication_evidence": "Capture the source PDF/HTML, document title, issuing authority, reference, document date, publication date, effective date, page/paragraph, URL, retrieval time and SHA-256. The source must itself establish the production platform; generic 'non-animal', 'vegan' or 'biotechnology' wording alone is insufficient.",
+    "source_hierarchy": "First use the signed decision or gazetted binding instrument; then the issuing regulator's official Approved register or official publication reproducing the complete decision. Official legal-code copies and official archives are fallbacks. A government press release is a locator unless it supplies an identifiable final decision and enough text to verify every criterion. Corporate/news/AI accounts cannot independently resolve YES.",
+    "country_successors": "A successor institution or relocated official URL may replace a named source only where an official legal/administrative document establishes succession. Record the mapping. Do not presume PSQCA standardisation, halal certification or a premises licence constitutes food-product approval.",
+    "search_protocol": "At resolution inspect the named authority's register/index and archive, then government gazettes/legal-code channels and official-domain site searches using the platform and product synonyms in English and Urdu where applicable. Check all four Pakistani provincial authorities for Pakistani questions. Log queries, dates and available date coverage; archive evidence. An absent public product register must not be described as exhaustive.",
+    "scope": "These are observable policy/regulatory signposts, not estimates of pillar sales, protein quantities, market shares, halal permissibility, actual availability, adoption or causal necessity for growth.",
+    "revocation": "The event is issuance and public documentation of a new decision that became legally effective by the deadline. Later withdrawal does not erase that historical event; record any withdrawal separately. A decision stayed or withdrawn before ever becoming effective does not qualify.",
+    "horizon_dependence": "The 2030/2035 pairs use the same start date and event definition at different deadlines. They are related horizon questions, not independent evidence or independent forecast draws.",
+    "definition_boundary": "Plant-based signposts concern meat/seafood alternatives only. Fermentation signposts concern precision-fermentation dairy/egg proteins only. These are deliberately named subsets of the questionnaire pillars. Cultivated signposts concern human food only; the instrument's pet-food exception remains in its separate replication track.",
+    "no_estimation": "No probability, market-size estimate, forecast quantile, survey denominator or diffusion fit is included."
+  },
+  "sources": [
+    {
+      "id": "IN_FSSAI_NOTIFICATIONS",
+      "name": "FSSAI Notifications, final regulations and orders",
+      "url": "https://www.fssai.gov.in/notifications.php",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official notifications index distinguishes draft from final notifications."
+    },
+    {
+      "id": "IN_GAZETTE",
+      "name": "Gazette of India, Directorate of Printing",
+      "url": "https://egazette.gov.in/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence_url": "https://egazette.gov.in/WriteReadData/2024/258188.pdf",
+      "evidence": "Official FSSAI notification publication verified in Gazette PDF."
+    },
+    {
+      "id": "IN_FSSAI_NSF",
+      "name": "FSSAI status of applications under Approval for Non-Specified Food and Food Ingredients Regulations",
+      "url": "https://fssai.gov.in/upload/uploadfiles/files/Status_of_Application_as_on_03_06_2026.pdf",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "75-page official status list has distinct Approved/Rejected/Closed/Withdrawn/Under Process sections; page 16 records Non-Animal Whey Protein, Perfect Day India, approval 4 July 2022."
+    },
+    {
+      "id": "IN_EPAAS",
+      "name": "FSSAI Electronic Product and Claim Approval Application System",
+      "url": "https://epaas.fssai.gov.in/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Public landing page describes NSF approval workflow. No login or application submitted."
+    },
+    {
+      "id": "PK_PSQCA_SRO",
+      "name": "PSQCA Notifications and SROs",
+      "url": "https://www.psqca.com.pk/about-us/notification/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official index includes notified standards and compulsory-item SROs."
+    },
+    {
+      "id": "PK_PSQCA_MANDATORY",
+      "name": "PSQCA List of Compulsory Items to meet Pakistan Standards",
+      "url": "https://www.psqca.com.pk/confirmity-assessment-ca/list-of-compulsory-item-to-meet-pakistan-standards/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official mandatory-standards index, distinct from the list of finalized standards."
+    },
+    {
+      "id": "PK_PUNJAB_LAW",
+      "name": "Punjab Food Authority Food Laws and Gazette Notifications",
+      "url": "https://pfa.gop.pk/food-laws/",
+      "secondary_url": "https://pfa.gop.pk/about-us/gazette-notifications/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official food-law and gazette-notification publication channels."
+    },
+    {
+      "id": "PK_PUNJAB_CPR",
+      "name": "Punjab Food Authority Product Registration",
+      "url": "https://pfa.gop.pk/product-registration/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official page explains CPR, product-specific registration, and distinction from premises licensing."
+    },
+    {
+      "id": "PK_SINDH_LAW",
+      "name": "Sindh Food Authority Rules and Regulations",
+      "url": "https://www.sfa.gos.pk/rules-regulations.php",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official channel lists Sindh Food Authority Food Product Regulations 2023."
+    },
+    {
+      "id": "PK_SINDH_REG",
+      "name": "Sindh Food Authority Product Registration and Labelling",
+      "url": "https://www.sfa.gos.pk/product-registration.php",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official page describes product review, approval, and marketing within Sindh."
+    },
+    {
+      "id": "PK_KP_AUTHORITY",
+      "name": "Khyber Pakhtunkhwa Food Safety and Halal Food Authority",
+      "url": "https://e.kpfsa.gov.pk/",
+      "secondary_url": "https://kpfsa.gov.pk/home2-2/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official authority publication channel; current portal public services checked, older official page identifies technical notifications and adopted standards. No public exhaustive product-approval register established."
+    },
+    {
+      "id": "PK_KP_CODE",
+      "name": "Khyber Pakhtunkhwa Code, official laws and regulations",
+      "url": "https://kpcode.kp.gov.pk/homepage/categorical",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official categorical law listing identifies food-safety authority legislation."
+    },
+    {
+      "id": "PK_BALOCHISTAN_CODE",
+      "name": "Balochistan Code, Law and Parliamentary Affairs Department",
+      "url": "https://balochistancode.gob.pk/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence_url": "https://balochistancode.gob.pk/lawdir/54edc09c-ee38-438d-b2db-2366bc4f6be4.pdf",
+      "evidence": "Official law portal includes Gazette Notifications; verified 2025 food-authority regulation PDF records publication date and notification number."
+    },
+    {
+      "id": "PK_BALOCHISTAN_LAW",
+      "name": "Balochistan Government Food Department Rules",
+      "url": "https://balochistan.gov.pk/food-department-downloads/food-department-rules/",
+      "secondary_url": "https://bfa.gob.pk/downloads/",
+      "checked": "2026-10-16T01:51:42Z",
+      "evidence": "Official government and authority channels publish food-authority rules. Prefer Government/Code copies where an authority page has unrelated or suspect content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "IN_PLANT_BASED_SIGNPOST_2030",
+      "country": "India",
+      "pillar": "plant_based",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new category-specific binding standard or labelling rule for plant-based meat or seafood alternatives?",
+      "event_deadline": "2030-12-31T23:59:59+05:30",
+      "resolution_date": "2031-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final regulation, amendment or legally binding direction that explicitly regulates plant-based meat or seafood alternatives and establishes or changes at least one category-specific requirement for permitted product naming, ingredient composition, or nutritional declaration. It must take legal effect by the event deadline.",
+      "exclusions": "Drafts, consultations, scientific-panel recommendations, voluntary guidance, generic vegan-logo rules, generic all-food labelling updates, and unchanged reprints do not qualify. A rule specific only to dairy alternatives does not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "National regulatory-publication signpost; the direction of the rule may enable or restrict growth.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "IN_PLANT_BASED_SIGNPOST_2035",
+      "country": "India",
+      "pillar": "plant_based",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new category-specific binding standard or labelling rule for plant-based meat or seafood alternatives?",
+      "event_deadline": "2035-12-31T23:59:59+05:30",
+      "resolution_date": "2036-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final regulation, amendment or legally binding direction that explicitly regulates plant-based meat or seafood alternatives and establishes or changes at least one category-specific requirement for permitted product naming, ingredient composition, or nutritional declaration. It must take legal effect by the event deadline.",
+      "exclusions": "Drafts, consultations, scientific-panel recommendations, voluntary guidance, generic vegan-logo rules, generic all-food labelling updates, and unchanged reprints do not qualify. A rule specific only to dairy alternatives does not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "National regulatory-publication signpost; the direction of the rule may enable or restrict growth.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "IN_FERMENTATION_SIGNPOST_2030",
+      "country": "India",
+      "pillar": "fermentation",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new precision-fermentation dairy or egg protein food authorisation?",
+      "event_deadline": "2030-12-31T23:59:59+05:30",
+      "resolution_date": "2031-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final approval for a named food or food ingredient containing a precision-fermentation-produced dairy or egg protein, for commercial human-food use in India, under the NSF approval process or a legally succeeding food-approval process. The approval must identify the product or ingredient, approval recipient, decision reference and effective approval date.",
+      "exclusions": "Pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications, research permissions, export-only permissions, conventional animal-derived dairy, fermentation enzymes or stabilisers that do not replace an animal-food sensory function, and excluded health supplements do not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NSF",
+        "IN_EPAAS",
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "Precision-fermentation dairy/egg subset of the fermentation pillar. Ingredient approval is a regulatory signpost only, not ingredient-market revenue or proof of finished-product sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "IN_FERMENTATION_SIGNPOST_2035",
+      "country": "India",
+      "pillar": "fermentation",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new precision-fermentation dairy or egg protein food authorisation?",
+      "event_deadline": "2035-12-31T23:59:59+05:30",
+      "resolution_date": "2036-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final approval for a named food or food ingredient containing a precision-fermentation-produced dairy or egg protein, for commercial human-food use in India, under the NSF approval process or a legally succeeding food-approval process. The approval must identify the product or ingredient, approval recipient, decision reference and effective approval date.",
+      "exclusions": "Pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications, research permissions, export-only permissions, conventional animal-derived dairy, fermentation enzymes or stabilisers that do not replace an animal-food sensory function, and excluded health supplements do not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NSF",
+        "IN_EPAAS",
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "Precision-fermentation dairy/egg subset of the fermentation pillar. Ingredient approval is a regulatory signpost only, not ingredient-market revenue or proof of finished-product sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "IN_CULTIVATED_SIGNPOST_2030",
+      "country": "India",
+      "pillar": "cultivated",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new cultivated-meat product food-safety authorisation?",
+      "event_deadline": "2030-12-31T23:59:59+05:30",
+      "resolution_date": "2031-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final approval identifying a cultivated meat, poultry, seafood or organ-meat food product, including an explicitly identified cultivated-cell/plant hybrid, for commercial human-food use in India. The approval must identify the product, recipient, decision reference and effective approval date.",
+      "exclusions": "Pet food, feed, growth-media ingredients alone, research or pilot-cultivation permissions, tasting-only permissions, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications and export-only permissions do not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NSF",
+        "IN_EPAAS",
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "Human-food regulatory signpost, separate from the questionnaire's cultivated-pet-food exception; approval does not prove retail sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "IN_CULTIVATED_SIGNPOST_2035",
+      "country": "India",
+      "pillar": "cultivated",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will FSSAI have publicly documented the following new decision, effective by that deadline: a new cultivated-meat product food-safety authorisation?",
+      "event_deadline": "2035-12-31T23:59:59+05:30",
+      "resolution_date": "2036-06-30T23:59:59+05:30",
+      "event_definition": "FSSAI publishes, after T0, a new final approval identifying a cultivated meat, poultry, seafood or organ-meat food product, including an explicitly identified cultivated-cell/plant hybrid, for commercial human-food use in India. The approval must identify the product, recipient, decision reference and effective approval date.",
+      "exclusions": "Pet food, feed, growth-media ingredients alone, research or pilot-cultivation permissions, tasting-only permissions, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications and export-only permissions do not qualify.",
+      "official_source_ids": [
+        "IN_FSSAI_NSF",
+        "IN_EPAAS",
+        "IN_FSSAI_NOTIFICATIONS",
+        "IN_GAZETTE"
+      ],
+      "interpretation": "Human-food regulatory signpost, separate from the questionnaire's cultivated-pet-food exception; approval does not prove retail sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_PLANT_BASED_SIGNPOST_2030",
+      "country": "Pakistan",
+      "pillar": "plant_based",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will PSQCA acting through a compulsory notification, or a provincial food authority acting within its jurisdiction have publicly documented the following new decision, effective by that deadline: a new category-specific binding standard or labelling rule for plant-based meat or seafood alternatives?",
+      "event_deadline": "2030-12-31T23:59:59+05:00",
+      "resolution_date": "2031-06-30T23:59:59+05:00",
+      "event_definition": "A competent Pakistani federal authority or the Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan food authority publishes, after T0, a new final legally binding instrument that explicitly regulates plant-based meat or seafood alternatives and establishes or changes at least one category-specific requirement for permitted product naming, ingredient composition, or nutritional declaration. It must take legal effect in at least one of those four provinces by the event deadline.",
+      "exclusions": "Drafts, consultations, panel recommendations, voluntary Pakistan Standards without an instrument making them binding, generic halal rules, generic all-food labelling updates, unchanged reprints and dairy-only analogue rules do not qualify.",
+      "official_source_ids": [
+        "PK_PSQCA_SRO",
+        "PK_PSQCA_MANDATORY",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_LAW",
+        "PK_KP_CODE",
+        "PK_KP_AUTHORITY",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "At-least-one-province regulatory-publication signpost. Record each covered province; one province does not establish nationwide access.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_PLANT_BASED_SIGNPOST_2035",
+      "country": "Pakistan",
+      "pillar": "plant_based",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will PSQCA acting through a compulsory notification, or a provincial food authority acting within its jurisdiction have publicly documented the following new decision, effective by that deadline: a new category-specific binding standard or labelling rule for plant-based meat or seafood alternatives?",
+      "event_deadline": "2035-12-31T23:59:59+05:00",
+      "resolution_date": "2036-06-30T23:59:59+05:00",
+      "event_definition": "A competent Pakistani federal authority or the Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan food authority publishes, after T0, a new final legally binding instrument that explicitly regulates plant-based meat or seafood alternatives and establishes or changes at least one category-specific requirement for permitted product naming, ingredient composition, or nutritional declaration. It must take legal effect in at least one of those four provinces by the event deadline.",
+      "exclusions": "Drafts, consultations, panel recommendations, voluntary Pakistan Standards without an instrument making them binding, generic halal rules, generic all-food labelling updates, unchanged reprints and dairy-only analogue rules do not qualify.",
+      "official_source_ids": [
+        "PK_PSQCA_SRO",
+        "PK_PSQCA_MANDATORY",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_LAW",
+        "PK_KP_CODE",
+        "PK_KP_AUTHORITY",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "At-least-one-province regulatory-publication signpost. Record each covered province; one province does not establish nationwide access.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_FERMENTATION_SIGNPOST_2030",
+      "country": "Pakistan",
+      "pillar": "fermentation",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will a food authority in Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan, or a legally empowered federal successor, have publicly documented the following new decision, effective by that deadline: a new precision-fermentation dairy or egg protein food authorisation or product registration?",
+      "event_deadline": "2030-12-31T23:59:59+05:00",
+      "resolution_date": "2031-06-30T23:59:59+05:00",
+      "event_definition": "A competent food authority publishes, after T0, a new final product registration or food-safety approval identifying a named food containing a precision-fermentation-produced dairy or egg protein, for commercial human-food use in at least one of Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan. The record must identify the product, recipient, decision reference, effective approval date and territorial scope.",
+      "exclusions": "Premises/business licences, general PSQCA or halal certificates, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications, research permissions, export-only permissions, conventional animal-derived dairy and excluded health supplements do not qualify.",
+      "official_source_ids": [
+        "PK_PUNJAB_CPR",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_REG",
+        "PK_SINDH_LAW",
+        "PK_KP_AUTHORITY",
+        "PK_KP_CODE",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "Precision-fermentation dairy/egg subset. A product registration in one province does not establish national legal access or observed sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_FERMENTATION_SIGNPOST_2035",
+      "country": "Pakistan",
+      "pillar": "fermentation",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will a food authority in Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan, or a legally empowered federal successor, have publicly documented the following new decision, effective by that deadline: a new precision-fermentation dairy or egg protein food authorisation or product registration?",
+      "event_deadline": "2035-12-31T23:59:59+05:00",
+      "resolution_date": "2036-06-30T23:59:59+05:00",
+      "event_definition": "A competent food authority publishes, after T0, a new final product registration or food-safety approval identifying a named food containing a precision-fermentation-produced dairy or egg protein, for commercial human-food use in at least one of Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan. The record must identify the product, recipient, decision reference, effective approval date and territorial scope.",
+      "exclusions": "Premises/business licences, general PSQCA or halal certificates, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications, research permissions, export-only permissions, conventional animal-derived dairy and excluded health supplements do not qualify.",
+      "official_source_ids": [
+        "PK_PUNJAB_CPR",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_REG",
+        "PK_SINDH_LAW",
+        "PK_KP_AUTHORITY",
+        "PK_KP_CODE",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "Precision-fermentation dairy/egg subset. A product registration in one province does not establish national legal access or observed sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_CULTIVATED_SIGNPOST_2030",
+      "country": "Pakistan",
+      "pillar": "cultivated",
+      "horizon": 2030,
+      "question": "Between T0 and 2030-12-31, will a food authority in Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan, or a legally empowered federal successor, have publicly documented the following new decision, effective by that deadline: a new cultivated-meat food authorisation or product registration?",
+      "event_deadline": "2030-12-31T23:59:59+05:00",
+      "resolution_date": "2031-06-30T23:59:59+05:00",
+      "event_definition": "A competent food authority publishes, after T0, a new final product registration or food-safety approval identifying a cultivated meat, poultry, seafood or organ-meat food product, including an explicitly identified cultivated-cell/plant hybrid, for commercial human-food use in at least one of Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan. The record must identify the product, recipient, decision reference, effective approval date and territorial scope.",
+      "exclusions": "Pet food, feed, growth-media ingredients alone, premises/business licences, general PSQCA or halal certificates, research/pilot permissions, tasting-only permissions, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications and export-only permissions do not qualify.",
+      "official_source_ids": [
+        "PK_PUNJAB_CPR",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_REG",
+        "PK_SINDH_LAW",
+        "PK_KP_AUTHORITY",
+        "PK_KP_CODE",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "Human-food regulatory signpost, separate from questionnaire pet-food coverage. Product registration does not prove nationwide access, production scale or actual sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    },
+    {
+      "id": "PK_CULTIVATED_SIGNPOST_2035",
+      "country": "Pakistan",
+      "pillar": "cultivated",
+      "horizon": 2035,
+      "question": "Between T0 and 2035-12-31, will a food authority in Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan, or a legally empowered federal successor, have publicly documented the following new decision, effective by that deadline: a new cultivated-meat food authorisation or product registration?",
+      "event_deadline": "2035-12-31T23:59:59+05:00",
+      "resolution_date": "2036-06-30T23:59:59+05:00",
+      "event_definition": "A competent food authority publishes, after T0, a new final product registration or food-safety approval identifying a cultivated meat, poultry, seafood or organ-meat food product, including an explicitly identified cultivated-cell/plant hybrid, for commercial human-food use in at least one of Punjab, Sindh, Khyber Pakhtunkhwa or Balochistan. The record must identify the product, recipient, decision reference, effective approval date and territorial scope.",
+      "exclusions": "Pet food, feed, growth-media ingredients alone, premises/business licences, general PSQCA or halal certificates, research/pilot permissions, tasting-only permissions, pre-T0 approvals, renewals, ownership transfers, unchanged reissues, pending applications and export-only permissions do not qualify.",
+      "official_source_ids": [
+        "PK_PUNJAB_CPR",
+        "PK_PUNJAB_LAW",
+        "PK_SINDH_REG",
+        "PK_SINDH_LAW",
+        "PK_KP_AUTHORITY",
+        "PK_KP_CODE",
+        "PK_BALOCHISTAN_CODE",
+        "PK_BALOCHISTAN_LAW"
+      ],
+      "interpretation": "Human-food regulatory signpost, separate from questionnaire pet-food coverage. Product registration does not prove nationwide access, production scale or actual sales.",
+      "answer_type": "binary",
+      "forecast_probability": null,
+      "status": "prespecified_unforecast_question"
+    }
+  ],
+  "known_baseline_trap": {
+    "rule": "Only qualifying decisions after T0 count; already-existing approvals do not qualify."
+  },
+  "remaining_limitations": [
+    "These questions define official-publication events because public exhaustive product-approval registers have not been established for every Pakistani authority.",
+    "Twelve questions are present, but they represent six country/platform event definitions at two horizons, as requested.",
+    "The first local commit containing this exact file is the registration identity. Record its hash and T0 in a separate run receipt before any projection."
+  ]
+}

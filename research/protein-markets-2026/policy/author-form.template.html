@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Independent policy coding — author form</title>
+<style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:980px;margin:32px auto;padding:0 20px;color:#18242a;background:#faf9f5}
+h1{font-size:30px;line-height:1.2}h2{font-size:20px;line-height:1.4}
+article{background:white;border:1px solid #ccd3d4;padding:20px;margin:24px 0}
+label{display:block;font-weight:600;margin:14px 0}
+select,textarea,input{box-sizing:border-box;display:block;width:100%;font:inherit;padding:9px;margin-top:6px;border:1px solid #718089;border-radius:3px;background:white}
+input[type=checkbox]{display:inline;width:auto}
+button{font:inherit;padding:10px 16px;margin:10px 10px 10px 0;cursor:pointer;background:#183d47;color:white;border:0;border-radius:3px}
+.meta{color:#485b65;font-size:14px}.panel{border-left:4px solid #2d6878;padding:10px 18px;background:#edf2f1}
+summary{cursor:pointer}a{color:#145b78}:focus-visible{outline:3px solid #e9a344;outline-offset:3px}
+</style>
+<h1>Independent policy coding</h1>
+<p>Code each of the 20 instruments using one primary-function category. Read the source and the codebook before deciding. Source limitations are separate from the instrument function.</p>
+<div class="panel">
+<p><strong>Round 1:</strong> Complete this form before opening or discussing agent answers. Record your own reason and locator. Download a draft to save progress; entries otherwise remain in this browser tab.</p>
+<p>Codebook SHA-256: <code>{{CODEBOOK_HASH}}</code><br>Sample SHA-256: <code>{{SAMPLE_HASH}}</code></p>
+<p><a href="codebook.json" target="_blank">Open complete coding codebook</a></p>
+</div>
+<details open><summary><strong>Categories</strong></summary>
+<dl>{{CATEGORIES}}</dl>
+<h2>Tie-break rules</h2><ol>{{RULES}}</ol>
+</details>
+<p id="progress" role="status">0 of 20 labels selected.</p>
+{{CARDS}}
+<label><input type="checkbox" id="independent"> I completed these codes independently before viewing agent answers.</label>
+<button type="button" id="draft">Download draft JSON</button>
+<button type="button" id="finish">Download final author JSON</button>
+<p id="message" role="status"></p>
+<script id="packet" type="application/json">{"__AUTHOR_PACKET_PLACEHOLDER__":true}</script>
+<script>
+const packet=JSON.parse(document.querySelector("#packet").textContent);
+const selects=[...document.querySelectorAll("select[data-id]")];
+function gather(final){
+  const result=structuredClone(packet.blank);
+  result.independence_attested=document.querySelector("#independent").checked;
+  result.assignments=result.assignments.map(a=>{
+    const value=document.querySelector('select[data-id="'+a.instrument_id+'"]').value;
+    return {...a,primary_function:value||null,
+      rationale:document.querySelector('[data-note="'+a.instrument_id+'"]').value,
+      text_locator:document.querySelector('[data-locator="'+a.instrument_id+'"]').value,
+      coding_status:value?"coded":"blank"};
+  });
+  result.status=final?"author_final_pending_agreement_check":"author_draft";
+  result.completed_at=final?new Date().toISOString():null;
+  return result;
+}
+function save(final){
+  const result=gather(final);
+  if(final&&(result.assignments.some(a=>!a.primary_function||!a.rationale.trim()||!a.text_locator.trim())||!result.independence_attested)){
+    document.querySelector("#message").textContent="Complete all 20 labels, reasons and locators, and confirm independence before finalising. A draft can be downloaded at any time.";
+    return;
+  }
+  const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)+"\n"],{type:"application/json"}));
+  const link=document.createElement("a");
+  link.href=url;
+  link.download=final?"author-coding.round1.final.json":"author-coding.round1.draft.json";
+  link.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  document.querySelector("#message").textContent=final?"Final author file downloaded. Preserve it unchanged for agreement checking.":"Draft downloaded.";
+}
+selects.forEach(s=>s.addEventListener("change",()=>document.querySelector("#progress").textContent=selects.filter(x=>x.value).length+" of 20 labels selected."));
+document.querySelector("#draft").addEventListener("click",()=>save(false));
+document.querySelector("#finish").addEventListener("click",()=>save(true));
+</script>
+</html>
+

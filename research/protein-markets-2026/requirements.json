@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "status": "implementation_checkpoint_not_completed_research",
+  "requirements": [
+    {
+      "id": "S01",
+      "requirement": "Opening answers all five brief questions within two pages",
+      "evidence": "final report opening and page inspection",
+      "status": "not_started",
+      "cause": "No new empirical results have passed the reproduction gate."
+    },
+    {
+      "id": "S02",
+      "requirement": "HCES 2023-24 rural and urban protein reproduced within 0.5 g/person/day",
+      "evidence": "unit-level data, design, item mapping, code and reproduction output",
+      "status": "in_progress",
+      "cause": "Author-supplied cleaned HCES repository is cloned and fingerprinted; raw lineage, nutrient mapping and sector-specific CPI choices remain under review."
+    },
+    {
+      "id": "S03",
+      "requirement": "HIES 2024-25 chicken reproduced as 0.34 kg/person/month within published rounding",
+      "evidence": "official microdata, documentation, code and reproduction output",
+      "status": "blocked",
+      "cause": "The official report target conflicts with the downloadable workbook; all-source microdata diagnostics miss the report target and released sampling strata remain unverified."
+    },
+    {
+      "id": "S04",
+      "requirement": "Household-expenditure protein denominator by source, expenditure group and residence with survey design and IMF scaling",
+      "evidence": "weighted cell tables, design specification, population series and code",
+      "status": "held",
+      "cause": "Both official reproductions must pass first."
+    },
+    {
+      "id": "S05",
+      "requirement": "Income and own-price elasticities for meat, poultry, eggs, dairy and pulses by country and residence with standard errors",
+      "evidence": "demand estimates, identification notes and design-based uncertainty",
+      "status": "held",
+      "cause": "Both official reproductions and inspected price and quantity data are prerequisites."
+    },
+    {
+      "id": "S06",
+      "requirement": "NFHS-5 weekly animal-food variation analysis with confidence intervals and checked Pakistani equivalent",
+      "evidence": "unit-level design-based analysis and dataset access log",
+      "status": "blocked",
+      "cause": "No NFHS-5 unit-level data obtained; three official DHS retrieval attempts returned access errors. Pakistani comparability remains unestablished."
+    },
+    {
+      "id": "S07",
+      "requirement": "Three independent market-size methods per pillar with side-by-side reconciliation and twofold disagreement flag",
+      "evidence": "top-down, bottom-up and classified trade evidence tables",
+      "status": "not_started",
+      "cause": "Source and estimand compatibility have not been established."
+    },
+    {
+      "id": "S08",
+      "requirement": "At least thirty dated protein-price listings per country with required conventional and alternative coverage",
+      "evidence": "raw retail captures, nutrition sources, price calculation and coverage audit",
+      "status": "not_started",
+      "cause": "No retail collection or price estimate has been accepted."
+    },
+    {
+      "id": "S09",
+      "requirement": "Author-designated questionnaire replicated for both countries at required years and quantiles",
+      "evidence": "instrument identity, adaptation manifests, run metadata and raw model outputs",
+      "status": "held",
+      "cause": "Instrument preserved and country-substitution drafts prepared; official baselines, local resolution choices and model-run metadata remain prerequisites."
+    },
+    {
+      "id": "S10",
+      "requirement": "Country-analogue reference-class or Bass projections at P10 P50 P90 for 2030 and 2035",
+      "evidence": "analogue inputs, fitted model, validation, uncertainty and output rows",
+      "status": "held",
+      "cause": "Official baselines, preregistration and compatible analogue data are prerequisites."
+    },
+    {
+      "id": "S11",
+      "requirement": "Three most influential inputs identified for every projection",
+      "evidence": "sensitivity design, execution outputs and rankings",
+      "status": "held",
+      "cause": "No projection may run before the gates pass."
+    },
+    {
+      "id": "S12",
+      "requirement": "At least ten resolvable forecast questions committed before any projection",
+      "evidence": "question register, resolution rules, exact Git commit and chronological execution receipt",
+      "status": "ready_for_commit",
+      "cause": "Twelve supplementary regulatory signpost questions are source-checked and ready for their first local commit; no country projection has run."
+    },
+    {
+      "id": "S13",
+      "requirement": "Policy register covers FSSAI BioE3 DBT and Pakistan federal bodies plus Punjab Sindh Khyber Pakhtunkhwa and Balochistan",
+      "evidence": "dated instrument register with original primary texts",
+      "status": "prepared_partial",
+      "cause": "Twenty distinct instruments cover all named jurisdictions; the BioE3 full-text and several date/legal-currency details remain unresolved."
+    },
+    {
+      "id": "S14",
+      "requirement": "Written codebook and independent author coding of twenty instruments with Cohen kappa at least 0.7",
+      "evidence": "frozen codebook, agent coding, author coding and kappa table",
+      "status": "requires_author_input",
+      "cause": "Codebook and twenty agent codes are frozen; a separate blank author form is verified. Actual independent author coding and kappa remain pending."
+    },
+    {
+      "id": "S15",
+      "requirement": "Halal chapter uses original named and dated Pakistan and India authorities with Urdu and Arabic translation notes",
+      "evidence": "original-text captures, passage locators, dates and checked translations",
+      "status": "not_started",
+      "cause": "Prior library claims require fresh claim-level verification before reuse."
+    },
+    {
+      "id": "S16",
+      "requirement": "Every numerical report finding traces to the claims ledger",
+      "evidence": "report-token to claim to source to code to output audit",
+      "status": "in_progress",
+      "cause": "Four source-bound baseline-audit claims are recorded privately; no final report finding ledger is complete."
+    },
+    {
+      "id": "S17",
+      "requirement": "Existing repository verifier and applicable suites pass with deterministic rebuild",
+      "evidence": "build and verifier logs, test counts and second-build drift check",
+      "status": "checkpoint_checks_in_progress",
+      "cause": "Twenty-seven new tests and all nine existing fixture suites pass; final manifest/rebuild checks are being completed. This does not verify the unfinished research report."
+    },
+    {
+      "id": "S18",
+      "requirement": "One command rebuilds every empirical report table from raw inputs",
+      "evidence": "clean rebuild with input manifest and table hashes",
+      "status": "not_started",
+      "cause": "The present command builds readiness tables only and does not meet this criterion."
+    },
+    {
+      "id": "S19",
+      "requirement": "Restricted or nonredistributable inputs have lawful acquisition instructions",
+      "evidence": "per-dataset licence and access documentation",
+      "status": "documented_with_unresolved_rights",
+      "cause": "Access instructions and source-version checks are written; redistribution rights remain unresolved for private source copies."
+    },
+    {
+      "id": "S20",
+      "requirement": "Household-meal thesis appears as proposed tests in research agenda",
+      "evidence": "final agenda with outcomes, controls and falsifiers",
+      "status": "drafted",
+      "cause": "Five proposed tests are written; no result claimed and final-report integration/review remain pending."
+    },
+    {
+      "id": "S21",
+      "requirement": "Deliver report data package and reproducible code",
+      "evidence": "complete verified deliverable inventory",
+      "status": "in_progress",
+      "cause": "Only protocol and readiness implementation are being prepared."
+    },
+    {
+      "id": "S22",
+      "requirement": "Pakistan and India only with distinct pillars and explicit matching-market shares",
+      "evidence": "scope, product crosswalk and channel-aligned denominator audit",
+      "status": "in_progress",
+      "cause": "Protocol defines distinctions; empirical product and channel crosswalk is pending."
+    },
+    {
+      "id": "S23",
+      "requirement": "Every estimate has raw-file hash download date licence code path and output row",
+      "evidence": "complete source and execution manifests",
+      "status": "not_started",
+      "cause": "No new estimate has been authorized through the reproduction gate."
+    },
+    {
+      "id": "S24",
+      "requirement": "No human respondent survey",
+      "evidence": "method and execution audit",
+      "status": "in_progress",
+      "cause": "Boundary retained; full execution remains incomplete."
+    },
+    {
+      "id": "S25",
+      "requirement": "Supply benchmark and news-framing annotation excluded from main report",
+      "evidence": "final report and dependency audit",
+      "status": "not_started",
+      "cause": "Final report has not been assembled."
+    },
+    {
+      "id": "S26",
+      "requirement": "Verified comparison with Anna Bartlett US results",
+      "evidence": "exact US output version, compatible estimands and comparison code",
+      "status": "blocked",
+      "cause": "The instrument is available; US model outputs have not been supplied or located."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "round": 1,
+  "status": "frozen_agent_codes_do_not_show_before_author_finalises",
+  "frozen_at": "2026-10-16T02:04:24.035Z",
+  "codebook_sha256": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1",
+  "sample_sha256": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be",
+  "coder": "Codex specialist; AI-assisted, not human ground truth",
+  "assignments": [
+    {
+      "instrument_id": "IN-FSSAI-NSF-2017",
+      "primary_function": "AUTHORISATION",
+      "rationale": "The operative mechanism is prior case-specific food/ingredient approval, not a compositional rule.",
+      "text_locator": "PDF pp. 9-10, regulations 1-4; English operative prior-approval procedure on PDF p. 10.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-FSSAI-VEGAN-2022",
+      "primary_function": "INFORMATION",
+      "rationale": "The vegan identity, integrity and consumer-facing logo govern a claim; apply the claim-specific endorsement tie-break.",
+      "text_locator": "PDF pp. 3-4, regulations 2-5; vegan definition, integrity, labelling/logo and compliance.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-FSSAI-LABEL-2020",
+      "primary_function": "INFORMATION",
+      "rationale": "Direct requirements concern food labels and displayed information.",
+      "text_locator": "PDF pp. 27-30, regulation 1(2), Chapter II regulations 4-5; English text begins PDF p. 27.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-FSSAI-IMPORT-2017",
+      "primary_function": "TRADE",
+      "rationale": "The specialised instrument organises border clearance and inspection for food imports.",
+      "text_locator": "PDF p. 30, English notification and Chapter I; Chapter II food-import clearance requirements.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-FSSAI-RECALL-2017",
+      "primary_function": "SAFETY",
+      "rationale": "The central mechanism removes and manages food subject to recall.",
+      "text_locator": "PDF pp. 12-14, English regulations 3-7; recall objectives, scope and process.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-DBT-BIOE3-2024",
+      "primary_function": "INNOVATION",
+      "rationale": "The policy supports biomanufacturing R&D, translation, infrastructure and capability.",
+      "text_locator": "Official two-page DBT brochure, PDF p. 2: Background, About the Policy, thematic sectors and Bio-Enablers; dated Cabinet approval recorded in PIB release 2048568.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "IN-DBT-SMART-CALL-2025",
+      "primary_function": "INNOVATION",
+      "rationale": "The distinct call defines research/scale-up scope, eligibility and funding arrangements.",
+      "text_locator": "PDF pp. 1-4, sections 1-3 and platform-specific scope; PDF pp. 5-6, eligibility, evaluation and funding modalities; p. 6 extended deadline.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-FED-PSQCA-1996",
+      "primary_function": "FRAMEWORK",
+      "rationale": "A founding Act establishes the standards authority and assigns broad powers.",
+      "text_locator": "PDF p. 1, preamble and sections 1-3; section 8 functions; section 14 notified mandatory standards.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-FED-HALAL-2016",
+      "primary_function": "FRAMEWORK",
+      "rationale": "A founding Act establishes the halal authority and its jurisdiction; use the enabling-Act rule.",
+      "text_locator": "PDF p. 3, preamble and section 1; section 10 powers; sections 13-20 disclosure, marks, trade and marketing.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-FED-BIOSAFETY-2005",
+      "primary_function": "SAFETY",
+      "rationale": "The specialised regime addresses biosafety risk, contained use and release controls, even where licences are required.",
+      "text_locator": "Scanned PDF pp. 1-2, rules 1-3 and application; PDF pp. 15-17 appended January 2024 amendment, including amended risk-assessment provisions.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-PUNJAB-ACT-2011",
+      "primary_function": "FRAMEWORK",
+      "rationale": "A founding authority Act assigns broad regulatory and enforcement functions.",
+      "text_locator": "PDF pp. 2-6, preamble and sections 1, 3, 7; section 15 licensing.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-PUNJAB-PRODUCT-2017",
+      "primary_function": "AUTHORISATION",
+      "rationale": "The product itself requires registration and a CPR; the accompanying logo is incidental to that entry gate.",
+      "text_locator": "Scanned PDF pp. 2-4, notification and Part II regulations 3-8; registration requirement and CPR.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-PUNJAB-RECALL-2017",
+      "primary_function": "SAFETY",
+      "rationale": "The specialised mechanism is food recall and associated operator duties.",
+      "text_locator": "Scanned PDF p. 2, short title and recall definitions; subsequent recall procedure provisions.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-SINDH-ACT-2016",
+      "primary_function": "FRAMEWORK",
+      "rationale": "A founding authority Act establishes institutional powers and jurisdiction.",
+      "text_locator": "PDF p. 1, notification and section 1; PDF pp. 4-7, sections 3 and 7.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-SINDH-PRODUCT-2023",
+      "primary_function": "FRAMEWORK",
+      "rationale": "The complete captured four-page text supplies definitions; no product-approval procedure is inferred from its title.",
+      "text_locator": "Scanned PDF pp. 1-4, Chapter I regulations 1-2 and signed final page.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-SINDH-BUSINESS-2023",
+      "primary_function": "AUTHORISATION",
+      "rationale": "Chapter II establishes the business/premises licensing gate; apply the first dedicated operative-chapter tie-break.",
+      "text_locator": "Scanned PDF p. 1, regulations 1-2; PDF p. 6, Chapter II regulations 3-4 licensing of food businesses and premises.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-KP-ACT-2014",
+      "primary_function": "FRAMEWORK",
+      "rationale": "The enabling Act establishes the authority and broad food safety/halal powers.",
+      "text_locator": "PDF p. 4, preamble and section 1; sections 3 and 8 authority and functions.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-BALOCH-ACT-2014",
+      "primary_function": "FRAMEWORK",
+      "rationale": "The enabling Act establishes the food authority and broad powers.",
+      "text_locator": "PDF p. 4, preamble, section 1 and footnote; sections 3 and 7 authority and functions.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-BALOCH-PRODUCT-2022",
+      "primary_function": "AUTHORISATION",
+      "rationale": "The named specialised instrument establishes product registration and premises licensing.",
+      "text_locator": "Scanned PDF p. 1, notification and short title; Parts on registration and licensing following definitions.",
+      "coding_status": "coded"
+    },
+    {
+      "instrument_id": "PK-BALOCH-SAMPLING-2025",
+      "primary_function": "SAFETY",
+      "rationale": "The operative rules prescribe inspection, corrective action and sampling.",
+      "text_locator": "PDF p. 3, notification and footnote; Part II inspection regulations 3-13 and Part III sampling regulations 14-15.",
+      "coding_status": "coded"
+    }
+  ]
+}

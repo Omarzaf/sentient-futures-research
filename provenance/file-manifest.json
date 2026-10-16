@@ -1707,6 +1707,151 @@
       "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
     },
     {
+      "path": "research/protein-markets-2026/DATA-ACCESS.md",
+      "bytes": 4344,
+      "sha256": "5581a4a3ddb6ffd8461baa03f4c47be2a59caecb4921c1655fa61a15362c2ea4"
+    },
+    {
+      "path": "research/protein-markets-2026/HOUSEHOLD-MEAL-AGENDA.md",
+      "bytes": 5167,
+      "sha256": "fc9ddc0265fc93540f0c95de1dd3b6ac79a01f28b626d5deb5d2373785e34d25"
+    },
+    {
+      "path": "research/protein-markets-2026/PROTOCOL.md",
+      "bytes": 6633,
+      "sha256": "4c89414c31bba317eb5f9784ff84ef25c48b89bfecd3494484371580aeec01c7"
+    },
+    {
+      "path": "research/protein-markets-2026/README.md",
+      "bytes": 2945,
+      "sha256": "8fc70d95ce4d98d81e66190c52ef04bd6323c3c84ac29cd2300d7d36deb7f7a6"
+    },
+    {
+      "path": "research/protein-markets-2026/forecast-questions.json",
+      "bytes": 31430,
+      "sha256": "eda0ac799178d111f715896c09a03dd431808c15bca88b193e1ad74bb82f3e3b"
+    },
+    {
+      "path": "research/protein-markets-2026/inspect_hces.py",
+      "bytes": 14739,
+      "sha256": "6598f564349241d69fa0fe19a74e4ec8765b5bcba481f49e2d5495e833ae7d9c"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/README.md",
+      "bytes": 3121,
+      "sha256": "4067af9d32384b926b4c571fadfca51a1aa63cfdbf42410b4e03b670273a9e3a"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/VERIFICATION.json",
+      "bytes": 1004,
+      "sha256": "93025557aa2652b68efb198d449e8be5b2e1200003e52549d83a38accb65c1e7"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/agent-codes.frozen.json",
+      "bytes": 7724,
+      "sha256": "5a87e7b8b85c94a4083686d5e55f24c5f9147a48add0cf6805a8cb2145458521"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/author-form.template.html",
+      "bytes": 4380,
+      "sha256": "f0251263bfbd5658d2ffceb64b3448551221c9329b5c569f802c102414f1e02f"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/capture-sources.mjs",
+      "bytes": 3803,
+      "sha256": "f10b4d7130335da69a5ab91dfb77e3c24b9fd108403ad75ecac7eb619651a9cc"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/codebook.json",
+      "bytes": 8662,
+      "sha256": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/freeze-receipt.json",
+      "bytes": 1093,
+      "sha256": "32204552b604b65143dc952eabee6c04fafe3df24341f6c0e74dc6fe12af161b"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/instrument-register.json",
+      "bytes": 42402,
+      "sha256": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/prepare-review.mjs",
+      "bytes": 12485,
+      "sha256": "0cb710b7a01d28071b0947d4ee8f44badf53e2d406fbf7ed3a96414185fabf95"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/repair-2026-10-15-template-and-verifier.json",
+      "bytes": 2828,
+      "sha256": "0ddcf7cb625455e30e88e8abfdf4d1ecf5394e21ce2011f37bea120c343e17c2"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-fallbacks.json",
+      "bytes": 946,
+      "sha256": "ba4c79d947aea7aeed9107ad7fac715c55f78b89d7a95c1e9557b75bae475423"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-final.json",
+      "bytes": 180,
+      "sha256": "40b992a8072909e5c24dd5c5f0494bf8b68b0802dd0198c101be3f8d9f2ca078"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-plan.json",
+      "bytes": 3539,
+      "sha256": "f38b6eb881fbabf65772923046989e806e3d4e5f2a8ef1b89380bea33197d550"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/review-2026-10-15.json",
+      "bytes": 1917,
+      "sha256": "d1e8d8c7b6fe94f1aa46714c8df71d7d34d95bdc18184777dc80b7c36faa7598"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/verify-review.mjs",
+      "bytes": 6172,
+      "sha256": "109ebd4d8bea4c9994081f5e086c0fcf4022eccaa95c14bc12f440700d372506"
+    },
+    {
+      "path": "research/protein-markets-2026/prepare_elicitation.py",
+      "bytes": 5074,
+      "sha256": "6278504f3620680c23564f6c2a4174f1ab8d31f583b31f2e2a5007b4a03eb521"
+    },
+    {
+      "path": "research/protein-markets-2026/rebuild.py",
+      "bytes": 10532,
+      "sha256": "e0f89db661a01ee45d908a2da1529be5b41c51f1ef4dd44a9f4704cb46ef0015"
+    },
+    {
+      "path": "research/protein-markets-2026/reproduce_pakistan.py",
+      "bytes": 10522,
+      "sha256": "cfb61b2732f7d862914ea41f209b2666384f874a5cb36f4469f545f67784cb16"
+    },
+    {
+      "path": "research/protein-markets-2026/requirements.json",
+      "bytes": 9561,
+      "sha256": "ce936abc6d2424329719db281600907b915b3298979bf7af15abff1b82ebe663"
+    },
+    {
+      "path": "research/protein-markets-2026/test_inspect_hces.py",
+      "bytes": 4320,
+      "sha256": "896a0df500efd64823ca4416716e624061a407eb697e0fb56a195f1d997a7482"
+    },
+    {
+      "path": "research/protein-markets-2026/test_prepare_elicitation.py",
+      "bytes": 2051,
+      "sha256": "4dd7ee540a8ccc17f22cca1809e72014d69a0202f556af297773072826642a75"
+    },
+    {
+      "path": "research/protein-markets-2026/test_rebuild.py",
+      "bytes": 4217,
+      "sha256": "7074b3e11dd11425abc0b23a0db7475817f4c5c981934c7dca036cc99fa512ee"
+    },
+    {
+      "path": "research/protein-markets-2026/test_reproduce_pakistan.py",
+      "bytes": 4725,
+      "sha256": "739c1c20515e891d8f5c699c5f0c2f4935fc81d69da4c00331903c83fe1bddb4"
+    },
+    {
       "path": "research/protein-survey-data/README.md",
       "bytes": 4382,
       "sha256": "106ccb2eb261a6a2333aab75eb7cd007dec70a0b082a5e3cff2995d7fe4602d7"
