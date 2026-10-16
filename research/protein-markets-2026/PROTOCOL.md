@@ -50,6 +50,10 @@ Freeze the policy codebook and instrument sample before independent author codin
 
 ## Completion
 
+The 16 October continuation adds `complete_research.py` as the report/data rebuild command. Its source-table predecessor retains the legacy component diagnostics. `baseline_acceptance.py` evaluates actual reconstructed values and method eligibility with a genuine passing path; neither fixed HOLD metadata nor a numerically matching conditional meal variant can open it. The original India item-based recipe and the conditional roster-meal hypothesis remain separately named. Pakistan's source-defined all-channel result is independently checked against the official SPSS format, with storage differences and duplicate report captures retained.
+
+The brief permits a stop when every unmet criterion has its cause documented. The completion edition supplies that record and the executed baseline attempts. This is distinct from satisfying every empirical criterion: downstream estimation remains stopped after failed baseline acceptance, and missing human coding, restricted respondent data and deferred US results remain unresolved.
+
 The final opening answers the five research questions within two pages. Every numerical finding has a claims-ledger row and a source-to-output chain. Rebuild every table from raw inputs with one command; provide lawful acquisition instructions for restricted inputs. Include the household-meal thesis as an agenda of proposed tests. Exclude the standalone supply benchmark and news-framing annotation from the main text.
 
 Completion is audited against the brief itself as well as the software verifier. Missing, blocked, failed and unverified requirements are never promoted by a green structural check.

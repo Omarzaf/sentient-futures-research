@@ -1,4 +1,4 @@
-"""Rebuild diagnostics and collected-source tables without new estimation."""
+"""Rebuild legacy component diagnostics and collected-source tables offline."""
 
 from __future__ import annotations
 
@@ -306,7 +306,7 @@ def build_readiness(
         "projection_allowed": False,
         "reproduction_gate": "HOLD",
         "gate_evaluation": "diagnostic_checkpoint_hardcoded_hold_not_dynamic_reproduction_test",
-        "cause": "The available scripts are incomplete diagnostics; both full official reproductions remain unaccepted. HOLD is not itself evidence that input files are absent.",
+        "cause": "This command rebuilds legacy component diagnostics. Complete baseline attempts and dynamic acceptance are provided by complete_research.py; these component outputs alone cannot accept an official reproduction.",
         "input_manifest_present": source_manifest.is_file(),
         "integrity_failures": [
             row["source_id"]

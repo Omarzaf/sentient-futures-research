@@ -1,6 +1,6 @@
 # Pakistan and India protein markets protocol
 
-This package supports the author-approved October 2026 research brief. Human verification pending. It is a local implementation checkpoint, with no new market estimate or projection.
+This package supports the author-approved October 2026 research brief. Human verification pending. Complete observed-data baseline attempts now run, with dynamic acceptance and explicit method qualifications. No new market estimate or projection is accepted.
 
 The target remains the full report, auditable data package and one-command rebuild of every reported number. A readiness table is not completion of that target. Unmet requirements stay open with their causes.
 
@@ -18,10 +18,12 @@ The target remains the full report, auditable data package and one-command rebui
 Activate the task's Python environment. From the repository root:
 
 ```sh
-python research/protein-markets-2026/rebuild.py --data-dir PATH_TO_PRIVATE_DATA --output-dir PATH_TO_PRIVATE_TABLES --hces-dir PATH_TO_HCES_CHECKOUT
+python research/protein-markets-2026/complete_research.py --data-dir PATH_TO_PRIVATE_DATA --output-dir PATH_TO_PRIVATE_COMPLETION_EDITION --hces-dir PATH_TO_HCES_CHECKOUT
 ```
 
-The current command rebuilds readiness tables, both available baseline diagnostics and collected market/retail source tables, then returns exit code 2 for the held estimation gate. Omit the optional HCES checkout argument to inspect only the sources available in the private data directory. It makes no network calls and does not run an LLM, a supply model or a proxy projection. Empirical table builders will be added only with inspected data and a documented design. Missing inputs are reported as missing, never as zero.
+The current command rebuilds source tables, the complete physical/monetary India candidate reconstruction, Pakistan's all-channel comparator and independent SPSS check, the dynamic acceptance result, criterion outcomes, claim ledger, Markdown report/opening and PDFs. Exit2 records a genuine failed prerequisite; execution or source-integrity failures are errors. The earlier `rebuild.py` remains the source-table/component diagnostic command. The completion command runs offline and calls no model. Missing or unmeasured results are explicit; matching a target does not authenticate raw lineage or establish a variance design.
+
+The public CPI capture and official SPSS archive, fixed specifications and public-literature fallback captures are under the private data directory's `baseline-completion-20261016/`. Acquisition receipts preserve URLs, dates and hashes; raw respondent files remain private. The report build needs Pandoc, Poppler, ReportLab and R with its `foreign` package for the independent SPSS reader, alongside the existing pandas/NumPy/PyArrow environment. Exact installed versions are recorded with the completion receipt.
 
 Read [the protocol](PROTOCOL.md) and [the requirement register](requirements.json) for the complete scope and unresolved work. The original questionnaire and household records remain outside the shareable repository.
 

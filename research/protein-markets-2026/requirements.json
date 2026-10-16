@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "status": "implementation_checkpoint_not_completed_research",
+  "status": "baseline_execution_and_documented_failure_closeout",
   "requirements": [
     {
       "id": "S01",
       "requirement": "Opening answers all five brief questions within two pages",
       "evidence": "final report opening and page inspection",
-      "status": "one_page_checkpoint_opening_verified",
-      "cause": "All five questions are addressed on one rendered page, with missing empirical results explicitly identified. This is not accepted completion of the five quantitative analyses."
+      "status": "one_page_completion_opening_verified",
+      "cause": "The completion edition answers all five questions on one rendered page, with failed or unavailable quantitative results explicit. This is presentation completion, not acceptance of the missing analyses."
     },
     {
       "id": "S02",
       "requirement": "HCES 2023-24 rural and urban protein reproduced within 0.5 g/person/day",
       "evidence": "unit-level data, design, item mapping, code and reproduction output",
-      "status": "held_unfinished_reconstruction_with_available_candidate_inputs",
-      "cause": "All fifteen cleaned household/person/food/visit levels and official nutrient factors already exist locally. The brief targets unadjusted61.8/63.4; meal adjustment is separate. Grain parent coefficients are supplied and already used once. Monetary contributions and exact sector CPI series/base/normalization are unimplemented or unresolved, not an expressly required missing item crosswalk. Original raw-text lineage and design-based inference remain separate open checks."
+      "status": "reconstruction_executed_primary_failed_conditional_meal_variant_matches",
+      "cause": "Full physical/monetary candidate attempt returns61.099055r/62.692731u, outside±0.5 of61.8/63.4. A separately named observed-roster X+G meal-source diagnostic gives61.739775r/63.414554u and matches numerically; FDQ-time membership/null semantics and exact unadjusted formula remain unverified, so it is not promoted. Official CPI acquired publicly; source factors implemented; original raw lineage and design variance remain separate."
     },
     {
       "id": "S03",
       "requirement": "HIES 2024-25 chicken reproduced as 0.34 kg/person/month within published rounding",
       "evidence": "official microdata, documentation, code and reproduction output",
-      "status": "blocked",
-      "cause": "Official PBS microdata and earlier weighting/reconciliation code already exist locally. All2153 analytic PSUs map to official administrative codes;16PSUs/212HH are ICT geography but raw analysis province2(Punjab), so both classifications must be preserved and ICT plan applicability remains explicit. Full survey-stratum/variance implementation is separate. All-channel diagnostics still miss0.34; no replacement dataset or paid-only target fit is assumed."
+      "status": "complete_observed_quantity_comparator_target_failed",
+      "cause": "The declared all-channel member=yes30/14 comparator actually returns0.35460168721544993, outside[0.335,0.345). An independent R/foreign reader of official SPSS confirms the Stata result within storage precision. Urban/rural comparisons also fail. Distinct source-supported variants and official Table23 disagreement remain visible. Duplicate PDF downloads are one source. No channel drop, fitting, trimming or invented quantity is accepted."
     },
     {
       "id": "S04",
@@ -41,8 +41,8 @@
       "id": "S06",
       "requirement": "NFHS-5 weekly animal-food variation analysis with confidence intervals and checked Pakistani equivalent",
       "evidence": "unit-level design-based analysis and dataset access log",
-      "status": "blocked_with_checked_pakistan_candidates",
-      "cause": "Local code/history/dataset audit found NFHS reports, tables and metadata but no respondent microdata within the searched repositories, workspace filenames and inspected archives. Published frequency tables do not supply the requested respondent regression. Checked Pakistani child previous-day and women previous-day outcomes remain non-equivalent."
+      "status": "published_fallback_synthesis_completed_requested_unit_analysis_unavailable",
+      "cause": "Two original open-access studies support attributed NFHS food-frequency/wealth-education context and older household price/religion/caste/geography context. They do not supply the requested new joint respondent-level decomposition. No accessible authorized NFHS respondent release was recovered; the paper data-sharing route requires a human request. Checked Pakistan child/women previous-day outcomes remain non-equivalent."
     },
     {
       "id": "S07",
@@ -97,8 +97,8 @@
       "id": "S14",
       "requirement": "Written codebook and independent author coding of twenty instruments with Cohen kappa at least 0.7",
       "evidence": "frozen codebook, agent coding, author coding and kappa table",
-      "status": "author_codes_missing_disclosure_recorded",
-      "cause": "All twenty author responses remain blank; no kappa exists. Generic guidance and honest uncodable/nonblind export are available. Existing agent labels appeared in a later assistant tool output; actual author viewing is unknown and clean blind status cannot be certified. Preserve that disclosure with future coding; a viewed round cannot be called independent blind agreement."
+      "status": "human_measurement_unavailable_no_agent_substitution",
+      "cause": "Actual author responses remain blank and kappa is unmeasured. Agent-generated decisions cannot be relabelled as independent author coding. Existing disclosure is preserved; no clean blind status is certified. This unresolved criterion is documented separately and does not prevent delivery of supported report sections."
     },
     {
       "id": "S15",
@@ -111,22 +111,22 @@
       "id": "S16",
       "requirement": "Every numerical report finding traces to the claims ledger",
       "evidence": "report-token to claim to source to code to output audit",
-      "status": "twelve_numeric_checkpoint_claims_verified",
-      "cause": "12 baseline, historical-context and inventory findings match the preserved report outputs and source/producer hashes. A subsequent version-bound author review covers six halal linguistic/religious claims. Earlier PDFs are historical checkpoint editions; follow-up records document current changes. Full empirical report remains incomplete."
+      "status": "prior_numeric_checkpoint_and_new_baseline_claims_traceable",
+      "cause": "The preserved checkpoint has12 verified findings. The completion edition adds8 source/output-bound baseline and conditional-diagnostic claims, checked against recomputed JSON, Markdown and PDF. The new edition does not transform missing empirical results into measured values."
     },
     {
       "id": "S17",
       "requirement": "Existing repository verifier and applicable suites pass with deterministic rebuild",
       "evidence": "build and verifier logs, test counts and second-build drift check",
-      "status": "checkpoint_passed_research_incomplete",
-      "cause": "43 Python tests pass, including source-column guards distinguishing adjusted from unadjusted targets and grain double-count prevention. Existing checks verify available diagnostic/software scope, not a complete estimator or dynamic passing reproduction path. Current audit source and rebuild receipts record the remaining checks."
+      "status": "software_checks_pass_empirical_prerequisites_fail",
+      "cause": "89 Python tests pass, including genuine positive/negative baseline acceptance cases; Ruff/Black and all existing fixture suites pass. Independent source/method review finds no fabricated acceptance. Saved rebuild, PDF and source-binding receipts document execution separately from scientific validity."
     },
     {
       "id": "S18",
       "requirement": "One command rebuilds every empirical report table from raw inputs",
       "evidence": "clean rebuild with input manifest and table hashes",
-      "status": "partial_rebuild_available_empirical_tables_held",
-      "cause": "One offline command rebuilds readiness and available component/source diagnostics. HOLD/false/exit2 are deliberately fixed diagnostic behavior, not an evaluated end-to-end acceptance test. Full unadjusted monetary reconstruction, design-based inference and future positive/negative gate tests remain implementation work."
+      "status": "one_command_baseline_and_evidence_completion_implemented_downstream_tables_unestimated",
+      "cause": "complete_research.py rebuilds the observed baseline attempts, source tables, dynamic acceptance result, criterion outcomes, claims ledger, Markdown opening/report and PDFs offline. Missing downstream estimates remain explicitly missing under the failed baseline prerequisite; no full empirical-estimation completion is claimed."
     },
     {
       "id": "S19",
@@ -146,8 +146,8 @@
       "id": "S21",
       "requirement": "Deliver report data package and reproducible code",
       "evidence": "complete verified deliverable inventory",
-      "status": "incomplete_research_report_and_evidence_checkpoint_delivered",
-      "cause": "Seven-page source-bound report draft, one-page opening, private captures, tables and code are prepared. Official reproductions and downstream empirical success criteria remain unmet; US comparison is explicitly deferred by the author."
+      "status": "report_data_and_reproducible_code_delivered_with_documented_failed_criteria",
+      "cause": "The completion edition binds executed baseline attempts, evidence tables, public alternatives, all criterion outcomes and causes, eight displayed baseline/diagnostic claims and local reproducible code. It follows the brief's documented-failure route; the requested full empirical research remains incomplete."
     },
     {
       "id": "S22",
