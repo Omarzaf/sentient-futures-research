@@ -34,3 +34,5 @@ The elicitation instrument is author supplied for local work. Preserve its origi
 The policy register records original official URLs and private capture hashes. One BioE3 source is explicitly an official summary brochure rather than the inaccessible full-policy text. Date precision, commencement and source-access limitations remain in the register. Its independent author-coding packet is generated privately; no agreement statistic exists before actual author coding.
 
 Retail, trade, company and analogue sources require their own coverage, version and rights records. Missing or unattempted retrieval is not evidence of zero sales or absent products. Never treat upstream HS protein ingredients as an automatically equivalent consumer market.
+
+The additional Pakistan documentation check inspected PDHS2017-18 women’s questions649–650 (youngest child previous-day foods) and NNS2018 section6.4 (women’s previous-day dietary diversity). These do not establish the requested respondent-level weekly NFHS-equivalent outcome. Original document identities and boundaries are retained in `market/reviews.json`; unit data and caste comparability remain unresolved.

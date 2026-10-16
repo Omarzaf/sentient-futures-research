@@ -1,4 +1,4 @@
-"""Rebuild the private readiness tables without computing research estimates."""
+"""Rebuild diagnostics and collected-source tables without new estimation."""
 
 from __future__ import annotations
 
@@ -218,6 +218,40 @@ def build_readiness(
             )
     output_dir.mkdir(parents=True, exist_ok=True)
     diagnostics = _diagnostics(data_dir, output_dir, hces_dir)
+    evidence_audits = {}
+    if (data_dir / "market/capture-receipt-batch3.json").is_file():
+        script = PACKAGE / "market/build-evidence.mjs"
+        completed = subprocess.run(
+            [
+                "node",
+                str(script),
+                str(data_dir / "market"),
+                str(output_dir / "market"),
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if completed.returncode:
+            raise ValueError(f"Market-source audit failed: {completed.stderr}")
+        evidence_audits["market_sources"] = json.loads(completed.stdout)
+    if (data_dir / "retail/capture-manifest.jsonl").is_file():
+        completed = subprocess.run(
+            [
+                sys.executable,
+                str(PACKAGE / "retail/build_inventory.py"),
+                "--data-dir",
+                str(data_dir / "retail"),
+                "--output-dir",
+                str(output_dir / "retail"),
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if completed.returncode:
+            raise ValueError(f"Retail-source audit failed: {completed.stderr}")
+        evidence_audits["retail_sources"] = json.loads(completed.stdout)
     _write_csv(
         output_dir / "source_integrity.csv",
         rows,
@@ -238,7 +272,7 @@ def build_readiness(
         ["id", "requirement", "evidence", "status", "cause"],
     )
     status = {
-        "build_scope": "readiness_only",
+        "build_scope": "readiness_baseline_diagnostics_and_available_source_tables",
         "research_complete": False,
         "new_estimation_allowed": False,
         "projection_allowed": False,
@@ -255,6 +289,7 @@ def build_readiness(
         "completion_criterion_met_by_this_command": False,
         "preregistration": preregistration,
         "baseline_diagnostics": diagnostics,
+        "evidence_audits": evidence_audits,
     }
     (output_dir / "readiness.json").write_text(
         json.dumps(status, indent=2) + "\n", encoding="utf-8"

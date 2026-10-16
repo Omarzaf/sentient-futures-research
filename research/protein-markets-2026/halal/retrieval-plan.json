@@ -1,0 +1,14 @@
+[
+  {"id":"PK-BANURI-2018","url":"https://www.banuri.edu.pk/readquestion/144001200799/31-10-2018","format":"html","prior_failed_attempts":1},
+  {"id":"PK-BANURI-2019","url":"https://www.banuri.edu.pk/readquestion/%D9%84%DB%8C%D8%A8%D8%A7%D8%B1%D9%B9%D8%B1%DB%8C-%D9%85%DB%8C%DA%BA-%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B4%D8%AF%DB%81-%DA%AF%D9%88%D8%B4%D8%AA-%DA%A9%D8%A7-%D8%AD%DA%A9%D9%85-144012201327/17-09-2019","format":"html","prior_failed_attempts":1},
+  {"id":"IN-DEOBAND-146427","url":"https://www.darulifta-deoband.com/home/ur/Food--Drinks/146427","format":"html","prior_failed_attempts":1},
+  {"id":"IN-DEOBAND-39457-EN","url":"https://www.darulifta-deoband.com/home/en/qa/39457","format":"html","prior_failed_attempts":1},
+  {"id":"IN-IFA-HALAL-RESOLUTION","url":"https://www.ifa-india.org/pdfs/pdf-20210410124823.pdf","format":"pdf","prior_failed_attempts":1},
+  {"id":"IN-IFA-ACHIEVEMENTS","url":"https://www.ifa-india.org/about-ifa/achievements.html","format":"html"},
+  {"id":"IN-IFA-THEORETICAL","url":"https://www.ifa-india.org/juristic-decisions/theoretical-issues.html","format":"html"},
+  {"id":"IN-JUHHT-SCHEME","url":"https://www.jamiathalaltrust.org/globals/SCH-2.pdf","format":"pdf"},
+  {"id":"PK-PHA-HCB-REGISTER","url":"https://www.pakistanhalalauthority.gov.pk/rhcbs.aspx","format":"html"},
+  {"id":"PK-PHA-DOWNLOADS","url":"https://pakistanhalalauthority.gov.pk/downloads.aspx","format":"html","prior_failed_attempts":1},
+  {"id":"IN-NABCB-PC038","url":"https://nabcb.qci.org.in/pc-038/","format":"html"},
+  {"id":"IN-DBT-SMART-PROTEINS","url":"https://birac.nic.in/webcontent/1743051137_Approved_CFP_Biomanufacturing_Smart_Proteins.pdf","format":"pdf"}
+]

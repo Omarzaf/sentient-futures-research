@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-15",
+  "scope": "New research/protein-markets-2026/halal authored files and assigned private halal evidence only",
+  "moderator": {
+    "verdict": "PASS",
+    "blocks": [],
+    "warnings": [
+      "Qualified human Urdu/Arabic translation and scholarly review remain pending.",
+      "Indian exact cultivated/Arabic original and CII cultivated ruling remain unestablished.",
+      "Two Deoband originals held after three failed retrievals; no inferred country consensus.",
+      "Certification questions remain proposed; T0 unset and no probabilities assigned.",
+      "DUK post date and Urdu issue months describe distinct layers; witnesses are not independent authorities."
+    ],
+    "review_actions": [
+      "Rechecked original short passages against Banuri HTML and visually inspected DUK/IFA operative page images.",
+      "Preserved DUK non-life-bearing-parts exception, prohibited-admixture condition and qualified istihala discussion.",
+      "Separated IFA questions from adopted decisions and technical call objectives from implementation.",
+      "Checked no frozen policy labels/author responses or kappa result enters this packet.",
+      "Removed uncertain Arabic issue-year identification; no exact unsupported issuance day added."
+    ]
+  },
+  "verification": {
+    "status": "pass",
+    "assertions": 321,
+    "source_captures": 17,
+    "private_capture_and_inspection_files": 45,
+    "claims": 9,
+    "held_originals": 2,
+    "certification_signposts": 4,
+    "translation_review": "pending",
+    "market_estimates_computed": false,
+    "policy_author_codes": "pending; not exposed"
+  },
+  "private_receipt": "OUTPUTS/Deep Research 2026-10/halal/verification-2026-10-15.json",
+  "authored_artifact_hashes": {
+    "source-register.json": "443811c168bfff1d1c11c1dc20df87b4b5eb4228e18a9cbeab178b0071080364",
+    "claims.json": "7c7d8857c645035831d2d5d04528b458d5846b8b2bae73a8e7d32ca8c8bcc23f",
+    "signposts.json": "4c60a7936a69a24cddbd3dbb35744256d0ca49b42e4b56dd02a1a7f57ec098c4",
+    "CHAPTER-DRAFT.md": "f3278d990117c0ca097e98b56e635e7bdf57bf03f48016b8e6a5be5547463c73",
+    "GAPS.md": "37f30c36e8562a23bb86acc350f930b34ce0c3e00011b8ad34d78a8e7325d4f8",
+    "README.md": "18f4bdab7da5fbae6d27ce8ced56d3ea6f649682e05c9d05522b4c1ab813def5",
+    "verify-evidence.mjs": "68a96f01a569bdb855b117cee2b35099d92ce5a3ddbfabacc7016b2a93e34457"
+  },
+  "retrospective": {
+    "worked": "Following original institutional links recovered paired DUK Urdu/Arabic articles and IFA adopted Urdu decisions.",
+    "did_not": "Deoband blocked original retrieval; IFA PDF text extraction was corrupt.",
+    "rule_proposal": "Separate container dates, issue dates, source-language witnesses and operative decisions; preserve visual locators and keep translations pending qualified review."
+  },
+  "publication": false,
+  "committed_by_this_agent": false,
+  "market_estimates": false,
+  "root_owned_files_touched": false
+}

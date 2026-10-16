@@ -1,0 +1,10 @@
+[
+  {"id":"IN-IFA-URDU-THEORETICAL","url":"https://www.ifa-india.org/ur/juristic-decisions/theoretical-issues.html","format":"html"},
+  {"id":"IN-IFA-URDU-SEMINARS","url":"https://www.ifa-india.org/ur/fiqhi-seminars/ifa-seminars-at-a-glance.html","format":"html"},
+  {"id":"IN-IFA-URDU-SEMINAR24","url":"https://www.ifa-india.org/ur/pdfs/pdf-20260729113303.pdf","format":"pdf","prior_failed_attempts":1},
+  {"id":"IN-IFA-URDU-SEMINAR33","url":"https://www.ifa-india.org/ur/pdfs/pdf-20260729113944.pdf","format":"pdf","prior_failed_attempts":1},
+  {"id":"IN-DEOBAND-146427-FINAL","url":"https://darulifta-deoband.com/home/ur/Food--Drinks/146427","format":"html","prior_failed_attempts":2,"transport":"curl"},
+  {"id":"IN-DEOBAND-39457-FINAL","url":"https://darulifta-deoband.com/home/en/qa/39457","format":"html","prior_failed_attempts":2,"transport":"curl"},
+  {"id":"PK-PHA-HCB-REGISTER-CURL","url":"https://www.pakistanhalalauthority.gov.pk/rhcbs.aspx","format":"html","prior_failed_attempts":1,"transport":"curl"},
+  {"id":"PK-PHA-DOWNLOADS-CURL","url":"https://pakistanhalalauthority.gov.pk/downloads.aspx","format":"html","prior_failed_attempts":2,"transport":"curl"}
+]

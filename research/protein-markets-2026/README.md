@@ -21,7 +21,7 @@ Activate the task's Python environment. From the repository root:
 python research/protein-markets-2026/rebuild.py --data-dir PATH_TO_PRIVATE_DATA --output-dir PATH_TO_PRIVATE_TABLES --hces-dir PATH_TO_HCES_CHECKOUT
 ```
 
-The current command rebuilds readiness tables and both available baseline diagnostics, then returns exit code 2 for the held estimation gate. Omit the optional HCES checkout argument to inspect only the sources available in the private data directory. It makes no network calls and does not run an LLM, a supply model or a proxy projection. Empirical table builders will be added only with inspected data and a documented design. Missing inputs are reported as missing, never as zero.
+The current command rebuilds readiness tables, both available baseline diagnostics and collected market/retail source tables, then returns exit code 2 for the held estimation gate. Omit the optional HCES checkout argument to inspect only the sources available in the private data directory. It makes no network calls and does not run an LLM, a supply model or a proxy projection. Empirical table builders will be added only with inspected data and a documented design. Missing inputs are reported as missing, never as zero.
 
 Read [the protocol](PROTOCOL.md) and [the requirement register](requirements.json) for the complete scope and unresolved work. The original questionnaire and household records remain outside the shareable repository.
 
@@ -30,3 +30,7 @@ Read [the protocol](PROTOCOL.md) and [the requirement register](requirements.jso
 The [household-meal research agenda](HOUSEHOLD-MEAL-AGENDA.md) contains proposed tests, not findings. The [supplementary forecast questions](forecast-questions.json) concern observable regulatory signposts and do not replace the questionnaire's sales questions. Their first local Git commit is the preregistration identity.
 
 `prepare_elicitation.py --data-dir PATH_TO_PRIVATE_DATA` creates auditable country-substitution drafts, preserves the original currency and scope clauses, and records unresolved local-resolution choices. It calls no model. `reproduce_pakistan.py --raw-dir PATH_TO_PRIVATE_RAW --output PATH_TO_PRIVATE_RECEIPT` diagnoses the fixed public PBS release. A held baseline returns exit code 2; it is not a passing reproduction.
+
+[Market-source review](market/README.md) and [original halal-source chapter](halal/README.md) preserve attributed observations and explicit gaps. The additional source audits do not pass the official reproduction gate.
+
+`verify_report.py --data-dir PATH_TO_PRIVATE_DATA` checks the listed numerical checkpoint findings against source/producer hashes, saved outputs, Markdown and the rendered PDF. It is read-only and does not certify the missing empirical estimates or qualified scholarly review.
