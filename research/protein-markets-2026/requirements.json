@@ -13,15 +13,15 @@
       "id": "S02",
       "requirement": "HCES 2023-24 rural and urban protein reproduced within 0.5 g/person/day",
       "evidence": "unit-level data, design, item mapping, code and reproduction output",
-      "status": "held_incomplete_reconstruction",
-      "cause": "Candidate and supplied documentation hashes checked. Where parent and child rows coexist, their quantities reconcile within tolerance in a separate diagnostic; nutrient composition mapping is not validated by those sums. Authenticated original raw lineage, rupee-food nutrient/CPI crosswalk and complete design-based reconstruction remain unresolved."
+      "status": "held_unfinished_reconstruction_with_available_candidate_inputs",
+      "cause": "All fifteen cleaned household/person/food/visit levels and official nutrient factors already exist locally. The brief targets unadjusted61.8/63.4; meal adjustment is separate. Grain parent coefficients are supplied and already used once. Monetary contributions and exact sector CPI series/base/normalization are unimplemented or unresolved, not an expressly required missing item crosswalk. Original raw-text lineage and design-based inference remain separate open checks."
     },
     {
       "id": "S03",
       "requirement": "HIES 2024-25 chicken reproduced as 0.34 kg/person/month within published rounding",
       "evidence": "official microdata, documentation, code and reproduction output",
       "status": "blocked",
-      "cause": "Two official report versions give0.34; the downloadable workbook and all-source microdata diagnostics still differ. Released sampling-stratum mapping remains unverified. A conflicting link label does not override the workbook internal year."
+      "cause": "Official PBS microdata and earlier weighting/reconciliation code already exist locally. All2153 analytic PSUs map to official administrative codes;16PSUs/212HH are ICT geography but raw analysis province2(Punjab), so both classifications must be preserved and ICT plan applicability remains explicit. Full survey-stratum/variance implementation is separate. All-channel diagnostics still miss0.34; no replacement dataset or paid-only target fit is assumed."
     },
     {
       "id": "S04",
@@ -42,7 +42,7 @@
       "requirement": "NFHS-5 weekly animal-food variation analysis with confidence intervals and checked Pakistani equivalent",
       "evidence": "unit-level design-based analysis and dataset access log",
       "status": "blocked_with_checked_pakistan_candidates",
-      "cause": "NFHS unit files remain absent after three earlier official-route failures. World Bank NFHS-5 metadata confirms registration/project approval and restricted onward sharing; IIPS general portal also needs personal registration. No registration/request submitted. Checked Pakistan DHS2017-18 child previous-day and NNS2018 women previous-day outcomes do not match the requested weekly respondent measure."
+      "cause": "Local code/history/dataset audit found NFHS reports, tables and metadata but no respondent microdata within the searched repositories, workspace filenames and inspected archives. Published frequency tables do not supply the requested respondent regression. Checked Pakistani child previous-day and women previous-day outcomes remain non-equivalent."
     },
     {
       "id": "S07",
@@ -119,14 +119,14 @@
       "requirement": "Existing repository verifier and applicable suites pass with deterministic rebuild",
       "evidence": "build and verifier logs, test counts and second-build drift check",
       "status": "checkpoint_passed_research_incomplete",
-      "cause": "40 Python tests, 6 author-review version/scope tests, 12 market cases, 321 halal checks, 582 policy integrity/uncodable/disclosure checks, 9 existing fixture suites and 3024 presentation checks pass. The corrected form was checked in a browser. Receipts concern documentary/diagnostic evidence; empirical research remains incomplete."
+      "cause": "43 Python tests pass, including source-column guards distinguishing adjusted from unadjusted targets and grain double-count prevention. Existing checks verify available diagnostic/software scope, not a complete estimator or dynamic passing reproduction path. Current audit source and rebuild receipts record the remaining checks."
     },
     {
       "id": "S18",
       "requirement": "One command rebuilds every empirical report table from raw inputs",
       "evidence": "clean rebuild with input manifest and table hashes",
       "status": "partial_rebuild_available_empirical_tables_held",
-      "cause": "One offline command rebuilds available baseline/readiness/market/retail tables and the supplied HCES documentation diagnostic. Requested household, elasticity, market-share and forecast tables remain unavailable. Both official reproductions still HOLD; full empirical rebuild criterion remains unmet."
+      "cause": "One offline command rebuilds readiness and available component/source diagnostics. HOLD/false/exit2 are deliberately fixed diagnostic behavior, not an evaluated end-to-end acceptance test. Full unadjusted monetary reconstruction, design-based inference and future positive/negative gate tests remain implementation work."
     },
     {
       "id": "S19",

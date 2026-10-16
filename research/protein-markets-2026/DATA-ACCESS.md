@@ -10,7 +10,9 @@ The author supplied [the hces_2023 repository](https://github.com/advaitmoharir/
 
 Inspect the checkout and its documentation before running anything. The research command does not execute its Stata scripts or notebook. Preserve the task's candidate manifest with each Parquet hash and the exact checkout commit.
 
-The [official nutritional-intake report](https://www.mospi.gov.in/sites/default/files/publication_reports/Nutritional_Intake_in_India_L.pdf) supplies the target values and conversion methodology. The diagnostic pins its source hash. Complete reproduction still requires the unresolved rupee-food CPI mapping and grain-code reconciliation; no fitted correction or zero-filled missing contribution is accepted.
+The [official nutritional-intake report](https://www.mospi.gov.in/sites/default/files/publication_reports/Nutritional_Intake_in_India_L.pdf) supplies the target values and conversion methodology. The diagnostic pins its source hash. Table3.18R/U printed51 explicitly identifies the brief's61.8/63.4 as unadjusted; meal-adjusted61.2/62.9 is a separate estimand. Table2.2 already supplies the coarse-grain parent coefficients used by the physical join; a new variety-specific nutrient lookup is not required to reproduce that official composite. The remaining monetary-food conversion needs an identified CPI series/base/normalization and implementation. Section2.10.1 specifies the period and separate rural/urban indices but does not expressly demand an item-by-item crosswalk. No fitted correction or zero-filled missing contribution is accepted.
+
+The cleaned household, food, survey-design and meal-count inputs already exist locally. The H roster and F household fields need their actual questionnaire codes and missingness semantics respected. These are implementation/cleaning tasks, not grounds to ask the author to supply the same processed dataset again. Original raw-text lineage and redistribution rights remain separate unresolved provenance issues. The local Git/data audit is recorded in [the current review](REVIEW-CODE-DATA-2026-10-16.md).
 
 ## Pakistan household survey
 

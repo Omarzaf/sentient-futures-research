@@ -305,7 +305,8 @@ def build_readiness(
         "new_estimation_allowed": False,
         "projection_allowed": False,
         "reproduction_gate": "HOLD",
-        "cause": "Both unit-level official reproductions have not been accepted.",
+        "gate_evaluation": "diagnostic_checkpoint_hardcoded_hold_not_dynamic_reproduction_test",
+        "cause": "The available scripts are incomplete diagnostics; both full official reproductions remain unaccepted. HOLD is not itself evidence that input files are absent.",
         "input_manifest_present": source_manifest.is_file(),
         "integrity_failures": [
             row["source_id"]

@@ -15,6 +15,7 @@ __all__ = [
     "inspect_hces",
     "main",
     "parse_factors",
+    "parse_target_definition",
     "physical_components",
     "verify_candidate",
 ]
@@ -142,6 +143,38 @@ def parse_factors(report_text: str) -> pd.DataFrame:
     return frame
 
 
+def parse_target_definition(report_text: str) -> dict:
+    """Keep the published unadjusted target separate from meal-adjusted intake."""
+    rural_start = report_text.index("Table 3.18R:")
+    urban_start = report_text.index("Table 3.18U:", rural_start)
+    end = report_text.index("3.4.5", urban_start)
+    unadjusted = {}
+    adjusted = {}
+    for sector, block in (
+        ("rural", report_text[rural_start:urban_start]),
+        ("urban", report_text[urban_start:end]),
+    ):
+        row = re.search(
+            r"^\s*All classes\s+([\d.]+(?:\s+[\d.]+){11})", block, re.MULTILINE
+        )
+        if row is None:
+            raise ValueError("Missing adjusted/unadjusted source comparison row")
+        values = [float(value) for value in row.group(1).split()]
+        unadjusted[sector] = values[1]
+        adjusted[sector] = values[4]
+    if unadjusted != {"rural": 61.8, "urban": 63.4}:
+        raise ValueError("Published unadjusted columns do not match the brief targets")
+    return {
+        "baseline_estimand": "unadjusted household-consumption-derived protein",
+        "unit": "g/person/day",
+        "year": "2023-24",
+        "unadjusted_target": unadjusted,
+        "published_meal_adjusted_reference_not_target": adjusted,
+        "meal_adjustment_required_for_this_target": False,
+        "locator": "Report594 Table3.18R/U printed51/PDF70, All classes; corroborates Table3.8",
+    }
+
+
 def physical_components(
     food: pd.DataFrame,
     factors: pd.DataFrame,
@@ -211,6 +244,7 @@ def inspect_hces(
         text=True,
     )
     factors = parse_factors(extraction.stdout)
+    target_definition = parse_target_definition(extraction.stdout)
     root = candidate_dir / "04_clean"
     info = pd.read_parquet(
         root / "level_01.parquet", columns=["hhid", "year", "multiplier", *DESIGN]
@@ -284,6 +318,7 @@ def inspect_hces(
         "status": "HOLD",
         "baseline_reproduced": False,
         "new_estimation_allowed": False,
+        "status_origin": "incomplete_component_diagnostic_not_dynamic_acceptance_test",
         "source_type": "third_party_cleaned_survey_candidate",
         "official_raw_identity_verified": False,
         "candidate_commit": receipt["checkout_commit"],
@@ -293,6 +328,7 @@ def inspect_hces(
         "official_report_sha256": REPORT_SHA256,
         "official_report_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/Nutritional_Intake_in_India_L.pdf",
         "official_targets_g_person_day": {"rural": 61.8, "urban": 63.4},
+        "target_definition": target_definition,
         "complete_intake_g_person_day": {"rural": None, "urban": None},
         "partial_components_are_not_target_comparable": True,
         "physical_component_diagnostics": summary[
@@ -317,15 +353,16 @@ def inspect_hces(
         "standard_errors": None,
         "survey_variance_implemented": False,
         "causes": [
-            "Original official raw files are absent; candidate hashes and matching survey counts do not establish official lineage.",
-            "Report594printedp21 gives December2024-price rupee coefficients and sector-specific CPI adjustment for Aug2023-Jul2024, without identifying the exact CPI series or item crosswalk. No CPI substitution or tuning is performed.",
-            "Thirty-six rural/urban rupee-factor rows remain unresolved; whole intake and those contributions stay null.",
-            "Questionnaire drop-down child/parent grain codes and aggregate rows require an explicit reconciliation; only directly mapped physical records contribute to the diagnostic.",
-            "Design-based variance and complete MPCE reconstruction are not implemented by this component diagnostic.",
+            "Fifteen cleaned unit-level files are available and hash-verified; the omitted original official text-file lineage is not authenticated by those hashes.",
+            "Report594printedp21 specifies December2024-price rupee factors, the Aug2023-Jul2024 period and separate rural/urban CPI; exact index series/base/normalization remains unresolved. The text does not expressly require an item-by-item CPI crosswalk.",
+            "The 36 rural/urban monetary-factor rows exist, but monetary contributions are not implemented by this physical-only diagnostic; whole intake stays null.",
+            "Design-based variance and complete MPCE reconstruction are not implemented; preserved design fields are not proof of implemented inference.",
         ],
+        "grain_composite_method": "Official Table2.2 supplies coefficients for parents001/002/070; the physical join already uses those parents once and excludes unmapped child rows. Quantity identities were separately audited. Reproducing this published composite does not require inventing variety-specific child factors.",
+        "meal_adjustment_scope": "Report2.9.8.1 is a separate adjusted estimand. Candidate level02 contains H-roster meal fields and level04 contains meals_nonhh; input usability requires separate missingness/membership checks. No meal adjustment is required to reproduce the unadjusted brief targets.",
         "primary_lookup": [
             "Official Report594Table2.2 and surrounding methodology inspected; printedp21/PDF40 and target printedp38/PDF57 visually checked.",
-            "An official-search-index excerpt for MoSPI https://mospi.gov.in/faq describes CFPI exclusions; the fetched page is an application shell, so the excerpt is not a verified full-page capture. No replacement for the unspecified rupee-item CPI mapping is assumed.",
+            "An official-search-index excerpt for MoSPI https://mospi.gov.in/faq describes CFPI exclusions; the fetched page is an application shell, so the excerpt is not a verified full-page capture. No replacement for the unresolved sector CPI recipe is assumed.",
         ],
         "producer": {
             "code_path": "research/protein-markets-2026/inspect_hces.py",

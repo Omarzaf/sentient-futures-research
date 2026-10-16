@@ -22,6 +22,8 @@ Survey-year expenditure is not automatically a 2026 estimate. Record price adjus
 
 The India target is HCES 2023-24 protein of 61.8 grams per person per day in rural areas and 63.4 in urban areas, each within 0.5 grams. The Pakistan target is HIES 2024-25 chicken of 0.34 kilograms per person per month within published rounding. These are acceptance targets supplied in the brief, not new research estimates.
 
+The India target is the unadjusted estimand: Report594 Table3.18R/U explicitly separates it from meal-adjusted61.2/62.9. Do not add a meal-adjustment prerequisite to this unadjusted target or compare adjusted results against it. The current scripts are incomplete component diagnostics and deliberately return HOLD; that status is not a dynamic acceptance test or evidence that all needed input files are absent. A complete estimator and source/design checks must precede any future gate evaluator.
+
 Both must be reproduced from official unit-level data using the official universe, recall periods, item mapping and weights. Document the official survey strata and PSU fields. A value copied from a published table, an unverified aggregate receipt or a cost-grouping variable called a stratum cannot establish microdata reproduction or design-based uncertainty. Preserve official source and code hashes and the output-row identities.
 
 Until both pass, hold all new market, elasticity, consumption-decomposition and projection results. Independent source collection, protocol work and the official reproductions may continue. Portal registration, payment, communications and publication retain the author's gates.

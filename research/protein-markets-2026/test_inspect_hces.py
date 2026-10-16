@@ -114,3 +114,47 @@ def test_published_values_cannot_substitute_for_candidate_receipt(
     receipt.write_text(json.dumps({"source_type": "official_raw", "files": []}))
     with pytest.raises(ValueError, match="third-party"):
         HCES.verify_candidate(tmp_path, receipt)
+
+
+def test_adjusted_comparison_columns_do_not_replace_unadjusted_targets() -> None:
+    """The same source row contains two different intake definitions."""
+    text = (
+        "Table 3.18R:\n"
+        "All classes 2212 61.8 60.4 2191 61.2 59.7 2383 66.6 65.1 2360 65.9 64.4\n"
+        "Table 3.18U:\n"
+        "All classes 2240 63.4 69.8 2225 62.9 69.3 2472 69.9 77.0 2456 69.4 76.4\n"
+        "3.4.5 Source discussion\n"
+    )
+    result = HCES.parse_target_definition(text)
+    assert result["unadjusted_target"] == {"rural": 61.8, "urban": 63.4}
+    assert result["published_meal_adjusted_reference_not_target"] == {
+        "rural": 61.2,
+        "urban": 62.9,
+    }
+    assert result["meal_adjustment_required_for_this_target"] is False
+
+
+def test_swapped_adjusted_target_columns_fail_source_definition_check() -> None:
+    """Plausible adjusted values cannot pass as the brief's unadjusted values."""
+    text = (
+        "Table 3.18R:\n"
+        "All classes 2191 61.2 59.7 2212 61.8 60.4 2360 65.9 64.4 2383 66.6 65.1\n"
+        "Table 3.18U:\n"
+        "All classes 2225 62.9 69.3 2240 63.4 69.8 2456 69.4 76.4 2472 69.9 77.0\n"
+        "3.4.5 Source discussion\n"
+    )
+    with pytest.raises(ValueError, match="unadjusted columns"):
+        HCES.parse_target_definition(text)
+
+
+def test_official_grain_parent_and_breakdown_are_not_both_counted() -> None:
+    """A reported parent and its breakdown represent one composite quantity."""
+    food = pd.DataFrame(
+        {"hhid": [1, 1], "item_code": [1, 55], "cons_total_qty": [1.0, 1.0]}
+    )
+    factors = pd.DataFrame(
+        {"item_code": [1], "unit": ["kg."], "protein_g_per_unit": [94.4]}
+    )
+    result, diagnostic = HCES.physical_components(food, factors, "05")
+    assert result.iloc[0]["physical_protein_g_day"] == pytest.approx(94.4 / 30)
+    assert diagnostic["codes_without_table_coefficient"] == [55]

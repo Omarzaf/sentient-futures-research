@@ -139,13 +139,14 @@ def aggregate_diagnostic(
         "new_estimation_allowed": False,
         "baseline_reproduced": False,
         "diagnostic_only": True,
+        "status_origin": "incomplete_reproduction_diagnostic_not_dynamic_acceptance_test",
         "survey_design_verified": False,
         "standard_errors": None,
         "cause": [
             "All-channel observed-quantity diagnostics do not establish reproduction of the report target.",
-            "Released fields contain PSU key prcode and weight, but no verified sampling-stratum construction.",
+            "PSU/weight fields and the official administrative-code crosswalk exist locally; final survey-stratum/variance construction remains separate from geographic mapping.",
             "Absent item records and missing channels are not certified nonconsumption; no quantity is imputed.",
-            "Territorial alignment of the four-province release with the report's stated sampling universe remains unverified.",
+            "The available archive uses four raw province labels, including ICT-coded geography within raw Punjab. Preserve analytical province and source geography separately; the report also mentions wider territories. These scope qualifications do not mean a replacement archive is absent.",
         ],
         "quality": quality,
         "province_codes_present": sorted(
