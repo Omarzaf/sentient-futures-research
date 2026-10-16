@@ -14,14 +14,14 @@
       "requirement": "HCES 2023-24 rural and urban protein reproduced within 0.5 g/person/day",
       "evidence": "unit-level data, design, item mapping, code and reproduction output",
       "status": "held_incomplete_reconstruction",
-      "cause": "Candidate hashes checked, but authenticated raw lineage, monetary-food CPI mapping, grain reconciliation and full design-based reconstruction remain unresolved."
+      "cause": "Candidate and supplied documentation hashes checked. Where parent and child rows coexist, their quantities reconcile within tolerance in a separate diagnostic; nutrient composition mapping is not validated by those sums. Authenticated original raw lineage, rupee-food nutrient/CPI crosswalk and complete design-based reconstruction remain unresolved."
     },
     {
       "id": "S03",
       "requirement": "HIES 2024-25 chicken reproduced as 0.34 kg/person/month within published rounding",
       "evidence": "official microdata, documentation, code and reproduction output",
       "status": "blocked",
-      "cause": "The official report target conflicts with the downloadable workbook; all-source microdata diagnostics miss the report target and released sampling strata remain unverified."
+      "cause": "Two official report versions give0.34; the downloadable workbook and all-source microdata diagnostics still differ. Released sampling-stratum mapping remains unverified. A conflicting link label does not override the workbook internal year."
     },
     {
       "id": "S04",
@@ -42,7 +42,7 @@
       "requirement": "NFHS-5 weekly animal-food variation analysis with confidence intervals and checked Pakistani equivalent",
       "evidence": "unit-level design-based analysis and dataset access log",
       "status": "blocked_with_checked_pakistan_candidates",
-      "cause": "NFHS unit files were not obtained after three official-route failures. Pakistan DHS2017-18 and NNS2018 original documentation were checked; their child previous-day and women previous-day outcomes are not the requested adult weekly measure. No compatible unit analysis or confidence intervals."
+      "cause": "NFHS unit files remain absent after three earlier official-route failures. World Bank NFHS-5 metadata confirms registration/project approval and restricted onward sharing; IIPS general portal also needs personal registration. No registration/request submitted. Checked Pakistan DHS2017-18 child previous-day and NNS2018 women previous-day outcomes do not match the requested weekly respondent measure."
     },
     {
       "id": "S07",
@@ -90,43 +90,43 @@
       "id": "S13",
       "requirement": "Policy register covers FSSAI BioE3 DBT and Pakistan federal bodies plus Punjab Sindh Khyber Pakhtunkhwa and Balochistan",
       "evidence": "dated instrument register with original primary texts",
-      "status": "prepared_partial",
-      "cause": "Twenty distinct instruments cover all named jurisdictions; the BioE3 full-text and several date/legal-currency details remain unresolved."
+      "status": "coverage_prepared_full_policy_supplement_recovered",
+      "cause": "Twenty frozen instruments cover named jurisdictions. Full BioE3 policy and user-access companion recovered as separate supplemental originals; first-round source hashes unchanged. Exact signed-version/notification details, legal currency and programme delivery remain unverified."
     },
     {
       "id": "S14",
       "requirement": "Written codebook and independent author coding of twenty instruments with Cohen kappa at least 0.7",
       "evidence": "frozen codebook, agent coding, author coding and kappa table",
-      "status": "requires_author_input",
-      "cause": "Codebook and twenty agent codes are frozen; a separate blank author form is verified. Actual independent author coding and kappa remain pending."
+      "status": "author_codes_missing_disclosure_recorded",
+      "cause": "All twenty author responses remain blank; no kappa exists. Generic guidance and honest uncodable/nonblind export are available. Existing agent labels appeared in a later assistant tool output; actual author viewing is unknown and clean blind status cannot be certified. Preserve that disclosure with future coding; a viewed round cannot be called independent blind agreement."
     },
     {
       "id": "S15",
       "requirement": "Halal chapter uses original named and dated Pakistan and India authorities with Urdu and Arabic translation notes",
       "evidence": "original-text captures, passage locators, dates and checked translations",
-      "status": "drafted_partial_originals_qualified_review_pending",
-      "cause": "Original Pakistani Urdu/Arabic texts and Indian Urdu certification/AI decisions are captured. An exact Indian cultivated-specific ruling/Arabic original remains unverified; qualified translation and religious review pending."
+      "status": "author_review_accepted_existing_passages_sources_partial",
+      "cause": "Author checked and accepted existing translations/religious interpretations; version-bound receipt covers six existing claims. Technical/regulatory claims remain separate. Exact Indian cultivated-specific ruling/Arabic original, CII original and product certificates remain unestablished. No independent specialist credential inferred."
     },
     {
       "id": "S16",
       "requirement": "Every numerical report finding traces to the claims ledger",
       "evidence": "report-token to claim to source to code to output audit",
       "status": "twelve_numeric_checkpoint_claims_verified",
-      "cause": "12 baseline, historical-context and inventory findings match saved outputs, raw/producer hashes, Markdown and PDF. The related halal ledger remains pending qualified review; this does not certify a completed empirical report."
+      "cause": "12 baseline, historical-context and inventory findings match the preserved report outputs and source/producer hashes. A subsequent version-bound author review covers six halal linguistic/religious claims. Earlier PDFs are historical checkpoint editions; follow-up records document current changes. Full empirical report remains incomplete."
     },
     {
       "id": "S17",
       "requirement": "Existing repository verifier and applicable suites pass with deterministic rebuild",
       "evidence": "build and verifier logs, test counts and second-build drift check",
       "status": "checkpoint_passed_research_incomplete",
-      "cause": "36 Python tests,12 market cases,321 halal checks,191 policy checks,9 existing fixture suites and C1-C5 pass. Final build/verifier and deterministic-rebuild receipts are retained privately. These certify this checkpoint, not the missing empirical research."
+      "cause": "40 Python tests, 6 author-review version/scope tests, 12 market cases, 321 halal checks, 582 policy integrity/uncodable/disclosure checks, 9 existing fixture suites and 3024 presentation checks pass. The corrected form was checked in a browser. Receipts concern documentary/diagnostic evidence; empirical research remains incomplete."
     },
     {
       "id": "S18",
       "requirement": "One command rebuilds every empirical report table from raw inputs",
       "evidence": "clean rebuild with input manifest and table hashes",
       "status": "partial_rebuild_available_empirical_tables_held",
-      "cause": "One command rebuilds available diagnostics and market-source tables. Requested household, elasticity, market-share and projection tables remain unavailable; the full empirical rebuild criterion is unmet."
+      "cause": "One offline command rebuilds available baseline/readiness/market/retail tables and the supplied HCES documentation diagnostic. Requested household, elasticity, market-share and forecast tables remain unavailable. Both official reproductions still HOLD; full empirical rebuild criterion remains unmet."
     },
     {
       "id": "S19",

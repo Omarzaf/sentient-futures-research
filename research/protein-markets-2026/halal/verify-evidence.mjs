@@ -1,6 +1,7 @@
 import { readFile, access } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { resolve, join } from 'node:path';
+import { readReviewState } from './review-state.mjs';
 
 const here = import.meta.dirname;
 const privateDir = resolve(here, '../../../../OUTPUTS/Deep Research 2026-10/halal');
@@ -8,6 +9,7 @@ const read = async name => JSON.parse(await readFile(join(here,name),'utf8'));
 const register = await read('source-register.json');
 const ledger = await read('claims.json');
 const signposts = await read('signposts.json');
+const authorReview = await readReviewState(here);
 let assertions = 0;
 function check(value,message) { assertions++; if(!value) throw new Error(message); }
 check(register.sources.length === 17, 'Capture count changed; review the source register.');
@@ -63,5 +65,5 @@ for(const s of signposts.certification_signposts) {
 }
 const chapter = await readFile(join(here,'CHAPTER-DRAFT.md'),'utf8');
 for(const m of chapter.matchAll(/`(HALAL-[A-Z0-9-]+)`/g)) check(claimIds.has(m[1]),'Chapter cites unknown claim id');
-check(chapter.includes('pending qualified') && chapter.includes('No country-wide'),'Chapter missing review/inference boundaries');
-console.log(JSON.stringify({status:'pass',assertions,source_captures:register.sources.length,private_capture_and_inspection_files:manifest.files.length,claims:ledger.claims.length,held_originals:register.held.length,certification_signposts:4,translation_review:'pending',market_estimates_computed:false,policy_author_codes:'pending; not exposed'},null,2));
+check(chapter.includes('author-review.json') && chapter.includes('No country-wide'),'Chapter missing review/inference boundaries');
+console.log(JSON.stringify({status:'pass',assertions,source_captures:register.sources.length,private_capture_and_inspection_files:manifest.files.length,claims:ledger.claims.length,held_originals:register.held.length,certification_signposts:4,translation_review:authorReview.status,author_review:authorReview,market_estimates_computed:false,policy_author_codes:'pending; not exposed'},null,2));

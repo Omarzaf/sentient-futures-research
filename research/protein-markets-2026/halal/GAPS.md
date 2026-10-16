@@ -1,6 +1,6 @@
 # Evidence gaps and review gates
 
-- **Qualified review:** all AI-assisted Urdu/Arabic translations and legal/religious readings remain pending qualified human review. Page inspection and passage matching establish documentary location, not interpretive authority. No translation is marked approved.
+- **Author review recorded:** the author said he checked Q3 and it is good to go. The exact existing translations and religious interpretations are accepted under [the version-bound receipt](author-review.json). Independent specialist credentials, certified translation, regulatory/technical acceptance and review of any new material are not inferred. The original ledgers retain their pre-review snapshot statuses.
 - **India cultivated ruling:** no original cultivated-specific ruling from IFA India, Darul Uloom Deoband or another Indian religious body was established. IFA's dated general certification and AI decisions remain within those scopes. No Indian Arabic cultivated-specific original was found. No foreign authority fills this slot.
 - **Pakistan national body:** no CII cultivated-specific original was recovered. Banuri Town and Darul Uloom Karachi are distinct institutions; neither is presented as CII or national consensus.
 - **Deoband retrieval:** original 146427 and 39457 each reached three failed retrievals (native open, public GET403, final bare-host curl403). Stop observed. Search-index wording/dates are leads, not admitted originals or translations. The cloned-whole-animal process in 39457 would require separate analysis even if retrieved.

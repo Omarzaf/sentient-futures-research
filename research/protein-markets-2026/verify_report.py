@@ -106,7 +106,7 @@ def verify_report(data_dir: Path) -> dict:
         "markdown_and_pdf_numeric_tokens_checked": True,
         "research_complete": False,
         "reproduction_gate": "HOLD",
-        "limits": "Checks the listed numerical findings and saved output lineage; dates/locators are metadata. Manual source passages and religious/linguistic interpretations still require human scholarly review. No full empirical table rebuild or new estimate is certified.",
+        "limits": "Checks the listed numerical findings and saved output lineage; dates/locators are metadata. This numeric audit does not certify linguistic/religious correctness; the separate version-bound author-review receipt records the accepted existing readings. No full empirical table rebuild or new estimate is certified.",
     }
 
 

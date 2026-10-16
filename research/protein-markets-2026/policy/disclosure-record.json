@@ -1,0 +1,11 @@
+{
+  "recorded_client_date": "2026-10-16",
+  "event": "Existing agent label map appeared in an assistant tool output while inspecting prepare-review.mjs before author responses were supplied.",
+  "author_viewed_output": "unknown; no viewing attestation was requested or inferred",
+  "blind_status": "clean blind status cannot be certified after this disclosure",
+  "author_labels_supplied": false,
+  "agreement_result": null,
+  "action": "Preserve the frozen source/codebook/agent files and blank author responses. Record disclosure alongside any subsequent author round. Do not describe a viewed or disclosed round as independent blind agreement; an uncodable response remains missing, outside the eight substantive categories.",
+  "original_protocol_changed": false,
+  "labels_repeated_in_this_record": false
+}

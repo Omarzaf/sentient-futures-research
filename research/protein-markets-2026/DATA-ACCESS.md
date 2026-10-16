@@ -27,11 +27,11 @@ The diagnostic requires all six inspected versions. A replacement response with 
 
 ## Other inputs
 
-NFHS-5 unit-level data have not been obtained through the checked official routes. Record the actual access failures; do not infer that no dataset exists. Registration, paid access and external data requests require the author. Country comparability and the Pakistani equivalent remain separate research questions.
+NFHS-5 unit-level data have not been obtained through the checked official routes. Record the actual access failures; do not infer that no dataset exists. The [World Bank NFHS-5 catalogue](https://microdata.worldbank.org/catalog/4482) describes DHS registration and project approval and restricts onward sharing without DHS consent. The [IIPS data-center page](https://iipsindia.ac.in/content/data-center) separately describes registration, identity proof and review for its general portal; NFHS-5 availability there has not been established. No account or request was submitted. Registration, paid access and external data requests require the author. Country comparability and the Pakistani equivalent remain separate research questions.
 
 The elicitation instrument is author supplied for local work. Preserve its original bytes and the adaptation manifest; do not redistribute the document by default. US panel outputs and execution metadata have not been supplied. A questionnaire is not a dataset of completed forecasts.
 
-The policy register records original official URLs and private capture hashes. One BioE3 source is explicitly an official summary brochure rather than the inaccessible full-policy text. Date precision, commencement and source-access limitations remain in the register. Its independent author-coding packet is generated privately; no agreement statistic exists before actual author coding.
+The policy register records original official URLs and private capture hashes. Its frozen BioE3 source is explicitly an official summary brochure. A subsequent follow-up recovered [the full policy](https://bmi.dbt.gov.in/pdf/folder.pdf) and [the user-access companion](https://www.birac.nic.in/webcontent/1754376631_BioFoundries_Biomanufacturing_Hubs_User_access_policy.pdf) as supplemental evidence outside the first-round coding sample. Date precision, commencement and legal-version limitations remain. Its independent author-coding packet is generated privately; no agreement statistic exists before actual author coding.
 
 Retail, trade, company and analogue sources require their own coverage, version and rights records. Missing or unattempted retrieval is not evidence of zero sales or absent products. Never treat upstream HS protein ingredients as an automatically equivalent consumer market.
 

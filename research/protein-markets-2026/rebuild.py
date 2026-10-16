@@ -219,6 +219,34 @@ def build_readiness(
     output_dir.mkdir(parents=True, exist_ok=True)
     diagnostics = _diagnostics(data_dir, output_dir, hces_dir)
     evidence_audits = {}
+    attachment_dir = data_dir / "attachment-audit/raw"
+    if hces_dir is not None and all(
+        (attachment_dir / name).is_file()
+        for name in [
+            "HCES2023-24_Vol_II-2.pdf",
+            "HCES_2023_24_Imputation_Rate.xlsx",
+        ]
+    ):
+        completed = subprocess.run(
+            [
+                sys.executable,
+                str(PACKAGE / "inspect_hces_attachments.py"),
+                "--pdf",
+                str(attachment_dir / "HCES2023-24_Vol_II-2.pdf"),
+                "--workbook",
+                str(attachment_dir / "HCES_2023_24_Imputation_Rate.xlsx"),
+                "--candidate",
+                str(hces_dir),
+                "--output",
+                str(output_dir / "hces-documentation"),
+            ],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if completed.returncode:
+            raise ValueError(f"HCES attachment audit failed: {completed.stderr}")
+        evidence_audits["hces_documentation"] = json.loads(completed.stdout)
     if (data_dir / "market/capture-receipt-batch3.json").is_file():
         script = PACKAGE / "market/build-evidence.mjs"
         completed = subprocess.run(

@@ -15,7 +15,7 @@ button{font:inherit;padding:10px 16px;margin:10px 10px 10px 0;cursor:pointer;bac
 summary{cursor:pointer}a{color:#145b78}:focus-visible{outline:3px solid #e9a344;outline-offset:3px}
 </style>
 <h1>Independent policy coding</h1>
-<p>Code each of the 20 instruments using one primary-function category. Read the source and the codebook before deciding. Source limitations are separate from the instrument function.</p>
+<p>Classify each instrument by what it mainly does. Read its source and the codebook before deciding. If the captured text is insufficient, choose “Cannot classify from this source” and explain why. That is a missing classification, not a ninth category.</p>
 <div class="panel">
 <p><strong>Round 1:</strong> Complete this form before opening or discussing agent answers. Record your own reason and locator. Download a draft to save progress; entries otherwise remain in this browser tab.</p>
 <p>Codebook SHA-256: <code>{{CODEBOOK_HASH}}</code><br>Sample SHA-256: <code>{{SAMPLE_HASH}}</code></p>
@@ -25,9 +25,10 @@ summary{cursor:pointer}a{color:#145b78}:focus-visible{outline:3px solid #e9a344;
 <dl>{{CATEGORIES}}</dl>
 <h2>Tie-break rules</h2><ol>{{RULES}}</ol>
 </details>
-<p id="progress" role="status">0 of 20 labels selected.</p>
+<p id="progress" role="status">0 of 20 decisions recorded.</p>
 {{CARDS}}
 <label><input type="checkbox" id="independent"> I completed these codes independently before viewing agent answers.</label>
+<label><input type="checkbox" id="disclosed"> I have seen agent answers. Save my work as a disclosed, nonblind round.</label>
 <button type="button" id="draft">Download draft JSON</button>
 <button type="button" id="finish">Download final author JSON</button>
 <p id="message" role="status"></p>
@@ -37,22 +38,24 @@ const packet=JSON.parse(document.querySelector("#packet").textContent);
 const selects=[...document.querySelectorAll("select[data-id]")];
 function gather(final){
   const result=structuredClone(packet.blank);
-  result.independence_attested=document.querySelector("#independent").checked;
+  result.agent_answers_seen=document.querySelector("#disclosed").checked;
+  result.independence_attested=document.querySelector("#independent").checked&&!result.agent_answers_seen;
   result.assignments=result.assignments.map(a=>{
     const value=document.querySelector('select[data-id="'+a.instrument_id+'"]').value;
-    return {...a,primary_function:value||null,
+    return {...a,primary_function:value==="__UNCODABLE__"?null:value||null,
       rationale:document.querySelector('[data-note="'+a.instrument_id+'"]').value,
       text_locator:document.querySelector('[data-locator="'+a.instrument_id+'"]').value,
-      coding_status:value?"coded":"blank"};
+      coding_status:value==="__UNCODABLE__"?"uncodable":value?"coded":"blank"};
   });
-  result.status=final?"author_final_pending_agreement_check":"author_draft";
+  result.author_coded_label_count=result.assignments.filter(a=>a.coding_status==="coded").length;
+  result.status=!final?"author_draft":result.agent_answers_seen?"author_final_nonblind_agreement_not_independent":result.assignments.some(a=>a.coding_status==="uncodable")?"author_final_uncodable_agreement_criterion_unmet":"author_final_pending_agreement_check";
   result.completed_at=final?new Date().toISOString():null;
   return result;
 }
 function save(final){
   const result=gather(final);
-  if(final&&(result.assignments.some(a=>!a.primary_function||!a.rationale.trim()||!a.text_locator.trim())||!result.independence_attested)){
-    document.querySelector("#message").textContent="Complete all 20 labels, reasons and locators, and confirm independence before finalising. A draft can be downloaded at any time.";
+  if(final&&(result.assignments.some(a=>a.coding_status==="blank"||!a.rationale.trim()||!a.text_locator.trim())||document.querySelector("#independent").checked===result.agent_answers_seen)){
+    document.querySelector("#message").textContent="Complete all 20 decisions (including honest uncodable entries), reasons and locators, and select exactly one disclosure statement. A draft can be downloaded at any time.";
     return;
   }
   const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)+"\n"],{type:"application/json"}));
@@ -61,9 +64,9 @@ function save(final){
   link.download=final?"author-coding.round1.final.json":"author-coding.round1.draft.json";
   link.click();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
-  document.querySelector("#message").textContent=final?"Final author file downloaded. Preserve it unchanged for agreement checking.":"Draft downloaded.";
+  document.querySelector("#message").textContent=!final?"Draft downloaded.":result.agent_answers_seen?"Disclosed nonblind file downloaded. It does not satisfy the independent coding criterion.":result.author_coded_label_count<20?"Final file downloaded with uncodable items. The 20-valid-pair criterion remains unmet.":"Final author file downloaded. Preserve it unchanged for agreement checking.";
 }
-selects.forEach(s=>s.addEventListener("change",()=>document.querySelector("#progress").textContent=selects.filter(x=>x.value).length+" of 20 labels selected."));
+selects.forEach(s=>s.addEventListener("change",()=>document.querySelector("#progress").textContent=selects.filter(x=>x.value).length+" of 20 decisions recorded."));
 document.querySelector("#draft").addEventListener("click",()=>save(false));
 document.querySelector("#finish").addEventListener("click",()=>save(true));
 </script>
