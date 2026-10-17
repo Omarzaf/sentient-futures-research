@@ -331,6 +331,46 @@ def quantile(values: list[float], q: float) -> float:
     return ordered[low] + (ordered[high] - ordered[low]) * (position - low)
 
 
+def us_comparison_row(
+    country: str,
+    year: int,
+    statistic: str,
+    value_per_person: float,
+    us_year: int,
+    us_value_per_person: float,
+    source_ids: list[str],
+    method: str,
+    notes: str = "",
+) -> dict[str, str]:
+    """Build a share row from a supplied, same-price-basis US year and value.
+
+    The country scenario year is stored in ``year`` and the US comparison year
+    in ``quantity`` and ``row_id``. Supply Anna's forecasts explicitly when
+    available; this function neither forecasts nor fills missing US values.
+    """
+    if not isinstance(us_year, int) or isinstance(us_year, bool) or us_year <= 0:
+        raise ValueError("US comparison year must be a positive integer")
+    if not math.isfinite(us_value_per_person) or us_value_per_person <= 0:
+        raise ValueError("US value per person must be finite and positive")
+    if not math.isfinite(value_per_person) or value_per_person < 0:
+        raise ValueError("Country value per person must be finite and nonnegative")
+    quantity = f"per_capita_share_of_us_{us_year}"
+    return dict(
+        row_id=f"{country.lower().replace(' ', '_')}_{year}_{quantity}_{statistic}",
+        record_type="scenario",
+        country=country,
+        year=str(year),
+        quantity=quantity,
+        statistic=statistic,
+        value=f"{value_per_person / us_value_per_person * 100:.6f}",
+        unit="percent of US retail value per person in the US observation year",
+        tier="derived",
+        source_ids=json.dumps(sorted(source_ids)),
+        method=method,
+        notes=notes,
+    )
+
+
 class Inputs:
     def __init__(self, rows: list[dict[str, str]]):
         self.rows = {r["input_id"]: r for r in rows}
@@ -413,6 +453,8 @@ def run_model() -> None:
     elasticity_high = math.log(us_per_capita / india_2022_per_capita) / math.log(income_ratio_us_india)
     drift_low = data.get("gfi_us_retail_dollar_change_2025") / 100
     drift_high = (data.get("jobs_vacancies_india_2025") / data.get("jobs_vacancies_india_2023")) ** 0.5 - 1
+    income_growth_2023_2025 = (income_index("ind", 2025) / income_index("ind", 2023)) ** 0.5 - 1
+    drift_high_without_income = drift_high - income_growth_2023_2025 * elasticity_high
     animal = {
         c: sum(float(r["value"]) for r in data.rows.values() if r["quantity"] == "animal_protein_supply_item" and r["country"] == c)
         for c in ("India", "Pakistan")
@@ -438,25 +480,31 @@ def run_model() -> None:
             * (1 + drift) ** (year - ANCHOR_YEAR)
         )
 
-    def pakistan_per_capita(year: int, india_value: float, elasticity: float, weight: float, ecosystem: float) -> float:
+    def pakistan_per_capita(year: int, india_value: float, elasticity: float, weight: float, ecosystem: float, drop_overlap: bool = False) -> float:
         relative_income = income_ratio_pak_india_2025 * (income_index("pak", year) / income_index("pak", 2025)) / (
             income_index("ind", year) / income_index("ind", 2025)
         )
         return (
             india_value
             * relative_income**elasticity
-            * urban("pak", year) / urban("ind", year)
-            * animal_ratio**weight
+            * (1.0 if drop_overlap else urban("pak", year)) / (1.0 if drop_overlap else urban("ind", year))
+            * (1.0 if drop_overlap else animal_ratio**weight)
             * ecosystem
         )
 
-    def simulate(fixed: dict[str, float] | None = None) -> dict[tuple[str, int], list[float]]:
+    def simulate(
+        fixed: dict[str, float] | None = None,
+        *,
+        drift_upper: float = drift_high,
+        drop_pakistan_overlap: bool = False,
+    ) -> dict[tuple[str, int], list[float]]:
+        """Use paired draws, retaining unused weights when overlap is dropped."""
         fixed = fixed or {}
         rng = random.Random(SEED)
         result: dict[tuple[str, int], list[float]] = {(c, y): [] for c in ("India", "Pakistan") for y in YEARS}
         for _ in range(DRAWS):
             elasticity = rng.uniform(elasticity_low, elasticity_high)
-            drift = rng.uniform(drift_low, drift_high)
+            drift = rng.uniform(drift_low, drift_upper)
             weight = rng.uniform(0.0, 1.0)
             ecosystem = rng.uniform(ecosystem_low, ecosystem_high)
             elasticity = fixed.get("elasticity", elasticity)
@@ -466,7 +514,7 @@ def run_model() -> None:
             for year in YEARS:
                 india = india_per_capita(year, elasticity, drift)
                 result[("India", year)].append(india)
-                result[("Pakistan", year)].append(pakistan_per_capita(year, india, elasticity, weight, ecosystem))
+                result[("Pakistan", year)].append(pakistan_per_capita(year, india, elasticity, weight, ecosystem, drop_pakistan_overlap))
         return result
 
     model_sources = all_sources
@@ -482,6 +530,8 @@ def run_model() -> None:
     emit("parameter", "India", ANCHOR_YEAR, "income_elasticity", "high", elasticity_high, "elasticity", [GFI_US, GFI_INDIA, GDP_PC, IMF, FX], parameter_method, "Elasticity that would explain the whole US-India per-person gap by income alone, with spending and income both in market dollars at 2025 prices.")
     emit("parameter", "India", ANCHOR_YEAR, "adoption_drift", "low", drift_low * 100, "percent per year", [GFI_US], parameter_method, "US 2025 plant-based retail dollar change, used as the low non-income drift.")
     emit("parameter", "India", ANCHOR_YEAR, "adoption_drift", "high", drift_high * 100, "percent per year", [JOBS_VACANCY], parameter_method, "India job-board vacancy growth 2023-2025, used as the high non-income drift.")
+    emit("parameter", "India", 2023, "real_income_per_capita_growth_to_2025", "value", income_growth_2023_2025 * 100, "percent per year", [IMF], parameter_method, "Compound annual real GDP per person growth from 2023 to 2025, matching the vacancy-growth period.")
+    emit("parameter", "India", ANCHOR_YEAR, "adoption_drift_overlap_adjusted", "high", drift_high_without_income * 100, "percent per year", [JOBS_VACANCY, IMF, GFI_US, GFI_INDIA, GDP_PC, FX], parameter_method, "Vacancy growth minus 2023-2025 real GDP per person growth times the upper income elasticity; low drift bound unchanged.")
     emit("parameter", "India", 2023, "animal_protein_supply", "value", animal["India"], "g/capita/day", [FAO], parameter_method, "Sum of seven FAOSTAT animal-source items.")
     emit("parameter", "Pakistan", 2023, "animal_protein_supply", "value", animal["Pakistan"], "g/capita/day", [FAO], parameter_method, "Sum of seven FAOSTAT animal-source items.")
     emit("parameter", "Pakistan", 2023, "animal_protein_ratio_to_india", "value", animal_ratio, "ratio", [FAO], parameter_method)
@@ -504,7 +554,19 @@ def run_model() -> None:
             per_capita = quantile(values, q)
             emit("scenario", country, year, "market_value", label, per_capita * pop, "million US dollars at constant prices", model_sources, scenario_method, "Speculative scenario quantile, not an observed value.")
             emit("scenario", country, year, "per_capita_value", label, per_capita, "US dollars per person at constant prices", model_sources, scenario_method, "Speculative scenario quantile, not an observed value.")
-            emit("scenario", country, year, "per_capita_share_of_us_2025", label, per_capita / us_per_capita * 100, "percent of US retail value per person in the US observation year", model_sources, scenario_method, "Speculative scenario quantile, not an observed value.")
+            rows.append(us_comparison_row(country, year, label, per_capita, PRICE_YEAR, us_per_capita, model_sources, scenario_method, "Speculative scenario quantile, not an observed value."))
+
+    variants = (
+        ("market_value_drift_overlap_adjusted", simulate(drift_upper=drift_high_without_income), "High drift subtracts the income contribution; all other assumptions and paired draws unchanged."),
+        ("market_value_without_urban_animal", simulate(drop_pakistan_overlap=True), "Pakistan's relative urban-share and animal-protein multipliers set to one; India path, income, industry activity and paired draws unchanged."),
+    )
+    for quantity, variant_draws, notes in variants:
+        for (country, year), values in variant_draws.items():
+            if quantity == "market_value_without_urban_animal" and (country, year) != ("Pakistan", 2035):
+                continue
+            iso = "ind" if country == "India" else "pak"
+            for label, q in (("p10", 0.1), ("p50", 0.5), ("p90", 0.9)):
+                emit("sensitivity", country, year, quantity, label, quantile(values, q) * population(iso, year), "million US dollars at constant prices", model_sources, scenario_method, notes)
 
     gfi_sources = [GFI_INDIA, IMF, FX]
     india_2030 = [v * population("ind", 2030) for v in draws[("India", 2030)]]

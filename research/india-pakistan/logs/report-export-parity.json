@@ -1,0 +1,28 @@
+{
+  "all_text_matches": true,
+  "comparisons": {
+    "docx": {
+      "actual_characters": 154413,
+      "actual_context": "",
+      "expected_characters": 154413,
+      "expected_context": "",
+      "first_difference": null,
+      "pass": true
+    },
+    "pdf": {
+      "actual_characters": 154413,
+      "actual_context": "",
+      "expected_characters": 154413,
+      "expected_context": "",
+      "first_difference": null,
+      "pass": true
+    }
+  },
+  "created_at": "2026-10-17T19:18:55.864488+00:00",
+  "docx_sha256": "44b72093d4e02f60a5390cd08a4630189d9278d09dd87010533cb5c86b4f4d5a",
+  "markdown_sha256": "e3f6b2022416dd2e0a9870288233ab3e1a81880dd2ece3eb48782484d8cefbaf",
+  "pdf_sha256": "1b68439b0635eb1a3d0278b6838f4ff9eb16c8993b1f971234a623ba79cab4e3",
+  "pdfinfo": "Title:           REPORT\nCreator:         Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36\nProducer:        Skia/PDF m151\nCreationDate:    Sat Oct 17 15:18:53 2026 EDT\nModDate:         Sat Oct 17 15:18:53 2026 EDT\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           45\nEncrypted:       no\nPage size:       594.96 x 841.92 pts (A4)\nPage rot:        0\nFile size:       683035 bytes\nOptimized:       no\nPDF version:     1.4\n",
+  "visual_review": "pending",
+  "word_rows_kept_together": 572
+}
