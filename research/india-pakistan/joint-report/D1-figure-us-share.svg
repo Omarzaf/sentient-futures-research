@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title description">
+<title id="title">India and Pakistan: spending per person as a share of US spending</title>
+<desc id="description">Speculative scenarios for India and Pakistan in 2026, 2030, 2035. Points show middle values; whiskers show p10 to p90 ranges on one linear scale. All values are percentages of observed US spending per person in 2025. These ranges are not calibrated confidence intervals.</desc>
+<metadata>Source: research/india-pakistan/data/altprotein_proxy_scenarios.csv; quantity: per_capita_share_of_us_2025; values copied directly from scenario rows. AI-assisted working figure; human verification pending.</metadata>
+<style>text{font-family:Arial,sans-serif;fill:#172b35;font-size:16px}.title{font-size:25px;font-weight:bold}.note{font-size:14px;fill:#4a5c65}.heading{font-size:14px;font-weight:bold}.number{font-variant-numeric:tabular-nums}.country{font-weight:bold}</style>
+<rect width="1080" height="650" fill="#fbfaf6"/>
+<text x="32" y="45" class="title">Spending per person remains far below the US benchmark</text>
+<text x="32" y="76" class="">Percent of US spending per person; middle values with p10 to p90 ranges</text>
+<g data-row-id="united_states_2025_retail_per_capita_value">
+<text x="32" y="103" class="note">US 2025 benchmark: $23.106847 per person at constant prices</text>
+</g>
+<text x="32" y="147" class="heading">Country / year</text>
+<text x="600" y="147" class="heading">Lower (p10)</text>
+<text x="750" y="147" class="heading">Middle (p50)</text>
+<text x="900" y="147" class="heading">Upper (p90)</text>
+<path d="M170 163 V522" stroke="#85959d" stroke-width="1"/>
+<g>
+<title>India 2026: p10 0.201167%; p50 0.273262%; p90 0.364904%</title>
+<text x="32" y="196" class="country">India 2026</text>
+<path d="M170 190 H550" stroke="#dce2e4"/>
+<path d="M194.494 190 H214.431 M194.494 183 V197 M214.431 183 V197" stroke="#165d83" stroke-width="3"/>
+<circle cx="203.273" cy="190" r="6" fill="#165d83"/>
+<g data-row-id="india_2026_per_capita_share_of_us_2025_p10" data-value="0.201167">
+<text x="600" y="196" class="number">0.201167%</text>
+</g>
+<g data-row-id="india_2026_per_capita_share_of_us_2025_p50" data-value="0.273262">
+<text x="750" y="196" class="number">0.273262%</text>
+</g>
+<g data-row-id="india_2026_per_capita_share_of_us_2025_p90" data-value="0.364904">
+<text x="900" y="196" class="number">0.364904%</text>
+</g>
+</g>
+<g>
+<title>India 2030: p10 0.288938%; p50 0.532933%; p90 0.949117%</title>
+<text x="32" y="246" class="country">India 2030</text>
+<path d="M170 240 H550" stroke="#dce2e4"/>
+<path d="M205.182 240 H285.566 M205.182 233 V247 M285.566 233 V247" stroke="#165d83" stroke-width="3"/>
+<circle cx="234.891" cy="240" r="6" fill="#165d83"/>
+<g data-row-id="india_2030_per_capita_share_of_us_2025_p10" data-value="0.288938">
+<text x="600" y="246" class="number">0.288938%</text>
+</g>
+<g data-row-id="india_2030_per_capita_share_of_us_2025_p50" data-value="0.532933">
+<text x="750" y="246" class="number">0.532933%</text>
+</g>
+<g data-row-id="india_2030_per_capita_share_of_us_2025_p90" data-value="0.949117">
+<text x="900" y="246" class="number">0.949117%</text>
+</g>
+</g>
+<g>
+<title>India 2035: p10 0.452829%; p50 1.223414%; p90 3.120846%</title>
+<text x="32" y="296" class="country">India 2035</text>
+<path d="M170 290 H550" stroke="#dce2e4"/>
+<path d="M225.137 290 H550.000 M225.137 283 V297 M550.000 283 V297" stroke="#165d83" stroke-width="3"/>
+<circle cx="318.965" cy="290" r="6" fill="#165d83"/>
+<g data-row-id="india_2035_per_capita_share_of_us_2025_p10" data-value="0.452829">
+<text x="600" y="296" class="number">0.452829%</text>
+</g>
+<g data-row-id="india_2035_per_capita_share_of_us_2025_p50" data-value="1.223414">
+<text x="750" y="296" class="number">1.223414%</text>
+</g>
+<g data-row-id="india_2035_per_capita_share_of_us_2025_p90" data-value="3.120846">
+<text x="900" y="296" class="number">3.120846%</text>
+</g>
+</g>
+<g>
+<title>Pakistan 2026: p10 0.025993%; p50 0.064350%; p90 0.116822%</title>
+<text x="32" y="376" class="country">Pakistan 2026</text>
+<path d="M170 370 H550" stroke="#dce2e4"/>
+<path d="M173.165 370 H184.224 M173.165 363 V377 M184.224 363 V377" stroke="#9a4d20" stroke-width="3"/>
+<circle cx="177.835" cy="370" r="6" fill="#9a4d20"/>
+<g data-row-id="pakistan_2026_per_capita_share_of_us_2025_p10" data-value="0.025993">
+<text x="600" y="376" class="number">0.025993%</text>
+</g>
+<g data-row-id="pakistan_2026_per_capita_share_of_us_2025_p50" data-value="0.064350">
+<text x="750" y="376" class="number">0.064350%</text>
+</g>
+<g data-row-id="pakistan_2026_per_capita_share_of_us_2025_p90" data-value="0.116822">
+<text x="900" y="376" class="number">0.116822%</text>
+</g>
+</g>
+<g>
+<title>Pakistan 2030: p10 0.037295%; p50 0.097788%; p90 0.223841%</title>
+<text x="32" y="426" class="country">Pakistan 2030</text>
+<path d="M170 420 H550" stroke="#dce2e4"/>
+<path d="M174.541 420 H197.255 M174.541 413 V427 M197.255 413 V427" stroke="#9a4d20" stroke-width="3"/>
+<circle cx="181.907" cy="420" r="6" fill="#9a4d20"/>
+<g data-row-id="pakistan_2030_per_capita_share_of_us_2025_p10" data-value="0.037295">
+<text x="600" y="426" class="number">0.037295%</text>
+</g>
+<g data-row-id="pakistan_2030_per_capita_share_of_us_2025_p50" data-value="0.097788">
+<text x="750" y="426" class="number">0.097788%</text>
+</g>
+<g data-row-id="pakistan_2030_per_capita_share_of_us_2025_p90" data-value="0.223841">
+<text x="900" y="426" class="number">0.223841%</text>
+</g>
+</g>
+<g>
+<title>Pakistan 2035: p10 0.053431%; p50 0.174893%; p90 0.536901%</title>
+<text x="32" y="476" class="country">Pakistan 2035</text>
+<path d="M170 470 H550" stroke="#dce2e4"/>
+<path d="M176.506 470 H235.374 M176.506 463 V477 M235.374 463 V477" stroke="#9a4d20" stroke-width="3"/>
+<circle cx="191.295" cy="470" r="6" fill="#9a4d20"/>
+<g data-row-id="pakistan_2035_per_capita_share_of_us_2025_p10" data-value="0.053431">
+<text x="600" y="476" class="number">0.053431%</text>
+</g>
+<g data-row-id="pakistan_2035_per_capita_share_of_us_2025_p50" data-value="0.174893">
+<text x="750" y="476" class="number">0.174893%</text>
+</g>
+<g data-row-id="pakistan_2035_per_capita_share_of_us_2025_p90" data-value="0.536901">
+<text x="900" y="476" class="number">0.536901%</text>
+</g>
+</g>
+<text x="170" y="547" class="note">Shares increase to the right; the left boundary is zero.</text>
+<text x="32" y="584" class="note">Source: altprotein_proxy_scenarios.csv. Values are speculative spending scenarios.</text>
+<text x="32" y="610" class="note">AI-assisted working figure. Human verification pending.</text>
+</svg>

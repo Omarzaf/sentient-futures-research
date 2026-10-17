@@ -138,8 +138,8 @@
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 102794,
-      "sha256": "fa2661f39caeaf5c5fdd3b3358f519494b76cafa7e57c70828f6edb63c3dae7f"
+      "bytes": 105173,
+      "sha256": "b16935970f3503b5635bc5848bfabe0b2f99d4602f1e9da60dfd0de65a09d281"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
@@ -1122,6 +1122,16 @@
       "sha256": "93e5cedd5fe9fe3e285e6ae3310b90611ad50cc47d4886d5efe607ddda7a20aa"
     },
     {
+      "path": "research/india-pakistan/joint-report/D1-figure-us-share.svg",
+      "bytes": 6667,
+      "sha256": "d1d26bfd2f31acef5ca4918750acf422a60c328a359b5388e0511a4c89a5c132"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D1-regional-section.md",
+      "bytes": 17659,
+      "sha256": "ea08543885fd2c55f2908709d9a33f0ec48cbd656def9fedf306f1e6bfd22143"
+    },
+    {
       "path": "research/india-pakistan/joint-report/D2-ai-driver.md",
       "bytes": 13967,
       "sha256": "3fcb0ba32e87ec9ebf225444f3afa64b2764cbf3c78b5a4a744c489401eaed08"
@@ -1140,6 +1150,11 @@
       "path": "research/india-pakistan/joint-report/D4-definitions-message.md",
       "bytes": 2015,
       "sha256": "bb9f08973f1f7cdd9d3e6d931dd6dde11fc034cc6c684cb6f7dfe3efc519916f"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D5-showcase-input.md",
+      "bytes": 1362,
+      "sha256": "61c567005c1a0749d9e82bd94432f29f101c43a762d1c81701afd483e39a873a"
     },
     {
       "path": "research/india-pakistan/joint-report/D6-measurement-box.md",
@@ -1170,6 +1185,11 @@
       "path": "research/india-pakistan/joint-report/T7-notes.md",
       "bytes": 1283,
       "sha256": "d69ee8f884a67a7993d4a031ab4a6e7accf5b8f4e3642cd115e750d674d925f8"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/d1_figure.py",
+      "bytes": 6984,
+      "sha256": "cd390ff205e5a8b72266d160521dae797e800efd705dd7c1f3c12cb183ecd5b6"
     },
     {
       "path": "research/india-pakistan/joint-report/d3_tabulate.py",
