@@ -138,33 +138,33 @@
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 96220,
-      "sha256": "342741a4f2165333979a87ba5e8774253f69555b2abc42d1c1df6dbfbf61538a"
+      "bytes": 105173,
+      "sha256": "45f8e67947052bd6eccb47fe909a339f03056b061abd5e69d6b219557b2084cf"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
-      "bytes": 153758,
-      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+      "bytes": 154941,
+      "sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
     },
     {
       "path": "provenance/supervisor-export-text/docx-body.txt",
-      "bytes": 153758,
-      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+      "bytes": 154941,
+      "sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
     },
     {
       "path": "provenance/supervisor-export-text/parity.json",
       "bytes": 1402,
-      "sha256": "1482ebb61708a98073f7142924e0e665338007b6e9df2fea95ebda5a47c66687"
+      "sha256": "2f8fddb610748a94a4d3ad450363ec6a4dea0e9b5ad80a4cd2bb1a3309e6f05d"
     },
     {
       "path": "provenance/supervisor-export-text/pdf-body.txt",
-      "bytes": 153758,
-      "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+      "bytes": 154941,
+      "sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
     },
     {
       "path": "provenance/supervisor-reviewed-exports.json",
       "bytes": 1463,
-      "sha256": "d3c8e3325784dba7102fe0542e3d4e6fa6f488dcafbdbd4a15c3506799c24815"
+      "sha256": "2934768edb8676ff188306c75ca0be2e372e37d4761b72256a64fe229dbf766c"
     },
     {
       "path": "research/ai-protein/README.md",
@@ -808,8 +808,8 @@
     },
     {
       "path": "research/india-pakistan/claims.csv",
-      "bytes": 303866,
-      "sha256": "2a4752f80ed1629a34ea161ab8a6d4f62ddb518b6e6ca9e51999939c7f22b6a9"
+      "bytes": 306249,
+      "sha256": "59ba5d3b09e378ebf3f7b4c64d894de5aeb34274a96714f438d3ea5530b99a8d"
     },
     {
       "path": "research/india-pakistan/data/MANIFEST.csv",
@@ -853,8 +853,8 @@
     },
     {
       "path": "research/india-pakistan/data/altprotein_proxy_scenarios.csv",
-      "bytes": 57304,
-      "sha256": "65c7a71c00ee302b3c582041b5abd0de0bd32c52fc098cfc265f6528bb421b5c"
+      "bytes": 73658,
+      "sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4"
     },
     {
       "path": "research/india-pakistan/data/altprotein_retail_offers.csv",
@@ -888,13 +888,13 @@
     },
     {
       "path": "research/india-pakistan/data/claim-index.csv",
-      "bytes": 67261,
-      "sha256": "9a40cd4fbf3c917a8ea0b2df15dfabaaba02b004f5106df763906dfd9683cbcf"
+      "bytes": 67678,
+      "sha256": "22accd875dd3d3ef91ca581d1faf2d60f0c533e3b3f62d1b52e00d259c2da7ad"
     },
     {
       "path": "research/india-pakistan/data/claims.csv",
-      "bytes": 303866,
-      "sha256": "2a4752f80ed1629a34ea161ab8a6d4f62ddb518b6e6ca9e51999939c7f22b6a9"
+      "bytes": 306249,
+      "sha256": "59ba5d3b09e378ebf3f7b4c64d894de5aeb34274a96714f438d3ea5530b99a8d"
     },
     {
       "path": "research/india-pakistan/data/cultural_context.csv",
@@ -934,7 +934,7 @@
     {
       "path": "research/india-pakistan/data/inventory_counts.csv",
       "bytes": 6747,
-      "sha256": "cdfcbf6a1bdae878b30a1964879eed2ef260dad28bff5708deb95818d8306ade"
+      "sha256": "739dd595201bc407978524c8902de7deff4a50ec5a7ea1922d40f2bf505f6379"
     },
     {
       "path": "research/india-pakistan/data/link-status.json",
@@ -1120,6 +1120,86 @@
       "path": "research/india-pakistan/india-pakistan-brief.md",
       "bytes": 31529,
       "sha256": "93e5cedd5fe9fe3e285e6ae3310b90611ad50cc47d4886d5efe607ddda7a20aa"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D1-figure-us-share.svg",
+      "bytes": 6667,
+      "sha256": "d1d26bfd2f31acef5ca4918750acf422a60c328a359b5388e0511a4c89a5c132"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D1-regional-section.md",
+      "bytes": 17782,
+      "sha256": "7eab22429301a7d722818fb147e44338f4897d86966cc3a84aecfce3770d74cb"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D2-ai-driver.md",
+      "bytes": 13967,
+      "sha256": "3fcb0ba32e87ec9ebf225444f3afa64b2764cbf3c78b5a4a744c489401eaed08"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D3-talent.md",
+      "bytes": 4169,
+      "sha256": "3d629192743ecb7b244a0426efc02d7c6756abaf4a5e0ee8917ffebac94a450c"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D3-vacancy-tables.csv",
+      "bytes": 24214,
+      "sha256": "01ded2c222292c29eed262ce15540cf6c5b37ffec8b412f703745a2ced96ece2"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D4-definitions-message.md",
+      "bytes": 2015,
+      "sha256": "bb9f08973f1f7cdd9d3e6d931dd6dde11fc034cc6c684cb6f7dfe3efc519916f"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D5-showcase-input.md",
+      "bytes": 1362,
+      "sha256": "61c567005c1a0749d9e82bd94432f29f101c43a762d1c81701afd483e39a873a"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D6-measurement-box.md",
+      "bytes": 1826,
+      "sha256": "b4e945e5a4aca795f020b6d54d411a9f7969aa50dcea328ca38ace75587c96d8"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/D7-future-research.md",
+      "bytes": 1993,
+      "sha256": "829640b3bc4a25be7d1086d0e1a654466eb0a0d163858dba7b413752625e59cd"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/T1-notes.md",
+      "bytes": 469,
+      "sha256": "c93bb9ea8bf9eaf75ab96a4f8b47df4cc8129dc493e6aa9b1287e552ac8e5eee"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/T1-records.patch",
+      "bytes": 8276,
+      "sha256": "b7544a10af37edd095d742bafb4058bef43f84ce6639ccfe7c33d2ec8e14a74d"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/T3-notes.md",
+      "bytes": 1706,
+      "sha256": "1c9662c36966a0c56a5117a9640ac351a05aa1e1be004a78c0698d2baca75ab6"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/T7-notes.md",
+      "bytes": 1283,
+      "sha256": "d69ee8f884a67a7993d4a031ab4a6e7accf5b8f4e3642cd115e750d674d925f8"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/d1_figure.py",
+      "bytes": 6984,
+      "sha256": "cd390ff205e5a8b72266d160521dae797e800efd705dd7c1f3c12cb183ecd5b6"
+    },
+    {
+      "path": "research/india-pakistan/joint-report/d3_tabulate.py",
+      "bytes": 10897,
+      "sha256": "d8834520d78de8780afeab91ce7b4113c2243e49b81ccf7bd2c7ac7f498a22da"
+    },
+    {
+      "path": "research/india-pakistan/logs/report-export-parity.json",
+      "bytes": 1471,
+      "sha256": "96761d741ffcafe6cdd098f87c1670b0ee70e3c605a30b0ed5d3ec5e0e1ed30c"
     },
     {
       "path": "research/india-pakistan/methods/README.md",
@@ -1593,13 +1673,13 @@
     },
     {
       "path": "research/india-pakistan/report/REPORT.md",
-      "bytes": 404648,
-      "sha256": "e66aaa5a7ca0638639d365f828230a8507938f68f242643e4936563b2d74ea5b"
+      "bytes": 409492,
+      "sha256": "e3f6b2022416dd2e0a9870288233ab3e1a81880dd2ece3eb48782484d8cefbaf"
     },
     {
       "path": "research/india-pakistan/report/REPORT.template.md",
-      "bytes": 77275,
-      "sha256": "a6915013c911dc5bfb58900da112a942497e498ea938a670c5f187618ad17742"
+      "bytes": 77820,
+      "sha256": "53dc5bb51a3f046fac3c114d035451eab435f034716c368c85e7d9938b302c8c"
     },
     {
       "path": "research/india-pakistan/report/report.css",
@@ -1608,13 +1688,13 @@
     },
     {
       "path": "research/india-pakistan/report/report.docx",
-      "bytes": 80033,
-      "sha256": "d6bf578e57587086b35603929174088fe42db81d120c6d80d75e3339a9488f38"
+      "bytes": 80305,
+      "sha256": "44b72093d4e02f60a5390cd08a4630189d9278d09dd87010533cb5c86b4f4d5a"
     },
     {
       "path": "research/india-pakistan/report/report.pdf",
-      "bytes": 674451,
-      "sha256": "cb821565945fc1709a0d02db5f0c48e46eb785e72ad88ee6e3de914359da1cd9"
+      "bytes": 683035,
+      "sha256": "1b68439b0635eb1a3d0278b6838f4ff9eb16c8993b1f971234a623ba79cab4e3"
     },
     {
       "path": "research/india-pakistan/source-register.json",
@@ -1623,8 +1703,8 @@
     },
     {
       "path": "research/india-pakistan/tests/test_altprotein_proxy.py",
-      "bytes": 2533,
-      "sha256": "6236be4f84261fedcb4ebd4e43d2be49542f634eb822c0b1ce99694f2f3ba34e"
+      "bytes": 7535,
+      "sha256": "912b7e057e5a282850820446f51bf89e0550a18b070bb6855ce976b276f5af8e"
     },
     {
       "path": "research/india-pakistan/tests/test_verify_edition.py",
@@ -1638,8 +1718,8 @@
     },
     {
       "path": "research/india-pakistan/tools/build_altprotein_proxy.py",
-      "bytes": 27873,
-      "sha256": "d47b901f661674626cebb1057b873432312ddb4560e3e76439dd6b74588870f1"
+      "bytes": 31503,
+      "sha256": "f89cf9ab5af75ff20c661ce617e5f541ee305c167a36e1d9135030443ee3501f"
     },
     {
       "path": "research/india-pakistan/tools/build_report.py",
@@ -1705,6 +1785,361 @@
       "path": "research/orientation/sources.json",
       "bytes": 24758,
       "sha256": "16166a3e79191903bd5d933bd52b70fa59163a024fe91852f5f3d311693c60d2"
+    },
+    {
+      "path": "research/protein-markets-2026/DATA-ACCESS.md",
+      "bytes": 7781,
+      "sha256": "6f6583d9dd019d8ffcf98b5b44d8e0a29c7548967deec525c5ea742abf2805e8"
+    },
+    {
+      "path": "research/protein-markets-2026/HOUSEHOLD-MEAL-AGENDA.md",
+      "bytes": 5167,
+      "sha256": "fc9ddc0265fc93540f0c95de1dd3b6ac79a01f28b626d5deb5d2373785e34d25"
+    },
+    {
+      "path": "research/protein-markets-2026/PROTOCOL.md",
+      "bytes": 8166,
+      "sha256": "09918c5fbcb97afad778506e6e65c93206e1c8ac3473825a7e58012ad227e01f"
+    },
+    {
+      "path": "research/protein-markets-2026/README.md",
+      "bytes": 4199,
+      "sha256": "6f9a474df1ba361e05a33f71b312ab344935cd14452595a9032c33e3bfd10d6e"
+    },
+    {
+      "path": "research/protein-markets-2026/REVIEW-2026-10-16.md",
+      "bytes": 4602,
+      "sha256": "6c7a4f0d1a0e4932e45ae48db3e49ea1628365da80a04a2334227a24edfdbf12"
+    },
+    {
+      "path": "research/protein-markets-2026/REVIEW-BASELINE-COMPLETION-2026-10-16.md",
+      "bytes": 5329,
+      "sha256": "6ad031da861549c96d090b3aa5911c00291508908455b2458514e50092177a7f"
+    },
+    {
+      "path": "research/protein-markets-2026/REVIEW-CODE-DATA-2026-10-16.md",
+      "bytes": 7729,
+      "sha256": "7aa179a90e68b86079a35d9d57bcff4074da32ef6dc30fbd0d68a81c7fa7163c"
+    },
+    {
+      "path": "research/protein-markets-2026/baseline_acceptance.py",
+      "bytes": 3152,
+      "sha256": "bbd1e704dd67eea103b4ccbb344f85cdec6d7a5dbd8e0a4a7bee997b6b7e4791"
+    },
+    {
+      "path": "research/protein-markets-2026/complete_research.py",
+      "bytes": 22072,
+      "sha256": "a50deb5a5fa1d1f1c5af7d7157366ad2da28c6d4f2715dc84ed1af0a0ca8f892"
+    },
+    {
+      "path": "research/protein-markets-2026/diagnose_india_baseline.py",
+      "bytes": 12561,
+      "sha256": "80a5a9615f5875c6b7f06ab1a2632d00ebfa67235dc8ea85955c1102160db27f"
+    },
+    {
+      "path": "research/protein-markets-2026/fetch_india_cpi.py",
+      "bytes": 4237,
+      "sha256": "581d4f7c2d75b0e64467afe06edb53766678786ad3873d360af3a30e5b30ba69"
+    },
+    {
+      "path": "research/protein-markets-2026/forecast-questions.json",
+      "bytes": 31430,
+      "sha256": "eda0ac799178d111f715896c09a03dd431808c15bca88b193e1ad74bb82f3e3b"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/CHAPTER-DRAFT.md",
+      "bytes": 6407,
+      "sha256": "7f3c99255a8a009b483fb57e1ead5f245c18e9869cf1310de54547a954bd79de"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/GAPS.md",
+      "bytes": 3905,
+      "sha256": "04b4f11c9b56f88fb4e5caf67003a82470478856059718e846f9cf0ff96a84cf"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/README.md",
+      "bytes": 3199,
+      "sha256": "7e6cdb61a63e42e40c3ba58bce5ff34910b1248b01445d7349139151b4e96f31"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/REVIEW-2026-10-15.json",
+      "bytes": 2941,
+      "sha256": "01910df1332d511cf5b69381c78ea76da8d0361d249050dc58a9f60d482781ea"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/assemble-evidence.mjs",
+      "bytes": 14444,
+      "sha256": "530e9f18efdc1186eb561e036e02caff1bff6915f3c5439ed97b390efd6990ce"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/author-review.json",
+      "bytes": 1340,
+      "sha256": "14ff9ed2f3850ffa01a575cb9c359b7beadd937a8b9876d35af2ea8b28413996"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/capture-originals.mjs",
+      "bytes": 4049,
+      "sha256": "214f61f0970a11bb685f7018b3fb8997ccd60dd95bc8879e2fb7c22a1cd66b13"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/claims.json",
+      "bytes": 7614,
+      "sha256": "7c7d8857c645035831d2d5d04528b458d5846b8b2bae73a8e7d32ca8c8bcc23f"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/retrieval-followup.json",
+      "bytes": 1175,
+      "sha256": "29e64125fd55f2941fea38cc76e3391f9ba9996e95a7085cbae39320df075527"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/retrieval-karachi.json",
+      "bytes": 431,
+      "sha256": "cf07f6806e169523ba89697a989d894e52768a014a7601a96825d1e917504639"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/retrieval-plan.json",
+      "bytes": 1676,
+      "sha256": "05ead62423d7b6d68d67cfd49fde77a57af9339213d0cc0184efdf27f8569a5b"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/review-state.mjs",
+      "bytes": 2633,
+      "sha256": "f5cc8a0b5240b00c1b81bf890451325eb634d4e8f81157d588b76e4c1d71a1cc"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/signposts.json",
+      "bytes": 7496,
+      "sha256": "4c60a7936a69a24cddbd3dbb35744256d0ca49b42e4b56dd02a1a7f57ec098c4"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/source-register.json",
+      "bytes": 28795,
+      "sha256": "443811c168bfff1d1c11c1dc20df87b4b5eb4228e18a9cbeab178b0071080364"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/test-review-state.mjs",
+      "bytes": 2728,
+      "sha256": "8b9391829d48a249d859af7685f4ce8248b8b8b0d1d2fc55e5cdbf6909cdb285"
+    },
+    {
+      "path": "research/protein-markets-2026/halal/verify-evidence.mjs",
+      "bytes": 5154,
+      "sha256": "6995687b4ccec2d48522b3666f8346bafc8b4e1cb5eebaa384efc5073772dc31"
+    },
+    {
+      "path": "research/protein-markets-2026/inspect_hces.py",
+      "bytes": 16956,
+      "sha256": "25d5463642d2a9c38cc65cdafde6ffd42449020de98130b5d33b151072b5ba4f"
+    },
+    {
+      "path": "research/protein-markets-2026/inspect_hces_attachments.py",
+      "bytes": 14752,
+      "sha256": "7ee0ed69ea378bf35cec0d5fde9881a7fdf63ee0c50b16f3c631c5565fd13c42"
+    },
+    {
+      "path": "research/protein-markets-2026/market/README.md",
+      "bytes": 5868,
+      "sha256": "7408e41bc6a6cf30158184959d22fae0d1a88092e7ae8deea47de07ad858bfd7"
+    },
+    {
+      "path": "research/protein-markets-2026/market/build-evidence.mjs",
+      "bytes": 7816,
+      "sha256": "e980fb09ef8de7e69a53e9e0ccceaabebcf682c1750fc7bbe99a37b0c82a2611"
+    },
+    {
+      "path": "research/protein-markets-2026/market/reviews.json",
+      "bytes": 8544,
+      "sha256": "4948ec66ec9b1bb3d8e25ca97e863a6f575f820f69e1de96dc2488aa96415143"
+    },
+    {
+      "path": "research/protein-markets-2026/market/test-evidence.mjs",
+      "bytes": 2166,
+      "sha256": "d300bd51ed2c6e7079cfc408d987bb27016ace1a4170e32e5c5de2f5e5e1ac99"
+    },
+    {
+      "path": "research/protein-markets-2026/pakistan_reconciliation.py",
+      "bytes": 24608,
+      "sha256": "cc5cca280246d72ffd72fcb53dcf839adb2d6f61527b062b8285f522573ce1b7"
+    },
+    {
+      "path": "research/protein-markets-2026/pakistan_spss_crosscheck.R",
+      "bytes": 2853,
+      "sha256": "ca14fba8fdc23b32b5ccecc8a7a9ff78f609b0807b6ebc9edac3f483d9796b6f"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/HOW-TO-CLASSIFY.md",
+      "bytes": 1920,
+      "sha256": "3823ca0fa9a03fc7edee11ee0fb3cca7496defcffd605417f60c00cc3d92c029"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/README.md",
+      "bytes": 4433,
+      "sha256": "8df7c18b2a9ea5b53a06b15c53d8278b492208db68c3b13dde77b62d646586d9"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/VERIFICATION.json",
+      "bytes": 1004,
+      "sha256": "93025557aa2652b68efb198d449e8be5b2e1200003e52549d83a38accb65c1e7"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/agent-codes.frozen.json",
+      "bytes": 7724,
+      "sha256": "5a87e7b8b85c94a4083686d5e55f24c5f9147a48add0cf6805a8cb2145458521"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/author-form.template.html",
+      "bytes": 5373,
+      "sha256": "a32f8130bd59c64375c77060716d02af125bd7d278908314fa395aca271ca7b3"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/capture-sources.mjs",
+      "bytes": 3803,
+      "sha256": "f10b4d7130335da69a5ab91dfb77e3c24b9fd108403ad75ecac7eb619651a9cc"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/codebook.json",
+      "bytes": 8662,
+      "sha256": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/disclosure-record.json",
+      "bytes": 812,
+      "sha256": "57dccc0bc61783f97d70563c3efb05f235910d570eb81be970e777e469ec76f8"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/freeze-receipt.json",
+      "bytes": 1093,
+      "sha256": "32204552b604b65143dc952eabee6c04fafe3df24341f6c0e74dc6fe12af161b"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/instrument-register.json",
+      "bytes": 42402,
+      "sha256": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/prepare-review.mjs",
+      "bytes": 12601,
+      "sha256": "627eb2742f4d8de1ef551188d20b20bfc05b4bf41d89c4fbc4b42d61d600f4c5"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/repair-2026-10-15-template-and-verifier.json",
+      "bytes": 2828,
+      "sha256": "0ddcf7cb625455e30e88e8abfdf4d1ecf5394e21ce2011f37bea120c343e17c2"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-fallbacks.json",
+      "bytes": 946,
+      "sha256": "ba4c79d947aea7aeed9107ad7fac715c55f78b89d7a95c1e9557b75bae475423"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-final.json",
+      "bytes": 180,
+      "sha256": "40b992a8072909e5c24dd5c5f0494bf8b68b0802dd0198c101be3f8d9f2ca078"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/retrieval-plan.json",
+      "bytes": 3539,
+      "sha256": "f38b6eb881fbabf65772923046989e806e3d4e5f2a8ef1b89380bea33197d550"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/review-2026-10-15.json",
+      "bytes": 1917,
+      "sha256": "d1e8d8c7b6fe94f1aa46714c8df71d7d34d95bdc18184777dc80b7c36faa7598"
+    },
+    {
+      "path": "research/protein-markets-2026/policy/verify-review.mjs",
+      "bytes": 8002,
+      "sha256": "efd98747b6adf81c4dbd765569ea37ca1a601926275756537355bd13a9fd37ad"
+    },
+    {
+      "path": "research/protein-markets-2026/prepare_elicitation.py",
+      "bytes": 5074,
+      "sha256": "6278504f3620680c23564f6c2a4174f1ab8d31f583b31f2e2a5007b4a03eb521"
+    },
+    {
+      "path": "research/protein-markets-2026/rebuild.py",
+      "bytes": 13183,
+      "sha256": "720915e6e6d4c02747013223611e38090fb438627468aa9956d5072381ec3a31"
+    },
+    {
+      "path": "research/protein-markets-2026/render_completion_report.py",
+      "bytes": 6779,
+      "sha256": "37b7dee033ad386fc48a65b1d3d091e45fd5e2b283961ac0a30c390536b7ec6c"
+    },
+    {
+      "path": "research/protein-markets-2026/reproduce_india_baseline.py",
+      "bytes": 26476,
+      "sha256": "6c0771b8992842d3a38f813a6d792b2b200baa443e49e7b1cb8abb792970ada6"
+    },
+    {
+      "path": "research/protein-markets-2026/reproduce_pakistan.py",
+      "bytes": 10846,
+      "sha256": "23eae67951f72a77565c24fd00df201d494bf072a0486176cc166379e6e80bb4"
+    },
+    {
+      "path": "research/protein-markets-2026/requirements.json",
+      "bytes": 13266,
+      "sha256": "c575d412c5df4400e5a8a1e52a222971f56157908bc921af779147b1d4152240"
+    },
+    {
+      "path": "research/protein-markets-2026/retail/build_inventory.py",
+      "bytes": 9694,
+      "sha256": "8c169a4ab0aaaa97f89eb5074aadad524aad04a6043fdb774691d2a37534a566"
+    },
+    {
+      "path": "research/protein-markets-2026/retail/capture.py",
+      "bytes": 12305,
+      "sha256": "6ce861ea4d1cf60042dd00be33bff8637c273a2abac636f1418ceae3d0045f32"
+    },
+    {
+      "path": "research/protein-markets-2026/retail/test_inventory.py",
+      "bytes": 6018,
+      "sha256": "b93b4e913c0cce3486db79db12f015d459756bcfbe4524df622295b09638ae5a"
+    },
+    {
+      "path": "research/protein-markets-2026/test_baseline_acceptance.py",
+      "bytes": 3481,
+      "sha256": "0d4eacf77834c23e3190de26743681fd1336418baa372802b18d7c8b4fe5c44d"
+    },
+    {
+      "path": "research/protein-markets-2026/test_inspect_hces.py",
+      "bytes": 6201,
+      "sha256": "aae548015eb62dc12a091ea57f8ffcd4a5079d5d7b6471631a9a46ccb5e188ca"
+    },
+    {
+      "path": "research/protein-markets-2026/test_inspect_hces_attachments.py",
+      "bytes": 4488,
+      "sha256": "222a85311e1fe8a2496265a295490a092ee4148128cbda78b896eede8c0da12f"
+    },
+    {
+      "path": "research/protein-markets-2026/test_pakistan_reconciliation.py",
+      "bytes": 7735,
+      "sha256": "01aeab3791538aff885787df9c9948119cf020d43164900e52c5f304cb9ae296"
+    },
+    {
+      "path": "research/protein-markets-2026/test_prepare_elicitation.py",
+      "bytes": 2051,
+      "sha256": "4dd7ee540a8ccc17f22cca1809e72014d69a0202f556af297773072826642a75"
+    },
+    {
+      "path": "research/protein-markets-2026/test_rebuild.py",
+      "bytes": 4217,
+      "sha256": "7074b3e11dd11425abc0b23a0db7475817f4c5c981934c7dca036cc99fa512ee"
+    },
+    {
+      "path": "research/protein-markets-2026/test_reproduce_india_baseline.py",
+      "bytes": 11635,
+      "sha256": "83a9d269553c60da7b53cea7a496a22d1c3e4109d09f030929be5c902dcef90b"
+    },
+    {
+      "path": "research/protein-markets-2026/test_reproduce_pakistan.py",
+      "bytes": 4725,
+      "sha256": "739c1c20515e891d8f5c699c5f0c2f4935fc81d69da4c00331903c83fe1bddb4"
+    },
+    {
+      "path": "research/protein-markets-2026/verify_report.py",
+      "bytes": 5251,
+      "sha256": "e259e12d25e05cebdea52fa035f3556a3ee01c6c3832776697d938b4cbbe7c45"
     },
     {
       "path": "research/protein-survey-data/README.md",

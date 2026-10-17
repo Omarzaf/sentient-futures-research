@@ -1,0 +1,32 @@
+{
+  "client_date": "2026-10-15",
+  "scope": "research/protein-markets-2026/policy and authorised private policy-review evidence/author packet only",
+  "outcome": "20 distinct named primary-source policy/programme instruments; written single-category codebook; separate frozen agent coding; blank independent author form",
+  "moderator": {
+    "verdict": "PASS",
+    "blocks": [],
+    "warnings": [
+      "BioE3 full-policy host retrieval failed; primary official summary brochure captured and distinguished from full policy text.",
+      "Some exact dates, Gazette publication/commencement details and amendment currency remain unresolved.",
+      "Selected portions of scanned instruments support mechanism coding; no comprehensive legal opinion is claimed.",
+      "No independent author codes exist; kappa remains null and acceptance threshold remains unmet."
+    ],
+    "nits": [],
+    "ideas": [
+      "After first-round independent coding, preserve both original files and report confusion matrix, marginals, raw agreement and unweighted kappa."
+    ]
+  },
+  "retrospective": {
+    "worked": "Reading scanned operative clauses prevented a definitions-only regulation from being mislabelled as product approval.",
+    "did_not": "Several original URLs failed or returned HTML; official mirrors and BIRAC's original call recovered the source set with explicit gaps retained.",
+    "rule_proposal": "For each policy instrument, verify the original short title, date role and operative mechanism before coding an authority index label."
+  },
+  "release_state": {
+    "local_authored": true,
+    "committed_by_specialist": false,
+    "pushed": false,
+    "published": false
+  },
+  "human_gate": "Author independently codes all 20 items before seeing agent answers; no agent-filled author responses.",
+  "method_boundary": "Policy coding only. No microdata, market estimate, elasticity or projection was computed."
+}

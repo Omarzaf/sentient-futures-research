@@ -4,7 +4,7 @@ altprotein_company_exclusions,2,,,package_P12,derived,D,rows,data/altprotein_com
 altprotein_jobs,395,,,package_P12,derived,D,rows,data/altprotein_jobs.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_market,21,,,package_P12,derived,D,rows,data/altprotein_market.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_proxy_inputs,106,value,106,package_P12,derived,D,rows,data/altprotein_proxy_inputs.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
-altprotein_proxy_scenarios,104,value,104,package_P12,derived,D,rows,data/altprotein_proxy_scenarios.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
+altprotein_proxy_scenarios,127,value,127,package_P12,derived,D,rows,data/altprotein_proxy_scenarios.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_policy,16,,,package_P12,derived,D,rows,data/altprotein_policy.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_retail_offers,1,,,package_P12,derived,D,rows,data/altprotein_retail_offers.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only
 altprotein_sources,111,value,105,package_P12,derived,D,rows,data/altprotein_sources.csv; CSV data rows; numeric rows count finite cells in the specified column only,report_only

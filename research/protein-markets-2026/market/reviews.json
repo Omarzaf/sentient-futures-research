@@ -1,0 +1,47 @@
+{
+  "status": "source_collection_only_no_new_market_estimate",
+  "country_year_scope": "India and Pakistan; target current year 2026",
+  "reviews": [
+    {"id":"comtrade-india-2025","status":"failed_http429","scope":"No trade observation accepted from this response."},
+    {"id":"comtrade-india-2025-attempt3","status":"empty_response_not_zero","scope":"Annual 2025 query returned count=0. This does not establish zero imports. Three retrieval attempts exhausted including web-tool failure; stop this query."},
+    {"id":"comtrade-pakistan-2025","status":"upstream_context_only","scope":"Two aggregate import rows, classification H6, isReported=false. Retain flags. Neither HS code assigns finished consumer sales to a pillar."},
+    {"id":"comtrade-api-docs","status":"method_documentation","scope":"Public preview source, separate from authenticated/premium downloads. No key requested or used."},
+    {"id":"india-tradestat","status":"failed_http404","scope":"Legacy annual URL unavailable. No data extracted."},
+    {"id":"india-tradestat-current","status":"form_only_no_data","scope":"Public monthly form captured. No form submitted. Its data availability label is not a commodity result."},
+    {"id":"gfi-india-soir-page","status":"historical_ecosystem_context","scope":"Page identifies report coverage through April 2023. Counts of products and firms do not measure sales in 2026."},
+    {"id":"gfi-india-soir-pdf","status":"historical_ecosystem_context","scope":"Original report acquired. Ecosystem source; no 2026 consumer-market sales extracted."},
+    {"id":"gfi-india-economic-2022","status":"historical_attributed_estimate_scope_mismatch","scope":"Last-page current market row concerns 2022. Domestic growth scenarios, export potential and GVA are separate. Scenarios are not statistical P10/P50/P90; cultivated export includes growth factors/recombinant proteins."},
+    {"id":"ipsos-pbfia-2025-pdf","status":"historical_attributed_estimate_scope_mismatch","scope":"PDF p3 reports INR300 crore in 2024; p5 excludes soya chunks/chaap and includes protein bars/snacks. p63 describes mixed secondary research, expert interviews and selected urban online panels. Not Anna's exact definition or current 2026 audited sales."},
+    {"id":"ipsos-pbfia-2026-pdf","status":"historical_attributed_estimate_scope_mismatch","scope":"Reuses a published plant-based market series and a 2034 potential. Do not interpolate 2026, treat potential as a quantile or mistake consumer attitudes for purchases."},
+    {"id":"pakistan-topdown-paid-catalogue","status":"public_catalogue_no_auditable_size","scope":"Alternative-protein report offer captured; no full methods or auditable numeric current-size observation accepted. No sample request or purchase made."},
+    {"id":"pakistan-plantbased-paid-catalogue","status":"public_catalogue_scope_mismatch","scope":"Product scope includes bakery and snacks. Public offer does not establish Anna-compatible pillar sales. No purchase or contact."},
+    {"id":"gooddot-company","status":"product_presence_only","scope":"Company site supports a product/company lead; no audited country/channel-specific consumer revenue accepted."},
+    {"id":"pakistan-oatday-company","status":"rejected_unverified_company_identity","scope":"Speculative domain lead returned a redirect script, not a verified Pakistani company. Do not cite it as a local producer."},
+    {"id":"myoworks-company","status":"upstream_company_not_consumer_sales","scope":"Site describes scaffolds, millicarriers and cell lines for cultivated-meat producers. These ancillary B2B inputs are outside consumer-sales numerator."},
+    {"id":"clearmeat-company","status":"company_development_claims_only","scope":"Company R&D and technology claims do not establish authorised consumer sales or country-specific revenue."},
+    {"id":"biokraft-company","status":"company_development_claims_only","scope":"Describes cultivation and bioprinting. No audited finished-product consumer-sales record accepted."},
+    {"id":"laurus-bio-2026-review","status":"diversified_upstream_revenue_not_pillar_sales","scope":"Bio CDMO serves life sciences, nutrition and industrial/specialty applications. Segment turnover is not equivalent to Indian fermentation-derived consumer food sales."},
+    {"id":"pakistan-tariff-2025-26","status":"classification_context_only","scope":"Captured 2025-26 edition defines PCT2106.10 and3504.0000 broadly. Used for scope, not current tariff rates or binding classification advice."},
+    {"id":"pakistan-dhs-questionnaire","status":"outcome_incompatible","scope":"PDHS2017-18 women's questionnaire Q649-650, printed pp467-468 asks about the youngest child's previous-day food, not adult weekly meat frequency. Cannot substitute it for NFHS adult outcome."},
+    {"id":"pakistan-nns-2018-page","status":"survey_provenance","scope":"Official UNICEF report landing page; a report download is not respondent-level access."},
+    {"id":"pakistan-nns-2018-volume1","status":"candidate_outcome_incompatible_no_unit_data","scope":"NNS2018 section6.4 and Table6-28, printedp224, concerns women's previous-day dietary diversity. Section2.3.1.1 mentions household religion. It is a candidate for a different outcome; no unit-level file or verified caste crosswalk acquired."},
+    {"id":"lens-access-policy","status":"personal_access_request_required_for_api","scope":"API access requires a Lens account, approval and token. No account, request or token created."},
+    {"id":"lens-patent-search-public","status":"javascript_shell_no_result_data","scope":"HTTP200 HTML has unresolved UI templates and no verified classification result set. Query text is only a reachability probe, not a completed A23J/G06N classification search."},
+    {"id":"ml-extrusion-fulltext","status":"primary_lab_research_context","scope":"DOI10.1016/j.crfs.2025.101157, methods and conclusions read via EuropePMC full-text XML. Singapore pilot extrusion study supports an optimization-test signpost, not Indian/Pakistani uptake or commercial cost savings. CC BY4.0."},
+    {"id":"tufts-media-research","status":"research_programme_context","scope":"Primary programme page compares media-optimization approaches. No country-specific industrial-cost effect accepted."},
+    {"id":"nsf-ai-fermentation-project","status":"project_objectives_not_results","scope":"Public grant/project description states strain-design and scale-up goals. Goals are not observed food-market sales or achieved savings."},
+    {"id":"pakistan-dairy-analogue-2025","status":"failed_http403","scope":"Official PSX dairy report blocked. A company revenue series would still need an adoption denominator and stable category definitions before Bass fitting."}
+  ],
+  "published_context": [
+    {"id":"CTX-IN-PB-2024","source_id":"ipsos-pbfia-2025-pdf","locator":"PDF p3; scope p5; methods p63","country":"India","year":2024,"source_value":300,"unit":"INR crore","attribution":"Ipsos-PBFIA published estimate","new_estimate":false,"accepted_2026_numerator":false,"reason":"Historical year and product-scope mismatch; underlying micro-sales not independently reproduced."},
+    {"id":"CTX-IN-PB-2022","source_id":"gfi-india-economic-2022","locator":"Final summary table, CURRENT MARKET SIZE (2022), OVERALL","country":"India","year":2022,"source_value":351,"unit":"INR crore","attribution":"GFI India-Deloitte published estimate","new_estimate":false,"accepted_2026_numerator":false,"reason":"Historical domestic scope differs; do not splice it to Ipsos or treat as current estimate."}
+  ],
+  "method_rules": [
+    "A reconciliation value requires the same country, year, pillar, product definition, sales channel and valuation basis. Null means unresolved, never zero.",
+    "No three-method average or twofold comparison is computed while compatible values are missing.",
+    "Imports are not independent finished-product market sizes: domestic production, exports, stock changes, re-exports, nonfood use and transformation remain unknown.",
+    "The specified HS categories do not separate plant-based, fermentation and cultivated final consumer sales. Product-level classification and end-use evidence are required.",
+    "Plant-based questionnaire sales are retail; other pillars include foodservice. Human-food matching shares exclude pet food even when questionnaire cultivated sales include it.",
+    "Do not sum overlapping pillars, multiply product counts by speculative sales, infer zero from no approval found, or infer Indian/Pakistani revenue from global segment revenue."
+  ]
+}

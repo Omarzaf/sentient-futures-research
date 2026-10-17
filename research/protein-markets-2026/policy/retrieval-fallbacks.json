@@ -1,0 +1,7 @@
+[
+  {"id":"IN-FSSAI-VEGAN-2022","url":"https://stg-old.fssai.gov.in/upload/notifications/2022/06/62ac3f9dba33cGazette_Notification_Vegan_Food_17_06_2022.pdf","prior_failed_attempts":0,"max_attempts":1},
+  {"id":"IN-FSSAI-LABEL-2020","url":"https://stg-old.fssai.gov.in/upload/notifications/2020/12/5fd87c6a0f6adGazette_Notification_Labelling_Display_14_12_2020.pdf","prior_failed_attempts":0,"max_attempts":1},
+  {"id":"IN-DBT-BIOE3-2024","url":"https://www.indiascienceandtechnology.gov.in/sites/default/files/file-uploads/sciencetechnologypolicies/1746189922_BioE3%20Policy%20Brohcure_compressed.pdf","prior_failed_attempts":0,"max_attempts":1},
+  {"id":"IN-DBT-SMART-CALL-2025","url":"https://bmi.dbt.gov.in/pdf/smartprotein.pdf","prior_failed_attempts":1,"max_attempts":1},
+  {"id":"PK-PUNJAB-ACT-2011","url":"https://pfa.gop.pk/wp-content/uploads/2023/02/The-Punjab-Food-Authority-Act-2011.pdf","prior_failed_attempts":0,"max_attempts":1}
+]

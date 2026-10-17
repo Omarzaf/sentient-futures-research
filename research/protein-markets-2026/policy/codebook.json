@@ -1,0 +1,98 @@
+{
+  "id": "protein-policy-primary-function",
+  "version": "1.0.0",
+  "created_client_date": "2026-10-15",
+  "status": "freeze before independent author coding",
+  "unit_of_analysis": "One distinct named legal, policy or programme instrument, in the captured edition. Different hosts, translations, application forms, duplicate copies, amendments incorporated within a captured compilation, and index pages are not extra units.",
+  "variable": "primary_function",
+  "measurement": "Single nominal category; exactly one of the listed codes for each codable instrument. It measures the instrument's direct principal mechanism, not its desired social outcome, legal force, policy effectiveness or market impact.",
+  "categories": [
+    {
+      "code": "FRAMEWORK",
+      "name": "Institutional framework and scope",
+      "definition": "Creates a regulatory authority, assigns its broad powers/jurisdiction, or supplies a standalone cross-cutting definitions/scope instrument without a more specific operative mechanism.",
+      "exclude": "Do not classify every regulation here merely because it cites an enabling Act or defines terms."
+    },
+    {
+      "code": "AUTHORISATION",
+      "name": "Product or business authorisation",
+      "definition": "Makes prior case-specific approval, registration or a premises/business licence the central gate to manufacture, import, market or operate.",
+      "exclude": "Claim/logo endorsement alone is INFORMATION; biosafety-risk regimes are SAFETY; border clearance as a whole is TRADE."
+    },
+    {
+      "code": "INFORMATION",
+      "name": "Product information and claims",
+      "definition": "Controls labels, nutritional/allergen declarations, consumer-facing claims, identity communication or claim-specific logos and their integrity.",
+      "exclude": "A general food-product registration instrument with an incidental logo remains AUTHORISATION."
+    },
+    {
+      "code": "SAFETY",
+      "name": "Safety, biosafety and enforcement",
+      "definition": "Directly controls hazards, containment, hygiene, inspection, sampling, recall, corrective action or risk management, including biotechnology biosafety.",
+      "exclude": "A founding authority Act is FRAMEWORK; a generic product-approval procedure is AUTHORISATION."
+    },
+    {
+      "code": "TRADE",
+      "name": "Border and trade procedures",
+      "definition": "Primarily establishes food import/export clearance, border inspection, consignment controls or cross-border procedures.",
+      "exclude": "A broad authority Act mentioning trade remains FRAMEWORK; a generic product approval that also covers imports remains AUTHORISATION."
+    },
+    {
+      "code": "INNOVATION",
+      "name": "Research and innovation support",
+      "definition": "Provides a strategy, programme, infrastructure, funding call or eligibility mechanism for research, translation, scale-up or technical capability.",
+      "exclude": "A funding policy or call is not a food-safety marketing authorisation or evidence of an actual grant."
+    },
+    {
+      "code": "COMPOSITION",
+      "name": "Product composition standards",
+      "definition": "Primarily specifies product-specific identity, permitted ingredients, compositional/nutrient limits or measured product quality standards.",
+      "exclude": "General definitions without product thresholds are FRAMEWORK; communicating composition on a label is INFORMATION."
+    },
+    {
+      "code": "HALAL",
+      "name": "Halal assurance procedures",
+      "definition": "Primarily specifies operational halal certification, process assurance, traceability or certification-body assessment requirements.",
+      "exclude": "An Act establishing a halal authority and broad powers is FRAMEWORK; this code never constitutes a religious ruling on a product."
+    }
+  ],
+  "decision_rules": [
+    "Read the original title/preamble, scope and first substantive operative chapter plus the cited mechanism. Record a source locator and short rationale. Never code solely from an index label.",
+    "For a broad Act whose central action is establishing an authority and assigning powers, choose FRAMEWORK. Specific offences or trade/halal provisions inside that Act do not change the instrument-level code.",
+    "An instrument that only establishes general definitions/scope, with no more specific substantive mechanism in the captured text, is FRAMEWORK. Do not invent a registration mechanism from a Food Product title.",
+    "For a specialised instrument, use its direct operative mechanism: funding/support -> INNOVATION; biosafety/hazard/inspection/recall -> SAFETY; border clearance -> TRADE; generic product/premises entry gate -> AUTHORISATION; claims/labels/logo integrity -> INFORMATION; product composition thresholds -> COMPOSITION; operational halal certification -> HALAL.",
+    "Claim-specific vegan/halal logo endorsement remains INFORMATION when its direct object is the claim or consumer-facing identity. An instrument requiring registration of the food product itself remains AUTHORISATION even if a logo is also required.",
+    "If two mechanisms genuinely remain co-primary, first use the explicit purpose/short title, then the first dedicated substantive chapter after definitions. Prefer this written tie-break over counting pages or selecting the code that seems favourable.",
+    "If the captured text is too incomplete, unreadable or ambiguous to apply these rules, leave primary_function null and set coding_status='uncodable' with the reason. Do not force a label. A missing notification day alone does not prevent coding a visible mechanism.",
+    "Existing title years, assent dates, notification dates, printed Gazette dates, commencement conditions and call deadlines are separate metadata. Coding primary_function does not verify current legal force."
+  ],
+  "independence_protocol": [
+    "The source set is a purposive coverage/calibration sample of 20 instruments, not a random sample of all country policies. The taxonomy was developed with access to these source texts; do not call it a held-out reliability test.",
+    "Freeze this codebook and the 20 IDs/source hashes first. Save agent codes in a separate frozen file and record its SHA-256 without exposing its answers in the author form.",
+    "The author receives this codebook, neutral instrument titles, source URLs and locators, and records 20 independent primary_function values and rationales before opening or discussing agent answers.",
+    "No author values may be filled by an agent. Blank author values remain blank. Disclosure of agent answers before completion is a protocol deviation and prevents claiming blind independent coding.",
+    "Retain the first-round author and agent files unchanged. Any discussion or recoding creates a new labelled round, with the original agreement result retained; do not repeatedly revise only disagreements to manufacture a passing threshold."
+  ],
+  "kappa_protocol": {
+    "state": "pending_real_independent_author_codes",
+    "statistic": "Unweighted Cohen's kappa for primary_function",
+    "formula": "kappa = (p_observed - p_expected) / (1 - p_expected); p_expected = sum over categories of (agent marginal proportion * author marginal proportion).",
+    "required_report": [
+      "20/20 independent complete paired labels for the requested acceptance criterion",
+      "confusion matrix across all prespecified categories",
+      "raw agreement count and proportion",
+      "agent/author marginal category counts",
+      "kappa with denominator n and the missing/uncodable count",
+      "any disclosure, codebook revision or recoding deviations"
+    ],
+    "missing": "Do not impute blank or uncodable labels and do not treat missingness as a substantive category. If fewer than 20 valid pairs, any partial kappa is exploratory and the 20-item criterion remains unmet.",
+    "undefined": "If expected agreement equals 1, report kappa as undefined rather than substituting 1.",
+    "threshold": "The brief requires kappa >= 0.7. No result or passing status exists until real independent author coding is supplied.",
+    "interpretation": "Agreement is classification reliability on this selected set, not proof that policy interpretations, legal-effect claims or market effects are correct."
+  },
+  "scope_limits": [
+    "No market sizes, elasticities, projections or platform approval claims are produced by this exercise.",
+    "A programme call is distinct from its parent policy but not evidence of funding disbursement or food approval.",
+    "Primary-source accessibility and source identity are separate from comprehensive legal currency and scholarly approval."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-10-16T02:04:24.035Z",
+  "codebook": {
+    "file": "codebook.json",
+    "sha256": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1"
+  },
+  "sample": {
+    "file": "instrument-register.json",
+    "sha256": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be",
+    "count": 20
+  },
+  "agent_round_1": {
+    "file": "agent-codes.frozen.json",
+    "sha256": "5a87e7b8b85c94a4083686d5e55f24c5f9147a48add0cf6805a8cb2145458521",
+    "count": 20
+  },
+  "author_status": "pending_independent_20_item_coding",
+  "kappa": null,
+  "git_preregistration_status": "local_files_prepared_not_yet_recorded_as_committed_by_this_specialist",
+  "boundaries": "Hash freeze is an integrity receipt, not encryption or access control. Keep agent responses separate from the author packet until independent author coding is final.",
+  "source_access": "Twenty source PDFs captured; one is an official BioE3 policy summary brochure rather than the unavailable full policy text. Exact-date and legal-currency gaps remain in the register."
+}

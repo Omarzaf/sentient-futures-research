@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "status": "baseline_execution_and_documented_failure_closeout",
+  "requirements": [
+    {
+      "id": "S01",
+      "requirement": "Opening answers all five brief questions within two pages",
+      "evidence": "final report opening and page inspection",
+      "status": "one_page_completion_opening_verified",
+      "cause": "The completion edition answers all five questions on one rendered page, with failed or unavailable quantitative results explicit. This is presentation completion, not acceptance of the missing analyses."
+    },
+    {
+      "id": "S02",
+      "requirement": "HCES 2023-24 rural and urban protein reproduced within 0.5 g/person/day",
+      "evidence": "unit-level data, design, item mapping, code and reproduction output",
+      "status": "reconstruction_executed_primary_failed_conditional_meal_variant_matches",
+      "cause": "Full physical/monetary candidate attempt returns61.099055r/62.692731u, outside±0.5 of61.8/63.4. A separately named observed-roster X+G meal-source diagnostic gives61.739775r/63.414554u and matches numerically; FDQ-time membership/null semantics and exact unadjusted formula remain unverified, so it is not promoted. Official CPI acquired publicly; source factors implemented; original raw lineage and design variance remain separate."
+    },
+    {
+      "id": "S03",
+      "requirement": "HIES 2024-25 chicken reproduced as 0.34 kg/person/month within published rounding",
+      "evidence": "official microdata, documentation, code and reproduction output",
+      "status": "complete_observed_quantity_comparator_target_failed",
+      "cause": "The declared all-channel member=yes30/14 comparator actually returns0.35460168721544993, outside[0.335,0.345). An independent R/foreign reader of official SPSS confirms the Stata result within storage precision. Urban/rural comparisons also fail. Distinct source-supported variants and official Table23 disagreement remain visible. Duplicate PDF downloads are one source. No channel drop, fitting, trimming or invented quantity is accepted."
+    },
+    {
+      "id": "S04",
+      "requirement": "Household-expenditure protein denominator by source, expenditure group and residence with survey design and IMF scaling",
+      "evidence": "weighted cell tables, design specification, population series and code",
+      "status": "held",
+      "cause": "Both official reproductions must pass first."
+    },
+    {
+      "id": "S05",
+      "requirement": "Income and own-price elasticities for meat, poultry, eggs, dairy and pulses by country and residence with standard errors",
+      "evidence": "demand estimates, identification notes and design-based uncertainty",
+      "status": "held",
+      "cause": "Both official reproductions and inspected price and quantity data are prerequisites."
+    },
+    {
+      "id": "S06",
+      "requirement": "NFHS-5 weekly animal-food variation analysis with confidence intervals and checked Pakistani equivalent",
+      "evidence": "unit-level design-based analysis and dataset access log",
+      "status": "published_fallback_synthesis_completed_requested_unit_analysis_unavailable",
+      "cause": "Two original open-access studies support attributed NFHS food-frequency/wealth-education context and older household price/religion/caste/geography context. They do not supply the requested new joint respondent-level decomposition. No accessible authorized NFHS respondent release was recovered; the paper data-sharing route requires a human request. Checked Pakistan child/women previous-day outcomes remain non-equivalent."
+    },
+    {
+      "id": "S07",
+      "requirement": "Three independent market-size methods per pillar with side-by-side reconciliation and twofold disagreement flag",
+      "evidence": "top-down, bottom-up and classified trade evidence tables",
+      "status": "source_audit_complete_estimation_held",
+      "cause": "Three-method cells are preserved but all current compatible values remain unresolved. Historical published estimates, incomplete company records and broad upstream HS flows cannot be averaged into current pillar sales."
+    },
+    {
+      "id": "S08",
+      "requirement": "At least thirty dated protein-price listings per country with required conventional and alternative coverage",
+      "evidence": "raw retail captures, nutrition sources, price calculation and coverage audit",
+      "status": "raw_observation_minimum_met_protein_table_held",
+      "cause": "India has50 and Pakistan47 scoped original price observations, including48 and38 source-listed InStock. Exact protein bases and price-per-protein calculations remain held; no national product census or verified delivery coverage."
+    },
+    {
+      "id": "S09",
+      "requirement": "Author-designated questionnaire replicated for both countries at required years and quantiles",
+      "evidence": "instrument identity, adaptation manifests, run metadata and raw model outputs",
+      "status": "held",
+      "cause": "Instrument preserved and country-substitution drafts prepared; official baselines, local resolution choices and model-run metadata remain prerequisites."
+    },
+    {
+      "id": "S10",
+      "requirement": "Country-analogue reference-class or Bass projections at P10 P50 P90 for 2030 and 2035",
+      "evidence": "analogue inputs, fitted model, validation, uncertainty and output rows",
+      "status": "held",
+      "cause": "Official baselines, preregistration and compatible analogue data are prerequisites."
+    },
+    {
+      "id": "S11",
+      "requirement": "Three most influential inputs identified for every projection",
+      "evidence": "sensitivity design, execution outputs and rankings",
+      "status": "held",
+      "cause": "No projection may run before the gates pass."
+    },
+    {
+      "id": "S12",
+      "requirement": "At least ten resolvable forecast questions committed before any projection",
+      "evidence": "question register, resolution rules, exact Git commit and chronological execution receipt",
+      "status": "registration_committed_no_projection_run",
+      "cause": "Twelve supplementary questions are committed at 0d7d5df858a475515adf9144a85f48a882ab51f2; exact hash and country-local event-window starts preserved. No projection run."
+    },
+    {
+      "id": "S13",
+      "requirement": "Policy register covers FSSAI BioE3 DBT and Pakistan federal bodies plus Punjab Sindh Khyber Pakhtunkhwa and Balochistan",
+      "evidence": "dated instrument register with original primary texts",
+      "status": "coverage_prepared_full_policy_supplement_recovered",
+      "cause": "Twenty frozen instruments cover named jurisdictions. Full BioE3 policy and user-access companion recovered as separate supplemental originals; first-round source hashes unchanged. Exact signed-version/notification details, legal currency and programme delivery remain unverified."
+    },
+    {
+      "id": "S14",
+      "requirement": "Written codebook and independent author coding of twenty instruments with Cohen kappa at least 0.7",
+      "evidence": "frozen codebook, agent coding, author coding and kappa table",
+      "status": "human_measurement_unavailable_no_agent_substitution",
+      "cause": "Actual author responses remain blank and kappa is unmeasured. Agent-generated decisions cannot be relabelled as independent author coding. Existing disclosure is preserved; no clean blind status is certified. This unresolved criterion is documented separately and does not prevent delivery of supported report sections."
+    },
+    {
+      "id": "S15",
+      "requirement": "Halal chapter uses original named and dated Pakistan and India authorities with Urdu and Arabic translation notes",
+      "evidence": "original-text captures, passage locators, dates and checked translations",
+      "status": "author_review_accepted_existing_passages_sources_partial",
+      "cause": "Author checked and accepted existing translations/religious interpretations; version-bound receipt covers six existing claims. Technical/regulatory claims remain separate. Exact Indian cultivated-specific ruling/Arabic original, CII original and product certificates remain unestablished. No independent specialist credential inferred."
+    },
+    {
+      "id": "S16",
+      "requirement": "Every numerical report finding traces to the claims ledger",
+      "evidence": "report-token to claim to source to code to output audit",
+      "status": "prior_numeric_checkpoint_and_new_baseline_claims_traceable",
+      "cause": "The preserved checkpoint has12 verified findings. The completion edition adds8 source/output-bound baseline and conditional-diagnostic claims, checked against recomputed JSON, Markdown and PDF. The new edition does not transform missing empirical results into measured values."
+    },
+    {
+      "id": "S17",
+      "requirement": "Existing repository verifier and applicable suites pass with deterministic rebuild",
+      "evidence": "build and verifier logs, test counts and second-build drift check",
+      "status": "software_checks_pass_empirical_prerequisites_fail",
+      "cause": "89 Python tests pass, including genuine positive/negative baseline acceptance cases; Ruff/Black and all existing fixture suites pass. Independent source/method review finds no fabricated acceptance. Saved rebuild, PDF and source-binding receipts document execution separately from scientific validity."
+    },
+    {
+      "id": "S18",
+      "requirement": "One command rebuilds every empirical report table from raw inputs",
+      "evidence": "clean rebuild with input manifest and table hashes",
+      "status": "one_command_baseline_and_evidence_completion_implemented_downstream_tables_unestimated",
+      "cause": "complete_research.py rebuilds the observed baseline attempts, source tables, dynamic acceptance result, criterion outcomes, claims ledger, Markdown opening/report and PDFs offline. Missing downstream estimates remain explicitly missing under the failed baseline prerequisite; no full empirical-estimation completion is claimed."
+    },
+    {
+      "id": "S19",
+      "requirement": "Restricted or nonredistributable inputs have lawful acquisition instructions",
+      "evidence": "per-dataset licence and access documentation",
+      "status": "documented_with_unresolved_rights",
+      "cause": "Access instructions and source-version checks are written; redistribution rights remain unresolved for private source copies."
+    },
+    {
+      "id": "S20",
+      "requirement": "Household-meal thesis appears as proposed tests in research agenda",
+      "evidence": "final agenda with outcomes, controls and falsifiers",
+      "status": "drafted_integrated_no_findings",
+      "cause": "Five proposed household-meal tests are linked from the report; no new survey or findings."
+    },
+    {
+      "id": "S21",
+      "requirement": "Deliver report data package and reproducible code",
+      "evidence": "complete verified deliverable inventory",
+      "status": "report_data_and_reproducible_code_delivered_with_documented_failed_criteria",
+      "cause": "The completion edition binds executed baseline attempts, evidence tables, public alternatives, all criterion outcomes and causes, eight displayed baseline/diagnostic claims and local reproducible code. It follows the brief's documented-failure route; the requested full empirical research remains incomplete."
+    },
+    {
+      "id": "S22",
+      "requirement": "Pakistan and India only with distinct pillars and explicit matching-market shares",
+      "evidence": "scope, product crosswalk and channel-aligned denominator audit",
+      "status": "in_progress",
+      "cause": "Protocol defines distinctions; empirical product and channel crosswalk is pending."
+    },
+    {
+      "id": "S23",
+      "requirement": "Every estimate has raw-file hash download date licence code path and output row",
+      "evidence": "complete source and execution manifests",
+      "status": "provenance_for_available_observations_only",
+      "cause": "Available diagnostic and historical-context rows carry source hashes, code paths and output references. No new estimate has passed the gate, so this is not full estimate coverage."
+    },
+    {
+      "id": "S24",
+      "requirement": "No human respondent survey",
+      "evidence": "method and execution audit",
+      "status": "boundary_observed_to_date",
+      "cause": "No survey of human respondents was conducted. Independent author policy classification remains a separate requested investigator task."
+    },
+    {
+      "id": "S25",
+      "requirement": "Supply benchmark and news-framing annotation excluded from main report",
+      "evidence": "final report and dependency audit",
+      "status": "excluded_from_report_draft",
+      "cause": "Draft main text imports neither supply-benchmark outputs nor news-framing annotations. Final dependency review pending."
+    },
+    {
+      "id": "S26",
+      "requirement": "Verified comparison with Anna Bartlett US results",
+      "evidence": "exact US output version, compatible estimands and comparison code",
+      "status": "author_deferred",
+      "cause": "Author explicitly said completed US outputs and settings will be added later. Comparison slot retained; no US numbers fabricated."
+    }
+  ]
+}

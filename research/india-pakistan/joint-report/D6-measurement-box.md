@@ -1,0 +1,9 @@
+# D6. What the scenarios measure
+
+The proxy scenarios estimate retail spending on alternative proteins, in million US dollars at constant 2025 prices ([REPORT.md, scenario units](../report/REPORT.md#the-scenarios-grow-quickly-from-a-very-small-base)). They do not count households trying, repeating or switching.
+
+Keep four outcomes separate: stated willingness to buy; first purchase; repeat purchase after incentives end; and a measured fall in animal-food purchases.
+
+Bryant et al. (2019) measure hypothetical purchase intentions across the USA, India and China, including 1,024<!-- claim: acquisition_in_d03_sample_n --> Indian respondents; Arora, Brent and Jaenicke (2020) measure stated choices ([REPORT.md, bilateral studies](../report/REPORT.md#bilateral-studies-guide-different-research-questions)). Ahsan, Uzair and Ali (2021 online; 2022 issue) measure Pakistani attitudes and perceptions, with inconsistent acceptance reporting ([REPORT.md, bilateral studies](../report/REPORT.md#bilateral-studies-guide-different-research-questions)). Dean et al. (2023) measure pooled willingness to try, buy and pay more, including Pakistan ([studies.csv, S03](../../protein-survey-data/studies.csv)).
+
+The search covered [9 study records](../../protein-survey-data/README.md)<!-- claim: package_p07_study_records --> and [29 findings, with no India finding](../../protein-survey-data/findings.csv)<!-- claim: package_p07_finding_records -->, and [4 bilateral study discussions](../report/REPORT.md#bilateral-studies-guide-different-research-questions). These are sample-specific responses, not national purchase rates. These sources do not establish observed first purchase, repeat purchase after incentives end or measured substitution in either country. Spending growth cannot distinguish one-time buyers from repeat buyers.

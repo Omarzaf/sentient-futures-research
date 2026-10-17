@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-10-16T02:05:35.743Z",
+  "status": "pass",
+  "assertions": 191,
+  "instruments": 20,
+  "distinct_primary_source_pdfs": 20,
+  "blank_author_responses": 20,
+  "coverage": {
+    "India:national": 7,
+    "Pakistan:federal": 3,
+    "Pakistan:Punjab": 3,
+    "Pakistan:Sindh": 3,
+    "Pakistan:Khyber Pakhtunkhwa": 1,
+    "Pakistan:Balochistan": 3
+  },
+  "codebook_sha256": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1",
+  "sample_sha256": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be",
+  "agent_sha256": "5a87e7b8b85c94a4083686d5e55f24c5f9147a48add0cf6805a8cb2145458521",
+  "author_agreement": {
+    "status": "pending",
+    "kappa": null
+  },
+  "limits": [
+    "Source identity/function review is not comprehensive legal-currency verification.",
+    "BioE3 source is an official summary brochure, with full-policy URL retrieval gap.",
+    "Selected scanned pages support function coding; technical schedules not exhaustively reviewed."
+  ]
+}

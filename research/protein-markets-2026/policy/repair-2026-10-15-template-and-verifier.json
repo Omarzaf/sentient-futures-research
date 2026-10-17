@@ -1,0 +1,54 @@
+{
+  "client_date": "2026-10-15",
+  "repair": "Policy source-template validity and read-only verification",
+  "trigger": [
+    "Library verifier found a source HTML link to a missing private-only codebook copy.",
+    "Source application/json script contained non-JSON template text.",
+    "Packet verifier rewrote the historical versioned receipt on routine execution."
+  ],
+  "changes": [
+    "Source template now links to existing codebook.json and contains a valid JSON placeholder object.",
+    "Private preparation replaces the entire placeholder and rewrites the generated private codebook link to codebook.author-copy.json.",
+    "Added --refresh-author-form to validate frozen inputs and regenerate only private HTML, preserving frozen codebook/sample/agent files and blank author JSON.",
+    "Verification prints to console by default; explicit --output accepts only new files inside the private policy-review directory.",
+    "Added policy README commands. Root manifest and historical receipts were not edited."
+  ],
+  "verification": {
+    "packet_assertions": 191,
+    "packet_status": "pass",
+    "source_template_json": "valid",
+    "source_relative_links": "all existing",
+    "generated_private_link": "correct",
+    "private_packet_placeholder_replacement": "pass",
+    "outside_private_output": "rejected before write",
+    "private_receipt": "OUTPUTS/Deep Research 2026-10/policy-review/verification-template-repair-2026-10-15.json",
+    "source_pdf_count": 20,
+    "source_pdf_hashes": "unchanged against frozen register"
+  },
+  "unchanged_hashes": {
+    "instrument-register.json": "ef4dc99b66999e4a0f03d436779b6ed1c99a53ceeb47ef780023d8dfcc57f3be",
+    "codebook.json": "3b5ca73772e1ada81c72e4b1486b921cd24e9088fc29992141c00019958fe1a1",
+    "agent-codes.frozen.json": "5a87e7b8b85c94a4083686d5e55f24c5f9147a48add0cf6805a8cb2145458521",
+    "freeze-receipt.json": "32204552b604b65143dc952eabee6c04fafe3df24341f6c0e74dc6fe12af161b",
+    "VERIFICATION.json": "93025557aa2652b68efb198d449e8be5b2e1200003e52549d83a38accb65c1e7"
+  },
+  "moderator": {
+    "verdict": "PASS",
+    "blocks": [],
+    "warnings": [
+      "Independent author coding remains pending; kappa remains null.",
+      "Existing source-access, partial-date and legal-currency limitations still apply."
+    ]
+  },
+  "retrospective": {
+    "worked": "The unchanged library verifier caught template-level defects that private generated-form checks missed.",
+    "did_not": "The first verification script treated its historical receipt as a mutable output.",
+    "rule_proposal": "Validate source templates as standalone HTML/JSON and make verification read-only unless an explicit new receipt path is supplied."
+  },
+  "release_state": {
+    "local": true,
+    "committed_by_specialist": false,
+    "pushed": false,
+    "published": false
+  }
+}
