@@ -4,9 +4,9 @@
   "weight": "household multiplier from each table",
   "min_cell_households": 30,
   "suppression": "a cell with fewer than min_cell_households unweighted households has null shares; its unweighted counts n_* are kept (ruling R16)",
-  "share_definition": "weighted share of all households in the cell",
+  "share_definition": "weighted share of the households in the cell that have food data; households whose value_month_ columns are all missing (NO_FOOD_DATA) are counted in no_food_data_households and excluded from numerators and denominators (ruling R33)",
   "segment_rules": {
-    "zero_recall": "no chicken, mutton, beef, fish, pork or eggs with positive quantity or value in the recall window; a missing group counts as no purchase",
+    "zero_recall": "no chicken, mutton, beef, fish, pork or eggs with positive quantity or value in the recall window; a missing group counts as no purchase, unless every value_month_ column is missing (NO_FOOD_DATA)",
     "vegetarian": "India only: NFHS5_CALIBRATED within calibrated state, religion and caste cells, otherwise zero-recall households; Pakistan has no vegetarian segment",
     "meat_eater": "every household that is not vegetarian",
     "addressable": "urban meat eater with value_month_packaged above 0; the packaged condition is dropped for a country whose packaged value is missing for every household",
@@ -16,26 +16,30 @@
   "countries": {
     "india": {
       "households": 261953,
+      "no_food_data_households": 261,
       "segment_method": {
-        "ZERO_RECALL_DIAGNOSTIC": 261953
+        "NO_FOOD_DATA": 261,
+        "ZERO_RECALL_DIAGNOSTIC": 261692
       },
       "addressable_rule": "FULL",
       "national": {
         "n_households": 261953,
+        "no_food_data_households": 261,
         "n_meat_eater": 195654,
-        "n_vegetarian": 66299,
+        "n_vegetarian": 66038,
         "n_addressable": 77362,
         "n_addressable_vegetarian": 28617,
         "shares": {
-          "meat_eater": 0.7261,
-          "vegetarian": 0.2739,
-          "addressable": 0.2293,
-          "addressable_vegetarian": 0.1002
+          "meat_eater": 0.7273,
+          "vegetarian": 0.2727,
+          "addressable": 0.2297,
+          "addressable_vegetarian": 0.1004
         }
       },
       "states": {
         "1": {
           "n_households": 3582,
+          "no_food_data_households": 0,
           "n_meat_eater": 2920,
           "n_vegetarian": 662,
           "n_addressable": 1495,
@@ -49,32 +53,35 @@
         },
         "2": {
           "n_households": 2406,
+          "no_food_data_households": 3,
           "n_meat_eater": 1299,
-          "n_vegetarian": 1107,
+          "n_vegetarian": 1104,
           "n_addressable": 571,
           "n_addressable_vegetarian": 461,
           "shares": {
-            "meat_eater": 0.5349,
-            "vegetarian": 0.4651,
-            "addressable": 0.0698,
+            "meat_eater": 0.5353,
+            "vegetarian": 0.4647,
+            "addressable": 0.0699,
             "addressable_vegetarian": 0.0626
           }
         },
         "3": {
           "n_households": 5971,
+          "no_food_data_households": 6,
           "n_meat_eater": 2750,
-          "n_vegetarian": 3221,
+          "n_vegetarian": 3215,
           "n_addressable": 1243,
           "n_addressable_vegetarian": 1532,
           "shares": {
-            "meat_eater": 0.4645,
-            "vegetarian": 0.5355,
-            "addressable": 0.1921,
-            "addressable_vegetarian": 0.2232
+            "meat_eater": 0.4654,
+            "vegetarian": 0.5346,
+            "addressable": 0.1925,
+            "addressable_vegetarian": 0.2237
           }
         },
         "4": {
           "n_households": 718,
+          "no_food_data_households": 0,
           "n_meat_eater": 554,
           "n_vegetarian": 164,
           "n_addressable": 260,
@@ -88,19 +95,21 @@
         },
         "5": {
           "n_households": 2749,
+          "no_food_data_households": 6,
           "n_meat_eater": 1866,
-          "n_vegetarian": 883,
+          "n_vegetarian": 877,
           "n_addressable": 688,
           "n_addressable_vegetarian": 360,
           "shares": {
-            "meat_eater": 0.684,
-            "vegetarian": 0.316,
-            "addressable": 0.1767,
-            "addressable_vegetarian": 0.1066
+            "meat_eater": 0.6869,
+            "vegetarian": 0.3131,
+            "addressable": 0.1774,
+            "addressable_vegetarian": 0.1071
           }
         },
         "6": {
           "n_households": 5263,
+          "no_food_data_households": 0,
           "n_meat_eater": 2551,
           "n_vegetarian": 2712,
           "n_addressable": 1378,
@@ -114,6 +123,7 @@
         },
         "7": {
           "n_households": 3359,
+          "no_food_data_households": 0,
           "n_meat_eater": 2803,
           "n_vegetarian": 556,
           "n_addressable": 2554,
@@ -127,21 +137,23 @@
         },
         "8": {
           "n_households": 13147,
+          "no_food_data_households": 28,
           "n_meat_eater": 2597,
-          "n_vegetarian": 10550,
+          "n_vegetarian": 10522,
           "n_addressable": 946,
           "n_addressable_vegetarian": 3279,
           "shares": {
-            "meat_eater": 0.1952,
-            "vegetarian": 0.8048,
-            "addressable": 0.058,
-            "addressable_vegetarian": 0.2129
+            "meat_eater": 0.1956,
+            "vegetarian": 0.8044,
+            "addressable": 0.0582,
+            "addressable_vegetarian": 0.2134
           }
         },
         "9": {
           "n_households": 30308,
+          "no_food_data_households": 1,
           "n_meat_eater": 19946,
-          "n_vegetarian": 10362,
+          "n_vegetarian": 10361,
           "n_addressable": 6854,
           "n_addressable_vegetarian": 3780,
           "shares": {
@@ -153,6 +165,7 @@
         },
         "10": {
           "n_households": 17255,
+          "no_food_data_households": 0,
           "n_meat_eater": 15487,
           "n_vegetarian": 1768,
           "n_addressable": 3089,
@@ -166,19 +179,21 @@
         },
         "11": {
           "n_households": 2158,
+          "no_food_data_households": 2,
           "n_meat_eater": 2040,
-          "n_vegetarian": 118,
+          "n_vegetarian": 116,
           "n_addressable": 651,
           "n_addressable_vegetarian": 64,
           "shares": {
-            "meat_eater": 0.9493,
-            "vegetarian": 0.0507,
-            "addressable": 0.2947,
+            "meat_eater": 0.9498,
+            "vegetarian": 0.0502,
+            "addressable": 0.2948,
             "addressable_vegetarian": 0.027
           }
         },
         "12": {
           "n_households": 4073,
+          "no_food_data_households": 0,
           "n_meat_eater": 4056,
           "n_vegetarian": 17,
           "n_addressable": 1405,
@@ -192,6 +207,7 @@
         },
         "13": {
           "n_households": 3042,
+          "no_food_data_households": 0,
           "n_meat_eater": 3028,
           "n_vegetarian": 14,
           "n_addressable": 1072,
@@ -205,6 +221,7 @@
         },
         "14": {
           "n_households": 4244,
+          "no_food_data_households": 0,
           "n_meat_eater": 4164,
           "n_vegetarian": 80,
           "n_addressable": 2523,
@@ -218,6 +235,7 @@
         },
         "15": {
           "n_households": 3600,
+          "no_food_data_households": 0,
           "n_meat_eater": 3599,
           "n_vegetarian": 1,
           "n_addressable": 2160,
@@ -231,6 +249,7 @@
         },
         "16": {
           "n_households": 5040,
+          "no_food_data_households": 0,
           "n_meat_eater": 5014,
           "n_vegetarian": 26,
           "n_addressable": 1785,
@@ -244,19 +263,21 @@
         },
         "17": {
           "n_households": 3216,
+          "no_food_data_households": 1,
           "n_meat_eater": 3183,
-          "n_vegetarian": 33,
+          "n_vegetarian": 32,
           "n_addressable": 1030,
           "n_addressable_vegetarian": 30,
           "shares": {
-            "meat_eater": 0.995,
-            "vegetarian": 0.005,
+            "meat_eater": 0.9954,
+            "vegetarian": 0.0046,
             "addressable": 0.161,
             "addressable_vegetarian": 0.0033
           }
         },
         "18": {
           "n_households": 8572,
+          "no_food_data_households": 0,
           "n_meat_eater": 8409,
           "n_vegetarian": 163,
           "n_addressable": 2447,
@@ -270,60 +291,65 @@
         },
         "19": {
           "n_households": 18120,
+          "no_food_data_households": 4,
           "n_meat_eater": 17596,
-          "n_vegetarian": 524,
+          "n_vegetarian": 520,
           "n_addressable": 7033,
           "n_addressable_vegetarian": 369,
           "shares": {
-            "meat_eater": 0.9741,
-            "vegetarian": 0.0259,
-            "addressable": 0.3044,
+            "meat_eater": 0.9743,
+            "vegetarian": 0.0257,
+            "addressable": 0.3045,
             "addressable_vegetarian": 0.0154
           }
         },
         "20": {
           "n_households": 6331,
+          "no_food_data_households": 10,
           "n_meat_eater": 4889,
-          "n_vegetarian": 1442,
+          "n_vegetarian": 1432,
           "n_addressable": 1708,
           "n_addressable_vegetarian": 659,
           "shares": {
-            "meat_eater": 0.7924,
-            "vegetarian": 0.2076,
+            "meat_eater": 0.7926,
+            "vegetarian": 0.2074,
             "addressable": 0.1552,
             "addressable_vegetarian": 0.057
           }
         },
         "21": {
           "n_households": 9213,
+          "no_food_data_households": 35,
           "n_meat_eater": 7606,
-          "n_vegetarian": 1607,
+          "n_vegetarian": 1572,
           "n_addressable": 1852,
           "n_addressable_vegetarian": 565,
           "shares": {
-            "meat_eater": 0.803,
-            "vegetarian": 0.197,
-            "addressable": 0.1319,
-            "addressable_vegetarian": 0.0552
+            "meat_eater": 0.809,
+            "vegetarian": 0.191,
+            "addressable": 0.1329,
+            "addressable_vegetarian": 0.0557
           }
         },
         "22": {
           "n_households": 4968,
+          "no_food_data_households": 6,
           "n_meat_eater": 3710,
-          "n_vegetarian": 1258,
+          "n_vegetarian": 1252,
           "n_addressable": 1373,
           "n_addressable_vegetarian": 670,
           "shares": {
-            "meat_eater": 0.7732,
-            "vegetarian": 0.2268,
-            "addressable": 0.1459,
-            "addressable_vegetarian": 0.0681
+            "meat_eater": 0.7746,
+            "vegetarian": 0.2254,
+            "addressable": 0.1462,
+            "addressable_vegetarian": 0.0682
           }
         },
         "23": {
           "n_households": 14105,
+          "no_food_data_households": 3,
           "n_meat_eater": 7264,
-          "n_vegetarian": 6841,
+          "n_vegetarian": 6838,
           "n_addressable": 2653,
           "n_addressable_vegetarian": 2980,
           "shares": {
@@ -335,84 +361,91 @@
         },
         "24": {
           "n_households": 11271,
+          "no_food_data_households": 13,
           "n_meat_eater": 3207,
-          "n_vegetarian": 8064,
+          "n_vegetarian": 8051,
           "n_addressable": 1554,
           "n_addressable_vegetarian": 3960,
           "shares": {
-            "meat_eater": 0.2897,
-            "vegetarian": 0.7103,
-            "addressable": 0.1347,
-            "addressable_vegetarian": 0.342
+            "meat_eater": 0.2902,
+            "vegetarian": 0.7098,
+            "addressable": 0.1349,
+            "addressable_vegetarian": 0.3425
           }
         },
         "25": {
           "n_households": 698,
+          "no_food_data_households": 5,
           "n_meat_eater": 503,
-          "n_vegetarian": 195,
+          "n_vegetarian": 190,
           "n_addressable": 211,
           "n_addressable_vegetarian": 124,
           "shares": {
-            "meat_eater": 0.6979,
-            "vegetarian": 0.3021,
-            "addressable": 0.4596,
-            "addressable_vegetarian": 0.2308
+            "meat_eater": 0.7039,
+            "vegetarian": 0.2961,
+            "addressable": 0.4636,
+            "addressable_vegetarian": 0.2328
           }
         },
         "27": {
           "n_households": 22746,
+          "no_food_data_households": 49,
           "n_meat_eater": 15527,
-          "n_vegetarian": 7219,
+          "n_vegetarian": 7170,
           "n_addressable": 7480,
           "n_addressable_vegetarian": 3449,
           "shares": {
-            "meat_eater": 0.6716,
-            "vegetarian": 0.3284,
-            "addressable": 0.3029,
-            "addressable_vegetarian": 0.1471
+            "meat_eater": 0.6739,
+            "vegetarian": 0.3261,
+            "addressable": 0.3039,
+            "addressable_vegetarian": 0.1476
           }
         },
         "28": {
           "n_households": 10465,
+          "no_food_data_households": 29,
           "n_meat_eater": 9550,
-          "n_vegetarian": 915,
+          "n_vegetarian": 886,
           "n_addressable": 3309,
           "n_addressable_vegetarian": 479,
           "shares": {
-            "meat_eater": 0.9111,
-            "vegetarian": 0.0889,
-            "addressable": 0.2507,
-            "addressable_vegetarian": 0.0373
+            "meat_eater": 0.9139,
+            "vegetarian": 0.0861,
+            "addressable": 0.2515,
+            "addressable_vegetarian": 0.0375
           }
         },
         "29": {
           "n_households": 12533,
+          "no_food_data_households": 19,
           "n_meat_eater": 9848,
-          "n_vegetarian": 2685,
+          "n_vegetarian": 2666,
           "n_addressable": 4361,
           "n_addressable_vegetarian": 1334,
           "shares": {
-            "meat_eater": 0.783,
-            "vegetarian": 0.217,
-            "addressable": 0.3173,
-            "addressable_vegetarian": 0.1002
+            "meat_eater": 0.7842,
+            "vegetarian": 0.2158,
+            "addressable": 0.3177,
+            "addressable_vegetarian": 0.1003
           }
         },
         "30": {
           "n_households": 720,
+          "no_food_data_households": 2,
           "n_meat_eater": 693,
-          "n_vegetarian": 27,
+          "n_vegetarian": 25,
           "n_addressable": 346,
           "n_addressable_vegetarian": 13,
           "shares": {
-            "meat_eater": 0.9612,
-            "vegetarian": 0.0388,
-            "addressable": 0.597,
-            "addressable_vegetarian": 0.0265
+            "meat_eater": 0.9627,
+            "vegetarian": 0.0373,
+            "addressable": 0.598,
+            "addressable_vegetarian": 0.0266
           }
         },
         "31": {
           "n_households": 605,
+          "no_food_data_households": 0,
           "n_meat_eater": 575,
           "n_vegetarian": 30,
           "n_addressable": 325,
@@ -426,32 +459,35 @@
         },
         "32": {
           "n_households": 7400,
+          "no_food_data_households": 17,
           "n_meat_eater": 6852,
-          "n_vegetarian": 548,
+          "n_vegetarian": 531,
           "n_addressable": 3112,
           "n_addressable_vegetarian": 299,
           "shares": {
-            "meat_eater": 0.9188,
-            "vegetarian": 0.0812,
-            "addressable": 0.4405,
-            "addressable_vegetarian": 0.0477
+            "meat_eater": 0.9212,
+            "vegetarian": 0.0788,
+            "addressable": 0.4417,
+            "addressable_vegetarian": 0.0478
           }
         },
         "33": {
           "n_households": 14492,
+          "no_food_data_households": 15,
           "n_meat_eater": 12613,
-          "n_vegetarian": 1879,
+          "n_vegetarian": 1864,
           "n_addressable": 5796,
           "n_addressable_vegetarian": 1117,
           "shares": {
-            "meat_eater": 0.8617,
-            "vegetarian": 0.1383,
-            "addressable": 0.3976,
-            "addressable_vegetarian": 0.0823
+            "meat_eater": 0.8651,
+            "vegetarian": 0.1349,
+            "addressable": 0.3992,
+            "addressable_vegetarian": 0.0826
           }
         },
         "34": {
           "n_households": 1077,
+          "no_food_data_households": 0,
           "n_meat_eater": 1055,
           "n_vegetarian": 22,
           "n_addressable": 700,
@@ -465,19 +501,21 @@
         },
         "35": {
           "n_households": 1000,
+          "no_food_data_households": 7,
           "n_meat_eater": 954,
-          "n_vegetarian": 46,
+          "n_vegetarian": 39,
           "n_addressable": 349,
           "n_addressable_vegetarian": 6,
           "shares": {
-            "meat_eater": 0.9272,
-            "vegetarian": 0.0728,
-            "addressable": 0.3844,
-            "addressable_vegetarian": 0.0096
+            "meat_eater": 0.9369,
+            "vegetarian": 0.0631,
+            "addressable": 0.3885,
+            "addressable_vegetarian": 0.0097
           }
         },
         "36": {
           "n_households": 6786,
+          "no_food_data_households": 0,
           "n_meat_eater": 6239,
           "n_vegetarian": 547,
           "n_addressable": 2704,
@@ -491,6 +529,7 @@
         },
         "37": {
           "n_households": 720,
+          "no_food_data_households": 0,
           "n_meat_eater": 707,
           "n_vegetarian": 13,
           "n_addressable": 345,
@@ -507,27 +546,31 @@
     },
     "pakistan": {
       "households": 30123,
+      "no_food_data_households": 6,
       "segment_method": {
-        "ZERO_RECALL_DIAGNOSTIC": 30123
+        "NO_FOOD_DATA": 6,
+        "ZERO_RECALL_DIAGNOSTIC": 30117
       },
       "addressable_rule": "FULL",
       "national": {
         "n_households": 30123,
-        "n_meat_eater": 30123,
+        "no_food_data_households": 6,
+        "n_meat_eater": 30117,
         "n_vegetarian": 0,
         "n_addressable": 9398,
         "n_addressable_vegetarian": 0,
         "shares": {
           "meat_eater": 1.0,
           "vegetarian": 0.0,
-          "addressable": 0.3521,
+          "addressable": 0.3522,
           "addressable_vegetarian": 0.0
         }
       },
       "states": {
         "1": {
           "n_households": 5607,
-          "n_meat_eater": 5607,
+          "no_food_data_households": 2,
+          "n_meat_eater": 5605,
           "n_vegetarian": 0,
           "n_addressable": 1759,
           "n_addressable_vegetarian": 0,
@@ -540,7 +583,8 @@
         },
         "2": {
           "n_households": 13483,
-          "n_meat_eater": 13483,
+          "no_food_data_households": 2,
+          "n_meat_eater": 13481,
           "n_vegetarian": 0,
           "n_addressable": 3982,
           "n_addressable_vegetarian": 0,
@@ -553,19 +597,21 @@
         },
         "3": {
           "n_households": 8327,
-          "n_meat_eater": 8327,
+          "no_food_data_households": 2,
+          "n_meat_eater": 8325,
           "n_vegetarian": 0,
           "n_addressable": 2890,
           "n_addressable_vegetarian": 0,
           "shares": {
             "meat_eater": 1.0,
             "vegetarian": 0.0,
-            "addressable": 0.5045,
+            "addressable": 0.5046,
             "addressable_vegetarian": 0.0
           }
         },
         "4": {
           "n_households": 2706,
+          "no_food_data_households": 0,
           "n_meat_eater": 2706,
           "n_vegetarian": 0,
           "n_addressable": 767,

@@ -858,8 +858,8 @@
     },
     {
       "path": "research/household-demand/outputs/segments_summary.json",
-      "bytes": 17973,
-      "sha256": "664930509b16cc5668409ce32b56852402a226f56dace3b6e0e14530f411ae0b"
+      "bytes": 20046,
+      "sha256": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183"
     },
     {
       "path": "research/household-demand/protocol.json",
@@ -868,8 +868,8 @@
     },
     {
       "path": "research/household-demand/segments.py",
-      "bytes": 19744,
-      "sha256": "33d8d953cde7e86a7a66134954df66eecd6d9958e8b2280f18a5e93ae5a1d8eb"
+      "bytes": 21292,
+      "sha256": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
     },
     {
       "path": "research/household-demand/synthetic.py",
@@ -953,8 +953,8 @@
     },
     {
       "path": "research/household-demand/tests/test_segments.py",
-      "bytes": 13366,
-      "sha256": "6122089213165e84e75ca7506678a7f8660bcc63bd06dda6556918c56e7b7326"
+      "bytes": 16243,
+      "sha256": "39b48af1794cea62fd86a423b812ad32851056db3fe70edefc3fcde6245d1d33"
     },
     {
       "path": "research/household-demand/tests/test_synthetic.py",

@@ -363,3 +363,75 @@ def test_main_refuses_household_rows_inside_repository(india_fixture, tmp_path: 
             ]
         )
     assert not inside.exists()
+
+
+def _with_no_food_household(frame: pd.DataFrame, **overrides) -> pd.DataFrame:
+    """Append household n0: same geography as the first row, every food column missing."""
+    row = frame.iloc[0].copy()
+    for column in frame.columns:
+        if column.startswith(("value_month_", "qty_month_")):
+            row[column] = NAN
+    row["hhid"] = "n0"
+    for key, value in overrides.items():
+        row[key] = value
+    return pd.concat([frame, row.to_frame().T], ignore_index=True).astype(
+        frame.dtypes.to_dict()
+    )
+
+
+def test_household_without_food_data_has_null_segment(india_fixture):
+    frame = _with_no_food_household(india_fixture)
+    out = sg.assign_segments(frame, nfhs=None).set_index("hhid")
+    row = out.loc["n0"]
+    assert pd.isna(row.segment)
+    assert row.segment_method == "NO_FOOD_DATA"
+    assert not row.addressable and not row.addressable_vegetarian
+    assert out.drop(index="n0").segment.notna().all()
+
+
+def test_household_without_food_data_is_excluded_from_nfhs_cells(
+    india_fixture, nfhs_fixture
+):
+    frame = _with_no_food_household(india_fixture, multiplier=50.0)
+    out = sg.assign_segments(frame, nfhs=nfhs_fixture)
+    cell = out[(out.state == 7) & out.segment.notna()]
+    share = (
+        cell.multiplier * (cell.segment == "vegetarian")
+    ).sum() / cell.multiplier.sum()
+    assert abs(share - 0.30) < 0.01
+    assert out[out.hhid == "n0"].segment_method.iloc[0] == "NO_FOOD_DATA"
+
+
+def test_household_without_food_data_is_pakistan_null_too(india_fixture):
+    frame = _with_no_food_household(india_fixture, currency="PKR")
+    frame["currency"] = "PKR"
+    out = sg.assign_segments(frame, nfhs=None)
+    assert out.segment.isna().sum() == 1
+    assert set(out.segment.dropna()) == {"meat_eater"}
+
+
+def test_summary_excludes_households_without_food_data(india_fixture):
+    base = sg.segment_summary(
+        {"india": sg.assign_segments(india_fixture, nfhs=None)}, min_households=5
+    )
+    frame = _with_no_food_household(india_fixture, multiplier=500.0)
+    summary = sg.segment_summary(
+        {"india": sg.assign_segments(frame, nfhs=None)}, min_households=5
+    )
+    country = summary["countries"]["india"]
+    assert country["households"] == 15
+    assert country["no_food_data_households"] == 1
+    assert country["segment_method"] == {
+        "NO_FOOD_DATA": 1,
+        "ZERO_RECALL_DIAGNOSTIC": 14,
+    }
+    national = country["national"]
+    assert national["n_households"] == 15
+    assert national["no_food_data_households"] == 1
+    base_shares = base["countries"]["india"]["national"]["shares"]
+    assert national["shares"] == base_shares
+    assert national["shares"]["meat_eater"] + national["shares"]["vegetarian"] == (
+        pytest.approx(1.0, abs=1e-4)
+    )
+    assert country["states"]["7"]["no_food_data_households"] == 1
+    assert country["states"]["8"]["no_food_data_households"] == 0

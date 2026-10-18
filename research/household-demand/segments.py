@@ -3,14 +3,19 @@
 Input: a household table with the shared schema of ``households_india`` and
 ``households_pakistan``. Output: the same rows with these columns added.
 
-- ``segment``: ``meat_eater`` or ``vegetarian``. Only India has a vegetarian
+- ``segment``: ``meat_eater`` or ``vegetarian`` (NaN for ``NO_FOOD_DATA`` rows). Only India has a vegetarian
   segment; every Pakistan household is ``meat_eater``.
-- ``segment_method``: ``NFHS5_CALIBRATED`` or ``ZERO_RECALL_DIAGNOSTIC``.
+- ``segment_method``: ``NFHS5_CALIBRATED``, ``ZERO_RECALL_DIAGNOSTIC`` or ``NO_FOOD_DATA``.
 - ``addressable``: urban meat eater with packaged-food spending above 0.
 - ``addressable_vegetarian``: urban vegetarian with packaged-food spending above 0
   (India only, False for Pakistan; ruling R30).
 - ``addressable_rule``: ``FULL``, or ``PACKAGED_CONDITION_DROPPED`` for a country
   whose ``value_month_packaged`` is missing for every household (ruling R6).
+
+No-food-data rule (ruling R33). A household whose ``value_month_`` columns are all
+missing gets ``segment`` NaN, ``segment_method`` ``NO_FOOD_DATA`` and False for both
+addressable flags. It joins no NFHS cell and no share denominator, because all-missing
+meat columns would otherwise read as zero recall.
 
 Zero-recall rule. A household is zero-recall when every meat group (chicken,
 mutton, beef and buffalo, fish, pork, eggs) is missing or 0 in both quantity and
@@ -77,7 +82,11 @@ MEAT_GROUPS: tuple[str, ...] = (
     "eggs",
 )
 SCORE_VEG_GROUPS: tuple[str, ...] = ("milk", "paneer", "pulses", "soya")
-SEGMENT_METHODS: tuple[str, ...] = ("NFHS5_CALIBRATED", "ZERO_RECALL_DIAGNOSTIC")
+SEGMENT_METHODS: tuple[str, ...] = (
+    "NFHS5_CALIBRATED",
+    "ZERO_RECALL_DIAGNOSTIC",
+    "NO_FOOD_DATA",
+)
 ADDRESSABLE_RULES: tuple[str, ...] = ("FULL", "PACKAGED_CONDITION_DROPPED")
 NFHS_COLUMNS: tuple[str, ...] = ("state", "religion", "caste", "never_eat_share")
 CELL_KEYS: tuple[str, ...] = ("state", "religion", "caste")
@@ -214,11 +223,15 @@ def assign_segments(
     value = _positive(out, [f"value_month_{group}" for group in MEAT_GROUPS])
     zero_recall = ~(qty.any(axis=1) | value.any(axis=1)).to_numpy()
     is_india = (out["currency"] == INDIA_CURRENCY).to_numpy()
+    value_columns = [c for c in out.columns if c.startswith("value_month_")]
+    no_food = out[value_columns].isna().all(axis=1).to_numpy()
 
     segment = np.where(is_india & zero_recall, "vegetarian", "meat_eater").astype(
         object
     )
+    segment[no_food] = np.nan
     method = np.full(len(out), "ZERO_RECALL_DIAGNOSTIC", dtype=object)
+    method[no_food] = "NO_FOOD_DATA"
 
     if nfhs is not None:
         targets = _nfhs_targets(nfhs)
@@ -226,7 +239,7 @@ def assign_segments(
         weights = out["multiplier"].to_numpy(dtype=float)
         score = _meat_free_score(out)
         hhid = out["hhid"].astype(str).to_numpy()
-        positions = np.flatnonzero(is_india)
+        positions = np.flatnonzero(is_india & ~no_food)
         cells = pd.Series(positions).groupby(keys[positions]).indices
         for key, inside in cells.items():
             if key not in targets:
@@ -247,7 +260,8 @@ def assign_segments(
         rows = out["currency"] == currency
         if not rows.any():
             continue
-        packaged_present = bool(out.loc[rows, "value_month_packaged"].notna().any())
+        has_food = rows.to_numpy() & ~no_food
+        packaged_present = bool(out.loc[has_food, "value_month_packaged"].notna().any())
         country = out.loc[rows]
         out.loc[rows, "addressable"] = _addressable(
             country, packaged_present, "meat_eater"
@@ -297,8 +311,14 @@ def calibration_report(segmented: pd.DataFrame, nfhs: pd.DataFrame) -> pd.DataFr
     )
 
 
-def _segment_cell(frame: pd.DataFrame, minimum: int) -> dict:
-    """Return counts and weighted shares for one cell; shares are null under ``minimum``."""
+def _segment_cell(cell: pd.DataFrame, minimum: int) -> dict:
+    """Return counts and weighted shares for one cell; shares are null under ``minimum``.
+
+    Households with ``NO_FOOD_DATA`` are counted in ``no_food_data_households`` and
+    left out of every share denominator and of the minimum-count test (ruling R33).
+    ``n_households`` counts all rows of the cell.
+    """
+    frame = cell[cell["segment_method"] != "NO_FOOD_DATA"]
     weight = frame["multiplier"].astype(float)
     flags = {
         "meat_eater": frame["segment"] == "meat_eater",
@@ -311,7 +331,8 @@ def _segment_cell(frame: pd.DataFrame, minimum: int) -> dict:
         for name, flag in flags.items()
     }
     return {
-        "n_households": len(frame),
+        "n_households": len(cell),
+        "no_food_data_households": len(cell) - len(frame),
         **{f"n_{name}": int(flag.sum()) for name, flag in flags.items()},
         "shares": shares,
     }
@@ -334,13 +355,18 @@ def segment_summary(
 
     ``tables`` maps a country name to its output of ``assign_segments``. Each cell
     carries unweighted counts. A cell with fewer than ``min_households`` households
-    has null shares and keeps its counts (ruling R16). No household row is included.
+    has null shares and keeps its counts (ruling R16). Households without food data
+    leave the share denominators and are counted separately (ruling R33). No
+    household row is included.
     """
     countries = {}
     for name, table in tables.items():
         methods = table["segment_method"].value_counts().sort_index()
         country = {
             "households": len(table),
+            "no_food_data_households": int(
+                (table["segment_method"] == "NO_FOOD_DATA").sum()
+            ),
             "segment_method": {key: int(count) for key, count in methods.items()},
             "addressable_rule": _single_value(
                 table["addressable_rule"], "addressable_rule"
@@ -365,11 +391,16 @@ def segment_summary(
             "a cell with fewer than min_cell_households unweighted households has null shares; "
             "its unweighted counts n_* are kept (ruling R16)"
         ),
-        "share_definition": "weighted share of all households in the cell",
+        "share_definition": (
+            "weighted share of the households in the cell that have food data; households "
+            "whose value_month_ columns are all missing (NO_FOOD_DATA) are counted in "
+            "no_food_data_households and excluded from numerators and denominators (ruling R33)"
+        ),
         "segment_rules": {
             "zero_recall": (
                 "no chicken, mutton, beef, fish, pork or eggs with positive quantity or value "
-                "in the recall window; a missing group counts as no purchase"
+                "in the recall window; a missing group counts as no purchase, unless every "
+                "value_month_ column is missing (NO_FOOD_DATA)"
             ),
             "vegetarian": (
                 "India only: NFHS5_CALIBRATED within calibrated state, religion and caste cells, "
