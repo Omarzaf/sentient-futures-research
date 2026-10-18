@@ -1,0 +1,345 @@
+{
+  "status": "DIAGNOSTIC",
+  "generated_at_utc": "2026-10-18T18:41:48Z",
+  "level": "national",
+  "seed": 20261018,
+  "method": "Deaton unit-value method, simplified: cell price is the weighted mean market unit value per state x district (India) or PR-code area (Pakistan) x sector; WLS of log budget share on log cell prices of all groups, log MPCE, log household size and state fixed effects, purchasers only; own-price b_gg - 1, cross-price b_gk, income 1 + c_g",
+  "nso_rule": "district cells feed estimation only; results are national aggregates",
+  "elasticity_type": "Marshallian, conditional on purchase",
+  "countries": {
+    "India": {
+      "country": "India",
+      "level": "national",
+      "elasticities": {
+        "own_price:chicken": {
+          "estimate": -0.5968,
+          "lower": -0.6781,
+          "upper": -0.4613,
+          "draw_median": -0.5688
+        },
+        "own_price:pulses": {
+          "estimate": -0.4277,
+          "lower": -0.6152,
+          "upper": -0.2692,
+          "draw_median": -0.4519
+        },
+        "own_price:milk": {
+          "estimate": 0.2009,
+          "lower": -0.0214,
+          "upper": 0.232,
+          "draw_median": 0.1216
+        },
+        "own_price:paneer": {
+          "estimate": -0.8756,
+          "lower": -0.9651,
+          "upper": -0.6758,
+          "draw_median": -0.8283
+        },
+        "own_price:soya": {
+          "estimate": -0.7766,
+          "lower": -0.8192,
+          "upper": -0.6407,
+          "draw_median": -0.7362
+        },
+        "income:chicken": {
+          "estimate": 0.2986,
+          "lower": 0.2792,
+          "upper": 0.3166,
+          "draw_median": 0.2995
+        },
+        "income:pulses": {
+          "estimate": 0.3553,
+          "lower": 0.3375,
+          "upper": 0.3698,
+          "draw_median": 0.3535
+        },
+        "income:milk": {
+          "estimate": 0.5313,
+          "lower": 0.5109,
+          "upper": 0.5488,
+          "draw_median": 0.5293
+        },
+        "income:paneer": {
+          "estimate": 0.3027,
+          "lower": 0.2719,
+          "upper": 0.3254,
+          "draw_median": 0.2998
+        },
+        "income:soya": {
+          "estimate": 0.2451,
+          "lower": 0.2146,
+          "upper": 0.2675,
+          "draw_median": 0.2403
+        },
+        "cross_price:chicken:pulses": {
+          "estimate": 0.1282,
+          "lower": -0.0704,
+          "upper": 0.2577,
+          "draw_median": 0.0925
+        },
+        "cross_price:chicken:milk": {
+          "estimate": -0.4087,
+          "lower": -0.4644,
+          "upper": -0.2553,
+          "draw_median": -0.3549
+        },
+        "cross_price:chicken:paneer": {
+          "estimate": 0.1076,
+          "lower": -0.0572,
+          "upper": 0.1559,
+          "draw_median": 0.0459
+        },
+        "cross_price:chicken:soya": {
+          "estimate": 0.03,
+          "lower": -0.0426,
+          "upper": 0.0613,
+          "draw_median": 0.0105
+        },
+        "cross_price:pulses:chicken": {
+          "estimate": -0.1223,
+          "lower": -0.2063,
+          "upper": 0.0148,
+          "draw_median": -0.0965
+        },
+        "cross_price:pulses:milk": {
+          "estimate": -0.6655,
+          "lower": -0.7454,
+          "upper": -0.5143,
+          "draw_median": -0.6264
+        },
+        "cross_price:pulses:paneer": {
+          "estimate": 0.1666,
+          "lower": -0.0241,
+          "upper": 0.2475,
+          "draw_median": 0.113
+        },
+        "cross_price:pulses:soya": {
+          "estimate": 0.0194,
+          "lower": -0.0337,
+          "upper": 0.0733,
+          "draw_median": 0.0214
+        },
+        "cross_price:milk:chicken": {
+          "estimate": 0.3145,
+          "lower": 0.1075,
+          "upper": 0.3832,
+          "draw_median": 0.2529
+        },
+        "cross_price:milk:pulses": {
+          "estimate": -0.541,
+          "lower": -0.681,
+          "upper": -0.3007,
+          "draw_median": -0.4794
+        },
+        "cross_price:milk:paneer": {
+          "estimate": -0.3649,
+          "lower": -0.3711,
+          "upper": -0.1057,
+          "draw_median": -0.225
+        },
+        "cross_price:milk:soya": {
+          "estimate": 0.0906,
+          "lower": 0.0184,
+          "upper": 0.1514,
+          "draw_median": 0.088
+        },
+        "cross_price:paneer:chicken": {
+          "estimate": 0.0015,
+          "lower": -0.1418,
+          "upper": 0.1616,
+          "draw_median": 0.0075
+        },
+        "cross_price:paneer:pulses": {
+          "estimate": -0.3208,
+          "lower": -0.4999,
+          "upper": -0.0553,
+          "draw_median": -0.2559
+        },
+        "cross_price:paneer:milk": {
+          "estimate": -0.3567,
+          "lower": -0.4966,
+          "upper": -0.2034,
+          "draw_median": -0.3461
+        },
+        "cross_price:paneer:soya": {
+          "estimate": -0.0254,
+          "lower": -0.1,
+          "upper": 0.0355,
+          "draw_median": -0.0299
+        },
+        "cross_price:soya:chicken": {
+          "estimate": -0.204,
+          "lower": -0.351,
+          "upper": -0.0463,
+          "draw_median": -0.2052
+        },
+        "cross_price:soya:pulses": {
+          "estimate": -0.0737,
+          "lower": -0.3445,
+          "upper": 0.223,
+          "draw_median": -0.0806
+        },
+        "cross_price:soya:milk": {
+          "estimate": 0.2257,
+          "lower": 0.0385,
+          "upper": 0.3897,
+          "draw_median": 0.2178
+        },
+        "cross_price:soya:paneer": {
+          "estimate": -0.1806,
+          "lower": -0.3153,
+          "upper": 0.0608,
+          "draw_median": -0.1338
+        }
+      },
+      "interval": "bootstrap percentile 95%",
+      "draws": 500,
+      "failed_draws": 0,
+      "n_households": {
+        "chicken": 85457,
+        "pulses": 188399,
+        "milk": 164083,
+        "paneer": 34687,
+        "soya": 68562
+      },
+      "n_cells_with_price": {
+        "chicken": 1211,
+        "pulses": 1286,
+        "milk": 1266,
+        "paneer": 869,
+        "soya": 1061
+      },
+      "mean_budget_share_purchasers": {
+        "chicken": 0.042515,
+        "pulses": 0.019653,
+        "milk": 0.065655,
+        "paneer": 0.018683,
+        "soya": 0.001914
+      },
+      "min_cell_obs": 5,
+      "variance_method": {
+        "India": "Rao-Wu rescaled PSU bootstrap within official strata (state x sector x stratum); single-PSU strata pooled by state and sector"
+      },
+      "variance_strata_placeholder": false,
+      "design": {
+        "households": 261895,
+        "psus": 14827,
+        "cells": 1289,
+        "resampling_strata": 334,
+        "single_psu_resampling_strata": 22,
+        "placeholder_stratum_households": 0
+      },
+      "runtime_seconds": 41.1
+    },
+    "Pakistan": {
+      "country": "Pakistan",
+      "level": "national",
+      "elasticities": {
+        "own_price:chicken": {
+          "estimate": -0.9762,
+          "lower": -1.0879,
+          "upper": -0.663,
+          "draw_median": -0.8937
+        },
+        "own_price:pulses": {
+          "estimate": -0.1434,
+          "lower": -0.4258,
+          "upper": 0.1206,
+          "draw_median": -0.1724
+        },
+        "own_price:milk": {
+          "estimate": -1.3634,
+          "lower": -1.4757,
+          "upper": -1.1823,
+          "draw_median": -1.326
+        },
+        "income:chicken": {
+          "estimate": 0.5603,
+          "lower": 0.5362,
+          "upper": 0.5887,
+          "draw_median": 0.5616
+        },
+        "income:pulses": {
+          "estimate": 0.3383,
+          "lower": 0.3163,
+          "upper": 0.3654,
+          "draw_median": 0.3403
+        },
+        "income:milk": {
+          "estimate": 0.6773,
+          "lower": 0.6434,
+          "upper": 0.7046,
+          "draw_median": 0.6764
+        },
+        "cross_price:chicken:pulses": {
+          "estimate": -0.1595,
+          "lower": -0.4127,
+          "upper": 0.0514,
+          "draw_median": -0.1811
+        },
+        "cross_price:chicken:milk": {
+          "estimate": 0.2366,
+          "lower": 0.0998,
+          "upper": 0.346,
+          "draw_median": 0.2309
+        },
+        "cross_price:pulses:chicken": {
+          "estimate": 0.8221,
+          "lower": 0.4487,
+          "upper": 0.9395,
+          "draw_median": 0.7065
+        },
+        "cross_price:pulses:milk": {
+          "estimate": 0.6141,
+          "lower": 0.4133,
+          "upper": 0.7783,
+          "draw_median": 0.5843
+        },
+        "cross_price:milk:chicken": {
+          "estimate": -0.2232,
+          "lower": -0.3749,
+          "upper": -0.0051,
+          "draw_median": -0.1735
+        },
+        "cross_price:milk:pulses": {
+          "estimate": -0.0586,
+          "lower": -0.3037,
+          "upper": 0.1089,
+          "draw_median": -0.0808
+        }
+      },
+      "interval": "bootstrap percentile 95%",
+      "draws": 500,
+      "failed_draws": 0,
+      "n_households": {
+        "chicken": 22610,
+        "pulses": 28237,
+        "milk": 28141
+      },
+      "n_cells_with_price": {
+        "chicken": 158,
+        "pulses": 158,
+        "milk": 145
+      },
+      "mean_budget_share_purchasers": {
+        "chicken": 0.023857,
+        "pulses": 0.009154,
+        "milk": 0.102046
+      },
+      "min_cell_obs": 5,
+      "variance_method": {
+        "Pakistan": "Rao-Wu rescaled PSU bootstrap within province; official sampling strata unresolved, so placeholder strata are not used for resampling"
+      },
+      "variance_strata_placeholder": true,
+      "design": {
+        "households": 30123,
+        "psus": 2153,
+        "cells": 158,
+        "resampling_strata": 4,
+        "single_psu_resampling_strata": 0,
+        "placeholder_stratum_households": 30123
+      },
+      "runtime_seconds": 4.2
+    }
+  }
+}

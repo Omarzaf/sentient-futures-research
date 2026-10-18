@@ -802,6 +802,11 @@
       "sha256": "f0f8c7d8efaf5562ea0967d7ad463b7c979e58039889f10adcdcb48b7061802f"
     },
     {
+      "path": "research/household-demand/elasticities.py",
+      "bytes": 24343,
+      "sha256": "d67794abc77a3f53fb6f447b2062f07a9002de3e1e462c10ee842593571159c5"
+    },
+    {
       "path": "research/household-demand/households_india.py",
       "bytes": 23242,
       "sha256": "075a11a3af7223d9e804fd6b5d2f270758ede7a6a91e507c2cb2b8c44d18cb0b"
@@ -835,6 +840,11 @@
       "path": "research/household-demand/outputs/README.md",
       "bytes": 367,
       "sha256": "7c2bc1be79173e8f9e148f218b081dbbf8795eee80bd07360e55cf645b055f51"
+    },
+    {
+      "path": "research/household-demand/outputs/elasticities_national.json",
+      "bytes": 9729,
+      "sha256": "c176836796e1b9966c35bc3d7a0b8443d6302a3aad2e0f323fe2a40073ed84af"
     },
     {
       "path": "research/household-demand/outputs/india_summary.json",
@@ -910,6 +920,11 @@
       "path": "research/household-demand/tests/fixtures/make_hies_mini.py",
       "bytes": 6992,
       "sha256": "3b1866fb08beb7a385d5050775c57ed39bfa3f9cb0fe28d084076eb38e02b2fb"
+    },
+    {
+      "path": "research/household-demand/tests/test_elasticities.py",
+      "bytes": 13024,
+      "sha256": "1f8b0b328ed0be67ff7eb8b0f5f786b081e6929752ed359fb9e7539be613da1a"
     },
     {
       "path": "research/household-demand/tests/test_households_india.py",
