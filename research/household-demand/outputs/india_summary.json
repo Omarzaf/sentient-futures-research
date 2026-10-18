@@ -1,0 +1,2810 @@
+{
+  "status": "DIAGNOSTIC",
+  "source": "HCES 2023-24 unit-level clean parquet, levels 01, 03, 05, 06, 14 and 15",
+  "weight": "third-visit multiplier",
+  "mean_mpce_definition": "person-weighted: sum(w * MPCE * hh_size) / sum(w * hh_size)",
+  "group_mean_definition": "household-weighted means among households reporting the group; reporting_share is the weighted share reporting it; unreported items are not zero-filled",
+  "units": {
+    "chicken": "kg",
+    "mutton": "kg",
+    "beef_buffalo": "kg",
+    "fish": "kg",
+    "pork": "kg",
+    "eggs": "number",
+    "milk": "litre",
+    "paneer": "kg",
+    "pulses": "kg",
+    "soya": "kg",
+    "packaged": "none (value only)",
+    "meals_out": "cooked meals purchased (number, item 280)"
+  },
+  "recall_days": {
+    "chicken": 7,
+    "mutton": 7,
+    "beef_buffalo": 7,
+    "fish": 7,
+    "pork": 7,
+    "eggs": 7,
+    "milk": 7,
+    "paneer": 7,
+    "pulses": 30,
+    "soya": 30,
+    "packaged": 7,
+    "meals_out": 7
+  },
+  "households": 261953,
+  "states": {
+    "1": {
+      "mean_mpce_inr": 5102.4748,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.418382,
+          "mean_value_month_inr_reporting": 1071.2822,
+          "mean_qty_month_reporting": 6.4041,
+          "mean_unit_value_inr": 170.8178
+        },
+        "mutton": {
+          "reporting_share": 0.111304,
+          "mean_value_month_inr_reporting": 2392.4676,
+          "mean_qty_month_reporting": 3.9763,
+          "mean_unit_value_inr": 613.8231
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.227948,
+          "mean_value_month_inr_reporting": 1469.5965,
+          "mean_qty_month_reporting": 4.6235,
+          "mean_unit_value_inr": 322.5213
+        },
+        "fish": {
+          "reporting_share": 0.058176,
+          "mean_value_month_inr_reporting": 1980.3394,
+          "mean_qty_month_reporting": 4.2294,
+          "mean_unit_value_inr": 468.1437
+        },
+        "pork": {
+          "reporting_share": 0.001086,
+          "mean_value_month_inr_reporting": 535.7143,
+          "mean_qty_month_reporting": 1.0714,
+          "mean_unit_value_inr": 500.0
+        },
+        "eggs": {
+          "reporting_share": 0.513445,
+          "mean_value_month_inr_reporting": 277.8535,
+          "mean_qty_month_reporting": 40.6159,
+          "mean_unit_value_inr": 6.9536
+        },
+        "milk": {
+          "reporting_share": 0.99574,
+          "mean_value_month_inr_reporting": 2277.1608,
+          "mean_qty_month_reporting": 47.7201,
+          "mean_unit_value_inr": 48.6562
+        },
+        "paneer": {
+          "reporting_share": 0.342378,
+          "mean_value_month_inr_reporting": 745.5634,
+          "mean_qty_month_reporting": 2.7133,
+          "mean_unit_value_inr": 278.0811
+        },
+        "pulses": {
+          "reporting_share": 0.99519,
+          "mean_value_month_inr_reporting": 376.8682,
+          "mean_qty_month_reporting": 3.2436,
+          "mean_unit_value_inr": 116.0272
+        },
+        "soya": {
+          "reporting_share": 0.338935,
+          "mean_value_month_inr_reporting": 51.2006,
+          "mean_qty_month_reporting": 0.4497,
+          "mean_unit_value_inr": 115.1256
+        },
+        "packaged": {
+          "reporting_share": 0.984713,
+          "mean_value_month_inr_reporting": 867.2614,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.732665,
+          "mean_value_month_inr_reporting": 708.7727,
+          "mean_qty_month_reporting": 11.844,
+          "mean_unit_value_inr": 102.3996
+        }
+      }
+    },
+    "2": {
+      "mean_mpce_inr": 6167.5904,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.265708,
+          "mean_value_month_inr_reporting": 831.8191,
+          "mean_qty_month_reporting": 3.6777,
+          "mean_unit_value_inr": 229.4984
+        },
+        "mutton": {
+          "reporting_share": 0.093651,
+          "mean_value_month_inr_reporting": 2017.9679,
+          "mean_qty_month_reporting": 4.0883,
+          "mean_unit_value_inr": 498.2533
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.014641,
+          "mean_value_month_inr_reporting": 742.4883,
+          "mean_qty_month_reporting": 3.4678,
+          "mean_unit_value_inr": 238.7108
+        },
+        "pork": {
+          "reporting_share": 0.000508,
+          "mean_value_month_inr_reporting": 1285.7143,
+          "mean_qty_month_reporting": 4.2857,
+          "mean_unit_value_inr": 300.0
+        },
+        "eggs": {
+          "reporting_share": 0.315361,
+          "mean_value_month_inr_reporting": 264.3521,
+          "mean_qty_month_reporting": 34.8993,
+          "mean_unit_value_inr": 7.5501
+        },
+        "milk": {
+          "reporting_share": 0.972857,
+          "mean_value_month_inr_reporting": 1879.1761,
+          "mean_qty_month_reporting": 38.5396,
+          "mean_unit_value_inr": 49.765
+        },
+        "paneer": {
+          "reporting_share": 0.174881,
+          "mean_value_month_inr_reporting": 511.4352,
+          "mean_qty_month_reporting": 1.5311,
+          "mean_unit_value_inr": 347.6655
+        },
+        "pulses": {
+          "reporting_share": 0.973072,
+          "mean_value_month_inr_reporting": 448.3427,
+          "mean_qty_month_reporting": 4.7932,
+          "mean_unit_value_inr": 93.9972
+        },
+        "soya": {
+          "reporting_share": 0.476799,
+          "mean_value_month_inr_reporting": 53.538,
+          "mean_qty_month_reporting": 0.3656,
+          "mean_unit_value_inr": 156.2736
+        },
+        "packaged": {
+          "reporting_share": 0.976912,
+          "mean_value_month_inr_reporting": 774.0028,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.884329,
+          "mean_value_month_inr_reporting": 832.7902,
+          "mean_qty_month_reporting": 38.3295,
+          "mean_unit_value_inr": 90.4037
+        }
+      }
+    },
+    "3": {
+      "mean_mpce_inr": 6411.1434,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.243923,
+          "mean_value_month_inr_reporting": 753.3306,
+          "mean_qty_month_reporting": 3.5951,
+          "mean_unit_value_inr": 210.1932
+        },
+        "mutton": {
+          "reporting_share": 0.006608,
+          "mean_value_month_inr_reporting": 1651.5463,
+          "mean_qty_month_reporting": 2.933,
+          "mean_unit_value_inr": 579.5736
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.014423,
+          "mean_value_month_inr_reporting": 912.5875,
+          "mean_qty_month_reporting": 2.9333,
+          "mean_unit_value_inr": 337.8763
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.341363,
+          "mean_value_month_inr_reporting": 255.6256,
+          "mean_qty_month_reporting": 36.2966,
+          "mean_unit_value_inr": 7.1208
+        },
+        "milk": {
+          "reporting_share": 0.990062,
+          "mean_value_month_inr_reporting": 2802.1197,
+          "mean_qty_month_reporting": 47.4429,
+          "mean_unit_value_inr": 59.3134
+        },
+        "paneer": {
+          "reporting_share": 0.249599,
+          "mean_value_month_inr_reporting": 503.045,
+          "mean_qty_month_reporting": 1.4933,
+          "mean_unit_value_inr": 339.9121
+        },
+        "pulses": {
+          "reporting_share": 0.99095,
+          "mean_value_month_inr_reporting": 385.0164,
+          "mean_qty_month_reporting": 3.5799,
+          "mean_unit_value_inr": 107.4908
+        },
+        "soya": {
+          "reporting_share": 0.366527,
+          "mean_value_month_inr_reporting": 45.3129,
+          "mean_qty_month_reporting": 0.3664,
+          "mean_unit_value_inr": 128.7476
+        },
+        "packaged": {
+          "reporting_share": 0.992118,
+          "mean_value_month_inr_reporting": 783.1831,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.84764,
+          "mean_value_month_inr_reporting": 1627.9894,
+          "mean_qty_month_reporting": 11.797,
+          "mean_unit_value_inr": 76.9379
+        }
+      }
+    },
+    "4": {
+      "mean_mpce_inr": 13208.6187,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.553722,
+          "mean_value_month_inr_reporting": 1096.9155,
+          "mean_qty_month_reporting": 5.1396,
+          "mean_unit_value_inr": 215.8638
+        },
+        "mutton": {
+          "reporting_share": 0.006228,
+          "mean_value_month_inr_reporting": 2176.8481,
+          "mean_qty_month_reporting": 3.6281,
+          "mean_unit_value_inr": 600.0
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.0525,
+          "mean_value_month_inr_reporting": 745.6803,
+          "mean_qty_month_reporting": 3.9841,
+          "mean_unit_value_inr": 197.1693
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.522476,
+          "mean_value_month_inr_reporting": 232.7184,
+          "mean_qty_month_reporting": 36.3061,
+          "mean_unit_value_inr": 6.4523
+        },
+        "milk": {
+          "reporting_share": 0.995576,
+          "mean_value_month_inr_reporting": 3228.825,
+          "mean_qty_month_reporting": 52.2102,
+          "mean_unit_value_inr": 61.8929
+        },
+        "paneer": {
+          "reporting_share": 0.483001,
+          "mean_value_month_inr_reporting": 469.5378,
+          "mean_qty_month_reporting": 1.408,
+          "mean_unit_value_inr": 338.7591
+        },
+        "pulses": {
+          "reporting_share": 0.98462,
+          "mean_value_month_inr_reporting": 449.5176,
+          "mean_qty_month_reporting": 3.5601,
+          "mean_unit_value_inr": 127.462
+        },
+        "soya": {
+          "reporting_share": 0.215164,
+          "mean_value_month_inr_reporting": 63.1217,
+          "mean_qty_month_reporting": 0.3928,
+          "mean_unit_value_inr": 165.9834
+        },
+        "packaged": {
+          "reporting_share": 1.0,
+          "mean_value_month_inr_reporting": 1512.7525,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.999732,
+          "mean_value_month_inr_reporting": 3190.2358,
+          "mean_qty_month_reporting": 16.4916,
+          "mean_unit_value_inr": 174.2453
+        }
+      }
+    },
+    "5": {
+      "mean_mpce_inr": 5655.0908,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.320588,
+          "mean_value_month_inr_reporting": 884.297,
+          "mean_qty_month_reporting": 3.9146,
+          "mean_unit_value_inr": 225.7631
+        },
+        "mutton": {
+          "reporting_share": 0.031054,
+          "mean_value_month_inr_reporting": 1792.2973,
+          "mean_qty_month_reporting": 3.1802,
+          "mean_unit_value_inr": 564.6956
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.016961,
+          "mean_value_month_inr_reporting": 1165.3409,
+          "mean_qty_month_reporting": 5.223,
+          "mean_unit_value_inr": 226.5293
+        },
+        "fish": {
+          "reporting_share": 0.088932,
+          "mean_value_month_inr_reporting": 695.476,
+          "mean_qty_month_reporting": 3.8341,
+          "mean_unit_value_inr": 182.3797
+        },
+        "pork": {
+          "reporting_share": 0.000567,
+          "mean_value_month_inr_reporting": 1500.0,
+          "mean_qty_month_reporting": 4.2857,
+          "mean_unit_value_inr": 350.0
+        },
+        "eggs": {
+          "reporting_share": 0.426038,
+          "mean_value_month_inr_reporting": 209.1408,
+          "mean_qty_month_reporting": 30.6583,
+          "mean_unit_value_inr": 6.8366
+        },
+        "milk": {
+          "reporting_share": 0.981741,
+          "mean_value_month_inr_reporting": 1633.6437,
+          "mean_qty_month_reporting": 32.3337,
+          "mean_unit_value_inr": 51.5208
+        },
+        "paneer": {
+          "reporting_share": 0.233266,
+          "mean_value_month_inr_reporting": 495.2144,
+          "mean_qty_month_reporting": 1.3537,
+          "mean_unit_value_inr": 366.953
+        },
+        "pulses": {
+          "reporting_share": 0.989882,
+          "mean_value_month_inr_reporting": 466.397,
+          "mean_qty_month_reporting": 3.8454,
+          "mean_unit_value_inr": 121.9167
+        },
+        "soya": {
+          "reporting_share": 0.542374,
+          "mean_value_month_inr_reporting": 37.7149,
+          "mean_qty_month_reporting": 0.3376,
+          "mean_unit_value_inr": 114.0757
+        },
+        "packaged": {
+          "reporting_share": 0.9864,
+          "mean_value_month_inr_reporting": 688.5359,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.853661,
+          "mean_value_month_inr_reporting": 1056.4572,
+          "mean_qty_month_reporting": 15.6449,
+          "mean_unit_value_inr": 89.1324
+        }
+      }
+    },
+    "6": {
+      "mean_mpce_inr": 6509.9203,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.151542,
+          "mean_value_month_inr_reporting": 889.0349,
+          "mean_qty_month_reporting": 3.5148,
+          "mean_unit_value_inr": 261.2809
+        },
+        "mutton": {
+          "reporting_share": 0.006372,
+          "mean_value_month_inr_reporting": 1821.7557,
+          "mean_qty_month_reporting": 3.1853,
+          "mean_unit_value_inr": 579.4799
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.014689,
+          "mean_value_month_inr_reporting": 776.2654,
+          "mean_qty_month_reporting": 3.2739,
+          "mean_unit_value_inr": 243.8897
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.380042,
+          "mean_value_month_inr_reporting": 312.8562,
+          "mean_qty_month_reporting": 37.3946,
+          "mean_unit_value_inr": 8.4059
+        },
+        "milk": {
+          "reporting_share": 0.996277,
+          "mean_value_month_inr_reporting": 3701.3857,
+          "mean_qty_month_reporting": 58.5112,
+          "mean_unit_value_inr": 64.121
+        },
+        "paneer": {
+          "reporting_share": 0.200445,
+          "mean_value_month_inr_reporting": 478.5468,
+          "mean_qty_month_reporting": 1.4131,
+          "mean_unit_value_inr": 346.2001
+        },
+        "pulses": {
+          "reporting_share": 0.989576,
+          "mean_value_month_inr_reporting": 338.7211,
+          "mean_qty_month_reporting": 3.0678,
+          "mean_unit_value_inr": 110.738
+        },
+        "soya": {
+          "reporting_share": 0.32448,
+          "mean_value_month_inr_reporting": 35.0229,
+          "mean_qty_month_reporting": 0.2809,
+          "mean_unit_value_inr": 131.2805
+        },
+        "packaged": {
+          "reporting_share": 0.994636,
+          "mean_value_month_inr_reporting": 826.6563,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.884804,
+          "mean_value_month_inr_reporting": 689.0503,
+          "mean_qty_month_reporting": 10.1581,
+          "mean_unit_value_inr": 116.9367
+        }
+      }
+    },
+    "7": {
+      "mean_mpce_inr": 8505.5505,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.408305,
+          "mean_value_month_inr_reporting": 718.3005,
+          "mean_qty_month_reporting": 3.2958,
+          "mean_unit_value_inr": 226.0921
+        },
+        "mutton": {
+          "reporting_share": 0.027337,
+          "mean_value_month_inr_reporting": 1888.7957,
+          "mean_qty_month_reporting": 3.1569,
+          "mean_unit_value_inr": 633.8861
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.018588,
+          "mean_value_month_inr_reporting": 1279.4706,
+          "mean_qty_month_reporting": 5.4314,
+          "mean_unit_value_inr": 242.4423
+        },
+        "fish": {
+          "reporting_share": 0.03534,
+          "mean_value_month_inr_reporting": 726.8832,
+          "mean_qty_month_reporting": 3.6636,
+          "mean_unit_value_inr": 209.3383
+        },
+        "pork": {
+          "reporting_share": 0.000526,
+          "mean_value_month_inr_reporting": 1028.5714,
+          "mean_qty_month_reporting": 2.1429,
+          "mean_unit_value_inr": 480.0
+        },
+        "eggs": {
+          "reporting_share": 0.675138,
+          "mean_value_month_inr_reporting": 253.8779,
+          "mean_qty_month_reporting": 35.3179,
+          "mean_unit_value_inr": 7.2166
+        },
+        "milk": {
+          "reporting_share": 0.974928,
+          "mean_value_month_inr_reporting": 2378.1267,
+          "mean_qty_month_reporting": 37.5197,
+          "mean_unit_value_inr": 63.6074
+        },
+        "paneer": {
+          "reporting_share": 0.74188,
+          "mean_value_month_inr_reporting": 533.6388,
+          "mean_qty_month_reporting": 1.7188,
+          "mean_unit_value_inr": 314.1286
+        },
+        "pulses": {
+          "reporting_share": 0.978438,
+          "mean_value_month_inr_reporting": 408.1324,
+          "mean_qty_month_reporting": 3.1547,
+          "mean_unit_value_inr": 129.9888
+        },
+        "soya": {
+          "reporting_share": 0.490204,
+          "mean_value_month_inr_reporting": 39.8554,
+          "mean_qty_month_reporting": 0.2623,
+          "mean_unit_value_inr": 189.3986
+        },
+        "packaged": {
+          "reporting_share": 0.999779,
+          "mean_value_month_inr_reporting": 1442.3429,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.980697,
+          "mean_value_month_inr_reporting": 1491.9343,
+          "mean_qty_month_reporting": 13.0067,
+          "mean_unit_value_inr": 139.2053
+        }
+      }
+    },
+    "8": {
+      "mean_mpce_inr": 5026.0955,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.080337,
+          "mean_value_month_inr_reporting": 914.0234,
+          "mean_qty_month_reporting": 3.9028,
+          "mean_unit_value_inr": 240.8795
+        },
+        "mutton": {
+          "reporting_share": 0.041292,
+          "mean_value_month_inr_reporting": 3474.9096,
+          "mean_qty_month_reporting": 5.4425,
+          "mean_unit_value_inr": 630.2588
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.00466,
+          "mean_value_month_inr_reporting": 1000.1645,
+          "mean_qty_month_reporting": 3.8666,
+          "mean_unit_value_inr": 286.4928
+        },
+        "fish": {
+          "reporting_share": 0.008747,
+          "mean_value_month_inr_reporting": 853.3468,
+          "mean_qty_month_reporting": 3.8817,
+          "mean_unit_value_inr": 219.5729
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.112318,
+          "mean_value_month_inr_reporting": 322.1918,
+          "mean_qty_month_reporting": 41.3534,
+          "mean_unit_value_inr": 7.9226
+        },
+        "milk": {
+          "reporting_share": 0.969979,
+          "mean_value_month_inr_reporting": 2672.6152,
+          "mean_qty_month_reporting": 52.8893,
+          "mean_unit_value_inr": 51.3553
+        },
+        "paneer": {
+          "reporting_share": 0.057127,
+          "mean_value_month_inr_reporting": 489.5454,
+          "mean_qty_month_reporting": 1.5118,
+          "mean_unit_value_inr": 333.8361
+        },
+        "pulses": {
+          "reporting_share": 0.977022,
+          "mean_value_month_inr_reporting": 226.4022,
+          "mean_qty_month_reporting": 2.2174,
+          "mean_unit_value_inr": 103.8098
+        },
+        "soya": {
+          "reporting_share": 0.099374,
+          "mean_value_month_inr_reporting": 38.9334,
+          "mean_qty_month_reporting": 0.3779,
+          "mean_unit_value_inr": 109.5408
+        },
+        "packaged": {
+          "reporting_share": 0.944228,
+          "mean_value_month_inr_reporting": 626.3154,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.678741,
+          "mean_value_month_inr_reporting": 1288.9772,
+          "mean_qty_month_reporting": 39.4402,
+          "mean_unit_value_inr": 102.752
+        }
+      }
+    },
+    "9": {
+      "mean_mpce_inr": 3883.0573,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.331705,
+          "mean_value_month_inr_reporting": 830.3274,
+          "mean_qty_month_reporting": 4.1738,
+          "mean_unit_value_inr": 202.1407
+        },
+        "mutton": {
+          "reporting_share": 0.02781,
+          "mean_value_month_inr_reporting": 2276.0666,
+          "mean_qty_month_reporting": 3.9705,
+          "mean_unit_value_inr": 574.3079
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.029725,
+          "mean_value_month_inr_reporting": 1023.0742,
+          "mean_qty_month_reporting": 4.3799,
+          "mean_unit_value_inr": 237.5995
+        },
+        "fish": {
+          "reporting_share": 0.106855,
+          "mean_value_month_inr_reporting": 721.3905,
+          "mean_qty_month_reporting": 4.1789,
+          "mean_unit_value_inr": 176.1889
+        },
+        "pork": {
+          "reporting_share": 0.000627,
+          "mean_value_month_inr_reporting": 869.1358,
+          "mean_qty_month_reporting": 3.1577,
+          "mean_unit_value_inr": 281.7453
+        },
+        "eggs": {
+          "reporting_share": 0.403559,
+          "mean_value_month_inr_reporting": 272.058,
+          "mean_qty_month_reporting": 36.8177,
+          "mean_unit_value_inr": 7.4114
+        },
+        "milk": {
+          "reporting_share": 0.97345,
+          "mean_value_month_inr_reporting": 1622.5748,
+          "mean_qty_month_reporting": 30.7637,
+          "mean_unit_value_inr": 52.7409
+        },
+        "paneer": {
+          "reporting_share": 0.199488,
+          "mean_value_month_inr_reporting": 536.7808,
+          "mean_qty_month_reporting": 1.8079,
+          "mean_unit_value_inr": 298.9903
+        },
+        "pulses": {
+          "reporting_share": 0.994989,
+          "mean_value_month_inr_reporting": 426.6472,
+          "mean_qty_month_reporting": 3.5748,
+          "mean_unit_value_inr": 120.2183
+        },
+        "soya": {
+          "reporting_share": 0.343022,
+          "mean_value_month_inr_reporting": 27.4246,
+          "mean_qty_month_reporting": 0.2426,
+          "mean_unit_value_inr": 122.2619
+        },
+        "packaged": {
+          "reporting_share": 0.998674,
+          "mean_value_month_inr_reporting": 706.6367,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.94987,
+          "mean_value_month_inr_reporting": 525.3537,
+          "mean_qty_month_reporting": 16.0012,
+          "mean_unit_value_inr": 132.3607
+        }
+      }
+    },
+    "10": {
+      "mean_mpce_inr": 3804.9178,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.513355,
+          "mean_value_month_inr_reporting": 849.969,
+          "mean_qty_month_reporting": 4.5275,
+          "mean_unit_value_inr": 190.4085
+        },
+        "mutton": {
+          "reporting_share": 0.063286,
+          "mean_value_month_inr_reporting": 2844.0062,
+          "mean_qty_month_reporting": 4.5831,
+          "mean_unit_value_inr": 622.492
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.008939,
+          "mean_value_month_inr_reporting": 1013.9282,
+          "mean_qty_month_reporting": 5.4554,
+          "mean_unit_value_inr": 186.189
+        },
+        "fish": {
+          "reporting_share": 0.343239,
+          "mean_value_month_inr_reporting": 899.158,
+          "mean_qty_month_reporting": 4.3097,
+          "mean_unit_value_inr": 212.3597
+        },
+        "pork": {
+          "reporting_share": 2.2e-05,
+          "mean_value_month_inr_reporting": 1071.4286,
+          "mean_qty_month_reporting": 8.5714,
+          "mean_unit_value_inr": 125.0
+        },
+        "eggs": {
+          "reporting_share": 0.31328,
+          "mean_value_month_inr_reporting": 289.6794,
+          "mean_qty_month_reporting": 37.2597,
+          "mean_unit_value_inr": 7.8611
+        },
+        "milk": {
+          "reporting_share": 0.977445,
+          "mean_value_month_inr_reporting": 1327.394,
+          "mean_qty_month_reporting": 27.6811,
+          "mean_unit_value_inr": 48.0779
+        },
+        "paneer": {
+          "reporting_share": 0.224792,
+          "mean_value_month_inr_reporting": 458.9495,
+          "mean_qty_month_reporting": 1.251,
+          "mean_unit_value_inr": 377.8718
+        },
+        "pulses": {
+          "reporting_share": 0.998788,
+          "mean_value_month_inr_reporting": 392.1954,
+          "mean_qty_month_reporting": 3.8456,
+          "mean_unit_value_inr": 102.5754
+        },
+        "soya": {
+          "reporting_share": 0.320228,
+          "mean_value_month_inr_reporting": 25.4036,
+          "mean_qty_month_reporting": 0.2109,
+          "mean_unit_value_inr": 125.6291
+        },
+        "packaged": {
+          "reporting_share": 0.987876,
+          "mean_value_month_inr_reporting": 630.6552,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.957754,
+          "mean_value_month_inr_reporting": 541.4104,
+          "mean_qty_month_reporting": 23.3727,
+          "mean_unit_value_inr": 76.0626
+        }
+      }
+    },
+    "11": {
+      "mean_mpce_inr": 10523.7102,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.631523,
+          "mean_value_month_inr_reporting": 1431.6095,
+          "mean_qty_month_reporting": 4.6288,
+          "mean_unit_value_inr": 304.5787
+        },
+        "mutton": {
+          "reporting_share": 0.108755,
+          "mean_value_month_inr_reporting": 2760.5609,
+          "mean_qty_month_reporting": 3.9562,
+          "mean_unit_value_inr": 713.2287
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.242229,
+          "mean_value_month_inr_reporting": 1372.2811,
+          "mean_qty_month_reporting": 4.4996,
+          "mean_unit_value_inr": 304.9564
+        },
+        "fish": {
+          "reporting_share": 0.271165,
+          "mean_value_month_inr_reporting": 886.204,
+          "mean_qty_month_reporting": 3.7,
+          "mean_unit_value_inr": 244.8288
+        },
+        "pork": {
+          "reporting_share": 0.230311,
+          "mean_value_month_inr_reporting": 1351.7937,
+          "mean_qty_month_reporting": 4.4241,
+          "mean_unit_value_inr": 307.5721
+        },
+        "eggs": {
+          "reporting_share": 0.60616,
+          "mean_value_month_inr_reporting": 299.0087,
+          "mean_qty_month_reporting": 28.8427,
+          "mean_unit_value_inr": 10.7275
+        },
+        "milk": {
+          "reporting_share": 0.968306,
+          "mean_value_month_inr_reporting": 1712.3938,
+          "mean_qty_month_reporting": 28.1338,
+          "mean_unit_value_inr": 61.4464
+        },
+        "paneer": {
+          "reporting_share": 0.209692,
+          "mean_value_month_inr_reporting": 1075.6601,
+          "mean_qty_month_reporting": 2.5888,
+          "mean_unit_value_inr": 430.2699
+        },
+        "pulses": {
+          "reporting_share": 0.975842,
+          "mean_value_month_inr_reporting": 394.5358,
+          "mean_qty_month_reporting": 2.9991,
+          "mean_unit_value_inr": 131.2783
+        },
+        "soya": {
+          "reporting_share": 0.535314,
+          "mean_value_month_inr_reporting": 33.3849,
+          "mean_qty_month_reporting": 0.2248,
+          "mean_unit_value_inr": 163.6793
+        },
+        "packaged": {
+          "reporting_share": 0.998997,
+          "mean_value_month_inr_reporting": 2363.3691,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.928218,
+          "mean_value_month_inr_reporting": 2987.763,
+          "mean_qty_month_reporting": 16.9211,
+          "mean_unit_value_inr": 186.6976
+        }
+      }
+    },
+    "12": {
+      "mean_mpce_inr": 6647.09,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.651537,
+          "mean_value_month_inr_reporting": 1458.5293,
+          "mean_qty_month_reporting": 4.7427,
+          "mean_unit_value_inr": 306.5048
+        },
+        "mutton": {
+          "reporting_share": 0.067828,
+          "mean_value_month_inr_reporting": 2220.9375,
+          "mean_qty_month_reporting": 3.6568,
+          "mean_unit_value_inr": 607.6146
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.182648,
+          "mean_value_month_inr_reporting": 1594.7228,
+          "mean_qty_month_reporting": 4.9128,
+          "mean_unit_value_inr": 325.8137
+        },
+        "fish": {
+          "reporting_share": 0.442026,
+          "mean_value_month_inr_reporting": 1044.4011,
+          "mean_qty_month_reporting": 4.1283,
+          "mean_unit_value_inr": 255.4534
+        },
+        "pork": {
+          "reporting_share": 0.3898,
+          "mean_value_month_inr_reporting": 1914.6434,
+          "mean_qty_month_reporting": 4.555,
+          "mean_unit_value_inr": 408.2345
+        },
+        "eggs": {
+          "reporting_share": 0.720394,
+          "mean_value_month_inr_reporting": 338.1986,
+          "mean_qty_month_reporting": 40.446,
+          "mean_unit_value_inr": 8.4538
+        },
+        "milk": {
+          "reporting_share": 0.724313,
+          "mean_value_month_inr_reporting": 578.1626,
+          "mean_qty_month_reporting": 8.4522,
+          "mean_unit_value_inr": 69.694
+        },
+        "paneer": {
+          "reporting_share": 0.131638,
+          "mean_value_month_inr_reporting": 535.162,
+          "mean_qty_month_reporting": 1.3895,
+          "mean_unit_value_inr": 390.9229
+        },
+        "pulses": {
+          "reporting_share": 0.996107,
+          "mean_value_month_inr_reporting": 281.3757,
+          "mean_qty_month_reporting": 2.4995,
+          "mean_unit_value_inr": 113.4566
+        },
+        "soya": {
+          "reporting_share": 0.366647,
+          "mean_value_month_inr_reporting": 51.5414,
+          "mean_qty_month_reporting": 0.332,
+          "mean_unit_value_inr": 167.9112
+        },
+        "packaged": {
+          "reporting_share": 1.0,
+          "mean_value_month_inr_reporting": 1676.3622,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.951879,
+          "mean_value_month_inr_reporting": 1628.3538,
+          "mean_qty_month_reporting": 11.169,
+          "mean_unit_value_inr": 204.8405
+        }
+      }
+    },
+    "13": {
+      "mean_mpce_inr": 5926.4714,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.482521,
+          "mean_value_month_inr_reporting": 1451.1591,
+          "mean_qty_month_reporting": 5.6517,
+          "mean_unit_value_inr": 265.3328
+        },
+        "mutton": {
+          "reporting_share": 0.018917,
+          "mean_value_month_inr_reporting": 1864.0618,
+          "mean_qty_month_reporting": 3.6541,
+          "mean_unit_value_inr": 518.3366
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.257299,
+          "mean_value_month_inr_reporting": 1598.6514,
+          "mean_qty_month_reporting": 5.7593,
+          "mean_unit_value_inr": 285.8683
+        },
+        "fish": {
+          "reporting_share": 0.476491,
+          "mean_value_month_inr_reporting": 1040.2117,
+          "mean_qty_month_reporting": 4.7617,
+          "mean_unit_value_inr": 236.6663
+        },
+        "pork": {
+          "reporting_share": 0.654698,
+          "mean_value_month_inr_reporting": 2695.7939,
+          "mean_qty_month_reporting": 8.9313,
+          "mean_unit_value_inr": 309.2861
+        },
+        "eggs": {
+          "reporting_share": 0.820144,
+          "mean_value_month_inr_reporting": 333.9223,
+          "mean_qty_month_reporting": 44.9365,
+          "mean_unit_value_inr": 7.5985
+        },
+        "milk": {
+          "reporting_share": 0.072848,
+          "mean_value_month_inr_reporting": 406.9256,
+          "mean_qty_month_reporting": 6.7851,
+          "mean_unit_value_inr": 63.192
+        },
+        "paneer": {
+          "reporting_share": 0.008075,
+          "mean_value_month_inr_reporting": 526.3815,
+          "mean_qty_month_reporting": 1.4356,
+          "mean_unit_value_inr": 350.0518
+        },
+        "pulses": {
+          "reporting_share": 0.994343,
+          "mean_value_month_inr_reporting": 180.0366,
+          "mean_qty_month_reporting": 1.674,
+          "mean_unit_value_inr": 109.8383
+        },
+        "soya": {
+          "reporting_share": 0.269465,
+          "mean_value_month_inr_reporting": 56.9121,
+          "mean_qty_month_reporting": 0.345,
+          "mean_unit_value_inr": 179.8252
+        },
+        "packaged": {
+          "reporting_share": 0.995558,
+          "mean_value_month_inr_reporting": 1356.3538,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.635351,
+          "mean_value_month_inr_reporting": 665.1456,
+          "mean_qty_month_reporting": 17.7937,
+          "mean_unit_value_inr": 137.3116
+        }
+      }
+    },
+    "14": {
+      "mean_mpce_inr": 4876.4167,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.61043,
+          "mean_value_month_inr_reporting": 1233.8232,
+          "mean_qty_month_reporting": 4.8748,
+          "mean_unit_value_inr": 257.3542
+        },
+        "mutton": {
+          "reporting_share": 0.007659,
+          "mean_value_month_inr_reporting": 2443.0511,
+          "mean_qty_month_reporting": 4.5826,
+          "mean_unit_value_inr": 593.2198
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.116942,
+          "mean_value_month_inr_reporting": 1726.2564,
+          "mean_qty_month_reporting": 4.0744,
+          "mean_unit_value_inr": 428.1172
+        },
+        "fish": {
+          "reporting_share": 0.745942,
+          "mean_value_month_inr_reporting": 1031.6978,
+          "mean_qty_month_reporting": 3.5083,
+          "mean_unit_value_inr": 344.0204
+        },
+        "pork": {
+          "reporting_share": 0.190369,
+          "mean_value_month_inr_reporting": 1655.6871,
+          "mean_qty_month_reporting": 4.2038,
+          "mean_unit_value_inr": 397.4827
+        },
+        "eggs": {
+          "reporting_share": 0.727481,
+          "mean_value_month_inr_reporting": 391.3518,
+          "mean_qty_month_reporting": 46.624,
+          "mean_unit_value_inr": 8.5059
+        },
+        "milk": {
+          "reporting_share": 0.40622,
+          "mean_value_month_inr_reporting": 437.5768,
+          "mean_qty_month_reporting": 8.1399,
+          "mean_unit_value_inr": 60.4947
+        },
+        "paneer": {
+          "reporting_share": 0.040179,
+          "mean_value_month_inr_reporting": 419.0585,
+          "mean_qty_month_reporting": 1.1284,
+          "mean_unit_value_inr": 405.8419
+        },
+        "pulses": {
+          "reporting_share": 0.984611,
+          "mean_value_month_inr_reporting": 198.7748,
+          "mean_qty_month_reporting": 1.9107,
+          "mean_unit_value_inr": 106.7221
+        },
+        "soya": {
+          "reporting_share": 0.260112,
+          "mean_value_month_inr_reporting": 44.0985,
+          "mean_qty_month_reporting": 0.3472,
+          "mean_unit_value_inr": 148.0722
+        },
+        "packaged": {
+          "reporting_share": 0.993529,
+          "mean_value_month_inr_reporting": 1087.1969,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.810414,
+          "mean_value_month_inr_reporting": 661.9876,
+          "mean_qty_month_reporting": 11.9632,
+          "mean_unit_value_inr": 124.0567
+        }
+      }
+    },
+    "15": {
+      "mean_mpce_inr": 7221.3168,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.526946,
+          "mean_value_month_inr_reporting": 1722.4246,
+          "mean_qty_month_reporting": 5.0887,
+          "mean_unit_value_inr": 337.687
+        },
+        "mutton": {
+          "reporting_share": 0.002369,
+          "mean_value_month_inr_reporting": 2248.9615,
+          "mean_qty_month_reporting": 4.006,
+          "mean_unit_value_inr": 563.9208
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.096243,
+          "mean_value_month_inr_reporting": 2288.8257,
+          "mean_qty_month_reporting": 4.6072,
+          "mean_unit_value_inr": 498.2253
+        },
+        "fish": {
+          "reporting_share": 0.137629,
+          "mean_value_month_inr_reporting": 1165.063,
+          "mean_qty_month_reporting": 4.3076,
+          "mean_unit_value_inr": 269.7284
+        },
+        "pork": {
+          "reporting_share": 0.646615,
+          "mean_value_month_inr_reporting": 2181.618,
+          "mean_qty_month_reporting": 5.4237,
+          "mean_unit_value_inr": 403.3211
+        },
+        "eggs": {
+          "reporting_share": 0.86281,
+          "mean_value_month_inr_reporting": 465.5778,
+          "mean_qty_month_reporting": 55.0472,
+          "mean_unit_value_inr": 8.43
+        },
+        "milk": {
+          "reporting_share": 0.974044,
+          "mean_value_month_inr_reporting": 659.7165,
+          "mean_qty_month_reporting": 8.6172,
+          "mean_unit_value_inr": 78.1786
+        },
+        "paneer": {
+          "reporting_share": 0.022533,
+          "mean_value_month_inr_reporting": 729.2265,
+          "mean_qty_month_reporting": 3.6225,
+          "mean_unit_value_inr": 252.0579
+        },
+        "pulses": {
+          "reporting_share": 0.999564,
+          "mean_value_month_inr_reporting": 190.0053,
+          "mean_qty_month_reporting": 1.6943,
+          "mean_unit_value_inr": 112.1828
+        },
+        "soya": {
+          "reporting_share": 0.128618,
+          "mean_value_month_inr_reporting": 51.4262,
+          "mean_qty_month_reporting": 0.8257,
+          "mean_unit_value_inr": 104.9489
+        },
+        "packaged": {
+          "reporting_share": 0.995579,
+          "mean_value_month_inr_reporting": 1908.2361,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.869471,
+          "mean_value_month_inr_reporting": 1605.2078,
+          "mean_qty_month_reporting": 37.6037,
+          "mean_unit_value_inr": 97.8164
+        }
+      }
+    },
+    "16": {
+      "mean_mpce_inr": 6581.2577,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.687568,
+          "mean_value_month_inr_reporting": 1122.3507,
+          "mean_qty_month_reporting": 4.3272,
+          "mean_unit_value_inr": 263.2945
+        },
+        "mutton": {
+          "reporting_share": 0.030501,
+          "mean_value_month_inr_reporting": 2579.2592,
+          "mean_qty_month_reporting": 3.0936,
+          "mean_unit_value_inr": 860.4253
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.016906,
+          "mean_value_month_inr_reporting": 1624.7699,
+          "mean_qty_month_reporting": 3.2905,
+          "mean_unit_value_inr": 494.3823
+        },
+        "fish": {
+          "reporting_share": 0.928348,
+          "mean_value_month_inr_reporting": 1573.9519,
+          "mean_qty_month_reporting": 5.5066,
+          "mean_unit_value_inr": 299.2675
+        },
+        "pork": {
+          "reporting_share": 0.2201,
+          "mean_value_month_inr_reporting": 1422.3472,
+          "mean_qty_month_reporting": 3.4711,
+          "mean_unit_value_inr": 411.12
+        },
+        "eggs": {
+          "reporting_share": 0.87606,
+          "mean_value_month_inr_reporting": 246.6175,
+          "mean_qty_month_reporting": 30.5961,
+          "mean_unit_value_inr": 8.0731
+        },
+        "milk": {
+          "reporting_share": 0.567774,
+          "mean_value_month_inr_reporting": 711.4367,
+          "mean_qty_month_reporting": 11.0215,
+          "mean_unit_value_inr": 65.3684
+        },
+        "paneer": {
+          "reporting_share": 0.307336,
+          "mean_value_month_inr_reporting": 426.1401,
+          "mean_qty_month_reporting": 1.1765,
+          "mean_unit_value_inr": 367.7186
+        },
+        "pulses": {
+          "reporting_share": 0.99948,
+          "mean_value_month_inr_reporting": 194.4327,
+          "mean_qty_month_reporting": 1.9462,
+          "mean_unit_value_inr": 98.8062
+        },
+        "soya": {
+          "reporting_share": 0.69638,
+          "mean_value_month_inr_reporting": 35.9654,
+          "mean_qty_month_reporting": 0.2836,
+          "mean_unit_value_inr": 141.807
+        },
+        "packaged": {
+          "reporting_share": 0.998692,
+          "mean_value_month_inr_reporting": 889.8921,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.974168,
+          "mean_value_month_inr_reporting": 640.6392,
+          "mean_qty_month_reporting": 11.7142,
+          "mean_unit_value_inr": 136.381
+        }
+      }
+    },
+    "17": {
+      "mean_mpce_inr": 4403.6187,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.591496,
+          "mean_value_month_inr_reporting": 1155.9574,
+          "mean_qty_month_reporting": 3.7082,
+          "mean_unit_value_inr": 312.9087
+        },
+        "mutton": {
+          "reporting_share": 0.016737,
+          "mean_value_month_inr_reporting": 1882.9335,
+          "mean_qty_month_reporting": 2.8,
+          "mean_unit_value_inr": 672.8493
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.174068,
+          "mean_value_month_inr_reporting": 1788.7973,
+          "mean_qty_month_reporting": 3.7248,
+          "mean_unit_value_inr": 483.3389
+        },
+        "fish": {
+          "reporting_share": 0.711072,
+          "mean_value_month_inr_reporting": 923.4661,
+          "mean_qty_month_reporting": 3.5437,
+          "mean_unit_value_inr": 274.9408
+        },
+        "pork": {
+          "reporting_share": 0.513217,
+          "mean_value_month_inr_reporting": 1377.0634,
+          "mean_qty_month_reporting": 3.5255,
+          "mean_unit_value_inr": 399.828
+        },
+        "eggs": {
+          "reporting_share": 0.694793,
+          "mean_value_month_inr_reporting": 350.3371,
+          "mean_qty_month_reporting": 44.8574,
+          "mean_unit_value_inr": 7.8289
+        },
+        "milk": {
+          "reporting_share": 0.603351,
+          "mean_value_month_inr_reporting": 709.8675,
+          "mean_qty_month_reporting": 10.4353,
+          "mean_unit_value_inr": 68.7655
+        },
+        "paneer": {
+          "reporting_share": 0.0244,
+          "mean_value_month_inr_reporting": 506.0849,
+          "mean_qty_month_reporting": 1.3459,
+          "mean_unit_value_inr": 406.5781
+        },
+        "pulses": {
+          "reporting_share": 0.995285,
+          "mean_value_month_inr_reporting": 207.0537,
+          "mean_qty_month_reporting": 2.1199,
+          "mean_unit_value_inr": 98.3894
+        },
+        "soya": {
+          "reporting_share": 0.447101,
+          "mean_value_month_inr_reporting": 43.8639,
+          "mean_qty_month_reporting": 0.3952,
+          "mean_unit_value_inr": 118.8803
+        },
+        "packaged": {
+          "reporting_share": 0.994359,
+          "mean_value_month_inr_reporting": 1133.5501,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.774404,
+          "mean_value_month_inr_reporting": 677.7716,
+          "mean_qty_month_reporting": 11.9356,
+          "mean_unit_value_inr": 73.7629
+        }
+      }
+    },
+    "18": {
+      "mean_mpce_inr": 4122.6939,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.644303,
+          "mean_value_month_inr_reporting": 888.5663,
+          "mean_qty_month_reporting": 3.4383,
+          "mean_unit_value_inr": 265.3875
+        },
+        "mutton": {
+          "reporting_share": 0.071829,
+          "mean_value_month_inr_reporting": 1690.0433,
+          "mean_qty_month_reporting": 2.4848,
+          "mean_unit_value_inr": 684.5291
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.057851,
+          "mean_value_month_inr_reporting": 1343.2172,
+          "mean_qty_month_reporting": 3.3612,
+          "mean_unit_value_inr": 405.8689
+        },
+        "fish": {
+          "reporting_share": 0.754315,
+          "mean_value_month_inr_reporting": 841.6902,
+          "mean_qty_month_reporting": 3.5685,
+          "mean_unit_value_inr": 247.5686
+        },
+        "pork": {
+          "reporting_share": 0.106078,
+          "mean_value_month_inr_reporting": 1146.2786,
+          "mean_qty_month_reporting": 2.9955,
+          "mean_unit_value_inr": 386.3665
+        },
+        "eggs": {
+          "reporting_share": 0.837801,
+          "mean_value_month_inr_reporting": 257.0188,
+          "mean_qty_month_reporting": 33.036,
+          "mean_unit_value_inr": 7.8103
+        },
+        "milk": {
+          "reporting_share": 0.770626,
+          "mean_value_month_inr_reporting": 570.8079,
+          "mean_qty_month_reporting": 9.2824,
+          "mean_unit_value_inr": 62.9436
+        },
+        "paneer": {
+          "reporting_share": 0.170381,
+          "mean_value_month_inr_reporting": 491.5326,
+          "mean_qty_month_reporting": 1.2086,
+          "mean_unit_value_inr": 415.6683
+        },
+        "pulses": {
+          "reporting_share": 0.998104,
+          "mean_value_month_inr_reporting": 271.2691,
+          "mean_qty_month_reporting": 2.7493,
+          "mean_unit_value_inr": 99.2195
+        },
+        "soya": {
+          "reporting_share": 0.484795,
+          "mean_value_month_inr_reporting": 37.3287,
+          "mean_qty_month_reporting": 0.2712,
+          "mean_unit_value_inr": 150.2806
+        },
+        "packaged": {
+          "reporting_share": 0.998577,
+          "mean_value_month_inr_reporting": 819.1847,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.876869,
+          "mean_value_month_inr_reporting": 779.7297,
+          "mean_qty_month_reporting": 18.7386,
+          "mean_unit_value_inr": 98.5948
+        }
+      }
+    },
+    "19": {
+      "mean_mpce_inr": 4260.299,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.556146,
+          "mean_value_month_inr_reporting": 759.8932,
+          "mean_qty_month_reporting": 3.6748,
+          "mean_unit_value_inr": 207.132
+        },
+        "mutton": {
+          "reporting_share": 0.058764,
+          "mean_value_month_inr_reporting": 2116.0154,
+          "mean_qty_month_reporting": 3.2405,
+          "mean_unit_value_inr": 683.98
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.116384,
+          "mean_value_month_inr_reporting": 1077.885,
+          "mean_qty_month_reporting": 4.3577,
+          "mean_unit_value_inr": 246.289
+        },
+        "fish": {
+          "reporting_share": 0.850584,
+          "mean_value_month_inr_reporting": 741.7084,
+          "mean_qty_month_reporting": 3.678,
+          "mean_unit_value_inr": 207.1112
+        },
+        "pork": {
+          "reporting_share": 0.012342,
+          "mean_value_month_inr_reporting": 1019.4678,
+          "mean_qty_month_reporting": 3.5421,
+          "mean_unit_value_inr": 289.2027
+        },
+        "eggs": {
+          "reporting_share": 0.838049,
+          "mean_value_month_inr_reporting": 217.3453,
+          "mean_qty_month_reporting": 33.1751,
+          "mean_unit_value_inr": 6.5924
+        },
+        "milk": {
+          "reporting_share": 0.578833,
+          "mean_value_month_inr_reporting": 526.7704,
+          "mean_qty_month_reporting": 10.5222,
+          "mean_unit_value_inr": 50.4403
+        },
+        "paneer": {
+          "reporting_share": 0.104871,
+          "mean_value_month_inr_reporting": 391.587,
+          "mean_qty_month_reporting": 1.0997,
+          "mean_unit_value_inr": 362.9864
+        },
+        "pulses": {
+          "reporting_share": 0.985938,
+          "mean_value_month_inr_reporting": 197.6668,
+          "mean_qty_month_reporting": 1.8069,
+          "mean_unit_value_inr": 110.4889
+        },
+        "soya": {
+          "reporting_share": 0.643823,
+          "mean_value_month_inr_reporting": 36.5367,
+          "mean_qty_month_reporting": 0.269,
+          "mean_unit_value_inr": 138.2704
+        },
+        "packaged": {
+          "reporting_share": 0.993498,
+          "mean_value_month_inr_reporting": 569.5997,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.912656,
+          "mean_value_month_inr_reporting": 602.4804,
+          "mean_qty_month_reporting": 18.9024,
+          "mean_unit_value_inr": 95.693
+        }
+      }
+    },
+    "20": {
+      "mean_mpce_inr": 3433.2836,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.460304,
+          "mean_value_month_inr_reporting": 955.9722,
+          "mean_qty_month_reporting": 5.1777,
+          "mean_unit_value_inr": 189.1472
+        },
+        "mutton": {
+          "reporting_share": 0.047984,
+          "mean_value_month_inr_reporting": 3514.751,
+          "mean_qty_month_reporting": 5.3925,
+          "mean_unit_value_inr": 666.8442
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.006204,
+          "mean_value_month_inr_reporting": 1571.1027,
+          "mean_qty_month_reporting": 5.1092,
+          "mean_unit_value_inr": 305.928
+        },
+        "fish": {
+          "reporting_share": 0.167691,
+          "mean_value_month_inr_reporting": 876.5432,
+          "mean_qty_month_reporting": 4.6585,
+          "mean_unit_value_inr": 190.2948
+        },
+        "pork": {
+          "reporting_share": 0.002528,
+          "mean_value_month_inr_reporting": 750.1733,
+          "mean_qty_month_reporting": 2.9748,
+          "mean_unit_value_inr": 258.1619
+        },
+        "eggs": {
+          "reporting_share": 0.312783,
+          "mean_value_month_inr_reporting": 266.6446,
+          "mean_qty_month_reporting": 36.228,
+          "mean_unit_value_inr": 7.3959
+        },
+        "milk": {
+          "reporting_share": 0.696929,
+          "mean_value_month_inr_reporting": 972.3955,
+          "mean_qty_month_reporting": 19.4119,
+          "mean_unit_value_inr": 50.9858
+        },
+        "paneer": {
+          "reporting_share": 0.103781,
+          "mean_value_month_inr_reporting": 555.1335,
+          "mean_qty_month_reporting": 1.4061,
+          "mean_unit_value_inr": 403.4842
+        },
+        "pulses": {
+          "reporting_share": 0.990071,
+          "mean_value_month_inr_reporting": 322.7243,
+          "mean_qty_month_reporting": 2.9491,
+          "mean_unit_value_inr": 111.9693
+        },
+        "soya": {
+          "reporting_share": 0.267718,
+          "mean_value_month_inr_reporting": 30.222,
+          "mean_qty_month_reporting": 0.2334,
+          "mean_unit_value_inr": 134.3833
+        },
+        "packaged": {
+          "reporting_share": 0.958064,
+          "mean_value_month_inr_reporting": 470.0193,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.900233,
+          "mean_value_month_inr_reporting": 502.6985,
+          "mean_qty_month_reporting": 28.8795,
+          "mean_unit_value_inr": 90.1323
+        }
+      }
+    },
+    "21": {
+      "mean_mpce_inr": 3758.9676,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.413747,
+          "mean_value_month_inr_reporting": 840.0714,
+          "mean_qty_month_reporting": 3.9055,
+          "mean_unit_value_inr": 216.2898
+        },
+        "mutton": {
+          "reporting_share": 0.033885,
+          "mean_value_month_inr_reporting": 2108.8333,
+          "mean_qty_month_reporting": 3.0178,
+          "mean_unit_value_inr": 692.7373
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.001908,
+          "mean_value_month_inr_reporting": 709.2014,
+          "mean_qty_month_reporting": 3.3995,
+          "mean_unit_value_inr": 201.8401
+        },
+        "fish": {
+          "reporting_share": 0.431259,
+          "mean_value_month_inr_reporting": 637.3002,
+          "mean_qty_month_reporting": 3.5307,
+          "mean_unit_value_inr": 181.4598
+        },
+        "pork": {
+          "reporting_share": 0.001853,
+          "mean_value_month_inr_reporting": 1142.5116,
+          "mean_qty_month_reporting": 4.6477,
+          "mean_unit_value_inr": 254.8362
+        },
+        "eggs": {
+          "reporting_share": 0.389629,
+          "mean_value_month_inr_reporting": 189.5825,
+          "mean_qty_month_reporting": 26.8767,
+          "mean_unit_value_inr": 7.097
+        },
+        "milk": {
+          "reporting_share": 0.388866,
+          "mean_value_month_inr_reporting": 559.7544,
+          "mean_qty_month_reporting": 12.4481,
+          "mean_unit_value_inr": 45.6156
+        },
+        "paneer": {
+          "reporting_share": 0.092385,
+          "mean_value_month_inr_reporting": 503.2658,
+          "mean_qty_month_reporting": 1.7625,
+          "mean_unit_value_inr": 297.1971
+        },
+        "pulses": {
+          "reporting_share": 0.915458,
+          "mean_value_month_inr_reporting": 362.3004,
+          "mean_qty_month_reporting": 3.1185,
+          "mean_unit_value_inr": 116.0735
+        },
+        "soya": {
+          "reporting_share": 0.532414,
+          "mean_value_month_inr_reporting": 42.7349,
+          "mean_qty_month_reporting": 0.3229,
+          "mean_unit_value_inr": 135.7783
+        },
+        "packaged": {
+          "reporting_share": 0.973776,
+          "mean_value_month_inr_reporting": 538.4105,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.898124,
+          "mean_value_month_inr_reporting": 491.9648,
+          "mean_qty_month_reporting": 30.5363,
+          "mean_unit_value_inr": 74.1895
+        }
+      }
+    },
+    "22": {
+      "mean_mpce_inr": 3185.0781,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.473337,
+          "mean_value_month_inr_reporting": 726.024,
+          "mean_qty_month_reporting": 4.0473,
+          "mean_unit_value_inr": 183.5559
+        },
+        "mutton": {
+          "reporting_share": 0.007938,
+          "mean_value_month_inr_reporting": 1510.0528,
+          "mean_qty_month_reporting": 3.0447,
+          "mean_unit_value_inr": 530.2214
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.158298,
+          "mean_value_month_inr_reporting": 603.3999,
+          "mean_qty_month_reporting": 3.5796,
+          "mean_unit_value_inr": 171.8509
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.33518,
+          "mean_value_month_inr_reporting": 196.9518,
+          "mean_qty_month_reporting": 31.7904,
+          "mean_unit_value_inr": 6.2283
+        },
+        "milk": {
+          "reporting_share": 0.591276,
+          "mean_value_month_inr_reporting": 558.0224,
+          "mean_qty_month_reporting": 11.8752,
+          "mean_unit_value_inr": 48.5757
+        },
+        "paneer": {
+          "reporting_share": 0.071893,
+          "mean_value_month_inr_reporting": 491.3252,
+          "mean_qty_month_reporting": 1.4521,
+          "mean_unit_value_inr": 338.7889
+        },
+        "pulses": {
+          "reporting_share": 0.974996,
+          "mean_value_month_inr_reporting": 447.8206,
+          "mean_qty_month_reporting": 4.1764,
+          "mean_unit_value_inr": 109.6303
+        },
+        "soya": {
+          "reporting_share": 0.345666,
+          "mean_value_month_inr_reporting": 34.019,
+          "mean_qty_month_reporting": 0.3118,
+          "mean_unit_value_inr": 120.8807
+        },
+        "packaged": {
+          "reporting_share": 0.94978,
+          "mean_value_month_inr_reporting": 402.9688,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.89336,
+          "mean_value_month_inr_reporting": 416.7233,
+          "mean_qty_month_reporting": 21.3989,
+          "mean_unit_value_inr": 111.8347
+        }
+      }
+    },
+    "23": {
+      "mean_mpce_inr": 3993.8701,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.254558,
+          "mean_value_month_inr_reporting": 806.6664,
+          "mean_qty_month_reporting": 3.7149,
+          "mean_unit_value_inr": 220.1646
+        },
+        "mutton": {
+          "reporting_share": 0.0126,
+          "mean_value_month_inr_reporting": 1536.979,
+          "mean_qty_month_reporting": 3.0819,
+          "mean_unit_value_inr": 511.2544
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.005496,
+          "mean_value_month_inr_reporting": 996.2853,
+          "mean_qty_month_reporting": 5.1994,
+          "mean_unit_value_inr": 196.9721
+        },
+        "fish": {
+          "reporting_share": 0.069247,
+          "mean_value_month_inr_reporting": 654.6131,
+          "mean_qty_month_reporting": 3.5755,
+          "mean_unit_value_inr": 187.5717
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.323477,
+          "mean_value_month_inr_reporting": 222.4192,
+          "mean_qty_month_reporting": 30.5665,
+          "mean_unit_value_inr": 7.3185
+        },
+        "milk": {
+          "reporting_share": 0.97076,
+          "mean_value_month_inr_reporting": 1339.8794,
+          "mean_qty_month_reporting": 27.1556,
+          "mean_unit_value_inr": 50.3122
+        },
+        "paneer": {
+          "reporting_share": 0.102088,
+          "mean_value_month_inr_reporting": 399.8171,
+          "mean_qty_month_reporting": 1.2042,
+          "mean_unit_value_inr": 331.9767
+        },
+        "pulses": {
+          "reporting_share": 0.99568,
+          "mean_value_month_inr_reporting": 456.6264,
+          "mean_qty_month_reporting": 3.8569,
+          "mean_unit_value_inr": 120.1392
+        },
+        "soya": {
+          "reporting_share": 0.177502,
+          "mean_value_month_inr_reporting": 34.8475,
+          "mean_qty_month_reporting": 0.2829,
+          "mean_unit_value_inr": 131.7935
+        },
+        "packaged": {
+          "reporting_share": 0.985312,
+          "mean_value_month_inr_reporting": 646.8137,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.904019,
+          "mean_value_month_inr_reporting": 435.8502,
+          "mean_qty_month_reporting": 12.8952,
+          "mean_unit_value_inr": 162.6236
+        }
+      }
+    },
+    "24": {
+      "mean_mpce_inr": 5426.4257,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.176918,
+          "mean_value_month_inr_reporting": 708.8601,
+          "mean_qty_month_reporting": 3.1244,
+          "mean_unit_value_inr": 226.3535
+        },
+        "mutton": {
+          "reporting_share": 0.017414,
+          "mean_value_month_inr_reporting": 1531.5775,
+          "mean_qty_month_reporting": 2.7447,
+          "mean_unit_value_inr": 566.2116
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.002434,
+          "mean_value_month_inr_reporting": 856.9255,
+          "mean_qty_month_reporting": 3.1882,
+          "mean_unit_value_inr": 264.236
+        },
+        "fish": {
+          "reporting_share": 0.046453,
+          "mean_value_month_inr_reporting": 673.329,
+          "mean_qty_month_reporting": 3.3867,
+          "mean_unit_value_inr": 215.4427
+        },
+        "pork": {
+          "reporting_share": 0.00049,
+          "mean_value_month_inr_reporting": 797.1429,
+          "mean_qty_month_reporting": 5.1429,
+          "mean_unit_value_inr": 156.0
+        },
+        "eggs": {
+          "reporting_share": 0.17978,
+          "mean_value_month_inr_reporting": 203.1356,
+          "mean_qty_month_reporting": 29.3373,
+          "mean_unit_value_inr": 6.9473
+        },
+        "milk": {
+          "reporting_share": 0.958555,
+          "mean_value_month_inr_reporting": 1840.402,
+          "mean_qty_month_reporting": 30.503,
+          "mean_unit_value_inr": 61.1569
+        },
+        "paneer": {
+          "reporting_share": 0.094222,
+          "mean_value_month_inr_reporting": 343.444,
+          "mean_qty_month_reporting": 0.8578,
+          "mean_unit_value_inr": 409.207
+        },
+        "pulses": {
+          "reporting_share": 0.969559,
+          "mean_value_month_inr_reporting": 438.3371,
+          "mean_qty_month_reporting": 3.7679,
+          "mean_unit_value_inr": 116.2512
+        },
+        "soya": {
+          "reporting_share": 0.082137,
+          "mean_value_month_inr_reporting": 40.5532,
+          "mean_qty_month_reporting": 0.3308,
+          "mean_unit_value_inr": 132.2314
+        },
+        "packaged": {
+          "reporting_share": 0.975733,
+          "mean_value_month_inr_reporting": 701.2745,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.849399,
+          "mean_value_month_inr_reporting": 1356.8591,
+          "mean_qty_month_reporting": 13.5184,
+          "mean_unit_value_inr": 155.3424
+        }
+      }
+    },
+    "25": {
+      "mean_mpce_inr": 5977.8228,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.595509,
+          "mean_value_month_inr_reporting": 826.9335,
+          "mean_qty_month_reporting": 3.8711,
+          "mean_unit_value_inr": 216.0396
+        },
+        "mutton": {
+          "reporting_share": 0.016899,
+          "mean_value_month_inr_reporting": 1522.1486,
+          "mean_qty_month_reporting": 2.342,
+          "mean_unit_value_inr": 652.1948
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "fish": {
+          "reporting_share": 0.149913,
+          "mean_value_month_inr_reporting": 781.5239,
+          "mean_qty_month_reporting": 3.7206,
+          "mean_unit_value_inr": 226.4913
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.373529,
+          "mean_value_month_inr_reporting": 223.649,
+          "mean_qty_month_reporting": 31.4194,
+          "mean_unit_value_inr": 7.1166
+        },
+        "milk": {
+          "reporting_share": 0.884806,
+          "mean_value_month_inr_reporting": 1034.7235,
+          "mean_qty_month_reporting": 17.6437,
+          "mean_unit_value_inr": 58.5746
+        },
+        "paneer": {
+          "reporting_share": 0.108207,
+          "mean_value_month_inr_reporting": 416.4984,
+          "mean_qty_month_reporting": 1.2224,
+          "mean_unit_value_inr": 351.9031
+        },
+        "pulses": {
+          "reporting_share": 0.949267,
+          "mean_value_month_inr_reporting": 521.0427,
+          "mean_qty_month_reporting": 4.3051,
+          "mean_unit_value_inr": 121.3582
+        },
+        "soya": {
+          "reporting_share": 0.384173,
+          "mean_value_month_inr_reporting": 64.9489,
+          "mean_qty_month_reporting": 0.384,
+          "mean_unit_value_inr": 172.9372
+        },
+        "packaged": {
+          "reporting_share": 0.977722,
+          "mean_value_month_inr_reporting": 619.5978,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.882284,
+          "mean_value_month_inr_reporting": 1415.0185,
+          "mean_qty_month_reporting": 22.6886,
+          "mean_unit_value_inr": 106.394
+        }
+      }
+    },
+    "27": {
+      "mean_mpce_inr": 5537.455,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.471538,
+          "mean_value_month_inr_reporting": 729.8078,
+          "mean_qty_month_reporting": 3.2539,
+          "mean_unit_value_inr": 228.0301
+        },
+        "mutton": {
+          "reporting_share": 0.069493,
+          "mean_value_month_inr_reporting": 2408.9369,
+          "mean_qty_month_reporting": 3.7046,
+          "mean_unit_value_inr": 664.9677
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.02009,
+          "mean_value_month_inr_reporting": 845.6864,
+          "mean_qty_month_reporting": 3.6958,
+          "mean_unit_value_inr": 232.9446
+        },
+        "fish": {
+          "reporting_share": 0.129415,
+          "mean_value_month_inr_reporting": 709.4982,
+          "mean_qty_month_reporting": 3.0909,
+          "mean_unit_value_inr": 259.0742
+        },
+        "pork": {
+          "reporting_share": 0.000118,
+          "mean_value_month_inr_reporting": 500.5329,
+          "mean_qty_month_reporting": 1.5157,
+          "mean_unit_value_inr": 384.2263
+        },
+        "eggs": {
+          "reporting_share": 0.433192,
+          "mean_value_month_inr_reporting": 208.2487,
+          "mean_qty_month_reporting": 31.762,
+          "mean_unit_value_inr": 6.5507
+        },
+        "milk": {
+          "reporting_share": 0.90051,
+          "mean_value_month_inr_reporting": 1071.2658,
+          "mean_qty_month_reporting": 18.8278,
+          "mean_unit_value_inr": 57.0409
+        },
+        "paneer": {
+          "reporting_share": 0.136583,
+          "mean_value_month_inr_reporting": 388.1672,
+          "mean_qty_month_reporting": 1.1326,
+          "mean_unit_value_inr": 352.8034
+        },
+        "pulses": {
+          "reporting_share": 0.965959,
+          "mean_value_month_inr_reporting": 397.3278,
+          "mean_qty_month_reporting": 3.1894,
+          "mean_unit_value_inr": 125.6281
+        },
+        "soya": {
+          "reporting_share": 0.211954,
+          "mean_value_month_inr_reporting": 32.0303,
+          "mean_qty_month_reporting": 0.3011,
+          "mean_unit_value_inr": 116.6102
+        },
+        "packaged": {
+          "reporting_share": 0.970446,
+          "mean_value_month_inr_reporting": 682.7258,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.852621,
+          "mean_value_month_inr_reporting": 884.6143,
+          "mean_qty_month_reporting": 30.5205,
+          "mean_unit_value_inr": 168.9212
+        }
+      }
+    },
+    "28": {
+      "mean_mpce_inr": 5907.7069,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.660193,
+          "mean_value_month_inr_reporting": 835.38,
+          "mean_qty_month_reporting": 3.6962,
+          "mean_unit_value_inr": 228.8609
+        },
+        "mutton": {
+          "reporting_share": 0.110596,
+          "mean_value_month_inr_reporting": 2285.9041,
+          "mean_qty_month_reporting": 3.0226,
+          "mean_unit_value_inr": 771.008
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.019741,
+          "mean_value_month_inr_reporting": 945.636,
+          "mean_qty_month_reporting": 3.2694,
+          "mean_unit_value_inr": 293.3698
+        },
+        "fish": {
+          "reporting_share": 0.225492,
+          "mean_value_month_inr_reporting": 748.5462,
+          "mean_qty_month_reporting": 4.6502,
+          "mean_unit_value_inr": 177.1944
+        },
+        "pork": {
+          "reporting_share": 0.002221,
+          "mean_value_month_inr_reporting": 602.428,
+          "mean_qty_month_reporting": 3.0163,
+          "mean_unit_value_inr": 225.4701
+        },
+        "eggs": {
+          "reporting_share": 0.740861,
+          "mean_value_month_inr_reporting": 179.8433,
+          "mean_qty_month_reporting": 28.0462,
+          "mean_unit_value_inr": 6.4263
+        },
+        "milk": {
+          "reporting_share": 0.926493,
+          "mean_value_month_inr_reporting": 982.0478,
+          "mean_qty_month_reporting": 15.2331,
+          "mean_unit_value_inr": 64.8159
+        },
+        "paneer": {
+          "reporting_share": 0.006834,
+          "mean_value_month_inr_reporting": 999.1145,
+          "mean_qty_month_reporting": 2.976,
+          "mean_unit_value_inr": 431.0533
+        },
+        "pulses": {
+          "reporting_share": 0.943368,
+          "mean_value_month_inr_reporting": 385.5684,
+          "mean_qty_month_reporting": 2.8717,
+          "mean_unit_value_inr": 136.1898
+        },
+        "soya": {
+          "reporting_share": 0.040269,
+          "mean_value_month_inr_reporting": 45.9569,
+          "mean_qty_month_reporting": 0.4674,
+          "mean_unit_value_inr": 104.0346
+        },
+        "packaged": {
+          "reporting_share": 0.872055,
+          "mean_value_month_inr_reporting": 568.0712,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.884746,
+          "mean_value_month_inr_reporting": 678.2026,
+          "mean_qty_month_reporting": 21.9254,
+          "mean_unit_value_inr": 90.2113
+        }
+      }
+    },
+    "29": {
+      "mean_mpce_inr": 6073.397,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.506333,
+          "mean_value_month_inr_reporting": 1030.138,
+          "mean_qty_month_reporting": 4.8032,
+          "mean_unit_value_inr": 218.2398
+        },
+        "mutton": {
+          "reporting_share": 0.118582,
+          "mean_value_month_inr_reporting": 2723.9933,
+          "mean_qty_month_reporting": 4.1876,
+          "mean_unit_value_inr": 656.5065
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.025565,
+          "mean_value_month_inr_reporting": 1029.4631,
+          "mean_qty_month_reporting": 4.5444,
+          "mean_unit_value_inr": 224.2995
+        },
+        "fish": {
+          "reporting_share": 0.114168,
+          "mean_value_month_inr_reporting": 947.2748,
+          "mean_qty_month_reporting": 5.3474,
+          "mean_unit_value_inr": 186.6144
+        },
+        "pork": {
+          "reporting_share": 0.002394,
+          "mean_value_month_inr_reporting": 1438.8763,
+          "mean_qty_month_reporting": 4.577,
+          "mean_unit_value_inr": 309.3299
+        },
+        "eggs": {
+          "reporting_share": 0.576585,
+          "mean_value_month_inr_reporting": 189.7553,
+          "mean_qty_month_reporting": 29.4764,
+          "mean_unit_value_inr": 6.4122
+        },
+        "milk": {
+          "reporting_share": 0.919059,
+          "mean_value_month_inr_reporting": 856.5862,
+          "mean_qty_month_reporting": 18.2414,
+          "mean_unit_value_inr": 47.4493
+        },
+        "paneer": {
+          "reporting_share": 0.032286,
+          "mean_value_month_inr_reporting": 508.6919,
+          "mean_qty_month_reporting": 1.3258,
+          "mean_unit_value_inr": 412.6676
+        },
+        "pulses": {
+          "reporting_share": 0.93053,
+          "mean_value_month_inr_reporting": 460.6208,
+          "mean_qty_month_reporting": 3.5491,
+          "mean_unit_value_inr": 130.3386
+        },
+        "soya": {
+          "reporting_share": 0.199453,
+          "mean_value_month_inr_reporting": 51.1584,
+          "mean_qty_month_reporting": 0.4641,
+          "mean_unit_value_inr": 118.9853
+        },
+        "packaged": {
+          "reporting_share": 0.984739,
+          "mean_value_month_inr_reporting": 720.2429,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.898642,
+          "mean_value_month_inr_reporting": 1146.7121,
+          "mean_qty_month_reporting": 17.8831,
+          "mean_unit_value_inr": 79.4779
+        }
+      }
+    },
+    "30": {
+      "mean_mpce_inr": 9027.1046,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.472538,
+          "mean_value_month_inr_reporting": 1134.8028,
+          "mean_qty_month_reporting": 6.4707,
+          "mean_unit_value_inr": 178.8215
+        },
+        "mutton": {
+          "reporting_share": 0.116679,
+          "mean_value_month_inr_reporting": 1903.0684,
+          "mean_qty_month_reporting": 4.2548,
+          "mean_unit_value_inr": 531.1492
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.015449,
+          "mean_value_month_inr_reporting": 770.5902,
+          "mean_qty_month_reporting": 1.9969,
+          "mean_unit_value_inr": 396.6658
+        },
+        "fish": {
+          "reporting_share": 0.888802,
+          "mean_value_month_inr_reporting": 1954.9794,
+          "mean_qty_month_reporting": 8.4299,
+          "mean_unit_value_inr": 310.911
+        },
+        "pork": {
+          "reporting_share": 0.062699,
+          "mean_value_month_inr_reporting": 1057.8431,
+          "mean_qty_month_reporting": 3.4293,
+          "mean_unit_value_inr": 355.429
+        },
+        "eggs": {
+          "reporting_share": 0.667753,
+          "mean_value_month_inr_reporting": 257.4586,
+          "mean_qty_month_reporting": 36.414,
+          "mean_unit_value_inr": 7.0335
+        },
+        "milk": {
+          "reporting_share": 0.91269,
+          "mean_value_month_inr_reporting": 921.6248,
+          "mean_qty_month_reporting": 18.0141,
+          "mean_unit_value_inr": 55.6298
+        },
+        "paneer": {
+          "reporting_share": 0.093547,
+          "mean_value_month_inr_reporting": 479.4055,
+          "mean_qty_month_reporting": 1.0884,
+          "mean_unit_value_inr": 446.3759
+        },
+        "pulses": {
+          "reporting_share": 0.995118,
+          "mean_value_month_inr_reporting": 461.3288,
+          "mean_qty_month_reporting": 3.6031,
+          "mean_unit_value_inr": 130.0572
+        },
+        "soya": {
+          "reporting_share": 0.292384,
+          "mean_value_month_inr_reporting": 67.9627,
+          "mean_qty_month_reporting": 0.6914,
+          "mean_unit_value_inr": 106.1376
+        },
+        "packaged": {
+          "reporting_share": 0.998405,
+          "mean_value_month_inr_reporting": 2677.1126,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.90772,
+          "mean_value_month_inr_reporting": 1166.4056,
+          "mean_qty_month_reporting": 12.8129,
+          "mean_unit_value_inr": 178.4825
+        }
+      }
+    },
+    "31": {
+      "mean_mpce_inr": 6369.5379,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.509197,
+          "mean_value_month_inr_reporting": 4460.3279,
+          "mean_qty_month_reporting": 18.9792,
+          "mean_unit_value_inr": 241.1443
+        },
+        "mutton": {
+          "reporting_share": 0.048428,
+          "mean_value_month_inr_reporting": 1660.0402,
+          "mean_qty_month_reporting": 4.9835,
+          "mean_unit_value_inr": 321.5742
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.079752,
+          "mean_value_month_inr_reporting": 2857.2965,
+          "mean_qty_month_reporting": 8.2378,
+          "mean_unit_value_inr": 346.3671
+        },
+        "fish": {
+          "reporting_share": 0.914087,
+          "mean_value_month_inr_reporting": 2016.0417,
+          "mean_qty_month_reporting": 13.5072,
+          "mean_unit_value_inr": 153.7393
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.850085,
+          "mean_value_month_inr_reporting": 322.5298,
+          "mean_qty_month_reporting": 41.1512,
+          "mean_unit_value_inr": 7.8328
+        },
+        "milk": {
+          "reporting_share": 0.258398,
+          "mean_value_month_inr_reporting": 884.5935,
+          "mean_qty_month_reporting": 12.6647,
+          "mean_unit_value_inr": 69.8574
+        },
+        "paneer": {
+          "reporting_share": 0.009124,
+          "mean_value_month_inr_reporting": 85.7143,
+          "mean_qty_month_reporting": 0.2143,
+          "mean_unit_value_inr": 400.0
+        },
+        "pulses": {
+          "reporting_share": 0.921796,
+          "mean_value_month_inr_reporting": 564.5986,
+          "mean_qty_month_reporting": 3.8929,
+          "mean_unit_value_inr": 144.135
+        },
+        "soya": {
+          "reporting_share": 0.054718,
+          "mean_value_month_inr_reporting": 69.7516,
+          "mean_qty_month_reporting": 0.4751,
+          "mean_unit_value_inr": 190.5544
+        },
+        "packaged": {
+          "reporting_share": 0.958342,
+          "mean_value_month_inr_reporting": 726.109,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.828868,
+          "mean_value_month_inr_reporting": 2579.327,
+          "mean_qty_month_reporting": 52.7748,
+          "mean_unit_value_inr": 91.509
+        }
+      }
+    },
+    "32": {
+      "mean_mpce_inr": 7188.7489,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.443277,
+          "mean_value_month_inr_reporting": 1099.3237,
+          "mean_qty_month_reporting": 6.6271,
+          "mean_unit_value_inr": 174.9218
+        },
+        "mutton": {
+          "reporting_share": 0.013108,
+          "mean_value_month_inr_reporting": 2176.9739,
+          "mean_qty_month_reporting": 3.8671,
+          "mean_unit_value_inr": 597.8415
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.142657,
+          "mean_value_month_inr_reporting": 1629.0652,
+          "mean_qty_month_reporting": 4.685,
+          "mean_unit_value_inr": 345.5527
+        },
+        "fish": {
+          "reporting_share": 0.821213,
+          "mean_value_month_inr_reporting": 1466.2556,
+          "mean_qty_month_reporting": 8.6748,
+          "mean_unit_value_inr": 181.7287
+        },
+        "pork": {
+          "reporting_share": 0.007379,
+          "mean_value_month_inr_reporting": 1563.5323,
+          "mean_qty_month_reporting": 4.7847,
+          "mean_unit_value_inr": 332.3689
+        },
+        "eggs": {
+          "reporting_share": 0.78169,
+          "mean_value_month_inr_reporting": 233.4448,
+          "mean_qty_month_reporting": 34.5915,
+          "mean_unit_value_inr": 6.7486
+        },
+        "milk": {
+          "reporting_share": 0.826352,
+          "mean_value_month_inr_reporting": 764.609,
+          "mean_qty_month_reporting": 13.961,
+          "mean_unit_value_inr": 55.9569
+        },
+        "paneer": {
+          "reporting_share": 0.013945,
+          "mean_value_month_inr_reporting": 338.0814,
+          "mean_qty_month_reporting": 0.9538,
+          "mean_unit_value_inr": 373.399
+        },
+        "pulses": {
+          "reporting_share": 0.952343,
+          "mean_value_month_inr_reporting": 369.9604,
+          "mean_qty_month_reporting": 2.827,
+          "mean_unit_value_inr": 131.2345
+        },
+        "soya": {
+          "reporting_share": 0.264743,
+          "mean_value_month_inr_reporting": 37.9684,
+          "mean_qty_month_reporting": 0.2626,
+          "mean_unit_value_inr": 168.3905
+        },
+        "packaged": {
+          "reporting_share": 0.968739,
+          "mean_value_month_inr_reporting": 753.9157,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.807725,
+          "mean_value_month_inr_reporting": 978.8004,
+          "mean_qty_month_reporting": 18.253,
+          "mean_unit_value_inr": 88.2148
+        }
+      }
+    },
+    "33": {
+      "mean_mpce_inr": 6845.1826,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.435305,
+          "mean_value_month_inr_reporting": 833.0394,
+          "mean_qty_month_reporting": 3.6074,
+          "mean_unit_value_inr": 232.1231
+        },
+        "mutton": {
+          "reporting_share": 0.163583,
+          "mean_value_month_inr_reporting": 2554.6922,
+          "mean_qty_month_reporting": 3.2998,
+          "mean_unit_value_inr": 776.8593
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.036649,
+          "mean_value_month_inr_reporting": 1243.3185,
+          "mean_qty_month_reporting": 3.7712,
+          "mean_unit_value_inr": 328.6672
+        },
+        "fish": {
+          "reporting_share": 0.287189,
+          "mean_value_month_inr_reporting": 918.1713,
+          "mean_qty_month_reporting": 4.2042,
+          "mean_unit_value_inr": 234.2088
+        },
+        "pork": {
+          "reporting_share": 0.000579,
+          "mean_value_month_inr_reporting": 959.3467,
+          "mean_qty_month_reporting": 2.9794,
+          "mean_unit_value_inr": 320.3216
+        },
+        "eggs": {
+          "reporting_share": 0.696227,
+          "mean_value_month_inr_reporting": 182.4628,
+          "mean_qty_month_reporting": 29.7738,
+          "mean_unit_value_inr": 6.1333
+        },
+        "milk": {
+          "reporting_share": 0.907498,
+          "mean_value_month_inr_reporting": 800.3818,
+          "mean_qty_month_reporting": 16.7183,
+          "mean_unit_value_inr": 48.6348
+        },
+        "paneer": {
+          "reporting_share": 0.028716,
+          "mean_value_month_inr_reporting": 313.4218,
+          "mean_qty_month_reporting": 0.7873,
+          "mean_unit_value_inr": 463.2682
+        },
+        "pulses": {
+          "reporting_share": 0.932941,
+          "mean_value_month_inr_reporting": 360.286,
+          "mean_qty_month_reporting": 3.2165,
+          "mean_unit_value_inr": 109.0216
+        },
+        "soya": {
+          "reporting_share": 0.171052,
+          "mean_value_month_inr_reporting": 29.8068,
+          "mean_qty_month_reporting": 0.256,
+          "mean_unit_value_inr": 125.9062
+        },
+        "packaged": {
+          "reporting_share": 0.985937,
+          "mean_value_month_inr_reporting": 685.9181,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.931302,
+          "mean_value_month_inr_reporting": 1342.6968,
+          "mean_qty_month_reporting": 22.5848,
+          "mean_unit_value_inr": 81.7204
+        }
+      }
+    },
+    "34": {
+      "mean_mpce_inr": 8294.5451,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.668747,
+          "mean_value_month_inr_reporting": 731.605,
+          "mean_qty_month_reporting": 3.4427,
+          "mean_unit_value_inr": 214.9255
+        },
+        "mutton": {
+          "reporting_share": 0.201765,
+          "mean_value_month_inr_reporting": 1256.857,
+          "mean_qty_month_reporting": 2.2715,
+          "mean_unit_value_inr": 629.1774
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.021273,
+          "mean_value_month_inr_reporting": 838.9516,
+          "mean_qty_month_reporting": 2.7727,
+          "mean_unit_value_inr": 303.3352
+        },
+        "fish": {
+          "reporting_share": 0.748239,
+          "mean_value_month_inr_reporting": 859.0633,
+          "mean_qty_month_reporting": 3.0822,
+          "mean_unit_value_inr": 303.8671
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.974313,
+          "mean_value_month_inr_reporting": 187.8299,
+          "mean_qty_month_reporting": 32.444,
+          "mean_unit_value_inr": 5.8709
+        },
+        "milk": {
+          "reporting_share": 0.985377,
+          "mean_value_month_inr_reporting": 930.1504,
+          "mean_qty_month_reporting": 18.8349,
+          "mean_unit_value_inr": 50.2046
+        },
+        "paneer": {
+          "reporting_share": 0.08384,
+          "mean_value_month_inr_reporting": 325.7832,
+          "mean_qty_month_reporting": 0.7475,
+          "mean_unit_value_inr": 442.6477
+        },
+        "pulses": {
+          "reporting_share": 0.945124,
+          "mean_value_month_inr_reporting": 503.7672,
+          "mean_qty_month_reporting": 3.7524,
+          "mean_unit_value_inr": 135.5609
+        },
+        "soya": {
+          "reporting_share": 0.393098,
+          "mean_value_month_inr_reporting": 26.1336,
+          "mean_qty_month_reporting": 0.1921,
+          "mean_unit_value_inr": 134.1108
+        },
+        "packaged": {
+          "reporting_share": 1.0,
+          "mean_value_month_inr_reporting": 746.2401,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.996714,
+          "mean_value_month_inr_reporting": 1111.371,
+          "mean_qty_month_reporting": 12.2968,
+          "mean_unit_value_inr": 97.5195
+        }
+      }
+    },
+    "35": {
+      "mean_mpce_inr": 8858.9779,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.566764,
+          "mean_value_month_inr_reporting": 1270.1953,
+          "mean_qty_month_reporting": 5.5606,
+          "mean_unit_value_inr": 230.3521
+        },
+        "mutton": {
+          "reporting_share": 0.032227,
+          "mean_value_month_inr_reporting": 4180.3207,
+          "mean_qty_month_reporting": 4.0107,
+          "mean_unit_value_inr": 1010.9509
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.012002,
+          "mean_value_month_inr_reporting": 1727.6527,
+          "mean_qty_month_reporting": 4.2125,
+          "mean_unit_value_inr": 418.4044
+        },
+        "fish": {
+          "reporting_share": 0.858659,
+          "mean_value_month_inr_reporting": 1207.8135,
+          "mean_qty_month_reporting": 6.2815,
+          "mean_unit_value_inr": 195.4375
+        },
+        "pork": {
+          "reporting_share": 0.010022,
+          "mean_value_month_inr_reporting": 1847.5733,
+          "mean_qty_month_reporting": 4.3507,
+          "mean_unit_value_inr": 434.8937
+        },
+        "eggs": {
+          "reporting_share": 0.831592,
+          "mean_value_month_inr_reporting": 379.552,
+          "mean_qty_month_reporting": 43.2935,
+          "mean_unit_value_inr": 8.7278
+        },
+        "milk": {
+          "reporting_share": 0.546583,
+          "mean_value_month_inr_reporting": 949.719,
+          "mean_qty_month_reporting": 13.2108,
+          "mean_unit_value_inr": 73.9163
+        },
+        "paneer": {
+          "reporting_share": 0.197771,
+          "mean_value_month_inr_reporting": 406.4835,
+          "mean_qty_month_reporting": 0.9353,
+          "mean_unit_value_inr": 457.1982
+        },
+        "pulses": {
+          "reporting_share": 0.945997,
+          "mean_value_month_inr_reporting": 580.727,
+          "mean_qty_month_reporting": 4.0419,
+          "mean_unit_value_inr": 141.2476
+        },
+        "soya": {
+          "reporting_share": 0.701707,
+          "mean_value_month_inr_reporting": 49.2418,
+          "mean_qty_month_reporting": 0.2848,
+          "mean_unit_value_inr": 177.7359
+        },
+        "packaged": {
+          "reporting_share": 0.979483,
+          "mean_value_month_inr_reporting": 1053.6118,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.792102,
+          "mean_value_month_inr_reporting": 1615.3496,
+          "mean_qty_month_reporting": 16.8537,
+          "mean_unit_value_inr": 96.742
+        }
+      }
+    },
+    "36": {
+      "mean_mpce_inr": 6982.0251,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.604211,
+          "mean_value_month_inr_reporting": 784.4079,
+          "mean_qty_month_reporting": 3.462,
+          "mean_unit_value_inr": 227.4143
+        },
+        "mutton": {
+          "reporting_share": 0.214138,
+          "mean_value_month_inr_reporting": 1901.4167,
+          "mean_qty_month_reporting": 2.5216,
+          "mean_unit_value_inr": 750.2598
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.047795,
+          "mean_value_month_inr_reporting": 1124.6325,
+          "mean_qty_month_reporting": 3.8329,
+          "mean_unit_value_inr": 296.1381
+        },
+        "fish": {
+          "reporting_share": 0.192354,
+          "mean_value_month_inr_reporting": 825.6275,
+          "mean_qty_month_reporting": 4.9945,
+          "mean_unit_value_inr": 175.3773
+        },
+        "pork": {
+          "reporting_share": 0.003677,
+          "mean_value_month_inr_reporting": 748.4046,
+          "mean_qty_month_reporting": 2.9134,
+          "mean_unit_value_inr": 260.6081
+        },
+        "eggs": {
+          "reporting_share": 0.741391,
+          "mean_value_month_inr_reporting": 167.6105,
+          "mean_qty_month_reporting": 27.5304,
+          "mean_unit_value_inr": 6.1208
+        },
+        "milk": {
+          "reporting_share": 0.844442,
+          "mean_value_month_inr_reporting": 961.0572,
+          "mean_qty_month_reporting": 14.1612,
+          "mean_unit_value_inr": 68.0927
+        },
+        "paneer": {
+          "reporting_share": 0.044704,
+          "mean_value_month_inr_reporting": 420.3124,
+          "mean_qty_month_reporting": 0.9716,
+          "mean_unit_value_inr": 440.7657
+        },
+        "pulses": {
+          "reporting_share": 0.856707,
+          "mean_value_month_inr_reporting": 380.4508,
+          "mean_qty_month_reporting": 2.7945,
+          "mean_unit_value_inr": 137.1314
+        },
+        "soya": {
+          "reporting_share": 0.194385,
+          "mean_value_month_inr_reporting": 34.7928,
+          "mean_qty_month_reporting": 0.3377,
+          "mean_unit_value_inr": 123.2402
+        },
+        "packaged": {
+          "reporting_share": 0.984834,
+          "mean_value_month_inr_reporting": 591.1658,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.934214,
+          "mean_value_month_inr_reporting": 1073.2153,
+          "mean_qty_month_reporting": 24.4921,
+          "mean_unit_value_inr": 110.4758
+        }
+      }
+    },
+    "37": {
+      "mean_mpce_inr": 5404.3017,
+      "groups": {
+        "chicken": {
+          "reporting_share": 0.449158,
+          "mean_value_month_inr_reporting": 1359.7347,
+          "mean_qty_month_reporting": 7.7571,
+          "mean_unit_value_inr": 177.7963
+        },
+        "mutton": {
+          "reporting_share": 0.22784,
+          "mean_value_month_inr_reporting": 1849.7856,
+          "mean_qty_month_reporting": 4.0792,
+          "mean_unit_value_inr": 483.0036
+        },
+        "beef_buffalo": {
+          "reporting_share": 0.245712,
+          "mean_value_month_inr_reporting": 1696.1921,
+          "mean_qty_month_reporting": 5.0001,
+          "mean_unit_value_inr": 366.6184
+        },
+        "fish": {
+          "reporting_share": 0.128555,
+          "mean_value_month_inr_reporting": 1476.225,
+          "mean_qty_month_reporting": 5.0338,
+          "mean_unit_value_inr": 291.6919
+        },
+        "pork": {
+          "reporting_share": 0.0,
+          "mean_value_month_inr_reporting": null,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "eggs": {
+          "reporting_share": 0.751711,
+          "mean_value_month_inr_reporting": 460.4886,
+          "mean_qty_month_reporting": 72.74,
+          "mean_unit_value_inr": 6.2861
+        },
+        "milk": {
+          "reporting_share": 0.996535,
+          "mean_value_month_inr_reporting": 2538.6747,
+          "mean_qty_month_reporting": 59.9036,
+          "mean_unit_value_inr": 43.2166
+        },
+        "paneer": {
+          "reporting_share": 0.265157,
+          "mean_value_month_inr_reporting": 753.4905,
+          "mean_qty_month_reporting": 2.9025,
+          "mean_unit_value_inr": 261.8098
+        },
+        "pulses": {
+          "reporting_share": 0.999312,
+          "mean_value_month_inr_reporting": 308.7455,
+          "mean_qty_month_reporting": 2.5788,
+          "mean_unit_value_inr": 121.1816
+        },
+        "soya": {
+          "reporting_share": 0.01889,
+          "mean_value_month_inr_reporting": 108.5137,
+          "mean_qty_month_reporting": 0.957,
+          "mean_unit_value_inr": 141.8722
+        },
+        "packaged": {
+          "reporting_share": 0.995586,
+          "mean_value_month_inr_reporting": 1547.4647,
+          "mean_qty_month_reporting": null,
+          "mean_unit_value_inr": null
+        },
+        "meals_out": {
+          "reporting_share": 0.823483,
+          "mean_value_month_inr_reporting": 1386.9526,
+          "mean_qty_month_reporting": 11.7456,
+          "mean_unit_value_inr": 204.4189
+        }
+      }
+    }
+  }
+}
