@@ -1,0 +1,14 @@
+{
+  "status": "registered_no_estimate_run",
+  "registered_at_utc": "2026-10-18T17:38:19Z",
+  "protocol_file": "research/household-demand/protocol.json",
+  "protocol_sha256": "39c5237fe05a6bb79119bfc64334361723f15593bbb67a44aa4d804646f20d07",
+  "rendered_file": "research/household-demand/PROTOCOL.md",
+  "branch": "codex/household-demand-20261018",
+  "base_commit": "3334939a318137135fc1b28ea3b5d0efc85e8ec9",
+  "estimate_files_on_branch_before_registration": 0,
+  "registration_commit": "not recordable inside its own commit; see the git log entry that adds this file",
+  "scope": "Protocol, analog candidates, priors, intent sources and metrics registered before any estimate. No model run, download or elicitation executed.",
+  "pushed": false,
+  "published": false
+}

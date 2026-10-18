@@ -13,8 +13,8 @@
     },
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 1953,
-      "sha256": "112711ed1581ced7ac08679f5f2bcdb94233710a8e24563b205ffe9206d83718"
+      "bytes": 2084,
+      "sha256": "f780043c896abde72544c76a465fcc7a127ca26c9286cd2496287e7dc8e927d9"
     },
     {
       "path": ".gitignore",
@@ -785,6 +785,56 @@
       "path": "research/halal-cultivated/phase1/verification.json",
       "bytes": 2465,
       "sha256": "b66c5ed59ffa217c44d0d7baccb69f5585e1cfb687baa9704a143b111e66be9e"
+    },
+    {
+      "path": "research/household-demand/PROTOCOL.md",
+      "bytes": 12883,
+      "sha256": "1de760214067c63edf6d1a145188e32750aee45bc7afbcc7265379cc3c190745"
+    },
+    {
+      "path": "research/household-demand/conftest.py",
+      "bytes": 264,
+      "sha256": "f0f8c7d8efaf5562ea0967d7ad463b7c979e58039889f10adcdcb48b7061802f"
+    },
+    {
+      "path": "research/household-demand/inputs/manifest.csv",
+      "bytes": 556,
+      "sha256": "ff5af67ee24d7cc4706fd63e870838b460f655dc9cc16a9ff4fa383b84f0d6af"
+    },
+    {
+      "path": "research/household-demand/logs/registration-receipt.json",
+      "bytes": 771,
+      "sha256": "02ab810ed7bf4d379773df5e8b3b098f91578ffdaefbead28ad041ddd1f5ffc1"
+    },
+    {
+      "path": "research/household-demand/outputs/README.md",
+      "bytes": 367,
+      "sha256": "7c2bc1be79173e8f9e148f218b081dbbf8795eee80bd07360e55cf645b055f51"
+    },
+    {
+      "path": "research/household-demand/protocol.json",
+      "bytes": 18290,
+      "sha256": "39c5237fe05a6bb79119bfc64334361723f15593bbb67a44aa4d804646f20d07"
+    },
+    {
+      "path": "research/household-demand/synthetic.py",
+      "bytes": 3643,
+      "sha256": "2ae0a17100b43d57b6ee937d83d0f7c2846375290916cf8f99fa5c3416711b81"
+    },
+    {
+      "path": "research/household-demand/synthetic/README.md",
+      "bytes": 603,
+      "sha256": "8fe53cfe930222032f67eddc8851ee0fd135a921f2d5370efacc7175c13d90a6"
+    },
+    {
+      "path": "research/household-demand/tests/test_protocol.py",
+      "bytes": 3915,
+      "sha256": "e552e57b2018660f38e111392cd7ec00e77930ec8aebb8abf169f787aeb5d991"
+    },
+    {
+      "path": "research/household-demand/tests/test_synthetic.py",
+      "bytes": 2920,
+      "sha256": "15638824bfcd7ec6c8c6575c96e4c811d800a329a162ab841b39446b3b07e63c"
     },
     {
       "path": "research/india-pakistan/DESIGN-SPEC.md",

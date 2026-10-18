@@ -33,6 +33,8 @@ jobs:
         run: node tools/test-supervisor-publication-checks.mjs
       - name: Check public supervisor source and claim bindings (C1-C5 only)
         run: python3 tools/verify_edition.py --only C1,C2,C3,C4,C5
+      - name: Block synthetic values from publication surfaces
+        run: python3 research/household-demand/synthetic.py --check
       - name: Check October continuation evidence against fixtures
         run: node tools/test-continuation-checks.mjs
       - name: Check MMM reading edition against the manuscript
