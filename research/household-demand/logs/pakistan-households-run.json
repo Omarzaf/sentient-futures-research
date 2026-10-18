@@ -1,6 +1,6 @@
 {
   "status": "DIAGNOSTIC",
-  "generated_at_utc": "2026-10-18T18:23:51Z",
+  "generated_at_utc": "2026-10-18T18:31:14Z",
   "zip": "../OUTPUTS/Deep Research 2026-10/raw/pbs-stata-2024-25.zip",
   "source_sha256": {
     "pbs-stata-2024-25.zip": "cf1286dc00cfc325df7a51fab64b8baecc4f6b62e015742e229bf299760898cc",
@@ -17,11 +17,11 @@
   "household_table": {
     "path": "../OUTPUTS/Household Demand 2026-10/work/pakistan_households.parquet",
     "rows": 30123,
-    "sha256": "2d5c5f2ef7f683fb877c480d1adef63c3b1b15d77b4e84519896d53b2172a9d1"
+    "sha256": "d32e7dd43790a5a489793c344747d828365e98b590d7cbb60ecab69ac8715029"
   },
   "summary": {
     "path": "research/household-demand/outputs/pakistan_summary.json",
-    "sha256": "88f9b7441008f19f3e858fe42444bc0ebf1681cddd83d84573113b0dc3b14bc8"
+    "sha256": "2974ae48a34a6275f84befd4caaabad761c44e64ab05b54a38613e3e418c6cfa"
   },
   "households": 30123,
   "psus": 2153,
@@ -106,7 +106,7 @@
     "fish": 4857,
     "pork": 0,
     "eggs": 21404,
-    "milk": 27862,
+    "milk": 28435,
     "paneer": 0,
     "pulses": 28599,
     "soya": 0,
@@ -121,7 +121,7 @@
     "fish": 4407,
     "pork": 0,
     "eggs": 17254,
-    "milk": 19900,
+    "milk": 20490,
     "paneer": 0,
     "pulses": 28325,
     "soya": 0,

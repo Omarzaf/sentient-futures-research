@@ -371,8 +371,10 @@ PK_MPCE_PARTS: tuple[str, ...] = ("A", "B", "C", "D")
 # Group name -> HIES item codes. Group order follows the India GROUPS, then
 # other_poultry (HIES item 11204, no India counterpart). Brief codes: chicken
 # 11203, mutton 11202, beef 11201, other poultry 11204, fish 11301, eggs 11409,
-# milk 11401 (fresh), pulses 11109 to 11113 and 11115. Beans 11114, prawns
-# 11302 and tetra pack milk 11403 are outside the groups. HIES has no pork,
+# milk 11401 (fresh), pulses 11109 to 11113 and 11115. Milk also holds tetra
+# pack milk 11403 (ruling R22; questionnaire PDF p. 19, litres, part A like
+# 11401), so its unit value mixes loose and packaged milk. Beans 11114 and
+# prawns 11302 are outside the groups. HIES has no pork,
 # paneer or soya chunks item, so those groups hold no codes and stay missing.
 # Packaged (ruling R6): the HIES items matching the lines of the HCES
 # "packaged processed food" block (FDQ 7.2, sub-total 299): breakfast cereals
@@ -388,7 +390,7 @@ PK_GROUPS: dict[str, tuple[int, ...]] = {
     "fish": (11301,),
     "pork": (),
     "eggs": (11409,),
-    "milk": (11401,),
+    "milk": (11401, 11403),
     "paneer": (),
     "pulses": (11109, 11110, 11111, 11112, 11113, 11115),
     "soya": (),

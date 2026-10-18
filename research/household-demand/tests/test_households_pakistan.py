@@ -22,13 +22,13 @@ import pytest
 
 def test_channels_summed(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[2, "qty_month_chicken"] == (2 + 1) * 26 / 12  # q1=2, q2=1
+    assert df.loc["2", "qty_month_chicken"] == (2 + 1) * 26 / 12  # q1=2, q2=1
 
 
 def test_meals_out_value_only(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert math.isnan(df.loc[1, "qty_month_meals_out"])
-    assert df.loc[1, "value_month_meals_out"] > 0
+    assert math.isnan(df.loc["1", "qty_month_meals_out"])
+    assert df.loc["1", "value_month_meals_out"] > 0
 
 
 def test_unresolved_stratum_flagged(pk_fixture):
@@ -65,56 +65,65 @@ def _rewrite(source: Path, target: Path, name: str, change) -> Path:
 def test_channels_summed_monthly_item(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
     # moong: paid 2 kg for 500 plus 1 kg gift for 250, monthly part B
-    assert df.loc[2, "qty_month_pulses"] == 3.0
-    assert df.loc[2, "value_month_pulses"] == 750.0
+    assert df.loc["2", "qty_month_pulses"] == 3.0
+    assert df.loc["2", "value_month_pulses"] == 750.0
 
 
 def test_unit_value_uses_paid_channel_only(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[2, "unit_value_chicken"] == 700.0
-    assert df.loc[2, "unit_value_pulses"] == 250.0
-    assert df.loc[2, "value_month_chicken"] == 2100 * 26 / 12
+    assert df.loc["2", "unit_value_chicken"] == 700.0
+    assert df.loc["2", "unit_value_pulses"] == 250.0
+    assert df.loc["2", "value_month_chicken"] == 2100 * 26 / 12
     # beef: paid 0.5 kg for 500 and own produced 1 kg for 1000
-    assert df.loc[5, "unit_value_beef_buffalo"] == 1000.0
-    assert df.loc[5, "qty_month_beef_buffalo"] == 1.5 * 26 / 12
+    assert df.loc["5", "unit_value_beef_buffalo"] == 1000.0
+    assert df.loc["5", "qty_month_beef_buffalo"] == 1.5 * 26 / 12
 
 
 def test_unpaid_only_gives_missing_unit_value(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[3, "qty_month_eggs"] == 10 * 26 / 12
-    assert math.isnan(df.loc[3, "unit_value_eggs"])
-    assert df.loc[5, "qty_month_pulses"] == 1.0
-    assert math.isnan(df.loc[5, "unit_value_pulses"])
+    assert df.loc["3", "qty_month_eggs"] == 10 * 26 / 12
+    assert math.isnan(df.loc["3", "unit_value_eggs"])
+    assert df.loc["5", "qty_month_pulses"] == 1.0
+    assert math.isnan(df.loc["5", "unit_value_pulses"])
 
 
 def test_value_without_quantity_gives_missing_quantity(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert math.isnan(df.loc[4, "qty_month_other_poultry"])
-    assert math.isnan(df.loc[4, "unit_value_other_poultry"])
-    assert df.loc[4, "value_month_other_poultry"] == 300 * 26 / 12
+    assert math.isnan(df.loc["4", "qty_month_other_poultry"])
+    assert math.isnan(df.loc["4", "unit_value_other_poultry"])
+    assert df.loc["4", "value_month_other_poultry"] == 300 * 26 / 12
 
 
 def test_absent_item_stays_missing(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert math.isnan(df.loc[4, "qty_month_mutton"])
-    assert math.isnan(df.loc[4, "value_month_mutton"])
-    assert df.loc[6, ["value_month_chicken", "value_month_pulses"]].isna().all()
+    assert math.isnan(df.loc["4", "qty_month_mutton"])
+    assert math.isnan(df.loc["4", "value_month_mutton"])
+    assert df.loc["6", ["value_month_chicken", "value_month_pulses"]].isna().all()
 
 
 def test_part_a_scaled_and_part_b_not(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[3, "qty_month_milk"] == 7 * 26 / 12
-    assert df.loc[3, "unit_value_milk"] == 200.0
-    assert df.loc[1, "qty_month_pulses"] == 2.0
-    assert df.loc[1, "value_month_meals_out"] == 500.0
+    assert df.loc["3", "qty_month_milk"] == 7 * 26 / 12
+    assert df.loc["3", "unit_value_milk"] == 200.0
+    assert df.loc["1", "qty_month_pulses"] == 2.0
+    assert df.loc["1", "value_month_meals_out"] == 500.0
+
+
+def test_milk_group_holds_tetra_pack(pk_fixture):
+    assert codes.PK_GROUPS["milk"] == (11401, 11403)
+    df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
+    # hh 5: fresh milk own produced 4 l for 600, tetra pack paid 2 l for 640
+    assert df.loc["5", "qty_month_milk"] == 6 * 26 / 12
+    assert df.loc["5", "value_month_milk"] == pytest.approx(1240 * 26 / 12)
+    assert df.loc["5", "unit_value_milk"] == 320.0
 
 
 def test_packaged_value_only_with_item_recall(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
     # biscuits 300 (part B, monthly) and chocolate 140 (part A, 14 days)
-    assert df.loc[3, "value_month_packaged"] == 300 + 140 * 26 / 12
-    assert math.isnan(df.loc[3, "qty_month_packaged"])
-    assert math.isnan(df.loc[3, "unit_value_packaged"])
+    assert df.loc["3", "value_month_packaged"] == 300 + 140 * 26 / 12
+    assert math.isnan(df.loc["3", "qty_month_packaged"])
+    assert math.isnan(df.loc["3", "unit_value_packaged"])
     assert {11116, 11804} <= set(codes.PK_GROUPS["packaged"])
 
 
@@ -130,30 +139,31 @@ def test_groups_not_collected_stay_missing(pk_fixture):
 def test_mpce_sums_parts_a_to_d_without_totals_or_durables(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
     # hh 1: chicken 700 (A) + dal 600 + meals 500 (B); part totals 1000, 2000 left out
-    assert df.loc[1, "mpce_pkr"] == pytest.approx((700 * 26 / 12 + 600 + 500) / 2)
+    assert df.loc["1", "mpce_pkr"] == pytest.approx((700 * 26 / 12 + 600 + 500) / 2)
     # hh 4: A 650 + 300, C 3000 monthly, D 12000 yearly; E 24000 durable left out
     expected = (950 * 26 / 12 + 3000 + 12000 / 12) / 5
-    assert df.loc[4, "mpce_pkr"] == pytest.approx(expected)
+    assert df.loc["4", "mpce_pkr"] == pytest.approx(expected)
     assert df["mpce_local"].equals(df["mpce_pkr"])
     assert set(df["currency"]) == {"PKR"}
 
 
 def test_household_without_consumption_rows_gets_missing_mpce(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert math.isnan(df.loc[6, "mpce_pkr"])
-    assert df.loc[6, "mpce_status"] == "MISSING_EXPENDITURE"
-    assert set(df.drop(index=6)["mpce_status"]) == {"OK"}
+    assert math.isnan(df.loc["6", "mpce_pkr"])
+    assert df.loc["6", "mpce_status"] == "MISSING_EXPENDITURE"
+    assert set(df.drop(index="6")["mpce_status"]) == {"OK"}
 
 
 def test_household_size_counts_members_only(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[1, "hh_size"] == 2
-    assert df.loc[5, "hh_size"] == 6
+    assert df.loc["1", "hh_size"] == 2
+    assert df.loc["5", "hh_size"] == 6
 
 
 def test_schema_matches_india_groups(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture)
-    assert sorted(df["hhid"]) == [1, 2, 3, 4, 5, 6]
+    assert sorted(df["hhid"]) == ["1", "2", "3", "4", "5", "6"]
+    assert all(isinstance(h, str) for h in df["hhid"])
     expected = list(hp.BASE_COLUMNS) + [
         f"{kind}_{group}" for group in codes.PK_GROUPS for kind in hi.GROUP_KINDS
     ]
@@ -166,12 +176,12 @@ def test_schema_matches_india_groups(pk_fixture):
 
 def test_geography_and_design_columns(pk_fixture):
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[4, "state"] == 3 and df.loc[4, "province"] == 3
-    assert df.loc[4, "sector"] == 2 and df.loc[4, "region"] == 2
-    assert df.loc[1, "psu"] == 25111001 and df.loc[1, "prcode"] == 25111001
-    assert df.loc[1, "district"] == 251
-    assert pd.isna(df.loc[3, "district"])
-    assert df.loc[3, "multiplier"] == 500.0
+    assert df.loc["4", "state"] == 3 and df.loc["4", "province"] == 3
+    assert df.loc["4", "sector"] == 2 and df.loc["4", "region"] == 2
+    assert df.loc["1", "psu"] == 25111001 and df.loc["1", "prcode"] == 25111001
+    assert df.loc["1", "district"] == 251
+    assert pd.isna(df.loc["3", "district"])
+    assert df.loc["3", "multiplier"] == 500.0
     assert df["caste"].isna().all()
 
 
@@ -181,17 +191,17 @@ def test_placeholder_strata_from_csv(pk_fixture):
     assert set(strata["status"]) == {"S" + "YNTHETIC"}
     assert not strata.duplicated(["geo_code", "region"]).any()
     row = strata.loc[strata["geo_code"].eq(251) & strata["region"].eq(1)].iloc[0]
-    assert df.loc[1, "stratum"] == row["stratum"]
-    assert df.loc[1, "stratum"] == df.loc[2, "stratum"]
-    assert df.loc[1, "stratum"] != df.loc[3, "stratum"]
+    assert df.loc["1", "stratum"] == row["stratum"]
+    assert df.loc["1", "stratum"] == df.loc["2", "stratum"]
+    assert df.loc["1", "stratum"] != df.loc["3", "stratum"]
 
 
 def test_official_stratum_mapping_marks_resolved(pk_fixture, monkeypatch):
     monkeypatch.setattr(codes, "PK_OFFICIAL_STRATA", {(251, 1): "official-251-1"})
     df = hp.build_pakistan_households(pk_fixture).set_index("hhid")
-    assert df.loc[1, "stratum_status"] == "RESOLVED"
-    assert df.loc[1, "stratum"] == "official-251-1"
-    assert df.loc[3, "stratum_status"] == "SYNTHETIC"
+    assert df.loc["1", "stratum_status"] == "RESOLVED"
+    assert df.loc["1", "stratum"] == "official-251-1"
+    assert df.loc["3", "stratum_status"] == "SYNTHETIC"
 
 
 def test_psu_outside_strata_csv_raises(pk_fixture, tmp_path: Path):
@@ -286,7 +296,7 @@ def test_province_summary_counts_placeholders_without_flag(pk_fixture):
     punjab = summary["provinces"]["2"]
     # Punjab: hh 1 (w 1000, 2 persons), 2 (1000, 4), 3 (500, 3)
     mpce = df.set_index("hhid")["mpce_pkr"]
-    expected = (mpce[1] * 1000 * 2 + mpce[2] * 1000 * 4 + mpce[3] * 500 * 3) / (
+    expected = (mpce["1"] * 1000 * 2 + mpce["2"] * 1000 * 4 + mpce["3"] * 500 * 3) / (
         1000 * 2 + 1000 * 4 + 500 * 3
     )
     assert punjab["mean_mpce_pkr"] == pytest.approx(expected)

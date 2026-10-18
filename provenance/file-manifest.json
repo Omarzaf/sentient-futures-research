@@ -793,8 +793,8 @@
     },
     {
       "path": "research/household-demand/codes.py",
-      "bytes": 16037,
-      "sha256": "d19011c8180346154a2624df4f18878ef974fb34d7f83c3ad1dbe514d1c6b60a"
+      "bytes": 16177,
+      "sha256": "f3828e2e42b02b9af1582349350c6dbe1d6bbdf297e385062dc7334669b7396f"
     },
     {
       "path": "research/household-demand/conftest.py",
@@ -808,8 +808,8 @@
     },
     {
       "path": "research/household-demand/households_pakistan.py",
-      "bytes": 31102,
-      "sha256": "85adaede1577d098d6eb3bb0d862d63fc343535af1bb404fd5f22f0c96cc8363"
+      "bytes": 31191,
+      "sha256": "f19578adcc1354450bf12c992c162bd9ea82fa26e427344bbf43d81677fd2d88"
     },
     {
       "path": "research/household-demand/inputs/manifest.csv",
@@ -824,7 +824,7 @@
     {
       "path": "research/household-demand/logs/pakistan-households-run.json",
       "bytes": 3828,
-      "sha256": "dcf1fa817915883704e799473d5cb9bfac11c55f7ab855f4be998e5063d465e3"
+      "sha256": "2c3e8c4757be46f40df1f030e97abc816a874a773c356b0e6261bf3966074fb6"
     },
     {
       "path": "research/household-demand/logs/registration-receipt.json",
@@ -843,8 +843,8 @@
     },
     {
       "path": "research/household-demand/outputs/pakistan_summary.json",
-      "bytes": 18918,
-      "sha256": "88f9b7441008f19f3e858fe42444bc0ebf1681cddd83d84573113b0dc3b14bc8"
+      "bytes": 18923,
+      "sha256": "2974ae48a34a6275f84befd4caaabad761c44e64ab05b54a38613e3e418c6cfa"
     },
     {
       "path": "research/household-demand/protocol.json",
@@ -908,8 +908,8 @@
     },
     {
       "path": "research/household-demand/tests/fixtures/make_hies_mini.py",
-      "bytes": 6790,
-      "sha256": "1c4c0286209431a392e537359c202609f79fec560bb39c96cb05997eb1121bff"
+      "bytes": 6992,
+      "sha256": "3b1866fb08beb7a385d5050775c57ed39bfa3f9cb0fe28d084076eb38e02b2fb"
     },
     {
       "path": "research/household-demand/tests/test_households_india.py",
@@ -918,8 +918,8 @@
     },
     {
       "path": "research/household-demand/tests/test_households_pakistan.py",
-      "bytes": 12729,
-      "sha256": "54d4b03b4a09ba97be1a3d37923b5005aa870c7eb2b1805558c0096006e247c7"
+      "bytes": 13337,
+      "sha256": "09ff0a98b6aa1a8553e53cf0138d891803c2a4c4ceddeaa6c52bcbff08261351"
     },
     {
       "path": "research/household-demand/tests/test_protocol.py",

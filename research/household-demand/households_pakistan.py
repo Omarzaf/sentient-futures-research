@@ -1,6 +1,7 @@
 """Build the Pakistan household protein table from the HIES 2024-25 Stata archive.
 
 One row per household with the India table's columns (``households_india``),
+``hhid`` as a string of the PBS hhcode (ruling R23),
 ``mpce_pkr`` in place of ``mpce_inr``, and ``province``, ``region`` and
 ``prcode`` kept from the release. ``state`` is the province code, ``sector``
 the region (1 rural, 2 urban), ``psu`` the PR code and ``multiplier`` the PSU
@@ -202,7 +203,7 @@ def _households(tables: dict[str, pd.DataFrame], strata_path: Path) -> pd.DataFr
     info = info.merge(weights, on="prcode", how="left", validate="many_to_one")
     if info["weight"].isna().any() or not info["weight"].gt(0).all():
         raise ValueError("missing or non-positive PSU weight")
-    info["hhid"] = _integer_ids(info["hhcode"], "hhcode")
+    info["hhid"] = _integer_ids(info["hhcode"], "hhcode").astype(str)
     info["prcode"] = _integer_ids(info["prcode"], "prcode")
     text = info["prcode"].astype(str)
     if not text.str.len().eq(8).all():
@@ -251,7 +252,7 @@ def _items(food: pd.DataFrame, hhids: pd.Index) -> pd.DataFrame:
     """Check item rows and return per-row monthly quantity, value and paid channel."""
     totals = set(codes.PK_PART_TOTAL_CODES.values())
     rows = food.loc[~food["itc"].isin(totals)].copy()
-    rows["hhid"] = _integer_ids(rows["hhcode"], "hhcode")
+    rows["hhid"] = _integer_ids(rows["hhcode"], "hhcode").astype(str)
     if rows.duplicated(["hhid", "itc"]).any():
         raise ValueError("duplicate household item rows in sec_6a would double count")
     if not set(rows["hhid"]) <= set(hhids):
@@ -520,7 +521,7 @@ def run_log(
     for part, code in codes.PK_PART_TOTAL_CODES.items():
         recorded = (
             food.loc[food["itc"].eq(code)]
-            .assign(hhid=lambda f: _integer_ids(f["hhcode"], "hhcode"))
+            .assign(hhid=lambda f: _integer_ids(f["hhcode"], "hhcode").astype(str))
             .set_index("hhid")[VALUE]
             .sum(axis=1)
         )

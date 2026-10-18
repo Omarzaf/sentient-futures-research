@@ -24,7 +24,8 @@ Household roles (hhcode):
   and no quantity; chicken paid; electricity (part C, monthly), garments
   (part D, yearly) and a refrigerator (part E, yearly durable).
 - 5: rural Peshawar district (142); fish paid; beef paid and own produced;
-  masoor from own production only.
+  masoor from own production only; fresh milk own produced (4 litres for
+  600) and tetra pack milk paid (2 litres for 640).
 - 6: rural Quetta district (411); no consumption rows.
 """
 
@@ -77,6 +78,8 @@ ITEMS = [
     (5, 11301, 1.0, 800, NAN, NAN, NAN, NAN, NAN, NAN),
     (5, 11201, 0.5, 500, NAN, NAN, 1.0, 1000, NAN, NAN),
     (5, 11113, NAN, NAN, NAN, NAN, 1.0, 300, NAN, NAN),
+    (5, 11401, NAN, NAN, NAN, NAN, 4.0, 600, NAN, NAN),
+    (5, 11403, 2.0, 640, NAN, NAN, NAN, NAN, NAN, NAN),
 ]
 
 

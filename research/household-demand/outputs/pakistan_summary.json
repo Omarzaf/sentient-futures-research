@@ -107,14 +107,14 @@
           "mean_unit_value_pkr": 30.6182
         },
         "milk": {
-          "n_reporting": 4887,
-          "reporting_share": 0.873833,
-          "n_value": 4887,
-          "mean_value_month_pkr_reporting": 5756.1851,
-          "n_qty": 4887,
-          "mean_qty_month_reporting": 28.2141,
-          "n_unit_value": 3448,
-          "mean_unit_value_pkr": 204.0518
+          "n_reporting": 5180,
+          "reporting_share": 0.917673,
+          "n_value": 5180,
+          "mean_value_month_pkr_reporting": 5790.2407,
+          "n_qty": 5180,
+          "mean_qty_month_reporting": 28.0246,
+          "n_unit_value": 3750,
+          "mean_unit_value_pkr": 210.8733
         },
         "paneer": {
           "n_reporting": 0,
@@ -245,14 +245,14 @@
           "mean_unit_value_pkr": 28.3188
         },
         "milk": {
-          "n_reporting": 13051,
-          "reporting_share": 0.967301,
-          "n_value": 13051,
-          "mean_value_month_pkr_reporting": 8437.4851,
-          "n_qty": 13051,
-          "mean_qty_month_reporting": 47.9018,
-          "n_unit_value": 9341,
-          "mean_unit_value_pkr": 180.567
+          "n_reporting": 13149,
+          "reporting_share": 0.975013,
+          "n_value": 13149,
+          "mean_value_month_pkr_reporting": 8425.1212,
+          "n_qty": 13149,
+          "mean_qty_month_reporting": 47.7112,
+          "n_unit_value": 9442,
+          "mean_unit_value_pkr": 181.9708
         },
         "paneer": {
           "n_reporting": 0,
@@ -383,14 +383,14 @@
           "mean_unit_value_pkr": 28.8812
         },
         "milk": {
-          "n_reporting": 7943,
-          "reporting_share": 0.939474,
-          "n_value": 7943,
-          "mean_value_month_pkr_reporting": 5718.1229,
-          "n_qty": 7943,
-          "mean_qty_month_reporting": 28.2,
-          "n_unit_value": 6126,
-          "mean_unit_value_pkr": 206.7659
+          "n_reporting": 8040,
+          "reporting_share": 0.955705,
+          "n_value": 8040,
+          "mean_value_month_pkr_reporting": 5820.2808,
+          "n_qty": 8040,
+          "mean_qty_month_reporting": 28.3551,
+          "n_unit_value": 6224,
+          "mean_unit_value_pkr": 209.4324
         },
         "paneer": {
           "n_reporting": 0,
@@ -521,14 +521,14 @@
           "mean_unit_value_pkr": 30.6666
         },
         "milk": {
-          "n_reporting": 1981,
-          "reporting_share": 0.727594,
-          "n_value": 1981,
-          "mean_value_month_pkr_reporting": 5413.1454,
-          "n_qty": 1981,
-          "mean_qty_month_reporting": 28.3386,
-          "n_unit_value": 985,
-          "mean_unit_value_pkr": 200.3168
+          "n_reporting": 2066,
+          "reporting_share": 0.766186,
+          "n_value": 2066,
+          "mean_value_month_pkr_reporting": 5278.2261,
+          "n_qty": 2066,
+          "mean_qty_month_reporting": 27.4645,
+          "n_unit_value": 1074,
+          "mean_unit_value_pkr": 207.8842
         },
         "paneer": {
           "n_reporting": 0,
