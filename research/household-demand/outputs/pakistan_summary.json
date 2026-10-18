@@ -1,0 +1,596 @@
+{
+  "status": "DIAGNOSTIC",
+  "source": "PBS HIES 2024-25 Stata archive: section_info, plist_roster, weight, sec_6a_consum_exp",
+  "weight": "PSU weight from weight.dta",
+  "province_codes": {
+    "1": "Khyber Pakhtunkhwa",
+    "2": "Punjab",
+    "3": "Sindh",
+    "4": "Balochistan"
+  },
+  "province_note": "province 2 includes Islamabad Capital Territory PSUs (PR code 61x); AJK and Gilgit-Baltistan are absent from the archive",
+  "min_cell_households": 30,
+  "suppression": "a cell with fewer than min_cell_households unweighted households is null; its unweighted count n_* is kept (ruling R16)",
+  "mean_mpce_definition": "person-weighted over households with mpce_status OK: sum(w * MPCE * hh_size) / sum(w * hh_size); MPCE sums section 6 parts A to D (all channels) per member, part E durables left out",
+  "group_mean_definition": "household-weighted means among households reporting the group; reporting_share is the weighted share reporting it; unreported items are not zero-filled",
+  "unit_value_definition": "paid and consumed channel only (q1, v1; ruling R15 analogue)",
+  "monthly_scaling": "part A (14 days) x 26 / 12; parts B and C as reported; parts D and E / 12",
+  "units": {
+    "chicken": "kg",
+    "mutton": "kg",
+    "beef_buffalo": "kg",
+    "fish": "kg",
+    "pork": "not collected in HIES",
+    "eggs": "number",
+    "milk": "litre",
+    "paneer": "not collected in HIES",
+    "pulses": "kg",
+    "soya": "not collected in HIES",
+    "packaged": "none (value only)",
+    "meals_out": "none (value only)",
+    "other_poultry": "kg"
+  },
+  "not_collected_groups": [
+    "pork",
+    "paneer",
+    "soya"
+  ],
+  "households": 30123,
+  "psus": 2153,
+  "placeholder_stratum_households": 30123,
+  "resolved_stratum_households": 0,
+  "provinces": {
+    "1": {
+      "n_households": 5607,
+      "n_psus": 407,
+      "n_mpce": 5607,
+      "mean_mpce_pkr": 11333.6465,
+      "groups": {
+        "chicken": {
+          "n_reporting": 3254,
+          "reporting_share": 0.56488,
+          "n_value": 3254,
+          "mean_value_month_pkr_reporting": 2382.9633,
+          "n_qty": 3254,
+          "mean_qty_month_reporting": 3.8694,
+          "n_unit_value": 3154,
+          "mean_unit_value_pkr": 647.6867
+        },
+        "mutton": {
+          "n_reporting": 393,
+          "reporting_share": 0.066923,
+          "n_value": 393,
+          "mean_value_month_pkr_reporting": 3553.6212,
+          "n_qty": 393,
+          "mean_qty_month_reporting": 2.1691,
+          "n_unit_value": 263,
+          "mean_unit_value_pkr": 1614.0832
+        },
+        "beef_buffalo": {
+          "n_reporting": 2856,
+          "reporting_share": 0.492343,
+          "n_value": 2856,
+          "mean_value_month_pkr_reporting": 2840.9231,
+          "n_qty": 2856,
+          "mean_qty_month_reporting": 3.0949,
+          "n_unit_value": 2494,
+          "mean_unit_value_pkr": 934.7933
+        },
+        "fish": {
+          "n_reporting": 289,
+          "reporting_share": 0.039489,
+          "n_value": 289,
+          "mean_value_month_pkr_reporting": 2193.1867,
+          "n_qty": 289,
+          "mean_qty_month_reporting": 3.7157,
+          "n_unit_value": 267,
+          "mean_unit_value_pkr": 624.8393
+        },
+        "pork": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "eggs": {
+          "n_reporting": 4041,
+          "reporting_share": 0.717222,
+          "n_value": 4041,
+          "mean_value_month_pkr_reporting": 653.7971,
+          "n_qty": 4041,
+          "mean_qty_month_reporting": 23.0773,
+          "n_unit_value": 2385,
+          "mean_unit_value_pkr": 30.6182
+        },
+        "milk": {
+          "n_reporting": 4887,
+          "reporting_share": 0.873833,
+          "n_value": 4887,
+          "mean_value_month_pkr_reporting": 5756.1851,
+          "n_qty": 4887,
+          "mean_qty_month_reporting": 28.2141,
+          "n_unit_value": 3448,
+          "mean_unit_value_pkr": 204.0518
+        },
+        "paneer": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "pulses": {
+          "n_reporting": 5103,
+          "reporting_share": 0.910667,
+          "n_value": 5103,
+          "mean_value_month_pkr_reporting": 597.0813,
+          "n_qty": 5103,
+          "mean_qty_month_reporting": 1.6431,
+          "n_unit_value": 5052,
+          "mean_unit_value_pkr": 371.2406
+        },
+        "soya": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "packaged": {
+          "n_reporting": 4302,
+          "reporting_share": 0.758798,
+          "n_value": 4302,
+          "mean_value_month_pkr_reporting": 1006.8117,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "meals_out": {
+          "n_reporting": 4189,
+          "reporting_share": 0.72268,
+          "n_value": 4189,
+          "mean_value_month_pkr_reporting": 2314.8796,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "other_poultry": {
+          "n_reporting": 8,
+          "reporting_share": null,
+          "n_value": 8,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 8,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 4,
+          "mean_unit_value_pkr": null
+        }
+      }
+    },
+    "2": {
+      "n_households": 13483,
+      "n_psus": 960,
+      "n_mpce": 13483,
+      "mean_mpce_pkr": 13912.5811,
+      "groups": {
+        "chicken": {
+          "n_reporting": 10458,
+          "reporting_share": 0.781417,
+          "n_value": 10458,
+          "mean_value_month_pkr_reporting": 1589.3313,
+          "n_qty": 10458,
+          "mean_qty_month_reporting": 2.6865,
+          "n_unit_value": 10285,
+          "mean_unit_value_pkr": 595.1257
+        },
+        "mutton": {
+          "n_reporting": 1399,
+          "reporting_share": 0.106858,
+          "n_value": 1399,
+          "mean_value_month_pkr_reporting": 6169.0009,
+          "n_qty": 1399,
+          "mean_qty_month_reporting": 3.2419,
+          "n_unit_value": 1002,
+          "mean_unit_value_pkr": 1951.7192
+        },
+        "beef_buffalo": {
+          "n_reporting": 2820,
+          "reporting_share": 0.209049,
+          "n_value": 2820,
+          "mean_value_month_pkr_reporting": 3058.639,
+          "n_qty": 2820,
+          "mean_qty_month_reporting": 2.8603,
+          "n_unit_value": 2332,
+          "mean_unit_value_pkr": 1056.1986
+        },
+        "fish": {
+          "n_reporting": 934,
+          "reporting_share": 0.073381,
+          "n_value": 934,
+          "mean_value_month_pkr_reporting": 2074.0116,
+          "n_qty": 934,
+          "mean_qty_month_reporting": 3.7512,
+          "n_unit_value": 885,
+          "mean_unit_value_pkr": 555.9874
+        },
+        "pork": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "eggs": {
+          "n_reporting": 10160,
+          "reporting_share": 0.761901,
+          "n_value": 10160,
+          "mean_value_month_pkr_reporting": 690.7043,
+          "n_qty": 10160,
+          "mean_qty_month_reporting": 24.5827,
+          "n_unit_value": 8955,
+          "mean_unit_value_pkr": 28.3188
+        },
+        "milk": {
+          "n_reporting": 13051,
+          "reporting_share": 0.967301,
+          "n_value": 13051,
+          "mean_value_month_pkr_reporting": 8437.4851,
+          "n_qty": 13051,
+          "mean_qty_month_reporting": 47.9018,
+          "n_unit_value": 9341,
+          "mean_unit_value_pkr": 180.567
+        },
+        "paneer": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "pulses": {
+          "n_reporting": 12964,
+          "reporting_share": 0.960708,
+          "n_value": 12964,
+          "mean_value_month_pkr_reporting": 627.1327,
+          "n_qty": 12964,
+          "mean_qty_month_reporting": 1.7055,
+          "n_unit_value": 12847,
+          "mean_unit_value_pkr": 372.154
+        },
+        "soya": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "packaged": {
+          "n_reporting": 11152,
+          "reporting_share": 0.831471,
+          "n_value": 11152,
+          "mean_value_month_pkr_reporting": 1069.7495,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "meals_out": {
+          "n_reporting": 10286,
+          "reporting_share": 0.776572,
+          "n_value": 10286,
+          "mean_value_month_pkr_reporting": 2810.9248,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "other_poultry": {
+          "n_reporting": 9,
+          "reporting_share": null,
+          "n_value": 9,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 9,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 9,
+          "mean_unit_value_pkr": null
+        }
+      }
+    },
+    "3": {
+      "n_households": 8327,
+      "n_psus": 595,
+      "n_mpce": 8327,
+      "mean_mpce_pkr": 13506.8668,
+      "groups": {
+        "chicken": {
+          "n_reporting": 6813,
+          "reporting_share": 0.847158,
+          "n_value": 6813,
+          "mean_value_month_pkr_reporting": 1685.2155,
+          "n_qty": 6813,
+          "mean_qty_month_reporting": 2.532,
+          "n_unit_value": 6692,
+          "mean_unit_value_pkr": 669.1666
+        },
+        "mutton": {
+          "n_reporting": 684,
+          "reporting_share": 0.090237,
+          "n_value": 684,
+          "mean_value_month_pkr_reporting": 4508.5184,
+          "n_qty": 684,
+          "mean_qty_month_reporting": 2.3327,
+          "n_unit_value": 544,
+          "mean_unit_value_pkr": 1873.6292
+        },
+        "beef_buffalo": {
+          "n_reporting": 1910,
+          "reporting_share": 0.29056,
+          "n_value": 1910,
+          "mean_value_month_pkr_reporting": 2709.9183,
+          "n_qty": 1910,
+          "mean_qty_month_reporting": 2.2219,
+          "n_unit_value": 1730,
+          "mean_unit_value_pkr": 1249.3198
+        },
+        "fish": {
+          "n_reporting": 3249,
+          "reporting_share": 0.383161,
+          "n_value": 3249,
+          "mean_value_month_pkr_reporting": 1383.1802,
+          "n_qty": 3249,
+          "mean_qty_month_reporting": 2.7871,
+          "n_unit_value": 2911,
+          "mean_unit_value_pkr": 529.1639
+        },
+        "pork": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "eggs": {
+          "n_reporting": 5531,
+          "reporting_share": 0.714045,
+          "n_value": 5531,
+          "mean_value_month_pkr_reporting": 617.7756,
+          "n_qty": 5531,
+          "mean_qty_month_reporting": 21.5262,
+          "n_unit_value": 4823,
+          "mean_unit_value_pkr": 28.8812
+        },
+        "milk": {
+          "n_reporting": 7943,
+          "reporting_share": 0.939474,
+          "n_value": 7943,
+          "mean_value_month_pkr_reporting": 5718.1229,
+          "n_qty": 7943,
+          "mean_qty_month_reporting": 28.2,
+          "n_unit_value": 6126,
+          "mean_unit_value_pkr": 206.7659
+        },
+        "paneer": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "pulses": {
+          "n_reporting": 7856,
+          "reporting_share": 0.951624,
+          "n_value": 7856,
+          "mean_value_month_pkr_reporting": 521.214,
+          "n_qty": 7856,
+          "mean_qty_month_reporting": 1.4392,
+          "n_unit_value": 7761,
+          "mean_unit_value_pkr": 361.6325
+        },
+        "soya": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "packaged": {
+          "n_reporting": 6684,
+          "reporting_share": 0.833101,
+          "n_value": 6684,
+          "mean_value_month_pkr_reporting": 1511.2578,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "meals_out": {
+          "n_reporting": 6641,
+          "reporting_share": 0.833693,
+          "n_value": 6641,
+          "mean_value_month_pkr_reporting": 3542.5249,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "other_poultry": {
+          "n_reporting": 9,
+          "reporting_share": null,
+          "n_value": 9,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 7,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 6,
+          "mean_unit_value_pkr": null
+        }
+      }
+    },
+    "4": {
+      "n_households": 2706,
+      "n_psus": 191,
+      "n_mpce": 2706,
+      "mean_mpce_pkr": 10124.8372,
+      "groups": {
+        "chicken": {
+          "n_reporting": 2383,
+          "reporting_share": 0.85394,
+          "n_value": 2383,
+          "mean_value_month_pkr_reporting": 1967.1701,
+          "n_qty": 2383,
+          "mean_qty_month_reporting": 2.9164,
+          "n_unit_value": 2270,
+          "mean_unit_value_pkr": 682.253
+        },
+        "mutton": {
+          "n_reporting": 653,
+          "reporting_share": 0.232854,
+          "n_value": 653,
+          "mean_value_month_pkr_reporting": 5062.8223,
+          "n_qty": 653,
+          "mean_qty_month_reporting": 2.5209,
+          "n_unit_value": 545,
+          "mean_unit_value_pkr": 2040.3397
+        },
+        "beef_buffalo": {
+          "n_reporting": 1087,
+          "reporting_share": 0.418002,
+          "n_value": 1087,
+          "mean_value_month_pkr_reporting": 2980.9779,
+          "n_qty": 1087,
+          "mean_qty_month_reporting": 2.3961,
+          "n_unit_value": 1062,
+          "mean_unit_value_pkr": 1248.7038
+        },
+        "fish": {
+          "n_reporting": 385,
+          "reporting_share": 0.249679,
+          "n_value": 385,
+          "mean_value_month_pkr_reporting": 1896.4635,
+          "n_qty": 385,
+          "mean_qty_month_reporting": 3.8692,
+          "n_unit_value": 344,
+          "mean_unit_value_pkr": 506.1648
+        },
+        "pork": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "eggs": {
+          "n_reporting": 1672,
+          "reporting_share": 0.634444,
+          "n_value": 1672,
+          "mean_value_month_pkr_reporting": 1046.9271,
+          "n_qty": 1672,
+          "mean_qty_month_reporting": 33.4085,
+          "n_unit_value": 1091,
+          "mean_unit_value_pkr": 30.6666
+        },
+        "milk": {
+          "n_reporting": 1981,
+          "reporting_share": 0.727594,
+          "n_value": 1981,
+          "mean_value_month_pkr_reporting": 5413.1454,
+          "n_qty": 1981,
+          "mean_qty_month_reporting": 28.3386,
+          "n_unit_value": 985,
+          "mean_unit_value_pkr": 200.3168
+        },
+        "paneer": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "pulses": {
+          "n_reporting": 2676,
+          "reporting_share": 0.990744,
+          "n_value": 2676,
+          "mean_value_month_pkr_reporting": 858.5591,
+          "n_qty": 2676,
+          "mean_qty_month_reporting": 2.1331,
+          "n_unit_value": 2665,
+          "mean_unit_value_pkr": 398.0504
+        },
+        "soya": {
+          "n_reporting": 0,
+          "reporting_share": null,
+          "n_value": 0,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "packaged": {
+          "n_reporting": 2075,
+          "reporting_share": 0.772768,
+          "n_value": 2075,
+          "mean_value_month_pkr_reporting": 763.1498,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "meals_out": {
+          "n_reporting": 1507,
+          "reporting_share": 0.550064,
+          "n_value": 1507,
+          "mean_value_month_pkr_reporting": 2600.0003,
+          "n_qty": 0,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 0,
+          "mean_unit_value_pkr": null
+        },
+        "other_poultry": {
+          "n_reporting": 1,
+          "reporting_share": null,
+          "n_value": 1,
+          "mean_value_month_pkr_reporting": null,
+          "n_qty": 1,
+          "mean_qty_month_reporting": null,
+          "n_unit_value": 1,
+          "mean_unit_value_pkr": null
+        }
+      }
+    }
+  }
+}
