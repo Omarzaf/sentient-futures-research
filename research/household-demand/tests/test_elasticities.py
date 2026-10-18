@@ -240,7 +240,11 @@ def test_resolved_rows_resample_within_strata(simulated_households):
     frame = simulated_households[simulated_households["mpce_status"].eq("OK")]
     labels = el.resampling_strata(frame)
     assert labels.groupby(frame["psu"]).nunique().max() == 1
-    assert labels.nunique() == frame.groupby(["state", "sector", "stratum"]).ngroups
+    assert (
+        labels.nunique()
+        == frame.groupby(["state", "sector", "district", "stratum"]).ngroups
+    )
+    assert labels.attrs["collapsed_strata"] == 0
 
 
 def test_placeholder_rows_resample_within_province(simulated_households):
@@ -333,3 +337,108 @@ def test_summary_is_json_and_free_of_placeholder_token(simulated_households):
     )
     chicken = summary["elasticities"]["own_price:chicken"]
     assert chicken["lower"] <= chicken["draw_median"] <= chicken["upper"]
+
+
+# Fix round 1: rulings R27 (India strata include district) and R28 (leave-one-out).
+
+
+def test_india_strata_split_repeated_code_and_pool_single_psu():
+    # Stratum code 7 repeats in districts 1 and 2 (2 PSUs each); district 3 has a
+    # single-PSU stratum and district 4 another, both pooled for state 1 sector 1.
+    frame = pd.DataFrame(
+        {
+            "state": [1] * 6,
+            "sector": [1] * 6,
+            "district": [1, 1, 2, 2, 3, 4],
+            "stratum": [7, 7, 7, 7, 7, 9],
+            "psu": [11, 12, 21, 22, 31, 41],
+            "stratum_status": ["RESOLVED"] * 6,
+        }
+    )
+    labels = el.resampling_strata(frame)
+    assert labels.iloc[0] == labels.iloc[1]
+    assert labels.iloc[2] == labels.iloc[3]
+    assert labels.iloc[0] != labels.iloc[2]
+    assert labels.iloc[4] == labels.iloc[5] == "R:1:1:pooled"
+    assert labels.nunique() == 3
+    assert labels.attrs["collapsed_strata"] == 2
+
+
+def test_collapsed_strata_reach_result_and_summary(simulated_households):
+    frame = simulated_households.copy()
+    single = frame["state"].eq(1) & frame["district"].eq(1) & frame["sector"].eq(1)
+    first_psu = frame.loc[single, "psu"].min()
+    frame.loc[single & frame["psu"].eq(first_psu), "stratum"] = 99
+    est = el.estimate_elasticities(frame, ["chicken"], cluster="psu", draws=3)
+    assert est.design["collapsed_strata"] == 2
+    assert est.to_dict()["design"]["collapsed_strata"] == 2
+
+
+def test_leave_one_out_price_excludes_own_unit_value():
+    frame = pd.DataFrame(
+        {
+            "state": [1] * 6,
+            "district": [1] * 6,
+            "sector": [1] * 6,
+            "multiplier": [1, 1, 1, 1, 1, 1],
+            "unit_value_chicken": [100.0, 100.0, 100.0, 100.0, 200.0, np.nan],
+        }
+    )
+    prices = el.household_prices(frame, ["chicken"], min_obs=4)
+    assert prices.loc[4, "chicken"] == pytest.approx(100.0)
+    assert prices.loc[0, "chicken"] == pytest.approx(125.0)
+    assert prices.loc[5, "chicken"] == pytest.approx(120.0)
+    # Minimum-cell rule after exclusion: reporters see 4 others, so min_obs=5
+    # leaves them missing while the non-reporter still sees 5.
+    strict = el.household_prices(frame, ["chicken"], min_obs=5)
+    assert strict.loc[:4, "chicken"].isna().all()
+    assert strict.loc[5, "chicken"] == pytest.approx(120.0)
+
+
+def make_reporting_error_households(seed: int = SEED) -> pd.DataFrame:
+    """800 cells of 12 buyers; a value reporting error enters ln w and ln uv together."""
+    rng = np.random.default_rng(seed)
+    n_cells, size = 800, 12
+    cell = np.repeat(np.arange(n_cells), size)
+    n = cell.size
+    log_p = (np.log(150) + rng.normal(0, 0.3, n_cells))[cell]
+    error = rng.normal(0, 0.4, n)
+    mpce = np.exp(np.log(4000) + rng.normal(0, 0.5, n))
+    hh_size = rng.integers(1, 9, n)
+    log_w = (
+        np.log(0.03)
+        + (TRUE_OWN["chicken"] + 1) * (log_p - np.log(150))
+        + (TRUE_INCOME["chicken"] - 1) * np.log(mpce / 4000)
+        + rng.normal(0, 0.3, n)
+    )
+    value = np.exp(log_w + error) * mpce * hh_size
+    quantity = np.exp(log_w) * mpce * hh_size / np.exp(log_p)
+    return pd.DataFrame(
+        {
+            "hhid": [f"h{i}" for i in range(n)],
+            "state": 1 + cell // 200,
+            "district": cell,
+            "sector": 1,
+            "psu": cell,
+            "stratum": 1,
+            "stratum_status": "RESOLVED",
+            "multiplier": 1,
+            "hh_size": hh_size,
+            "mpce_local": mpce,
+            "mpce_status": "OK",
+            "currency": "INR",
+            "value_month_chicken": value,
+            "qty_month_chicken": quantity,
+            "unit_value_chicken": value / quantity,
+        }
+    )
+
+
+def test_leave_one_out_removes_shared_reporting_error_bias():
+    frame = make_reporting_error_households()
+    loo = el.estimate_elasticities(frame, ["chicken"], cluster="psu", draws=2)
+    inclusive = el.estimate_elasticities(
+        frame, ["chicken"], cluster="psu", draws=2, leave_one_out=False
+    )
+    assert abs(loo.own_price["chicken"] - TRUE_OWN["chicken"]) < 0.05
+    assert inclusive.own_price["chicken"] - TRUE_OWN["chicken"] > 0.05

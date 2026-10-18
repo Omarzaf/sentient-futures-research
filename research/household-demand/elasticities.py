@@ -5,12 +5,15 @@ Method (Deaton unit-value approach, simplified; plan Task 4):
 1. Keep households with ``mpce_status == "OK"``, positive MPCE, household size
    and survey weight. One table holds one country (one ``currency``).
 2. Price of group g in a cell is the weighted mean of household market unit
-   values ``unit_value_{g}`` (survey weight ``multiplier``). A cell is state by
+   values ``unit_value_{g}`` (survey weight ``multiplier``), computed leave-one-out:
+   each household's own unit value is excluded from the price it faces, so a
+   value reporting error cannot enter ln w and ln p together (ruling R28). A cell is state by
    price area by sector. The price area is ``district`` in India and the PR-code
    geography (``psu // 100_000``: rural district or urban division) in Pakistan,
    whose table leaves urban ``district`` missing. A cell with fewer than
-   ``min_cell_obs`` (default 5) unweighted unit-value households has a missing
-   price, and its households leave every equation that uses that price.
+   ``min_cell_obs`` (default 5) unweighted unit-value households, counted after
+   the exclusion, has a missing price, and the household leaves every equation
+   that uses that price.
 3. For each group g, regress ln w_g on the log cell prices of all requested
    groups, ln MPCE and ln household size, with state fixed effects, by weighted
    least squares (numpy). w_g = value_month_g / (mpce_local * hh_size). Only
@@ -27,9 +30,10 @@ Method (Deaton unit-value approach, simplified; plan Task 4):
 5. Variance. Bootstrap PSUs (``cluster``) with the Rao-Wu rescaled bootstrap:
    n_h - 1 PSUs drawn with replacement in each resampling stratum h, weight
    factor count * n_h / (n_h - 1). Resampling strata are the official strata
-   (state x sector x ``stratum``) where ``stratum_status == "RESOLVED"`` and
-   the province (``state``) elsewhere (decision 18, ruling R2). An official
-   stratum with one PSU joins a pooled stratum for its state and sector. Each
+   (state x sector x district x ``stratum``; HCES reuses stratum codes across
+   districts, ruling R27) where ``stratum_status == "RESOLVED"`` and the
+   province (``state``) elsewhere (decision 18, ruling R2). An official stratum
+   with one PSU joins a pooled stratum for its state and sector. Each
    draw recomputes cell prices and all regressions with the draw's weights.
    Seed 20261018.
 
@@ -73,6 +77,7 @@ __all__ = [
     "Elasticities",
     "cell_prices",
     "estimate_elasticities",
+    "household_prices",
     "main",
     "price_area",
     "psu_factors",
@@ -224,12 +229,80 @@ def cell_prices(
     return pd.DataFrame(out).reindex(index).sort_index()
 
 
+def _cell_sums(
+    cell: np.ndarray,
+    n_cell: int,
+    uv0: np.ndarray,
+    has: np.ndarray,
+    weight: np.ndarray,
+    count: np.ndarray,
+) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Per-cell weighted unit-value sum, weight sum and observation count."""
+    c = cell[has]
+    num = np.bincount(c, weights=(weight * uv0)[has], minlength=n_cell)
+    den = np.bincount(c, weights=weight[has], minlength=n_cell)
+    obs = np.bincount(c, weights=count[has], minlength=n_cell)
+    return num, den, obs
+
+
+def _row_log_price(
+    sums: tuple[np.ndarray, np.ndarray, np.ndarray],
+    cell: np.ndarray,
+    uv0: np.ndarray,
+    has: np.ndarray,
+    weight: np.ndarray,
+    count: np.ndarray,
+    min_obs: int,
+    leave_one_out: bool,
+) -> np.ndarray:
+    """Log cell price seen by each row; leave-one-out drops the row's own unit value.
+
+    The minimum-cell rule applies after exclusion (ruling R28). A bootstrap
+    duplicate is the same household, so all its copies leave together.
+    """
+    num, den, obs = (a[cell] for a in sums)
+    if leave_one_out:
+        num = num - np.where(has, weight * uv0, 0.0)
+        den = den - np.where(has, weight, 0.0)
+        obs = obs - np.where(has, count, 0.0)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        price = np.log(num / den)
+    price[(obs < min_obs - 1e-9) | ~(den > 0)] = np.nan
+    return price
+
+
+def household_prices(
+    frame: pd.DataFrame,
+    groups: list[str],
+    min_obs: int = MIN_CELL_OBS,
+    leave_one_out: bool = True,
+) -> pd.DataFrame:
+    """Cell price each household faces, leave-one-out by default (ruling R28)."""
+    cell, _ = pd.factorize(pd.MultiIndex.from_frame(_cell_frame(frame)))
+    n_cell = int(cell.max()) + 1
+    weight = frame["multiplier"].to_numpy(float)
+    count = np.ones(len(frame))
+    out = {}
+    for g in groups:
+        uv = frame[f"unit_value_{g}"].to_numpy(float)
+        has = np.isfinite(uv) & (uv > 0)
+        uv0 = np.where(has, uv, 0.0)
+        sums = _cell_sums(cell, n_cell, uv0, has, weight, count)
+        log_p = _row_log_price(
+            sums, cell, uv0, has, weight, count, min_obs, leave_one_out
+        )
+        out[g] = np.exp(log_p)
+    return pd.DataFrame(out, index=frame.index)
+
+
 def resampling_strata(frame: pd.DataFrame) -> pd.Series:
     """Label each row with its bootstrap stratum.
 
-    RESOLVED rows: official stratum, state x sector x stratum; a stratum with one
-    PSU in ``frame`` joins a pooled stratum for its state and sector. Other rows
-    (placeholder strata): the province, ``state``.
+    RESOLVED rows: official stratum, state x sector x district x stratum (ruling
+    R27: HCES reuses stratum codes across districts). A stratum with one PSU in
+    ``frame`` joins a pooled stratum for its state and sector; the number of such
+    strata is in ``attrs["collapsed_strata"]``. Other rows (placeholder strata):
+    the province, ``state``.
     """
     resolved = frame["stratum_status"].eq(RESOLVED_STATUS)
     unknown = ~frame["stratum_status"].isin([RESOLVED_STATUS, PLACEHOLDER_STATUS])
@@ -237,10 +310,29 @@ def resampling_strata(frame: pd.DataFrame) -> pd.Series:
         raise ValueError("stratum_status must be RESOLVED or the placeholder flag")
     state = frame["state"].astype(str)
     sector = frame["sector"].astype(str)
-    official = "R:" + state + ":" + sector + ":" + frame["stratum"].astype(str)
+    district = frame["district"].astype(str)
+    official = (
+        "R:"
+        + state
+        + ":"
+        + sector
+        + ":"
+        + district
+        + ":"
+        + frame["stratum"].astype(str)
+    )
     psus = frame["psu"].groupby(official).transform("nunique")
-    official = official.where(psus > 1, "R:" + state + ":" + sector + ":pooled")
-    return official.where(resolved, "P:" + state).rename("resampling_stratum")
+    single = resolved & psus.eq(1)
+    official = official.where(~single, "R:" + state + ":" + sector + ":pooled")
+    labels = official.where(resolved, "P:" + state).rename("resampling_stratum")
+    labels.attrs["collapsed_strata"] = int(_official_count(frame, single))
+    return labels
+
+
+def _official_count(frame: pd.DataFrame, single: pd.Series) -> int:
+    """Number of distinct official strata that hold a single PSU."""
+    keys = ["state", "sector", "district", "stratum"]
+    return int(frame.loc[single, keys].astype(str).drop_duplicates().shape[0])
 
 
 def psu_factors(
@@ -275,10 +367,16 @@ class _Design:
     """Arrays for one country (or one state) prepared once for all draws."""
 
     def __init__(
-        self, frame: pd.DataFrame, groups: list[str], cluster: str, min_obs: int
+        self,
+        frame: pd.DataFrame,
+        groups: list[str],
+        cluster: str,
+        min_obs: int,
+        leave_one_out: bool = True,
     ):
         self.groups = groups
         self.min_obs = min_obs
+        self.leave_one_out = leave_one_out
         self.weight = frame["multiplier"].to_numpy(float)
         cells = _cell_frame(frame)
         self.cell, _ = pd.factorize(pd.MultiIndex.from_frame(cells))
@@ -289,9 +387,11 @@ class _Design:
         strata = resampling_strata(frame)
         first = pd.Series(np.arange(len(frame))).groupby(self.psu).first().to_numpy()
         self.psu_strata = strata.to_numpy()[first]
+        self.collapsed_strata = strata.attrs["collapsed_strata"]
         self.n_psu = len(psu_labels)
         self.uv = {g: frame[f"unit_value_{g}"].to_numpy(float) for g in groups}
         self.has_uv = {g: np.isfinite(self.uv[g]) & (self.uv[g] > 0) for g in groups}
+        self.uv0 = {g: np.where(self.has_uv[g], self.uv[g], 0.0) for g in groups}
         log_x = np.log(frame["mpce_local"].to_numpy(float))
         log_n = np.log(frame["hh_size"].to_numpy(float))
         budget = frame["mpce_local"].to_numpy(float) * frame["hh_size"].to_numpy(float)
@@ -304,36 +404,40 @@ class _Design:
             self.y[g] = np.log(share[rows])
             self.extra[g] = np.column_stack([log_x[rows], log_n[rows]])
 
-    def log_prices(
-        self, weight: np.ndarray, count: np.ndarray
-    ) -> dict[str, np.ndarray]:
-        out = {}
-        for g in self.groups:
-            has = self.has_uv[g]
-            cell = self.cell[has]
-            num = np.bincount(
-                cell, weights=(weight * self.uv[g])[has], minlength=self.n_cell
+    def cell_sums(self, weight: np.ndarray, count: np.ndarray) -> dict[str, tuple]:
+        return {
+            g: _cell_sums(
+                self.cell, self.n_cell, self.uv0[g], self.has_uv[g], weight, count
             )
-            den = np.bincount(cell, weights=weight[has], minlength=self.n_cell)
-            obs = np.bincount(cell, weights=count[has], minlength=self.n_cell)
-            with np.errstate(divide="ignore", invalid="ignore"):
-                price = np.log(num / den)
-            price[(obs < self.min_obs) | ~(den > 0)] = np.nan
-            out[g] = price
-        return out
+            for g in self.groups
+        }
 
     def fit(
         self, weight: np.ndarray, count: np.ndarray
     ) -> tuple[dict[str, float], dict]:
         """One weighted fit of every equation; NaN where an equation is singular."""
-        log_p = self.log_prices(weight, count)
+        sums = self.cell_sums(weight, count)
         k = len(self.groups)
         own, income, cross, n_hh, share = {}, {}, {}, {}, {}
         for i, g in enumerate(self.groups):
             rows = self.rows[g]
             cells = self.cell[rows]
-            prices = np.column_stack([log_p[h][cells] for h in self.groups])
             w = weight[rows]
+            prices = np.column_stack(
+                [
+                    _row_log_price(
+                        sums[h],
+                        cells,
+                        self.uv0[h][rows],
+                        self.has_uv[h][rows],
+                        w,
+                        count[rows],
+                        self.min_obs,
+                        self.leave_one_out,
+                    )
+                    for h in self.groups
+                ]
+            )
             keep = np.isfinite(prices).all(axis=1) & (w > 0)
             design = np.column_stack([prices, self.extra[g]])[keep]
             y, w, state = self.y[g][keep], w[keep], self.state[rows][keep]
@@ -349,7 +453,7 @@ class _Design:
             for j, h in enumerate(self.groups):
                 if j != i:
                     cross[(g, h)] = beta[j]
-        n_cells = {g: int(np.isfinite(log_p[g]).sum()) for g in self.groups}
+        n_cells = {g: int((sums[g][2] >= self.min_obs).sum()) for g in self.groups}
         params = _flatten(own, income, cross)
         return params, {"n_households": n_hh, "mean_share": share, "n_cells": n_cells}
 
@@ -416,7 +520,8 @@ def _variance_method(frame: pd.DataFrame, country: str) -> tuple[str, bool]:
     else:
         text = (
             "Rao-Wu rescaled PSU bootstrap within official strata "
-            "(state x sector x stratum); single-PSU strata pooled by state and sector"
+            "(state x sector x district x stratum); single-PSU strata pooled by "
+            "state and sector"
         )
     return text, placeholder
 
@@ -431,8 +536,9 @@ def _estimate_one(
     level: str,
     country: str,
     state: str | None = None,
+    leave_one_out: bool = True,
 ) -> Elasticities:
-    design = _Design(frame, groups, cluster, min_obs)
+    design = _Design(frame, groups, cluster, min_obs, leave_one_out)
     ones = np.ones(len(frame))
     point, info = design.fit(design.weight, ones)
     rng = np.random.default_rng(seed)
@@ -470,6 +576,7 @@ def _estimate_one(
             "psus": design.n_psu,
             "cells": design.n_cell,
             "resampling_strata": int(sizes.size),
+            "collapsed_strata": design.collapsed_strata,
             "single_psu_resampling_strata": int((sizes == 1).sum()),
             "placeholder_stratum_households": int(
                 frame["stratum_status"].ne(RESOLVED_STATUS).sum()
@@ -486,19 +593,30 @@ def estimate_elasticities(
     draws: int = DEFAULT_DRAWS,
     level: str = "national",
     min_cell_obs: int = MIN_CELL_OBS,
+    leave_one_out: bool = True,
 ) -> Elasticities:
     """Estimate own-price, cross-price and income elasticities with PSU bootstrap draws.
 
     ``level`` is "national" (pooled regression, state fixed effects) or "state"
     (adds one regression per state in ``by_state``); anything else raises
     ValueError, because district variation feeds estimation only (NSO rider).
+    ``leave_one_out=False`` uses inclusive cell prices; it exists for the bias
+    test and diagnostics only (ruling R28).
     """
     if level not in LEVELS:
         raise ValueError(f"level must be one of {LEVELS}; got {level!r}")
     groups = list(groups)
     frame, country = _prepare(households, groups, cluster, min_cell_obs)
     result = _estimate_one(
-        frame, groups, cluster, seed, draws, min_cell_obs, level, country
+        frame,
+        groups,
+        cluster,
+        seed,
+        draws,
+        min_cell_obs,
+        level,
+        country,
+        leave_one_out=leave_one_out,
     )
     if level == "state":
         for value, sub in frame.groupby("state", sort=True):
@@ -509,7 +627,16 @@ def estimate_elasticities(
                 result.skipped_states[key] = reason
                 continue
             est = _estimate_one(
-                sub, groups, cluster, seed, draws, min_cell_obs, level, country, key
+                sub,
+                groups,
+                cluster,
+                seed,
+                draws,
+                min_cell_obs,
+                level,
+                country,
+                key,
+                leave_one_out=leave_one_out,
             )
             if not np.isfinite(list(est.estimates.values())).all():
                 result.skipped_states[key] = "singular regression"
@@ -580,13 +707,21 @@ def main(argv: list[str] | None = None) -> int:
         "seed": args.seed,
         "method": (
             "Deaton unit-value method, simplified: cell price is the weighted mean market "
-            "unit value per state x district (India) or PR-code area (Pakistan) x sector; "
+            "unit value per state x district (India) or PR-code area (Pakistan) x sector, "
+            "leave-one-out; "
             "WLS of log budget share on log cell prices of all groups, log MPCE, log "
             "household size and state fixed effects, purchasers only; own-price b_gg - 1, "
             "cross-price b_gk, income 1 + c_g"
         ),
         "nso_rule": "district cells feed estimation only; results are national aggregates",
         "elasticity_type": "Marshallian, conditional on purchase",
+        "bias_note": (
+            "Point estimates are likely attenuated toward zero by cell-price "
+            "measurement error: cell prices are sample means of unit values and "
+            "the simplified method carries no Deaton measurement-error or quality "
+            "correction. Ruling R24 recentres bootstrap draws on the point "
+            "estimate, so Task 8 keeps that attenuated centre."
+        ),
         "countries": countries,
     }
     _write_json(out, payload)
