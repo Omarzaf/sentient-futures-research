@@ -1,12 +1,12 @@
 # Household demand model protocol
 
-Version 1.0.0, registered 2026-10-18T17:38:19Z on branch `codex/household-demand-20261018`. This file renders `protocol.json`; the JSON is the registered record and `logs/registration-receipt.json` holds its SHA-256. No estimate existed on the branch before this registration.
+Version 1.1.0, registered 2026-10-18T17:38:19Z and amended 2026-10-18T17:43:56Z (amendment 1, before any estimate) on branch `codex/household-demand-20261018`. This file renders `protocol.json`; the JSON is the registered record and `logs/registration-receipt.json` holds its SHA-256. No estimate existed on the branch before this registration.
 
 Seed `20261018` for every Monte Carlo and bootstrap. Headline unit: million USD, 2025 prices, years 2026, 2030 and 2035, India and Pakistan, with the USA as the comparison and calibration market.
 
 ## Decision record
 
-Copied verbatim from the plan's Decision record (`OUTPUTS/Sentient Futures/2026-10-18-household-demand-model-plan.md`, SHA-256 `7be5491f5d8ea080685a84721ec6453f2fbd1a5723082edef3a179f8749f7495`). Numbers refer to the design-review questions. Controller rulings R1 to R11 apply.
+Copied verbatim from the plan's Decision record (`OUTPUTS/Sentient Futures/2026-10-18-household-demand-model-plan.md`, SHA-256 `7be5491f5d8ea080685a84721ec6453f2fbd1a5723082edef3a179f8749f7495`). Numbers refer to the design-review questions. Controller rulings R1 to R14 apply.
 
 | # | Decision |
 | --- | --- |
@@ -40,6 +40,12 @@ Copied verbatim from the plan's Decision record (`OUTPUTS/Sentient Futures/2026-
 | 36 | Each country gets a public evidence pack shaped like the US one, excluding this project's own estimates. |
 | 39 | 10 fresh-context runs per model per region; report the median and the 10th to 90th percentile spread across runs. |
 | 40 | Web search allowed; sources logged; runs citing `github.com/Omarzaf`, `pakistan-india-protein.vercel.app` or `cultivated-chicken-halal.vercel.app` are discarded and rerun. |
+
+Rulings added after the first registration:
+
+- R12: intent_share is the top-two box (4 or 5 on the 5-point scale) for USA and India.
+- R13: Pakistan CONDITIONAL_TRANSFER intent is drawn uniformly between 0.329 (USA) and 0.628 (India), the two observed values from the same instrument.
+- R14: outputs/README.md accepted; Bass prior via a citing paper accepted with its note; workspace-state drift expected until Task 12.
 
 ## Status flags and the guard
 
@@ -79,9 +85,9 @@ Primary: Bryant, C., Szejda, K., Parekh, N., Deshpande, V. and Tse, B. (2019). A
 | Not at all likely | 25.3% | 5.5% | same |
 | Mean on 1 to 5 (SD) | 2.78 (1.40) | 3.73 (1.19) | Table 1, ANOVA results showing omnibus results and pairwise comparisons, row Likelihood of purchasing plant-based meat |
 
-- Intent share: Share answering 4 or 5 (very or extremely likely) to plant-based meat purchase likelihood. USA 0.329, India 0.628.
+- Intent share (R12): Share answering 4 or 5 (very or extremely likely) to plant-based meat purchase likelihood. USA 0.329, India 0.628.
 - Missing: India urban meat-eater subset (not reported in the article), fieldwork dates (not checked), dairy-alternative intent (not covered).
-- Pakistan: no country intent value. Missing. Treatment `CONDITIONAL_TRANSFER`: the India intent range is transferred, and the Pakistan household-model result is a scenario that never enters claims as a headline (ruling R9).
+- Pakistan: no country intent value. Missing. Treatment `CONDITIONAL_TRANSFER`: the intent range spanned by the USA and India values is transferred, and the Pakistan household-model result is a scenario that never enters claims as a headline (ruling R9). Distribution (R13): uniform between 0.329 (USA) and 0.628 (India), the two observed top-two-box values from the same instrument.
 
 ## US calibration
 

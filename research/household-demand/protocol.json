@@ -1,6 +1,8 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "registered_at_utc": "2026-10-18T17:38:19Z",
+  "amended_at_utc": "2026-10-18T17:43:56Z",
+  "amendment_note": "Amendment 1 before any estimate: adds the Pakistan transfer distribution (R13) and rulings R12 to R14.",
   "title": "Household demand model for India and Pakistan alternative-protein retail value",
   "branch": "codex/household-demand-20261018",
   "spec_source": {
@@ -8,7 +10,12 @@
     "path_base": "workspace root (parent of sentient-futures-research)",
     "section": "Decision record",
     "sha256": "7be5491f5d8ea080685a84721ec6453f2fbd1a5723082edef3a179f8749f7495",
-    "controller_rulings": "R1 to R11, .superpowers/sdd/2026-10-18-household-demand-model-plan/spec-and-constraints.md"
+    "controller_rulings": "R1 to R14, .superpowers/sdd/2026-10-18-household-demand-model-plan/spec-and-constraints.md and progress.md",
+    "rulings_added": {
+      "R12": "intent_share is the top-two box (4 or 5 on the 5-point scale) for USA and India.",
+      "R13": "Pakistan CONDITIONAL_TRANSFER intent is drawn uniformly between 0.329 (USA) and 0.628 (India), the two observed values from the same instrument.",
+      "R14": "outputs/README.md accepted; Bass prior via a citing paper accepted with its note; workspace-state drift expected until Task 12."
+    }
   },
   "seed": 20261018,
   "decisions": [
@@ -387,7 +394,13 @@
       "value": null,
       "status": "missing",
       "treatment": "CONDITIONAL_TRANSFER",
-      "rule": "The India intent range is transferred. The Pakistan household-model result is a scenario labelled CONDITIONAL_TRANSFER and never enters claims as a headline (ruling R9)."
+      "rule": "No Pakistan intent value exists. The intent range spanned by the USA and India values (R13) is transferred. The Pakistan household-model result is a scenario labelled CONDITIONAL_TRANSFER and never enters claims as a headline (ruling R9).",
+      "distribution": {
+        "type": "uniform",
+        "low": 0.329,
+        "high": 0.628
+      },
+      "distribution_rationale": "R13: the two observed top-two-box values from the same Bryant et al. (2019) instrument, USA 0.329 and India 0.628, bound the transfer; uniform because no Pakistan value exists to weight either end."
     }
   },
   "us_calibration": {

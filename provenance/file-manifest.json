@@ -788,8 +788,8 @@
     },
     {
       "path": "research/household-demand/PROTOCOL.md",
-      "bytes": 12883,
-      "sha256": "1de760214067c63edf6d1a145188e32750aee45bc7afbcc7265379cc3c190745"
+      "bytes": 13537,
+      "sha256": "054a4591292c1b97cc559a678ed30485b12f9982de58c8416d31cfc670d8011c"
     },
     {
       "path": "research/household-demand/conftest.py",
@@ -803,8 +803,8 @@
     },
     {
       "path": "research/household-demand/logs/registration-receipt.json",
-      "bytes": 771,
-      "sha256": "02ab810ed7bf4d379773df5e8b3b098f91578ffdaefbead28ad041ddd1f5ffc1"
+      "bytes": 1354,
+      "sha256": "bccde111d6adb28eac32a3993e524cdf96ab966ad312372c437cf1e04d176c38"
     },
     {
       "path": "research/household-demand/outputs/README.md",
@@ -813,8 +813,8 @@
     },
     {
       "path": "research/household-demand/protocol.json",
-      "bytes": 18290,
-      "sha256": "39c5237fe05a6bb79119bfc64334361723f15593bbb67a44aa4d804646f20d07"
+      "bytes": 19313,
+      "sha256": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55"
     },
     {
       "path": "research/household-demand/synthetic.py",
@@ -828,8 +828,8 @@
     },
     {
       "path": "research/household-demand/tests/test_protocol.py",
-      "bytes": 3915,
-      "sha256": "e552e57b2018660f38e111392cd7ec00e77930ec8aebb8abf169f787aeb5d991"
+      "bytes": 5386,
+      "sha256": "9a5fcf8152dde6a69ad35a89db1e443a9aa33ba51618e8132c9570daf8422e4c"
     },
     {
       "path": "research/household-demand/tests/test_synthetic.py",
