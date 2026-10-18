@@ -10,16 +10,21 @@ TE = E1 + (E2/P2) * P1 + (E3/P3) * P1 and MPCE = TE / P1, where E1, E2 and E3
 are the FDQ, CSQ and DGQ summary-block totals (level_14) converted to 30 days
 by each block's printed recall period, and P1, P2 and P3 are the household
 sizes recorded with each questionnaire (level_15). Imputed rent (item 539) is
-left out. A summary row absent from a canvassed questionnaire counts as no
-expenditure in that block.
+left out. A CSQ or DGQ summary row absent from a canvassed questionnaire
+counts as no expenditure in that block. A household with no FDQ summary rows
+gets missing MPCE and ``mpce_status`` "MISSING_FDQ"; all others are "OK" (R18).
 
 Item quantities and values use ``cons_total_qty`` and ``cons_total_value``,
 which already include home produce, scaled to 30 days by the item's recall
-period. An item a household did not report stays missing. A unit value is
-missing unless the quantity is positive.
+period. Free PMGKAY pulses (071) and gram (072) carry no value in the
+questionnaire and add 0 rupees. An item a household did not report stays
+missing. The unit value uses market purchases only, cons_total minus cons_home;
+pulses leave out PDS 158 and free 071 and 072 (R15, R17). It is missing
+unless the purchased quantity is positive.
 
 Household rows are written outside the repository. The repository receives
-weighted state-level means only (NSO rider: no estimates below state level).
+weighted state-level means only (NSO rider: no estimates below state level),
+with cells under 30 unweighted households set to null (R16).
 
 Run from the library root:
 
@@ -46,6 +51,7 @@ __all__ = [
     "BASE_COLUMNS",
     "GROUP_KINDS",
     "LIBRARY_ROOT",
+    "MIN_CELL_HOUSEHOLDS",
     "build_india_households",
     "main",
     "mpce_frame",
@@ -67,6 +73,7 @@ BASE_COLUMNS: tuple[str, ...] = (
     "caste",
     "mpce_inr",
     "mpce_local",
+    "mpce_status",
     "currency",
     "psu",
     "stratum",
@@ -203,8 +210,9 @@ def mpce_frame(clean_dir: Path, hhids: pd.Index) -> pd.DataFrame:
             "e1": totals["F"],
             "e2": totals["C"],
             "e3": totals["D"],
-            "te": total,
-            "mpce_inr": total / sizes["F"],
+            "te": total.mask(absent_food_block),
+            "mpce_inr": (total / sizes["F"]).mask(absent_food_block),
+            "mpce_status": np.where(absent_food_block, "MISSING_FDQ", "OK"),
             "usual_monthly_inr": usual,
             "absent_food_block": absent_food_block,
         },
@@ -222,44 +230,70 @@ def _items(clean_dir: Path, level: str) -> pd.DataFrame:
             for code in values
         }
     )
+    home = ["cons_home_qty", "cons_home_value"] if level == "05" else []
     rows = _read(
         clean_dir,
         level,
-        ["hhid", "item_code", "cons_total_qty", "cons_total_value"],
+        ["hhid", "item_code", "cons_total_qty", "cons_total_value", *home],
         filters=[("item_code", "in", item_codes)],
     )
     if rows.duplicated(["hhid", "item_code"]).any():
         raise ValueError(
             f"duplicate household item rows in level_{level} would double count"
         )
-    for column in ("cons_total_qty", "cons_total_value"):
-        values = rows[column].astype(float)
-        if values.lt(0).any():
+    for column in ("cons_total_qty", "cons_total_value", *home):
+        rows[column] = rows[column].astype(float)
+        if rows[column].lt(0).any():
             raise ValueError(f"negative {column} in level_{level}")
-        if np.isinf(values).any():
+        if np.isinf(rows[column]).any():
             raise ValueError(f"non-finite {column} in level_{level}")
+    if home:
+        home_qty = _home_part(rows["cons_home_qty"], rows["cons_home_value"])
+        home_value = _home_part(rows["cons_home_value"], rows["cons_home_qty"])
+        if (
+            rows["cons_home_qty"].gt(rows["cons_total_qty"]).any()
+            or rows["cons_home_value"].gt(rows["cons_total_value"]).any()
+        ):
+            raise ValueError(f"home produce exceeds total consumption in level_{level}")
+    else:
+        home_qty = home_value = pd.Series(0.0, index=rows.index)
+    rows["purchase_qty"] = rows["cons_total_qty"] - home_qty
+    rows["purchase_value"] = rows["cons_total_value"] - home_value
+    free = rows["item_code"].isin(codes.FREE_ITEM_CODES)
+    rows["value_used"] = rows["cons_total_value"].mask(
+        free & rows["cons_total_value"].isna(), 0.0
+    )
     return rows
+
+
+def _home_part(part: pd.Series, other: pd.Series) -> pd.Series:
+    """Home-produce part: blank counts as 0 only when the paired field is blank or 0."""
+    blank_pair = other.isna() | other.eq(0)
+    return part.mask(part.isna() & blank_pair, 0.0)
+
+
+def _sum_or_missing(frame: pd.DataFrame, column: str) -> pd.Series:
+    """Sum a column per household; missing if any contributing row is missing."""
+    total = frame.groupby("hhid")[column].sum(min_count=1)
+    missing = frame[column].isna().groupby(frame["hhid"]).any()
+    return total.mask(missing)
 
 
 def _group_columns(rows: pd.DataFrame, group: str, hhids: pd.Index) -> pd.DataFrame:
     """Return monthly quantity, monthly value and unit value for one group."""
     days = codes.RECALL_DAYS[group]
     mine = rows.loc[rows["item_code"].isin(codes.GROUPS[group])]
-    value = mine.groupby("hhid")["cons_total_value"].agg(
-        total=lambda s: s.sum(min_count=1), missing=lambda s: s.isna().any()
-    )
-    value_raw = value["total"].mask(value["missing"]).reindex(hhids)
-
+    value_raw = _sum_or_missing(mine, "value_used").reindex(hhids)
     counted = mine.loc[mine["item_code"].isin(codes.QUANTITY_CODES[group])]
-    qty = counted.groupby("hhid").agg(
-        total=("cons_total_qty", lambda s: s.sum(min_count=1)),
-        missing=("cons_total_qty", lambda s: s.isna().any()),
-        value=("cons_total_value", lambda s: s.sum(min_count=1)),
-        value_missing=("cons_total_value", lambda s: s.isna().any()),
+    qty_raw = _sum_or_missing(counted, "cons_total_qty").reindex(hhids).astype(float)
+    market = mine.loc[mine["item_code"].isin(codes.UNIT_VALUE_CODES[group])]
+    bought_qty = _sum_or_missing(market, "purchase_qty").reindex(hhids).astype(float)
+    bought_value = (
+        _sum_or_missing(market, "purchase_value").reindex(hhids).astype(float)
     )
-    qty_raw = qty["total"].mask(qty["missing"]).reindex(hhids).astype(float)
-    counted_value = qty["value"].mask(qty["value_missing"]).reindex(hhids).astype(float)
-    unit_value = (counted_value / qty_raw).where(qty_raw.gt(0) & counted_value.notna())
+    unit_value = (bought_value / bought_qty).where(
+        bought_qty.gt(0) & bought_value.notna()
+    )
     return pd.DataFrame(
         {
             f"qty_month_{group}": qty_raw * codes.DAYS_PER_MONTH / days,
@@ -305,6 +339,7 @@ def _build(clean_dir: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
             "caste": base["caste"],
             "mpce_inr": mpce["mpce_inr"],
             "mpce_local": mpce["mpce_inr"],
+            "mpce_status": mpce["mpce_status"],
             "currency": "INR",
             "psu": base["fsu_serial_no"],
             "stratum": base["stratum"],
@@ -325,53 +360,83 @@ def build_india_households(clean_dir: Path) -> pd.DataFrame:
     return _build(Path(clean_dir))[0]
 
 
-def _weighted_mean(values: pd.Series, weights: pd.Series) -> float | None:
-    """Weighted mean over non-missing values; None when no value is present."""
+MIN_CELL_HOUSEHOLDS = 30
+
+
+def _cell(
+    values: pd.Series, weights: pd.Series, minimum: int
+) -> tuple[float | None, int]:
+    """Weighted mean over non-missing values and its unweighted household count.
+
+    The mean is None when fewer than ``minimum`` households contribute (R16).
+    """
     present = values.notna()
-    if not present.any():
-        return None
-    return round(
-        float((values[present] * weights[present]).sum() / weights[present].sum()), 4
-    )
+    count = int(present.sum())
+    if count == 0 or count < minimum:
+        return None, count
+    mean = (values[present] * weights[present]).sum() / weights[present].sum()
+    return round(float(mean), 4), count
 
 
-def state_summary(table: pd.DataFrame) -> dict:
-    """Return weighted state-level means; no household row or sub-state cell."""
+def state_summary(
+    table: pd.DataFrame, min_households: int = MIN_CELL_HOUSEHOLDS
+) -> dict:
+    """Return weighted state-level means; no household row or sub-state cell.
+
+    Every cell carries its unweighted household count. A cell with fewer than
+    ``min_households`` households has a null value and keeps its count (R16).
+    """
     states = {}
     for state, frame in table.groupby("state", sort=True):
         weight = frame["multiplier"].astype(float)
-        persons = weight * frame["hh_size"]
         groups = {}
         for group in codes.GROUPS:
             reported = frame[f"value_month_{group}"].notna()
+            n_reporting = int(reported.sum())
+            share = round(float(weight[reported].sum() / weight.sum()), 6)
+            value, n_value = _cell(
+                frame[f"value_month_{group}"], weight, min_households
+            )
+            qty, n_qty = _cell(frame[f"qty_month_{group}"], weight, min_households)
+            unit, n_unit = _cell(frame[f"unit_value_{group}"], weight, min_households)
             groups[group] = {
-                "reporting_share": round(
-                    float(weight[reported].sum() / weight.sum()), 6
-                ),
-                "mean_value_month_inr_reporting": _weighted_mean(
-                    frame[f"value_month_{group}"], weight
-                ),
-                "mean_qty_month_reporting": _weighted_mean(
-                    frame[f"qty_month_{group}"], weight
-                ),
-                "mean_unit_value_inr": _weighted_mean(
-                    frame[f"unit_value_{group}"], weight
-                ),
+                "n_reporting": n_reporting,
+                "reporting_share": share if n_reporting >= min_households else None,
+                "n_value": n_value,
+                "mean_value_month_inr_reporting": value,
+                "n_qty": n_qty,
+                "mean_qty_month_reporting": qty,
+                "n_unit_value": n_unit,
+                "mean_unit_value_inr": unit,
             }
+        persons = weight * frame["hh_size"]
+        mpce, n_mpce = _cell(frame["mpce_inr"], persons, min_households)
         states[str(int(state))] = {
-            "mean_mpce_inr": round(
-                float((frame["mpce_inr"] * persons).sum() / persons.sum()), 4
-            ),
+            "n_households": len(frame),
+            "n_mpce": n_mpce,
+            "mean_mpce_inr": mpce,
             "groups": groups,
         }
     return {
         "status": "DIAGNOSTIC",
         "source": "HCES 2023-24 unit-level clean parquet, levels 01, 03, 05, 06, 14 and 15",
         "weight": "third-visit multiplier",
-        "mean_mpce_definition": "person-weighted: sum(w * MPCE * hh_size) / sum(w * hh_size)",
+        "min_cell_households": min_households,
+        "suppression": (
+            "a cell with fewer than min_cell_households unweighted households is null; "
+            "its unweighted count n_* is kept (ruling R16)"
+        ),
+        "mean_mpce_definition": (
+            "person-weighted over households with mpce_status OK: "
+            "sum(w * MPCE * hh_size) / sum(w * hh_size)"
+        ),
         "group_mean_definition": (
             "household-weighted means among households reporting the group; "
             "reporting_share is the weighted share reporting it; unreported items are not zero-filled"
+        ),
+        "unit_value_definition": (
+            "market purchases only: cons_total minus cons_home; pulses leave out PDS 158 "
+            "and free 071 and 072 (rulings R15, R17)"
         ),
         "units": {group: codes.GROUP_UNITS[group] for group in codes.GROUPS},
         "recall_days": dict(codes.RECALL_DAYS),
@@ -383,11 +448,11 @@ def state_summary(table: pd.DataFrame) -> dict:
 def run_log(table: pd.DataFrame, mpce: pd.DataFrame, households: pd.DataFrame) -> dict:
     """Return national diagnostics: counts, MPCE validation and published comparison."""
     usual = mpce["usual_monthly_inr"].astype(float)
-    ok = usual.notna() & usual.gt(0) & mpce["te"].gt(0)
+    ok = usual.notna() & usual.gt(0) & mpce["te"].gt(0) & mpce["mpce_inr"].notna()
     sector = households.set_index("hhid")["sector"].reindex(mpce.index)
     published = {}
     for code, name in ((1, "rural"), (2, "urban")):
-        part = mpce.loc[sector.eq(code)]
+        part = mpce.loc[sector.eq(code) & mpce["mpce_inr"].notna()]
         persons = part["multiplier"] * part["p1"]
         estimate = float((part["mpce_inr"] * persons).sum() / persons.sum())
         published[name] = {
@@ -414,6 +479,13 @@ def run_log(table: pd.DataFrame, mpce: pd.DataFrame, households: pd.DataFrame) -
             ),
         },
         "published_mpce_comparison": published,
+        "households_mpce_status": {
+            status: int(count)
+            for status, count in table["mpce_status"]
+            .value_counts()
+            .sort_index()
+            .items()
+        },
         "households_without_fdq_summary_rows": int(mpce["absent_food_block"].sum()),
         "households_with_zero_csq_total": int(mpce["e2"].eq(0).sum()),
         "households_with_zero_dgq_total": int(mpce["e3"].eq(0).sum()),

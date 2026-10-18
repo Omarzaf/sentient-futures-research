@@ -15,6 +15,7 @@ import math
 __all__ = [
     "DAYS_PER_MONTH",
     "EXCLUDED_EXPENDITURE_CODES",
+    "FREE_ITEM_CODES",
     "GROUPS",
     "GROUP_LEVEL",
     "GROUP_UNITS",
@@ -24,15 +25,16 @@ __all__ = [
     "QUANTITY_CODES",
     "RECALL_DAYS",
     "SECTION_RECALL_DAYS",
+    "UNIT_VALUE_CODES",
     "expenditure_recall_days",
 ]
 
 DAYS_PER_MONTH = 30
 
-# Group name -> HCES item codes. Pulses follow the brief: 140 to 148, 150, 158.
-# Item 147 is not printed in the questionnaire and never occurs in the data.
-# Free PMGKAY pulses (071) and gram (072) and soya chunks (152) stay outside
-# the pulses group.
+# Group name -> HCES item codes. Pulses: 140 to 148, 150, PDS pulses 158 and
+# free PMGKAY pulses (071) and gram (072) (ruling R17). Item 147 is not printed
+# in the questionnaire and never occurs in the data. Soya chunks (152) stay
+# outside the pulses group.
 GROUPS: dict[str, tuple[int, ...]] = {
     "chicken": (195,),
     "mutton": (192,),
@@ -42,7 +44,7 @@ GROUPS: dict[str, tuple[int, ...]] = {
     "eggs": (190,),
     "milk": (160,),
     "paneer": (3,),
-    "pulses": (140, 141, 142, 143, 144, 145, 146, 147, 148, 150, 158),
+    "pulses": (71, 72, 140, 141, 142, 143, 144, 145, 146, 147, 148, 150, 158),
     "soya": (152,),
     "packaged": (299,),
     "meals_out": (280, 283),
@@ -54,13 +56,25 @@ GROUP_LEVEL: dict[str, str] = {
     group: ("06" if group in {"packaged", "meals_out"} else "05") for group in GROUPS
 }
 
-# Codes whose quantity enters qty_month and the unit value. Snacks (283) and the
+# Codes whose quantity enters qty_month. Snacks (283) and the
 # packaged sub-total (299) carry value only in the questionnaire and the data.
 QUANTITY_CODES: dict[str, tuple[int, ...]] = {
     **GROUPS,
     "packaged": (),
     "meals_out": (280,),
 }
+
+# Codes whose market purchases enter the unit value (ruling R15): purchase is
+# cons_total minus cons_home. Pulses leave out PDS 158 and free 071 and 072.
+UNIT_VALUE_CODES: dict[str, tuple[int, ...]] = {
+    **QUANTITY_CODES,
+    "pulses": tuple(c for c in GROUPS["pulses"] if c not in {71, 72, 158}),
+}
+
+# Items received free under PMGKAY or state schemes. The questionnaire collects
+# no value for them (value is blank on 3,055 of 3,056 rows of 071 and 072), so
+# they add 0 rupees to value_month, as in the published MPCE without imputation.
+FREE_ITEM_CODES: frozenset[int] = frozenset({71, 72})
 
 # Unit of qty_month for each group (FDQ "*Unit is Kg unless otherwise specified").
 GROUP_UNITS: dict[str, str] = {
@@ -124,7 +138,7 @@ PROTEIN_G_PER_KG: dict[str, float] = {
     "eggs": 13.28,
     "milk": 35.7,
     "paneer": 134.0,
-    "pulses": 214.55,
+    "pulses": 214.31,
     "soya": 258.4,
     "packaged": math.nan,
     "meals_out": 25.0,
@@ -140,10 +154,10 @@ PROTEIN_SOURCE: dict[str, str] = {
     "milk": f"{_REPORT_594}, item 160 milk: liquid, 35.7 g per litre",
     "paneer": f"{_REPORT_594}, item 003 paneer, 134.0 g per kg",
     "pulses": (
-        f"{_REPORT_594}, unweighted mean of items 140 (204.7), 141 (215.5), "
-        "142 (187.7), 143 (225.3), 144 (228.7), 145 (219.7), 146 (188.0), "
-        "148 (227.3), 150 (224.0) and 158 (224.6) g per kg; item factors span "
-        "187.7 to 228.7"
+        f"{_REPORT_594}, unweighted mean of items 071 (224.6), 072 (201.6), "
+        "140 (204.7), 141 (215.5), 142 (187.7), 143 (225.3), 144 (228.7), "
+        "145 (219.7), 146 (188.0), 148 (227.3), 150 (224.0) and 158 (224.6) "
+        "g per kg, 214.31; item factors span 187.7 to 228.7"
     ),
     "soya": f"{_REPORT_594}, item 152 other pulse products (soya chunks), 258.4 g per kg",
     "packaged": f"none: {_REPORT_594} gives no factor for sub-total item 299",

@@ -11,11 +11,13 @@ The script overwrites ``hces_mini/``. Household roles:
   chicken on 7-day recall, pulses split over two 30-day items.
 - H2: mutton with value and zero quantity; 7-day food section and imputed rent
   in the expenditure summary.
-- H3: eggs with home produce 5 inside a total of 12.
-- H4: chicken only, so fish is absent.
+- H3: eggs with home produce 5 inside a total of 12 (purchase 7 for 32 rupees).
+- H4: chicken only, so fish is absent; no FDQ summary rows, so MPCE is missing.
 - H5: beef with missing quantity; cooked meals with a count and snacks with
   value only; packaged food with value only.
-- H6: milk, paneer and soya chunks; religion and caste not reported (code 0).
+- H6: milk from home produce only, paneer and soya chunks; pulses from the
+  market (140), PDS (158) and free PMGKAY (071, no value); religion and caste
+  not reported (code 0).
 """
 
 from __future__ import annotations
@@ -95,7 +97,9 @@ def _level_14() -> pd.DataFrame:
         ("H2", "C", 11.4, 539, 5000),
     ]
     for h in ["H3", "H4", "H5", "H6"]:
-        rows += [(h, "F", 5.1, 129, 2000), (h, "C", 8.1, 349, 1000)]
+        if h != "H4":
+            rows.append((h, "F", 5.1, 129, 2000))
+        rows.append((h, "C", 8.1, 349, 1000))
     frame = pd.DataFrame(
         rows, columns=["hhid", "questionnaire_num", "section", "item_code", "value"]
     )
@@ -109,12 +113,15 @@ def _level_05() -> pd.DataFrame:
         ("H1", 140, NAN, NAN, 1.5, 150.0, 1),
         ("H1", 143, NAN, NAN, 0.5, 60.0, 1),
         ("H2", 192, NAN, NAN, 0.0, 300.0, 1),
-        ("H3", 190, 5.0, 30.0, 12.0, 72.0, 3),
+        ("H3", 190, 5.0, 40.0, 12.0, 72.0, 3),
         ("H4", 195, NAN, NAN, 1.0, 200.0, 1),
         ("H5", 193, NAN, NAN, NAN, 200.0, 1),
         ("H6", 160, 3.5, 210.0, 3.5, 210.0, 2),
         ("H6", 3, NAN, NAN, 0.25, 100.0, 1),
         ("H6", 152, NAN, NAN, 0.5, 60.0, 1),
+        ("H6", 140, NAN, NAN, 1.0, 120.0, 1),
+        ("H6", 158, NAN, NAN, 1.0, 30.0, 1),
+        ("H6", 71, NAN, NAN, 0.5, NAN, 1),
     ]
     frame = pd.DataFrame(
         rows,

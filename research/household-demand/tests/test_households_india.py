@@ -67,6 +67,7 @@ def test_design_and_currency_columns(fixture_dir):
     assert set(df["stratum_status"]) == {"RESOLVED"}
     assert set(df["currency"]) == {"INR"}
     assert df["mpce_local"].equals(df["mpce_inr"])
+    assert "mpce_status" in hi.BASE_COLUMNS
 
 
 def test_mpce_scales_recall_and_excludes_imputed_rent(fixture_dir):
@@ -157,7 +158,7 @@ def test_protein_factors_carry_sources():
 
 def test_state_summary_is_diagnostic_state_means(fixture_dir):
     df = hi.build_india_households(fixture_dir)
-    summary = hi.state_summary(df)
+    summary = hi.state_summary(df, min_households=1)
     assert summary["status"] == "DIAGNOSTIC"
     assert set(summary["states"]) == {"9", "27"}
     state_9 = summary["states"]["9"]
@@ -167,11 +168,80 @@ def test_state_summary_is_diagnostic_state_means(fixture_dir):
         mpce["H1"] * 1000 * 3 + mpce["H2"] * 2000 * 2 + mpce["H3"] * 1500 * 4
     ) / (1000 * 3 + 2000 * 2 + 1500 * 4)
     assert state_9["mean_mpce_inr"] == pytest.approx(expected)
+    assert state_9["n_mpce"] == 3
+    # State 27: H4 has missing MPCE, so only H5 (3000, 1) and H6 (1000, 2) enter.
+    expected_27 = (mpce["H5"] * 3000 * 1 + mpce["H6"] * 1000 * 2) / (3000 + 2000)
+    assert summary["states"]["27"]["mean_mpce_inr"] == pytest.approx(expected_27)
+    assert summary["states"]["27"]["n_mpce"] == 2
     # Chicken reported by H1 only in state 9: share 1000 / 4500.
-    assert state_9["groups"]["chicken"]["reporting_share"] == pytest.approx(1000 / 4500)
+    chicken = state_9["groups"]["chicken"]
+    assert chicken["reporting_share"] == pytest.approx(1000 / 4500)
+    assert chicken["n_reporting"] == 1
     text = json.dumps(summary)
     assert "S" + "YNTHETIC" not in text
     assert "H1" not in text
+
+
+def test_state_summary_suppresses_cells_under_thirty_households(fixture_dir):
+    df = hi.build_india_households(fixture_dir)
+    summary = hi.state_summary(df)
+    assert summary["min_cell_households"] == 30
+    state_9 = summary["states"]["9"]
+    assert state_9["mean_mpce_inr"] is None
+    assert state_9["n_mpce"] == 3
+    chicken = state_9["groups"]["chicken"]
+    assert chicken["n_reporting"] == 1
+    assert chicken["n_value"] == 1
+    assert chicken["n_qty"] == 1
+    assert chicken["n_unit_value"] == 1
+    for key in (
+        "reporting_share",
+        "mean_value_month_inr_reporting",
+        "mean_qty_month_reporting",
+        "mean_unit_value_inr",
+    ):
+        assert chicken[key] is None
+
+
+def test_unit_value_uses_purchased_quantity_and_value(fixture_dir):
+    df = hi.build_india_households(fixture_dir).set_index("hhid")
+    # H3 eggs: total 12 for 72, home 5 for 40, purchase 7 for 32.
+    assert df.loc["H3", "unit_value_eggs"] == 32 / 7
+    assert df.loc["H3", "value_month_eggs"] == 72 * 30 / 7
+
+
+def test_home_produce_only_gives_missing_unit_value(fixture_dir):
+    df = hi.build_india_households(fixture_dir).set_index("hhid")
+    assert df.loc["H6", "qty_month_milk"] == 3.5 * 30 / 7
+    assert math.isnan(df.loc["H6", "unit_value_milk"])
+
+
+def test_pulses_unit_value_excludes_pds_and_free_items(fixture_dir):
+    df = hi.build_india_households(fixture_dir).set_index("hhid")
+    # H6: 140 (1.0 kg, 120), PDS 158 (1.0 kg, 30), free 071 (0.5 kg, no value).
+    assert df.loc["H6", "qty_month_pulses"] == 2.5
+    assert df.loc["H6", "value_month_pulses"] == 150.0
+    assert df.loc["H6", "unit_value_pulses"] == 120.0
+    assert {71, 72} <= set(codes.GROUPS["pulses"])
+    assert not {71, 72, 158} & set(codes.UNIT_VALUE_CODES["pulses"])
+
+
+def test_home_above_total_raises(fixture_dir, tmp_path: Path):
+    copy = tmp_path / "hces"
+    shutil.copytree(fixture_dir, copy)
+    items = pd.read_parquet(copy / "level_05.parquet")
+    items.loc[items["item_code"].eq(190), "cons_home_qty"] = 13.0
+    items.to_parquet(copy / "level_05.parquet", index=False)
+    with pytest.raises(ValueError, match="home"):
+        hi.build_india_households(copy)
+
+
+def test_missing_fdq_summary_gives_missing_mpce(fixture_dir):
+    df = hi.build_india_households(fixture_dir).set_index("hhid")
+    assert math.isnan(df.loc["H4", "mpce_inr"])
+    assert math.isnan(df.loc["H4", "mpce_local"])
+    assert df.loc["H4", "mpce_status"] == "MISSING_FDQ"
+    assert set(df.drop(index="H4")["mpce_status"]) == {"OK"}
 
 
 def test_main_refuses_household_rows_inside_repository(fixture_dir, tmp_path: Path):
