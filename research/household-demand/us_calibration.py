@@ -11,9 +11,12 @@ some buyers sit outside it (R7). A conversion above 1 raises ValueError.
 
 Categories (ruling R34). Plant-based meat uses GFI's US plant-based meat and
 seafood retail sales and household penetration with the Bryant et al. (2019)
-USA top-two-box intent 0.329 (R12). Dairy alternatives have no Bryant intent
-measure, so conversion is 1 and intent equals the observed US plant-based milk
-household penetration; this is a deviation from the protocol formula. The
+USA top-two-box intent 0.329 (R12) and the plant-based to chicken price ratio
+(R35; the all-meat ratio is a sensitivity value). Dairy alternatives have no
+Bryant intent measure, so conversion is 1 and intent is
+min(1, penetration / us_urban_packaged_share), the observed US plant-based milk
+household penetration within urban CUs that buy packaged food (R36); this is a
+deviation from the protocol formula. The
 $7.9 billion all-category total is a benchmark only. A GFI value that cannot be
 verified stays None and its category is marked UNAVAILABLE.
 
@@ -28,14 +31,20 @@ sum to the CU population). The addressable rule of Task 5 maps to:
   the diary week, mirroring Task 5's 7-day meat, fish and egg recall;
 - buys prepared or packaged food: ``MISCFOOD`` above 0 in the diary week
   (BLS "miscellaneous foods": frozen prepared meals and other foods, canned
-  and packaged soups, other canned and packaged prepared foods).
+  and packaged soups, other canned and packaged prepared foods). Ruling R38
+  asks for the HCES 299 content (bakery, chocolate and candy, jam) instead; the
+  CE zips carry no UCC labels, so those codes cannot be identified with
+  confidence and MISCFOOD stays primary (``R38_STATUS``).
 
 Each summary variable is the sum of ``COST`` over expenditure codes (UCC) with
 a fixed two-digit prefix in the Diary expenditure files ``expd*.csv``: 03 beef,
 04 pork, 05 other meats, 06 poultry, 07 fish and seafood, 08 eggs, 18
 miscellaneous foods. ``ucc_check`` recomputes each sum and reports the largest
 difference. The addressable share is the weighted share of diary weeks that
-meet all three conditions.
+meet all three conditions; ``us_urban_packaged_share`` drops the meat
+condition (R36). Diary weeks with ``FOODTOT`` at or below 0 leave the share
+denominators (R39, matching R33); shares that keep them are reported as
+sensitivity values. The CU count uses every diary week.
 
 Only aggregates are written; no CE record enters the repository. Run from the
 library root:
@@ -63,6 +72,7 @@ __all__ = [
     "CE_MEAT_VARIABLES",
     "CE_SUMMARY_UCC_PREFIX",
     "GFI",
+    "R38_STATUS",
     "Calibration",
     "build_payload",
     "calibrate",
@@ -88,6 +98,20 @@ CE_MEAT_VARIABLES: tuple[str, ...] = (
     "EGGS",
 )
 CE_PACKAGED_VARIABLE = "MISCFOOD"
+R38_STATUS = {
+    "status": "NOT_DONE",
+    "primary_packaged_condition": "MISCFOOD above 0",
+    "requested": (
+        "ruling R38: packaged condition from bakery (bread, biscuits or cookies, cakes), "
+        "chocolate and candy, and jam and preserves UCCs, matching HCES item 299"
+    ),
+    "reason": (
+        "the approved CE 2023 interview and diary zips hold CSV data only, with no UCC "
+        "labels; bakery codes (prefix 02, 9 codes) and sweets codes (prefix 15, 3 codes) "
+        "cannot be split into bread, cookies, cakes, candy and jam with confidence, and no "
+        "further BLS file was approved for download"
+    ),
+}
 CE_SUMMARY_UCC_PREFIX: dict[str, str] = {
     "BEEF": "03",
     "PORK": "04",
@@ -168,7 +192,7 @@ GFI: dict[str, dict] = {
             "section Meat and seafood, tab Category sales, fourth bullet; also tab Purchase dynamics, second bullet",
             "In 2025, 11 percent of households purchased in the category",
         ),
-        "price_ratio_us": {
+        "price_ratio_us_all_meat": {
             "value": 8.23 / 4.67,
             "year": 2025,
             "plant_based_usd": 8.23,
@@ -176,8 +200,9 @@ GFI: dict[str, dict] = {
             "unit": "US dollars per pound, all meat",
             "locator": "price graphic, column Meat (per lb)",
             "quote": "$8.23 plant-based, $4.67 animal-based, 76% price premium",
+            "use": "sensitivity value (ruling R35)",
         },
-        "price_ratio_us_chicken": {
+        "price_ratio_us": {
             "value": 7.88 / 3.17,
             "year": 2025,
             "plant_based_usd": 7.88,
@@ -185,6 +210,7 @@ GFI: dict[str, dict] = {
             "unit": "US dollars per pound, chicken",
             "locator": "price graphic, column Chicken",
             "quote": "$7.88 plant-based, $3.17 animal-based, 149% price premium",
+            "use": "primary: plant-based meat substitutes chicken (decision 16, ruling R35)",
         },
     },
     "dairy_alternatives": {
@@ -317,16 +343,27 @@ def calibrate_category(
 
 
 def calibrate_dairy(
-    us_households: int, penetration: float | None, sales_usd: float | None
+    us_households: int,
+    penetration: float | None,
+    sales_usd: float | None,
+    urban_packaged_share: float = 1.0,
 ) -> dict:
-    """Return the dairy record: conversion 1, intent equal to penetration (R34 deviation)."""
+    """Return the dairy record (rulings R34, R36).
+
+    Intent is min(1, penetration / urban_packaged_share) and conversion is 1:
+    penetration within urban CUs that buy packaged food stands in for intent.
+    """
+    intent = None
+    if penetration is not None:
+        _check_share("urban_packaged_share", urban_packaged_share)
+        intent = min(1.0, penetration / urban_packaged_share)
     return calibrate_category(
         "dairy_alternatives",
         us_households,
         penetration,
-        penetration,
+        intent,
         sales_usd,
-        addressable_share=1.0,
+        addressable_share=urban_packaged_share,
     )
 
 
@@ -360,10 +397,12 @@ def load_ce_expenditures(diary_dir: Path) -> pd.DataFrame:
 
 
 def ce_summary(diary: pd.DataFrame) -> dict:
-    """Return the weighted CU count and the addressable share of CE diary weeks.
+    """Return the weighted CU count and the segment shares of CE diary weeks.
 
-    ``us_households`` is the mean over ``quarter_file`` of the summed weights.
-    Shares are weighted by ``FINLWT21`` over all diary weeks.
+    ``us_households`` is the mean over ``quarter_file`` of the summed weights of
+    all diary weeks. Shares are weighted by ``FINLWT21``. Primary shares leave
+    out diary weeks with ``FOODTOT`` at or below 0 (ruling R39); the
+    ``*_including_zero_food_weeks`` values keep them (sensitivity).
     """
     weight = diary["FINLWT21"].astype(float)
     if weight.isna().any() or (weight <= 0).any():
@@ -371,37 +410,47 @@ def ce_summary(diary: pd.DataFrame) -> dict:
     codes = set(diary["BLS_URBN"].unique())
     if not codes <= {CE_URBAN, CE_RURAL}:
         raise ValueError(f"BLS_URBN must be 1 or 2, found {sorted(map(str, codes))}")
+    food = diary["FOODTOT"].astype(float)
+    if food.isna().any():
+        raise ValueError("FOODTOT is missing for some diary weeks")
+    has_food = food.gt(0)
     urban = diary["BLS_URBN"] == CE_URBAN
     meat = diary[list(CE_MEAT_VARIABLES)].astype(float).sum(axis=1).gt(0)
     packaged = diary[CE_PACKAGED_VARIABLE].astype(float).gt(0)
-    addressable = urban & meat & packaged
-    total = float(weight.sum())
+    urban_packaged = urban & packaged
+    addressable = urban_packaged & meat
+    if not has_food.any():
+        raise ValueError("no diary week has food expenditure")
 
-    def share(flag: pd.Series) -> float:
-        return float(weight[flag].sum() / total)
+    def share(flag: pd.Series, base: pd.Series) -> float:
+        return float(weight[flag & base].sum() / weight[base].sum())
 
+    every = pd.Series(True, index=diary.index)
     quarters = weight.groupby(diary["quarter_file"]).sum()
-    summary = {
+    return {
         "us_households": round(float(quarters.mean())),
         "weight_sum_by_quarter_file": {
             name: float(value) for name, value in quarters.items()
         },
-        "addressable_share": share(addressable),
-        "urban_share": share(urban),
-        "meat_share": share(meat),
-        "packaged_share": share(packaged),
+        "share_denominator": (
+            "weighted diary weeks with FOODTOT above 0 (ruling R39); "
+            "*_including_zero_food_weeks values use every diary week"
+        ),
+        "addressable_share": share(addressable, has_food),
+        "us_urban_packaged_share": share(urban_packaged, has_food),
+        "urban_share": share(urban, has_food),
+        "meat_share": share(meat, has_food),
+        "packaged_share": share(packaged, has_food),
+        "addressable_share_including_zero_food_weeks": share(addressable, every),
+        "us_urban_packaged_share_including_zero_food_weeks": share(
+            urban_packaged, every
+        ),
         "n_records": len(diary),
+        "n_zero_food_records": int((~has_food).sum()),
+        "zero_food_share": share(~has_food, every),
         "n_addressable_records": int(addressable.sum()),
+        "n_urban_packaged_records": int(urban_packaged.sum()),
     }
-    if "FOODTOT" in diary:
-        no_food = diary["FOODTOT"].astype(float).le(0)
-        kept = ~no_food
-        summary["n_zero_food_records"] = int(no_food.sum())
-        summary["zero_food_share"] = share(no_food)
-        summary["addressable_share_excluding_zero_food_weeks"] = float(
-            weight[addressable & kept].sum() / weight[kept].sum()
-        )
-    return summary
 
 
 def ucc_check(fmld: pd.DataFrame, expd: pd.DataFrame) -> dict:
@@ -447,18 +496,40 @@ def build_payload(ce: dict, ucc: dict, inputs: dict) -> dict:
     )
     meat_result["conversion_with_addressable_share_1"] = meat_default["conversion"]
     meat_result["price_ratio_us"] = meat["price_ratio_us"]["value"]
-    meat_result["price_ratio_us_chicken"] = meat["price_ratio_us_chicken"]["value"]
+    meat_result["price_ratio_us_all_meat"] = meat["price_ratio_us_all_meat"]["value"]
+    meat_sensitivity = calibrate_category(
+        "plant_based_meat",
+        households,
+        value(meat["penetration"]),
+        BRYANT_USA_INTENT["value"],
+        value(meat["sales_usd"]),
+        addressable_share=ce["addressable_share_including_zero_food_weeks"],
+    )
+    meat_result["conversion_including_zero_food_weeks"] = meat_sensitivity["conversion"]
     meat_result["intent_source"] = BRYANT_USA_INTENT
 
     dairy_result = calibrate_dairy(
-        households, value(dairy["penetration"]), value(dairy["sales_usd"])
+        households,
+        value(dairy["penetration"]),
+        value(dairy["sales_usd"]),
+        urban_packaged_share=ce["us_urban_packaged_share"],
     )
     dairy_result["price_ratio_us"] = dairy["price_ratio_us"]["value"]
+    dairy_sensitivity = calibrate_dairy(
+        households,
+        value(dairy["penetration"]),
+        value(dairy["sales_usd"]),
+        urban_packaged_share=ce["us_urban_packaged_share_including_zero_food_weeks"],
+    )
+    dairy_result["intent_share_including_zero_food_weeks"] = dairy_sensitivity[
+        "intent_share"
+    ]
     dairy_result["deviation"] = (
-        "Ruling R34: no Bryant intent measure exists for dairy alternatives, so conversion "
-        "is 1 and intent_share is the observed US plant-based milk household penetration; "
-        "the protocol formula's intent term is replaced by observed behaviour and the "
-        "addressable share is not applied."
+        "Rulings R34 and R36: no Bryant intent measure exists for dairy alternatives, so "
+        "conversion is 1 and intent_share is min(1, penetration / us_urban_packaged_share), "
+        "the observed US plant-based milk household penetration within urban CUs that buy "
+        "packaged food (CE, without the meat condition), assuming every buyer sits in that "
+        "base; observed behaviour replaces the protocol formula's intent term."
     )
 
     return {
@@ -497,6 +568,11 @@ def build_payload(ce: dict, ucc: dict, inputs: dict) -> dict:
                     "MISCFOOD above 0 in the diary week; UCC prefix 18 (BLS miscellaneous "
                     "foods: frozen prepared meals and other foods, canned and packaged soups, "
                     "other canned and packaged prepared foods)"
+                ),
+                "buys_packaged_food_r38": R38_STATUS,
+                "urban_packaged_base": (
+                    "urban and buys packaged food, without the meat condition; dairy base "
+                    "(ruling R36)"
                 ),
                 "window": "one diary week, mirroring the 7-day recall of Task 5",
                 "definitions_source": "https://www.bls.gov/cex/csxgloss.htm",
@@ -561,7 +637,8 @@ def main(argv: list[str] | None = None) -> int:
             f"spend_per_adopter_usd={record['spend_per_adopter_usd']}"
         )
     print(
-        f"us_households={ce['us_households']} addressable_share={ce['addressable_share']:.4f}"
+        f"us_households={ce['us_households']} addressable_share={ce['addressable_share']:.4f} "
+        f"us_urban_packaged_share={ce['us_urban_packaged_share']:.4f}"
     )
     return 0
 

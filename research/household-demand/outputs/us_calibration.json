@@ -20,6 +20,13 @@
       "urban": "BLS_URBN == 1 (1 urban, 2 rural)",
       "buys_meat": "BEEF + PORK + OTHMEAT + POULTRY + SEAFOOD + EGGS above 0 in the diary week; UCC prefixes 03, 04, 05, 06, 07, 08",
       "buys_packaged_food": "MISCFOOD above 0 in the diary week; UCC prefix 18 (BLS miscellaneous foods: frozen prepared meals and other foods, canned and packaged soups, other canned and packaged prepared foods)",
+      "buys_packaged_food_r38": {
+        "status": "NOT_DONE",
+        "primary_packaged_condition": "MISCFOOD above 0",
+        "requested": "ruling R38: packaged condition from bakery (bread, biscuits or cookies, cakes), chocolate and candy, and jam and preserves UCCs, matching HCES item 299",
+        "reason": "the approved CE 2023 interview and diary zips hold CSV data only, with no UCC labels; bakery codes (prefix 02, 9 codes) and sweets codes (prefix 15, 3 codes) cannot be split into bread, cookies, cakes, candy and jam with confidence, and no further BLS file was approved for download"
+      },
+      "urban_packaged_base": "urban and buys packaged food, without the meat condition; dairy base (ruling R36)",
       "window": "one diary week, mirroring the 7-day recall of Task 5",
       "definitions_source": "https://www.bls.gov/cex/csxgloss.htm"
     },
@@ -29,15 +36,19 @@
       "fmld233.csv": 134566057.193,
       "fmld234.csv": 134586346.644
     },
-    "addressable_share": 0.5544977522041172,
-    "urban_share": 0.9502823662491602,
-    "meat_share": 0.6423532044306003,
-    "packaged_share": 0.7110630294663813,
+    "share_denominator": "weighted diary weeks with FOODTOT above 0 (ruling R39); *_including_zero_food_weeks values use every diary week",
+    "addressable_share": 0.6072230877307498,
+    "us_urban_packaged_share": 0.7396118461093668,
+    "urban_share": 0.9502476526675037,
+    "meat_share": 0.7034324208847434,
+    "packaged_share": 0.7786756332328939,
+    "addressable_share_including_zero_food_weeks": 0.5544977522041172,
+    "us_urban_packaged_share_including_zero_food_weeks": 0.6753911609385816,
     "n_records": 12389,
-    "n_addressable_records": 6926,
     "n_zero_food_records": 1039,
     "zero_food_share": 0.08683025496226168,
-    "addressable_share_excluding_zero_food_weeks": 0.6072230877307498,
+    "n_addressable_records": 6926,
+    "n_urban_packaged_records": 8446,
     "ucc_check": {
       "BEEF": {
         "ucc_prefix": "03",
@@ -160,23 +171,25 @@
           "locator": "section Meat and seafood, tab Category sales, fourth bullet; also tab Purchase dynamics, second bullet",
           "quote": "In 2025, 11 percent of households purchased in the category"
         },
-        "price_ratio_us": {
+        "price_ratio_us_all_meat": {
           "value": 1.7623126338329766,
           "year": 2025,
           "plant_based_usd": 8.23,
           "conventional_usd": 4.67,
           "unit": "US dollars per pound, all meat",
           "locator": "price graphic, column Meat (per lb)",
-          "quote": "$8.23 plant-based, $4.67 animal-based, 76% price premium"
+          "quote": "$8.23 plant-based, $4.67 animal-based, 76% price premium",
+          "use": "sensitivity value (ruling R35)"
         },
-        "price_ratio_us_chicken": {
+        "price_ratio_us": {
           "value": 2.4858044164037856,
           "year": 2025,
           "plant_based_usd": 7.88,
           "conventional_usd": 3.17,
           "unit": "US dollars per pound, chicken",
           "locator": "price graphic, column Chicken",
-          "quote": "$7.88 plant-based, $3.17 animal-based, 149% price premium"
+          "quote": "$7.88 plant-based, $3.17 animal-based, 149% price premium",
+          "use": "primary: plant-based meat substitutes chicken (decision 16, ruling R35)"
         }
       },
       "dairy_alternatives": {
@@ -214,12 +227,13 @@
       "penetration": 0.11,
       "intent_share": 0.329,
       "sales_usd": 1000000000.0,
-      "addressable_share": 0.5544977522041172,
-      "conversion": 0.6029717942593095,
+      "addressable_share": 0.6072230877307498,
+      "conversion": 0.5506155996287213,
       "spend_per_adopter_usd": 67.59596764799126,
       "conversion_with_addressable_share_1": 0.3343465045592705,
-      "price_ratio_us": 1.7623126338329766,
-      "price_ratio_us_chicken": 2.4858044164037856,
+      "price_ratio_us": 2.4858044164037856,
+      "price_ratio_us_all_meat": 1.7623126338329766,
+      "conversion_including_zero_food_weeks": 0.6029717942593095,
       "intent_source": {
         "value": 0.329,
         "definition": "USA share answering 4 or 5 (very or extremely likely) to plant-based meat purchase likelihood (R12)",
@@ -233,13 +247,14 @@
       "missing": [],
       "us_households": 134488926,
       "penetration": 0.38,
-      "intent_share": 0.38,
+      "intent_share": 0.5137830092891849,
       "sales_usd": 2700000000.0,
-      "addressable_share": 1.0,
+      "addressable_share": 0.7396118461093668,
       "conversion": 1.0,
       "spend_per_adopter_usd": 52.831585240666854,
       "price_ratio_us": 2.1375921375921374,
-      "deviation": "Ruling R34: no Bryant intent measure exists for dairy alternatives, so conversion is 1 and intent_share is the observed US plant-based milk household penetration; the protocol formula's intent term is replaced by observed behaviour and the addressable share is not applied."
+      "intent_share_including_zero_food_weeks": 0.5626369161715402,
+      "deviation": "Rulings R34 and R36: no Bryant intent measure exists for dairy alternatives, so conversion is 1 and intent_share is min(1, penetration / us_urban_packaged_share), the observed US plant-based milk household penetration within urban CUs that buy packaged food (CE, without the meat condition), assuming every buyer sits in that base; observed behaviour replaces the protocol formula's intent term."
     }
   },
   "benchmark_all_categories": {

@@ -863,8 +863,8 @@
     },
     {
       "path": "research/household-demand/outputs/us_calibration.json",
-      "bytes": 11171,
-      "sha256": "499122fa3a05ac3e27d2fc8c4ec96e6f9b69c71cc799a114d65efb7bb2ce348d"
+      "bytes": 12631,
+      "sha256": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253"
     },
     {
       "path": "research/household-demand/protocol.json",
@@ -968,13 +968,13 @@
     },
     {
       "path": "research/household-demand/tests/test_us_calibration.py",
-      "bytes": 5973,
-      "sha256": "85cdc0cad84415471e46f357a0193ccfbefb8c02505c3b96c9014315900a8b66"
+      "bytes": 8870,
+      "sha256": "e2807bd5526a67feaf4526aa7dc4a66fab0847bf3ee1091bed9bd60f21d6ef80"
     },
     {
       "path": "research/household-demand/us_calibration.py",
-      "bytes": 21866,
-      "sha256": "7649bbd66c8c7f46e43b84e9ef0056dbc2b64e00d4735a48dc682b232610b1d9"
+      "bytes": 25676,
+      "sha256": "8de2c9abbaa7021ca72ca8d4e03b86abc07fe085581811cfb196371516939b17"
     },
     {
       "path": "research/india-pakistan/DESIGN-SPEC.md",

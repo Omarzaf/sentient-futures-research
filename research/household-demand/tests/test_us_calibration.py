@@ -83,12 +83,16 @@ def test_rejects_out_of_range_inputs(field, value):
         us.calibrate(**args)
 
 
-def _diary(rows):
-    """Build an FMLD-shaped frame from (weight, urban code, meat, miscfood) tuples."""
+def _diary(rows, foodtot=None):
+    """Build an FMLD-shaped frame from (weight, urban code, meat, miscfood) tuples.
+
+    ``foodtot`` defaults to 10 dollars per diary week.
+    """
     frame = pd.DataFrame(rows, columns=["FINLWT21", "BLS_URBN", "meat", "MISCFOOD"])
     for column in us.CE_MEAT_VARIABLES:
         frame[column] = 0.0
     frame["POULTRY"] = frame.pop("meat")
+    frame["FOODTOT"] = foodtot if foodtot is not None else [10.0] * len(frame)
     frame["quarter_file"] = ["fmld231.csv"] * 2 + ["fmld232.csv"] * (len(frame) - 2)
     return frame
 
@@ -109,7 +113,39 @@ def test_ce_summary_counts_weighted_households_and_addressable_share():
     assert summary["urban_share"] == pytest.approx(300 / 400)
     assert summary["meat_share"] == pytest.approx(350 / 400)
     assert summary["packaged_share"] == pytest.approx(250 / 400)
+    assert summary["us_urban_packaged_share"] == pytest.approx(150 / 400)
     assert summary["n_records"] == 4
+
+
+def test_ce_summary_excludes_zero_food_weeks_from_share_denominators():
+    frame = _diary(
+        [
+            (100.0, 1, 5.0, 2.0),  # addressable
+            (100.0, 1, 0.0, 0.0),  # no food at all this week
+            (100.0, 1, 0.0, 2.0),  # urban, packaged, no meat
+            (200.0, 2, 5.0, 2.0),  # rural
+        ],
+        foodtot=[10.0, 0.0, 10.0, 10.0],
+    )
+    summary = us.ce_summary(frame)
+    # the zero-food week still counts in the CU total: (100 + 100 + 100 + 200) / 2
+    assert summary["us_households"] == 250
+    assert summary["addressable_share"] == pytest.approx(100 / 400)
+    assert summary["us_urban_packaged_share"] == pytest.approx(200 / 400)
+    assert summary["addressable_share_including_zero_food_weeks"] == pytest.approx(
+        100 / 500
+    )
+    assert summary[
+        "us_urban_packaged_share_including_zero_food_weeks"
+    ] == pytest.approx(200 / 500)
+    assert summary["n_zero_food_records"] == 1
+    assert summary["zero_food_share"] == pytest.approx(100 / 500)
+
+
+def test_ce_summary_rejects_missing_foodtot():
+    frame = _diary([(100.0, 1, 5.0, 2.0), (100.0, 1, 5.0, 2.0)], foodtot=[1.0, None])
+    with pytest.raises(ValueError):
+        us.ce_summary(frame)
 
 
 def test_ce_summary_rejects_unknown_urban_code():
@@ -166,10 +202,31 @@ def test_dairy_category_sets_conversion_one_and_intent_to_penetration():
     assert result["spend_per_adopter_usd"] == pytest.approx(2.7e9 / (130e6 * 0.38))
 
 
+def test_dairy_intent_scales_penetration_by_urban_packaged_share():
+    result = us.calibrate_dairy(
+        130_000_000, penetration=0.38, sales_usd=2.7e9, urban_packaged_share=0.70
+    )
+    assert result["intent_share"] == pytest.approx(0.38 / 0.70)
+    assert result["conversion"] == pytest.approx(1.0)
+    assert result["addressable_share"] == 0.70
+    assert result["spend_per_adopter_usd"] == pytest.approx(2.7e9 / (130e6 * 0.38))
+
+
+def test_dairy_intent_capped_at_one():
+    result = us.calibrate_dairy(
+        130_000_000, penetration=0.38, sales_usd=2.7e9, urban_packaged_share=0.30
+    )
+    assert result["intent_share"] == 1.0
+    assert result["conversion"] == 1.0
+
+
 def test_build_payload_is_diagnostic_and_free_of_placeholder_token():
     ce = {
         "us_households": 134_000_000,
         "addressable_share": 0.55,
+        "us_urban_packaged_share": 0.70,
+        "addressable_share_including_zero_food_weeks": 0.50,
+        "us_urban_packaged_share_including_zero_food_weeks": 0.64,
         "urban_share": 0.95,
         "meat_share": 0.64,
         "packaged_share": 0.71,
@@ -183,7 +240,19 @@ def test_build_payload_is_diagnostic_and_free_of_placeholder_token():
         min(1.0, us.GFI["plant_based_meat"]["penetration"]["value"] / 0.55)
         / us.BRYANT_USA_INTENT["value"]
     )
-    assert payload["categories"]["dairy_alternatives"]["conversion"] == 1.0
+    assert meat["price_ratio_us"] == pytest.approx(7.88 / 3.17)
+    assert meat["price_ratio_us_all_meat"] == pytest.approx(8.23 / 4.67)
+    assert meat["conversion_including_zero_food_weeks"] == pytest.approx(
+        (0.11 / 0.50) / 0.329
+    )
+    dairy = payload["categories"]["dairy_alternatives"]
+    assert dairy["conversion"] == pytest.approx(1.0)
+    assert dairy["intent_share"] == pytest.approx(0.38 / 0.70)
+    assert dairy["intent_share_including_zero_food_weeks"] == pytest.approx(0.38 / 0.64)
+    assert "us_urban_packaged_share" in dairy["deviation"]
+    assert payload["ce"]["addressable_rule"]["buys_packaged_food_r38"]["status"] == (
+        "NOT_DONE"
+    )
     text = json.dumps(payload)
     assert "SYNTHETIC" not in text
     assert chr(0x2013) not in text and chr(0x2014) not in text
