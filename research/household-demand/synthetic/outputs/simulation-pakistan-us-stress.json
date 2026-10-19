@@ -1,0 +1,346 @@
+{
+  "status": "SYNTHETIC",
+  "diffusion": "us_stress",
+  "price_basis": "USD_2025",
+  "ceiling_binding_share": 0.0,
+  "quantiles": [
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "metric": "value_usd_2025",
+      "p10": 41917.1959237701,
+      "p50": 54448.95503465538,
+      "p90": 67614.1470288545,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "metric": "volume_t",
+      "p10": 8.236941441079498,
+      "p50": 10.777180775076982,
+      "p90": 13.447097831377691,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "metric": "value_usd_2025",
+      "p10": 951479.5168281227,
+      "p50": 1236965.8243003585,
+      "p90": 1534700.4913342493,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "metric": "volume_t",
+      "p10": 186.84262974806822,
+      "p50": 244.79274725183473,
+      "p90": 305.324924600959,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "metric": "value_usd_2025",
+      "p10": 21585060.031845286,
+      "p50": 28098950.253131554,
+      "p90": 35011434.47486487,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "metric": "volume_t",
+      "p10": 4238.46056118911,
+      "p50": 5558.877795766459,
+      "p90": 6961.305058616873,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "SYNTHETIC"
+    }
+  ],
+  "component_quantiles": [
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 4184.0342556292035,
+      "p50": 5050.853988508053,
+      "p90": 6077.520468114777,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 0.6013508811080921,
+      "p50": 0.7259346627602785,
+      "p90": 0.8734924393929661,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 36885.730495315605,
+      "p50": 49351.25856304474,
+      "p90": 62385.04175799163,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 7.507551650314101,
+      "p50": 10.044727803807977,
+      "p90": 12.697563987911384,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 95575.79909488285,
+      "p50": 115877.03268876854,
+      "p90": 139576.97462134142,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 13.73664446484668,
+      "p50": 16.6544419692145,
+      "p90": 20.0607192825966,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 835916.1365214908,
+      "p50": 1120316.044997288,
+      "p90": 1415080.6621100388,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 170.13851931339954,
+      "p50": 228.02396643766917,
+      "p90": 288.0189986070897,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 2195143.782078471,
+      "p50": 2673226.2832078747,
+      "p90": 3223959.5177611867,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 315.49733268455907,
+      "p50": 384.2098038861825,
+      "p90": 463.3640114332571,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 18943466.732247725,
+      "p50": 25423744.267504983,
+      "p90": 32224355.413064983,
+      "status": "SYNTHETIC"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 3855.6659450303723,
+      "p50": 5174.6317795417035,
+      "p90": 6558.796841298509,
+      "status": "SYNTHETIC"
+    }
+  ],
+  "metadata": {
+    "us_intent": 0.329,
+    "us_intent_n": 987,
+    "us_stress": {
+      "launch_year": 2006,
+      "p": 0.0001347684660720486,
+      "q": 0.71881,
+      "m": 8215793868.030661,
+      "sse": 6.692082815392975e+17,
+      "r_squared": 0.9542890518074251,
+      "n_points": 8,
+      "candidate_launch_years": [
+        1990,
+        2017
+      ]
+    },
+    "source_hashes": {
+      "us_calibration": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+      "drivers": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+      "prices_summary": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+      "diffusion": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+      "elasticities_national": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+      "segments_summary": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+      "protocol": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+      "benchmark_annual": "cac915045f3705af9772a6dac95f5495a7515fc4941dba65f89a849dee5054db",
+      "wup": "80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75",
+      "official_fx_2025": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439",
+      "proxy_inputs": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+      "poultry_supply": "9686f4145b1e23464753fcedec56d4f9045f7fec99f1e579815e2388eb3714c7",
+      "placeholder_prices": "06fcccfdecf4dec42712f6e5142897b52f2e9d67d24e9770c6f606fd2afae9b5",
+      "simulator": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+      "elasticity_estimator": "b1be156502ee0824714443cac41b42afb6ac32532b1b209afa0751507d6d6b45",
+      "segmentation": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
+    },
+    "household_provenance": {
+      "Pakistan": {
+        "households_sha256": "d32e7dd43790a5a489793c344747d828365e98b590d7cbb60ecab69ac8715029",
+        "bootstrap_draws": 500,
+        "bootstrap_source": "actual re-estimated PSU-bootstrap draws with source/code-hashed external cache"
+      }
+    },
+    "fx_provenance": {
+      "source": "World Bank WDI PA.NUS.FCRF",
+      "capture_last_updated": "2026-10-08",
+      "year": 2025,
+      "unit": "local currency per US dollar, period average",
+      "values": {
+        "India": 87.1584483507393,
+        "Pakistan": 281.143001173202
+      },
+      "locator": "JSON [1], countryiso3code IND or PAK, date 2025",
+      "override_countries": []
+    },
+    "environment": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6"
+    },
+    "coverage": {
+      "Pakistan": {
+        "households": 30123,
+        "protein_complete_households": 0,
+        "protein_required_groups": [
+          "value_month_chicken",
+          "value_month_mutton",
+          "value_month_beef_buffalo",
+          "value_month_fish",
+          "value_month_eggs",
+          "value_month_milk",
+          "value_month_pulses",
+          "value_month_other_poultry"
+        ],
+        "protein_denominator_scope": "Country-mapped animal and legume food groups only; no unmapped item or absent item is recoded as zero.",
+        "protein_spending_note": "Share is missing unless every household has all specified observed protein-food groups; no missing item is zero-filled.",
+        "survey_mean_household_size": 5.97833606619019,
+        "survey_urban_share": 0.385365,
+        "addressable_shares": {
+          "meat": 0.35219624153264356,
+          "vegetarian": 0.0,
+          "dairy": 0.35219624153264356
+        },
+        "poultry_supply_base_year": 2023,
+        "poultry_supply_kg_per_capita": 8.72,
+        "poultry_projection": "latest observed per-capita supply held fixed; population changes",
+        "protein_supply_context_g_per_capita_day": 73.39,
+        "protein_supply_context_year": 2023,
+        "exchange_rate_local_per_usd_2025": 281.143001173202,
+        "nfhs_calibration": "NOT_DONE"
+      }
+    },
+    "review_status": "human scholarly review pending; diagnostic only",
+    "vegetarian_transfer_assumption": "R48: negative observed-expenditure-weighted chicken-equation cross-price response to paneer, soya and pulses; US chicken premium retained as calibration reference",
+    "residual_note": "Egg and fermentation residual must be supplied from disaggregated proxy evidence; absent stays null",
+    "scope": "Plant-based meat and plant-based liquid milk only; other dairy alternatives are not calibrated by the available US milk category.",
+    "volume_unit_convention": "Product tonnes; Task 7 treats liquid packs as 1 ml = 1 g, hence 1 litre = 1 kg for plant milk. This is an assumed density, not measured product mass or protein tonnes. Local conventional milk references are per litre, so the dimensionless dairy ratio uses the same convention.",
+    "stress_clock": "US fitted p and q shape transferred to each country launch clock; fitted US calendar launch date is not used as a South Asian launch.",
+    "timing_caveat": "Bryant 2019 intent and GFI 2025 penetration are from different periods; the GFI meat category includes seafood.",
+    "income_note": "GDP per capita at market USD2025 used as income proxy; US2025 comparison held fixed",
+    "stratum_note": "Pakistan official strata unresolved; estimator clusters by province without using invented stratum values",
+    "positive_own_price_capped": 0,
+    "own_price_evaluations": 60000,
+    "ceiling_displacement_assumption": "One kg of plant-based meat product displaces one kg of chicken product; no protein-equivalence conversion is claimed.",
+    "own_price_cap_note": "R25 deviation: own-price draws above zero capped at zero, no replacement literature value",
+    "bootstrap_recentering": "R24 draw minus bootstrap median plus point estimate",
+    "vegetarian_mapping": "inverse_premium",
+    "driver_distribution": "bounded piecewise-linear quantile interpolation at u=0,0.5,1; band endpoints are not interpreted as calibrated tail quantiles",
+    "beta_numerics": "Beta(mean*n,(1-mean)*n) inverse CDF; 65537 point trapezoid grid",
+    "fixed_factors": [
+      "bass_p",
+      "bass_q"
+    ],
+    "ceiling_binding_denominator": 30000,
+    "adoption_clipped_to_probability": true,
+    "ai_decline": 0.0,
+    "parity_year": null,
+    "seed": 20261018,
+    "draws": 10000
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "status": "DIAGNOSTIC",
+  "diffusion": "us_stress",
+  "price_basis": "USD_2025",
+  "ceiling_binding_share": 0.0,
+  "quantiles": [
+    {
+      "country": "India",
+      "year": 2026,
+      "metric": "value_usd_2025",
+      "p10": 34161700.81534933,
+      "p50": 36025723.24514103,
+      "p90": 38152914.765077345,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "metric": "volume_t",
+      "p10": 8284.784494686915,
+      "p50": 8641.588952731308,
+      "p90": 8994.43946336191,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "value_usd_2025",
+      "p10": 497969150.1351515,
+      "p50": 525505638.9078609,
+      "p90": 556624321.8607622,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "volume_t",
+      "p10": 123105.87114587001,
+      "p50": 128593.53810400858,
+      "p90": 134214.54541112008,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "metric": "value_usd_2025",
+      "p10": 1744676831.3372042,
+      "p50": 1847287943.1268654,
+      "p90": 1958470611.5728817,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "metric": "volume_t",
+      "p10": 441203.43422095396,
+      "p50": 462947.44998617243,
+      "p90": 485616.8767097539,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    }
+  ],
+  "component_quantiles": [
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 13803925.524005018,
+      "p50": 14461392.973046005,
+      "p90": 15115944.273055745,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 6348.166664887013,
+      "p50": 6650.523623854389,
+      "p90": 6951.539500530513,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 12688376.767029606,
+      "p50": 13846896.15442752,
+      "p90": 15163164.180156898,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 1165.8576231516706,
+      "p50": 1272.3069100988032,
+      "p90": 1393.2507581641412,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "vegetarian",
+      "metric": "value_usd_2025",
+      "p10": 7011014.557439378,
+      "p50": 7706069.134579724,
+      "p90": 8475746.042737266,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2026,
+      "pair": "vegetarian",
+      "metric": "volume_t",
+      "p10": 644.1994053216913,
+      "p50": 708.063735026273,
+      "p90": 778.7846560089298,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 207688471.4770062,
+      "p50": 218029470.49383286,
+      "p90": 228280942.29037464,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 95512.0359798305,
+      "p50": 100267.66763881689,
+      "p90": 104982.12740692163,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 181090464.35436586,
+      "p50": 197562682.22531933,
+      "p90": 216058961.91644463,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 16639.299275555688,
+      "p50": 18152.831000509508,
+      "p90": 19852.341432283367,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "vegetarian",
+      "metric": "value_usd_2025",
+      "p10": 100016796.08413891,
+      "p50": 110001447.17375939,
+      "p90": 120977102.43236874,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "vegetarian",
+      "metric": "volume_t",
+      "p10": 9189.933929207971,
+      "p50": 10107.362675301927,
+      "p90": 11115.848755695175,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 755781875.2647516,
+      "p50": 796362819.7637836,
+      "p90": 837515455.7524995,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 347569.9211893072,
+      "p50": 366232.33708327834,
+      "p90": 385157.6631799378,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 617840596.7266564,
+      "p50": 674633115.4262185,
+      "p90": 737381308.0341688,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 56769.607555953575,
+      "p50": 61987.926028015194,
+      "p90": 67753.47508398749,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "vegetarian",
+      "metric": "value_usd_2025",
+      "p10": 341418903.342687,
+      "p50": 375523272.2729392,
+      "p90": 413309246.78198206,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "pair": "vegetarian",
+      "metric": "volume_t",
+      "p10": 31370.902555830948,
+      "p50": 34504.545198239626,
+      "p90": 37976.468143028986,
+      "status": "DIAGNOSTIC"
+    }
+  ],
+  "metadata": {
+    "us_intent": 0.329,
+    "us_intent_n": 987,
+    "us_stress": {
+      "launch_year": 2006,
+      "p": 0.0001347684660720486,
+      "q": 0.71881,
+      "m": 8215793868.030661,
+      "sse": 6.692082815392975e+17,
+      "r_squared": 0.9542890518074251,
+      "n_points": 8,
+      "candidate_launch_years": [
+        1990,
+        2017
+      ]
+    },
+    "source_hashes": {
+      "us_calibration": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+      "drivers": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+      "prices_summary": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+      "diffusion": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+      "elasticities_national": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+      "segments_summary": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+      "protocol": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+      "benchmark_annual": "cac915045f3705af9772a6dac95f5495a7515fc4941dba65f89a849dee5054db",
+      "wup": "80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75",
+      "official_fx_2025": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439",
+      "proxy_inputs": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+      "poultry_supply": "9686f4145b1e23464753fcedec56d4f9045f7fec99f1e579815e2388eb3714c7",
+      "simulator": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+      "elasticity_estimator": "b1be156502ee0824714443cac41b42afb6ac32532b1b209afa0751507d6d6b45",
+      "segmentation": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
+    },
+    "household_provenance": {
+      "India": {
+        "households_sha256": "f9311508b5548bb038ce52f326c4230696ae3e90331c1a34995b4b19c8013c2c",
+        "bootstrap_draws": 500,
+        "bootstrap_source": "actual re-estimated PSU-bootstrap draws with source/code-hashed external cache"
+      }
+    },
+    "fx_provenance": {
+      "source": "World Bank WDI PA.NUS.FCRF",
+      "capture_last_updated": "2026-10-08",
+      "year": 2025,
+      "unit": "local currency per US dollar, period average",
+      "values": {
+        "India": 87.1584483507393,
+        "Pakistan": 281.143001173202
+      },
+      "locator": "JSON [1], countryiso3code IND or PAK, date 2025",
+      "override_countries": []
+    },
+    "environment": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6"
+    },
+    "coverage": {
+      "India": {
+        "households": 261953,
+        "protein_complete_households": 0,
+        "protein_required_groups": [
+          "value_month_chicken",
+          "value_month_mutton",
+          "value_month_beef_buffalo",
+          "value_month_fish",
+          "value_month_pork",
+          "value_month_eggs",
+          "value_month_milk",
+          "value_month_paneer",
+          "value_month_pulses",
+          "value_month_soya"
+        ],
+        "protein_denominator_scope": "Country-mapped animal and legume food groups only; no unmapped item or absent item is recoded as zero.",
+        "protein_spending_note": "Share is missing unless every household has all specified observed protein-food groups; no missing item is zero-filled.",
+        "survey_mean_household_size": 4.174714434820332,
+        "survey_urban_share": 0.36657416666666665,
+        "addressable_shares": {
+          "meat": 0.22966360517242523,
+          "vegetarian": 0.10037053117825984,
+          "dairy": 0.33003413635068507
+        },
+        "poultry_supply_base_year": 2023,
+        "poultry_supply_kg_per_capita": 3.52,
+        "poultry_projection": "latest observed per-capita supply held fixed; population changes",
+        "protein_supply_context_g_per_capita_day": 74.57,
+        "protein_supply_context_year": 2023,
+        "exchange_rate_local_per_usd_2025": 87.1584483507393,
+        "nfhs_calibration": "NOT_DONE"
+      }
+    },
+    "review_status": "human scholarly review pending; diagnostic only",
+    "vegetarian_transfer_assumption": "R48: negative observed-expenditure-weighted chicken-equation cross-price response to paneer, soya and pulses; US chicken premium retained as calibration reference",
+    "residual_note": "Egg and fermentation residual must be supplied from disaggregated proxy evidence; absent stays null",
+    "scope": "Plant-based meat and plant-based liquid milk only; other dairy alternatives are not calibrated by the available US milk category.",
+    "volume_unit_convention": "Product tonnes; Task 7 treats liquid packs as 1 ml = 1 g, hence 1 litre = 1 kg for plant milk. This is an assumed density, not measured product mass or protein tonnes. Local conventional milk references are per litre, so the dimensionless dairy ratio uses the same convention.",
+    "stress_clock": "US fitted p and q shape transferred to each country launch clock; fitted US calendar launch date is not used as a South Asian launch.",
+    "timing_caveat": "Bryant 2019 intent and GFI 2025 penetration are from different periods; the GFI meat category includes seafood.",
+    "income_note": "GDP per capita at market USD2025 used as income proxy; US2025 comparison held fixed",
+    "stratum_note": "Pakistan official strata unresolved; estimator clusters by province without using invented stratum values",
+    "positive_own_price_capped": 29937,
+    "own_price_evaluations": 60000,
+    "ceiling_displacement_assumption": "One kg of plant-based meat product displaces one kg of chicken product; no protein-equivalence conversion is claimed.",
+    "own_price_cap_note": "R25 deviation: own-price draws above zero capped at zero, no replacement literature value",
+    "bootstrap_recentering": "R24 draw minus bootstrap median plus point estimate",
+    "vegetarian_mapping": "inverse_premium",
+    "driver_distribution": "bounded piecewise-linear quantile interpolation at u=0,0.5,1; band endpoints are not interpreted as calibrated tail quantiles",
+    "beta_numerics": "Beta(mean*n,(1-mean)*n) inverse CDF; 65537 point trapezoid grid",
+    "fixed_factors": [
+      "bass_p",
+      "bass_q"
+    ],
+    "ceiling_binding_denominator": 30000,
+    "adoption_clipped_to_probability": true,
+    "ai_decline": 0.0,
+    "parity_year": null,
+    "seed": 20261018,
+    "draws": 10000
+  }
+}

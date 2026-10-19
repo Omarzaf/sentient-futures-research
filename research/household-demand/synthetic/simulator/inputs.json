@@ -1,0 +1,11 @@
+{
+  "status": "SYNTHETIC",
+  "note": "Invented simulator fixture; never an empirical estimate.",
+  "rows": [
+    {"country":"India","year":2030,"pair":"meat","addressable_share":0.25,"hh_size":4,"urban_survey":0.4,"population_low":1000000,"population_mid":1100000,"population_high":1200000,"urban_low":0.45,"urban_mid":0.45,"urban_high":0.45,"income_low":9000,"income_mid":10000,"income_high":11000,"income_us":50000,"ratio":3,"ratio_us":2,"price_usd_2025_kg":10,"conversion":0.5,"intent":0.628,"intent_n":1024,"spend_us":100,"bass_p":0.03,"bass_q":0.38,"launch_year":2019,"poultry_kg_per_capita":2,"protein_spending_per_household_usd_2025":400,"residual_usd_2025":null,"price_basis":"USD_2025","status":"SYNTHETIC"},
+    {"country":"India","year":2030,"pair":"vegetarian","addressable_share":0.1,"hh_size":4,"urban_survey":0.4,"population_low":1000000,"population_mid":1100000,"population_high":1200000,"urban_low":0.45,"urban_mid":0.45,"urban_high":0.45,"income_low":9000,"income_mid":10000,"income_high":11000,"income_us":50000,"ratio":4,"ratio_us":2,"price_usd_2025_kg":10,"conversion":0.5,"intent":0.628,"intent_n":1024,"spend_us":100,"bass_p":0.03,"bass_q":0.38,"launch_year":2019,"poultry_kg_per_capita":2,"protein_spending_per_household_usd_2025":400,"residual_usd_2025":null,"weight_paneer":0.3,"weight_soya":0.2,"weight_pulses":0.5,"price_basis":"USD_2025","status":"SYNTHETIC"},
+    {"country":"India","year":2030,"pair":"dairy","addressable_share":0.35,"hh_size":4,"urban_survey":0.4,"population_low":1000000,"population_mid":1100000,"population_high":1200000,"urban_low":0.45,"urban_mid":0.45,"urban_high":0.45,"income_low":9000,"income_mid":10000,"income_high":11000,"income_us":50000,"ratio":3,"ratio_us":2,"price_usd_2025_kg":3,"conversion":1,"intent":0.5,"intent_n":null,"spend_us":50,"bass_p":0.03,"bass_q":0.38,"launch_year":2019,"poultry_kg_per_capita":2,"protein_spending_per_household_usd_2025":400,"residual_usd_2025":null,"price_basis":"USD_2025","status":"SYNTHETIC"}
+  ],
+  "point": {"own_price:chicken":-0.6,"own_price:milk":0.2,"income:chicken":0.3,"income:milk":0.5,"cross_price:chicken:paneer":0.1,"cross_price:chicken:soya":0.2,"cross_price:chicken:pulses":0.3},
+  "draw_offsets": [-0.1,0.0,0.1]
+}
