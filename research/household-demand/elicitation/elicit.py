@@ -937,7 +937,7 @@ def summarize(records: list[dict], raw: Path, destination: Path, runs: int) -> N
         "spread_definition",
     ]
     with (destination / "results.csv").open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader()
         for (region, model, measure, year, unit), values in sorted(groups.items()):
             n = counts[(model, region)]

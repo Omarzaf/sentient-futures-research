@@ -18,8 +18,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 610,
-      "sha256": "685553a1d3ace63c8ba4b47e2827812058c048f7240356b021123e356a7b1da3"
+      "bytes": 807,
+      "sha256": "5dd97f2c50cba512791a5a9f955fffd04100da51b6ba10eb01bbf1cdc5f3ff98"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -792,6 +792,16 @@
       "sha256": "054a4591292c1b97cc559a678ed30485b12f9982de58c8416d31cfc670d8011c"
     },
     {
+      "path": "research/household-demand/README.md",
+      "bytes": 4625,
+      "sha256": "c98f16462db6399c6f0c4efdbafb5dd09e546fc0fe9db7f7b883b63acc5f6559"
+    },
+    {
+      "path": "research/household-demand/build_outputs.py",
+      "bytes": 81141,
+      "sha256": "8be86a01af68e57fe972e64eae1a6f15998733baa0a8344e14737fdb819cce7a"
+    },
+    {
       "path": "research/household-demand/codes.py",
       "bytes": 16177,
       "sha256": "f3828e2e42b02b9af1582349350c6dbe1d6bbdf297e385062dc7334669b7396f"
@@ -817,6 +827,66 @@
       "sha256": "b1be156502ee0824714443cac41b42afb6ac32532b1b209afa0751507d6d6b45"
     },
     {
+      "path": "research/household-demand/elicitation/README.md",
+      "bytes": 3991,
+      "sha256": "b3b4b5ab14b813493eec797de6ffe5e57fd6cdfec4621f283bb74e0c348fb82d"
+    },
+    {
+      "path": "research/household-demand/elicitation/accepted-runs.json",
+      "bytes": 119672,
+      "sha256": "4b08d457ad2f2af3aafb834f805ff52ad3dd5399955a46544f10293004003113"
+    },
+    {
+      "path": "research/household-demand/elicitation/completion.json",
+      "bytes": 11133,
+      "sha256": "98a0467f5fc93ee79adf45fdebdefec8e60e3d60b27f75bd5c03c39fa73b666d"
+    },
+    {
+      "path": "research/household-demand/elicitation/elicit.py",
+      "bytes": 48033,
+      "sha256": "073f4e2fc94295019be8216e10bd7d02cbfda41e62a028129e676b79fcdba64e"
+    },
+    {
+      "path": "research/household-demand/elicitation/evidence-india.md",
+      "bytes": 4177,
+      "sha256": "0dff5bfed3663be986280e8bea4d0456c4f136bbe13620a0fd8e47fbed480527"
+    },
+    {
+      "path": "research/household-demand/elicitation/evidence-pakistan.md",
+      "bytes": 3875,
+      "sha256": "684f72b45b5da7c30996578288d45ee9c0f275818f9f3c1cead7d6bba1ca4aee"
+    },
+    {
+      "path": "research/household-demand/elicitation/evidence-us.md",
+      "bytes": 653,
+      "sha256": "5710de417c547430f7ed10f64d223b770a9e1fe341ba1424fd974797437410e3"
+    },
+    {
+      "path": "research/household-demand/elicitation/execution-scope.json",
+      "bytes": 418,
+      "sha256": "537a568e11158bd9e05bb191728b56a28de2a0cf14cd8cf85ac75e6fdcc7baf0"
+    },
+    {
+      "path": "research/household-demand/elicitation/instrument-provenance.json",
+      "bytes": 1527,
+      "sha256": "054838992bef9724fb5ccffe1440ab4330b1fa59a2c6774010f40f30a65b20eb"
+    },
+    {
+      "path": "research/household-demand/elicitation/results.csv",
+      "bytes": 11661,
+      "sha256": "4123c4a98a58bd5e2eb28a5e0f0707e92e614692feafa0a36942ba833dc038ba"
+    },
+    {
+      "path": "research/household-demand/elicitation/scope.json",
+      "bytes": 1509,
+      "sha256": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04"
+    },
+    {
+      "path": "research/household-demand/elicitation/source-provenance.json",
+      "bytes": 5382,
+      "sha256": "303d1d42fb93d69776c1517aab1ebe392442125be6d01973637160069f7851c5"
+    },
+    {
       "path": "research/household-demand/households_india.py",
       "bytes": 23242,
       "sha256": "075a11a3af7223d9e804fd6b5d2f270758ede7a6a91e507c2cb2b8c44d18cb0b"
@@ -828,8 +898,8 @@
     },
     {
       "path": "research/household-demand/inputs/manifest.csv",
-      "bytes": 12387,
-      "sha256": "90b86f1a07b547cab69378656d5d67136ca55b894277a5ea4885709e04db2ee6"
+      "bytes": 13008,
+      "sha256": "be96e78eefafd95f48db2746d3bf6e267103e297c1b6713799bd0b32e7867a5d"
     },
     {
       "path": "research/household-demand/logs/india-households-run.json",
@@ -848,8 +918,23 @@
     },
     {
       "path": "research/household-demand/outputs/README.md",
-      "bytes": 367,
-      "sha256": "7c2bc1be79173e8f9e148f218b081dbbf8795eee80bd07360e55cf645b055f51"
+      "bytes": 3090,
+      "sha256": "242ca1b74a39275b9a74e9b4ecc8bef256ae514526de85e059ccc61bc7cf91b6"
+    },
+    {
+      "path": "research/household-demand/outputs/REPORT.md",
+      "bytes": 42069,
+      "sha256": "c4ba2ead7636dd190f8df1564255af9e36d4f97744822f122158e71758a4edac"
+    },
+    {
+      "path": "research/household-demand/outputs/comparison-metadata.json",
+      "bytes": 3259,
+      "sha256": "f2eadd79fb9c7d149bb5152126d6d180f960dbb68d1e885128adacf5543a1235"
+    },
+    {
+      "path": "research/household-demand/outputs/comparison.csv",
+      "bytes": 14397,
+      "sha256": "d4a65ece93724324950c988cc77d3fad7328ab16bfce27989a53fa91b2c82a15"
     },
     {
       "path": "research/household-demand/outputs/diffusion.json",
@@ -867,9 +952,34 @@
       "sha256": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5"
     },
     {
+      "path": "research/household-demand/outputs/holdout-summary.json",
+      "bytes": 78584,
+      "sha256": "7a5d7d9f40a19b839bc8425c2507996bbe0e77e1bb413e42320c1a37e511a526"
+    },
+    {
+      "path": "research/household-demand/outputs/holdout.csv",
+      "bytes": 7010,
+      "sha256": "c439a7c5df98fa3653fdf821d0f1f5ad8d1a18e8e26d3bb97a43cef7562fe7ed"
+    },
+    {
       "path": "research/household-demand/outputs/india_summary.json",
       "bytes": 145111,
       "sha256": "1904b37028b77f68e02cf54b7fed571568aa882066267c36ed2f4b4ebef6fc64"
+    },
+    {
+      "path": "research/household-demand/outputs/model-from-panel-inputs-gpt-6-astra-india-2026.json",
+      "bytes": 9768,
+      "sha256": "8e0d153850aac6488af551a676d339d2ae003a2fa49c63e344f09c79c83d493b"
+    },
+    {
+      "path": "research/household-demand/outputs/model-from-panel-inputs-gpt-6-astra-india-2030.json",
+      "bytes": 9766,
+      "sha256": "b5c9649856dda76d6edafedab4e5cc57985096d38d25efdfc014eba5715cdd4a"
+    },
+    {
+      "path": "research/household-demand/outputs/model-from-panel-inputs-gpt-6-astra-india-2035.json",
+      "bytes": 9759,
+      "sha256": "d5458a463ede2dffe9eb91ef7094b776ddbcc8ba4dfd2a6a341d12da696e9581"
     },
     {
       "path": "research/household-demand/outputs/pakistan_summary.json",
@@ -877,14 +987,79 @@
       "sha256": "2974ae48a34a6275f84befd4caaabad761c44e64ab05b54a38613e3e418c6cfa"
     },
     {
+      "path": "research/household-demand/outputs/panel-model-summary.json",
+      "bytes": 3037,
+      "sha256": "cd73ee9f0b85ffa28fa8fd2767930502301a880f9fc2bbee509e506fa797d441"
+    },
+    {
       "path": "research/household-demand/outputs/prices_summary.json",
       "bytes": 73623,
       "sha256": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e"
     },
     {
+      "path": "research/household-demand/outputs/scenario-india-ai_2pct.json",
+      "bytes": 13124,
+      "sha256": "c7d3a79289e255543bdd4575c4affa2cb880a50b4c1634cd9c8b03cce5185d97"
+    },
+    {
+      "path": "research/household-demand/outputs/scenario-india-ai_5pct.json",
+      "bytes": 13123,
+      "sha256": "a0ebb6dfb75bd9a607b75632297983f70c7e6a930f2092520bc4c04d876fa89f"
+    },
+    {
+      "path": "research/household-demand/outputs/scenario-india-parity_2030.json",
+      "bytes": 13132,
+      "sha256": "81f6bd1e95edfb54995ef2b8129fbab108c6c329adfb8578b10a952f606af46d"
+    },
+    {
+      "path": "research/household-demand/outputs/scenarios.csv",
+      "bytes": 3951,
+      "sha256": "850fd74e29bfb36cc9ae6719c9eb4c80e65c7cb6a4daff0e4bf49ca86a25949e"
+    },
+    {
       "path": "research/household-demand/outputs/segments_summary.json",
       "bytes": 20046,
       "sha256": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183"
+    },
+    {
+      "path": "research/household-demand/outputs/simulation-india-literal-signed.json",
+      "bytes": 13119,
+      "sha256": "a20f03e2c091a2579bdc5e237d095779f8b86daa60cc48ded77521c475807111"
+    },
+    {
+      "path": "research/household-demand/outputs/simulation-india-us-stress.json",
+      "bytes": 13140,
+      "sha256": "de35c46b0b596b1b152327e04902e4f8bd4dee4a3b6322cb35914186e5fc87cf"
+    },
+    {
+      "path": "research/household-demand/outputs/simulation-india.json",
+      "bytes": 13133,
+      "sha256": "9adfa5aa3cde7b63f95966183878a32e8f458404797cd588aa13a0297aca5630"
+    },
+    {
+      "path": "research/household-demand/outputs/sobol-diagnostics.json",
+      "bytes": 23354,
+      "sha256": "bb3c15358970217a53efc565f5e317f0905ff2bf5ab368a77a82558021a03a58"
+    },
+    {
+      "path": "research/household-demand/outputs/sobol.csv",
+      "bytes": 3642,
+      "sha256": "f22a84e9437963506b89a25965aaa95f8718424381699c6f187867935a8ca345"
+    },
+    {
+      "path": "research/household-demand/outputs/team-method-note.md",
+      "bytes": 1425,
+      "sha256": "44e143d8cb1f06bce6e5a4e6b5461ec5eb046e0ab66287ca7cacc39952a91e41"
+    },
+    {
+      "path": "research/household-demand/outputs/us-calibration-metadata.json",
+      "bytes": 6327,
+      "sha256": "c5b591be7a4b361e65aa5bb54067a3c57c2a45163d61c116fa1e9a42b3fb5913"
+    },
+    {
+      "path": "research/household-demand/outputs/us-calibration.csv",
+      "bytes": 5762,
+      "sha256": "1dfe328353c3ba5372546c87f0ddc104756be6bd16b70016f218f9e1e6c3f6fc"
     },
     {
       "path": "research/household-demand/outputs/us_calibration.json",
@@ -907,6 +1082,16 @@
       "sha256": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
     },
     {
+      "path": "research/household-demand/sensitivity.py",
+      "bytes": 8005,
+      "sha256": "1a2959d28d178a196b0bc487bbefcffa8c8c7d12249732da08266676138ac2ef"
+    },
+    {
+      "path": "research/household-demand/simulate.py",
+      "bytes": 45421,
+      "sha256": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963"
+    },
+    {
       "path": "research/household-demand/synthetic.py",
       "bytes": 3643,
       "sha256": "2ae0a17100b43d57b6ee937d83d0f7c2846375290916cf8f99fa5c3416711b81"
@@ -917,9 +1102,79 @@
       "sha256": "8fe53cfe930222032f67eddc8851ee0fd135a921f2d5370efacc7175c13d90a6"
     },
     {
+      "path": "research/household-demand/synthetic/outputs/comparison-research.csv",
+      "bytes": 14283,
+      "sha256": "87acd23b1f4f246cf46cba92f3ee59d8f9572df2ab0566c1a3159c8385ec8e80"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/model-from-panel-inputs-gpt-6-astra-pakistan-2026.json",
+      "bytes": 9308,
+      "sha256": "3102c9c46df7e8740826187b672c7ef91daf0399616d42d71a69ecfad33de730"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/model-from-panel-inputs-gpt-6-astra-pakistan-2030.json",
+      "bytes": 9311,
+      "sha256": "8107080808c9a20de32ee9712620f876ea8d72b6db02a41f701bd3233e5e3066"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/model-from-panel-inputs-gpt-6-astra-pakistan-2035.json",
+      "bytes": 9316,
+      "sha256": "c9c249b832f66306a7dfed561bb4c13633c37337fb5c1b6d6665b4b1cc687779"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/panel-model-summary.json",
+      "bytes": 4183,
+      "sha256": "280bff750cfc0a89bec35b5d1f7a2373a89c006e845ba7f39528dd3507ca6cc4"
+    },
+    {
       "path": "research/household-demand/synthetic/outputs/price_ratios_placeholder.json",
       "bytes": 24578,
       "sha256": "06fcccfdecf4dec42712f6e5142897b52f2e9d67d24e9770c6f606fd2afae9b5"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/scenario-pakistan-ai_2pct.json",
+      "bytes": 11721,
+      "sha256": "3243ea71faff2b61670ca1608b06b9429fc7a7abe5b3e4c28a328592ffa7019d"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/scenario-pakistan-ai_5pct.json",
+      "bytes": 11725,
+      "sha256": "b4d12e7d40eb065a5272d7e0abea65e4e1787c50f2a74265abb31bb22832a086"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/scenario-pakistan-parity_2030.json",
+      "bytes": 11721,
+      "sha256": "d4f116b41240df16f3964848917354f2de5d1d54f0a44cfe236399da4ab89235"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/scenarios.csv",
+      "bytes": 3853,
+      "sha256": "526f65392f88cee41353f7b9967afa032eba0b68e9c34116cec0b3e0b1fd5b11"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/simulation-pakistan-literal-signed.json",
+      "bytes": 11714,
+      "sha256": "e7c833fdd455a546f87c856d9d947fa011c109b8021312da15c29b499d5791af"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/simulation-pakistan-us-stress.json",
+      "bytes": 11732,
+      "sha256": "9d00a42060fc7b95be5188143133c38a47c7d168a8c1fe505e0b65f59a94aa9c"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/simulation-pakistan.json",
+      "bytes": 11715,
+      "sha256": "d04b77db904878280f5a04b1278fec213fd8e65fc61edae24890cdcca99c510f"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/sobol-diagnostics.json",
+      "bytes": 23565,
+      "sha256": "19b14bc8e779d800e832eea0d587e956fa4f70910310de8494bf6eeb2f66464b"
+    },
+    {
+      "path": "research/household-demand/synthetic/outputs/sobol.csv",
+      "bytes": 3864,
+      "sha256": "4e0faa003e95a60978b4d01d0adf2b5d0c9b167b9a3b5c25418b753ef71921fa"
     },
     {
       "path": "research/household-demand/synthetic/pakistan_strata.csv",
@@ -932,9 +1187,44 @@
       "sha256": "d1c819ec8aef214048ef0aec3f362dd9b52cba442d2bcb2c0cf46fce6126caff"
     },
     {
+      "path": "research/household-demand/synthetic/simulator/inputs.json",
+      "bytes": 2229,
+      "sha256": "ff0850b585f383c3552f281ce5e956c2fb4ef959a527e867c8f77989665ac47b"
+    },
+    {
       "path": "research/household-demand/tests/conftest.py",
       "bytes": 978,
       "sha256": "a001727e4c9e0d3eb742e1aa0b8b8e9201aa1f4bd9cc23950084852e219716e3"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/README.md",
+      "bytes": 378,
+      "sha256": "144c04b489ecdb6b8cea34164ab66e9d4c8e560d6c096e6f521494cef98806d8"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/cites_vercel.json",
+      "bytes": 3727,
+      "sha256": "22dbb32ca8e03423e689f6c540f3427e7e7212b5202b5740ace71ad21846dae2"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/missing_2035.json",
+      "bytes": 3630,
+      "sha256": "a8781696d2c20d7a3d08b1773e4a090025f10613b8a5a8e40544a932a100bfec"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/non_monotone.json",
+      "bytes": 3701,
+      "sha256": "e658e1282fd00e1c4a7547f14607ee0dc9473979c47a33ae45f5dc42a7947a08"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/us_valid.json",
+      "bytes": 2284,
+      "sha256": "8b3bd4d37c19fe3483b0c328a6be39a2d7f798fb72c9371abe2688c102017147"
+    },
+    {
+      "path": "research/household-demand/tests/fixtures/elicitation/valid.json",
+      "bytes": 3702,
+      "sha256": "6b70faa5a235dff637155f7875b5db9cce5a4bc58e394ceb3135f18a05bcbbc6"
     },
     {
       "path": "research/household-demand/tests/fixtures/hces_mini/level_01.parquet",
@@ -977,6 +1267,11 @@
       "sha256": "3b1866fb08beb7a385d5050775c57ed39bfa3f9cb0fe28d084076eb38e02b2fb"
     },
     {
+      "path": "research/household-demand/tests/test_build_outputs.py",
+      "bytes": 24084,
+      "sha256": "b5b45b5496c174c768b2906a947c6aa51b682401d266e6aef8f037b7a3b5dd1c"
+    },
+    {
       "path": "research/household-demand/tests/test_diffusion.py",
       "bytes": 2048,
       "sha256": "f06ac09d8ba057324d630cec711cd792c421a80a1c2c33fcab950d5f44da61df"
@@ -990,6 +1285,11 @@
       "path": "research/household-demand/tests/test_elasticities.py",
       "bytes": 17244,
       "sha256": "474dbe7780668b56059e695b4cdcd98336293679bc24c55493a8198a44d45f81"
+    },
+    {
+      "path": "research/household-demand/tests/test_elicit.py",
+      "bytes": 14374,
+      "sha256": "28136f5f44cba1382fe6da05aed0472071ede258766d832f27a26117b34c7c81"
     },
     {
       "path": "research/household-demand/tests/test_households_india.py",
@@ -1008,13 +1308,23 @@
     },
     {
       "path": "research/household-demand/tests/test_protocol.py",
-      "bytes": 5386,
-      "sha256": "9a5fcf8152dde6a69ad35a89db1e443a9aa33ba51618e8132c9570daf8422e4c"
+      "bytes": 5741,
+      "sha256": "ec1a531c2c057272447f22dffb0dc21aac0ef650c0b12b81817f28fff30ed541"
     },
     {
       "path": "research/household-demand/tests/test_segments.py",
       "bytes": 16243,
       "sha256": "39b48af1794cea62fd86a423b812ad32851056db3fe70edefc3fcde6245d1d33"
+    },
+    {
+      "path": "research/household-demand/tests/test_sensitivity.py",
+      "bytes": 8766,
+      "sha256": "8623e78532de35e41a128be428d77ec049fe927907442ae28983db2e891d3aa1"
+    },
+    {
+      "path": "research/household-demand/tests/test_simulate.py",
+      "bytes": 12487,
+      "sha256": "a3eb46872b32e298406d82817f1ad5f848da9cb5bca5651cf216cfc4a336c6c3"
     },
     {
       "path": "research/household-demand/tests/test_synthetic.py",
@@ -1027,9 +1337,19 @@
       "sha256": "e2807bd5526a67feaf4526aa7dc4a66fab0847bf3ee1091bed9bd60f21d6ef80"
     },
     {
+      "path": "research/household-demand/tests/test_validate.py",
+      "bytes": 13479,
+      "sha256": "e15573b4997e3ce7c191983cb34e027da64700f63e2368f32ca82624fb9f4cdb"
+    },
+    {
       "path": "research/household-demand/us_calibration.py",
       "bytes": 25676,
       "sha256": "8de2c9abbaa7021ca72ca8d4e03b86abc07fe085581811cfb196371516939b17"
+    },
+    {
+      "path": "research/household-demand/validate.py",
+      "bytes": 27298,
+      "sha256": "f8ce012a84f3b83598972e5e0403de02d2d8073b0b44651416031df456862dd9"
     },
     {
       "path": "research/india-pakistan/DESIGN-SPEC.md",

@@ -987,6 +987,36 @@ def write_report(
         f"- {d['country']}, {d['model']}: {d['status']}; accepted runs {d['n_accepted']}; {d['reason']}."
         for d in panel_diagnostics
     )
+    parameter_labels = {
+        "conversion": "conversion (coefficient)",
+        "bass_p": "Bass p (coefficient)",
+        "bass_q": "Bass q (coefficient)",
+        "price_parity_year": "price parity (year)",
+        "ai_cost_decline": "AI cost decline (fraction/year)",
+    }
+    median_inputs = pd.DataFrame(
+        [
+            {
+                **{key: d[key] for key in ("country", "model", "n_accepted", "status")},
+                **{
+                    label: (
+                        f"{d['medians'][parameter]:.6f}"
+                        if d.get("status") in PANEL_STATUSES
+                        else None
+                    )
+                    for parameter, label in parameter_labels.items()
+                },
+            }
+            for d in panel_diagnostics
+        ],
+        columns=[
+            "country",
+            "model",
+            "n_accepted",
+            "status",
+            *parameter_labels.values(),
+        ],
+    )
     text = f"""# Household demand, US calibration and proxy market scenarios for India and Pakistan
 
 **Local research draft, 19 October 2026. Human scholarly review pending.** No new market estimate has been accepted into the claim ledger. This paper is a reproducible diagnostic contribution to the India-Pakistan research programme; replacing the team's D1 forecast requires separate method agreement and acceptance. These results do not measure the supply benchmark in `future-research/`.
@@ -1079,9 +1109,15 @@ The protocol requires 10 fresh contexts for each of two named models in each of 
 
 The exact US questionnaire is hash-bound and stored separately because public redistribution rights are unestablished. India and Pakistan adaptations preserve explicit unresolved forecast questions and resolvable proxy questions. Project domains and project-derived estimate contamination are screened. The original US cultivated/fermentation and blind-spot questions remain intact. Public reporting remains held pending scholarly review; Anna must also be notified before the US comparison is reported outside this local draft.
 
-{markdown_table(panel_display, ['country', 'year', 'method', 'source_model', 'n_accepted', 'p50', 'status'])}
+Values below are million USD at constant 2025 prices; held cells are not zero.
+
+{markdown_table(panel_display, ['country', 'year', 'method', 'source_model', 'n_accepted', 'p10', 'p50', 'p90', 'status'])}
 
 Panel headline p10/p50/p90 summarize accepted runs' point medians. They are not pooled respondent predictive bounds. For each model separately, the adapter takes its median conversion, Bass p, Bass q, price-parity year and annual AI decline, then genuinely reruns the same evaluator with 10,000 paired draws. Conversion changes the meat and vegetarian channels; observed US-milk conversion remains its category-specific anchor. Bass and parity affect each modelled pair. The elicited AI input is a manufacturing-cost decline, while the evaluator changes retail price; this rerun explicitly assumes full retail pass-through as an extra sensitivity assumption, not a panel-endorsed or observed relationship. US-intention sampling is disabled for these reruns so the supplied fixed conversion median is not contaminated by the empirical US conversion denominator. The resulting Monte Carlo interval is conditional on fixed panel medians and is not the panel's across-run spread. An unresolved parity answer stays null and holds that rerun; a date is never invented.
+
+The following fixed input medians come directly from the computed per-country/model diagnostics. Counts and coverage apply to all five inputs; held or unrecognized diagnostic statuses do not supply numbers. Six decimal places preserve small coefficients. These are elicited inputs, not market values; Pakistan's placeholder-derived market outputs remain withheld. AI decline retains the additional full-retail-pass-through assumption described above.
+
+{markdown_table(median_inputs, list(median_inputs.columns))}
 
 {panel_notes}
 

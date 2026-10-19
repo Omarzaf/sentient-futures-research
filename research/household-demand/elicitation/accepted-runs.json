@@ -1,0 +1,4437 @@
+{
+  "schema_version": 1,
+  "public_reporting": "HELD_FOR_AUTHOR_TEAM_NOTIFICATION_AND_SCHOLARLY_REVIEW",
+  "records": [
+    {
+      "attempt_id": "gpt-6-astra-us-01-af4b41e7e5fd",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 1,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "a9e0f7a44b06c93d5e1f58c69b9a26110a6db3d9ffeccfbb68884ac540cefb04",
+      "sources": [
+        "https://gfi.org/resource/state-of-the-industry-downloads/",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-Global-Policy-report-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
+        "https://www.fda.gov/media/186752/download",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=005&set=AnimalCellCultureFoods",
+        "https://impossiblefoods.com/ca/blog/why-does-impossible-burger-taste-like-meat"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7600,
+          "p90": 8100
+        },
+        "2030": {
+          "p10": 5700,
+          "p50": 8300,
+          "p90": 12500
+        },
+        "2035": {
+          "p10": 4400,
+          "p50": 11000,
+          "p90": 22000
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 3,
+            "p90": 15
+          },
+          "2030": {
+            "p10": 5,
+            "p50": 100,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 30,
+            "p50": 1000,
+            "p90": 8000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1100,
+            "p50": 1700,
+            "p90": 2500
+          },
+          "2030": {
+            "p10": 1200,
+            "p50": 3000,
+            "p90": 6000
+          },
+          "2035": {
+            "p10": 1400,
+            "p50": 6500,
+            "p90": 18000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-02-b38f4100319e",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 2,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "ab7ef13c2fcf550ac9205be3a7dcaa8bb755b79bc1cc6bcc4f08bd435dcb53de",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/state-of-the-industry-downloads/",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-Global-Policy-report-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
+        "https://gfi.org/wp-content/uploads/2025/06/Fermentation-techno-economic-landscape-analysis.pdf",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=005&set=AnimalCellCultureFoods",
+        "https://www.wildtypefoods.com/news/blog/land-ho",
+        "https://www.wildtypefoods.com/news",
+        "https://capitol.texas.gov/billlookup/History.aspx?Bill=SB261&LegSess=89R&Sort=D"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7200,
+          "p50": 7650,
+          "p90": 8100
+        },
+        "2030": {
+          "p10": 5900,
+          "p50": 8500,
+          "p90": 12200
+        },
+        "2035": {
+          "p10": 4800,
+          "p50": 10800,
+          "p90": 20500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.5,
+            "p50": 3,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 3,
+            "p50": 100,
+            "p90": 700
+          },
+          "2035": {
+            "p10": 15,
+            "p50": 1000,
+            "p90": 7000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1100,
+            "p50": 1600,
+            "p90": 2300
+          },
+          "2030": {
+            "p10": 1200,
+            "p50": 2800,
+            "p90": 5500
+          },
+          "2035": {
+            "p10": 1300,
+            "p50": 6000,
+            "p90": 15000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-03-a0ca4ed49c61",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 3,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "2dd4597a526d3f2ee20b3c0370db8d11afc99f760fd532442c82785ef0a91b2e",
+      "sources": [
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-Global-Policy-report-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=005&set=AnimalCellCultureFoods",
+        "https://www.fda.gov/media/186752/download",
+        "https://www.wildtypefoods.com/news/blog",
+        "https://gfi.org/resource/state-of-the-industry-downloads/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7600,
+          "p90": 8100
+        },
+        "2030": {
+          "p10": 5700,
+          "p50": 8400,
+          "p90": 12100
+        },
+        "2035": {
+          "p10": 4500,
+          "p50": 10800,
+          "p90": 20500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 2,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 100,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 900,
+            "p90": 6500
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1250,
+            "p50": 1800,
+            "p90": 2600
+          },
+          "2030": {
+            "p10": 1300,
+            "p50": 3000,
+            "p90": 6200
+          },
+          "2035": {
+            "p10": 1400,
+            "p50": 5800,
+            "p90": 16000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-04-def3d81960a7",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 4,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "ebac64d7fa63ddc7005ac1e22e508594f600c41d59309732eb39b695e259822b",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=animalcellculturefoods",
+        "https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells",
+        "https://arxiv.org/abs/2509.21556"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7650,
+          "p90": 8200
+        },
+        "2030": {
+          "p10": 5800,
+          "p50": 8500,
+          "p90": 12500
+        },
+        "2035": {
+          "p10": 4700,
+          "p50": 10800,
+          "p90": 21000
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 2,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 100,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 1000,
+            "p90": 8500
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1000,
+            "p50": 1500,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 1050,
+            "p50": 2600,
+            "p90": 5200
+          },
+          "2035": {
+            "p10": 1200,
+            "p50": 5000,
+            "p90": 13000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-05-c68376fd15ec",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 5,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "33b975c80ef055bf59f971c9af4372036cc06fc90f995cd2b98c4ef2f9ba8d12",
+      "sources": [
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/resource/cultivated-meat-and-seafood-state-of-the-industry-report/",
+        "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=039&set=animalcellculturefoods",
+        "https://www.fda.gov/media/188064/download",
+        "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/",
+        "https://smart-hoopoe.files.svdcdn.com/production/content/docs/Future-Food-System-2050-v28.pdf?dm=1725981457"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7250,
+          "p50": 7650,
+          "p90": 8100
+        },
+        "2030": {
+          "p10": 6200,
+          "p50": 8500,
+          "p90": 11600
+        },
+        "2035": {
+          "p10": 5000,
+          "p50": 11000,
+          "p90": 19500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 3,
+            "p90": 15
+          },
+          "2030": {
+            "p10": 5,
+            "p50": 100,
+            "p90": 750
+          },
+          "2035": {
+            "p10": 20,
+            "p50": 900,
+            "p90": 6000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1300,
+            "p50": 2000,
+            "p90": 3000
+          },
+          "2030": {
+            "p10": 1700,
+            "p50": 3400,
+            "p90": 6500
+          },
+          "2035": {
+            "p10": 2100,
+            "p50": 6500,
+            "p90": 15000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-06-ff90c24ca9b9",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 6,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "14f7cc1cc61f03e5c2f35a67d1fb6fa4324e2b56574610b7b7c8c18bd7afd401",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/resource/where-cultivated-meat-can-be-sold/",
+        "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=039&set=animalcellculturefoods",
+        "https://www.texastribune.org/2025/08/25/texas-cultured-lab-grown-meat-ban/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7200,
+          "p50": 7600,
+          "p90": 8050
+        },
+        "2030": {
+          "p10": 5800,
+          "p50": 8300,
+          "p90": 11600
+        },
+        "2035": {
+          "p10": 4500,
+          "p50": 10500,
+          "p90": 19000
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 3,
+            "p90": 15
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 100,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 1100,
+            "p90": 9000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 900,
+            "p50": 1300,
+            "p90": 1900
+          },
+          "2030": {
+            "p10": 1000,
+            "p50": 2400,
+            "p90": 5000
+          },
+          "2035": {
+            "p10": 1200,
+            "p50": 5200,
+            "p90": 14500
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-07-6730d1e84245",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 7,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "623b6cae7e511ea331e54a85f1a860f9a74fa2cec503242fba56ce7b08492469",
+      "sources": [
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/resource/cultivated-meat-seafood-and-ingredients-state-of-the-industry/",
+        "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=039&set=animalcellculturefoods",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/resource/techno-economic-insights-on-fermentation-ingredients/",
+        "https://rethinkpriorities.org/research-area/ai-and-cultivated-meat/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7550,
+          "p90": 8050
+        },
+        "2030": {
+          "p10": 5700,
+          "p50": 8200,
+          "p90": 11800
+        },
+        "2035": {
+          "p10": 4400,
+          "p50": 10500,
+          "p90": 19500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 3,
+            "p90": 20
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 90,
+            "p90": 750
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 700,
+            "p90": 6500
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1000,
+            "p50": 1550,
+            "p90": 2300
+          },
+          "2030": {
+            "p10": 1150,
+            "p50": 2800,
+            "p90": 5800
+          },
+          "2035": {
+            "p10": 1400,
+            "p50": 5700,
+            "p90": 14500
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-08-619c69cae3f3",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 8,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "542f8f91a9d0264a6c9923484bcdf5e9b725bbd9e6beb2f1e469b1af3b65feb0",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://www.fda.gov/media/186752/download",
+        "https://www.foodbusinessnews.net/articles/30247-headwinds-continue-to-impede-cultivated-meat-development",
+        "https://arxiv.org/abs/2509.21556",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-Global-Policy-report-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
+        "https://gfi.org/blog/where-knowledge-flows-innovation-grows/",
+        "https://gfi.org/media/cultivated-meat-media-kit/",
+        "https://gfi.org/state-of-the-industry-series/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7550,
+          "p90": 8000
+        },
+        "2030": {
+          "p10": 5700,
+          "p50": 8200,
+          "p90": 11700
+        },
+        "2035": {
+          "p10": 4500,
+          "p50": 10500,
+          "p90": 19000
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 3,
+            "p90": 15
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 80,
+            "p90": 700
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 700,
+            "p90": 6500
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1000,
+            "p50": 1600,
+            "p90": 2400
+          },
+          "2030": {
+            "p10": 1100,
+            "p50": 2900,
+            "p90": 6000
+          },
+          "2035": {
+            "p10": 1300,
+            "p50": 6000,
+            "p90": 16000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-09-6fe4a956aceb",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 9,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "2d5c461e812ed980b3fb822640db8481615d35690c1c4ac15e1c4ce181535137",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/resource/state-of-the-industry-downloads/",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI-2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://www.fda.gov/media/186752/download",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=005&set=AnimalCellCultureFoods",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-Global-Policy-report-Public-investment-in-protein-diversification-to-feed-a-growing-world.pdf",
+        "https://gfi.org/resource/state-of-global-policy/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7600,
+          "p90": 8150
+        },
+        "2030": {
+          "p10": 5800,
+          "p50": 8300,
+          "p90": 11900
+        },
+        "2035": {
+          "p10": 4400,
+          "p50": 10500,
+          "p90": 19500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 3,
+            "p90": 15
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 100,
+            "p90": 1000
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 1000,
+            "p90": 10000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1100,
+            "p50": 1800,
+            "p90": 2800
+          },
+          "2030": {
+            "p10": 1300,
+            "p50": 3500,
+            "p90": 7500
+          },
+          "2035": {
+            "p10": 1600,
+            "p50": 7500,
+            "p90": 20000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-us-10-c70fd3010462",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "us",
+      "slot": 10,
+      "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d",
+      "answer_sha256": "fa0afed038d9da8f6f3019f3f220ec0046e0b22dfef708f02a9d4e52981f9d24",
+      "sources": [
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/marketresearch/",
+        "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "https://gfi.org/resource/cultivated-meat-seafood-and-ingredients-state-of-the-industry/",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/2026-State-of-the-Industry-report-Fermentation-for-meat-seafood-eggs-dairy-and-ingredients.pdf",
+        "https://gfi.org/wp-content/uploads/2025/11/Research-funding-priorities-for-plant-based-and-fermentation-enabled-protein-ingredient-optimization.pdf",
+        "https://gfi.org/advancing-solutions-for-alternative-proteins/",
+        "https://www.fda.gov/food/food-ingredients-packaging/human-food-made-cultured-animal-cells",
+        "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=039&set=animalcellculturefoods",
+        "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=1202&set=GRASNotices",
+        "https://faq.impossiblefoods.com/hc/en-us/articles/360034767354-How-do-you-make-heme"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 7100,
+          "p50": 7550,
+          "p90": 8050
+        },
+        "2030": {
+          "p10": 5700,
+          "p50": 8200,
+          "p90": 11700
+        },
+        "2035": {
+          "p10": 4500,
+          "p50": 10500,
+          "p90": 19500
+        }
+      },
+      "categories": {
+        "cultivated": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 2,
+            "p90": 10
+          },
+          "2030": {
+            "p10": 2,
+            "p50": 100,
+            "p90": 900
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 1000,
+            "p90": 9000
+          }
+        },
+        "fermentation": {
+          "2026": {
+            "p10": 1300,
+            "p50": 1900,
+            "p90": 2800
+          },
+          "2030": {
+            "p10": 1400,
+            "p50": 3200,
+            "p90": 6500
+          },
+          "2035": {
+            "p10": 1700,
+            "p50": 6500,
+            "p90": 17000
+          }
+        }
+      },
+      "inputs": {},
+      "proxies": {},
+      "parity_status": null,
+      "parity_by_2050_probability": null,
+      "gfi_publication_probability": null,
+      "cultivated_sale_by_2035": null,
+      "cultivated_sale_probability": null,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-01-61a7b3277324",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 1,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "8e8e84cdd111f5736c428b5c6d1c63eefa7cad356c519fb88059de2ae577fcbe",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN&view=chart",
+        "https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+        "https://www.fssai.gov.in/notifications.php",
+        "https://www.bigbasket.com/pc/bakery-cakes-dairy/non-dairy/dairy-free-vegan/?nc=fa"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 40,
+          "p50": 80,
+          "p90": 150
+        },
+        "2030": {
+          "p10": 55,
+          "p50": 165,
+          "p90": 430
+        },
+        "2035": {
+          "p10": 75,
+          "p50": 420,
+          "p90": 1500
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 7,
+            "p50": 18,
+            "p90": 42
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 45,
+            "p90": 150
+          },
+          "2035": {
+            "p10": 15,
+            "p50": 135,
+            "p90": 650
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 30,
+            "p50": 60,
+            "p90": 112
+          },
+          "2030": {
+            "p10": 40,
+            "p50": 115,
+            "p90": 290
+          },
+          "2035": {
+            "p10": 55,
+            "p50": 265,
+            "p90": 850
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 2,
+            "p90": 7
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 5,
+            "p90": 22
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 20,
+            "p90": 100
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.04,
+          "p50": 0.15,
+          "p90": 0.45
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.04
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.24,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2035,
+          "p90": 2046
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 15000000,
+            "p50": 24000000,
+            "p90": 38000000
+          },
+          "2030": {
+            "p10": 14000000,
+            "p50": 35000000,
+            "p90": 75000000
+          },
+          "2035": {
+            "p10": 12000000,
+            "p50": 55000000,
+            "p90": 150000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 100,
+            "p50": 190,
+            "p90": 330
+          },
+          "2030": {
+            "p10": 110,
+            "p50": 340,
+            "p90": 750
+          },
+          "2035": {
+            "p10": 100,
+            "p50": 600,
+            "p90": 1600
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 550,
+            "p50": 1100,
+            "p90": 2400
+          },
+          "2030": {
+            "p10": 1000,
+            "p50": 2900,
+            "p90": 8500
+          },
+          "2035": {
+            "p10": 1800,
+            "p50": 9000,
+            "p90": 32000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.78,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.6
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.62,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-02-4644237d3a2c",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 2,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "666866e0afd3879208e54953132a8bf53a429d7c581e2d400d64da933f577be5",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI",
+        "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1770891893893_6b458c0a-c327-4fef-a554-41131ea67273_Press_Relase_of_CPI_for_Jan26.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+        "https://www.fssai.gov.in/standards/non-specified-food?csrt=4469558229865263002"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 38,
+          "p50": 75,
+          "p90": 150
+        },
+        "2030": {
+          "p10": 55,
+          "p50": 165,
+          "p90": 480
+        },
+        "2035": {
+          "p10": 65,
+          "p50": 380,
+          "p90": 1500
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 8,
+            "p50": 20,
+            "p90": 48
+          },
+          "2030": {
+            "p10": 12,
+            "p50": 48,
+            "p90": 170
+          },
+          "2035": {
+            "p10": 14,
+            "p50": 125,
+            "p90": 600
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 29,
+            "p50": 54,
+            "p90": 105
+          },
+          "2030": {
+            "p10": 40,
+            "p50": 112,
+            "p90": 310
+          },
+          "2035": {
+            "p10": 48,
+            "p50": 235,
+            "p90": 850
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 1,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 5,
+            "p90": 22
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 20,
+            "p90": 100
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.12,
+          "p90": 0.4
+        },
+        "bass_p": {
+          "p10": 0.003,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.08,
+          "p50": 0.25,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2035,
+          "p90": 2045
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 12000000,
+            "p50": 23000000,
+            "p90": 40000000
+          },
+          "2030": {
+            "p10": 10000000,
+            "p50": 32000000,
+            "p90": 75000000
+          },
+          "2035": {
+            "p10": 8000000,
+            "p50": 48000000,
+            "p90": 150000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 70,
+            "p50": 150,
+            "p90": 280
+          },
+          "2030": {
+            "p10": 65,
+            "p50": 260,
+            "p90": 650
+          },
+          "2035": {
+            "p10": 55,
+            "p50": 420,
+            "p90": 1300
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 450,
+            "p50": 900,
+            "p90": 2000
+          },
+          "2030": {
+            "p10": 800,
+            "p50": 2500,
+            "p90": 9000
+          },
+          "2035": {
+            "p10": 1300,
+            "p50": 7500,
+            "p90": 35000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.78,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.7,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.64,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-03-47c8fbae1945",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 3,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "e0da77c91d7ddf2adf0319993912ace839cee84b1f11faa10853c4f7a8aa9cba",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN&view=chart",
+        "https://www.cpi.mospi.gov.in/",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://fssai.gov.in/standards/non-specified-food?csrt=13933364622783546559",
+        "https://fssai.gov.in/upload/uploadfiles/files/Compendium_FSS_NFS_FA_17_10_2022.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 70,
+          "p90": 130
+        },
+        "2030": {
+          "p10": 50,
+          "p50": 140,
+          "p90": 360
+        },
+        "2035": {
+          "p10": 65,
+          "p50": 330,
+          "p90": 1100
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 7,
+            "p50": 20,
+            "p90": 45
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 45,
+            "p90": 140
+          },
+          "2035": {
+            "p10": 12,
+            "p50": 110,
+            "p90": 460
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 26,
+            "p50": 49,
+            "p90": 90
+          },
+          "2030": {
+            "p10": 37,
+            "p50": 91,
+            "p90": 220
+          },
+          "2035": {
+            "p10": 45,
+            "p50": 205,
+            "p90": 650
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 1,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 4,
+            "p90": 16
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 15,
+            "p90": 70
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.015,
+          "p50": 0.06,
+          "p90": 0.22
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.009,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.07,
+          "p50": 0.24,
+          "p90": 0.48
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2037,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 14000000,
+            "p50": 24000000,
+            "p90": 40000000
+          },
+          "2030": {
+            "p10": 14000000,
+            "p50": 34000000,
+            "p90": 75000000
+          },
+          "2035": {
+            "p10": 12000000,
+            "p50": 52000000,
+            "p90": 150000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 110,
+            "p50": 220,
+            "p90": 400
+          },
+          "2030": {
+            "p10": 130,
+            "p50": 400,
+            "p90": 850
+          },
+          "2035": {
+            "p10": 140,
+            "p50": 680,
+            "p90": 1700
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 900,
+            "p90": 1900
+          },
+          "2030": {
+            "p10": 650,
+            "p50": 2200,
+            "p90": 6500
+          },
+          "2035": {
+            "p10": 1100,
+            "p50": 6500,
+            "p90": 24000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.6,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-04-a4047b6af344",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 4,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "54d7d157273ed492a5a3c7feac3ca2a0828ad9b98859cf629ee913bb409be014",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.federalreserve.gov/releases/g5a/20260105/",
+        "https://mospi.gov.in/uploads/release_calendar/1768214980837_Press_Release_of_CPI_for_December_2025.pdf",
+        "https://cpi.mospi.gov.in/",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2023/tradeflow/Imports/partner/ALL/product/210610",
+        "https://www.bigbasket.com/product-reviews/40221507/blue-tribe-foods-plant-based-chicken-keema-zero-cholesterol-high-protein-250-g/?page=1",
+        "https://www.bigbasket.com/pb/blue-tribe-foods/frozen-veg-snacks/?nc=ct-fa",
+        "https://www.fssai.gov.in/notifications.php",
+        "https://gfi-india.org/entrepreneurship/"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 70,
+          "p90": 130
+        },
+        "2030": {
+          "p10": 50,
+          "p50": 155,
+          "p90": 420
+        },
+        "2035": {
+          "p10": 65,
+          "p50": 350,
+          "p90": 1300
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 6,
+            "p50": 17,
+            "p90": 40
+          },
+          "2030": {
+            "p10": 9,
+            "p50": 43,
+            "p90": 145
+          },
+          "2035": {
+            "p10": 12,
+            "p50": 110,
+            "p90": 520
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 27,
+            "p50": 51,
+            "p90": 95
+          },
+          "2030": {
+            "p10": 38,
+            "p50": 105,
+            "p90": 280
+          },
+          "2035": {
+            "p10": 48,
+            "p50": 220,
+            "p90": 790
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 2,
+            "p90": 7
+          },
+          "2030": {
+            "p10": 0.8,
+            "p50": 7,
+            "p90": 28
+          },
+          "2035": {
+            "p10": 1.5,
+            "p50": 20,
+            "p90": 95
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.09,
+          "p90": 0.25
+        },
+        "bass_p": {
+          "p10": 0.003,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.07,
+          "p50": 0.25,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2037,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.006,
+          "p90": 0.02
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 12000000,
+            "p50": 23000000,
+            "p90": 42000000
+          },
+          "2030": {
+            "p10": 11000000,
+            "p50": 34000000,
+            "p90": 85000000
+          },
+          "2035": {
+            "p10": 9000000,
+            "p50": 55000000,
+            "p90": 180000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 85,
+            "p50": 160,
+            "p90": 280
+          },
+          "2030": {
+            "p10": 80,
+            "p50": 285,
+            "p90": 650
+          },
+          "2035": {
+            "p10": 65,
+            "p50": 470,
+            "p90": 1400
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 450,
+            "p50": 1000,
+            "p90": 2400
+          },
+          "2030": {
+            "p10": 850,
+            "p50": 2800,
+            "p90": 8500
+          },
+          "2035": {
+            "p10": 1400,
+            "p50": 8000,
+            "p90": 32000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.72,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.7,
+        "2035": 0.6
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.62,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-05-2c89554818ba",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 5,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "00c25c296c0056ec3ba11678ff324dc89cc93c72352083a3c48c63e1cdc15bd8",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN&view=chart",
+        "https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2023/tradeflow/Imports/partner/ALL/product/210610",
+        "https://trendeconomy.com/data/h2/India/2106",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.fssai.gov.in/notifications.php",
+        "https://gfi-india.org/resource_type/report/",
+        "https://gfi-india.org/press_type/press-release/",
+        "https://gfi-india.org/state-of-alternative-proteins/",
+        "https://gfi-india.org/wp-content/uploads/2025/11/From-India-to-the-world-The-export-opportunity-for-smart-proteins-05.11.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_State-of-the-Industry-report-Plant-based-meat-seafood-eggs-dairy-and-ingredients.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 30,
+          "p50": 65,
+          "p90": 140
+        },
+        "2030": {
+          "p10": 40,
+          "p50": 120,
+          "p90": 340
+        },
+        "2035": {
+          "p10": 55,
+          "p50": 270,
+          "p90": 1100
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 5,
+            "p50": 15,
+            "p90": 40
+          },
+          "2030": {
+            "p10": 7,
+            "p50": 30,
+            "p90": 105
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 80,
+            "p90": 430
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 23,
+            "p50": 48,
+            "p90": 105
+          },
+          "2030": {
+            "p10": 30,
+            "p50": 85,
+            "p90": 245
+          },
+          "2035": {
+            "p10": 38,
+            "p50": 175,
+            "p90": 700
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 2,
+            "p90": 7
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 5,
+            "p90": 20
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 15,
+            "p90": 75
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.03,
+          "p50": 0.12,
+          "p90": 0.35
+        },
+        "bass_p": {
+          "p10": 0.003,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.22,
+          "p90": 0.48
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2035,
+          "p90": 2046
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 12000000,
+            "p50": 24000000,
+            "p90": 48000000
+          },
+          "2030": {
+            "p10": 12000000,
+            "p50": 34000000,
+            "p90": 85000000
+          },
+          "2035": {
+            "p10": 10000000,
+            "p50": 50000000,
+            "p90": 160000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 100,
+            "p50": 190,
+            "p90": 330
+          },
+          "2030": {
+            "p10": 90,
+            "p50": 320,
+            "p90": 700
+          },
+          "2035": {
+            "p10": 80,
+            "p50": 520,
+            "p90": 1500
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 350,
+            "p50": 800,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 600,
+            "p50": 2000,
+            "p90": 7000
+          },
+          "2035": {
+            "p10": 1100,
+            "p50": 6000,
+            "p90": 25000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.75,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.62,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-06-65d2bcd426bd",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 6,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "08ed5fa385c95a62694d851698ed5239cfd265d999e62d521fc0c71001085c01",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://gfi-india.org/smart-protein-economic-analysis/",
+        "https://gfi-india.org/press_type/press-release/",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1770891893893_6b458c0a-c327-4fef-a554-41131ea67273_Press_Relase_of_CPI_for_Jan26.pdf",
+        "https://fssai.gov.in/standards/non-specified-food",
+        "https://fssai.gov.in/upload/uploadfiles/files/Compendium_FSS_NFS_FA_17_10_2022.pdf",
+        "https://gfi.org/wp-content/uploads/2026/04/GFI_2026-State-of-the-Industry-report-Cultivated-meat-seafood-and-ingredients.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 28,
+          "p50": 65,
+          "p90": 145
+        },
+        "2030": {
+          "p10": 40,
+          "p50": 145,
+          "p90": 460
+        },
+        "2035": {
+          "p10": 55,
+          "p50": 350,
+          "p90": 1500
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 5,
+            "p50": 16,
+            "p90": 45
+          },
+          "2030": {
+            "p10": 8,
+            "p50": 42,
+            "p90": 170
+          },
+          "2035": {
+            "p10": 10,
+            "p50": 115,
+            "p90": 650
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 21,
+            "p50": 48,
+            "p90": 105
+          },
+          "2030": {
+            "p10": 29,
+            "p50": 99,
+            "p90": 300
+          },
+          "2035": {
+            "p10": 38,
+            "p50": 220,
+            "p90": 850
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 1,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 4,
+            "p90": 18
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 15,
+            "p90": 90
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.12,
+          "p90": 0.45
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.04
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.28,
+          "p90": 0.6
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2036,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 14000000,
+            "p50": 24000000,
+            "p90": 40000000
+          },
+          "2030": {
+            "p10": 14000000,
+            "p50": 34000000,
+            "p90": 80000000
+          },
+          "2035": {
+            "p10": 12000000,
+            "p50": 50000000,
+            "p90": 160000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 90,
+            "p50": 180,
+            "p90": 340
+          },
+          "2030": {
+            "p10": 100,
+            "p50": 330,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 90,
+            "p50": 550,
+            "p90": 1700
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 850,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 800,
+            "p50": 2300,
+            "p90": 8500
+          },
+          "2035": {
+            "p10": 1400,
+            "p50": 7500,
+            "p90": 35000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.7,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.7,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.65,
+      "cultivated_first_sale_year": 2031
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-07-7452e82f15e8",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 7,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "3d0b3d3a53cd80095a2773b864260e8e3a07f9a97a5b51d884293d9f202eabb3",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://uncomtrade.org/docs/un-comtrade-api/",
+        "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN&view=chart",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://cpi.mospi.gov.in/",
+        "https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+        "https://fssai.gov.in/standards/non-specified-food?csrt=11709800139539939523",
+        "https://gfrs.fssai.gov.in/sessiondocs/GFRS25%20Session%20III%20Concept%20Note-Dynamic%20Food%20Landscape%20%E2%80%93%20A%20Need%20for%20Pragmatic%20Approaches.pdf",
+        "https://www.indexbox.io/store/india-textured-soy-protein-market-analysis-forecast-size-trends-and-insights/",
+        "https://takshashila.org.in/content/publications/assets/Discussion%2BDoc%2B-%2BIndia%27s%2BWhey%2BProtein%2BMarket-Demand%2Band%2BSupply%2BConundrum.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 70,
+          "p90": 140
+        },
+        "2030": {
+          "p10": 50,
+          "p50": 160,
+          "p90": 480
+        },
+        "2035": {
+          "p10": 65,
+          "p50": 390,
+          "p90": 1500
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 6,
+            "p50": 17,
+            "p90": 42
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 45,
+            "p90": 170
+          },
+          "2035": {
+            "p10": 14,
+            "p50": 125,
+            "p90": 600
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 27,
+            "p50": 52,
+            "p90": 102
+          },
+          "2030": {
+            "p10": 36,
+            "p50": 111,
+            "p90": 330
+          },
+          "2035": {
+            "p10": 45,
+            "p50": 250,
+            "p90": 950
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 1,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 4,
+            "p90": 20
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 15,
+            "p90": 90
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.1,
+          "p90": 0.3
+        },
+        "bass_p": {
+          "p10": 0.003,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.08,
+          "p50": 0.28,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2035,
+          "p90": 2045
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 14000000,
+            "p50": 23000000,
+            "p90": 36000000
+          },
+          "2030": {
+            "p10": 15000000,
+            "p50": 32000000,
+            "p90": 65000000
+          },
+          "2035": {
+            "p10": 14000000,
+            "p50": 48000000,
+            "p90": 125000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 90,
+            "p50": 180,
+            "p90": 330
+          },
+          "2030": {
+            "p10": 100,
+            "p50": 350,
+            "p90": 850
+          },
+          "2035": {
+            "p10": 90,
+            "p50": 650,
+            "p90": 1800
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 900,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 900,
+            "p50": 2800,
+            "p90": 8500
+          },
+          "2035": {
+            "p10": 1500,
+            "p50": 8500,
+            "p90": 32000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.78,
+      "gfi_publication_probability": {
+        "2026": 0.5,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.65,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-08-e814036d7902",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 8,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "3870a4b5c4f57b7ebf3c14fdde3a7cb5732ec5923b4a0dd69ff32eea6cb742dd",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN&view=chart",
+        "https://esankhyiki.mospi.gov.in/catalogue-main/catalogue?product=CPI",
+        "https://cpi.mospi.gov.in/",
+        "https://www.fssai.gov.in/notifications.php",
+        "https://fssai.gov.in/standards/non-specified-food?csrt=11709800139539939523"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 65,
+          "p90": 125
+        },
+        "2030": {
+          "p10": 55,
+          "p50": 150,
+          "p90": 430
+        },
+        "2035": {
+          "p10": 75,
+          "p50": 360,
+          "p90": 1500
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 6,
+            "p50": 15,
+            "p90": 36
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 40,
+            "p90": 145
+          },
+          "2035": {
+            "p10": 14,
+            "p50": 110,
+            "p90": 620
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 27,
+            "p50": 49,
+            "p90": 92
+          },
+          "2030": {
+            "p10": 40,
+            "p50": 106,
+            "p90": 290
+          },
+          "2035": {
+            "p10": 53,
+            "p50": 235,
+            "p90": 850
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.2,
+            "p50": 1,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 4,
+            "p90": 20
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 15,
+            "p90": 100
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.1,
+          "p90": 0.3
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.05,
+          "p50": 0.25,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2036,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.005,
+          "p90": 0.02
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 14000000,
+            "p50": 24000000,
+            "p90": 40000000
+          },
+          "2030": {
+            "p10": 15000000,
+            "p50": 35000000,
+            "p90": 75000000
+          },
+          "2035": {
+            "p10": 14000000,
+            "p50": 55000000,
+            "p90": 150000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 90,
+            "p50": 180,
+            "p90": 330
+          },
+          "2030": {
+            "p10": 100,
+            "p50": 350,
+            "p90": 800
+          },
+          "2035": {
+            "p10": 90,
+            "p50": 650,
+            "p90": 1800
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 850,
+            "p90": 2000
+          },
+          "2030": {
+            "p10": 900,
+            "p50": 2800,
+            "p90": 10000
+          },
+          "2035": {
+            "p10": 1800,
+            "p50": 8500,
+            "p90": 35000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.75,
+      "gfi_publication_probability": {
+        "2026": 0.5,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.6,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-09-a60ebbb9f451",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 9,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "38ddd0b4576ba73f78c31d3d7ae4937b37ca1b40afe87a0894fce8712f5af698",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://www.bigbasket.com/pc/bakery-cakes-dairy/non-dairy/dairy-free-vegan/?nc=fa",
+        "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1770891893893_6b458c0a-c327-4fef-a554-41131ea67273_Press_Relase_of_CPI_for_Jan26.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+        "https://fssai.gov.in/standards/non-specified-food",
+        "https://gfrs.fssai.gov.in/sessiondocs/GFRS25%20Session%20III%20Concept%20Note-Dynamic%20Food%20Landscape%20%E2%80%93%20A%20Need%20for%20Pragmatic%20Approaches.pdf",
+        "https://images.moneycontrol.com/news_html_files/pdffiles/Sep2025/eldorado-agritech.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 75,
+          "p90": 155
+        },
+        "2030": {
+          "p10": 50,
+          "p50": 180,
+          "p90": 580
+        },
+        "2035": {
+          "p10": 65,
+          "p50": 440,
+          "p90": 1900
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 6,
+            "p50": 17,
+            "p90": 45
+          },
+          "2030": {
+            "p10": 9,
+            "p50": 48,
+            "p90": 190
+          },
+          "2035": {
+            "p10": 12,
+            "p50": 135,
+            "p90": 750
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 27,
+            "p50": 56,
+            "p90": 112
+          },
+          "2030": {
+            "p10": 37,
+            "p50": 125,
+            "p90": 370
+          },
+          "2035": {
+            "p10": 46,
+            "p50": 280,
+            "p90": 1080
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 2,
+            "p90": 8
+          },
+          "2030": {
+            "p10": 0.6,
+            "p50": 7,
+            "p90": 35
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 25,
+            "p90": 145
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.015,
+          "p50": 0.065,
+          "p90": 0.24
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.009,
+          "p90": 0.028
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.24,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2037,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 14000000,
+            "p50": 23000000,
+            "p90": 38000000
+          },
+          "2030": {
+            "p10": 13000000,
+            "p50": 32000000,
+            "p90": 72000000
+          },
+          "2035": {
+            "p10": 11000000,
+            "p50": 48000000,
+            "p90": 150000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 90,
+            "p50": 180,
+            "p90": 330
+          },
+          "2030": {
+            "p10": 100,
+            "p50": 330,
+            "p90": 750
+          },
+          "2035": {
+            "p10": 85,
+            "p50": 560,
+            "p90": 1600
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 450,
+            "p50": 1000,
+            "p90": 2600
+          },
+          "2030": {
+            "p10": 900,
+            "p50": 3300,
+            "p90": 12000
+          },
+          "2035": {
+            "p10": 1500,
+            "p50": 11000,
+            "p90": 45000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.72,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.72,
+        "2035": 0.6
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.62,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-india-10-327aee187d76",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "india",
+      "slot": 10,
+      "prompt_sha256": "7c4e1fe42e2f8878947fff5b2facfafb0e698a3432f54011207e1b8f4270ab97",
+      "answer_sha256": "1f468346a91caa65c9d429d9517fbbed347f4d4e615ad9fc3c3778212cd22aa0",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://gfi-india.org/smart-protein-economic-analysis/",
+        "https://gfi-india.org/press_type/press-release/",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Imports/partner/ALL/product/210610",
+        "https://uncomtrade.org/docs/un-comtrade-api/",
+        "https://fred.stlouisfed.org/series/CCUSMA02INA618N",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.fssai.gov.in/notifications.php",
+        "https://www.mospi.gov.in/themes/product/9--"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 35,
+          "p50": 70,
+          "p90": 140
+        },
+        "2030": {
+          "p10": 45,
+          "p50": 155,
+          "p90": 480
+        },
+        "2035": {
+          "p10": 55,
+          "p50": 380,
+          "p90": 1700
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 7,
+            "p50": 18,
+            "p90": 45
+          },
+          "2030": {
+            "p10": 8,
+            "p50": 45,
+            "p90": 175
+          },
+          "2035": {
+            "p10": 9,
+            "p50": 125,
+            "p90": 700
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 26,
+            "p50": 50,
+            "p90": 100
+          },
+          "2030": {
+            "p10": 34,
+            "p50": 105,
+            "p90": 310
+          },
+          "2035": {
+            "p10": 40,
+            "p50": 235,
+            "p90": 1000
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.3,
+            "p50": 2,
+            "p90": 7
+          },
+          "2030": {
+            "p10": 0.5,
+            "p50": 5,
+            "p90": 25
+          },
+          "2035": {
+            "p10": 1,
+            "p50": 20,
+            "p90": 110
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.1,
+          "p90": 0.35
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.009,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.24,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2029,
+          "p50": 2036,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.007,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 12000000,
+            "p50": 23000000,
+            "p90": 42000000
+          },
+          "2030": {
+            "p10": 11000000,
+            "p50": 32000000,
+            "p90": 80000000
+          },
+          "2035": {
+            "p10": 9000000,
+            "p50": 50000000,
+            "p90": 170000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 100,
+            "p50": 210,
+            "p90": 400
+          },
+          "2030": {
+            "p10": 110,
+            "p50": 360,
+            "p90": 850
+          },
+          "2035": {
+            "p10": 100,
+            "p50": 600,
+            "p90": 1800
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 450,
+            "p50": 1000,
+            "p90": 2500
+          },
+          "2030": {
+            "p10": 1000,
+            "p50": 4000,
+            "p90": 16000
+          },
+          "2035": {
+            "p10": 1800,
+            "p50": 12000,
+            "p90": 60000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.72,
+      "gfi_publication_probability": {
+        "2026": 0.65,
+        "2030": 0.7,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": true,
+      "cultivated_sale_probability": 0.62,
+      "cultivated_first_sale_year": 2032
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-01-d5656d36d1b8",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 1,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "a33dd482d03492cc18cb088546e31432c8cf5d24b043c957287c4715dfd8ba5b",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.naheed.pk/sitemap",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://www.sbp.org.pk/m_policy/2026/MPS-Jan-2026-Compendium.pdf",
+        "https://www.fao.org/north-america/resources/publications/food-safety-aspects-of-cell-based-food/en"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 5,
+          "p90": 16
+        },
+        "2030": {
+          "p10": 2,
+          "p50": 10,
+          "p90": 42
+        },
+        "2035": {
+          "p10": 3,
+          "p50": 24,
+          "p90": 125
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.08,
+            "p50": 0.6,
+            "p90": 3
+          },
+          "2030": {
+            "p10": 0.15,
+            "p50": 1.8,
+            "p90": 11
+          },
+          "2035": {
+            "p10": 0.3,
+            "p50": 6,
+            "p90": 43
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 4.2,
+            "p90": 13
+          },
+          "2030": {
+            "p10": 1.5,
+            "p50": 7.6,
+            "p90": 32
+          },
+          "2035": {
+            "p10": 2,
+            "p50": 16,
+            "p90": 85
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.2,
+            "p90": 1
+          },
+          "2030": {
+            "p10": 0.04,
+            "p50": 0.6,
+            "p90": 3
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 2,
+            "p90": 12
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.04,
+          "p50": 0.18,
+          "p90": 0.65
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.04
+        },
+        "bass_q": {
+          "p10": 0.03,
+          "p50": 0.18,
+          "p90": 0.45
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2048
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1200000,
+            "p50": 2200000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3000000,
+            "p90": 6500000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 4500000,
+            "p90": 13000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 10,
+            "p50": 28,
+            "p90": 65
+          },
+          "2030": {
+            "p10": 9,
+            "p50": 55,
+            "p90": 150
+          },
+          "2035": {
+            "p10": 8,
+            "p50": 105,
+            "p90": 340
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 850,
+            "p90": 1900
+          },
+          "2030": {
+            "p10": 700,
+            "p50": 2300,
+            "p90": 8000
+          },
+          "2035": {
+            "p10": 1100,
+            "p50": 6500,
+            "p90": 28000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.6,
+        "2030": 0.7,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-02-0f2e46398042",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 2,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "cd5a0a57886b457a58ffa314739de5fc8603e4c81308d3ff6c9431a80e233b8f",
+      "sources": [
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://statistiken.bundesbank.de/statistiken-en/timeseries/BBEX3/A.PKR.USD.CA.AB.A04",
+        "https://www.naheed.pk/sitemap",
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 5,
+          "p90": 15
+        },
+        "2030": {
+          "p10": 2,
+          "p50": 12,
+          "p90": 45
+        },
+        "2035": {
+          "p10": 3,
+          "p50": 30,
+          "p90": 150
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.05,
+            "p50": 0.5,
+            "p90": 2.5
+          },
+          "2030": {
+            "p10": 0.15,
+            "p50": 2,
+            "p90": 12
+          },
+          "2035": {
+            "p10": 0.3,
+            "p50": 7,
+            "p90": 55
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 4.3,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 1.5,
+            "p50": 9.3,
+            "p90": 34
+          },
+          "2035": {
+            "p10": 2.2,
+            "p50": 21,
+            "p90": 105
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.01,
+            "p50": 0.2,
+            "p90": 1
+          },
+          "2030": {
+            "p10": 0.03,
+            "p50": 0.7,
+            "p90": 4
+          },
+          "2035": {
+            "p10": 0.05,
+            "p50": 2,
+            "p90": 12
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.03,
+          "p50": 0.15,
+          "p90": 0.65
+        },
+        "bass_p": {
+          "p10": 0.001,
+          "p50": 0.008,
+          "p90": 0.03
+        },
+        "bass_q": {
+          "p10": 0.03,
+          "p50": 0.2,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2048
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.0075,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1300000,
+            "p50": 2200000,
+            "p90": 3500000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3200000,
+            "p90": 7000000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 5000000,
+            "p90": 16000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 12,
+            "p50": 30,
+            "p90": 65
+          },
+          "2030": {
+            "p10": 15,
+            "p50": 60,
+            "p90": 150
+          },
+          "2035": {
+            "p10": 18,
+            "p50": 110,
+            "p90": 350
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 350,
+            "p50": 750,
+            "p90": 1800
+          },
+          "2030": {
+            "p10": 600,
+            "p50": 2000,
+            "p90": 8000
+          },
+          "2035": {
+            "p10": 1000,
+            "p50": 5500,
+            "p90": 25000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-03-f20933cb629c",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 3,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "72435eac205bacb81680c430aa51708e9b887f424f1900535b65f1e79563e467",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Press-Release-May-2026.pdf",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Oct-2025-Compendium.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 5,
+          "p90": 16
+        },
+        "2030": {
+          "p10": 2.5,
+          "p50": 12,
+          "p90": 45
+        },
+        "2035": {
+          "p10": 4,
+          "p50": 32,
+          "p90": 140
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.1,
+            "p50": 0.7,
+            "p90": 3
+          },
+          "2030": {
+            "p10": 0.3,
+            "p50": 2.5,
+            "p90": 13
+          },
+          "2035": {
+            "p10": 0.6,
+            "p50": 9,
+            "p90": 55
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 4.1,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 1.8,
+            "p50": 8.8,
+            "p90": 31
+          },
+          "2035": {
+            "p10": 2.8,
+            "p50": 20,
+            "p90": 85
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.2,
+            "p90": 1
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 0.7,
+            "p90": 4
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 3,
+            "p90": 15
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.04,
+          "p50": 0.18,
+          "p90": 0.65
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.04
+        },
+        "bass_q": {
+          "p10": 0.04,
+          "p50": 0.22,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2048
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1200000,
+            "p50": 2200000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1300000,
+            "p50": 3200000,
+            "p90": 7000000
+          },
+          "2035": {
+            "p10": 1400000,
+            "p50": 5000000,
+            "p90": 14000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 12,
+            "p50": 35,
+            "p90": 85
+          },
+          "2030": {
+            "p10": 18,
+            "p50": 65,
+            "p90": 180
+          },
+          "2035": {
+            "p10": 22,
+            "p50": 120,
+            "p90": 400
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 900,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 800,
+            "p50": 2500,
+            "p90": 8500
+          },
+          "2035": {
+            "p10": 1500,
+            "p50": 6500,
+            "p90": 25000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.45,
+        "2030": 0.6,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-04-faabdb2c8d5b",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 4,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "336c9c634250ccd6a856402711178e88755a8c79e77b94886899207997dc0cab",
+      "sources": [
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.naheed.pk/sitemap",
+        "https://www.exchangerates.org.uk/USD-PKR-spot-exchange-rates-history-2025.html",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Mar-2025-Compendium.pdf",
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 2,
+          "p50": 7,
+          "p90": 22
+        },
+        "2030": {
+          "p10": 3,
+          "p50": 16,
+          "p90": 65
+        },
+        "2035": {
+          "p10": 4,
+          "p50": 40,
+          "p90": 210
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.1,
+            "p50": 0.7,
+            "p90": 3.5
+          },
+          "2030": {
+            "p10": 0.25,
+            "p50": 2.8,
+            "p90": 17
+          },
+          "2035": {
+            "p10": 0.5,
+            "p50": 10,
+            "p90": 75
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.7,
+            "p50": 6,
+            "p90": 18
+          },
+          "2030": {
+            "p10": 2.4,
+            "p50": 12,
+            "p90": 46
+          },
+          "2035": {
+            "p10": 3,
+            "p50": 26,
+            "p90": 125
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.3,
+            "p90": 1.5
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 1.2,
+            "p90": 7
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 4,
+            "p90": 25
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.015,
+          "p50": 0.08,
+          "p90": 0.35
+        },
+        "bass_p": {
+          "p10": 0.001,
+          "p50": 0.008,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.04,
+          "p50": 0.22,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2048
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1200000,
+            "p50": 2200000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3000000,
+            "p90": 6500000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 4500000,
+            "p90": 12000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 12,
+            "p50": 35,
+            "p90": 80
+          },
+          "2030": {
+            "p10": 15,
+            "p50": 65,
+            "p90": 170
+          },
+          "2035": {
+            "p10": 18,
+            "p50": 120,
+            "p90": 350
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 300,
+            "p50": 750,
+            "p90": 2000
+          },
+          "2030": {
+            "p10": 500,
+            "p50": 2200,
+            "p90": 9000
+          },
+          "2035": {
+            "p10": 800,
+            "p50": 6500,
+            "p90": 30000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.18,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-05-3d205bfb103a",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 5,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "3f56ec83eb47f8e8977beef31c691eba463c95b50755897915c4495fdd3d3502",
+      "sources": [
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.naheed.pk/sitemap",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://www.imf.org/en/Countries/PAK",
+        "https://www.imf.org/en/news/articles/2026/10/07/pr26326-pakistan-imf-complete-2026-aiv-consultation-reaches-sla-on-4th-review-eff-3rd-review-for-rsf",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Mar-2025-Compendium.pdf",
+        "https://www.sbp.org.pk/reports/stat_reviews/Bulletin/2025/Dec/MSB-Dec-25.pdf",
+        "https://www.exchangerates.org.uk/USD-PKR-spot-exchange-rates-history-2025.html",
+        "https://www.sfa.gov.sg/food-safety-tips/food-risk-concerns/risk-at-a-glance/safety-of-alternative-protein",
+        "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 6,
+          "p90": 22
+        },
+        "2030": {
+          "p10": 2.5,
+          "p50": 14,
+          "p90": 65
+        },
+        "2035": {
+          "p10": 4,
+          "p50": 38,
+          "p90": 210
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.05,
+            "p50": 0.6,
+            "p90": 3.5
+          },
+          "2030": {
+            "p10": 0.15,
+            "p50": 2.5,
+            "p90": 18
+          },
+          "2035": {
+            "p10": 0.4,
+            "p50": 10,
+            "p90": 85
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 5.1,
+            "p90": 18
+          },
+          "2030": {
+            "p10": 1.8,
+            "p50": 10.5,
+            "p90": 46
+          },
+          "2035": {
+            "p10": 2.5,
+            "p50": 25,
+            "p90": 130
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.3,
+            "p90": 2
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 1,
+            "p90": 6
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 3,
+            "p90": 20
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.025,
+          "p50": 0.12,
+          "p90": 0.45
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.04
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.24,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2037,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1300000,
+            "p50": 2300000,
+            "p90": 4000000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3400000,
+            "p90": 8500000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 5400000,
+            "p90": 20000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 8,
+            "p50": 28,
+            "p90": 70
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 60,
+            "p90": 180
+          },
+          "2035": {
+            "p10": 12,
+            "p50": 130,
+            "p90": 450
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 300,
+            "p50": 900,
+            "p90": 2400
+          },
+          "2030": {
+            "p10": 650,
+            "p50": 2500,
+            "p90": 9000
+          },
+          "2035": {
+            "p10": 1200,
+            "p50": 7000,
+            "p90": 30000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.7,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.28,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-06-706281d27fba",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 6,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "3fb2ed0621c6122c4962c6785dad957b253af11a843db62c6fde3e000db9e78d",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.naheed.pk/sitemap",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://statistiken.bundesbank.de/statistiken-en/timeseries/BBEX3/A.PKR.USD.CA.AB.A04"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 6,
+          "p90": 24
+        },
+        "2030": {
+          "p10": 2,
+          "p50": 15,
+          "p90": 75
+        },
+        "2035": {
+          "p10": 3,
+          "p50": 40,
+          "p90": 250
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.05,
+            "p50": 0.5,
+            "p90": 3
+          },
+          "2030": {
+            "p10": 0.1,
+            "p50": 2.5,
+            "p90": 20
+          },
+          "2035": {
+            "p10": 0.2,
+            "p50": 10,
+            "p90": 100
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 5,
+            "p90": 21
+          },
+          "2030": {
+            "p10": 1.5,
+            "p50": 11,
+            "p90": 55
+          },
+          "2035": {
+            "p10": 2,
+            "p50": 25,
+            "p90": 160
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.5,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 1.5,
+            "p90": 9
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 5,
+            "p90": 30
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.015,
+          "p50": 0.08,
+          "p90": 0.3
+        },
+        "bass_p": {
+          "p10": 0.001,
+          "p50": 0.006,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.05,
+          "p50": 0.22,
+          "p90": 0.5
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.006,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1200000,
+            "p50": 2200000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3000000,
+            "p90": 7000000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 4500000,
+            "p90": 15000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 10,
+            "p50": 28,
+            "p90": 65
+          },
+          "2030": {
+            "p10": 12,
+            "p50": 60,
+            "p90": 160
+          },
+          "2035": {
+            "p10": 15,
+            "p50": 120,
+            "p90": 400
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 850,
+            "p90": 2000
+          },
+          "2030": {
+            "p10": 650,
+            "p50": 2300,
+            "p90": 9000
+          },
+          "2035": {
+            "p10": 1000,
+            "p50": 6500,
+            "p90": 30000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.5,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-07-2aad6325ec90",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 7,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "f816b8bbd7bae8689ba09850817b391703c2681a90051c820964c8535c23c42b",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.naheed.pk/sitemap",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Mar-2025-Compendium.pdf",
+        "https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/novel-food-framework/overview-of-pre-market-approval-framework-for-novel-food"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 2,
+          "p50": 7,
+          "p90": 24
+        },
+        "2030": {
+          "p10": 3,
+          "p50": 15,
+          "p90": 65
+        },
+        "2035": {
+          "p10": 4,
+          "p50": 36,
+          "p90": 190
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.1,
+            "p50": 0.8,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.2,
+            "p50": 2.8,
+            "p90": 16
+          },
+          "2035": {
+            "p10": 0.3,
+            "p50": 9,
+            "p90": 65
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.6,
+            "p50": 5.8,
+            "p90": 19
+          },
+          "2030": {
+            "p10": 2.4,
+            "p50": 11.2,
+            "p90": 46
+          },
+          "2035": {
+            "p10": 3,
+            "p50": 24,
+            "p90": 120
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.03,
+            "p50": 0.4,
+            "p90": 2
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 1,
+            "p90": 6
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 3,
+            "p90": 18
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.04,
+          "p50": 0.18,
+          "p90": 0.65
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.009,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.05,
+          "p50": 0.22,
+          "p90": 0.48
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1400000,
+            "p50": 2300000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1200000,
+            "p50": 3400000,
+            "p90": 8000000
+          },
+          "2035": {
+            "p10": 1000000,
+            "p50": 5500000,
+            "p90": 18000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 8,
+            "p50": 24,
+            "p90": 55
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 48,
+            "p90": 130
+          },
+          "2035": {
+            "p10": 12,
+            "p50": 95,
+            "p90": 300
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 850,
+            "p90": 1800
+          },
+          "2030": {
+            "p10": 700,
+            "p50": 2200,
+            "p90": 7500
+          },
+          "2035": {
+            "p10": 1100,
+            "p50": 6000,
+            "p90": 24000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-08-b4948fab8907",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 8,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "bc3600ac5f7c082e4e195fd81c5e35f1656fc89db92e9559aa4857f254bad49e",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Dec-2025-Compendium.pdf",
+        "https://fxrates.com/history/usd-to-pkr-rate/2025"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 6,
+          "p90": 20
+        },
+        "2030": {
+          "p10": 3,
+          "p50": 18,
+          "p90": 80
+        },
+        "2035": {
+          "p10": 5,
+          "p50": 60,
+          "p90": 300
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.1,
+            "p50": 0.8,
+            "p90": 4
+          },
+          "2030": {
+            "p10": 0.3,
+            "p50": 3.5,
+            "p90": 22
+          },
+          "2035": {
+            "p10": 0.6,
+            "p50": 16,
+            "p90": 110
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.2,
+            "p50": 5,
+            "p90": 16
+          },
+          "2030": {
+            "p10": 2.4,
+            "p50": 13.5,
+            "p90": 58
+          },
+          "2035": {
+            "p10": 3.8,
+            "p50": 40,
+            "p90": 190
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.2,
+            "p90": 1.2
+          },
+          "2030": {
+            "p10": 0.08,
+            "p50": 1,
+            "p90": 6
+          },
+          "2035": {
+            "p10": 0.2,
+            "p50": 4,
+            "p90": 25
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.01,
+          "p50": 0.07,
+          "p90": 0.3
+        },
+        "bass_p": {
+          "p10": 0.001,
+          "p50": 0.006,
+          "p90": 0.025
+        },
+        "bass_q": {
+          "p10": 0.04,
+          "p50": 0.22,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.005,
+          "p90": 0.02
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1200000,
+            "p50": 2200000,
+            "p90": 3800000
+          },
+          "2030": {
+            "p10": 1100000,
+            "p50": 3200000,
+            "p90": 7000000
+          },
+          "2035": {
+            "p10": 900000,
+            "p50": 4800000,
+            "p90": 14000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 12,
+            "p50": 35,
+            "p90": 80
+          },
+          "2030": {
+            "p10": 15,
+            "p50": 70,
+            "p90": 190
+          },
+          "2035": {
+            "p10": 18,
+            "p50": 140,
+            "p90": 450
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 400,
+            "p50": 900,
+            "p90": 2200
+          },
+          "2030": {
+            "p10": 800,
+            "p50": 2800,
+            "p90": 9000
+          },
+          "2035": {
+            "p10": 1500,
+            "p50": 8000,
+            "p90": 30000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.5,
+        "2030": 0.65,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.25,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-09-b62ba8eca0f5",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 9,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "390ecc751931c4ca542cdb75575748dbdfc24bb39cb2d71b7d63857f33bb1413",
+      "sources": [
+        "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+        "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+        "https://www.pbs.gov.pk/price-statistics/",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Mar-2025-Compendium.pdf",
+        "https://www.sbp.org.pk/m_policy/2025/MPS-Oct-2025-Compendium.pdf",
+        "https://archive.sbp.org.pk/reports/annual/aarFY25/annex_index.htm",
+        "https://www.sbp.org.pk/reports/annual/aarFY25/Complete.pdf",
+        "https://www.naheed.pk/sitemap",
+        "https://alfatah.pk/pages/grocery-foods",
+        "https://assets.kpmg.com/content/dam/kpmg/pk/pdf/2025/06/Economic-Brief-2025.pdf",
+        "https://igisecurities.com.pk/downloads/research/IGIStrategy2026.pdf"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 2,
+          "p50": 9,
+          "p90": 28
+        },
+        "2030": {
+          "p10": 3,
+          "p50": 22,
+          "p90": 90
+        },
+        "2035": {
+          "p10": 4,
+          "p50": 60,
+          "p90": 300
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.1,
+            "p50": 1.2,
+            "p90": 5
+          },
+          "2030": {
+            "p10": 0.3,
+            "p50": 4.5,
+            "p90": 25
+          },
+          "2035": {
+            "p10": 0.5,
+            "p50": 18,
+            "p90": 120
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.7,
+            "p50": 7.5,
+            "p90": 23
+          },
+          "2030": {
+            "p10": 2.5,
+            "p50": 16,
+            "p90": 65
+          },
+          "2035": {
+            "p10": 3,
+            "p50": 37,
+            "p90": 175
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.3,
+            "p90": 2
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 1.5,
+            "p90": 8
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 5,
+            "p90": 30
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.04,
+          "p50": 0.2,
+          "p90": 0.65
+        },
+        "bass_p": {
+          "p10": 0.001,
+          "p50": 0.006,
+          "p90": 0.02
+        },
+        "bass_q": {
+          "p10": 0.04,
+          "p50": 0.2,
+          "p90": 0.45
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2048
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.0075,
+          "p90": 0.025
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1100000,
+            "p50": 2250000,
+            "p90": 4200000
+          },
+          "2030": {
+            "p10": 1000000,
+            "p50": 3200000,
+            "p90": 8000000
+          },
+          "2035": {
+            "p10": 800000,
+            "p50": 5000000,
+            "p90": 17000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 8,
+            "p50": 24,
+            "p90": 55
+          },
+          "2030": {
+            "p10": 10,
+            "p50": 50,
+            "p90": 130
+          },
+          "2035": {
+            "p10": 8,
+            "p50": 100,
+            "p90": 350
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 350,
+            "p50": 800,
+            "p90": 1800
+          },
+          "2030": {
+            "p10": 650,
+            "p50": 2200,
+            "p90": 7500
+          },
+          "2035": {
+            "p10": 1000,
+            "p50": 6500,
+            "p90": 25000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.6,
+      "gfi_publication_probability": {
+        "2026": 0.5,
+        "2030": 0.65,
+        "2035": 0.55
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    },
+    {
+      "attempt_id": "gpt-6-astra-pakistan-10-e537902c5999",
+      "model": "gpt-6-astra",
+      "reported_models": [],
+      "region": "pakistan",
+      "slot": 10,
+      "prompt_sha256": "6d45ba245ba01efd97e9c1d1bf85d09f4b0f71bb158cd6421e4f135440fbf992",
+      "answer_sha256": "4c5d1b4fc165527b03158f50cc0024a9dd12b3695eb43cb293b7bf8db77f28ba",
+      "sources": [
+        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+        "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+        "https://www.naheed.pk/sitemap",
+        "https://statistiken.bundesbank.de/statistiken-en/timeseries/BBEX3/A.PKR.USD.CA.AB.A04"
+      ],
+      "headline": {
+        "2026": {
+          "p10": 1.5,
+          "p50": 5,
+          "p90": 15
+        },
+        "2030": {
+          "p10": 2,
+          "p50": 11,
+          "p90": 40
+        },
+        "2035": {
+          "p10": 3,
+          "p50": 28,
+          "p90": 125
+        }
+      },
+      "categories": {
+        "plant_based_meat": {
+          "2026": {
+            "p10": 0.08,
+            "p50": 0.5,
+            "p90": 2.5
+          },
+          "2030": {
+            "p10": 0.15,
+            "p50": 1.8,
+            "p90": 10
+          },
+          "2035": {
+            "p10": 0.3,
+            "p50": 7,
+            "p90": 45
+          }
+        },
+        "dairy_alternatives": {
+          "2026": {
+            "p10": 1.3,
+            "p50": 4.3,
+            "p90": 12
+          },
+          "2030": {
+            "p10": 1.7,
+            "p50": 8.5,
+            "p90": 30
+          },
+          "2035": {
+            "p10": 2.4,
+            "p50": 18.5,
+            "p90": 85
+          }
+        },
+        "residual": {
+          "2026": {
+            "p10": 0.02,
+            "p50": 0.2,
+            "p90": 1
+          },
+          "2030": {
+            "p10": 0.05,
+            "p50": 0.7,
+            "p90": 3
+          },
+          "2035": {
+            "p10": 0.1,
+            "p50": 2.5,
+            "p90": 12
+          }
+        }
+      },
+      "inputs": {
+        "conversion": {
+          "p10": 0.03,
+          "p50": 0.15,
+          "p90": 0.5
+        },
+        "bass_p": {
+          "p10": 0.002,
+          "p50": 0.012,
+          "p90": 0.035
+        },
+        "bass_q": {
+          "p10": 0.06,
+          "p50": 0.25,
+          "p90": 0.55
+        },
+        "price_parity_year": {
+          "p10": 2030,
+          "p50": 2038,
+          "p90": 2047
+        },
+        "ai_cost_decline": {
+          "p10": 0,
+          "p50": 0.008,
+          "p90": 0.03
+        }
+      },
+      "proxies": {
+        "comtrade_imports": {
+          "2026": {
+            "p10": 1300000,
+            "p50": 2200000,
+            "p90": 3600000
+          },
+          "2030": {
+            "p10": 1200000,
+            "p50": 3200000,
+            "p90": 7000000
+          },
+          "2035": {
+            "p10": 1000000,
+            "p50": 5000000,
+            "p90": 14000000
+          }
+        },
+        "product_count": {
+          "2026": {
+            "p10": 10,
+            "p50": 28,
+            "p90": 60
+          },
+          "2030": {
+            "p10": 12,
+            "p50": 55,
+            "p90": 140
+          },
+          "2035": {
+            "p10": 15,
+            "p50": 110,
+            "p90": 350
+          }
+        },
+        "gfi_republished_estimate": {
+          "2026": {
+            "p10": 350,
+            "p50": 800,
+            "p90": 1800
+          },
+          "2030": {
+            "p10": 600,
+            "p50": 2200,
+            "p90": 8000
+          },
+          "2035": {
+            "p10": 1000,
+            "p50": 6500,
+            "p90": 25000
+          }
+        }
+      },
+      "parity_status": "CONDITIONAL",
+      "parity_by_2050_probability": 0.65,
+      "gfi_publication_probability": {
+        "2026": 0.55,
+        "2030": 0.7,
+        "2035": 0.5
+      },
+      "cultivated_sale_by_2035": false,
+      "cultivated_sale_probability": 0.22,
+      "cultivated_first_sale_year": null
+    }
+  ]
+}

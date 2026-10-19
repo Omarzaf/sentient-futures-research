@@ -8,9 +8,9 @@
       "country": "India",
       "year": 2026,
       "metric": "value_usd_2025",
-      "p10": 131908157.07236826,
-      "p50": 137163303.65655792,
-      "p90": 142380113.03713202,
+      "p10": 121261856.57685752,
+      "p50": 126229835.21838552,
+      "p90": 131113153.8396839,
       "valid_draws": 10000,
       "total_draws": 10000,
       "status": "DIAGNOSTIC"
@@ -19,9 +19,9 @@
       "country": "India",
       "year": 2026,
       "metric": "volume_t",
-      "p10": 46415.27264316092,
-      "p50": 48495.5912880184,
-      "p90": 50517.521864192444,
+      "p10": 46050.79211575084,
+      "p50": 48150.41529854601,
+      "p90": 50202.468718082935,
       "valid_draws": 10000,
       "total_draws": 10000,
       "status": "DIAGNOSTIC"
@@ -44,9 +44,9 @@
       "year": 2026,
       "pair": "dairy",
       "metric": "value_usd_2025",
-      "p10": 93064597.82464746,
-      "p50": 97497173.44390821,
-      "p90": 101910088.69653507,
+      "p10": 94774042.46360208,
+      "p50": 99288037.25627813,
+      "p90": 103782010.55350079,
       "status": "DIAGNOSTIC"
     },
     {
@@ -54,9 +54,9 @@
       "year": 2026,
       "pair": "dairy",
       "metric": "volume_t",
-      "p10": 42798.664522215855,
-      "p50": 44837.12298367661,
-      "p90": 46866.540010954894,
+      "p10": 43584.80607692144,
+      "p50": 45660.707690452145,
+      "p90": 47727.40179342381,
       "status": "DIAGNOSTIC"
     },
     {
@@ -64,9 +64,9 @@
       "year": 2026,
       "pair": "meat",
       "metric": "value_usd_2025",
-      "p10": 23778481.058406286,
-      "p50": 25423071.029019333,
-      "p90": 27223372.038686708,
+      "p10": 16143501.941848762,
+      "p50": 17260034.209781446,
+      "p90": 18482280.608703677,
       "status": "DIAGNOSTIC"
     },
     {
@@ -74,9 +74,9 @@
       "year": 2026,
       "pair": "meat",
       "metric": "volume_t",
-      "p10": 2184.8597277585786,
-      "p50": 2335.971078674655,
-      "p90": 2501.389768127689,
+      "p10": 1483.3280212937946,
+      "p50": 1585.9193676862362,
+      "p90": 1698.2241413950287,
       "status": "DIAGNOSTIC"
     },
     {
@@ -84,9 +84,9 @@
       "year": 2026,
       "pair": "vegetarian",
       "metric": "value_usd_2025",
-      "p10": 13138298.292888863,
-      "p50": 14144682.029519472,
-      "p90": 15253173.480712395,
+      "p10": 8919751.580551766,
+      "p50": 9602997.821833339,
+      "p90": 10355566.240770657,
       "status": "DIAGNOSTIC"
     },
     {
@@ -94,9 +94,9 @@
       "year": 2026,
       "pair": "vegetarian",
       "metric": "volume_t",
-      "p10": 1207.1981705183016,
-      "p50": 1299.668639571163,
-      "p90": 1401.5211643109587,
+      "p10": 819.5816192838291,
+      "p50": 882.3609529616961,
+      "p90": 951.5098791223015,
       "status": "DIAGNOSTIC"
     }
   ],
@@ -200,10 +200,10 @@
     "income_note": "GDP per capita at market USD2025 used as income proxy; US2025 comparison held fixed",
     "stratum_note": "Pakistan official strata unresolved; estimator clusters by province without using invented stratum values",
     "panel_input_medians": {
-      "conversion": 0.15,
+      "conversion": 0.1,
       "bass_p": 0.012,
-      "bass_q": 0.24,
-      "price_parity_year": 2035.0,
+      "bass_q": 0.245,
+      "price_parity_year": 2036.0,
       "ai_cost_decline": 0.008
     },
     "panel_conversion_uncertainty": "fixed per-model median; US intention sampling disabled so it cancels from conversion",
@@ -224,16 +224,16 @@
     "ceiling_binding_denominator": 10000,
     "adoption_clipped_to_probability": true,
     "ai_decline": 0.008,
-    "parity_year": 2035.0,
+    "parity_year": 2036.0,
     "seed": 20261018,
     "draws": 10000,
     "panel_model": "gpt-6-astra",
     "panel_source_hashes": {
-      "results.csv": "c66b8919707b3ec1af4e52ddec611e51297339a42260d582d396c13b8d1f3e51",
-      "accepted-runs.json": "c2ae852036cebfb9ee10dfe02746d4db638cb5298b63da5986f22cbe12137eed",
+      "results.csv": "4123c4a98a58bd5e2eb28a5e0f0707e92e614692feafa0a36942ba833dc038ba",
+      "accepted-runs.json": "4b08d457ad2f2af3aafb834f805ff52ad3dd5399955a46544f10293004003113",
       "scope.json": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04"
     },
-    "panel_n_accepted": 1,
-    "panel_completion": "PARTIAL_PANEL"
+    "panel_n_accepted": 10,
+    "panel_completion": "COMPLETE_PANEL"
   }
 }

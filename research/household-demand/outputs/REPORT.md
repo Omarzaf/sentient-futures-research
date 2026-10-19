@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 11 accepted runs with 19 pending; partial model responses cannot establish a completed panel.
+This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 30 accepted runs with 0 pending; partial model responses cannot establish a completed panel.
 
 ## 1. Research question, estimand and comparison
 
@@ -165,43 +165,54 @@ These intervals are empirical state-transfer predictive intervals, not survey-de
 
 ## 6. Elicitation and model-from-input comparison
 
-The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 11 accepted, 19 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
+The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 30 accepted, 0 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
 
 The exact US questionnaire is hash-bound and stored separately because public redistribution rights are unestablished. India and Pakistan adaptations preserve explicit unresolved forecast questions and resolvable proxy questions. Project domains and project-derived estimate contamination are screened. The original US cultivated/fermentation and blind-spot questions remain intact. Public reporting remains held pending scholarly review; Anna must also be notified before the US comparison is reported outside this local draft.
 
-| country | year | method | source_model | n_accepted | p50 | status |
-| --- | --- | --- | --- | --- | --- | --- |
-| India | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| India | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2026 | panel_headline | gpt-6-astra | 1.000 | 80.000 | PARTIAL_PANEL |
-| India | 2026 | model_from_panel_inputs | gpt-6-astra | 1.000 | 137.163 | DIAGNOSTIC |
-| India | 2030 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| India | 2030 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2030 | panel_headline | gpt-6-astra | 1.000 | 165.000 | PARTIAL_PANEL |
-| India | 2030 | model_from_panel_inputs | gpt-6-astra | 1.000 | 409.099 | DIAGNOSTIC |
-| India | 2035 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| India | 2035 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2035 | panel_headline | gpt-6-astra | 1.000 | 420.000 | PARTIAL_PANEL |
-| India | 2035 | model_from_panel_inputs | gpt-6-astra | 1.000 | 1,054.500 | DIAGNOSTIC |
-| Pakistan | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| Pakistan | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| Pakistan | 2026 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| Pakistan | 2026 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
-| Pakistan | 2030 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| Pakistan | 2030 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| Pakistan | 2030 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| Pakistan | 2030 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
-| Pakistan | 2035 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
-| Pakistan | 2035 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| Pakistan | 2035 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| Pakistan | 2035 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
+Values below are million USD at constant 2025 prices; held cells are not zero.
+
+| country | year | method | source_model | n_accepted | p10 | p50 | p90 | status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| India | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| India | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| India | 2026 | panel_headline | gpt-6-astra | 10.000 | 65.000 | 70.000 | 75.500 | COMPLETE_PANEL |
+| India | 2026 | model_from_panel_inputs | gpt-6-astra | 10.000 | 121.262 | 126.230 | 131.113 | DIAGNOSTIC |
+| India | 2030 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| India | 2030 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| India | 2030 | panel_headline | gpt-6-astra | 10.000 | 138.000 | 155.000 | 166.500 | COMPLETE_PANEL |
+| India | 2030 | model_from_panel_inputs | gpt-6-astra | 10.000 | 353.018 | 367.744 | 382.309 | DIAGNOSTIC |
+| India | 2035 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| India | 2035 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| India | 2035 | panel_headline | gpt-6-astra | 10.000 | 324.000 | 370.000 | 422.000 | COMPLETE_PANEL |
+| India | 2035 | model_from_panel_inputs | gpt-6-astra | 10.000 | 858.701 | 899.240 | 941.647 | DIAGNOSTIC |
+| Pakistan | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| Pakistan | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| Pakistan | 2026 | panel_headline | gpt-6-astra | 10.000 | 5.000 | 6.000 | 7.200 | COMPLETE_PANEL |
+| Pakistan | 2026 | model_from_panel_inputs | gpt-6-astra | 10.000 | held | held | held | HELD_PLACEHOLDER_INPUT |
+| Pakistan | 2030 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| Pakistan | 2030 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| Pakistan | 2030 | panel_headline | gpt-6-astra | 10.000 | 10.900 | 14.500 | 18.400 | COMPLETE_PANEL |
+| Pakistan | 2030 | model_from_panel_inputs | gpt-6-astra | 10.000 | held | held | held | HELD_PLACEHOLDER_INPUT |
+| Pakistan | 2035 | panel_headline | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL |
+| Pakistan | 2035 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | held | held | HELD_PANEL_INPUTS |
+| Pakistan | 2035 | panel_headline | gpt-6-astra | 10.000 | 27.600 | 37.000 | 60.000 | COMPLETE_PANEL |
+| Pakistan | 2035 | model_from_panel_inputs | gpt-6-astra | 10.000 | held | held | held | HELD_PLACEHOLDER_INPUT |
 
 Panel headline p10/p50/p90 summarize accepted runs' point medians. They are not pooled respondent predictive bounds. For each model separately, the adapter takes its median conversion, Bass p, Bass q, price-parity year and annual AI decline, then genuinely reruns the same evaluator with 10,000 paired draws. Conversion changes the meat and vegetarian channels; observed US-milk conversion remains its category-specific anchor. Bass and parity affect each modelled pair. The elicited AI input is a manufacturing-cost decline, while the evaluator changes retail price; this rerun explicitly assumes full retail pass-through as an extra sensitivity assumption, not a panel-endorsed or observed relationship. US-intention sampling is disabled for these reruns so the supplied fixed conversion median is not contaminated by the empirical US conversion denominator. The resulting Monte Carlo interval is conditional on fixed panel medians and is not the panel's across-run spread. An unresolved parity answer stays null and holds that rerun; a date is never invented.
 
+The following fixed input medians come directly from the computed per-country/model diagnostics. Counts and coverage apply to all five inputs; held or unrecognized diagnostic statuses do not supply numbers. Six decimal places preserve small coefficients. These are elicited inputs, not market values; Pakistan's placeholder-derived market outputs remain withheld. AI decline retains the additional full-retail-pass-through assumption described above.
+
+| country | model | n_accepted | status | conversion (coefficient) | Bass p (coefficient) | Bass q (coefficient) | price parity (year) | AI cost decline (fraction/year) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| India | claude-opus-5-5 | 0 | HELD_PANEL_INPUTS | held | held | held | held | held |
+| India | gpt-6-astra | 10 | COMPLETE_PANEL | 0.100000 | 0.012000 | 0.245000 | 2036.000000 | 0.008000 |
+| Pakistan | claude-opus-5-5 | 0 | HELD_PANEL_INPUTS | held | held | held | held | held |
+| Pakistan | gpt-6-astra | 10 | COMPLETE_PANEL | 0.150000 | 0.008500 | 0.220000 | 2038.000000 | 0.008000 |
+
 - India, claude-opus-5-5: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
-- India, gpt-6-astra: PARTIAL_PANEL; accepted runs 1; computed conditional scenario; dairy scope mismatch holds headline gap.
+- India, gpt-6-astra: COMPLETE_PANEL; accepted runs 10; computed conditional scenario; dairy scope mismatch holds headline gap.
 - Pakistan, claude-opus-5-5: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
-- Pakistan, gpt-6-astra: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
+- Pakistan, gpt-6-astra: COMPLETE_PANEL; accepted runs 10; computed conditional scenario; dairy scope mismatch holds headline gap.
 
 Only explicit COMPLETE_PANEL or PARTIAL_PANEL producer statuses may supply headline or input values. Placeholder-derived, absent or unknown source-status labels are held before publication and before any model evaluation; rejected input medians are not copied to the public summary. Coverage can downgrade an incomplete count, but never upgrades an explicitly partial panel. The elicited dairy category includes other dairy alternatives, while the household engine covers liquid milk. Therefore even a completed panel does not yield a matched-scope dollar gap. Raw headline and conditional rerun values can be inspected as separately labelled local diagnostics; the numerical gap remains null. US serves calibration/comparison only and does not become a target-market row.
 

@@ -4,37 +4,73 @@
       "country": "India",
       "year": 2026,
       "model": "gpt-6-astra",
-      "p10": 131.90815707236825,
-      "p50": 137.16330365655793,
-      "p90": 142.38011303713202,
+      "p10": 121.26185657685753,
+      "p50": 126.22983521838552,
+      "p90": 131.11315383968392,
       "status": "DIAGNOSTIC",
-      "n_accepted": 1,
-      "panel_coverage_status": "PARTIAL_PANEL",
-      "source_sha256": "f810c26a103575a36d64f79f647c31af2da2a287ce08a65d6703b61b2ffbde3a"
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "8e0d153850aac6488af551a676d339d2ae003a2fa49c63e344f09c79c83d493b"
     },
     {
       "country": "India",
       "year": 2030,
       "model": "gpt-6-astra",
-      "p10": 393.48075602494856,
-      "p50": 409.09933553080606,
-      "p90": 424.92825797117945,
+      "p10": 353.0184663301273,
+      "p50": 367.7435304886384,
+      "p90": 382.3087174389378,
       "status": "DIAGNOSTIC",
-      "n_accepted": 1,
-      "panel_coverage_status": "PARTIAL_PANEL",
-      "source_sha256": "fd23fe81594b3e3de77f5214aa60606915dcd91b4adb21ff6a031501343878ea"
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "b5c9649856dda76d6edafedab4e5cc57985096d38d25efdfc014eba5715cdd4a"
     },
     {
       "country": "India",
       "year": 2035,
       "model": "gpt-6-astra",
-      "p10": 1004.754867253034,
-      "p50": 1054.499874545371,
-      "p90": 1107.7204414776231,
+      "p10": 858.7005553458242,
+      "p50": 899.2401220023181,
+      "p90": 941.6467172960563,
       "status": "DIAGNOSTIC",
-      "n_accepted": 1,
-      "panel_coverage_status": "PARTIAL_PANEL",
-      "source_sha256": "4ba99503f5e07f9bba20f19bab61a3685dfb2f3ce264054e9c02bb201fd48138"
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "d5458a463ede2dffe9eb91ef7094b776ddbcc8ba4dfd2a6a341d12da696e9581"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "model": "gpt-6-astra",
+      "p10": 0.3707096586405787,
+      "p50": 0.458054907477197,
+      "p90": 0.5473587986460604,
+      "status": "SYNTHETIC",
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "3102c9c46df7e8740826187b672c7ef91daf0399616d42d71a69ecfad33de730"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "model": "gpt-6-astra",
+      "p10": 2.831568763713984,
+      "p50": 3.3434112766825903,
+      "p90": 3.8881264195817944,
+      "status": "SYNTHETIC",
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "8107080808c9a20de32ee9712620f876ea8d72b6db02a41f701bd3233e5e3066"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "model": "gpt-6-astra",
+      "p10": 24.819069662476192,
+      "p50": 27.77600152853181,
+      "p90": 31.005212171021164,
+      "status": "SYNTHETIC",
+      "n_accepted": 10,
+      "panel_coverage_status": "COMPLETE_PANEL",
+      "source_sha256": "c9c249b832f66306a7dfed561bb4c13633c37337fb5c1b6d6665b4b1cc687779"
     }
   ],
   "diagnostics": [
@@ -57,17 +93,17 @@
     {
       "country": "India",
       "model": "gpt-6-astra",
-      "n_accepted": 1,
+      "n_accepted": 10,
       "medians": {
-        "conversion": 0.15,
+        "conversion": 0.1,
         "bass_p": 0.012,
-        "bass_q": 0.24,
-        "price_parity_year": 2035.0,
+        "bass_q": 0.245,
+        "price_parity_year": 2036.0,
         "ai_cost_decline": 0.008
       },
       "scope_alignment": "UNMATCHED",
       "gap_p50": null,
-      "status": "PARTIAL_PANEL",
+      "status": "COMPLETE_PANEL",
       "reason": "computed conditional scenario; dairy scope mismatch holds headline gap"
     },
     {
@@ -89,18 +125,18 @@
     {
       "country": "Pakistan",
       "model": "gpt-6-astra",
-      "n_accepted": 0,
+      "n_accepted": 10,
       "medians": {
-        "conversion": null,
-        "bass_p": null,
-        "bass_q": null,
-        "price_parity_year": null,
-        "ai_cost_decline": null
+        "conversion": 0.15,
+        "bass_p": 0.0085,
+        "bass_q": 0.22,
+        "price_parity_year": 2038.0,
+        "ai_cost_decline": 0.008
       },
       "scope_alignment": "UNMATCHED",
       "gap_p50": null,
-      "status": "HELD_PANEL_INPUTS",
-      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+      "status": "COMPLETE_PANEL",
+      "reason": "computed conditional scenario; dairy scope mismatch holds headline gap"
     }
   ]
 }

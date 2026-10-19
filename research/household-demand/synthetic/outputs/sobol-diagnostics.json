@@ -701,7 +701,7 @@
     }
   ],
   "source_hashes": {
-    "research/household-demand/build_outputs.py": "153bfad46ffb27aa7b15b4b66677d78540af2edcfe3976339775deaac02a0505",
+    "research/household-demand/build_outputs.py": "8be86a01af68e57fe972e64eae1a6f15998733baa0a8344e14737fdb819cce7a",
     "research/household-demand/simulate.py": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
     "research/household-demand/sensitivity.py": "1a2959d28d178a196b0bc487bbefcffa8c8c7d12249732da08266676138ac2ef",
     "research/household-demand/protocol.json": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
@@ -717,9 +717,9 @@
     "research/household-demand/outputs/elasticities_national.json": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
     "research/household-demand/outputs/segments_summary.json": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
     "research/india-pakistan/data/altprotein_proxy_scenarios.csv": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
-    "research/household-demand/elicitation/results.csv": "c66b8919707b3ec1af4e52ddec611e51297339a42260d582d396c13b8d1f3e51",
-    "research/household-demand/elicitation/accepted-runs.json": "c2ae852036cebfb9ee10dfe02746d4db638cb5298b63da5986f22cbe12137eed",
-    "research/household-demand/elicitation/completion.json": "77e5e3358f72cb73d7002d60bfa26958a08d5941448b0e29d0366aa7a78d5d3a",
+    "research/household-demand/elicitation/results.csv": "4123c4a98a58bd5e2eb28a5e0f0707e92e614692feafa0a36942ba833dc038ba",
+    "research/household-demand/elicitation/accepted-runs.json": "4b08d457ad2f2af3aafb834f805ff52ad3dd5399955a46544f10293004003113",
+    "research/household-demand/elicitation/completion.json": "98a0467f5fc93ee79adf45fdebdefec8e60e3d60b27f75bd5c03c39fa73b666d",
     "research/household-demand/elicitation/scope.json": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04",
     "research/household-demand/elicitation/instrument-provenance.json": "054838992bef9724fb5ccffe1440ab4330b1fa59a2c6774010f40f30a65b20eb",
     "research/household-demand/elicitation/execution-scope.json": "537a568e11158bd9e05bb191728b56a28de2a0cf14cd8cf85ac75e6fdcc7baf0"

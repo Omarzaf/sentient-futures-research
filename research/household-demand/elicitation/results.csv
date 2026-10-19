@@ -1,0 +1,62 @@
+region,model,measure,year,unit,n_accepted,n_nonmissing,p10,p50,p90,status,spread_definition
+india,gpt-6-astra,categories.dairy_alternatives,2026,million USD_2025,10,10,48.0,50.5,56.4,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.dairy_alternatives,2030,million USD_2025,10,10,90.4,105.5,116.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.dairy_alternatives,2035,million USD_2025,10,10,202.0,235.0,266.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.plant_based_meat,2026,million USD_2025,10,10,15.0,17.0,20.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.plant_based_meat,2030,million USD_2025,10,10,39.0,45.0,48.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.plant_based_meat,2035,million USD_2025,10,10,107.0,120.0,135.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.residual,2026,million USD_2025,10,10,1.0,1.5,2.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.residual,2030,million USD_2025,10,10,4.0,5.0,7.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,categories.residual,2035,million USD_2025,10,10,15.0,17.5,20.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,headline,2026,million USD_2025,10,10,65.0,70.0,75.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,headline,2030,million USD_2025,10,10,138.0,155.0,166.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,headline,2035,million USD_2025,10,10,324.0,370.0,422.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,inputs.ai_cost_decline,,fraction per year,10,10,0.0059,0.008,0.008,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,inputs.bass_p,,coefficient,10,10,0.009,0.012,0.012,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,inputs.bass_q,,coefficient,10,10,0.238,0.245,0.28,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,inputs.conversion,,coefficient,10,10,0.0645,0.1,0.12299999999999998,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,inputs.price_parity_year,,year,10,10,2035.0,2036.0,2037.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.comtrade_imports,2026,current USD,10,10,23000000.0,23500000.0,24000000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.comtrade_imports,2030,current USD,10,10,32000000.0,34000000.0,35000000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.comtrade_imports,2035,current USD,10,10,48000000.0,50000000.0,55000000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.gfi_republished_estimate,2026,nominal INR crore,10,10,845.0,900.0,1010.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.gfi_republished_estimate,2030,nominal INR crore,10,10,2180.0,2800.0,3369.9999999999995,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.gfi_republished_estimate,2035,nominal INR crore,10,10,6450.0,8250.0,11100.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.product_count,2026,unique product lines,10,10,159.0,180.0,211.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.product_count,2030,unique product lines,10,10,282.5,335.0,364.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+india,gpt-6-astra,proxies.product_count,2035,unique product lines,10,10,465.0,580.0,653.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.dairy_alternatives,2026,million USD_2025,10,10,4.19,5.0,6.1499999999999995,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.dairy_alternatives,2030,million USD_2025,10,10,8.41,10.75,13.75,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.dairy_alternatives,2035,million USD_2025,10,10,18.25,24.5,37.3,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.plant_based_meat,2026,million USD_2025,10,10,0.5,0.6499999999999999,0.8399999999999999,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.plant_based_meat,2030,million USD_2025,10,10,1.8,2.5,3.5999999999999996,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.plant_based_meat,2035,million USD_2025,10,10,6.9,9.5,16.2,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.residual,2026,million USD_2025,10,10,0.2,0.25,0.41,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.residual,2030,million USD_2025,10,10,0.69,1.0,1.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,categories.residual,2035,million USD_2025,10,10,2.0,3.0,5.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,headline,2026,million USD_2025,10,10,5.0,6.0,7.199999999999999,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,headline,2030,million USD_2025,10,10,10.9,14.5,18.4,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,headline,2035,million USD_2025,10,10,27.6,37.0,60.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,inputs.ai_cost_decline,,fraction per year,10,10,0.0059,0.008,0.008,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,inputs.bass_p,,coefficient,10,10,0.006,0.0085,0.012,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,inputs.bass_q,,coefficient,10,10,0.198,0.22,0.241,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,inputs.conversion,,coefficient,10,10,0.079,0.15,0.182,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,inputs.price_parity_year,,year,10,10,2037.9,2038.0,2038.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.comtrade_imports,2026,current USD,10,10,2200000.0,2200000.0,2300000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.comtrade_imports,2030,current USD,10,10,3000000.0,3200000.0,3400000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.comtrade_imports,2035,current USD,10,10,4500000.0,5000000.0,5410000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.gfi_republished_estimate,2026,nominal INR crore,10,10,750.0,850.0,900.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.gfi_republished_estimate,2030,nominal INR crore,10,10,2180.0,2250.0,2530.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.gfi_republished_estimate,2035,nominal INR crore,10,10,5950.0,6500.0,7100.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.product_count,2026,unique product lines,10,10,24.0,28.0,35.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.product_count,2030,unique product lines,10,10,49.8,60.0,65.5,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+pakistan,gpt-6-astra,proxies.product_count,2035,unique product lines,10,10,99.5,115.0,131.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.cultivated,2026,million USD_2025,10,10,2.0,3.0,3.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.cultivated,2030,million USD_2025,10,10,89.0,100.0,100.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.cultivated,2035,million USD_2025,10,10,700.0,1000.0,1010.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.fermentation,2026,million USD_2025,10,10,1480.0,1650.0,1910.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.fermentation,2030,million USD_2025,10,10,2580.0,2950.0,3410.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,categories.fermentation,2035,million USD_2025,10,10,5180.0,6000.0,6600.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,headline,2026,million USD_2025,10,10,7550.0,7600.0,7650.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,headline,2030,million USD_2025,10,10,8200.0,8300.0,8500.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
+us,gpt-6-astra,headline,2035,million USD_2025,10,10,10500.0,10650.0,11000.0,COMPLETE_PANEL,empirical spread of independent run medians; not predictive quantiles or human experts
