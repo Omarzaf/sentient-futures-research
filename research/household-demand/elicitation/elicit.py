@@ -552,6 +552,129 @@ def provider_output(
     )
 
 
+def provider_status(model: str, stdout: str, returncode: int) -> tuple[bool, list[str]]:
+    """Classify terminal JSON events without mistaking nested warnings for failure."""
+    warnings: list[str] = []
+    if model == MODELS[0]:
+        try:
+            result = json.loads(stdout)
+            return returncode != 0 or bool(result.get("is_error", False)), warnings
+        except (ValueError, AttributeError):
+            return True, ["invalid Claude provider envelope"]
+    terminal = None
+    for line in stdout.splitlines():
+        try:
+            event = json.loads(line)
+        except json.JSONDecodeError:
+            warnings.append("non-JSON provider stdout line")
+            continue
+        if not isinstance(event, dict):
+            warnings.append("non-object provider event")
+            continue
+        kind = event.get("type")
+        if kind in ("turn.completed", "turn.failed", "error"):
+            terminal = kind
+            if kind != "turn.completed":
+                warnings.append(
+                    "provider event "
+                    + kind
+                    + ": "
+                    + json.dumps(event.get("error", event.get("message", "")))
+                )
+        item = event.get("item")
+        if (
+            kind == "item.completed"
+            and isinstance(item, dict)
+            and item.get("type") == "error"
+        ):
+            warnings.append("provider item warning: " + str(item.get("message", "")))
+    return returncode != 0 or terminal != "turn.completed", warnings
+
+
+def adjudicate_existing(attempt_id: str, raw: Path = RAW) -> dict:
+    """Revalidate preserved output locally with immutable before-receipt evidence."""
+    if not re.fullmatch(r"[a-zA-Z0-9-]+", attempt_id):
+        raise ValueError("invalid attempt id")
+    folder = raw / attempt_id
+    receipt_path = folder / "receipt.json"
+    original_bytes = receipt_path.read_bytes()
+    record = json.loads(original_bytes)
+    for name, key in (
+        ("provider-stdout.txt", "stdout_sha256"),
+        ("provider-stderr.txt", "stderr_sha256"),
+        ("prompt.txt", "prompt_sha256"),
+    ):
+        if sha256(folder / name) != record[key]:
+            raise ValueError(f"preserved {name} hash drift")
+    if (
+        hashlib.sha256(build_prompt(record["region"]).encode()).hexdigest()
+        != record["prompt_sha256"]
+    ):
+        raise ValueError("preserved prompt differs from current registered prompt")
+    original_answer_hash = sha256(folder / "answer.txt")
+    before_name = "receipt-before-adjudication-" + uuid.uuid4().hex[:12] + ".json"
+    (folder / before_name).write_bytes(original_bytes)
+    stdout = (folder / "provider-stdout.txt").read_text()
+    failed, warnings = provider_status(record["model"], stdout, record["returncode"])
+    if failed:
+        raise ValueError("preserved provider events still indicate terminal failure")
+    text, reported, violations = provider_output(
+        record["model"], stdout, folder / "answer.txt"
+    )
+    if reported and any(
+        m != record["model"] and not m.startswith(record["model"] + "-")
+        for m in reported
+    ):
+        violations.append("provider reported an unapproved model")
+    parsed = parse_response(text)
+    errors = validate(parsed, record["region"]) + violations + blocked_sources(stdout)
+    parsed.pop("_response_text", None)
+    if (folder / "parsed.json").exists():
+        (folder / (before_name.replace("receipt-", "parsed-"))).write_bytes(
+            (folder / "parsed.json").read_bytes()
+        )
+    dump(folder / "parsed.json", parsed)
+    correction = {
+        "adjudicated_at_utc": stamp(),
+        "reason": "Corrected nested item warning versus terminal provider event classification; no new model call",
+        "before_receipt_file": before_name,
+        "before_receipt_sha256": hashlib.sha256(original_bytes).hexdigest(),
+        "before_status": record["status"],
+        "answer_sha256": original_answer_hash,
+        "adjudicator_sha256": sha256(Path(__file__)),
+        "after_status": "REJECTED" if errors else "ACCEPTED",
+        "validation_errors": sorted(set(errors)),
+        "provider_warnings": warnings,
+        "new_model_calls": 0,
+    }
+    dump(folder / "adjudication.json", correction)
+    record.update(
+        status=correction["after_status"],
+        reasons=sorted(set(errors)),
+        reported_models=reported,
+        provider_warnings=warnings,
+        answer_sha256=original_answer_hash,
+        sources=parsed["sources"],
+        quarantined=bool(errors),
+        model_identity_evidence=(
+            "provider_reported"
+            if reported
+            else "requested_cli_model_only; provider did not report identity"
+        ),
+    )
+    record["adjudication"] = {
+        "file": "adjudication.json",
+        "sha256": sha256(folder / "adjudication.json"),
+        "prior_receipt": before_name,
+        "prior_receipt_sha256": correction["before_receipt_sha256"],
+    }
+    record.pop("provider_error_excerpt", None)
+    dump(receipt_path, record)
+    if sha256(folder / "answer.txt") != original_answer_hash:
+        raise ValueError("adjudication unexpectedly changed raw answer")
+    return record
+
+
 def attempt(model: str, region: str, slot: int, raw: Path, timeout: int) -> dict:
     """Execute and preserve a genuine isolated response, including every failure."""
     prompt = build_prompt(region)
@@ -649,20 +772,8 @@ def attempt(model: str, region: str, slot: int, raw: Path, timeout: int) -> dict
             failure_text,
             re.IGNORECASE,
         )
-        provider_error = returncode != 0
-        if model == MODELS[0]:
-            try:
-                provider_error = provider_error or json.loads(stdout).get(
-                    "is_error", False
-                )
-            except (ValueError, AttributeError):
-                pass
-        else:
-            provider_error = provider_error or any(
-                '"type":"error"' in line.replace(" ", "")
-                or '"type":"turn.failed"' in line.replace(" ", "")
-                for line in stdout.splitlines()
-            )
+        provider_error, warnings = provider_status(model, stdout, returncode)
+        record["provider_warnings"] = warnings
         if limit and provider_error:
             record.update(
                 status="PROVIDER_LIMIT",

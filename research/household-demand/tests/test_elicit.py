@@ -346,3 +346,43 @@ def test_deferred_model_cannot_run(
     )
     with pytest.raises(ValueError, match="deferred"):
         el.run_all([el.MODELS[0]], ["us"], raw_dir=tmp_path / "raw")
+
+
+def test_codex_nested_warning_with_completed_turn_is_success() -> None:
+    events = [
+        {"type": "thread.started", "thread_id": "test-thread"},
+        {
+            "type": "item.completed",
+            "item": {
+                "id": "item_0",
+                "type": "error",
+                "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably.",
+            },
+        },
+        {"type": "turn.started"},
+        {
+            "type": "item.completed",
+            "item": {"type": "web_search", "query": "public source"},
+        },
+        {"type": "item.completed", "item": {"type": "agent_message", "text": "answer"}},
+        {"type": "turn.completed", "usage": {"input_tokens": 10, "output_tokens": 5}},
+    ]
+    stdout = "\n".join(json.dumps(event) for event in events)
+    failed, warnings = el.provider_status(el.MODELS[1], stdout, 0)
+    assert failed is False
+    assert len(warnings) == 1
+    assert "skip_host_skill_discovery" in warnings[0]
+    assert el.provider_status(el.MODELS[1], stdout, 1)[0] is True
+    assert (
+        el.provider_status(
+            el.MODELS[1],
+            stdout + '\n{"type":"turn.failed","error":{"message":"quota"}}',
+            0,
+        )[0]
+        is True
+    )
+    assert (
+        el.provider_status(el.MODELS[1], '{"type":"error","message":"quota"}', 0)[0]
+        is True
+    )
+    assert el.provider_status(el.MODELS[1], '{"type":"turn.started"}', 0)[0] is True
