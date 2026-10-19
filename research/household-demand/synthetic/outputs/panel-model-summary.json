@@ -1,0 +1,69 @@
+{
+  "records": [],
+  "diagnostics": [
+    {
+      "country": "India",
+      "model": "claude-opus-5-5",
+      "n_accepted": 0,
+      "medians": {
+        "conversion": null,
+        "bass_p": null,
+        "bass_q": null,
+        "price_parity_year": null,
+        "ai_cost_decline": null
+      },
+      "scope_alignment": "UNMATCHED",
+      "gap_p50": null,
+      "status": "HELD_PANEL_INPUTS",
+      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+    },
+    {
+      "country": "India",
+      "model": "gpt-6-astra",
+      "n_accepted": 0,
+      "medians": {
+        "conversion": null,
+        "bass_p": null,
+        "bass_q": null,
+        "price_parity_year": null,
+        "ai_cost_decline": null
+      },
+      "scope_alignment": "UNMATCHED",
+      "gap_p50": null,
+      "status": "HELD_PANEL_INPUTS",
+      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+    },
+    {
+      "country": "Pakistan",
+      "model": "claude-opus-5-5",
+      "n_accepted": 0,
+      "medians": {
+        "conversion": null,
+        "bass_p": null,
+        "bass_q": null,
+        "price_parity_year": null,
+        "ai_cost_decline": null
+      },
+      "scope_alignment": "UNMATCHED",
+      "gap_p50": null,
+      "status": "HELD_PANEL_INPUTS",
+      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+    },
+    {
+      "country": "Pakistan",
+      "model": "gpt-6-astra",
+      "n_accepted": 0,
+      "medians": {
+        "conversion": null,
+        "bass_p": null,
+        "bass_q": null,
+        "price_parity_year": null,
+        "ai_cost_decline": null
+      },
+      "scope_alignment": "UNMATCHED",
+      "gap_p50": null,
+      "status": "HELD_PANEL_INPUTS",
+      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+country,year,scenario,p10,p50,p90,paired_delta_p10,paired_delta_p50,paired_delta_p90,unit,status,n_draws,seed,ceiling_binding_share,scope,assumption
+Pakistan,2026,main,4.409127,5.727300,7.112102,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2030,main,18.815675,24.461218,30.348973,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2035,main,38.361773,49.938502,62.223627,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2026,us_stress,0.041917,0.054449,0.067614,-7.044488,-5.672851,-4.367210,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2030,us_stress,0.951480,1.236966,1.534700,-28.814273,-23.224252,-17.864196,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2035,us_stress,21.585060,28.098950,35.011434,-27.212192,-21.839552,-16.776713,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2026,ai_2pct,4.409127,5.727300,7.112102,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2030,ai_2pct,20.471467,26.587657,33.038201,1.587975,2.100067,2.731426,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2035,ai_2pct,46.373009,60.302118,75.260200,7.685756,10.207464,13.338515,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2026,ai_5pct,4.409127,5.727300,7.112102,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2030,ai_5pct,23.265169,30.190100,37.650776,4.299230,5.698854,7.437826,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2035,ai_5pct,61.802394,80.353030,101.291764,22.647296,30.245318,39.855266,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+Pakistan,2026,parity_2030,4.409127,5.727300,7.112102,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+Pakistan,2030,parity_2030,87.050436,100.603890,116.636211,67.026027,76.359870,87.126028,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+Pakistan,2035,parity_2030,152.375149,179.922093,213.163515,112.415003,130.269459,152.401529,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+Pakistan,2026,literal_signed,4.409127,5.727300,7.112102,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2030,literal_signed,18.815675,24.461218,30.348973,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+Pakistan,2035,literal_signed,38.361773,49.938502,62.223627,0.000000,0.000000,0.000000,"million USD, 2025 prices",SYNTHETIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
