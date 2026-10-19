@@ -536,3 +536,166 @@ def test_report_distinguishes_unretained_lookup_hashes_from_retained_bytes():
     gfi_note = next(line for line in report.splitlines() if line.startswith("[^gfi]:"))
     assert "retained capture reviewed locally" not in gfi_note
     assert "contents were not reverified" in gfi_note
+
+
+def us_panel_fixture(count=3):
+    """Build source-bound US-only records with distinct original measures."""
+    measures = ("headline", "categories.cultivated", "categories.fermentation")
+    records = []
+    for slot in range(1, count + 1):
+        values = {
+            measure: {
+                str(year): {
+                    "p10": 50.0,
+                    "p50": float(100 * (i + 1) + slot),
+                    "p90": 500.0,
+                }
+                for year in bo.YEARS
+            }
+            for i, measure in enumerate(measures)
+        }
+        records.append(
+            {
+                "region": "us",
+                "model": bo.MODELS[1],
+                "slot": slot,
+                "attempt_id": f"test-slot-{slot}",
+                "answer_sha256": f"{slot:064x}",
+                "prompt_sha256": "b" * 64,
+                "headline": values["headline"],
+                "categories": {
+                    "cultivated": values["categories.cultivated"],
+                    "fermentation": values["categories.fermentation"],
+                },
+            }
+        )
+    rows = []
+    for index, measure in enumerate(measures):
+        qs = np.quantile(
+            [100 * (index + 1) + slot for slot in range(1, count + 1)], [0.1, 0.5, 0.9]
+        )
+        for year in bo.YEARS:
+            rows.append(
+                {
+                    "region": "us",
+                    "model": bo.MODELS[1],
+                    "measure": measure,
+                    "year": year,
+                    "unit": "million USD_2025",
+                    "n_accepted": count,
+                    "n_nonmissing": count,
+                    **dict(zip(bo.QUANTILES, qs)),
+                    "status": "COMPLETE_PANEL" if count == 10 else "PARTIAL_PANEL",
+                }
+            )
+    return pd.DataFrame(rows), {"records": records}
+
+
+def test_us_calibration_preserves_original_measures_years_scopes_and_hold():
+    panel, accepted = us_panel_fixture()
+    table = bo.us_calibration_table(
+        panel=panel, accepted_runs=accepted, models=(bo.MODELS[1],)
+    )
+    assert len(table) == 9
+    assert set(table.measure) == {
+        "headline",
+        "categories.cultivated",
+        "categories.fermentation",
+    }
+    assert set(table.year) == set(bo.YEARS)
+    assert set(table.status) == {"PARTIAL_PANEL"}
+    assert table.n_accepted.eq(3).all() and table.n_nonmissing.eq(3).all()
+    assert table.public_reporting.eq(
+        "HELD_AUTHOR_NOTIFICATION_AND_SCHOLARLY_REVIEW"
+    ).all()
+    assert table.loc[table.measure.eq("headline"), "channel"].eq("retail").all()
+    assert (
+        table.loc[table.measure.ne("headline"), "channel"]
+        .eq("retail and foodservice")
+        .all()
+    )
+    assert (
+        table.loc[table.measure.eq("categories.cultivated"), "scope"]
+        .str.contains("pet food")
+        .all()
+    )
+    assert (
+        table.loc[table.measure.eq("categories.fermentation"), "scope"]
+        .str.contains("long-established")
+        .all()
+    )
+    assert not any("anna" in c or "error" in c for c in table.columns)
+    assert set(bo.comparison_table().country) == {"India", "Pakistan"}
+    assert len(table.attrs["accepted_record_bindings"][bo.MODELS[1]]) == 3
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        "taint",
+        "unknown",
+        "unit",
+        "year",
+        "coverage",
+        "record_mismatch",
+        "missing_hash",
+        "record_taint",
+        "export_taint",
+        "export_unknown",
+        "export_null",
+        "quantile_mismatch",
+    ],
+)
+def test_us_calibration_holds_untrusted_or_unbound_summary(mutation):
+    panel, accepted = us_panel_fixture()
+    target = panel.measure.eq("headline") & panel.year.eq(2030)
+    if mutation == "taint":
+        panel.loc[target, "status"] = "SYNTHETIC"
+    elif mutation == "unknown":
+        panel.loc[target, "status"] = "UNKNOWN"
+    elif mutation == "unit":
+        panel.loc[target, "unit"] = "billion USD"
+    elif mutation == "year":
+        panel.loc[target, "year"] = 2031
+    elif mutation == "coverage":
+        panel.loc[target, "n_nonmissing"] = 2
+    elif mutation == "record_mismatch":
+        accepted["records"].pop()
+    elif mutation == "missing_hash":
+        accepted["records"][0]["answer_sha256"] = ""
+    elif mutation == "record_taint":
+        accepted["records"][0]["status"] = "SYNTHETIC"
+    elif mutation.startswith("export_"):
+        accepted["status"] = {
+            "export_taint": "SYNTHETIC",
+            "export_unknown": "UNKNOWN",
+            "export_null": None,
+        }[mutation]
+    else:
+        panel.loc[target, "p50"] = 9999.0
+    table = bo.us_calibration_table(
+        panel=panel, accepted_runs=accepted, models=(bo.MODELS[1],)
+    )
+    row = table[table.measure.eq("headline") & table.year.eq(2030)].iloc[0]
+    assert row[list(bo.QUANTILES)].isna().all()
+    assert row.status.startswith("HELD")
+    assert row.withheld_reason
+
+
+def test_us_explicit_partial_is_not_upgraded_and_missing_model_stays_null():
+    panel, accepted = us_panel_fixture(10)
+    panel["status"] = "PARTIAL_PANEL"
+    table = bo.us_calibration_table(
+        panel=panel, accepted_runs=accepted, models=bo.MODELS
+    )
+    assert (
+        table.loc[table.source_model.eq(bo.MODELS[1]), "status"]
+        .eq("PARTIAL_PANEL")
+        .all()
+    )
+    assert (
+        table.loc[table.source_model.eq(bo.MODELS[0]), list(bo.QUANTILES)]
+        .isna()
+        .all()
+        .all()
+    )

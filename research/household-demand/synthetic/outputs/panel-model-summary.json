@@ -1,5 +1,42 @@
 {
-  "records": [],
+  "records": [
+    {
+      "country": "India",
+      "year": 2026,
+      "model": "gpt-6-astra",
+      "p10": 131.90815707236825,
+      "p50": 137.16330365655793,
+      "p90": 142.38011303713202,
+      "status": "DIAGNOSTIC",
+      "n_accepted": 1,
+      "panel_coverage_status": "PARTIAL_PANEL",
+      "source_sha256": "f810c26a103575a36d64f79f647c31af2da2a287ce08a65d6703b61b2ffbde3a"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "model": "gpt-6-astra",
+      "p10": 393.48075602494856,
+      "p50": 409.09933553080606,
+      "p90": 424.92825797117945,
+      "status": "DIAGNOSTIC",
+      "n_accepted": 1,
+      "panel_coverage_status": "PARTIAL_PANEL",
+      "source_sha256": "fd23fe81594b3e3de77f5214aa60606915dcd91b4adb21ff6a031501343878ea"
+    },
+    {
+      "country": "India",
+      "year": 2035,
+      "model": "gpt-6-astra",
+      "p10": 1004.754867253034,
+      "p50": 1054.499874545371,
+      "p90": 1107.7204414776231,
+      "status": "DIAGNOSTIC",
+      "n_accepted": 1,
+      "panel_coverage_status": "PARTIAL_PANEL",
+      "source_sha256": "4ba99503f5e07f9bba20f19bab61a3685dfb2f3ce264054e9c02bb201fd48138"
+    }
+  ],
   "diagnostics": [
     {
       "country": "India",
@@ -20,18 +57,18 @@
     {
       "country": "India",
       "model": "gpt-6-astra",
-      "n_accepted": 0,
+      "n_accepted": 1,
       "medians": {
-        "conversion": null,
-        "bass_p": null,
-        "bass_q": null,
-        "price_parity_year": null,
-        "ai_cost_decline": null
+        "conversion": 0.15,
+        "bass_p": 0.012,
+        "bass_q": 0.24,
+        "price_parity_year": 2035.0,
+        "ai_cost_decline": 0.008
       },
       "scope_alignment": "UNMATCHED",
       "gap_p50": null,
-      "status": "HELD_PANEL_INPUTS",
-      "reason": "all five genuine finite input medians required; unresolved parity is not assigned a date"
+      "status": "PARTIAL_PANEL",
+      "reason": "computed conditional scenario; dairy scope mismatch holds headline gap"
     },
     {
       "country": "Pakistan",

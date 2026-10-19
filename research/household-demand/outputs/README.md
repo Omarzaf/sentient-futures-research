@@ -10,6 +10,7 @@ Start with [REPORT.md](REPORT.md), a standalone diagnostic paper with methods, s
 | `scenario-india-*.json` | Full-precision aggregates and source provenance for additional AI/parity cases. |
 | `sobol.csv` | Actual India country-year indices at base8192 and16384; unclipped sampling error and fixed factors retained. |
 | `sobol-diagnostics.json` | Saltelli estimator settings, source/household hashes, split-half differences and n/2n rank diagnostics. No convergence certificate. |
+| `us-calibration.csv`, `us-calibration-metadata.json` | Separate original US headline/cultivated/fermentation comparison, with channel scopes, per-model coverage, recorded answer/prompt digests and an author-notification hold. Aggregate records are source-hashed and their medians recomputed; raw response bytes are verified separately by the runner/reviewer. Never added to target-country totals. |
 | `panel-model-summary.json` | Genuine rerun summaries or explicit missing/unsupported-input holds, with per-model coverage. |
 | `holdout.csv`, `holdout-summary.json` | Real observed-item demographic spending-transfer validation; not full-basket or adoption validation. |
 | `simulation-india*.json` | Reviewed main, US-stress and literal-sign Task8 outputs, preserved by the Task12 builder. |

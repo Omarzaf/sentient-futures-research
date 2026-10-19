@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 5 accepted runs with 25 pending; partial model responses cannot establish a completed panel.
+This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 11 accepted runs with 19 pending; partial model responses cannot establish a completed panel.
 
 ## 1. Research question, estimand and comparison
 
@@ -165,7 +165,7 @@ These intervals are empirical state-transfer predictive intervals, not survey-de
 
 ## 6. Elicitation and model-from-input comparison
 
-The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 5 accepted, 25 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
+The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 11 accepted, 19 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
 
 The exact US questionnaire is hash-bound and stored separately because public redistribution rights are unestablished. India and Pakistan adaptations preserve explicit unresolved forecast questions and resolvable proxy questions. Project domains and project-derived estimate contamination are screened. The original US cultivated/fermentation and blind-spot questions remain intact. Public reporting remains held pending scholarly review; Anna must also be notified before the US comparison is reported outside this local draft.
 
@@ -173,16 +173,16 @@ The exact US questionnaire is hash-bound and stored separately because public re
 | --- | --- | --- | --- | --- | --- | --- |
 | India | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
 | India | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2026 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| India | 2026 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
+| India | 2026 | panel_headline | gpt-6-astra | 1.000 | 80.000 | PARTIAL_PANEL |
+| India | 2026 | model_from_panel_inputs | gpt-6-astra | 1.000 | 137.163 | DIAGNOSTIC |
 | India | 2030 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
 | India | 2030 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2030 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| India | 2030 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
+| India | 2030 | panel_headline | gpt-6-astra | 1.000 | 165.000 | PARTIAL_PANEL |
+| India | 2030 | model_from_panel_inputs | gpt-6-astra | 1.000 | 409.099 | DIAGNOSTIC |
 | India | 2035 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
 | India | 2035 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
-| India | 2035 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
-| India | 2035 | model_from_panel_inputs | gpt-6-astra | 0.000 | held | HELD_PANEL_INPUTS |
+| India | 2035 | panel_headline | gpt-6-astra | 1.000 | 420.000 | PARTIAL_PANEL |
+| India | 2035 | model_from_panel_inputs | gpt-6-astra | 1.000 | 1,054.500 | DIAGNOSTIC |
 | Pakistan | 2026 | panel_headline | claude-opus-5-5 | 0.000 | held | HELD_PANEL |
 | Pakistan | 2026 | model_from_panel_inputs | claude-opus-5-5 | 0.000 | held | HELD_PANEL_INPUTS |
 | Pakistan | 2026 | panel_headline | gpt-6-astra | 0.000 | held | HELD_PANEL |
@@ -199,11 +199,31 @@ The exact US questionnaire is hash-bound and stored separately because public re
 Panel headline p10/p50/p90 summarize accepted runs' point medians. They are not pooled respondent predictive bounds. For each model separately, the adapter takes its median conversion, Bass p, Bass q, price-parity year and annual AI decline, then genuinely reruns the same evaluator with 10,000 paired draws. Conversion changes the meat and vegetarian channels; observed US-milk conversion remains its category-specific anchor. Bass and parity affect each modelled pair. The elicited AI input is a manufacturing-cost decline, while the evaluator changes retail price; this rerun explicitly assumes full retail pass-through as an extra sensitivity assumption, not a panel-endorsed or observed relationship. US-intention sampling is disabled for these reruns so the supplied fixed conversion median is not contaminated by the empirical US conversion denominator. The resulting Monte Carlo interval is conditional on fixed panel medians and is not the panel's across-run spread. An unresolved parity answer stays null and holds that rerun; a date is never invented.
 
 - India, claude-opus-5-5: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
-- India, gpt-6-astra: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
+- India, gpt-6-astra: PARTIAL_PANEL; accepted runs 1; computed conditional scenario; dairy scope mismatch holds headline gap.
 - Pakistan, claude-opus-5-5: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
 - Pakistan, gpt-6-astra: HELD_PANEL_INPUTS; accepted runs 0; all five genuine finite input medians required; unresolved parity is not assigned a date.
 
 Only explicit COMPLETE_PANEL or PARTIAL_PANEL producer statuses may supply headline or input values. Placeholder-derived, absent or unknown source-status labels are held before publication and before any model evaluation; rejected input medians are not copied to the public summary. Coverage can downgrade an incomplete count, but never upgrades an explicitly partial panel. The elicited dairy category includes other dairy alternatives, while the household engine covers liquid milk. Therefore even a completed panel does not yield a matched-scope dollar gap. Raw headline and conditional rerun values can be inspected as separately labelled local diagnostics; the numerical gap remains null. US serves calibration/comparison only and does not become a target-market row.
+
+### US questionnaire calibration appendix: local comparison only
+
+The original US instrument is reported separately from the India/Pakistan target market estimates. This appendix shows its plant-based retail headline and its cultivated and fermentation questions for each requested year, keeping each original channel and scope. Values are million USD at 2025 prices. Coverage remains per model; Claude is deferred in the current Astra-only phase. Empty cells are held, not zero. Public reporting requires author notification to Anna and human scholarly review; neither notification nor approval is established here.
+
+| source_model | label | year | channel | n_accepted | n_nonmissing | p10 | p50 | p90 | status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| gpt-6-astra | Plant-based retail | 2026 | retail | 10 | 10 | 7,550.000 | 7,600.000 | 7,650.000 | COMPLETE_PANEL |
+| gpt-6-astra | Plant-based retail | 2030 | retail | 10 | 10 | 8,200.000 | 8,300.000 | 8,500.000 | COMPLETE_PANEL |
+| gpt-6-astra | Plant-based retail | 2035 | retail | 10 | 10 | 10,500.000 | 10,650.000 | 11,000.000 | COMPLETE_PANEL |
+| gpt-6-astra | Cultivated meat | 2026 | retail and foodservice | 10 | 10 | 2.000 | 3.000 | 3.000 | COMPLETE_PANEL |
+| gpt-6-astra | Cultivated meat | 2030 | retail and foodservice | 10 | 10 | 89.000 | 100.000 | 100.000 | COMPLETE_PANEL |
+| gpt-6-astra | Cultivated meat | 2035 | retail and foodservice | 10 | 10 | 700.000 | 1,000.000 | 1,010.000 | COMPLETE_PANEL |
+| gpt-6-astra | Fermentation-derived proteins | 2026 | retail and foodservice | 10 | 10 | 1,480.000 | 1,650.000 | 1,910.000 | COMPLETE_PANEL |
+| gpt-6-astra | Fermentation-derived proteins | 2030 | retail and foodservice | 10 | 10 | 2,580.000 | 2,950.000 | 3,410.000 | COMPLETE_PANEL |
+| gpt-6-astra | Fermentation-derived proteins | 2035 | retail and foodservice | 10 | 10 | 5,180.000 | 6,000.000 | 6,600.000 | COMPLETE_PANEL |
+
+The plant-based headline concerns finished retail products marketed as animal-food replacements or plant-protein foods, including traditional plant-protein products. It excludes standalone upstream ingredients and unrelated whole foods. Cultivated consumer sales cover retail and foodservice and include cultivated pet food and hybrids with plant ingredients. Fermentation consumer sales also span retail and foodservice; they include functional microbial-protein hybrids and fermented dairy alternatives, while excluding long-established fermented foods, minor additives without the replacement function, ingredient-company revenue and health-purpose supplements. The original exclusions and category definitions remain in the separately supplied instrument; this appendix paraphrases scope without redistributing its text. These measures can overlap and use different channels. They are not added into a combined market total.
+
+The table's percentiles are the empirical 10th/50th/90th percentiles of accepted runs' point medians, not respondent predictive intervals. The builder recomputes the summary from the corresponding accepted numeric records, hashes the aggregate source files, and retains the recorded answer/prompt digest fields in `us-calibration-metadata.json`. It checks those fields' presence and format; it does not reopen or rehash private raw response or prompt bytes. Raw byte-integrity verification belongs to the elicitation runner and final numerical reviewer. The original rationale and blind-spots questions remain in the instrument and local raw responses. No Anna forecast values were supplied for this comparison, so there is no Anna forecast column or forecaster-error comparison. Future outcomes remain unresolved; “calibration” describes the registered questionnaire comparison exercise, not demonstrated predictive accuracy.
 
 ## 7. Tracked methods deviations and interpretation
 

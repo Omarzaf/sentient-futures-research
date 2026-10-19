@@ -1,0 +1,239 @@
+{
+  "status": "DIAGNOSTIC",
+  "diffusion": "analog",
+  "price_basis": "USD_2025",
+  "ceiling_binding_share": 0.0,
+  "quantiles": [
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "value_usd_2025",
+      "p10": 393480756.02494854,
+      "p50": 409099335.53080606,
+      "p90": 424928257.9711794,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "volume_t",
+      "p10": 225142.10957281443,
+      "p50": 235475.46439380545,
+      "p90": 245697.8130872784,
+      "valid_draws": 10000,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "metric": "share",
+      "p10": null,
+      "p50": null,
+      "p90": null,
+      "valid_draws": 0,
+      "total_draws": 10000,
+      "status": "DIAGNOSTIC"
+    }
+  ],
+  "component_quantiles": [
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "value_usd_2025",
+      "p10": 256232999.29160714,
+      "p50": 268985922.4660792,
+      "p90": 281632124.53294414,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "dairy",
+      "metric": "volume_t",
+      "p10": 200304.29681763717,
+      "p50": 210273.6033312172,
+      "p90": 220159.4830556095,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "value_usd_2025",
+      "p10": 94332050.3290767,
+      "p50": 99492921.69840546,
+      "p90": 104986100.5685851,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "meat",
+      "metric": "volume_t",
+      "p10": 16474.23330080027,
+      "p50": 17375.532474062657,
+      "p90": 18334.86612529436,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "vegetarian",
+      "metric": "value_usd_2025",
+      "p10": 38447670.884687655,
+      "p50": 40573249.744158156,
+      "p90": 42791394.17937201,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "year": 2030,
+      "pair": "vegetarian",
+      "metric": "volume_t",
+      "p10": 7399.029060500232,
+      "p50": 7808.084261757451,
+      "p90": 8234.953165878,
+      "status": "DIAGNOSTIC"
+    }
+  ],
+  "metadata": {
+    "us_intent": 0.329,
+    "us_intent_n": null,
+    "us_stress": {
+      "launch_year": 2006,
+      "p": 0.0001347684660720486,
+      "q": 0.71881,
+      "m": 8215793868.030661,
+      "sse": 6.692082815392975e+17,
+      "r_squared": 0.9542890518074251,
+      "n_points": 8,
+      "candidate_launch_years": [
+        1990,
+        2017
+      ]
+    },
+    "source_hashes": {
+      "us_calibration": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+      "drivers": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+      "prices_summary": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+      "diffusion": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+      "elasticities_national": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+      "segments_summary": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+      "protocol": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+      "benchmark_annual": "cac915045f3705af9772a6dac95f5495a7515fc4941dba65f89a849dee5054db",
+      "wup": "80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75",
+      "official_fx_2025": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439",
+      "proxy_inputs": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+      "poultry_supply": "9686f4145b1e23464753fcedec56d4f9045f7fec99f1e579815e2388eb3714c7",
+      "simulator": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+      "elasticity_estimator": "b1be156502ee0824714443cac41b42afb6ac32532b1b209afa0751507d6d6b45",
+      "segmentation": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
+    },
+    "household_provenance": {
+      "India": {
+        "households_sha256": "f9311508b5548bb038ce52f326c4230696ae3e90331c1a34995b4b19c8013c2c",
+        "bootstrap_draws": 500,
+        "bootstrap_source": "actual re-estimated PSU-bootstrap draws with source/code-hashed external cache"
+      }
+    },
+    "fx_provenance": {
+      "source": "World Bank WDI PA.NUS.FCRF",
+      "capture_last_updated": "2026-10-08",
+      "year": 2025,
+      "unit": "local currency per US dollar, period average",
+      "values": {
+        "India": 87.1584483507393,
+        "Pakistan": 281.143001173202
+      },
+      "locator": "JSON [1], countryiso3code IND or PAK, date 2025",
+      "override_countries": []
+    },
+    "environment": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6"
+    },
+    "coverage": {
+      "India": {
+        "households": 261953,
+        "protein_complete_households": 0,
+        "protein_required_groups": [
+          "value_month_chicken",
+          "value_month_mutton",
+          "value_month_beef_buffalo",
+          "value_month_fish",
+          "value_month_pork",
+          "value_month_eggs",
+          "value_month_milk",
+          "value_month_paneer",
+          "value_month_pulses",
+          "value_month_soya"
+        ],
+        "protein_denominator_scope": "Country-mapped animal and legume food groups only; no unmapped item or absent item is recoded as zero.",
+        "protein_spending_note": "Share is missing unless every household has all specified observed protein-food groups; no missing item is zero-filled.",
+        "survey_mean_household_size": 4.174714434820332,
+        "survey_urban_share": 0.36657416666666665,
+        "addressable_shares": {
+          "meat": 0.22966360517242523,
+          "vegetarian": 0.10037053117825984,
+          "dairy": 0.33003413635068507
+        },
+        "poultry_supply_base_year": 2023,
+        "poultry_supply_kg_per_capita": 3.52,
+        "poultry_projection": "latest observed per-capita supply held fixed; population changes",
+        "protein_supply_context_g_per_capita_day": 74.57,
+        "protein_supply_context_year": 2023,
+        "exchange_rate_local_per_usd_2025": 87.1584483507393,
+        "nfhs_calibration": "NOT_DONE"
+      }
+    },
+    "review_status": "human scholarly review pending; diagnostic only",
+    "vegetarian_transfer_assumption": "R48: negative observed-expenditure-weighted chicken-equation cross-price response to paneer, soya and pulses; US chicken premium retained as calibration reference",
+    "residual_note": "Egg and fermentation residual must be supplied from disaggregated proxy evidence; absent stays null",
+    "scope": "Plant-based meat and plant-based liquid milk only; other dairy alternatives are not calibrated by the available US milk category.",
+    "volume_unit_convention": "Product tonnes; Task 7 treats liquid packs as 1 ml = 1 g, hence 1 litre = 1 kg for plant milk. This is an assumed density, not measured product mass or protein tonnes. Local conventional milk references are per litre, so the dimensionless dairy ratio uses the same convention.",
+    "stress_clock": "US fitted p and q shape transferred to each country launch clock; fitted US calendar launch date is not used as a South Asian launch.",
+    "timing_caveat": "Bryant 2019 intent and GFI 2025 penetration are from different periods; the GFI meat category includes seafood.",
+    "income_note": "GDP per capita at market USD2025 used as income proxy; US2025 comparison held fixed",
+    "stratum_note": "Pakistan official strata unresolved; estimator clusters by province without using invented stratum values",
+    "panel_input_medians": {
+      "conversion": 0.15,
+      "bass_p": 0.012,
+      "bass_q": 0.24,
+      "price_parity_year": 2035.0,
+      "ai_cost_decline": 0.008
+    },
+    "panel_conversion_uncertainty": "fixed per-model median; US intention sampling disabled so it cancels from conversion",
+    "panel_ai_pass_through_assumption": "illustrative full manufacturing-cost to retail-price pass-through; not elicited or empirically identified",
+    "panel_mapping_note": "conversion applies to meat and vegetarian pairs; dairy conversion stays at its observed US-milk calibration; Bass shape, parity and AI apply to each modelled pair",
+    "positive_own_price_capped": 9979,
+    "own_price_evaluations": 20000,
+    "ceiling_displacement_assumption": "One kg of plant-based meat product displaces one kg of chicken product; no protein-equivalence conversion is claimed.",
+    "own_price_cap_note": "R25 deviation: own-price draws above zero capped at zero, no replacement literature value",
+    "bootstrap_recentering": "R24 draw minus bootstrap median plus point estimate",
+    "vegetarian_mapping": "inverse_premium",
+    "driver_distribution": "bounded piecewise-linear quantile interpolation at u=0,0.5,1; band endpoints are not interpreted as calibrated tail quantiles",
+    "beta_numerics": "Beta(mean*n,(1-mean)*n) inverse CDF; 65537 point trapezoid grid",
+    "fixed_factors": [
+      "bass_p",
+      "bass_q"
+    ],
+    "ceiling_binding_denominator": 10000,
+    "adoption_clipped_to_probability": true,
+    "ai_decline": 0.008,
+    "parity_year": 2035.0,
+    "seed": 20261018,
+    "draws": 10000,
+    "panel_model": "gpt-6-astra",
+    "panel_source_hashes": {
+      "results.csv": "c66b8919707b3ec1af4e52ddec611e51297339a42260d582d396c13b8d1f3e51",
+      "accepted-runs.json": "c2ae852036cebfb9ee10dfe02746d4db638cb5298b63da5986f22cbe12137eed",
+      "scope.json": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04"
+    },
+    "panel_n_accepted": 1,
+    "panel_completion": "PARTIAL_PANEL"
+  }
+}

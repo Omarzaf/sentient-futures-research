@@ -27,6 +27,7 @@ __all__ = [
     "comparison_table",
     "model_from_panel_inputs",
     "panel_inputs",
+    "us_calibration_table",
     "write_csv",
 ]
 HERE = Path(__file__).resolve().parent
@@ -144,6 +145,153 @@ def _panel_status(row: dict | None) -> str:
         if count == 10 and status == "COMPLETE_PANEL"
         else "PARTIAL_PANEL"
     )
+
+
+US_MEASURES = {
+    "headline": {
+        "label": "Plant-based retail",
+        "channel": "retail",
+        "scope": "Final plant-derived animal-food replacements and marketed plant-protein products, including traditional plant-protein foods; excludes standalone upstream ingredients and unrelated whole foods.",
+    },
+    "categories.cultivated": {
+        "label": "Cultivated meat",
+        "channel": "retail and foodservice",
+        "scope": "Finished cell-cultured meat products, including seafood, cultivated pet food and cell/plant hybrids; consumer products rather than ingredient-company revenue.",
+    },
+    "categories.fermentation": {
+        "label": "Fermentation-derived proteins",
+        "channel": "retail and foodservice",
+        "scope": "Finished microbial-protein animal-food replacements and functional hybrids, including fermented dairy alternatives; excludes long-established fermented foods, nonfunctional minor additives, upstream ingredient revenue and health-purpose supplements.",
+    },
+}
+
+
+def us_calibration_table(
+    *,
+    panel: pd.DataFrame | None = None,
+    accepted_runs: dict | None = None,
+    models: tuple[str, ...] | None = None,
+) -> pd.DataFrame:
+    """Keep the original US measures separate and bind summaries to accepted records."""
+    if panel is None:
+        path = HERE / "elicitation/results.csv"
+        panel = pd.read_csv(path) if path.exists() else pd.DataFrame()
+    if accepted_runs is None:
+        accepted_runs = read_json(
+            HERE / "elicitation/accepted-runs.json", {"records": []}
+        )
+    if models is None:
+        execution = read_json(HERE / "elicitation/execution-scope.json", {})
+        models = tuple(execution.get("authorized_models", ["gpt-6-astra"]))
+    if (
+        not models
+        or len(set(models)) != len(models)
+        or any(model not in MODELS for model in models)
+    ):
+        raise ValueError("US calibration requires distinct registered models")
+    rows, bindings = [], {}
+    for model in models:
+        records = [
+            r
+            for r in accepted_runs.get("records", [])
+            if r.get("region") == "us" and r.get("model") == model
+        ]
+        slots = [r.get("slot") for r in records]
+        digest_fields_ok = all(
+            isinstance(r.get(key), str)
+            and len(r[key]) == 64
+            and all(c in "0123456789abcdef" for c in r[key])
+            for r in records
+            for key in ("answer_sha256", "prompt_sha256")
+        )
+        records_ok = (
+            bool(records)
+            and accepted_runs.get("status", "ACCEPTED") == "ACCEPTED"
+            and len(set(slots)) == len(slots)
+            and all(
+                isinstance(slot, int) and not isinstance(slot, bool) and 1 <= slot <= 10
+                for slot in slots
+            )
+            and digest_fields_ok
+            and all(r.get("status", "ACCEPTED") == "ACCEPTED" for r in records)
+        )
+        bindings[model] = (
+            [
+                {
+                    key: r.get(key)
+                    for key in ("slot", "attempt_id", "answer_sha256", "prompt_sha256")
+                }
+                for r in records
+            ]
+            if records_ok
+            else []
+        )
+        for measure, scope in US_MEASURES.items():
+            for year in YEARS:
+                row = _panel_row(panel, "us", model, measure, year)
+                count = int((row or {}).get("n_accepted", 0))
+                nonmissing = int((row or {}).get("n_nonmissing", 0))
+                coverage = _panel_status(row)
+                reason = ""
+                if row is None:
+                    reason = "US summary measure/year unavailable"
+                elif coverage not in PANEL_STATUSES:
+                    reason = "US panel source status untrusted or no accepted coverage"
+                elif row.get("unit") not in (UNIT, "million USD_2025"):
+                    reason = "US summary unit does not match constant2025 million USD"
+                elif accepted_runs.get("status", "ACCEPTED") != "ACCEPTED":
+                    reason = (
+                        "US accepted-record export has an untrusted explicit status"
+                    )
+                elif nonmissing != count or not records_ok or count != len(records):
+                    reason = "US accepted-record count, coverage or recorded digest fields incomplete"
+                else:
+                    try:
+                        medians = np.array(
+                            [
+                                (
+                                    r["headline"]
+                                    if measure == "headline"
+                                    else r["categories"][measure.split(".")[1]]
+                                )[str(year)]["p50"]
+                                for r in records
+                            ],
+                            dtype=float,
+                        )
+                        supplied = np.array([row[q] for q in QUANTILES], dtype=float)
+                        expected = np.quantile(medians, [0.1, 0.5, 0.9])
+                        if (
+                            not np.isfinite(medians).all()
+                            or not np.isfinite(supplied).all()
+                            or (medians < 0).any()
+                            or not np.allclose(supplied, expected, atol=5e-7, rtol=0)
+                        ):
+                            reason = "US summary does not reproduce accepted run medians at six decimals"
+                    except (KeyError, TypeError, ValueError):
+                        reason = "US accepted-record measure/year values missing"
+                rows.append(
+                    {
+                        "region": "US",
+                        "source_model": model,
+                        "measure": measure,
+                        "label": scope["label"],
+                        "year": year,
+                        "channel": scope["channel"],
+                        "scope": scope["scope"],
+                        "n_accepted": count,
+                        "n_nonmissing": nonmissing,
+                        **{q: row[q] if not reason else None for q in QUANTILES},
+                        "unit": UNIT,
+                        "status": coverage if not reason else "HELD_US_CALIBRATION",
+                        "public_reporting": "HELD_AUTHOR_NOTIFICATION_AND_SCHOLARLY_REVIEW",
+                        "withheld_reason": reason,
+                        "spread_definition": "empirical across-run point-median percentiles; not predictive intervals or accuracy scores",
+                        "source_ids": '["elicitation_results", "elicitation_accepted_runs", "elicitation_scope", "elicitation_instrument_provenance"]',
+                    }
+                )
+    table = pd.DataFrame(rows)
+    table.attrs["accepted_record_bindings"] = bindings
+    return table
 
 
 def comparison_table(
@@ -760,6 +908,7 @@ def source_hashes() -> dict:
         HERE / "elicitation/accepted-runs.json",
         HERE / "elicitation/completion.json",
         HERE / "elicitation/scope.json",
+        HERE / "elicitation/instrument-provenance.json",
         HERE / "elicitation/execution-scope.json",
     ]
     return {str(p.relative_to(sm.LIBRARY_ROOT)): sha256(p) for p in paths if p.exists()}
@@ -790,8 +939,11 @@ def write_report(
     sobol: pd.DataFrame,
     sobol_details: dict,
     panel_diagnostics: list,
+    us_calibration: pd.DataFrame | None = None,
 ) -> None:
     """Write a standalone methods/results paper from current computed aggregates."""
+    if us_calibration is None:
+        us_calibration = us_calibration_table()
     holdout = read_json(OUT / "holdout-summary.json")
     main = read_json(OUT / "simulation-india.json")
     panel_completion = read_json(HERE / "elicitation/completion.json", {})
@@ -935,6 +1087,16 @@ Panel headline p10/p50/p90 summarize accepted runs' point medians. They are not 
 
 Only explicit COMPLETE_PANEL or PARTIAL_PANEL producer statuses may supply headline or input values. Placeholder-derived, absent or unknown source-status labels are held before publication and before any model evaluation; rejected input medians are not copied to the public summary. Coverage can downgrade an incomplete count, but never upgrades an explicitly partial panel. The elicited dairy category includes other dairy alternatives, while the household engine covers liquid milk. Therefore even a completed panel does not yield a matched-scope dollar gap. Raw headline and conditional rerun values can be inspected as separately labelled local diagnostics; the numerical gap remains null. US serves calibration/comparison only and does not become a target-market row.
 
+### US questionnaire calibration appendix: local comparison only
+
+The original US instrument is reported separately from the India/Pakistan target market estimates. This appendix shows its plant-based retail headline and its cultivated and fermentation questions for each requested year, keeping each original channel and scope. Values are million USD at 2025 prices. Coverage remains per model; Claude is deferred in the current Astra-only phase. Empty cells are held, not zero. Public reporting requires author notification to Anna and human scholarly review; neither notification nor approval is established here.
+
+{markdown_table(us_calibration, ['source_model', 'label', 'year', 'channel', 'n_accepted', 'n_nonmissing', 'p10', 'p50', 'p90', 'status'])}
+
+The plant-based headline concerns finished retail products marketed as animal-food replacements or plant-protein foods, including traditional plant-protein products. It excludes standalone upstream ingredients and unrelated whole foods. Cultivated consumer sales cover retail and foodservice and include cultivated pet food and hybrids with plant ingredients. Fermentation consumer sales also span retail and foodservice; they include functional microbial-protein hybrids and fermented dairy alternatives, while excluding long-established fermented foods, minor additives without the replacement function, ingredient-company revenue and health-purpose supplements. The original exclusions and category definitions remain in the separately supplied instrument; this appendix paraphrases scope without redistributing its text. These measures can overlap and use different channels. They are not added into a combined market total.
+
+The table's percentiles are the empirical 10th/50th/90th percentiles of accepted runs' point medians, not respondent predictive intervals. The builder recomputes the summary from the corresponding accepted numeric records, hashes the aggregate source files, and retains the recorded answer/prompt digest fields in `us-calibration-metadata.json`. It checks those fields' presence and format; it does not reopen or rehash private raw response or prompt bytes. Raw byte-integrity verification belongs to the elicitation runner and final numerical reviewer. The original rationale and blind-spots questions remain in the instrument and local raw responses. No Anna forecast values were supplied for this comparison, so there is no Anna forecast column or forecaster-error comparison. Future outcomes remain unresolved; “calibration” describes the registered questionnaire comparison exercise, not demonstrated predictive accuracy.
+
 ## 7. Tracked methods deviations and interpretation
 
 The frozen registration predates implementation rulings; it is preserved rather than silently rewritten. The controller ledger is not distributed with the repository, so consequential decisions are recorded here. R24 recenters bootstrap coefficients; R25 caps positive own-price draws; R26 restricts interpretation to purchasers; R27 collapses singleton design strata into the stated pooled strata; R28 uses leave-one-out cell prices; R29 records attenuation. R30-R33 define an India vegetarian addressable segment, keep no-food households unknown, and leave NFHS calibration unused until a valid crosswalk and approved data exist. R34-R39 specify category-specific US calibration and food-reporting exclusions, and requested a packaged-food crosswalk. R40 holds that R38 crosswalk unresolved; the broader MISCFOOD primary condition remains, so cross-country denominator alignment is incomplete. R41 holds main AI decline at zero; R43 propagates Pakistan price taint; R44-R46 specify intention, addressable scaling and Beta uncertainty.
@@ -1069,12 +1231,30 @@ def main(argv: list[str] | None = None) -> int:
         },
         OUT / "comparison-metadata.json",
     )
+    us_table = us_calibration_table(panel=panel)
+    write_csv(us_table, OUT / "us-calibration.csv")
+    write_json(
+        {
+            "csv_decimal_places": DECIMALS,
+            "source_hashes": source_hashes(),
+            "csv_sha256": sha256(OUT / "us-calibration.csv"),
+            "accepted_record_bindings": us_table.attrs["accepted_record_bindings"],
+            "raw_answer_bytes_rehashed": False,
+            "raw_prompt_bytes_rehashed": False,
+            "recorded_digest_check": "Presence and SHA-256 format only; raw byte-integrity verification belongs to the elicitation runner and final numerical reviewer",
+            "public_reporting": "HELD_AUTHOR_NOTIFICATION_AND_SCHOLARLY_REVIEW",
+            "scope_rule": "Original US measures kept separate; no mixed-scope total; no Anna forecasts or accuracy scores",
+            "summary_recomputation": "Across accepted run p50 values; compared with source summary at six decimal places",
+        },
+        OUT / "us-calibration-metadata.json",
+    )
     write_report(
         comparison,
         pd.read_csv(OUT / "scenarios.csv"),
         pd.read_csv(OUT / "sobol.csv"),
         read_json(OUT / "sobol-diagnostics.json"),
         panel_details,
+        us_calibration=us_table,
     )
     print(
         f"wrote {len(comparison)} comparison rows; accepted claims {len(claim_rows(comparison))}",
