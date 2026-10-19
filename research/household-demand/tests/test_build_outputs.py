@@ -519,3 +519,20 @@ def test_explicit_partial_panel_never_upgrades_at_ten_runs(genuine_boundary_inpu
     ].iloc[0]
     assert row.status == "PARTIAL_PANEL"
     assert row.p50 == 2.0
+
+
+def test_report_distinguishes_unretained_lookup_hashes_from_retained_bytes():
+    """A recorded lookup digest cannot imply that source content was rechecked."""
+    root = Path(__file__).parents[1]
+    manifest = pd.read_csv(root / "inputs/manifest.csv")
+    unstored = manifest.stored_at.str.startswith("not stored")
+    report = (root / "outputs/REPORT.md").read_text()
+    for source_id in manifest.loc[unstored, "input_id"]:
+        row = next(
+            line for line in report.splitlines() if line.startswith(f"| {source_id} |")
+        )
+        assert "HISTORICAL_LOOKUP_HASH_ONLY" in row
+    assert f"{int((~unstored).sum())} retained" in report
+    gfi_note = next(line for line in report.splitlines() if line.startswith("[^gfi]:"))
+    assert "retained capture reviewed locally" not in gfi_note
+    assert "contents were not reverified" in gfi_note

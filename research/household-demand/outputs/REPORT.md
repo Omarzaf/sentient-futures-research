@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 2 accepted runs with 28 pending; partial model responses cannot establish a completed panel.
+This study asks what a household-based model implies for plant-based meat and liquid-milk retail value in India and Pakistan in 2026, 2030 and 2035. It combines household expenditure microdata, measured purchaser elasticities, a US conversion and spending calibration, observed retail price summaries, and official demographic and income paths. In India, the main conditional simulation produces median values of 712.415, 1,351.182, and 1,909.799 million US dollars at 2025 prices. These are conditional diagnostic model outputs, not validated market forecasts. Pakistan's national numerical results remain withheld here because the plant-meat price input is a placeholder. Complete household protein-spending shares and the egg/fermentation residual remain missing. Leave-one-state-out validation covers reported-item spending transfer, and attains 75.0% coverage for nominal 80% intervals. Elicitation coverage is 5 accepted runs with 25 pending; partial model responses cannot establish a completed panel.
 
 ## 1. Research question, estimand and comparison
 
@@ -22,35 +22,35 @@ The Bryant India sample is disproportionately urban, educated and affluent. Its 
 
 Price inputs use the captured public retail product pages and survey chicken/milk unit values. They do not establish a representative store, city or national price distribution. Plant prices captured in 2026 are deflated to 2025 with official CPI; survey references use weighted survey-period CPI. The retained World Bank capture gives 87.158448 INR/USD and 281.143001 PKR/USD in 2025. IMF October 2026 projections provide income and CPI; GDP per capita is used as an income proxy, with the US 2025 comparison held fixed. UN WPP 2024 supplies population bands. WUP 2018 census-definition urban shares are used because WUP 2025 Degree of Urbanisation categories do not match survey urban codes.[^drivers]
 
-### Source-ID and exact-byte inventory
+### Source IDs and capture availability
 
-The table below identifies current captured inputs. `inputs/manifest.csv` supplies URLs, capture dates, storage locations, approval notes and per-input caveats. `protocol.json` and `logs/registration-receipt.json` preserve the preregistration; later deviations are enumerated in section 7. `comparison-metadata.json` and `sobol-diagnostics.json` bind the current producer, source inventory and aggregate input hashes. Protocol source IDs are distinct from claim acceptance IDs.
+The manifest lists 20 retained inputs and 3 historical lookup hashes whose original bytes were not retained. The coordinator's 19 October Stage A static recomputation audit verified SHA-256 and byte size for the 20 retained inputs. The three lookup-only records are `bryant2019_html`, `gfi_marketresearch_html` and `gfi_price_gap_png`: their recorded digests identify the original lookups, but do not establish present file availability or a fresh source-content check. Their original contents were not reverified in that audit. The table labels this distinction per source. `inputs/manifest.csv` supplies URLs, recorded lookup or capture dates, storage status, approval notes and per-input caveats. `protocol.json` and `logs/registration-receipt.json` preserve the preregistration; later deviations are enumerated in section 7. `comparison-metadata.json` and `sobol-diagnostics.json` bind the current producer, source inventory and aggregate input hashes. Protocol source IDs are distinct from claim acceptance IDs.
 
-| input_id | sha256 |
-| --- | --- |
-| bryant2019_html | 8776f02c57e929982de9954d097908e6bbacf67b02216aa6e2cedfdf5f398814 |
-| bls_ce_2023_interview | 97e9a17edeee28e77a3fd5a7d874e5f4b9034222be204e25b0d902f4c82235ac |
-| bls_ce_2023_diary | d9990b92f4cc6546e3d6d7a1354300ef953ffca412d90cdb41c75372f90b94d6 |
-| gfi_marketresearch_html | d06e4649b1dc7ca30767f50d93428e314d5bca930bde0eae4859a4d0a18895dc |
-| gfi_price_gap_png | ccd9d6108f5506fb2add7eedbe491ca7e93a87d2658530bc34353e53da724c22 |
-| imf_weo_2026_10_ngdpdpc | d1143922c6ec0248cfc715d66c6d90f347396879a94ef464d150b7b98b75db17 |
-| imf_weo_2026_10_ngdp_rpch | 5200170b0f19f025e4e0a4e7685d8d5182e11068bff6ef4c92aea400739f0148 |
-| imf_weo_2026_10_lp | 9ddc36efbd0d0e8166afa9d00e99526425b3c484daf83f5c230af38213410dd0 |
-| imf_weo_2026_10_pcpipch | e36fb78dc58c5b50df615add2656469d316fe0c11416559b473de78d56b9aa1d |
-| imf_weo_2026_10_indicators | 30d77f9f74ca8c2777193db842876398688dad62f846e76fbdf4d49899e48d62 |
-| un_wpp_2024_medium | 286ac36bb1415e2e1ade03acfef0a29f0e4c087e2f78e38c48f50c5df89082bc |
-| un_wpp_2024_other_variants | a860504df54877e4c19788bf6e16920d6017d021b4c149eaf8b5662674180a54 |
-| un_wup_2018_excel_zip | 80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75 |
-| un_wup_2025_f02 | 3b262c6dcad2cc0ac5eef3e42c036207184de72926207e7d39640f7d45c4cedc |
-| price_snapshot_2026_10 | 65a4d6a702fbcd82c0966ad870c168defaaab2c3280615a7370d4963e10c43dd |
-| gfi_us_sales_webinar_2020 | a3215062d607dbe5aa1bfcdece1d9fb1aaca1529c1d1feb9b43f06696dbd7b5d |
-| gfi_us_sales_insights_2021 | c2b765e9c0acfe083640b6b32b750efecb8bfa82566216506f606d61b1e7cb07 |
-| gfi_us_sales_soti_2022 | 712938d7fa3ce981dabc2c88cdfcdeca45c46a0c7fdecc915048189a813110e5 |
-| gfi_us_sales_soti_2023 | 444fbb4b0d52939dda1c5991a1f7d2d9b1eba336146ea88209b3a8e8c3185cb4 |
-| gfi_us_sales_soti_2024 | 148ae79cb0bd71d46023b398a55b02845a5b64cbf9d1f8eebd9cc2e3039c6699 |
-| gfi_us_sales_press_2021 | abc1087bd32b3477971fc23b193f7624569c09456826b38ed9d6b569176c3850 |
-| gfi_us_sales_press_2022 | 4753d2ff8c4f9a916eebd6e0b990425baed4ef7106e51a2f973aa5612d970197 |
-| wdi_fx_2025_ind_pak | afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439 |
+| input_id | sha256 | capture_availability |
+| --- | --- | --- |
+| bryant2019_html | 8776f02c57e929982de9954d097908e6bbacf67b02216aa6e2cedfdf5f398814 | HISTORICAL_LOOKUP_HASH_ONLY |
+| bls_ce_2023_interview | 97e9a17edeee28e77a3fd5a7d874e5f4b9034222be204e25b0d902f4c82235ac | RETAINED_BYTES |
+| bls_ce_2023_diary | d9990b92f4cc6546e3d6d7a1354300ef953ffca412d90cdb41c75372f90b94d6 | RETAINED_BYTES |
+| gfi_marketresearch_html | d06e4649b1dc7ca30767f50d93428e314d5bca930bde0eae4859a4d0a18895dc | HISTORICAL_LOOKUP_HASH_ONLY |
+| gfi_price_gap_png | ccd9d6108f5506fb2add7eedbe491ca7e93a87d2658530bc34353e53da724c22 | HISTORICAL_LOOKUP_HASH_ONLY |
+| imf_weo_2026_10_ngdpdpc | d1143922c6ec0248cfc715d66c6d90f347396879a94ef464d150b7b98b75db17 | RETAINED_BYTES |
+| imf_weo_2026_10_ngdp_rpch | 5200170b0f19f025e4e0a4e7685d8d5182e11068bff6ef4c92aea400739f0148 | RETAINED_BYTES |
+| imf_weo_2026_10_lp | 9ddc36efbd0d0e8166afa9d00e99526425b3c484daf83f5c230af38213410dd0 | RETAINED_BYTES |
+| imf_weo_2026_10_pcpipch | e36fb78dc58c5b50df615add2656469d316fe0c11416559b473de78d56b9aa1d | RETAINED_BYTES |
+| imf_weo_2026_10_indicators | 30d77f9f74ca8c2777193db842876398688dad62f846e76fbdf4d49899e48d62 | RETAINED_BYTES |
+| un_wpp_2024_medium | 286ac36bb1415e2e1ade03acfef0a29f0e4c087e2f78e38c48f50c5df89082bc | RETAINED_BYTES |
+| un_wpp_2024_other_variants | a860504df54877e4c19788bf6e16920d6017d021b4c149eaf8b5662674180a54 | RETAINED_BYTES |
+| un_wup_2018_excel_zip | 80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75 | RETAINED_BYTES |
+| un_wup_2025_f02 | 3b262c6dcad2cc0ac5eef3e42c036207184de72926207e7d39640f7d45c4cedc | RETAINED_BYTES |
+| price_snapshot_2026_10 | 65a4d6a702fbcd82c0966ad870c168defaaab2c3280615a7370d4963e10c43dd | RETAINED_BYTES |
+| gfi_us_sales_webinar_2020 | a3215062d607dbe5aa1bfcdece1d9fb1aaca1529c1d1feb9b43f06696dbd7b5d | RETAINED_BYTES |
+| gfi_us_sales_insights_2021 | c2b765e9c0acfe083640b6b32b750efecb8bfa82566216506f606d61b1e7cb07 | RETAINED_BYTES |
+| gfi_us_sales_soti_2022 | 712938d7fa3ce981dabc2c88cdfcdeca45c46a0c7fdecc915048189a813110e5 | RETAINED_BYTES |
+| gfi_us_sales_soti_2023 | 444fbb4b0d52939dda1c5991a1f7d2d9b1eba336146ea88209b3a8e8c3185cb4 | RETAINED_BYTES |
+| gfi_us_sales_soti_2024 | 148ae79cb0bd71d46023b398a55b02845a5b64cbf9d1f8eebd9cc2e3039c6699 | RETAINED_BYTES |
+| gfi_us_sales_press_2021 | abc1087bd32b3477971fc23b193f7624569c09456826b38ed9d6b569176c3850 | RETAINED_BYTES |
+| gfi_us_sales_press_2022 | 4753d2ff8c4f9a916eebd6e0b990425baed4ef7106e51a2f973aa5612d970197 | RETAINED_BYTES |
+| wdi_fx_2025_ind_pak | afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439 | RETAINED_BYTES |
 
 ## 3. Household model and uncertainty
 
@@ -165,7 +165,7 @@ These intervals are empirical state-transfer predictive intervals, not survey-de
 
 ## 6. Elicitation and model-from-input comparison
 
-The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 2 accepted, 28 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
+The protocol requires 10 fresh contexts for each of two named models in each of three regions, 60 total. The author currently authorized Astra only: selected models ['gpt-6-astra'], active requirement 30 runs; Claude is deferred by the author. Current recorded active coverage: 5 accepted, 25 pending; registered study size 60. Completing the Astra phase does not complete the registered two-model study. The completion artifact's provider holds, attempts and individual slots are authoritative. A partly completed region/model panel remains PARTIAL_PANEL and is never described as completion. Repeated outputs of an AI model are dependent machine responses, not independent human forecasts.
 
 The exact US questionnaire is hash-bound and stored separately because public redistribution rights are unestablished. India and Pakistan adaptations preserve explicit unresolved forecast questions and resolvable proxy questions. Project domains and project-derived estimate contamination are screened. The original US cultivated/fermentation and blind-spot questions remain intact. Public reporting remains held pending scholarly review; Anna must also be notified before the US comparison is reported outside this local draft.
 
@@ -242,8 +242,8 @@ The current code/test review is distinct from the independent recomputation rece
 
 [^surveys]: Ministry of Statistics and Programme Implementation, *Household Consumption Expenditure Survey 2023-24*, source definitions and local input provenance in `households_india.py`, `codes.py` and `logs/india-households-run.json`; Pakistan Bureau of Statistics, *Household Integrated Economic Survey 2024-25*, source definitions and local input provenance in `households_pakistan.py` and `logs/pakistan-households-run.json`. Baseline acceptance remains separate from code-level parsing and reproduction.
 [^bls]: US Bureau of Labor Statistics, *Consumer Expenditure Survey 2023 Public-Use Microdata*, Diary and Interview files, retained capture reviewed locally October 19, 2026, https://www.bls.gov/cex/pumd.htm. Exact source ZIP hashes and weight/food definitions appear in `inputs/manifest.csv` and `outputs/us_calibration.json`.
-[^gfi]: Good Food Institute, “Plant-Based Retail Market Overview,” 2025 SPINS retail results, retained capture reviewed locally October 19, 2026, https://gfi.org/marketresearch/. Existing India anchor and proxy Source IDs: `gfi_india_smart_protein_economic_analysis_2022`, `gfi_us_plant_based_retail_2025`, `imf_weo_2026_10`, and `worldbank_wdi_official_exchange_rate_2026`, in `research/india-pakistan/data/altprotein_proxy_inputs.csv` and `altprotein_proxy_scenarios.csv`.
-[^bryant]: Christopher Bryant, Keri Szejda, Nishant Parekh, Varun Deshpande, and Brian Tse, “A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China,” *Frontiers in Sustainable Food Systems* 3 (2019), article 11, https://doi.org/10.3389/fsufs.2019.00011. The registered top-two intention definition, values and sample caveat are in `protocol.json`.
+[^gfi]: Good Food Institute, “Plant-Based Retail Market Overview,” 2025 SPINS retail results, historical lookup recorded October 19, 2026, https://gfi.org/marketresearch/. Original HTML and price-graphic bytes were not retained; their contents were not reverified in the static audit. Recorded hashes, extracted calibration values and locators remain in the manifest and calibration artifact. Existing India anchor and proxy Source IDs: `gfi_india_smart_protein_economic_analysis_2022`, `gfi_us_plant_based_retail_2025`, `imf_weo_2026_10`, and `worldbank_wdi_official_exchange_rate_2026`, in `research/india-pakistan/data/altprotein_proxy_inputs.csv` and `altprotein_proxy_scenarios.csv`.
+[^bryant]: Christopher Bryant, Keri Szejda, Nishant Parekh, Varun Deshpande, and Brian Tse, “A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China,” *Frontiers in Sustainable Food Systems* 3 (2019), article 11, https://doi.org/10.3389/fsufs.2019.00011. The registered top-two intention definition, values and sample caveat are in `protocol.json`. The manifest records the October 18, 2026 historical HTML lookup hash; its original bytes were not retained and its source contents were not freshly rechecked in the static audit.
 [^drivers]: International Monetary Fund, *World Economic Outlook*, October 2026, DataMapper series NGDPDPC, NGDP_RPCH, LP and PCPIPCH, https://www.imf.org/external/datamapper/; United Nations, *World Population Prospects 2024*, https://population.un.org/wpp/; United Nations, *World Urbanization Prospects 2018*, https://population.un.org/wup/; World Bank, “Official Exchange Rate (PA.NUS.FCRF),”2025 values in the retained official capture. Exact hashes, methods and vintage exclusions are in the input manifest and `outputs/drivers.json`.
 [^bass]: Frank M. Bass, “A New Product Growth for Model Consumer Durables,” *Management Science* 15, no. 5 (1969): 215-27, https://doi.org/10.1287/mnsc.15.5.215; Fareena Sultan, John U. Farley, and Donald R. Lehmann, “A Meta-Analysis of Applications of Diffusion Models,” *Journal of Marketing Research* 27, no. 1 (1990): 70-77. The prior is the pre-registered fallback; `protocol.json` records its secondary-source verification limitation and `outputs/diffusion.json` records rejected analogs and the separate US stress fit.
 [^saltelli]: Andrea Saltelli et al., “Variance Based Sensitivity Analysis of Model Output: Design and Estimator for the Total Sensitivity Index,” *Computer Physics Communications* 181 (2010): 259-70, https://doi.org/10.1016/j.cpc.2009.09.018. The implementation uses ordinary pseudorandom Monte Carlo, not a low-discrepancy Sobol sequence.
