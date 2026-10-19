@@ -1,0 +1,2650 @@
+{
+  "status": "DIAGNOSTIC",
+  "snapshot": {
+    "captured_utc": [
+      "2026-10-19T01:26:18Z",
+      "2026-10-19T01:31:10Z"
+    ],
+    "n_observations": 22,
+    "categories": [
+      "plant_meat",
+      "dairy_alt"
+    ],
+    "unit_rule": "price per kg = price / pack grams * 1000; 1 ml counts as 1 g",
+    "raw_captures": "local only: OUTPUTS/Household Demand 2026-10/prices-raw/ (ruling R21)"
+  },
+  "by_country": {
+    "India": {
+      "dairy_alt": {
+        "currency": "INR",
+        "n_observations": 3,
+        "n_brands": 3,
+        "retailers": [
+          "DMart Ready (default location Andheri Mumbai)",
+          "Raw Pressery (brand website)"
+        ],
+        "n_by_city_basis": {
+          "city_store": 2,
+          "national_online": 1
+        },
+        "median_price_per_kg_local": 199.0,
+        "min_price_per_kg_local": 136.0,
+        "max_price_per_kg_local": 289.0,
+        "n_with_protein": 0,
+        "median_price_per_kg_protein_local": null
+      },
+      "plant_meat": {
+        "currency": "INR",
+        "n_observations": 9,
+        "n_brands": 3,
+        "retailers": [
+          "Blue Tribe (brand website)",
+          "GoodDot (brand website)",
+          "Wakao Foods (brand website)"
+        ],
+        "n_by_city_basis": {
+          "national_online": 9
+        },
+        "median_price_per_kg_local": 996.0,
+        "min_price_per_kg_local": 672.5,
+        "max_price_per_kg_local": 1575.0,
+        "n_with_protein": 4,
+        "median_price_per_kg_protein_local": 5943.53
+      }
+    },
+    "Pakistan": {
+      "dairy_alt": {
+        "currency": "PKR",
+        "n_observations": 10,
+        "n_brands": 8,
+        "retailers": [
+          "Al-Fatah (online store)",
+          "Naheed Supermarket (Karachi)"
+        ],
+        "n_by_city_basis": {
+          "city_store": 2,
+          "national_online": 8
+        },
+        "median_price_per_kg_local": 2095.0,
+        "min_price_per_kg_local": 1293.1,
+        "max_price_per_kg_local": 3166.67,
+        "n_with_protein": 0,
+        "median_price_per_kg_protein_local": null
+      }
+    }
+  },
+  "coverage": {
+    "cells": [
+      {
+        "country": "India",
+        "city": "Delhi NCR",
+        "state": 7,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Delhi NCR",
+        "state": 7,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Mumbai",
+        "state": 27,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Mumbai",
+        "state": 27,
+        "category": "dairy_alt",
+        "n_city_store_observations": 2,
+        "n_national_online_observations": 1,
+        "price_basis": "city_store",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Bengaluru",
+        "state": 29,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Bengaluru",
+        "state": 29,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Hyderabad",
+        "state": 36,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Hyderabad",
+        "state": 36,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Chennai",
+        "state": 33,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Chennai",
+        "state": 33,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Kolkata",
+        "state": 19,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Kolkata",
+        "state": 19,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Pune",
+        "state": 27,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Pune",
+        "state": 27,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Tier-2 city (not selected)",
+        "state": null,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 9,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "India",
+        "city": "Tier-2 city (not selected)",
+        "state": null,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 1,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Karachi",
+        "state": 3,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 0,
+        "price_basis": "placeholder",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Karachi",
+        "state": 3,
+        "category": "dairy_alt",
+        "n_city_store_observations": 2,
+        "n_national_online_observations": 8,
+        "price_basis": "city_store",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Lahore",
+        "state": 2,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 0,
+        "price_basis": "placeholder",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Lahore",
+        "state": 2,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 8,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "state": null,
+        "category": "plant_meat",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 0,
+        "price_basis": "placeholder",
+        "placeholder_rows_available": 1
+      },
+      {
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "state": null,
+        "category": "dairy_alt",
+        "n_city_store_observations": 0,
+        "n_national_online_observations": 8,
+        "price_basis": "national_online_only",
+        "placeholder_rows_available": 1
+      }
+    ],
+    "city_store_cells": 2,
+    "national_online_only_cells": 17,
+    "placeholder_cells": 3,
+    "rule": "city_store: a price tied to that city; national_online_only: only one online price list for the country; placeholder: no observation, the placeholder row stands in and its results stay under synthetic/outputs/"
+  },
+  "price_ratio_2025_prices": {
+    "definition": "country median plant price per kg (all observations of the category) over the state reference unit value (plant_meat: chicken per kg; dairy_alt: milk per litre), both deflated to 2025 with IMF WEO CPI",
+    "deflators": {
+      "plant": {
+        "India": 0.952381,
+        "Pakistan": 0.933707
+      },
+      "reference": {
+        "India": 1.039039,
+        "Pakistan": 1.022005
+      },
+      "reference_periods": {
+        "India": "HCES 2023-24, August 2023 to July 2024: 5/12 CPI 2023 + 7/12 CPI 2024",
+        "Pakistan": "HIES 2024-25, fiscal-year label (July 2024 to June 2025 assumed): CPI 2024 / 2 + CPI 2025 / 2"
+      }
+    },
+    "rows": [
+      {
+        "country": "India",
+        "state": 1,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 170.3135,
+        "n_reference_households": 1460,
+        "price_ratio": 5.3603,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 2,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 229.4984,
+        "n_reference_households": 661,
+        "price_ratio": 3.9779,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 3,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 210.1932,
+        "n_reference_households": 1440,
+        "price_ratio": 4.3433,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 4,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 215.8638,
+        "n_reference_households": 396,
+        "price_ratio": 4.2292,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 5,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 225.7085,
+        "n_reference_households": 869,
+        "price_ratio": 4.0447,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 6,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 261.2809,
+        "n_reference_households": 798,
+        "price_ratio": 3.4941,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 7,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 226.0921,
+        "n_reference_households": 1378,
+        "price_ratio": 4.0379,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 8,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 240.4113,
+        "n_reference_households": 1064,
+        "price_ratio": 3.7974,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 9,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 202.1443,
+        "n_reference_households": 10211,
+        "price_ratio": 4.5162,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 10,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 190.3315,
+        "n_reference_households": 9119,
+        "price_ratio": 4.7965,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 11,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 254.3872,
+        "n_reference_households": 1105,
+        "price_ratio": 3.5887,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 12,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 296.2322,
+        "n_reference_households": 2495,
+        "price_ratio": 3.0818,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 13,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 261.7711,
+        "n_reference_households": 974,
+        "price_ratio": 3.4875,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 14,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 256.5644,
+        "n_reference_households": 2454,
+        "price_ratio": 3.5583,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 15,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 337.551,
+        "n_reference_households": 1895,
+        "price_ratio": 2.7046,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 16,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 260.3851,
+        "n_reference_households": 3509,
+        "price_ratio": 3.5061,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 17,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 313.1424,
+        "n_reference_households": 1929,
+        "price_ratio": 2.9154,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 18,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 260.6474,
+        "n_reference_households": 5301,
+        "price_ratio": 3.5026,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 19,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 207.0723,
+        "n_reference_households": 10204,
+        "price_ratio": 4.4088,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 20,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 185.8304,
+        "n_reference_households": 2748,
+        "price_ratio": 4.9127,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 21,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 212.1556,
+        "n_reference_households": 3776,
+        "price_ratio": 4.3031,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 22,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 183.7128,
+        "n_reference_households": 2282,
+        "price_ratio": 4.9693,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 23,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 216.8788,
+        "n_reference_households": 3340,
+        "price_ratio": 4.2094,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 24,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 226.191,
+        "n_reference_households": 1942,
+        "price_ratio": 4.0361,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 25,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 215.8574,
+        "n_reference_households": 403,
+        "price_ratio": 4.2293,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 27,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 228.0905,
+        "n_reference_households": 11013,
+        "price_ratio": 4.0025,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 28,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 228.8436,
+        "n_reference_households": 6956,
+        "price_ratio": 3.9893,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 29,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 218.2315,
+        "n_reference_households": 6399,
+        "price_ratio": 4.1833,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 30,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 178.8215,
+        "n_reference_households": 329,
+        "price_ratio": 5.1053,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 31,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 240.8923,
+        "n_reference_households": 298,
+        "price_ratio": 3.7898,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 32,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 174.8678,
+        "n_reference_households": 3321,
+        "price_ratio": 5.2207,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 33,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 229.0903,
+        "n_reference_households": 6032,
+        "price_ratio": 3.985,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 34,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 214.9255,
+        "n_reference_households": 749,
+        "price_ratio": 4.2477,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 35,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 220.448,
+        "n_reference_households": 516,
+        "price_ratio": 4.1413,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 36,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 227.432,
+        "n_reference_households": 4446,
+        "price_ratio": 4.0141,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 37,
+        "category": "plant_meat",
+        "plant_price_per_kg_local": 996.0,
+        "n_plant_observations": 9,
+        "reference_unit_value_local": 177.8352,
+        "n_reference_households": 352,
+        "price_ratio": 5.1336,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 1,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 51.3834,
+        "n_reference_households": 2613,
+        "price_ratio": 3.5498,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 2,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 53.8538,
+        "n_reference_households": 1484,
+        "price_ratio": 3.387,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 3,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 59.8322,
+        "n_reference_households": 5225,
+        "price_ratio": 3.0486,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 4,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 61.8929,
+        "n_reference_households": 716,
+        "price_ratio": 2.9471,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 5,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 55.0423,
+        "n_reference_households": 1917,
+        "price_ratio": 3.3139,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 6,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 65.4385,
+        "n_reference_households": 4122,
+        "price_ratio": 2.7874,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 7,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 63.6074,
+        "n_reference_households": 3296,
+        "price_ratio": 2.8676,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 8,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 53.494,
+        "n_reference_households": 7803,
+        "price_ratio": 3.4098,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 9,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 54.4305,
+        "n_reference_households": 23104,
+        "price_ratio": 3.3511,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 10,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 48.2867,
+        "n_reference_households": 14915,
+        "price_ratio": 3.7775,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 11,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 62.1809,
+        "n_reference_households": 1305,
+        "price_ratio": 2.9334,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 12,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 70.2749,
+        "n_reference_households": 2813,
+        "price_ratio": 2.5956,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 13,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 64.7022,
+        "n_reference_households": 218,
+        "price_ratio": 2.8191,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 14,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 60.7606,
+        "n_reference_households": 1576,
+        "price_ratio": 3.002,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 15,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 78.1896,
+        "n_reference_households": 3519,
+        "price_ratio": 2.3328,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 16,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 67.0607,
+        "n_reference_households": 2599,
+        "price_ratio": 2.72,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 17,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 70.2242,
+        "n_reference_households": 1884,
+        "price_ratio": 2.5974,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 18,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 64.1947,
+        "n_reference_households": 5338,
+        "price_ratio": 2.8414,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 19,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 51.9004,
+        "n_reference_households": 9263,
+        "price_ratio": 3.5145,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 20,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 52.1696,
+        "n_reference_households": 3957,
+        "price_ratio": 3.4963,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 21,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 47.0863,
+        "n_reference_households": 3339,
+        "price_ratio": 3.8738,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 22,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 49.4993,
+        "n_reference_households": 3011,
+        "price_ratio": 3.685,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 23,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 52.9167,
+        "n_reference_households": 10233,
+        "price_ratio": 3.447,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 24,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 61.3695,
+        "n_reference_households": 9383,
+        "price_ratio": 2.9722,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 25,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 58.5731,
+        "n_reference_households": 608,
+        "price_ratio": 3.1141,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 27,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 57.9302,
+        "n_reference_households": 19115,
+        "price_ratio": 3.1487,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 28,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 65.6384,
+        "n_reference_households": 9347,
+        "price_ratio": 2.7789,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 29,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 47.9926,
+        "n_reference_households": 10071,
+        "price_ratio": 3.8007,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 30,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 55.5718,
+        "n_reference_households": 634,
+        "price_ratio": 3.2823,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 31,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 69.8574,
+        "n_reference_households": 158,
+        "price_ratio": 2.6111,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 32,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 56.0502,
+        "n_reference_households": 5954,
+        "price_ratio": 3.2543,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 33,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 49.1813,
+        "n_reference_households": 12658,
+        "price_ratio": 3.7088,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 34,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 50.208,
+        "n_reference_households": 1052,
+        "price_ratio": 3.6329,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 35,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 74.6101,
+        "n_reference_households": 526,
+        "price_ratio": 2.4447,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 36,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 68.3663,
+        "n_reference_households": 5948,
+        "price_ratio": 2.668,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "India",
+        "state": 37,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 199.0,
+        "n_plant_observations": 3,
+        "reference_unit_value_local": 45.4584,
+        "n_reference_households": 542,
+        "price_ratio": 4.0125,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "Pakistan",
+        "state": 1,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 2095.0,
+        "n_plant_observations": 10,
+        "reference_unit_value_local": 210.8733,
+        "n_reference_households": 3750,
+        "price_ratio": 9.0765,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "Pakistan",
+        "state": 2,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 2095.0,
+        "n_plant_observations": 10,
+        "reference_unit_value_local": 181.9708,
+        "n_reference_households": 9442,
+        "price_ratio": 10.5182,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "Pakistan",
+        "state": 3,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 2095.0,
+        "n_plant_observations": 10,
+        "reference_unit_value_local": 209.4324,
+        "n_reference_households": 6224,
+        "price_ratio": 9.139,
+        "status": "DIAGNOSTIC"
+      },
+      {
+        "country": "Pakistan",
+        "state": 4,
+        "category": "dairy_alt",
+        "plant_price_per_kg_local": 2095.0,
+        "n_plant_observations": 10,
+        "reference_unit_value_local": 207.8842,
+        "n_reference_households": 1074,
+        "price_ratio": 9.207,
+        "status": "DIAGNOSTIC"
+      }
+    ],
+    "missing": [
+      "Pakistan plant_meat: no observation"
+    ]
+  },
+  "price_ratio_nominal_sensitivity": [
+    {
+      "country": "India",
+      "state": 1,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 170.3135,
+      "n_reference_households": 1460,
+      "price_ratio": 5.848,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 2,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 229.4984,
+      "n_reference_households": 661,
+      "price_ratio": 4.3399,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 3,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 210.1932,
+      "n_reference_households": 1440,
+      "price_ratio": 4.7385,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 4,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 215.8638,
+      "n_reference_households": 396,
+      "price_ratio": 4.614,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 5,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 225.7085,
+      "n_reference_households": 869,
+      "price_ratio": 4.4128,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 6,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 261.2809,
+      "n_reference_households": 798,
+      "price_ratio": 3.812,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 7,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 226.0921,
+      "n_reference_households": 1378,
+      "price_ratio": 4.4053,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 8,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 240.4113,
+      "n_reference_households": 1064,
+      "price_ratio": 4.1429,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 9,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 202.1443,
+      "n_reference_households": 10211,
+      "price_ratio": 4.9272,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 10,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 190.3315,
+      "n_reference_households": 9119,
+      "price_ratio": 5.233,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 11,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 254.3872,
+      "n_reference_households": 1105,
+      "price_ratio": 3.9153,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 12,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 296.2322,
+      "n_reference_households": 2495,
+      "price_ratio": 3.3622,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 13,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 261.7711,
+      "n_reference_households": 974,
+      "price_ratio": 3.8049,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 14,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 256.5644,
+      "n_reference_households": 2454,
+      "price_ratio": 3.8821,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 15,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 337.551,
+      "n_reference_households": 1895,
+      "price_ratio": 2.9507,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 16,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 260.3851,
+      "n_reference_households": 3509,
+      "price_ratio": 3.8251,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 17,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 313.1424,
+      "n_reference_households": 1929,
+      "price_ratio": 3.1807,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 18,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 260.6474,
+      "n_reference_households": 5301,
+      "price_ratio": 3.8213,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 19,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 207.0723,
+      "n_reference_households": 10204,
+      "price_ratio": 4.8099,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 20,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 185.8304,
+      "n_reference_households": 2748,
+      "price_ratio": 5.3597,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 21,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 212.1556,
+      "n_reference_households": 3776,
+      "price_ratio": 4.6947,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 22,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 183.7128,
+      "n_reference_households": 2282,
+      "price_ratio": 5.4215,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 23,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 216.8788,
+      "n_reference_households": 3340,
+      "price_ratio": 4.5924,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 24,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 226.191,
+      "n_reference_households": 1942,
+      "price_ratio": 4.4034,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 25,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 215.8574,
+      "n_reference_households": 403,
+      "price_ratio": 4.6142,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 27,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 228.0905,
+      "n_reference_households": 11013,
+      "price_ratio": 4.3667,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 28,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 228.8436,
+      "n_reference_households": 6956,
+      "price_ratio": 4.3523,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 29,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 218.2315,
+      "n_reference_households": 6399,
+      "price_ratio": 4.564,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 30,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 178.8215,
+      "n_reference_households": 329,
+      "price_ratio": 5.5698,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 31,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 240.8923,
+      "n_reference_households": 298,
+      "price_ratio": 4.1346,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 32,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 174.8678,
+      "n_reference_households": 3321,
+      "price_ratio": 5.6957,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 33,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 229.0903,
+      "n_reference_households": 6032,
+      "price_ratio": 4.3476,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 34,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 214.9255,
+      "n_reference_households": 749,
+      "price_ratio": 4.6342,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 35,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 220.448,
+      "n_reference_households": 516,
+      "price_ratio": 4.5181,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 36,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 227.432,
+      "n_reference_households": 4446,
+      "price_ratio": 4.3793,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 37,
+      "category": "plant_meat",
+      "plant_price_per_kg_local": 996.0,
+      "n_plant_observations": 9,
+      "reference_unit_value_local": 177.8352,
+      "n_reference_households": 352,
+      "price_ratio": 5.6007,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 1,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 51.3834,
+      "n_reference_households": 2613,
+      "price_ratio": 3.8728,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 2,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 53.8538,
+      "n_reference_households": 1484,
+      "price_ratio": 3.6952,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 3,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 59.8322,
+      "n_reference_households": 5225,
+      "price_ratio": 3.326,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 4,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 61.8929,
+      "n_reference_households": 716,
+      "price_ratio": 3.2152,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 5,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 55.0423,
+      "n_reference_households": 1917,
+      "price_ratio": 3.6154,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 6,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 65.4385,
+      "n_reference_households": 4122,
+      "price_ratio": 3.041,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 7,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 63.6074,
+      "n_reference_households": 3296,
+      "price_ratio": 3.1286,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 8,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 53.494,
+      "n_reference_households": 7803,
+      "price_ratio": 3.72,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 9,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 54.4305,
+      "n_reference_households": 23104,
+      "price_ratio": 3.656,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 10,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 48.2867,
+      "n_reference_households": 14915,
+      "price_ratio": 4.1212,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 11,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 62.1809,
+      "n_reference_households": 1305,
+      "price_ratio": 3.2003,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 12,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 70.2749,
+      "n_reference_households": 2813,
+      "price_ratio": 2.8317,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 13,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 64.7022,
+      "n_reference_households": 218,
+      "price_ratio": 3.0756,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 14,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 60.7606,
+      "n_reference_households": 1576,
+      "price_ratio": 3.2751,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 15,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 78.1896,
+      "n_reference_households": 3519,
+      "price_ratio": 2.5451,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 16,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 67.0607,
+      "n_reference_households": 2599,
+      "price_ratio": 2.9675,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 17,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 70.2242,
+      "n_reference_households": 1884,
+      "price_ratio": 2.8338,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 18,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 64.1947,
+      "n_reference_households": 5338,
+      "price_ratio": 3.0999,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 19,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 51.9004,
+      "n_reference_households": 9263,
+      "price_ratio": 3.8343,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 20,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 52.1696,
+      "n_reference_households": 3957,
+      "price_ratio": 3.8145,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 21,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 47.0863,
+      "n_reference_households": 3339,
+      "price_ratio": 4.2263,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 22,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 49.4993,
+      "n_reference_households": 3011,
+      "price_ratio": 4.0203,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 23,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 52.9167,
+      "n_reference_households": 10233,
+      "price_ratio": 3.7606,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 24,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 61.3695,
+      "n_reference_households": 9383,
+      "price_ratio": 3.2427,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 25,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 58.5731,
+      "n_reference_households": 608,
+      "price_ratio": 3.3975,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 27,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 57.9302,
+      "n_reference_households": 19115,
+      "price_ratio": 3.4352,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 28,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 65.6384,
+      "n_reference_households": 9347,
+      "price_ratio": 3.0318,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 29,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 47.9926,
+      "n_reference_households": 10071,
+      "price_ratio": 4.1465,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 30,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 55.5718,
+      "n_reference_households": 634,
+      "price_ratio": 3.581,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 31,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 69.8574,
+      "n_reference_households": 158,
+      "price_ratio": 2.8487,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 32,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 56.0502,
+      "n_reference_households": 5954,
+      "price_ratio": 3.5504,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 33,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 49.1813,
+      "n_reference_households": 12658,
+      "price_ratio": 4.0463,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 34,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 50.208,
+      "n_reference_households": 1052,
+      "price_ratio": 3.9635,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 35,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 74.6101,
+      "n_reference_households": 526,
+      "price_ratio": 2.6672,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 36,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 68.3663,
+      "n_reference_households": 5948,
+      "price_ratio": 2.9108,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "India",
+      "state": 37,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 199.0,
+      "n_plant_observations": 3,
+      "reference_unit_value_local": 45.4584,
+      "n_reference_households": 542,
+      "price_ratio": 4.3776,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "state": 1,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 2095.0,
+      "n_plant_observations": 10,
+      "reference_unit_value_local": 210.8733,
+      "n_reference_households": 3750,
+      "price_ratio": 9.9349,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "state": 2,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 2095.0,
+      "n_plant_observations": 10,
+      "reference_unit_value_local": 181.9708,
+      "n_reference_households": 9442,
+      "price_ratio": 11.5128,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "state": 3,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 2095.0,
+      "n_plant_observations": 10,
+      "reference_unit_value_local": 209.4324,
+      "n_reference_households": 6224,
+      "price_ratio": 10.0032,
+      "status": "DIAGNOSTIC"
+    },
+    {
+      "country": "Pakistan",
+      "state": 4,
+      "category": "dairy_alt",
+      "plant_price_per_kg_local": 2095.0,
+      "n_plant_observations": 10,
+      "reference_unit_value_local": 207.8842,
+      "n_reference_households": 1074,
+      "price_ratio": 10.0777,
+      "status": "DIAGNOSTIC"
+    }
+  ],
+  "reference_unit_values": {
+    "source": "household tables (HCES 2023-24, HIES 2024-25), market purchases only, multiplier-weighted",
+    "min_cell_households": 30,
+    "rows": [
+      {
+        "country": "India",
+        "state": 1,
+        "group": "chicken",
+        "unit_value_local": 170.3135,
+        "n_households": 1460,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 2,
+        "group": "chicken",
+        "unit_value_local": 229.4984,
+        "n_households": 661,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 3,
+        "group": "chicken",
+        "unit_value_local": 210.1932,
+        "n_households": 1440,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 4,
+        "group": "chicken",
+        "unit_value_local": 215.8638,
+        "n_households": 396,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 5,
+        "group": "chicken",
+        "unit_value_local": 225.7085,
+        "n_households": 869,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 6,
+        "group": "chicken",
+        "unit_value_local": 261.2809,
+        "n_households": 798,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 7,
+        "group": "chicken",
+        "unit_value_local": 226.0921,
+        "n_households": 1378,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 8,
+        "group": "chicken",
+        "unit_value_local": 240.4113,
+        "n_households": 1064,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 9,
+        "group": "chicken",
+        "unit_value_local": 202.1443,
+        "n_households": 10211,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 10,
+        "group": "chicken",
+        "unit_value_local": 190.3315,
+        "n_households": 9119,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 11,
+        "group": "chicken",
+        "unit_value_local": 254.3872,
+        "n_households": 1105,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 12,
+        "group": "chicken",
+        "unit_value_local": 296.2322,
+        "n_households": 2495,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 13,
+        "group": "chicken",
+        "unit_value_local": 261.7711,
+        "n_households": 974,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 14,
+        "group": "chicken",
+        "unit_value_local": 256.5644,
+        "n_households": 2454,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 15,
+        "group": "chicken",
+        "unit_value_local": 337.551,
+        "n_households": 1895,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 16,
+        "group": "chicken",
+        "unit_value_local": 260.3851,
+        "n_households": 3509,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 17,
+        "group": "chicken",
+        "unit_value_local": 313.1424,
+        "n_households": 1929,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 18,
+        "group": "chicken",
+        "unit_value_local": 260.6474,
+        "n_households": 5301,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 19,
+        "group": "chicken",
+        "unit_value_local": 207.0723,
+        "n_households": 10204,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 20,
+        "group": "chicken",
+        "unit_value_local": 185.8304,
+        "n_households": 2748,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 21,
+        "group": "chicken",
+        "unit_value_local": 212.1556,
+        "n_households": 3776,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 22,
+        "group": "chicken",
+        "unit_value_local": 183.7128,
+        "n_households": 2282,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 23,
+        "group": "chicken",
+        "unit_value_local": 216.8788,
+        "n_households": 3340,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 24,
+        "group": "chicken",
+        "unit_value_local": 226.191,
+        "n_households": 1942,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 25,
+        "group": "chicken",
+        "unit_value_local": 215.8574,
+        "n_households": 403,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 27,
+        "group": "chicken",
+        "unit_value_local": 228.0905,
+        "n_households": 11013,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 28,
+        "group": "chicken",
+        "unit_value_local": 228.8436,
+        "n_households": 6956,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 29,
+        "group": "chicken",
+        "unit_value_local": 218.2315,
+        "n_households": 6399,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 30,
+        "group": "chicken",
+        "unit_value_local": 178.8215,
+        "n_households": 329,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 31,
+        "group": "chicken",
+        "unit_value_local": 240.8923,
+        "n_households": 298,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 32,
+        "group": "chicken",
+        "unit_value_local": 174.8678,
+        "n_households": 3321,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 33,
+        "group": "chicken",
+        "unit_value_local": 229.0903,
+        "n_households": 6032,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 34,
+        "group": "chicken",
+        "unit_value_local": 214.9255,
+        "n_households": 749,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 35,
+        "group": "chicken",
+        "unit_value_local": 220.448,
+        "n_households": 516,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 36,
+        "group": "chicken",
+        "unit_value_local": 227.432,
+        "n_households": 4446,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 37,
+        "group": "chicken",
+        "unit_value_local": 177.8352,
+        "n_households": 352,
+        "category": "plant_meat"
+      },
+      {
+        "country": "India",
+        "state": 1,
+        "group": "milk",
+        "unit_value_local": 51.3834,
+        "n_households": 2613,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 2,
+        "group": "milk",
+        "unit_value_local": 53.8538,
+        "n_households": 1484,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 3,
+        "group": "milk",
+        "unit_value_local": 59.8322,
+        "n_households": 5225,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 4,
+        "group": "milk",
+        "unit_value_local": 61.8929,
+        "n_households": 716,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 5,
+        "group": "milk",
+        "unit_value_local": 55.0423,
+        "n_households": 1917,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 6,
+        "group": "milk",
+        "unit_value_local": 65.4385,
+        "n_households": 4122,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 7,
+        "group": "milk",
+        "unit_value_local": 63.6074,
+        "n_households": 3296,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 8,
+        "group": "milk",
+        "unit_value_local": 53.494,
+        "n_households": 7803,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 9,
+        "group": "milk",
+        "unit_value_local": 54.4305,
+        "n_households": 23104,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 10,
+        "group": "milk",
+        "unit_value_local": 48.2867,
+        "n_households": 14915,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 11,
+        "group": "milk",
+        "unit_value_local": 62.1809,
+        "n_households": 1305,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 12,
+        "group": "milk",
+        "unit_value_local": 70.2749,
+        "n_households": 2813,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 13,
+        "group": "milk",
+        "unit_value_local": 64.7022,
+        "n_households": 218,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 14,
+        "group": "milk",
+        "unit_value_local": 60.7606,
+        "n_households": 1576,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 15,
+        "group": "milk",
+        "unit_value_local": 78.1896,
+        "n_households": 3519,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 16,
+        "group": "milk",
+        "unit_value_local": 67.0607,
+        "n_households": 2599,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 17,
+        "group": "milk",
+        "unit_value_local": 70.2242,
+        "n_households": 1884,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 18,
+        "group": "milk",
+        "unit_value_local": 64.1947,
+        "n_households": 5338,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 19,
+        "group": "milk",
+        "unit_value_local": 51.9004,
+        "n_households": 9263,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 20,
+        "group": "milk",
+        "unit_value_local": 52.1696,
+        "n_households": 3957,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 21,
+        "group": "milk",
+        "unit_value_local": 47.0863,
+        "n_households": 3339,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 22,
+        "group": "milk",
+        "unit_value_local": 49.4993,
+        "n_households": 3011,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 23,
+        "group": "milk",
+        "unit_value_local": 52.9167,
+        "n_households": 10233,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 24,
+        "group": "milk",
+        "unit_value_local": 61.3695,
+        "n_households": 9383,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 25,
+        "group": "milk",
+        "unit_value_local": 58.5731,
+        "n_households": 608,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 27,
+        "group": "milk",
+        "unit_value_local": 57.9302,
+        "n_households": 19115,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 28,
+        "group": "milk",
+        "unit_value_local": 65.6384,
+        "n_households": 9347,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 29,
+        "group": "milk",
+        "unit_value_local": 47.9926,
+        "n_households": 10071,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 30,
+        "group": "milk",
+        "unit_value_local": 55.5718,
+        "n_households": 634,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 31,
+        "group": "milk",
+        "unit_value_local": 69.8574,
+        "n_households": 158,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 32,
+        "group": "milk",
+        "unit_value_local": 56.0502,
+        "n_households": 5954,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 33,
+        "group": "milk",
+        "unit_value_local": 49.1813,
+        "n_households": 12658,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 34,
+        "group": "milk",
+        "unit_value_local": 50.208,
+        "n_households": 1052,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 35,
+        "group": "milk",
+        "unit_value_local": 74.6101,
+        "n_households": 526,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 36,
+        "group": "milk",
+        "unit_value_local": 68.3663,
+        "n_households": 5948,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "India",
+        "state": 37,
+        "group": "milk",
+        "unit_value_local": 45.4584,
+        "n_households": 542,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "Pakistan",
+        "state": 1,
+        "group": "chicken",
+        "unit_value_local": 647.6867,
+        "n_households": 3154,
+        "category": "plant_meat"
+      },
+      {
+        "country": "Pakistan",
+        "state": 2,
+        "group": "chicken",
+        "unit_value_local": 595.1257,
+        "n_households": 10285,
+        "category": "plant_meat"
+      },
+      {
+        "country": "Pakistan",
+        "state": 3,
+        "group": "chicken",
+        "unit_value_local": 669.1666,
+        "n_households": 6692,
+        "category": "plant_meat"
+      },
+      {
+        "country": "Pakistan",
+        "state": 4,
+        "group": "chicken",
+        "unit_value_local": 682.253,
+        "n_households": 2270,
+        "category": "plant_meat"
+      },
+      {
+        "country": "Pakistan",
+        "state": 1,
+        "group": "milk",
+        "unit_value_local": 210.8733,
+        "n_households": 3750,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "Pakistan",
+        "state": 2,
+        "group": "milk",
+        "unit_value_local": 181.9708,
+        "n_households": 9442,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "Pakistan",
+        "state": 3,
+        "group": "milk",
+        "unit_value_local": 209.4324,
+        "n_households": 6224,
+        "category": "dairy_alt"
+      },
+      {
+        "country": "Pakistan",
+        "state": 4,
+        "group": "milk",
+        "unit_value_local": 207.8842,
+        "n_households": 1074,
+        "category": "dairy_alt"
+      }
+    ]
+  },
+  "us_comparison_ratio": {
+    "plant_meat": 2.4858044164037856,
+    "dairy_alt": 2.1375921375921374
+  }
+}
