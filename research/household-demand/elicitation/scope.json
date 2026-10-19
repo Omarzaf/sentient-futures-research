@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "forecast_years": [
+    2026,
+    2030,
+    2035
+  ],
+  "inputs_horizon": "2026-2035",
+  "headline_unit": "million USD_2025",
+  "conversion": "nonnegative actual annual purchase probability divided by top-two-box stated intent; may exceed 1; final simulator probability clipped separately",
+  "bass_p": "innovation coefficient per year",
+  "bass_q": "imitation coefficient per year",
+  "price_parity_year": "calendar year conditional on parity by2050; null means NEVER or UNKNOWN, never zero",
+  "ai_cost_decline": "fractional annual manufacturing cost decline attributable to AI, excluding baseline scale/learning; not retail pass-through",
+  "india_pakistan_categories": {
+    "plant_based_meat": "meat and seafood replacements; retail",
+    "dairy_alternatives": "all dairy replacements, including milk, cheese, yogurt and other dairy; retail; broader than milk-only simulator",
+    "residual": "other in-scope plant-based replacement products; excludes cultivated and fermentation technologies"
+  },
+  "us_categories": "Original source all-category retail plant-based headline; separate retail+foodservice cultivated (petfood included) and fermentation (original inclusions/exclusions), each quantiles",
+  "aggregation": "Separate model-region panels. Summary quantiles across run medians, not predictive uncertainty and not independent human experts. n_nonmissing discloses conditional parity sample.",
+  "public_reporting": "held for author/team notification and scholarly review"
+}

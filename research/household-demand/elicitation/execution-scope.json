@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-10-19",
+  "user_instruction": "just do astra for now",
+  "authorized_models": [
+    "gpt-6-astra"
+  ],
+  "deferred_models": [
+    "claude-opus-5-5"
+  ],
+  "active_authorized_required": 30,
+  "registered_study_required": 60,
+  "note": "User authorized Astra only after automatic-review rejection. This records model selection, not a replacement for normal tool approval. Do not retry Claude."
+}
