@@ -130,3 +130,21 @@ def test_summary_counts_placeholder_cells_without_flag_word():
     text = repr(summary)
     assert "SYNTHETIC" not in text
     assert summary["coverage"]["placeholder_cells"] > 0
+
+
+def test_missing_household_count_stays_missing():
+    uv = _uv_table().astype({"n_households": float})
+    uv.loc[0, "n_households"] = np.nan
+    out = prices.price_ratio(prices.normalise_prices(prices.example_rows()), uv)
+    counts = out.set_index("state").n_reference_households
+    assert np.isnan(counts[27])
+    assert counts[7] == 400
+    records = {r["state"]: r for r in prices._ratio_records(out)}
+    assert records[27]["n_reference_households"] is None
+    assert records[7]["n_reference_households"] == 400
+
+
+def test_price_ratio_without_count_column_gives_missing_count():
+    uv = _uv_table().drop(columns="n_households")
+    out = prices.price_ratio(prices.normalise_prices(prices.example_rows()), uv)
+    assert out.n_reference_households.isna().all()

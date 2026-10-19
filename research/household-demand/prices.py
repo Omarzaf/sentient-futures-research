@@ -238,12 +238,19 @@ def price_ratio(
                 "plant_price_per_kg_local": median,
                 "n_plant_observations": len(mine),
                 "reference_unit_value_local": reference,
-                "n_reference_households": int(getattr(rec, "n_households", 0)),
+                "n_reference_households": _count(getattr(rec, "n_households", None)),
                 "price_ratio": ratio,
                 "status": statuses.pop() if statuses else None,
             }
         )
     return pd.DataFrame(out)
+
+
+def _count(value) -> float | int:
+    """Household count as int; a missing count stays missing (NaN, null in JSON)."""
+    if value is None or pd.isna(value):
+        return np.nan
+    return int(value)
 
 
 def _round(value: float, digits: int = 4) -> float | None:
@@ -403,9 +410,14 @@ def _us_ratio(path: Path = US_CALIBRATION) -> dict[str, float]:
 def _ratio_records(frame: pd.DataFrame) -> list[dict]:
     out = []
     for rec in frame.to_dict("records"):
-        out.append(
-            {k: (_round(v) if isinstance(v, float) else v) for k, v in rec.items()}
-        )
+        row = {}
+        for key, value in rec.items():
+            if isinstance(value, float):
+                value = _round(value)
+                if key.startswith("n_") and value is not None:
+                    value = int(value)
+            row[key] = value
+        out.append(row)
     return out
 
 
@@ -487,7 +499,8 @@ def main(argv: list[str] | None = None) -> int:
             },
             "rows": _ratio_records(ratio),
             "missing": [
-                f"{c} {k}: no observation"
+                f"{c} {k}: no observation; any result rests on the placeholder ratio "
+                "under synthetic/outputs/ and stays out of claims (ruling R43)"
                 for c in CURRENCY
                 for k in CATEGORIES
                 if not ((observed.country == c) & (observed.category == k)).any()

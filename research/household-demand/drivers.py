@@ -33,6 +33,7 @@ on a fiscal-year basis (April to March); the year label is used as published.
 
 Scenarios (decision 11), ``scenario_paths``: the 2026 plant-to-conventional
 price ratio ``r0`` declines by ``ai_decline`` a year (AI cost-decline path);
+the main path uses 0.0 and 0.02 and 0.05 are illustrative assumptions (R41);
 the parity path falls geometrically from ``r0`` to 1.0 at ``parity_year`` and
 stays at 1.0; with both, the lower ratio applies each year.
 
@@ -54,10 +55,13 @@ import numpy as np
 import pandas as pd
 
 __all__ = [
+    "AI_DECLINE_ILLUSTRATIVE",
+    "AI_DECLINE_MAIN",
     "BAND_Z",
     "cpi_index",
     "example_base",
     "load_drivers",
+    "scenario_definitions",
     "scenario_paths",
 ]
 
@@ -279,6 +283,25 @@ def scenario_paths(
     return pd.concat(out, ignore_index=True)
 
 
+AI_DECLINE_MAIN = 0.0
+AI_DECLINE_ILLUSTRATIVE = (0.02, 0.05)
+
+
+def scenario_definitions() -> dict:
+    """AI cost-decline values (ruling R41): main 0; 0.02 and 0.05 are illustrative assumptions."""
+    return {
+        "rule": "price_ratio_t = r0 * (1 - ai_decline) ** (t - 2026)",
+        "main_ai_decline": AI_DECLINE_MAIN,
+        "main_basis": "no published rate for AI-driven plant-based cost decline exists (ruling R41)",
+        "illustrative_ai_decline": list(AI_DECLINE_ILLUSTRATIVE),
+        "illustrative_label": "illustrative assumptions, never estimates (ruling R41)",
+        "panel_input_use": (
+            "the elicitation's AI-decline answer feeds only the model_from_panel_inputs row"
+        ),
+        "sourced_rate": None,
+    }
+
+
 def _band_table(drivers: pd.DataFrame) -> dict:
     out: dict = {}
     for (variable, country), part in drivers.groupby(["variable", "country"]):
@@ -339,15 +362,7 @@ def build_output(manifest: Path = MANIFEST) -> dict:
         },
         "cpi_source": "IMF WEO October 2026 PCPIPCH, chained to 1.0 in 2025",
         "scenarios": {
-            "ai_cost_decline": {
-                "rule": "price_ratio_t = r0 * (1 - ai_decline) ** (t - 2026)",
-                "baseline_ai_decline": 0.0,
-                "sourced_rate": None,
-                "note": (
-                    "no published rate for AI-driven plant-based cost decline was found; "
-                    "a non-zero rate needs an author ruling before Task 8 uses it"
-                ),
-            },
+            "ai_cost_decline": scenario_definitions(),
             "price_parity": {
                 "rule": "geometric fall from r0 in 2026 to 1.0 at parity_year, then 1.0",
                 "parity_years": [2030, 2035],

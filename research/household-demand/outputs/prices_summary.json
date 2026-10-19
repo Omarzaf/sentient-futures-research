@@ -1156,7 +1156,7 @@
       }
     ],
     "missing": [
-      "Pakistan plant_meat: no observation"
+      "Pakistan plant_meat: no observation; any result rests on the placeholder ratio under synthetic/outputs/ and stays out of claims (ruling R43)"
     ]
   },
   "price_ratio_nominal_sensitivity": [

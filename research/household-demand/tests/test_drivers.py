@@ -166,3 +166,19 @@ def test_missing_manifest_input_raises(tmp_path):
     pd.DataFrame({"input_id": ["x"], "stored_at": ["y"]}).to_csv(manifest, index=False)
     with pytest.raises(KeyError):
         drivers.load_drivers(manifest, root=tmp_path)
+
+
+def test_ai_decline_values_follow_r41():
+    defs = drivers.scenario_definitions()
+    assert defs["main_ai_decline"] == 0.0
+    assert defs["illustrative_ai_decline"] == [0.02, 0.05]
+    assert "illustrative assumptions" in defs["illustrative_label"]
+    assert "model_from_panel_inputs" in defs["panel_input_use"]
+    assert "ruling" not in repr(defs).replace("(ruling R41)", "")
+
+
+def test_illustrative_ai_paths_compound():
+    for rate in drivers.AI_DECLINE_ILLUSTRATIVE:
+        path = drivers.scenario_paths(drivers.example_base(), rate, None)
+        ratio = path.set_index("year").price_ratio
+        assert ratio[2030] == pytest.approx(2.0 * (1 - rate) ** 4)

@@ -398,9 +398,15 @@
   "scenarios": {
     "ai_cost_decline": {
       "rule": "price_ratio_t = r0 * (1 - ai_decline) ** (t - 2026)",
-      "baseline_ai_decline": 0.0,
-      "sourced_rate": null,
-      "note": "no published rate for AI-driven plant-based cost decline was found; a non-zero rate needs an author ruling before Task 8 uses it"
+      "main_ai_decline": 0.0,
+      "main_basis": "no published rate for AI-driven plant-based cost decline exists (ruling R41)",
+      "illustrative_ai_decline": [
+        0.02,
+        0.05
+      ],
+      "illustrative_label": "illustrative assumptions, never estimates (ruling R41)",
+      "panel_input_use": "the elicitation's AI-decline answer feeds only the model_from_panel_inputs row",
+      "sourced_rate": null
     },
     "price_parity": {
       "rule": "geometric fall from r0 in 2026 to 1.0 at parity_year, then 1.0",

@@ -808,8 +808,8 @@
     },
     {
       "path": "research/household-demand/drivers.py",
-      "bytes": 15086,
-      "sha256": "ee71f106a5044b4357566a0a2d561821e22dbf97e2cdf2f97d321a099a73cd43"
+      "bytes": 15625,
+      "sha256": "4af91a5128b3d8d9a7d8d58913e5be865d5840a9bf69bcb8ca7e391bc5184dc7"
     },
     {
       "path": "research/household-demand/elasticities.py",
@@ -828,8 +828,8 @@
     },
     {
       "path": "research/household-demand/inputs/manifest.csv",
-      "bytes": 11117,
-      "sha256": "fc2421d0f4fb6ce15615bfe765064c0dedc9bdd21c352b732a0ae01d4b9fb3dc"
+      "bytes": 12387,
+      "sha256": "90b86f1a07b547cab69378656d5d67136ca55b894277a5ea4885709e04db2ee6"
     },
     {
       "path": "research/household-demand/logs/india-households-run.json",
@@ -858,8 +858,8 @@
     },
     {
       "path": "research/household-demand/outputs/drivers.json",
-      "bytes": 10932,
-      "sha256": "7ed88dc36199785e6bfd8ba907d14eb763024106a3805365cf556c77bfd69801"
+      "bytes": 11146,
+      "sha256": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d"
     },
     {
       "path": "research/household-demand/outputs/elasticities_national.json",
@@ -878,8 +878,8 @@
     },
     {
       "path": "research/household-demand/outputs/prices_summary.json",
-      "bytes": 73518,
-      "sha256": "47dc670d85c051fc5156e7e18bbfed619ea3777d5a71b66804f60aabbfadc577"
+      "bytes": 73623,
+      "sha256": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e"
     },
     {
       "path": "research/household-demand/outputs/segments_summary.json",
@@ -893,8 +893,8 @@
     },
     {
       "path": "research/household-demand/prices.py",
-      "bytes": 20814,
-      "sha256": "bf9fd72f961c4fcf7a12960e9e9d5c805461c94f0d8ffbe25092e73251547727"
+      "bytes": 21325,
+      "sha256": "733e9371aee7d1ad282d26394de3092b3bb75a3c905ea186a063c2016f63aa01"
     },
     {
       "path": "research/household-demand/protocol.json",
@@ -983,8 +983,8 @@
     },
     {
       "path": "research/household-demand/tests/test_drivers.py",
-      "bytes": 6381,
-      "sha256": "d51cdfbaa643d01543b381fc3a20b5e08b7aa053b42142da13e9754c7ee2d6bc"
+      "bytes": 7051,
+      "sha256": "274f750cacabe3d2fe358447ddeee4523aef81fb7f59bd9cb29bb99bcda5dc2a"
     },
     {
       "path": "research/household-demand/tests/test_elasticities.py",
@@ -1003,8 +1003,8 @@
     },
     {
       "path": "research/household-demand/tests/test_prices.py",
-      "bytes": 4005,
-      "sha256": "97cc7d3424a6621a5812b29735ab150e3cb8cb0803ff245709dec08528a25109"
+      "bytes": 4776,
+      "sha256": "af0f209c26f4499ea87cd69e297cca789b42c17bf4af6b32750ee786514540fd"
     },
     {
       "path": "research/household-demand/tests/test_protocol.py",
