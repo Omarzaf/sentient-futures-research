@@ -95,6 +95,12 @@ def test_registration_receipt_matches_protocol():
 def test_no_long_dashes_in_household_demand_files():
     for path in sorted(HERE.rglob("*")):
         if path.is_file() and path.suffix in {".md", ".json", ".py", ".csv"}:
+            if path == HERE / "elicitation" / "questionnaire-us.md":
+                # R49 preserves the author's source bytes, including punctuation.
+                assert hashlib.sha256(path.read_bytes()).hexdigest() == (
+                    "000293004ca738d65b5e300a8de331abbc9d40876e6a40d2495e4532304ca9f0"
+                )
+                continue
             text = path.read_text()
             assert chr(0x2014) not in text and chr(0x2013) not in text, path
 
