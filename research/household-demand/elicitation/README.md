@@ -10,13 +10,15 @@ Raw prompts, provider events, answers, parsed results and immutable attempt rece
 
 `accepted-runs.json` retains numeric responses, sources and hashes without questionnaire or raw rationale text. CSV rows preserve model and region; p10/p50/p90 are empirical percentiles across run medians, not pooled respondent uncertainty, human-expert disagreement or calibrated probability coverage. The original response quantiles remain in accepted-runs. Null parity remains unknown/never and is never coerced to zero. `scope.json` defines units and the material difference between all dairy alternatives in the questionnaire and milk-only model calibration.
 
+Protocol deviation approved by the user on 20 October 2026: a cultivated first-sale year given with a "no" answer is set to null at parse time, and the original value is kept as `cultivated_conditional_year_dropped`. Before this change, 7 of 11 Claude India attempts were rejected for this alone, and 0 of 30 Astra attempts were. Receipts rejected before the change stay rejected.
+
 Activate workspace `OUTPUTS/Deep Research 2026-10/.venv` before Python. Existing dependencies only.
 
 ```sh
 python research/household-demand/elicitation/elicit.py --models gpt-6-astra --regions us india pakistan --runs 10
 ```
 
-Current user instruction is "just do astra for now". execution-scope.json authorizes Astra only and defers Claude; the runner enforces that selection. The active target is 30, while completion.json preserves all 60 registered slots and checkpoints after each attempt.
+On 19 October 2026 the user instruction was "just do astra for now", and all 30 Astra slots were accepted. On 20 October 2026 the user authorized the 30 Claude slots. execution-scope.json now authorizes both models; the runner enforces that selection. The active target is 60, and completion.json checkpoints all 60 registered slots after each attempt.
 
 A one-attempt preflight adds `--max-new-attempts 1`. The explicit `--resume-limits` flag retries a held provider only after capacity or the execution route has been resolved and execution is authorized. Maximum validation attempts per slot default to three; process timeout defaults to 900 seconds. No CLI fallback, paid gateway, key setup, account creation, outreach or publication is performed. A rejected automatic approval review is not permission to use a different execution route.
 

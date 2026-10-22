@@ -50,6 +50,16 @@ def test_rejects_blocked_source() -> None:
     )
 
 
+def test_conditional_year_with_no_is_normalized_and_retained() -> None:
+    data = json.loads(el.example("valid"))
+    data["cultivated_first_sale_year"] = 2032
+    parsed = el.parse_response(json.dumps(data))
+    assert parsed["cultivated_first_sale_year"] is None
+    assert parsed["cultivated_conditional_year_dropped"] == 2032
+    assert el.validate(parsed, "india") == []
+    assert "cultivated_conditional_year_dropped" not in answer()
+
+
 @pytest.mark.parametrize("region,fixture", [("india", "valid"), ("us", "us_valid")])
 def test_complete_response(region: str, fixture: str) -> None:
     assert el.validate(el.parse_response(el.example(fixture)), region) == []
@@ -179,6 +189,19 @@ def test_cli_isolation_flags(tmp_path: Path) -> None:
     claude = el.command(el.MODELS[0], tmp_path, tmp_path / "answer")
     assert "--no-session-persistence" in claude
     assert "WebSearch,WebFetch" in claude
+
+
+def test_claude_background_model_pinned_to_requested_model(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-not-a-key")
+    monkeypatch.setenv("ANTHROPIC_SMALL_FAST_MODEL", "claude-haiku-4-5")
+    claude = el.provider_env(el.MODELS[0])
+    assert claude["ANTHROPIC_DEFAULT_HAIKU_MODEL"] == el.MODELS[0]
+    assert claude["ANTHROPIC_SMALL_FAST_MODEL"] == el.MODELS[0]
+    assert "ANTHROPIC_API_KEY" not in claude
+    codex = el.provider_env(el.MODELS[1])
+    assert "ANTHROPIC_DEFAULT_HAIKU_MODEL" not in codex
 
 
 def test_provider_tool_audit(tmp_path: Path) -> None:

@@ -195,6 +195,17 @@ def parse_response(text: str) -> dict:
     if len(found) != 1:
         raise ValueError("expected exactly one JSON answer object")
     result = found[0]
+    # User-approved 2026-10-20: a year given with a "no" answer is the
+    # respondent's conditional year. It is set to null as the instrument asks,
+    # and the original value is kept in its own field.
+    if (
+        result.get("cultivated_sale_by_2035") is False
+        and result.get("cultivated_first_sale_year") is not None
+    ):
+        result["cultivated_conditional_year_dropped"] = result[
+            "cultivated_first_sale_year"
+        ]
+        result["cultivated_first_sale_year"] = None
     result["_response_text"] = text
     return result
 
@@ -515,6 +526,36 @@ def command(model: str, isolated: Path, answer: Path) -> list[str]:
     return flags + ["-"]
 
 
+def provider_env(model: str) -> dict[str, str]:
+    """Build the CLI environment without paid API or gateway overrides.
+
+    Subscription auth stays in the normal CLI stores. The Claude CLI runs
+    WebFetch summaries on a separate background model (Haiku by default), so
+    that model is pinned to the requested model and every call stays on it.
+    """
+    env = {
+        k: v
+        for k, v in os.environ.items()
+        if k
+        not in (
+            "OPENAI_API_KEY",
+            "OPENAI_BASE_URL",
+            "ANTHROPIC_API_KEY",
+            "ANTHROPIC_BASE_URL",
+            "ANTHROPIC_AUTH_TOKEN",
+            "ANTHROPIC_DEFAULT_HAIKU_MODEL",
+            "ANTHROPIC_SMALL_FAST_MODEL",
+            "CLAUDECODE",
+            "CODEX_THREAD_ID",
+        )
+        and not k.startswith("CLAUDE_CODE_USE_")
+    }
+    if model == MODELS[0]:
+        env["ANTHROPIC_DEFAULT_HAIKU_MODEL"] = model
+        env["ANTHROPIC_SMALL_FAST_MODEL"] = model
+    return env
+
+
 def provider_output(
     model: str, stdout: str, answer: Path
 ) -> tuple[str, list[str], list[str]]:
@@ -712,23 +753,8 @@ def attempt(model: str, region: str, slot: int, raw: Path, timeout: int) -> dict
             "private_tools_prohibited": True,
             "codex_cli_tool_allowlist_limitation": model == MODELS[1],
         }
-        # Keep subscription auth in the normal CLI stores; never copy/read keys or
-        # allow inherited paid API/gateway overrides to route these calls.
-        env = {
-            k: v
-            for k, v in os.environ.items()
-            if k
-            not in (
-                "OPENAI_API_KEY",
-                "OPENAI_BASE_URL",
-                "ANTHROPIC_API_KEY",
-                "ANTHROPIC_BASE_URL",
-                "ANTHROPIC_AUTH_TOKEN",
-                "CLAUDECODE",
-                "CODEX_THREAD_ID",
-            )
-            and not k.startswith("CLAUDE_CODE_USE_")
-        }
+        env = provider_env(model)
+        record["background_model"] = env.get("ANTHROPIC_DEFAULT_HAIKU_MODEL")
         try:
             result = subprocess.run(
                 args,
@@ -868,6 +894,7 @@ def summarize(records: list[dict], raw: Path, destination: Path, runs: int) -> N
                 "cultivated_sale_by_2035",
                 "cultivated_sale_probability",
                 "cultivated_first_sale_year",
+                "cultivated_conditional_year_dropped",
             )
         }
         accepted.append(

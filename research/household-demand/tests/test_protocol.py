@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 
+import pytest
+
 HERE = Path(__file__).resolve().parents[1]
 PROTOCOL = json.loads((HERE / "protocol.json").read_text())
 MARKDOWN = (HERE / "PROTOCOL.md").read_text()
@@ -92,10 +94,13 @@ def test_registration_receipt_matches_protocol():
     assert receipt["registered_at_utc"] == PROTOCOL["registered_at_utc"]
 
 
-def test_no_long_dashes_in_household_demand_files():
-    for path in sorted(HERE.rglob("*")):
+def _check_authored_punctuation(root: Path) -> None:
+    """Check research text while excluding hidden local tooling state."""
+    for path in sorted(root.rglob("*")):
+        if any(part.startswith(".") for part in path.relative_to(root).parts):
+            continue
         if path.is_file() and path.suffix in {".md", ".json", ".py", ".csv"}:
-            if path == HERE / "elicitation" / "questionnaire-us.md":
+            if path == root / "elicitation" / "questionnaire-us.md":
                 # R49 preserves the author's source bytes, including punctuation.
                 assert hashlib.sha256(path.read_bytes()).hexdigest() == (
                     "000293004ca738d65b5e300a8de331abbc9d40876e6a40d2495e4532304ca9f0"
@@ -103,6 +108,28 @@ def test_no_long_dashes_in_household_demand_files():
                 continue
             text = path.read_text()
             assert chr(0x2014) not in text and chr(0x2013) not in text, path
+
+
+def test_no_long_dashes_in_household_demand_files():
+    _check_authored_punctuation(HERE)
+
+
+@pytest.mark.parametrize(
+    "checkpoint", [".governor/checkpoint.md", "elicitation/.governor/checkpoint.md"]
+)
+def test_punctuation_scope_excludes_hidden_state_but_checks_authored_text(
+    tmp_path: Path, checkpoint: str
+) -> None:
+    """Tool checkpoints are excluded without weakening authored-text checks."""
+    hidden = tmp_path / checkpoint
+    hidden.parent.mkdir(parents=True)
+    hidden.write_text("Machine checkpoint " + chr(0x2014) + " retained unchanged.")
+    authored = tmp_path / "REPORT.md"
+    authored.write_text("Authored research uses a normal hyphen.")
+    _check_authored_punctuation(tmp_path)
+    authored.write_text("Authored research " + chr(0x2013) + " invalid punctuation.")
+    with pytest.raises(AssertionError, match="REPORT.md"):
+        _check_authored_punctuation(tmp_path)
 
 
 def test_pakistan_transfer_distribution():

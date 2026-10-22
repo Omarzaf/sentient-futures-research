@@ -1,347 +1,104 @@
 {
-  "updated_at_utc": "2026-10-19T19:50:24Z",
+  "updated_at_utc": "2026-10-21T15:12:55Z",
   "required_for_registered_study": 60,
-  "active_authorized_required": 30,
+  "active_authorized_required": 60,
   "active_authorized_models": [
-    "gpt-6-astra"
-  ],
-  "deferred_models": [
+    "gpt-6-astra",
     "claude-opus-5-5"
   ],
-  "required_for_this_selection": 30,
-  "accepted": 30,
-  "pending": 30,
-  "selected_accepted": 30,
+  "deferred_models": [],
+  "required_for_this_selection": 10,
+  "accepted": 60,
+  "pending": 0,
+  "selected_accepted": 10,
   "selected_pending": 0,
-  "status": "INCOMPLETE",
-  "model_holds": {
-    "claude-opus-5-5": "EXECUTION_ERROR"
-  },
-  "attempt_count": 31,
-  "rerun_count": 0,
+  "status": "COMPLETE",
+  "model_holds": {},
+  "attempt_count": 79,
+  "rerun_count": 19,
   "slots": [
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 1,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 2,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 2,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 5,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 3,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 2,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 4,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 3,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 5,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 1,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 6,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 1,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 7,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 1,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 8,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 1,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 9,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
+      "status": "ACCEPTED",
+      "attempts": 1,
       "in_current_selection": false
     },
     {
       "model": "claude-opus-5-5",
       "region": "india",
       "slot": 10,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 1,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 2,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 3,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 4,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 5,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 6,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 7,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 8,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 9,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "pakistan",
-      "slot": 10,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 1,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 1,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 2,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 3,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 4,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 5,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 6,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 7,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 8,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 9,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "claude-opus-5-5",
-      "region": "us",
-      "slot": 10,
-      "status": "DEFERRED_BY_USER",
-      "attempts": 0,
-      "in_current_selection": false
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 1,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 2,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 3,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 4,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 5,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 6,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 7,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 8,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 9,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
-      "region": "india",
-      "slot": 10,
-      "status": "ACCEPTED",
-      "attempts": 1,
-      "in_current_selection": true
-    },
-    {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 1,
       "status": "ACCEPTED",
@@ -349,7 +106,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 2,
       "status": "ACCEPTED",
@@ -357,7 +114,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 3,
       "status": "ACCEPTED",
@@ -365,7 +122,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 4,
       "status": "ACCEPTED",
@@ -373,7 +130,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 5,
       "status": "ACCEPTED",
@@ -381,7 +138,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 6,
       "status": "ACCEPTED",
@@ -389,7 +146,7 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 7,
       "status": "ACCEPTED",
@@ -397,15 +154,15 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 8,
       "status": "ACCEPTED",
-      "attempts": 1,
+      "attempts": 2,
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 9,
       "status": "ACCEPTED",
@@ -413,12 +170,252 @@
       "in_current_selection": true
     },
     {
-      "model": "gpt-6-astra",
+      "model": "claude-opus-5-5",
       "region": "pakistan",
       "slot": 10,
       "status": "ACCEPTED",
       "attempts": 1,
       "in_current_selection": true
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 1,
+      "status": "ACCEPTED",
+      "attempts": 5,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 2,
+      "status": "ACCEPTED",
+      "attempts": 4,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 3,
+      "status": "ACCEPTED",
+      "attempts": 4,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 4,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 5,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 6,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 7,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 8,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 9,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "claude-opus-5-5",
+      "region": "us",
+      "slot": 10,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 1,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 2,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 3,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 4,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 5,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 6,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 7,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 8,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 9,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "india",
+      "slot": 10,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 1,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 2,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 3,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 4,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 5,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 6,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 7,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 8,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 9,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
+    },
+    {
+      "model": "gpt-6-astra",
+      "region": "pakistan",
+      "slot": 10,
+      "status": "ACCEPTED",
+      "attempts": 1,
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -426,7 +423,7 @@
       "slot": 1,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -434,7 +431,7 @@
       "slot": 2,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -442,7 +439,7 @@
       "slot": 3,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -450,7 +447,7 @@
       "slot": 4,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -458,7 +455,7 @@
       "slot": 5,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -466,7 +463,7 @@
       "slot": 6,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -474,7 +471,7 @@
       "slot": 7,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -482,7 +479,7 @@
       "slot": 8,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -490,7 +487,7 @@
       "slot": 9,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     },
     {
       "model": "gpt-6-astra",
@@ -498,7 +495,7 @@
       "slot": 10,
       "status": "ACCEPTED",
       "attempts": 1,
-      "in_current_selection": true
+      "in_current_selection": false
     }
   ],
   "raw_responses": "workspace OUTPUTS/Household Demand 2026-10/elicitation/raw (outside Git)"

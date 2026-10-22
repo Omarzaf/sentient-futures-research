@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-19",
-  "user_instruction": "just do astra for now",
+  "updated_at": "2026-10-20",
+  "user_instruction": "Astra has run its runs now you need to run yours",
+  "prior_user_instruction": "just do astra for now (2026-10-19)",
   "authorized_models": [
-    "gpt-6-astra"
-  ],
-  "deferred_models": [
+    "gpt-6-astra",
     "claude-opus-5-5"
   ],
-  "active_authorized_required": 30,
+  "deferred_models": [],
+  "active_authorized_required": 60,
   "registered_study_required": 60,
-  "note": "User authorized Astra only after automatic-review rejection. This records model selection, not a replacement for normal tool approval. Do not retry Claude."
+  "note": "User authorized the 30 Claude slots on 2026-10-20 after all 30 Astra slots were accepted. The 2026-10-19 Claude EXECUTION_ERROR was 'Not logged in' inside the Codex sandbox; a 2026-10-20 smoke call with the runner's exact flags authenticated and reported claude-opus-5-5. Claude runs use --resume-limits for that resolved route. This records model selection, not a replacement for normal tool approval."
 }
