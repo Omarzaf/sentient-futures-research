@@ -1304,5 +1304,41 @@
     "sourceDocument": "Authored regression test for the proxy model dollar basis, 15 October 2026",
     "sourceSha256": "6236be4f84261fedcb4ebd4e43d2be49542f634eb822c0b1ce99694f2f3ba34e",
     "changes": "New test: income ratios and the high elasticity must use market-exchange-rate dollars at 2025 prices; the PPP series must not feed the model."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/index.html",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "ef1827d418878ef290b0502d6dcc852034c33f99e41618b1d5972ecd9b7b2f2e",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/archive.html",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "65b519ecd841de700cd557adafcf24b3754eb18c63b886ec3280b24dd5115b72",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/lib/D3-LICENSE.txt",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/original/index.html",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "6ef84f6ba579dd596221e6ea3d7252d0c9c3c6a8388d2e0713f5fcbcdf59176a",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/original/lib/D3-LICENSE.txt",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
+  },
+  {
+    "path": "research/india-pakistan/edition-revision-cut-1/README.md",
+    "sourceDocument": "Revision Cut 1 built companion site (Research Edition 3 converged, 22 October 2026)",
+    "sourceSha256": "37aa1c5c0f1acaca7a07ae4419a426d1453896a9908594280c20ddf8e67e8ef0",
+    "changes": "File-only built output. The working-research archive is replaced by a notice and is not published; raw model outputs, questionnaires and private records are excluded."
   }
 ]
