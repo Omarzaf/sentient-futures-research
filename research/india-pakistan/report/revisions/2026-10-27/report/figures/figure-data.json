@@ -1,0 +1,26 @@
+{
+  "source_sha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399",
+  "matplotlib": "3.11.2",
+  "ceiling_percent": 17.832569503068797,
+  "labels": [
+    {
+      "scenario": "low",
+      "low": 29.186118491837966,
+      "midpoint": 32.37893242159382,
+      "high": 35.650656228889545
+    },
+    {
+      "scenario": "medium",
+      "low": 38.14226065479549,
+      "midpoint": 41.556424183011245,
+      "high": 45.05496820813033
+    },
+    {
+      "scenario": "high",
+      "low": 45.12854147847265,
+      "midpoint": 48.71536980218989,
+      "high": 52.39084600517856
+    }
+  ],
+  "limits": "Inverse-model diagnostic; unresolved source price basis; no predictive probability claim."
+}

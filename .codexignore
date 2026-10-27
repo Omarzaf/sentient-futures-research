@@ -18,3 +18,7 @@ research/india-pakistan/report/*.pdf
 research/india-pakistan/report/*.docx
 provenance/supervisor-export-text/*-body.txt
 provenance/supervisor-export-text/canonical.txt
+
+# Regenerable GFI diagnostic draws and report figures; summaries remain readable.
+research/india-pakistan/build/gfi-gap/factor-draws.csv
+research/india-pakistan/report/revisions/2026-10-27/report/figures/*.png

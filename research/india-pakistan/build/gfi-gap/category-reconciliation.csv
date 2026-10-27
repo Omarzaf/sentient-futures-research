@@ -1,0 +1,5 @@
+scenario,known_category_sum_crore,reported_total_crore,unresolved_cells,reported_minus_known_sum_crore,status
+baseline,351.0,351.0,1,0.0,unresolved_source_dash
+low,7475.0,7475.0,0,0.0,exact_agreement
+medium,12779.0,12779.0,0,0.0,exact_agreement
+high,18963.0,18963.0,0,0.0,exact_agreement

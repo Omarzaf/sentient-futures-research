@@ -1,0 +1,277 @@
+{
+  "edition": "2026-10-27-local-review",
+  "status": "Local review candidate; human factual/code verification, rights and release approval pending",
+  "previous_edition": {
+    "edition": "2026-10-22-review",
+    "records": [
+      {
+        "path": "data/altprotein_proxy_inputs.csv",
+        "sha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+        "source_path": "sentient-futures-research/research/india-pakistan/data/altprotein_proxy_inputs.csv",
+        "source_sha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+        "transformation": "Exact copy; relative raw capture names are provenance, not packaged inputs"
+      },
+      {
+        "path": "data/reference_proxy_scenarios.csv",
+        "sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+        "source_path": "sentient-futures-research/research/india-pakistan/data/altprotein_proxy_scenarios.csv",
+        "source_sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+        "transformation": "Exact copy; relative raw capture names are provenance, not packaged inputs"
+      },
+      {
+        "path": "scripts/build_altprotein_proxy.py",
+        "sha256": "06aaabc7b9c1af1d680c2d6b11b021884513e812f3c914e7904be1589decc8bf",
+        "source_path": "sentient-futures-research/research/india-pakistan/tools/build_altprotein_proxy.py",
+        "source_sha256": "f89cf9ab5af75ff20c661ce617e5f541ee305c167a36e1d9135030443ee3501f",
+        "transformation": "Remove private acquisition/transcription route, add isolated output path, normalize formatting and dictionary literals; preserve equations, draw order, output formatting and byte-exact 127-row results"
+      },
+      {
+        "path": "data/panel_runs.json",
+        "sha256": "5ecbd61f6621acb580ddb009e117c55eb3be7a6e6af611b5ac92bb2adb998aee",
+        "source_path": "OUTPUTS/Research Edition 3 2026-10-21/data/forecasts.json",
+        "source_sha256": "77965018273e83485316eb2254daf5ce41543aed97e39120d8090b99d5e1b7af",
+        "transformation": "Select quantitative run records only; no raw answer text, prompts or private routes"
+      },
+      {
+        "path": "data/reference_panel_aggregates.json",
+        "sha256": "24205e16492f060cff726dd8c376f09a65a61171f824840916f7ed4a986ccd9d",
+        "source_path": "OUTPUTS/Research Edition 3 2026-10-21/data/forecasts.json",
+        "source_sha256": "77965018273e83485316eb2254daf5ce41543aed97e39120d8090b99d5e1b7af",
+        "transformation": "Retain aggregate reference for independent offline reconstruction"
+      },
+      {
+        "path": "report/chapter.md",
+        "sha256": "a6af6c8b63e9b32878d42a0a1e9538af260b4cce959bbd2dfdcbc6a96d113954",
+        "source_path": "22 October specialist writing draft: 01-regional-chapter.md",
+        "source_sha256": "709b1e1cc47d529a6638608805b64445574e477d2326ae82a6af374c963c9d18",
+        "transformation": "Adapt local paths to package; preserve scientific claims; remove private collaborator-draft details and operational instructions; update verified offline reproduction route"
+      },
+      {
+        "path": "methods/proxy.md",
+        "sha256": "f74bddc7a17c67a574b60599e9f7583f48dfe834430460c774b703c0db954354",
+        "source_path": "22 October specialist writing draft: 02-proxy-methods.md",
+        "source_sha256": "fdc35e421429578f881b2267213938351c86722f94cba62bfea15133cb51cbd0",
+        "transformation": "Adapt local paths to package; preserve scientific claims; remove private collaborator-draft details and operational instructions; update verified offline reproduction route"
+      },
+      {
+        "path": "methods/panel-supplement.md",
+        "sha256": "8fa1241ec7f7d4e54b473e620a8068a9df14a71024cb1b56a6b81a33b40a516d",
+        "source_path": "22 October specialist writing draft: 03-panel-supplement-methods.md",
+        "source_sha256": "1d37dd0bb68a86e4c3b9f1eb982f55ea92285039927de467fb20c7187ac6ad7d",
+        "transformation": "Adapt local paths to package; preserve scientific claims; remove private collaborator-draft details and operational instructions; update verified offline reproduction route"
+      },
+      {
+        "path": "report/limitations-and-ai-use.md",
+        "sha256": "d98311bb7b7e17654d57dbd8f95e3797426605369e174b2631afdf704f862a55",
+        "source_path": "22 October specialist writing draft: 04-limitations-and-ai-use.md",
+        "source_sha256": "dbcf76da5779a2b0195c8b0538bf3f4e7f399386989e40e754dfbd07ae697c5c",
+        "transformation": "Adapt local paths to package; preserve scientific claims; remove private collaborator-draft details and operational instructions; update verified offline reproduction route"
+      },
+      {
+        "path": "data/panel-attempts.csv",
+        "sha256": "a83b85f34f2590914c092e2dd6bd7ccb19f9abeb293b4ec276f8e0d735f26228",
+        "source_path": "22 October reviewed extraction: panel-attempts.csv",
+        "source_sha256": "a83b85f34f2590914c092e2dd6bd7ccb19f9abeb293b4ec276f8e0d735f26228",
+        "transformation": "Exact reviewed export; full source files excluded"
+      },
+      {
+        "path": "provenance/proxy-source-ledger.csv",
+        "sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+        "source_path": "22 October reviewed extraction: proxy-source-ledger.csv",
+        "source_sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+        "transformation": "Exact reviewed export; full source files excluded"
+      }
+    ]
+  },
+  "records": [
+    {
+      "path": "data/altprotein_proxy_inputs.csv",
+      "sha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+      "source_path": "sentient-futures-research/research/india-pakistan/data/altprotein_proxy_inputs.csv",
+      "source_sha256": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+      "transformation": "Exact copy; relative raw capture names are provenance, not packaged inputs"
+    },
+    {
+      "path": "data/reference_proxy_scenarios.csv",
+      "sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+      "source_path": "sentient-futures-research/research/india-pakistan/data/altprotein_proxy_scenarios.csv",
+      "source_sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+      "transformation": "Exact copy; relative raw capture names are provenance, not packaged inputs"
+    },
+    {
+      "path": "scripts/build_altprotein_proxy.py",
+      "sha256": "06aaabc7b9c1af1d680c2d6b11b021884513e812f3c914e7904be1589decc8bf",
+      "source_path": "sentient-futures-research/research/india-pakistan/tools/build_altprotein_proxy.py",
+      "source_sha256": "f89cf9ab5af75ff20c661ce617e5f541ee305c167a36e1d9135030443ee3501f",
+      "transformation": "Remove private acquisition/transcription route, add isolated output path, normalize formatting and dictionary literals; preserve equations, draw order, output formatting and byte-exact 127-row results"
+    },
+    {
+      "path": "data/panel_runs.json",
+      "sha256": "5ecbd61f6621acb580ddb009e117c55eb3be7a6e6af611b5ac92bb2adb998aee",
+      "source_path": "OUTPUTS/Research Edition 3 2026-10-21/data/forecasts.json",
+      "source_sha256": "77965018273e83485316eb2254daf5ce41543aed97e39120d8090b99d5e1b7af",
+      "transformation": "Select quantitative run records only; no raw answer text, prompts or private routes"
+    },
+    {
+      "path": "data/reference_panel_aggregates.json",
+      "sha256": "24205e16492f060cff726dd8c376f09a65a61171f824840916f7ed4a986ccd9d",
+      "source_path": "OUTPUTS/Research Edition 3 2026-10-21/data/forecasts.json",
+      "source_sha256": "77965018273e83485316eb2254daf5ce41543aed97e39120d8090b99d5e1b7af",
+      "transformation": "Retain aggregate reference for independent offline reconstruction"
+    },
+    {
+      "path": "data/panel-attempts.csv",
+      "sha256": "a83b85f34f2590914c092e2dd6bd7ccb19f9abeb293b4ec276f8e0d735f26228",
+      "source_path": "22 October reviewed extraction: panel-attempts.csv",
+      "source_sha256": "a83b85f34f2590914c092e2dd6bd7ccb19f9abeb293b4ec276f8e0d735f26228",
+      "transformation": "Exact reviewed export; full source files excluded"
+    },
+    {
+      "path": "provenance/proxy-source-ledger.csv",
+      "sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+      "source_path": "22 October reviewed extraction: proxy-source-ledger.csv",
+      "source_sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+      "transformation": "Exact reviewed export; full source files excluded"
+    },
+    {
+      "path": "report/chapter.md",
+      "sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
+      "source_sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "report/figures/figure-data.json",
+      "sha256": "fa40213e816854b0cef6e813426f39eea8eb4b94e834643e82f252b53e2d2550",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/figure-data.json",
+      "source_sha256": "fa40213e816854b0cef6e813426f39eea8eb4b94e834643e82f252b53e2d2550",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "report/figures/gfi-required-growth.png",
+      "sha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.png",
+      "source_sha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "report/figures/gfi-required-growth.svg",
+      "sha256": "963ce0a0dbf7642233c7eb1ce403324efd9395cb57b73f7ff8d8e1dd738ff940",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.svg",
+      "source_sha256": "963ce0a0dbf7642233c7eb1ce403324efd9395cb57b73f7ff8d8e1dd738ff940",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "report/limitations-and-ai-use.md",
+      "sha256": "54fa99a15e210c357e29cd46d55ef417c04f860fde377b51ee572a03eb15953f",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/limitations-and-ai-use.md",
+      "source_sha256": "54fa99a15e210c357e29cd46d55ef417c04f860fde377b51ee572a03eb15953f",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "report/report.css",
+      "sha256": "15a15b6ccae976f2af6efddfb593147332fdaf4c65b6aa8e02ea3f12cdafb3df",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/report.css",
+      "source_sha256": "15a15b6ccae976f2af6efddfb593147332fdaf4c65b6aa8e02ea3f12cdafb3df",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/dated-context.md",
+      "sha256": "52daeb7a13b1522fea3f055d155ea4c2ff4d5d09f8c3ca7ddb6b1c483fb1d4da",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/dated-context.md",
+      "source_sha256": "52daeb7a13b1522fea3f055d155ea4c2ff4d5d09f8c3ca7ddb6b1c483fb1d4da",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/drivers.md",
+      "sha256": "d16a4ffe2665aa57d7765cc49a455b0b1cd7d2e6ca5cfb0c3693bebf5e401c97",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/drivers.md",
+      "source_sha256": "d16a4ffe2665aa57d7765cc49a455b0b1cd7d2e6ca5cfb0c3693bebf5e401c97",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/gfi-gap.md",
+      "sha256": "1b55a81c1d94996a462b7a9c3bd02f78d7f9d0345172fc91bb82709e420d8e5c",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/gfi-gap.md",
+      "source_sha256": "1b55a81c1d94996a462b7a9c3bd02f78d7f9d0345172fc91bb82709e420d8e5c",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/measurement-crosswalk.md",
+      "sha256": "df0f05d2f167aa1192245d001b38bd60a1eecabd3e53e86d2b83096dc2c61f3d",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/measurement-crosswalk.md",
+      "source_sha256": "df0f05d2f167aa1192245d001b38bd60a1eecabd3e53e86d2b83096dc2c61f3d",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/panel-supplement.md",
+      "sha256": "8fa1241ec7f7d4e54b473e620a8068a9df14a71024cb1b56a6b81a33b40a516d",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/panel-supplement.md",
+      "source_sha256": "8fa1241ec7f7d4e54b473e620a8068a9df14a71024cb1b56a6b81a33b40a516d",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "methods/proxy.md",
+      "sha256": "ec9f19469f08ca2d43b7ebbb04336f2820e22a62ec9257e38db877d04fad1805",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/methods/proxy.md",
+      "source_sha256": "ec9f19469f08ca2d43b7ebbb04336f2820e22a62ec9257e38db877d04fad1805",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "data/driver-evidence.json",
+      "sha256": "8665627070f2d697aa91b6ad0032108b9f69d61907249a68074565082ce4a4da",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/data/driver-evidence.json",
+      "source_sha256": "8665627070f2d697aa91b6ad0032108b9f69d61907249a68074565082ce4a4da",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "data/recommendations.csv",
+      "sha256": "349cc5c2dd72d142819d5675c70d55c663603dfac18c0d2a8a12cfc2ce380ed7",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/data/recommendations.csv",
+      "source_sha256": "349cc5c2dd72d142819d5675c70d55c663603dfac18c0d2a8a12cfc2ce380ed7",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "scripts/build_documents.py",
+      "sha256": "6797fb5a4da76f8919be59c365f15168e06edd9ecca56b0f30142ff64129179b",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/scripts/build_documents.py",
+      "source_sha256": "6797fb5a4da76f8919be59c365f15168e06edd9ecca56b0f30142ff64129179b",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "scripts/plot_gfi_gap.py",
+      "sha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
+      "source_sha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "tests/test_revision_contract.py",
+      "sha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c",
+      "source_path": "research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
+      "source_sha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c",
+      "transformation": "Exact authored revision export; local candidate"
+    },
+    {
+      "path": "scripts/gfi_gap.py",
+      "sha256": "f51e32134c8e5fa08b2b66b4297bb09e39792df26b87b20e32ca7cf39da9277f",
+      "source_path": "research/india-pakistan/tools/gfi_gap.py",
+      "source_sha256": "f51e32134c8e5fa08b2b66b4297bb09e39792df26b87b20e32ca7cf39da9277f",
+      "transformation": "Exact canonical companion export; historical model and references unchanged"
+    },
+    {
+      "path": "tests/test_gfi_gap.py",
+      "sha256": "c9b7e3e0493323ba6c7f8353908c919c4800aeaf628819c6a2a10758afea4565",
+      "source_path": "research/india-pakistan/pipeline/tests/test_gfi_gap.py",
+      "source_sha256": "c9b7e3e0493323ba6c7f8353908c919c4800aeaf628819c6a2a10758afea4565",
+      "transformation": "Exact canonical companion export; historical model and references unchanged"
+    },
+    {
+      "path": "data/gfi_categories.csv",
+      "sha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227",
+      "source_path": "research/india-pakistan/data/gfi_categories.csv",
+      "source_sha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227",
+      "transformation": "Exact canonical companion export; historical model and references unchanged"
+    }
+  ]
+}

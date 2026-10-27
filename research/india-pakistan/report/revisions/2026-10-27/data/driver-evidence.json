@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "title": "Evidence-linked alternative-protein demand drivers",
+  "as_of": "2026-10-27",
+  "status": "local_review_candidate",
+  "source_policy": "Retained local evidence only; no new retrieval or source-data changes; no original source reproduced in full.",
+  "scope": "Eight organizing factors, not an exhaustive driver census. Mechanisms and recommendations are hypotheses/proposals unless explicitly classified otherwise.",
+  "us_comparison": {
+    "themes": [
+      "political environment",
+      "health trends",
+      "R&D landscape"
+    ],
+    "provenance": "Reviewer-supplied comparison prompts; original US-panel passage and executed methods not established in this revision.",
+    "restriction": "Do not attribute these as verified original-panel findings, pool panels, reproduce private questionnaire text or infer equivalent methods. Umar supplemental US arm is separate."
+  },
+  "sources": [
+    {
+      "source_id": "imf_weo_2026_10",
+      "title": "World Economic Outlook database, October 2026",
+      "url": "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH",
+      "publication_date": null,
+      "edition": "October 2026",
+      "observation_period": "Historical series and projections through 2031",
+      "capture_date": "2026-10-15",
+      "locator": "Retained inputs: LP and NGDP_RPCH, India/Pakistan; proxy methods section 3.2",
+      "inspection": "Retained source ledger and exact proxy specification; raw API capture not re-read in this driver pass",
+      "limit": "Macro series; post-2031 continuation is an analyst extrapolation; no estimated alternative-protein income response"
+    },
+    {
+      "source_id": "fao_sofi_2025",
+      "title": "The State of Food Security and Nutrition in the World 2025",
+      "url": "https://www.fao.org/fileadmin/templates/cfs/CFS53/Plenary_documents/Inf.15_SOFI_Report/EN_compiled.pdf",
+      "publication_date": null,
+      "edition": "2025",
+      "observation_period": "2024 affordability observations",
+      "capture_date": "2026-10-13",
+      "locator": "Annex A1.6, physical PDF page 176, India/Pakistan rows and 2024 percentage column",
+      "inspection": "Retained original text extraction re-read",
+      "limit": "Modelled economic access to a healthy diet; not a protein diagnosis, alternative-product price premium or purchase measure"
+    },
+    {
+      "source_id": "fao_fbs_2025_10_28",
+      "title": "FAOSTAT Food Balances, vintage 28 October 2025",
+      "url": "https://www.fao.org/faostat/en/#data/FBS",
+      "publication_date": "2025-10-28",
+      "edition": "2025-10-28 vintage",
+      "observation_period": "2023",
+      "capture_date": "2026-10-13",
+      "locator": "Retained input rows for seven animal-source protein-supply groups; proxy methods section 3.4",
+      "inspection": "Retained aggregate inputs and specification; original extract retrieval date remains unknown",
+      "limit": "National supply availability, not household intake, taste, willingness or displacement"
+    },
+    {
+      "source_id": "india_cultural_bryant_2019",
+      "title": "A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China",
+      "url": "https://doi.org/10.3389/fsufs.2019.00011",
+      "publication_date": null,
+      "edition": "2019",
+      "observation_period": "Fieldwork dates not established in this review",
+      "capture_date": "2026-10-13",
+      "locator": "Physical PDF pages 1–3, abstract, Methods/Participants, Materials and sample description",
+      "inspection": "Retained original text extraction re-read",
+      "limit": "India online sample n=1,024, skewed urban, affluent and educated; hypothetical intention; no Pakistan sample; cannot establish national repeat purchase"
+    },
+    {
+      "source_id": "gfi_india_smart_protein_economic_analysis_2022",
+      "title": "Smart Protein Economic Analysis, GFI India and Deloitte India",
+      "url": "https://gfi-india.org/wp-content/uploads/2024/06/GFI-India-economic-analysis.pdf",
+      "publication_date": null,
+      "edition": "2022-context analysis; exact publication date unestablished",
+      "observation_period": "2022 baseline estimate; 2030 scenarios",
+      "capture_date": "2026-10-13",
+      "locator": "Physical PDF page 1, Methodology; page 2, Scenarios explained footnote; page 4, Domestic market size by 2030",
+      "inspection": "Retained original text extraction re-read; independently visually checked physical PDF pages 1, 2 and 4 on 27 October 2026",
+      "limit": "Public summary describes mechanisms but not fitted coefficients; price basis and retail valuation unstated; upload path is not publication date",
+      "original_sha256": "72f78a7bf5f58936ad54976d2f3bdb6fe4fbf8c59dc0eb5f29713d5d04a6abb6"
+    },
+    {
+      "source_id": "pakistan_cultural_halal_act_2016",
+      "title": "Pakistan Halal Authority Act, 2016",
+      "url": "https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+      "publication_date": null,
+      "edition": "Act VIII of 2016",
+      "observation_period": "Dated institutional text",
+      "capture_date": "2026-10-13",
+      "locator": "Sections 1, 3 and 10; establishment and powers/functions",
+      "inspection": "Retained original text extraction re-read",
+      "limit": "Not a current exhaustive legal opinion, commencement audit or authorization/certification for a named novel product"
+    },
+    {
+      "source_id": "india_pib_bioe3_2024",
+      "title": "Cabinet approves BioE3 policy",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2048568&lang=2&reg=3",
+      "publication_date": "2024-08-24",
+      "edition": null,
+      "observation_period": "Policy announcement on 24 August 2024",
+      "capture_date": "2026-10-13",
+      "locator": "Announcement paragraphs on innovation, Biomanufacturing/Bio-AI hubs and smart proteins/functional foods",
+      "inspection": "Retained official page text re-read",
+      "limit": "Policy intent; not verified expenditure, implementation output, product authorization or sales effect"
+    },
+    {
+      "source_id": "gfi_india_talent_landscape",
+      "title": "A comprehensive analysis of India's talent landscape for the smart protein sector",
+      "url": "https://gfi-india.org/resource/smart-protein-skills-mapping/",
+      "publication_date": null,
+      "website_listing_date": "2025-12-19",
+      "edition": "Undated PDF; listing date recorded separately",
+      "observation_period": "Study cohorts; fieldwork dates not established here",
+      "capture_date": null,
+      "locator": "Physical PDF page 10, industry n=20 and academic n=19; page 12, technical skill gaps",
+      "inspection": "Text freshly extracted from retained original PDF and relevant passages re-read",
+      "limit": "Sampled testimony and curriculum review; not a national skills-shortage census or a measured return to training"
+    },
+    {
+      "source_id": "altprotein_jobs_vacancy_2023_2025",
+      "title": "Retained AltProtein.Jobs annual vacancy extract",
+      "url": null,
+      "publication_date": null,
+      "edition": "Retained 2023–2025 extract",
+      "observation_period": "2023–2025",
+      "capture_date": null,
+      "locator": "Packaged altprotein_proxy_inputs.csv; India 381/529 (2023/2025), Pakistan 58 (2025); proxy methods section 3.3",
+      "inspection": "Retained aggregate input/specification only; original board coverage not independently established",
+      "limit": "Advertisements, not employees, successful hiring, unmet vacancies or product sales; underlying workbook not redistributed"
+    },
+    {
+      "source_id": "altprotein_jobs_company_directory_2024",
+      "title": "Retained AltProtein.Jobs directory extract described as 2024",
+      "url": null,
+      "publication_date": null,
+      "edition": "Directory labelled 2024",
+      "observation_period": "Directory snapshot; not a current census",
+      "capture_date": null,
+      "locator": "Packaged altprotein_proxy_inputs.csv; India 119 directory rows, Pakistan 2; proxy methods section 3.3",
+      "inspection": "Retained aggregate input/specification only",
+      "limit": "Uneven board coverage and potential duplicate records; not a national firm count, operating-capacity inventory or evidence of absence"
+    },
+    {
+      "source_id": "proxy_specification_20261022",
+      "title": "Retained India–Pakistan proxy specification",
+      "url": null,
+      "publication_date": "2026-10-22",
+      "edition": "AI-assisted review draft",
+      "observation_period": "2022 anchor; 2026/2030/2035 scenarios",
+      "capture_date": null,
+      "locator": "methods/proxy.md sections 1, 3.3–3.4 and 6",
+      "inspection": "Local specification read",
+      "limit": "Documents model treatment and evidence boundaries; not an independent empirical source"
+    },
+    {
+      "source_id": "gfi_us_sales_press_2021",
+      "title": "Plant-based food retail sales grow 27 percent to reach $7 billion in 2020",
+      "url": "https://gfi.org/press/plant-based-food-retail-sales-grow-27-percent-to-reach-7-billion-in-2020/",
+      "publication_date": "2021-04-06",
+      "edition": null,
+      "observation_period": "52 weeks ending 27 December 2020",
+      "capture_date": "2026-10-19",
+      "locator": "Dated opening; paragraph on Covid-19 and future consumption; methodology",
+      "inspection": "Retained original HTML read; date and canonical URL checked",
+      "limit": "US trade-sector release; sentiment is attributed; later capture cannot prove byte identity with publication-day text"
+    },
+    {
+      "source_id": "gfi_us_sales_press_2022",
+      "title": "U.S. plant-based food retail sales hit $7.4 billion",
+      "url": "https://gfi.org/press/u-s-plant-based-food-retail-sales-hit-7-4-billion/",
+      "publication_date": "2022-03-24",
+      "edition": null,
+      "observation_period": "52 weeks ending 26 December 2021",
+      "capture_date": "2026-10-19",
+      "locator": "Dated opening; plant-based meat paragraph; macro conditions and price paragraph; methodology",
+      "inspection": "Retained original HTML read; date and canonical URL checked",
+      "limit": "US sector release; aggregate growth and flat meat sales coexist; no evidence identifying Deloitte India parameter choices"
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": "D01",
+      "factor": "Income",
+      "direction": "Conditional upward mechanism; mixed net demand effect",
+      "mechanism": "Purchasing power can expand feasible purchases, but income growth does not identify which foods gain.",
+      "upward_pressure": "Higher real resources could support purchases of replacement products.",
+      "obstacle": "Income may instead expand conventional animal-food spending; distributional and price differences matter.",
+      "india": {
+        "evidence": "Retained WEO real-income path is an input; the spending response is an analyst-selected elasticity.",
+        "source_ids": [
+          "imf_weo_2026_10",
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Macro projection plus model assumption",
+        "population": "National aggregate; not household segments"
+      },
+      "pakistan": {
+        "evidence": "Retained WEO path and relative-income transfer are used; no national alternative-protein sales anchor validates that response.",
+        "source_ids": [
+          "imf_weo_2026_10",
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Macro projection plus unvalidated transfer",
+        "population": "National aggregate; not household segments"
+      },
+      "model_treatment": "Explicit income index and elasticity; distribution and causal demand elasticity are not estimated.",
+      "signpost": "Revisions to real income and actual replacement-food purchases by defined income group.",
+      "us_theme": "No direct mapping established.",
+      "recommendation_ids": [
+        "R01"
+      ],
+      "obstacle_disposition": "Monitor macro revisions and measure segmented purchases.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D02",
+      "factor": "Affordability and relative price",
+      "direction": "Lower comparable prices could increase access; magnitude unmeasured",
+      "mechanism": "Retail price per usable serving and household budget jointly constrain purchase.",
+      "upward_pressure": "Lower real price per comparable serving could permit more frequent purchase.",
+      "obstacle": "Price parity with meat alone may not make a product affordable relative to other foods or household budgets.",
+      "india": {
+        "evidence": "SOFI reports 40.4% unable to afford a healthy diet in 2024; this is not an alternative-product premium.",
+        "source_ids": [
+          "fao_sofi_2025"
+        ],
+        "evidence_class": "Published modelled economic-access estimate",
+        "population": "National population; healthy-diet basket"
+      },
+      "pakistan": {
+        "evidence": "SOFI reports 60.3% unable to afford a healthy diet in 2024; comparable alternative-product price/paid-purchase evidence remains incomplete.",
+        "source_ids": [
+          "fao_sofi_2025",
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Published modelled economic-access estimate plus retained-evidence gap",
+        "population": "National population; healthy-diet basket"
+      },
+      "model_treatment": "No separate retail-price response or price-parity term; possible indirect effects in additional growth are not identified.",
+      "signpost": "Dated matched retail price, pack/serving definition, in-stock status, paid purchase and unsubsidized repeat purchase.",
+      "us_theme": "Health and R&D are reviewer-supplied prompts; no causal transfer from US sales is assumed.",
+      "recommendation_ids": [
+        "R01",
+        "R02"
+      ],
+      "obstacle_disposition": "Bounded retail audit and purchase study.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D03",
+      "factor": "Dietary practice, taste and health perceptions",
+      "direction": "Mixed; depends on product, meal and group",
+      "mechanism": "A replacement must perform a valued role in actual meals; perceived taste, health and processing can help or impede use.",
+      "upward_pressure": "Familiar preparation and satisfactory sensory performance could support repeat use.",
+      "obstacle": "An analogue can be irrelevant to a meal or conflict with preferences; health beliefs are not nutritional or clinical findings.",
+      "india": {
+        "evidence": "Bryant et al. measure product beliefs and hypothetical intention in an urban/affluent-skewed online sample. GFI estimates a dairy-heavy 2022 category mix.",
+        "source_ids": [
+          "india_cultural_bryant_2019",
+          "gfi_india_smart_protein_economic_analysis_2022"
+        ],
+        "evidence_class": "Sample-specific stated intent and external modelled category estimate",
+        "population": "India online respondents n=1,024; separate national market estimate"
+      },
+      "pakistan": {
+        "evidence": "Animal-protein food-balance supply provides context, not evidence that people will choose chicken or milk replacements. No matched national preference estimate is established here.",
+        "source_ids": [
+          "fao_fbs_2025_10_28",
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "National supply proxy and retained-evidence gap",
+        "population": "National food availability; not sampled purchasers"
+      },
+      "model_treatment": "Pakistan animal-supply multiplier; no separate taste, cuisine, health-perception or category-choice model.",
+      "signpost": "Meal-specific blind and labelled choices, preparation success and paid repeat use by defined groups.",
+      "us_theme": "Health trends: reviewer-supplied comparison prompt; test locally without assuming its direction.",
+      "recommendation_ids": [
+        "R02"
+      ],
+      "obstacle_disposition": "Study product/meal fit and distinguish perceptions from health evidence.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D04",
+      "factor": "Social legitimacy and familiarity",
+      "direction": "Mixed and group-specific",
+      "mechanism": "Familiarity and trusted information may affect willingness, but expressed acceptance need not become purchase.",
+      "upward_pressure": "Credible information and appropriate product experience could reduce uncertainty.",
+      "obstacle": "Stigma, distrust or unfamiliarity can coexist with favourable hypothetical answers.",
+      "india": {
+        "evidence": "Bryant et al. associate familiarity with acceptance in their study; this is not a randomized information effect or a national conversion rate.",
+        "source_ids": [
+          "india_cultural_bryant_2019"
+        ],
+        "evidence_class": "Observational association in an online intention survey",
+        "population": "India online sample; country comparisons retain recruitment limits"
+      },
+      "pakistan": {
+        "evidence": "The retained package does not supply a comparable national paid/repeat-purchase measure; India evidence cannot fill it.",
+        "source_ids": [
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Corpus-bounded missing evidence",
+        "population": "No national purchaser sample established"
+      },
+      "model_treatment": "No independently estimated social-legitimacy coefficient; possible residual effects cannot be separated.",
+      "signpost": "Clearly separated stated intention, paid first purchase, unsubsidized repeat purchase and conventional-food displacement.",
+      "us_theme": "Politics and health: reviewer-supplied prompts, not established country effects.",
+      "recommendation_ids": [
+        "R02"
+      ],
+      "obstacle_disposition": "Bounded study; no national acceptance ranking.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D05",
+      "factor": "Certification and product-specific assurance",
+      "direction": "Conditional enabling or constraining; not a universal demand effect",
+      "mechanism": "A named product needs its relevant assurance and authorization questions resolved separately.",
+      "upward_pressure": "A documented applicable route can reduce uncertainty for suppliers and prospective purchasers.",
+      "obstacle": "Ingredient/process-specific halal questions and food-authorization requirements cannot be inferred from a general institution.",
+      "india": {
+        "evidence": "This bounded source set supplies no product-specific halal determination or novel-product approval for the proposed fermentation example.",
+        "source_ids": [
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Retained-evidence limitation; no legal conclusion",
+        "population": "Named product and intended jurisdiction must be specified"
+      },
+      "pakistan": {
+        "evidence": "The 2016 Act establishes halal institutional provisions; it does not settle a particular fermentation ingredient or product food authorization.",
+        "source_ids": [
+          "pakistan_cultural_halal_act_2016"
+        ],
+        "evidence_class": "Dated institutional text",
+        "population": "Act scope; not a product decision or complete current legal audit"
+      },
+      "model_treatment": "No certification parameter; cultivated meat excluded; fermentation is not separately estimated.",
+      "signpost": "Dated written product/process-specific decisions from the relevant competent bodies, recorded separately for assurance and food authorization.",
+      "us_theme": "Political environment: reviewer-supplied prompt; US regulatory conclusions are not transferred.",
+      "recommendation_ids": [
+        "R03",
+        "R07"
+      ],
+      "obstacle_disposition": "Obtain qualified product-specific clarification before any pilot sale.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D06",
+      "factor": "Public policy",
+      "direction": "Potentially supportive or restrictive; uptake effect unmeasured",
+      "mechanism": "Policy can alter research resources, market entry and compliance conditions; implementation mediates effects.",
+      "upward_pressure": "Implemented support could improve capabilities and feasible product pathways.",
+      "obstacle": "An announcement can remain unimplemented or fail to affect consumer price and availability.",
+      "india": {
+        "evidence": "BioE3 announcement of 24 August 2024 identifies smart proteins, R&D and Bio-AI/biomanufacturing infrastructure.",
+        "source_ids": [
+          "india_pib_bioe3_2024"
+        ],
+        "evidence_class": "Official policy-intent announcement",
+        "population": "Named policy sectors; not observed firms or buyers"
+      },
+      "pakistan": {
+        "evidence": "The Halal Authority Act supplies a dated institutional basis; it is not evidence of equivalent smart-protein funding or product uptake.",
+        "source_ids": [
+          "pakistan_cultural_halal_act_2016"
+        ],
+        "evidence_class": "Institutional legal text",
+        "population": "Dated legal scope; not programme performance"
+      },
+      "model_treatment": "No separate policy multiplier; cannot estimate a policy effect from the scenarios.",
+      "signpost": "Policy instrument, implementation evidence, disbursement, product authorization and observable retail outcome tracked as different stages.",
+      "us_theme": "Political environment: reviewer-supplied prompt pending original-panel provenance.",
+      "recommendation_ids": [
+        "R03",
+        "R07"
+      ],
+      "obstacle_disposition": "Monitor specific implementation stages; do not forecast approvals.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D07",
+      "factor": "Industry capacity and market access",
+      "direction": "Conditional upward capacity mechanism; demand and constraints unresolved",
+      "mechanism": "Technical capabilities and reliable distribution can improve performance, unit cost and availability.",
+      "upward_pressure": "A verified bottleneck resolved through a feasible intervention could improve product access.",
+      "obstacle": "Vacancies and company-list entries do not measure productive capacity, skills shortages or repeated retail availability.",
+      "india": {
+        "evidence": "GFI talent study reports 20 industry responses and 19 academic participants, with technical skill concerns. Retained job advertisements measure activity only.",
+        "source_ids": [
+          "gfi_india_talent_landscape",
+          "altprotein_jobs_vacancy_2023_2025"
+        ],
+        "evidence_class": "Sampled employer/academic testimony and job-board proxy",
+        "population": "Study cohorts and covered advertisements; not national workforce"
+      },
+      "pakistan": {
+        "evidence": "Two directory rows and 58 recorded 2025 vacancies enter the retained proxies; uneven coverage prevents inferring national absence or operating capacity.",
+        "source_ids": [
+          "altprotein_jobs_company_directory_2024",
+          "altprotein_jobs_vacancy_2023_2025"
+        ],
+        "evidence_class": "Incomplete directory/advertisement proxies",
+        "population": "Board-covered records; no census"
+      },
+      "model_treatment": "Vacancy CAGR sets India drift ceiling; relative directory/vacancy densities bound Pakistan industry factor. Neither relationship is fitted to sales.",
+      "signpost": "Verified facilities/staff, measured process performance, batch/unit cost, outlet availability and repeat purchases; advertisements tracked separately.",
+      "us_theme": "R&D landscape: reviewer-supplied prompt; technical bottlenecks require country/product evidence.",
+      "recommendation_ids": [
+        "R01",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "obstacle_disposition": "India employer-linked bottleneck trial; Pakistan feasibility first; retail availability audit.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    },
+    {
+      "driver_id": "D08",
+      "factor": "AI and relative technical progress",
+      "direction": "Mixed; country-level spending effect unmeasured",
+      "mechanism": "AI might affect technical performance and cost; retail pass-through and improvements in conventional production determine relative competitiveness.",
+      "upward_pressure": "Validated process gains could lower delivered costs or improve functionality.",
+      "obstacle": "A laboratory or company claim need not survive scale-up or reach retail prices; conventional products may improve too.",
+      "india": {
+        "evidence": "BioE3 proposes Bio-AI infrastructure. The retained proxy does not estimate an AI spending effect.",
+        "source_ids": [
+          "india_pib_bioe3_2024",
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Policy intent and model-specification limitation",
+        "population": "Policy sectors; no national treatment-effect sample"
+      },
+      "pakistan": {
+        "evidence": "No independently established country-level AI effect on alternative-protein spending is supplied by this retained package; absence here is not evidence that applications do not exist.",
+        "source_ids": [
+          "proxy_specification_20261022"
+        ],
+        "evidence_class": "Corpus-bounded missing effect estimate",
+        "population": "No national effect identified"
+      },
+      "model_treatment": "No separate AI multiplier; avoid adding a bonus already implicit in growth assumptions.",
+      "signpost": "AI versus credible non-AI baseline for validated output, cost, consistency and retail price/availability; also observe conventional comparators.",
+      "us_theme": "R&D landscape: reviewer-supplied prompt; no universal AI advantage assumed.",
+      "recommendation_ids": [
+        "R06"
+      ],
+      "obstacle_disposition": "Only a feasible benchmarked technical trial; otherwise monitor.",
+      "review_disposition": "pending_human_review",
+      "causal_effect_identified": false
+    }
+  ]
+}

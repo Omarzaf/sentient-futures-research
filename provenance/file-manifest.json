@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".codexignore",
-      "bytes": 706,
-      "sha256": "600363bc209325d2b37077a631a6b55029d7708e25ce5b8df443e1efbe3ba87f"
+      "bytes": 917,
+      "sha256": "21a5cf05fff91894ad3201e3272be2fd5f0ee75669ac2faeedb2304ac20654b9"
     },
     {
       "path": ".gitattributes",
@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9226,
-      "sha256": "f6b43a9f0130a39a0f5d3346b961c9a536d6e4273143a6f5e155850874bfff08"
+      "bytes": 9558,
+      "sha256": "0d2a4a171ca0b78589fafae4fcbeb4b316c2d2f773f840b31cabda2d462d41da"
     },
     {
       "path": "RESEARCH-METHOD.md",
@@ -138,8 +138,8 @@
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 105173,
-      "sha256": "45f8e67947052bd6eccb47fe909a339f03056b061abd5e69d6b219557b2084cf"
+      "bytes": 130843,
+      "sha256": "736cf85b6b9c0c148f0edcc5d8ea54b6035bc9ba79c3cd2bbab1cb97a93c33d7"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
@@ -1372,6 +1372,61 @@
       "sha256": "96544cef5b1d298db146a29eaf09df356aed3bc934aa8c80699a3aee7f652386"
     },
     {
+      "path": "research/india-pakistan/build/gfi-gap/REPORT.md",
+      "bytes": 12411,
+      "sha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/artifact-hashes.json",
+      "bytes": 1373,
+      "sha256": "b068325ce25e59c7c5fe7e090ea349a734ade9258bae91c409c409251d19d209"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/category-growth.csv",
+      "bytes": 1965,
+      "sha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/category-reconciliation.csv",
+      "bytes": 288,
+      "sha256": "c90328ce42cce115b207ed6aaf5d1fb1ae138e41ea0bd90c96c4d57876041bce"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/diagnostics.json",
+      "bytes": 110412,
+      "sha256": "52915781db8e6294a8f05ed5369fdff205260b0517359e4014491de006752d8b"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/factor-draws.csv",
+      "bytes": 2718179,
+      "sha256": "2ee440668464737b02af0cfb51b28ee6f17c70152e3c26058a12dc5fda9adb74"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/midpoint-factors.csv",
+      "bytes": 492,
+      "sha256": "bb633badbf9b79f498bcfa470462020dd012a034cd576c2d4f4927ef5befad5e"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/reference-checks.csv",
+      "bytes": 5192,
+      "sha256": "058cc2d4453dd5cfd6940a042cd641f6b33654faff9b907e1c79612b3cb28019"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/required-growth.csv",
+      "bytes": 10061,
+      "sha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/sensitivity-summary.csv",
+      "bytes": 14406,
+      "sha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216"
+    },
+    {
+      "path": "research/india-pakistan/build/gfi-gap/target-comparison.csv",
+      "bytes": 912,
+      "sha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da"
+    },
+    {
       "path": "research/india-pakistan/claims.csv",
       "bytes": 306249,
       "sha256": "59ba5d3b09e378ebf3f7b4c64d894de5aeb34274a96714f438d3ea5530b99a8d"
@@ -1490,6 +1545,11 @@
       "path": "research/india-pakistan/data/fetch_raw.py",
       "bytes": 12572,
       "sha256": "d5344f255c8e6aba47a46820bd1d6b015de80d2f142520820b6f98fb7075c874"
+    },
+    {
+      "path": "research/india-pakistan/data/gfi_categories.csv",
+      "bytes": 9888,
+      "sha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227"
     },
     {
       "path": "research/india-pakistan/data/household_size_context.csv",
@@ -2217,6 +2277,11 @@
       "sha256": "fbb13c04c2b3cc23f51c5dbffa5a77411da2fbd66dc7827c2c83964f6a7eb7e7"
     },
     {
+      "path": "research/india-pakistan/pipeline/tests/test_gfi_gap.py",
+      "bytes": 17877,
+      "sha256": "c9b7e3e0493323ba6c7f8353908c919c4800aeaf628819c6a2a10758afea4565"
+    },
+    {
       "path": "research/india-pakistan/pipeline/tests/test_national.py",
       "bytes": 3382,
       "sha256": "da3dc82eb6d0ffb3ec7cc8e6eeeac591966fc81a4c7739a0e4a674f1fae63b9b"
@@ -2262,6 +2327,161 @@
       "sha256": "1b68439b0635eb1a3d0278b6838f4ff9eb16c8993b1f971234a623ba79cab4e3"
     },
     {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/README.md",
+      "bytes": 1424,
+      "sha256": "ba83b6aced6f4032c8a176fd7db5550828a929aa95293a26844752da2953d3df"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/RIGHTS.md",
+      "bytes": 1695,
+      "sha256": "6fd5490aa56572de83a7d84fb6dbbfdd71197f1dabfff68bb88a02d51cb5a4e2"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/REPORT.md",
+      "bytes": 12411,
+      "sha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/category-growth.csv",
+      "bytes": 1965,
+      "sha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/required-growth.csv",
+      "bytes": 10061,
+      "sha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/sensitivity-summary.csv",
+      "bytes": 14406,
+      "sha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/target-comparison.csv",
+      "bytes": 912,
+      "sha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/data/driver-evidence.json",
+      "bytes": 26622,
+      "sha256": "8665627070f2d697aa91b6ad0032108b9f69d61907249a68074565082ce4a4da"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/data/gfi_categories.csv",
+      "bytes": 9888,
+      "sha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/data/recommendations.csv",
+      "bytes": 7039,
+      "sha256": "349cc5c2dd72d142819d5675c70d55c663603dfac18c0d2a8a12cfc2ce380ed7"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/evidence-review.md",
+      "bytes": 4775,
+      "sha256": "06c7ca31e23b867648f0ff7762edbe284394ffe51881e9c92b7ab705a1776b70"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/dated-context.md",
+      "bytes": 5223,
+      "sha256": "52daeb7a13b1522fea3f055d155ea4c2ff4d5d09f8c3ca7ddb6b1c483fb1d4da"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/drivers.md",
+      "bytes": 13353,
+      "sha256": "d16a4ffe2665aa57d7765cc49a455b0b1cd7d2e6ca5cfb0c3693bebf5e401c97"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/gfi-gap.md",
+      "bytes": 11755,
+      "sha256": "1b55a81c1d94996a462b7a9c3bd02f78d7f9d0345172fc91bb82709e420d8e5c"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/measurement-crosswalk.md",
+      "bytes": 2653,
+      "sha256": "df0f05d2f167aa1192245d001b38bd60a1eecabd3e53e86d2b83096dc2c61f3d"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/panel-supplement.md",
+      "bytes": 12558,
+      "sha256": "8fa1241ec7f7d4e54b473e620a8068a9df14a71024cb1b56a6b81a33b40a516d"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/methods/proxy.md",
+      "bytes": 17014,
+      "sha256": "ec9f19469f08ca2d43b7ebbb04336f2820e22a62ec9257e38db877d04fad1805"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/claims.md",
+      "bytes": 12973,
+      "sha256": "a2237633310ae7b74921dfb224ad89e623b8e4c7abf5187a9ae40ee120a5fe99"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/proxy-source-ledger.csv",
+      "bytes": 2915,
+      "sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
+      "bytes": 16773,
+      "sha256": "25f1ec8b943f8200b9640e8374a16a2eeac23c55030e3e4ef3ee9df48c1bd203"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/sources.md",
+      "bytes": 10150,
+      "sha256": "6579dd963e2077c417690abb79885ccec1acc014776ad3d8ca92ddd746e62ca6"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
+      "bytes": 13941,
+      "sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/figure-data.json",
+      "bytes": 704,
+      "sha256": "fa40213e816854b0cef6e813426f39eea8eb4b94e834643e82f252b53e2d2550"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.png",
+      "bytes": 90089,
+      "sha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.svg",
+      "bytes": 66525,
+      "sha256": "963ce0a0dbf7642233c7eb1ce403324efd9395cb57b73f7ff8d8e1dd738ff940"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/limitations-and-ai-use.md",
+      "bytes": 5895,
+      "sha256": "54fa99a15e210c357e29cd46d55ef417c04f860fde377b51ee572a03eb15953f"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/report/report.css",
+      "bytes": 4191,
+      "sha256": "15a15b6ccae976f2af6efddfb593147332fdaf4c65b6aa8e02ea3f12cdafb3df"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/scripts/build_documents.py",
+      "bytes": 5623,
+      "sha256": "6797fb5a4da76f8919be59c365f15168e06edd9ecca56b0f30142ff64129179b"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
+      "bytes": 4512,
+      "sha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/supporting-files.json",
+      "bytes": 3893,
+      "sha256": "3f8e755665eb3627bdbfc67da7ea568d7231b4b3a7e03f64c7c22989d16fa1cb"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
+      "bytes": 19965,
+      "sha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c"
+    },
+    {
       "path": "research/india-pakistan/source-register.json",
       "bytes": 38154,
       "sha256": "1a17f860facc0d95b7008be38f487aeda4b08834bd72f7fc7cabbebf505964a0"
@@ -2295,6 +2515,11 @@
       "path": "research/india-pakistan/tools/export_report.py",
       "bytes": 3975,
       "sha256": "7435cc1dfc6c4009da717c2cdac0cf38fd7202cf15a3e883b83dbfe35db1e798"
+    },
+    {
+      "path": "research/india-pakistan/tools/gfi_gap.py",
+      "bytes": 39457,
+      "sha256": "f51e32134c8e5fa08b2b66b4297bb09e39792df26b87b20e32ca7cf39da9277f"
     },
     {
       "path": "research/india-pakistan/tools/make_report_reference.py",

@@ -1,0 +1,71 @@
+{
+  "edition": "2026-10-27-local-review",
+  "files": [
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/data/gfi_categories.csv",
+      "source": "data/gfi_categories.csv",
+      "sha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/REPORT.md",
+      "source": "build/gfi-gap/REPORT.md",
+      "sha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/category-growth.csv",
+      "source": "build/gfi-gap/category-growth.csv",
+      "sha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/target-comparison.csv",
+      "source": "build/gfi-gap/target-comparison.csv",
+      "sha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/required-growth.csv",
+      "source": "build/gfi-gap/required-growth.csv",
+      "sha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/sensitivity-summary.csv",
+      "source": "build/gfi-gap/sensitivity-summary.csv",
+      "sha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/claims.md",
+      "source": "provenance/claims.md",
+      "sha256": "a2237633310ae7b74921dfb224ad89e623b8e4c7abf5187a9ae40ee120a5fe99",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/sources.md",
+      "source": "provenance/sources.md",
+      "sha256": "6579dd963e2077c417690abb79885ccec1acc014776ad3d8ca92ddd746e62ca6",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/proxy-source-ledger.csv",
+      "source": "provenance/proxy-source-ledger.csv",
+      "sha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
+      "source": "provenance/source-map.json",
+      "sha256": "25f1ec8b943f8200b9640e8374a16a2eeac23c55030e3e4ef3ee9df48c1bd203",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    },
+    {
+      "path": "research/india-pakistan/report/revisions/2026-10-27/RIGHTS.md",
+      "source": "RIGHTS.md",
+      "sha256": "6fd5490aa56572de83a7d84fb6dbbfdd71197f1dabfff68bb88a02d51cb5a4e2",
+      "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
+    }
+  ]
+}

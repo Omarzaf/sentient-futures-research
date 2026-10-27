@@ -1400,5 +1400,275 @@
     "sourceDocument": "Project-authored joint-report showcase input, 17 October 2026: D5-showcase-input.md",
     "sourceSha256": "61c567005c1a0749d9e82bd94432f29f101c43a762d1c81701afd483e39a873a",
     "changes": "Condenses D1-regional-section.md into three pitch sentences, one headline and two alternative headline numbers. Retains D1 claim IDs in HTML comments, constant-price dollar units, the observed US benchmark and speculative scenario status. Records project authorship without establishing human verification or external sharing."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/REPORT.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/REPORT.md",
+    "sourceSha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/artifact-hashes.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/artifact-hashes.json",
+    "sourceSha256": "b068325ce25e59c7c5fe7e090ea349a734ade9258bae91c409c409251d19d209",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/category-growth.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/category-growth.csv",
+    "sourceSha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/category-reconciliation.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/category-reconciliation.csv",
+    "sourceSha256": "c90328ce42cce115b207ed6aaf5d1fb1ae138e41ea0bd90c96c4d57876041bce",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/diagnostics.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/diagnostics.json",
+    "sourceSha256": "52915781db8e6294a8f05ed5369fdff205260b0517359e4014491de006752d8b",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/factor-draws.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/factor-draws.csv",
+    "sourceSha256": "2ee440668464737b02af0cfb51b28ee6f17c70152e3c26058a12dc5fda9adb74",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/midpoint-factors.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/midpoint-factors.csv",
+    "sourceSha256": "bb633badbf9b79f498bcfa470462020dd012a034cd576c2d4f4927ef5befad5e",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/reference-checks.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/reference-checks.csv",
+    "sourceSha256": "058cc2d4453dd5cfd6940a042cd641f6b33654faff9b907e1c79612b3cb28019",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/required-growth.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/required-growth.csv",
+    "sourceSha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/sensitivity-summary.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/sensitivity-summary.csv",
+    "sourceSha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/gfi-gap/target-comparison.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/build/gfi-gap/target-comparison.csv",
+    "sourceSha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/data/gfi_categories.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/data/gfi_categories.csv",
+    "sourceSha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/pipeline/tests/test_gfi_gap.py",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/pipeline/tests/test_gfi_gap.py",
+    "sourceSha256": "c9b7e3e0493323ba6c7f8353908c919c4800aeaf628819c6a2a10758afea4565",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/README.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/README.md",
+    "sourceSha256": "ba83b6aced6f4032c8a176fd7db5550828a929aa95293a26844752da2953d3df",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/REPORT.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/REPORT.md",
+    "sourceSha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/category-growth.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/category-growth.csv",
+    "sourceSha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/required-growth.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/required-growth.csv",
+    "sourceSha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/sensitivity-summary.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/sensitivity-summary.csv",
+    "sourceSha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/target-comparison.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/build/gfi-gap/target-comparison.csv",
+    "sourceSha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/data/driver-evidence.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/data/driver-evidence.json",
+    "sourceSha256": "8665627070f2d697aa91b6ad0032108b9f69d61907249a68074565082ce4a4da",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/data/gfi_categories.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/data/gfi_categories.csv",
+    "sourceSha256": "67069e3aef22b06a9d8b37e91fd9e3d9ab59471127f7c87e7cbcf7fd09402227",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/data/recommendations.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/data/recommendations.csv",
+    "sourceSha256": "349cc5c2dd72d142819d5675c70d55c663603dfac18c0d2a8a12cfc2ce380ed7",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/evidence-review.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/evidence-review.md",
+    "sourceSha256": "06c7ca31e23b867648f0ff7762edbe284394ffe51881e9c92b7ab705a1776b70",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/dated-context.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/dated-context.md",
+    "sourceSha256": "52daeb7a13b1522fea3f055d155ea4c2ff4d5d09f8c3ca7ddb6b1c483fb1d4da",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/drivers.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/drivers.md",
+    "sourceSha256": "d16a4ffe2665aa57d7765cc49a455b0b1cd7d2e6ca5cfb0c3693bebf5e401c97",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/gfi-gap.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/gfi-gap.md",
+    "sourceSha256": "1b55a81c1d94996a462b7a9c3bd02f78d7f9d0345172fc91bb82709e420d8e5c",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/measurement-crosswalk.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/measurement-crosswalk.md",
+    "sourceSha256": "df0f05d2f167aa1192245d001b38bd60a1eecabd3e53e86d2b83096dc2c61f3d",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/panel-supplement.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/panel-supplement.md",
+    "sourceSha256": "8fa1241ec7f7d4e54b473e620a8068a9df14a71024cb1b56a6b81a33b40a516d",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/methods/proxy.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/methods/proxy.md",
+    "sourceSha256": "ec9f19469f08ca2d43b7ebbb04336f2820e22a62ec9257e38db877d04fad1805",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/claims.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/provenance/claims.md",
+    "sourceSha256": "a2237633310ae7b74921dfb224ad89e623b8e4c7abf5187a9ae40ee120a5fe99",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/sources.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/provenance/sources.md",
+    "sourceSha256": "6579dd963e2077c417690abb79885ccec1acc014776ad3d8ca92ddd746e62ca6",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
+    "sourceSha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/figure-data.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/figures/figure-data.json",
+    "sourceSha256": "fa40213e816854b0cef6e813426f39eea8eb4b94e834643e82f252b53e2d2550",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.png",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.png",
+    "sourceSha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.svg",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/figures/gfi-required-growth.svg",
+    "sourceSha256": "963ce0a0dbf7642233c7eb1ce403324efd9395cb57b73f7ff8d8e1dd738ff940",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/limitations-and-ai-use.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/limitations-and-ai-use.md",
+    "sourceSha256": "54fa99a15e210c357e29cd46d55ef417c04f860fde377b51ee572a03eb15953f",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/report/report.css",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/report/report.css",
+    "sourceSha256": "15a15b6ccae976f2af6efddfb593147332fdaf4c65b6aa8e02ea3f12cdafb3df",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/scripts/build_documents.py",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/scripts/build_documents.py",
+    "sourceSha256": "6797fb5a4da76f8919be59c365f15168e06edd9ecca56b0f30142ff64129179b",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
+    "sourceSha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/supporting-files.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/supporting-files.json",
+    "sourceSha256": "3f8e755665eb3627bdbfc67da7ea568d7231b4b3a7e03f64c7c22989d16fa1cb",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/tools/gfi_gap.py",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/tools/gfi_gap.py",
+    "sourceSha256": "f51e32134c8e5fa08b2b66b4297bb09e39792df26b87b20e32ca7cf39da9277f",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/RIGHTS.md",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/RIGHTS.md",
+    "sourceSha256": "6fd5490aa56572de83a7d84fb6dbbfdd71197f1dabfff68bb88a02d51cb5a4e2",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/proxy-source-ledger.csv",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/provenance/proxy-source-ledger.csv",
+    "sourceSha256": "e9e7865bdfbc818769747d98a66bb3887e4b5b4309914a3ce54662fdbd6aa956",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
+    "sourceSha256": "25f1ec8b943f8200b9640e8374a16a2eeac23c55030e3e4ef3ee9df48c1bd203",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
+    "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
+    "sourceSha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c",
+    "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
   }
 ]

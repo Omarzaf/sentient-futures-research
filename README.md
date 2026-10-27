@@ -8,6 +8,8 @@ These are **AI-assisted working drafts with human verification pending**, not fi
 
 ## Research
 
+**27 October local revision:** [revised regional chapter and methods](research/india-pakistan/report/revisions/2026-10-27/README.md), including the GFI comparison and driver-linked proposed tests. The earlier supervisor edition below remains preserved. This local candidate has not been published or accepted for the joint report.
+
 | Document | What it contains | Evidence cutoff |
 | --- | --- | --- |
 | [Pakistan and India: The Protein Question](research/india-pakistan/edition/index.html) · [Full report](research/india-pakistan/report/REPORT.md) · [PDF](research/india-pakistan/report/report.pdf) · [Word](research/india-pakistan/report/report.docx) | **Supervisor edition.** Source-linked findings, methods, evidence limits and open questions. National supply, official household survey means, experimental food subtotals and consumer studies remain distinct. Human verification pending | 13 Oct 2026 |
