@@ -1,0 +1,2 @@
+draw_id,elasticity,extra_growth_fraction,animal_weight,industry_factor,population_factor,income_factor,urban_factor,extra_growth_factor,total_multiple,india_2030_million_usd_2025_prices,log_population,log_income,log_urban,log_extra_growth
+0,1.40519470369,0.0791628475153,0.5,0.384844017918,1.06995537465,1.96863870551,1.07206570023,1.83948344346,4.15383239333,188.113110276,0.0676169416697,0.677342291458,0.0695873482981,0.609484794955

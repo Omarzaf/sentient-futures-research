@@ -56,7 +56,12 @@ rights policy governs reuse. Human scholarly verification remains pending.
 
 ## Explicit input retrieval
 
-`../data/MANIFEST.csv` records 1,974 historical artifacts. A provenance URL is not
+`../data/MANIFEST.csv` records 1,987 historical artifacts. The original 1,974
+records are unchanged; thirteen later records document two private job-market
+workbooks, one derived market-page extract and ten proxy-source response
+artifacts. Their presence in this metadata inventory does not authorize sharing
+the underlying files. The offline tests preserve these retrieval boundaries.
+A provenance URL is not
 always the byte-download URL: many entries are locally generated text extractions,
 page images, request receipts, failed requests or user-provided extracts. The
 manifest is metadata, not a promise that every artifact can be downloaded again.

@@ -305,6 +305,8 @@ GFI India's {{year:2030}} domestic scenarios of {{claim:proxyin_gfi_india_domest
 
 The drift and the income elasticity move India's result most. With the drift fixed at its lower bound, India's middle {{year:2035}} value is {{claim:proxy_india_2035_market_value_drift_fixed_low}} million dollars; at its upper bound it is {{claim:proxy_india_2035_market_value_drift_fixed_high}} million. Fixing the elasticity at its bounds gives {{claim:proxy_india_2035_market_value_elasticity_fixed_low}} and {{claim:proxy_india_2035_market_value_elasticity_fixed_high}} million. For Pakistan, the industry-activity factor matters most after the drift: its bounds give {{claim:proxy_pakistan_2035_market_value_ecosystem_fixed_low}} and {{claim:proxy_pakistan_2035_market_value_ecosystem_fixed_high}} million dollars, against {{claim:proxy_pakistan_2035_market_value_drift_fixed_low}} and {{claim:proxy_pakistan_2035_market_value_drift_fixed_high}} million for the drift.
 
+Vacancy growth may include income growth; a sensitivity that subtracts the income contribution from the high drift bound gives an India {{year:2035}} middle value of {{claim:proxy_india_2035_market_value_drift_overlap_adjusted_p50}} million dollars. Pakistan's four multipliers may also overlap; removing its relative urban share and animal protein factors gives a {{year:2035}} range of {{claim:proxy_pakistan_2035_market_value_without_urban_animal_p10}} to {{claim:proxy_pakistan_2035_market_value_without_urban_animal_p90}} million dollars.
+
 ### Projecting the drivers forward
 
 The table carries the report's five drivers and two market proxies forward. Each projection is a speculative direction, not an estimate. The signposts name observations that would show which path is unfolding.

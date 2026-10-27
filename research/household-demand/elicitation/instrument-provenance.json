@@ -1,0 +1,27 @@
+{
+  "source_instrument_sha256": "33b45e78fd3b0cedbae8d7c61e9ea1565babddc8495acb98988eebb7224c8504",
+  "source_text_sha256": "000293004ca738d65b5e300a8de331abbc9d40876e6a40d2495e4532304ca9f0",
+  "source_instrument": "OUTPUTS/Deep Research 2026-10/inputs/elicitation-original.docx",
+  "source_text": "OUTPUTS/Deep Research 2026-10/inputs/elicitation-original.txt",
+  "questionnaire_us": "questionnaire-us.md",
+  "source_bytes": 22419,
+  "source_status": "author_designated_elicitation_version_received",
+  "public_redistribution": false,
+  "local_instrument_gitignored": true,
+  "verification": "US questionnaire bytes match the preserved derived text exactly. Original DOCX hash independently checked on 19 October 2026.",
+  "adaptations": {
+    "india": {
+      "sha256": "9d2f2af1ca6b53f2a37cdca82829a8d53053e9b2b06776343c205a451c5e14f5",
+      "status": "approved_plan_country_adaptation_local_only",
+      "public_redistribution": false
+    },
+    "pakistan": {
+      "sha256": "cf314d70096287225402091b06b7b1bb30e090b1f0d8d973094d6a98f88f3962",
+      "status": "approved_plan_country_adaptation_local_only",
+      "public_redistribution": false
+    }
+  },
+  "adaptation_note": "Complete country adaptations supersede the unexecuted country-substitution drafts. They preserve general forecast and quantile instructions but use local scope, model inputs and separately resolvable proxies. US remains byte-identical.",
+  "initial_status_at_instrument_verification": "NOT_STARTED",
+  "runtime_status_file": "completion.json"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "DIAGNOSTIC",
+  "generated_at_utc": "2026-10-18T18:06:05Z",
+  "clean_dir": "../data/external/hces_2023_24/04_clean",
+  "household_table": {
+    "path": "../OUTPUTS/Household Demand 2026-10/work/india_households.parquet",
+    "rows": 261953,
+    "sha256": "f9311508b5548bb038ce52f326c4230696ae3e90331c1a34995b4b19c8013c2c"
+  },
+  "summary": {
+    "path": "research/household-demand/outputs/india_summary.json",
+    "sha256": "1904b37028b77f68e02cf54b7fed571568aa882066267c36ed2f4b4ebef6fc64"
+  },
+  "households": 261953,
+  "mpce_validation": {
+    "field": "level_15 FDQ hh_usual_cons_exp_mnth (informant's usual monthly household expenditure)",
+    "households_compared": 261895,
+    "pearson_household_total": 0.615,
+    "pearson_log_household_total": 0.6807,
+    "pearson_per_capita": 0.6923
+  },
+  "published_mpce_comparison": {
+    "rural": {
+      "estimate_inr": 4122.1,
+      "published_inr": 4122,
+      "difference_inr": 0.1
+    },
+    "urban": {
+      "estimate_inr": 6996.4,
+      "published_inr": 6996,
+      "difference_inr": 0.4
+    }
+  },
+  "households_mpce_status": {
+    "MISSING_FDQ": 58,
+    "OK": 261895
+  },
+  "households_without_fdq_summary_rows": 58,
+  "households_with_zero_csq_total": 3,
+  "households_with_zero_dgq_total": 213,
+  "multiplier_differs_from_level_01": 0,
+  "religion_not_reported": 36,
+  "caste_not_reported": 986,
+  "households_reporting_group": {
+    "chicken": 114387,
+    "mutton": 15962,
+    "beef_buffalo": 11251,
+    "fish": 74739,
+    "pork": 10867,
+    "eggs": 135952,
+    "milk": 223360,
+    "paneer": 36940,
+    "pulses": 256276,
+    "soya": 79151,
+    "packaged": 256807,
+    "meals_out": 232624
+  },
+  "households_with_unit_value": {
+    "chicken": 112164,
+    "mutton": 15893,
+    "beef_buffalo": 11250,
+    "fish": 74275,
+    "pork": 10777,
+    "eggs": 132786,
+    "milk": 190246,
+    "paneer": 36940,
+    "pulses": 254858,
+    "soya": 79151,
+    "packaged": 0,
+    "meals_out": 39982
+  }
+}

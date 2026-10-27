@@ -1,0 +1,285 @@
+{
+  "status": "DIAGNOSTIC",
+  "formulas": {
+    "conversion": "min(1, penetration / addressable_share) / intent_share",
+    "spend_per_adopter_usd": "sales_usd / (us_households * penetration)",
+    "assumption": "all US buyers sit in the addressable segment (ruling R7); overstates conversion if buyers sit outside it"
+  },
+  "ce": {
+    "survey": "BLS Consumer Expenditure Survey 2023 public-use microdata, Diary survey",
+    "files": "diary23/fmld231.csv to fmld234.csv (family), expd231.csv to expd234.csv (expenditure)",
+    "unit": "consumer unit (CU); BLS notes CUs do not match households exactly",
+    "us_households": 134488926,
+    "us_households_method": "mean over the four quarterly fmld files of the summed FINLWT21 weights",
+    "us_households_crosscheck": {
+      "value": 134556000,
+      "source": "BLS, Consumer expenditures in 2023, BLS Reports, Table A, row Number of consumer units (in thousands), 2023 column: 134,556",
+      "url": "https://www.bls.gov/opub/reports/consumer-expenditures/2023/"
+    },
+    "addressable_rule": {
+      "urban": "BLS_URBN == 1 (1 urban, 2 rural)",
+      "buys_meat": "BEEF + PORK + OTHMEAT + POULTRY + SEAFOOD + EGGS above 0 in the diary week; UCC prefixes 03, 04, 05, 06, 07, 08",
+      "buys_packaged_food": "MISCFOOD above 0 in the diary week; UCC prefix 18 (BLS miscellaneous foods: frozen prepared meals and other foods, canned and packaged soups, other canned and packaged prepared foods)",
+      "buys_packaged_food_r38": {
+        "status": "NOT_DONE",
+        "primary_packaged_condition": "MISCFOOD above 0",
+        "requested": "ruling R38: packaged condition from bakery (bread, biscuits or cookies, cakes), chocolate and candy, and jam and preserves UCCs, matching HCES item 299",
+        "reason": "the approved CE 2023 interview and diary zips hold CSV data only, with no UCC labels; bakery codes (prefix 02, 9 codes) and sweets codes (prefix 15, 3 codes) cannot be split into bread, cookies, cakes, candy and jam with confidence, and no further BLS file was approved for download"
+      },
+      "urban_packaged_base": "urban and buys packaged food, without the meat condition; dairy base (ruling R36)",
+      "window": "one diary week, mirroring the 7-day recall of Task 5",
+      "definitions_source": "https://www.bls.gov/cex/csxgloss.htm"
+    },
+    "weight_sum_by_quarter_file": {
+      "fmld231.csv": 134468041.303,
+      "fmld232.csv": 134335260.798,
+      "fmld233.csv": 134566057.193,
+      "fmld234.csv": 134586346.644
+    },
+    "share_denominator": "weighted diary weeks with FOODTOT above 0 (ruling R39); *_including_zero_food_weeks values use every diary week",
+    "addressable_share": 0.6072230877307498,
+    "us_urban_packaged_share": 0.7396118461093668,
+    "urban_share": 0.9502476526675037,
+    "meat_share": 0.7034324208847434,
+    "packaged_share": 0.7786756332328939,
+    "addressable_share_including_zero_food_weeks": 0.5544977522041172,
+    "us_urban_packaged_share_including_zero_food_weeks": 0.6753911609385816,
+    "n_records": 12389,
+    "n_zero_food_records": 1039,
+    "zero_food_share": 0.08683025496226168,
+    "n_addressable_records": 6926,
+    "n_urban_packaged_records": 8446,
+    "ucc_check": {
+      "BEEF": {
+        "ucc_prefix": "03",
+        "uccs": [
+          "030110",
+          "030219",
+          "030519",
+          "030810"
+        ],
+        "max_abs_diff": 2.842170943040401e-14
+      },
+      "PORK": {
+        "ucc_prefix": "04",
+        "uccs": [
+          "040119",
+          "040210",
+          "040319",
+          "040410"
+        ],
+        "max_abs_diff": 2.842170943040401e-14
+      },
+      "OTHMEAT": {
+        "ucc_prefix": "05",
+        "uccs": [
+          "050110",
+          "050319",
+          "050419"
+        ],
+        "max_abs_diff": 1.4210854715202004e-14
+      },
+      "POULTRY": {
+        "ucc_prefix": "06",
+        "uccs": [
+          "060119",
+          "060310"
+        ],
+        "max_abs_diff": 1.4210854715202004e-14
+      },
+      "SEAFOOD": {
+        "ucc_prefix": "07",
+        "uccs": [
+          "070119",
+          "070230"
+        ],
+        "max_abs_diff": 5.684341886080802e-14
+      },
+      "EGGS": {
+        "ucc_prefix": "08",
+        "uccs": [
+          "080110"
+        ],
+        "max_abs_diff": 3.552713678800501e-15
+      },
+      "MISCFOOD": {
+        "ucc_prefix": "18",
+        "uccs": [
+          "180110",
+          "180210",
+          "180220",
+          "180310",
+          "180320",
+          "180410",
+          "180420",
+          "180510",
+          "180520",
+          "180611",
+          "180612",
+          "180620",
+          "180710"
+        ],
+        "max_abs_diff": 2.842170943040401e-14
+      }
+    }
+  },
+  "gfi": {
+    "page": {
+      "title": "Plant-based retail market overview",
+      "publisher": "The Good Food Institute (GFI), data from SPINS",
+      "url": "https://gfi.org/marketresearch/",
+      "captured_at_utc": "2026-10-19T01:00:18Z",
+      "sha256": "d06e4649b1dc7ca30767f50d93428e314d5bca930bde0eae4859a4d0a18895dc",
+      "data_period": "SPINS point-of-sale data, 52 weeks ending 30 November 2025; SPINS consumer panel (Circana), all US outlets, 52 weeks ending 30 November 2025 (section About the data)"
+    },
+    "price_graphic": {
+      "title": "Plant-based versus animal-based price per weight comparison, 2025",
+      "url": "https://gfi.org/wp-content/uploads/2026/04/GFI25009-MICE-MR05-v4-260330.png",
+      "captured_at_utc": "2026-10-19T01:00:28Z",
+      "sha256": "ccd9d6108f5506fb2add7eedbe491ca7e93a87d2658530bc34353e53da724c22",
+      "locator": "gfi.org/marketresearch/, section Overall plant-based foods, tab Price gap, graphic",
+      "source_note": "graphic footnote: plant-based prices from GFI and PBFA custom SPINS categories, year ending 30 November 2025; animal-based meat prices from Circana fresh meat subcategories, 52 weeks ending November 2025; animal-based milk and egg prices from the US Bureau of Labor Statistics, monthly December 2024 to November 2025"
+    },
+    "values": {
+      "all_categories": {
+        "scope": "all plant-based foods, US retail",
+        "sales_usd": {
+          "value": 7900000000.0,
+          "year": 2025,
+          "locator": "section Overall plant-based foods, heading Plant-based foods are a $7.9 billion market in U.S. retail",
+          "quote": "the 2025 U.S. retail plant-based food market was worth $7.9 billion"
+        },
+        "penetration": {
+          "value": 0.6,
+          "year": 2025,
+          "locator": "section Overall plant-based foods, tab Purchase dynamics, first bullet",
+          "quote": "A total of 60% of U.S. households purchased plant-based foods"
+        },
+        "use": "benchmark only (ruling R34); not used in any conversion"
+      },
+      "plant_based_meat": {
+        "scope": "plant-based meat and seafood, US retail (GFI reports meat and seafood together)",
+        "sales_usd": {
+          "value": 1000000000.0,
+          "year": 2025,
+          "locator": "section Overall plant-based foods, tab Categories, second bullet",
+          "quote": "Plant-based meat and seafood are estimated at $1.0 billion."
+        },
+        "penetration": {
+          "value": 0.11,
+          "year": 2025,
+          "locator": "section Meat and seafood, tab Category sales, fourth bullet; also tab Purchase dynamics, second bullet",
+          "quote": "In 2025, 11 percent of households purchased in the category"
+        },
+        "price_ratio_us_all_meat": {
+          "value": 1.7623126338329766,
+          "year": 2025,
+          "plant_based_usd": 8.23,
+          "conventional_usd": 4.67,
+          "unit": "US dollars per pound, all meat",
+          "locator": "price graphic, column Meat (per lb)",
+          "quote": "$8.23 plant-based, $4.67 animal-based, 76% price premium",
+          "use": "sensitivity value (ruling R35)"
+        },
+        "price_ratio_us": {
+          "value": 2.4858044164037856,
+          "year": 2025,
+          "plant_based_usd": 7.88,
+          "conventional_usd": 3.17,
+          "unit": "US dollars per pound, chicken",
+          "locator": "price graphic, column Chicken",
+          "quote": "$7.88 plant-based, $3.17 animal-based, 149% price premium",
+          "use": "primary: plant-based meat substitutes chicken (decision 16, ruling R35)"
+        }
+      },
+      "dairy_alternatives": {
+        "scope": "plant-based milk, US retail (other plant-based dairy categories excluded)",
+        "sales_usd": {
+          "value": 2700000000.0,
+          "year": 2025,
+          "locator": "section Milk, tab Category sales, first paragraph",
+          "quote": "Plant-based milk remains a sizable category at $2.7 billion"
+        },
+        "penetration": {
+          "value": 0.38,
+          "year": 2025,
+          "locator": "section Milk, tab Category sales, first bullet; also Overall plant-based foods, tab Purchase dynamics, second bullet",
+          "quote": "Household penetration at 38% and repeat rate at 75% remain steady."
+        },
+        "price_ratio_us": {
+          "value": 2.1375921375921374,
+          "year": 2025,
+          "plant_based_usd": 8.7,
+          "conventional_usd": 4.07,
+          "unit": "US dollars per gallon, milk",
+          "locator": "price graphic, column Milk (per gal)",
+          "quote": "$8.70 plant-based, $4.07 animal-based, 114% price premium"
+        }
+      }
+    }
+  },
+  "categories": {
+    "plant_based_meat": {
+      "category": "plant_based_meat",
+      "status": "AVAILABLE",
+      "missing": [],
+      "us_households": 134488926,
+      "penetration": 0.11,
+      "intent_share": 0.329,
+      "sales_usd": 1000000000.0,
+      "addressable_share": 0.6072230877307498,
+      "conversion": 0.5506155996287213,
+      "spend_per_adopter_usd": 67.59596764799126,
+      "conversion_with_addressable_share_1": 0.3343465045592705,
+      "price_ratio_us": 2.4858044164037856,
+      "price_ratio_us_all_meat": 1.7623126338329766,
+      "conversion_including_zero_food_weeks": 0.6029717942593095,
+      "intent_source": {
+        "value": 0.329,
+        "definition": "USA share answering 4 or 5 (very or extremely likely) to plant-based meat purchase likelihood (R12)",
+        "source": "protocol.json intent_sources.primary (Bryant, Szejda, Parekh, Deshpande and Tse 2019)",
+        "locator": "Results, Descriptive Statistics, Acceptance, second paragraph"
+      }
+    },
+    "dairy_alternatives": {
+      "category": "dairy_alternatives",
+      "status": "AVAILABLE",
+      "missing": [],
+      "us_households": 134488926,
+      "penetration": 0.38,
+      "intent_share": 0.5137830092891849,
+      "sales_usd": 2700000000.0,
+      "addressable_share": 0.7396118461093668,
+      "conversion": 1.0,
+      "spend_per_adopter_usd": 52.831585240666854,
+      "price_ratio_us": 2.1375921375921374,
+      "intent_share_including_zero_food_weeks": 0.5626369161715402,
+      "deviation": "Rulings R34 and R36: no Bryant intent measure exists for dairy alternatives, so conversion is 1 and intent_share is min(1, penetration / us_urban_packaged_share), the observed US plant-based milk household penetration within urban CUs that buy packaged food (CE, without the meat condition), assuming every buyer sits in that base; observed behaviour replaces the protocol formula's intent term."
+    }
+  },
+  "benchmark_all_categories": {
+    "sales_usd": {
+      "value": 7900000000.0,
+      "year": 2025,
+      "locator": "section Overall plant-based foods, heading Plant-based foods are a $7.9 billion market in U.S. retail",
+      "quote": "the 2025 U.S. retail plant-based food market was worth $7.9 billion"
+    },
+    "penetration": {
+      "value": 0.6,
+      "year": 2025,
+      "locator": "section Overall plant-based foods, tab Purchase dynamics, first bullet",
+      "quote": "A total of 60% of U.S. households purchased plant-based foods"
+    },
+    "use": "benchmark only (ruling R34); not used in any conversion"
+  },
+  "inputs": {
+    "expd231.csv": "d7413cf3b01b2f5291b86c9e2698fba74238cac34fd7e0e812d768454f13bcd3",
+    "expd232.csv": "3a1124c41c28cb6d3b99209e012cff741051484bd560fc7970e021ec9960bda9",
+    "expd233.csv": "ade8c9f91ce0860b13be2bbe1cf0b06ccdf2dd54cd08ab71a6fe9c914bc96197",
+    "expd234.csv": "5d8e177741fcfc4dbc7715b6600c3aa1afd74b4f96505209e4e9881005b950f7",
+    "fmld231.csv": "e48a13208ccd0c2eb1186d2ad279b0a1a9a92e557c76fbd04eab43e046c8c04a",
+    "fmld232.csv": "209cfce407b32c8f5192c5741ed1af2753efafc4cd12293bb196528f3e247300",
+    "fmld233.csv": "27f0e912a734d80de5f9824c43116536a6058ec68eb8f8d8dc44e0bae0b75949",
+    "fmld234.csv": "7563fe48a2d3ab7f1c09b068850b3c5582ff397a6516828d6e7095c09b49b041"
+  }
+}

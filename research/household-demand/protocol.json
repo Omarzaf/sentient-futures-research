@@ -1,0 +1,474 @@
+{
+  "version": "1.1.0",
+  "registered_at_utc": "2026-10-18T17:38:19Z",
+  "amended_at_utc": "2026-10-18T17:43:56Z",
+  "amendment_note": "Amendment 1 before any estimate: adds the Pakistan transfer distribution (R13) and rulings R12 to R14.",
+  "title": "Household demand model for India and Pakistan alternative-protein retail value",
+  "branch": "codex/household-demand-20261018",
+  "spec_source": {
+    "path": "OUTPUTS/Sentient Futures/2026-10-18-household-demand-model-plan.md",
+    "path_base": "workspace root (parent of sentient-futures-research)",
+    "section": "Decision record",
+    "sha256": "7be5491f5d8ea080685a84721ec6453f2fbd1a5723082edef3a179f8749f7495",
+    "controller_rulings": "R1 to R14, .superpowers/sdd/2026-10-18-household-demand-model-plan/spec-and-constraints.md and progress.md",
+    "rulings_added": {
+      "R12": "intent_share is the top-two box (4 or 5 on the 5-point scale) for USA and India.",
+      "R13": "Pakistan CONDITIONAL_TRANSFER intent is drawn uniformly between 0.329 (USA) and 0.628 (India), the two observed values from the same instrument.",
+      "R14": "outputs/README.md accepted; Bass prior via a citing paper accepted with its note; workspace-state drift expected until Task 12."
+    }
+  },
+  "seed": 20261018,
+  "decisions": [
+    {
+      "numbers": [
+        1
+      ],
+      "decision": "Standalone reproducible model and paper; the D1 table is one output."
+    },
+    {
+      "numbers": [
+        2
+      ],
+      "decision": "Headline: retail value, US dollars, constant 2025 prices, market exchange rates. Also report volume (tonnes) and share of household protein spending. The model works in shares."
+    },
+    {
+      "numbers": [
+        3
+      ],
+      "decision": "Household model covers plant-based meat and dairy alternatives. Egg and fermentation products are carried from the proxy as a labelled residual so totals match GFI scope."
+    },
+    {
+      "numbers": [
+        4
+      ],
+      "decision": "Report beside the GFI-anchored proxy and discuss the gap."
+    },
+    {
+      "numbers": [
+        5,
+        31
+      ],
+      "decision": "The US is the comparison and calibration market: BLS Consumer Expenditure Survey microdata plus GFI/SPINS 2025 retail sales of $7.9 billion. Nothing in the US is invented."
+    },
+    {
+      "numbers": [
+        6,
+        30
+      ],
+      "decision": "Code lives in the public library at `sentient-futures-research/research/household-demand/`. `future-research/` stays the supply benchmark; its AGENTS.md role is unchanged."
+    },
+    {
+      "numbers": [
+        7,
+        20
+      ],
+      "decision": "One price snapshot of public product pages, collected once: India Delhi NCR, Mumbai, Bengaluru, Hyderabad, Chennai, Kolkata, Pune, one tier-2 city; Pakistan Karachi, Lahore, Islamabad. Price per kg product and per kg protein."
+    },
+    {
+      "numbers": [
+        8
+      ],
+      "decision": "Validation: leave-one-state-out holdout is primary. A time comparison against HCES 2011-12 and 2022-23 is secondary, after the author registers at microdata.gov.in."
+    },
+    {
+      "numbers": [
+        9
+      ],
+      "decision": "Vegetarian households are calibrated to NFHS-5 never-eat rates by state, religion and caste, after the author registers with the DHS Program. Until then, a 7-day zero-purchase rule runs as a labelled diagnostic."
+    },
+    {
+      "numbers": [
+        10,
+        22,
+        26,
+        32,
+        38
+      ],
+      "decision": "Elicitation uses Claude Opus 5.5 and GPT Astra (`gpt-6-astra`) only, with tools already on this machine. No paid gateway."
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "decision": "Drivers: IMF and UN official projections with low, mid and high bands, plus an AI cost-decline path and a price-parity scenario."
+    },
+    {
+      "numbers": [
+        12
+      ],
+      "decision": "Acceptance: protocol registered before any estimate; Codex recomputes every number; the team agrees the method before D1; human scholarly review stays pending."
+    },
+    {
+      "numbers": [
+        13
+      ],
+      "decision": "Intent-to-purchase conversion from the US, adjusted by each country's price gap through measured price elasticity."
+    },
+    {
+      "numbers": [
+        14
+      ],
+      "decision": "Adoption over time: Bass diffusion fitted to South Asian analog products fixed in the protocol; the US plant-based sales path is a stress test."
+    },
+    {
+      "numbers": [
+        15
+      ],
+      "decision": "Soya chunks (HCES item 152) are an analog for price, diffusion and substitution, excluded from the market figure."
+    },
+    {
+      "numbers": [
+        16
+      ],
+      "decision": "Plant-based meat substitutes for chicken in meat-eating households and competes with paneer, soya chunks and pulses in vegetarian households. Dairy alternatives substitute for liquid milk. Cross-price elasticities come from the microdata."
+    },
+    {
+      "numbers": [
+        17
+      ],
+      "decision": "Halal certification is assumed met for any product sold in Pakistan. No scenario switch."
+    },
+    {
+      "numbers": [
+        18
+      ],
+      "decision": "Design-based variance where strata are resolved; PSU-clustered bootstrap elsewhere, flagged."
+    },
+    {
+      "numbers": [
+        19,
+        24
+      ],
+      "decision": "India runs on real HCES microdata labelled diagnostic until baseline acceptance. Invented values only where data are absent: Pakistan unresolved strata and plant-based prices before the snapshot."
+    },
+    {
+      "numbers": [
+        21
+      ],
+      "decision": "Publish summarised prices or publicly available data only; respect robots.txt; raw page captures stay local."
+    },
+    {
+      "numbers": [
+        23
+      ],
+      "decision": "One joint Monte Carlo over elasticities, conversion, diffusion and driver bands; Sobol first-order and total indices."
+    },
+    {
+      "numbers": [
+        25
+      ],
+      "decision": "Invented values carry a `SYNTHETIC` flag, live in their own folder, and a CI check blocks them from the claim ledger, reports and D1."
+    },
+    {
+      "numbers": [
+        27,
+        37
+      ],
+      "decision": "Run Anna's exact US questionnaire on the same two models as a labelled calibration; tell Anna before reporting it."
+    },
+    {
+      "numbers": [
+        29
+      ],
+      "decision": "Chicken prices come from HCES and HIES unit values by state or province. The scraped chicken rows are not used."
+    },
+    {
+      "numbers": [
+        33
+      ],
+      "decision": "Questionnaire asks for both the headline forecast and model inputs; compare the panel headline with the model computed from panel inputs."
+    },
+    {
+      "numbers": [
+        34
+      ],
+      "decision": "India and Pakistan headline questions are marked unresolvable now, plus resolvable proxy questions: Comtrade HS 210610 imports, snapshot product counts, a republished GFI India estimate."
+    },
+    {
+      "numbers": [
+        35
+      ],
+      "decision": "Replace the cultivated and fermentation category question with a plant-based meat versus dairy-alternative split, plus a yes/no question on the year of first approved cultivated-meat sale (FSSAI; Pakistan equivalent)."
+    },
+    {
+      "numbers": [
+        36
+      ],
+      "decision": "Each country gets a public evidence pack shaped like the US one, excluding this project's own estimates."
+    },
+    {
+      "numbers": [
+        39
+      ],
+      "decision": "10 fresh-context runs per model per region; report the median and the 10th to 90th percentile spread across runs."
+    },
+    {
+      "numbers": [
+        40
+      ],
+      "decision": "Web search allowed; sources logged; runs citing `github.com/Omarzaf`, `pakistan-india-protein.vercel.app` or `cultivated-chicken-halal.vercel.app` are discarded and rerun."
+    }
+  ],
+  "forecast": {
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "comparison_market": "USA",
+    "years": [
+      2026,
+      2030,
+      2035
+    ],
+    "unit": "million USD, 2025 prices",
+    "price_basis": "USD_2025",
+    "currency_rule": "INR and PKR deflated to 2025 with official CPI, then converted at market exchange rates",
+    "secondary_outputs": [
+      "volume_t",
+      "share of household protein spending"
+    ]
+  },
+  "status_flags": {
+    "values": [
+      "DIAGNOSTIC",
+      "SYNTHETIC",
+      "ACCEPTED",
+      "CONDITIONAL_TRANSFER"
+    ],
+    "placeholder_folder": "research/household-demand/synthetic/",
+    "placeholder_outputs_folder": "research/household-demand/synthetic/outputs/",
+    "guard": "python3 research/household-demand/synthetic.py --check",
+    "guard_surfaces": [
+      "research/india-pakistan/data/claims.csv",
+      "research/india-pakistan/joint-report",
+      "research/india-pakistan/report",
+      "research/household-demand/outputs"
+    ],
+    "guard_rule": "Whole uppercase word SYNTHETIC on any line of a text file under a surface is a hit; a missing surface fails (ruling R1)."
+  },
+  "analogs": {
+    "rule": "Task 7 gathers each candidate series with source, locator and years. A candidate with no public annual time series of at least 5 points is dropped and recorded with the reason. If no candidate survives for a country, the main diffusion uses priors.bass_fallback and the US path stays the stress test (ruling R8).",
+    "candidates": [
+      {
+        "id": "packaged_liquid_milk",
+        "product": "packaged liquid milk",
+        "countries": [
+          "India",
+          "Pakistan"
+        ],
+        "role": "diffusion analog for dairy alternatives",
+        "series_needed": "annual packaged (pouch, UHT or carton) liquid milk volume or household penetration, national, at least 5 consecutive years",
+        "candidate_sources": [
+          "India: annual reports of national dairy cooperatives and listed dairies, or NDDB statistics, if they split packaged from loose milk",
+          "Pakistan: annual reports of listed UHT milk processors, or Pakistan Economic Survey dairy tables, if they split packaged from loose milk"
+        ],
+        "source_status": "candidate_unverified",
+        "years": null
+      },
+      {
+        "id": "soya_chunks",
+        "product": "soya chunks (HCES item 152)",
+        "countries": [
+          "India"
+        ],
+        "role": "analog for price, diffusion and substitution; excluded from the market figure (decision 15)",
+        "series_needed": "per capita quantity and share of households reporting purchase, by NSS consumption round",
+        "candidate_sources": [
+          "NSS 68th round 2011-12, HCES 2022-23 and HCES 2023-24 item 152 aggregates (2011-12 and 2022-23 need the author's microdata.gov.in registration)"
+        ],
+        "source_status": "candidate_unverified",
+        "years": null
+      },
+      {
+        "id": "branded_rtc_chicken",
+        "product": "branded ready-to-cook chicken",
+        "countries": [
+          "India",
+          "Pakistan"
+        ],
+        "role": "diffusion analog for plant-based meat",
+        "series_needed": "annual branded ready-to-cook or processed chicken sales value or volume, national, at least 5 consecutive years",
+        "candidate_sources": [
+          "India: annual reports of listed poultry processors with a processed or ready-to-cook segment",
+          "Pakistan: public filings or trade statistics for branded frozen chicken, if any exist"
+        ],
+        "source_status": "candidate_unverified",
+        "years": null
+      }
+    ],
+    "us_stress_test": {
+      "id": "gfi_us_plant_based_retail",
+      "series": "GFI US plant-based retail sales (SPINS), 2018 to 2025",
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "anchor": {
+        "year": 2025,
+        "value_usd": 7900000000.0,
+        "source": "GFI/SPINS (decision 5, 31)"
+      },
+      "role": "stress test only (decision 14); main results use the analog diffusion",
+      "values_status": "Task 7 captures yearly values with locators"
+    }
+  },
+  "priors": {
+    "bass_fallback": {
+      "p": 0.03,
+      "q": 0.38,
+      "source": "Sultan, Farley and Lehmann (1990), A Meta-Analysis of Applications of Diffusion Models, Journal of Marketing Research 27(1), 70 to 77",
+      "verification": "Citation verified 18 October 2026. p and q confirmed through a citing paper; the original article's tables were not reached.",
+      "use": "main diffusion only if no analog survives (ruling R8)"
+    },
+    "bass_launch_year": {
+      "India": {
+        "year": 2019,
+        "basis": "assumption",
+        "note": "first national plant-based meat retail launches (ruling R9); no source found"
+      },
+      "Pakistan": {
+        "year": 2023,
+        "basis": "assumption",
+        "note": "ruling R9; no source found"
+      }
+    },
+    "halal": "Certification assumed met for any product sold in Pakistan; no scenario switch (decision 17)."
+  },
+  "intent_sources": {
+    "primary": {
+      "citation": "Bryant, C., Szejda, K., Parekh, N., Deshpande, V. and Tse, B. (2019). A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China. Frontiers in Sustainable Food Systems 3, article 11.",
+      "doi": "10.3389/fsufs.2019.00011",
+      "published": "2019-02-27",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+      "accessed_utc": "2026-10-18T17:35:44Z",
+      "corrigendum": {
+        "doi": "10.3389/fsufs.2020.00086",
+        "effect": "Corrects the spelling of Deshpande and the clean meat purchase-likelihood figures. No plant-based meat figure changes."
+      },
+      "instrument": "One online questionnaire, CINT panel. Purchase likelihood on a 5-point Likert scale from 1 (not at all likely) to 5 (extremely likely). Locator: Materials and Methods, Materials.",
+      "sample": {
+        "total": 3030,
+        "USA": 987,
+        "India": 1024,
+        "China": 1019,
+        "locator": "Materials and Methods, Participants"
+      },
+      "sample_caveat": "India sample disproportionately urban, high income and well educated (Abstract).",
+      "values": {
+        "USA": {
+          "plant_based_very_or_extremely_likely": 0.329,
+          "plant_based_slightly_or_moderately_likely": 0.418,
+          "plant_based_not_at_all_likely": 0.253,
+          "plant_based_mean_1_to_5": 2.78,
+          "plant_based_sd": 1.4
+        },
+        "India": {
+          "plant_based_very_or_extremely_likely": 0.628,
+          "plant_based_somewhat_or_moderately_likely": 0.317,
+          "plant_based_not_at_all_likely": 0.055,
+          "plant_based_mean_1_to_5": 3.73,
+          "plant_based_sd": 1.19
+        }
+      },
+      "locators": {
+        "shares": "Results, Descriptive Statistics, Acceptance, second paragraph",
+        "means": "Table 1, ANOVA results showing omnibus results and pairwise comparisons, row Likelihood of purchasing plant-based meat"
+      },
+      "intent_share_definition": "Share answering 4 or 5 (very or extremely likely) to plant-based meat purchase likelihood. USA 0.329, India 0.628.",
+      "missing": {
+        "India_urban_meat_eater_subset": null,
+        "India_urban_meat_eater_subset_note": "The article reports no urban meat-eater breakdown. Missing.",
+        "fieldwork_dates": null,
+        "fieldwork_dates_note": "Not checked. Missing.",
+        "dairy_alternative_intent": null,
+        "dairy_alternative_intent_note": "The article covers plant-based and clean meat only. Missing."
+      }
+    },
+    "Pakistan": {
+      "value": null,
+      "status": "missing",
+      "treatment": "CONDITIONAL_TRANSFER",
+      "rule": "No Pakistan intent value exists. The intent range spanned by the USA and India values (R13) is transferred. The Pakistan household-model result is a scenario labelled CONDITIONAL_TRANSFER and never enters claims as a headline (ruling R9).",
+      "distribution": {
+        "type": "uniform",
+        "low": 0.329,
+        "high": 0.628
+      },
+      "distribution_rationale": "R13: the two observed top-two-box values from the same Bryant et al. (2019) instrument, USA 0.329 and India 0.628, bound the transfer; uniform because no Pakistan value exists to weight either end."
+    }
+  },
+  "us_calibration": {
+    "inputs": "BLS CE public-use microdata (after author approval), GFI/SPINS 2025 retail sales 7.9e9 USD, GFI 2025 US household penetration (captured in Task 6 with locator), intent_sources.primary USA intent share",
+    "conversion": "conversion = min(1, penetration / addressable_share) / intent_share",
+    "spend_per_adopter_usd": "sales_usd / (us_households * penetration)",
+    "addressable_share_default": 1.0,
+    "assumption": "All US buyers sit in the addressable segment (ruling R7). Overstates conversion if buyers sit outside it.",
+    "addressable_rule": "urban, buys meat, buys prepared or packaged food (Task 5), applied to the US, India and Pakistan alike"
+  },
+  "household_tables": {
+    "India_mpce": "HCES 2023-24 monthly per capita consumption expenditure, mpce_inr; mpce_local = mpce_inr; currency INR",
+    "Pakistan_mpce": "Total monthly household consumption expenditure from HIES 2024-25 divided by household size: use the PBS household total if a file holds it, else sum the consumption sections; document the source. mpce_pkr; mpce_local = mpce_pkr; currency PKR (ruling R4).",
+    "cluster": "psu (India: FSU identifier from level_01; Pakistan: prcode), stratum and stratum_status; India always RESOLVED (ruling R2)",
+    "Pakistan_geography": "state = province code, sector = region (1 rural, 2 urban); province and region kept (ruling R3)"
+  },
+  "metrics": {
+    "simulation": {
+      "draws": 10000,
+      "quantiles": [
+        "p10",
+        "p50",
+        "p90"
+      ],
+      "outputs": [
+        "value_usd_2025",
+        "volume_t",
+        "share"
+      ],
+      "ceiling": "FAOSTAT supply; report ceiling_binding_share",
+      "diffusion_main": "analog",
+      "diffusion_sensitivity": "us_stress"
+    },
+    "sensitivity": {
+      "method": "Saltelli 2010 estimators",
+      "indices": [
+        "first_order",
+        "total"
+      ]
+    },
+    "validation": {
+      "primary": "leave-one-state-out holdout, India",
+      "outcome": "weighted per capita monthly spending on animal protein by state",
+      "statistics": {
+        "mae": "mean absolute error across held-out states",
+        "median_ape": "median absolute percentage error across held-out states",
+        "coverage_80": "share of states whose observed value falls inside the predicted 10th to 90th percentile"
+      },
+      "secondary": "time comparison against HCES 2011-12 and 2022-23 after the author registers at microdata.gov.in"
+    },
+    "elicitation": {
+      "models": [
+        "claude-opus-5-5",
+        "gpt-6-astra"
+      ],
+      "runs_per_model_per_region": 10,
+      "summary": "median and 10th to 90th percentile spread across runs",
+      "blocked_domains": [
+        "github.com/Omarzaf",
+        "pakistan-india-protein.vercel.app",
+        "cultivated-chicken-halal.vercel.app"
+      ]
+    },
+    "comparison_methods": [
+      "household_model",
+      "gfi_proxy",
+      "panel_headline",
+      "model_from_panel_inputs"
+    ]
+  }
+}

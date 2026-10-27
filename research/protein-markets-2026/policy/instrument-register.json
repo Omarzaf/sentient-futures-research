@@ -1,0 +1,734 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Independent 20-item policy primary-function coding",
+  "country_counts": {
+    "India": 7,
+    "Pakistan": 13
+  },
+  "coverage_buckets": [
+    "India:FSSAI",
+    "India:BioE3",
+    "India:DBT-BIRAC",
+    "Pakistan:federal",
+    "Pakistan:Punjab",
+    "Pakistan:Sindh",
+    "Pakistan:Khyber Pakhtunkhwa",
+    "Pakistan:Balochistan"
+  ],
+  "instrument_count": 20,
+  "status": "Agent-reviewed primary texts; author coding and agreement remain pending",
+  "instruments": [
+    {
+      "id": "IN-FSSAI-NSF-2017",
+      "title": "Food Safety and Standards (Approval for Non-Specified Food and Food Ingredients) Regulations, 2017",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "FSSAI",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2017-09-11"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2017-09-13"
+        }
+      ],
+      "reference": "F. No. 12/PA Regulation/Dir (PA)/FSSAI-2016",
+      "text_locator": "PDF pp. 9-10, regulations 1-4; English operative prior-approval procedure on PDF p. 10.",
+      "scope": "Non-specified food and food ingredients; relevant to platform-specific dossiers, without implying any product is approved.",
+      "access_limitations": [],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Gazette_Notification_NonSpecified_Food_Ingredients_15_09_2017.pdf",
+        "requested_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Gazette_Notification_NonSpecified_Food_Ingredients_15_09_2017.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-FSSAI-NSF-2017.pdf",
+        "sha256": "14708f9cd1171965dce8c6a044dc47530178ea46de5b8b6cf84f8babb0040043",
+        "bytes": 1827577,
+        "retrieved_at": "2026-10-16T01:57:30.596Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-FSSAI-VEGAN-2022",
+      "title": "Food Safety and Standards (Vegan Foods) Regulations, 2022",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "FSSAI",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2022-06-10"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2022-06-14"
+        }
+      ],
+      "reference": "F. No. Std/TF-Vegan Foods/Notif./FSSAI",
+      "text_locator": "PDF pp. 3-4, regulations 2-5; vegan definition, integrity, labelling/logo and compliance.",
+      "scope": "Eligibility and presentation of vegan claims; vegan classification is distinct from all alternative-protein platforms.",
+      "access_limitations": [
+        "Main-host PDF returned HTML on three attempts; official stg-old host supplied the PDF. Original 2022 text is counted once; later amendments are not treated as additional sample items."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://stg-old.fssai.gov.in/upload/notifications/2022/06/62ac3f9dba33cGazette_Notification_Vegan_Food_17_06_2022.pdf",
+        "requested_url": "https://stg-old.fssai.gov.in/upload/notifications/2022/06/62ac3f9dba33cGazette_Notification_Vegan_Food_17_06_2022.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-FSSAI-VEGAN-2022.pdf",
+        "sha256": "b145afd55a6742604bbfed035d42b56420a50c8de82ec86558995827b51ac513",
+        "bytes": 1311205,
+        "retrieved_at": "2026-10-16T01:59:29.592Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts-1792115981630.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-FSSAI-LABEL-2020",
+      "title": "Food Safety and Standards (Labelling and Display) Regulations, 2020",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "FSSAI",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2020-11-17"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2020-11-18"
+        }
+      ],
+      "reference": "F. No. 1-94/FSSAI/SP(Labelling)/2014(Pt-2)",
+      "text_locator": "PDF pp. 27-30, regulation 1(2), Chapter II regulations 4-5; English text begins PDF p. 27.",
+      "scope": "Pre-packaged food labels and essential information at relevant premises; historical original notification.",
+      "access_limitations": [
+        "Printed gazette date, digital identifier date and website upload date differ; the register records the printed date rather than inventing an availability date. Main-host download failed; official stg-old PDF captured."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://stg-old.fssai.gov.in/upload/notifications/2020/12/5fd87c6a0f6adGazette_Notification_Labelling_Display_14_12_2020.pdf",
+        "requested_url": "https://stg-old.fssai.gov.in/upload/notifications/2020/12/5fd87c6a0f6adGazette_Notification_Labelling_Display_14_12_2020.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-FSSAI-LABEL-2020.pdf",
+        "sha256": "c23820b2952ca06ec22dca1cf7c14897441ffb2d290bd1940dd48b09a2f39b7a",
+        "bytes": 2369584,
+        "retrieved_at": "2026-10-16T01:59:39.275Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts-1792115981630.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-FSSAI-IMPORT-2017",
+      "title": "Food Safety and Standards (Import) Regulations, 2017",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "FSSAI",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2017-03-09"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2017-03-10"
+        }
+      ],
+      "reference": "F. No. 1/2008/Import safety/FSSAI",
+      "text_locator": "PDF p. 30, English notification and Chapter I; Chapter II food-import clearance requirements.",
+      "scope": "Food import clearance, inspection and associated procedures; not a product-specific permission.",
+      "access_limitations": [],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Import_Regulations.pdf",
+        "requested_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Import_Regulations.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-FSSAI-IMPORT-2017.pdf",
+        "sha256": "0055b8296cdd3b8ff8bf96e1901724c5b9c09523c7134952d10c379220ad6ea1",
+        "bytes": 1032444,
+        "retrieved_at": "2026-10-16T01:57:27.215Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-FSSAI-RECALL-2017",
+      "title": "Food Safety and Standards (Food Recall Procedure) Regulations, 2017",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "FSSAI",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2017-01-18"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2017-01-20"
+        }
+      ],
+      "reference": "F. No. 1-59/FSSAI/2009",
+      "text_locator": "PDF pp. 12-14, English regulations 3-7; recall objectives, scope and process.",
+      "scope": "Removal and handling of food subject to recall across the food chain.",
+      "access_limitations": [],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Recall_Regulations.pdf",
+        "requested_url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Recall_Regulations.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-FSSAI-RECALL-2017.pdf",
+        "sha256": "4cd5fb523a693e06aac4bb4b6791e0202e5f4797f7f2482995512fb4961e431b",
+        "bytes": 1281088,
+        "retrieved_at": "2026-10-16T01:57:34.807Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-DBT-BIOE3-2024",
+      "title": "BioE3 Policy for Fostering High Performance Biomanufacturing, 2024",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "Department of Biotechnology / Union Cabinet",
+      "instrument_type": "policy",
+      "dates": [
+        {
+          "kind": "cabinet_approval",
+          "value": "2024-08-24",
+          "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2048568&lang=2&reg=3"
+        }
+      ],
+      "reference": "BioE3 (Biotechnology for Economy, Environment and Employment) Policy",
+      "text_locator": "Official two-page DBT brochure, PDF p. 2: Background, About the Policy, thematic sectors and Bio-Enablers; dated Cabinet approval recorded in PIB release 2048568.",
+      "scope": "Biomanufacturing research, capability, translation and Bio-AI/biofoundry support; smart proteins are a named sector.",
+      "access_limitations": [
+        "The original BMI-host full-policy URL failed after three attempts. An official Government of India ISTI-hosted DBT brochure was captured as a primary policy summary; it is not represented as the full policy text or a food marketing authorisation.",
+        "The dated Cabinet record is a separately checked official PIB URL; its full page bytes are not captured in this bundle."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.indiascienceandtechnology.gov.in/sites/default/files/file-uploads/sciencetechnologypolicies/1746189922_BioE3%20Policy%20Brohcure_compressed.pdf",
+        "requested_url": "https://www.indiascienceandtechnology.gov.in/sites/default/files/file-uploads/sciencetechnologypolicies/1746189922_BioE3%20Policy%20Brohcure_compressed.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-DBT-BIOE3-2024.pdf",
+        "sha256": "90b025c08c5699372d945b0facf579a5bc51054a999576d1cf7692ac525e7aae",
+        "bytes": 513663,
+        "retrieved_at": "2026-10-16T01:59:32.527Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts-1792115981630.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "IN-DBT-SMART-CALL-2025",
+      "title": "DBT-BIRAC Joint Call for Proposals on Smart Proteins for Fostering High Performance Biomanufacturing under BioE3 Policy",
+      "country": "India",
+      "jurisdiction": "national",
+      "authority": "Department of Biotechnology and BIRAC",
+      "instrument_type": "funding_call",
+      "dates": [
+        {
+          "kind": "extended_application_deadline",
+          "value": "2025-04-05"
+        }
+      ],
+      "reference": "Official six-page Smart Proteins call; exact issue date not printed in captured text",
+      "text_locator": "PDF pp. 1-4, sections 1-3 and platform-specific scope; PDF pp. 5-6, eligibility, evaluation and funding modalities; p. 6 extended deadline.",
+      "scope": "Distinct call implementing research and scale-up support for plant-based, fermentation-derived and cell-culture-based proteins; section 2.2.1 names AI monitoring/control.",
+      "access_limitations": [
+        "Publication day is not established; the dated submission deadline is preserved without converting a filename timestamp into an issue date.",
+        "The 2025 deadline is historical. This is not a currently open call or evidence that a grant was awarded. Original DBT and BMI download URLs failed; original BIRAC-hosted call captured."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://birac.nic.in/webcontent/1743051137_Approved_CFP_Biomanufacturing_Smart_Proteins.pdf",
+        "requested_url": "https://birac.nic.in/webcontent/1743051137_Approved_CFP_Biomanufacturing_Smart_Proteins.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/IN-DBT-SMART-CALL-2025.pdf",
+        "sha256": "c5cd5558bb4b74d8a0f2c565308ec96ce57e9ccb210031165070f799637ab913",
+        "bytes": 377022,
+        "retrieved_at": "2026-10-16T02:00:42.797Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts-1792116042857.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-FED-PSQCA-1996",
+      "title": "Pakistan Standards and Quality Control Authority Act, 1996",
+      "country": "Pakistan",
+      "jurisdiction": "federal",
+      "authority": "Parliament of Pakistan / PSQCA",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "printed_gazette",
+          "value": "1996-03-17"
+        }
+      ],
+      "reference": "Act No. VI of 1996",
+      "text_locator": "PDF p. 1, preamble and sections 1-3; section 8 functions; section 14 notified mandatory standards.",
+      "scope": "Establishment, powers and standards/conformity-assessment framework; not blanket approval of any food platform.",
+      "access_limitations": [],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.psqca.com.pk/PSQCAACT/PSQCAActVI1996.pdf",
+        "requested_url": "https://www.psqca.com.pk/PSQCAACT/PSQCAActVI1996.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-FED-PSQCA-1996.pdf",
+        "sha256": "f9a799d35c7f5d1f0bd7db9bf87407fde572e5d02b4279776ea63cd41fc4d4b5",
+        "bytes": 41734,
+        "retrieved_at": "2026-10-16T01:57:30.890Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-FED-HALAL-2016",
+      "title": "Pakistan Halal Authority Act, 2016",
+      "country": "Pakistan",
+      "jurisdiction": "federal",
+      "authority": "Parliament of Pakistan / Pakistan Halal Authority",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "date_in_captured_act",
+          "value": "2016-02-27"
+        }
+      ],
+      "reference": "Act No. VIII of 2016",
+      "text_locator": "PDF p. 3, preamble and section 1; section 10 powers; sections 13-20 disclosure, marks, trade and marketing.",
+      "scope": "Federal halal institution and jurisdiction, including international/inter-provincial trade and ICT scope as specified in section 1.",
+      "access_limitations": [
+        "Section 1(3) defers commencement of sections 17-20 to notification; those commencement notifications were not verified here. No agent halal ruling or cultivated-product certification is inferred."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+        "requested_url": "https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-FED-HALAL-2016.pdf",
+        "sha256": "d3c8b0867c7e885a39f946fd1fbd06eac0c14c21a2e54857beb8219e696a8778",
+        "bytes": 363185,
+        "retrieved_at": "2026-10-16T01:57:37.284Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-FED-BIOSAFETY-2005",
+      "title": "Pakistan Biosafety Rules, 2005, official compilation with amendments through 2024",
+      "country": "Pakistan",
+      "jurisdiction": "federal",
+      "authority": "Government of Pakistan / Pakistan Environmental Protection Agency",
+      "instrument_type": "rules",
+      "dates": [
+        {
+          "kind": "original_notification",
+          "value": "2005-04-21"
+        },
+        {
+          "kind": "original_printed_gazette",
+          "value": "2005-04-26"
+        },
+        {
+          "kind": "appended_amendment",
+          "value": "2024-01-18"
+        }
+      ],
+      "reference": "Original S.R.O. 336(I)/2005; appended S.R.O. 45(I)/2024",
+      "text_locator": "Scanned PDF pp. 1-2, rules 1-3 and application; PDF pp. 15-17 appended January 2024 amendment, including amended risk-assessment provisions.",
+      "scope": "Biosafety controls on specified GMO, microorganism, cell and related activities; applicable scope requires a product/process assessment.",
+      "access_limitations": [
+        "Image-only PDF; relevant pages visually inspected. The downloaded file contains separate original/amending texts, not a verified fully integrated consolidation. Do not assume all fermentation or cultivated products fall within its GMO scope."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://environment.gov.pk/SiteImage/Misc/files/Rules/BIOSafety%20Rules%202005%20%28Amended2024%29.pdf",
+        "requested_url": "https://environment.gov.pk/SiteImage/Misc/files/Rules/BIOSafety%20Rules%202005%20%28Amended2024%29.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-FED-BIOSAFETY-2005.pdf",
+        "sha256": "c82bf21b6dd58ca1671402a3507ee1c5a7fb6d8a990c1a979b24b5ccfa38618c",
+        "bytes": 3361007,
+        "retrieved_at": "2026-10-16T01:57:38.083Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-PUNJAB-ACT-2011",
+      "title": "Punjab Food Authority Act, 2011",
+      "country": "Pakistan",
+      "jurisdiction": "Punjab",
+      "authority": "Punjab Legislature / Punjab Food Authority",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "date_in_captured_act",
+          "value": "2011-07-06"
+        }
+      ],
+      "reference": "Act XVI of 2011",
+      "text_locator": "PDF pp. 2-6, preamble and sections 1, 3, 7; section 15 licensing.",
+      "scope": "Provincial food authority, powers, scientific panels and enforcement architecture.",
+      "access_limitations": [
+        "Punjab Laws host failed after three attempts; authority-hosted consolidated Act PDF captured. Territorial commencement depends on notifications under section 1(3), not independently reconstructed here."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://pfa.gop.pk/wp-content/uploads/2023/02/The-Punjab-Food-Authority-Act-2011.pdf",
+        "requested_url": "https://pfa.gop.pk/wp-content/uploads/2023/02/The-Punjab-Food-Authority-Act-2011.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-PUNJAB-ACT-2011.pdf",
+        "sha256": "d9bb29d851011d17399a3cd845b0a9613319b114564a03bc7a4cfacf890291ca",
+        "bytes": 842572,
+        "retrieved_at": "2026-10-16T01:59:41.548Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts-1792115981630.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-PUNJAB-PRODUCT-2017",
+      "title": "Food Authority (Product Registration and Display of PFA Logo) Regulations, 2017",
+      "country": "Pakistan",
+      "jurisdiction": "Punjab",
+      "authority": "Punjab Food Authority",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2017-03-13"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2017-03-15"
+        }
+      ],
+      "reference": "DG(PFA)/Admin/2017/825; publication notification 49 of 2017",
+      "text_locator": "Scanned PDF pp. 2-4, notification and Part II regulations 3-8; registration requirement and CPR.",
+      "scope": "Food-product registration and associated logo conditions within the authority's jurisdiction.",
+      "access_limitations": [
+        "Image-only PDF; original title, dates and operative registration provisions visually inspected. Do not substitute premises licences or logo appearance for a product's CPR."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Product-Registeration-Display-of-PFA-Logo-Regulations-2017.pdf",
+        "requested_url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Product-Registeration-Display-of-PFA-Logo-Regulations-2017.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-PUNJAB-PRODUCT-2017.pdf",
+        "sha256": "80a8b1f4b53c5eee6d6d2bcd25f3d94523684c21142e01d09b829be0d63dafae",
+        "bytes": 844699,
+        "retrieved_at": "2026-10-16T01:57:37.381Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-PUNJAB-RECALL-2017",
+      "title": "Punjab Food Authority, Food Recall Procedure Regulations, 2017",
+      "country": "Pakistan",
+      "jurisdiction": "Punjab",
+      "authority": "Punjab Food Authority",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2017-03-13"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2017-03-15"
+        }
+      ],
+      "reference": "DG/PFA/Admin/827, as shown in scan",
+      "text_locator": "Scanned PDF p. 2, short title and recall definitions; subsequent recall procedure provisions.",
+      "scope": "Provincial food-recall process and operators' duties.",
+      "access_limitations": [
+        "Image-only PDF; notification and mechanism visually inspected. Handwritten reference/date read from the scan; preserve source image for author checking."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Food-Recall-Regulations-2017.pdf",
+        "requested_url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Food-Recall-Regulations-2017.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-PUNJAB-RECALL-2017.pdf",
+        "sha256": "62f07657ce739feb1480a4cfb82bf6eaf7d09f17eaf70591e83f1da6e40a0e18",
+        "bytes": 1518904,
+        "retrieved_at": "2026-10-16T01:58:10.510Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-SINDH-ACT-2016",
+      "title": "Sindh Food Authority Act, 2016 (Sindh Act XIV of 2017)",
+      "country": "Pakistan",
+      "jurisdiction": "Sindh",
+      "authority": "Provincial Assembly of Sindh / Sindh Food Authority",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "governor_assent",
+          "value": "2017-04-08"
+        },
+        {
+          "kind": "assembly_notification",
+          "value": "2017-04-12"
+        }
+      ],
+      "reference": "NO.PAS/Legis-B-12/2016; Sindh Act XIV of 2017",
+      "text_locator": "PDF p. 1, notification and section 1; PDF pp. 4-7, sections 3 and 7.",
+      "scope": "Establishment and powers of Sindh Food Authority.",
+      "access_limitations": [
+        "The title year is 2016 while assent/publication occurred in 2017. Section 1(3) requires a commencement notification, not independently captured here."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://www.sfa.gos.pk/documents/Sindh%20Act%20No.XIV%20of%202017.pdf",
+        "requested_url": "https://www.sfa.gos.pk/documents/Sindh%20Act%20No.XIV%20of%202017.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-SINDH-ACT-2016.pdf",
+        "sha256": "f6c77bcaedaab8855fc438b3ec37296c9ab5e9e6d742c8b8e83ba5e0e7bce185",
+        "bytes": 115162,
+        "retrieved_at": "2026-10-16T01:58:06.710Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-SINDH-PRODUCT-2023",
+      "title": "Sindh Food Authority Food Product Regulations, 2023",
+      "country": "Pakistan",
+      "jurisdiction": "Sindh",
+      "authority": "Government of Sindh, Food Department",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "visible_header_month",
+          "value": "2024-01",
+          "precision": "month",
+          "note": "Header reads January 2024 with day left blank."
+        }
+      ],
+      "reference": "NO.SO(G)/FOOD-REG/(4)-SFA/2023",
+      "text_locator": "Scanned PDF pp. 1-4, Chapter I regulations 1-2 and signed final page.",
+      "scope": "Standalone food-related definitions in the captured four-page instrument; no product-registration procedure is established by this copy.",
+      "access_limitations": [
+        "The official index/filename says 2023; scanned header says January 2024 with no day. No exact notification/publication day is invented.",
+        "All four pages inspected. The text is principally definitions; do not code it as product approval from its title alone. Gazette completeness/current-force status remains unverified."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20Food%20Product%20Regulation%202023.pdf",
+        "requested_url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20Food%20Product%20Regulation%202023.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-SINDH-PRODUCT-2023.pdf",
+        "sha256": "992116bfffa784e81f7fe109b058cb29c2aef2e5c0966f723b7d6cd9650e3c38",
+        "bytes": 2038012,
+        "retrieved_at": "2026-10-16T01:58:06.881Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-SINDH-BUSINESS-2023",
+      "title": "Sindh Food Business Establishment Regulations, 2023",
+      "country": "Pakistan",
+      "jurisdiction": "Sindh",
+      "authority": "Government of Sindh, Food Department / Sindh Food Authority",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "title_year",
+          "value": "2023",
+          "precision": "year"
+        }
+      ],
+      "reference": "NO.SO(G)/FOOD-REG/(3)-SFA/2023",
+      "text_locator": "Scanned PDF p. 1, regulations 1-2; PDF p. 6, Chapter II regulations 3-4 licensing of food businesses and premises.",
+      "scope": "Provincial food-business/premises licensing and associated operational conditions; distinct from the definitions-only product instrument.",
+      "access_limitations": [
+        "51-page, 22.8 MB scan; selected title/scope/licensing pages inspected for primary-function coding, not every technical schedule.",
+        "Exact issue/publication day is not established from the inspected pages; no claim of an exhaustive current consolidation."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20business%20establishment%20Rules%202023.pdf",
+        "requested_url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20business%20establishment%20Rules%202023.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-SINDH-BUSINESS-2023.pdf",
+        "sha256": "295afc60cb40c9a2437fb8e6b629cbf2c1b754ea26a227a39aa96b9e31586321",
+        "bytes": 22773196,
+        "retrieved_at": "2026-10-16T01:58:07.977Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-KP-ACT-2014",
+      "title": "Khyber Pakhtunkhwa Food Safety and Halal Food Authority Act, 2014",
+      "country": "Pakistan",
+      "jurisdiction": "Khyber Pakhtunkhwa",
+      "authority": "Khyber Pakhtunkhwa Legislature / Food Safety and Halal Food Authority",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "original_printed_gazette",
+          "value": "2014-03-26"
+        },
+        {
+          "kind": "identified_amending_act_year",
+          "value": "2017",
+          "precision": "year"
+        }
+      ],
+      "reference": "Khyber Pakhtunkhwa Act X of 2014; substituted title and provisions by Act XVI of 2017",
+      "text_locator": "PDF p. 4, preamble and section 1; sections 3 and 8 authority and functions.",
+      "scope": "Provincial authority framework, food safety/halal mandate and regulatory powers.",
+      "access_limitations": [
+        "Official Code text contains amendments identified in footnotes; the original filename retains the pre-amendment short title. Later amendment completeness is not independently certified."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://kpcode.kp.gov.pk/uploads/2014_10_THE_KHYBER_PAKHTUNKHWA_FOOD_SAFETY_AUTHORITY_ACT_2014.pdf",
+        "requested_url": "https://kpcode.kp.gov.pk/uploads/2014_10_THE_KHYBER_PAKHTUNKHWA_FOOD_SAFETY_AUTHORITY_ACT_2014.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-KP-ACT-2014.pdf",
+        "sha256": "c931ec01ef406ff27ea32f743edb2ef5dffb08d332b7ba03c58c2f04cb07686a",
+        "bytes": 350979,
+        "retrieved_at": "2026-10-16T01:58:13.766Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-BALOCH-ACT-2014",
+      "title": "Balochistan Food Authority Act, 2014",
+      "country": "Pakistan",
+      "jurisdiction": "Balochistan",
+      "authority": "Balochistan Legislature / Balochistan Food Authority",
+      "instrument_type": "act",
+      "dates": [
+        {
+          "kind": "governor_assent",
+          "value": "2014-02-04"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2014-02-07"
+        }
+      ],
+      "reference": "Balochistan Act VI of 2014",
+      "text_locator": "PDF p. 4, preamble, section 1 and footnote; sections 3 and 7 authority and functions.",
+      "scope": "Provincial food-authority framework; section 1 excludes Tribal Areas in the captured text and provides notification-based commencement.",
+      "access_limitations": [
+        "Do not substitute the title year for a province-wide effective date. Commencement notifications and every later amendment are outside this capture-level review."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://balochistan.gov.pk/wp-content/uploads/2024/10/Food-Authority-Act-2014-2014.pdf",
+        "requested_url": "https://balochistan.gov.pk/wp-content/uploads/2024/10/Food-Authority-Act-2014-2014.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-BALOCH-ACT-2014.pdf",
+        "sha256": "446d9817749b234b6a58077eb4436fad6861395245ad8a5d9b170c8480e987e2",
+        "bytes": 99580,
+        "retrieved_at": "2026-10-16T01:58:11.058Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-BALOCH-PRODUCT-2022",
+      "title": "Balochistan Food Authority (Registration of Food Products and Licensing of Food Business Premises) Rules, 2022",
+      "country": "Pakistan",
+      "jurisdiction": "Balochistan",
+      "authority": "Government of Balochistan / Balochistan Food Authority",
+      "instrument_type": "rules",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2022-06-15"
+        }
+      ],
+      "reference": "BFA-HQ/Legal/R&L Rules (V-I)/31",
+      "text_locator": "Scanned PDF p. 1, notification and short title; Parts on registration and licensing following definitions.",
+      "scope": "Food-product registration and food-business premises licensing; one instrument despite two mechanisms.",
+      "access_limitations": [
+        "Officially posted signed notification says to be published in the Extraordinary Gazette. Gazette publication date was not independently established; do not assert current legal force solely from this capture.",
+        "Image-only PDF; inspected title, scope and selected operative material, not a full legal-consolidation audit."
+      ],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://bfa.gob.pk/wp-content/uploads/2024/12/BFA-Registration-of-Food-Product-Licensing-of-Foo-Business-Premises-Rules-2022.pdf",
+        "requested_url": "https://bfa.gob.pk/wp-content/uploads/2024/12/BFA-Registration-of-Food-Product-Licensing-of-Foo-Business-Premises-Rules-2022.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-BALOCH-PRODUCT-2022.pdf",
+        "sha256": "630aa49f64351c485f9eb315c045778b737cc3fe2f89340b820b1d453c7af92f",
+        "bytes": 10904296,
+        "retrieved_at": "2026-10-16T01:58:13.136Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    },
+    {
+      "id": "PK-BALOCH-SAMPLING-2025",
+      "title": "Balochistan Food Authority (Inspection and Sampling Procedures) Regulations, 2025",
+      "country": "Pakistan",
+      "jurisdiction": "Balochistan",
+      "authority": "Balochistan Food Authority",
+      "instrument_type": "regulation",
+      "dates": [
+        {
+          "kind": "notification",
+          "value": "2025-08-25"
+        },
+        {
+          "kind": "printed_gazette",
+          "value": "2025-08-25"
+        }
+      ],
+      "reference": "BFA HQ/Legal/Oper:Reg:/2025/173; Gazette Extraordinary No. 142",
+      "text_locator": "PDF p. 3, notification and footnote; Part II inspection regulations 3-13 and Part III sampling regulations 14-15.",
+      "scope": "Inspection, corrective action and sampling procedures; captured official Code edition.",
+      "access_limitations": [],
+      "legal_effect_status": "Text identity and cited mechanism inspected; no claim that this captured edition exhausts amendments or establishes current approval of any alternative-protein product.",
+      "evidence_status": "primary_text_inspected",
+      "agent_review_status": "AI-assisted classification pending independent author coding",
+      "source": {
+        "official_url": "https://balochistancode.gob.pk/lawdir/54edc09c-ee38-438d-b2db-2366bc4f6be4.pdf",
+        "requested_url": "https://balochistancode.gob.pk/lawdir/54edc09c-ee38-438d-b2db-2366bc4f6be4.pdf",
+        "raw_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/PK-BALOCH-SAMPLING-2025.pdf",
+        "sha256": "5c6e0ca7da71153aefdb35908cba8ec03245861747857ca4ee58c7af311a294f",
+        "bytes": 1876787,
+        "retrieved_at": "2026-10-16T01:58:11.725Z",
+        "receipt_file": "OUTPUTS/Deep Research 2026-10/policy-review/raw/retrieval-receipts.json",
+        "licence": "No redistribution licence established; retained privately for source inspection."
+      }
+    }
+  ]
+}

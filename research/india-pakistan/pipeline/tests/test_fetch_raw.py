@@ -221,9 +221,9 @@ def test_manifest_duplicate_rejected(tmp_path: Path) -> None:
 def test_full_manifest_and_offline_list(
     tmp_path: Path, capsys: pytest.CaptureFixture[str]
 ) -> None:
-    """Validate all 1,974 metadata rows without downloading any of them."""
+    """Validate all 1,987 metadata rows without downloading any of them."""
     rows = fetcher.load_manifest(EDITION / "data/MANIFEST.csv")
-    assert len(rows) == 1974
+    assert len(rows) == 1987
     assert all(fetcher.classify(row)[0] for row in rows)
     cache = tmp_path / "unused-cache"
     assert (
@@ -233,3 +233,31 @@ def test_full_manifest_and_offline_list(
         == 0
     )
     assert capsys.readouterr().out and not cache.exists()
+
+
+def test_later_manifest_additions_preserve_retrieval_boundaries() -> None:
+    """Bind the 13 reviewed additions to their public or restricted byte classes."""
+    # Commits 3b69531, 29d0928 and a5e2954 added 3, 8 and 2 records respectively;
+    # all 1,974 records from the 13 October edition remain unchanged.
+    additions = {
+        "jobs/companies-with-jobs-on-altprotein-jobs.xlsx": "local_artifact",
+        "jobs/global-vacancy-data-2023-2025.xlsx": "local_artifact",
+        "market/indexbox-asia-plant-based-portfolio.txt": "derived_or_captured",
+        "proxy/gfi-us-retail-market-research.html": "original_candidate",
+        "proxy/imf-weo-2026-10-LP.json": "original_candidate",
+        "proxy/imf-weo-2026-10-NGDP_RPCH.json": "original_candidate",
+        "proxy/imf-weo-2026-10-PCPIPCH.json": "original_candidate",
+        "proxy/imf-weo-2026-10-PPPPC.json": "original_candidate",
+        "proxy/imf-weo-indicator-metadata.json": "original_candidate",
+        "proxy/worldbank-NY.GDP.PCAP.CD.json": "original_candidate",
+        "proxy/worldbank-NY.GDP.PCAP.CN.json": "original_candidate",
+        "proxy/worldbank-PA.NUS.FCRF.json": "original_candidate",
+        "proxy/worldbank-SP.URB.TOTL.IN.ZS.json": "original_candidate",
+    }
+    rows = {
+        row["file"]: row for row in fetcher.load_manifest(EDITION / "data/MANIFEST.csv")
+    }
+    for relative, expected in additions.items():
+        path = "data/raw/altprotein/" + relative
+        assert path in rows, path
+        assert fetcher.classify(rows[path])[0] == expected, path

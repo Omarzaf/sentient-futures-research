@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "frozen_at": "2026-10-19",
+  "sources": [
+    {
+      "id": "gfi-india-economic-2022",
+      "url": "https://gfi-india.org/wp-content/uploads/2022/10/gfi_economic_analysis.pdf",
+      "captured_at_utc": "2026-10-16T02:16:56.460Z",
+      "sha256": "72f78a7bf5f58936ad54976d2f3bdb6fe4fbf8c59dc0eb5f29713d5d04a6abb6",
+      "bytes": 9427314,
+      "http_status": "200",
+      "local_capture": "OUTPUTS/Deep Research 2026-10/market/raw/gfi-india-economic-2022.body",
+      "claim_boundary": "public raw source only; no project computation",
+      "rights": "public access; source redistribution rights unresolved"
+    },
+    {
+      "id": "comtrade-pakistan-2025",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=586&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+      "captured_at_utc": "2026-10-16T02:16:39.142Z",
+      "sha256": "5d7e88aa69b0d969930110622addb22e278c5540114dde3e3bae2f512ee6b7ee",
+      "bytes": 1872,
+      "http_status": "200",
+      "local_capture": "OUTPUTS/Deep Research 2026-10/market/raw/comtrade-pakistan-2025.body",
+      "claim_boundary": "public raw source only; no project computation",
+      "rights": "public access; source redistribution rights unresolved"
+    },
+    {
+      "id": "comtrade-india-2025-attempt3",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=356&period=2025&partnerCode=0&cmdCode=210610,350400&flowCode=M&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+      "captured_at_utc": "2026-10-16T02:18:14.893Z",
+      "sha256": "74fb9e013d2918f975bfabd9d7de6ec6c766547ddfcbaed48bfea66fe1eb2e96",
+      "bytes": 58,
+      "http_status": "200",
+      "local_capture": "OUTPUTS/Deep Research 2026-10/market/raw/comtrade-india-2025-attempt3.body",
+      "claim_boundary": "public raw source only; no project computation",
+      "rights": "public access; source redistribution rights unresolved"
+    },
+    {
+      "id": "bryant-2019",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2019.00011/full",
+      "local_capture": "OUTPUTS/Pakistan-India Data Dashboard/scripts/cultural/india/bryant-2019.txt",
+      "sha256": "d911682f4eff18ad6fdf0ba7ca07c136b8f290ea03da5deaca5249ec5f1f0c24",
+      "bytes": 70556,
+      "capture_date": "prior public collection; source catalog reviewed 2026-10-13",
+      "verified_local_hash_date": "2026-10-19",
+      "rights": "CC BY for Bryant; official-report redistribution not established",
+      "claim_boundary": "published context or original paper; no derived household data"
+    },
+    {
+      "id": "mospi-report594",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/Nutritional_Intake_in_India_L.pdf",
+      "local_capture": "OUTPUTS/Deep Research 2026-10/raw/mospi-report594.pdf",
+      "sha256": "f08155b2b9811d236b1a75ccdb48fc60f96efe32bdbabad1413cf7b65017b50b",
+      "bytes": 10099290,
+      "capture_date": "prior public collection; source catalog reviewed 2026-10-13",
+      "verified_local_hash_date": "2026-10-19",
+      "rights": "CC BY for Bryant; official-report redistribution not established",
+      "claim_boundary": "published context or original paper; no derived household data"
+    },
+    {
+      "id": "pbs-hies-2024-25",
+      "url": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/HIES-2024-25-Report-Final-2.pdf",
+      "local_capture": "OUTPUTS/Deep Research 2026-10/followup-surveys-20261015/pbs-latest-linked-report.pdf",
+      "sha256": "02d2f4f3feeecd25e2aee15bf6f90fde5997904548764fc12679a78729409885",
+      "bytes": 803344,
+      "capture_date": "prior public collection; source catalog reviewed 2026-10-13",
+      "verified_local_hash_date": "2026-10-19",
+      "rights": "CC BY for Bryant; official-report redistribution not established",
+      "claim_boundary": "published context or original paper; no derived household data"
+    },
+    {
+      "id": "bioe3-2024",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2048568&lang=2&reg=48",
+      "verification": "source catalog public-capture and text review 2026-10-13; no fresh retrieval",
+      "sha256": null,
+      "rights": "public access only",
+      "claim_boundary": "policy/platform context, never market or approval evidence"
+    },
+    {
+      "id": "bioe3-2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238344&lang=1&reg=3",
+      "verification": "source catalog public-capture and text review 2026-10-13; no fresh retrieval",
+      "sha256": null,
+      "rights": "public access only",
+      "claim_boundary": "policy/platform context, never market or approval evidence"
+    }
+  ],
+  "source_catalog": "research/india-pakistan/data/sources.csv",
+  "source_boundary": "Only public raw-source summaries and external forecasts; excluded all project-derived figures, household derivatives, private reviews and prior elicitation answers. GFI external forecasts must be explicitly disclosed as possible anchors. No source full text redistributed.",
+  "evidence_hashes": {
+    "india": "0dff5bfed3663be986280e8bea4d0456c4f136bbe13620a0fd8e47fbed480527",
+    "pakistan": "684f72b45b5da7c30996578288d45ee9c0f275818f9f3c1cead7d6bba1ca4aee",
+    "us": "5710de417c547430f7ed10f64d223b770a9e1fe341ba1424fd974797437410e3"
+  }
+}

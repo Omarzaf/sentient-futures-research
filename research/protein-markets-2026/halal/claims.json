@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "status": "AI-assisted draft claims; qualified linguistic and scholarly review pending",
+  "translation_policy": "The original is the evidence. English translations below are provisional AI-assisted aids. None is a certified translation, scholarly approval, fatwa or product approval.",
+  "claims": [
+    {
+      "id": "HALAL-PK-BANURI-2018",
+      "sources": [
+        "PK-BANURI-2018"
+      ],
+      "locator": "Fatwa 144001200799; answer paragraph",
+      "claim": "The answer treats permission as dependent on ingredients, contamination/intoxicants and health; a product-specific determination remains necessary.",
+      "original_excerpt": "حلت یا حرمت کا دو ٹوک فیصلہ کرنا ممکن نہیں",
+      "language": "Urdu",
+      "draft_translation": "A categorical determination of permissibility or prohibition is not possible.",
+      "scope_limit": "Conditional answer about cell-proliferated meat, not blanket Pakistani permission or a certificate.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-PK-BANURI-2019",
+      "sources": [
+        "PK-BANURI-2019"
+      ],
+      "locator": "Fatwa 144012201327; conclusion after conditions, then quoted Arabic commentary",
+      "claim": "The answer recommends avoidance pending firm knowledge of the listed conditions. Its Arabic citation is an attributed classical basis within the local answer.",
+      "original_excerpt": "لیبارٹری کے گوشت سے بچنا بہتر ہے",
+      "language": "Urdu",
+      "draft_translation": "It is better to avoid laboratory meat.",
+      "quoted_basis": {
+        "language": "Arabic",
+        "original_excerpt": "إذ حل الأكل متوقف على تحقق الذكاة الشرعية",
+        "draft_translation": "Since permission to eat depends on establishing lawful slaughter.",
+        "local_citation": "حاشية على مراقي الفلاح شرح نور الإيضاح,1/24, Bulaq imprint as cited by Banuri",
+        "status": "Local body's quoted basis; original classical edition not independently collated; no foreign council added."
+      },
+      "scope_limit": "Question mixes animal/plant laboratory routes. Retain route conditions; advice is not a universal prohibition or proof of subsequent product failure.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-PK-DUK-ATTRIBUTION",
+      "sources": [
+        "PK-DUK-CULTIVATED-LANDING",
+        "PK-DUK-CULTIVATED-URDU",
+        "PK-DUK-CULTIVATED-ARABIC"
+      ],
+      "locator": "Landing post metadata; Urdu pp 1–2 and 22; Arabic p 1",
+      "claim": "Muhammad Muaz Ashraf authors the work; Muhammad Taqi Usmani supplies an introductory endorsement mentioning consultation.",
+      "chronology": "Post date 17 October 2023; modified 9 December 2025; Urdu issue footers November/December 2023. These dates describe different publication layers.",
+      "scope_limit": "Institutionally hosted authored analysis; do not relabel it as a Taqi-authored national fatwa, unanimous council resolution or product certificate.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-PK-DUK-PROCESS",
+      "sources": [
+        "PK-DUK-CULTIVATED-URDU",
+        "PK-DUK-CULTIVATED-ARABIC"
+      ],
+      "locator": "Urdu PDFp 22/printed 38 finalparagraph; Arabic PDFp 14/printed 33 leftcolumn conclusion",
+      "claim": "The conclusion distinguishes lawful slaughtered donors, an exception for parts not bearing life, and prohibited admixtures; transformation is conditional and not simply presumed.",
+      "original_excerpt": "پھر کسی بھی مرحلے پر حرام کی آمیزش نہ ہو",
+      "language": "Urdu",
+      "parallel_excerpt": "ثم يلزم أن لا يحصل اختلاطه بحرام في أي مرحلة",
+      "parallel_language": "Arabic",
+      "draft_translation": "Then there must be no admixture with prohibited material at any stage.",
+      "scope_limit": "Two language witnesses of one work. Detailed biological and istihala reasoning is not independently validated; no inference about any manufacturer's actual inputs.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-IN-IFA-2015",
+      "sources": [
+        "IN-IFA-URDU-SEMINAR24",
+        "IN-IFA-HALAL-RESOLUTION"
+      ],
+      "locator": "Urdu PDFp 19, حلال سرٹیفکٹ, items 1–5; issuer English onepage resolution",
+      "claim": "The certification resolution connects expert religious judgment, credible testing and continuing oversight.",
+      "original_excerpt": "حلال سرٹیفکٹ جاری کرنا بڑی ذمہ داری کا کام ہے",
+      "language": "Urdu",
+      "draft_translation": "Issuing a halal certificate is a grave responsibility.",
+      "scope_limit": "General certification conditions from the 1–3 March 2015 Kerala seminar; no cultivated-specific ruling. English/Urdu are one institutional source family.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-IN-IFA-AI-2024",
+      "sources": [
+        "IN-IFA-URDU-SEMINAR33"
+      ],
+      "locator": "PDFp 14, AI adopted decisions, item 3; p 15top item 6. Questions onp 8 excluded as operative evidence.",
+      "claim": "The AI resolution cautions that generated information may mislead and references may be fabricated; it calls for research/verification.",
+      "original_excerpt": "اپنی تحقیق سے مزید نکھار پیدا کرلیں",
+      "language": "Urdu",
+      "draft_translation": "Improve it further through one's own research.",
+      "scope_limit": "General AI use at the 9–11 November 2024 Bihar seminar; not approval for AI to issue halal certificates or for cultivated food.",
+      "review_status": "pending_qualified_human_review"
+    },
+    {
+      "id": "HALAL-IN-JUHHT-PROCESS",
+      "sources": [
+        "IN-JUHHT-SCHEME"
+      ],
+      "locator": "Version 4,31 October 2023; PDFpp 11–13",
+      "claim": "The published scheme requests composition/process and supplier evidence and separates the certification decision from the client's auditors.",
+      "scope_limit": "Own scheme text only; broad categories do not demonstrate a cultivated-product certificate or legal permission to sell.",
+      "review_status": "pending_scholarly_review"
+    },
+    {
+      "id": "HALAL-REGISTERS-SCOPE",
+      "sources": [
+        "IN-NABCB-PC038",
+        "PK-PHA-HCB-REGISTER-CURL",
+        "PK-PHA-DOWNLOADS-CURL"
+      ],
+      "locator": "PC 038 validity/scope; PHA localHCBrow 7; PHA registration/product-mark headings",
+      "claim": "Official registers support checking a named certification body's status, scope and dates separately from a product certificate.",
+      "scope_limit": "HIPL accreditation is slaughterhouse scope; PHA body registration is not product certification. Dynamic list status may conflict with expiry fields; retain snapshots and do not infer aggregate current counts.",
+      "review_status": "pending_regulatory_review"
+    },
+    {
+      "id": "HALAL-AI-DBT-OBJECTIVE",
+      "sources": [
+        "IN-DBT-SMART-PROTEINS"
+      ],
+      "locator": "PDFp 3,2.2.1firstbullet",
+      "claim": "The historical DBT-BIRAC call includes AI optimization for fermentation monitoring and predictive control as a research objective.",
+      "scope_limit": "An objective is not an awarded grant, functioning system, measured improvement, safety decision or halal certificate.",
+      "review_status": "pending_technical_review"
+    }
+  ]
+}

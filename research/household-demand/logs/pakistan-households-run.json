@@ -1,0 +1,132 @@
+{
+  "status": "DIAGNOSTIC",
+  "generated_at_utc": "2026-10-18T18:31:14Z",
+  "zip": "../OUTPUTS/Deep Research 2026-10/raw/pbs-stata-2024-25.zip",
+  "source_sha256": {
+    "pbs-stata-2024-25.zip": "cf1286dc00cfc325df7a51fab64b8baecc4f6b62e015742e229bf299760898cc",
+    "pbs-hies-report.pdf": "02d2f4f3feeecd25e2aee15bf6f90fde5997904548764fc12679a78729409885",
+    "pbs-table23.xls": "c11710ba93b596dca5fa2ff2d6a74da227ee57051700c1120a719421e71a7287",
+    "pbs-female-questionnaire.pdf": "084e602cb645d43aae5ebbf18a896ee46eb8e2c4df2ff71550fc3cceb7b0e9f3",
+    "pbs-manual.pdf": "188081a3fccf744e5f496b525b6a094916a61bb1ef7ebabc230ecc2f5cada91c",
+    "pbs-coding-scheme.xlsx": "36e2793a0020c31a841df574c99d656a1f1aeed51a1f9f6a3b206c1f43bd2beb"
+  },
+  "strata_table": {
+    "path": "research/household-demand/synthetic/pakistan_strata.csv",
+    "sha256": "82831c0a53be7b262b4100bb6f19a5002c7595fc135d176c1c8644557551ff1b"
+  },
+  "household_table": {
+    "path": "../OUTPUTS/Household Demand 2026-10/work/pakistan_households.parquet",
+    "rows": 30123,
+    "sha256": "d32e7dd43790a5a489793c344747d828365e98b590d7cbb60ecab69ac8715029"
+  },
+  "summary": {
+    "path": "research/household-demand/outputs/pakistan_summary.json",
+    "sha256": "2974ae48a34a6275f84befd4caaabad761c44e64ab05b54a38613e3e418c6cfa"
+  },
+  "households": 30123,
+  "psus": 2153,
+  "households_by_province": {
+    "1": 5607,
+    "2": 13483,
+    "3": 8327,
+    "4": 2706
+  },
+  "islamabad_psus_in_province_2": 16,
+  "placeholder_stratum_households": 30123,
+  "placeholder_strata": 158,
+  "placeholder_strata_with_one_psu": 9,
+  "mpce_comparison_with_report_tables_3_6": {
+    "total": {
+      "parts_a_to_d": {
+        "household_pkr": 78610.4,
+        "per_capita_pkr": 13149.2
+      },
+      "with_part_e_durables": {
+        "household_pkr": 81299.0,
+        "per_capita_pkr": 13598.9
+      },
+      "published_household_pkr": 79150,
+      "published_per_capita_pkr": 13240
+    },
+    "urban": {
+      "parts_a_to_d": {
+        "household_pkr": 94525.8,
+        "per_capita_pkr": 16616.8
+      },
+      "with_part_e_durables": {
+        "household_pkr": 98167.8,
+        "per_capita_pkr": 17257.0
+      },
+      "published_household_pkr": 95533,
+      "published_per_capita_pkr": 16795
+    },
+    "rural": {
+      "parts_a_to_d": {
+        "household_pkr": 67676.3,
+        "per_capita_pkr": 10955.5
+      },
+      "with_part_e_durables": {
+        "household_pkr": 69709.9,
+        "per_capita_pkr": 11284.7
+      },
+      "published_household_pkr": 67894,
+      "published_per_capita_pkr": 10991
+    }
+  },
+  "recorded_part_total_agreement": {
+    "A": {
+      "households_with_recorded_total": 30087,
+      "share_within_1_rupee": 0.9557
+    },
+    "B": {
+      "households_with_recorded_total": 30114,
+      "share_within_1_rupee": 0.992
+    },
+    "C": {
+      "households_with_recorded_total": 30027,
+      "share_within_1_rupee": 0.9991
+    },
+    "D": {
+      "households_with_recorded_total": 30108,
+      "share_within_1_rupee": 0.749
+    },
+    "E": {
+      "households_with_recorded_total": 23373,
+      "share_within_1_rupee": 0.9994
+    }
+  },
+  "households_mpce_status": {
+    "OK": 30123
+  },
+  "group_quantity_rows_with_value_but_no_quantity": 2,
+  "households_reporting_group": {
+    "chicken": 22908,
+    "mutton": 3129,
+    "beef_buffalo": 8673,
+    "fish": 4857,
+    "pork": 0,
+    "eggs": 21404,
+    "milk": 28435,
+    "paneer": 0,
+    "pulses": 28599,
+    "soya": 0,
+    "packaged": 24213,
+    "meals_out": 22623,
+    "other_poultry": 27
+  },
+  "households_with_unit_value": {
+    "chicken": 22401,
+    "mutton": 2354,
+    "beef_buffalo": 7618,
+    "fish": 4407,
+    "pork": 0,
+    "eggs": 17254,
+    "milk": 20490,
+    "paneer": 0,
+    "pulses": 28325,
+    "soya": 0,
+    "packaged": 0,
+    "meals_out": 0,
+    "other_poultry": 20
+  }
+}

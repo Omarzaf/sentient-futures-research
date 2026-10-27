@@ -35,3 +35,7 @@ presentations/halal-mmm/qa/
 # Exact authored supervisor exports; hashes and reviewed text are checked in CI.
 !/research/india-pakistan/report/report.pdf
 !/research/india-pakistan/report/report.docx
+
+# Author-supplied forecasting instruments are local research inputs.
+# Their source manifest does not grant public redistribution rights.
+/research/household-demand/elicitation/questionnaire-*.md

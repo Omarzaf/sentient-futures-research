@@ -1,0 +1,3 @@
+# US comparison evidence boundary
+
+The complete original questionnaire contains its own definitions and resolution criteria and is supplied unchanged. No supplemental project figures are added to the US instrument. Use public sources, distinguish reported observations from forecasts and assumptions, and disclose named forecasts and reports that influenced the answer. Preserve the all-category plant-based retail headline, the separate cultivated and fermentation consumer-sales categories, and the blind-spots question. This local-only comparison requires author/team notification before public reporting; the runner does not send that notification.

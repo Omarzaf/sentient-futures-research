@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "status": "Proposed monitoring definitions; not approved or preregistered forecasts",
+  "relationship": "Supplements ../forecast-questions.json. Does not replace questionnaire pillar/year cells or official food-safety approval questions.",
+  "baseline": "No qualifying domestic cultivated-product certificate was established in this bounded corpus; absence has not been proved.",
+  "publication_window_start": null,
+  "start_rule": "Before preregistration, set T0 to the next local calendar day after the approved question-file commit. Count only newly issued records in T0 through the cutoff. Do not silently backfill T0.",
+  "common_rules": {
+    "event_scope": "Human-food cultivated animal meat, including an explicitly covered cultivated ingredient in a hybrid. The original record must identify animal-cell culture; plant analogues, whole cloned animals and pet-only products do not qualify.",
+    "certificate_requirements": [
+      "Original issuing-body public certificate or issuer registry entry, not an applicant press release",
+      "Named certificate ID, dated issuance and validity covering the cutoff",
+      "Named manufacturer and manufacturing site in the specified country",
+      "Explicit cultivated-product/process scope; generic meat, bioculture, enzyme or facility certification alone is insufficient",
+      "Check issuing-body status and any suspension or revocation applicable at the cutoff; retain the original records"
+    ],
+    "source_hierarchy": "Issuing-body original certificate plus relevant official certifier-status record; then issuer clarification of scope. Newspaper, manufacturer or foreign council reports are leads only. A foreign certificate alone does not satisfy the named domestic-body event.",
+    "resolution": "YES only with the complete original records. NO requires a sufficiently complete official record/search for the defined publication event; never infer NO solely from an inaccessible page. Missing scope, incomplete registers, inaccessible originals, conflicting validity or unresolved translation produces UNRESOLVED with reasons.",
+    "retrieval_limit": "At most three failed retrievals per source, then preserve the gap.",
+    "interpretation": "Certification observables do not establish food-safety authorization, legal market access, sales, demand or market share. Horizon pairs concern the same event and are dependent."
+  },
+  "certification_signposts": [
+    {
+      "id": "HALAL-IN-JUHHT-2030",
+      "country": "India",
+      "question": "By 31 December 2030, will Jamiat Ulama-i-Hind Halal Trust have issued a publicly verifiable halal certificate explicitly covering human-food cultivated meat manufactured at a named Indian site, valid at that cutoff?",
+      "cutoff": "2030-12-31T23:59:59+05:30",
+      "resolution_date": "2031-06-30",
+      "resolution_timezone": "Asia/Kolkata",
+      "issuer": "Jamiat Ulama-i-Hind Halal Trust",
+      "primary_original_domain": "https://www.jamiathalaltrust.org/",
+      "evidence_basis": [
+        "IN-JUHHT-SCHEME"
+      ],
+      "caveat": "The reviewed scheme establishes a certification process, not a present cultivated certificate or accredited cultivated scope."
+    },
+    {
+      "id": "HALAL-IN-JUHHT-2035",
+      "country": "India",
+      "question": "By 31 December 2035, will Jamiat Ulama-i-Hind Halal Trust have issued a publicly verifiable halal certificate explicitly covering human-food cultivated meat manufactured at a named Indian site, valid at that cutoff?",
+      "cutoff": "2035-12-31T23:59:59+05:30",
+      "resolution_date": "2036-06-30",
+      "resolution_timezone": "Asia/Kolkata",
+      "issuer": "Jamiat Ulama-i-Hind Halal Trust",
+      "primary_original_domain": "https://www.jamiathalaltrust.org/",
+      "evidence_basis": [
+        "IN-JUHHT-SCHEME"
+      ],
+      "caveat": "Same event as 2030 with a later horizon; not independent evidence."
+    },
+    {
+      "id": "HALAL-PK-SANHA-2030",
+      "country": "Pakistan",
+      "question": "By 31 December 2030, will SANHA Halal Associates Pakistan have issued a publicly verifiable halal certificate explicitly covering human-food cultivated meat manufactured at a named Pakistani site, valid at that cutoff?",
+      "cutoff": "2030-12-31T23:59:59+05:00",
+      "resolution_date": "2031-06-30",
+      "resolution_timezone": "Asia/Karachi",
+      "issuer": "SANHA Halal Associates, Pakistan (Pvt) Ltd.",
+      "primary_original_domain": "https://www.sanha.org.pk/",
+      "official_status_source": "https://www.pakistanhalalauthority.gov.pk/rhcbs.aspx",
+      "evidence_basis": [
+        "PK-PHA-HCB-REGISTER-CURL"
+      ],
+      "caveat": "PHA's captured row 7 registers the Pakistan body. This is not the South African body, a product certificate or proof of future scope."
+    },
+    {
+      "id": "HALAL-PK-SANHA-2035",
+      "country": "Pakistan",
+      "question": "By 31 December 2035, will SANHA Halal Associates Pakistan have issued a publicly verifiable halal certificate explicitly covering human-food cultivated meat manufactured at a named Pakistani site, valid at that cutoff?",
+      "cutoff": "2035-12-31T23:59:59+05:00",
+      "resolution_date": "2036-06-30",
+      "resolution_timezone": "Asia/Karachi",
+      "issuer": "SANHA Halal Associates, Pakistan (Pvt) Ltd.",
+      "primary_original_domain": "https://www.sanha.org.pk/",
+      "official_status_source": "https://www.pakistanhalalauthority.gov.pk/rhcbs.aspx",
+      "evidence_basis": [
+        "PK-PHA-HCB-REGISTER-CURL"
+      ],
+      "caveat": "Same event as 2030 with a later horizon; a current registration cannot prove future registration."
+    }
+  ],
+  "ai_observables": [
+    {
+      "id": "AI-IN-SMART-PROTEIN-PROJECT",
+      "event": "DBT or BIRAC publishes an original award and technical project report naming a Smart Proteins project that implements AI monitoring/predictive fermentation control with real process data and an identified comparison baseline.",
+      "evidence_basis": [
+        "IN-DBT-SMART-PROTEINS"
+      ],
+      "required_fields": [
+        "project identifier and grantee",
+        "award date and scope",
+        "implemented AI task and process",
+        "measured evaluation and comparison method",
+        "original official report URL and date"
+      ],
+      "status": "Monitoring checklist; a call objective alone never satisfies it.",
+      "interpretation_limit": "No AI performance, resource allocation payoff, cost saving or halal determination inferred before the report is reviewed."
+    },
+    {
+      "id": "AI-HALAL-AUDIT-PROTOCOL",
+      "event": "A named domestic certifier publishes a versioned procedure specifying how AI-generated ingredient/process evidence is checked by qualified technical and religious reviewers, with accountability and source-trace requirements.",
+      "evidence_basis": [
+        "IN-IFA-URDU-SEMINAR33",
+        "IN-JUHHT-SCHEME"
+      ],
+      "required_fields": [
+        "named issuing body and geography",
+        "version and date",
+        "technical and Sharia reviewer responsibilities",
+        "source verification and error handling",
+        "explicit product/process scope"
+      ],
+      "status": "Proposed observable; no such AI-specific certifier procedure established in the reviewed corpus.",
+      "interpretation_limit": "IFA's general AI resolution does not itself authorize automated certification. Human-reviewed protocol publication would not establish any product certificate."
+    }
+  ]
+}

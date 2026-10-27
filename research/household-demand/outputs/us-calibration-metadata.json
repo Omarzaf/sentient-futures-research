@@ -1,0 +1,98 @@
+{
+  "csv_decimal_places": 6,
+  "source_hashes": {
+    "research/household-demand/build_outputs.py": "8be86a01af68e57fe972e64eae1a6f15998733baa0a8344e14737fdb819cce7a",
+    "research/household-demand/simulate.py": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+    "research/household-demand/sensitivity.py": "1a2959d28d178a196b0bc487bbefcffa8c8c7d12249732da08266676138ac2ef",
+    "research/household-demand/protocol.json": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+    "research/household-demand/inputs/manifest.csv": "be96e78eefafd95f48db2746d3bf6e267103e297c1b6713799bd0b32e7867a5d",
+    "research/household-demand/outputs/simulation-india.json": "9adfa5aa3cde7b63f95966183878a32e8f458404797cd588aa13a0297aca5630",
+    "research/household-demand/outputs/simulation-india-us-stress.json": "de35c46b0b596b1b152327e04902e4f8bd4dee4a3b6322cb35914186e5fc87cf",
+    "research/household-demand/outputs/simulation-india-literal-signed.json": "a20f03e2c091a2579bdc5e237d095779f8b86daa60cc48ded77521c475807111",
+    "research/household-demand/outputs/holdout-summary.json": "7a5d7d9f40a19b839bc8425c2507996bbe0e77e1bb413e42320c1a37e511a526",
+    "research/household-demand/outputs/us_calibration.json": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+    "research/household-demand/outputs/drivers.json": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+    "research/household-demand/outputs/diffusion.json": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+    "research/household-demand/outputs/prices_summary.json": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+    "research/household-demand/outputs/elasticities_national.json": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+    "research/household-demand/outputs/segments_summary.json": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+    "research/india-pakistan/data/altprotein_proxy_scenarios.csv": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+    "research/household-demand/elicitation/results.csv": "4123c4a98a58bd5e2eb28a5e0f0707e92e614692feafa0a36942ba833dc038ba",
+    "research/household-demand/elicitation/accepted-runs.json": "4b08d457ad2f2af3aafb834f805ff52ad3dd5399955a46544f10293004003113",
+    "research/household-demand/elicitation/completion.json": "98a0467f5fc93ee79adf45fdebdefec8e60e3d60b27f75bd5c03c39fa73b666d",
+    "research/household-demand/elicitation/scope.json": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04",
+    "research/household-demand/elicitation/instrument-provenance.json": "054838992bef9724fb5ccffe1440ab4330b1fa59a2c6774010f40f30a65b20eb",
+    "research/household-demand/elicitation/execution-scope.json": "537a568e11158bd9e05bb191728b56a28de2a0cf14cd8cf85ac75e6fdcc7baf0"
+  },
+  "csv_sha256": "1dfe328353c3ba5372546c87f0ddc104756be6bd16b70016f218f9e1e6c3f6fc",
+  "accepted_record_bindings": {
+    "gpt-6-astra": [
+      {
+        "slot": 1,
+        "attempt_id": "gpt-6-astra-us-01-af4b41e7e5fd",
+        "answer_sha256": "a9e0f7a44b06c93d5e1f58c69b9a26110a6db3d9ffeccfbb68884ac540cefb04",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 2,
+        "attempt_id": "gpt-6-astra-us-02-b38f4100319e",
+        "answer_sha256": "ab7ef13c2fcf550ac9205be3a7dcaa8bb755b79bc1cc6bcc4f08bd435dcb53de",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 3,
+        "attempt_id": "gpt-6-astra-us-03-a0ca4ed49c61",
+        "answer_sha256": "2dd4597a526d3f2ee20b3c0370db8d11afc99f760fd532442c82785ef0a91b2e",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 4,
+        "attempt_id": "gpt-6-astra-us-04-def3d81960a7",
+        "answer_sha256": "ebac64d7fa63ddc7005ac1e22e508594f600c41d59309732eb39b695e259822b",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 5,
+        "attempt_id": "gpt-6-astra-us-05-c68376fd15ec",
+        "answer_sha256": "33b975c80ef055bf59f971c9af4372036cc06fc90f995cd2b98c4ef2f9ba8d12",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 6,
+        "attempt_id": "gpt-6-astra-us-06-ff90c24ca9b9",
+        "answer_sha256": "14f7cc1cc61f03e5c2f35a67d1fb6fa4324e2b56574610b7b7c8c18bd7afd401",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 7,
+        "attempt_id": "gpt-6-astra-us-07-6730d1e84245",
+        "answer_sha256": "623b6cae7e511ea331e54a85f1a860f9a74fa2cec503242fba56ce7b08492469",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 8,
+        "attempt_id": "gpt-6-astra-us-08-619c69cae3f3",
+        "answer_sha256": "542f8f91a9d0264a6c9923484bcdf5e9b725bbd9e6beb2f1e469b1af3b65feb0",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 9,
+        "attempt_id": "gpt-6-astra-us-09-6fe4a956aceb",
+        "answer_sha256": "2d5c461e812ed980b3fb822640db8481615d35690c1c4ac15e1c4ce181535137",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      },
+      {
+        "slot": 10,
+        "attempt_id": "gpt-6-astra-us-10-c70fd3010462",
+        "answer_sha256": "fa0afed038d9da8f6f3019f3f220ec0046e0b22dfef708f02a9d4e52981f9d24",
+        "prompt_sha256": "e80ae3df2fbcaaeab555854a9d82f4fb108e0300afdeff4ed06c333fed1d663d"
+      }
+    ]
+  },
+  "raw_answer_bytes_rehashed": false,
+  "raw_prompt_bytes_rehashed": false,
+  "recorded_digest_check": "Presence and SHA-256 format only; raw byte-integrity verification belongs to the elicitation runner and final numerical reviewer",
+  "public_reporting": "HELD_AUTHOR_NOTIFICATION_AND_SCHOLARLY_REVIEW",
+  "scope_rule": "Original US measures kept separate; no mixed-scope total; no Anna forecasts or accuracy scores",
+  "summary_recomputation": "Across accepted run p50 values; compared with source summary at six decimal places"
+}

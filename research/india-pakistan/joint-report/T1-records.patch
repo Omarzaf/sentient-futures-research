@@ -1,0 +1,96 @@
+--- README.md
++++ README.md
+@@ -7,7 +7,7 @@
+ | What | Status |
+ | --- | --- |
+ | [15–16 October protein-market research](OUTPUTS/Deep%20Research%202026-10/README.md) | [Latest report](OUTPUTS/Deep%20Research%202026-10/baseline-completion-20261016/final/REPORT.pdf) and offline evidence package. Both official reproductions held; US comparison deferred. [Executed baseline report/rebuild](OUTPUTS/Deep%20Research%202026-10/baseline-completion-20261016/README.md): complete candidate calculations and independent SPSS check; both official reproductions unaccepted. Conditional India meal match remains qualified. Current local source revision is recorded in WORKSPACE-STATE.json; no new market estimate, push or publication. |
+-| [Pakistan–India supervisor edition](OUTPUTS/Pakistan-India%20Supervisor%20Edition%202026-10-13/READY-TO-SEND.md) | [Live site](https://pakistan-india-protein.vercel.app/). [PR #18](https://github.com/Omarzaf/sentient-futures-research/pull/18) open with green CI at `1640a9d`. Waits on human scholarly review and merge. |
++| [Pakistan–India supervisor edition](OUTPUTS/Pakistan-India%20Supervisor%20Edition%202026-10-13/READY-TO-SEND.md) | [Live site](https://pakistan-india-protein.vercel.app/). [PR #18](https://github.com/Omarzaf/sentient-futures-research/pull/18) merged on 15 October 2026 at 19:42:28 UTC as `c9b48ed`. Human scholarly review remains pending. |
+ | Cultivated Chicken and Halal Market Access | [Live site](https://cultivated-chicken-halal.vercel.app/), author-approved 2 October. Built from `preview-mmm-pr16/` on `codex/publish-halal-paper`. Scholarly review pending. |
+ | [14 October reviewed pilot protocol](OUTPUTS/Sentient%20Futures/2026-10-14-protocol-review/README.md) | Source audit, conditional diet/substitution pilot, agentic validation loops and project-local OpenResearch/Agent-Reach. Supersedes the methods in the earlier planning notes; no new diet or adoption result claimed. |
+ | [Tested India–Pakistan pilot](OUTPUTS/Sentient%20Futures/2026-10-14-pilot-tdd/README.md) | 118 tests pass; independent model/evidence reviews complete. Synthetic methods verified; 18 country comparisons remain held for missing empirical inputs. Local commit `39a4824`; no publication. |
+--- AGENTS.md
++++ AGENTS.md
+@@ -6,7 +6,7 @@
+ 
+ - Edit the research library in `sentient-futures-research/`. Check its actual branch and status first; do not assume local `main` is the active feature branch.
+ - Edit the standalone supply benchmark in `future-research/`. Its measured outcome is protein supply, not alternative-protein adoption. Its `.venv-*` environments were removed on 14 October 2026 to free 3.8 GB; rebuild the one you need with `bash scripts/setup.sh --skip-repos --group <name>` (see `envs/README.md`), then activate it before Python work. The dashboard `.venv` installs from its `requirements-dev.txt`.
+-- GitHub keeps three branches: `main`, `codex/supervisor-edition-20261013` (PR #18) and `codex/publish-halal-paper` (live halal site source). Closed-PR work is kept in `closed-pr-*` tags. Delete a feature branch after its PR merges.
++- GitHub keeps three branches: `main`, `codex/supervisor-edition-20261013` (merged PR #18 branch; still present on GitHub on 17 October 2026) and `codex/publish-halal-paper` (live halal site source). Closed-PR work is kept in `closed-pr-*` tags. Delete a feature branch after its PR merges.
+ - `repo-sync-halal-phase1/` is a secondary worktree of the library repository retained for the corrected Phase One handoff. Do not make it a competing canonical checkout.
+ - The foundational plan establishes India–Pakistan research and forecast-question methodology support; the repository's current scope also documents the later halal workstream. Superseded instructions do not override it.
+ - Keep Phase One question coverage, agent checking and human scholarly approval distinct. Missing Phase Two baseline values remain missing.
+--- WORKSPACE-STATE.json
++++ WORKSPACE-STATE.json
+@@ -1,6 +1,6 @@
+ {
+-  "capturedAtUtc": "2026-10-16T14:55:50Z",
+-  "sessionDateLocal": "2026-10-16",
++  "capturedAtUtc": "2026-10-17T17:36:08Z",
++  "sessionDateLocal": "2026-10-17",
+   "timezone": "America/New_York",
+   "parentIsGitRepository": false,
+   "repositories": [
+@@ -8,7 +8,7 @@
+       "path": "sentient-futures-research",
+       "role": "Canonical curated research-library checkout",
+       "branch": "codex/deep-research-20261015",
+-      "commit": "fc5dd221a8fceb85ca852b704280bbefa0648d2c",
++      "commit": "b41b958f54594b3bccfbbd44ee660df7411363d4",
+       "clean": true,
+       "pushedByThisSession": false,
+       "latestSync": {
+@@ -21,6 +21,7 @@
+         "pullRequest": 18,
+         "ciConclusion": "success",
+         "merged": false,
++        "prMergedAtUtc": "2026-10-15T19:42:28Z",
+         "deployed": false
+       },
+       "lastVerifiedPush": {
+@@ -42,10 +43,10 @@
+         "pushed": true
+       },
+       "latestLocalCommit": {
+-        "observedAtUtc": "2026-10-16T06:37:28.184Z",
+-        "commit": "fc5dd221a8fceb85ca852b704280bbefa0648d2c",
+-        "previousLocalCommit": "bc700394e6f66be6e3d730f6b2bf3b522fbd1ab9",
+-        "scope": "Executed India physical/monetary reconstruction, conditional meal localization, independent Pakistan SPSS comparison, dynamic acceptance and offline report/data rebuild; official prerequisites fail",
++        "observedAtUtc": "2026-10-17T17:36:08Z",
++        "commit": "b41b958f54594b3bccfbbd44ee660df7411363d4",
++        "previousLocalCommit": "4c40d8b001b85db687e54bdf06e2eafc06f4e078",
++        "scope": "Executed India physical/monetary reconstruction, conditional meal localization, independent Pakistan SPSS comparison, dynamic acceptance and offline report/data rebuild; official prerequisites fail. Rebased onto origin/main on 17 October 2026 from fc5dd221a8fceb85ca852b704280bbefa0648d2c with identical tree; 5 commits ahead of origin/main and unpushed; local tag pre-rebase-20261017 preserves the old HEAD",
+         "record": "OUTPUTS/Deep Research 2026-10/baseline-completion-20261016/README.md",
+         "pushed": false,
+         "published": false
+@@ -85,7 +86,7 @@
+     "publication": true,
+     "publicSourceRetrieval": true,
+     "publicSourceScope": "Public source retrieval under the explicitly requested paper plan. Captures retained in ignored local working storage.",
+-    "publicationScope": "Authorized supervisor edition and unchanged legacy publication branch pushed to the existing public repository; PR #18 open with green CI. No merge or supervisor deployment.",
++    "publicationScope": "Authorized supervisor edition and unchanged legacy publication branch pushed to the existing public repository; PR #18 merged on 15 October 2026 at 19:42:28 UTC as c9b48ed. No supervisor deployment.",
+     "pullRequestCreated": true
+   },
+   "release": {
+@@ -432,9 +433,9 @@
+     "branch": "codex/supervisor-edition-20261013",
+     "commit": "1640a9d12212e73d6d0f843b57ce5a26c90e8172",
+     "pushed": true,
+-    "merged": false,
++    "merged": true,
+     "deployed": true,
+-    "remainingWorkspaceWarnings": "Human scholarly approval, PR merge, benchmark repository creation, historical privacy remediation and request sending remain pending.",
++    "remainingWorkspaceWarnings": "PR #18 merged on 15 October 2026 at 19:42:28 UTC as merge commit c9b48ed. Human scholarly approval, benchmark repository creation, historical privacy remediation and request sending remain pending.",
+     "localDashboardBranch": "codex/dashboard-repairs-20261013",
+     "localEditionBranch": "codex/supervisor-working-20261013",
+     "localEditionCommit": "a9d78ad83937b49f96d6330d44b80f0f5ba52e8a",
+@@ -720,7 +721,8 @@
+   "latestDeepResearch": {
+     "scope": "Full India-Pakistan protein and alternative-protein brief; implementation checkpoint only",
+     "branch": "codex/deep-research-20261015",
+-    "commit": "fc5dd221a8fceb85ca852b704280bbefa0648d2c",
++    "commit": "b41b958f54594b3bccfbbd44ee660df7411363d4",
++    "rebaseNote": "Rebased onto origin/main on 17 October 2026 from fc5dd221a8fceb85ca852b704280bbefa0648d2c; tree is identical.",
+     "record": "OUTPUTS/Deep Research 2026-10/README.md",
+     "preregistrationReceipt": "OUTPUTS/Deep Research 2026-10/logs/preregistration-receipt.json",
+     "hcesCandidate": {

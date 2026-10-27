@@ -3,30 +3,30 @@
   "human_verification": "pending",
   "markdown": {
     "path": "research/india-pakistan/report/REPORT.md",
-    "sha256": "e66aaa5a7ca0638639d365f828230a8507938f68f242643e4936563b2d74ea5b"
+    "sha256": "e3f6b2022416dd2e0a9870288233ab3e1a81880dd2ece3eb48782484d8cefbaf"
   },
   "canonical_text": {
     "path": "provenance/supervisor-export-text/canonical.txt",
-    "sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+    "sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
   },
   "parity_evidence": {
     "path": "provenance/supervisor-export-text/parity.json",
-    "sha256": "1482ebb61708a98073f7142924e0e665338007b6e9df2fea95ebda5a47c66687"
+    "sha256": "2f8fddb610748a94a4d3ad450363ec6a4dea0e9b5ad80a4cd2bb1a3309e6f05d"
   },
   "exports": [
     {
       "path": "research/india-pakistan/report/report.pdf",
-      "sha256": "cb821565945fc1709a0d02db5f0c48e46eb785e72ad88ee6e3de914359da1cd9",
+      "sha256": "1b68439b0635eb1a3d0278b6838f4ff9eb16c8993b1f971234a623ba79cab4e3",
       "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
       "text_path": "provenance/supervisor-export-text/pdf-body.txt",
-      "text_sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+      "text_sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
     },
     {
       "path": "research/india-pakistan/report/report.docx",
-      "sha256": "d6bf578e57587086b35603929174088fe42db81d120c6d80d75e3339a9488f38",
+      "sha256": "44b72093d4e02f60a5390cd08a4630189d9278d09dd87010533cb5c86b4f4d5a",
       "license": "Author-controlled research report; source citations retained; no blanket third-party reuse licence granted.",
       "text_path": "provenance/supervisor-export-text/docx-body.txt",
-      "text_sha256": "1388519a1d3d258fa3eb7b1ea51d9932e39019de34fff30ce08ea1df4e347115"
+      "text_sha256": "5dcc2133f566131094abbf0e9af93b86615565f45df292c7d953c119a93a245b"
     }
   ]
 }

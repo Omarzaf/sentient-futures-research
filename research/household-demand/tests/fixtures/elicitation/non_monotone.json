@@ -1,0 +1,190 @@
+{
+  "region": "india",
+  "price_basis": "USD_2025",
+  "unit": "million USD_2025",
+  "headline": {
+    "2026": {
+      "p10": 5.0,
+      "p50": 10,
+      "p90": 20
+    },
+    "2030": {
+      "p10": 50,
+      "p50": 10,
+      "p90": 20
+    },
+    "2035": {
+      "p10": 5.0,
+      "p50": 10,
+      "p90": 20
+    }
+  },
+  "rationale": "Authored test rationale, not an empirical result.",
+  "assumptions": [
+    "Parser test values only."
+  ],
+  "inflation_assumption": "Test assumption.",
+  "forecast_influences": "None; authored test record.",
+  "blind_spots": "skipped",
+  "sources": [
+    "https://example.org/source"
+  ],
+  "headline_resolution": "UNRESOLVABLE_NOW",
+  "categories": {
+    "plant_based_meat": {
+      "2026": {
+        "p10": 2.0,
+        "p50": 4,
+        "p90": 8
+      },
+      "2030": {
+        "p10": 2.0,
+        "p50": 4,
+        "p90": 8
+      },
+      "2035": {
+        "p10": 2.0,
+        "p50": 4,
+        "p90": 8
+      }
+    },
+    "dairy_alternatives": {
+      "2026": {
+        "p10": 2.5,
+        "p50": 5,
+        "p90": 10
+      },
+      "2030": {
+        "p10": 2.5,
+        "p50": 5,
+        "p90": 10
+      },
+      "2035": {
+        "p10": 2.5,
+        "p50": 5,
+        "p90": 10
+      }
+    },
+    "residual": {
+      "2026": {
+        "p10": 0.5,
+        "p50": 1,
+        "p90": 2
+      },
+      "2030": {
+        "p10": 0.5,
+        "p50": 1,
+        "p90": 2
+      },
+      "2035": {
+        "p10": 0.5,
+        "p50": 1,
+        "p90": 2
+      }
+    }
+  },
+  "inputs": {
+    "conversion": {
+      "p10": 0.3,
+      "p50": 0.6,
+      "p90": 1.2
+    },
+    "bass_p": {
+      "p10": 0.01,
+      "p50": 0.02,
+      "p90": 0.04
+    },
+    "bass_q": {
+      "p10": 0.15,
+      "p50": 0.3,
+      "p90": 0.6
+    },
+    "price_parity_year": null,
+    "ai_cost_decline": {
+      "p10": 0.005,
+      "p50": 0.01,
+      "p90": 0.02
+    }
+  },
+  "parity_status": "UNKNOWN",
+  "parity_by_2050_probability": null,
+  "input_rationales": {
+    "conversion": "Authored test rationale.",
+    "bass_p": "Authored test rationale.",
+    "bass_q": "Authored test rationale.",
+    "price_parity_year": "Authored test rationale.",
+    "ai_cost_decline": "Authored test rationale."
+  },
+  "proxies": {
+    "comtrade_imports": {
+      "2026": {
+        "p10": 500.0,
+        "p50": 1000,
+        "p90": 2000
+      },
+      "2030": {
+        "p10": 500.0,
+        "p50": 1000,
+        "p90": 2000
+      },
+      "2035": {
+        "p10": 500.0,
+        "p50": 1000,
+        "p90": 2000
+      }
+    },
+    "product_count": {
+      "2026": {
+        "p10": 10.0,
+        "p50": 20,
+        "p90": 40
+      },
+      "2030": {
+        "p10": 10.0,
+        "p50": 20,
+        "p90": 40
+      },
+      "2035": {
+        "p10": 10.0,
+        "p50": 20,
+        "p90": 40
+      }
+    },
+    "gfi_republished_estimate": {
+      "2026": {
+        "p10": 50.0,
+        "p50": 100,
+        "p90": 200
+      },
+      "2030": {
+        "p10": 50.0,
+        "p50": 100,
+        "p90": 200
+      },
+      "2035": {
+        "p10": 50.0,
+        "p50": 100,
+        "p90": 200
+      }
+    }
+  },
+  "gfi_publication_probability": {
+    "2026": 0.5,
+    "2030": 0.5,
+    "2035": 0.5
+  },
+  "proxy_units": {
+    "comtrade_imports": "current USD",
+    "product_count": "unique product lines",
+    "gfi_republished_estimate": "nominal INR crore"
+  },
+  "cultivated_sale_by_2035": false,
+  "cultivated_sale_probability": 0.2,
+  "cultivated_first_sale_year": null,
+  "cultivated_rationale": "Authored test rationale.",
+  "proxy_rationales": {
+    "comtrade_imports": "Authored test rationale.",
+    "product_count": "Authored test rationale.",
+    "gfi_republished_estimate": "Authored test rationale."
+  }
+}

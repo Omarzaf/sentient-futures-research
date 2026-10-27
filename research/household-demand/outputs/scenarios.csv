@@ -1,0 +1,19 @@
+country,year,scenario,p10,p50,p90,paired_delta_p10,paired_delta_p50,paired_delta_p90,unit,status,n_draws,seed,ceiling_binding_share,scope,assumption
+India,2026,main,675.553666,712.415039,754.480627,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2030,main,1280.380133,1351.182056,1431.194529,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2035,main,1803.715744,1909.799160,2024.744189,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2026,us_stress,34.161701,36.025723,38.152915,-716.327712,-676.389316,-641.391966,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2030,us_stress,497.969150,525.505639,556.624322,-874.570207,-825.676417,-782.410983,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2035,us_stress,1744.676831,1847.287943,1958.470612,-66.273578,-62.511217,-59.038913,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2026,ai_2pct,675.553666,712.415039,754.480627,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2030,ai_2pct,1308.709790,1380.272604,1461.371189,25.570522,29.363114,33.319920,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2035,ai_2pct,1892.911210,2003.501817,2121.722703,81.386317,93.494502,106.075926,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2026,ai_5pct,675.553666,712.415039,754.480627,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2030,ai_5pct,1354.872290,1428.449701,1511.408930,67.248212,77.345965,87.838604,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2035,ai_5pct,2048.510524,2168.124993,2297.181167,224.059166,258.470442,294.483529,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,supplied sensitivity assumption
+India,2026,parity_2030,675.553666,712.415039,754.480627,0.000000,0.000000,0.000000,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+India,2030,parity_2030,2022.134004,2172.179392,2344.280976,695.579119,821.832243,961.015998,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+India,2035,parity_2030,2826.249423,3036.787156,3277.376748,954.479055,1127.556906,1319.112321,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,illustrative parity date
+India,2026,literal_signed,703.886574,744.576964,791.867689,10.630936,32.536505,53.683689,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2030,literal_signed,1333.300113,1410.739140,1499.653549,19.703731,60.302298,99.499968,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario
+India,2035,literal_signed,1877.851165,1991.078992,2117.492107,26.972581,82.744231,136.325656,"million USD, 2025 prices",DIAGNOSTIC,10000,20261018,0.000000,plant-based meat and liquid milk,registered diagnostic scenario

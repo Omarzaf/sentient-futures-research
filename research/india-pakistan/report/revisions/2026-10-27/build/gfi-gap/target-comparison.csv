@@ -1,0 +1,4 @@
+scenario,source_target_crore,source_value_multiple,source_value_cagr_percent,conditional_target_million_usd,gap_above_baseline_median_million_usd,fermentation_source_crore,fermentation_share_of_target_percent,gap_reduction_if_fermentation_subtracted_percent,required_growth_at_midpoint_elasticity_percent,required_growth_min_percent,required_growth_max_percent
+low,7475.0,21.2962962963,46.5676113386,964.437693751,776.625850173,318.0,4.25418060201,5.28297136605,32.3789324216,29.1861184918,35.6506562289
+medium,12779.0,36.4074074074,56.7287678077,1648.76913558,1460.957292,622.0,4.86736051334,5.49307897642,41.556424183,38.1422606548,45.0549682081
+high,18963.0,54.0256410256,64.6550257092,2446.63973065,2258.82788707,1038.0,5.47381743395,5.92894185913,48.7153698022,45.1285414785,52.3908460052

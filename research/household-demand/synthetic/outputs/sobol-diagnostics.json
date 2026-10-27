@@ -1,0 +1,759 @@
+{
+  "seed": 20261018,
+  "n_base": [
+    8192,
+    16384
+  ],
+  "csv_decimal_places": 6,
+  "cells": [
+    {
+      "country": "Pakistan",
+      "year": 2026,
+      "fixed_factors": [
+        "Pakistan:bass_p",
+        "Pakistan:bass_q",
+        "Pakistan:urban"
+      ],
+      "parameter_names": [
+        "us_intent",
+        "Pakistan:elasticities",
+        "Pakistan:intent",
+        "Pakistan:income",
+        "Pakistan:population",
+        "Pakistan:urban",
+        "Pakistan:bass_p",
+        "Pakistan:bass_q"
+      ],
+      "runs": [
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 8192,
+          "model_evaluations": 81920,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 9042072.668823685,
+          "scaled_output_variance": 0.01260443375059998,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [],
+          "split_half": {
+            "n_base": [
+              4096,
+              4096
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.013824814567080158,
+              0.001173818272509758,
+              0.03618379430995433,
+              0.0003525243817239529,
+              2.824356621774696e-05,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              0.004004873717202213,
+              0.001197918290937794,
+              0.010333193089999915,
+              4.044680250145827e-05,
+              2.243172246044374e-05,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        },
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 16384,
+          "model_evaluations": 163840,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 9075345.29616634,
+          "scaled_output_variance": 0.012636529161200807,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [
+            "x4"
+          ],
+          "split_half": {
+            "n_base": [
+              8192,
+              8192
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.002683101689561783,
+              0.0021102323922227717,
+              0.009015721328666126,
+              0.0009862828861946246,
+              0.000546670697874696,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              0.0001777685911621002,
+              0.003152278343148407,
+              0.013258657387911765,
+              3.9906994690415464e-05,
+              1.686022204150687e-05,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        }
+      ],
+      "first_order_abs_change": [
+        0.0013526087930237907,
+        0.0010656077362030947,
+        0.004549400705406215,
+        0.0004975573581384924,
+        0.00027632121724145535,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_abs_change": [
+        8.96763079982349e-05,
+        0.0015917830358689739,
+        0.006695833403588591,
+        2.0152041116927198e-05,
+        8.511644737327112e-06,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank_n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:income",
+        "Pakistan:population"
+      ],
+      "rank_2n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:income",
+        "Pakistan:population"
+      ],
+      "top_two_set_stable": true,
+      "full_rank_stable": true,
+      "convergence_certified": false,
+      "interpretation": "Nested same-seed n/2n and split-half stability diagnostics; no sampling-error confidence interval or universal convergence certificate"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2030,
+      "fixed_factors": [
+        "Pakistan:bass_p",
+        "Pakistan:bass_q",
+        "Pakistan:urban"
+      ],
+      "parameter_names": [
+        "us_intent",
+        "Pakistan:elasticities",
+        "Pakistan:intent",
+        "Pakistan:income",
+        "Pakistan:population",
+        "Pakistan:urban",
+        "Pakistan:bass_p",
+        "Pakistan:bass_q"
+      ],
+      "runs": [
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 8192,
+          "model_evaluations": 81920,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 38855275.18150494,
+          "scaled_output_variance": 0.012507533650522939,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [],
+          "split_half": {
+            "n_base": [
+              4096,
+              4096
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.013367409801764131,
+              0.0013450164076386634,
+              0.035526657647488524,
+              0.0007878991723932402,
+              0.00012199179533902305,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              0.003975658852520561,
+              0.0009519786417813841,
+              0.010762782649146985,
+              0.00019074021508892758,
+              0.00018674811959426378,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        },
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 16384,
+          "model_evaluations": 163840,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 39658040.43590022,
+          "scaled_output_variance": 0.012152935476283327,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [
+            "x4"
+          ],
+          "split_half": {
+            "n_base": [
+              8192,
+              8192
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.002185300077336562,
+              0.002099962034052799,
+              0.010002705580715476,
+              0.0021014183325329065,
+              0.0015572450533842506,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              4.304526316475238e-05,
+              0.0035168478789264074,
+              0.01729707211048881,
+              0.00023028328865017187,
+              0.00012336503077509803,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        }
+      ],
+      "first_order_abs_change": [
+        0.001102494480410901,
+        0.0010627747106619762,
+        0.00505603044687819,
+        0.0010619117744520325,
+        0.0007893244185534177,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_abs_change": [
+        2.1973361932020596e-05,
+        0.001779939521764931,
+        0.008755820443458018,
+        0.00011655632915989235,
+        6.239798310599814e-05,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank_n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:population",
+        "Pakistan:income"
+      ],
+      "rank_2n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:population",
+        "Pakistan:income"
+      ],
+      "top_two_set_stable": true,
+      "full_rank_stable": true,
+      "convergence_certified": false,
+      "interpretation": "Nested same-seed n/2n and split-half stability diagnostics; no sampling-error confidence interval or universal convergence certificate"
+    },
+    {
+      "country": "Pakistan",
+      "year": 2035,
+      "fixed_factors": [
+        "Pakistan:bass_p",
+        "Pakistan:bass_q",
+        "Pakistan:urban"
+      ],
+      "parameter_names": [
+        "us_intent",
+        "Pakistan:elasticities",
+        "Pakistan:intent",
+        "Pakistan:income",
+        "Pakistan:population",
+        "Pakistan:urban",
+        "Pakistan:bass_p",
+        "Pakistan:bass_q"
+      ],
+      "runs": [
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 8192,
+          "model_evaluations": 81920,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 80730932.10368344,
+          "scaled_output_variance": 0.012360916920113405,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [],
+          "split_half": {
+            "n_base": [
+              4096,
+              4096
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.012883879114689446,
+              0.0017709851651573766,
+              0.033505272858834756,
+              0.0012404722059595578,
+              0.0002791833200188193,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              0.003926089192638871,
+              0.0007097892665983707,
+              0.01045233528805356,
+              0.0003549971508303648,
+              0.0006478041036909674,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        },
+        {
+          "estimator": "Saltelli_2010_first_order_and_squared_difference_total",
+          "sampling": "independent_pseudorandom_uniform",
+          "seed": 20261018,
+          "n_base": 16384,
+          "model_evaluations": 163840,
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "output_scale": 83054272.26384826,
+          "scaled_output_variance": 0.01184818185121282,
+          "variance_definition": "var(base outputs / output_scale), ddof=0",
+          "outside_unit_interval": [],
+          "first_order_exceeds_total": [
+            "x4"
+          ],
+          "split_half": {
+            "n_base": [
+              8192,
+              8192
+            ],
+            "status": "DIAGNOSTIC_ONLY",
+            "first_order_abs_difference": [
+              0.00165047923686093,
+              0.0023250160833701017,
+              0.01091427793290678,
+              0.002834870810781792,
+              0.0029532763053525223,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "total_abs_difference": [
+              0.0002793622994585604,
+              0.0037899198603472267,
+              0.02125764051849277,
+              0.0005153717379232769,
+              0.00034189161279784067,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "note": "Split-half differences are not confidence intervals or convergence proof."
+          },
+          "convergence_certified": false,
+          "parameter_map": {
+            "x1": "us_intent",
+            "x2": "Pakistan:elasticities",
+            "x3": "Pakistan:intent",
+            "x4": "Pakistan:income",
+            "x5": "Pakistan:population",
+            "x6": "Pakistan:urban",
+            "x7": "Pakistan:bass_p",
+            "x8": "Pakistan:bass_q"
+          }
+        }
+      ],
+      "first_order_abs_change": [
+        0.0008328760931606907,
+        0.0011792672688902273,
+        0.005526968272683508,
+        0.0014351689573722688,
+        0.0015007269639562212,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_abs_change": [
+        0.0001419580891608846,
+        0.0019224330147108448,
+        0.010784900802320307,
+        0.00026144017004388516,
+        0.00017322672276456896,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank_n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:population",
+        "Pakistan:income"
+      ],
+      "rank_2n": [
+        "Pakistan:intent",
+        "Pakistan:elasticities",
+        "us_intent",
+        "Pakistan:population",
+        "Pakistan:income"
+      ],
+      "top_two_set_stable": true,
+      "full_rank_stable": true,
+      "convergence_certified": false,
+      "interpretation": "Nested same-seed n/2n and split-half stability diagnostics; no sampling-error confidence interval or universal convergence certificate"
+    }
+  ],
+  "source_hashes": {
+    "research/household-demand/build_outputs.py": "8be86a01af68e57fe972e64eae1a6f15998733baa0a8344e14737fdb819cce7a",
+    "research/household-demand/simulate.py": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+    "research/household-demand/sensitivity.py": "1a2959d28d178a196b0bc487bbefcffa8c8c7d12249732da08266676138ac2ef",
+    "research/household-demand/protocol.json": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+    "research/household-demand/inputs/manifest.csv": "be96e78eefafd95f48db2746d3bf6e267103e297c1b6713799bd0b32e7867a5d",
+    "research/household-demand/outputs/simulation-india.json": "9adfa5aa3cde7b63f95966183878a32e8f458404797cd588aa13a0297aca5630",
+    "research/household-demand/outputs/simulation-india-us-stress.json": "de35c46b0b596b1b152327e04902e4f8bd4dee4a3b6322cb35914186e5fc87cf",
+    "research/household-demand/outputs/simulation-india-literal-signed.json": "a20f03e2c091a2579bdc5e237d095779f8b86daa60cc48ded77521c475807111",
+    "research/household-demand/outputs/holdout-summary.json": "7a5d7d9f40a19b839bc8425c2507996bbe0e77e1bb413e42320c1a37e511a526",
+    "research/household-demand/outputs/us_calibration.json": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+    "research/household-demand/outputs/drivers.json": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+    "research/household-demand/outputs/diffusion.json": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+    "research/household-demand/outputs/prices_summary.json": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+    "research/household-demand/outputs/elasticities_national.json": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+    "research/household-demand/outputs/segments_summary.json": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+    "research/india-pakistan/data/altprotein_proxy_scenarios.csv": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+    "research/household-demand/elicitation/results.csv": "4123c4a98a58bd5e2eb28a5e0f0707e92e614692feafa0a36942ba833dc038ba",
+    "research/household-demand/elicitation/accepted-runs.json": "4b08d457ad2f2af3aafb834f805ff52ad3dd5399955a46544f10293004003113",
+    "research/household-demand/elicitation/completion.json": "98a0467f5fc93ee79adf45fdebdefec8e60e3d60b27f75bd5c03c39fa73b666d",
+    "research/household-demand/elicitation/scope.json": "1624f33bab2c029d1fd3477fe2b3773959af8f9dc33d46dbd1518f5323b24f04",
+    "research/household-demand/elicitation/instrument-provenance.json": "054838992bef9724fb5ccffe1440ab4330b1fa59a2c6774010f40f30a65b20eb",
+    "research/household-demand/elicitation/execution-scope.json": "537a568e11158bd9e05bb191728b56a28de2a0cf14cd8cf85ac75e6fdcc7baf0"
+  },
+  "simulation_source_hashes": {
+    "us_calibration": "daa272ed39e85804fe2c23a1cf170d10a9e77e90d7742714e4752ab10ee25253",
+    "drivers": "b433ead74d740d0de060f90eafcfe2e5d57951103572bb4655cf979ea8f3af2d",
+    "prices_summary": "b6f8b573a9dac70acf3c615e28883a247e3e56550f08b893ceb208feb43ec79e",
+    "diffusion": "9144d9a9d0ef84e373be68fb511bb94e4fc12787ae6cb00213963a131fa8aa9a",
+    "elasticities_national": "407bf734f24f903c3a41a0228399b9cf49611e4024f0984020ba14e3a0e9ced5",
+    "segments_summary": "415b80bff9a80818a1ea64ce30198b789dc996767fce1241b96074ef4191f183",
+    "protocol": "790afde7d8f5220f77655f06a4440f09569aa8e00fadb55ce5a7205ac415af55",
+    "benchmark_annual": "cac915045f3705af9772a6dac95f5495a7515fc4941dba65f89a849dee5054db",
+    "wup": "80eb71bbabb46cb2e1599b51b16133bf28b0a99a541d72de20a1248ec6170a75",
+    "official_fx_2025": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439",
+    "proxy_inputs": "93ae9dddbfa59c1930b1deaba3a31a3cc273fa8a43077f9dcf735c0d9e64aa37",
+    "poultry_supply": "9686f4145b1e23464753fcedec56d4f9045f7fec99f1e579815e2388eb3714c7",
+    "placeholder_prices": "06fcccfdecf4dec42712f6e5142897b52f2e9d67d24e9770c6f606fd2afae9b5",
+    "simulator": "18f7f1bb64562f8bc1edd1bc58bc14c654c77d8db1716b8bd2306bf2fb446963",
+    "elasticity_estimator": "b1be156502ee0824714443cac41b42afb6ac32532b1b209afa0751507d6d6b45",
+    "segmentation": "ac699922a83d267166512e478b1f037d1ca194f0a85b3693eef8bb090716f92c"
+  },
+  "environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  },
+  "grouping": "one joint elasticity-bootstrap row per country, preserving all coefficient dependence",
+  "factor_distribution": "unit-cube inverse mappings in simulate.evaluate; independent grouped factors; fixed Bass and degenerate bands have zero sensitivity by construction",
+  "csv_sha256": "4e0faa003e95a60978b4d01d0adf2b5d0c9b167b9a3b5c25418b753ef71921fa",
+  "household_provenance": {
+    "Pakistan": {
+      "households_sha256": "d32e7dd43790a5a489793c344747d828365e98b590d7cbb60ecab69ac8715029",
+      "bootstrap_draws": 500,
+      "bootstrap_source": "actual re-estimated PSU-bootstrap draws with source/code-hashed external cache"
+    }
+  }
+}

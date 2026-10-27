@@ -1,0 +1,102 @@
+[
+  {
+    "id": "IN-FSSAI-NSF-2017",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Gazette_Notification_NonSpecified_Food_Ingredients_15_09_2017.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "IN-FSSAI-VEGAN-2022",
+    "url": "https://www.fssai.gov.in/upload/notifications/2022/06/62ac3f9dba33cGazette_Notification_Vegan_Food_17_06_2022.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "IN-FSSAI-LABEL-2020",
+    "url": "https://www.fssai.gov.in/upload/notifications/2020/12/5fd87c6a0f6adGazette_Notification_Labelling_Display_14_12_2020.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "IN-FSSAI-IMPORT-2017",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Import_Regulations.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "IN-FSSAI-RECALL-2017",
+    "url": "https://www.fssai.gov.in/upload/uploadfiles/files/Food_Recall_Regulations.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "IN-DBT-BIOE3-2024",
+    "url": "https://bmi.dbtindia.gov.in/pdf/folder.pdf",
+    "prior_failed_attempts": 1
+  },
+  {
+    "id": "IN-DBT-SMART-CALL-2025",
+    "url": "https://dbtindia.gov.in/sites/default/files/Approved_CFP_Biomanufacturing_Smart_Proteins_25.03.2025_0.pdf",
+    "prior_failed_attempts": 1
+  },
+  {
+    "id": "PK-FED-PSQCA-1996",
+    "url": "https://www.psqca.com.pk/PSQCAACT/PSQCAActVI1996.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-FED-HALAL-2016",
+    "url": "https://pakistancode.gov.pk/pdffiles/administrator1d376dbb967abb1d9ed2dcb3ae978dbc.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-FED-BIOSAFETY-2005",
+    "url": "https://environment.gov.pk/SiteImage/Misc/files/Rules/BIOSafety%20Rules%202005%20%28Amended2024%29.pdf",
+    "prior_failed_attempts": 2
+  },
+  {
+    "id": "PK-PUNJAB-ACT-2011",
+    "url": "https://punjablaws.gov.pk/laws/2460.html",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-PUNJAB-PRODUCT-2017",
+    "url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Product-Registeration-Display-of-PFA-Logo-Regulations-2017.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-PUNJAB-RECALL-2017",
+    "url": "https://pfa.gop.pk/wp-content/uploads/2023/05/PFA-Food-Recall-Regulations-2017.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-SINDH-ACT-2016",
+    "url": "https://www.sfa.gos.pk/documents/Sindh%20Act%20No.XIV%20of%202017.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-SINDH-PRODUCT-2023",
+    "url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20Food%20Product%20Regulation%202023.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-SINDH-BUSINESS-2023",
+    "url": "https://sfa.gos.pk/documents/rules-regulations/SFA%20business%20establishment%20Rules%202023.pdf",
+    "prior_failed_attempts": 2
+  },
+  {
+    "id": "PK-KP-ACT-2014",
+    "url": "https://kpcode.kp.gov.pk/uploads/2014_10_THE_KHYBER_PAKHTUNKHWA_FOOD_SAFETY_AUTHORITY_ACT_2014.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-BALOCH-ACT-2014",
+    "url": "https://balochistan.gov.pk/wp-content/uploads/2024/10/Food-Authority-Act-2014-2014.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-BALOCH-PRODUCT-2022",
+    "url": "https://bfa.gob.pk/wp-content/uploads/2024/12/BFA-Registration-of-Food-Product-Licensing-of-Foo-Business-Premises-Rules-2022.pdf",
+    "prior_failed_attempts": 0
+  },
+  {
+    "id": "PK-BALOCH-SAMPLING-2025",
+    "url": "https://balochistancode.gob.pk/lawdir/54edc09c-ee38-438d-b2db-2366bc4f6be4.pdf",
+    "prior_failed_attempts": 0
+  }
+]

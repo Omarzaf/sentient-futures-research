@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "bb7f4ba9ef061fdc835c1d0173165deea475b0fb40264a003dbe661a44100388"
+    },
+    {
+      "path": "category-growth.csv",
+      "sha256": "f7f42bc35f8ff8e466b53cd3665104a42a47230467fbed465465905961f7bfba"
+    },
+    {
+      "path": "category-reconciliation.csv",
+      "sha256": "c90328ce42cce115b207ed6aaf5d1fb1ae138e41ea0bd90c96c4d57876041bce"
+    },
+    {
+      "path": "diagnostics.json",
+      "sha256": "51c10816c94ed7cd954d85d8b91318e3bb723eeda0156898122b112eea9666f5"
+    },
+    {
+      "path": "factor-draws.csv",
+      "sha256": "ad067eb76db6a9710b4dc7ca3de97e35eb604331301cf06e145036a78cea8acf"
+    },
+    {
+      "path": "midpoint-factors.csv",
+      "sha256": "a754b61f7932fee9306efbb495e5e23f749650ae802cd6af6158ab19a9214ce2"
+    },
+    {
+      "path": "reference-checks.csv",
+      "sha256": "abeaa119e5b86493fe0db33500a2aa22e376cdb382cb2ded108f6e77e7d260b6"
+    },
+    {
+      "path": "required-growth.csv",
+      "sha256": "401611319255d9d25c80503800de8c3102830a1be3f22c51ceea8dfae671962e"
+    },
+    {
+      "path": "sensitivity-summary.csv",
+      "sha256": "d1bfa243bee7c4851b671b0ae3ee4776f3a20909756208d1eecede5a65bc50d7"
+    },
+    {
+      "path": "target-comparison.csv",
+      "sha256": "c44120cd7574a01b603254fd2137f211e1ac5de03d6636113bc3c4f859983029"
+    }
+  ]
+}
