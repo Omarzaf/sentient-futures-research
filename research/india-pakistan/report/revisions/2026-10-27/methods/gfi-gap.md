@@ -22,7 +22,7 @@ The table transcribes physical PDF page 4. Each 2030 cell gives the reported val
 | Fermentation-derived meat | Source dash; undefined | 318 (N/A) | 622 (N/A) | 1,038 (N/A) |
 | Overall domestic market | 351 | 7,475 (46.57%) | 12,779 (56.73%) | 18,963 (64.66%) |
 
-All three 2030 category totals reconcile. The known 2022 entries sum to the reported 351 crore, but this does not turn the dash into an observed zero. Eggs' large CAGR reflects its one-crore base: the low-case absolute increase is 526 crore, compared with 4,577 crore for dairy. Absolute changes, full precision and source locators are retained in the [category-growth table](../build/gfi-gap/category-growth.csv) and [source extraction](../data/gfi_categories.csv).
+All three 2030 category totals reconcile. The known 2022 entries sum to the reported 351 crore, but this does not turn the dash into an observed zero. Eggs' large CAGR reflects its one-crore base: the low-case absolute increase is 526 crore, compared with 4,577 crore for dairy. Absolute changes, 12-significant-digit values and source locators are retained in the [category-growth table](../build/gfi-gap/category-growth.csv) and [source extraction](../data/gfi_categories.csv).
 
 Fermentation is **4.254% of GFI's low-case total**. Subtracting its 318 crore from that target reduces the difference between the conditionally converted GFI low case and our median by **5.283%**. The denominators differ. This arithmetic exercise cannot isolate how much fermentation explains the forecasts' disagreement: our own aggregate already intends to include it, without a category-specific estimate. The [target comparison](../build/gfi-gap/target-comparison.csv) reports both denominators for all three scenarios.
 

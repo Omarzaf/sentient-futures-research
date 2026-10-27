@@ -3,11 +3,11 @@
   "files": [
     {
       "path": "REPORT.md",
-      "sha256": "4afec7aa3f901cbf46568959abe06eba9afbe907e8acc11af5656462d51946c6"
+      "sha256": "bb7f4ba9ef061fdc835c1d0173165deea475b0fb40264a003dbe661a44100388"
     },
     {
       "path": "category-growth.csv",
-      "sha256": "df4e01db0dd097ed5e02038ede7963378609027e7106e3b5c00d3ec2002be5ce"
+      "sha256": "f7f42bc35f8ff8e466b53cd3665104a42a47230467fbed465465905961f7bfba"
     },
     {
       "path": "category-reconciliation.csv",
@@ -15,31 +15,31 @@
     },
     {
       "path": "diagnostics.json",
-      "sha256": "52915781db8e6294a8f05ed5369fdff205260b0517359e4014491de006752d8b"
+      "sha256": "51c10816c94ed7cd954d85d8b91318e3bb723eeda0156898122b112eea9666f5"
     },
     {
       "path": "factor-draws.csv",
-      "sha256": "2ee440668464737b02af0cfb51b28ee6f17c70152e3c26058a12dc5fda9adb74"
+      "sha256": "ad067eb76db6a9710b4dc7ca3de97e35eb604331301cf06e145036a78cea8acf"
     },
     {
       "path": "midpoint-factors.csv",
-      "sha256": "bb633badbf9b79f498bcfa470462020dd012a034cd576c2d4f4927ef5befad5e"
+      "sha256": "a754b61f7932fee9306efbb495e5e23f749650ae802cd6af6158ab19a9214ce2"
     },
     {
       "path": "reference-checks.csv",
-      "sha256": "058cc2d4453dd5cfd6940a042cd641f6b33654faff9b907e1c79612b3cb28019"
+      "sha256": "abeaa119e5b86493fe0db33500a2aa22e376cdb382cb2ded108f6e77e7d260b6"
     },
     {
       "path": "required-growth.csv",
-      "sha256": "6b0615530048f8cc888da8126ae8725ed741be2b2d81683670eebfe567ff4399"
+      "sha256": "401611319255d9d25c80503800de8c3102830a1be3f22c51ceea8dfae671962e"
     },
     {
       "path": "sensitivity-summary.csv",
-      "sha256": "a413edd276ce2df9b6713ff34f369f829cc7dfbbedef5152543018de661dc216"
+      "sha256": "d1bfa243bee7c4851b671b0ae3ee4776f3a20909756208d1eecede5a65bc50d7"
     },
     {
       "path": "target-comparison.csv",
-      "sha256": "9a149eef120481590adec9862d5ad53c8176258b02d3bb6f5f6eca04772c13da"
+      "sha256": "c44120cd7574a01b603254fd2137f211e1ac5de03d6636113bc3c4f859983029"
     }
   ]
 }

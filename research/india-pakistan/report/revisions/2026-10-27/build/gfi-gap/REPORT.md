@@ -157,4 +157,4 @@ The income/drift overlap case narrows the extra-growth ceiling and lowers the In
 
 55 retained reference values agree at their six-decimal output precision. Inputs, category extraction and the 127-row reference file have identical pre/post SHA-256 checksums. No baseline engine or panel file is written.
 
-All CSVs retain numerical precision; display rounding is only for readability. diagnostics.json contains source checksums, the comparison contract and complete summary values. The full factor table is separate to keep the JSON compact.
+CSV and JSON values keep 12 significant digits, so outputs match across operating systems; display rounding is only for readability. diagnostics.json contains source checksums, the comparison contract and complete summary values. The full factor table is separate to keep the JSON compact.

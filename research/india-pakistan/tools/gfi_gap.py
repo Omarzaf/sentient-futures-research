@@ -33,6 +33,7 @@ __all__ = [
 
 SEED = 20261015
 DRAWS = 10000
+OUTPUT_SIGNIFICANT_DIGITS = 12
 YEARS = (2026, 2030, 2035)
 COUNTRIES = ("India", "Pakistan")
 ROOT = Path(__file__).resolve().parents[1]
@@ -698,8 +699,19 @@ def build_diagnostics(
     }
 
 
+def stable_floats(value: object) -> object:
+    """Round floats to 12 significant digits so platform libm last-bit differences do not change output bytes."""
+    if isinstance(value, float):
+        return float(f"{value:.{OUTPUT_SIGNIFICANT_DIGITS}g}")
+    if isinstance(value, dict):
+        return {key: stable_floats(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [stable_floats(item) for item in value]
+    return value
+
+
 def write_csv(file: Path, rows: list[Row]) -> None:
-    """Export deterministic full-precision cells with blanks for unresolved values."""
+    """Export deterministic 12-significant-digit cells with blanks for unresolved values."""
     with file.open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
@@ -801,7 +813,7 @@ def markdown_report(result: dict[str, object]) -> str:
         "",
         f"{result['baseline_parity']['checked_rows']} retained reference values agree at their six-decimal output precision. Inputs, category extraction and the 127-row reference file have identical pre/post SHA-256 checksums. No baseline engine or panel file is written.",
         "",
-        "All CSVs retain numerical precision; display rounding is only for readability. diagnostics.json contains source checksums, the comparison contract and complete summary values. The full factor table is separate to keep the JSON compact.",
+        "CSV and JSON values keep 12 significant digits, so outputs match across operating systems; display rounding is only for readability. diagnostics.json contains source checksums, the comparison contract and complete summary values. The full factor table is separate to keep the JSON compact.",
         "",
     ]
     return "\n".join(lines)
@@ -809,6 +821,7 @@ def markdown_report(result: dict[str, object]) -> str:
 
 def write_outputs(result: dict[str, object], output: Path) -> None:
     """Write deterministic companion artifacts in a separate output directory."""
+    result = stable_floats(result)
     output.mkdir(parents=True, exist_ok=True)
     tables = {
         "category-growth.csv": "category_growth",
