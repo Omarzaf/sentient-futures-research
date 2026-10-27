@@ -135,9 +135,9 @@
     },
     {
       "path": "report/chapter.md",
-      "sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47",
+      "sha256": "43773fe5f6b9873c8647e21ccd182be8d505575a684de34a57ee948170cc374b",
       "source_path": "research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
-      "source_sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47",
+      "source_sha256": "43773fe5f6b9873c8647e21ccd182be8d505575a684de34a57ee948170cc374b",
       "transformation": "Exact authored revision export; local candidate"
     },
     {

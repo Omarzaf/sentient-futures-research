@@ -139,7 +139,7 @@
     {
       "path": "provenance/import-records.json",
       "bytes": 130843,
-      "sha256": "96a1f4067867bd4e1bc21eed96157727df69e2e7928a23a57ff4470bc06676fa"
+      "sha256": "4a48c0df2f93c9af7ad3bbcacf7952da8f99ae8c34585e39fe5c1c320af69245"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
@@ -2424,7 +2424,7 @@
     {
       "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
       "bytes": 16773,
-      "sha256": "40ee55963e313de199818e9b104fbf6df66d30a4991a258f41cbc262f55cdcfa"
+      "sha256": "5db9c23ac686da9cadcb1467c2c5d106feb1f2627bcc8cc2f57a2caec9728463"
     },
     {
       "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/sources.md",
@@ -2433,8 +2433,8 @@
     },
     {
       "path": "research/india-pakistan/report/revisions/2026-10-27/report/chapter.md",
-      "bytes": 13941,
-      "sha256": "df42994ebdf6bb5620b654ea3d618cbf64a43a30117083a481b2a57c74f04c47"
+      "bytes": 14445,
+      "sha256": "43773fe5f6b9873c8647e21ccd182be8d505575a684de34a57ee948170cc374b"
     },
     {
       "path": "research/india-pakistan/report/revisions/2026-10-27/report/figures/figure-data.json",
