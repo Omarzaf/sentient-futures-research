@@ -240,9 +240,9 @@
     },
     {
       "path": "scripts/plot_gfi_gap.py",
-      "sha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+      "sha256": "2195251cc0602f8a2c68d6bc01151a3caf00518006e162b910421f469453d5bd",
       "source_path": "research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
-      "source_sha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+      "source_sha256": "2195251cc0602f8a2c68d6bc01151a3caf00518006e162b910421f469453d5bd",
       "transformation": "Exact authored revision export; local candidate"
     },
     {

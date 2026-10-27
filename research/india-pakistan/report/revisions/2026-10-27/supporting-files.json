@@ -58,7 +58,7 @@
     {
       "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
       "source": "provenance/source-map.json",
-      "sha256": "25f1ec8b943f8200b9640e8374a16a2eeac23c55030e3e4ef3ee9df48c1bd203",
+      "sha256": "40ee55963e313de199818e9b104fbf6df66d30a4991a258f41cbc262f55cdcfa",
       "purpose": "Hash-bound supporting snapshot for canonical manuscript links; not a second model engine"
     },
     {

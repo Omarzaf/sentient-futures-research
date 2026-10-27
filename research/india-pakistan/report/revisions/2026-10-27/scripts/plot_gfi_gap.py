@@ -108,7 +108,9 @@ def main() -> None:
         },
     )
     svg = args.output / "gfi-required-growth.svg"
-    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
+    svg.write_text(
+        "\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n"
+    )
     plt.close(fig)
     receipt = {
         "source_sha256": hashlib.sha256(args.input.read_bytes()).hexdigest(),

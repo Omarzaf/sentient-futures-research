@@ -1632,13 +1632,13 @@
   {
     "path": "research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
     "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/scripts/plot_gfi_gap.py",
-    "sourceSha256": "4034e6d6b8fb16d7dccd83295d153202b8174ec7c197d9d07224b6ea6dac0fad",
+    "sourceSha256": "2195251cc0602f8a2c68d6bc01151a3caf00518006e162b910421f469453d5bd",
     "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
   },
   {
     "path": "research/india-pakistan/report/revisions/2026-10-27/supporting-files.json",
     "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/supporting-files.json",
-    "sourceSha256": "3f8e755665eb3627bdbfc67da7ea568d7231b4b3a7e03f64c7c22989d16fa1cb",
+    "sourceSha256": "092e5adbd0d5ab4484026c948b5d1f00755ef6ae6b4a2dcea0a5494b0d1b5c9b",
     "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
   },
   {
@@ -1662,7 +1662,7 @@
   {
     "path": "research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
     "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/provenance/source-map.json",
-    "sourceSha256": "25f1ec8b943f8200b9640e8374a16a2eeac23c55030e3e4ef3ee9df48c1bd203",
+    "sourceSha256": "40ee55963e313de199818e9b104fbf6df66d30a4991a258f41cbc262f55cdcfa",
     "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
   },
   {
