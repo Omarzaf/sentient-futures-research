@@ -35,6 +35,16 @@ jobs:
         run: python3 tools/verify_edition.py --only C1,C2,C3,C4,C5
       - name: Block synthetic values from publication surfaces
         run: python3 research/household-demand/synthetic.py --check
+      - name: Run Python regression suites (machine-bound export tests excluded)
+        run: |
+          python3 -m venv "$RUNNER_TEMP/py"
+          PY="$RUNNER_TEMP/py/bin/python"
+          "$PY" -m pip install --quiet numpy==2.5.4 pandas==3.0.6 pyarrow==26.0.0 xlrd==2.0.2 pytest==9.1.1
+          "$PY" -m pytest -q -p no:cacheprovider research/household-demand
+          "$PY" -m pytest -q -p no:cacheprovider research/india-pakistan/report/revisions/2026-10-27/tests
+          # Pandoc, the local style detector and a macOS Chromium path are absent on the runner.
+          "$PY" -m pytest -q -p no:cacheprovider research/india-pakistan/tests -k "not real_chromium and not real_pandoc and not pandoc_ast and not local_style_detector"
+          cd research/india-pakistan/pipeline && "$PY" -m pytest -q -p no:cacheprovider -c pytest.ini tests
       - name: Check October continuation evidence against fixtures
         run: node tools/test-continuation-checks.mjs
       - name: Check MMM reading edition against the manuscript
