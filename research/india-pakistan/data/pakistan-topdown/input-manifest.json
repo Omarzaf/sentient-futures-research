@@ -1,0 +1,58 @@
+{
+  "faostat_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/faostat_fbs_2025-10-28.zip",
+    "sha256": "26200855ed5da3d0805e34219124e241d0e0bc6959d0995ebc77a10dd84cbaf1"
+  },
+  "wdi_fx_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/altprotein/proxy/worldbank-PA.NUS.FCRF.json",
+    "sha256": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439"
+  },
+  "density_catalog": {
+    "path": ".worktrees/writing-kit-20261030/research/india-pakistan/methods/source_factor_catalog.csv",
+    "sha256": "fe40e79a058b1a58ded4f0e58ccaebca4762fbab521d79fc05d784a77a58c1ad"
+  },
+  "density_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/diet/m3-infoods-2026-10-13/density-v2.pdf",
+    "sha256": "41a48793d69061c9ef7d9d99d3cab4e901492b1c42c47f386bf0532f3bdb585c"
+  },
+  "pbs_raw": {
+    "path": "OUTPUTS/Codex Handoff 2026-10-30/p4/raw/pbs-spi-20251224.pdf",
+    "sha256": "0496f09af8233a40c778c282a17246dc98a33b4da72cf44948a97ac65b75ef1f"
+  },
+  "pbs_text": {
+    "path": "OUTPUTS/Codex Handoff 2026-10-30/p4/raw/pbs-spi-20251224.txt",
+    "sha256": "036eb9725ee927ea53534d68ab13b3d933073930bfeed1cc83ce8f54a0b192cf"
+  },
+  "pbs_summary": {
+    "path": "OUTPUTS/Codex Handoff 2026-10-30/p4/raw/pbs-spi-summary-20251224.pdf",
+    "sha256": "04f72ea20c975c3be0ab26be81e648723169365a5c2eb50e271c9d30679df725"
+  },
+  "transfer_reference": {
+    "path": ".worktrees/writing-kit-20261030/research/india-pakistan/data/altprotein_proxy_scenarios.csv",
+    "sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4"
+  },
+  "oecd_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/oecd/outlook_2025_2034_ind_pak.csv",
+    "sha256": "7c78ff2ebd3530f5d4bc8d7e326b4505db89a7f16fec341ec18f88f14313ec75"
+  },
+  "oecd_structure": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/oecd/structure.xml",
+    "sha256": "64db2ce4e96c2699d8d4172adf85f3f24c480a258a04fd5d8e6095d4d86794a6"
+  },
+  "economic_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/national/pakistan-economic-survey-2024-25-agriculture.pdf",
+    "sha256": "2cd7386a1d374d6a9295401eddf64dd7bbdb8cd1d32b340245c4f4893630ab09"
+  },
+  "economic_text": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/national/pakistan-economic-survey-2024-25-agriculture.txt",
+    "sha256": "673bfc6e75db10dd79ec8419b973eb3ff8a9ef7059939f8a49ec23b0144ac120"
+  },
+  "imf_cpi_raw": {
+    "path": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/altprotein/proxy/imf-weo-2026-10-PCPIPCH.json",
+    "sha256": "e36fb78dc58c5b50df615add2656469d316fe0c11416559b473de78d56b9aa1d"
+  },
+  "retail_manifest": {
+    "path": "OUTPUTS/Deep Research 2026-10/retail/capture-manifest.jsonl",
+    "sha256": "9693c19e0142206e309fdef37fd091c8b3de00d0d5101ff052080d24007a998d"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "edition": "2026-10-30",
+  "handoff_directory": "OUTPUTS/Codex Handoff 2026-10-30",
+  "status": "Local author writing kit; human review and joint acceptance pending",
+  "artifacts": [
+    {
+      "path": "kit/00-section-map.md",
+      "bytes": 5667,
+      "sha256": "0a5c0140b9a93be1cab61d6d154aa77aa510c4c88371191069d22628a9702954"
+    },
+    {
+      "path": "kit/01-executive-summary.md",
+      "bytes": 3294,
+      "sha256": "95be8fe9ea429e15ff50f39e46fd23d98b18351bbeaf96320da214137a22d86b"
+    },
+    {
+      "path": "kit/02-question-and-contrast.md",
+      "bytes": 4075,
+      "sha256": "29ef87ea1c00c9d991e96490a77d7f51124482eb29d702bfb7554c0d1ef95032"
+    },
+    {
+      "path": "kit/03-current-market.md",
+      "bytes": 4837,
+      "sha256": "d6ddddc0834e76361b4a158e0596f422011b48ab544609ea5cf25c506c46d7b7"
+    },
+    {
+      "path": "kit/04-drivers.md",
+      "bytes": 3640,
+      "sha256": "c1af6254d18b5728a0276371114d58dc174f8ddd7e170dc2c3f63835dd5ef89a"
+    },
+    {
+      "path": "kit/05-ai.md",
+      "bytes": 8374,
+      "sha256": "16386f7f599725d61533cab7046583fc088c557f864cf3ff4612db682a8905ad"
+    },
+    {
+      "path": "kit/06-method.md",
+      "bytes": 3381,
+      "sha256": "e3f458d01041d140db6d8dfd988728b419e57c12d3947914d00eaf4d1f372db8"
+    },
+    {
+      "path": "kit/06-results.md",
+      "bytes": 3420,
+      "sha256": "b331712057eebecbde48b8a96629b521349cae58aa7b0bbb84e697e6e8aa1572"
+    },
+    {
+      "path": "kit/07-gfi.md",
+      "bytes": 5919,
+      "sha256": "2eccd19577e489145a78a9b4c2a101194dc8192aa20acb992553fb5b04bb977c"
+    },
+    {
+      "path": "kit/08-halal.md",
+      "bytes": 4251,
+      "sha256": "40945e0de5c55c83d8afbbfea468efa8c4388396370dde1249ddc3b5373d87cd"
+    },
+    {
+      "path": "kit/09-cross-region.md",
+      "bytes": 3626,
+      "sha256": "61652f388d782258f9b7d769de740042e3db5405bb108cbb961aba748771abb0"
+    },
+    {
+      "path": "kit/10-recommendations.md",
+      "bytes": 9324,
+      "sha256": "78c729de74b2957edc906a0931be00f26cc3ec450000a48914045790e30b5964"
+    },
+    {
+      "path": "kit/11-limitations.md",
+      "bytes": 3016,
+      "sha256": "756acbbcdd359465704c150fe19e519a6e042673f8297ef6c70b033aa11d5db8"
+    },
+    {
+      "path": "kit/WRITING-KIT.docx",
+      "bytes": 148860,
+      "sha256": "e9a3954e548b72b90bc887f4fd4f0b543d6d4fa29442b41ca48e84677a7be5f7"
+    },
+    {
+      "path": "kit/WRITING-KIT.md",
+      "bytes": 72248,
+      "sha256": "6d0b46bf445077da5c77412cb4d7baa7325e8e4fed50009a876655581581fec2"
+    },
+    {
+      "path": "kit/appendices.md",
+      "bytes": 10777,
+      "sha256": "d15159b05234abf805428b11f3770cfb7e5f8ec08b2a615ace46f43622c977bc"
+    },
+    {
+      "path": "kit/claims-by-section.csv",
+      "bytes": 210119,
+      "sha256": "edef5bbe742a818a66df85b550c1388b869ebb8c9ced23cf8e44d010d0f32226"
+    },
+    {
+      "path": "kit/conflicts.md",
+      "bytes": 4165,
+      "sha256": "524f1c2e904df666bc8671b383546c0bd136269eb53fed9f9f842d3a07486376"
+    },
+    {
+      "path": "kit/figures/gfi-required-growth.png",
+      "bytes": 90089,
+      "sha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887"
+    },
+    {
+      "path": "kit/pakistan-topdown-box.md",
+      "bytes": 3138,
+      "sha256": "cc1e09d8471f205dcfeb7e16d7b707e10f99ccb9828f935a0f02fb730a20486c"
+    },
+    {
+      "path": "messages/anna-panel-heads-up.md",
+      "bytes": 986,
+      "sha256": "d1b5a42c49611415a0d0d9d5de41f2bc019b6f586e6effac71462122e39208b8"
+    },
+    {
+      "path": "messages/anna-showcase.md",
+      "bytes": 992,
+      "sha256": "45cb756b6750b82dbfd968b4a4dcef919766332381bf691e1d2b6e374c8c93fe"
+    },
+    {
+      "path": "messages/gfi-india-note.md",
+      "bytes": 1148,
+      "sha256": "e8c9531a69bc47dce7bbd2854a7c1eab2b43eddd67b0871cf8fa29a2d4603072"
+    },
+    {
+      "path": "messages/meeting-handout-2026-11-03.md",
+      "bytes": 1489,
+      "sha256": "a5af6c5b66eac8c1ca06172203fcec78044e864fedba577c95107dddcb735984"
+    },
+    {
+      "path": "messages/nadja-update.md",
+      "bytes": 1341,
+      "sha256": "f58f828bfea251ea6961b777fb454d33e2b57c37ec044efaf82510899f88c320"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "cpi_percent_2026": 7.1,
+  "densities": {
+    "cow_KEN": 1.04,
+    "whole_DK": 1.031
+  },
+  "economic": {
+    "milk": [
+      54707.0,
+      56474.0,
+      58300.0
+    ],
+    "poultry": [
+      2160.0,
+      2362.0,
+      2583.0
+    ]
+  },
+  "fao": {
+    "milk": {
+      "flag": "E",
+      "kg_person_year": 129.71,
+      "thousand_tonnes": 32104.0
+    },
+    "poultry": {
+      "flag": "I",
+      "kg_person_year": 8.72,
+      "thousand_tonnes": 2159.0
+    }
+  },
+  "fx_pkr_per_usd_2025": 281.143001173202,
+  "oecd_poultry_thousand_tonnes": {
+    "2023": 2154.032,
+    "2026": 2491.9237,
+    "2030": 2695.7174,
+    "2034": 2948.6365
+  },
+  "pbs_price": {
+    "milk": 203.51,
+    "poultry": 424.89
+  },
+  "reference_sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+  "retail": [
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:42.538959+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1580.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1580.0,
+      "raw_file": "raw/037a55cbb4bbd051808e.html",
+      "raw_sha256": "3ab05b3608124613e7c29b9d0b7a4387f614156a53c106a0c8e15814a6494686",
+      "title": "Meat Expert Chicken Boneless, Premium Cut, Fresh & Tender, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-boneless-premium-cut-fresh-tender-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:44.502536+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1080.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1080.0,
+      "raw_file": "raw/4eefa77711a41d097f40.html",
+      "raw_sha256": "829c08c900dceee9e973c8352feabb54c574f5100bea5da50971ea8c75cbce67",
+      "title": "Meat Expert Chicken Cut Mix Boti, Premium Cut, Fresh & Tender, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-cut-mix-boti-premium-cut-fresh-tender-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:46.261420+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1210.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1210.0,
+      "raw_file": "raw/c18c943ae7a5e54bdc7c.html",
+      "raw_sha256": "687be763db9082c8bd82b76c4d300c06c8bcc60f4ec83841010dc5134211fb1e",
+      "title": "Meat Expert Chicken Drumsticks, Premium Cut, Fresh & Tender, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-drumsticks-premium-cut-fresh-tender-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:48.191609+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1210.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1210.0,
+      "raw_file": "raw/c4d57cb56ce897d0daee.html",
+      "raw_sha256": "6d7f5f509abccd0b102791d4dedf094c49d4570eb4afa4fd83aacbb5880ffd1c",
+      "title": "Meat Expert Chicken Tikka Leg, Premium Cut, Fresh & Tender, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-tikka-leg-premium-cut-fresh-tender-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:50.000810+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1580.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1580.0,
+      "raw_file": "raw/c45b9cb9ad3f55596818.html",
+      "raw_sha256": "dac9209c6c484fe990b68331f9d7883624a544cd0d67ee8f796f83a98ee5c755",
+      "title": "Meat Expert Chicken Mince, Freshly Minced, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-mince-freshly-minced-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:20:51.843126+00:00",
+      "category": "chicken",
+      "listed_price_pkr_2026": 1480.0,
+      "package": "1000g",
+      "price_per_kg_or_litre_pkr_2026": 1480.0,
+      "raw_file": "raw/ec586d5810511ca03cf1.html",
+      "raw_sha256": "e28d80a1ba751653f9f95f64d21da3cf84eed144107270d8dfe726cea959f568",
+      "title": "Meat Expert Chicken Boneless Breast Khow suey, Premium Cut, Fresh & Tender, 1000g Pack",
+      "url": "https://www.naheed.pk/meat-expert-chicken-boneless-breast-khow-suey-premium-cut-fresh-tender-1000g-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:27.386848+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 95.0,
+      "package": "250ml",
+      "price_per_kg_or_litre_pkr_2026": 380.0,
+      "raw_file": "raw/7e17f3431a738d87c226.html",
+      "raw_sha256": "c0ba2fd71330a2c6f91764c3a8f715fb2fca66b7c93645653fb4b35d5ba61a51",
+      "title": "Olper's Full Cream Milk, 250ml",
+      "url": "https://www.naheed.pk/olper-s-full-cream-milk-250ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:29.116006+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 90.0,
+      "package": "250ml",
+      "price_per_kg_or_litre_pkr_2026": 360.0,
+      "raw_file": "raw/5e13ce1f7a79936810d0.html",
+      "raw_sha256": "4aef1078b340b2635277349143e636c3a22b1a36d7453dc7235adbc7b5a499ca",
+      "title": "Nurpur Full Cream Milk Tetra Pack, 250ml",
+      "url": "https://www.naheed.pk/nurpur-full-cream-milk-250ml-tetra-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:30.890312+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 380.0,
+      "package": "1000ml",
+      "price_per_kg_or_litre_pkr_2026": 380.0,
+      "raw_file": "raw/46398c21f605d4633dea.html",
+      "raw_sha256": "b95ab66930a0eadf844819521597f21cae2d6bb24835c9ad5d376bc98b279172",
+      "title": "Nestle Milkpak Full Cream Milk, 1000ml",
+      "url": "https://www.naheed.pk/nestle-milkpak-full-cream-milk-1000ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:32.583204+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 380.0,
+      "package": "1000ml",
+      "price_per_kg_or_litre_pkr_2026": 380.0,
+      "raw_file": "raw/6aefccc756912b726adb.html",
+      "raw_sha256": "75e71f5a974d44d4a881ce25dc123f9db21bd86d4da37a66dc1c63d5773ade0f",
+      "title": "Olper's Full Cream Milk, 1000ml",
+      "url": "https://www.naheed.pk/olper-s-full-cream-milk-1000ml"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:34.314948+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 560.0,
+      "package": "1500ml",
+      "price_per_kg_or_litre_pkr_2026": 373.3333333333333,
+      "raw_file": "raw/2247ea995451bb397e0d.html",
+      "raw_sha256": "c07f35da5f5197839907e865fa302f7330d9fb08d934ec7f2692175699e65388",
+      "title": "Olper's Full Cream Milk, 1500ml",
+      "url": "https://www.naheed.pk/olper-s-full-cream-milk-1500ml"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:36.144310+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 95.0,
+      "package": "250ml",
+      "price_per_kg_or_litre_pkr_2026": 380.0,
+      "raw_file": "raw/0cded74e00ab6818e1a2.html",
+      "raw_sha256": "6ec75ec29cd0d921aeaa3565de87126ba1de4182f1ad03d9e4b1d3bfea1c019f",
+      "title": "Olper's Full Cream Milk Pouch, 250ml",
+      "url": "https://www.naheed.pk/olper-s-full-cream-milk-pouch-250ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:37.667429+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 400.0,
+      "package": "1000ml",
+      "price_per_kg_or_litre_pkr_2026": 400.0,
+      "raw_file": "raw/03174347c6b86f650fed.html",
+      "raw_sha256": "70ebcfc5b4ac1ea7ac6b33d6aa17fbca6d4d907bff3b2d678a59da8e6595fd03",
+      "title": "Olper's Procal+ Low Fat Milk, 1000ml",
+      "url": "https://www.naheed.pk/olper-s-procal-low-fat-milk-1000ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:39.361626+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 100.0,
+      "package": "200ml",
+      "price_per_kg_or_litre_pkr_2026": 500.0,
+      "raw_file": "raw/de9db548d07e90d97236.html",
+      "raw_sha256": "34f77e1bb0bb9a2dc573cf8d305ce3d585eafb54eafe39eb23b36a1b6064685c",
+      "title": "Olper's Procal+ Low Fat Milk, 200ml",
+      "url": "https://www.naheed.pk/olper-s-procal-low-fat-milk-200ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:41.099441+00:00",
+      "category": "milk",
+      "listed_price_pkr_2026": 560.0,
+      "package": "1.5 Litre",
+      "price_per_kg_or_litre_pkr_2026": 373.3333333333333,
+      "raw_file": "raw/92ba01fa1b4c0993fcf6.html",
+      "raw_sha256": "e4d7ce22d14f5f9ca422bd410d8c124c88720c0e16c990d0c08e6ed6973e121a",
+      "title": "Nurpur Full Cream Milk Tetra Pack, 1.5 Litre",
+      "url": "https://www.naheed.pk/nurpur-full-cream-milk-1-5-litre"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:46.308687+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 950.0,
+      "package": "300ml",
+      "price_per_kg_or_litre_pkr_2026": 3166.666666666667,
+      "raw_file": "raw/6be757e42d1be3785116.html",
+      "raw_sha256": "fc48ac68fe35ae098168410a33148b0a850f8f5df488526b4137501f64cae1db",
+      "title": "V.Natural Soy Milk Banana, 300ml",
+      "url": "https://www.naheed.pk/v-natural-soy-milk-banana-300ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:48.202507+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 950.0,
+      "package": "300ml",
+      "price_per_kg_or_litre_pkr_2026": 3166.666666666667,
+      "raw_file": "raw/27736486c3a47561e6f0.html",
+      "raw_sha256": "30bfbd92a2bca62b37d91b8a14e93cede29f6f1d87edb398c033cbb773496753",
+      "title": "V.Natural Soy Milk Vanilla, 300ml",
+      "url": "https://www.naheed.pk/v-natural-soy-milk-vanilla-300ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:50.070534+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 950.0,
+      "package": "300ml",
+      "price_per_kg_or_litre_pkr_2026": 3166.666666666667,
+      "raw_file": "raw/404f7736092b67ae8c3f.html",
+      "raw_sha256": "0da059b3b0dcaf0be7d168628c8f03debda73e3fd837e66fed3a9fb4ac94a99a",
+      "title": "V.Natural Soy Milk Multi Grain, 300ml",
+      "url": "https://www.naheed.pk/v-natural-soy-milk-multi-green-300ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:51.545770+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 950.0,
+      "package": "300ml",
+      "price_per_kg_or_litre_pkr_2026": 3166.666666666667,
+      "raw_file": "raw/1d89df65ced8aaf611c2.html",
+      "raw_sha256": "cf33749d34b7a52078e7309c6836292a3c3dcffce3d81688e75be62285becba9",
+      "title": "V.Natural Soy Milk Original, 300ml",
+      "url": "https://www.naheed.pk/v-natural-soy-milk-original-300ml"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:21:53.048402+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 950.0,
+      "package": "300ml",
+      "price_per_kg_or_litre_pkr_2026": 3166.666666666667,
+      "raw_file": "raw/c2de27abd75dc4eda738.html",
+      "raw_sha256": "314f0ba8fe724f9273bdf881b324d994d757b798a2b81ec62f412078961bfc1c",
+      "title": "V.Natural Soy Milk Chocolate, 300ml",
+      "url": "https://www.naheed.pk/v-natural-soy-milk-chocolate-300ml"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:54.590378+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 2899.0,
+      "package": "1 Liter",
+      "price_per_kg_or_litre_pkr_2026": 2899.0,
+      "raw_file": "raw/03a01cc6dc9ba01ba78f.html",
+      "raw_sha256": "d21a36d4ce8153ebb8350e739a8818e93534cee0f706f9efbaf8b5ff90881539",
+      "title": "Alpro Roasted Almond Plant Based Milk Drink, 1 Liter",
+      "url": "https://www.naheed.pk/alpro-roasted-almond-plant-based-milk-drink-1-liter"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:56.383013+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 2000.0,
+      "package": "1 Liter",
+      "price_per_kg_or_litre_pkr_2026": 2000.0,
+      "raw_file": "raw/84ebd275dccb958063a5.html",
+      "raw_sha256": "359e1b840c71771c71e921b456595be5b245493c3b52619ff20f2234bdd69982",
+      "title": "Alpro Roasted Almond Plant Based Milk Drink, No Sugars, 1 Liter",
+      "url": "https://www.naheed.pk/alpro-roasted-almond-plant-based-milk-drink-no-sugars-1-liter"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:58.164333+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 450.0,
+      "package": "180ml",
+      "price_per_kg_or_litre_pkr_2026": 2500.0,
+      "raw_file": "raw/c07d316ee26cb9b0224d.html",
+      "raw_sha256": "a4d7f676b6539fa8ef9f29846f0d50d99a0511f610ab6ae2ce7656eb6b763d2e",
+      "title": "Good Mate Original Oatmilk, Gluten Free, 180ml Tetra Pack",
+      "url": "https://www.naheed.pk/good-mate-original-oatmilk-180ml-tetra-pack"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:21:59.979156+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 450.0,
+      "package": "180ml",
+      "price_per_kg_or_litre_pkr_2026": 2500.0,
+      "raw_file": "raw/3123e5eb693182c24897.html",
+      "raw_sha256": "27ad88c7311cc5d54a7289f355e53d5fd2f85e53473d768f0ea470668343a6e2",
+      "title": "Good Mate Chocolate Oatmilk, Gluten Free, 180ml Tetra Pack",
+      "url": "https://www.naheed.pk/good-mate-chocolate-oatmilk-180ml-tetra-pack"
+    },
+    {
+      "availability": "http://schema.org/OutOfStock",
+      "capture_date": "2026-10-16T02:22:01.749694+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 450.0,
+      "package": "180ml",
+      "price_per_kg_or_litre_pkr_2026": 2500.0,
+      "raw_file": "raw/fbb32ad64858ef12c397.html",
+      "raw_sha256": "75036854fd06b20980f20f06343a8a45fa0e1853a346138f0e2e31f8b263515a",
+      "title": "Good Mate Strawberry Oatmilk, Gluten Free, 180ml Tetra Pack",
+      "url": "https://www.naheed.pk/good-mate-strawberry-oatmilk-180ml-tetra-pack"
+    },
+    {
+      "availability": "http://schema.org/InStock",
+      "capture_date": "2026-10-16T02:22:03.527503+00:00",
+      "category": "alternative_milk",
+      "listed_price_pkr_2026": 665.0,
+      "package": "280ml",
+      "price_per_kg_or_litre_pkr_2026": 2375.0,
+      "raw_file": "raw/711b08c846f91dbc10d6.html",
+      "raw_sha256": "d2fc511ebadf6333bbf3b53aaec449cd6753d32756d8447bf561af24470de708",
+      "title": "Bean & Beyond Almond Milk Cold Coffee, 280ml",
+      "url": "https://www.naheed.pk/bean-beyond-almond-milk-cold-coffee-280ml"
+    }
+  ],
+  "transfer": {
+    "2026": {
+      "p10": 1.472223,
+      "p50": 3.644697,
+      "p90": 6.616645
+    },
+    "2030": {
+      "p10": 2.279675,
+      "p50": 5.97734,
+      "p90": 13.682363
+    },
+    "2035": {
+      "p10": 3.5925,
+      "p50": 11.759263,
+      "p90": 36.099518
+    }
+  }
+}

@@ -1670,5 +1670,83 @@
     "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
     "sourceSha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c",
     "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/extracted-inputs.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/extracted-inputs.json",
+    "sourceSha256": "0bfaf93639bdd15e3c3b5b9904af73fea25958474a50cc44aae5d641c6b448c8",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/naheed_normalized.csv",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/naheed_normalized.csv",
+    "sourceSha256": "1502e50038fa0ad73447f6612930ab6d7d179b31149aee113ee28e8f70ef80e4",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/pakistan_topdown.csv",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/pakistan_topdown.csv",
+    "sourceSha256": "2e4b92a0d9c3b5f7f4a650ffb2f5c63c83cb9959f8c1e4611308a8c43686e955",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/receipt.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/receipt.json",
+    "sourceSha256": "8a385c4f47b49b883896aab0dc0deb9337bb31b11269d951852a30f0068e4604",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/README.md",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/README.md",
+    "sourceSha256": "fb782f11c51e52618671a31e4d0139be262b4277f07dabcea9a2843e5daca66d",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/input-manifest.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/input-manifest.json",
+    "sourceSha256": "ec807db276b09b57871f3b1f886dae46f6efa672ace78072737b3d247f8d772e",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/sources.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/sources.json",
+    "sourceSha256": "671e25ffae2324bda4c3eff479d4869b9b8e5195715f725772c9ffb1f99f2775",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/README.md",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/report/writing-kit-2026-10-30/README.md",
+    "sourceSha256": "89961ec80cfa0e605a5bc39293c35a6575f05a7e6bd48feb45c32c20976c80e4",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
+    "sourceSha256": "02cd80f856cb24ff16cb6f76180a8edfa9d3adb98bda0c0c69f133de955a8c89",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tests/test_pakistan_topdown.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tests/test_pakistan_topdown.py",
+    "sourceSha256": "392cd4587e1ad5262e9d5527b86ab81e37d5106d0328c577202625616ca35887",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tests/test_writing_kit.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tests/test_writing_kit.py",
+    "sourceSha256": "069be271e428fff68b0400bd121b5cdc6cb156224383b64400de875662d05744",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tools/pakistan_topdown.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tools/pakistan_topdown.py",
+    "sourceSha256": "ee26fcb452f6ebf06977d90dfcf1713cab263da8cd81d7d9076db4ac8904f55f",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tools/verify_writing_kit.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tools/verify_writing_kit.py",
+    "sourceSha256": "9f5cf5396d01da7c254b95f049d9543e953c0719078ae1db9c3b86df20722052",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
   }
 ]
