@@ -1,0 +1,12 @@
+{
+  "approval": "User30Oct2026: Continue the conditional check with explicit caveats.",
+  "combined_above_10x_p90_rows": 40,
+  "milk_above_10x_p90_rows": 34,
+  "network_calls": 0,
+  "output_sha256": "2e4b92a0d9c3b5f7f4a650ffb2f5c63c83cb9959f8c1e4611308a8c43686e955",
+  "poultry_above_10x_p90_rows": 1,
+  "reference_rows": 127,
+  "reference_sha256": "98c5a19c94ecd891be7d1a44d24a9004268f160c96f6212c00386a3976c0e7b4",
+  "rows": 162,
+  "scientific_acceptance": "unvalidated mapping; humanreviewpending"
+}

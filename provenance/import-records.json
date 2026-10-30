@@ -1670,5 +1670,221 @@
     "sourceDocument": "Authored local report revision 2026-10-27: research/india-pakistan/report/revisions/2026-10-27/tests/test_revision_contract.py",
     "sourceSha256": "0bb2fac27bfbfcc73fbd40355149fbce73237270af68db07159626297da16c7c",
     "changes": "New reviewed local candidate source, code, diagnostic or explicitly bound supporting copy. Source-specific evidence and uncertainty remain documented; factual/code and rights review pending. Historical reference outputs unchanged."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/extracted-inputs.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/extracted-inputs.json",
+    "sourceSha256": "0bfaf93639bdd15e3c3b5b9904af73fea25958474a50cc44aae5d641c6b448c8",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/naheed_normalized.csv",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/naheed_normalized.csv",
+    "sourceSha256": "1502e50038fa0ad73447f6612930ab6d7d179b31149aee113ee28e8f70ef80e4",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/pakistan_topdown.csv",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/pakistan_topdown.csv",
+    "sourceSha256": "2e4b92a0d9c3b5f7f4a650ffb2f5c63c83cb9959f8c1e4611308a8c43686e955",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/build/pakistan-topdown/receipt.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/build/pakistan-topdown/receipt.json",
+    "sourceSha256": "8a385c4f47b49b883896aab0dc0deb9337bb31b11269d951852a30f0068e4604",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/README.md",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/README.md",
+    "sourceSha256": "fb782f11c51e52618671a31e4d0139be262b4277f07dabcea9a2843e5daca66d",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/input-manifest.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/input-manifest.json",
+    "sourceSha256": "ec807db276b09b57871f3b1f886dae46f6efa672ace78072737b3d247f8d772e",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/data/pakistan-topdown/sources.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/data/pakistan-topdown/sources.json",
+    "sourceSha256": "671e25ffae2324bda4c3eff479d4869b9b8e5195715f725772c9ffb1f99f2775",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/README.md",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/report/writing-kit-2026-10-30/README.md",
+    "sourceSha256": "2e8d1d03b05bffc5f68b6125d54ff26ee62dc1aa7a119a53b224fbf001e4a9c6",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
+    "sourceSha256": "f1b29be4cbe1bd8e743e50df530148e7f3de280b4893b6ba608818df2085f1c1",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tests/test_pakistan_topdown.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tests/test_pakistan_topdown.py",
+    "sourceSha256": "392cd4587e1ad5262e9d5527b86ab81e37d5106d0328c577202625616ca35887",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tests/test_writing_kit.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tests/test_writing_kit.py",
+    "sourceSha256": "069be271e428fff68b0400bd121b5cdc6cb156224383b64400de875662d05744",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tools/pakistan_topdown.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tools/pakistan_topdown.py",
+    "sourceSha256": "ee26fcb452f6ebf06977d90dfcf1713cab263da8cd81d7d9076db4ac8904f55f",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/tools/verify_writing_kit.py",
+    "sourceDocument": "Locally authored 2026-10-30 writing-kit companion: research/india-pakistan/tools/verify_writing_kit.py",
+    "sourceSha256": "9f5cf5396d01da7c254b95f049d9543e953c0719078ae1db9c3b86df20722052",
+    "changes": "New conditional diagnostic, raw-input binding, verification code or local artifact hash record. Original model outputs and prior receipts unchanged. No human or publication approval inferred."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/BOX-MOVE.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/claude-review/BOX-MOVE.md",
+    "sourceSha256": "3a024abdc3e4ca21c9f97915cdab204832fb6387a5b04a235d5baed082409906",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/REVIEW.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/claude-review/REVIEW.md",
+    "sourceSha256": "5b01d6b1b3af19e307f5ac37f15bd0bfc0b8b82efdd0e9c55c32d74e1e35409a",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/box-move-receipt.json",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/claude-review/box-move-receipt.json",
+    "sourceSha256": "b2c04bdf6bfd587d264d24a4c72b4a0cba2027f3c8e98b5696f2ba3650f6fec3",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/tools/redesign_p4_box.py",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/claude-review/tools/redesign_p4_box.py",
+    "sourceSha256": "06cb5853da3f854cebcfca8783e817c14a1c32fc940aa0883784d4dbae8b246d",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/00-section-map.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/00-section-map.md",
+    "sourceSha256": "91a3ee3db1dcbc84b8e820e4affd12cca5a3bacf21b2bb5711c42deb84128b5d",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/01-executive-summary.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/01-executive-summary.md",
+    "sourceSha256": "952b60648a2c8bad07edf0c864d628c3e6b8b3c9990770edf09dd0734f97f719",
+    "changes": "Repository copy of the workspace file (original SHA-256 95be8fe9ea429e15ff50f39e46fd23d98b18351bbeaf96320da214137a22d86b); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/02-question-and-contrast.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/02-question-and-contrast.md",
+    "sourceSha256": "29ef87ea1c00c9d991e96490a77d7f51124482eb29d702bfb7554c0d1ef95032",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/03-current-market.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/03-current-market.md",
+    "sourceSha256": "d6ddddc0834e76361b4a158e0596f422011b48ab544609ea5cf25c506c46d7b7",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/04-drivers.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/04-drivers.md",
+    "sourceSha256": "24c4be496b3305fee0deda8e99b8dd1533b5a24b21ba7ea3707e62148ef333cd",
+    "changes": "Repository copy of the workspace file (original SHA-256 c1af6254d18b5728a0276371114d58dc174f8ddd7e170dc2c3f63835dd5ef89a); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/05-ai.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/05-ai.md",
+    "sourceSha256": "16386f7f599725d61533cab7046583fc088c557f864cf3ff4612db682a8905ad",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/06-method.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/06-method.md",
+    "sourceSha256": "5aadd21110ea9837e5e8b16638da0252d641e91760eb315f67f52326e35211de",
+    "changes": "Repository copy of the workspace file (original SHA-256 e3f458d01041d140db6d8dfd988728b419e57c12d3947914d00eaf4d1f372db8); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/06-results.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/06-results.md",
+    "sourceSha256": "742589374954af93fe6ff8f0df59e5673fee705ab9a9687be581059dd90f8c7a",
+    "changes": "Repository copy of the workspace file (original SHA-256 7208747f960de497f14ef6c5fdb62819b7cb3a381ce99b0264e4ab900be036d0); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/07-gfi.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/07-gfi.md",
+    "sourceSha256": "d014ecf3e163ccc4c2bb62eb69f3118dcad54af489d10d2d1f08596e26b113ea",
+    "changes": "Repository copy of the workspace file (original SHA-256 2eccd19577e489145a78a9b4c2a101194dc8192aa20acb992553fb5b04bb977c); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/08-halal.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/08-halal.md",
+    "sourceSha256": "40945e0de5c55c83d8afbbfea468efa8c4388396370dde1249ddc3b5373d87cd",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/09-cross-region.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/09-cross-region.md",
+    "sourceSha256": "53137fabbedd2c3474cf15979ade3d2c54e59c9a1249cc9525cc0eee1afb0d31",
+    "changes": "Repository copy of the workspace file (original SHA-256 61652f388d782258f9b7d769de740042e3db5405bb108cbb961aba748771abb0); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/10-recommendations.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/10-recommendations.md",
+    "sourceSha256": "6406303514826b5c69a60587374fc0b5cfbbbcdaf2612bc9f71f61febea1486a",
+    "changes": "Repository copy of the workspace file (original SHA-256 78c729de74b2957edc906a0931be00f26cc3ec450000a48914045790e30b5964); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/11-limitations.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/11-limitations.md",
+    "sourceSha256": "1d167078b659cf6a15d3a01441221dbb58a36549a30566375a60609201a39cca",
+    "changes": "Repository copy of the workspace file (original SHA-256 756acbbcdd359465704c150fe19e519a6e042673f8297ef6c70b033aa11d5db8); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/WRITING-KIT.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/WRITING-KIT.md",
+    "sourceSha256": "143e01630496074e158a7439886d0c0399be7c6fbbb3157661bd888a319245c3",
+    "changes": "Repository copy of the workspace file (original SHA-256 949e35cf4334c9dc616bcd9595a3f583cf6c6db836d6fb6812bea9079047f021); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/appendices.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/appendices.md",
+    "sourceSha256": "cfce63aedfe0ebe414900cedb2195420de2b9de3de714627ac25fc9fa7f13ed3",
+    "changes": "Repository copy of the workspace file (original SHA-256 4379fde5116974789244a255201c5c470ab12934aad94969245964f246692640); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/claims-by-section.csv",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/claims-by-section.csv",
+    "sourceSha256": "1371881a0270741d88c230bcd6c507c3a6b67dcea8cfa8598776e9f2918e24ed",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/conflicts.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/conflicts.md",
+    "sourceSha256": "524f1c2e904df666bc8671b383546c0bd136269eb53fed9f9f842d3a07486376",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/figures/gfi-required-growth.png",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/figures/gfi-required-growth.png",
+    "sourceSha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887",
+    "changes": "Byte-identical copy of the workspace file, added at the author's request on 30 October 2026. Human verification, team acceptance and publication approval pending."
+  },
+  {
+    "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/pakistan-topdown-box.md",
+    "sourceDocument": "Byte-identical copy of OUTPUTS/Codex Handoff 2026-10-30/kit/pakistan-topdown-box.md",
+    "sourceSha256": "910d26a76e38641855313fb48d8cc8724b3d586adc0bffca95c8c80864172dc4",
+    "changes": "Repository copy of the workspace file (original SHA-256 8b7ca8f0813c13629630bd88f984edf3278e2b58485ba6d338ce039a73d3fc84); relative links rewritten to resolve inside this repository, or shown as plain-text workspace paths where the target is outside it. No other change. Added at the author's request on 30 October 2026."
   }
 ]

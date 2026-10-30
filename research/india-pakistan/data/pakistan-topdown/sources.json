@@ -1,0 +1,118 @@
+[
+  {
+    "source_id": "pbs_spi_20251224_annex",
+    "url": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/Annex_24.12.2025.pdf",
+    "publication_date": "2025-12-24",
+    "date_basis": "Dated issue; printed PRICES ON date and matching PDF creation date; first website publication timestamp not independently established",
+    "observation_date": "2025-12-24",
+    "access_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Codex Handoff 2026-10-30/p4/raw/pbs-spi-20251224.pdf",
+    "sha256": "0496f09af8233a40c778c282a17246dc98a33b4da72cf44948a97ac65b75ef1f",
+    "locator": "physical PDF page3, AppendixA, row7/8, National Average AVG column57",
+    "values": [
+      {
+        "item": "Chicken Farm Broiler (Live)",
+        "unit": "PKR/kg live weight",
+        "value": "424.89",
+        "disposition": "Converted to a meat-weight equivalent only through explicit analyst yield assumptions; not an observed dressed-meat retail price"
+      },
+      {
+        "item": "Milk fresh (Un-boiled)",
+        "unit": "PKR/litre",
+        "value": "203.51",
+        "disposition": "Conditional milk-equivalent sensitivity only"
+      }
+    ],
+    "scope": "Official national average of the SPI urban-market sample; not a census of rural and urban transactions",
+    "verification": "PDF visual and text match; human verification pending"
+  },
+  {
+    "source_id": "pbs_spi_20251224_summary",
+    "url": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/SPI-Executive-Summary-SPI-Report_24.12.2025.pdf",
+    "publication_date": "2025-12-24",
+    "date_basis": "Dated report issue; exact initial website posting time not independently established",
+    "access_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Codex Handoff 2026-10-30/p4/raw/pbs-spi-summary-20251224.pdf",
+    "sha256": "04f72ea20c975c3be0ab26be81e648723169365a5c2eb50e271c9d30679df725",
+    "locator": "physical PDF page1 opening",
+    "scope": "51 items, 50 markets,17cities; matching annex quantities",
+    "verification": "Text checked; human verification pending"
+  },
+  {
+    "source_id": "fao_fbs_2025_10_28",
+    "url": "https://www.fao.org/faostat/en/#data/FBS",
+    "publication_date": "2025-10-28",
+    "access_date": "2026-10-13",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/faostat_fbs_2025-10-28.zip",
+    "sha256": "26200855ed5da3d0805e34219124e241d0e0bc6959d0995ebc77a10dd84cbaf1",
+    "locator_and_limits": "Pakistan2023 Item2734/2948 Element5142/645; supply, not intake or retail volume",
+    "new_fetch": false
+  },
+  {
+    "source_id": "oecd_fao_outlook_2025_2034",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.TAD.ATM,DSD_AGR@DF_OUTLOOK_2025_2034,1.1/IND+PAK.A....?startPeriod=2010&endPeriod=2034&dimensionAtObservation=AllDimensions",
+    "publication_date": "2025",
+    "access_date": "2026-10-13",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/oecd/outlook_2025_2034_ind_pak.csv",
+    "sha256": "7c78ff2ebd3530f5d4bc8d7e326b4505db89a7f16fec341ec18f88f14313ec75",
+    "locator_and_limits": "PAK/CPC_EX_PT/QC/T/UNIT_MULT3/RTOC; projections through2034",
+    "new_fetch": false
+  },
+  {
+    "source_id": "pakistan_economic_survey_2024_25",
+    "url": "https://www.finance.gov.pk/survey/chapter_25/2_Agriculture.pdf",
+    "publication_date": "2025",
+    "access_date": "2026-10-13",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/national/pakistan-economic-survey-2024-25-agriculture.pdf",
+    "sha256": "2cd7386a1d374d6a9295401eddf64dd7bbdb8cd1d32b340245c4f4893630ab09",
+    "locator_and_limits": "Table2.6 printed28/PDF9; poultry production and milk human-consumption supply; fiscal-year estimates",
+    "new_fetch": false
+  },
+  {
+    "source_id": "fao_infoods_density_v2_2012",
+    "url": "https://www.fao.org/fileadmin/templates/food_composition/documents/density_DB_v2_0_01.pdf",
+    "publication_date": "2012",
+    "access_date": "2026-10-13",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/diet/m3-infoods-2026-10-13/density-v2.pdf",
+    "sha256": "41a48793d69061c9ef7d9d99d3cab4e901492b1c42c47f386bf0532f3bdb585c",
+    "locator_and_limits": "PDF13/printed10 DK liquid whole1.031g/ml andKEN cowwhole1.04g/ml; source factors not validated Pakistani basket mappings",
+    "new_fetch": false
+  },
+  {
+    "source_id": "worldbank_wdi_official_exchange_rate_2026",
+    "url": "https://api.worldbank.org/v2/country/PAK/indicator/PA.NUS.FCRF?date=2025&format=json",
+    "publication_date": "2026 capture vintage; exact release date unresolved",
+    "access_date": "2026-10-15",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/altprotein/proxy/worldbank-PA.NUS.FCRF.json",
+    "sha256": "afc4d7b4d7f23090887403e1aabf4108679919c15bb45023b054563613b23439",
+    "locator_and_limits": "PAK2025 period-average exchange rate; existing retained capture",
+    "new_fetch": false
+  },
+  {
+    "source_id": "imf_weo_2026_10",
+    "url": "https://www.imf.org/external/datamapper/api/v1/PCPIPCH",
+    "publication_date": "2026-10",
+    "access_date": "2026-10-15",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Pakistan-India Data Dashboard/data/raw/altprotein/proxy/imf-weo-2026-10-PCPIPCH.json",
+    "sha256": "e36fb78dc58c5b50df615add2656469d316fe0c11416559b473de78d56b9aa1d",
+    "locator_and_limits": "values.PCPIPCH.PAK.2026=7.1; national annual/fiscal-year series is not Oct2026-specific or product-specific inflation",
+    "new_fetch": false
+  },
+  {
+    "source_id": "naheed_20261016",
+    "url": "https://www.naheed.pk/",
+    "publication_date": "2026-10-16 observation; page publication dates unstated",
+    "access_date": "2026-10-16",
+    "local_inspection_date": "2026-10-30",
+    "raw_file": "OUTPUTS/Deep Research 2026-10/retail/capture-manifest.jsonl",
+    "sha256": "9693c19e0142206e309fdef37fd091c8b3de00d0d5101ff052080d24007a998d",
+    "locator_and_limits": "Exact26 price URLs in normalized CSV and manifests; onepremiumoutlet; allstockstatuses kept; no transaction/inventory inference",
+    "new_fetch": false
+  }
+]
