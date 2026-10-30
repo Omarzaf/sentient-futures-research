@@ -139,7 +139,7 @@
     {
       "path": "provenance/import-records.json",
       "bytes": 137594,
-      "sha256": "ec3f2eaf82d8aa3700236e1ff7d6e83d9ab8712c2255e6e77ed090b863b8313e"
+      "sha256": "d77349872a7cf946ca27718f07a5f2b2b3342589e81d2ba78b47276bd5112bc4"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
@@ -2524,7 +2524,7 @@
     {
       "path": "research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
       "bytes": 4136,
-      "sha256": "02cd80f856cb24ff16cb6f76180a8edfa9d3adb98bda0c0c69f133de955a8c89"
+      "sha256": "f1b29be4cbe1bd8e743e50df530148e7f3de280b4893b6ba608818df2085f1c1"
     },
     {
       "path": "research/india-pakistan/source-register.json",

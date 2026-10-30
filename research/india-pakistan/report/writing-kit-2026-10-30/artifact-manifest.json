@@ -5,8 +5,8 @@
   "artifacts": [
     {
       "path": "kit/00-section-map.md",
-      "bytes": 5667,
-      "sha256": "0a5c0140b9a93be1cab61d6d154aa77aa510c4c88371191069d22628a9702954"
+      "bytes": 5739,
+      "sha256": "91a3ee3db1dcbc84b8e820e4affd12cca5a3bacf21b2bb5711c42deb84128b5d"
     },
     {
       "path": "kit/01-executive-summary.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "kit/06-results.md",
-      "bytes": 3420,
-      "sha256": "b331712057eebecbde48b8a96629b521349cae58aa7b0bbb84e697e6e8aa1572"
+      "bytes": 3538,
+      "sha256": "7208747f960de497f14ef6c5fdb62819b7cb3a381ce99b0264e4ab900be036d0"
     },
     {
       "path": "kit/07-gfi.md",
@@ -70,23 +70,23 @@
     },
     {
       "path": "kit/WRITING-KIT.docx",
-      "bytes": 148860,
-      "sha256": "e9a3954e548b72b90bc887f4fd4f0b543d6d4fa29442b41ca48e84677a7be5f7"
+      "bytes": 149112,
+      "sha256": "ca60a196a2de3e6cfbd161de555738d19d1e7ad63370d087035b36ea2c800c7d"
     },
     {
       "path": "kit/WRITING-KIT.md",
-      "bytes": 72248,
-      "sha256": "6d0b46bf445077da5c77412cb4d7baa7325e8e4fed50009a876655581581fec2"
+      "bytes": 73386,
+      "sha256": "949e35cf4334c9dc616bcd9595a3f583cf6c6db836d6fb6812bea9079047f021"
     },
     {
       "path": "kit/appendices.md",
-      "bytes": 10777,
-      "sha256": "d15159b05234abf805428b11f3770cfb7e5f8ec08b2a615ace46f43622c977bc"
+      "bytes": 10904,
+      "sha256": "4379fde5116974789244a255201c5c470ab12934aad94969245964f246692640"
     },
     {
       "path": "kit/claims-by-section.csv",
-      "bytes": 210119,
-      "sha256": "edef5bbe742a818a66df85b550c1388b869ebb8c9ced23cf8e44d010d0f32226"
+      "bytes": 226781,
+      "sha256": "1371881a0270741d88c230bcd6c507c3a6b67dcea8cfa8598776e9f2918e24ed"
     },
     {
       "path": "kit/conflicts.md",
@@ -100,8 +100,8 @@
     },
     {
       "path": "kit/pakistan-topdown-box.md",
-      "bytes": 3138,
-      "sha256": "cc1e09d8471f205dcfeb7e16d7b707e10f99ccb9828f935a0f02fb730a20486c"
+      "bytes": 4031,
+      "sha256": "8b7ca8f0813c13629630bd88f984edf3278e2b58485ba6d338ce039a73d3fc84"
     },
     {
       "path": "messages/anna-panel-heads-up.md",
