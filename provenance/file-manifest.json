@@ -138,8 +138,8 @@
     },
     {
       "path": "provenance/import-records.json",
-      "bytes": 137594,
-      "sha256": "d77349872a7cf946ca27718f07a5f2b2b3342589e81d2ba78b47276bd5112bc4"
+      "bytes": 150239,
+      "sha256": "55cf98ed368beae6bbebfda5f8b6e7ab5c5e424e66f50b21ac2f363972c925bf"
     },
     {
       "path": "provenance/supervisor-export-text/canonical.txt",
@@ -2518,13 +2518,128 @@
     },
     {
       "path": "research/india-pakistan/report/writing-kit-2026-10-30/README.md",
-      "bytes": 1491,
-      "sha256": "89961ec80cfa0e605a5bc39293c35a6575f05a7e6bd48feb45c32c20976c80e4"
+      "bytes": 2214,
+      "sha256": "2e8d1d03b05bffc5f68b6125d54ff26ee62dc1aa7a119a53b224fbf001e4a9c6"
     },
     {
       "path": "research/india-pakistan/report/writing-kit-2026-10-30/artifact-manifest.json",
       "bytes": 4136,
       "sha256": "f1b29be4cbe1bd8e743e50df530148e7f3de280b4893b6ba608818df2085f1c1"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/BOX-MOVE.md",
+      "bytes": 4754,
+      "sha256": "3a024abdc3e4ca21c9f97915cdab204832fb6387a5b04a235d5baed082409906"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/REVIEW.md",
+      "bytes": 26330,
+      "sha256": "5b01d6b1b3af19e307f5ac37f15bd0bfc0b8b82efdd0e9c55c32d74e1e35409a"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/box-move-receipt.json",
+      "bytes": 774,
+      "sha256": "b2c04bdf6bfd587d264d24a4c72b4a0cba2027f3c8e98b5696f2ba3650f6fec3"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/claude-review/tools/redesign_p4_box.py",
+      "bytes": 18493,
+      "sha256": "06cb5853da3f854cebcfca8783e817c14a1c32fc940aa0883784d4dbae8b246d"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/00-section-map.md",
+      "bytes": 5739,
+      "sha256": "91a3ee3db1dcbc84b8e820e4affd12cca5a3bacf21b2bb5711c42deb84128b5d"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/01-executive-summary.md",
+      "bytes": 3238,
+      "sha256": "952b60648a2c8bad07edf0c864d628c3e6b8b3c9990770edf09dd0734f97f719"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/02-question-and-contrast.md",
+      "bytes": 4075,
+      "sha256": "29ef87ea1c00c9d991e96490a77d7f51124482eb29d702bfb7554c0d1ef95032"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/03-current-market.md",
+      "bytes": 4837,
+      "sha256": "d6ddddc0834e76361b4a158e0596f422011b48ab544609ea5cf25c506c46d7b7"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/04-drivers.md",
+      "bytes": 3508,
+      "sha256": "24c4be496b3305fee0deda8e99b8dd1533b5a24b21ba7ea3707e62148ef333cd"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/05-ai.md",
+      "bytes": 8374,
+      "sha256": "16386f7f599725d61533cab7046583fc088c557f864cf3ff4612db682a8905ad"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/06-method.md",
+      "bytes": 3259,
+      "sha256": "5aadd21110ea9837e5e8b16638da0252d641e91760eb315f67f52326e35211de"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/06-results.md",
+      "bytes": 3426,
+      "sha256": "742589374954af93fe6ff8f0df59e5673fee705ab9a9687be581059dd90f8c7a"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/07-gfi.md",
+      "bytes": 5741,
+      "sha256": "d014ecf3e163ccc4c2bb62eb69f3118dcad54af489d10d2d1f08596e26b113ea"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/08-halal.md",
+      "bytes": 4251,
+      "sha256": "40945e0de5c55c83d8afbbfea468efa8c4388396370dde1249ddc3b5373d87cd"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/09-cross-region.md",
+      "bytes": 3720,
+      "sha256": "53137fabbedd2c3474cf15979ade3d2c54e59c9a1249cc9525cc0eee1afb0d31"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/10-recommendations.md",
+      "bytes": 9239,
+      "sha256": "6406303514826b5c69a60587374fc0b5cfbbbcdaf2612bc9f71f61febea1486a"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/11-limitations.md",
+      "bytes": 2965,
+      "sha256": "1d167078b659cf6a15d3a01441221dbb58a36549a30566375a60609201a39cca"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/WRITING-KIT.md",
+      "bytes": 72475,
+      "sha256": "143e01630496074e158a7439886d0c0399be7c6fbbb3157661bd888a319245c3"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/appendices.md",
+      "bytes": 10747,
+      "sha256": "cfce63aedfe0ebe414900cedb2195420de2b9de3de714627ac25fc9fa7f13ed3"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/claims-by-section.csv",
+      "bytes": 226781,
+      "sha256": "1371881a0270741d88c230bcd6c507c3a6b67dcea8cfa8598776e9f2918e24ed"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/conflicts.md",
+      "bytes": 4165,
+      "sha256": "524f1c2e904df666bc8671b383546c0bd136269eb53fed9f9f842d3a07486376"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/figures/gfi-required-growth.png",
+      "bytes": 90089,
+      "sha256": "d85949d4eb2caa8770a4d857faad4cf8df86cf0ba28b8348df785293bf91a887"
+    },
+    {
+      "path": "research/india-pakistan/report/writing-kit-2026-10-30/kit/pakistan-topdown-box.md",
+      "bytes": 3919,
+      "sha256": "910d26a76e38641855313fb48d8cc8724b3d586adc0bffca95c8c80864172dc4"
     },
     {
       "path": "research/india-pakistan/source-register.json",

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "removed_box_occurrence_rows": 47,
+  "added_rows": 67,
+  "claim_rows": 438,
+  "central_conventional_value_usd_billion": {
+    "2026": 27.920307,
+    "2030": 28.360296,
+    "2035": 28.906347
+  },
+  "implied_share_percent": {
+    "2026_p10": 0.005273,
+    "2026_p90": 0.023698,
+    "2030_p10": 0.008038,
+    "2030_p90": 0.048245,
+    "2035_p10": 0.012428,
+    "2035_p90": 0.124884
+  },
+  "implied_share_spread_percent": {
+    "2026": [
+      0.00137,
+      0.02504
+    ],
+    "2030": [
+      0.002122,
+      0.05178
+    ],
+    "2035": [
+      0.003343,
+      0.136617
+    ]
+  },
+  "grid_rows_above_p90": 139,
+  "grid_rows_below_p10": 0,
+  "limits": "Agent arithmetic and provenance checks; human review and economic mapping validity remain pending."
+}
